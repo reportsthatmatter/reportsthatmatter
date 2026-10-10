@@ -459,7 +459,7 @@ Young’s testimony was dramatic, but not unique. Many participants in the attac
 
 %%page 2%%
 
-Protestors gather at the Capitol. (Photo by Samuel Corum/Getty Images)
+*Protestors gather at the Capitol. (Photo by Samuel Corum/Getty Images)*
 
 Hundreds of other participants in the January 6th attack have pleaded guilty, been convicted, or await trial for crimes related to their actions that day. And, like Young, hundreds of others have acknowledged exactly what provoked them to travel to Washington, and to engage in violence. For example:
 
@@ -541,7 +541,7 @@ According to testimony received by the Select Committee, the only advisor presen
 
 %%page 10%%
 
-President Trump declares victory in a speech at an election night party. (Photo by Chip Somodevilla/Getty Images)
+*President Trump declares victory in a speech at an election night party. (Photo by Chip Somodevilla/Getty Images)*
 
 President Trump’s decision to declare victory falsely on election night and, unlawfully, to call for the vote counting to stop, was not a spontaneous decision. It was premeditated. The Committee has assembled a range of evidence of President Trump’s preplanning for a false declaration of victory. This includes multiple written communications on October 31 and November 3, 2020, to the White House by Judicial Watch President Tom Fitton.[^42-50] This evidence demonstrates that Fitton was in direct contact with President Trump and understood that President Trump would falsely declare victory on election night and call for vote counting to stop. The evidence also includes an audio recording of President Trump’s advisor Steve Bannon, who said this on October 31, 2020, to a group of his associates from China:
 
@@ -701,11 +701,11 @@ One of those Trump nominees, Judge Stephanos Bibas of the U.S. Court of Appeals 
 
 Nor is it true that these rulings focused solely on standing, or procedural issues. As Ginsberg confirmed in his testimony to the Select Committee, President Trump’s team “did have their day in court.”[^92-50] Indeed, he and his co-authors determined in their report that 30 of these post-election cases were dismissed by a judge after an evidentiary hearing had been held, and many of these judges explicitly indicated in their decisions that the evidence presented by the plaintiffs was wholly insufficient on the merits.[^93-50]
 
-Rudolph Giuliani, Bernard Kerik, and other hold a press conference at Four Seasons Total Landscaping on November 7, 2020 falsely claiming Donald Trump had won the state of Pennsylvania. (Photo by Chris McGrath/Getty Images)
-
 Ultimately, even Rudolph Giuliani and his legal team acknowledged that they had no definitive evidence of election fraud sufficient to change the election outcome. For example, although Giuliani repeatedly had claimed in public that Dominion voting machines stole the election, he admitted during his Select Committee deposition that “I do not think the machines stole the election.”[^94-50] An attorney representing his lead investigator, Bernard Kerik, declared in a letter to the Select Committee that “it was impossible for Kerik and his team to determine conclusively whether there was widespread fraud or whether that widespread fraud would have altered the outcome of the election.”[^95-50] Kerik also emailed President Trump’s chief of staff on December 28, 2020, writing: “We can do all the investigations we want later, but if the president plans on winning, it’s the legislators that have to be moved and this will do just that.”[^96-50] Other Trump lawyers and supporters, Jenna Ellis, John Eastman, Phil Waldron, and Michael Flynn, all invoked their Fifth Amendment privilege against self-incrimination when asked by the Select Committee what supposed proof they uncovered that the election was stolen.[^97-50] Not a single witness--nor any combination of witnesses--provided the Select Committee with evidence demonstrating that fraud occurred on a scale even remotely close to changing the outcome in any State.[^98-50]
 
 %%page 20%%
+
+*Rudolph Giuliani, Bernard Kerik, and other hold a press conference at Four Seasons Total Landscaping on November 7, 2020 falsely claiming Donald Trump had won the state of Pennsylvania. (Photo by Chris McGrath/Getty Images)*
 
 By mid-December 2020, Donald Trump had come to what most of his staff believed was the end of the line. The Supreme Court rejected a lawsuit he supported filed by the State of Texas in the Supreme Court, and Donald Trump had this exchange, according to Special Assistant to the President Cassidy Hutchinson:
 
@@ -783,7 +783,7 @@ Evidence gathered by the Committee indicates that President Trump raised roughly
 
 %%page 28%%
 
-Taped footage of William Barr speaking to the January 6th Select Committee is shown at one of its hearings. (Photo by Mandel Ngan-Pool/Getty Images)
+*Taped footage of William Barr speaking to the January 6th Select Committee is shown at one of its hearings. (Photo by Mandel Ngan-Pool/Getty Images)*
 
 Ultimately, Attorney General Barr suggested that the Department of Justice’s investigations disproving President Trump’s fraud claims may have prevented an even more serious series of events:
 
@@ -855,15 +855,17 @@ As Pence’s Chief of Staff, Marc Short, testified that the Vice President also 
 
 > Short: Very consistent.[^160-50]
 
-As the situation grew increasingly acrimonious, Vice President Pence’s private counsel Richard Cullen contacted former Fourth Circuit Judge Michael Luttig, a renowned conservative judge for whom Eastman had previously clerked, and asked Luttig to make a public statement. On January 5th, Luttig wrote the following on Twitter: “The only responsibility and power of the Vice President under the Constitution is to faithfully count the electoral college votes as they have been cast.”[^161-50] As Judge Luttig testified in the Committee’s hearings, “there was no basis in the Constitution or laws of the United States at all for the theory espoused by Dr. Eastman—at all. None.”[^162-50] Judge Luttig completely rejected Eastman’s “blueprint to overturn the 2020 election” as “constitutional mischief” and ‘the most reckless, insidious, and calamitous failure[] in both legal and political judgment in American history.”[^163-50] Contemporaneous written correspondence also confirms both that: (1) Eastman himself recognized Pence could not lawfully refuse to count electoral votes, and (2) President Trump also knew this. While sheltering in a loading dock with the Vice President during the violent January 6th attack, Greg Jacob asked Eastman in an email, “Did you advise the President that in your professional judgment the Vice President DOES NOT have the power to decide things unilaterally?” Eastman’s response stated that the President had “been so advised,” but then indicated that President Trump continued to pressure the Vice President to act illegally: “But you know him—once he gets something in his head, it is hard to get him to change course.”[^164-50]
+As the situation grew increasingly acrimonious, Vice President Pence’s private counsel Richard Cullen contacted former Fourth Circuit Judge Michael Luttig, a renowned conservative judge for whom Eastman had previously clerked, and asked Luttig to make a public statement. On January 5th, Luttig wrote the following on Twitter: “The only responsibility and power of the Vice President under the Constitution is to faithfully count the electoral college votes as they have been cast.”[^161-50] As Judge Luttig testified in the Committee’s hearings, “there was no basis in the Constitution or laws of the United States at all for the theory espoused by Dr. Eastman—at all. None.”[^162-50] Judge Luttig completely rejected Eastman’s “blueprint to overturn the 2020 election” as “constitutional mischief” and ‘the most reckless, insidious, and calamitous failure[] in both legal and political judgment in American history.”[^163-50]
 
-Greg Jacob and Judge Michael Luttig testify at January 6th Select Committee hearing. (Photo by House Creative Services)
+Contemporaneous written correspondence also confirms both that: (1) Eastman himself recognized Pence could not lawfully refuse to count electoral votes, and (2) President Trump also knew this. While sheltering in a loading dock with the Vice President during the violent January 6th attack, Greg Jacob asked Eastman in an email, “Did you advise the President that in your professional judgment the Vice President DOES NOT have the power to decide things unilaterally?” Eastman’s response stated that the President had “been so advised,” but then indicated that President Trump continued to pressure the Vice President to act illegally: “But you know him—once he gets something in his head, it is hard to get him to change course.”[^164-50]
 
 To be absolutely clear, no White House lawyer believed Pence could lawfully refuse to count electoral votes. White House Counsel Pat Cipollone told the Select Committee this:
 
 > I thought that the Vice President did not have the authority to do what was being suggested under a proper reading of the law. I conveyed that, ok? I think I actually told somebody, you know, in the Vice President’s— “Just blame me.” You know this is—I’m not a politician, you know. . . but, you know, I just said, “I’m a lawyer. This is my legal opinion.”[^165-50]
 
 %%page 34%%
+
+*Greg Jacob and Judge Michael Luttig testify at January 6th Select Committee hearing. (Photo by House Creative Services)*
 
 Cipollone also testified that he was “sure [he] conveyed” his views.[^166-50] Indeed, other testimony from Cipollone indicates that Trump knew of Cipollone’s view and suggests that Trump purposely excluded Cipollone from the meeting with Pence and Pence’s General Counsel on January 4th.[^167-50] Indeed, at one point, Cipollone confronted Eastman in the hallway outside the Oval Office and expressed his disapproval of and anger with Eastman’s position. According to Jason Miller, “Pat Cipollone thought the idea was nutty and had at one point confronted Eastman basically with the same sentiment” outside the Oval Office.[^168-50] Pat Cipollone did not deny having an angry confrontation with Eastman outside of the Oval Office—though he said he didn’t have a specific recollection, he had no reason to contradict what Jason Miller said and, moreover, said that Eastman was aware of his views.[^169-50]
 
@@ -885,7 +887,7 @@ President Trump tried to reach the Vice President early in the morning of Januar
 
 %%page 36%%
 
-President Trump speaks with Vice President Pence over the phone in the Oval Office on the morning of January 6th. Photo provided to the Select Committee by the National Archives and Records Administration)
+*President Trump speaks with Vice President Pence over the phone in the Oval Office on the morning of January 6th. Photo provided to the Select Committee by the National Archives and Records Administration)*
 
 In response, Vice President Pence again refused to take any action other than counting the lawfully certified electoral votes of the States. But President Trump was angry and undeterred. After the conclusion of this call, he edited his speech for the Ellipse to insert language to which his lawyers objected—targeting Vice President Pence directly.[^185-50]
 
@@ -977,13 +979,13 @@ Anticipating that the Eastman strategy for January 6th would be implemented, Pre
 
 A series of contemporaneous documents demonstrate what President Trump and his allies, including attorney Kenneth Chesebro, were attempting to accomplish: they anticipated that the President of the Senate (which, under the Constitution, is the Vice President) could rely upon these false slates of electors on January 6th to justify refusing to count genuine electoral votes.[^220-50]
 
-Graphic depicting the difference between the real and the fake elector certificates.
-
 The false slates were created by fake Republican electors on December 14th, at the same time the actual, certified electors in those States were meeting to cast their States’ Electoral College votes for President Biden. By that point in time, election-related litigation was over in all or nearly all of the subject States, and Trump Campaign election lawyers realized that the fake slates could not be lawful or justifiable on any grounds. Justin Clark, the Trump Campaign Deputy Campaign Manager and Senior Counsel told the Select Committee that he “had real problems with the process.”[^221-50] Clark warned his colleagues, “unless we have litigation pending like in these States, like, I don’t think this is appropriate or, you know, this isn’t the right thing to do. I don’t remember how I phrased it, but I got into a little bit of a back and forth and I think it was with Ken Chesebro, where I said, ‘Alright, you know, you just get after it, like, I’m out.’”[^222-50]
 
 Matthew Morgan, the Trump Campaign General Counsel, told the Select Committee that without an official State certificate of ascertainment,[^223-50] “the [fake] electors were, for lack of a better way of saying it, no good or not—not valid.”[^224-50]
 
 %%page 42%%
+
+*Graphic depicting the difference between the real and the fake elector certificates.*
 
 The Office of White House Counsel also appears to have expressed concerns with this fake elector plan. In his interview by the Select Committee, White House Counsel Pat Cipollone acknowledged his view that by mid-December, the process was “done” and that his deputy, Pat Philbin, may have advised against the fake elector strategy.[^225-50] In an informal Committee interview, Philbin described the fake elector scheme as one of the “bad theories” that were like “Whac-A-Mole” in the White House during this period.[^226-50] Cipollone agreed with this characterization.[^227-50]
 
@@ -1047,13 +1049,13 @@ That call to Raffensperger came on the heels of President Trump’s repeated att
 
 > What you don’t have the ability to do—and you need to step up and say this—is stop inspiring people to commit potential acts of violence. Someone’s going to get hurt. Someone’s going to get shot. Someone’s going to get killed.[^243-50]
 
-Gabriel Sterling at a press conference on November 6, 2020 in Atlanta, Georgia. (Photo by Jessica McGowan/Getty Images)
-
 The stark warning was entirely appropriate, and prescient. In addition to the examples Sterling identified, President Trump and his team were also fixated on Georgia election workers Ruby Freeman and Wandrea “Shaye” Moss. He and Giuliani mentioned Freeman repeatedly in meetings with State legislators, at public rallies, and in the January 2nd call with Raffensperger. Referring to a video clip, Giuliani even accused Freeman and Moss of trading USB drives to affect votes “as if they [were] vials of heroin or cocaine.”[^244-50] This was completely bogus: it was not a USB drive; it was a ginger mint.[^245-50]
 
 After their contact information was published, Trump supporters sent hundreds of threats to the women and even showed up at Freeman’s home.[^246-50] As Freeman testified to the Select Committee, President Trump and his followers’ conduct had a profound impact on her life. She left her home based on advice from the FBI, and wouldn’t move back for months.[^247-50] And she explained, “I’ve lost my sense of security—all because a group of people, starting with Number 45 [Donald Trump] and his ally Rudy Giuliani, decided to scapegoat me and my daughter Shaye to push their own lies about how the Presidential election was stolen.”[^248-50] The treatment of Freeman and Moss was callous, inhumane, and inexcusable. Rudolph Giuliani and others with responsibility should be held accountable.
 
 %%page 46%%
+
+*Gabriel Sterling at a press conference on November 6, 2020 in Atlanta, Georgia. (Photo by Jessica McGowan/Getty Images)*
 
 In Arizona, a primary target of President Trump’s pressure, and ire, was House Speaker Russell “Rusty” Bowers, a longtime Republican who had served 17 years in the State legislature. Throughout November and December, Bowers spoke to President Trump, Giuliani, and members of Giuliani’s legal team, in person or on the phone. During these calls, President Trump and others alleged that the results in Arizona were affected by fraud and asked that Bowers consider replacing Presidential electors for Biden with electors for Trump.[^249-50] Bowers demanded proof for the claims of fraud, but never got it. At one point, after Bowers pressed Giuliani on the claims of fraud, Giuliani responded, “we’ve got lots of theories, we just don’t have the evidence.”[^250-50] Bowers explained to Giuliani: “You are asking me do something against my oath, and I will not break my oath.”[^251-50]
 
@@ -1077,7 +1079,7 @@ As John Eastman wrote in an email on December 31, 2020, President Trump was “m
 
 #### Efforts to Corrupt the Department of Justice
 
-Steven Engel, Jeffrey Rosen and Richard Donoghue at a Select Committee hearing on June 23, 2022. (Photo by House Creative Services)
+*Steven Engel, Jeffrey Rosen and Richard Donoghue at a Select Committee hearing on June 23, 2022. (Photo by House Creative Services)*
 
 In the weeks after the 2020 election, Attorney General Barr advised President Trump that the Department of Justice had not seen any evidence to support Trump’s theory that the election was stolen by fraud. Acting Attorney General Jeffrey Rosen and his Deputy repeatedly reinforced to President Trump that his claims of election fraud were false when they took over in mid-December. Also in mid-December 2020, Attorney General Barr announced his plans to resign. Between that time and January 6th, Trump spoke with Acting Attorney General Jeff Rosen and Acting Deputy Richard Donoghue repeatedly, attempting to persuade them and the Department of Justice to find factual support for his stolen election claims and thereby to assist his efforts to reverse election results.
 
@@ -1285,15 +1287,13 @@ The Secret Service learned from the FBI on January 5th about right-wing groups e
 
 President Trump’s closest aides knew about the political power of sites like thedonald.win, which is where much of this violent rhetoric and planning happened. On December 30, 2020, Jason Miller—a Senior Adviser to and former spokesman for the former President—texted Chief of Staff Mark Meadows a link to the thedonald.win, adding “I got the base FIRED UP.”[^400-50] The link connected to a page with comments like “Gallows don’t require electricity,” “if the filthy commie maggots try to push their fraud through, there will be hell to pay,” and Congress can certify Trump the winner or leave “in a bodybag.”[^401-50] Symbolic gallows were constructed on January 6th at the foot of the Capitol.[^402-50]
 
-Noose set up outside of the Capitol on January 6th. (Photo by Drew Angerer/Getty Images)
-
 After President Trump’s signal, his supporters did not hide their plans for violence at the Capitol, and those threats made their way to national and local law enforcement agencies. As described in this report, the intelligence agencies did detect this planning, and they shared it with the White House and with the U.S. Secret Service.
 
 %%page 64%%
 
-Testimony from White House staff also suggests real concerns about the risk of violence as January 6th approached. Cassidy Hutchinson, for example, testified about a conversation she had with her boss, Mark Meadows, on January 2nd:
+*Noose set up outside of the Capitol on January 6th. (Photo by Drew Angerer/Getty Images)*
 
-Mark Meadows walks along the South Lawn on October 30, 2020. (Photo by Sarah Silbiger/Getty Images)
+Testimony from White House staff also suggests real concerns about the risk of violence as January 6th approached. Cassidy Hutchinson, for example, testified about a conversation she had with her boss, Mark Meadows, on January 2nd:
 
 > I went into Mark’s office, and he was still on his phone. . . . . I said to Mark, “Rudy [Giuliani] said these things to me. What’s going on here? Anything I should know about?”
 
@@ -1310,6 +1310,8 @@ Mark Meadows walks along the South Lawn on October 30, 2020. (Photo by Sarah Sil
 > And I remember saying to him, “What do you mean?”
 
 %%page 65%%
+
+*Mark Meadows walks along the South Lawn on October 30, 2020. (Photo by Sarah Silbiger/Getty Images)*
 
 > He was like, “I don’t know. There’s just going to be a lot of people here, and there’s a lot of different ideas right now. I’m not really sure of everything that’s going on. Let’s just make sure we keep tabs on it.”[^403-50]
 
@@ -1363,13 +1365,13 @@ The Select Committee also queried Deputy Chief of Staff Ornato this November abo
 
 Ornato had access to intelligence that suggested violence at the Capitol on January 6th, and it was his job to inform Meadows and President Trump of that. Although Ornato told us that he did not recall doing so, the Select Committee found multiple parts of Ornato’s testimony questionable. The Select Committee finds it difficult to believe that neither Meadows nor Ornato told President Trump, as was their job, about the intelligence that was emerging as the January 6th rally approached.
 
-President Trump looks backstage at the crowd gathered at the Ellipse. (Photo provided to the Select Committee by the National Archives and Records Administration)
-
 Hours before the Ellipse rally on January 6th, the fact that the assembled crowd was prepared for potential violence was widely known. In addition to intelligence reports indicating potential violence at the Capitol, weapons and other prohibited items were being seized by police on the streets and by Secret Service at the magnetometers for the Ellipse speech. Secret Service confiscated a haul of weapons from the 28,000 spectators who did pass through the magnetometers: 242 cannisters of pepper spray, 269 knives or blades, 18 brass knuckles, 18 tasers, 6 pieces of body armor, 3 gas masks, 30 batons or blunt instruments, and 17 miscellaneous items like scissors, needles, or screwdrivers.[^420-50] And thousands of others purposely remained outside the magnetometers, or left their packs outside.[^421-50]
 
 Others brought firearms. Three men in fatigues from Broward County, Florida brandished AR-15s in front of Metropolitan police officers on 14th Street and Independence Avenue on the morning of January 6th.[^422-50] MPD advised over the radio that one individual was possibly armed with a “Glock” at 14th and Constitution Avenue, and another was possibly armed with a “rifle” at 15th and Constitution Avenue around 11:23 a.m.[^423-50] The National Park Service detained an individual with a rifle between 12 and 1 p.m.[^424-50] Almost all of this was known before Donald Trump took the stage at the Ellipse.
 
 %%page 69%%
+
+*President Trump looks backstage at the crowd gathered at the Ellipse. (Photo provided to the Select Committee by the National Archives and Records Administration)*
 
 By the time President Trump was preparing to give his speech, he and his advisors knew enough to cancel the rally. And he certainly knew enough to cancel any plans for a march to the Capitol. According to testimony obtained by the Select Committee, President Trump knew that elements of the crowd were armed, and had prohibited items, and that many thousands would not pass through the magnetometers for that reason. Testimony indicates that the President had received an earlier security briefing, and testimony indicates that the Secret Service mentioned the prohibited items again as they drove President Trump to the Ellipse.
 
@@ -1737,13 +1739,13 @@ Also at 2:24 p.m., knowing the riot was underway and that Vice President Pence w
 
 > Mike Pence didn’t have the courage to do what should have been done to protect our Country and our Constitution, giving States a chance to certify a corrected set of facts, not the fraudulent or inaccurate ones which they were asked to previously certify. USA demands the truth![^509-50]
 
-Police officers attempt to clear rioters inside the Capitol building. (Photo by Brent Stirton/Getty Images)
-
 Evidence shows that the 2:24 p.m. tweet immediately precipitated further violence at the Capitol. Immediately after this tweet, the crowds both inside and outside of the Capitol building violently surged forward.[^510-50] Outside the building, within ten minutes thousands of rioters overran the line on the west side of the Capitol that was being held by the Metropolitan Police Force’s Civil Disturbance Unit, the first time in history of the DC Metro Police that such a security line had ever been broken.[^511-50]
 
 Virtually everyone on the White House staff the Select Committee interviewed condemned the 2:24 p.m. tweet in the strongest terms.
 
 %%page 87%%
+
+*Police officers attempt to clear rioters inside the Capitol building. (Photo by Brent Stirton/Getty Images)*
 
 Deputy National Security Adviser Matthew Pottinger told the Select Committee that the 2:24 p.m. tweet was so destructive that it convinced him to resign as soon as possible:
 
@@ -1899,7 +1901,7 @@ President Trump’s inner circle was still trying to delay the counting of elect
 
 > Guiliani: Sen. Tuberville? Or I should say Coach Tuberville. This is Rudy Giuliani, the President’s lawyer. I’m calling you because I want to discuss with you how they’re trying to rush this hearing and how we need you, our Republican friends, to try to just slow it down so we can get these legislatures to get more information to you.[^548-50]
 
-A Trump sign with Vice President Mike Pence’s name removed. (Photo by Michael Ciaglo/Getty Images)
+*A Trump sign with Vice President Mike Pence’s name removed. (Photo by Michael Ciaglo/Getty Images)*
 
 Reflecting on President Trump’s conduct that day, Vice President Pence noted that President Trump “had made no effort to contact me in the midst of the rioting or any point afterward.”[^549-50] He wrote that President Trump’s “reckless words had endangered my family and all those serving at the Capitol.”[^550-50]
 
@@ -1973,11 +1975,11 @@ Donald Trump was impeached on January 13th. In a speech that day, Republican Lea
 
 > The President bears responsibility for Wednesday’s attack on Congress by mob rioters. He should have immediately denounced the mob when he saw what was unfolding. These facts require immediate action by President Trump, accept his share of responsibility, quell the brewing unrest and ensure President-elect Biden is able to successfully begin his term. The President’s immediate action also deserves congressional action, which is why I think a fact-finding commission and a censure resolution would be prudent.[^567-50]
 
-Kevin McCarthy speaks at a press conference at the Capitol building on August 27, 2021. (Photo by Anna Moneymaker/Getty Images)
-
 Later, McCarthy told members of the House Republican conference that Trump had acknowledged that he was at least partially responsible for the January 6th attack.
 
 %%page 98%%
+
+*Kevin McCarthy speaks at a press conference at the Capitol building on August 27, 2021. (Photo by Anna Moneymaker/Getty Images)*
 
 > I asked him personally today, does he hold responsibility for what happened? Does he feel bad about what happened? He told me he does have some responsibility for what happened. And he need to acknowledge that.[^568-50]
 
@@ -3530,7 +3532,7 @@ His death list contained just two names: Ruby Freeman and Shaye Moss.[^378-2]
 
 %%page 340%%
 
-Georgia Electors cast their Electoral College votes at the Georgia State Capitol on December 14, 2020. (Photo by Jessica McGowan/Getty Images)
+*Georgia Electors cast their Electoral College votes at the Georgia State Capitol on December 14, 2020. (Photo by Jessica McGowan/Getty Images)*
 
 %%page 341%%
 
@@ -3588,19 +3590,21 @@ Cassidy Hutchinson, a Special Assistant to the President and an assistant to Chi
 
 %%page 346%%
 
-The evidence indicates that by December 7th or 8th, President Trump had decided to pursue the fake elector plan and was driving it. Trump Campaign Associate General Counsel Joshua Findlay was tasked by the campaign’s general counsel, Matthew Morgan, around December 7th or 8th with exploring the feasibility of assembling unrecognized slates of Trump electors in a handful of the States that President Trump had lost.[^33-3] Findlay told the Select Committee “it was my understanding that the President made this decision. . . .”[^34-3] As recounted by Findlay, Morgan conveyed that the client—President Trump—directed the campaign lawyers to “look into electors in these potential litigation States[.]”[^35-3] President Trump personally called RNC Chairwoman Ronna Romney McDaniel days before December 14th to enlist the RNC’s assistance in the scheme.[^36-3] President Trump opened the call by introducing McDaniel to John Eastman, who described “the importance of the RNC helping the campaign to gather these contingent electors in case any of the legal challenges that were ongoing changed the results in any of the States.”[^37-3] According to McDaniel, she called President Trump back soon after the call ended, letting him know that she agreed to his request and that some RNC staffers were already assisting.[^38-3]
+The evidence indicates that by December 7th or 8th, President Trump had decided to pursue the fake elector plan and was driving it. Trump Campaign Associate General Counsel Joshua Findlay was tasked by the campaign’s general counsel, Matthew Morgan, around December 7th or 8th with exploring the feasibility of assembling unrecognized slates of Trump electors in a handful of the States that President Trump had lost.[^33-3] Findlay told the Select Committee “it was my understanding that the President made this decision. . . .”[^34-3] As recounted by Findlay, Morgan conveyed that the client—President Trump—directed the campaign lawyers to “look into electors in these potential litigation States[.]”[^35-3]
 
-Ronna McDaniel at the Republican National Convention on August 24, 2020. (Photo by Chip Somodevilla/Getty Images)
+President Trump personally called RNC Chairwoman Ronna Romney McDaniel days before December 14th to enlist the RNC’s assistance in the scheme.[^36-3] President Trump opened the call by introducing McDaniel to John Eastman, who described “the importance of the RNC helping the campaign to gather these contingent electors in case any of the legal challenges that were ongoing changed the results in any of the States.”[^37-3] According to McDaniel, she called President Trump back soon after the call ended, letting him know that she agreed to his request and that some RNC staffers were already assisting.[^38-3]
 
 On December 13th and 14th, President Trump worked with Rudolph Giuliani on the plan’s implementation. On the 13th, Miller texted some of his colleagues to check in about the fake elector meetings scheduled for the following day. He let them know that Giuliani had told him “POTUS was aware” that they would be filing litigation in four States just “to keep the effort going”—which the Select Committee believes was to create a pretext to claim that it was still possible for the fake electors to be authorized retroactively.[^39-3] (In subsequent litigation, a Federal district court found that President Trump “filed certain lawsuits not to obtain legal relief, but to disrupt or delay the January 6th congressional proceedings through the courts.”[^40-3]) The next day, Miller sent an email asking whether they were going to issue a press release about electors, and he was told the “Mayor [is] going to discuss with POTUS.”[^41-3]
 
 ### 3.3 The Campaign Legal Team Bows Out, and Giuliani Steps In
 
-Rudy Giuliani speaks inside the Republican National Committee Headquarters in November about various lawsuits related to the 2020 election. (Photo by Drew Angerer/Getty Images)
-
 Not everyone on the campaign was eager to pursue the fake elector plan. On December 11th, the U.S. Supreme Court rejected a high-profile lawsuit filed by the State of Texas challenging the election results in Pennsylvania, Georgia, Michigan, and Wisconsin.[^42-3] After that decision, the Trump Campaign’s senior legal staffers said that they reduced their involvement in the fake elector effort, apparently because there was no longer a feasible scenario in which a court would determine that President Trump actually won any of the States he contested.[^43-3] Justin Clark, who oversaw the Trump Campaign’s general counsel’s office, said that he basically conveyed, “I’m out,” and encouraged his colleagues on the legal team to do the same.[^44-3] Findlay told the Select Committee that “we backed out of this thing,” and Morgan, his boss, said he had Findlay pass off responsibility for the electors as “my way of taking that responsibility to zero.”[^45-3]
 
 %%page 347%%
+
+*Ronna McDaniel at the Republican National Convention on August 24, 2020. (Photo by Chip Somodevilla/Getty Images)*
+
+*Rudy Giuliani speaks inside the Republican National Committee Headquarters in November about various lawsuits related to the 2020 election. (Photo by Drew Angerer/Getty Images)*
 
 %%page 348%%
 
@@ -3700,11 +3704,13 @@ By early January, most of the fake elector votes had arrived in Washington, exce
 
 The next day, Trump Campaign Deputy Director for Election Day Operations G. Michael Brown sent a text message to other campaign staff suggesting that he was the person who delivered the fake votes to Congress.[^127-3] After sending the group a photo of his face with the Capitol in the background, Brown said, “This has got to be the cover a book I write one day” and “I should probably buy [Mike] [R]oman a tie or something for sending me on this one. Hasn’t been done since 1876 and it was only 3 states that did it.”[^128-3] The reference to 1876 alludes to a controversy during that election about certain States’ electoral college votes.[^129-3]
 
-President Trump and his Campaign apparently had assistance from allies on Capitol Hill for this effort, including Senator Ron Johnson, his chief of staff, and the chief of staff to Representative Mike Kelly, although Senator Johnson has said that “[his] involvement in that attempt to deliver” fake elector paperwork “spanned the course of a couple seconds.”[^130-3] On the morning of January 6th, Representative Kelly’s then-chief of staff texted an aide to the Vice President, Chris Hodgson, about hand-delivering the fake elector votes to the Vice President’s team before the joint session, a message that Hodgson ignored: “Just following up-any chance you or someone from your team can meet to take the Michigan and Wisconsin packets.”[^131-3] According to the office of Senator Ron Johnson, Representative Kelly’s chief of staff then had a phone call with Senator Johnson’s chief of staff at 11:58 a.m. “about how Kelly’s office could get us the electors [sic] because they had it.”[^132-3] Shortly after 11:30 a.m., the Trump Campaign’s lead attorney in Wisconsin had texted Senator Johnson expressing a “[n]eed to get a document on Wisconsin electors to you [for] the VP immediately. Is there a staff person I can talk to immediately.”[^133-3] Senator Johnson then put his chief of staff in touch with the campaign to handle the issue.[^134-3]
+President Trump and his Campaign apparently had assistance from allies on Capitol Hill for this effort, including Senator Ron Johnson, his chief of staff, and the chief of staff to Representative Mike Kelly, although Senator Johnson has said that “[his] involvement in that attempt to deliver” fake elector paperwork “spanned the course of a couple seconds.”[^130-3] On the morning of January 6th, Representative Kelly’s then-chief of staff texted an aide to the Vice President, Chris Hodgson, about hand-delivering the fake elector votes to the Vice President’s team before the joint session, a message that Hodgson ignored: “Just following up-any chance you or someone from your team can meet to take the Michigan and Wisconsin packets.”[^131-3]
 
 %%page 357%%
 
-Senator Ron Johnson, February 12, 2021. (Photo by Samuel Corum/Getty Images)
+*Senator Ron Johnson, February 12, 2021. (Photo by Samuel Corum/Getty Images)*
+
+According to the office of Senator Ron Johnson, Representative Kelly’s chief of staff then had a phone call with Senator Johnson’s chief of staff at 11:58 a.m. “about how Kelly’s office could get us the electors [sic] because they had it.”[^132-3] Shortly after 11:30 a.m., the Trump Campaign’s lead attorney in Wisconsin had texted Senator Johnson expressing a “[n]eed to get a document on Wisconsin electors to you [for] the VP immediately. Is there a staff person I can talk to immediately.”[^133-3] Senator Johnson then put his chief of staff in touch with the campaign to handle the issue.[^134-3]
 
 Shortly afterwards, Senator Johnson’s chief of staff texted Hodgson: “[Sen.] Johnson needs to hand something to VPOTUS please advise.”[^135-3] When Hodgson asked what it was, the response he got was, “Alternate slate of electors for MI and WI because archivist didn’t receive them.”[^136-3] Hodgson did not mince words: “Do not give that to him [the Vice President]. He’s about to walk over to preside over the joint session, those were supposed to come in through the mail.”[^137-3]
 
@@ -3714,7 +3720,7 @@ Those fake electoral votes, which the Trump team tried for weeks to manufacture 
 
 Indeed, as the joint session approached, Senator Mike Lee had expressed grave concerns about the fake elector effort in a series of text messages to one of the Trump team’s senior legal advisors. Although Senator Lee had spent a month encouraging the idea of having State legislatures endorse competing electors for Trump, he grew alarmed as it became clear that the Trump team wanted the fake electors’ votes to be considered on January 6th even without authorization from any State government body.[^138-3]
 
-Senator Mike Lee, April 28, 2016. (Photo by Leigh Vogel/Getty Images)
+*Senator Mike Lee, April 28, 2016. (Photo by Leigh Vogel/Getty Images)*
 
 On December 30th, Senator Lee texted Trump advisor Cleta Mitchell that January 6th was “a dangerous idea,” including “for the republic itself.”[^139-3] He explained that, “I don’t think we have any valid basis for objecting to the electors” because “it cannot be true that we can object to any state’s presidential electors simply because we don’t think they handled their election well or suspect illegal activity.”[^140-3] Senator Lee even questioned her about the plan’s dangerous long-term consequences: “[w]ill you please explain to me how this doesn’t create a slippery slope problem for all future presidential elections?”[^141-3]
 
@@ -3746,11 +3752,11 @@ As Barr predicted, the President did call on him for information about alleged e
 
 On November 23rd, the Attorney General spoke with White House Counsel Pat Cipollone, who said that it was important for him come to the White House and speak to President Trump.[^16-4] Barr had not seen the President since before the election in late October, and the White House counsel believed that it was important that the Attorney General explain what the Department of Justice was doing related to claims of election fraud.[^17-4]
 
-Attorney General William Barr at the Department of Justice on December 21, 2020. (Photo by Michael Reynolds-Pool/Getty Images)
-
 “The President said there had been major fraud and that, as soon as the facts were out, the results of the election would be reversed,” Barr recalled. Trump continued “for quite a while,” and Barr was “expecting” what came next.[^18-4] President Trump alleged that “the Department of Justice doesn’t think it has a role looking into these fraud claims.”[^19-4] Barr anticipated this line of attack because the President’s counsel, Rudolph Giuliani, was making all sorts of wild, unsubstantiated claims.[^20-4] And Giuliani wanted to blame DOJ for the fact that no one had come up with any real evidence of fraud.[^21-4] Of course, by the time of this meeting, U.S. Attorneys’ Offices had been explicitly authorized to investigate substantial claims for 2 weeks and had yet to find any evidence of significant voter fraud.[^22-4]
 
 %%page 375%%
+
+*Attorney General William Barr at the Department of Justice on December 21, 2020. (Photo by Michael Reynolds-Pool/Getty Images)*
 
 Barr explained to the President why he was wrong. DOJ was willing to investigate any “specific and credible allegations of fraud.”[^23-4] The fact of the matter was that the claims being made were “just not meritorious” and were “not panning out.”[^24-4] Barr emphasized to the President that DOJ “doesn’t take sides in elections” and “is not an extension of your legal team.”[^25-4]
 
@@ -3820,7 +3826,7 @@ Finally, Attorney General Barr had had enough. He submitted his resignation on D
 
 Around mid-day on December 14th, Attorney General Barr met with President Trump and Meadows in the Oval Office to discuss his resignation.[^83-4] When he arrived, and even before Barr could mention his resignation, President Trump began speaking at length about the recently released Allied Security Operations Group (ASOG) report on Dominion voting machines in Antrim County, Michigan.[^84-4] While the Attorney General had been briefed on the allegations in Antrim County and did not find them credible, he promised the President that he would have DOJ investigate them.[^85-4] The Attorney General then told President Trump that he had come for a separate reason and wished to speak to the President privately, so Meadows left.[^86-4]
 
-Former Acting Attorney General Jeffrey Rosen testifies before the Select Committee on June 23, 2022. (Photo by House Creative Services)
+*Former Acting Attorney General Jeffrey Rosen testifies before the Select Committee on June 23, 2022. (Photo by House Creative Services)*
 
 Barr told President Trump that it was clear the President was dissatisfied with him as Attorney General and that he had decided to resign.[^87-4] President Trump accepted his resignation and asked Barr who would replace him; Attorney General Barr recommended Jeffrey A. Rosen as Acting Attorney General and Richard Donoghue as his deputy.[^88-4] Although President Trump called Donoghue to discuss the possibility of appointing him Acting Attorney General, Donoghue advised that normal procedures be followed and Rosen be named Acting Attorney General.[^89-4] President Trump followed this advice, and upon Barr’s departure, Rosen became Acting Attorney General while Donoghue would function as his deputy.
 
@@ -3834,11 +3840,11 @@ On December 14, 2020, the day Barr resigned, Molly Michael, Special Assistant to
 
 The next day, President Trump held a meeting in the White House with Acting Attorney General Rosen, Acting Deputy Attorney Donoghue, Cipollone, Meadows, Acting Deputy Secretary of Homeland Security Ken Cuccinelli, and Acting General Counsel of the Department of Homeland Security Chad Mizelle.[^92-4] Barr did not attend, even though he was not scheduled to leave DOJ until the following week. The timing of the meeting was notable, as the previous day the electoral college had met and cast their votes in favor of former Vice President Biden.
 
-Former Acting Deputy Attorney General Richard Donoghue testifies before the Select Committee on June 23, 2022. (Photo by House Creative Services)
-
 During testimony before the Select Committee, Donoghue explained that the December 15th, meeting “was largely focused on” the ASOG report.[^93-4] According to Donoghue, the President “was adamant that the report must be accurate, that it proved that the election was defective, that he in fact won the election, and the [D]epartment should be using that report to basically tell the American people that the results were not trustworthy.”[^94-4] President Trump discussed “other theories as well,” including erroneous allegations of voter fraud in Georgia and Pennsylvania, but “the bulk of that conversation on December 15th focused on Antrim County, Michigan.”[^95-4] President Trump asked why DOJ wasn’t “doing more to look at this” and whether the Department was “going to do its job.”[^96-4]
 
 %%page 382%%
+
+*Former Acting Deputy Attorney General Richard Donoghue testifies before the Select Committee on June 23, 2022. (Photo by House Creative Services)*
 
 The Department of Justice *was* doing its job. In fact, Attorney General Barr had ordered unprecedented investigations into the many specious claims of voter fraud. The President simply didn’t want to hear the truth—that DOJ found that not one of the bogus claims was true. As explained in Chapter 1, the original vote totals in Antrim County were the result of a human error that had since been corrected, not the result of any problem with Dominion machines or software. There was no evidence of fraud.
 
@@ -3850,9 +3856,11 @@ By the next day, Representative Perry had introduced a little-known DOJ official
 
 %%page 383%%
 
-President Trump called Acting Attorney General Rosen “virtually every day” between December 23rd and January 3rd.[^102-4] The President usually discussed his “dissatisfaction” with DOJ, claiming the Department was not doing enough to investigate election fraud.[^103-4] On Christmas Eve, Trump brought up Jeffrey Clark’s name. Rosen found it “peculiar,” telling the Select Committee: “I was quizzical as to how does the President even know Mr. Clark?”[^104-4] Rosen then spoke directly with Clark on December 26th.[^105-4] Clark revealed that he had met with the President in the Oval Office several days prior.[^106-4] Clark had told the President that if he were to change the leadership at the Department of Justice, “then the Department might be able to do more” to support the President’s claims that the election had been stolen from him.[^107-4]
+President Trump called Acting Attorney General Rosen “virtually every day” between December 23rd and January 3rd.[^102-4] The President usually discussed his “dissatisfaction” with DOJ, claiming the Department was not doing enough to investigate election fraud.[^103-4] On Christmas Eve, Trump brought up Jeffrey Clark’s name. Rosen found it “peculiar,” telling the Select Committee: “I was quizzical as to how does the President even know Mr. Clark?”[^104-4]
 
-Former Assistant Attorney General Jeffrey Clark appears on a screen during a Select Committee hearing on June 23, 2022. (Photo by Mandel Ngan-Pool/Getty Images)
+*Former Assistant Attorney General Jeffrey Clark appears on a screen during a Select Committee hearing on June 23, 2022. (Photo by Mandel Ngan-Pool/Getty Images)*
+
+Rosen then spoke directly with Clark on December 26th.[^105-4] Clark revealed that he had met with the President in the Oval Office several days prior.[^106-4] Clark had told the President that if he were to change the leadership at the Department of Justice, “then the Department might be able to do more” to support the President’s claims that the election had been stolen from him.[^107-4]
 
 In his discussion with Acting Attorney General Rosen, Clark was “defensive” and “apologetic,” claiming that the meeting with President Trump was “inadvertent and it would not happen again, and that if anyone asked him to go to such a meeting, he would notify Rich Donoghue and me [Rosen].”[^108-4] Of course, Clark had good reasons to be defensive. His meeting with President Trump and Representative Perry on December 22nd was a clear violation of Department policy, which limits interactions between the White House and the Department’s staff. As Steven Engel, former Assistant Attorney General for the Office of Legal Counsel, explained to the Select Committee, “it’s critical that the Department of Justice conducts its criminal investigations free from either the reality or any appearance of political interference.”[^109-4] For that reason, the Department has longstanding polices in place, across administrations, to “keep these communications as infrequent and at the highest levels as possible, just to make sure that people who are less careful about it, who don’t really understand these implications, such as Mr. Clark, don’t run afoul of the of those contact policies.”[^110-4] Rosen added that only the Attorney General or Deputy Attorney General “can have conversations about criminal matters with the White House,” or they can “authorize” someone from within DOJ to do so.[^111-4] Clark had no such authorization.
 
@@ -3904,13 +3912,13 @@ When President Trump made these demands on December 27th, it was already crystal
 
 The President did not really care what facts had been uncovered by the Department of Justice. President Trump just wanted the Department to say the election was corrupt, so he and the Republican Congressmen could exploit the statement in the days to come, including on January 6th. And when Rosen and Donoghue resisted the President’s entreaties, he openly mused about replacing Rosen with someone who would do the President’s bidding.
 
-Representative Scott Perry, November 14, 2022. (Photo by Anna Moneymaker/Getty Images)
-
 ### 4.8 Congressman Scott Perry Calls Donoghue
 
 Toward the end of the December 27th call, President Trump asked Donoghue for his cell number.[^164-4] Later that day, Representative Perry called Donoghue to press the President’s case.[^165-4] Representative Perry was one of President Trump’s key congressional allies in the effort to overturn the election’s results. Representative Perry was an early supporter of the “Stop the Steal” campaign and, as noted above, addressed the crowd at one such event outside the Pennsylvania State capitol in Harrisburg on November 5, 2020.[^166-4] In December 2020, Representative Perry was also one of 27 Republican Congressmen who signed a letter requesting that President Trump “direct Attorney General Barr to appoint a Special Counsel to investigate irregularities in the 2020 election.” December 9, 2020—more than 1 week after Barr told the press there was no evidence of significant fraud.[^167-4] There was no reason to think that a Special Counsel was warranted. Representative Perry and the other congressmen advocated for one to be appointed anyway.
 
 %%page 388%%
+
+*Representative Scott Perry, November 14, 2022. (Photo by Anna Moneymaker/Getty Images)*
 
 Representative Perry attended the December 21st Oval Office meeting along with at least 10 other congressional Republicans to discuss the strategy for objecting to the electoral college votes on January 6th. Along with 125 other Republican Members of Congress, Representative Perry also supported Texas’s lawsuit against Pennsylvania and three other states.[^168-4] That is, Representative Perry supported Texas’s effort to nullify the certified electoral college vote from four states, including his own home state.
 
@@ -3970,11 +3978,11 @@ In this meeting, Meadows also raised a new and outrageous allegation of election
 
 In the days after the December 29th meeting with Meadows, the senior DOJ officials more closely examined the proposed *United States v. Pennsylvania* lawsuit and determined that DOJ could not file it.[^230-4] Engel was principally tasked with examining the veracity of the suit and summarized his analysis in a series of talking points that he provided to Donoghue on December 31st.[^231-4] Engel concluded that for multiple reasons, the proposed lawsuit lacked merit. First, the U.S. Government did not have standing to challenge how a State administered its election.[^232-4] Such a challenge could only be brought by President Trump as a candidate and his campaign, or, possibly, an aggrieved electoral college elector.[^233-4] Second, there was no identified precedent in the history of the Supreme Court establishing that such a lawsuit could be filed by the U.S. Government.[^234-4] Third, by late December, States had already certified the results of their elections and the electoral college had met, so suing States by this point would not impact the results of the election.[^235-4] Finally, unlike *Texas* v. *Pennsylvania*, which was one State suing another State, this lawsuit would not automatically be heard by the Supreme Court, so it should have been filed in a Federal district court months prior—if at all—to have any possibility of impacting the outcome of the election.[^236-4]
 
-Steven Engel testifies before the Select Committee on June 23, 2022. (Photo by House Creative Services)
-
 When asked about it during his interview with the Select Committee, Engel described *United States* v. *Pennsylvania* as “a meritless lawsuit” and said, “there was never a question” about whether “the Department was going to file” it.[^237-4] As senior DOJ officials had already explained to President Trump multiple times in November and December 2020, the Department of Justice was strictly limited in what election-related actions it could take. It could not oversee States’ actions in administering their elections, and it could not support litigation filed by President Trump’s campaign.[^238-4] Nonetheless, President Trump continued to push DOJ to file this lawsuit over the following days and essentially act as an arm of his political campaign.
 
 %%page 395%%
+
+*Steven Engel testifies before the Select Committee on June 23, 2022. (Photo by House Creative Services)*
 
 ### 4.11 Rosen’s December 30th Call with President Trump
 
@@ -4200,21 +4208,21 @@ Then, on December 7, 2020, the Lincoln Project aired a provocative ad taunting P
 
 Jacob did extensive research on and historical analysis of both the Electoral Count Act of 1887 and the 12th Amendment to the U.S. Constitution.[^60-5] The 12th Amendment contains a single relevant line: “The President of the Senate shall, in the Presence of the Senate and House of Representatives, open all the Certificates, and the Votes shall then be counted.”[^61-5] Though Jacob concluded that this line was “inartfully drafted,” it said nothing about resolving disputes over electoral votes.[^62-5]
 
-Greg Jacob testifies before the Select Committee on June 16, 2022. Photo by House Creative Services
-
 Jacob concluded that the Vice President must adhere to the Electoral Count Act.[^63-5] The ECA has been followed for 130 years and “every single time that there has been any objection to electors, it has been resolved in accordance with the Electoral Count Act procedures,” Jacob testified.[^64-5] After reviewing the history and relevant cases, Jacob found that “[t]here is no justifiable basis to conclude that the Vice President has that kind of authority” to affect the outcome of the presidential election.[^65-5] Jacob stated that his “review of text, history, and, frankly, just common sense” all confirmed that the Vice President had no such power.[^66-5]
 
 %%page 436%%
 
-#### President Trump’s Allies Filed Lawsuits Seeking a Court Order Directing Vice President Pence Not to Count Certain Electoral Votes.
+*Greg Jacob testifies before the Select Committee on June 16, 2022. Photo by House Creative Services*
 
-Representative Louie Gohmert outside the Capitol on March 17, 2021. (Photo by Chip Somodevilla/Getty Images)
+#### President Trump’s Allies Filed Lawsuits Seeking a Court Order Directing Vice President Pence Not to Count Certain Electoral Votes.
 
 One of President Trump’s congressional allies, Representative Louie Gohmert (R–TX), pushed a version of Eastman’s theory in the courts. On December 27, 2020, Representative Gohmert and several of the Trump Campaign’s fake electors for the State of Arizona (including Republican Party Chair Kelli Ward) filed suit against Vice President Pence in the U.S. District Court for the Eastern District of Texas.[^67-5] As Ward explained to Marc Short in a phone call the day the suit was filed, President Trump was aware of the lawsuit and had signed off on it: “We wouldn’t have done that without the president telling us it was okay,” she told him.[^68-5]
 
 In the suit, the Plaintiffs alleged that there were “competing slates” of electors from five States.[^69-5] They asked the court to rule that portions of the Electoral Count Act of 1887 were unconstitutional and that “the Twelfth Amendment contains the exclusive dispute resolution mechanisms” for determining an objection raised by a Member of Congress to the electors submitted by any State.[^70-5] Essentially, Representative Gohmert was asking the court to tell Vice President Pence that he was prohibited from following the procedures set forth in the Electoral Count Act. Much like Eastman’s theory, the *Gohmert* plaintiffs asserted that the Vice President has the “exclusive authority and sole discretion” to determine which electoral votes to count.[^71-5]
 
 %%page 437%%
+
+*Representative Louie Gohmert outside the Capitol on March 17, 2021. (Photo by Chip Somodevilla/Getty Images)*
 
 Although the *Gohmert* suit was premised on the same theory Eastman advocated, Eastman did not agree with the decision to file suit. Eastman argued that filing a suit against the Vice President had “close[] to zero” chance of succeeding, and there was a “very high” risk that the court would issue an opinion stating that “Pence has no authority to reject the Biden-certified ballots.”[^72-5] As highlighted by Judge Carter, Eastman’s theory was that Vice President Pence should take this action “without asking for permission” from Congress or the courts.[^73-5] Another attorney, Bill Olson, stated that getting a judicial determination “that Pence is constrained by [the Electoral Count Act]” could “completely tank the January 6 strategy.”[^74-5] Those who were advocating to press on with the Eastman scheme did not want to bring it before a Federal judge because of the high risk that a court’s determination that the scheme was illegal would stop the plan to overturn the election dead in its tracks.
 
@@ -4228,17 +4236,19 @@ Ultimately, Representative Gohmert’s legal gambit failed; a U.S. district judg
 
 #### Other Individuals Advising President Trump and His Campaign Also Advocated for a Role for the Vice President at the Joint Session.
 
-John McEntee, February 28, 2020. (Photo by Alex Wong/Getty Images)
+*John McEntee, February 28, 2020. (Photo by Alex Wong/Getty Images)*
 
 Other individuals inside and outside the White House also advanced versions of the theory that the Vice President had agency in the joint session. The issue of Vice President Pence’s role came up during a December meeting in the Oval Office. Either President Trump or his chief of staff, Mark Meadows, tasked John McEntee, the director of the Presidential Personnel Office, with researching the matter further.[^80-5] Though McEntee was one of President Trump’s close advisors, he was not a lawyer and had no relevant experience. Yet, he wrote a one-page memo claiming that “the VP has substantial discretion to address issues with the electoral process.”[^81-5]
 
-This wasn’t the only one-page analysis drafted by McEntee before January 6th.[^82-5] He later proposed a “middle path” in which he envisioned the Vice President accepting *only half* the electoral votes from six disputed States (specifically, Wisconsin, Michigan, Pennsylvania, Georgia, Arizona and Nevada).[^83-5] McEntee portrayed this as a way to avoid “disenfranchis[ing]” States while still achieving the desired result: delivering a second term to President Trump. McEntee conveyed this memo to the President with a cover note reading, “This is probably our only realistic option because it would give Pence an out.”[^84-5] McEntee told the Select Committee that this judgment was based on his assessment that “it was, like, pretty obvious [the Vice President] wasn’t going to just reject . . . the electors or whatever was being asked of him at that time.”[^85-5] Another advocate of a plan for the Vice President to play a role in the joint session was Jenna Ellis, a lawyer working for the Trump Campaign. She argued in two memos that Vice President Pence had the power to delay the counting of certified electoral votes. In the first memo, addressed to President Trump and dated December 31, 2020, Ellis advised that Vice President Pence should “not open any of the votes” from six States that “currently have electoral delegates in dispute.”[^86-5] Ellis asserted that this “dispute” provided “sufficient rational and legal basis to question whether the [S]tate law and Constitution was followed.” Ellis proposed a delay of ten days, as the Vice President and Congress awaited a “response from the [S]tate legislatures, which would then need to meet in an emergency electoral session.” If any of the State legislatures “fails to provide a timely response, no electoral votes can be opened and counted from that [S]tate.” Ellis claimed that Vice President Pence would not be “exercising discretion nor establishing new precedent,” but instead “simply asking for clarification from the constitutionally appointed authority.”[^87-5]
+This wasn’t the only one-page analysis drafted by McEntee before January 6th.[^82-5] He later proposed a “middle path” in which he envisioned the Vice President accepting *only half* the electoral votes from six disputed States (specifically, Wisconsin, Michigan, Pennsylvania, Georgia, Arizona and Nevada).[^83-5] McEntee portrayed this as a way to avoid “disenfranchis[ing]” States while still achieving the desired result: delivering a second term to President Trump. McEntee conveyed this memo to the President with a cover note reading, “This is probably our only realistic option because it would give Pence an out.”[^84-5] McEntee told the Select Committee that this judgment was based on his assessment that “it was, like, pretty obvious [the Vice President] wasn’t going to just reject . . . the electors or whatever was being asked of him at that time.”[^85-5]
 
-Jenna Ellis on December 2, 2020 in Lansing, Michigan. (Photo by Rey Del Rio/Getty Images)
+Another advocate of a plan for the Vice President to play a role in the joint session was Jenna Ellis, a lawyer working for the Trump Campaign. She argued in two memos that Vice President Pence had the power to delay the counting of certified electoral votes. In the first memo, addressed to President Trump and dated December 31, 2020, Ellis advised that Vice President Pence should “not open any of the votes” from six States that “currently have electoral delegates in dispute.”[^86-5] Ellis asserted that this “dispute” provided “sufficient rational and legal basis to question whether the [S]tate law and Constitution was followed.” Ellis proposed a delay of ten days, as the Vice President and Congress awaited a “response from the [S]tate legislatures, which would then need to meet in an emergency electoral session.” If any of the State legislatures “fails to provide a timely response, no electoral votes can be opened and counted from that [S]tate.” Ellis claimed that Vice President Pence would not be “exercising discretion nor establishing new precedent,” but instead “simply asking for clarification from the constitutionally appointed authority.”[^87-5]
 
 Ellis sent the substance of this memorandum in an email to Fox News host Jeanine Pirro on January 1, 2021, under the subject line “Constitutional option.”[^88-5] And, on January 4, 2021, she sent the same substance to Fox News contributor John Solomon under the subject line “Pence option.”[^89-5]
 
 %%page 440%%
+
+*Jenna Ellis on December 2, 2020 in Lansing, Michigan. (Photo by Rey Del Rio/Getty Images)*
 
 Ellis addressed a second memo, dated January 5, 2021, to Jay Sekulow, an outside attorney who represented President Trump during his first impeachment proceedings and in other litigation.[^90-5] Ellis again claimed that Vice President Pence had the power to delay the certification of the vote. Ellis recommended that the Vice President should, when he arrived at the first contested State (Arizona), “simply stop the count” on the basis that the States had not made a “final determination of ascertainment of electors.” “The [S]tates would therefore have to act.”[^91-5]
 
@@ -4314,8 +4324,6 @@ One key lawyer was conspicuously absent: Pat Cipollone, the White House Counsel.
 
 Mark Meadows invited Cipollone to speak with Eastman prior to the Oval Office meeting.[^142-5] Cipollone told Eastman that his scheme was “not something that is consistent with the appropriate reading of the law.”[^143-5] After delivering this assessment directly to Eastman in Meadows’ office, Cipollone walked to the Oval Office with the intent to attend the meeting. However, by the time the Vice President and his staff arrived, Cipollone was gone.[^144-5]
 
-Pat Cipollone is seen on a screen during a Select Committee hearing on July 12, 2022. (Photo by Sarah Silbiger-Pool/Getty Images)
-
 Cipollone declined to testify as to what he told President Trump or why he did not attend the Oval Office meeting, but he was clear that he didn’t end up attending the meeting because of something that happened after he walked into the Oval Office.[^145-5] Whatever happened, Cipollone maintained, was protected by executive privilege, suggesting that he was asked to leave by the President.[^146-5] What is clear, however, is that Cipollone had already shared his view directly with Meadows and Eastman, i.e., that the proposal President Trump and Eastman were about to advocate to the Vice President was illegal.[^147-5]
 
 ##### During this Oval Office Meeting, Eastman Admits that Both Paths are Based on the Same Legal Theory and Concedes His Plan Violates the Electoral Count Act.
@@ -4325,6 +4333,8 @@ During the Oval Office meeting, Eastman claimed that there were two legally viab
 Eastman later conceded that both actions were based on the same underlying legal theory of the Vice President’s power.[^152-5] Eastman also admitted—during this meeting with the President and Vice President—that his proposal violated the Electoral Count Act.[^153-5] Moreover, Eastman eventually acknowledged that the concept of the Vice President unilaterally rejecting electors was not supported by precedent and that the Supreme Court would never endorse it.[^154-5]
 
 %%page 446%%
+
+*Pat Cipollone is seen on a screen during a Select Committee hearing on July 12, 2022. (Photo by Sarah Silbiger-Pool/Getty Images)*
 
 %%page 447%%
 
@@ -4388,7 +4398,7 @@ The Vice President’s office was unmoved by Eastman’s specious reasoning. As 
 
 ##### Former Republican Officials with Executive, Legislative, and Judicial Experience All Agreed with Vice President Pence’s Conclusion about His Limited Role at the Joint Session.
 
-John Michael Luttig testifies before the Select Committee on June 16, 2022. Photo by House Creative Services
+*John Michael Luttig testifies before the Select Committee on June 16, 2022. Photo by House Creative Services*
 
 As President Trump’s pressure campaign intensified, the Vice President’s outside counsel, Richard Cullen, turned for support to John Michael Luttig, a conservative former judge of the U.S. Court of Appeals for the Fourth Circuit.[^186-5] Eastman had clerked for Luttig—a man with impeccable legal and conservative credentials—more than two decades prior. Luttig rejected Eastman’s so-called legal analysis of the Vice President’s role in no uncertain terms. In a series of tweets, posted at 9:53 a.m. on January 5th, Luttig set forth his legal conclusions.
 
@@ -4488,13 +4498,13 @@ President Trump’s tweets made it clear that he thought the Republican State le
 
 President Trump tried to reach Vice President Pence by phone early that morning.[^234-5] He finally talked to his Vice President at approximately 11:20 a.m.[^235-5] The exchange quickly became contentious.
 
-President Trump on the phone in the Oval Office. Photo provided to the Select Committee by the National Archives and Records Administration.
-
 Eric Herschmann, a lawyer in the White House Counsel’s Office, overheard the conversation. Members of President Trump’s family and other White House officials were present as well.[^236-5] Herschmann recalled that “it started off as a calmer tone, everything, and then it became heated.”[^237-5] Ivanka Trump also described the call as “pretty heated.”[^238-5] Ivanka Trump elaborated: “It was a different tone than I’d heard him take with the Vice President before.”[^239-5] Ivanka Trump told her Chief of Staff, Julie Radford, that “her dad had just had an upsetting conversation with the Vice President.”[^240-5] President Trump had even called Vice President Pence the “P Word.”[^241-5]
 
 Nick Luna, President Trump’s personal assistant (commonly known as the “body man”), was also in the Oval Office during the conversation. Luna told the Select Committee that President Trump called Vice President Pence a “wimp” on the call, with President Trump adding that he “made the wrong decision” in choosing Pence as his running mate.[^242-5]
 
 %%page 458%%
+
+*President Trump on the phone in the Oval Office. Photo provided to the Select Committee by the National Archives and Records Administration.*
 
 Keith Kellogg, Vice President Pence’s National Security Advisor, also heard the conversation. President Trump “told the Vice President that, you know, he has legal authority to send these folks [the electors] back to the respective States,” Kellogg told the Select Committee.[^243-5] President Trump insisted that Vice President Pence had the “constitutional authority to” reject certain electoral college votes.[^244-5] When Vice President Pence would not budge, President Trump told him “you’re not tough enough to make the call.”[^245-5]
 
@@ -4566,8 +4576,6 @@ President Trump’s speech began late and ran long. He didn’t finish speaking 
 
 ##### Vice President Pence Adheres to the U.S. Constitution and Complies with the Law Governing the Certification of the Presidential Election.
 
-Vice President Pence during the Joint Session of Congress. (Photo by Win McNamee/Getty Images)
-
 When Vice President Pence gaveled the opening of the joint session, he knew that many of his Republican colleagues planned to challenge the election’s results based on fictitious claims of fraud. The Vice President took steps to ensure that those objections adhered to the process set forth in the Electoral Count Act.
 
 Every four years, on January 6th, vice presidents read from a script that remains essentially unchanged. Eastman’s theory of the Vice President’s power and the Trump Campaign’s scheme to convene and submit the slates of “alternate” (fake) electors motivated Vice President Pence and his advisors to alter the script and to make sure they were prepared to respond to any unexpected actions in the joint session.[^273-5]
@@ -4577,6 +4585,8 @@ Vice President Pence met with the Senate Parliamentarian on January 3rd to discu
 The Vice President knew that the fake slates of electors organized by the Trump Campaign were not certified by the States and thus were not valid; he revised the script for the joint session to be transparent with the American people about what the Vice President would—and wouldn’t—be doing during the joint session.[^276-5]
 
 %%page 463%%
+
+*Vice President Pence during the Joint Session of Congress. (Photo by Win McNamee/Getty Images)*
 
 One of the most noticeable and important changes to the script was directed specifically at thwarting the fake electors scheme. The Vice President knew, informed by the research and analysis of his staff, that absent certification of the electoral votes by a State authority, the purported “alternate” slates were “not consequential” and would play no role in the certification of the Presidential election at the joint session.[^277-5] The Senate Parliamentarian confirmed this understanding.[^278-5]
 
@@ -4684,9 +4694,11 @@ For the Proud Boys—described in more detail below—and their leader, Henry �
 
 %%page 500%%
 
-Tarrio allegedly used encrypted messages to plot the January 6, 2021, attack. On January 4, 2021, Tarrio told his men that they should “storm the Capitol.”[^11-6] While the attack was underway, Tarrio claimed credit in a private chat, writing: “We did this.”[^12-6] And on the evening of January 6th, Tarrio released a video of a man, presumably Tarrio himself, dressed in an odd costume standing in front of the U.S. Capitol. The eerie production had been recorded prior to the events of that day. Tarrio—who was not in Washington, DC on January 6th[^13-6]—titled it, “Premonition.”[^14-6] The Oath Keepers, a far-right, anti-government militia movement—also described in more detail below—began planning for January 6th after the President’s tweet as well. Stewart Rhodes, the group’s leader, had agitated against the U.S. Government for years.[^15-6] Immediately following the 2020 presidential election, Rhodes and others schemed to stop the peaceful transfer of power. They stored weapons outside of Washington, DC,[^16-6] hoping that President Trump would deputize them as his own militia.[^17-6] An Oath Keeper leader, Kelly Meggs, read President Trump’s December 19th tweet and commented in a Facebook message: “He called us all to the Capitol and wants us to make it wild!!! Sir Yes Sir!!!”[^18-6] The Oath Keepers formed two military “stacks” and marched up the steps of the U.S. Capitol on January 6th. Meggs led one of them.[^19-6]
+Tarrio allegedly used encrypted messages to plot the January 6, 2021, attack. On January 4, 2021, Tarrio told his men that they should “storm the Capitol.”[^11-6] While the attack was underway, Tarrio claimed credit in a private chat, writing: “We did this.”[^12-6] And on the evening of January 6th, Tarrio released a video of a man, presumably Tarrio himself, dressed in an odd costume standing in front of the U.S. Capitol. The eerie production had been recorded prior to the events of that day. Tarrio—who was not in Washington, DC on January 6th[^13-6]—titled it, “Premonition.”[^14-6]
 
-Tarrio’s video appears on a screen during a Select Committee hearing on June 09, 2022. Photo by Drew Angerer/Getty Images
+*Tarrio’s video appears on a screen during a Select Committee hearing on June 09, 2022. Photo by Drew Angerer/Getty Images*
+
+The Oath Keepers, a far-right, anti-government militia movement—also described in more detail below—began planning for January 6th after the President’s tweet as well. Stewart Rhodes, the group’s leader, had agitated against the U.S. Government for years.[^15-6] Immediately following the 2020 presidential election, Rhodes and others schemed to stop the peaceful transfer of power. They stored weapons outside of Washington, DC,[^16-6] hoping that President Trump would deputize them as his own militia.[^17-6] An Oath Keeper leader, Kelly Meggs, read President Trump’s December 19th tweet and commented in a Facebook message: “He called us all to the Capitol and wants us to make it wild!!! Sir Yes Sir!!!”[^18-6] The Oath Keepers formed two military “stacks” and marched up the steps of the U.S. Capitol on January 6th. Meggs led one of them.[^19-6]
 
 %%page 501%%
 
@@ -4730,7 +4742,7 @@ Consider, for example, the protests held in Atlanta between November 18 and 21, 
 
 Jones first announced the Atlanta events on *InfoWars* on November 16th. In his announcement, Jones teased that he would be joined by Roger Stone and also called on listeners to “surround the governor’s mansion” in order to prevent the election results from being certified.[^64-6] Fuentes advertised that he would be speaking at the capitol every day at noon.[^65-6] In fiery speeches across Atlanta, Fuentes spread election lies as well as wink-and-nod hints at intimidation and violence.[^66-6]
 
-Alex Jones and Ali Alexander inside the Georgia State Capitol during a “Stop the Steal” rally on November 18, 2020 in Atlanta, Georgia. Photo by Elijah Nouvelage/Getty Images
+*Alex Jones and Ali Alexander inside the Georgia State Capitol during a “Stop the Steal” rally on November 18, 2020 in Atlanta, Georgia. Photo by Elijah Nouvelage/Getty Images*
 
 Alexander, standing alongside Jones and Fuentes outside the State capitol on November 18th, exhorted the crowd to “storm the capitol” with them.[^67-6] The three men led a crowd into the State capitol building. On November 20th, Roger Stone gave a speech outside the Georgia capitol. Speaking through a telephone held up by Alexander, Stone advanced election lies, and finished with a provocative rallying cry: “Victory or death!”[^68-6] That same day, Fuentes told the crowd, “Look, we’ve been in front of the State capitol, maybe we’ve been trying the wrong approach.”[^69-6] Days earlier, at a nighttime event outside the governor’s mansion, Alexander, again flanked by Jones and Fuentes, goaded the crowd: “We’ll light the whole shit on fire.”[^70-6]
 
@@ -4740,13 +4752,13 @@ While the crowd did not turn violent, the “Stop the Steal” protests in Atlan
 
 Other “Stop the Steal” events helped pave the way for the events of January 6th. Two rallies in Washington D.C. — on November 14 and December 12, 2020 — were critically important. Alexander’s “Stop the Steal” was not the only protest organization present at these events. Both were called “Million MAGA Marches” and drew in other rally organizers. One of these other protests was called the “Jericho March” prayer rally.[^73-6] Regardless, the same constellation of actors that appeared in Atlanta also incited Trump supporters in Washington.
 
-“Million MAGA March” protest on November 14, 2020 in Washington, DC. Photo by Tasos Katopodis/Getty Images
-
 For instance, during the Jericho March rally on December 12th, Stewart Rhodes called on President Trump to invoke the Insurrection Act as part of a desperate gambit to remain in power. In Rhodes’ vision, he would lead militiamen on behalf of President Trump when others tried to remove him from office.[^74-6] If President Trump did not invoke the Insurrection Act, Rhodes warned the crowd, then they would be forced to wage a “much more desperate [and] much more bloody war.” Alex Jones also gave an incendiary speech at the Jericho March event, declaring: “I don’t know who is going to the White House in 38 days, but I sure know this, Joe Biden is a globalist, and Joe Biden will be removed, one way or another!”[^75-6]
 
 As the crowds gathered in Washington on December 12th, President Trump was publicly lobbying the Supreme Court to hear his fictious claims of election fraud. The President assailed the Supreme Court on Twitter throughout the day.[^76-6] The “Stop the Steal” coalition was eager to help. After the Jericho March event ended, Jones, his *InfoWars* co-host Owen Shroyer, and Ali Alexander led a march on the Supreme Court. Once there, the crowd chanted slogans such as “Stop the Steal!”; “1776!!”; “Our revolution!”; and “The fight has just begun!!”[^77-6]
 
 %%page 506%%
+
+*“Million MAGA March” protest on November 14, 2020 in Washington, DC. Photo by Tasos Katopodis/Getty Images*
 
 President Trump made sure to let the protesters in Washington know that he personally approved of their mission. During the November rally, President Trump waved to the crowd from his presidential motorcade.[^78-6] Then, on the morning of December 12th, President Trump tweeted: “Wow! Thousands of people forming in Washington (D.C.) for Stop the Steal. Didn’t know about this, but I’ll be seeing them! #MAGA.”[^79-6] Later that day, President Trump flew over the protesters in Marine One.[^80-6]
 
@@ -4764,13 +4776,13 @@ From the Proud Boys’ founding in 2016, violence was intrinsic to their mission
 
 The Proud Boys have participated in, or instigated, protests since their founding.[^90-6] They’ve long been known as street brawlers looking for a fight.[^91-6] But 2020 was a watershed year for the group. As protests spread around the country, the Proud Boys deputized themselves as agents of law and order—vigilantes against perceived threats.[^92-6] More often, they played the role of instigators.[^93-6] They portrayed themselves as counter-protesters and identified their targets as Black Lives Matter and Antifa—though they were hard-pressed to define their organizational enemies.[^94-6]
 
-A Proud Boy during a “Stop the Steal” rally on November 7, 2020 in Salem, Oregon. Photo by Nathan Howard/Getty Images
-
 During the presidential debate on September 29, 2020, President Trump was asked to disavow far-right extremists, including the Proud Boys. The President did not explicitly condemn the group. Instead, he seemingly endorsed their mission. “Stand back and stand by,” President Trump told the Proud Boys, before adding, “but I’ll tell you what . . . somebody’s got to do something about Antifa and the left.”[^95-6] The President’s words electrified the group, injecting new life into their recruitment and activities. According to Nick Quested, a filmmaker who spent significant time with the group and testified before the Select Committee, the Proud Boys had found their “savior” in President Trump.[^96-6]
 
 Joseph Biggs, a senior Proud Boy, immediately trumpeted President Trump’s debate statement on Parler,[^97-6] a fringe social media platform. Biggs made it clear that the Proud Boys were ready to fight Antifa.[^98-6] The group’s size “tripled” in response to President Trump’s apparent endorsement, according to Jeremy Bertino, a Proud Boys leader who has pleaded guilty to seditious conspiracy in relation to January 6th.[^99-6] Similarly, Enrique Tarrio and another Proud Boys member, George Meza, testified to the Select Committee that the President’s comment was a pivotal, energizing moment.[^100-6] The group started selling merchandise with their new “stand back and stand by” slogan the very same night.[^101-6]
 
 %%page 508%%
+
+*A Proud Boy during a “Stop the Steal” rally on November 7, 2020 in Salem, Oregon. Photo by Nathan Howard/Getty Images*
 
 As the presidential votes were tallied, the Proud Boys became agitated at the prospect that President Trump would lose. On November 5, 2020, Biggs posted on social media, “It’s time for fucking war if they steal this shit.”[^102-6] As former Vice President Joe Biden’s victory became apparent, Proud Boys leaders directed their ire toward others in the Government. Biggs, speaking on a Proud Boys livestream show with Tarrio and others, warned that government officials are “evil scum, and they all deserve to die a traitor’s death.” Ethan Nordean—another Proud Boys leader who allegedly helped lead the attack at the Capitol—responded, “Yup, Day of the Rope,”[^103-6] referring to a day of mass lynching of “race traitors” in the white supremacist novel *The Turner Diaries*.[^104-6]
 
@@ -4904,7 +4916,7 @@ The Select Committee found that at least seven members of the Oath Keepers provi
 
 %%page 518%%
 
-Roger Stone in front of the Supreme Court on January 5, 2021 in Washington, DC. Photo by Tasos Katopodis/Getty Images
+*Roger Stone in front of the Supreme Court on January 5, 2021 in Washington, DC. Photo by Tasos Katopodis/Getty Images*
 
 Stone has a longstanding, close relationship with the Proud Boys. Stone has taken the Proud Boys oath[^230-6] and repeatedly defended the group.[^231-6] Danish documentarians filmed him working with Proud Boys for years.[^232-6] In one scene, filmed in 2019, Stone warmly greets Joe Biggs, a Proud Boys leader central to the Capitol violence. Stone says of Biggs: “My guy, right here.”[^233-6] In a 2019 court case, Stone identified Enrique Tarrio as one of his volunteers, explaining that Tarrio had access to his phone and could post to Stone’s Instagram account from it.[^234-6]
 
@@ -5030,11 +5042,13 @@ In the days that followed, users on TheDonald.win discussed: surrounding and occ
 
 TheDonald.win and its predecessor site was a website for some of its namesake’s most ardent fans. Even before President Trump was elected, his social media team monitored and interacted with the site’s users. In the summer of 2016, then-candidate Trump himself engaged in a written question and answer session on TheDonald, which at the time was a forum on Reddit.[^343-6] This online community, which had upwards of 790,000 users, was banned by Reddit in mid-2020.[^344-6] However, the site’s users migrated to another online location, becoming TheDonald.win.[^345-6]
 
-Dan Scavino, the President’s social media guru, amplified content from this website. During the 2016 presidential campaign, “a team in the war room at Trump Tower was monitoring social media trends, including TheDonald subreddit . . . and privately communicating with the most active users to seed new trends.”[^346-6] “Campaign staffers monitored Twitter and TheDonald subreddit, and pushed any promising trends up to social media director Dan Scavino, who might give them a boost with a tweet.”[^347-6] In 2017, President Trump tweeted a video of himself attacking CNN.[^348-6] The video had appeared on The Donald four days earlier.[^349-6] In 2019, *Politico* reported that Scavino “regularly monitors Reddit, with a particular focus on the pro-Trump /r/The\_Donald channel.”[^350-6] The Select Committee sought to question Scavino about how he and others on President Trump’s social media team interacted with The Donald subreddit and then TheDonald.win. But Scavino refused to cooperate with the committee’s subpoena.[^351-6]
+Dan Scavino, the President’s social media guru, amplified content from this website. During the 2016 presidential campaign, “a team in the war room at Trump Tower was monitoring social media trends, including TheDonald subreddit . . . and privately communicating with the most active users to seed new trends.”[^346-6] “Campaign staffers monitored Twitter and TheDonald subreddit, and pushed any promising trends up to social media director Dan Scavino, who might give them a boost with a tweet.”[^347-6] In 2017, President Trump tweeted a video of himself attacking CNN.[^348-6] The video had appeared on The Donald four days earlier.[^349-6] In 2019, *Politico* reported that Scavino “regularly monitors Reddit, with a particular focus on the pro-Trump /r/The\_Donald channel.”[^350-6]
 
 %%page 528%%
 
-White House social media director Dan Scavino Jr. Photo by Chip Somodevilla/Getty Images
+*White House social media director Dan Scavino Jr. Photo by Chip Somodevilla/Getty Images*
+
+The Select Committee sought to question Scavino about how he and others on President Trump’s social media team interacted with The Donald subreddit and then TheDonald.win. But Scavino refused to cooperate with the committee’s subpoena.[^351-6]
 
 After President Trump’s December 19th tweet, users on the site posted simple maps of the U.S. Capitol and telegraphed their intent to invade the building.[^352-6] “If we occupy the capitol building, there will be no vote,” one user wrote.[^353-6] “The media will call us evil if we have to occupy the Capitol Building on January 6th. Let them,” another post read.[^354-6] One user argued the goal should be to “surround the enemy” and “create [a] perimeter” around the Capitol on January 6th, such that no one was allowed to leave until President Trump was “re-admitted for another 4 years.”[^355-6] This same user posted a diagram of the U.S. Capitol’s perimeter with arrows indicating where the “Capitol Access Tunnels” were located.
 
@@ -5114,11 +5128,11 @@ Although his advisors tried to talk the President out of personally going, they 
 
 As Katrina Pierson helped plan the Ellipse rally, she faced another complication. The “Stop the Steal” movement played an outsized role in promoting January 6th. And now, as the day approached, its leading voices wanted prime speaking gigs — perhaps even on the same stage as President Trump. Roger Stone, Alex Jones and Ali Alexander were all angling for significant stage time. Pierson knew they were trouble.
 
-Photos of Roger Stone, Alex Jones and Ali Alexander appear on a screen during a Select Committee hearing on July 12, 2022. Photo by Anna Moneymaker/Getty Images
-
 In her testimony before the Select Committee, Pierson cited several concerns, including that Jones and Alexander had played a prominent role in the November 2020 protest in Atlanta, Georgia. This was no ordinary protest. Jones and Alexander “had gone into the Georgia Capitol with some inflammatory rhetoric,” Pierson explained.[^440-6] When Pierson was asked if Jones and Alexander “surrounding the governor’s mansion” and “going into the Capitol” were the “kind of thing” that gave her pause, she responded: “Absolutely.”[^441-6] After the Georgia protest, Pierson explained, the Kremers — who had helped organize “Stop the Steal” activities — distanced themselves from Jones and Alexander.[^442-6]
 
 %%page 535%%
+
+*Photos of Roger Stone, Alex Jones and Ali Alexander appear on a screen during a Select Committee hearing on July 12, 2022. Photo by Anna Moneymaker/Getty Images*
 
 But there was an additional problem. President Trump wanted to include the “Stop the Steal” leaders in the January 6th event. As Pierson put it in a text message to Kylie Kremer: “POTUS . . . likes the crazies.”[^443-6] Pierson said that she believed this was the case because President Trump “loved people who viciously defended him in public.”[^444-6] But their “vicious” defenses of the President clearly troubled Pierson.
 
@@ -5168,13 +5182,15 @@ On the evening of January 5th, the President edited the speech he would deliver 
 
 The initial draft circulated on January 5th emphasized that the crowd would march to the U.S. Capitol.[^478-6] Based on what they had heard from others in the White House, the speechwriting team expected President Trump to use his address to tell people to go to the Capitol.[^479-6]
 
-That evening, President Trump convened an impromptu gathering in the Oval Office with members of his staff, primarily his press team[^480-6] and White House Deputy Chief of Staff Dan Scavino, who was in charge of President Trump’s personal Twitter account.[^481-6] Despite the bitter cold, the President ordered his staff to keep the door to the Rose Garden open so he could hear the music and cheering from his supporters at Freedom Plaza.[^482-6] The music playing at Freedom Plaza was so loud “you could feel it shaking in the Oval.”[^483-6] As President Trump listened, he was tweeting, at one point telling his supporters he could hear them from the Oval Office.[^484-6] His speechwriters incorporated those tweets into a second draft of the speech that was circulated later that evening.[^485-6] The following appeared in both tweet form[^486-6] and was adapted into the speech:
+That evening, President Trump convened an impromptu gathering in the Oval Office with members of his staff, primarily his press team[^480-6] and White House Deputy Chief of Staff Dan Scavino, who was in charge of President Trump’s personal Twitter account.[^481-6] Despite the bitter cold, the President ordered his staff to keep the door to the Rose Garden open so he could hear the music and cheering from his supporters at Freedom Plaza.[^482-6] The music playing at Freedom Plaza was so loud “you could feel it shaking in the Oval.”[^483-6]
 
-President Trump and members of his staff in the Oval Office on the evening of January 5, 2021. Photo provided to the Select Committee by the National Archives and Records Administration.
+As President Trump listened, he was tweeting, at one point telling his supporters he could hear them from the Oval Office.[^484-6] His speechwriters incorporated those tweets into a second draft of the speech that was circulated later that evening.[^485-6] The following appeared in both tweet form[^486-6] and was adapted into the speech:
 
 > “All of us here today do not want to see our election victory stolen by emboldened Radical Left Democrats. Our Country has had enough, they won’t take it anymore! Together, we will STOP THE STEAL.”[^487-6]
 
 %%page 539%%
+
+*President Trump and members of his staff in the Oval Office on the evening of January 5, 2021. Photo provided to the Select Committee by the National Archives and Records Administration.*
 
 In speaking with staff, he still seemed optimistic that “Congress would take some sort of action in his favor.”[^488-6] The White House photographer, who was also in attendance, recalled that President Trump again remarked that he should go to the Capitol the next day, and even asked about the best route to get there.[^489-6] The President peppered staff for ideas concerning how “we could make the RINOs do the right thing” and make the next day “big.”[^490-6] Deputy Press Secretary Sarah Matthews, who was present in the Oval Office that evening, understood that President Trump wanted to get Republican Members of Congress to send the electoral votes back to the States, rather than certify the election.[^491-6] Matthews recalled that initially no one spoke up in response, since they were trying to “process” what he had said.[^492-6]
 
@@ -5192,7 +5208,7 @@ President Trump had summoned a mob, including armed extremists and conspiracy th
 
 %%page 576%%
 
-President Trump speaks at the January 6th Ellipse rally. (Photo by Tasos Katopodis/Getty Images)
+*President Trump speaks at the January 6th Ellipse rally. (Photo by Tasos Katopodis/Getty Images)*
 
 %%page 577%%
 
@@ -5226,11 +5242,13 @@ Multiple witnesses told the Select Committee that Minority Leader Kevin McCarthy
 
 There’s no question that President Trump had the power to end the insurrection. He was not only the Commander-in-Chief of the U.S. military, but also of the rioters.
 
-One member of the mob, Stephen Ayres, told the Select Committee that he and others quickly complied as soon as President Trump finally told them to go home. “[W]e literally left right after [President Trump’s 4:17 p.m. video] come out. You know, to me if he would have done that earlier in the day, 1:30 [p.m.] . . . maybe we wouldn’t be in this bad of a situation or something,” Ayres said.[^15-7] Another rioter, Jacob Chansley, commonly referred to as the “QAnon Shaman,” was one of the first 30 rioters to enter the U.S. Capitol. Chansley told a reporter that he left the building because “Trump asked everybody to go home.”[^16-7] At 4:25 p.m., just eight minutes after President Trump tweeted his video, an Oath Keeper named Ed Vallejo messaged other members of his group, a fair number of whom were at the Capitol: “Gentleman [sic], Our Commander-in-Chief has just ordered us to go home. Comments?”[^17-7] Even then, President Trump did not disavow the rioters. He endorsed their cause, openly sympathized with them, and repeated his Big Lie once again. “I know your pain, I know you’re hurt. We had an election that was stolen from us,” President Trump said at the beginning of his 4:17 p.m. video. “It was a landslide election, and everyone knows it, especially the other side. But you have to go home now. We have to have peace. We have to have law and order. We have to respect our great people in law and order. We don’t want anybody hurt.” The President portrayed the violence as something his political foes would use against him, saying: “This was a fraudulent election, but we can’t play into the hands of these people.”[^18-7]
+One member of the mob, Stephen Ayres, told the Select Committee that he and others quickly complied as soon as President Trump finally told them to go home. “[W]e literally left right after [President Trump’s 4:17 p.m. video] come out. You know, to me if he would have done that earlier in the day, 1:30 [p.m.] . . . maybe we wouldn’t be in this bad of a situation or something,” Ayres said.[^15-7] Another rioter, Jacob Chansley, commonly referred to as the “QAnon Shaman,” was one of the first 30 rioters to enter the U.S. Capitol. Chansley told a reporter that he left the building because “Trump asked everybody to go home.”[^16-7] At 4:25 p.m., just eight minutes after President Trump tweeted his video, an Oath Keeper named Ed Vallejo messaged other members of his group, a fair number of whom were at the Capitol: “Gentleman [sic], Our Commander-in-Chief has just ordered us to go home. Comments?”[^17-7]
 
-President Trump appears on a monitor in the White House briefing room depicting a video he released instructing rioters to go home. (Photo by Joshua Roberts/Getty Images)
+Even then, President Trump did not disavow the rioters. He endorsed their cause, openly sympathized with them, and repeated his Big Lie once again. “I know your pain, I know you’re hurt. We had an election that was stolen from us,” President Trump said at the beginning of his 4:17 p.m. video. “It was a landslide election, and everyone knows it, especially the other side. But you have to go home now. We have to have peace. We have to have law and order. We have to respect our great people in law and order. We don’t want anybody hurt.” The President portrayed the violence as something his political foes would use against him, saying: “This was a fraudulent election, but we can’t play into the hands of these people.”[^18-7]
 
 %%page 580%%
+
+*President Trump appears on a monitor in the White House briefing room depicting a video he released instructing rioters to go home. (Photo by Joshua Roberts/Getty Images)*
 
 The President concluded his short video by again praising the men and women who had overrun the U.S. Capitol. “We have to have peace. So go home. We love you. You’re very special,” President Trump said. “You’ve seen what happens. You see the way others are treated that are so bad and so evil. I know how you feel, but go home, and go home in peace.”[^19-7]
 
@@ -5248,8 +5266,6 @@ President Trump tweeted three times on the morning of January 6th, repeating a f
 
 There was one person—critical to his plan—whom President Trump tried to reach but couldn’t. At 9:02 a.m., he asked the switchboard operator to call his Vice President. Vice President Pence did not answer the call.[^29-7]
 
-President Trump speaks with speechwriter Stephen Miller about his Ellipse speech in the Oval Office on the morning of January 6, 2021. (Photo provided to the Select Committee by the National Archives and Records Administration)
-
 Instead, between 9:52 a.m. and 10:18 a.m., the President spoke with his speechwriter, Stephen Miller, about the words he would deliver at the Save America Rally just hours later.[^30-7] The former President’s speech had come together over the course of 36 hours, going from a screed aimed at encouraging congressional objections to one that would ultimately incite mob violence.[^31-7]
 
 Only four minutes after the call concluded, at 10:22 a.m., Miller emailed revisions to the speechwriters, instructing them to “[s]tart inputting these changes asap” that included “red highlights marking POTUS edits.”[^32-7] The President had made some cosmetic additions, like peppering in the word “corrupt” throughout,[^33-7] but there was one substantive edit—a new target—that would focus the crowd’s anger on one man.
@@ -5260,13 +5276,15 @@ None of the preceding drafts mentioned Vice President Pence whatsoever. But now,
 
 %%page 582%%
 
+*President Trump speaks with speechwriter Stephen Miller about his Ellipse speech in the Oval Office on the morning of January 6, 2021. (Photo provided to the Select Committee by the National Archives and Records Administration)*
+
 No one on the speechwriting team could explain why President Trump added these lines just 30 minutes before he was originally scheduled to speak at 11:00 a.m.[^35-7] But by 10:49 a.m., Vincent Haley, a speechwriter who was helping load the teleprompter at the Ellipse, was told to hold off and delete the mention of the Vice President—for now.[^36-7] Miller said that Eric Herschmann, a lawyer who was one of the President’s senior advisors, asked him in a “brief sidebar” that morning to omit reference to the Vice President and his role in the certification process because he “didn’t concur with the legal analysis” and that it “wouldn’t advance the ball” but would be “counterproductive” instead.[^37-7] As detailed in Chapter 5, Herschmann and others in the White House were vocal critics of Dr. John Eastman’s theory, which claimed that the Vice President had the unilateral power to reject electors during the joint session of Congress. President Trump repeatedly pressured Pence to either reject certified electors, or delay the electoral count based on Eastman’s unconstitutional and illegal theory. Vice President Pence would not budge. The Vice President consistently rejected President Trump’s demands.
 
 %%page 583%%
 
 After tweeting four more times that morning—all of them spreading lies about the election[^38-7]—the President apparently thought he had one last chance to convince his number two to overrule the will of the American people.
 
-President Trump on a phone call with Vice President Mike Pence in the Oval Office on the morning of January 6, 2021. (Photo provided to the Select Committee by the National Archives and Records Administration)
+*President Trump on a phone call with Vice President Mike Pence in the Oval Office on the morning of January 6, 2021. (Photo provided to the Select Committee by the National Archives and Records Administration)*
 
 As recounted in Chapter 5, President Trump called Vice President Pence at 11:17 a.m.[^39-7] The call between the two men—during which the President soon grew “frustrat[ed] or heated,”[^40-7] visibly upset,[^41-7] and “angry”[^42-7]—lasted nearly 20 minutes.[^43-7] And President Trump insulted Vice President Pence when he refused to obstruct or delay the joint session.
 
@@ -5284,7 +5302,7 @@ After the heated call, President Trump’s personal assistant Nicholas Luna hand
 
 ### 7.2 “I’ll Be There With You”
 
-President Trump looks backstage at the crowd gathered at the Ellipse. (Photo provided to the Select Committee by the National Archives and Records Administration)
+*President Trump looks backstage at the crowd gathered at the Ellipse. (Photo provided to the Select Committee by the National Archives and Records Administration)*
 
 From a tent backstage at the Ellipse, President Trump looked out at the crowd of approximately 53,000 supporters and became enraged. Just under half of those gathered—a sizeable stretch of about 25,000 people[^53-7]—refused to walk through the magnetometers and be screened for weapons,[^54-7] leaving the venue looking half-empty to the television audience at home.
 
@@ -5340,15 +5358,17 @@ In our initial informal discussion with the lead of the President’s detail, Ro
 
 Part of Hutchinson’s account was a secondhand description of what occurred in the Presidential vehicle, which built upon and was consistent with information the Committee has received informally.
 
-Hutchinson testified that, when she returned from the Ellipse, Ornato was standing outside his office door when he “waved me down,” Hutchinson said. The two of them walked into Ornato’s office, and he shut the door behind them.[^88-7] Engel was already there, sitting in a chair “looking down, kind of looking a little lost and kind of discombobulated.”[^89-7] According to Hutchinson, Ornato then recounted a struggle in the President’s car.[^90-7] At no point during Ornato’s telling—or at any point thereafter—did Engel indicate that what Ornato relayed was untrue.[^91-7]
+Hutchinson testified that, when she returned from the Ellipse, Ornato was standing outside his office door when he “waved me down,” Hutchinson said. The two of them walked into Ornato’s office, and he shut the door behind them.[^88-7] Engel was already there, sitting in a chair “looking down, kind of looking a little lost and kind of discombobulated.”[^89-7]
 
-Cassidy Hutchinson describes a story relayed to her by Tony Ornato about President Trump’s desire to go to the Capitol after the Ellipse speech on January 6th during a January 6th Select Committee hearing. (Photo by Brandon Bell/Getty Images)
+According to Hutchinson, Ornato then recounted a struggle in the President’s car.[^90-7] At no point during Ornato’s telling—or at any point thereafter—did Engel indicate that what Ornato relayed was untrue.[^91-7]
 
 Another witness, a White House employee with national security responsibilities, provided the Committee with a similar description: Ornato related the “irate” interaction in the presidential vehicle to this individual in Ornato’s White House office with Engel present.[^92-7] And just as Hutchinson testified, this employee told the Select Committee that Engel listened to Ornato’s retelling of the episode and did not dispute it: “I don’t remember his specific body language, but . . . [h]e did not deny the fact that the President was irate.”[^93-7] Engel testified that he does not recall either the conversation with Hutchinson or the similar conversation with the White House employee with national security responsibilities.[^94-7]
 
 The Committee regarded both Hutchinson and the corroborating testimony by the White House employee with national security responsibilities national security official as earnest and has no reason to conclude that either had a reason to invent their accounts. A different Secret Service agent, who served on a protective detail at the White House and was present in the presidential motorcade at the Ellipse, provided this view:
 
 %%page 589%%
+
+*Cassidy Hutchinson describes a story relayed to her by Tony Ornato about President Trump’s desire to go to the Capitol after the Ellipse speech on January 6th during a January 6th Select Committee hearing. (Photo by Brandon Bell/Getty Images)*
 
 > Committee Staff: Just a couple of additional questions. Ms. Hutchinson has suggested to the Committee that you sympathized with her after her testimony, and believed her account. Is that accurate?
 
@@ -5516,7 +5536,7 @@ Cipollone told the Select Committee that “there needed to be an immediate and 
 
 > Mr. Cipollone: Oh, I’m sorry. I apologize. I thought you said who else on the staff. [*Pauses to confer with counsel*] Yeah. I can’t reveal communications. But obviously I think, you know—yeah.[^176-7]
 
-Noose set up outside of the Capitol on January 6, 2021. (Photo by Drew Angerer/Getty Images)
+*Noose set up outside of the Capitol on January 6, 2021. (Photo by Drew Angerer/Getty Images)*
 
 What the President *did* tweet—a broadside at his Vice President—enlarged the target on Vice President Pence’s back. A Secret Service agent in the Protective Intelligence Division, tasked with monitoring threats against protectees in part by scouring social media, told his colleagues the tweet was “probably not going to be good for Pence.”[^177-7]
 
@@ -5566,11 +5586,7 @@ At 2:38 p.m., the President issued a tweet:[^202-7]
 
 Ivanka Trump told the Select Committee that the President “did not push back on [her] suggestion” to issue the tweet, and that it was either she or President Trump himself who suggested the last line, “Stay peaceful!”[^204-7] She confirmed there may have been some tweaking of the wording.[^205-7] McEnany, who was in the room at the time, wrote in her notes that “I say add ‘we support PEACEFUL protest.’ Ivanka add stay peaceful! Instead.”[^206-7] To the Select Committee, McEnany echoed Ivanka Trump that the President wasn’t resistant in any way to putting out the message.[^207-7]
 
-Sarah Matthews testifies at a January 6th Select Committee hearing. (Photo by House Creative Services)
-
 But in private, McEnany told a different story to her deputy Sarah Matthews.
-
-Testimony footage of former White House Press Secretary Kayleigh McEnany is played during a January 6th Select Committee hearing. (Photo by Pool/Getty Images)
 
 Back in the White House press office, Matthews told McEnany that the tweet did not go far enough in condemning the violence.[^208-7] McEnany—noting that other staffers in the room were distracted—said “in a hushed tone . . . that the President did not want to include any sort of mention of peace in that tweet.”[^209-7]
 
@@ -5581,6 +5597,10 @@ Ivanka Trump repeatedly returned to the dining room to counsel her father throug
 Several witnesses corroborated pieces of this account. General Kellogg said he saw Ivanka Trump coming and going from the dining room at least twice that afternoon.[^213-7] Hutchinson said that it was “several times.”[^214-7] Once, Ivanka Trump reportedly left her father with a look on her face as if “[s]he had just had a tough conversation.”[^215-7] Radford, Ivanka Trump’s Chief of Staff, saw that she was “[v]isibly upset” but continued going “down there when people were asking her to be down there and trying to get action taken.”[^216-7]
 
 %%page 600%%
+
+*Sarah Matthews testifies at a January 6th Select Committee hearing. (Photo by House Creative Services)*
+
+*Testimony footage of former White House Press Secretary Kayleigh McEnany is played during a January 6th Select Committee hearing. (Photo by Pool/Getty Images)*
 
 Radford told the Select Committee that Ivanka Trump believed that “[s]omething should be said or put out that was even stronger.”[^217-7]
 
@@ -5636,7 +5656,7 @@ This tweet—like the last one—didn’t tell the rioters to go home. It sugges
 
 ### 7.10 “We Love You. You’re Very Special”
 
-Guns are drawn in the House Chamber on January 6th as rioters attempt to break in. (Photo by Drew Angerer/Getty Images)
+*Guns are drawn in the House Chamber on January 6th as rioters attempt to break in. (Photo by Drew Angerer/Getty Images)*
 
 The President’s tweets were not tamping down on the violence, and White House staff knew it.[^247-7] By 3:17 p.m., Fox News was reporting gunshots on Capitol Hill. Law enforcement officers could be seen in the House chamber, pointing guns over the barricaded door: The chyron blared “Guns Drawn on House Floor.”[^248-7] Between 3:29 p.m. and 3:42 p.m., the network was flashing images of a protestor in the presiding officer’s chair, right where Vice President Pence had been sitting 90 minutes earlier.[^249-7] Other images showed Members of Congress trapped in the House gallery, crouching below the balcony for cover.[^250-7]
 
@@ -5676,13 +5696,13 @@ The Presidential Daily Diary notes that President Trump left the dining room to 
 
 The video shoot took place in the Rose Garden, the outdoor space that borders the Oval Office and the West Wing.[^271-7] The setup was not ornate, just a camera and a microphone. Luna made sure that the background and lighting looked good, and that President Trump’s hair and tie were in place.[^272-7] President Trump delivered his remarks in one take, more or less, although he stopped and restarted at one point.[^273-7] In all, the video took less than 4 minutes to shoot, and the President was back in the dining room by 4:07 p.m.[^274-7]
 
-President Trump huddles with aides, watching a completed take of a video through the monitor of the video camera. (Photo provided to the Select Committee by the National Archives and Records Administration)
-
 “I would stick to this script . . . ,” McEnany told President Trump before he stepped out to film.[^275-7]
 
 He didn’t.
 
 %%page 606%%
+
+*President Trump huddles with aides, watching a completed take of a video through the monitor of the video camera. (Photo provided to the Select Committee by the National Archives and Records Administration)*
 
 Kushner and others had drafted a statement, but President Trump spoke entirely off the cuff.[^276-7] Here’s what he said:
 
@@ -5740,7 +5760,7 @@ We know definitively what Giuliani was up to because he left a voice message for
 
 The President, too, was at home, but he remained focused on his goal. Between 6:54 p.m. and 11:23 p.m., he spoke with 13 people, some more than once.[^310-7] Of the 13, six ignored or expressly refused to comply with Select Committee requests for their testimony.[^311-7] Two agreed to appear but refused to answer questions about their phone calls with the President, citing executive privilege.[^312-7] Two more refused to answer questions, claiming attorney-client privilege.[^313-7]
 
-Mike Pence reopens the joint session of Congress and resumes counting electoral votes. (Photo by Will McNamee/Getty Images)
+*Mike Pence reopens the joint session of Congress and resumes counting electoral votes. (Photo by Will McNamee/Getty Images)*
 
 Of the 13, five were President Trump’s attorneys or lawyers who worked with him on efforts to reverse the outcome of the election. With one exception, each of these calls took place before 8:06 p.m., when Vice President Pence reopened the joint session of Congress and resumed counting the electoral votes.[^314-7] The President spoke with White House Counsel Pat Cipollone for 7 minutes at 7:01 p.m.[^315-7] He spoke with Kurt Olsen and Mark Martin, lawyers who both advised him on the Vice President’s role in the joint session:[^316-7] He spoke with Martin for 9 minutes at 7:30 p.m., and Olsen twice, for 11 minutes at 7:17 p.m. and for another 10 minutes at 7:40 p.m.[^317-7] He spoke with Cleta Mitchell, the lawyer leading his election challenges in Georgia, for 2 minutes at 7:53 p.m.[^318-7] The President spoke with Herschmann for 5 minutes at 10:50 p.m.[^319-7]
 
@@ -5856,7 +5876,7 @@ Unaffiliated Americans enraged by President Trump’s lies rioted as well. The J
 
 ### 8.1 The Mob Assembles in Washington
 
-Trump supporters from around the country gather at the Washington Monument on the morning of January 6, 2021. Photo by Brent Stirton/Getty Images
+*Trump supporters from around the country gather at the Washington Monument on the morning of January 6, 2021. Photo by Brent Stirton/Getty Images*
 
 During the early morning hours of January 6th, tens of thousands of Americans from around the country began to gather at the Ellipse and the Washington Monument. They had come to hear President Trump speak and, more importantly, for his “wild” protest.
 
@@ -5916,7 +5936,7 @@ Tarrio posted a similar message, saying the Proud Boys would go “incognito” 
 
 Zachary Rehl (a.k.a. “Captain Trump”) was president of the local Philadelphia, Pennsylvania Proud Boys chapter.[^66-8] Like his comrades, Rehl believed President Trump’s Big Lie about the 2020 Presidential election.[^67-8] He raised more than $5,500 in funds for January 6th. Like Nordean, Biggs and others, Rehl was dressed “incognito” as he helped lead the group from the Washington Monument.[^68-8]
 
-Protestors, including a group of Proud Boys, gather at the Capitol on January 6, 2021. Photo by Jon Cherry/Getty Images
+*Protestors, including a group of Proud Boys, gather at the Capitol on January 6, 2021. Photo by Jon Cherry/Getty Images*
 
 Shortly after 11:00 a.m., the Proud Boys arrived at the west side of the Capitol, near a reflecting pool. From there, they marched to the east front of the Capitol. Surveillance footage shows the Proud Boys passing Garfield Circle on the southwest corner of the Capitol at 11:15 a.m.[^69-8] They walked north towards the Peace Circle next, and surveillance cameras captured them on video there at approximately 11:21 a.m.[^70-8] There was just one USCP officer standing guard at the Peace Circle fence at the time.[^71-8]
 
@@ -5962,13 +5982,15 @@ On the way to the Capitol, Oath Keeper Jessica Watkins chatted with others in a 
 
 Leaders of the “Stop the Steal” movement continued to incite the crowd during the march as well. Alex Jones of InfoWars arrived at the Ellipse shortly before 9:00 a.m. on the morning of January 6th.[^107-8] After some initial difficulty gaining access to the event area, Jones was seated in the VIP section.[^108-8] While Jones stayed to listen to a portion of President Trump’s speech, planning for the crowd’s march to the Capitol was already underway and Jones intended to leave the Ellipse early to lead the march. The origins of the plan to have Jones lead the march are unclear. Jones has publicly stated that “the White House told me three days before, we are going to have you lead the March.”[^109-8] Stop the Steal’s Ali Alexander also believed “the White House” wanted him to lead a march to the Capitol.[^110-8] It is likely that both got that idea from Caroline Wren, a Republican fundraiser who helped organize the Ellipse event.[^111-8] Jones texted Wren at 12:27 p.m., asking when he should leave the Ellipse and begin the march.[^112-8]
 
-While Wren originally expected Jones, Roger Stone, and retired Lt. Gen. Flynn to march to the Capitol, Stone did not attend the Ellipse rally and so he was not present to accompany Jones on the march as planned.[^113-8] Additionally, while President Trump was delivering his speech, Wren asked Flynn if he was going to march with Jones. Flynn responded, “Hell, no. It’s freezing.”[^114-8] While Stone and Flynn did not march, Jones and Alexander led others to the Capitol, though it is not clear how many people followed them.[^115-8] Jones and Alexander gathered with Jones’s camera and security crew just outside the event perimeter, near Freedom Plaza, to discuss their plans.[^116-8] The discussion, recorded by Alex Jones’s film crew, sheds some light on what Jones and Alexander knew about the President’s plans and what they intended for the march. The group, which included InfoWars host Owen Shroyer, huddled outside the Ellipse security perimeter to discuss how best to proceed. They tried to predict the Presidential motorcade’s route to the Capitol. The video shows Alex Jones telling his crew, “I think the Wren lady, where’s she at? She knows what they said they were going to do. Everything she’s said has been accurate, so we need to call her real quick.”[^117-8] They then decided to walk down Pennsylvania Avenue, as the President had directed in his speech.
+While Wren originally expected Jones, Roger Stone, and retired Lt. Gen. Flynn to march to the Capitol, Stone did not attend the Ellipse rally and so he was not present to accompany Jones on the march as planned.[^113-8] Additionally, while President Trump was delivering his speech, Wren asked Flynn if he was going to march with Jones. Flynn responded, “Hell, no. It’s freezing.”[^114-8]
 
-Alex Jones uses a bullhorn to speak to crowd on January 6, 2021. Photo by Jon Cherry/Getty Images
+While Stone and Flynn did not march, Jones and Alexander led others to the Capitol, though it is not clear how many people followed them.[^115-8] Jones and Alexander gathered with Jones’s camera and security crew just outside the event perimeter, near Freedom Plaza, to discuss their plans.[^116-8] The discussion, recorded by Alex Jones’s film crew, sheds some light on what Jones and Alexander knew about the President’s plans and what they intended for the march. The group, which included InfoWars host Owen Shroyer, huddled outside the Ellipse security perimeter to discuss how best to proceed. They tried to predict the Presidential motorcade’s route to the Capitol. The video shows Alex Jones telling his crew, “I think the Wren lady, where’s she at? She knows what they said they were going to do. Everything she’s said has been accurate, so we need to call her real quick.”[^117-8] They then decided to walk down Pennsylvania Avenue, as the President had directed in his speech.
 
 Shroyer recommended the group wait for President Trump to finish speaking, and they agreed to at least delay their departure from Freedom Plaza to allow Jones to gather a crowd.[^118-8] Jones began speaking from his bullhorn, imploring people to gather and walk down Pennsylvania Avenue.[^119-8] While using the bullhorn, Jones told the crowd that they were experiencing “the second American revolution,”[^120-8] and stated, “[l]et’s go take our country back. Trump is only minutes away. Let’s start marching to the Capitol, peacefully.”[^121-8]
 
 %%page 649%%
+
+*Alex Jones uses a bullhorn to speak to crowd on January 6, 2021. Photo by Jon Cherry/Getty Images*
 
 Proud Boys were among the crowd Jones gathered during his march. Matthew Walter, president of a Tennessee chapter of the organization,[^122-8] was near the National Mall with two other Proud Boys from Tennessee and decided to join Jones.[^123-8] Other, more prominent members of the Proud Boys appear to have been in contact with Jones and Shroyer about the events of January 6th and on that day. Records for Enrique Tarrio’s phone show that while the attack on the Capitol was ongoing, he texted with Jones three times and Shroyer five times.[^124-8] Ethan Nordean’s phone records reflect that he exchanged 23 text messages with Shroyer between January 4th and 5th, and that he had one call with him on each of those days.[^125-8] Records of Joseph Biggs’s communications show that he texted with Shroyer eight times on January 4th and called him at approximately 11:15 a.m. on January 6th, while Biggs and his fellow Proud Boys were marching at and around the Capitol.[^126-8]
 
@@ -5988,7 +6010,7 @@ Minutes after Jones’s arrival on the scene, at approximately 2:06 p.m., rioter
 
 Far-right extremists continued to lead the charge as protestors streamed onto the U.S. Capitol’s restricted grounds. On the north side of the West Plaza, there was a scaffold with stairs used by construction workers to build the inauguration stage. Law enforcement officers were stationed at the base of the stairs, preventing rioters from climbing to the upper West Plaza, where doors to the Capitol building itself were located. At 1:49 p.m., MPD declared a riot at the Capitol.[^136-8]
 
-Rioters clash with police at the Capitol on January 6, 2021. Photo by Brent Stirton/Getty Images
+*Rioters clash with police at the Capitol on January 6, 2021. Photo by Brent Stirton/Getty Images*
 
 Shortly before 1:50 p.m., rioters gathered in front of this scaffold on the northwest corner of the Capitol. The rioters included Proud Boys and other extremists. One rioter, Guy Reffitt, belonged to a Three Percenter group from Texas.[^137-8] By approximately 1:50 p.m., he stood at the front of the pack near the scaffold, carrying a pistol and flexicuffs.[^138-8] He wore body armor under a blue jacket and a helmet with a mounted body camera.[^139-8]
 
@@ -6020,11 +6042,11 @@ The first person to enter the Capitol building was a Kentucky native named Micha
 
 As Pezzola entered the building, he was joined by other noteworthy extremists and conspiracy theorists. Robert Gieswein, an individual from Colorado affiliated with Three Percenters who espoused conspiracy beliefs, climbed through the Senate wing window.[^164-8] Doug Jensen, a QAnon adherent, was part of this first cadre of people to enter the Capitol as well.[^165-8] Jensen wore a brazen “Q” shirt. Jensen later told authorities that he “intentionally positioned himself to be among the first people inside the United States Capitol because . . . he wanted to have his t-shirt seen on video so that ‘Q’ could ‘get the credit.’”[^166-8] Another prominent QAnon believer, Jacob Chansley (a.k.a. the “QAnon Shaman”), also entered through the Senate wing door at approximately 2:14 p.m.[^167-8]
 
-Doug Jensen and rioters confront police after storming the Capitol. (Photo by Win McNamee/Getty Images)
-
 White supremacists and Confederate sympathizers were among the first rioters to enter the U.S. Capitol. Kevin Seefried and his son, Hunter, entered the building at approximately 2:13 p.m. through the Senate wing window smashed by Proud Boy Dominic Pezzola.[^168-8] Kevin Seefried carried a Confederate Battle Flag with him and unfurled it inside the building. According to some historians, while the Confederate Flag has appeared in the building before, it was the first time that an insurrectionist ever carried the banner inside the U.S. Capitol.[^169-8] According to court filings, Hunter Seefried helped punch out the Senate wing window and then clear the broken glass before he, his father and others entered the Capitol.[^170-8] Kevin Seefried was found guilty of obstructing an official proceeding, which is a felony offense, as well as four misdemeanors.[^171-8] The Department of Justice has alleged that at 2:16 p.m., just 3 minutes after the Senate wing was first breached, five individuals associated with the Nick Fuentes’s white nationalist “America First” movement entered the U.S. Capitol.[^172-8] The five, all of whom are in their 20s, have been identified as: Joseph Brody, Thomas Carey, Gabriel Chase, Jon Lizak, and Paul Lovley.[^173-8] Four of the five “initially met at an America First event and attended subsequent events together.”[^174-8] Nick Fuentes and other America First leaders espouse “a belief that they are defending against the demographic and cultural changes in America.”[^175-8] Online researchers say that Brody is the masked man seen in a photo wearing a MAGA hat and holding a rifle in front of a Nazi flag.[^176-8] (The photo was not taken on January 6th.) As discussed in Chapter 6, members of the America First movement, commonly known as “Groypers,” were well-represented at “Stop the Steal” events in late 2020 and these rallies helped pave the road to January 6th. Indeed, at least three members of the group—Lovley, Lizak and Chase—attended the “Stop the Steal, March for Trump” rally in Washington, DC on November 14, 2020.[^177-8]
 
 %%page 654%%
+
+*Doug Jensen and rioters confront police after storming the Capitol. (Photo by Win McNamee/Getty Images)*
 
 %%page 655%%
 
@@ -6100,11 +6122,13 @@ One minute later, the mob violently pushed through the USCP officers in the Cryp
 
 After breaking through the police line in the Crypt, the mob pursued USCP officers as they retreated to the U.S. Capitol Visitor’s Center (CVC). Pruitt was among the rioters who advanced into the CVC, where he came close to Senator Chuck Schumer.[^254-8] When the USCP officers attempted to lower metal barriers to halt the crowd’s momentum, another small group of Proud Boys immediately interceded to prevent the barricades from coming down.[^255-8] The Proud Boy contingent included three men from the Kansas City, Kansas area: William Chrestman,[^256-8] Chris Kuehne,[^257-8] and Louis Colon.[^258-8] Felicia Konold and Cory Konold, two Proud Boy associates from Arizona, joined the Kansas City group while marching from the Washington Monument to the Capitol earlier in the day and were on the scene.[^259-8] Two other Proud Boys, Nicholas Ochs and Nicholas DeCarlo, filmed the incident.[^260-8]
 
-Surveillance footage shows Chrestman using a wooden club, or modified axe handle, to prevent the barrier from being lowered to the floor.[^261-8] Colon later admitted to authorities that he purchased and modified an axe handle “to be used as both a walking stick and an improvised weapon” on January 6th.[^262-8] Colon also told authorities that he attended a meeting with Chrestman and others on the night of January 5th, during which someone asked, “do we have patriots here willing to take it by force?” Colon understood that the individual meant that they should use “force against the government.” This same individual commented that they should “go in there and take over.”[^263-8] At 2:36 p.m., the mob pushed through a line of USCP officers guarding the House Chamber.[^264-8] Rioters also entered the Senate Chamber.[^265-8] Within minutes, Jacob Chansley (a.k.a. the QAnon Shaman) entered the Senate Chamber, making his way to the Senate dais, where Vice President Pence had been presiding over the joint session. An officer asked Chansley to vacate the dais, but instead he shouted, “Mike Pence is a fucking traitor.” Chansley also left a note that read: “It’s Only a Matter of Time. Justice is Coming!”[^266-8] Surrounded by others, Chansley held a conspiracy-laden prayer session, saying: “Thank you for allowing the United States of America to be reborn. Thank you for allowing us to get rid of the communists, the globalists, and the traitors within our government.”[^267-8] Other extremists, including at least one associate of the white nationalist “America First” movement, also sat in the Vice President’s seat.[^268-8]
+Surveillance footage shows Chrestman using a wooden club, or modified axe handle, to prevent the barrier from being lowered to the floor.[^261-8] Colon later admitted to authorities that he purchased and modified an axe handle “to be used as both a walking stick and an improvised weapon” on January 6th.[^262-8] Colon also told authorities that he attended a meeting with Chrestman and others on the night of January 5th, during which someone asked, “do we have patriots here willing to take it by force?” Colon understood that the individual meant that they should use “force against the government.” This same individual commented that they should “go in there and take over.”[^263-8]
 
 %%page 661%%
 
-Rioters enter the Senate Chamber. Photo by Win McNamee/Getty Images
+*Rioters enter the Senate Chamber. Photo by Win McNamee/Getty Images*
+
+At 2:36 p.m., the mob pushed through a line of USCP officers guarding the House Chamber.[^264-8] Rioters also entered the Senate Chamber.[^265-8] Within minutes, Jacob Chansley (a.k.a. the QAnon Shaman) entered the Senate Chamber, making his way to the Senate dais, where Vice President Pence had been presiding over the joint session. An officer asked Chansley to vacate the dais, but instead he shouted, “Mike Pence is a fucking traitor.” Chansley also left a note that read: “It’s Only a Matter of Time. Justice is Coming!”[^266-8] Surrounded by others, Chansley held a conspiracy-laden prayer session, saying: “Thank you for allowing the United States of America to be reborn. Thank you for allowing us to get rid of the communists, the globalists, and the traitors within our government.”[^267-8] Other extremists, including at least one associate of the white nationalist “America First” movement, also sat in the Vice President’s seat.[^268-8]
 
 While law enforcement fought to contain the mob inside the Capitol, the fighting raged outside as well. Key agitators continued to fire up the crowd. Nick Fuentes, the leader of the “America First” movement, amplified President Trump’s rhetoric aimed at Vice President Pence, including the President’s 2:24 p.m. tweet.[^269-8] Speaking through a bullhorn while standing on the Peace Monument, Fuentes shouted:
 
@@ -6118,11 +6142,11 @@ After surging through the West Plaza, rioters quickly headed towards the West Pl
 
 Throughout the afternoon, members of the mob struck officers with weapons, shot them with OC (or pepper) spray, and dragged officers from the tunnel into the crowd. Lucas Denney, a Three Percenter from Texas who carried a baton on January 6th, pushed a riot shield into and on top of police officers at the tunnel. The crowd chanted “heave-ho!” as Denney did so.[^276-8] Jeffrey Scott Brown sprayed a chemical or pepper spray at officers and pushed the front of the line in the tunnel.[^277-8] Kyle Young, a January 6th defendant with a long prior criminal history, participated in multiple assaults and violence at the tunnel, including using a pole to jab at police officers.
 
-Rioters assault police officers at a tunnel to the Capitol. Photo by Brent Stirton/Getty Images
-
 Young’s 16-year-old son was present during the fighting.[^278-8] Robert Morss, a former Army Ranger who wore a military-style vest, participated in a heave-ho effort in the tunnel where he and rioters had created a shield wall.[^279-8] Peter Schwartz and another rioter passed a large cannister of spray back and forth before Schwartz’s companion sprayed officers and then the two joined in the heave-ho.[^280-8]
 
 %%page 663%%
+
+*Rioters assault police officers at a tunnel to the Capitol. Photo by Brent Stirton/Getty Images*
 
 One of the most brutal attacks of the day occurred outside the tunnel when rioters dragged MPD Officer Michael Fanone into the crowd, and then tased, beat, and robbed him while a Blue Lives Matter flag fluttered above him. Albuquerque Head, a rioter from Tennessee, grabbed Officer Fanone around the neck and pulled him into the mob.[^281-8] “I got one!” Head shouted.[^282-8] Lucas Denney, the Three Percenter, “swung his arm and fist” at Officer Fanone, grabbed him, and pulled him down the stairs.[^283-8] Daniel Rodriguez then tased him in the neck. Kyle Young lunged towards Officer Fanone, restraining the officer’s wrist.[^284-8] While Young held him, still another rioter, Thomas Sibick, reached towards him and forcibly removed his police badge and radio.[^285-8] Officer Fanone feared they were after his gun. Members of the crowd yelled: “Kill him!,” “Get his gun!” and “Kill him with his own gun!”[^286-8]
 
@@ -6148,7 +6172,7 @@ On the House side, Speaker Pelosi, House Majority Leader Steny Hoyer, and House 
 
 Minority Leader Kevin McCarthy was evacuated just after Speaker Pelosi left the Capitol. At 2:25 p.m., as rioters were moving through the Crypt and breaking through the east Rotunda door, Leader McCarthy and his staff hurriedly evacuated his office.[^305-8] At approximately 2:38 p.m., the Members of Congress on the House floor began their evacuation.[^306-8] Members of Congress can be seen evacuating through the Speaker’s Lobby when a USCP officer fatally shot Ashli Babbitt at 2:44 p.m.[^307-8] Members and staffers were just feet away when Babbitt attempted to climb through a shattered glass door. USCP officers had barricaded the door with furniture to prevent the rioters from gaining direct access to elected officials.
 
-Members of Congress are evacuated from the House Chamber. (Photo by Drew Angerer/Getty Images)
+*Members of Congress are evacuated from the House Chamber. (Photo by Drew Angerer/Getty Images)*
 
 %%page 666%%
 
@@ -6186,13 +6210,13 @@ After 5:00 p.m., it appears that law enforcement directed their attention to cle
 
 At 5:13 p.m., on the opposite side of the lower West Plaza, officers pushed the mob down the scaffold stairs and to the lower West Plaza.[^328-8] These are the same stairs that rioters, led by the Proud Boys and other extremists, had previously climbed before reaching the Senate wing door.
 
-Police officers form line to push rioters away from the Capitol building. (Photo by Spencer Platt/Getty Images)
+*Police officers form line to push rioters away from the Capitol building. (Photo by Spencer Platt/Getty Images)*
 
 %%page 669%%
 
 Once the rioters from the tunnel and the scaffold were all situated on the lower West Plaza, officers formed another line and started walking the mob back towards the grass—which was away from the actual Capitol building. The line appears to have been fully formed at 5:19 p.m., and the officers started their sweep at 5:30 p.m.[^329-8] By 5:37 p.m., police officers pushed rioters back to the grassy area away from the Capitol. It was at this time that no rioters appeared to be in or around the Capitol building.[^330-8] At 6:56 p.m., a little more than an hour after the Capitol grounds were cleared, Vice President Pence returned to the Capitol from the loading dock.[^331-8] Vice President Pence walked up the stairs in the basement of the Capitol to his office in the Senate at 7:00 p.m.[^332-8]
 
-Vice President Pence and Speaker Pelosi preside over the joint session of Congress. Photo by Erin Schaff—Pool/Getty Images
+*Vice President Pence and Speaker Pelosi preside over the joint session of Congress. Photo by Erin Schaff—Pool/Getty Images*
 
 Shortly after 8:00 p.m., the joint session of Congress resumed, with Vice President Pence saying: “Let’s get back to work.”[^333-8] At 3:32 a.m., the Congress completed the counting of the votes and certified the election of Joseph R. Biden, Jr. as the 46th President of the United States.
 
@@ -6254,7 +6278,7 @@ The Committee has been troubled by evidence that President Trump’s possible us
 
 ## APPENDIX 1: GOVERNMENT AGENCY PREPARATION FOR AND RESPONSE TO JANUARY 6TH
 
-### Introduction
+#### Introduction
 
 The Select Committee investigated the facts relating to law enforcement entities’ preparation for, and response to, the January 6th events at the Capitol, including the character of the intelligence prior to the insurrection. This appendix does not address the cause of the attack, which resulted from then President Trump’s multi-pronged effort to overturn the 2020 presidential election.
 
@@ -6268,9 +6292,9 @@ Nevertheless, as explained below, and in multiple hearings by the Committee on H
 
 %%page 694%%
 
-### Discussion
+#### Discussion
 
-#### Intelligence Received by Government Agencies
+##### Intelligence Received by Government Agencies
 
 On December 19, 2020, President Trump tweeted: “Big protest in D.C. on January 6th. Be there, will be wild!”[^2-71] Following President Trump’s tweet, an analyst at the National Capital Region Threat Intelligence Consortium (NTIC) noticed a tenfold uptick in violent online rhetoric targeting Congress and law enforcement.[^3-71] The analyst also noticed that violent right-wing groups that had not previously been aligned had begun coordinating their efforts.[^4-71] These indications reached the head of the D.C. Homeland Security and Emergency Management Agency (HSEMA), Christopher Rodriguez, as well as incoming Chief of D.C. Metropolitan Police Department (MPD) Robert Contee.[^5-71] Chief Contee remembered that the information prompted the DC Police to “change the way that we were going to deploy for January the 6th.”[^6-71]
 
@@ -6302,7 +6326,7 @@ On January 5, 2021, at 12:19 p.m., the Architect of the Capitol head of security
 
 The FBI was uploading to, and tagging in, its system incoming information from all FBI field offices about January 6th under the label, “CERTUNREST2021.” While the incoming information was reviewed on a regular basis by the Washington Field Office, “unified monitoring” of the items in the aggregate didn’t begin until January 5th.[^41-71] That same day, the FBI captured a January 6th-related threat that warned a “Quick Reaction Force” of Trump supporters was preparing for January 6th in Virginia with weapons and prepared “to respond to ‘calls for help’” in the event that “protesters believed the police were not doing their job,” and a “Situation Incident Report” from FBI’s Norfolk Field Office warned of a “war” on January 6th.[^42-71] While Capitol Police leadership received neither warning until after the attack,[^43-71] Assistant Director Farnam, USCP intelligence unit, warned that Congress would be the target on January 6th. She noted that a “sense of desperation and disappointment may lead to more of an incentive to become violent. Unlike previous post-election protests, Congress itself is the target on the 6th.”[^44-71] The Chairman of the Joint Chiefs of Staff, General Mark Milley, remembers Deputy Secretary of Defense David Norquist expressing a similar view based on the social media traffic in early January 2021: “Norquist says . . . [t]he greatest threat is a direct assault on the Capitol. I’ll never forget it.”[^45-71]
 
-#### Discussion of the Potential for Violence
+##### Discussion of the Potential for Violence
 
 Federal and local agencies agreed that there was a potential for violence on January 6th. As noted above, the intelligence leading up to January 6th did not support a conclusion that Antifa or other left-wing groups would likely engage in a violent counter-demonstration, or attack President Trump’s supporters on January 6th. In fact, none of these groups was involved to any material extent with the attack on the Capitol on January 6th.
 
@@ -6314,11 +6338,11 @@ General Milley said the potential for violence was clear to all: “Everyone kne
 
 Acting Deputy Attorney General Richard Donoghue described the discussion about the threat landscape as “generally about left-wing, right wing, or Pro-Trump, anti-Trump groups coming to the Capitol. It didn't really matter what they called themselves. It was a matter of they're upset, they're coming to the Capitol, and there's a potential for violence.”[^51-71] Donoghue added: “Everyone knew what everyone else was doing. Everyone knew that there was a danger of violence. Everyone knew that the Capitol and other facilities were potential targets. And I think we all felt comfortable that we were aware what the situation was, and we had the resources in place to address it.”[^52-71]
 
-#### Operationalization of January 6-Related Intelligence
+##### Operationalization of January 6-Related Intelligence
 
 Preparing for January 6th required coordination among the several local and Federal law enforcement agencies that have distinct authorities and jurisdiction over adjacent areas in the Washington, DC, area. These range from the MPD, United States Park Police (USPP), and USSS to the USCP.
 
-##### DC Government Preparation
+###### DC Government Preparation
 
 ###### December 30, 2020, HSEMA briefing
 
@@ -6342,7 +6366,7 @@ After the DC HSEMA’s December 30th intelligence briefing, MPD Chief Contee ord
 
 %%page 700%%
 
-##### U.S. Capitol Police Preparation
+###### U.S. Capitol Police Preparation
 
 On January 3rd, the same day Capitol Police’s Intelligence and Interagency Coordination Division (IICD) issued a threat assessment indicating that “Congress itself is a target,” Chief Sund called House Sergeant-at-Arms Paul D. Irving to discuss requesting the DC National Guard to assist in policing the Capitol’s perimeter.[^70-71] Chief Sund needed approval from the Capitol Police Board, which consisted of Irving, Senate Sergeant-at-Arms Michael C. Stenger, and the Architect of the Capitol J. Brett Blanton. Chief Sund remembers that Irving responded immediately that he did not “like the optics” and that the intelligence did not support the request.[^71-71] Irving, however, remembers Chief Sund calling him to say the DC National Guard had offered 125 unarmed National Guardsmen to the USCP and MPD.[^72-71] He also remembered that, during a conference call, Chief Sund told Stenger and him that the National Guard would be utilized in similar fashion to the assistance provided to the DC police, namely, staffing intersections, and for traffic control to free up officers, but then could be used for crowd control, although he acknowledged that the Capitol campus does not have many intersections in need of staffing.[^73-71]
 
@@ -6352,7 +6376,7 @@ USCP leadership did not create a department-wide plan for the January 6th event.
 
 %%page 701%%
 
-##### Government Agency Preparation
+###### Government Agency Preparation
 
 ###### Interagency Coordination
 
@@ -6392,7 +6416,7 @@ On January 4th, “Women for America First” requested that the NPS increase th
 
 At the White House, the increased crowd estimate concerned Bobby Peede, Director of Presidential Advance, who emailed White House Deputy Chief of Operations Anthony Ornato, noting that the USSS was planning on using only 12 magnetometers. Peede added that “the mag issue is a pretty major problem if the expected crowd shows up.” Secret Service documents reveal internal discussion of an initial USSS assessment that 17 magnetometers would be needed. On January 6th, only 10 magnetometers were initially assigned to the Ellipse.[^115-71]
 
-##### Agency Preparations for January 6th
+###### Agency Preparations for January 6th
 
 ###### January 5th Congressional Briefing by Chief Sund and Paul Irving
 
@@ -6400,7 +6424,7 @@ On January 5th, Chief Sund briefed the Chairperson of the Committee on House Adm
 
 Speaker Pelosi did not receive a similar briefing, but her chief of staff was given a readout of Chief Sund’s briefing to Chairperson Lofgren. On that basis, as well as the assurances Chief Sund provided, the Speaker’s chief of staff said, “So I believed and the Speaker believed the security professionals were in charge of the security and they were prepared. We were told that there was a plan.”[^119-71]
 
-#### Federal Agency Response on January 6th
+##### Federal Agency Response on January 6th
 
 Although intelligence was available suggesting potential violence at the Capitol, it was not apparent exactly what President Trump would do to provoke the crowd at the January 6th Ellipse rally. Chief Sund, for example, drove into work on January 6th believing that preparations for the day’s events were sound and that there was no extraordinary risk or threat. “You know, on my way in, I called Inspector Glover with MPD just to get a read. He said he was actually parked over by the Ellipse. Asked him, Hey, how are things going over there? He said, there's big crowds, lots of people in line, but right now he wasn't seeing any concern with the folks that we had. So that was my initial take,” Sund told the Select Committee.[^120-71]
 
@@ -6486,15 +6510,15 @@ While the danger to the Capitol posed by an armed and angry crowd was foreseeabl
 
 ## APPENDIX 2: DC NATIONAL GUARD PREPARATION FOR AND RESPONSE TO JANUARY 6TH
 
-### Introduction
+#### Introduction
 
 H. Res. 503 Section 4(a) directs the Select Committee to examine the “facts, circumstances, and causes relating to the domestic terrorist attack on the Capitol,” including the “activities of intelligence agencies, law enforcement agencies, and the Armed Forces, including with respect to intelligence collection, analysis, and dissemination and information sharing among the branches and other instrumentalities of government.” This appendix focuses on the activities of the DC National Guard in the days leading up to and on January 6, 2021.
 
 In contrast to the National Guard units in 50 States and three territories, where deployment authority lies with the governor of those respective jurisdictions, the DC Guard falls directly under the command of the United States President. In the discussion section below, this appendix provides a narrative of the preparations for and eventual deployment of the DC Guard on January 6th, and the interaction between then-President Trump and the DC Guard in the relevant time period. It is based on the Select Committee’s interviews of 24 witnesses and review of over 37,000 pages of documents.
 
-### Discussion
+#### Discussion
 
-#### A “Gut-wrenching” Summer
+##### A “Gut-wrenching” Summer
 
 The approval process for the deployment of the DC National Guard is unique, unlike any of the 50 States or three territories across the country where ultimate authority rests in the hands of the governor.[^1-72] In the nation’s capital, where no governorship exists, the Guard is ultimately under the command of the President of the United States when acting in its militia capacity to support civil authorities.[^2-72] By executive order, however, President Richard Nixon delegated the President’s day-to-day control of the DC Guard to the Secretary of Defense and specified that its Commanding General should report to the Secretary of Defense or the Secretary’s designee.[^3-72] By memorandum, the Secretary of Defense, in turn, delegated day-to-day control of the DC Guard to the Secretary of the Army.[^4-72] The commander of the DC Guard reported directly to the Secretary of the Army on January 6, 2021.[^5-72]
 
@@ -6522,7 +6546,7 @@ Major General Walker said he was not told about that shift in perspective: “[I
 
 In the words of General Milley, the summer of 2020 had been “a pretty gut-wrenching experience.”[^30-72] The Department of Defense was still recovering when it was faced with the decision of the manner and degree to which the DC Guard should provide assistance to law enforcement authorities planning, just seven months later, for the events anticipated in connection with Congressional certification of the electoral votes on January 6, 2021.
 
-##### A “Tailored” Request for Guard Resources
+###### A “Tailored” Request for Guard Resources
 
 On December 19, 2020, President Trump tweeted, “Big protest in DC on January 6th. Be there! Will be wild!” From that day forward, a rookie DC intelligence analyst saw a tenfold uptick in violent rhetoric targeting Congress and law enforcement.[^31-72] Right-wing groups were sharing histories of violence and some not traditionally aligned had begun coordinating their efforts.[^32-72] The analyst’s report reached more senior DC leadership, including, eleven days later, Mayor Bowser.[^33-72] In the course of the Committee’s investigation, it received and reviewed a significant number of documents indicating that certain intelligence and law enforcement agencies understood that violence was possible or even likely on January 6th. The Committee received many of those materials from the U.S. Secret Service, but also from other agencies as well.
 
@@ -6538,7 +6562,7 @@ The substance of the request—limited to traffic and crowd control “so they c
 
 “Civil disturbance was not something we requested at that time. Mostly also because the vast majority of the, if not all, of the permitted protests were taking place on Federal lands,” said Director of the DC Homeland Security and Emergency Management Agency Christopher Rodriguez.[^44-72] The District had no jurisdiction. “Mayor Bowser cannot make a request on behalf of the White House or on behalf of the Capitol for U.S. Capitol—for . . . DC National Guardsmen to deploy to those two entities. She can’t,” Chief Contee said.[^45-72] At this time, it was well known that President Trump had planned a speech and rally on “Federal lands”—on the Ellipse south of the White House. It was not widely known that President Trump intended to “spontaneously” instruct the tens of thousands of supporters at that Ellipse rally to march down Pennsylvania Avenue to the Capitol.[^46-72]
 
-##### Five Days of “Tremendous Resistance”
+###### Five Days of “Tremendous Resistance”
 
 At first, Secretary McCarthy was not sold on involving the Guard at all. Major General Walker called Secretary McCarthy “instantly when I got the letters” from the District on Thursday, December 31st, and “initially I felt I must have caught him at a bad time.”[^47-72] Secretary McCarthy recalls it being a short conversation. “I said, ‘okay, got it. Thank you.’ You want to immediately flip it so that Secretary of Defense knows that we alerted his office,” he said.[^48-72]
 
@@ -6566,7 +6590,7 @@ Military authorities determined that a geographical boundary would have to be es
 
 Director Rodriguez worried “that it constrained our ability to react quickly if the situation got out of hand.”[^67-72] Without the limitation, the District fully intended to post its resources farther east: “[W]e couldn’t get as close to the Capitol as could have been helpful,” Mayor Bowser said.[^68-72] “[W]e would have had a broader traffic box.”[^69-72]
 
-##### Fears of Politicizing the Military in an Antidemocratic Manner
+###### Fears of Politicizing the Military in an Antidemocratic Manner
 
 Both Acting Secretary Miller and Secretary McCarthy were sensitive to the sight of troops near the site of the Congressional certification of electoral votes, because of President Trump’s previous expression of interest in using Federal troops in civilian situations. Again, Attorney General Barr and other members of the Trump Administration had resisted President Trump’s desire to deploy such troops. Secretary Esper said it “tended to be the case . . . that the President was inclined to use the military,” contrary to longstanding principles of reserving the armed forces as a last resort.[^70-72]
 
@@ -6586,7 +6610,7 @@ On January 3, 2021, 10 former Secretaries of Defense, including the recently fir
 
 Was Secretary McCarthy concerned that President Trump might use the military to cling to power? “There was a lot of talk in the lead-up about martial law . . . and the employment of forces, and you know, that was something that we were all, you know, conscious of.”[^90-72] Our investigation suggests that those civilian and military officials who had considerable experience working directly with President Trump had genuine concerns about whether he would attempt to use the military to change the election results. Again, at this time, there is no evidence the Department of Defense understood exactly what President Trump and his associates planned for January 6th.
 
-##### “Very Strict on the Use of the Military” on January 6th
+###### “Very Strict on the Use of the Military” on January 6th
 
 By Monday, January 4th, with Secretary McCarthy now backing the operation, Acting Secretary Miller was briefed. He told the Select Committee that he “made the decision right there to honor the request.”[^91-72] That approval came with strings attached. The role of the DC Guard would be spelled out and tightly circumscribed in a memorandum that, as characterized by General Milley, was “very strict on the use of the military.”[^92-72] It decreed that without the Acting Secretary’s “subsequent, personal authorization,” the Guard would not be issued batons, helmets, or body armor; could not interact physically with protestors, except in self-defense; and that the Quick Reaction Force (QRF)—40 servicemembers staged in case of an emergency at Joint Base Andrews in Prince George’s County, Maryland—could be deployed only as a last resort.[^93-72]
 
@@ -6602,7 +6626,7 @@ The Army and the DC Guard appear to have had different understandings. “[T]he 
 
 That was not how others imagined an emergency unit would or should operate. According to Major General Walker, “a quick reaction force, something’s happening; do I have time to find you and call you and ask you?”[^100-72] He called the preapproval language “highly unusual,”[^101-72] particularly as their name “already implied that it’s a last resort,”[^102-72] their intended purpose was if “[u]nexpectedly, you have a spontaneous unrest,”[^103-72] and if “I need to write a concept of operations for a quick reaction force? They’re no longer quick. It’s just a reaction force.”[^104-72]
 
-##### Capitol Police Board “Prepared” without Guard Help
+###### Capitol Police Board “Prepared” without Guard Help
 
 It wasn’t clear to everyone involved in planning for the events anticipated on January 6th that all agencies, including the Capitol Police, were deploying all their resources ahead of that day. “We had had issues understanding, getting the full picture of U.S. Capitol Police’s operational posture and what their planning was,” Director Rodriguez said.[^105-72]
 
@@ -6620,7 +6644,7 @@ The discussion about the use of the Guard remained within the Capitol Police Boa
 
 To keep these exchanges in perspective, we note again that we are aware of no evidence that these individuals were privy to President Trump’s plans to instruct tens of thousands of his supporters to walk down Pennsylvania Avenue to the Capitol to help “take back” their country. Nor were they aware of how President Trump would suggest to his followers that Vice President Pence had the authority to change the outcome of the election, or how President Trump would behave in the hours that followed. Certain members of Congress, including those who met at the White House on December 21, 2020, may have had considerably more insight into President Trump’s planning, but the Committee has no information suggesting that any of those members alerted the Capitol Police or other authorities of President Trump’s plans.
 
-##### Soldiers Prepare for the Worst in Secret
+###### Soldiers Prepare for the Worst in Secret
 
 Guard reinforcements could draw from a pool of three groups already activated for the day: (1) the 40 members making up the QRF, staged in Maryland;[^128-72] (2) the 90 members at the traffic control points, 24 at the Metro stations, and four as part of the command staff distributed throughout the city—but no farther east than Ninth Street—for a total of 118 representing the first shift;[^129-72] and (3) the second shift of another 118 members,[^130-72] preparing at the Armory in Southeast Washington, D.C, for a 3:00 p.m. shift takeover.[^131-72] The Armory also housed a command-and-control squad that handled logistics at about 52 members strong, in addition to a Civil Support Team of about 20 members.[^132-72] That gave Colonel Hunter a maximum limit of 348 activated servicemembers, eight more than the allotted 340—nearly all of whom reported directly to him on January 6th.[^133-72]
 
@@ -6644,7 +6668,7 @@ Outside of the QRF, which had recently returned from two days of training togeth
 
 Major General Walker—who pointed out that the DC Guard shield, on Guard troop uniforms, features the Capitol building itself: “Protect the Capitol. That’s why Thomas Jefferson created it”[^154-72]—called civil disturbance “foundational” to what they do.[^155-72]
 
-##### DC Ground Commander Takes Initiative
+###### DC Ground Commander Takes Initiative
 
 On January 5th, as he led his forces in traffic control, Colonel Hunter did not observe activity that raised concerns.[^156-72] But by the next morning—as thousands of out-of-towners invited by President Trump descended on the nation’s capital—that all changed. “I could see like the Proud Boys,” he said.[^157-72] “I could see different people with Kevlars on, with bulletproof vests on. You know, they’re all kitted up and they’re wearing different patches and colors. And I said, ‘Well, this crowd is definitely different . . . .’”[^158-72] This, of course, was an indication of the potential for violence in the hours that followed.
 
@@ -6662,7 +6686,7 @@ Once there, they got into the elevator, and “before the doors even closed,” 
 
 No later than 2:50 p.m., Colonel Hunter had confirmed with Lt. Col. Reinke that the QRF was on the bus and ready.[^173-72] The highest-ranking Guard official on the ground had sorted out all of the details and linked up with the law enforcement agencies that would lead them in support. At least 135 National Guard servicemembers—the 40 QRF members already in gear and on the bus and the 90 at traffic control posts awaiting word, with gear in their trunks to be donned at the rally point, along with four command staff plus Colonel Hunter himself—were ready to go. At 3:10 p.m., Colonel Hunter felt it was time to tell his superiors all that he had done and hopefully get fast approval.[^174-72]
 
-##### 3 Hours and 19 Minutes
+###### 3 Hours and 19 Minutes
 
 At the Capitol, MPD Chief Contee was on the West Front, himself inhaling chemical agents—“you can smell it before you see it, felt it in my throat”[^175-72]—as officers tried to resist rioters beating back the perimeter, having reached the stage built for the Inauguration set for two weeks later. “[T]he gas stuff and the spray, the mist that’s in the air, I mean, it’s real,” he said.[^176-72] “I’m trying to talk to the Mayor to give her a situational update, and the city administrator—I’ve got them both on the line. I’m coughing, trying to explain what’s going on.”[^177-72] Chief Contee cut through the crowds of people around the Capitol to meet the mayor at MPD headquarters.[^178-72]
 
@@ -6740,7 +6764,7 @@ What did Major General Walker think was happening in those 3 hours and 19 minute
 
 “Delay.”[^261-72]
 
-##### An Absent Commander-in-Chief
+###### An Absent Commander-in-Chief
 
 Vice President Mike Pence called several times to check in on the delayed response of the Guard. President Trump did not.
 
@@ -6764,7 +6788,7 @@ Unprompted, President Trump then said, “You’re going to need 10,000 people�
 
 Acting Secretary Miller thought the 10,000 number was astronomical—“we expected 35,000 protesters . . . [and] even if there were more protesters than expected, [we thought] that local law enforcement could handle it”[^283-72]—but, again, this was “no order from the President,” just “President Trump banter that you all are familiar with.”[^284-72]
 
-##### Parallel Plans in the Midst of Crisis
+###### Parallel Plans in the Midst of Crisis
 
 While the Army and the District engaged in the “heated”[^285-72] 2:30 p.m. phone call, Secretary McCarthy was hurrying down the Pentagon hallways to Acting Secretary Miller’s office. General Milley had been summoned there before Secretary McCarthy arrived with General McConville in tow,[^286-72] “running down the hall, and he was actually winded when he showed up . . . ”[^287-72]
 
@@ -6874,7 +6898,7 @@ No one within the Department of Defense, Army, or Guard leveled accusations of a
 
 Major General Walker said the Army’s reluctance to approve National Guard assistance to the Mayor during the planning for the anticipated January 6th events continued through January 6th itself.[^387-72] “I don’t know where the decision paralysis came from, but it was clearly there. The decision paralysis, decision avoidance,” he said.[^388-72]
 
-### Conclusion
+#### Conclusion
 
 Former President Trump’s eagerness to engage the U.S. military to play a visible role in addressing domestic unrest during the late spring and summer of 2020 does appear to have prompted senior military leadership to take precautions, in preparing for the joint session, against the possibility that the DC Guard might be ordered to deploy for an improper purpose. Those precautions seem to have been prudential as much as legal in nature.
 
@@ -6890,7 +6914,7 @@ Where the DC Guard’s deployment on January 6th is concerned, then, the “less
 
 ## APPENDIX 3: THE BIG RIP-OFF: FOLLOW THE MONEY
 
-### Introduction
+#### Introduction
 
 This appendix will consider the extent to which President Trump’s Campaign and related entities raised an unprecedented amount of political donations using inflammatory messaging alleging that the 2020 U.S. Presidential election was fraudulent or stolen. It will review what tools and methods were used to produce, transmit and optimize these fundraising solicitations; who drafted and approved the messaging and what they knew about the accuracy of the messaging; who ultimately benefitted from these donations; and the impact of these messages on their recipients.
 
@@ -6908,13 +6932,13 @@ In short, President Trump and his Campaign ripped off supporters by raising more
 
 %%page 771%%
 
-### Discussion
+#### Discussion
 
-#### The Trump Campaign Fundraising Team
+##### The Trump Campaign Fundraising Team
 
 As detailed below, the Trump Campaign misled the American public and President Trump’s donors on how they planned to use, and did use, the donated funds while bombarding supporters with hundreds of emails, as many as twenty-five emails per day, stating the election had been stolen. In those emails, they used inflammatory language accusing Democrats of trying to “steal the election,” encouraged supporters to join the “Trump army”; “Defend” the election: and to “fight back” over, and over, and over again.[^1-73] They sent these emails out because they knew they were effective at raising money.[^2-73] This was made possible by the creation of a fundraising machine powered jointly by the Trump Campaign and the RNC.
 
-#### A. The TMAGAC Fundraising Machine
+##### A. The TMAGAC Fundraising Machine
 
 During the 2020 election cycle, President Trump operated a structure under which the Trump reelection campaign and the RNC merged programs and raised money jointly through the Trump Make America Great Again Committee (internally referred to by its acronym TMAGAC, which RNC officials pronounced “T-Magic”).[^3-73] TMAGAC was focused on raising money online through small-dollar donations.[^4-73] Tim Murtaugh, the Trump Campaign’s communications director, described the TMAGAC fundraising operation as “an entity unto itself within the campaign.”[^5-73]
 
@@ -6930,7 +6954,7 @@ The RNC digital team also included a team of copywriters, who were responsible f
 
 Although the TMAGAC team consisted of both Trump Campaign and RNC staffers, TMAGAC operated as one entity working towards one goal – raising as much money as possible.[^26-73]
 
-#### B. The Fundraising Assembly Line
+##### B. The Fundraising Assembly Line
 
 The copywriting process worked like an assembly line, where different individuals performed a task and passed on the work product to someone else, including for internal approval.[^27-73] To generate content for fundraising communications, Allred explained, the copywriting fundraising team was “watching the messaging coming out of the committee [RNC] and the campaign and from the President himself and what his family was talking about.”[^28-73] For example, in a November 2020 email, Boedigheimer stated to Allred, “Good to include lines like [‘]we need the resources to make sure they don’t try to steal this election. We saw what happened on election night, we can’t let them take the senate too.[’]”[^29-73]
 
@@ -6940,15 +6964,15 @@ It was evident that the copywriters “would draft a lot of the content based on
 
 Further, the emails that were signed by President Trump or “Team Trump” were intentionally drafted to capture President Trump’s voice, tone and messaging.[^35-73] Boedigheimer explained, “[President Trump] obviously has a very aggressive[,] excitable tone, and we would try to incorporate that in our messaging as well.”[^36-73] The goal was to make the millions of recipients of aggressive, hyperbolic fundraising emails believe that the emails were coming from President Trump himself. In Zambrano’s words, the purpose was to give recipients “red meat.”[^37-73]
 
-#### C. The Approvals Process
+##### C. The Approvals Process
 
-##### The Structure
+###### The Structure
 
 Draft emails were submitted for approval to a designated group that handled approvals of all TMAGAC fundraising copy (the “Approvals Group”).[^38-73] Boedigheimer retained responsibility for ensuring that TMAGAC’s fundraising copy was approved before being sent to the public.[^39-73]
 
 The Approvals Group consisted of three sets of stakeholders from the RNC and the Trump Campaign,[^40-73] and included a variety of other interested staffers, including Zambrano, Boedigheimer, and Allred.[^41-73] TMAGAC’s fundraising copy could not be sent without approval from the legal, communications and research departments.[^42-73]
 
-##### Perceived Responsibilities
+###### Perceived Responsibilities
 
 After election day, a small group of staffers in the Approvals Group actively reviewed and approved the numerous fundraising emails and text messages that spread false election fraud claims. These staffers included:
 
@@ -6994,15 +7018,15 @@ When all was said and done, no one in the Trump Campaign claimed to be responsib
 
 Thus, after the election, the TMAGAC team drafted emails filled with inflammatory and unfounded claims, and the members of the Approvals Group tasked with fact checking these claims did no such thing—effectively, President Trump’s claims were treated as true and blasted to millions of people with little to no scrutiny by those tasked with ensuring accuracy. This process was a fertile ground for the Big Lie to spread through hundreds of emails and text messages.
 
-#### D. Focus on Fundraising Metrics
+##### D. Focus on Fundraising Metrics
 
 Boedigheimer spoke with Coby and Zambrano often about how much money TMAGAC was raising, and they provided feedback regarding fundraising goals.[^69-73] Trump Campaign leadership was fully aware of post-election fundraising totals. According to Coby, President Trump’s son-in-law and senior advisor Jared Kushner “had the most interest in the digital program” and “would just check in on [fundraising] results,” and routinely received updates regarding fundraising from Coby.[^70-73] Coby also made clear that Kushner was heavily involved in the Campaign’s budget process[^71-73] and that he updated Kushner on TMAGAC’s post-election fundraising totals.[^72-73]
 
 The Select Committee received documents confirming Kushner’s involvement. For example, on November 8, 2020, Kushner requested that a daily tracker be created showing the Trump Campaign’s financial position from election day forward.[^73-73] In an email, Kushner noted that the tracker would allow the Campaign to consider its cash flow ahead of the creation of “a new entity for POTUS[’s] other political activities.”[^74-73] Just days after the election, and after the Campaign had three of its four best fundraising days ever on November 4th, 5th, and 6th,[^75-73] Kushner was preparing for the launch of President Trump’s new leadership PAC, Save America. Kushner stated that he needed this new daily tracker because the Trump Campaign was going to continue fundraising post-election.[^76-73] Kushner continued to receive these detailed daily trackers, which included Save America’s fundraising hauls, through at least December 2020.[^77-73]
 
-### 2020 ELECTION: THE ROLE OF ELECTION FRAUD MESSAGING
+#### 2020 ELECTION: THE ROLE OF ELECTION FRAUD MESSAGING
 
-#### A. The Decision to Continue Fundraising after Election Day
+##### A. The Decision to Continue Fundraising after Election Day
 
 Heading into election night of the 2020 Presidential race, as Americans across the country waited in line to vote on election day, the Trump Campaign and the RNC were planning what they would tell the American public about the results in the upcoming days. On election day, Boedigheimer and Darren Centinello, a Trump Campaign staffer, discussed the three message options that the Trump Campaign had on the table.[^78-73]
 
@@ -7014,7 +7038,7 @@ Instead, the Trump Campaign chose a third option. Boedigheimer confirmed that TM
 
 Zambrano confirmed that it would not surprise him that TMAGAC was immediately claiming that Democrats were trying to steal the election, because President Trump has been pushing that message.[^81-73] Zambrano added, “That was the President’s phrasing in the messaging that the team was sourcing from.”[^82-73] Importantly, Boedigheimer confirmed that the TMAGAC copywriting team did *not* base its use of the “trying to steal” language on any awareness of actual fraud.[^83-73]
 
-#### B. Post-Election Fundraising Off the Big Lie
+##### B. Post-Election Fundraising Off the Big Lie
 
 Both the Trump Campaign and the RNC directed TMAGAC to continue fundraising after the election.[^84-73] Justin Clark, the deputy campaign manager, explained that the decision to continue fundraising after the election would have come from President Trump himself.[^85-73]
 
@@ -7026,11 +7050,11 @@ The TMAGAC fundraisers used inflammatory language and false election fraud claim
 
 The TMAGAC fundraising machine continued to churn out hundreds of fundraising emails and text messages regardless of external developments. For example, Zambrano said that, after former Vice President Biden was widely declared the winner of the election, TMAGAC’s fundraising efforts moved ahead the same way they had previously,[^92-73] even though he “would say it wasn’t looking good” as soon as one week after the election.[^93-73]
 
-### ALARMS RAISED ABOUT TMAGAC FUNDRAISING CONTENT
+#### ALARMS RAISED ABOUT TMAGAC FUNDRAISING CONTENT
 
 A number of individuals and entities associated with the TMAGAC fundraising campaign raised concerns about the dangerous and inflammatory language used in the emails issued for this campaign.
 
-#### Concerns Raised in Internal RNC Review
+##### Concerns Raised in Internal RNC Review
 
 Evidence obtained by the Select Committee shows that the RNC knew that President Trump’s claims about winning the election were baseless and that additional donations would not help him secure an additional term in office. They walked as close to the line as they dared—making several changes to fundraising copy that seemingly protected the RNC from legal exposure while still spreading and relying on President Trump’s known lies and misrepresentations.
 
@@ -7068,13 +7092,13 @@ Nonetheless, the RNC and the Trump Campaign continued to send out hundreds of em
 
 This is clearly evidenced by multiple TMAGAC emails in late December 2020 that asserted that former Vice President Joe Biden would be an “illegitimate President” when he took office.[^122-73] These emails came after December 14, 2020, the day electors from each State met to cast their votes for President and Vice President. These emails came after Senate Majority Leader Mitch McConnell made it clear that he accepted the electoral college’s certification of Biden’s victory. These emails came after President Trump and his allies had lost all but one lawsuit challenging the election.[^123-73] None of this made a difference to TMAGAC. When asked why TMAGAC would repeatedly send these emails stating that former Vice President Biden would be an illegitimate President, Hanna Allred, the chief copywriter, stated that it would be because the emails were “effective” for fundraising.[^124-73]
 
-#### Trump Campaign Discussions
+##### Trump Campaign Discussions
 
 Alex Cannon was so bothered by the emails he was reviewing as a member of the Approvals Group that he took his concerns to Justin Clark, the campaign’s deputy campaign manager. Cannon explained that he had discussions with Clark about the problematic tone of the post-election TMAGAC emails and noted to Clark that the emails “seemed a little over the top to [him].”[^125-73] Cannon raised those concerns because, after spending weeks researching which fraud claims were verifiable and which were not, Cannon saw that the TMAGAC emails were inconsistent with the fact that systemic fraud did not exist.[^126-73] Cannon also recalled that he may have expressed concern to Matt Morgan, the campaign’s general counsel, regarding the difference between claims of election fraud made in the TMAGAC fundraising emails and his conclusion that there was not fraud that impacted the election results.[^127-73] Cannon was not aware of any actions taken to address the concerns he had with this inconsistency.[^128-73]
 
 Justin Clark could not recall whether he looked at any fundraising emails after Cannon raised these concerns or whether Cannon spoke to Gary Coby about the substance of the fundraising emails.[^129-73]
 
-#### Challenges From Within the Digital Team
+##### Challenges From Within the Digital Team
 
 In the days after the election, one junior copywriter presented senior Campaign staffers with a template for a more honest approach. Shortly after election night, Coby led a meeting of the entire Trump digital team, which included individuals from the Campaign, the RNC, Opn Sesame, Direct Persuasion, and others. In that meeting, as Coby addressed the staff and expressed that the digital team would continue to work, Ethan Katz, an RNC staffer in his early twenties, rose to ask a question:[^130-73] How were staffers supposed to tell voters that the Trump Campaign wanted to keep counting votes in Arizona but stop counting votes in other States (like Pennsylvania, Georgia, and Michigan)?[^131-73]
 
@@ -7086,13 +7110,13 @@ Katz also recalled that, shortly after the election, Allred directed him to writ
 
 Katz was fired approximately three weeks after the election.[^139-73] In an interview with the Select Committee, when Allred was asked why Katz, her direct report, was fired, she explained that she was not sure why because TMAGAC was raising more money than ever after the election, but that the decision was not hers to make.[^140-73]
 
-#### Concerns Raised by Trump Campaign Vendor Iterable
+##### Concerns Raised by Trump Campaign Vendor Iterable
 
 The Trump Campaign knew that emails that the Approvals Group had blessed were being rejected by another email service provider. After the election, the Trump Campaign attempted to expand the reach of their false voter fraud emails. The Trump Campaign formed a company named DataPier, owned by Cannon and Sean Dollman.[^141-73] DataPier hired an outside company named Iterable to deliver its emails.[^142-73] Cannon tried to send “toned-down RNC emails,” through Iterable, but they still had to be “further toned [] down through [an] iterative process[.]”[^143-73] For example, on November 7, 2020, Seth Charles, who was then Iterable’s principal email deliverability and industry relations manager, said that there was an issue with the TMAGAC copy and offered line edits.[^144-73] Two days later, Charles recommended to the Trump Campaign staffers that they look for “modified copy there [from TMAGAC emails] to be a little less threatening.”[^145-73] Charles claimed that some TMAGAC copy “obviously insinuates the so far unsubstantiated theory of voter fraud, as well as contributions and legal actions will result in some sort of different outcome.”[^146-73]
 
 But Salesforce, TMAGAC’s original email service provider, continued sending millions of Trump Campaign emails up until January 6th.
 
-#### Internal Complaints at Salesforce
+##### Internal Complaints at Salesforce
 
 The Trump Campaign knew that emails that the Approvals Group had blessed were being rejected by Iterable. However, the RNC continued to send millions of Trump Campaign emails through Salesforce, TMAGAC’s original email service provider, up until January 6th. Evidence uncovered by the Select Committee shows that there were internal concerns at Salesforce regarding the content of the TMAGAC emails.
 
@@ -7104,7 +7128,7 @@ Doe indicated to the Select Committee that, as soon as early 2020, they recalled
 
 Ultimately, the Trump Campaign and the RNC let the Big Lie spread because they were making hundreds of millions of dollars from President Trump’s supporters who believed that lie. The Big Rip-off needed the Big Lie to motivate unsuspecting individuals to donate their money to a lost cause, and it worked.
 
-### WHERE DID THE MONEY GO?
+#### WHERE DID THE MONEY GO?
 
 The Trump Campaign and the RNC had three of their largest fundraising days of the 2020 election cycle immediately after the election.[^156-73] Together, the Trump Campaign and the RNC raised more than one hundred million dollars in three days, telling people they were raising the money for the “Official Election Defense Fund.” According to the TMAGAC fundraising pitches, the Trump Campaign and RNC team had created a so-called “Official Election Defense Fund” to help pay for legal challenges to the election results.[^157-73] But there was no “Official Election Defense Fund” – it was simply “a marketing tactic.”[^158-73] The TMAGAC fundraisers did not know where the donated money was actually going.[^159-73] The TMAGAC copywriting team simply took the lies that President Trump told them about the need to raise money to overturn the election results and put them into emails to his supporters.
 
@@ -7112,7 +7136,7 @@ The Trump Campaign and the RNC had three of their largest fundraising days of th
 
 The false claims of election fraud and the “Official Election Defense Fund” were so successful President Trump and his allies raised more than $250 million *after* the election.[^160-73] However, the Trump Campaign was raising too much money to spend solely on their legal efforts to overturn the results of the 2020 election. The Trump Campaign continued to publicly state the election had been stolen by “the Left,” while behind closed doors they prepared a new plan to spend their supporters’ money.
 
-#### A. The Creation of the Save America PAC
+##### A. The Creation of the Save America PAC
 
 On November 9, 2020, President Trump created a separate leadership PAC called Save America that allowed him to keep millions of dollars raised after the election and spend it with very few restrictions in the future. Jared Kushner worked with Alex Cannon, Deputy General Counsel for the Trump Campaign, in creating the entity.[^161-73] Prior to the formation of Save America, any money raised by the Trump Campaign could effectively only be spent on recount and election-contest related expenses, and to pay off campaign debt.[^162-73] But now the money raised into Save America could allow President Trump to pay for his personal expenses, such as travel or hotel stays. After Save America was formed, it was added to the TMAGAC joint fundraising agreement with the RNC, and the percentage of the proceeds allocated to the Trump Campaign began to flow to Save America.[^163-73]
 
@@ -7124,7 +7148,7 @@ Several reporters noticed the switch and contacted the Campaign asking about the
 
 The Trump Campaign came up with a messaging plan about this tactic, which President Trump personally approved.[^168-73] Tim Murtaugh, the Trump Campaign’s communications director, repeatedly asked Justin Clark, the deputy campaign manager, whether they should respond to the reporters.[^169-73] When Murtaugh flagged that the communications team was not responding to the reporters, Justin Clark said, “Good. Don’t.”[^170-73]
 
-#### B. Outlays to Trump-Associated Individuals and Companies
+##### B. Outlays to Trump-Associated Individuals and Companies
 
 The Trump Campaign spent the money on President Trump, giving donations to his associates, and keeping it for himself in Save America. Hundreds of millions of dollars that were raised to go towards “election defense” and “fighting voter fraud” were not spent that way at all. To the contrary, most of the funds remain unspent, and millions have been paid to companies that are known affiliates of President Trump, or payments to entities associated with former Trump administration officials. Since the election, former Trump officials who are still working for President Trump’s PACs, and are publicly receiving salaries as FEC-reported “payroll,” are also associated with these companies.
 
@@ -7153,7 +7177,7 @@ Additionally, Save America has reported other expenditures, like:
 
 %%page 787%%
 
-#### C. Payments to 2M Management LLC
+##### C. Payments to 2M Management LLC
 
 As described above, the Trump Campaign, after paying off its general election debt, raised millions of dollars that flowed into a segregated recount account (“Recount Account”) by encouraging donors to help pay for legal challenges to the election results. Pursuant to the FECA, the Trump Campaign could only spend these funds on a few limited purposes (e.g., for actual recounts and election-contest expenses or, in the case of surplus funds, donations to charitable organizations or transferring the funds to a national party committee’s separate, segregated account for election recounts).[^206-73]
 
@@ -7167,7 +7191,7 @@ Although the MAGA PAC reported that 2M Management was being paid for recount-rel
 
 From just March 2021 to May 2021, MAGA PAC paid 2M Management almost $1 million from the Recount Account to review documents related solely to the Covid Subcommittee.[^215-73] Alex Cannon confirmed that he understood these payments to 2M Management came from the Recount Account.[^216-73] Federal campaign finance law requires committees to accurately report information related to expenditures, including the purpose of payments. FEC regulations provide that the “purpose” be described in relevant reports through a brief statement of why the disbursement was made and must be sufficiently specific to make the purpose of the disbursement clear.[^217-73]
 
-### IMPACT OF THE TRUMP CAMPAIGN’S FALSE CLAIMS
+#### IMPACT OF THE TRUMP CAMPAIGN’S FALSE CLAIMS
 
 Between the election and January 6th, the Trump Campaign sent out hundreds of emails urging President Trump’s supporters to “fight the Liberal MOB” and “join the Trump army.” Users on the same extreme social media platforms used to plan the attack on the Capitol, repeatedly shared the “Official Election Defense Fund” donation links in the week following election day.[^218-73] Links to donate were often accompanied by mentions of voter fraud and calls to save the country, mirroring the language of the fundraising emails and the countless discussions being held by the President’s supporters of coming to Washington, DC, on January 6th to “Stop the steal.”[^219-73]
 
@@ -7183,7 +7207,7 @@ There is evidence suggesting that numerous defendants charged with violations re
 
 Further, J. Doe, the Salesforce employee interviewed by the Select Committee, provided insight into the action that Salesforce took after the attack. Doe explained that after they became aware of the ongoing attack, they (Doe) took unilateral action to block the RNC’s ability to send emails through Salesforce’s platform.[^227-73] Doe noted that the shutdown lasted until January 11, 2021, when senior Salesforce leadership directed Doe to remove the block from RNC’s Salesforce account.[^228-73] Doe stated that Salesforce leadership told Doe that Salesforce would now begin reviewing RNC’s email campaigns to “make sure this doesn’t happen again.”[^229-73]
 
-### Conclusion
+#### Conclusion
 
 In the weeks after the 2020 election leading up to January 6, 2021, President Trump’s Campaign and his allies sent his supporters a barrage of emails and text messages pushing lies about a stolen election and asking for contributions to challenge the outcome of the election. In reality, the funds raised went primarily towards paying down the Trump Campaign’s outstanding 2020 debt, financing President Trump’s newly created Save America PAC, and raising money for the RNC.
 
@@ -7195,15 +7219,15 @@ Not only did President Trump lie to his supporters about the election, but he al
 
 ## APPENDIX 4: MALIGN FOREIGN INFLUENCE
 
-### Introduction
+#### Introduction
 
 In the wake of the 2020 U.S. Presidential election, President Donald J. Trump and his apologists attempted to blame his loss on foreign interference. They falsely claimed that foreign-manufactured voting machines had been manipulated so that votes cast for Trump were instead recorded as votes for Joseph R. Biden, Jr.[^1-74] No one has ever, either at the time or since, offered any evidence to support Trump’s assertion. On the contrary, ample evidence collected by the Intelligence Community (IC) and reviewed by the Select Committee disproves those claims.
 
 That is not to say foreign actors made no attempt to influence the American political climate during and after the 2020 Presidential election. This appendix evaluates the role foreign influence played in the circumstances surrounding the insurrection.[^2-74]
 
-### Discussion
+#### Discussion
 
-#### Election Meddling in 2020: Foreign Interference? No. Foreign Influence? Yes.
+##### Election Meddling in 2020: Foreign Interference? No. Foreign Influence? Yes.
 
 In its postmortem assessment of the 2020 U.S. Presidential election, the Intelligence Community comprehensively examined two types of foreign meddling: interference and influence. The distinction between the two is critical in evaluating President Trump’s repeated public assertions that there had been massive and widespread “fraud” that had the effect of “stealing” the election for then-candidate Biden.
 
@@ -7215,7 +7239,7 @@ The Intelligence Community’s Assessment (ICA) found no factual basis for any a
 
 Although there is no evidence of foreign technical interference in the 2020 election, there is evidence of foreign influence. Specifically, the Intelligence Community’s Assessment concluded that “Russian President Putin authorized, and a range of Russian government organizations conducted, influence operations aimed at denigrating President Biden’s candidacy and the Democratic Party, supporting former President Trump, undermining public confidence in the electoral process, and exacerbating sociopolitical divisions in the US.”[^6-74] The two Intelligence Community analytic conclusions about the 2020 U.S. Presidential election—that there was evidence of foreign influence, but not foreign interference—are completely consistent.
 
-#### Malign Foreign Efforts to Influence the 2020 U.S. Elections
+##### Malign Foreign Efforts to Influence the 2020 U.S. Elections
 
 The 2020 U.S. elections saw an increase in the number of foreign state and non-state entities that attempted to influence the U.S. electorate. The U.S. Intelligence Community suggests, as a possible explanation, that more such foreign entities “may view influence operations as important tools for projecting power abroad.”[^7-74] More ascertainably, “[t]he growth of internet and social media use means foreign actors are more able to reach US audiences directly, while the tools for doing so are becoming more accessible.”[^8-74]
 
@@ -7223,7 +7247,7 @@ The United States’ principal foreign adversaries—Russia, China, and Iran—a
 
 For Russia, “[e]lections … often serve as an opportune target. But attacks on elections are typically just one part of ongoing, multi-pronged operations.”[^11-74] The U.S. Intelligence Community’s definitive post-election assessment of foreign influence activities during the 2020 Presidential election concluded that Russia was deeply engaged in disinformation activities intended to influence the outcome by supporting President Trump while disparaging then-candidate Biden; Iran also engaged in efforts to influence the election’s outcome, but unlike Russia, did not actively promote any candidate; and that China considered opportunities to influence the election’s outcome, but ultimately decided that potential costs outweighed any foreseeable benefits.[^12-74] Both Russia and Iran worked to undermine the American public’s confidence in U.S. democratic processes and to deepen socio-political divisions in the United States.[^13-74]
 
-#### Russia’s Malign Influence Efforts Targeting the United States
+##### Russia’s Malign Influence Efforts Targeting the United States
 
 Russian malign disinformation efforts are both strategic in scope and opportunistic in nature. They aim to corrode the power and appeal of the U.S. democratic processes, worsen U.S. domestic divisions, and weaken America at home and abroad. The Intelligence Community’s February 2022 unclassified “Annual Threat Assessment” puts this sustained Russian threat in a nutshell:
 
@@ -7231,7 +7255,7 @@ Russian malign disinformation efforts are both strategic in scope and opportunis
 
 > Russia presents one of the most serious foreign influence threats to the United States, using its intelligence services, proxies, and wide-ranging influence tools to try to divide Western alliances, and increase its sway around the world, while attempting to undermine U.S. global standing, amplify discord inside the United States, and influence U.S. voters and decisionmaking.[^14-74]
 
-#### Russian Disinformation and the 2020 Presidential Election
+##### Russian Disinformation and the 2020 Presidential Election
 
 Foreign adversaries’ influence campaigns routinely push disinformation to U.S. audiences. Elections offer an important forum for Russia and other U.S. adversaries to seek to deepen divisions within American society through disinformation campaigns.[^15-74] The Intelligence Community projects that both Russia and China will, for the foreseeable future, continue to press their disinformation campaigns attempting to undermine the U.S. population’s confidence in their government and society.[^16-74] Russia certainly did so in the period following the election and preceding the January 6th attack.
 
@@ -7255,7 +7279,7 @@ The threats posed by Russia’s influence efforts are not new, nor are they dimi
 
 > Moscow has conducted influence operations against U.S. elections for decades, including as recently as the 2020 presidential election. We assess that it probably will try to strengthen ties to U.S. persons in the media and politics in hopes of developing vectors for future influence operations.[^23-74]
 
-#### Proxies Among Us: Malign Foreign Influence and U.S. Audiences
+##### Proxies Among Us: Malign Foreign Influence and U.S. Audiences
 
 Tech-enabled or not, if ever there was a “people business,” foreign influence is it. People working on behalf of a foreign government—foreign government officials, their agents, and proxies—work to influence, directly or indirectly, a target audience in another country—its officials and citizens at large. Most who are engaged in those efforts act overtly: ambassadors, consuls general, government delegations and so forth. Their foreign influence efforts are not, however, focused on philanthropy or foreign aid. Moreover, the perspectives they seek to embed in their target audiences may be intentionally and materially inaccurate, propagandistic, or driven by unstated motives. In such instances, foreign influence may amount to injecting foreign disinformation into the U.S. media ecosystem for re-branding and onward transmission to an American audience.[^24-74]
 
@@ -7271,7 +7295,7 @@ Shortly after the January 6th attack, the National Intelligence Council summariz
 
 The success of the proxy depends on shielding its foreign sponsorship. For that reason, it can be difficult or impossible to determine conclusively whether someone parroting a foreign government adversary’s point of view to a U.S. audience is that government’s controlled proxy or a volunteer taking full advantage of U.S. First Amendment freedoms.
 
-#### Anti-U.S. Foreign State Propaganda and the January 6th Attack
+##### Anti-U.S. Foreign State Propaganda and the January 6th Attack
 
 U.S. adversaries use anti-American propaganda and disinformation to advance their strategic foreign policy objectives. They aim to corrode U.S. influence abroad while diluting U.S. citizens’ trust in their democratic institutions and processes. They hope to deepen and sharpen the sociopolitical divisions in American society.[^26-74] In doing so, foreign adversaries hope not only to limit U.S. ability to influence the policy choices of other foreign states, but also to help immunize their own populations against the attractions of American-style democracy.
 
@@ -7279,7 +7303,7 @@ That matters, as Russia and other adversaries of the United States well know. If
 
 %%page 811%%
 
-#### President Trump and the 2020 Election as an Opportunity for Foreign Influence
+##### President Trump and the 2020 Election as an Opportunity for Foreign Influence
 
 With President Trump in the White House, Russia benefited from a powerful American messenger creating and spreading damaging disinformation it could amplify. The Intelligence Community’s comprehensive March 2021 assessment noted that throughout the 2020 Federal election cycle, “Russian online influence actors generally promoted former President Trump and his commentary. . . .”[^28-74]
 

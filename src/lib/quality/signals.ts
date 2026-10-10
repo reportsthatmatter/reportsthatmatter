@@ -371,11 +371,12 @@ export const headingRepeated: Signal = {
   id: "heading-repeated",
   kind: "count",
   cls: "H",
-  doc: "A heading text that appears 3 or more times; one finding per repeated text.",
+  doc: "A heading text that appears 3 or more times; one finding per repeated text. A division label (Findings, Recommendations, Issue) repeats by design and is not counted (liv).",
   run: (input) => {
     const seen = new Map<string, ReturnType<typeof headings>>();
     for (const h of headings(input)) {
       const k = h.title.toLowerCase();
+      if (/^(?:findings?|recommendations?|issue)$/.test(k)) continue;
       seen.set(k, [...(seen.get(k) ?? []), h]);
     }
     return [...seen.values()]
@@ -643,27 +644,67 @@ export const numberedParagraphGlued: Signal = {
   kind: "count",
   cls: "B",
   advisory: true,
-  doc: "A numbered paragraph run on inside the one before: the next number in sequence after a paragraph's own (2.85 then 2.86) found after a sentence end inside it, before a capital, and opening no paragraph of its own, so its id does not exist (Grenfell 2.86, 5.9, 9.42 after \"Approved Document B.\", reportsthatmatter-f951; Leveson \"…in Part H. 4.30 The dinner…\"). Only for reports that number paragraphs chapter.number.",
+  doc: "A numbered paragraph run on inside the one before: the next number in sequence after a paragraph's own (2.85 then 2.86) found after a sentence end inside it, before a capital, and not the number of the next paragraph that has one, so its id does not exist (Grenfell 2.86, 5.9, 9.42 after \"Approved Document B.\", reportsthatmatter-f951; Leveson \"…in Part H. 4.30 The dinner…\"). Only for reports that number paragraphs chapter.number.",
   run: (input) => {
     const blocks = proseBlocks(input).filter((b) => b.kind === "prose");
-    const own = new Set<string>();
-    for (const b of blocks) {
+    const numbers = blocks.map((b) => {
       const m = OWN_NUMBER.exec(b.text);
-      if (m) own.add(`${Number(m[1])}.${Number(m[2])}`);
+      return m ? `${Number(m[1])}.${Number(m[2])}` : null;
+    });
+    if (numbers.filter(Boolean).length < 20) return [];
+    // The next paragraph's own number after each block: the glued number is missing when
+    // the sequence skips it there. Not a report-wide set of ids, because a report whose
+    // numbering restarts in every chapter (Leveson) has a 4.30 in many chapters, which hid
+    // 11 of its 14 glued paragraphs (reportsthatmatter-1iz4).
+    const nextOwn: (string | null)[] = new Array(blocks.length).fill(null);
+    for (let i = blocks.length - 2, next: string | null = null; i >= 0; i--) {
+      next = numbers[i + 1] ?? next;
+      nextOwn[i] = next;
     }
-    if (own.size < 20) return [];
     const out: Finding[] = [];
     let last: [number, number] | null = null;
-    for (const b of blocks) {
+    for (const [i, b] of blocks.entries()) {
       const m = OWN_NUMBER.exec(b.text);
       if (m) last = [Number(m[1]), Number(m[2])];
       if (!last) continue;
       for (const g of b.text.matchAll(GLUED_NUMBER)) {
         const [c, n] = [Number(g[2]), Number(g[3])];
-        if (c !== last[0] || n !== last[1] + 1 || own.has(`${c}.${n}`)) continue;
+        if (c !== last[0] || n !== last[1] + 1 || nextOwn[i] === `${c}.${n}`) continue;
         out.push(finding("numbered-paragraph-glued", b, b.text.slice(Math.max(0, (g.index ?? 0) - 70), (g.index ?? 0) + 70)));
         last = [c, n];
       }
+    }
+    return out;
+  },
+};
+
+/** A paragraph's own number in any of the corpus's styles: "3.71.", "7.44", "2.2.83", "780\\." (Chilcot). */
+const ANY_OWN_NUMBER = /^\d{1,4}(?:(?:\.\d{1,4})+\.?|\\?\.)\s/;
+
+export const unnumberedPageOpening: Signal = {
+  id: "unnumbered-page-opening",
+  kind: "count",
+  cls: "B",
+  advisory: true,
+  doc: "In a report whose paragraphs are numbered (at least half its prose blocks open on a number), a prose block with no number of its own that opens a page straight under a numbered paragraph and does not open on a quotation mark: usually that paragraph run on past a sentence the page ended on (Post Office p.26 3.71 \"Mrs McDonald had anticipated…\", Grenfell p.94 7.44, reportsthatmatter-sh1b/ni9o; `layoutPageJoins({ numberedBody })` joins them). Short lines with no sentence end and captions are left out (headings left as prose are another defect). Advisory: a report with unnumbered paragraphs (a flush executive summary, a quoted letter) has real ones.",
+  run: (input) => {
+    const blocks = proseBlocks(input);
+    const prose = blocks.filter((b) => b.kind === "prose");
+    const numbered = prose.filter((b) => ANY_OWN_NUMBER.test(b.text)).length;
+    if (numbered < 20 || numbered * 2 < prose.length) return [];
+    const out: Finding[] = [];
+    for (let i = 1; i < blocks.length; i++) {
+      const b = blocks[i];
+      if (b.kind !== "prose" || blocks[i - 1].kind !== "page") continue;
+      if (ANY_OWN_NUMBER.test(b.text) || /^["“‘'(\[]/.test(b.text)) continue;
+      // A heading or caption left as prose ("Early military career", "Figure 5.8: …") is another defect.
+      if (/^(?:figure|table|chart|map|plan|photo|source)\b/i.test(b.text)) continue;
+      if (b.text.split(/\s+/).length <= 12 && !/[.?!:;]["”’')\]]*(?:\[\^\d+\])?$/.test(b.text.trim())) continue;
+      let j = i - 1;
+      while (j >= 0 && blocks[j].kind === "page") j--;
+      const above = blocks[j];
+      if (above?.kind !== "prose" || !ANY_OWN_NUMBER.test(above.text) || /:\s*(?:\[\^\d+\])?$/.test(above.text)) continue;
+      out.push(finding("unnumbered-page-opening", b, `${above.text.slice(0, 8)}… ${above.text.slice(-60)} ⏎ ${b.text.slice(0, 70)}`, { crossedPage: true }));
     }
     return out;
   },
@@ -676,6 +717,7 @@ export const SIGNALS: Signal[] = [
   severedParagraph,
   severedParagraphCapital,
   numberedParagraphGlued,
+  unnumberedPageOpening,
   bareFootnoteMarker,
   bareMarkerAfterQuote,
   noteMarkerWrongNote,

@@ -108,7 +108,7 @@ export function renderLayout(
   const { navLinks = DEFAULT_NAV, scripts = [], ...head } = options;
 
   const nav = navLinks.length
-    ? `<nav class="site-nav mono">${navLinks
+    ? `<nav class="site-nav mono" aria-label="Main">${navLinks
         .map((link) => `<a href="${escapeHtml(link.href)}">${escapeHtml(link.label)}</a>`)
         .join("")}</nav>`
     : "";
@@ -130,7 +130,7 @@ ${body}
 <footer class="site-footer wrap mono">
   <div class="site-footer-top">
     <p>A public-interest project making official reports readable, linkable, and citable on the web.</p>
-    <nav>
+    <nav aria-label="Footer">
       <a href="/reports">Reports</a>
       <a href="/search">Search</a>
       <a href="/highlights">Highlights</a>

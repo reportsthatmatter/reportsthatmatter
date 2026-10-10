@@ -17,7 +17,12 @@ export type Ingest = Pick<typeof pinned, "renderArtifacts" | "extractPassages">;
 
 /** `block`: the text the paragraph introduces (the list or quotation after it that has no id of its own), which a quote may cite through it. */
 export type Passage = { id: string; text: string; section: string; block?: string };
-export type Rendered = { passages: Passage[]; sections: { slug: string }[] };
+export type Rendered = {
+  passages: Passage[];
+  sections: { slug: string }[];
+  /** The slug of each heading that sits inside a section's fragment, to that section: where a folded section's heading lives now (3ak7). */
+  headings?: Record<string, string>;
+};
 
 /**
  * An id that now names a different paragraph than it did when published (reportsthatmatter-rf4c).
@@ -73,11 +78,16 @@ export function render(markdown: string, ingest: Ingest = pinned): Rendered {
   const { renderArtifacts, extractPassages } = ingest;
   const { meta, fragments } = renderArtifacts(markdown);
   const passages: Passage[] = [];
+  const headings: Record<string, string> = {};
   for (const section of meta.sections) {
+    for (const h of fragments[section.slug].matchAll(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/g)) {
+      const slug = plain(h[1]).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+      if (slug && !(slug in headings)) headings[slug] = section.slug;
+    }
     const blocks = introducedBlocks(fragments[section.slug]);
     for (const p of extractPassages(fragments[section.slug])) passages.push({ id: p.paragraphId, text: p.text, section: section.slug, block: blocks.get(p.paragraphId) });
   }
-  return { passages, sections: meta.sections.map((s: { slug: string }) => ({ slug: s.slug })) };
+  return { passages, sections: meta.sections.map((s: { slug: string }) => ({ slug: s.slug })), headings };
 }
 
 const norm = (t: string) => t.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
@@ -200,7 +210,11 @@ export function detectReuse(before: Rendered, after: Rendered): { reused: Record
   return { reused: out, movedOut };
 }
 
-/** A section slug the new text lacks maps to the section most of its moved paragraphs landed in. */
+/**
+ * A section slug the new text lacks maps to the section its heading now sits in (a section folded into another:
+ * Deepwater's Endnotes, whose few remaining paragraphs would vote for the wrong chapter, 3ak7), else to the
+ * section most of its moved paragraphs landed in.
+ */
 export function sectionMoves(before: Rendered, after: Rendered, moved: Record<string, string>): Record<string, string> {
   const newSlugs = new Set(after.sections.map((s) => s.slug));
   const sectionOf = new Map(after.passages.map((p) => [p.id, p.section]));
@@ -215,6 +229,10 @@ export function sectionMoves(before: Rendered, after: Rendered, moved: Record<st
   }
   const out: Record<string, string> = {};
   for (const [slug, v] of votes) out[slug] = [...v.entries()].sort((a, b) => b[1] - a[1])[0][0];
+  for (const s of before.sections) {
+    const home = after.headings?.[s.slug];
+    if (!newSlugs.has(s.slug) && home) out[s.slug] = home;
+  }
   return out;
 }
 
@@ -275,3 +293,19 @@ export const acceptReuse = (file: AliasFile): AliasFile => ({
 /** One id per line, sorted, no blanks. */
 export const parseIds = (text: string) => text.split("\n").map((l) => l.trim()).filter(Boolean);
 export const formatIds = (ids: Iterable<string>) => [...new Set(ids)].sort().join("\n") + "\n";
+
+/**
+ * Where the files we control cite a paragraph id (editorial/<report>.yaml, docs/share-quotes.yaml).
+ * Only in id positions (a `paragraph:` value, a `cites: [...]` entry, a `p=` link, a bare list item): an id that is
+ * also an English word ("and") would otherwise match the prose of every note (8ukk).
+ */
+export function citesId(text: string, x: string): boolean {
+  const q = x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const edge = "(?![\\w-])";
+  return [
+    new RegExp(`^\\s*-?\\s*paragraphs?:\\s*["']?${q}["']?${edge}`, "m"),
+    new RegExp(`\\bcites:\\s*\\[[^\\]]*(?<![\\w-])${q}${edge}[^\\]]*\\]`),
+    new RegExp(`[?&]p=${q}${edge}`),
+    new RegExp(`^\\s*-\\s*["']?${q}["']?\\s*$`, "m"),
+  ].some((re) => re.test(text));
+}

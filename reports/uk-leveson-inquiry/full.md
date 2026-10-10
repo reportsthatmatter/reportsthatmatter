@@ -4,7 +4,7 @@ authors: "The Right Honourable Lord Justice Leveson"
 published_at: "29 November 2012"
 source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp"
 pages: 2022
-footnotes: 8608
+footnotes: 8640
 ---
 
 The Leveson Inquiry culture, practices and ethics of the press
@@ -79,7 +79,7 @@ Page
 
 - 3 Timing and content — 50
 
-- PARt B: the PRess And the PuBlIC InteRest — 53
+- Part B: the press and the public interest — 53
 
 - Chapter 1: Introduction — 55
 
@@ -217,9 +217,9 @@ ii
 
 - 7 Complaints — 241
 
-PARt e: CRossIng legAl BoundARIes:
+Part E: crossing legal boundaries:
 
-- The CrImInAl And CIvIl lAw — 247
+- The criminal and civil law — 247
 
 - Chapter 1: The legal framework — 249
 
@@ -277,7 +277,7 @@ iii
 
 - 2 The Management and Standards Committee — 424
 
-Volume II PARt F: the CultuRe, PRACtICes And ethICs oF the PRess:
+Volume II Part F: the culture, practices and ethics of the press:
 
 - the PRess And the PuBlIC — 437
 
@@ -609,9 +609,9 @@ vii
 
 - 6 Who should be responsible for the decisions? — 1473
 
-Volume IV PARt J : AsPeCts oF RegulAtIon: the lAw And the
+Volume IV Part J : aspects of regulation: the law and the
 
-- PreSS COmPlAInTS COmmISSIOn — 1477
+- Press complaints commission — 1477
 
 - Chapter 1: Introduction — 1479
 
@@ -669,7 +669,7 @@ viii
 
 - 8 Conclusions — 1576
 
-- PARt K: RegulAtoRy Models FoR the FutuRe — 1581
+- Part K: regulatory models for the future — 1581
 
 - Chapter 1: Criteria for a regulatory solution — 1583
 
@@ -819,7 +819,7 @@ x
 
 - 2 Recommendations to a new regulatory body — 1795
 
-- PARt l: suMMARy oF ReCoMMendAtIons — 1801
+- Part L: summary of recommendations — 1801
 
 - APPendICes — 1819
 
@@ -841,7 +841,7 @@ The inquiry
 
 %%page 3%%
 
-The announCemenT 1. Introduction
+The announcement
 
 1.1 On, 13 July 2011, the Prime Minister made a statement to the House of Commons in these terms:[^1]
 
@@ -937,7 +937,7 @@ along with their CVs, these have been published on the Inquiry website throughou
 
 %%page 10%%
 
-> ChapTer 2 The approaCh
+> ChapTer 2 The approach
 
 1. Setting up and preliminaries
 
@@ -1371,7 +1371,7 @@ Core Participants. To such extent as they address the future, they shall be anal
 
 %%page 38%%
 
-> ChapTer 3 FurTher issues oF Law
+> ChapTer 3 Further issues of law
 
 1. Rule 13 of the Inquiry Rules 2006: the approach
 
@@ -1541,7 +1541,7 @@ Inquiry conducted by The Rt Hon Sir William Gage who, referring to s24(1) of the
 
 %%page 49%%
 
-ChapTer 4 The reporT 1. Scope
+ChapTer 4 The report 1. Scope
 
 1.1 The Inquiry is UK-wide in its scope. It was set up, and its Terms of Reference were finalised, with the support of the Devolved Governments of the UK in Scotland, Northern Ireland and Wales. In so far as my recommendations address matters within areas of devolved competence, it will of course be for the devolved administrations and legislatures to consider them in the usual way. I have not, however, sought to any extent at all in this Report to analyse the position separately from the perspective of the devolved jurisdictions, nor to acknowledge, where legal matters are considered, the points on which different law applies in different parts of the UK. My timetable did not allow for that; it would have been a very complex and time-consuming exercise. I recognise in the result that my Report may be less helpful to those with decision-making responsibilities in Scotland, Northern Ireland and Wales, but I have sought to set out my analysis and conclusions in a sufficiently explicit and reasoned way to enable the experts within the devolved jurisdictions to see as readily as possible how they could be made to fit. I have not been made aware of any technical reason why my recommendations should not be able to be accommodated, with appropriate adjustment, in all parts of the UK, but I have not sought detailed advice on the matter. I intend no discourtesy at all by this approach and hope that those with the relevant decision-making responsibilities will understand the reasons.
 
@@ -1573,8 +1573,6 @@ Government (maintaining, I hope, the cross party consensus with which this Inqui
 
 %%page 51%%
 
-Chapter 4 | The Report
-
 3.3 Meeting the timetable has not been without consequences. In relation to the evidence, careful selection was made of those witnesses who would be called to give evidence on oath and representations were invited from Core Participants in relation to other potential witnesses whose statements, in the absence of objection, could be read into the record without their personal attendance. Understanding the approach of the Inquiry to the evidence generally, sensible decisions were made by the Core Participants whose assistance, throughout, has been of very great value. The consequence, as I have explained, is that a vast body of evidence was not in fact the subject of oral exposition and the timetable for the hearings was met. There are, however, no different classes of evidence: although some of the material provided in writing is not referred to, it has all been considered.
 
 3.4 As for the Report, the consequences are different. In an ideal world, I would have wished to write, re-write and hone this Report so that every nuance could be the subject of mature reflection. As previous inquiries have shown, given the amount of evidence whether oral, documentary or read-in, that would have been a task of very many months duration. This Report, therefore, is the work of many hands,[^1] all working to my direction and reflecting my views; that is the inevitable consequence of the way in which the work has had to be done. I place on record my appreciation to all those who have collated the evidence in relation to different aspects of the Report. Having said that, I repeat that every finding of fact, every conclusion and every recommendation expressed in this Report is mine alone. Equally, any errors are my responsibility.
@@ -1583,13 +1581,13 @@ Chapter 4 | The Report
 
 parT B
 
-THE prESS aND THE pUBLIC INTErEST
+The press and the Public interest
 
 %%page 55%%
 
 CHapTEr 1
 
-INTroDUCTIoN
+Introduction
 
 1.1 This Part of the Report alludes to some of the fundamental principles which must provide the context for any consideration of the role of the press in the United Kingdom. It does so principally for the purpose of brief overview and explanation, and to set the scene for the narrative, analysis and recommendations which follow.
 
@@ -1609,9 +1607,9 @@ These are precious and fundamental principles, to which great respect must be pa
 
 %%page 56%%
 
-> CHapTEr 2 THE frEEDom of THE prESS aND DEmoCraCy
+> CHapTEr 2 The freedom of the press and
 
-1. Context
+DEmoCraCy 1. Context
 
 > "A free press is the unsleeping guardian of every other right that free men prize; it is the most dangerous foe of tyranny … Under dictatorship the press is bound to languish … But where free institutions are indigenous to the soil and men have the habit of liberty, the press will continue to be the Fourth Estate, the vigilant guardian of the rights of the ordinary citizen."1 Winston Churchill
 
@@ -1635,9 +1633,7 @@ These are precious and fundamental principles, to which great respect must be pa
 
 Seidman, Sunstein and Tushnet, Constitutional Law, 3rd ed. (1996), pp. 1078-1086.
 
-It is this last interest which is engaged in the present case. The applicants argue that
-
-B in their cases the criminal justice system has failed, and that they have been wrongly convicted. They seek with the assistance of journalists, who have the resources to do the necessary investigations, to make public the wrongs which they allegedly suffered.'
+It is this last interest which is engaged in the present case. The applicants argue that in their cases the criminal justice system has failed, and that they have been wrongly convicted. They seek with the assistance of journalists, who have the resources to do the necessary investigations, to make public the wrongs which they allegedly suffered.'
 
 1.4 The point was developed in the speech of Lord Nicholls of Birkenhead in Reynolds v Times Newspapers Ltd (2001) 1 A.C. 127, at paragraph 200:
 
@@ -1679,13 +1675,11 @@ Parliament in 1771, after a legal battle by the radical MP and journalist John W
 
 %%page 59%%
 
-2.7 The repeal of newspaper taxes resulted in a period of rapid press expansion. However, by
-
-B the early part of the twentieth century, a new form of limitation on press independence had emerged. The proliferation of both regional and national newspapers was followed by a period of consolidation as increasingly powerful newspaper chains bought up provincial titles. For much of the inter-war period the proprietors of these large corporations – the press barons of the day – dominated the press.
+2.7 The repeal of newspaper taxes resulted in a period of rapid press expansion. However, by the early part of the twentieth century, a new form of limitation on press independence had emerged. The proliferation of both regional and national newspapers was followed by a period of consolidation as increasingly powerful newspaper chains bought up provincial titles. For much of the inter-war period the proprietors of these large corporations – the press barons of the day – dominated the press.
 
 2.8 During the Second World War, Government censorship returned, this time in the guise of the now infamous Defence of the Realm Regulations. Regulation 2D conferred on the Home Secretary the personal power to ban any publication which published "material calculated to foment opposition" to the war. Relying on this power, the Government closed down two communist papers. Following mass rallies in response, the ban was lifted.
 
-2.9 In general, however, the press response to the unprecedented levels of Government censorship which characterised the war period was muted. Representative of the type of views being expressed on this issue, but not on others, George Orwell gave the following retrospective perspective:3
+2.9 In general, however, the press response to the unprecedented levels of Government censorship which characterised the war period was muted. Representative of the type of views being expressed on this issue, but not on others, George Orwell gave the following retrospective perspective:[^3]
 
 > "Any fair-minded person with journalistic experience will admit that during this war official censorship has not been particularly irksome. We have not been subjected to the kind of totalitarian 'co-ordination' that it might have been reasonable to expect. The press has some justified grievances, but on the whole the Government has behaved well and has been surprisingly tolerant of minority opinions. The sinister fact about literary censorship in England is that it is largely voluntary."
 
@@ -1725,9 +1719,7 @@ The report recommended the development of a written Code of Practice, warning "i
 
 %%page 61%%
 
-2.15 Consistently with other international instruments protecting freedom of expression, Article 10 expressly acknowledges that freedom of expression generally, including freedom of press expression, may be restricted where necessary to protect the legitimate aims of a democracy. The court has recognised that freedom of expression may need to be restricted in the interests of national security and public morality, as well as individual rights to privacy and peaceful
-
-B enjoyment of property. The ECHR jurisprudence has nonetheless afforded a broad degree of protection of the press, drawing a distinction, however, between the protection afforded to reporting contributing to debate on economic, social and political issues and press reports involving tawdry allegations about an individual's private life.[^11]
+2.15 Consistently with other international instruments protecting freedom of expression, Article 10 expressly acknowledges that freedom of expression generally, including freedom of press expression, may be restricted where necessary to protect the legitimate aims of a democracy. The court has recognised that freedom of expression may need to be restricted in the interests of national security and public morality, as well as individual rights to privacy and peaceful enjoyment of property. The ECHR jurisprudence has nonetheless afforded a broad degree of protection of the press, drawing a distinction, however, between the protection afforded to reporting contributing to debate on economic, social and political issues and press reports involving tawdry allegations about an individual's private life.[^11]
 
 2.16 Since 2000, Article 10 has been incorporated into domestic law through the mechanisms set out in the Human Rights Act (HRA) 1998. In the years since incorporation, the domestic courts have joined Strasbourg in seeking to strike a balance between the protection afforded a free press, the restrictions necessarily placed on that freedom in a democratic society.
 
@@ -1763,7 +1755,7 @@ And:[^14]
 
 %%page 63%%
 
-> "Readers, listeners and viewers don't need media that 'express themselves': they need media that meet at least minimal standards for adequate communication with B intended audiences.[^18] The critical public interest in a free press is not so much in a press which exercises self-expression as in a press that is free from censorship, not subject to some kind of central control.[^19] Even if the press does have a very important right to freedom of expression, you have to remember that it's justified by what it does for individuals by constituting a public sphere in which all individuals can take part."
+> "Readers, listeners and viewers don't need media that 'express themselves': they need media that meet at least minimal standards for adequate communication with intended audiences.[^18] The critical public interest in a free press is not so much in a press which exercises self-expression as in a press that is free from censorship, not subject to some kind of central control.[^19] Even if the press does have a very important right to freedom of expression, you have to remember that it's justified by what it does for individuals by constituting a public sphere in which all individuals can take part."
 
 3.5 A free press will not necessarily provide an effective 'market-place for ideas'. The freedom of the press is a prerequisite for that, but not sufficient in itself, for all sorts of reasons. There must be some degree of effective connection between communicators in the press; and when some elements of the press are more powerful communicators than other papers and individuals, its capacity to facilitate informed debate may be impaired. In a similar vein, a measure of plurality of voices is required if a free press is to enhance democratic debate.
 
@@ -1788,8 +1780,6 @@ B freedom from interference with the form and content of what it says, but also 
 %%page 65%%
 
 4.3 The second way in which a free press serves the interests of democracy is through its public watchdog role, acting as a check on political and other holders of power. The press is able to perform this function because of its hard-won position as a powerful institution independent of the state, a position which earned it the nickname or sobriquet of the Fourth Estate amongst nineteenth century writers.
-
-B
 
 4.4 The British press has a strong tradition of holding power to account. A forerunner of investigative journalism, Charles Dickens, exposed some of the cruellest aspects of Victorian society in his excoriating accounts of the work houses. More recently, investigations conducted by his modern counterparts at The Daily Telegraph resulted in the exposure of widespread misuse of the parliamentary expenses scheme by Members of Parliament. Less headline grabbing, but of equal significance, is the role of investigative journalism in consumer affairs and at exposing abuses of power in publicly-run institutions such as hospitals, care homes and prisons.
 
@@ -1865,7 +1855,7 @@ The simple point I am making about the press is that an irreverent and opinionat
 
 %%page 69%%
 
-CHapTEr 3 CompETINg pUBLIC INTErESTS 1. Context
+CHapTEr 3 Competing public interests 1. Context
 
 1.1 The public interest in a free press is fundamental. But it cannot be viewed in isolation. As has been demonstrated, it is, itself, an aspect of wider public interests such as the public interest in democracy, for example, in public life and in the rule of law. There are other public interests also of which press freedom is not a major aspect, and with which it may sometimes be in tension. This section considers some of them, in order to put the public interest in a free press in its fuller context, and to reflect on how competing aspects of the public interest are resolved and reconciled.
 
@@ -1897,9 +1887,7 @@ United States Supreme Court has developed some of the most extensive protections
 
 > – individual freedom of expression and rights to receive and impart information where those interests and rights are not identical to the interests and rights of the press.
 
-What follows picks up some of the strands of thought in the responses the Inquiry received
-
-B to these questions, and which seemed to be particularly pertinent.
+What follows picks up some of the strands of thought in the responses the Inquiry received to these questions, and which seemed to be particularly pertinent.
 
 2. freedom of expression
 
@@ -1907,7 +1895,7 @@ B to these questions, and which seemed to be particularly pertinent.
 
 > "Freedom of individual expression is important for the development and maintenance of social identity, and for forming relationships and associations, for developing projects (that may be counter to prevailing opinion or orthodoxy)."
 
-2.2 There is a distinct public interest in individual freedom of self-expression. Liberal democracies are composed of individuals free to express and develop themselves. It was put to the Inquiry in this way:6
+2.2 There is a distinct public interest in individual freedom of self-expression. Liberal democracies are composed of individuals free to express and develop themselves. It was put to the Inquiry in this way:[^6]
 
 > "Freedom of thought and expression are also in the public interest because they constitute the public as a society of equals who respect one another: a society in which each member can participate and bring their own views to the public sphere. This is a good independent of the instrumental benefits it brings."
 
@@ -1991,13 +1979,13 @@ Everyone is entitled to some private space and always provided that there is no 
 
 %%page 76%%
 
-CHapTEr 4 THE rESpoNSIBILITIES of THE prESS 1. Context
+CHapTEr 4 The responsibilities of the press 1. Context
 
 1.1 The idea that freedom of expression comes with responsibilities is both obvious and entirely familiar. Article 10(2) of the ECHR provides that the right to freedom of expression "carries with it duties and responsibilities". In part, this is because, as discussed in Chapter 3, unrestricted speech has the power to harm competing public interests, including the free speech of others. It is also because the press is an institution of considerable power and the exercise of power in a democratic context brings with it proportionate responsibility for the consequences of choices to do so. Moreover, where power is exercised purportedly in the public interest, then there is a particularly acute responsibility to account for the exercise of that power to the public in whose name it is exercised.
 
 2. press power and the impact on society
 
-2.1 In order to understand the responsibilities incumbent on the press, it is necessary to consider the nature of press power and the potential it has to impact on society. One obvious aspect of the power wielded by the press is its capacity for mass communication:1
+2.1 In order to understand the responsibilities incumbent on the press, it is necessary to consider the nature of press power and the potential it has to impact on society. One obvious aspect of the power wielded by the press is its capacity for mass communication:[^1]
 
 "Mass communication has powers that local, individual, communication does not.
 
@@ -2017,9 +2005,7 @@ Similarly, the there is a public interest in learning of dangers and risks, even
 
 > "Communication is a relational process, taking place between speaker (or writer) and audiences. A powerful media, even a powerful free media, can effectively block dissenting voices".
 
-Mass communication by the press can block dissenting voices in a number of ways. One is by
-
-B preventing access to audiences. Access to audiences is integral to the ability of individuals to experience the communicative aspects of free speech:[^4]
+Mass communication by the press can block dissenting voices in a number of ways. One is by preventing access to audiences. Access to audiences is integral to the ability of individuals to experience the communicative aspects of free speech:[^4]
 
 > "Expression can be done by a lone individual, but communication is essentially relational, and involves others. Individual speakers have an interest in being accessible to audiences. Communication can be stifled, not by blocking speech, but by blocking access to audiences. For example, suppose a cunning King permits dissenting political views to be expressed, but only at the bottom of a deep mine shaft. Though here, strictly speaking, one has an opportunity to express one's views, one is not free to have them heard. Not only do we have an interest in there being an audience for our speech, we also have an interest in our being the audience to others' speech."
 
@@ -2029,7 +2015,7 @@ B preventing access to audiences. Access to audiences is integral to the ability
 
 2.5 One consequence is that views expressed through the press megaphone are more likely to predominate: "Whether something's liable to be noticed, what effects it's liable to have on other people's perceptions must be very relevant";[^6] "Financial power ensures that one sort of idea is more likely to be promoted in the newspapers people read than another sort of idea".[^7]
 
-2.6 The tendency of views expressed in the press to prevail can be also be explained by a second, and related, facet of press power. There is no doubt that the press is considered a voice of authority in society. In many quarters, it has rightly earned a reputation for accurate and vigorous reporting, independence and holding power to account. It is because of the authoritative quality of the press, combined with its access to mass audiences, that communication by the press, as an institution of considerable power, has a significant impact on society. It can set the news agenda, shape culture and change perceptions:8 9 10
+2.6 The tendency of views expressed in the press to prevail can be also be explained by a second, and related, facet of press power. There is no doubt that the press is considered a voice of authority in society. In many quarters, it has rightly earned a reputation for accurate and vigorous reporting, independence and holding power to account. It is because of the authoritative quality of the press, combined with its access to mass audiences, that communication by the press, as an institution of considerable power, has a significant impact on society. It can set the news agenda, shape culture and change perceptions:[^8][^9][^10]
 
 %%page 78%%
 
@@ -2051,9 +2037,7 @@ B preventing access to audiences. Access to audiences is integral to the ability
 
 %%page 79%%
 
-3.2 A free press performs its communication role in a democracy in a myriad ways, day in and day out. It is by no means only through political journalism and holding authority to account
-
-B that the press proves its value in this way (although those are very important aspects in their own right). All forms of journalistic content potentially perform this vital role. Debate and comment, information and speculation, news and opinion, education and entertainment, all play their part. It is exactly this multifunctional and multifaceted package of content, produced with such verve and to deadline week in, week out, which makes the press such a marvel, such a matter of pride.
+3.2 A free press performs its communication role in a democracy in a myriad ways, day in and day out. It is by no means only through political journalism and holding authority to account that the press proves its value in this way (although those are very important aspects in their own right). All forms of journalistic content potentially perform this vital role. Debate and comment, information and speculation, news and opinion, education and entertainment, all play their part. It is exactly this multifunctional and multifaceted package of content, produced with such verve and to deadline week in, week out, which makes the press such a marvel, such a matter of pride.
 
 3.3 The different functions of the press, though, have different implications. We care about them in different ways and for different reasons. We apply different standards to them. So, for example, we might say we wanted the TV listings and football results to be 'accurate'; the editorial to be 'opinionated' (perhaps to confirm or challenge, or help us form, our own opinions); the sports reporting to be 'lively' (and reasonably fair), the travel writing to be inspiring but not misleading, the crossword to be challenging but not impossible, and so on. And above all, we want it all to be accessible and a good read, as we all think of that in our different ways. This communication function is, in other words, an extremely complex and sophisticated exchange between editor and reader.
 
@@ -2137,7 +2121,7 @@ but good public interest journalism seeks to make the sources and the evidence a
 
 %%page 83%%
 
-> "The duties or responsibilities of the press follow straightforwardly from the reasons B we have for wanting a free press. So if one of the main reasons for wanting a free press is that we be fully informed as citizens, then there are responsibilities on the press to be accurate, honest, open and accountable."[^25] "Clearly though, a press which is free in the sense of not being controlled centrally, not censored, will only be meeting a necessary condition for serving its purposes of informing and scrutinising. In order for the press to serve these public interests it will also need to pursue its work with accuracy and rigour, to be concerned for the truth, to seek to avoid bias or serving particular interests, to make wise judgments as to what is worthy of public attention and what not, and perhaps to be courageous in pursuing these goals. (And it may well also be … that in order to serve its purpose the press needs to communicate in ways that are intelligible and assessable)."[^26] "Freedom is not licensed, and that's the way in which all these responsibilities bear on how you exercise your freedom. So you have those guiding aims of the media … – holding people accountable and presenting information – serving those roles and then these constraints."[^27] "The strategy here has been to focus on the valuable ends that a free press is meant to serve and then to point out (a) that a free press need not secure those ends; (b) that a free press can even stand as an obstacle to the achievement of those ends. This is not to argue in favour of censorship but to point out ways in which a free press can fail to contribute towards the public interest, and, as such, public-interest based justifications will fail to apply."[^28] "it is important for good judgment that the press is clear not only on the nature of the purposes it serves in a free and democratic society but on their partial contribution to public interest as a whole and the independent significance of other components of the public interest. … In my view the press itself at present assumes too quickly that freedom of the press (and free expression to the extent that is related to press freedom) is sufficient to guarantee that the press serves its distinctive role in contributing to the public interest. On the one hand this is problematic because press freedom is only a necessary condition for the press to make its distinctive contribution to the public interest. Treating it as a sufficient condition is making the press insensitive to all the other factors that are critical to this – accuracy and rigour, avoidance of partiality, bias, conflict of interest, and the other factors mentioned above. All these must receive appropriate attention. But this is also problematic because assuming that a process (a free press) will achieve a beneficial goal allows journalists and editors to fail to address carefully the question of what exactly that distinctive purpose is, or how it relates to other parts of the public interest."[^29]
+> "The duties or responsibilities of the press follow straightforwardly from the reasons we have for wanting a free press. So if one of the main reasons for wanting a free press is that we be fully informed as citizens, then there are responsibilities on the press to be accurate, honest, open and accountable."[^25] "Clearly though, a press which is free in the sense of not being controlled centrally, not censored, will only be meeting a necessary condition for serving its purposes of informing and scrutinising. In order for the press to serve these public interests it will also need to pursue its work with accuracy and rigour, to be concerned for the truth, to seek to avoid bias or serving particular interests, to make wise judgments as to what is worthy of public attention and what not, and perhaps to be courageous in pursuing these goals. (And it may well also be … that in order to serve its purpose the press needs to communicate in ways that are intelligible and assessable)."[^26] "Freedom is not licensed, and that's the way in which all these responsibilities bear on how you exercise your freedom. So you have those guiding aims of the media … – holding people accountable and presenting information – serving those roles and then these constraints."[^27] "The strategy here has been to focus on the valuable ends that a free press is meant to serve and then to point out (a) that a free press need not secure those ends; (b) that a free press can even stand as an obstacle to the achievement of those ends. This is not to argue in favour of censorship but to point out ways in which a free press can fail to contribute towards the public interest, and, as such, public-interest based justifications will fail to apply."[^28] "it is important for good judgment that the press is clear not only on the nature of the purposes it serves in a free and democratic society but on their partial contribution to public interest as a whole and the independent significance of other components of the public interest. … In my view the press itself at present assumes too quickly that freedom of the press (and free expression to the extent that is related to press freedom) is sufficient to guarantee that the press serves its distinctive role in contributing to the public interest. On the one hand this is problematic because press freedom is only a necessary condition for the press to make its distinctive contribution to the public interest. Treating it as a sufficient condition is making the press insensitive to all the other factors that are critical to this – accuracy and rigour, avoidance of partiality, bias, conflict of interest, and the other factors mentioned above. All these must receive appropriate attention. But this is also problematic because assuming that a process (a free press) will achieve a beneficial goal allows journalists and editors to fail to address carefully the question of what exactly that distinctive purpose is, or how it relates to other parts of the public interest."[^29]
 
 %%page 84%%
 
@@ -2173,9 +2157,11 @@ B or is not directed at any matters of public interest. Pseudo public interest j
 
 4.13 This is a very fundamental issue about culture, practices and ethics, and the way they relate to each other. Professor Christopher Megone, who has worked extensively with industry bodies (mainly in finance and engineering) on issues of workplace ethics, put the matter this way to the Inquiry:
 
-> "Of course an ethical media organisation needs to have an ethical code, one which reflects the distinctive mission of the organisation as part of the press (and thus is aware of the key role of the press regarding the public interest), and one which is sensitive to the particular ethical challenges that may arise for editors, journalists, etc in pursuit of their mission. "However, even more critical to the existence of an ethical media organisation is culture. … If there is an unhealthy culture then an organisation can have an ethical code but it will have little influence. Members of the organisation can undergo 'ethics training' but it will have little effect. As soon as they return from the training to their desk or office, the pervasive culture will dominate their decision-making. The culture brings to bear all sorts of 'accepted norms' which an afternoon's training will be relatively powerless to affect. (I do not, of course, think that good 'ethics training' is pointless, but simply that its effectiveness depends on whether, or to what extent, other factors are in place in the organisation.) … "… there are a number of critical factors that could be expected to bear on ethical culture in a media organisation. First, tone from the top – leadership – is of tremendous importance. The role of owners and editors here will be crucial. Certainly the organisation needs to have its ethical code, but that code needs to be fully understood and endorsed by its owners and editors, and these people need to live out that code day in and day out. This is a decisive factor in that code having meaning for all who work in the organisation. But their living it out means thinking about how they can convey the code through their practice right across the organisation, how they interact with employees right across the organisation in a way that makes it resonant for them. … B "Secondly, an ethical organisation needs to have an open and honest culture in which it is possible for members of the organisation to raise their concerns about practices and to discuss them with colleagues and senior staff. … [S]taff need to feel confident that if they perceive unsatisfactory practices to be developing, or face a challenging situation, they can raise the matter with colleagues or senior staff. And they need to be confident that they can do so, and have a proper discussion, without fear of mockery or retribution. 'Accepted norms' need to be open to challenge. … "Amongst other things, developing an open culture in a press/media organisation will require sensitivity to the particular kinds of pressure that journalists and other employees are bound to be under."
+> "Of course an ethical media organisation needs to have an ethical code, one which reflects the distinctive mission of the organisation as part of the press (and thus is aware of the key role of the press regarding the public interest), and one which is sensitive to the particular ethical challenges that may arise for editors, journalists, etc in pursuit of their mission. "However, even more critical to the existence of an ethical media organisation is culture. … If there is an unhealthy culture then an organisation can have an ethical code but it will have little influence. Members of the organisation can undergo 'ethics training' but it will have little effect. As soon as they return from the training to their desk or office, the pervasive culture will dominate their decision-making. The culture brings to bear all sorts of 'accepted norms' which an afternoon's training will be relatively powerless to affect. (I do not, of course, think that good 'ethics training' is pointless, but simply that its effectiveness depends on whether, or to what extent, other factors are in place in the organisation.) … "… there are a number of critical factors that could be expected to bear on ethical culture in a media organisation. First, tone from the top – leadership – is of tremendous importance. The role of owners and editors here will be crucial. Certainly the organisation needs to have its ethical code, but that code needs to be fully understood and endorsed by its owners and editors, and these people need to live out that code day in and day out. This is a decisive factor in that code having meaning for all who work in the organisation. But their living it out means thinking about how they can convey the code through their practice right across the organisation, how they interact with employees right across the organisation in a way that makes it resonant for them. …
 
 %%page 87%%
+
+> "Secondly, an ethical organisation needs to have an open and honest culture in which it is possible for members of the organisation to raise their concerns about practices and to discuss them with colleagues and senior staff. … [S]taff need to feel confident that if they perceive unsatisfactory practices to be developing, or face a challenging situation, they can raise the matter with colleagues or senior staff. And they need to be confident that they can do so, and have a proper discussion, without fear of mockery or retribution. 'Accepted norms' need to be open to challenge. … "Amongst other things, developing an open culture in a press/media organisation will require sensitivity to the particular kinds of pressure that journalists and other employees are bound to be under."
 
 4.14 Against this background, an operative code of ethics therefore would have a number of potential functions.
 
@@ -2201,7 +2187,7 @@ B or is not directed at any matters of public interest. Pseudo public interest j
 
 %%page 88%%
 
-(a) openness about payments from others B
+(a) openness about payments from others
 
 (b) openness about payments to others
 
@@ -2229,11 +2215,11 @@ I have always been keenly aware of the dangers of going too far; and I have been
 
 parT C
 
-The preSS
+The press
 
 %%page 93%%
 
-ConTexT
+Context
 
 1.1 The Inquiry is required to examine the culture, practices and ethics of the press but, in order to do that, it is helpful to set out the commercial context within which the press operates. C This Part of the Report looks at the market for news provision and some of the ways in which it is changing as well as the newspaper market more generally. This Chapter looks briefly at the economics of the newspaper market and where the challenges are coming from.
 
@@ -2279,8 +2265,6 @@ some of this is from professional media organisations, but it also includes 'cit
 
 %%page 95%%
 
-Chapter 1 | Context
-
 2.9 This table shows circulation for both national daily and Sunday titles in September 2002 and September 2012. Although the speed of circulation decline differs from title to title there is an evident trend here.
 
 Table C1.1: National newspaper circulation 2002 - 2012 Title Circulation Sept Circulation Sept % change
@@ -2289,7 +2273,7 @@ Table C1.1: National newspaper circulation 2002 - 2012 Title Circulation Sept Ci
 
 The Sun 3,733,052 2,445,361 - 34.49
 
-C Daily Mirror 2,130,859 1,072,687 - 49.66 Daily Star 855,880 586,743 - 31.45 Daily Record 540,886 272,799 - 49.56 Daily Mail 2,387,149 1,884,815 - 21.04 The Express 942,842 543,912 - 42.31 Daily Telegraph 934,527 560,398 - 40.03 Times 640,424 406,711 - 36.49 FT 417,911 287,895 - 31.11 Guardian 389,894 204,937 - 47.44 Independent 187,042 81,245 - 56.56
+Daily Mirror 2,130,859 1,072,687 - 49.66 Daily Star 855,880 586,743 - 31.45 Daily Record 540,886 272,799 - 49.56 Daily Mail 2,387,149 1,884,815 - 21.04 The Express 942,842 543,912 - 42.31 Daily Telegraph 934,527 560,398 - 40.03 Times 640,424 406,711 - 36.49 FT 417,911 287,895 - 31.11 Guardian 389,894 204,937 - 47.44 Independent 187,042 81,245 - 56.56
 
 News of the World 4,067,205 n/a Sun on Sunday 2,082,755 n/a Sunday Mirror 1,804,334 1,087,940 - 39.70 People 1,301,799 455,973 - 64.97 Daily Star Sunday 719,308 407,239 - 43.38 Sunday Mail 656,921 310,135 - 52.79 Mail on Sunday 2,306,911 1,758,720 - 23.76 Sunday Express 910,177 493,586 - 45.77 Sunday Times 1,387,182 904,548 - 34.79 Sunday Telegraph 744,023 446,526 - 39.98 Observer 432,938 238,282 - 44.96 Independent on Sunday 186,188 120,340 - 35.37 Source: Audit Bureau of Circulations9
 
@@ -2305,7 +2289,7 @@ The Online Advertising Bureau stated that UK digital advertising expenditure gre
 
 £2.59 billion in the first half of 2012.[^10] In addition, advertising spend has historically declined when growth in the economy is slow, adding further pressures on newspaper revenues. More dramatically, print classified advertising has been particularly hard hit by the move to online.
 
-Online models have proved highly successful with buyers and sellers. C
+Online models have proved highly successful with buyers and sellers.
 
 2.12 Thus, revenues accrued through recruitment advertising have reduced from £150 million per year to £20 million per year, and there has been a similar decline in property advertising.[^11]
 
@@ -2317,11 +2301,9 @@ Recruiters simply do not need to place print advertisements any more. Further, p
 
 %%page 97%%
 
-Chapter 1 | Context
-
 Table C1.2: Newspaper revenues publisher newspaper division FY 2010 2005-10 change revenues (£m) in revenues (%) National newspapers News International* (News Corporation) 1,047 -2% Associated (DMGT) 850 -3% Trinity Mirror national division 430 -14%
 
-C FT Group (Pearson)** 403 21% Telegraph Media Group 324 0% Guardian News and Media (GMG) 221 -5% Express Newspapers (Northern & Shell) 214 -26% regional newspapers Johnston Press 398 -23% Trinity Mirror regional division† 331 -48% Northcliffe (DMGT) 294 -43% Newsquest (Gannett) †† 344 -53% Notes: Unless otherwise stated, 2005-10 change in revenues is not like-for-like *News International includes News Group Newspapers Ltd and Times Newspapers Ltd **FT Group 2005-10 change like-for-like: 2005 revenue excl. IDC, reported in 2006 annual report †TM regional division 2005-10 change like-for-like: 2010 revenues excl. GMG Regional Media ††Newsquest revenues converted to sterling using exchange rate stated in annual report [Source: Enders Analysis based on company reports]
+FT Group (Pearson)** 403 21% Telegraph Media Group 324 0% Guardian News and Media (GMG) 221 -5% Express Newspapers (Northern & Shell) 214 -26% regional newspapers Johnston Press 398 -23% Trinity Mirror regional division† 331 -48% Northcliffe (DMGT) 294 -43% Newsquest (Gannett) †† 344 -53% Notes: Unless otherwise stated, 2005-10 change in revenues is not like-for-like *News International includes News Group Newspapers Ltd and Times Newspapers Ltd **FT Group 2005-10 change like-for-like: 2005 revenue excl. IDC, reported in 2006 annual report †TM regional division 2005-10 change like-for-like: 2010 revenues excl. GMG Regional Media ††Newsquest revenues converted to sterling using exchange rate stated in annual report [Source: Enders Analysis based on company reports]
 
 2.15 Certainly there has been no structural like-for-like shift in advertising revenues for newspapers from print to online editions. Although the proportion of advertising online spend has grown at a considerable rate, those revenues are shared by a far greater number of businesses including micro bloggers and other online businesses. Although the internet enables highly personalised targeted advertising, for which advertisers will pay a premium, such revenues derived from advertising directed at specific types of user, so-called targeted or behavioural advertising, have not in any way matched the decline in revenue from traditional sources. It is certainly telling and illustrative of the challenges faced by newspapers that the UK's most successful online newspapers, the MailOnline and the Guardian, have yet to find a way of converting this into substantial or comparable profit.
 
@@ -2351,7 +2333,7 @@ Times and the Times) operate behind paywalls but this is not necessarily seen as
 
 %%page 99%%
 
-Chapter 2 the press: history, governanCe struCtures and finanCes 1. Introduction
+Chapter 2 the press: history, governanCe Structures and finances 1. Introduction
 
 1.1 In this Chapter I examine the history, governance structures and finances of the major British newspapers. I will look first and in some detail at those newspapers owned by News International (NI), and ultimately by the parent company in the US, News Corporation.[^1] This is fitting given the central role of the News of the World (NoTW) in the events that led to establishment of this Inquiry, as well as the extraordinary influence that Rupert Murdoch has exercised over the development of the press in Britain, since he purchased NoTW newspaper in 1969. I will then look at the history, governance structures and finances of the other major British newspaper publishing houses, before turning albeit briefly to the regional press and the magazine industry.
 
@@ -2375,9 +2357,7 @@ Murdoch would remain Chairman of both companies.[^7]
 
 Mr Murdoch exercises effective control of the company. Prince Alwaleed bin Talal al-Saud of
 
-Saudi Arabia owns 7% of News Corp's shares through his Kingdom Holding Company, making him the second largest shareholder in News Corp. C
-
-The Management and Standards Committee
+Saudi Arabia owns 7% of News Corp's shares through his Kingdom Holding Company, making him the second largest shareholder in News Corp. The Management and Standards Committee
 
 2.5 News Corp established the Management and Standards Committee (MSC) to take responsibility for all matters in relation to phone hacking at NoTW, payments to the police and all other related issues at NI.[^8]
 
@@ -2403,7 +2383,7 @@ Financial results
 
 2.12 The closure of NoTW in July 2011 affected the profitability of the company's newspaper and publishing businesses. Profit fell 38%, to $110 million. The company reported a $91 million pre-tax charge related to its British newspaper business.
 
-C Annual conference
+Annual conference
 
 2.13 In addition to its media interests, News Corp also plays a role in public policy discussion, organising and hosting an annual Management Conference, the aim of which is to provide a forum for the discussion of media issues and policy in relation to world events. The conference is not only for News Corp's senior executives and journalists but also for policy makers and other interested parties. The conference has been held in Cancun, Mexico, and Hayman Island, Australia, as well as Pebble Beach, California.
 
@@ -2445,9 +2425,7 @@ Changes to content, and in particular the introduction of a far more irreverent 
 
 2.22 Mr Murdoch introduced a style and understanding of journalism that he had developed at the Adelaide News. In an otherwise staid newspaper market, the re-launched The Sun and NoTW were irreverent and anti-establishment. This new approach to tabloid journalism was well illustrated in the publication in NoTW of Christine Keeler's memoir of the 1963 Profumo affair. Indeed, some commentators have suggested this was a, if not the, defining moment in the development of a journalistic ethos at what was to become NI.[^32] The Keeler article certainly boosted sales, although Mr Murdoch received much criticism from his competitors of reporting 'old' news, especially of such a nature.[^33]
 
-2.23 The Sun under Mr Murdoch set out to appeal to a broader cross-section of society. Innovations
-
-C in content intended to appeal to a mass market included the introduction of television coverage, and the advent of the first Page 3 girl in 1970. This marked the first anniversary of the re-launched tabloid and quickly became a controversial trademark of the paper, albeit copied by its competitors. During this period, the circulation of The Sun increased from 1 million in 1969 to over 3.8 million in 1980, peaking at 4 million in 1978 under Sir Larry Lamb's editorship.[^34]
+2.23 The Sun under Mr Murdoch set out to appeal to a broader cross-section of society. Innovations in content intended to appeal to a mass market included the introduction of television coverage, and the advent of the first Page 3 girl in 1970. This marked the first anniversary of the re-launched tabloid and quickly became a controversial trademark of the paper, albeit copied by its competitors. During this period, the circulation of The Sun increased from 1 million in 1969 to over 3.8 million in 1980, peaking at 4 million in 1978 under Sir Larry Lamb's editorship.[^34]
 
 2.24 Mr Murdoch was not only responsible for the introduction of a new approach to tabloid journalism at both The Sun and NoTW, he also introduced important changes to methods of production to all his titles. Although these changes were criticised by some within the industry at the time and, indeed, led to a bitter and protracted dispute with both the print unions and the National Union of Journalists (NUJ), commentators have credited these changes, which have since been adopted by all newspapers, with ensuring the economic viability of the British newspaper industry.
 
@@ -2497,8 +2475,6 @@ Fourth, on editorial independence, the editors shall not be appointed or dismiss
 
 Fifth, the editor of each newspaper shall retain control over any political comment published in his newspaper and, in particular, shall not be subject to any restraint or inhibition in expressing opinion or in reporting news that might directly or indirectly conflict with the opinions or interests of any of the newspaper proprietors.
 
-C
-
 Sixth, instructions to journalists shall be given only by the editor or those to whom he has delegated authority.
 
 Seventh, subject only to any annual budget for editorial space and expenditure the editor shall retain control over the appointment, disposition and dismissal of journalists on his newspaper and of all other content of his newspaper.
@@ -2545,9 +2521,7 @@ Sun will be required to attend these monthly NI Board meetings and report on per
 
 2.43 The Corporate Audit Department of News Corp provides assurance on the effectiveness of operational and financial controls through audits carried out on the basis of an assessment of significant risks to News Corp. In 2012 such audits were planned at NI in relation to, inter alia, advertising revenue, circulation revenue, compliance with the UK Bribery Act and NI's digital media operations.[^53]
 
-2.44 There is a separate Board for TNHL, which is covered by the undertakings given to the Secretary of State for Trade following the acquisition of the titles in 1981. The TNHL Board must comprise no more than 20 directors of whom at least six must be 'Independent National Directors'. A majority of the Independent National Directors is required for the appointment
-
-C and dismissal of the editors of either of the titles or the disposal by NI of the titles. The TNHL Board meets quarterly[^54] and the editors of The Times and The Sunday Times attend and are expected to account for editorial coverage to the Board.[^55] The Independent Directors meet regularly with the Editor of The Times both at board meetings of TNHL and separately to discuss any on-going issues at the paper,[^56] and with the Editor of The Sunday Times.[^57] There are separate boards for Times Newspapers, News Group Newspapers and NI Trading, which meet as required.[^58]
+2.44 There is a separate Board for TNHL, which is covered by the undertakings given to the Secretary of State for Trade following the acquisition of the titles in 1981. The TNHL Board must comprise no more than 20 directors of whom at least six must be 'Independent National Directors'. A majority of the Independent National Directors is required for the appointment and dismissal of the editors of either of the titles or the disposal by NI of the titles. The TNHL Board meets quarterly[^54] and the editors of The Times and The Sunday Times attend and are expected to account for editorial coverage to the Board.[^55] The Independent Directors meet regularly with the Editor of The Times both at board meetings of TNHL and separately to discuss any on-going issues at the paper,[^56] and with the Editor of The Sunday Times.[^57] There are separate boards for Times Newspapers, News Group Newspapers and NI Trading, which meet as required.[^58]
 
 News International's financial results
 
@@ -2713,7 +2687,7 @@ Inquiry that he firmly believes in taking "pride in our products and services."[
 
 3.4 The Mail has traditionally been politically conservative, supporting the Conservative Party at every general election since 1945.[^130] When giving evidence to the Inquiry, the current editor-in-chief, Paul Dacre, has said that the Daily Mail propounds the virtues of family life, of traditional matrimony and traditional values.[^131]
 
-C The Mail Group today
+The Mail Group today
 
 3.5 DMGT today operates in over forty countries with a substantial portfolio of media and information companies providing content, information, analytics and events for businesses and consumers. In 2010 DMGT's revenue was nearly £2bn, with operating profit for the year running at £320m. DMGT employs 12,000 people and only just over a quarter of its profits come from its consumer facing businesses. DMGT comprises five divisions, only one of which, A&N Media, is involved with publishing newspapers. A&N Media includes Associated Newspapers, which publishes UK national newspapers.
 
@@ -2795,7 +2769,7 @@ Practice will have serious consequences for them, the editor and the company.[^1
 
 3.25 Associated News has an Anti-Bribery and Corruption policy, a policy on Working with Third Parties and a policy on Gifts and Hospitality. Introduction of new procedures relating to these policies were undertaken in light of the introduction of the Bribery Act 2010. All staff must comply with these policies and promptly report any concerns or violations.[^163]
 
-C Associated News management structures and processes
+Associated News management structures and processes
 
 3.26 Editorial departments at Associated Newspapers are hierarchical organisations.[^164] Reporters make the initial judgment on the quality and source of the information they are dealing with, and whether it is publishable with regard to issues of libel, privacy, data protection and taste. If they have doubts about the accuracy of the information or how it was obtained they have to discuss it with their head of department, who in turn must discuss it with senior editorial executives, who may make other investigations or consult the deputy editor or other senior executives.[^165] Sub-editors are encouraged to check facts where it is appropriate to do so.[^166] The editor will in turn scrutinise their decisions and may make his own enquiries if he has any reason to doubt the accuracy of the story or the methods used to obtain the story.[^167]
 
@@ -2959,9 +2933,7 @@ Publishing Corporation (IPC).[^230] In 1960 the Mirror Group acquired the failin
 
 %%page 127%%
 
-5.7 Trinity Mirror is still one of the UK's largest newspaper publishers with a portfolio including five national newspapers, over 130 regional newspapers and more than 500 digital products. In 2010 Trinity Mirror had revenue of £761.5m and operating profit of £123.3m.[^232] The Group employs over 6,500 people in more than 60 locations across the UK, including nine print
-
-C sites. The Group has two trading divisions: Regionals and Nationals. The Nationals contribute something over half of Trinity Mirror's revenues and profits, with revenue in 2010 of £430.3m and operating profits of £86.1m compared to 2010 revenue from the Regionals division of £331.2m, with an operating profit of £51.7m.
+5.7 Trinity Mirror is still one of the UK's largest newspaper publishers with a portfolio including five national newspapers, over 130 regional newspapers and more than 500 digital products. In 2010 Trinity Mirror had revenue of £761.5m and operating profit of £123.3m.[^232] The Group employs over 6,500 people in more than 60 locations across the UK, including nine print sites. The Group has two trading divisions: Regionals and Nationals. The Nationals contribute something over half of Trinity Mirror's revenues and profits, with revenue in 2010 of £430.3m and operating profits of £86.1m compared to 2010 revenue from the Regionals division of £331.2m, with an operating profit of £51.7m.
 
 5.8 Trinity Mirror's national titles include two daily titles: the Daily Mirror and the Daily Record; and three Sunday titles: the Sunday Mirror, the People and the Sunday Mail (the sister paper to the Daily Record). In February 2012 the Daily Mirror had a circulation of 1.102m,[^233] or just under 12% of national daily circulation. The Daily Record had a circulation of 291,825, which puts it at just over 3% of national circulation, meaning that the Mirror Group titles together account for around 15% of national circulation. The Sunday Mirror, the People and the Sunday Mail in February 2011 had circulations of 1,594,293, 701,246 and 376,898 respectively, with 14.4%, 6.3% and 3.4% of national Sunday circulation respectively, with Mirror Group titles accounting for just over 24% of all national Sunday circulation, including the third and fifth most popular national Sunday titles.[^234]
 
@@ -2979,7 +2951,7 @@ Trinity Mirror boards
 
 Managing Director (of either Nationals or Regionals), who in turn report to the Board, and the Chief Executive.[^240]
 
-Trinity Mirror editorial independence C
+Trinity Mirror editorial independence
 
 5.12 The editors of the Daily Mirror, the Sunday Mirror and the People are appointed by the
 
@@ -3019,7 +2991,7 @@ Trinity Mirror incentives
 
 5.19 Editors at Trinity Mirror do not receive any financial benefit for printing exclusive stories.
 
-Trinity Mirror operates an annual bonus scheme which is linked to the financial performance of the company and an editor's individual performance.[^266] C
+Trinity Mirror operates an annual bonus scheme which is linked to the financial performance of the company and an editor's individual performance.[^266]
 
 Mirror Group Regionals
 
@@ -3049,8 +3021,6 @@ MPs' expenses story in 2009 was:[^274]
 
 History
 
-C
-
 6.4 The Daily Telegraph was launched by Colonel Arthur B Sleigh in 1855, allegedly to air a personal grievance, but was soon sold to Joses Moses Levy. Levy's son, Baron Burnham, eventually sold the Telegraph to Viscount Camrose in 1928 and both the Burnham and Camrose families remained involved in the management of the newspaper until it was bought by Conrad Black in 1986 (Lord Black of Cross Harbour). Under Lord Black's ownership, the Telegraph Group became part of Hollinger International, in which Lord Black's Hollinger Inc. held a 73% controlling stake in the company. In 2004 Sir Frederick and Sir David Barclay purchased Hollinger Inc, and with it the controlling stake in the Telegraph Group.
 
 6.5 In February 2012, the Daily Telegraph had a circulation of 578,774, its nearest broadsheet competitor is The Times with a circulation of around 398,000. Even so, this amounts to only a small fraction (6.3%) of the UK's national daily newspaper circulation. In the same month, The Sunday Telegraph, had a circulation of 461,280, which is the second most popular of the Sunday broadsheets (well behind the Sunday Times on 939,395), and accounts for 4.2% of UK Sunday newspaper circulation.[^277]
@@ -3068,8 +3038,6 @@ Telegraph boards
 Telegraph editorial independence
 
 6.8 The commercial and editorial sides of the business are run separately, with the editors reporting directly to the Chief Executive.[^282] The editorial teams determine what appears in the publications at TMG, and decisions on editorial matters are left entirely to the editor, subject to operating within TMG budgetary constraints.[^283] Mr Gallagher, told the Inquiry that he speaks only once or twice a month to the Chairman of TMG and would otherwise be left to focus on editorial matters.[^284]
-
-C
 
 Telegraph financial governance
 
@@ -3092,8 +3060,6 @@ Conduct.[^293]
 6.12 TMG operates a whistle-blowing policy which allows staff to raise on an anonymous basis concerns they may have around potentially illegal or unlawful activity, or wrongdoing.[^294] TMG also introduced an Anti-Corruption and Bribery policy in 2010 following the introduction of the Bribery Act.[^295] At the time of writing, TMG did not have a policy on the employment of private investigators, but the company has made clear in evidence to the Inquiry that none have been employed within the tenure of the current editors.[^296]
 
 Telegraph management structures and processes
-
-C
 
 6.13 The Chief Executive Officer of the TMG, Murdoch MacLennan, is responsible for day to day leadership of the company. He holds weekly senior management meetings to discuss key strategic issues.[^297] Working to the editor of the Daily Telegraph are, the deputy editor, assistant editor and executive editor. Together they comprise the title's senior editorial team. Beneath them sit the Department Heads (or editors). They are also supported by deputy editors.[^298]
 
@@ -3135,9 +3101,7 @@ History
 
 7.4 The Trust was established as a limited company in 2008, with the core purpose of securing the financial and editorial independence of the Guardian in perpetuity.[^308] The Scott Trust is the owner of the Guardian Media Group. The Guardian Media Group has three wholly owned businesses: Guardian News & Media, GMG Radio and GMG Property services; and shares in Trader Media Group and Emap.
 
-7.5 In 2010 GMG had a turnover of £280.2m excluding its joint ventures, but made an operating loss of £53.9million.[^309] Guardian News & Media publishes the Guardian and the Observer and guardian.co.uk. It also operates Guardian Business and Professional. GNM had turnover of £221m in 2010.[^310] In February 2010 The Guardian had circulation of 215,988, making it
-
-C the second smallest circulation national broadsheet newspaper, with only 2.4% of UK daily national circulation. The Observer, in February 2010, had circulation of 253,022, which is again the second smallest of the Sunday broadsheets, accounting for 2.3% of national Sunday newspaper circulation.[^311]
+7.5 In 2010 GMG had a turnover of £280.2m excluding its joint ventures, but made an operating loss of £53.9million.[^309] Guardian News & Media publishes the Guardian and the Observer and guardian.co.uk. It also operates Guardian Business and Professional. GNM had turnover of £221m in 2010.[^310] In February 2010 The Guardian had circulation of 215,988, making it the second smallest circulation national broadsheet newspaper, with only 2.4% of UK daily national circulation. The Observer, in February 2010, had circulation of 253,022, which is again the second smallest of the Sunday broadsheets, accounting for 2.3% of national Sunday newspaper circulation.[^311]
 
 Governance structures
 
@@ -3279,7 +3243,7 @@ The Independent editorial independence
 
 %%page 142%%
 
-8.16 Mr Blackhurst also told the Inquiry that The Independent has always sought to adopt a deliberately distinct approach to other national titles and continues to operate "free from proprietorial influence".[^363] In his evidence to the Inquiry, Mr Lebedev emphasised that although he might on occasion share his expectations and personal vision with his editors on a regular basis, he has no influence on the editorial content of his newspapers.[^364] He explained to the Inquiry that:[^365] C
+8.16 Mr Blackhurst also told the Inquiry that The Independent has always sought to adopt a deliberately distinct approach to other national titles and continues to operate "free from proprietorial influence".[^363] In his evidence to the Inquiry, Mr Lebedev emphasised that although he might on occasion share his expectations and personal vision with his editors on a regular basis, he has no influence on the editorial content of his newspapers.[^364] He explained to the Inquiry that:[^365]
 
 > "…we certainly discuss policies, and I certainly expect it to be taken into account, but to answer your question, there have been many instances when we've discussed particular issues, stories, policies and editors would have stuck with their original plan to write whatever they were planning to write."
 
@@ -3305,9 +3269,7 @@ Accountant authorise such payments. Expenses have to be authorised by department
 
 The Independent policies and procedures
 
-8.20 IPL has recently introduced a Code of Conduct which brings together a number of policy
-
-C matters in one document. Mr Blackhurst told the Inquiry that it would have been unlikely for The Independent to have introduced this revised Code, were it not for the exposure of phone hacking and other practices across the British National press. The purpose of the revised Code is to ensure clarity on a range of issues facing journalists.[^372] The IPL's Finance Director and Company Secretary has explained that the document goes further than the PCC Code, that:[^373]
+8.20 IPL has recently introduced a Code of Conduct which brings together a number of policy matters in one document. Mr Blackhurst told the Inquiry that it would have been unlikely for The Independent to have introduced this revised Code, were it not for the exposure of phone hacking and other practices across the British National press. The purpose of the revised Code is to ensure clarity on a range of issues facing journalists.[^372] The IPL's Finance Director and Company Secretary has explained that the document goes further than the PCC Code, that:[^373]
 
 > "…it's a wider document because it covers both commercial and editorial operations. It also goes into the use of hospitality and guidance and policies around that."
 
@@ -3389,7 +3351,7 @@ PCC Code and uphold the highest levels of ethical journalism at his title. To th
 
 9.12 Pearson also operates a whistle-blowing hotline called 'Ethicspoint' which allows employees to report breaches of the Pearson code on an anonymous basis.[^405] However, Mr Barber told the Inquiry that the FT does not offer a similar whistle blowing hotline for breaches of the Editors' Code of Practice. Of course, employees are entitled to use the Pearson hotline to raise any concerns they might have, but Mr Barber said that he would expect any issues in relation to such breaches to be brought to the attention of senior management directly.[^406] Mr
 
-C Barber spoke about a "good culture" at the FT and said that he would expect problems to be shared at all levels. He also told the Inquiry that the managing editor operates an open-door policy for staff who may wish to raise any HR issues, and works together with the Financial Times union, to whom individuals can also bring grievances.[^407]
+Barber spoke about a "good culture" at the FT and said that he would expect problems to be shared at all levels. He also told the Inquiry that the managing editor operates an open-door policy for staff who may wish to raise any HR issues, and works together with the Financial Times union, to whom individuals can also bring grievances.[^407]
 
 9.13 In this regard Mr Barber told the Inquiry that:[^408]
 
@@ -3433,9 +3395,7 @@ The four largest regional newspaper groups had revenues in 2010 of £1,330m, wit
 
 %%page 149%%
 
-10.4 The decline in circulation has been matched by a decline in revenue. Print newspapers have two main sources of income – copy sales and advertising. Advertising is predominantly in two different forms, display advertising and classified advertising. The local and regional press tend to rely much more heavily on classified advertising than do the nationals, with
-
-C classified advertising accounting for 41% of revenues among the regional press but only 6.5% of revenues in the national press.[^429] All three forms of revenue have been under significant pressure over recent years.
+10.4 The decline in circulation has been matched by a decline in revenue. Print newspapers have two main sources of income – copy sales and advertising. Advertising is predominantly in two different forms, display advertising and classified advertising. The local and regional press tend to rely much more heavily on classified advertising than do the nationals, with classified advertising accounting for 41% of revenues among the regional press but only 6.5% of revenues in the national press.[^429] All three forms of revenue have been under significant pressure over recent years.
 
 Table C2.1 rank – group name rank – titles Weekly weekly No. of titles Circulation circulation 1 Trinity Mirror plc 3 140 10,087,945 2 Johnston Press plc 1 243 6,428,426 3 Newsquest Media Group 2 187 6,247,326 4 Northcliffe Media Ltd 4 91 4,690,109 5 Associated Newspapers Ltd 17 1 3,817,120 6 Evening Standard Ltd 17 1 3,503,640 7 Archant 6 66 1,725083 8 D.C. Thomson & Co Ltd 15 6 1,588,395 9 The Midland News Association Ltd 9 17 1,557,750 10 Tindle Newspapers Ltd 5 73 1,122,997 11 Iliffe News & Media 7 39 973,897 12 KM Group 8 19 322,269 13 Independent News & Media 15 6 458,483 14 NWN Media Ltd 14 14 437,451 15 Bullivant Media Ltd 13 9 364,153 16 CN Group Ltd 13 10 361,695 17 Irish News Ltd 17 1 261,882 18 Dunfermline Press Group 10 14 241,609 19 Topper Newspapers Ltd 17 1 212,384 20 Clyde & Forth Press Ltd 12 13 206,728 – total top 20 publishers – 951 44,609,342 – total all publishers (87) – 1,101 46,034,273
 
@@ -3473,9 +3433,7 @@ Maria McGeoghan, editor of the Trinity Mirror Regional title, the Manchester Eve
 
 10.9 Over recent years the regional and national press has been concerned about, and lobbied on, a number of public policy issues that impact on them. These have included: changes in the rules governing statutory notices; local authorities publishing their own free newssheets, in particular where they are partially advertising funded; and the media merger rules as they apply to the transfer of ownership of newspaper at the regional and local level.[^441] This last issue is considered to be the most significant and was raised by Mr Bailey in her evidence to the Inquiry.[^442]
 
-10.10 The exigencies of the economic and structural problems faced by the regional newspaper industry have led to a substantial extent to groups looking to consolidate and rationalise
-
-C their holdings. Savings can be achieved where titles that are geographically close can achieve synergies through working together. This has led to regional newspaper groups looking to consolidate their holdings, in particular with an eye to geographical rationalisation. The regional newspaper industry has been concerned that the Office of Fair Trading (OFT) is inclined to consider proposals for newspaper mergers in the context of the local newspaper market only, rather than taking account of the wider competition from, in particular, internet services. This, the industry argues, leads to potential regional newspaper transfers that could allow titles that would otherwise be uneconomic and may have to close to survive under different ownership. In 2009 the OFT conducted a review of the media merger regime as it applies to local and regional newspapers, and concluded that:[^443]
+10.10 The exigencies of the economic and structural problems faced by the regional newspaper industry have led to a substantial extent to groups looking to consolidate and rationalise their holdings. Savings can be achieved where titles that are geographically close can achieve synergies through working together. This has led to regional newspaper groups looking to consolidate their holdings, in particular with an eye to geographical rationalisation. The regional newspaper industry has been concerned that the Office of Fair Trading (OFT) is inclined to consider proposals for newspaper mergers in the context of the local newspaper market only, rather than taking account of the wider competition from, in particular, internet services. This, the industry argues, leads to potential regional newspaper transfers that could allow titles that would otherwise be uneconomic and may have to close to survive under different ownership. In 2009 the OFT conducted a review of the media merger regime as it applies to local and regional newspapers, and concluded that:[^443]
 
 > "…the current merger regime, which is broadly the same for newspapers as for other industries, is well placed to take into account developments such as competition from the internet because it is evidence-based and capable of reflecting market realities. The regime is also flexible in that it can take account of valid 'failing firm' arguments, as well as efficiencies and any other benefits to customers brought about through a merger. The OFT has therefore recommended that no legislative changes are needed to the media merger regime. The OFT proposes that it will formally seek Ofcom's view in future newspaper merger cases, given its specific sector knowledge in the UK."
 
@@ -3569,7 +3527,9 @@ Hello! Magazine
 
 %%page 156%%
 
-Chapter 3 aLterNatIVe NeWS prOVIDerS
+Chapter 3
+
+Alternative news providers
 
 1.1 For centuries the printed press was the only medium that brought news to the people. C The introduction of broadcasting in the 1920s brought a new voice, but one that had a very different relationship with the public than that of the newspapers with their readers.
 
@@ -3590,8 +3550,6 @@ Agreement.[^8] The Royal Charter sets out the objectives and purpose of the BBC.
 %%page 157%%
 
 2.4 The BBC Trust is the sovereign body, responsible for making overall strategic decisions for the BBC. It has full oversight of the BBC Executive Board.[^11] Lord Patten, the current Chair of the BBC Trust, has made a clear distinction between the responsibilities of the Trust and the BBC Executive. As a sovereign body, the Executive is required to act in accordance with the governance set out by the Trust; equally, the Trust must not exercise the functions that are the responsibility of the Executive.[^12]
-
-C
 
 2.5 A number of individual Boards report into the Executive Board, including the Editorial Standards Board. This is the main editorial forum for the discussion of editorial standards issues facing the BBC by senior editors, and where responses to such issues are formulated and discussed.[^13] The function of the Editorial Standards Board is therefore to monitor and review the editorial compliance systems which are in place at the BBC, in tandem with the Complaints Management Board.[^14]
 
@@ -3665,9 +3623,7 @@ Complaints to the BBC therefore have an important role to play:[^39]
 
 2.19 The Trust has the role of final arbiter in appropriate appeals, and has responsibility for setting the BBC's complaint framework.[^40] A Trust Protocol is established by the Trust, which oversees the procedures for specific areas of complaint, including editorial complaints.[^41] This is to ensure a clear division of responsibilities between the Trust and the Executive. The Trust does not have a role in handling or adjudicating upon individual complaints in the first instance, unless the complaint is concerning the act or omission of the Trust itself.[^42] In this regard, the responsibility as final arbiter is delegated to the Editorial Standards Committee.
 
-2.20 Any BBC viewer who is dissatisfied with any of the content broadcasted by the BBC may submit their complaint directly to the Corporation. Complaints that relate to fairness or privacy can
-
-C also be made to Ofcom, in line with their regulatory jurisdiction over this form of content. Although the complainant can submit complaints relating to impartiality or accuracy issues to Ofcom,[^43] it is unlikely that Ofcom would entertain these types of complaints. Lord Patten told the Inquiry that, in practice, Ofcom would inform the complainant that such a complaint could be dealt with by the BBC.[^44] Equally, the Editorial Standards Committee is unlikely to consider a fairness and privacy or standards matter which overlaps with the regulatory responsibilities of Ofcom, until Ofcom has completed its own processes.[^45]
+2.20 Any BBC viewer who is dissatisfied with any of the content broadcasted by the BBC may submit their complaint directly to the Corporation. Complaints that relate to fairness or privacy can also be made to Ofcom, in line with their regulatory jurisdiction over this form of content. Although the complainant can submit complaints relating to impartiality or accuracy issues to Ofcom,[^43] it is unlikely that Ofcom would entertain these types of complaints. Lord Patten told the Inquiry that, in practice, Ofcom would inform the complainant that such a complaint could be dealt with by the BBC.[^44] Equally, the Editorial Standards Committee is unlikely to consider a fairness and privacy or standards matter which overlaps with the regulatory responsibilities of Ofcom, until Ofcom has completed its own processes.[^45]
 
 2.21 Lord Patten explained the nature of the complaints system, whereby viewer complaints are dealt with at the first stage by the executive's information department (possibly including the producers of the programme in question itself). Should no resolution result from this first stage of mediation, viewers can take complaints to a second stage process where they are handled by the complaints unit, governed by the Complaints Management Board (which reports directly to the BBC Direction Group).[^46] The last stage is the process of appeal to the Trust, should the complaint be unresolved to the satisfaction of the viewer.[^47]
 
@@ -3789,8 +3745,6 @@ ISPs and others have cooperated with law enforcement and other agencies to remov
 
 3.14 To this end, it is worth noting that Twitter and other social media have cooperated with UK law enforcement in cases of obvious criminality. During the rioting in the summer of 2011, both RIM Blackberry and Twitter worked closely with police and other enforcement agencies to identify those using social media and communications networks to perpetrate or help commit criminal acts. In 2011, Lancashire County Council also worked with Twitter to identify and bring prosecutions against individuals suspected of tax avoidance.
 
-C
-
 3.15 This relative lack of internet specific regulation is unlikely to change. The Government made clear that it sees the Internet as a key driver of future economic growth and innovation, and has made public its commitment to an open but responsible Internet.[^75] This should be understood as an internet in which all legal content is available and there is no blocking of sites or discriminatory practice (such as prioritising one very similar product over another), and where the industry works together with Government to deliver solutions to issues particularly in relation to:
 
 - e-Accessibility;
@@ -3831,9 +3785,7 @@ Fawkes, though ostensibly and in many respects similar, is different in nature. 
 
 %%page 169%%
 
-4.5 In addition to the stand-alone blogs and sites described above, many established news providers also use blogs – for example the Guardian has been running a live blog on the Leveson Inquiry since the first of the Inquiry seminars – either for specific events or issues, or just by way of communicating with readers in a different manner. At the other end of the spectrum, many individuals run blogs on matters which are of interest to them, some of which will, from time to time, cover issues of news or current affairs and some which may
-
-C well break stories if the people writing them are well placed to do so.
+4.5 In addition to the stand-alone blogs and sites described above, many established news providers also use blogs – for example the Guardian has been running a live blog on the Leveson Inquiry since the first of the Inquiry seminars – either for specific events or issues, or just by way of communicating with readers in a different manner. At the other end of the spectrum, many individuals run blogs on matters which are of interest to them, some of which will, from time to time, cover issues of news or current affairs and some which may well break stories if the people writing them are well placed to do so.
 
 4.6 These vastly different sites are all offered to the public in the same way; they all have the same theoretical reach to the entire internet-connected population at the touch of a button (particularly when facilitated by search engines). They are also, with the regulatory exceptions set out above, entirely unregulated, though subject to civil and criminal law in appropriate jurisdictions. However, it is noteworthy that although the blogs cited here are read by very large numbers of people, it should not detract from the fact that most blogs are read by very few people. Indeed, most blogs are rarely read as news or factual, but as opinion and must be considered as such.
 
@@ -3939,7 +3891,7 @@ Blogs and the consideration of the law
 
 5.10 The Inquiry has heard much evidence in this regard. Ms Wright said that as Popbitch is published in the UK it abides by general law. This includes making efforts to ensure that content is not defamatory.[^125] Ms Wright was keen to emphasise, echoing points made by other witnesses representing online publishers and Internet businesses, that Popbitch sought to obey the local law in each of the jurisdictions in which it operated.[^126] Asked by Counsel to the Inquiry whether she considered the privacy of individuals about whom she writes, Ms Wright said:[^127]
 
-> C "In era where injunctions have been such a much-talked about thing, that obviously has to be a consideration. I think if I could put it this way, Popbitch is an entertainment product, therefore we are trying to do no more than poke fun in the world of celebrity….. We get a lot of stories in [sic] which we don't print, which are things like somebody's gone to rehab, somebody has cancer, or it's about their children."
+> "In era where injunctions have been such a much-talked about thing, that obviously has to be a consideration. I think if I could put it this way, Popbitch is an entertainment product, therefore we are trying to do no more than poke fun in the world of celebrity….. We get a lot of stories in [sic] which we don't print, which are things like somebody's gone to rehab, somebody has cancer, or it's about their children."
 
 5.11 Ms Wright also said that consideration of privacy issues was more important to Popbitch than it once was. In evidence she referred to the example of Victoria Beckham's pregnancy, noting that at the time the pregnancy was widely discussed, and that although Popbitch were the first publishers to write about the story, the fact of that pregnancy was no secret. However, Ms Wright has said further:[^128]
 
@@ -3977,7 +3929,7 @@ Twitter to comply more effectively with differences in local law in different ju
 
 6.3 Ms Keller also explained the number of routes through which an individual might seek to remove material made available through Google services. It is notable, and indeed unfortunate
 
-C – although given the technological constraints understandable – that in each example the burden of effort lies with the injured party. Ms Keller explained that webmasters (those who author and maintain websites) are able to request that their site is not indexed and will therefore not appear in searches.[^145] Ms Keller also said that this particular approach is in the view of Google the most effective means of getting content removed. Google also provides a "remove content from Google" service, which users may use to alert staff to potentially illegal content which will be taken down if it is understood not to comply with UK law.[^146] Google has adopted a similar, expedited approach in relation to content that is in breach of copyright.[^147]
+– although given the technological constraints understandable – that in each example the burden of effort lies with the injured party. Ms Keller explained that webmasters (those who author and maintain websites) are able to request that their site is not indexed and will therefore not appear in searches.[^145] Ms Keller also said that this particular approach is in the view of Google the most effective means of getting content removed. Google also provides a "remove content from Google" service, which users may use to alert staff to potentially illegal content which will be taken down if it is understood not to comply with UK law.[^146] Google has adopted a similar, expedited approach in relation to content that is in breach of copyright.[^147]
 
 7. enforcement
 
@@ -4067,7 +4019,7 @@ So the public interest in freedom of self-expression, or freedom of opinion, is 
 
 %%page 182%%
 
-2.2 Second, there have been specific rules constraining the ability of any one person or company to own too large a proportion of the broadcast market, and restrictions on the extent to which any one person or company can own both a national newspaper and a national terrestrial television channel or a local newspaper and a local television channel. These rules and how they have changed over time are outlined below. C
+2.2 Second, there have been specific rules constraining the ability of any one person or company to own too large a proportion of the broadcast market, and restrictions on the extent to which any one person or company can own both a national newspaper and a national terrestrial television channel or a local newspaper and a local television channel. These rules and how they have changed over time are outlined below.
 
 2.3 Third, there is general competition law. One of the key aims of competition law is to ensure that no company has such a position of power within a market that it can abuse that power, for example to force competitors out of the market to the detriment of consumers. Competition law is designed to reduce concentration of market power and, therefore, will generally produce outcomes which support plurality. However, competition rules are also designed to prevent abuse of market power; it is possible that an owner could have a dominant position which he did not abuse in competition terms (and which will therefore be allowed under the competition regime) but which was deemed undesirable in relation to plurality. It is also likely that competition rules are less able to prevent unacceptable levels of cross-media ownership where each market may be seen as distinct for competition purposes. Yet this form of ownership is sometimes seen as being of most concern because it could allow an owner to promote an agenda across a number of platforms which could be more influential than involvement in just one. This was the position originally taken by the Government in relation to media mergers when the 2003 Communications Bill was published.
 
@@ -4087,7 +4039,7 @@ November 2001 said:[^13]
 
 3. the history of media ownership rules in the uK from the 1990s
 
-C Legislative background
+Legislative background
 
 3.1 DCMS has very helpfully provided a detailed history of the Media Ownership Rules in the UK from the 1990s to the most recent developments; this can be viewed as part of the evidence submitted to this Inquiry.[^14] For the purposes of the Report I merely summarise the key points.
 
@@ -4107,7 +4059,7 @@ Corporation, under licence from the ITC; and (e) Provision was made for the lice
 
 %%page 184%%
 
-3.5 The Communications Act 2003 repealed the two rules which prevented the joint ownership of National Channel 3 and Channel 5, and removed stand-alone accumulation limits for all television licences. ITV plc (which resulted from the merger of Carlton and Granada in 2004) now holds all but three of the 15 Regional Channel 3 licences (those being UTV and Northern and Central Scotland).[^20] C
+3.5 The Communications Act 2003 repealed the two rules which prevented the joint ownership of National Channel 3 and Channel 5, and removed stand-alone accumulation limits for all television licences. ITV plc (which resulted from the merger of Carlton and Granada in 2004) now holds all but three of the 15 Regional Channel 3 licences (those being UTV and Northern and Central Scotland).[^20]
 
 Provision of broadcast news
 
@@ -4193,7 +4145,7 @@ Review of ownership rules
 
 %%page 188%%
 
-3.20 The Government's view was that local media ownership rules (for television, radio and newspapers) placed unnecessary limitations on ownership within commercial media; that the rules were no longer appropriate in a converging digital world; and that removing regulatory barriers would help established industries adapt to new environments. The deregulation of the local media ownership regulations now enables partnerships between local newspapers, radio and Channel 3 television stations to promote a strong and diverse local media industry.[^42] C
+3.20 The Government's view was that local media ownership rules (for television, radio and newspapers) placed unnecessary limitations on ownership within commercial media; that the rules were no longer appropriate in a converging digital world; and that removing regulatory barriers would help established industries adapt to new environments. The deregulation of the local media ownership regulations now enables partnerships between local newspapers, radio and Channel 3 television stations to promote a strong and diverse local media industry.[^42]
 
 Media plurality public interest test
 
@@ -4237,7 +4189,7 @@ Secretary of State, is concerned with broadcasting or newspapers and ought to be
 
 (d) s58(2C)(b): the need for the availability throughout the United Kingdom of a wide range
 
-> of broadcasting which (taken as a whole) is both of high quality and calculated to appeal to a wide variety of tastes and interests; and C
+> of broadcasting which (taken as a whole) is both of high quality and calculated to appeal to a wide variety of tastes and interests; and
 
 (e) s58(2C)(c): the need for persons carrying on media enterprises, and for those with
 
@@ -4319,13 +4271,11 @@ C Despite this, on 18 October 2011, the OFT referred the proposed merger to the 
 
 parT D
 
-D
-
 STanDarDS
 
 %%page 195%%
 
-The hiSToriCal BaCkgrounD
+The historical background
 
 1.1 In order to understand the present position in relation to press regulation, it is necessary to examine what has happened in the past. This chapter of the Report examines the content and context of the three Royal Commissions into the British Press undertaken since the Second
 
@@ -4348,8 +4298,6 @@ Some context
 1.5 Before dealing with the analysis of historical responses to the culture and practices of the
 
 > press, it is worth restating that the press does not exist in a vacuum. It is subject to other forces. Technological and societal changes have increased the pressures on what is and has historically been an intensely competitive market. The share which the newspaper industry holds of the wider communications market has been steadily eroded, first by radio and then the advent and growth of television. Television has moved from one initial offering by the BBC to the explosion of channels available through the introduction of satellite television services and, further, with the continuation of this trend through the rollout of digital television. The loss of market share has been further exacerbated by the internet and the increasing availability of mixed media services through that medium. Overall, these forces have had an important role in shaping the culture, practices and ethics of the press over decades.
-
-D
 
 1.6 It should not be thought that the culture and practices that have given rise to the establishment
 
@@ -4395,8 +4343,6 @@ British journalism" which, it argued, if not addressed would undermine not only 
 Press". The Commission was unambiguous in its consideration of statutory controls which, it argued, would unacceptably restrict the freedoms of the press. It said that it was necessary:[^9]
 
 > "to safeguard the freedom of the press; to encourage the growth of a sense of public responsibility and public service amongst all engaged in the profession of journalism [...]; and to further the efficiency of the profession and the well being of those who practiced it."
-
-D
 
 2.7 The Royal Commission hoped that the proposed General Press Council would function both as a guarantor of the "freedom and prestige of the Press", by representing the interests of the newspaper industry through a single, unified voice as well as a brake on poor and unethical journalistic practices. In so doing the Royal Commission made a fundamental statement on the nature of the relationship between the state of the press and the health of the nation as a whole, suggesting a correlation between the ownership structures of the newspaper industry and the incidence of inaccurate reporting and poor journalism. Significantly too, the Royal
 
@@ -4450,9 +4396,7 @@ Lord Shawcross was a passionate defender of press freedoms and had spoken public
 
 3.5 The Shawcross Commission published its findings in September 1962. The Commission levelled substantial criticism at the General Council of the Press for, in particular, its failure to implement many of the recommendations made by the first Royal Commission on the press. These specifically included those recommendations relating to the monitoring and enforcement of standards, the involvement of lay representatives on the Council and its failure to heed recommendations relating to the monitoring of levels of newspaper ownership.
 
-3.6 The Shawcross Commission clearly identified those issues that it deemed had led to a decline in press standards, and it called for an improvement in the performance of the General Council of the Press. However, the solutions it proposed were little different from those articulated by the first Royal Commission in 1949. It recognised the desirability of a voluntary system of self-regulation for the press, but made clear that any such system of regulation would need to be built around an effective and credible body rather than the General Council of the Press as it was then constituted. It recommended that the industry should be given two years to bring forward, develop and implement appropriate plans but, should these not be forthcoming,
-
-D recommended that the Government should introduce the legislation necessary to establish a Press Council in statute, with powers equivalent to those recommended originally by the first Royal Commission in 1949. Lord Shawcross said at the time:[^21]
+3.6 The Shawcross Commission clearly identified those issues that it deemed had led to a decline in press standards, and it called for an improvement in the performance of the General Council of the Press. However, the solutions it proposed were little different from those articulated by the first Royal Commission in 1949. It recognised the desirability of a voluntary system of self-regulation for the press, but made clear that any such system of regulation would need to be built around an effective and credible body rather than the General Council of the Press as it was then constituted. It recommended that the industry should be given two years to bring forward, develop and implement appropriate plans but, should these not be forthcoming, recommended that the Government should introduce the legislation necessary to establish a Press Council in statute, with powers equivalent to those recommended originally by the first Royal Commission in 1949. Lord Shawcross said at the time:[^21]
 
 > "If... the Press is not willing to invest the Council with the necessary authority and to contribute the necessary finance the case for a statutory body with definite powers and the right to levy the industry is a clear one".
 
@@ -4490,7 +4434,7 @@ Younger Report had provided 'no evidence' to support the conclusions it made lin
 
 3.14 Following the publication of the Younger Report, public criticism of the Press Council, characterised by Lord Pearce as 'assaults on the principle of self-regulation,' became more commonplace.[^31] Certainly, the tensions between the regulator, the regulated and the public were made more acute by the political and social tensions between the Government, the trade unions and the industry more broadly, and did little to address the failings, both perceived and actual, of the Press Council. Indeed, the performance of the Press Council was regarded by the Government of the day as so inadequate that, within a year of publication of Sir Kenneth Younger's report, not only was a third Royal Commission on the Press established, but it was given an express remit to examine in detail "the responsibilities, constitution and functioning of the Press Council."[^32]
 
-D 4. The royal Commission of 1974
+4. The royal Commission of 1974
 
 4.1 The Third Royal Commission on the Press was established on 7 March 1974 under the Chairmanship of Professor Oliver (later Lord) MacGregor, then a leading academic in the field of socio-legal studies and medical sociology and, immediately before his appointment, a fellow of Wolfson College, Oxford. Much later, he was appointed first Chairman of the Press Complaints Commission.
 
@@ -5414,7 +5358,9 @@ PCC does not always appear to be neutral. But Mr Abell suggested that the positi
 
 "So I don't think it's a neutral act by complaints people. I think their job is to grip D the issues and to try and bring them to a conclusion, and that will invariably be by assisting the complainant."
 
-7.22 In particular, Mr Abell suggested that there was no validity in the assertion that the PCC's preferred outcome of a mediated resolution was in the better interest of editors and newspapers rather than the complainant.[^160] Sir Christopher Meyer also rejected the characterisation of the complaints-handling process as attritional, in which intense pressures were placed on the complainant to resolve issues through mediation rather than pursuing a decision through the PCC and that the effort in reaching that resolution wass made disproportionately by the complainant.[^161] parT E crossing lEgal E boundariEs: ThE criminal and civil law
+7.22 In particular, Mr Abell suggested that there was no validity in the assertion that the PCC's preferred outcome of a mediated resolution was in the better interest of editors and newspapers rather than the complainant.[^160] Sir Christopher Meyer also rejected the characterisation of the complaints-handling process as attritional, in which intense pressures were placed on the complainant to resolve issues through mediation rather than pursuing a decision through the PCC and that the effort in reaching that resolution wass made disproportionately by the complainant.[^161] parT E
+
+Crossing legal e boundariEs: ThE criminal and civil law
 
 %%page 249%%
 
@@ -5456,9 +5402,7 @@ E not only at the time but as further material entered the public domain. In par
 
 1.1 In 2001, the Devon and Cornwall Police were investigating an allegation of blackmail in Plymouth which sprang from the fact that a member of the public had obtained details of the criminal convictions of someone else. Not surprisingly, the police were concerned to discover how those details had been obtained and, in the course of the investigation, evidence was uncovered that an officer serving with the same force had accessed the Police National Computer (PNC) record of the victim. It was suspected that he had passed the information to individuals working as private investigators, and that the information had ultimately reached the hands of the suspect.
 
-1.2 In December 2001, therefore, a series of searches of various premises, which supported that concern, were carried out. Material was seized which indicated that police officers and support staff from the force had been obtaining details of criminal convictions and information about the keepers of identified vehicles which were stored on police computer systems and
-
-E then passing that information to private investigators, who would in turn pass it onto their customers. The private investigators were, in the main, retired police officers.
+1.2 In December 2001, therefore, a series of searches of various premises, which supported that concern, were carried out. Material was seized which indicated that police officers and support staff from the force had been obtaining details of criminal convictions and information about the keepers of identified vehicles which were stored on police computer systems and then passing that information to private investigators, who would in turn pass it onto their customers. The private investigators were, in the main, retired police officers.
 
 1.3 Thus, in January 2002, Operation Reproof was initiated. The Senior Investigating Officer for that investigation has now retired: his deputy, now Detective Chief Superintendent Middleton (then holding the rank of Detective Inspector) gave evidence to the Inquiry.[^1] The purpose of the operation, initially, was to scope the material that had been seized during the blackmail investigation, with the following terms of reference:
 
@@ -5499,8 +5443,6 @@ Research Ltd were charged with misconduct in public office offences and Data Pro
 PNC and providing the information to a former colleague might not in the circumstances of this particular case amount to misconduct in public office, and in any event the matter was not terribly serious.
 
 %%page 253%%
-
-Chapter 2 | Police Investigations Start
 
 1.11 In any event, following the judge's comments, a number of case conferences took place with the CPS and prosecution counsel. With the judge's comments in mind it was decided not to proceed on the basis that it would not be in the public interest given the potential costs that would be incurred. In short, DCS Middleton confirmed in evidence that a fair summary of the position was that the judge caused the CPS to ask itself, "do we want to spend all this time on a trial if the judge is of the view either (a) that the facts may not make out an offence, or (b) that if they did, it is not a terribly serious matter."[^4] I do not comment on the judge's expression of opinion (also reflected in the sentences which had been passed in relation to Operation Glade discussed below). I do, however, add that whatever might have been the position considered by the judge and, in consequence, by the CPS in 2005 should not be assumed to represent a current assessment of whether conduct of that type constitutes misconduct in public office or the gravity of such conduct.
 
@@ -5544,8 +5486,6 @@ Inspector Gilmour) as the Investigating Officer.
 
 %%page 255%%
 
-Chapter 2 | Police Investigations Start
-
 > Stephen Whittamore. There appears to be clear evidence that Marshall is conducting illegal PNC or CRO checks on behalf of John Boyall at the request of a number of reporters. The aim of the investigation will be to gather evidence of Marshall, Boyall and Whittamore's involvement in the misuse of the PNC or CRO systems with a view to prosecuting them for any offences disclosed or to prevent further misuse. Early consultation will take place with the CPS regarding appropriate charges should sufficient evidence be obtained."
 
 2.8 It is noteworthy that the terms of reference did not expressly encompass investigating the journalists who had received the information. In the event, however, it became clear that DCI
@@ -5588,9 +5528,7 @@ CPS and the press has not been the subject of investigation. What can be said wi
 
 1.1 The information arising from Operation Reproof caused the Office of the Information Commissioner (ICO) to focus attention on Steve Whittamore. As a result, on 8 March 2003, a team of investigators led by Alexander Owens from the ICO, and alongside police officers from Operation Reproof, searched the premises of the private detective agency run by Mr Whittamore. They seized a significant volume of documentation detailing an extensive trade in personal information. Mr Owens and his team then undertook a comprehensive analysis of the seized material and observed a clear audit trail between the requests, supply and payment for personal information relating to a range of subjects. The customers requesting and being supplied with personal information included a significant number of journalists, employed by a range of newspaper and magazine titles.
 
-1.2 Ultimately, the implications of this material were of sufficient significance that the ICO was prompted to lay before Parliament two reports setting out a summary of the evidence
-
-E obtained as part of the investigation: What Price Privacy? and What Price Privacy Now? The reports also called for stricter penalties for those engaged in unlawful activities, in particular for breach of s55 of the Data Protection Act 1998 (DPA). This provision makes it an offence to obtain, disclose or procure the disclosure of confidential personal information, knowingly or recklessly, without the consent of the organisation holding the data.[^1] This chapter explores the essential narrative surrounding this investigation and the evidence obtained during Operation Motorman.
+1.2 Ultimately, the implications of this material were of sufficient significance that the ICO was prompted to lay before Parliament two reports setting out a summary of the evidence obtained as part of the investigation: What Price Privacy? and What Price Privacy Now? The reports also called for stricter penalties for those engaged in unlawful activities, in particular for breach of s55 of the Data Protection Act 1998 (DPA). This provision makes it an offence to obtain, disclose or procure the disclosure of confidential personal information, knowingly or recklessly, without the consent of the organisation holding the data.[^1] This chapter explores the essential narrative surrounding this investigation and the evidence obtained during Operation Motorman.
 
 2. The genesis of Operation Motorman
 
@@ -5602,7 +5540,9 @@ E obtained as part of the investigation: What Price Privacy? and What Price Priv
 
 (MPS) commenced Operation Glade to identify potential corruption by police officers or civilian police employees.[^7]
 
-2.3 On closer examination of the documents seized from the premises of Data Research, Mr Owens observed that one of the VRM checks had been made against a "protected number". Having previously served as a Special Branch police officer, Mr Owens appreciated that a protected number was likely to signify a vehicle owned by a sensitive individual or an undercover police vehicle. This was confirmed by the MPS and Mr Owens identified Mr Whittamore and his company, JJ Services, as having sought the information in relation to this vehicle. As a result of this, Mr Owens explained, "Stephen Whittamore immediately went to number 1 on [his] investigation list to be visited and interviewed."[^8] The ICO identified Mr Whittamore as a private detective running a business from his home address and, as has been explained above, on Saturday 8 March 2003, five ICO investigators searched Mr Whittamore's premises pursuant to a search warrant issued under Schedule 9 of the DPA.[^9] E 3. The search
+2.3 On closer examination of the documents seized from the premises of Data Research, Mr Owens observed that one of the VRM checks had been made against a "protected number". Having previously served as a Special Branch police officer, Mr Owens appreciated that a protected number was likely to signify a vehicle owned by a sensitive individual or an undercover police vehicle. This was confirmed by the MPS and Mr Owens identified Mr Whittamore and his company, JJ Services, as having sought the information in relation to this vehicle. As a result of this, Mr Owens explained, "Stephen Whittamore immediately went to number 1 on [his] investigation list to be visited and interviewed."[^8] The ICO identified Mr Whittamore as a private detective running a business from his home address and, as has been explained above, on Saturday 8 March 2003, five ICO investigators searched Mr Whittamore's premises pursuant to a search warrant issued under Schedule 9 of the DPA.[^9]
+
+3. The search
 
 3.1 A significant volume of documentation was seized during the search of Mr Whittamore's premises. This included reports, workbooks, ledgers, invoices and in particular four hardback coloured notebooks which have become known as the "Blue book", "Red book, "Green book" and "Yellow book". These notebooks represented all the work that Mr Whittamore had done, and set out precise dealings between Mr Whittamore and his customers, including a number of journalists. The workbooks documented who had requested the personal information (both in terms of the newspaper concerned and the commissioning journalist), what information had been requested and supplied, how much had been charged for obtaining the information and how much was paid to associates who assisted in the supply of the information.[^10] Invoices and remittance advices demonstrated the payments made by newspaper groups and how much money had been paid for each transaction.[^11] As Mr Owens explained in his evidence, he was able to demonstrate a paper trail from identified journalists working for named newspaper groups, requesting information be obtained, through to the subsequent activities of the private investigators using sources or blaggers to obtain the information.[^12]
 
@@ -5627,8 +5567,6 @@ Buyers/customers of information
 Mr Thomas' witness statement identifies some 305 journalists as having been named in the
 
 Motorman material, and whilst, again, I note the discrepancy between the figures, nothing turns on this difference.[^19]
-
-E
 
 Suppliers of information
 
@@ -5852,7 +5790,9 @@ Act 2000, ICO investigation officers and an in-house lawyer analysed the source 
 
 %%page 270%%
 
-Chapter 4 phone haCking: the expanding impaCt of operation Caryatid 1. Introduction
+Chapter 4
+
+Phone hacking: the expanding impact of operation Caryatid 1. Introduction
 
 1.1 This Inquiry was ultimately directed because of the wide scale public revulsion at the reported conduct of one or more journalists from the News of the World (NoTW) in intercepting messages left on the mobile telephone of Milly Dowler: this type of interception has been referred to colloquially as phone hacking. Having said that, however, there was also increasing public concern about the apparent lack of appropriate investigation by the
 
@@ -6058,9 +5998,7 @@ Williams were one and the same person. The update referred to Max Clifford and "
 
 > "As the investigation progressed it became clear that there may have been many other people being targeted by whoever was responsible for the interception, and there was potential for the investigation to become much wider. I took the decision that this was not appropriate for a number of reasons. In coming to the decision that the parameters of the investigation had to remain tightly drawn it was obvious to me that a wider investigation would inevitably take much longer to complete. This would carry two unacceptable risks. First, that the investigation would be compromised and evidence lost and second, that the much wider range of people who we were learning were becoming the victims of this activity would continue to be victimised while the investigation took its course. This would probably go on for many months and to my mind this would be unacceptable."
 
-2.35 Mr Clarke rejected the option of informing the victims, in confidence. This was to enable the
-
-E investigation to continue:[^69]
+2.35 Mr Clarke rejected the option of informing the victims, in confidence. This was to enable the investigation to continue:[^69]
 
 > "It was not feasible to notify victims and continue with a wide ranging covert investigation, and if we had done so, it is inconceivable that the fact that there was an enquiry into this matter would not have leaked, thereby compromising the investigation and leading to the potential loss of evidence."
 
@@ -6148,7 +6086,7 @@ When giving evidence, DCS Surtees agreed that his primary concern was then to st
 
 2.49 Mr Perry explained in his evidence that he also advised against charging Mr Mulcaire and Mr
 
-E Goodman with CMA offences because asking a jury to deal with those allegations together with s1 of RIPA would be confusing;[^95] furthermore, s1 of RIPA more accurately reflected the conduct concerned.[^96] Mr Perry also advised as to the possibility of obtaining a warrant under the Police and Criminal Evidence Act 1984 (PACE) and the attendant difficulties which would arise in relation to journalistic material.[^97]
+Goodman with CMA offences because asking a jury to deal with those allegations together with s1 of RIPA would be confusing;[^95] furthermore, s1 of RIPA more accurately reflected the conduct concerned.[^96] Mr Perry also advised as to the possibility of obtaining a warrant under the Police and Criminal Evidence Act 1984 (PACE) and the attendant difficulties which would arise in relation to journalistic material.[^97]
 
 2.50 The only record that exists of the meeting on 2 August 2006 is an email sent by Ms Dowd to the police on that day.[^98] On the question of the interpretation of s1 of RIPA, Ms Dowd said the following in the email:
 
@@ -6258,7 +6196,7 @@ Gallagher asked the following questions:
 
 2.72 On the extent of the work that Mr Mulcaire was performing for the paper, DC Gallagher asked the following:
 
-> "Okay. We've got pages and pages of information here, at least another 30 odd pages, various names. Again you've got instances of telephone numbers, PIN numbers, etc. I just picked out ones which are relevant to this enquiry that we put to you so far. Okay, the last page in this document is an email message. This is very relevant ... "This suggests that you do have a contract, a long term contract with the News of the World and that would account for you being paid up to £2,000 a week by them. "Can you recall in the last interview, yeah, I put it to you that you were on a retainer by News of the World to do research for them. I hadn't seen that email at the time and that supports what I said earlier on, remind you that you were being paid by them a fixed fee just to do regular for them at their behest. They're asking you to do research for them and you're providing them with information and on top of that, when you E get a good one, then you have a separate contract for that particular job and you're in the business of delving into people's personal lives inappropriately, breaking the law to intercept telecommunications and that's part and parcel of what you do. Have you got anything to say to that?"
+> "Okay. We've got pages and pages of information here, at least another 30 odd pages, various names. Again you've got instances of telephone numbers, PIN numbers, etc. I just picked out ones which are relevant to this enquiry that we put to you so far. Okay, the last page in this document is an email message. This is very relevant ... "This suggests that you do have a contract, a long term contract with the News of the World and that would account for you being paid up to £2,000 a week by them. "Can you recall in the last interview, yeah, I put it to you that you were on a retainer by News of the World to do research for them. I hadn't seen that email at the time and that supports what I said earlier on, remind you that you were being paid by them a fixed fee just to do regular for them at their behest. They're asking you to do research for them and you're providing them with information and on top of that, when you get a good one, then you have a separate contract for that particular job and you're in the business of delving into people's personal lives inappropriately, breaking the law to intercept telecommunications and that's part and parcel of what you do. Have you got anything to say to that?"
 
 2.73 DC Green returned to the issue on a later occasion and asked the following question:
 
@@ -6464,7 +6402,7 @@ Mr Goodman, but also to gather evidence of the involvement of other journalists 
 
 Burton Copeland enclosed a file labelled "Newsgroup International – Payments to Nine Consultancy Ltd" which they asserted contained the requested information and included in particular:[^206]
 
-> "1. A schedule that has been created from the records maintained of all payments to the accounts referred to in the PACE Application; 2. The appropriate BACS Telecom Acceptance Advice relating to payments to be E included in the payment schedule; 3. The redacted payment schedule which highlights each payment to Nine Consultancy Ltd; The appropriate copy invoice in respect of each payment included in the schedule referred to in 1 above."
+> "1. A schedule that has been created from the records maintained of all payments to the accounts referred to in the PACE Application; 2. The appropriate BACS Telecom Acceptance Advice relating to payments to be included in the payment schedule; 3. The redacted payment schedule which highlights each payment to Nine Consultancy Ltd; The appropriate copy invoice in respect of each payment included in the schedule referred to in 1 above."
 
 3.34 DI Maberly also followed up the meeting with a letter, which he delivered to Burton Copeland's offices on 7 September 2006.[^207] In that letter he confirmed what he had requested.[^208] Those requests included:[^209]
 
@@ -6502,7 +6440,7 @@ Maberly when he visited their premises on 15 September 2006. It stated the follo
 
 3.40 It is relevant that once NI decided, in January 2011, fully to co-operate with the MPS, that is exactly what happened and the investigations that have become Operations Weeting, Elveden and Tuleta (with subsidiary operations associated with them) has been the result.
 
-E While signalling the intention of NI now to place itself in the position of demonstrating that it takes compliance with the criminal law extremely seriously, it undeniably casts light on what had happened previously. I am not in a position to judge what part, if any, Burton Copeland played in the approach to the police investigation in 2006, what their instructions were or the advice they gave because NI has not waived the legal professional privilege which attaches to this material. As a result, the public can only know what Burton Copeland did and not why they did it.
+While signalling the intention of NI now to place itself in the position of demonstrating that it takes compliance with the criminal law extremely seriously, it undeniably casts light on what had happened previously. I am not in a position to judge what part, if any, Burton Copeland played in the approach to the police investigation in 2006, what their instructions were or the advice they gave because NI has not waived the legal professional privilege which attaches to this material. As a result, the public can only know what Burton Copeland did and not why they did it.
 
 3.41 Rupert Murdoch's evidence was that when Mr Goodman was arrested he was told, probably by Les Hinton, then the Executive Chairman of NI, that NI was co-operating with the police.[^214] In support of the contention that NI was cooperating, Rupert Murdoch referred to appointing "a special law firm to look into this and to aid our co-operation with the police…"[^215] When he was told, during his evidence, that the Inquiry had heard evidence that the solicitors' firm concerned provided limited documentation[^216] that did not represent the position at all and that, one way or another, NI was being obstructive Rupert Murdoch said: "That shocks me deeply, and I was unaware of it and I've not heard of it until you've just said that.[^217]
 
@@ -6618,8 +6556,6 @@ The evidential issues
 
 5.9 There was an inference that the "corner names" (so described because they were written in the corner of Mr Mulcaire's notes) were those who had either instructed Mr Mulcaire or those who were the intended recipients of the information, or both. Not only did "Clive" appear as a corner name in relation to the Royal Household voicemail message interceptions but there were corner names associated with counts 16 to 20 on the indictment.
 
-E
-
 5.10 The hub phone at the NoTW had been used hundreds of times to call the voicemail boxes of individuals not related to the Royal Household.[^239]
 
 5.11 The phone records of Mr Mulcaire taken together with his papers (in which he had recorded the mobile phone numbers of other journalists) demonstrated that Mr Mulcaire had made calls to journalists other than Mr Goodman.[^240]
@@ -6653,8 +6589,6 @@ The decision
 "… in terms of widening the suspect pool, that is a protracted piece of work, because we'd have to go through the whole process again of trying to identify, et cetera."
 
 5.21 This analysis of the material seized would have to have preceded an application for a production order because the court would expect the police to have a clear idea of what they already had in their possession before seeking to compel the production of journalistic material. The law requires the police to make proportionate applications, which focus on what is strictly required. The law does not permit wide-ranging, speculative "fishing expeditions".[^250] The Operation Caryatid investigators would not have been in a position to identify what was strictly required until they had ascertained what evidence they already had.[^251]
-
-E
 
 5.22 Against that background, DCS Williams and DCS Surtees briefed Mr Clarke, Commander McDowell and DCS White as to the current state of the evidence. DCS Williams said that senior management were aware that the investigators believed that NI had not been cooperating with the investigation. DCS Surtees said that during the briefing:[^252]
 
@@ -6696,7 +6630,7 @@ Commander McDowell) received regular briefings, from both DCS Williams and DCS S
 
 5.29 Mr Clarke agreed that it probably followed that even if one could fairly characterise the evidence, particularly in relation to the three journalists, as strong circumstantial or inferential, that his decision not to pursue them would have been exactly the same:[^260]
 
-> "… Strong circumstantial evidence in terms of trying to prove a conspiracy within a major newspaper group, it might – it won't get you, I would suggest, it would be very unlikely to get you to the position of a successful prosecution." E
+> "… Strong circumstantial evidence in terms of trying to prove a conspiracy within a major newspaper group, it might – it won't get you, I would suggest, it would be very unlikely to get you to the position of a successful prosecution."
 
 5.30 He was asked whether from reviewing the decision logs in preparation for the Select Committee hearing and having heard some of the evidence from the investigating officers during the Inquiry, he had a different impression or understanding of the quality of the evidence insofar as other journalists were concerned. Mr Clarke answered as follows:[^261]
 
@@ -6732,9 +6666,7 @@ Mr Clarke said:[^264]
 
 > "It could have been taken out and parked. I just do want to get across that I am not … blaming Peter for this. I am merely saying another course of action could have been taken, and perhaps at that stage the information would have come out about there being lots more names and indications of a lot more people involved and then things would have been very different."[^274]
 
-5.38 Whilst an alternative course may have been available to Mr Clarke, it would not be right to criticise Mr Clarke in any way for taking that course in the circumstances he has
-
-E described. He was an impressive witness. His evidence regarding the terrorist threat to life and his prioritisation decision was given with force and in a convincing manner. I conclude unhesitatingly not only that Mr Clarke was entitled to reach the decision that he did but that, to such extent as it is appropriate for me to express an opinion, he was right to decide that no further anti-terrorist resources would be committed to investigating the breaches of privacy occasioned by voicemail interception. Even if the potency of the potential evidential leads were not explained during the briefing, that fact made no difference to the outcome.
+5.38 Whilst an alternative course may have been available to Mr Clarke, it would not be right to criticise Mr Clarke in any way for taking that course in the circumstances he has described. He was an impressive witness. His evidence regarding the terrorist threat to life and his prioritisation decision was given with force and in a convincing manner. I conclude unhesitatingly not only that Mr Clarke was entitled to reach the decision that he did but that, to such extent as it is appropriate for me to express an opinion, he was right to decide that no further anti-terrorist resources would be committed to investigating the breaches of privacy occasioned by voicemail interception. Even if the potency of the potential evidential leads were not explained during the briefing, that fact made no difference to the outcome.
 
 5.39 There was no question that Mr Clarke had to satisfy the demand for resources that the terrorist threat presented and that he was forced to make resourcing decisions that might not have been justifiable if the quantum of the threat were not so large. It was so clearly the correct decision that there is simply no scope for concluding that the decision was in any way influenced by the relationships between some senior officers and NI staff. I have no doubt, in any event, that Mr Clarke would not have countenanced such a factor having any bearing on his decision-making.[^275]
 
@@ -6860,7 +6792,7 @@ Influence of News International
 
 > "So in terms of what I would have liked to have done coupled with my obligations and the seriousness of the investigations I was involved in, I knew where my priorities lay, and those were with the issues of serious threat to life investigations. That's where I needed to be and that's where my staff needed to be."
 
-5.72 On this topic, Mr Clarke observed that: "[the investigating officers] conducted an honest inquiry, they were uninfluenced, as was I, by anything to do with News International or any media group."[^306] In the context of his evidence about the perception caused by his relationships with individuals from NI, Mr Hayman stressed:[^307] E
+5.72 On this topic, Mr Clarke observed that: "[the investigating officers] conducted an honest inquiry, they were uninfluenced, as was I, by anything to do with News International or any media group."[^306] In the context of his evidence about the perception caused by his relationships with individuals from NI, Mr Hayman stressed:[^307]
 
 > "I can absolutely accord with your point around perception, but I can tell you that the team on it are ferocious, they have a reputation of being ferocious, and if, let's say, there is a scenario, which some people have argued around the conspiracy that there was a not such ferociousness around because of a perceived relationship, it was impossible, in my view. If you wanted to be disproportionate towards those alleged perpetrators, or you wanted to dilute down the investigation, the security and parameters that were set by the SIO would make that impossible. And if I personalise that, if there was an agenda from me or any other person, Assistant Commissioner, who wanted to dilute or disproportionately ramp up that operation, it would be impossible for that to happen without the SIO calling foul or asking for that individual to record why they want something done in that decision log."
 
@@ -6898,7 +6830,7 @@ E "Issues to bear in mind if informing victims
 
 6.4 DCS Williams explained in his witness statement that:[^316]
 
-> "… I felt that there was arguably a duty to inform people who may have been a victim E of crime in this case and I felt that this was best defined by 'for those people who we know are victims by virtue of the fact that our suspects called their voicemails.' If those people could be identified it was a case of by whom, how and when those people would be informed. The rationale for such a distinction was based upon a proportionate sharing of the resources that would be required, the level of risk/harm and who, police or service providers, had the best discrete [sic] channels to carry out the task."
+> "… I felt that there was arguably a duty to inform people who may have been a victim of crime in this case and I felt that this was best defined by 'for those people who we know are victims by virtue of the fact that our suspects called their voicemails.' If those people could be identified it was a case of by whom, how and when those people would be informed. The rationale for such a distinction was based upon a proportionate sharing of the resources that would be required, the level of risk/harm and who, police or service providers, had the best discrete [sic] channels to carry out the task."
 
 6.5 He provided additional insight into his thinking at the time during the course of his briefing to the Assistant Commissioner, John Yates, in 2009:[^317]
 
@@ -6928,7 +6860,7 @@ This answer suggests that DCS Williams failed to recognise that the ambit of the
 
 6.10 Without suggesting to DCS Surtees that it was his responsibility to do so, it was put to him that it would not have been an enormous task to contact everyone in the blue book and make sure that everyone was told that there was some information that their voicemail messages may have been intercepted, that it may not be possible to prosecute for reasons that could be explained, but that they ought to be aware of that fact and take appropriate security arrangements or, at least, be alert.[^325] DCS Surtees responded as follows:[^326]
 
-> "I accept that. In terms of the Blue Book and in terms of the document that was produced later, which was a document produced as a result of the analysis of the electronic media, which I think came to us on 23 November 2006, in relation to both E those documents, I accept that, the Metropolitan Police, could have approached all of those people and said, 'Look what is on a piece of paper', or, 'Look what is on a document and look how it relates to you'. I accept that."
+> "I accept that. In terms of the Blue Book and in terms of the document that was produced later, which was a document produced as a result of the analysis of the electronic media, which I think came to us on 23 November 2006, in relation to both those documents, I accept that, the Metropolitan Police, could have approached all of those people and said, 'Look what is on a piece of paper', or, 'Look what is on a document and look how it relates to you'. I accept that."
 
 6.11 In my view, the police ought either to have informed those named in the blue book themselves, or have agreed with the phone companies that the latter would do so, and given them the means to do so by providing the list of names. The police ought then to have checked with the phone companies to ensure that all relevant individuals had been informed. Insofar as the police had concerns about their obligations under the Data Protection Act 1998 when giving any names to the phone companies, this was a matter that could doubtless have been discussed and resolved: ultimately, the police could have avoided those concerns by informing those individuals themselves.
 
@@ -6958,9 +6890,7 @@ E "The Mobile phone companies had continued from the outset of the investigation
 
 > "It is not known in detail what each mobile phone company actually did, but anecdotally we know that upon learning of the flaws in their processes the phone companies took steps prevent future breaches and albeit these measures varied from company to company they included contacting customers who they thought might have been a victim …"
 
-6.18 When making its opening statement to the Inquiry, the MPS fully accepted that the victim notification strategy was not properly executed.[^334] The failure is now being remedied as part
-
-E of Operation Weeting. The MPS states that it accepts that it should have done more to ensure the strategy was fully implemented, but argues that this needs to be seen in the context of the huge demand on what became SO15 resources in 2006-7, as a result of several major counter terrorism operations.
+6.18 When making its opening statement to the Inquiry, the MPS fully accepted that the victim notification strategy was not properly executed.[^334] The failure is now being remedied as part of Operation Weeting. The MPS states that it accepts that it should have done more to ensure the strategy was fully implemented, but argues that this needs to be seen in the context of the huge demand on what became SO15 resources in 2006-7, as a result of several major counter terrorism operations.
 
 6.19 DCS Surtees has also added that the decision made by Mr Clarke not to expend any further resources on the operation affected the victim notification strategy. He said that after the decision had been made not to expand the investigation, he received the direction that staff should only service the prosecution, and consequently, there were no staff to follow up with the phone companies what they were doing regarding victim notification.[^335] It does not, however, seem that anyone went back to Mr Clarke and reminded him of the resources needed to implement the strategy which, in outline, he had approved.
 
@@ -7030,7 +6960,7 @@ Tech Crime Unit had specifically highlighted his name in the introduction to the
 
 6.33 I can well understand the reason for the concern that these witnesses had about the approach of the police which underlines the failure adequately to enunciate and implement a sensible and appropriate policy of notifying those who needed to know that their communications may not have been secure and their privacy had been violated or, at the very least, at risk. This might have been as a result of direct notification or by involving mobile phone companies but it had to be done and steps taken to ensure that it had been done. Having said that, the police did notify a number of those who were not related to the media (including, for instance, George Galloway who was told on 24 August 2006). In the circumstances, I consider that the undoubted failures of notification are not the result of cover-up or preferential treatment and favouritism towards the press but rather of poor strategy, and poor implementation of such strategy as existed with insufficient consideration to the importance that many if not most of the victims would attach to learning what had or might have happened to them.
 
-E The failure to warn NI or challenge the "one rogue reporter" assertion
+The failure to warn NI or challenge the "one rogue reporter" assertion
 
 6.34 The police were aware that there were very strong grounds for believing that journalists at NI, other than Mr Goodman, had been involved in unlawful voicemail interception. They had identified that the practice might be widespread. However justifiable their decision not to follow the evidential leads implicating other journalists might have been, that approach, brought with it an expectation that the police would take all other steps reasonably available to them to prevent the recurrence of the crime. In part that was achieved by mounting the high profile prosecution of Glenn Mulcaire and Clive Goodman.
 
@@ -7047,8 +6977,6 @@ This would not have taken a great deal of police resource.[^354]
 6.38 This step did not, however, cross the mind of DCS Williams. He said:[^355]
 
 > "I didn't think to specifically do that. I – if I think of your question and look back, I feel we made it abundantly clear what our understanding was and what our suspicions were in terms of the requests that we made to them. I'm sure they were well aware of what it was that we suspected, and given that ultimately a member of their senior management team resigned on the basis of what we'd found, I would have expected any senior management in an organisation to question why had that happened and to understand exactly what had gone on."
-
-E
 
 6.39 He went on to say that:[^356]
 
@@ -7136,7 +7064,7 @@ NoTW once he had served his sentence providing he did not implicate in criminal 
 
 7.14 In the event, this view was not shared by Mr Hinton because on 5 February 2007 Mr Hinton wrote to Mr Goodman terminating his employment. The letter said:[^376]
 
-> "I recognise this episode followed many unblemished, and frequently distinguished, years of service to the News of the World. In view of this, and in recognition of the pressures on your family, it has been decided that upon your termination you will receive one year's salary. In all the circumstances, we would of course be entitled to make no payment whatever…You will be paid, through payroll, on 6 February 2007, 12 months' base salary, subject to normal deductions of tax and nation insurance." E
+> "I recognise this episode followed many unblemished, and frequently distinguished, years of service to the News of the World. In view of this, and in recognition of the pressures on your family, it has been decided that upon your termination you will receive one year's salary. In all the circumstances, we would of course be entitled to make no payment whatever…You will be paid, through payroll, on 6 February 2007, 12 months' base salary, subject to normal deductions of tax and nation insurance."
 
 7.15 The terms of the dismissal were considerably more generous than the terms of his employment required, but Mr Goodman was not content. On 2 March 2007, Mr Goodman wrote to Daniel Cloke, then head of Human Resources at NI, appealing against his dismissal. His first two grounds of appeal were first, that the decision was perverse because his actions were carried out with the full knowledge and support of executives at the NoTW and second, that the decision was inconsistent because others, who were still working for the NoTW, were engaged in the same illegal procedures.[^377]
 
@@ -7284,8 +7212,6 @@ James Murdoch's explanation for the value of the settlement was that, though hig
 
 > "…were, all misinformed and shielded from anything that was going on there... there's no question in my mind that maybe even the editor, but certainly beyond that someone took charge of a cover-up which we were victim to".
 
-E
-
 7.47 He went on to say that the culture of cover-up emanated from:
 
 > "one or two very strong characters ………or the person I'm thinking of…..was a clever lawyer and forbade people to go and report to Mrs Brooks or to James."
@@ -7344,7 +7270,7 @@ The allegations made by the Guardian
 
 8.4 On 8 and 9 July 2009 the Guardian published an article[^429] which exposed that NGN had paid out more than £1 million to settle claims for the reason that the claims threatened to reveal evidence of its journalists' repeated involvement in the use of criminal methods to obtain stories. Those criminal methods were alleged to include using private investigators to intercept the mobile phone voicemail messages of numerous public figures, including cabinet ministers, MPs, actors and sportspeople. The article referred specifically to the claim brought by Gordon Taylor and stated:
 
-> E "Today, the Guardian reveals details of the suppressed evidence which may open the door to hundreds more legal actions by victims of News Group, the Murdoch company that publishes the News of the World and the Sun, as well as provoking police inquiries into reporters who were involved and the senior executives responsible for them."
+> "Today, the Guardian reveals details of the suppressed evidence which may open the door to hundreds more legal actions by victims of News Group, the Murdoch company that publishes the News of the World and the Sun, as well as provoking police inquiries into reporters who were involved and the senior executives responsible for them."
 
 8.5 The article claimed that the evidence posed difficult questions for Andy Coulson, Rupert
 
@@ -7722,7 +7648,7 @@ The problem facing the police team in 2009, however, was not the advice in 2006.
 
 8.89 DCS Williams has raised in submissions that in a written briefing to Mr Yates, dated 9 July
 
-2009, a DCS Timmons stated the following: E
+2009, a DCS Timmons stated the following:
 
 > "Deputy PM John Prescott – PW and KS without reference to the exact documentation believe that Mr Prescott was not directly targeted although it is believed that members of his staff may have been. There has been no direct contact with Mr Prescott and he is not believed on the information available at this time that he was a 'victim of interception'."
 
@@ -7752,7 +7678,7 @@ telephone numbers and pass codes and an address in NW1; or (b) that on 30 August
 
 8.94 The second aspect of the press statement which requires further consideration is that Mr
 
-E Yates stated that the MPS was taking all proper steps to ensure that, where there was evidence that people had been the subject of voicemail interception or there was any suspicion that there may have been, that they had been informed. The actions taken to comply with this undertaking and the extent to which they were successful are below.
+Yates stated that the MPS was taking all proper steps to ensure that, where there was evidence that people had been the subject of voicemail interception or there was any suspicion that there may have been, that they had been informed. The actions taken to comply with this undertaking and the extent to which they were successful are below.
 
 The initial reaction of the CPS
 
@@ -7796,7 +7722,7 @@ After 9 July 2009: the on-going response
 
 8.103 The following day, 10 July 2009, Mr Yates convened and chaired a second Gold Group meeting "to seek update from yesterday's meeting".[^493] This time DCS Surtees was also present. The following is recorded in the minutes:[^494]
 
-> "The original enquiry team (Op Caryatid) were aware that the defendant – Glenn Mulcaire was speaking to numerous people and other journalists to the very nature E of his job. The MPS sent a letter to News of the World asking them to reveal the phone numbers for their journalists so a comparison could be made on the seized data. It appeared [Mr Mulcaire] often used the News of the World switchboard so it was difficult to confirm who he was speaking with. They refused to co-operate. Telephone data went into 50,000 + and although further analysis could have been conducted to identify other journalists etc, it was decided in conjunction with CPS / Counsel, to set parameters and from a proportionality point of view, to focus on evidence that would support charges and attract suitable penalty at court for the level of criminality involved. Effective use of Police resources was also considered at the time and discretion to investigate (R v Blackburn). The data examined did not unravel a conspiracy with other journalists so was not extended. "If the MPS were to consider extending remit now then the phone companies no longer hold the data so it would not be feasible to investigate. It is also worthy to note that the victims subject to interception, apart from the two convicted defendants, they did not have any other suspect / target numbers attempting to intercept their phones. "[DCS Surtees] stated that during the S18 searches of News International the Police team met resistance and threats to use force to remove them from the premises. There was a general lack of co-operation on their part."
+> "The original enquiry team (Op Caryatid) were aware that the defendant – Glenn Mulcaire was speaking to numerous people and other journalists to the very nature of his job. The MPS sent a letter to News of the World asking them to reveal the phone numbers for their journalists so a comparison could be made on the seized data. It appeared [Mr Mulcaire] often used the News of the World switchboard so it was difficult to confirm who he was speaking with. They refused to co-operate. Telephone data went into 50,000 + and although further analysis could have been conducted to identify other journalists etc, it was decided in conjunction with CPS / Counsel, to set parameters and from a proportionality point of view, to focus on evidence that would support charges and attract suitable penalty at court for the level of criminality involved. Effective use of Police resources was also considered at the time and discretion to investigate (R v Blackburn). The data examined did not unravel a conspiracy with other journalists so was not extended. "If the MPS were to consider extending remit now then the phone companies no longer hold the data so it would not be feasible to investigate. It is also worthy to note that the victims subject to interception, apart from the two convicted defendants, they did not have any other suspect / target numbers attempting to intercept their phones. "[DCS Surtees] stated that during the S18 searches of News International the Police team met resistance and threats to use force to remove them from the premises. There was a general lack of co-operation on their part."
 
 8.104 These discussions brought to the attention of Mr Yates that evidence gathered did indicate that other journalists might be involved and that further analysis of the telephone data could have been conducted to identify other journalists, but that no analysis was conducted for reasons of proportionality. They also flagged to Mr Yates the strong resistance from NI to the search. They did not, however, cause Mr Yates to review his decision of the previous day. Even if Mr Yates did absorb that there was in fact evidence that might implicate other journalists, he appears just to have accepted, again at face value, that further investigation would not now be feasible. I am driven to the conclusion that having reached his dogmatic conclusion the previous day, he had closed his mind to the question of whether there might be material in police possession that could justify reopening the investigation.
 
@@ -7928,7 +7854,7 @@ And:[^520]
 
 8.135 DCS Williams also set out his views[^526] on "what would be the issues should it be decided to now open an investigation into any aspects of NOTW activities from that period":
 
-> "1. Maximum success already achieved – My rationale for what we did then I believe serves as a strong basis for why it would be highly challenging to find anything more that would lead to a criminal prosecution which would have any greater benefit in terms of what we have already achieved. "2. Data – In terms of practical challenges I doubt whether the necessary data exists E now. Even at the time Orange for example only hold what data they had for a few hundred days. So for example to explore in terms of data whether or not Gordon Taylor had been the victim of intercept in June 2005 or before as indicated by one seized document was not possible then let alone now. "3. Victim Cooperation – I believe the current climate is making an assumption around who would want to come forward as a victim/witness. Given that the people who are targeted are in the public eye for one reason or another I suspect many of them would not want to [be] identified publicly as a 'victim' due to what it might suggest about their private life. "4. Public Duty – Taking into consideration all that I have written above I do not feel we would be serving the criminal justice system for the public good, but all we would achieve is feeding the civil litigation industry for individual gain at much cost to the general public."
+> "1. Maximum success already achieved – My rationale for what we did then I believe serves as a strong basis for why it would be highly challenging to find anything more that would lead to a criminal prosecution which would have any greater benefit in terms of what we have already achieved. "2. Data – In terms of practical challenges I doubt whether the necessary data exists now. Even at the time Orange for example only hold what data they had for a few hundred days. So for example to explore in terms of data whether or not Gordon Taylor had been the victim of intercept in June 2005 or before as indicated by one seized document was not possible then let alone now. "3. Victim Cooperation – I believe the current climate is making an assumption around who would want to come forward as a victim/witness. Given that the people who are targeted are in the public eye for one reason or another I suspect many of them would not want to [be] identified publicly as a 'victim' due to what it might suggest about their private life. "4. Public Duty – Taking into consideration all that I have written above I do not feel we would be serving the criminal justice system for the public good, but all we would achieve is feeding the civil litigation industry for individual gain at much cost to the general public."
 
 8.136 In my judgment, this is another example of the way in which DCS Williams represented matters defensively and in such a way as to reinforce the decision that reopening the investigation was unwarranted.
 
@@ -8280,8 +8206,6 @@ Then I brought in Burton Copeland, an independent firm of solicitors to carry ou
 
 "My recollection was that a very thorough investigation took place where there was a review of everything from how cash payments were processed …" When asked about the width of the internal enquiry Mr Crone gave the following account:[^597]
 
-E
-
 "… By the time I got back, which must have been August 15, Burton Copeland were in the office virtually every day or in contact with the office every day. My understanding of their remit was that they were brought in to go over everything and find out what had gone on, to liaise with the police … What I think was being enquired into was what had gone on leading to the arrests; what, in the relationship with Mulcaire, did we have to worry about. Burton Copeland came in; they were given absolutely freerange to ask whatever they wanted to ask. They did risk accounts and they have got four lever-arch files of payment records, everything to do with Mulcaire, and there is no evidence of anything going beyond in terms of knowledge into other activities."
 
 8.213 Again, these assertions cannot be tested because legal professional privilege has not been waived in relation to the instructions given to Burton Copeland, the material provided, or, indeed, any aspect of the work done. I do no more than record what Mr Crone said.
@@ -8386,7 +8310,7 @@ In an email dated 10 September 2010,[^613] he was informed by that supervisor th
 
 "PREZA" appeared once in handwritten notes. The references to "JLP reset PIN 3333" and "JLP" were also brought to his attention but it was suggested to him that, given the surrounding information, they related to Jamie Lowther-Pinkerton. He was also informed that there were no results for searches on popular media nick-names for Lord Prescott. It appears that Lord
 
-Prescott was not given this information, but it is right to repeat that, in December 2009, he had been informed that his name and other details appeared in the Mulcaire documents. E
+Prescott was not given this information, but it is right to repeat that, in December 2009, he had been informed that his name and other details appeared in the Mulcaire documents.
 
 9.13 Reverting to the position of the CPS, following the publication of the New York Times article,
 
@@ -8407,8 +8331,6 @@ RIPA required proof that the interception had taken place before the intended re
 9.17 On 17 September 2010, the DPP received written advice from Mr Heywood.[^617] In a sustained and sophisticated analysis of the competing legal arguments, Mr Heywood inclined to the view that the broader construction of RIPA was to be preferred, having regard to the purpose underpinning the legislation and additional materials sent to him by First Parliamentary Counsel. Mr Heywood added that, in any event, even if the narrow interpretation should turn out to be correct, it would make no difference to investigators, because the inchoate offences of conspiracy or attempt would be unaffected by a narrow construction of the legislation.
 
 9.18 In his subsequent dealings with Parliamentary Select Committees, Mr Starmer no longer adhered to a narrow interpretation of RIPA: in essence, he indicated that the approach he intended to adopt would be to advise the police and CPS prosecutors to proceed on the assumption that a court might adopt a wide interpretation of sections 1 and 2 of RIPA.
-
-E
 
 9.19 On 1 October 2010, D/Supt Haydon and another officer had a meeting with Simon Clements and Asker Hussain of the CPS. D/Supt Haydon provided a detailed update on the progress of Operation Varec.[^618]
 
@@ -8526,7 +8448,7 @@ Mr Starmer stated the following in evidence:[^630]
 
 Starmer highlighted that Mr Yates was keen that the MPS should request the review rather than having it imposed on them. They therefore agreed that Mr Yates would formally invite the DPP to conduct a review. After the meeting Mr Starmer decided that his Principal Legal
 
-Adviser, Ms Alison Levitt QC, should carry it out. E
+Adviser, Ms Alison Levitt QC, should carry it out.
 
 10.8 The account given by Mr Yates of this meeting had a different emphasis, and suggested that he was, indeed, concerned about how matters had been dealt with and did not simply adopt a refrain that he would act if there were new evidence. He stated as follows in his witness statement:[^632]
 
@@ -8572,8 +8494,6 @@ The civil proceedings before Vos J and the disclosure process
 
 > concerning the interception activities of Mr Mulcaire in relation to Mr Andrew's voicemail messages.
 
-E
-
 (c) Documents evidencing communications between Mr Mulcaire and employees of NGN concerning information about Mr Andrew.
 
 (d) Documents concerning payments for information made by NGN to Mr Mulcaire.
@@ -8597,8 +8517,6 @@ E
 The judicial review of the actions of the MPS
 
 11.7 The July 2009 Guardian article prompted a number of individuals to question whether their voicemail messages had been intercepted. Four such individuals were Chris Bryant, MP for the Rhondda, Brendan Montague, Brian Paddick and Lord Prescott. All four contacted the
-
-E
 
 MPS asking whether this was the case.
 
@@ -8674,7 +8592,7 @@ Goodman, the investigation was limited to Mr Cloke and Mr Myler asking the indiv
 
 12.11 Even when Mr Silverleaf QC advised that there was powerful evidence of a culture of illegal information access used to produce stories for publication, there was no internal investigation. Rupert and James Murdoch claimed that there had been a cover up to which senior management had been victim. If that was right, then the accountability and governance systems at NI would have to be considered to have broken down in an extremely serious respect. Both Mr Myler and Mr Crone strongly denied that there had been a cover up. Whatever the truth, there was serious failure of governance within the NoTW. Given the criminal investigation and what are now the impending prosecutions, it is simply not possible to go further at this stage. In any event, what can be said is that there was a failure on the part of the management at the NoTW to drill down into the facts to answer the myriad of questions that could have been asked and which could be encompassed by the all embracing question (whether or not it was in fact asked) "what the hell was going on?" This is a significant finding in the context of the practices of this newspaper at least; whether it can now be said by the press generally that it was a case of 'one rogue newspaper' is another matter.
 
-E 2009 to 2011
+2009 to 2011
 
 News International
 
@@ -8754,7 +8672,7 @@ he was then put on the right track. Given what the police placed before the CPS 
 
 %%page 421%%
 
-Chapter 5 a New approaCh to the allegatioNs
+### Chapter 5: A new approach to the allegations
 
 ### Police Inquiries: Operations Weeting, Elveden and tuleta
 
@@ -8798,7 +8716,7 @@ Operation Elveden
 
 1.10 In an important piece of evidence, DAC Akers pointed out that offences[^20] of this nature are suspected to have been committed in at least three separate newspaper titles right up to early 2012.[^21] DAC Akers expects further arrests to be made in due course.[^22]
 
-E Operation Tuleta
+Operation Tuleta
 
 1.11 Operation Tuleta began with an investigation into the circumstances surrounding the hacking into computers of Ian Hurst by or at the instigation of NoTW journalists in 2006.[^23] As at October 2012, Operation Tuleta was undertaking an assessment of 142 separate allegations of data intrusion, including allegations of phone hacking, computer hacking, and improper access to banking, medical and other personal records.[^24] This has entailed interrogating between 8-12 terabytes of data across 70 different storage devices; a vast undertaking.[^25]
 
@@ -8910,8 +8828,6 @@ MSC, against a backdrop of threats of legal action against the MSC and also when
 
 2.19 DAC Akers stressed the importance of full cooperation by the MSC to police operations, and commented that any change in the approach of the voluntary disclosure of evidence would: "…adversely affect initial decisions that we'd made and arrests that were made as well".[^61] The disclosure of documentation by the MSC resumed in mid-June, following discussion between the MPS with Lord Grabiner and the legal team representing the MSC.[^62] Such consequences would undeniably have affected the extent to which NI could have argued that it had adopted a new approach to compliance with the criminal law.
 
-E
-
 2.20 At that same meeting, a new framework was agreed in relation to communication. This has involved a changed format to meetings between the MSC and MPS teams, and, notably, the insistence on legal representation by the MSC while liaising with officers from the MPS operations.[^63] Further, a number of executive members of the MSC, including Will Lewis and Simon Greenberg, have been stood down from attending regular briefings between the two parties.[^64] Despite the change in process, DAC Akers was keen to make clear in evidence to the Inquiry that the professional approach of the MSC towards the MPS has been maintained and that the change "…hasn't affected the co-operation, which is still very good".[^65]
 
 2.21 Since DAC Akers gave evidence in July, it is clear that some tensions have become apparent about the way in which the relationship between the MSC and the MPS has developed. I cannot resolve this issue and, for good reason, I am satisfied that it is not appropriate to elaborate or even to set out the respective positions. In the circumstances, I leave the matter there.
@@ -8988,9 +8904,7 @@ He also expressed his concerns about the independence of the IPCC but did not el
 
 > "…goes a long way to allay some criticisms that have been made about how it's perceived that it can't be necessarily an independent inquiry. The fact that we are dealing with the MSC directly and not News International I think should make any contention that it isn't independent without foundation."
 
-2.35 As testament to the important contribution that the MSC has made to the investigation, DAC Akers noted that, as at the date of her fourth witness statement, namely 31 October 2012, the disclosure of material to Operation Elveden had led to the arrest of 25 journalists out of a
-
-E total of 52 arrests; this was in addition to 25 arrests made as part of Operation Weeting and 17 arrests as part of Operation Tuleta.[^85]
+2.35 As testament to the important contribution that the MSC has made to the investigation, DAC Akers noted that, as at the date of her fourth witness statement, namely 31 October 2012, the disclosure of material to Operation Elveden had led to the arrest of 25 journalists out of a total of 52 arrests; this was in addition to 25 arrests made as part of Operation Weeting and 17 arrests as part of Operation Tuleta.[^85]
 
 2.36 In forming a view about these matters, I am primarily reliant on the evidence provided by DAC Akers (about whom nobody has spoken other than in terms of the highest praise) although I also have professional experience of Lord Grabiner and knowledge of his high standing as an independent barrister in England and Wales. Furthermore, I am able to draw inferences from the nature and extent of what has happened as events have unfolded. On the other hand, there has been no evidence to support the concerns raised by Mr Paddick, either as to the independence of the MSC or to the impartiality and integrity of the MPS officers responsible for the conduct of its investigation into alleged police corruption and other crime.
 
@@ -9027,8 +8941,6 @@ Neither has the Inquiry heard any evidence in relation to the findings of the re
 2.43 Finally, it is worth noting the costs of the MSC to NI have been borne by the UK subsidiary rather than by News Corp. From the Group Report and Financial Statement, as at 8 May 2012, excluding any costs relating to the News International Compensation Scheme or ongoing civil litigation, the MSC has cost NI £53.2 million. These costs have been accrued primarily in legal and professional fees since July 2011.[^91] It is likely that, by the time of publication, these costs will have increased further.
 
 %%page 435%%
-
-E
 
 Published by TSO (The Stationery Office) and available from:
 
@@ -9920,7 +9832,7 @@ Reference require me to describe and characterise press conduct and, where appro
 
 2.8 Third, and a point which again flows directly from an examination of the Terms of Reference, my recommendations must support 'the integrity and freedom of the press...while encouraging the highest ethical and professional standards' (paragraph 2a). It is clear from this language that the Inquiry must do its best to foster a free press which has integrity as well as ethical standards: indeed, the highest ethical and professional standards. Many commentators have focused on the importance of a free press (which I would be the first to recognise and uphold) without any reference to the need for an ethical press to possess integrity. These are demanding standards and require ethical judgments to be made at all material times:
 
-merely to broadcast the values of 'freedom' is seriously to overlook a complementary and equally important set of values, and to run the danger of creating or permitting that which is undesirable and not in the public interest. In my view, the unification of these twin requirements – freedom and ethics – is not an impossible aspiration: both may co-exist in the same press, working in harmony and in cooperation with each other. But the recognition of the need for an ethical press inevitably carries with it the recognition of the need for a responsible press, which respects the rights and interests and others, and which does not regard 'freedom' as the ultimate panacea or touchstone for its mores and conduct. F
+merely to broadcast the values of 'freedom' is seriously to overlook a complementary and equally important set of values, and to run the danger of creating or permitting that which is undesirable and not in the public interest. In my view, the unification of these twin requirements – freedom and ethics – is not an impossible aspiration: both may co-exist in the same press, working in harmony and in cooperation with each other. But the recognition of the need for an ethical press inevitably carries with it the recognition of the need for a responsible press, which respects the rights and interests and others, and which does not regard 'freedom' as the ultimate panacea or touchstone for its mores and conduct.
 
 2.9 As a final point, I should note that many of the arguments made in respect of the rights or wrongs of the practices and ethics of the press can turn on one's view of the amorphous concept of the public interest. Many otherwise unethical practices may be made ethical simply by virtue of the fact that they are justified, in the circumstances, in the public interest.
 
@@ -10008,9 +9920,7 @@ Victims of crime
 
 3.22 This category of individual includes those who have been harmed emotionally as well as suffering damage to their reputations, such as Drs Kate and Gerry McCann whose daughter Madeleine disappeared when the family was holidaying in Portugal in May 2007. The subsequent coverage of Madeleine's disappearance included libellous and highly inaccurate articles in a number of newspapers, particularly in The Daily Express which made a number of allegations about the entirely unproven role of Drs Kate and Gerry McCann in the disappearance of their daughter.[^10]
 
-3.23 This sub-category also includes the parents of the murdered school girl Milly Dowler. Bob and Sally Dowler were subjected to an unwarranted barrage of intense and intrusive media
-
-F attention.[^11] Aside from the well-publicised matters which led to the setting up of this Inquiry, moments of intense private grief were captured by photographers and published in the NoTW.[^12]
+3.23 This sub-category also includes the parents of the murdered school girl Milly Dowler. Bob and Sally Dowler were subjected to an unwarranted barrage of intense and intrusive media attention.[^11] Aside from the well-publicised matters which led to the setting up of this Inquiry, moments of intense private grief were captured by photographers and published in the NoTW.[^12]
 
 3.24 These high-profile cases are far from isolated examples. The Inquiry also heard evidence from the parents of Diane Watson, who was murdered at school in Glasgow in 1991. In their evidence to the Inquiry, Mr and Mrs Watson not only raised the issue of unwarranted and indeed intrusive press attention but also, like the McCanns, pointed to the highly inaccurate and sensationalised reporting around their daughter's death.[^13]
 
@@ -10140,7 +10050,9 @@ Associated Newspapers Limited F
 
 2.6 The following are advanced as examples of public interest campaigns in recent years.
 
-2.7 The first story advanced by the Daily Mail is the Stephen Lawrence campaign. When the prime suspects were acquitted in 1997 of Stephen's murder in south east London in 1993, the Daily Mail took up the case. A front page proclaimed 'Murderers,' accused the suspects of the crime and printed their pictures. Under a headline: 'The Mail accuses these men of killing. If we are wrong, let them sue us', the paper effectively challenged the suspects to sue. They did not. After the abolition of the rule against double jeopardy and new DNA developments, earlier this year two of the suspects were found guilty of his murder. 2.8 Second, two years after the 1998 Omagh bombing atrocity, in despair that the killers were still at large, devastated families of the 29 people, including the mother of unborn twins who had been killed in the outrage, approached the Daily Mail in a final attempt to win justice for their loved ones. the Daily Mail, which accused British justice of a 'shameful betrayal', appealed to its readers and received support across the religious and political divide, raising £1.2 million to fund a landmark civil court action. In June 2009, the family finally succeeded when a historic Belfast court ruling awarded them more than £1.6 million in damages against the four Real IRA terrorists they accused of tearing their lives apart.
+2.7 The first story advanced by the Daily Mail is the Stephen Lawrence campaign. When the prime suspects were acquitted in 1997 of Stephen's murder in south east London in 1993, the Daily Mail took up the case. A front page proclaimed 'Murderers,' accused the suspects of the crime and printed their pictures. Under a headline: 'The Mail accuses these men of killing. If we are wrong, let them sue us', the paper effectively challenged the suspects to sue. They did not. After the abolition of the rule against double jeopardy and new DNA developments, earlier this year two of the suspects were found guilty of his murder.
+
+2.8 Second, two years after the 1998 Omagh bombing atrocity, in despair that the killers were still at large, devastated families of the 29 people, including the mother of unborn twins who had been killed in the outrage, approached the Daily Mail in a final attempt to win justice for their loved ones. the Daily Mail, which accused British justice of a 'shameful betrayal', appealed to its readers and received support across the religious and political divide, raising £1.2 million to fund a landmark civil court action. In June 2009, the family finally succeeded when a historic Belfast court ruling awarded them more than £1.6 million in damages against the four Real IRA terrorists they accused of tearing their lives apart.
 
 2.9 The third campaign identified by the Daily Mail concerns compensation for wounded servicemen. In 2007, the Daily Mail highlighted the paltry sums given to injured heroes by the Ministry of Defence and launched a campaign focusing on the case of paratrooper Ben Parkinson, 24, who lost both legs, the use of one arm, his speech and much of his memory in a mine blast in Afghanistan. After a year of campaigning, the Government announced it was doubling the maximum pay out to the worst injured; this was followed, in 2010, by the announcement that compensation for thousands of others badly wounded in the line of duty, would also be raised, backdated to 2005.
 
@@ -10173,8 +10085,6 @@ Mr Tomlinson died of natural causes, an inquest returning a verdict of unlawful 
 2.16 The third story relates to the oil trading firm, Trafigura. In May 2009, The Guardian acquired a confidential document which suggested that the waste dumped from a tanker chartered by Trafigura in the Ivory Coast port of Abidjan was highly toxic. A large number of local residents became sick. Trafigura later attempted to gag the paper by seeking a super-injunction, preventing not just publication of the key document but even reporting of an MP's question about it. After a public campaign the super-injunction was lifted; Trafigura was later convicted by a Dutch court with regard to the delivery of the toxic waste to, and its export from, Amsterdam and fined 1 million Euros. The company is appealing the decision.
 
 2.17 The Guardian also refers to its campaign in relation to rendition and torture of detainees. For more than five years and in scores of articles, The Guardian's Ian Cobain has painstakingly uncovered the extent of Britain's complicity in the torture and rendition of detainees in the face of countless official denials. Mr Cobain has linked Britain to the mistreatment of prisoners in Iraq, Libya, Pakistan, Bangladesh and Afghanistan. Mr Cobain's reporting was one of the key factors leading to the Government's decision to order an inquiry into allegations of British complicity in torture, now delayed until police investigation of two cases is complete.
-
-F
 
 2.18 Although the underlying disclosures by WikiLeaks remain potentially controversial, the Guardian's collaboration with whistleblowers' website WikiLeaks and four other international newspapers in 2010 and 2011 led to the publication of a string of major public interest stories touching almost every corner of the globe. They included the disclosure that Saudi Arabia was secretly putting pressure on the US to attack Iran, that US diplomats believed Russia was "a virtual Mafia state" and that a British oil company claimed to have "infiltrated" all of Nigeria's major ministries. The role played by the Guardian, however, is not controversial: it played a central part in ensuring that hundreds of thousands of documents which might have been dumped "raw" on the Internet were carefully analysed first and redacted to avoid exposure of vulnerable sources. More than 30 Guardian specialist reporters and foreign correspondents were involved in the huge effort to comb and authenticate the documents over several months.
 
@@ -10254,9 +10164,7 @@ The Telegraph
 
 2.40 In written submissions filed on 2 May 2012, Telegraph Media Group Ltd drew attention to a number of recent public interest stories.[^16] Pride of place goes to the MPs' expenses story which is covered under a separate heading below. Again, the stories speak for themselves.
 
-2.41 'Baby Girls Aborted: No Questions Asked'.[^17] An undercover investigation by The Daily Telegraph disclosed that women were being offered illegal sex selection abortions. Doctors were secretly filmed offering to abort foetuses purely because they were either male or female, even though it is illegal to carry out a termination for that reason. One doctor, a consultant who works for both private clinics and NHS hospitals in Manchester, told a pregnant woman who said she wanted to abort a female foetus, "I don't ask questions. If you want a termination,
-
-F you want a termination". She later telephoned a colleague to book the procedure, explaining that it was for "social reasons" and the woman "doesn't want questions asked". The Daily Telegraph's investigation also recorded several other doctors at clinics in other parts of the country offering similar terminations based on the unborn baby's gender. The consequence of this exposure is that there are now three separate and ongoing police investigations by the Metropolitan, Greater Manchester and West Midlands police forces. In addition, the matter is being pursued in separate professional investigations by the General Medical Council and the Nursing and Midwifery Council. Finally, the Care Quality Commission has made unannounced inspections at more than 250 abortion clinics.
+2.41 'Baby Girls Aborted: No Questions Asked'.[^17] An undercover investigation by The Daily Telegraph disclosed that women were being offered illegal sex selection abortions. Doctors were secretly filmed offering to abort foetuses purely because they were either male or female, even though it is illegal to carry out a termination for that reason. One doctor, a consultant who works for both private clinics and NHS hospitals in Manchester, told a pregnant woman who said she wanted to abort a female foetus, "I don't ask questions. If you want a termination, you want a termination". She later telephoned a colleague to book the procedure, explaining that it was for "social reasons" and the woman "doesn't want questions asked". The Daily Telegraph's investigation also recorded several other doctors at clinics in other parts of the country offering similar terminations based on the unborn baby's gender. The consequence of this exposure is that there are now three separate and ongoing police investigations by the Metropolitan, Greater Manchester and West Midlands police forces. In addition, the matter is being pursued in separate professional investigations by the General Medical Council and the Nursing and Midwifery Council. Finally, the Care Quality Commission has made unannounced inspections at more than 250 abortion clinics.
 
 2.42 'Cheating the System: How Examiners Tip off Teachers'.[^18] An undercover investigation disclosed that teachers were paying to attend seminars with chief examiners where they were advised on examination questions. One examiner was recorded telling the teachers what examination questions to expect and admitted "we're cheating". The investigation exposed a system in which examination boards aggressively competed for "business" from schools. Evidence was uncovered that standards of examinations had been driven down to encourage schools to enter pupils for particular boards. The Chief Examiner of one examination board told one undercover reporter that "there is so little content we don't know how we got it through" and in an attempt to win new business told him "we don't have to teach a lot". This investigation had an impact on millions of children across the country and the teaching profession. The Secretary of State for Education, Rt Hon Michael Gove, welcomed The Telegraph's investigation and there is now a fundamental review of the examination system, and an inquiry being conducted by the Education Select Committee in the House of Commons.
 
@@ -10363,8 +10271,6 @@ Thomas and Ms Brooke, in the spring of 2005.[^31]
 2.61 It is noteworthy that shortly after the publication of the first of the disclosures in the Daily
 
 Telegraph, the House of Commons authorities asked the Metropolitan Police Service (MPS), to investigate the journalistic activities of the paper. This request was declined by the MPS on the grounds that a prosecution would not, in any event, be in the public interest (although, as identified above, the then editor of the Daily Telegraph made clear in his evidence that the advice that he received was that no criminal act had taken place).[^42]
-
-F
 
 Disclosure by the Daily Telegraph: the story
 
@@ -10504,7 +10410,7 @@ Sport Select Committee and the Inquiry itself.
 
 James Hipwell points to phone hacking being a common and known practice at the NoTW and elsewhere. In relation to other titles, the degree of knowledge, acquiescence and turning of the metaphorical blind eye may be difficult to assess quantitatively on the basis of the evidence the Inquiry has received (although a fuller analysis of this issue will be conducted below);[^10] in qualitative terms, however, valuable evidence was obtained from witnesses such as Piers Morgan, Heather Mills, Jeremy Paxman and Dominic Mohan.
 
-2.6 Although the Regulation of Investigatory Powers Act 2000 (RIPA) contains no defence of acting in the public interest, the Inquiry has examined the extent to which it could be argued that the hacking of voicemails was carried out in pursuit of stories which could properly and fairly be characterised as being in the public interest. There is no evidence that this is so: to such extent as the evidence has been ventilated, the hacking of voicemails was systematically deployed to garner pieces of gossip and tittle-tattle about the lives of celebrities and those otherwise in the public eye whether as victims of crime, politicians or potential sources for stories; in other words, to intrude into their privacy without any conceivable justification that could truly be argued to be in the public interest. Whereas in other contexts it has been argued by the press, or sections of the press, that there is a public interest in freedom of speech itself, and that an editor should be permitted to decide where the ethical balance falls, no such argument has been aired in this particular context. F
+2.6 Although the Regulation of Investigatory Powers Act 2000 (RIPA) contains no defence of acting in the public interest, the Inquiry has examined the extent to which it could be argued that the hacking of voicemails was carried out in pursuit of stories which could properly and fairly be characterised as being in the public interest. There is no evidence that this is so: to such extent as the evidence has been ventilated, the hacking of voicemails was systematically deployed to garner pieces of gossip and tittle-tattle about the lives of celebrities and those otherwise in the public eye whether as victims of crime, politicians or potential sources for stories; in other words, to intrude into their privacy without any conceivable justification that could truly be argued to be in the public interest. Whereas in other contexts it has been argued by the press, or sections of the press, that there is a public interest in freedom of speech itself, and that an editor should be permitted to decide where the ethical balance falls, no such argument has been aired in this particular context.
 
 2.7 Put at its very lowest, the Inquiry will need to consider whether, at least until 2006, there existed a culture within the press of indifference to the unlawfulness of the practice of phone hacking (or a lack of understanding of its unlawfulness, which itself is difficult to justify) and to its unethical nature. It will also be necessary to consider whether the evidence received is sufficient to reach conclusions in respect of the use of phone hacking at titles other than the
 
@@ -10524,7 +10430,7 @@ Email hacking
 
 2.11 The present state of affairs in relation to Operation Tuleta is set out elsewhere.[^16] Given its current status it is difficult to reach any conclusions of a generic nature in relation to email hacking, save to observe that it remains possible that a considerable quantity of criminality will be exposed in due course.
 
-F Bribery and corruption
+Bribery and corruption
 
 2.12 Again, the present state of affairs in relation to Operation Elveden is set out elsewhere.[^17] As of 31 October 2012 (Deputy Assistant Commissioner Sue Akers' fourth witness statement) a total of 52 individuals had been arrested by officers working on Operation Elveden; of these, 27 were current and former journalists (including journalists from The Sun; the Daily Mirror and its sister paper, the Sunday Mirror; and the Daily Star Sunday).[^18] In an important piece of evidence, DAC Akers pointed out that offences of this nature were suspected to have been committed in at least three separate newspaper groups right up to early 2012.[^19]
 
@@ -10634,7 +10540,9 @@ Treatment of critics and complainants General discouragement of public criticism
 
 2.39 Numerous individuals in public life have complained in evidence to the Inquiry that they F have been afraid or unwilling to confront the power of the press, or – putting the matter another way, failings in the culture, practices and ethics of the press – owing to concerns about personal attack and vilification. The issue for consideration is not whether these fears are honestly held (given the weight of convergent evidence, this could not seriously be disputed) but rather whether the press has by its conduct caused, fostered or permitted such an 'atmosphere' to exist and be perpetuated whereby such fears have naturally spread.
 
-2.40 The corpus of evidence relevant to this issue is vast, but for present purposes it can be considered in three parts. First, the Inquiry heard evidence of overt intimidation of those who had criticised the press. For example, after writing critical articles about the Daily Star in particular, and the tabloid press in general, Richard Peppiatt received threatening phone calls and text messages saying that he was "a marked man until the day you die". Similarly, while Hugh Grant was criticising tabloid press ethics while appearing on Question Time, the mother of his child was called and told to "Tell Hugh Grant to shut the fuck up". 2.41 Second, a significant number of the witnesses who testified during the first two weeks of Module One gave evidence of their fears of, or actual retaliation, by the press in response to complaints. JK Rowling made the point very compellingly in these terms:[^46]
+2.40 The corpus of evidence relevant to this issue is vast, but for present purposes it can be considered in three parts. First, the Inquiry heard evidence of overt intimidation of those who had criticised the press. For example, after writing critical articles about the Daily Star in particular, and the tabloid press in general, Richard Peppiatt received threatening phone calls and text messages saying that he was "a marked man until the day you die". Similarly, while Hugh Grant was criticising tabloid press ethics while appearing on Question Time, the mother of his child was called and told to "Tell Hugh Grant to shut the fuck up".
+
+2.41 Second, a significant number of the witnesses who testified during the first two weeks of Module One gave evidence of their fears of, or actual retaliation, by the press in response to complaints. JK Rowling made the point very compellingly in these terms:[^46]
 
 > "I would like to emphasise that what I'm about to say does not apply to the whole of the British press, but it is my experience with certain sectors of the British press. If you lock horns with them in this way, if you protest or you make a complaint, then you can expect some form of retribution fairly quickly, and I thought the fact that in this case a picture of my child was put into the papers, so very quickly after I'd asked them not to print my address, I thought that was spiteful, actually. Just spiteful."
 
@@ -10712,7 +10620,7 @@ Consequences of inaccurate reporting
 
 3.11 It goes without saying that reporting of this nature is particularly distressing to the family and friends of the deceased.
 
-3.12 The cases of the McCanns and Christopher Jefferies are especially egregious examples of defamatory and sensationalised reporting causing, in their different ways, personal anguish and distress. These examples are treated in more detail below.[^74] F
+3.12 The cases of the McCanns and Christopher Jefferies are especially egregious examples of defamatory and sensationalised reporting causing, in their different ways, personal anguish and distress. These examples are treated in more detail below.[^74]
 
 Impact on public discourse
 
@@ -10788,9 +10696,7 @@ Sense about Science, and the Cardiff University Brain Imaging Centre. Perhaps un
 
 3.30 Similar, but more controversial, concerns have been raised by organisations in relation to the reporting of issues as diverse as climate change and drug addiction.[^120] It is unnecessary to do more than touch on these: the relevant submissions are available on the Inquiry website for public scrutiny. It goes without saying that the Inquiry has not undertaken the task of forming its own expert scientific judgment on this material and, in any event, it is unnecessary that it should do so.
 
-3.31 This body of evidence emphasises the need for balanced and responsible reporting on matters of public interest and, in particular, reporting that reflects the balance of scientific and/or medical opinion on any specific issue. This need arises because the press is regarded as a reliable and responsible source of information; if it was not so regarded (and the press itself would hardly want it so), this issue would not arise. If, for example, the overwhelming preponderance of informed medical opinion is to the effect that a vaccine is safe, any reporting of suggestive evidence to the contrary effect should recognise and fairly characterise the nature and quality of that evidence, and accord proper recognition to where the clear consensus of opinion lies. This is not to accord undue weight to the views of the scientific and
-
-F medical establishment; rather, it is to accord due recognition to the strength of the available evidence to ensure that the position is not misrepresented. As the MMR story made clear, the failure to do so can have a widespread and harmful impact.
+3.31 This body of evidence emphasises the need for balanced and responsible reporting on matters of public interest and, in particular, reporting that reflects the balance of scientific and/or medical opinion on any specific issue. This need arises because the press is regarded as a reliable and responsible source of information; if it was not so regarded (and the press itself would hardly want it so), this issue would not arise. If, for example, the overwhelming preponderance of informed medical opinion is to the effect that a vaccine is safe, any reporting of suggestive evidence to the contrary effect should recognise and fairly characterise the nature and quality of that evidence, and accord proper recognition to where the clear consensus of opinion lies. This is not to accord undue weight to the views of the scientific and medical establishment; rather, it is to accord due recognition to the strength of the available evidence to ensure that the position is not misrepresented. As the MMR story made clear, the failure to do so can have a widespread and harmful impact.
 
 Inaccuracy and harm: a wider perspective
 
@@ -10820,7 +10726,7 @@ Inaccuracy and harm: a wider perspective
 
 > NoTW, what the priorities were, how people behaved and what the prevailing attitudes were to ethical and legal constraints, the rights of individuals and the Editors' Code. The picture set out here is gathered from the evidence of a number of people who have worked at the newspaper over last ten or so years. None has been able to give a full account, and given the frank inconsistencies between some of the accounts that I have received (taken together with other reasons such as my assessment of them as witnesses) I am driven to conclude that not everything I have heard has been accurate or, in some cases, truthful. That said, I believe that the resulting picture is sufficiently robust to stand as a recognisable portrait of how the organisation operated over that period, without seeking to concentrate on, or draw conclusions about, the alleged illegal behaviour that is the subject of current or potential police investigations.
 
-F 2. Influence on culture at the News of the World
+2. Influence on culture at the News of the World
 
 2.1 This chapter will consider a number of different aspects of culture, practices and ethics at the
 
@@ -10936,7 +10842,7 @@ Tribunal further found that the disciplinary proceedings leading up to Mr Drisco
 
 2.20 It must be recognised that not all the evidence offered can be taken at face value and, in particular, as I have said, I must be very careful about placing too much reliance on the evidence of anonymous journalists unless it is converges with other reliable evidence. However, in the light of the body of consistent evidence which the Inquiry has received, and of Mr Myler's evidence (which is not challenged by anybody) there can be little doubt that the NoTW was a tough working environment, that the staff collectively felt that challenge from superiors was not welcomed, and that bullying was a problem. The evidence which Mr Driscoll gave to the Employment Tribunal, repeated to me, along with the confirmation of witnesses
 
-(both identified and anonymous) satisfies me that, at least on occasion, individuals were, indeed, victimised and bullied. Whilst Mr Myler took steps to address the culture that he obviously perceived as being harmful, there was no evidence that any individuals responsible for bullying, or creating a climate at the paper which was unhealthy and oppressive, were disciplined in any way or that the victims were offered any support. F
+(both identified and anonymous) satisfies me that, at least on occasion, individuals were, indeed, victimised and bullied. Whilst Mr Myler took steps to address the culture that he obviously perceived as being harmful, there was no evidence that any individuals responsible for bullying, or creating a climate at the paper which was unhealthy and oppressive, were disciplined in any way or that the victims were offered any support.
 
 2.21 In any event, whether the pressures to perform amounted to bullying or not, it has been suggested by a number of witnesses that these pressures, both to deliver a story and to deliver sufficient evidence to make it legally defensible, may have led journalists to use whatever means were necessary, even if that meant stepping beyond the Editors' Code or the law. Mr McMullan described the attitude of a previous editor, Piers Morgan, as "I want that story at all costs" and "I don't care what you have to do to get that story".[^44] He recounted a specific incident alleging that Mr Morgan, against the advice of Rebekah Brooks, had actively encouraged him to steal a photograph from a private house:[^45] quite apart from the unsatisfactory nature of parts of Mr McMullan's evidence, that allegation was not put to
 
@@ -10960,7 +10866,7 @@ Mr Driscoll went on to say:[^48]
 
 2.25 Again, this general picture is reflected in the anonymous evidence given through the NUJ. One such witness said "if you've got people who are hacking phones and producing great stories, the honest reporter is thinking they're not in the same league, that something's wrong with them".[^52] Another complained of pressure to deliver too quickly:[^53]
 
-> F "There'd be no time to make calls and get things right……..There was [one time] when I had to make up a quote – it was only once….I felt terrible. But I didn't have a choice and I had to get the piece done."
+> "There'd be no time to make calls and get things right……..There was [one time] when I had to make up a quote – it was only once….I felt terrible. But I didn't have a choice and I had to get the piece done."
 
 A third said:[^54]
 
@@ -10987,8 +10893,6 @@ Editors' Code or been found to have broken the law. Mr Myler explained that it w
 2.31 Any one of these arguments might also explain the willingness of the NoTW to reach a substantial settlement with Mr Goodman once he had been dismissed. Jon Chapman, former head of legal and corporate affairs at NI, told the Inquiry that the NoTW settled with Mr Goodman because they did not want to face the reputational damage of allegations being repeated in an Employment Tribunal.[^66] Mr Chapman's contention was that the allegations were unsubstantiated but nonetheless damaging. There would be an equal rationale for persuading Mr Goodman not to repeat his allegations if they were, in fact, substantiated.
 
 2.32 What is particularly striking are the differences between the treatment of Mr Thurlbeck and Mr Goodman, on the one hand, and Mr Driscoll on the other. Whilst Mr Goodman was dismissed, it took some considerable while for that conclusion to be reached. No formal action was taken against Mr Thurlbeck whatsoever, and any informal reprimand was offered only long after the event. Both of these cases involved unlawful (or potentially tantamount to unlawful) behaviour and breaches of the Code. By contrast Mr Driscoll had broken neither the Code nor the internal rules of the NoTW and was dismissed as rapidly and with as little personal consideration or compensation as possible.[^67]
-
-F
 
 2.33 Looked at more broadly, the Inquiry has seen no evidence that the policy set out by Mr Myler, that breaches of the Editors' Code would result in a written reprimand, was implemented or enforced. NI has not provided any examples of such written reprimands, despite at least 17 upheld PCC complaints against the NoTW, including five since 2007,[^68] and 19 defamation actions since 2005 including 12 settled.[^69] Mr Myler cited four cases in which the PCC adjudicated against the NoTW while he was editor.[^70] The Inquiry has been given no evidence of disciplinary action having been taken in response to those breaches of the PCC Code despite Mr Myler's assertion that it would have done so. Some five people were dismissed from NoTW in the period from 2005-2011 for misconduct, three of them in 2011, and no information is provided about what constituted misconduct in these cases. The example of Mr Driscoll demonstrates that this will not always relate to a breach of the Code.
 
@@ -11055,8 +10959,6 @@ He explained that the executive's view of the public interest in publishing was 
 > "As the success of late-night Saturday injunctions increased, for reasons that were subject to debate and some discussion in the media and in the legal profession, it became clear that whatever the rights and wrongs of a case, it was becoming much more easy – easier for a judge to grant an injunction. If you – if that injunction was granted, that means (a) that you – all that hard work had to go on hold, and (b) it stopped becoming yours, because it then became out to the rest of the world. Because if you fought the injunction, it would be heard on a nice comfortable Thursday or Friday morning in the High Court and you, as a Sunday newspaper, have your story all over the daily newspapers."
 
 3.11 There are very real tensions between what the Inquiry has been told, for the most part, about the general approach to privacy, which suggested a careful consideration of the issues raised, and the actual decisions taken, and rationale for those decisions, in specific cases. A prime example of this is the publication of the story about Mr Mosley. It is not necessary to set out in detail the facts of the Mosley case, which can be found in the judgment of Mr Justice Eady in Max Mosley v News Group Newspapers.[^93] In short, the NoTW published a series of stories alleging that Mr Mosley, the then head of the Federation Internationale de l'Automobile (FIA), had taken part in a 'Nazi themed orgy'. The newspaper also published online a video of Mr Mosley engaged in sado-masochistic sex, alleging this be evidence of the Nazi orgy. In fact, the allegation of a Nazi theme was held by the court to have no basis in fact, but was no doubt an attractive headline for the newspaper and its readership on account of the fact that Mr Mosley is the son of former British Union of Fascists leader Oswald Mosley. The revelations in the NoTW were incredibly damaging to Mr Mosley and his family and amounted to a gross breach of his private life.
-
-F
 
 3.12 In this case, Mr Thurlbeck could not remember with any precision when the public interest in breaching Mr Mosley's privacy was considered. He was clear that he had no such conversation with the editor, Mr Myler, but did think he had discussed the issue with the news editor both when he started to research the story and throughout. Despite his earlier characterisation of regular and lengthy debates with the editor on privacy issues (see paragraph 3.7 above), when asked whether he thought it appropriate to discuss the public interest in invading Mr Mosley's privacy with the editor, Mr Thurlbeck said:[^94]
 
@@ -11136,9 +11038,7 @@ However, notwithstanding these considerable caveats, I am prepared to place some
 
 4.11 Mr Hoare, giving evidence of conversations he had had with his brother Sean, who died in July 2011, said that he had been told by his brother that phone hacking was a daily routine at the NoTW and, possibly to a lesser extent, at The Sun. In line with Mr McMullan's view, Sean Hoare told his brother that the practice had been taken to the NoTW from The Sun.[^121]
 
-4.12 Mr Hanning said Sean Hoare had told him that he himself had hacked phones, on numerous occasions, whilst working at the NoTW;[^122] he gained the impression from his conversations with Mr Hoare a number of other employees of NoTW had engaged in phone hacking. Mr Hanning related a story told to him by Sean Hoare of a senior executive taking a call from
-
-F a celebrity, who gave him her PA's phone number in case he needed to get in touch, and then passing the number immediately to a colleague so that it could be hacked.[^123] Another example he gave was purchasing the news list (that is to say the list of stories that are to be run) from another paper. Mr Hanning said that he had been told that this was a system which involved Mr Hoare and a colleague taking £400 in cash from the NoTW, paying £200 to their source and keeping £100 each.[^124]
+4.12 Mr Hanning said Sean Hoare had told him that he himself had hacked phones, on numerous occasions, whilst working at the NoTW;[^122] he gained the impression from his conversations with Mr Hoare a number of other employees of NoTW had engaged in phone hacking. Mr Hanning related a story told to him by Sean Hoare of a senior executive taking a call from a celebrity, who gave him her PA's phone number in case he needed to get in touch, and then passing the number immediately to a colleague so that it could be hacked.[^123] Another example he gave was purchasing the news list (that is to say the list of stories that are to be run) from another paper. Mr Hanning said that he had been told that this was a system which involved Mr Hoare and a colleague taking £400 in cash from the NoTW, paying £200 to their source and keeping £100 each.[^124]
 
 4.13 Mr Hoare told the Inquiry that his brother had described to him a process whereby a specific colleague would be able to obtain the location of a person from their cell phone number.[^125] It is speculated that one possible source for this information was the Police Service, although in practice it must also be possible that such information might ultimately come from the mobile phone operator who has access both to user data and cell site information.
 
@@ -11158,7 +11058,7 @@ Webb, by contrast, was an expert in surveillance and was used solely for that pu
 
 Inquiry has not heard evidence of any other individual private investigators working for the
 
-NoTW but cannot assume that there were only three. Mr Webb told the Inquiry that he heard rumours about other private investigators working between 2003 and 2007 but that, beyond 2009, he was not aware of any private investigators other than himself working for the newspaper.[^127] F
+NoTW but cannot assume that there were only three. Mr Webb told the Inquiry that he heard rumours about other private investigators working between 2003 and 2007 but that, beyond 2009, he was not aware of any private investigators other than himself working for the newspaper.[^127]
 
 4.16 Mr Whittamore provided services across very many national titles, and other media organisations, which demonstrates that the use of private investigators to obtain access to personal data was, at least until 2006, routine as a journalistic practice. According to the Information Commissioner's report What Price Privacy Now, the ICO identified 228 transactions linked to the NoTW, through 23 journalists. This put the NoTW as the 5th highest user of Mr Whittamore's services by volume of transactions and the 6th highest user by number of commissioning journalists.[^128]
 
@@ -11422,9 +11322,7 @@ Disguise
 
 > "They were dealing drugs to clients. I mean, sure, the only way to infiltrate them was to pose as a client and then the offer would be made to us."
 
-On another well known occasion Mr Mahmood posed as a Sheikh, Mohammed al Kareem,
-
-F in order to get his target to 'relax' and 'be himself'.[^237] The purpose of taking on these fake personalities was to make an offer for, or wait to be offered, illegal substances or to show a willingness to undertake unlawful or immoral actions in order to expose the commission of illegality.
+On another well known occasion Mr Mahmood posed as a Sheikh, Mohammed al Kareem, in order to get his target to 'relax' and 'be himself'.[^237] The purpose of taking on these fake personalities was to make an offer for, or wait to be offered, illegal substances or to show a willingness to undertake unlawful or immoral actions in order to expose the commission of illegality.
 
 Inducements
 
@@ -11608,8 +11506,6 @@ Mr Justice Eady is perhaps exemplified by the fact that Mr Myler put the story f
 
 7.1 NI has raised the point that the NoTW at any one time employed around 152 editorial staff, of whom only three have come forward to make allegations on the record of the issues covered in this Chapter of the Report. In addition, some five anonymous journalists have raised issues of concern about conduct at the NoTW. This is a tiny proportion of those who worked there. I accept this; I also accept that, with some exceptions, others who have given evidence who have worked at the NoTW have tended to disagree with the picture painted by Mr McMullan, Mr Driscoll and Mr Hoare. I have already pointed out that the evidence of these witnesses needs to be viewed with some caution. Furthermore, I am entirely content to accept that large parts of the NoTW, and many of the journalists, operated in a way that no-one has suggested was not entirely appropriate and in accordance with high standards. To some extent, those journalists are also victims having suffered damage to their individual reputations because of what has emerged from the NoTW over the last few years.
 
-F
-
 7.2 Having said that, however, for reasons which I have already given I do not consider that the evidence of bad practice to which I have referred can be disregarded. The evidence of these three whistleblowers and of the anonymous journalists in relation both to the use of the 'dark arts' and bullying possesses an internal consistency which provides considerable credibility, but it also coheres with other evidence, including the admissions made by the NoTW in civil proceedings, as well as evidence from victims of unethical press practices. For the purposes of this Report I do not have to take a view on precisely the extent to which any of these witnesses is providing a full and complete picture. Rather, I simply need to satisfy myself that there are cultural and ethical issues here which require addressing in the context of my finding that there is an essential kernel of truth within what each of these witnesses said.
 
 7.3 It is also the case, as detailed in this Chapter, that even ignoring the evidence of those whom NI submit cannot be relied upon, and focusing only on the evidence of witnesses such as Messrs Myler, Thurlbeck, Edmondson and Crone have given, very serious concerns arise about the governance at the NoTW, the attitude of management and staff to the right to privacy, the attitude of management and staff to the law and the attitude of management to public scrutiny.
@@ -11645,8 +11541,6 @@ Terms of Reference. It should be understood that it is not possible or desirable
 Amanda (Milly) Dowler, the disappearance of Madeleine McCann, the arrest of Christopher
 
 Jefferies on suspicion of murder and the publication of details of the medical condition of the former Prime Minister, the Rt Hon Gordon Brown's son. The first three of those, at least, were chosen because they exemplified what might be described as the most egregious cases of unethical journalistic conduct.
-
-F
 
 1.3 The final examples included in this Chapter are defined by the fact that they are contemporaneous with the Inquiry; they are stories which emerged during the course of, or subsequent to, the formal hearings, and may indicate that the risks identified in the following
 
@@ -11998,7 +11892,9 @@ Mr Edmondson was asked to state whether he made it clear to Mr Mitchell that it 
 
 %%page 557%%
 
-> A. Correct. Q. When did he give you those instructions? Can you recall? A. From memory, at a meeting on Thursday of that week. Q. Why did he give you those instructions? A. I attended a meeting with Mr Myler and Tom Crone where we discussed this story. I think we got the story to a point where I was prepared to present it to Tom and Colin, the editor. Colin gave – sorry, I beg your pardon, Tom gave his legal view, which I'm told I'm not allowed to repeat, but which dismayed, shall I say, Mr Myler. So he decided to ask me to make a call to Mr Mitchell, not make it clear what we had, tell him in general terms, basically make it very woolly. I think someone previously used the word "ambiguous", and that is absolutely spot on what he wanted. Q. So the preferred outcome for the end point of the conversation with Mr Mitchell would be what? A. To give him the impression that we were running a story but not tell him specifically what story, certainly don't tell him that we were in possession of the complete diaries, as we understood. There had been extracts in the diaries – of the diaries in Portuguese papers which had been translated into the English papers, but certainly not to the extent that we had. He was frightened that if Clarence knew what we had, he might take action. Q. Well, he would do – was the fear that he would, at the very least, tell his clients, the McCanns, what was going on? F A. Correct. Q. And they would certainly get back to Mr Myler by phone? A. Correct. Q. Or make an application for an injunction to stop the News of the World publishing? Is that what it amount to? A. That's exactly what it would.''
+> A. Correct. Q. When did he give you those instructions? Can you recall? A. From memory, at a meeting on Thursday of that week. Q. Why did he give you those instructions? A. I attended a meeting with Mr Myler and Tom Crone where we discussed this story. I think we got the story to a point where I was prepared to present it to Tom and Colin, the editor. Colin gave – sorry, I beg your pardon, Tom gave his legal view, which I'm told I'm not allowed to repeat, but which dismayed, shall I say, Mr Myler. So he decided to ask me to make a call to Mr Mitchell, not make it clear what we had, tell him in general terms, basically make it very woolly. I think someone previously used the word "ambiguous", and that is absolutely spot on what he wanted. Q. So the preferred outcome for the end point of the conversation with Mr Mitchell would be what? A. To give him the impression that we were running a story but not tell him specifically what story, certainly don't tell him that we were in possession of the complete diaries, as we understood. There had been extracts in the diaries – of the diaries in Portuguese papers which had been translated into the English papers, but certainly not to the extent that we had. He was frightened that if Clarence knew what we had, he might take action. Q. Well, he would do – was the fear that he would, at the very least, tell his clients, the McCanns, what was going on?
+
+> A. Correct. Q. And they would certainly get back to Mr Myler by phone? A. Correct. Q. Or make an application for an injunction to stop the News of the World publishing? Is that what it amount to? A. That's exactly what it would.''
 
 3.41 This was devastating evidence. It would be remarkable if Mr Edmondson was seeking to mislead the Inquiry regarding Mr Mitchell being given a 'woolly' or an 'ambiguous' account of the newspaper's intentions: it was a frank admission of unethical conduct and fits the transcript of the conversation. Mr Edmondson's version of events was not available when
 
@@ -12090,7 +11986,7 @@ The press perspective
 
 4.12 It is clear from their evidence that a number of former pupils of Mr Jefferies were approached by journalists to give their views of his character, personality and temperament. This in itself was a risky and unwise course of action; it could be treated as an opportunity for old scores to be settled, and some may also have believed that there could be no smoke without fire. To their credit, not every pupil succumbed to these temptations. Whereas it is true that many of the articles written about Mr Jefferies included favourable material, the point made by the Lord Chief Justice in the contempt proceedings (namely that this was quite insufficient to nullify the prejudicial impact of the disparaging material) is of course entirely valid; and in any event that which spoke of Mr Jefferies in positive terms did not do full justice to the quality and weight of that material. Furthermore, evidence given by one of the journalists does altogether chime with evidence the Inquiry has already noted in relation to the McCanns:[^73]
 
-> F ''Well, obviously hindsight's a wonderful thing, and looking back, we – everybody at the Daily Mirror is very regretful of the coverage and we do apologise to Mr Jefferies for vilifying him in such a way, but you have to understand at the time it was such a high profile murder investigation. There was huge public interest and concern over the tragic death of Joanna Yeates. LORD JUSTICE LEVESON: I understand that. Actually, let me share this with you, Mr Parry: that's one of my concerns, that everybody in retrospect will say, "Well, that clearly went too far and this clearly was wrong and that shouldn't have happened and we'll put in place mechanisms to try to prevent it in the future" – until the next enormous story comes along and it all just drains away. A. I accept that, but I think you'll find that this particular story was perhaps, you know, a watershed moment for the industry. It wasn't – an eye opener. It wasn't just the Daily Mirror. It was a number of newspapers who fell foul of this.''
+> ''Well, obviously hindsight's a wonderful thing, and looking back, we – everybody at the Daily Mirror is very regretful of the coverage and we do apologise to Mr Jefferies for vilifying him in such a way, but you have to understand at the time it was such a high profile murder investigation. There was huge public interest and concern over the tragic death of Joanna Yeates. LORD JUSTICE LEVESON: I understand that. Actually, let me share this with you, Mr Parry: that's one of my concerns, that everybody in retrospect will say, "Well, that clearly went too far and this clearly was wrong and that shouldn't have happened and we'll put in place mechanisms to try to prevent it in the future" – until the next enormous story comes along and it all just drains away. A. I accept that, but I think you'll find that this particular story was perhaps, you know, a watershed moment for the industry. It wasn't – an eye opener. It wasn't just the Daily Mirror. It was a number of newspapers who fell foul of this.''
 
 4.13 There is clearly a sense here of the story acquiring its own close to irresistible momentum and running out of control. The same sense emerges from other evidence the Inquiry received, some of which is set out below.
 
@@ -12132,7 +12028,7 @@ For those who have said that the Inquiry has been overly concerned with the comp
 
 Clearly, all of these witnesses would have wished for nothing more than to have remained well out of the public eye and off the front pages of newspapers but, for reasons beyond their control, that was not where they found themselves.
 
-5. The Rt Hon Gordon Brown MP and his son's illness F
+5. The Rt Hon Gordon Brown MP and his son's illness
 
 Introduction
 
@@ -12394,7 +12290,7 @@ Bowles had not given permission (not would he have given permission) for what he
 
 Code; particular emphasis could be placed on clauses 3(i) (privacy), 3(iii) (photographs in private places), 5(i) (intrusion into grief), 6(ii) (photographs of children without consent). The letter asked that the privacy of a memorial service be respected and that all private photographs be removed from all media websites; although without limitation, this particularly referred to the taking or publication of photographs of Sebastian's younger sister. The letter suggested that human decency, Article 8 of the European Convention on Human Rights (ECHR) and the
 
-PCC Code all demanded that the privacy of the family be respected. F
+PCC Code all demanded that the privacy of the family be respected.
 
 7.9 There was no immediate response from the Daily Mail but a follow up email on 18 March
 
@@ -12456,7 +12352,7 @@ The Editors' Code of Practice
 
 8.8 Before going to the detailed arguments, it is worth setting out the relevant terms of the Editors' Code of Practice, drawn up by editors and agreed by those who subscribe to the PCC
 
-F (including The Sun). Paragraph 3 (headed Privacy) provides:
+(including The Sun). Paragraph 3 (headed Privacy) provides:
 
 > i Everyone is entitled to respect for his or her private and family life, home, health and correspondence including digital communications. ii Editors will be expected to justify intrusions into any individual's private life without consent. Account will be taken of the complainant's own public disclosures of information. iii It is unacceptable to photograph individuals in private places without their consent. Note: Private places are public or private property where there is a reasonable expectation of privacy. There is an exception to this provision where the publication can be demonstrated to be in the public interest. That is defined in this way: 1. The public interest includes, but is not confined to: (i) detecting or exposing crime or serious impropriety. (ii) Protecting public health and safety. (iii) Preventing the public from being misled by an action or statement of an individual or organisation. 2. There is a public interest in freedom of expression itself.
 
@@ -12542,9 +12438,7 @@ Other Comment
 
 8.24 The Sunday Times (owned, of course, also by NI) published an editorial on Sunday 26 August under the headline "THE SUN'S BRAVE LONE STAND FOR PRESS FREEDOM", saying that Prince Harry had put the issue of press freedom squarely on the agenda and asserting that other newspapers did not publish "because of the atmosphere created" by the Inquiry. It cited many occasions when British newspapers had been deprived of information freely available to counterparts overseas including the abdication crisis and the Spycatcher affair, although it recognised that people in Britain were not being deprived of anything but were "just not allowed to see it in their newspapers". The leader goes on:
 
-"Critics said The Sun's public interest arguments were a convenient mask for commercial motives. It is a spurious criticism. Newspapers are fighting for their lives in the toughest of economic climates combined with technological changes that weigh heavily against traditional print. If they are not commercial they will die and they cannot let the internet become the prime forum for communication. But that was not the sole purpose of publishing. There is a dangerous coalition forming of aggrieved film and television stars, out-of-sorts Labour politicians and bien pensants who would happily bring much greater regulation and censorship to the press. They believe they should decide what is in the public interest and not the millions who buy the red top papers. To publish these pictures was a defiant gesture to those would-be
-
-F moral arbiters.
+"Critics said The Sun's public interest arguments were a convenient mask for commercial motives. It is a spurious criticism. Newspapers are fighting for their lives in the toughest of economic climates combined with technological changes that weigh heavily against traditional print. If they are not commercial they will die and they cannot let the internet become the prime forum for communication. But that was not the sole purpose of publishing. There is a dangerous coalition forming of aggrieved film and television stars, out-of-sorts Labour politicians and bien pensants who would happily bring much greater regulation and censorship to the press. They believe they should decide what is in the public interest and not the millions who buy the red top papers. To publish these pictures was a defiant gesture to those would-be moral arbiters.
 
 Of course many images and much content on the internet will rightly never find their way into our newspapers for the good reasons of taste, accuracy and relevance. But this was different. It was of enormous interest to the public and it was in the public interest to know how the third in line to the throne really behaves. The public can then decide how it regards him. The bigger issue is the future of the press. If it is gagged and stifled it will die and the country would be hugely poorer for it. John Wilkes fought long and hard for freedom of expression, including publishing what was regarded as pornography at the time. Lord Justice Leveson, it is hoped, understands that. It was right to publish — and not be damned."
 
@@ -12567,8 +12461,6 @@ The PCC
 8.29 Following contact from St James's Palace, the story continues with the head of complaints
 
 > and pre-publication services. She passed the letter from the solicitors on to the editors and invited any discussion about code issues. It is not suggested that she was approached by The Sun for advice pre-publication or at all (although the letter setting out their defence was sent before the photographs were, in fact, published). It has since been reported that the PCC did, in fact, provide advice to other editors, on request, about the relevant issues.
-
-F
 
 8.30 Meanwhile, after The Sun's publication of the photographs, the PCC received around 3,800
 
@@ -12726,7 +12618,9 @@ F 1.3 In reaching the conclusions which are set out below, all the evidence that
 
 First, Ms Church's pregnancy was revealed by The Sun, despite the title's knowledge that she was still in her first trimester of pregnancy, and notwithstanding a request from Ms Church's
 
-PR agent that the title not publish any details until the end of the first trimester. Ms Church spoke of the upset that publication had caused to her and her family: her parents were unaware that she was pregnant until the article was brought to their attention.[^6] 2.6 Second, as part of its coverage of an alleged plot to kidnap Ms Church, the NoTW published details sufficient to identify Ms Church's address, despite express requests to refrain from doing so.[^7] The publication of those details caused Ms Church untold anxiety, and potentially placed her at an increased risk from the very plot on which the title was reporting.
+PR agent that the title not publish any details until the end of the first trimester. Ms Church spoke of the upset that publication had caused to her and her family: her parents were unaware that she was pregnant until the article was brought to their attention.[^6]
+
+2.6 Second, as part of its coverage of an alleged plot to kidnap Ms Church, the NoTW published details sufficient to identify Ms Church's address, despite express requests to refrain from doing so.[^7] The publication of those details caused Ms Church untold anxiety, and potentially placed her at an increased risk from the very plot on which the title was reporting.
 
 2.7 The third example was, perhaps, the most egregious, given that the published story related not to Ms Church herself, but to her parents, who were, to all intents and purposes, private people with no public life or persona. On 11 November 2005, the NoTW published a story entitled "Church's three in a bed cocaine shock" next to a picture of Ms Church. Despite the fact that the juxtaposition of headline and photo gave the (probably deliberate) impression that the allegations in the story related to Ms Church herself, they in fact related to her father.
 
@@ -12848,7 +12742,9 @@ Grant's private life has been the subject of intense press scrutiny. He has been
 
 Report, I acknowledged that there is a class of person with a public profile – those who actively engage in the 'celebrity industry' – who may enjoy a lower level of protection when it comes to privacy. I also accept, and fully recognise, that a substantial amount of celebrity reporting in the popular press concerns this class of people. However, in my view at least, Mr
 
-Grant does not fall within that class. 2.42 Second, even if it were true that Mr Grant had previously disclosed a multitude of genuinely private details about his life, or had sold stories of his private life to particular titles, it does not necessarily follow that he would be "fair game" for the press at large to publish further details without consent. As Mr Grant put it:[^60]
+Grant does not fall within that class.
+
+2.42 Second, even if it were true that Mr Grant had previously disclosed a multitude of genuinely private details about his life, or had sold stories of his private life to particular titles, it does not necessarily follow that he would be "fair game" for the press at large to publish further details without consent. As Mr Grant put it:[^60]
 
 > "I have heard the defence quite frequently from tabloid papers: "Oh, well, you know, if you have ever talked about your private life, then you have no defence, you have no right to an expectation of privacy", which I think is absurd. Because anyone – I mean, as I told you earlier, I think I've only done two interviews ever with the British press, but when anyone does do an interview, it is, after all, a bargain. The press of that paper gets a boost in sales, they hope, and the person who's giving the interview gets a bit of noise about their forthcoming project. And like any barter, when it's over, it's over. If I sell you a pint of milk for 50p, I would not expect you to come to me forever afterwards, saying, "You slut, you sold me milk once. I can now help myself to your milk forever." I would think you were mad."
 
@@ -12869,8 +12765,6 @@ Jefferies, the Inquiry heard evidence from, or about, numerous others who were n
 2.47 The family also endured the publication of intimate and private details. Reporting on the incident, the NoTW published the headline, "Exclusive: new shock in Abi attack – knife mum was pregnant". While accurate, the truth was that Abigail was only five weeks pregnant and was unaware of the fact. She had certainly not consented to the publication of the fact of her pregnancy and it appears no family member had done so either.[^68]
 
 2.48 The experience described by Baroness Hollins in relation to the reporting of her daughter's attack was echoed by evidence given to the Inquiry by several other witnesses who complained of a breach of privacy and harassment in the aftermath of a death or attack; that evidence is considered in more detail at Section 6 below.
-
-F
 
 2.49 The Inquiry also received evidence about a series of stories published in the NoTW about Bob and Sue Firth. Their evidence was that they ran a naturist B&B in Dorset, which had been anonymously inspected by the English Tourist Board and rated as highly commended. Shortly after receiving that rating, the NoTW journalist, Neville Thurlbeck, orchestrated an undercover sting operation and reported that the Firths were running not just a naturist B&B, but a brothel at which Sue Firth would have sex with guests while Bob Firth looked on.[^69]
 
@@ -13146,9 +13040,7 @@ Mulcaire to obtained information. This is not to suggest that phone hacking did 
 
 The victims
 
-3.47 Through all this, it is important not to lose sight of the victims of phone hacking. The reason why it matters that large parts of the press failed to take allegations of phone hacking seriously is not simply the fact that phone hacking is illegal; it is also because phone hacking amounted to an egregious breach of personal privacy and dignity which had seriously detrimental consequences on many of its victims. That large parts of the press were so slow
-
-F in acknowledging this fact adds to the sense that there is, within those parts of the press, a cultural indifference to individual privacy and dignity.
+3.47 Through all this, it is important not to lose sight of the victims of phone hacking. The reason why it matters that large parts of the press failed to take allegations of phone hacking seriously is not simply the fact that phone hacking is illegal; it is also because phone hacking amounted to an egregious breach of personal privacy and dignity which had seriously detrimental consequences on many of its victims. That large parts of the press were so slow in acknowledging this fact adds to the sense that there is, within those parts of the press, a cultural indifference to individual privacy and dignity.
 
 3.48 The diversity of the targets of phone hacking is striking. Without engaging in a very detailed analysis, it is not possible to identify any particular class of person who was more likely to be a victim than any other class. Although the targets included a large number of celebrities, sports stars and people in positions of responsibility, they also included many other ordinary individuals who happened to know a celebrity or sports star, or happened to be employed by them. Other victims had no association with anyone in the public eye at all, but were, like the Dowlers, in the wrong place at the wrong time.
 
@@ -13198,7 +13090,7 @@ Whittamore was regularly engaged personally, or through associates, in the use o
 
 3.60 In 2003 Richard Thomas, the then Information Commissioner, wrote to Sir Christopher
 
-Meyer, former Chairman of the Press Complaints Commission, identifying the problem in the following terms:[^165] F
+Meyer, former Chairman of the Press Complaints Commission, identifying the problem in the following terms:[^165]
 
 > "It is clear from the very considerable volume of material that our investigations have collected that journalists from most national newspapers and many periodicals are significant 'customers' of the enquiry agents concerned. We have obtained extensive and detailed records showing that numerous journalists routinely obtained confidential information they should have no access to. Such information has, for example, been obtained to produce articles on the personal lives of "celebrities" and others currently or prospectively in the public eye, where there appears to be no suggestion of using it to expose wrong-doing We have also obtained extensive records which show payments by newspapers for the confidential information which has been obtained through these channels. Given the sums involved, and the nature of the documentation, it is difficult to believe that senior managers were not aware of what was going on, and were therefore at least tacitly condoning it. In short, the material which has already been collected by my office indicates widespread reliance by the press on information which is obtained by deception or by bribing corrupt employees."
 
@@ -13250,7 +13142,9 @@ Christopher Graham, that his office has received no recent complaints of breache
 
 DPA by journalists.[^181] Although he would have expected to receive complaints had relevant victims known of unlawful activity concerning them, it is the nature of the offence under this statute that it will typically be 'silent'; after all, the evidence in Operation Motorman was only revealed after the police were conducting a criminal investigation in which they involved the Information Commissioner (in the person of Mr Owens) who picked up a thread that led to Mr Whittamore. Thus the absence of evidence does not prove a negative (namely that the practice has ceased), but it is right to point out that there is no evidence which proves that the type of conduct exemplified by the Operation Motorman material has continued in recent years.
 
-3.75 Looking at blagging more widely, it is impossible to reach any firm conclusions. Blagging has been a practice of some considerable pedigree and extent. It certainly formed part of the culture, practices and ethics of the press for many years and was frequently not justified by the public interest. Is it plausible that such an ingrained practice has been totally eliminated, except where justified by the public interest? The short answer, notwithstanding the paucity of recent evidence bearing on any particular title, is no. 3.76 This is most assuredly not to condemn legitimate investigative journalism in the public interest in which blagging undoubtedly plays its part. This is supported by the evidence of Ian
+3.75 Looking at blagging more widely, it is impossible to reach any firm conclusions. Blagging has been a practice of some considerable pedigree and extent. It certainly formed part of the culture, practices and ethics of the press for many years and was frequently not justified by the public interest. Is it plausible that such an ingrained practice has been totally eliminated, except where justified by the public interest? The short answer, notwithstanding the paucity of recent evidence bearing on any particular title, is no.
+
+3.76 This is most assuredly not to condemn legitimate investigative journalism in the public interest in which blagging undoubtedly plays its part. This is supported by the evidence of Ian
 
 Hislop who stated "in terms of blagging, I don't throw my hands up at blagging. There have F been some very effective blags."[^182] I have no doubt that Mr Hislop is correct and that there are many instances that can be identified where blagging techniques had been used to obtain information clearly in the public interest and thus both in accordance with the law and ethical journalism. But that is not a fair portrayal of the picture.
 
@@ -13266,7 +13160,7 @@ Mail on Sunday
 
 3.80 Mr Wright said in his evidence "why would I go and look for something that hadn't been suggested to me? I mean, I could begin from the assumption that every single enquiry that we make involves illegal activity of some sort, but I can't do that".[^185] Whilst it may have been going too far to assume every enquiry made of Mr Whittamore was unlawful, there was a serious risk that in relation to some types of information, for example seeking friends and family numbers, or criminal record checks, breaches of s55 of the DPA had occurred. Certainly by the time the second report of the Information Commissioner was published in December 2006, it was clear that the types of inquiries being made, for example criminal record checks, were probably unlawful. Mr Wright went on:[^186]
 
-> "I was aware by the time "What price privacy?" came out that the appropriate authorities, i.e. the Information Commissioner and the police, had conducted an F investigation into this, that in I think two or three cases they had found evidence that they thought warranted a prosecution, which resulted in a conditional discharge. I didn't see the need to go over ground that they had gone over themselves, bearing in mind also that we didn't have and weren't shown the evidence, Whittamore's log books, on which the Information Commissioner based his research."
+> "I was aware by the time "What price privacy?" came out that the appropriate authorities, i.e. the Information Commissioner and the police, had conducted an investigation into this, that in I think two or three cases they had found evidence that they thought warranted a prosecution, which resulted in a conditional discharge. I didn't see the need to go over ground that they had gone over themselves, bearing in mind also that we didn't have and weren't shown the evidence, Whittamore's log books, on which the Information Commissioner based his research."
 
 3.81 Without criticising Mr Wright, whereas the Information Commissioner and the police had investigated Mr Whittamore and a number of his associates, those entities had not investigated the activities of any journalists. Had there been any such investigation, the employers of the journalists involved would have been made aware. It follows that an investigation by the Mail on Sunday into the activities of its journalists would not have been going over "old ground" but would have the potential to uncover new ground. The Mail on Sunday accepted the overall findings of the Information Commissioner which included that 33 Mail on Sunday journalists had used Mr Whittamore for 266 transactions. In April 2007 the Mail on Sunday banned the use of all external search agencies.[^187]
 
@@ -13300,7 +13194,7 @@ Mr Whittamore's methods, despite their obvious wherewithal to do so, is a solid 
 
 and
 
-> F "In 2007 the Daily Mail brought the shutters down and banned absolutely the use of the Whittamore enquiry agencies".
+> "In 2007 the Daily Mail brought the shutters down and banned absolutely the use of the Whittamore enquiry agencies".
 
 3.87 Mr Dacre's reference to what other newspapers were not doing will be addressed in due course. In relation to the Mail titles, the issue of whether the shutters have indeed been wholly brought down has been disputed on behalf of the Core Participant Victims.
 
@@ -13362,7 +13256,7 @@ Whittamore for four tasks. Certain investigations had been undertaken which reve
 
 (whom he defined as agencies obtaining information from publicly available records), these were subject to the general governance of the company and were restricted in the ways they operated, being held to the same standards as employees. Mr Mockridge accepted that the methods being used by search agencies may require positive control by the newspaper and ongoing attention to ensure the methods used were satisfactory.[^201]
 
-Trinity Mirror F
+Trinity Mirror
 
 3.101 Mr Embley, who was appointed acting editor of the People in November 2007, some 12 months after the publication of the Information Commissioner's second report, said in evidence that he was unaware whether any investigations had been carried out as to whether or not transactions by People journalists with Mr Whittamore were legal or illegal. Mr Embley accepted that historically there had been a failure on the part of the media generally to respond to warnings; however, in relation to the People specifically, his evidence was to the effect that nothing had been done to react to warnings because he felt that no action was required.[^202]
 
@@ -13380,7 +13274,7 @@ Commissioner's Reports in 2006 and the present, both to investigate the use of p
 
 3.105 Second, it is clear that, in relation to those newspaper groups that did undertake belated investigations into the use of private investigators, difficulties were encountered in trying to marry up invoices with the precise information that had been supplied to the journalists, or the methods used. These difficulties point to deficiencies in financial systems and corporate governance which require to be addressed.
 
-F Surveillance
+Surveillance
 
 3.106 For many celebrities and people in the public eye, being photographed on a daily basis is commonplace. Whilst some of this publicity may be encouraged for the purpose of promoting causes or creating positive publicity, other elements of photography is not welcomed. The Inquiry has heard evidence from a number of witnesses in relation to photographers being a constant presence outside their homes. By way of example Mr Coogan said that over a period of ten years photographers had frequently camped outside his house day and night.[^203] The Inquiry has also heard of individuals being pursued by the paparazzi. Ms Miller in her evidence explained:[^204]
 
@@ -13442,7 +13336,7 @@ Eye had been searched and that, in due course, an article which probably derived
 
 3.121 That said, it is critically necessary to retain a sense of proportion, and consider the extent to which these types of practices still represent part of the culture, practices and ethics of the press. Whereas 'binnology' and kindred practices did form part of the culture in the past, it is correct to say that there is insufficient evidence that it still occurs to any significant extent and, equally, insufficient material from which that inference might be drawn.
 
-F Bribery and corruption
+Bribery and corruption
 
 3.122 The evidence relating to the practice of inducing or seeking to induce public or corporate officials to disclose confidential information in return for payment is considered in detail elsewhere in this report in the context of Operation Elveden.[^226] Given the present state of the criminal investigation, it is not possible to reach any conclusions of a generic nature, although the extent of the criminal investigation and the large number of arrests made is undeniably a cause for concern. Further, it is worth noting briefly in this context that a number of journalists indicated to the Inquiry that they had previously paid officials for information,[^227] although in each instance reliance would no doubt have been placed on the public interest.
 
@@ -13680,8 +13574,6 @@ Peppiatt spent a week pursuing Ms Boyle around Scotland before making the mock p
 
 6.2 As historic context, Disaster Action, a charity founded by the survivors and bereaved of disasters reminded the Inquiry of The Sun's coverage of the Hillsborough Disaster, in which 96 Liverpool FC fans lost their lives, as an example of the appalling impact that insensitive and irresponsible reporting of death and disaster can have.[^328] Under the headline "THE TRUTH", The Sun published a story containing assertions that some fans picked the pockets of victims, urinated on police officers ('brave cops') and 'beat up PC giving kiss of life'. Although this report has long been undermined, the myth has persisted.[^329] The reality has now been very substantially exposed in the publication of the report of the Hillsborough Independent Panel.[^330]
 
-F
-
 6.3 In a statement issued after the publication of the report of the Panel, Mr MacKenzie (then editor of The Sun) asserted that he was misled when "handed a piece of copy from a reputable news agency in Sheffield in which a senior police officer and senior local MP were making serious allegations against fans in the stadium" and that he had "absolutely no reason to believe that these authority figures would lie and deceive over such a disaster". He said he published in good faith. A contrary account comes from Harry Arnold, the reporter who had drafted the story; he told the BBC that he was "aghast" when he saw the headline, saying that the story he had prepared had been written in "a fair and balanced way" because he appreciated that they were no more than allegations.[^331] He challenged Mr MacKenzie at the time saying that he could not say what was written in the article because "we don't know it's the truth"; Mr MacKenzie brushed the point aside responding "Oh, don't worry. I'm going to make it clear that this is what some people are saying".
 
 6.4 The relevance of the story to this Inquiry shines out of the editorial in The Sun on 13 September 2012 which was in these terms:[^332]
@@ -13914,7 +13806,7 @@ Commission on Racism and Intolerance, which stated:[^395]
 
 (c) A Daily Express article entitled 'Muslim plot to kill the pope', which reported on a nonexistent plot.[^399] (d) A Daily Mail article entitled 'Cafe wins fight to fry bacon after Muslim complaints' which
 
-> implied that complaints to a local authority which had sparked enforcement action by F planning officers had been made by Muslims, when that was not the case.[^400]
+> implied that complaints to a local authority which had sparked enforcement action by planning officers had been made by Muslims, when that was not the case.[^400]
 
 8.38 Engage also drew the Inquiry's attention to complaints made by others to the PCC in relation to articles alleged to be discriminatory or inaccurate in their reporting of Muslim issues. Those complaints included:
 
@@ -14044,9 +13936,7 @@ Fabrication or deliberate embellishment of stories
 
 > ""Chile mine to open as theme park", "Angelina Jolie to play Susan Boyle in film", "Bubbles to give evidence at Jacko trial" – that's his monkey – "Jade's back in Big Brother" – she was dead at the time. Obviously we have the likes of "Maddie's body stored in freezer", which we've heard already. "Grand Theft Auto Rothbury" – that was the Raoul Moat killing. There was going to be a computer game based around it. Completely untrue. "Brittany Murphy killed by swine flu" – wasn't the case. "Macca versus Mucka on ice", which was Paul McCartney and his ex-wife were apparently going to showdown on Dancing on Ice. Never transpired. Then we have the likes of "Muslim-only public loos", which in my letter I raise. Completely untrue as well."
 
-9.6 Although Mr Peppiatt's evidence was challenged by the Daily Star and a number of witnesses
-
-F said that they did not recognise what he had described, it was consistent with the anonymous evidence reported by Steve Turner of the British Association of Journalists: he had received complaints from a number of other journalists who had reported similar editorial pressure to fabricate stories, sometimes under threat of dismissal.[^423] The evidence of Sharon Marshall is consistent with that of Mr Peppiatt. Not only did she suggest that quotations were routinely made up but also that it was common practice in some of the papers on which she worked for journalists to fabricate quotations to push a particular line with regard to a story and then find a willing contact to 'own' the quote. She provides the specific example of the model and TV presenter, Abi Titmuss, who was one of a number of celebrities called to see if they would 'own' a quotation that had been written to push a particular point of view or story.[^424] Further, a willingness by parts of the press to fabricate in order to tell an 'impactful' story was also evidenced by Piers Morgan's admission to have altered a photograph digitally to show Princess Diana and Dodi al-Fayed kissing, when the original showed nothing of the sort.[^425]
+9.6 Although Mr Peppiatt's evidence was challenged by the Daily Star and a number of witnesses said that they did not recognise what he had described, it was consistent with the anonymous evidence reported by Steve Turner of the British Association of Journalists: he had received complaints from a number of other journalists who had reported similar editorial pressure to fabricate stories, sometimes under threat of dismissal.[^423] The evidence of Sharon Marshall is consistent with that of Mr Peppiatt. Not only did she suggest that quotations were routinely made up but also that it was common practice in some of the papers on which she worked for journalists to fabricate quotations to push a particular line with regard to a story and then find a willing contact to 'own' the quote. She provides the specific example of the model and TV presenter, Abi Titmuss, who was one of a number of celebrities called to see if they would 'own' a quotation that had been written to push a particular point of view or story.[^424] Further, a willingness by parts of the press to fabricate in order to tell an 'impactful' story was also evidenced by Piers Morgan's admission to have altered a photograph digitally to show Princess Diana and Dodi al-Fayed kissing, when the original showed nothing of the sort.[^425]
 
 9.7 The Inquiry heard evidence from a number of witnesses who had been victims of fabricated stories. Mr Grant exhibited an article in the Sunday Express, apparently written by Mr Grant himself. In fact, it was entirely fabricated: Mr Grant had not only not written the article, but he had given no interview to the Sunday Express.[^426] In a similar example, Hello! Magazine published an "exclusive" interview with Ms Rowling, when no such interview had been given and when in fact Ms Rowling had expressly refused to give an interview to them.[^427]
 
@@ -14064,7 +13954,7 @@ Government generally. In respect of one particular example he said:[^428]
 
 Through human error, the guilty verdict story was published online. That error was also made by The Sun online and the Guardian online and, again, such error is, at times, unavoidable.
 
-The Mail's story, however, was unique in that it described, in detail, events that simply did not happen. Full Fact, an organisation dedicated to monitoring accuracy in the press, explained to the Inquiry:[^429] F
+The Mail's story, however, was unique in that it described, in detail, events that simply did not happen. Full Fact, an organisation dedicated to monitoring accuracy in the press, explained to the Inquiry:[^429]
 
 > "Amanda Knox was found not guilty of murder. Before that was announced, though, a verdict of guilty was given in relation to a charge of slander. As soon as the first guilty was pronounced, the Daily Mail published an online article headlined: "Guilty: Amanda Knox looks stunned as appeal against murder conviction is rejected." The first part was mistaken; the second part was fiction. The fiction continued in the text, including: "As Knox realized the enormity of what Judge Hellman was saying she sank into her chair sobbing uncontrollably while her family and friends hugged each other in tears" and "Prosecutors were delighted with the verdict and said that 'justice has been done' although they said on a 'human factor it was sad two young people would be spending years in jail'."
 
@@ -14082,7 +13972,7 @@ The Mail's story, however, was unique in that it described, in detail, events th
 
 9.12 There is no easy-fix for this problem. The anonymity of confidential sources is a vital aspect of journalism and must be protected. But the use of anonymous sources can lead to an inability to assess whether the source is reliable, or even exists. Solicitor Magnus Boyd raised this concern in relation to a Daily Mail story about one of his clients, the Tamil hunger striker Parameswaran Subramanyam. The Mail's story alleged that Mr Subramanyam had sustained himself with McDonalds hamburgers during his hunger strike and quoted an anonymous 'police insider' and 'a source' saying that police surveillance cameras had captured him eating the hamburgers. The story, it transpired, was entirely untrue: there was no police surveillance, there was no consumption of hamburgers and the Mail paid substantial damages for defamation.[^432] In relation to the police sources quoted in the article, Mr Boyd noted:[^433]
 
-> "As a matter of logic there are only two possibilities which are either that: F i a police source simply made up these allegations and communicated them to The Daily Mail; or ii The Daily Mail made up the police sources."
+> "As a matter of logic there are only two possibilities which are either that: i a police source simply made up these allegations and communicated them to The Daily Mail; or ii The Daily Mail made up the police sources."
 
 9.13 To that, one might add a third possibility, that there was a source, but it was not a 'police insider', as claimed, and that description of the source was given to lend greater credibility to the story. The reality is that it is impossible to know which of those three possibilities is correct. The journalist responsible, Stephen Wright, insisted that there was a source for each of the quotations in the article,[^434] but given the evidence seen by the Inquiry of invented sources and fabricated quotations, it is simply a question of having to be prepared to take his word for it.[^435]
 
@@ -14180,7 +14070,9 @@ Deliberate or reckless inaccuracy in respect of big stories
 
 9.36 Notably, this tendency was not limited to tabloid newspapers: in respect of Mr Jefferies in particular the broadsheets were not blameless. In addition, Mr Davies gave an example of the Guardian's reporting of the Haut de la Garenne children's home story as an example of where the Guardian, amongst others, had published inaccurate articles in circumstances where greater care would have led to the conclusion that there was no basis for the story. Consistent with the McCann and Jefferies examples, there was limited information available at the time of the reports of the alleged murders, torture and burials at the Jersey children's home, but a significant public demand for information. Mr Davies said:[^458]
 
-> "We want the story that will sell papers, so therefore you pick the sexiest possible way of telling it. The problems that are associated with that I think spread across the spectrum. I'm not exempting the Guardian from problems. We have run stories which were clearly false. The Jersey children's home – do you remember that, a couple of years ago – where the idea was that the police had evidence that children had been killed and buried in the ruins of an old children's home on the isle of Jersey. That's a classic of what Richard [Peppiatt] was trying to describe earlier. The evidence for the truth of that proposition is screaming its falsehood. So, for example, the police said, "We have been looking into the ruins of this building and we have found a cellar which is exactly like the cellar which is described by our survivor witnesses." It's "very dark". Cellars are dark. It means nothing. Then they said, "And in this cellar we found a bath", and it's quite alarming, this, the sort of hints of torturing. "It's actually bolted to the floor", as though everybody's bath was mobile. It's silly. It doesn't make any sense. F So then the problem that occurred on all newspapers across the whole spectrum is it's too good a story to knock down. So it's exactly what Richard was saying. A reporter from any paper is sent out to Jersey to follow up on this story. The reporter who rings up and says, "Actually, this is crap, there's just no evidence for this at all", they will not be thanked. It's a great story."
+> "We want the story that will sell papers, so therefore you pick the sexiest possible way of telling it. The problems that are associated with that I think spread across the spectrum. I'm not exempting the Guardian from problems. We have run stories which were clearly false. The Jersey children's home – do you remember that, a couple of years ago – where the idea was that the police had evidence that children had been killed and buried in the ruins of an old children's home on the isle of Jersey. That's a classic of what Richard [Peppiatt] was trying to describe earlier. The evidence for the truth of that proposition is screaming its falsehood. So, for example, the police said, "We have been looking into the ruins of this building and we have found a cellar which is exactly like the cellar which is described by our survivor witnesses." It's "very dark". Cellars are dark. It means nothing. Then they said, "And in this cellar we found a bath", and it's quite alarming, this, the sort of hints of torturing. "It's actually bolted to the floor", as though everybody's bath was mobile. It's silly. It doesn't make any sense.
+
+> So then the problem that occurred on all newspapers across the whole spectrum is it's too good a story to knock down. So it's exactly what Richard was saying. A reporter from any paper is sent out to Jersey to follow up on this story. The reporter who rings up and says, "Actually, this is crap, there's just no evidence for this at all", they will not be thanked. It's a great story."
 
 9.37 These examples, along with some others, are part of the evidence base for a broader conclusion, that in respect of stories that become "big stories" followed by all the press, and generally involving crime or a very high profile individual, there is a tendency amongst large parts of the press to disregard the rule book.
 
@@ -14194,7 +14086,7 @@ Inaccurate reporting of political issues to fit the world view of a title
 
 the choice of stories to publish in a newspaper, and the facts chosen to include in a particular story, will necessarily be influenced by a newspaper's agenda and opinions. Secondly, because in a world of 24 hour television and online news, readers expect newspapers to provide something more than pure news: campaigns, opinions and comment are what a readership demands and it is not always possible or indeed desirable to divorce these from pure reporting of the news. That is not to say that newspapers should not seek to identify, where possible, what is primarily news and what is primarily commentary. But it is to say that that the fusion of news and comment in the press is not necessarily a practice that is harmful or worthy of criticism.
 
-9.40 However, what is harmful and what is worthy of criticism is a practice identified in sections of the press of prioritising the worldview of a title over the accuracy of a story. Mr Campbell, a supporter of what he called "agenda journalism" (where news and comment are necessarily fused), nonetheless argued that sections of the press had taken agenda journalism to a point where it transgressed into the realms of invention and/or reckless inaccuracy.[^463] Mr Peppiatt's evidence in relation to the top-down pressure experienced at the Daily Star to uncover stories that fit within a particular "narrative" is a prime example of this and is discussed above.. F
+9.40 However, what is harmful and what is worthy of criticism is a practice identified in sections of the press of prioritising the worldview of a title over the accuracy of a story. Mr Campbell, a supporter of what he called "agenda journalism" (where news and comment are necessarily fused), nonetheless argued that sections of the press had taken agenda journalism to a point where it transgressed into the realms of invention and/or reckless inaccuracy.[^463] Mr Peppiatt's evidence in relation to the top-down pressure experienced at the Daily Star to uncover stories that fit within a particular "narrative" is a prime example of this and is discussed above..
 
 9.41 Full Fact has monitored press accuracy since April 2010. It provided a comprehensive and extremely helpful submission[^464] to the Inquiry which identified a range of inaccurate articles, including many where the inaccuracy appears to be the result of the title's agenda taking precedence or assuming too great a significance over and beyond the facts of the underlying story. It seems that stories on political issues are most likely to suffer from this form of inaccuracy; examples are considered within the following categories: (i) disability and social welfare benefits; (ii) criminal justice issues; (iii) immigration; and (iv) Europe and Britain's role within it.
 
@@ -14202,7 +14094,9 @@ the choice of stories to publish in a newspaper, and the facts chosen to include
 
 %%page 685%%
 
-9.43 First, the Daily Mail published an article under the headline '400,000 'were trying it on' to get sickness benefits: 94% of incapacity benefits [sic] can work'. In fact the report on which the article was based had reported that, in the transition from IB to ESA, only 6% of sickness benefit claimants had been assessed as unsuitable for any kind of work related activity. However, many of the 94% of people described in the headline as "trying it on" and "fit for work" were those assessed as falling with the 'Work Related Activity Group' (WRAG) for the purposes of ESA; that is, they were eligible to claim ESA, considered unsuitable for immediate work, but potentially suitable for work in the future. That included people undergoing chemotherapy or dialysis treatment, hospital in-patients, and those suffering from uncontrollable and life threatening diseases, none of whom would ordinarily be thought of as "trying it on" to claim sickness benefit.[^465] 9.44 Second, The Sun's article, 'Fit as a Fiddler: 'Sick' spongers could start work right now' suggested 1.8 million people on sickness benefit were fit for work, or would be fit for work within "a few weeks". The 1.8 million "spongers" described in the headline included the same group as those described as "trying it on" by the Daily Mail: those placed in the WRAG who were assessed as unsuitable for immediate work, but potentially suitable for work in the future, including cancer patients, those with renal failure, hospital in-patients and others suffering from serious diseases. The suggestion that this group would be fit for work within a few weeks had no factual basis.[^466]
+9.43 First, the Daily Mail published an article under the headline '400,000 'were trying it on' to get sickness benefits: 94% of incapacity benefits [sic] can work'. In fact the report on which the article was based had reported that, in the transition from IB to ESA, only 6% of sickness benefit claimants had been assessed as unsuitable for any kind of work related activity. However, many of the 94% of people described in the headline as "trying it on" and "fit for work" were those assessed as falling with the 'Work Related Activity Group' (WRAG) for the purposes of ESA; that is, they were eligible to claim ESA, considered unsuitable for immediate work, but potentially suitable for work in the future. That included people undergoing chemotherapy or dialysis treatment, hospital in-patients, and those suffering from uncontrollable and life threatening diseases, none of whom would ordinarily be thought of as "trying it on" to claim sickness benefit.[^465]
+
+9.44 Second, The Sun's article, 'Fit as a Fiddler: 'Sick' spongers could start work right now' suggested 1.8 million people on sickness benefit were fit for work, or would be fit for work within "a few weeks". The 1.8 million "spongers" described in the headline included the same group as those described as "trying it on" by the Daily Mail: those placed in the WRAG who were assessed as unsuitable for immediate work, but potentially suitable for work in the future, including cancer patients, those with renal failure, hospital in-patients and others suffering from serious diseases. The suggestion that this group would be fit for work within a few weeks had no factual basis.[^466]
 
 9.45 Third, the Daily Telegraph published an article reporting 'Nine out of 10 sickness benefit claimants are judged fit to work'. That 'nine out of 10' judged "fit to work" included not only those in the WRAG, but also those who had withdrawn their claims because their condition had improved between application and assessment. In that context, it was not only misleading F to refer to the 'nine out of 10' as "fit to work", but it was also misleading to include within the figures the category of people who had withdrawn their claims and were therefore no longer "claimants".[^467]
 
@@ -14304,7 +14198,7 @@ Inquiry suggested that science reporting had improved in recent years and that t
 
 9.66 In response to questions from the Inquiry, Martin Clarke, editor of the Mail Online, said that the article was written from copy supplied by a respectable agency, National News.[^496] Mr Clarke also stated that the article was published by others under a very similar headline. He drew to the attention of the Inquiry the example of Medical Daily, an online trade journal and news aggregator for the medical profession, published in the USA.[^497] However, Mr Clarke did not mention that the Medical Daily report appears to rely heavily on the Mail's own article, and reads:[^498]
 
-> '"A few decades ago, it was unthinkable that looking at the brain to understand representations of social groups such as black versus white was even possible, let alone that such explorations could yield useful knowledge," the authors wrote, according to the Daily Mail.' F
+> '"A few decades ago, it was unthinkable that looking at the brain to understand representations of social groups such as black versus white was even possible, let alone that such explorations could yield useful knowledge," the authors wrote, according to the Daily Mail.'
 
 9.67 The argument that the article has been provided by an established News Agency, or alternatively published by others under a similar headline, if correct, merely serves to demonstrate that this lapse of standards occurred in publications beyond the Mail. On any view, this was contentious and problematic material, and merited careful handling. Further, it was not in the nature of a story which necessitated urgent treatment.
 
@@ -14340,9 +14234,7 @@ UK, and the Wellcome Trust noted:[^503]
 
 Conclusion
 
-9.76 In their various submissions and representations to the Inquiry, the Press Core Participants and others with a similar interest have urged on me that factual error cannot be eliminated in press reporting, and that the evidence adduced to the Inquiry falls short of supporting the proposition that the problem is sufficiently serious or widespread to be classed as systemic, cultural or generic. I have paid close regard to these submissions, and I have not lost sight
-
-F of the point that the Inquiry is inevitably taking a snap-shot of a picture which is immensely complex and multi-faceted. I have already made the point that the issue is not about quantity.[^506] Taking all these matters on board, and assessing the evidence as a whole, I have come to the conclusion that there does exist a cultural strand or tendency within a section of the press to practice journalism which on occasion is deliberately, recklessly or negligently inaccurate. In other words, this is not simply a matter of accidental (or co-incidental) understandable human error.
+9.76 In their various submissions and representations to the Inquiry, the Press Core Participants and others with a similar interest have urged on me that factual error cannot be eliminated in press reporting, and that the evidence adduced to the Inquiry falls short of supporting the proposition that the problem is sufficiently serious or widespread to be classed as systemic, cultural or generic. I have paid close regard to these submissions, and I have not lost sight of the point that the Inquiry is inevitably taking a snap-shot of a picture which is immensely complex and multi-faceted. I have already made the point that the issue is not about quantity.[^506] Taking all these matters on board, and assessing the evidence as a whole, I have come to the conclusion that there does exist a cultural strand or tendency within a section of the press to practice journalism which on occasion is deliberately, recklessly or negligently inaccurate. In other words, this is not simply a matter of accidental (or co-incidental) understandable human error.
 
 9.77 The reasons for the existence of this cultural strand go further than the obvious and basic fact that stories are often written under pressure of approaching deadlines and it is inevitable that errors will occur. The pressures I am particularly concerned about are of a different nature: specifically, the commercial and personal pressures operating on journalists in an extremely competitive market to be the first to achieve the 'scoop', to place a novel slant on a story which otherwise lacks punch, or at worst to manufacture the facts or detail of a story to maintain the interest of the readership.
 
@@ -14400,7 +14292,7 @@ Mahmood, who said that he believed that it was important that members of the pub
 
 > Know of a star behaving madly, sadly or badly? For your chance to bag £200 – Send us your story with all the juicy details. If we use your story, we'll send you the cash!* It's as simple as that."
 
-10.12 In evidence to the Inquiry, representatives from the Daily Star emphasised the importance of showbusiness and celebrity stories to that paper. Ms Neesom, told the Inquiry that as the title was a relatively young newspaper it did not have the same established readership as some of its competitors.[^516] The paper therefore needed to ensure that the content it carried appealed to its readership. Ms Neesom said that reader interest lay substantially in stories about the lives of celebrities and other individuals with a public profile.[^517] A number of these stories were sourced from members of the public responding to the call for stories published in the Star newspaper itself.[^518] F
+10.12 In evidence to the Inquiry, representatives from the Daily Star emphasised the importance of showbusiness and celebrity stories to that paper. Ms Neesom, told the Inquiry that as the title was a relatively young newspaper it did not have the same established readership as some of its competitors.[^516] The paper therefore needed to ensure that the content it carried appealed to its readership. Ms Neesom said that reader interest lay substantially in stories about the lives of celebrities and other individuals with a public profile.[^517] A number of these stories were sourced from members of the public responding to the call for stories published in the Star newspaper itself.[^518]
 
 10.13 The Daily Express also advertises for stories through its website. Readers are encouraged to contact the paper through a number of media, including telephone, email and SMS text message. It is notable that the Daily Express website makes no mention of payment in exchange for information.
 
@@ -14446,7 +14338,7 @@ Mirror had access to a lawyer in the office at all times, to whom any concerns w
 
 10.25 These informal mechanisms and processes for establishing the credibility of a story are also described and elaborated by Ms Marshall in her memoir, Tabloid Girl. Ms Marshall explained that when contacted by members of the public, journalists would pose a number of questions relating to that celebrity. According to Ms Marshall, the purpose in asking such questions was intended to help separate those members of the public who may possess stories of potential interest to readers from those who had contacted the newspaper in the hope of securing payment for either spurious or fabricated information. Ms Marshall explained that the questions asked by journalists in these circumstances were often informed by the specialist knowledge that they may have about the celebrities about whom they wrote.[^542] This knowledge may be the result of relationships built up over a number of years with the celebrities in question.
 
-F Numbers
+Numbers
 
 10.26 Although representatives of the press who have given evidence to the Inquiry have not provided exact figures for the number of calls received from members of the public seeking to supply stories, they were clear that the numbers were substantial and provided the source material for a significant proportion of showbusiness stories each year. Mr Smart provided some sense of the scale of the information supplied in this way, as well as the demands on journalists working on showbusiness stories which accounted for the majority of telephone calls received.
 
@@ -14582,9 +14474,7 @@ Chapter 4 from being revealed, and so resorted to deeply unethical methods to pr
 
 11.14 Ms Church[^580] and Ms Gascoigne[^581] had, for significant periods, adopted the same approach, avoiding litigation and avoiding complaint except in the most serious circumstances, in order to avoid the aggressive and unpleasant response with which a complaint would be met. Ms Church's evidence indicated that aggressive attacks have a corollary: preferential treatment for those who cooperate with newspapers. She recalled that when she was asked to sing at Rupert Murdoch's wedding in 1999, her manager was offered the choice between $100,000, or no fee but favourable treatment in the NI press. Her manager advised her to accept no fee.[^582]
 
-11.15 The evidence as a whole highlighted a point I made during the course of the Inquiry. The press are in a unique position as they carry a very large megaphone: if people cooperate, that megaphone can be used to enhance careers; for those who complain or challenge titles, the megaphone can be used to destroy them. Whereas complainants or litigants against individual titles have a limited forum to air their complaints, the press have a ready and captive audience of hundreds of thousands if not millions of readers who will read their response. As a former NoTW news editor noted in an unguarded moment, the megaphone
-
-F can be used to "destroy people's lives".[^583]
+11.15 The evidence as a whole highlighted a point I made during the course of the Inquiry. The press are in a unique position as they carry a very large megaphone: if people cooperate, that megaphone can be used to enhance careers; for those who complain or challenge titles, the megaphone can be used to destroy them. Whereas complainants or litigants against individual titles have a limited forum to air their complaints, the press have a ready and captive audience of hundreds of thousands if not millions of readers who will read their response. As a former NoTW news editor noted in an unguarded moment, the megaphone can be used to "destroy people's lives".[^583]
 
 11.16 Evidence of aggressive attacks on press critics, and self-censorship by potential critics, extended beyond the celebrity world and into the judicial and political field as well. In response to the Max Mosley judgment, a number of tabloid newspapers launched an aggressive and personal campaign against the judge in the case, Mr Justice Eady.[^584] In his speech to the Society of Editors, Mr Dacre described his judgments as "arrogant and amoral" and criticised his "subjective and highly relativist moral sense".[^585] Although Mr Dacre stated that he had attacked the judgments and not the man,[^586] some might be forgiven for reading the speech differently, particularly when reading it alongside Daily Mail articles such as, 'As cold as a frozen haddock, Mr Justice Eady hands down his views shorn of moral balance...'.[^587] The key point, it seems to me, is that if Mr Dacre and others had a strong objection to the development of protection of a right to privacy in UK law, they were perfectly entitled to express that objection in forceful terms. But by directing the rhetorical fire at an individual judge who was seeking to apply the principles set down by higher courts and whose judgments were capable of challenge on appeal, that objection takes on the appearance of being aggressive and intimidating. Furthermore, it was an attack to which, by judicial convention, Mr Justice
 
@@ -14607,8 +14497,6 @@ Eady was unable to respond.
 12. Complaints handling
 
 12.1 An issue related to the way in which the press treats critics is the manner in which it deals with those who make complaints in relation to specific stories. The Inquiry heard a great deal of evidence of good practice on this issue, in particular in relation to the use of readers' editors at a number of titles. But there was also substantial evidence of poor practice, showing first, that the complaints process can be (sometimes, it was thought, deliberately) protracted, complicated and expensive; second that there is a strong reluctance in parts of the press to apologise even when it is not in dispute that a story was incorrect; and third, that apologies, retractions and corrections are frequently given substantially less prominence than the offending article and therefore fail to satisfy those who are aggrieved. Although evidence was heard on these issues from many witnesses, I focus only on three examples which I treat as case studies: the identity of the titles concerned is not to the point.
-
-F
 
 12.2 The first example was the response of a number of newspapers to complaints made by the McCanns in light of defamatory reporting of the circumstances of their daughter's disappearance.[^594] Although some of the narrative has already been described,[^595] it bears brief repetition here. In September 2007, the McCanns' solicitor Angus McBride met with all the editors of the national newspapers to convey the McCanns' concerns about the defamatory reporting of Madeleine's disappearance and the harmful impact this reporting was having on the search for her. That first meeting appeared to have no effect and, after continuing libellous reporting by a number of daily newspapers, further meetings were arranged between Mr McBride, Clarence Mitchell and the editors responsible. Those further meetings also appeared to have no effect and the defamatory reporting continued. On 26 September 2007, a solicitors' letter threatening libel proceedings was sent to those newspapers which appeared to be the worst offenders. That letter, and a further letter sent on 10 October 2007, appeared to have no impact on the continuing libellous reporting.[^596]
 
@@ -14714,7 +14602,7 @@ Mohan's written evidence, where he had written: "Corrections are never placed fu
 
 12.26 In light of Mrs Brooks' evidence, it was somewhat ironic that James Murdoch complained of a lack of prominence of apologies in articles concerning NI. He said:[^630]
 
-> "Look, I think it's – you know, I have personal opinions about this, and actually, as the subject of a lot of press coverage over the last year myself, to be honest, I've F had cause for reflection, and I have been concerned with things like the ability to make a case, the ability to reply. I have been concerned with things like prominence of corrections. The Guardian alone I think has had to correct stories about News Corporation over 40 times in the last ten months or so, none of which seemed to have the same prominence as the original story, and that worries me. I think clearly it shows that somewhere in that code strengthening needs to occur with respect to accuracy and creating accountability there, but you know, I think this is going to be a matter for this Inquiry and for the industry."
+> "Look, I think it's – you know, I have personal opinions about this, and actually, as the subject of a lot of press coverage over the last year myself, to be honest, I've had cause for reflection, and I have been concerned with things like the ability to make a case, the ability to reply. I have been concerned with things like prominence of corrections. The Guardian alone I think has had to correct stories about News Corporation over 40 times in the last ten months or so, none of which seemed to have the same prominence as the original story, and that worries me. I think clearly it shows that somewhere in that code strengthening needs to occur with respect to accuracy and creating accountability there, but you know, I think this is going to be a matter for this Inquiry and for the industry."
 
 12.27 Former PCC Chairman Sir Christopher Meyer acknowledged that during his tenure between 2003-2007 there was a problem ensuring that corrections and apologies were given due prominence; his view was that the problem remained today. In large part, he accepted that the problem lay with the fact that the PCC had no power to direct where corrections and apologies should appear, and no power to direct their size and prominence.[^631]
 
@@ -14736,9 +14624,7 @@ Conclusion 1. Introduction
 
 1.2 I need to re-emphasise a point which I have already made more than once. There is a difference between saying that there is a real problem within the press (including a section of the press) on the one hand and saying that this problem is so widespread that it infects the majority of press practice on the other. I am not saying the latter. The unethical practices to which the evidence points afflict only a section of the press, and even then not for the majority of the time. Furthermore, in cases where the relevant section of the press has been identified,
 
-I am not to be understood as criticising all desks or departments within any individual title, still less the majority of journalists working there. The evidence points to a less sweeping conclusion, but one which is nonetheless a cause for significant concern. Although unethical practices have been perpetrated by or within some parts of some titles only for some of the time, the coverage or strength of the evidence I have read, seen and heard is more than sufficient to indicate the presence of a culture (or sub-culture – the precise terminology does
-
-F not matter) which subsists and needs to be addressed.
+I am not to be understood as criticising all desks or departments within any individual title, still less the majority of journalists working there. The evidence points to a less sweeping conclusion, but one which is nonetheless a cause for significant concern. Although unethical practices have been perpetrated by or within some parts of some titles only for some of the time, the coverage or strength of the evidence I have read, seen and heard is more than sufficient to indicate the presence of a culture (or sub-culture – the precise terminology does not matter) which subsists and needs to be addressed.
 
 1.3 The term 'culture', and the approach I should adopt, has been subjected to lengthy analysis and critique in some of the submissions the Inquiry has received. I have considered all of these submissions with great care. Whereas this Report is hardly the place for an in depth sociological debate into the meaning of complex terms, my approach may be simply stated.
 
@@ -14751,8 +14637,6 @@ I have focused in particular on unethical practices: these fall four-square with
 1.5 On this approach, one may even more readily detect a problem, in the form of a collection of
 
 > similar practices, which may fairly be described as cultural. Plainly, my approach is somewhat in contrast with the thesis that some have advanced that the real problem within the culture, practices and ethics of the press is, or rather was, that of phone hacking which is therefore sui generis or 'special', and peculiar to one (now defunct) title. Some go even further, and have sought to argue that current police investigations into phone hacking and other criminal conduct have been unfair and disproportionate. For reasons which, by now, I have made crystal clear, I totally reject these forms of special pleading. They ignore the evidence the Inquiry has received and, in their most extreme form, come close to suggesting that journalists should not be subject to the rule of law. But in my view there is no more precious principle in a mature democracy.
-
-F
 
 1.6 Those reading the whole of Part F of this Report may be forgiven for thinking that the pages
 
@@ -14788,7 +14672,7 @@ Commercial pressures
 
 2.8 Whilst some newspapers have been able to halt the decline in sales, most newspapers have lost sales at a rate that threatens the future economic viability of many titles. This is a trend that is more acute at, but not restricted to, the local and regional level than at national level.
 
-2.9 The ability of newspapers to grow their own sales in the context of this overall decline is also constrained by the tribal loyalties of readers. Clare Enders of Enders Analysis has told the Inquiry that overall only 2% of the market is contestable. It is unsurprising therefore that the commercial need to sell stories believed to be of interest to the public is an increasingly potent consideration. F
+2.9 The ability of newspapers to grow their own sales in the context of this overall decline is also constrained by the tribal loyalties of readers. Clare Enders of Enders Analysis has told the Inquiry that overall only 2% of the market is contestable. It is unsurprising therefore that the commercial need to sell stories believed to be of interest to the public is an increasingly potent consideration.
 
 2.10 The impact of these pressures is not uniform. The evidence has also indicated that a difference in commercial imperatives exists between the broadsheets and tabloids. The journalist Nick
 
@@ -14836,7 +14720,7 @@ Part F, Chapter 4, I found that bullying had taken place at the NoTW.
 
 Steve Turner, General Secretary of the British Association of Journalists, a limited number of former journalists did speak to the existence of a bullying and less than ethical culture in the papers in which they worked. The qualitative deficiencies of the anonymous evidence must be recognised, and in respect of each of the former journalists there are reasons for treating their evidence with caution. I have examined their evidence in previous sections of the Report, but here I set out two pieces of evidence which struck a particular chord with me:
 
-this is because of the way in which the evidence was given, its inherent plausibility, and its consistency with other evidence. F
+this is because of the way in which the evidence was given, its inherent plausibility, and its consistency with other evidence.
 
 2.22 Matthew Driscoll, formerly of NoTW, told the Inquiry in an extended sequence of answers:
 
@@ -14865,8 +14749,6 @@ this is because of the way in which the evidence was given, its inherent plausib
 2.29 The NUJ goes yet further, and has argued through its General Secretary, Michelle Stanistreet, that:[^6]
 
 > "... there is a connection between the anti-trade union culture at News International and the moral vacuum that's been allowed to proliferate. The culture stems from the top of the organisation yet it is ordinary working journalists who are being sacrificed and whose livelihoods have been destroyed whilst those at the top of News International enjoy impunity."
-
-F
 
 2.30 Although I can see the clear possibility of a causal connection between a culture where journalists are reluctant to speak out and the presence and in particular the perpetuation of unethical practices, Ms Stanistreet's point about a similar anti-trade union culture and such practices is a more controversial proposition. She may be right, but I am not in a position to express a concluded view about this on the limited evidence I have heard.
 
@@ -14934,7 +14816,7 @@ Paul Ashford, Northern & Shell group editorial director, conceded that there are
 
 2.51 Editors expressed the common view that primary responsibility for checking sources lies with the journalist. This in itself is an appropriate delegation of responsibility. However, it has become clear that there are inadequate systems in place to verify sources. The gravamen of the evidence received by the Inquiry was along the lines that only if something about the story caught an editor's attention would the reliability of sources be questioned.[^30] A number of journalists stated that they were rarely asked to verify the facts of a story.[^31] The approach was justified, in part, by the need to protect source anonymity.[^32] More generally, editors emphasised the importance of trust in the reliability and integrity of individual journalists as being fundamental to the operation of the newsroom.[^33] Mr Wallace's view epitomised that expressed by most editors:[^34]
 
-> F "To the best of my knowledge and belief, my journalists (like me) do comply with the law and the Code and I must trust them to do so. In the absence of any reason to call this relationship of trust into question, I do not believe that I should necessarily (or in some cases, properly) be aware of my journalists' sources and methods."
+> "To the best of my knowledge and belief, my journalists (like me) do comply with the law and the Code and I must trust them to do so. In the absence of any reason to call this relationship of trust into question, I do not believe that I should necessarily (or in some cases, properly) be aware of my journalists' sources and methods."
 
 %%page 730%%
 
@@ -15065,8 +14947,6 @@ Prince Harry photographs, discussed in Chapter 5.
 3.3 The press, on the other hand, does claim to operate by and adhere to an ethical code of conduct. Publishers of newspapers will be (or, at least, are far more likely to be) far more heavily resourced than most, if not all, bloggers and websites that report news (as opposed to search engines that direct those on line to different sites). Newspapers, through whichever medium they are delivered, purport to offer a quality product in all senses of that term. Although in the light of the events leading to the setting up of this Inquiry and the evidence I have heard, the public is entitled to be sceptical about the true quality of parts of that product in certain sections of the press, the premise on which newspapers operate remains constant: that the Code will be adhered to, that within the bounds of natural human error printed facts whether in newsprint or online will be accurate, and that individual rights will be respected. In contrast, the internet does not function on this basis at all. People will not assume that what they read on the internet is trustworthy or that it carries any particular assurance or accuracy; it need be no more than one person's view. There is none of the notional imprimatur or kitemark which comes from being the publisher of a respected broadsheet or, in its different style, an equally respected mass circulation tabloid.
 
 3.4 The second reason largely flows from the first. There is a qualitative difference between photographs being available online and being displayed, or blazoned, on the front page of a newspaper such as The Sun. The fact of publication in a mass circulation newspaper multiplies and magnifies the intrusion, not simply because more people will be viewing the images, but also because more people will be talking about them. Thus, the fact of publication inflates the apparent newsworthiness of the photographs by placing them more firmly within the public domain and at the top of the news agenda. As Professor Baroness Onora O'Neill made clear[^58], it is important:
-
-F
 
 "to recognise the extent to which exposure to media content is unchosen – particularly by children, those in institutional settings, and those in public places. Regulation should have regard to the realities of media penetration rather than assuming that it always reflects consumer choices."
 
@@ -15226,8 +15106,6 @@ MPS, observed:[^28]
 
 3.9 Dr Gerry McCann said of the media interest following the disappearance of their daughter Madeleine: "Nothing could have prepared us for the unprecedented media coverage, particularly in Portugal and the UK which followed" and spoke of "the intensity of media focus".[^37]
 
-G
-
 3.10 In December 2006, following the discovery of the bodies of five young women in Ipswich over a ten day period, there was an explosion of press coverage. The Senior Investigation Officer, then Detective Chief Superintendent Stewart Gull, said that:[^38]
 
 > "the level of interest shown by not only the local and regional media but also national and international media was unprecedented".
@@ -15262,9 +15140,7 @@ Sir Robert Mark
 
 1.3 Sir Robert Mark, who was Commissioner between 1972 and 1977, likened the relationship between the police and the press to an '"enduring, if not ecstatically happy marriage". He sought to establish a new approach to police-media relations in the capital.[^2]
 
-1.4 On becoming Commissioner in 1972, Sir Robert was concerned that the senior ranks within the MPS had developed too many 'fiefdoms'; this concern extended to the way in which the supervisory ranks dealt with the media. Sir Robert, who was one of the first Chief Officers to recognise and acknowledge that police corruption was widespread in several forms, decided
-
-G relentlessly to drive down on it. He had a novel approach to tackling what he thought were unhealthy relationships between some of his senior officers and the press. The result was that, rather than restricting the amount of contact between his officers and journalists, he encouraged and allowed more. Sir Robert issued a new edict allowing all officers of the rank of inspector and above to talk to the media; that privilege had previously only extended to the superintending ranks. Sir Robert's guidelines were simple: officers were allowed to talk about their own work but not about the work of others; he asked his officers to use their common sense in what was disclosed to the press.[^3]
+1.4 On becoming Commissioner in 1972, Sir Robert was concerned that the senior ranks within the MPS had developed too many 'fiefdoms'; this concern extended to the way in which the supervisory ranks dealt with the media. Sir Robert, who was one of the first Chief Officers to recognise and acknowledge that police corruption was widespread in several forms, decided relentlessly to drive down on it. He had a novel approach to tackling what he thought were unhealthy relationships between some of his senior officers and the press. The result was that, rather than restricting the amount of contact between his officers and journalists, he encouraged and allowed more. Sir Robert issued a new edict allowing all officers of the rank of inspector and above to talk to the media; that privilege had previously only extended to the superintending ranks. Sir Robert's guidelines were simple: officers were allowed to talk about their own work but not about the work of others; he asked his officers to use their common sense in what was disclosed to the press.[^3]
 
 1.5 Lord Condon, another former Commissioner of the MPS, argued that since Sir Robert Mark's tenure, the post had become irreversibly a very public post and that the Commissioner had become, and was expected to be, a "public figure".[^4]
 
@@ -15502,9 +15378,7 @@ Bird argued that the immediacy of the media's need for news meant that the media
 
 Disadvantages
 
-3.7 Notwithstanding the fact that press departments are now considered to be a necessary and vital component of modern policing, the Police Service itself recognises that the media can
-
-G sometimes become frustrated by this additional 'layer' or conduit to direct contact with police officers. Chief Constable Sims (from the West Midlands), whose force policy was for individual officers to engage with the press office if approached directly by the media, acknowledged this point in his evidence.[^106] Similarly, Gillian Shearer (Head of Marketing and Communications in Cumbria) explained that, although generally speaking the media were comfortable going through the press office, sometimes they became frustrated if they could not get hold of all of the information that they required; often, therefore, they tried to approach officers directly.[^107]
+3.7 Notwithstanding the fact that press departments are now considered to be a necessary and vital component of modern policing, the Police Service itself recognises that the media can sometimes become frustrated by this additional 'layer' or conduit to direct contact with police officers. Chief Constable Sims (from the West Midlands), whose force policy was for individual officers to engage with the press office if approached directly by the media, acknowledged this point in his evidence.[^106] Similarly, Gillian Shearer (Head of Marketing and Communications in Cumbria) explained that, although generally speaking the media were comfortable going through the press office, sometimes they became frustrated if they could not get hold of all of the information that they required; often, therefore, they tried to approach officers directly.[^107]
 
 %%page 766%%
 
@@ -15514,7 +15388,7 @@ G sometimes become frustrated by this additional 'layer' or conduit to direct co
 
 3.9 Ms Laville shared this viewpoint and suggested that adding another layer between a journalist and a police officer who had information to convey could lead to delays, some inaccuracies, and often to a lack of depth in the information provided. She argued that this was partly the reason why Lord Stevens had introduced the policy within the MPS of allowing middle ranking officers and above to talk openly to journalists in the interests of accuracy, context and a wider understanding of the issues.[^110]
 
-3.10 There was also recognition amongst some of the regional police forces that the media would like to see increased access to force press offices. Chief Constable Baggott, speaking about the Press Office of the Police Service of Northern Ireland, for example, said "We do know that the media would like the press office opening hours to be extended to 24/7 however given budget constraints this is not possible."[^111] The Guardian reporter, Nick Davies, expanded on this point, describing from his point of view the difference in the service provided by a press office in a big city force and that provided by a smaller provincial force. He said:112
+3.10 There was also recognition amongst some of the regional police forces that the media would like to see increased access to force press offices. Chief Constable Baggott, speaking about the Press Office of the Police Service of Northern Ireland, for example, said "We do know that the media would like the press office opening hours to be extended to 24/7 however given budget constraints this is not possible."[^111] The Guardian reporter, Nick Davies, expanded on this point, describing from his point of view the difference in the service provided by a press office in a big city force and that provided by a smaller provincial force. He said:[^112]
 
 "That was something I came across talking to provincial reporters…some of them G complained that the press office of the local police force was so understaffed that the
 
@@ -15522,7 +15396,7 @@ G sometimes become frustrated by this additional 'layer' or conduit to direct co
 
 %%page 767%%
 
-3.11 Mr Davies also suggested that, with rare exceptions, press officers saw it as their legitimate role to protect the interests of the organisation or individual for whom they worked. He argued that whilst it was unusual for a press officer purposely to mislead a journalist (given that it would undermine their future credibility), when under pressure, some press officers did occasionally lie to reporters in order to protect their organisation. Mr Davies went on, however, to say that, more commonly, police press officers would hold back information that might embarrass their employer, or promote information which tended to enhance the reputation of the force concerned.113
+3.11 Mr Davies also suggested that, with rare exceptions, press officers saw it as their legitimate role to protect the interests of the organisation or individual for whom they worked. He argued that whilst it was unusual for a press officer purposely to mislead a journalist (given that it would undermine their future credibility), when under pressure, some press officers did occasionally lie to reporters in order to protect their organisation. Mr Davies went on, however, to say that, more commonly, police press officers would hold back information that might embarrass their employer, or promote information which tended to enhance the reputation of the force concerned.[^113]
 
 3.12 Mr Lawton supported this viewpoint and said "I think a large part of their role [a force press office] is to ensure the force is portrayed in as good a light as possible. That is only natural particularly in tough financial times and amid rumours of force mergers."[^114] Mr Faber suggested that although his journalists tended to get the information that they were seeking from the press office, he was sometimes frustrated in having to deal with the police agendas of 'reassurance of the public' and 'risk assessments'. He argued that this manifested itself in the police view that the public had an exaggerated perception of crime which was fuelled by media coverage; as a result, the police took the view that unless it was helpful in an investigation, they would not automatically release the information.[^115]
 
@@ -15698,9 +15572,7 @@ And the CRA was at the heart of that."[^201] Mr Stearns also suggested that from
 
 > "…I wouldn't have briefed them if I felt it was a desperately exclusive sort of small trade body that gave special access. To me, it seemed that every major crime reporter around in London was part of that, as were those involved with the electronic media, and I guess it was a handy way, once every month – or certainly, latterly, it was every few months – them having the opportunity to discuss things which were of interest to them…"
 
-3.52 The CRA forms an important part of the picture of relations between the press as a whole and the MPS. The police themselves view the CRA as a useful group whose membership is not exclusive in any problematic sense. I can see the benefit to both sides of having specialist crime reporters and a forum for them to get together to share expertise and provide appropriate liaison with the police. However, it is clear to me that there is a need for both the MPS and the CRA to take positive steps to ensure that the relationship is a transparent one, and that its membership remains as wide and as open as is consistent with its function. I see no reason why a journalist who has the necessary specialist knowledge should be excluded
-
-G either because of the title at which he or she works or the location of that title: it would be a matter for the journalist whether he or she wishes to attend briefings in London (which is obviously where they would be held).
+3.52 The CRA forms an important part of the picture of relations between the press as a whole and the MPS. The police themselves view the CRA as a useful group whose membership is not exclusive in any problematic sense. I can see the benefit to both sides of having specialist crime reporters and a forum for them to get together to share expertise and provide appropriate liaison with the police. However, it is clear to me that there is a need for both the MPS and the CRA to take positive steps to ensure that the relationship is a transparent one, and that its membership remains as wide and as open as is consistent with its function. I see no reason why a journalist who has the necessary specialist knowledge should be excluded either because of the title at which he or she works or the location of that title: it would be a matter for the journalist whether he or she wishes to attend briefings in London (which is obviously where they would be held).
 
 3.53 I do not consider that it is necessary for me to be dogmatic about how these aims can be achieved: rather, it is best left to be worked out by the MPS (doubtless with the advice of the newly formed DMC) and the CRA. I have no doubt that transparency of purpose, membership and meetings along with appropriate publication of membership and minutes will serve to ensure that any suggestion that the CRA is a restricted club can be dispelled. It would also be important that anyone who wishes to join the CRA knows how to go about it and fully appreciates the extent of knowledge or involvement in crime reporting required.
 
@@ -15758,7 +15630,7 @@ Strathclyde Police also suggested that tipping off may occur. Again, he could pr
 
 > "… it's an estimation, because I haven't done that analysis – I would say most of them do [leaks to the media concerning celebrity cases] because that's effectively where the money would be, so yes, it's the newspapers, the reporters and the photographers being on the doorstep of the police office as a celebrity is released and of course that shouldn't happen. So we backtrack as to how did that happen and the view is that is a leak from the organisation and we investigate it."
 
-2.8 Assistant Chief Constable Kirkby of Surrey Police confirmed that one of its officers was under investigation in relation to a leak about celebrity information.[^12] Lord Stevens, when discussing the issue of tip offs, expressed condemnation for the practice but had no recollection of it actually happening during his Commissionership.[^13] G
+2.8 Assistant Chief Constable Kirkby of Surrey Police confirmed that one of its officers was under investigation in relation to a leak about celebrity information.[^12] Lord Stevens, when discussing the issue of tip offs, expressed condemnation for the practice but had no recollection of it actually happening during his Commissionership.[^13]
 
 2.9 Conversely, there was a significant amount of evidence to suggest that there is no such practice or, to put it slightly lower, that the practice is certainly not prevalent within the police service; and media sources are more likely to be members of the public or information obtained in other ways.
 
@@ -15904,9 +15776,7 @@ He offered the general view that there should be "… no background briefing on 
 
 > "If you've named someone and shared a photograph, it can limit some of the evidential lines that may be available later. So it's always a case that – that type of revelation is always made after a careful discussion, particularly with CPS and our own lawyers, to make sure that we can substantiate the dangerous and, number two, is there is [sic] reason to alert the public at large so we can locate them before they hurt someone else? That would be the only time I could see [it happening]."
 
-2.39 I would endorse the general views of Commissioner Hogan-Howe and Mr Trotter on this issue. Police forces must weigh very carefully the public interest considerations of taking the media on police operations against the Article 8 and Article 6 rights of the individuals who are the subject of such an operation. Forces must also have directly in mind any potential consequential impact on the victims in such cases. More generally, I think that the current
-
-G guidance in this area needs to be strengthened. For example, I think that it should be made abundantly clear that save in exceptional and clearly identified circumstances (for example, where there may be an immediate risk to the public), the names or identifying details of those who are arrested or suspected of a crime should not be released to the press nor the public.
+2.39 I would endorse the general views of Commissioner Hogan-Howe and Mr Trotter on this issue. Police forces must weigh very carefully the public interest considerations of taking the media on police operations against the Article 8 and Article 6 rights of the individuals who are the subject of such an operation. Forces must also have directly in mind any potential consequential impact on the victims in such cases. More generally, I think that the current guidance in this area needs to be strengthened. For example, I think that it should be made abundantly clear that save in exceptional and clearly identified circumstances (for example, where there may be an immediate risk to the public), the names or identifying details of those who are arrested or suspected of a crime should not be released to the press nor the public.
 
 Off-the-record briefing
 
@@ -15965,8 +15835,6 @@ Laville provided the example of the "regular off the record briefings from the M
 ACPO Guidance for Relationships with the Media' seeks to define the generally used police and media speaking terms as follows:[^97]
 
 > "On the record – means that a journalist can report, quote and name their source. Where possible, all conversations should be on this basis and it should always be assumed that a conversation is on the record unless expressly agreed otherwise in advance. Background/guidance – means that information provided can be reported without it being attributed to a source, whether named or not. This is sometimes used to provide further context around an on the record statement. Off the record – means that use of information provided is restricted altogether. Occasionally there may be a legitimate reason for an off the record conversation or briefing to take place, such as where news reporting may have an impact on a current investigation or as a means of preventing inaccuracies or misunderstanding."
-
-G
 
 2.49 It is very difficult to draw any firm conclusions as to how widespread or common each of these forms of contact is in practice; it is also the case that on occasions there is some overlap between them. The evidence of the journalists, for example varied considerably. Jon Ungoed-Thomas, chief reporter at The Sunday Times, said that "I have been offered off-the-record briefings probably fewer than 10 times in the last five years, all of which have involved a face-to-face meeting."[^98] Michael Sullivan, crime editor of The Sun, on the other hand, suggested that he had
 
@@ -16420,7 +16288,7 @@ It is not a panacea for a problem which, in all probability, will never be compl
 
 2.126 Elsewhere in the Report, I have recommended that it should be mandatory for ACPO rank officers to record all contact with the media, and good practice for junior officers and staff
 
-(for their own protection). I entirely accept that this in itself will not prevent a determined individual from leaking. However, as Commissioner Hogan-Howe pointed out:[^245] G
+(for their own protection). I entirely accept that this in itself will not prevent a determined individual from leaking. However, as Commissioner Hogan-Howe pointed out:[^245]
 
 > "… I think what it does mean is that if we do establish the source of the leak and then we ask them did they report that meeting, did they report their account, then there's a starting place for an investigation, both for a monitoring exercise or audit, to say: is that an appropriate link? Is that an appropriate sharing of information? It allows us to have that conversation. If someone has chosen not to point out the contact, then it puts them in position where they have to explain more, and that is the nature of any investigation of that type… It's not conclusive evidence, but it's a starting point that builds an assumption that might be challenged later, but the person who has a duty and a policy that says that's what they should do, they have to explain, presumably, why they choose to ignore it."
 
@@ -16438,7 +16306,7 @@ Misattribution of leaks
 
 Mr Port made the point that:[^249]
 
-> "… it is also not uncommon for journalists to attribute information to, for example, "a source close to the investigation" but would never reveal to any subsequent investigation who that source was, making successful investigation very difficult. There is no way of proving there was, in fact, any police source." G
+> "… it is also not uncommon for journalists to attribute information to, for example, "a source close to the investigation" but would never reveal to any subsequent investigation who that source was, making successful investigation very difficult. There is no way of proving there was, in fact, any police source."
 
 Mr Stearns agreed, and said:[^250]
 
@@ -16474,7 +16342,7 @@ Whistleblowing
 
 2.135 It is therefore maintained by some that in the circumstances outlined above, 'leaking' or 'unauthorised disclosure' can serve the public interest. Such an example was provided by Sean O'Neill, Crime Editor of The Times, in relation to the:[^260]
 
-> "… disclosures over the Met's failures in the John Worboys and Kirk Reid serial rape cases; reporters learnt of serious investigative failings in both cases by attending early G court hearings and put pressure on the Yard which forced it to make public disclosure of its errors. Ultimately this led to a fundamental reform of the way rape and serious sexual offences are investigated in London."
+> "… disclosures over the Met's failures in the John Worboys and Kirk Reid serial rape cases; reporters learnt of serious investigative failings in both cases by attending early court hearings and put pressure on the Yard which forced it to make public disclosure of its errors. Ultimately this led to a fundamental reform of the way rape and serious sexual offences are investigated in London."
 
 2.136 In relation to information which ordinarily should not be disclosed to a journalist, he explained that:[^261]
 
@@ -16511,8 +16379,6 @@ Macdonald QC, the former Director of Public Prosecutions, expressed a cautionary
 The impact on police investigations
 
 2.142 One of the more obviously damaging aspects of leaks to the media is where they result in articles being published that contain confidential details about operational matters. This can have a direct impact on criminal investigations and may result, for example, in the provision of confidential information to suspects regarding police operations and evidence; it can undermine the confidence of victims and witnesses; it may damage the reputation and infringe the privacy of individuals where the media coverage relates to what are subsequently found to be unfounded allegations; and it may also cause unnecessary distress to individuals who are pursued by the media because they are the family or friends of a witness or victim. A number of egregious examples were provided in evidence.
-
-G
 
 2.143 Clive Driscoll, a Detective Chief Inspector in the MPS, recalled his experience as Senior Investigating Officer of Operation Fishpool, the re-opened investigation into the murder of Stephen Lawrence.[^268] He explained that given the high profile nature and understandable sensitivities surrounding the case it had been essential for the police to gain the trust of the Lawrence family. He also explained that the issue of the murder and the previous investigation had meant that the case "was also very sensitive within the police because of the impact the McPherson report had had on the reputation of the MPS and the changes which had followed."[^269] DCI Driscoll said that for these reasons, "we decided to keep information about the progress of the investigation very close and disseminate information on a "need to know" basis."[^270]
 
@@ -16560,7 +16426,7 @@ DCI Driscoll explained that he asked Mr Wright, through the MPS press office, no
 
 2.149 Moving matters forward, DCI Driscoll recalled that in the lead up to the trial he was informed by a contact that it was "well known in Fleet Street" that a "named senior member of the MPS" was briefing outside of official meetings; a later more serious allegation was also added. DCI Driscoll said that this concerned "the close relationship between this senior member of the MPS and sections of the media. The relationship was rumoured to be corrupt."[^289] In relation to this specific issue, it is not known whether the senior member of the MPS referred to was the source of the leaks in 2007. DCI Driscoll explained that:[^290]
 
-> G "My understanding is that an investigation did take place and that in fact that information has been passed across to the Independent Police Complaints Commission and indeed also to Operation Elveden, so I would respectfully ask that I don't give that name for fear of undermining what could be an ongoing investigation."
+> "My understanding is that an investigation did take place and that in fact that information has been passed across to the Independent Police Complaints Commission and indeed also to Operation Elveden, so I would respectfully ask that I don't give that name for fear of undermining what could be an ongoing investigation."
 
 2.150 Whilst very careful to praise the contribution of Mr Wright and the Daily Mail in the pursuit of justice for the Lawrence family, DCI Driscoll offered the following thoughts in conclusion:[^291]
 
@@ -16634,7 +16500,7 @@ Mr Stearns said that the MPS had a number of different Twitter accounts, includi
 
 2.162 Deputy Commissioner of the MPS, Craig Mackey, also acknowledged that the use of social media by the Police Service did not come without its risks.[^314] However, in respect of its use by Cumbria Police (the force for which he was previously responsible), he said:[^315]
 
-> G "… It would be fair to say if I was doing an assessment of where I am now to where I was last year, Cumbria's probably a bigger user of social media than the Metropolitan Police, even given the size of the two organisations. It embraced Twitter, Facebook, Bebo, all the social media far earlier than most others, and it also has some real practical examples. I'd go back to the 2009 flooding where the intelligence cell actually found a lot of people who had been evacuated by Facebook status and followed things up in a way that previously we'd have got in a car and gone off and done things. It also brings an immediacy to it in terms of last Christmas' drink drive operation, information going straight out on Twitter in terms of what we were doing, where we were. It brings an immediacy and an accountability in terms of what's going on. It's not ideal, the limitation on characteristics, and it's not without its challenges in terms of people going beyond how they should in terms of their interaction, but as a general principle, it's here to stay and I think we have to embrace it."
+> "… It would be fair to say if I was doing an assessment of where I am now to where I was last year, Cumbria's probably a bigger user of social media than the Metropolitan Police, even given the size of the two organisations. It embraced Twitter, Facebook, Bebo, all the social media far earlier than most others, and it also has some real practical examples. I'd go back to the 2009 flooding where the intelligence cell actually found a lot of people who had been evacuated by Facebook status and followed things up in a way that previously we'd have got in a car and gone off and done things. It also brings an immediacy to it in terms of last Christmas' drink drive operation, information going straight out on Twitter in terms of what we were doing, where we were. It brings an immediacy and an accountability in terms of what's going on. It's not ideal, the limitation on characteristics, and it's not without its challenges in terms of people going beyond how they should in terms of their interaction, but as a general principle, it's here to stay and I think we have to embrace it."
 
 %%page 828%%
 
@@ -16700,7 +16566,7 @@ Elizabeth Filkin's review into the relationship between the Metropolitan Police 
 
 3.7 However, in the absence of any central policy guidelines in relation to the acceptance of gifts and hospitality (prior to the recent interim guidelines published by ACPO), the MPS and, indeed individual forces, have generally sought to establish their own policies on this issue. The MPS have commented that:[^338]
 
-> "Whilst the level of guidance provided by these policies will differ from force to force, G the MPS felt that given its size and scale of operations, a more precise policy was required to provide greater assistance to its staff."
+> "Whilst the level of guidance provided by these policies will differ from force to force, the MPS felt that given its size and scale of operations, a more precise policy was required to provide greater assistance to its staff."
 
 The Metropolitan Police Service
 
@@ -16732,9 +16598,7 @@ Other regional forces and constabularies
 
 > "The acceptance of free or discounted entertainment, access, service, refreshment or alcohol from any person or body outside the police service"
 
-and continues to detail a more comprehensive explanation of the potential types of hospitality
-
-G which officers and staff might encounter.[^355] The Police Service of Northern Ireland (PSNI) also follow a similar approach, providing advice and exemplary situations when gifts or gratuities may or may not be received.[^356] Clear responsibilities are set out for individuals, the senior management team, District Commanders and Heads of Branches.
+and continues to detail a more comprehensive explanation of the potential types of hospitality which officers and staff might encounter.[^355] The Police Service of Northern Ireland (PSNI) also follow a similar approach, providing advice and exemplary situations when gifts or gratuities may or may not be received.[^356] Clear responsibilities are set out for individuals, the senior management team, District Commanders and Heads of Branches.
 
 3.14 British Transport Police also provide guidance in relation to expectations and full responsibilities of: the individual, the line manager, the area and force headquarters department 'single point of contact' (SPOC), and the Professional Standards Department Intelligence Unit (PSDIU).[^357] There are exceptions in the acceptance of gratuity, for example, if it is "considered to be of crucial benefit to BTP business interested, then this may be accepted provided the specific written authority of an [strategic command team] member has been obtained".[^358] Other forces, including the West Midlands Police, are less informative in this regard.
 
@@ -16771,8 +16635,6 @@ ACPO level officer (or Director). Gifts that are received are estimated in value
 > - The B/OCU Commander or Business Group lead will review their local B/OCU/ Business Group registers every month as part of the publication process."
 
 3.19 Following this scrutiny exercise, the hospitality records of the MPS Management Board, ACPO and equivalent police staff, are published within 15 working days of the end of the month. The remainder of hospitality records of officers and staff below ACPO level are published within 20 working days of the end of the month. Systems are established by the Management Board members to ensure that officers and staff comply with this policy within their individual business groups.[^369]
-
-G
 
 3.20 The Director of Audit, Risk and Assurance for the MOPC is responsible for the internal auditing for the MOPC and the Metropolitan Police Commission.[^370] The current Director, Julie Norgrove, has explained that the introduction of the Audit Commission Act has led to a change in the statutory approach of the MPS to auditing, and specifically that:[^371]
 
@@ -17014,9 +16876,7 @@ Mr Vaughan also noted in his evidence that this meeting was deliberately arrange
 
 3.60 Abigail Ashford, the crime correspondence for the South Wales Echo, echoed the absence of any culture of accepting hospitality from the local force. Ms Ashford explained just one occasion where she attended a Cardiff v Swansea football game, at no expense, whilst 'shadowing' the Inspector of South Wales Police. The purpose of this exercise was to report on how the local force policed the event.[^444] She said that the extent of hospitality that was offered was "a sandwich and a cup of tea from their own catering, but I also bought food for myself."[^445] Ms Ashford could not recall any other occasions where she had received hospitality from South Wales Police.
 
-3.61 Chris Sims, Chief Constable of West Midlands Police, told the Inquiry that he would meet
-
-G occasionally with editors of the local papers, but not very often. He stressed the absence of a culture of hospitality between the force and the local media, stating that there are very few occasions that the force have accepted hospitality from the media, and specifically, that he has never accepted any.[^446] Mr Sims referred to only one occasion in 2005, where a number of West Midlands Police officers attended a local football match, courtesy of a local newspaper title, which had included the invitations to other prominent figures within the community.[^447] With the exception of this event, he could not recall any other instances where the force had accepted offers of hospitality from the local press, other than the acceptance of refreshments or drinks.[^448]
+3.61 Chris Sims, Chief Constable of West Midlands Police, told the Inquiry that he would meet occasionally with editors of the local papers, but not very often. He stressed the absence of a culture of hospitality between the force and the local media, stating that there are very few occasions that the force have accepted hospitality from the media, and specifically, that he has never accepted any.[^446] Mr Sims referred to only one occasion in 2005, where a number of West Midlands Police officers attended a local football match, courtesy of a local newspaper title, which had included the invitations to other prominent figures within the community.[^447] With the exception of this event, he could not recall any other instances where the force had accepted offers of hospitality from the local press, other than the acceptance of refreshments or drinks.[^448]
 
 %%page 848%%
 
@@ -17316,7 +17176,7 @@ She also argued that there was no preferential treatment by the MPS towards the 
 
 This is by no means the only example of this type, and in subsequent sections I analyse in more detail some of the specific relationships and instances of concern that helped to create the perception described.
 
-G Neil Wallis
+Neil Wallis
 
 4.42 Neil Wallis was a central figure in the relationship between NI and the MPS. Mr Wallis joined The Sun as its Chief Investigative reporter in December 1986, and then progressed to be the features editor, news editor, associate editor and then deputy editor of the newspaper. In January 1998 he left The Sun to become editor of the People, and then in January 2003 he joined The NoTW as its deputy editor, a role he held until becoming the newspaper's executive editor in early 2008. Mr Wallis resigned from the NoTW in June 2009.[^558] In describing the background to his contact with the MPS, Mr Wallis explained:[^559]
 
@@ -17396,7 +17256,7 @@ According to Mr Wallis, the level of contact varied depending on what was happen
 
 4.54 The long-term benefits of Mr Wallis' enduring relationship with Lord Stevens and the MPS would appear to have manifested themselves in a number of different ways. Mr Wallis suggested, for example, that on occasions his conversations with Lord Stevens would lead to a specific story for his newspaper:[^582]
 
-> G "If he wanted and I was interested – because that's one of the other things that comes into this, of course. Let's be real. I worked for tabloid newspapers. Quite a lot of police policy, et cetera, et cetera, is simply not of interest to tabloid newspapers. Now, one of the things I would attempt to do was to find a way to make that accessible if it was relevant, but occasionally he might have a view about something that might make a story or a feature or whatever."
+> "If he wanted and I was interested – because that's one of the other things that comes into this, of course. Let's be real. I worked for tabloid newspapers. Quite a lot of police policy, et cetera, et cetera, is simply not of interest to tabloid newspapers. Now, one of the things I would attempt to do was to find a way to make that accessible if it was relevant, but occasionally he might have a view about something that might make a story or a feature or whatever."
 
 4.55 His evidence also suggested a degree of enhanced access to senior officers within the MPS. He said:[^583]
 
@@ -17454,8 +17314,6 @@ Mr Wallis explained that he had chosen the subject matter for "The Chief" articl
 
 > "… ghosted articles in newspapers have been going for as long as Mr Caxton was here. It was a perfectly common thing and I wouldn't want you to think that I would just write a piece and lob it in the paper. What would happen was I would have a view, I would speak to John Stevens, we would work out the structure of the article, I would write the article, I would email it to him or fax it to him, he would come back to me and say, "I like this, I don't want to do that, I want to change this", I would do it again, I would send it back to him, he would say, "Okay", I would send it to the back bench, the back bench would subedit it, I would get the subediting version – because plainly, you're going to write about 1,000 words which are going to come down to about 800 words, say. I would then check that I was happy with the subediting. I would send that back to John for his final say-so before it was put in the paper, including the headlines."
 
-G
-
 4.66 Lord Stevens terminated the contract with the NoTW in October 2007, explaining that he had had no further dealings with Mr Wallis or the newspaper since then.[^603] He said:[^604]
 
 > "… I didn't complete that contract because of the conviction that took place of the two people in the News of the World, and I saw Colin Myler and Neil Wallis and told them I didn't want to continue. I never gave them specific reasons, but from that night on, I never saw them again … when the convictions were taking place, certain other information was coming to my ears which just – I didn't just want to do it."
@@ -17472,9 +17330,7 @@ With respect to Lord Stevens, I am not sure that the roles of Commissioner and p
 
 > "There was a bit of gossip about it. It had been around, may have even been in a gossip column. But when we actually met him – I was trying to recollect how this happened, but one day he ended up in our office. I think he may have been visiting another newspaper and had been invited, if you like, by whoever was accompanying him, to do a tour of the building, and he ended up on our floor … But he came in and it came up in conversation and he said, "I don't know how you can call him the chief – he's not the chief any more; I am", which was vaguely funny, I thought."
 
-4.69 Mr Wallis conceded that Lord Blair's displeasure was not in the least bit surprising, and perhaps tellingly in this regard said "mischief is a significant component of newspapers, particularly tabloid newspapers".[^609] In fairness to Lord Stevens, in hindsight, he recognised that this was a
-
-G contract that he should not have entered into in the first place. He said:[^610]
+4.69 Mr Wallis conceded that Lord Blair's displeasure was not in the least bit surprising, and perhaps tellingly in this regard said "mischief is a significant component of newspapers, particularly tabloid newspapers".[^609] In fairness to Lord Stevens, in hindsight, he recognised that this was a contract that he should not have entered into in the first place. He said:[^610]
 
 > "I think knowing what I do now, I certainly wouldn't have entered into it, and that's a fact. By terminated [sic] the contract with five more articles to write, I was throwing away money, but that didn't worry me."
 
@@ -17548,7 +17404,7 @@ In un-packing this statement, Mr Wallis acknowledged that at times he had been p
 
 4.80 Perhaps the most powerful illustration of what Mr Wallis described as his mutually beneficial relationship with the MPS was his procurement of the exclusive footage of what impact the 'shoe-bomb' would have had if it had exploded in 2001.[^631] Andy Hayman, formerly ACSO within the MPS, recalled this example as being one that "epitomises the relationship" with the NoTW.[^632] He suggested that he had attended a meeting at the NoTW offices to:[^633]
 
-> "… ask the newspaper to show on their internet site a reconstruction of what could have been achieved by the airline plotters in blowing up an aircraft. I was accompanied G at this meeting by Dick Fedorcio, the Director of DPA. It led to the newspaper agreeing to put the reconstruction video on their website, allowing members of the public to access it. It was promoted within the body of an article which they ran inside the newspaper."
+> "… ask the newspaper to show on their internet site a reconstruction of what could have been achieved by the airline plotters in blowing up an aircraft. I was accompanied at this meeting by Dick Fedorcio, the Director of DPA. It led to the newspaper agreeing to put the reconstruction video on their website, allowing members of the public to access it. It was promoted within the body of an article which they ran inside the newspaper."
 
 4.81 Mr Wallis' recollection was that the idea came from him, not Mr Hayman. He said:[^634]
 
@@ -17698,7 +17554,7 @@ The invitation to quote sought strategic communication support and advice; Mr Fe
 
 4.104 Mr Bingle was employed by Bell Pottinger Private Public Relations, and Mr Lewington by Hanover.[^687] Some may argue therefore than the tendering process was immediately balanced in favour of Chamy Media Ltd in terms of the fees likely to be charged. Mr Fedorcio denied this to be the case, and said:[^688]
 
-> "… I've never had to let a contract like this, so this was new territory for me. My G reference points, I suppose, were two in a way. One, I was aware of a colleague who had a daily contract with a London borough at a figure of about £800 a day, and … the Met had a London PR agency working on property matters whose cost, depending on who did the work, varied between £125 and £250 an hour. So that's what my reference was. But I had no idea what either of them were going to pitch … Bell Pottinger recommended one of their – not their top people, one of their junior people to do the work … I was of the view … as I said, previously, I'd been looking at potential suppliers. I'd had a list in my mind, which included these two. It included a couple of others as possibilities, but I decided on these at the end of the day. I felt they could do what I was looking for. I knew of them, and I would trust any of them. I would have chosen any of them to do the work."
+> "… I've never had to let a contract like this, so this was new territory for me. My reference points, I suppose, were two in a way. One, I was aware of a colleague who had a daily contract with a London borough at a figure of about £800 a day, and … the Met had a London PR agency working on property matters whose cost, depending on who did the work, varied between £125 and £250 an hour. So that's what my reference was. But I had no idea what either of them were going to pitch … Bell Pottinger recommended one of their – not their top people, one of their junior people to do the work … I was of the view … as I said, previously, I'd been looking at potential suppliers. I'd had a list in my mind, which included these two. It included a couple of others as possibilities, but I decided on these at the end of the day. I felt they could do what I was looking for. I knew of them, and I would trust any of them. I would have chosen any of them to do the work."
 
 %%page 884%%
 
@@ -17766,9 +17622,7 @@ The recruitment by the MPS of Neil Wallis' daughter[^707] G 4.114 On 27 January 
 
 > "Bit of advice plse [sic] – the attached CV belongs to the daughter of Neil Wallis, the Dep Editor of the News of the World. You probably know that Neil has been a great friend (and occasional critic) of the Met in past years and has been a close advisor to Paul [Stephenson] on stuff/tactics in respect of the new Commissionership. Mr Wallis' daughter is looking for a change of direction and something steady – a bit along the lines of the work that my son did recently – although she looks eminently qualified to do something more demanding. I have met her on several occasions and although would not claim to know her well she is clearly bright, very personable and presents well. Clearly there is a vetting issue which would prob [sic] have to go through normal channels unless you advise me otherwise. Be grateful for an early response so I can manage expectations with both Neil and his daughter."
 
-4.117 Mr Yates' description of Mr Wallis is interesting in itself. However, and specifically in relation
-
-G to his involvement in this matter, Mr Yates disagreed that there was at least the perception of influence created by the fact that Mr Wallis' daughter did ultimately obtain a position within the MPS, pointing out that the recipient of the email, Mr Tiplady, was a peer on the management board "who had a reputation for telling it as it is".[^714]
+4.117 Mr Yates' description of Mr Wallis is interesting in itself. However, and specifically in relation to his involvement in this matter, Mr Yates disagreed that there was at least the perception of influence created by the fact that Mr Wallis' daughter did ultimately obtain a position within the MPS, pointing out that the recipient of the email, Mr Tiplady, was a peer on the management board "who had a reputation for telling it as it is".[^714]
 
 4.118 That said, on 15 July 2011 Ms Wallis declared her connection to Mr Wallis in line with MPS policy following her father's arrest the previous day, and on 18 July 2011 the Metropolitan Police Authority (MPA) recorded the conduct of Mr Yates' role in the employment of Ms Wallis and the matter was referred to the IPCC for investigation.[^715] I make it abundantly clear that Mr Wallis' daughter was not, herself, the subject of any investigation and there is (and never has been) the slightest suggestion that she had acted inappropriately in relation to the manner in which she obtained employment with the MPS.
 
@@ -17784,7 +17638,7 @@ Work experience students
 
 4.121 In 2003 or 2004 Mr Fedorcio approached the then editor of The Sun, Rebekah Wade (now
 
-Brooks), to see if his son (who was considering a career in journalism) could undertake a week's relevant work experience. He explained that the arrangements were made between his son's school and the HR department of The Sun and that when he was there:[^717] G
+Brooks), to see if his son (who was considering a career in journalism) could undertake a week's relevant work experience. He explained that the arrangements were made between his son's school and the HR department of The Sun and that when he was there:[^717]
 
 > "… he spent some time on the Bizarre desk. I think he spent some time on the general news desk. I think he also spent some time on the online version of the paper. I'm not totally sure, but that's my recollection."
 
@@ -17902,7 +17756,7 @@ Former senior MPS staff taking media jobs, writing books and articles
 
 4.141 There were certainly differing attitudes to the issue of writing books or performing the role of a media commentator or columnist after leaving office. Lord Condon said that he had personally declined all offers to write a book about his time as Commissioner. Similarly, he declined all offers to be a columnist or retained commentator for particular newspapers, television or radio. He said that he had declined offers:[^762]
 
-> G "… not because I saw anything morally or ethically wrong per se … having spent my career sort of trying to major on integrity, independence, being apolitical, it just seemed that I would have to take decisions and be partial and be drawn into favouring or working with one group over another … my view is there is nothing inherently wrong in that, it just … would have taken me out of my comfort zone …"
+> "… not because I saw anything morally or ethically wrong per se … having spent my career sort of trying to major on integrity, independence, being apolitical, it just seemed that I would have to take decisions and be partial and be drawn into favouring or working with one group over another … my view is there is nothing inherently wrong in that, it just … would have taken me out of my comfort zone …"
 
 4.142 Sir Paul Stephenson expressed doubts about officers publishing soon after leaving office and said:[^763]
 
@@ -17962,7 +17816,7 @@ He did not feel that a cooling off period was the "right thing to do in many res
 
 "one has to trust senior police officers and 99 per cent are completely trustworthy".[^779]
 
-4.151 Whilst mindful of the concerns expressed by Sir Paul Stephenson and Mr House in particular, on balance I have come to the conclusion that consideration should be given to the terms on which ACPO rank officers are engaged and, in particular to whether these terms should be amended to prevent employment by media organisations in much the same way as the previous MPA contracts prevented employment by those with a contractual relationship with the MPS. I appreciate that regard must be had to issues of restraint of trade and, the rights to seek employment to freedom of expression and, additionally, to the public interest in receiving information. With this in mind, it seems to me that a time bar of twelve months would be sufficient to provide an appropriate balance between the rights of the individual and public interest concerns relating to future employment by the media. G
+4.151 Whilst mindful of the concerns expressed by Sir Paul Stephenson and Mr House in particular, on balance I have come to the conclusion that consideration should be given to the terms on which ACPO rank officers are engaged and, in particular to whether these terms should be amended to prevent employment by media organisations in much the same way as the previous MPA contracts prevented employment by those with a contractual relationship with the MPS. I appreciate that regard must be had to issues of restraint of trade and, the rights to seek employment to freedom of expression and, additionally, to the public interest in receiving information. With this in mind, it seems to me that a time bar of twelve months would be sufficient to provide an appropriate balance between the rights of the individual and public interest concerns relating to future employment by the media.
 
 4.152 As I am not in a position to consider all the ramifications of such a proposal my recommendation is, therefore, limited. I set this out in Part G Chapter 4 below.
 
@@ -17984,7 +17838,7 @@ Caryatid having been ACSO during the relevant period of time.[^780] In around 20
 
 5.3 Despite this initially reserved stance towards the media, Mr Hayman confirmed that he would meet with journalists where he believed that it would benefit the MPS and its mission.[^786] He described his professional relationship with the media as becoming "more intense",[^787] as he performed the national roles as ACSO and the ACPO Media Lead. As his professional relationship with the media developed, Mr Hayman clearly understood that their contact with him may have been for a broader purpose than simply to better their understanding of the policing challenges of the time. He said:[^788]
 
-> G "… I think if you look at the media in its broadest sense, which just doesn't include the written media, it includes radio and TV, is that there's not one type, there's all different styles and approaches, just as there are with senior police officers or junior police officers. It would be a lot easier, wouldn't it, if everyone was operating in the same way, but they don't, and therefore I think what I'm trying to say there diplomatically is there may be – I would like to think that the mainstream would see it for what it is, that relationship, but I hope I'm not naïve to realise that there may be other agendas playing which people might seek to exploit."
+> "… I think if you look at the media in its broadest sense, which just doesn't include the written media, it includes radio and TV, is that there's not one type, there's all different styles and approaches, just as there are with senior police officers or junior police officers. It would be a lot easier, wouldn't it, if everyone was operating in the same way, but they don't, and therefore I think what I'm trying to say there diplomatically is there may be – I would like to think that the mainstream would see it for what it is, that relationship, but I hope I'm not naïve to realise that there may be other agendas playing which people might seek to exploit."
 
 5.4 This difference in style and approach to the media by senior individuals within the Police Service, as described by Mr Hayman, has certainly become evident during the course of this Inquiry. There was clearly a social element to the interaction between Mr Hayman and the media. He described his attitude to these more social encounters:[^789]
 
@@ -18012,7 +17866,7 @@ Jane Furniss of the Independent Police Complaints Commission succinctly articula
 
 5.8 Mr Twomey also provided the Inquiry with an insight into the behaviour of Mr Hayman following the consumption of alcohol:[^796]
 
-> G "He was freer in the way he expressed himself. I think if – unguarded – if you mean if he gave away secrets, no, I don't think he did. He certainly didn't do in my presence, not when he was talking about counter-terrorism or anything else, for that matter, and it was always clearly – I'm sorry if I'm repeating myself, but it was always – on those social occasions, there was this strict rule anyway that applied: it was non-reportable."
+> "He was freer in the way he expressed himself. I think if – unguarded – if you mean if he gave away secrets, no, I don't think he did. He certainly didn't do in my presence, not when he was talking about counter-terrorism or anything else, for that matter, and it was always clearly – I'm sorry if I'm repeating myself, but it was always – on those social occasions, there was this strict rule anyway that applied: it was non-reportable."
 
 5.9 Lord Blair would appear to have recognised the dangers inherent in this type of social interaction. He described in his book, 'Policing Controversy', his view that Mr Hayman appeared to be spending a great deal of time with the press, and that there were rumours that he was briefing in an inappropriate manner and had developed a lifestyle of late evenings which could be a danger to his professional standing. To be fair to Mr Hayman, however, Lord Blair acknowledged that he never had any proof that Mr Hayman was briefing inappropriately.[^797] Mr Hayman provided this response to Lord Blair's assertions:[^798]
 
@@ -18027,8 +17881,6 @@ Hospitality
 5.11 Mr Hayman confirmed that following an offer from the NoTW newspaper he had what was described as a working dinner with the journalist Lucy Panton on 8 November 2005.[^800] His attendance was in his capacity as ACSO and he described what might have been discussed:[^801]
 
 > "… I can't be 100 per cent sure about this, but what I can – so I'm in a way speculating, but given the timing of this and it was shortly after the attacks, we were keen – sorry, the News of the World were keen to run campaigns to help tackle the threat from terrorism. They had some rough ideas of what they wanted to do, and I recall trying to guide and give advice on that … So when we talk about working dinner, I can't accurately remember what that was about, but it was certainly in line with my recollection that the paper was being proactive about trying to tackle the whole issue of this unfolding home-grown threat from terrorism."
-
-G
 
 5.12 This working dinner was followed three days later by a meeting at the NoTW offices, again with Ms Panton.[^802] Ms Panton described Mr Hayman as a "work friend" and suggested that she had shared "a couple of lunches, a breakfast meeting, coffees and drinks meetings with him".[^803]
 
@@ -18108,7 +17960,7 @@ negotiations that I think can corroborate what I've said."
 
 5.29 To be clear, Mr Hayman told the Inquiry that when he wrote The Times article he had:[^835]
 
-> "Absolutely no reference to any documents. Indeed, when I left the Met, that would be absolutely inappropriate for me to either try and elicit that or have any conversation about that. This was on what I understood from my recollection, my general broad recollection, of how events were." G
+> "Absolutely no reference to any documents. Indeed, when I left the Met, that would be absolutely inappropriate for me to either try and elicit that or have any conversation about that. This was on what I understood from my recollection, my general broad recollection, of how events were."
 
 Mr Hayman suggested that his reference to 'a handful' of tampered phones accorded with his interpretation of what the evidence had shown and what he had been told at the time.[^836] His evidence was that the reference in his article to the list of those targeted came from his recollection of a brief conversation while Operation Caryatid was taking place with Commander John McDowall, who was standing in for the temporarily absent Peter Clarke.[^837] Mr Hayman could not recall why Commander McDowall had come to him with the list of names and said:[^838]
 
@@ -18146,9 +17998,7 @@ John Yates
 
 > "It's a matter for one's professional judgment and discretion. The vast majority of my dealings with the media would be around the sort of strategic policy issues that I was exposed to in my service at the senior rank. So in terms of the big issues of the day, be it counter terrorism legislation, be it data retention, be it rape policy, for which I was responsible nationally for a number of years, the very vast majority would be around that … I think there's a great value in that in terms of both educating myself, testing hypotheses, testing views, and getting the views back as well, so the last thing I think we would want is policing to be in a bubble and in a vacuum where one isn't connecting to other thinking."
 
-5.36 Mr Yates explained that the nature of the roles and investigations he had been asked to
-
-G undertake meant that he had received significant exposure into how all sections of the mainstream media interacted with the police.[^853] Mr Yates described how he had often become the "public face"[^854] for policing and policy matters, and that he considered that the media were seeking, through their contact with him, fully to understand the context around policing issues or particular events.[^855] As to whether this might be a slightly naïve or benign view of the media's expectation of their dealings with him, Mr Yates said this:[^856]
+5.36 Mr Yates explained that the nature of the roles and investigations he had been asked to undertake meant that he had received significant exposure into how all sections of the mainstream media interacted with the police.[^853] Mr Yates described how he had often become the "public face"[^854] for policing and policy matters, and that he considered that the media were seeking, through their contact with him, fully to understand the context around policing issues or particular events.[^855] As to whether this might be a slightly naïve or benign view of the media's expectation of their dealings with him, Mr Yates said this:[^856]
 
 > "No … because I do think many of those dealings, the vast majority, as I said, had been around understanding the context. If you take, for example, the government's desire to legislate around data retention and the use of police data in its general sense, there was a fundamental misunderstanding about how important that was. So if you have the opportunity to explain that and explain the full context and the value of those sort of issues, then I think I'm doing it in what I believe, and I still believe, was in the best interests of the public and the best interests of policing."
 
@@ -18226,9 +18076,9 @@ Mr Wallis described how he was enlisted by Mr Yates to help to formulate an anti
 
 5.49 The transparency or otherwise of Mr Yates' relationship with Mr Wallis was the subject of some debate. Dick Fedorcio described his understanding of the nature of their friendship as follows:[^889]
 
-> "… I was aware that they knew each other. I was aware that they got on quite well. I understood their contact to be mainly work. I was aware of what I would call sort of banter between them over football matters. Occasionally, John would show me a text that he'd received from Neil Wallis, which would have been passing comment, shall we say, on a recent football result, which Liverpool, John's team he supported, had played in. So I was aware of that sort of interaction. Through that, I think I was aware that on one occasion they went to a football match together, but I couldn't say when G I heard that or where it was."
+> "… I was aware that they knew each other. I was aware that they got on quite well. I understood their contact to be mainly work. I was aware of what I would call sort of banter between them over football matters. Occasionally, John would show me a text that he'd received from Neil Wallis, which would have been passing comment, shall we say, on a recent football result, which Liverpool, John's team he supported, had played in. So I was aware of that sort of interaction. Through that, I think I was aware that on one occasion they went to a football match together, but I couldn't say when
 
-He considered that they had developed a business friendship and "that they'd once been to a match together. But beyond that, I wasn't aware of anything else that took place."[^890]
+I heard that or where it was." He considered that they had developed a business friendship and "that they'd once been to a match together. But beyond that, I wasn't aware of anything else that took place."[^890]
 
 5.50 Mr Fedorcio therefore expressed some surprise to have read about the extent of the out-of- hours contact between Mr Wallis and Mr Yates, indicating that "it was a revelation to me."[^891] Mr Fedorcio suggested that it would have been helpful for him to have been aware of this level of personal contact in his capacity as the Director of Public Affairs, not least because of his need to be kept informed of issues that might create a reputational risk for the MPS.[^892]
 
@@ -18266,9 +18116,7 @@ Mr Yates said that as a consequence Ms Panton "had regular dealings with the pol
 
 5.55 Interestingly, and despite this 'working friendship', Ms Panton was clear that she regarded all police officers she knew as "confidential contacts".[^907] This is obviously understandable given her job as a journalist but does appear to reaffirm the requirement for complete transparency in the relationship between the police and the press so that there can never be any question of impropriety in respect of either side. This requirement becomes all the more apparent when examining some of the interaction between Mr Yates and Ms Panton.
 
-5.56 There were a number of examples of both recorded and un-recorded contact between Mr Yates and Ms Panton in a more social setting.[^908] On 5 November 2009, Mr Yates attended a dinner meeting with Colin Myler, then Editor of the NoTW, and Ms Panton at the Ivy Club restaurant.[^909] The entry within the gifts and hospitality register suggests that the dinner was to "improve understanding of each other's operational environment."[^910] It appears that this formulation was one commonly used in the register where senior officers were meeting with
-
-G a news organisation. Mr Yates said:[^911]
+5.56 There were a number of examples of both recorded and un-recorded contact between Mr Yates and Ms Panton in a more social setting.[^908] On 5 November 2009, Mr Yates attended a dinner meeting with Colin Myler, then Editor of the NoTW, and Ms Panton at the Ivy Club restaurant.[^909] The entry within the gifts and hospitality register suggests that the dinner was to "improve understanding of each other's operational environment."[^910] It appears that this formulation was one commonly used in the register where senior officers were meeting with a news organisation. Mr Yates said:[^911]
 
 > "… I had nothing to do with the formal words, but that was the formal words that appeared to sort of encapsulate it and satisfy the police authority."
 
@@ -18316,7 +18164,7 @@ A perception of bias
 
 5.62 First and foremost, Mr Yates accepted that the general thrust of the article in the Guardian in
 
-G July 2009 was to the effect that phone hacking involved a conspiracy which embraced others at the NoTW and one which possibly went quite high up in that organisation.[^928] Furthermore, it is also correct to note that, at the time of the events, his friend Neil Wallis was the deputy editor of the paper and at the time of the article, he was the executive editor.[^929] Given these facts, it might be argued that it was inadvisable for Mr Yates to have been involved in any way in any exercise of review, reconsideration or reflection upon Operation Caryatid: in short, it can be said that he was simply too close to at least one person who, involved or not, was at the very centre of the organisation. Mr Yates explained why in his view this was not the case:[^930]
+July 2009 was to the effect that phone hacking involved a conspiracy which embraced others at the NoTW and one which possibly went quite high up in that organisation.[^928] Furthermore, it is also correct to note that, at the time of the events, his friend Neil Wallis was the deputy editor of the paper and at the time of the article, he was the executive editor.[^929] Given these facts, it might be argued that it was inadvisable for Mr Yates to have been involved in any way in any exercise of review, reconsideration or reflection upon Operation Caryatid: in short, it can be said that he was simply too close to at least one person who, involved or not, was at the very centre of the organisation. Mr Yates explained why in his view this was not the case:[^930]
 
 > "Well, you might as well ask that to the Commissioner as well and others who knew full well that I had a relationship with Neil Wallis, and, you know, I was looking at this dispassionately from the evidential perspective and I had people advising me on that, and we went through an exercise, and we got to the point we got to. To suggest that I would be influenced otherwise … is wrong. You know, you're talking to a person … who investigated serving government on which the Home Secretary has the final say on my career. I have a reputation and a track record of doing difficult things and doing them in a dispassionate and evidence-based way and that's exactly what I did in this case."
 
@@ -18354,7 +18202,7 @@ As to whether he would have expected Mr Yates to have appreciated this issue of 
 
 5.67 I entirely agree with Sir Paul's analysis in hindsight, although I think that to focus on the sufficiency of Mr Yates' integrity in this matter rather misses the point. Given the allegations in the Guardian article, this was very much more than an investigation which might implicate someone who has been a friend. One of the main concerns of the article was the role of the
 
-G Metropolitan Police and this, therefore, was an important reputational issue. The additional potential risk of further damage created by the perception that any reconsideration was being conducted by 'a friend' became all the more important. Sir Paul now accepts this to be true and he offered this explanation of his thinking and that of the MPS at the time:[^939]
+Metropolitan Police and this, therefore, was an important reputational issue. The additional potential risk of further damage created by the perception that any reconsideration was being conducted by 'a friend' became all the more important. Sir Paul now accepts this to be true and he offered this explanation of his thinking and that of the MPS at the time:[^939]
 
 > "… there clearly was a perception of risk … But I would come back – the reason for giving – it's a little too grand to call it analysis, but some level of thinking around why I think we might have got this wrong, that defensive mindset – I suspect that defensive mindset set in very early, for all the reasons I outlined, that stopped us going back and challenging what was the reason for the original investigation stopping short, albeit we didn't know it stopped short. I think that is the more likely reason why Mr Yates didn't decide that he had a conflict or not."
 
@@ -18468,7 +18316,7 @@ As to the level of his contact with Mr Wallis, Sir Paul said:[^985]
 
 5.86 Sir Paul was absent from work through injury and illness between mid-December 2010 and early April 2011.[^986] Operation Weeting had commenced during his period of absence[^987] and Sir Paul described his general stance towards NI on his return:[^988]
 
-> "… I wouldn't have refused to engage with anybody from News International, but I do G think that once – Weeting was mounted. I was briefed on it briefly when I returned and realised that this was of a different order than we'd, for whatever reason, realised before. I'd have been much more circumspect in meeting with News International, yes."
+> "… I wouldn't have refused to engage with anybody from News International, but I do think that once – Weeting was mounted. I was briefed on it briefly when I returned and realised that this was of a different order than we'd, for whatever reason, realised before. I'd have been much more circumspect in meeting with News International, yes."
 
 %%page 926%%
 
@@ -18542,7 +18390,7 @@ He added that:[^999]
 
 6.5 That being said, Lord Condon recognised the danger of simply accepting that the mere existence of the Inquiry had in fact provided a solution to some of the very important issues raised by the evidence that has been heard. This is particularly true given his diagnosis of the Police Service's historical cycle of malpractice, for he went on to conclude:[^1011]
 
-> "… history tells us that unless your report [the final Inquiry report] has within it things which are not ephemeral but are enduring, that do demand checks, that do demand G action, that do allow auditing and monitoring and checking of these relationships, then the default position is in 10, 15 years' time to get to that complacency point on that cycle again … I think the challenge is to find that something which avoids the massive bureaucracy, which will be superficial, and something that really hits the spot, that does encourage change that is lasting … there are issues around very strong national guidance around police behaviour in relation to the media, reinforcement of what is appropriate, condemnation of what is wrong, and so on."
+> "… history tells us that unless your report [the final Inquiry report] has within it things which are not ephemeral but are enduring, that do demand checks, that do demand action, that do allow auditing and monitoring and checking of these relationships, then the default position is in 10, 15 years' time to get to that complacency point on that cycle again … I think the challenge is to find that something which avoids the massive bureaucracy, which will be superficial, and something that really hits the spot, that does encourage change that is lasting … there are issues around very strong national guidance around police behaviour in relation to the media, reinforcement of what is appropriate, condemnation of what is wrong, and so on."
 
 Lord Stevens
 
@@ -18660,8 +18508,6 @@ Accountability; Supervision and Leadership; Security, Screening and Vetting; and
 
 7.7 Lord Stevens explained that the concerns were expressed at quite a high level of generality and did not relate to any specific sections of the media. Despite these ongoing concerns, Lord Stevens believed that the Corruption and Dishonesty Prevention Strategy implemented during Lord Condon's period as Commissioner had achieved "a great deal", and had brought about a change in culture "through making sure there was a process by which corruption could be reported and ensuring that any personnel involved were arrested and prosecuted."[^1045]
 
-G
-
 7.8 During the course of the Inquiry there were a small number of references to historic corruption within the Police Service. Sir Harold Evans, former editor of The Times, gave evidence that The Times had made a surreptitious recording of a transaction:[^1046]
 
 > "… between a corrupt policeman and a crook, and that led to the complete reform of Scotland Yard, and then Sir Robert came in, Robert Mark came in, and Scotland Yard began rooting out really massive corruption …"
@@ -18698,7 +18544,7 @@ Operations at the newly formed Anti-Corruption Squad, and then in February 2000 
 
 7.13 Mr Quick explained that as a result of the intelligence garnered from Operation Nigeria, in about 2000, he had written a short report highlighting the role of journalists in promoting corrupt relationships with, and making corrupt payments to, police officers for stories about famous people and high profile investigations in the MPS.[^1056] Given the passage of time the report is no longer available, however, Mr Quick described his purpose in writing it:[^1057]
 
-> "… I and others in my command became concerned about these relationships between journalists and police officers who were suspected of corruption, and it became apparent that some officers were being bribed to provide stories; some of the officers G were providing them directly or from their own contacts within the Metropolitan Police, and I formed the view that that was a threat to the organisation and compiled a short report, to my recollection, proposing that we might deal with that by way of an investigation that looked at the financial transactions."
+> "… I and others in my command became concerned about these relationships between journalists and police officers who were suspected of corruption, and it became apparent that some officers were being bribed to provide stories; some of the officers were providing them directly or from their own contacts within the Metropolitan Police, and I formed the view that that was a threat to the organisation and compiled a short report, to my recollection, proposing that we might deal with that by way of an investigation that looked at the financial transactions."
 
 7.14 Furthermore, Mr Quick said that he believed:[^1058]
 
@@ -18736,7 +18582,7 @@ G that Commander Hayman prosecuted his arguments with all sincerity."
 
 7.21 Her Majesty's Inspector of Constabulary, Roger Baker, informed the Inquiry that HMIC, through its review, did not find:[^1068]
 
-> "… evidence to support any contention of endemic corruption in Police Service relationships, either in relation to the media or more generally, with the majority of police officers and staff striving to act with integrity." G
+> "… evidence to support any contention of endemic corruption in Police Service relationships, either in relation to the media or more generally, with the majority of police officers and staff striving to act with integrity."
 
 However, HMIC concluded that many forces were insufficiently risk aware. He identified as specific weaknesses the "absence of clear boundaries" regarding outside relationships and the "lack of consistent standards, policies and procedures" across forces.[^1069] In so doing, Mr Baker noted the importance of public perception as well as the reality, and called for a "nationally agreed" approach to proactive governance and oversight of this issue.[^1070]
 
@@ -18768,9 +18614,7 @@ News of the World for the provision of confidential information.[^1079] In attem
 
 > "… we did an analysis some years ago of what the corruption problem being faced by the Met was, it was reasonably clear that we had broken network corruption of networks of officers, but the individuals were still out there and one of the trades was information … sitting in front of computers and so on is more likely to be somebody of a lower rank and quite often not a police officer, but a police employee. But I think also, most importantly of all is that senior officers have been through a long process of training and of inculcation of organisational values and I would be very concerned if I was seeing that senior officers were amenable to corruption in the same way as somebody else, somebody more junior. We would have failed."
 
-7.27 He therefore found it "inconceivable that senior colleagues would be taking money directly in this day and age. I just don't think that is possible."[^1086] Even in respect of the most junior officers and staff, Lord Blair was confident in his belief that they would have "understood the stance of the organisation against bribery and other forms of corruption, the lengths to which the organisation would go to uncover it and the penalties for being caught in corrupt
-
-G activities."[^1087] Lord Blair concluded by observing:[^1088]
+7.27 He therefore found it "inconceivable that senior colleagues would be taking money directly in this day and age. I just don't think that is possible."[^1086] Even in respect of the most junior officers and staff, Lord Blair was confident in his belief that they would have "understood the stance of the organisation against bribery and other forms of corruption, the lengths to which the organisation would go to uncover it and the penalties for being caught in corrupt activities."[^1087] Lord Blair concluded by observing:[^1088]
 
 > "I accept Lord Condon's remark that the MPS is the 'cleanest big-city police force in the world', although I also accept that corruption is not cyclical but a permanent and evolving threat. I believe that, in the countering of that threat, the MPS is amongst the finest forces in the World."
 
@@ -18854,12 +18698,9 @@ Filkin's report on the relationship between the MPS and the media, all of which 
 
 Having said that, Ms Owers reports that some of the investigations undertaken by the IPCC had revealed serious corruption within the Police Service, sometimes at a senior level and sometimes preying upon precisely those vulnerable individuals whom the police were required to protect. On the other hand, providing a measure of reassurance, she pointed out that many of these cases had come to light as a direct result of the action taken by local forces and police authorities.[^1119]
 
-8.8 The report provides a summary of the outcome of all police corruption cases investigated by the IPCC between the period 2008/9 and 2010/11:[^1120] G
+8.8 The report provides a summary of the outcome of all police corruption cases investigated by the IPCC between the period 2008/9 and 2010/11:[^1120]
 
-• Of the 104 independent and managed investigations considered during this period, the
-
-> IPCC referred 47 (45%) cases to the CPS. In the 42 of those cases completed [at the time of the report's publication], involving 51 officers, 18 officers were charged and prosecuted, 13 were found guilty and 10 were imprisoned. In terms of rank, most of the officers were constables, with one being a sergeant and one being of ACPO rank.
-
+- Of the 104 independent and managed investigations considered during this period, the IPCC referred 47 (45%) cases to the CPS. In the 42 of those cases completed [at the time of the report's publication], involving 51 officers, 18 officers were charged and prosecuted, 13 were found guilty and 10 were imprisoned. In terms of rank, most of the officers were constables, with one being a sergeant and one being of ACPO rank.
 - Of the 113 officers subject to completed IPCC investigations, 87 (77%) were the subject of misconduct proceedings. These resulted in a finding of gross misconduct or misconduct for 76 (87%) of officers. In 18% of cases, officers were dismissed or required to resign, 34% of officers were given a written warning and 29% were subject to management action.
 
 8.9 Although concluding that there was nothing to suggest that police corruption was endemic, or that police forces and authorities were not making serious efforts to identify and deal with it when it did occur, the report did however identify a number of suggested areas for change.
@@ -18912,7 +18753,7 @@ HMIC in his own terms:[^1128]
 
 9.5 HMIC's principal statutory duties are set out in the Police Act 1996 (as amended in 2002) and the Police and Justice Act 1996.[^1132] Within this statutory framework, Sir Denis described HMIC's role as providing an incentive for police forces to improve effectiveness and value for money in a monopoly sector.[^1133] Unlike many regulators, HMIC does not have the power to impose standards or prices but instead seeks to secure improvement through the provision of an independent, professional assessment of police work.[^1134] Against this backdrop, Sir Denis described HMIC's powers over individual police forces:[^1135]
 
-> "HMIC has the power to inspect the efficiency and effectiveness of police forces and currently police authorities. That will change in November. It will be restricted to the police forces. Since January 2, I have sought and at my behest, we have had power to seize documents and to enter premises, in order to pursue our duties. Not, dare I say, that we have been challenged, but it is best to be prepared, not just legislate for G good times."
+> "HMIC has the power to inspect the efficiency and effectiveness of police forces and currently police authorities. That will change in November. It will be restricted to the police forces. Since January 2, I have sought and at my behest, we have had power to seize documents and to enter premises, in order to pursue our duties. Not, dare I say, that we have been challenged, but it is best to be prepared, not just legislate for good times."
 
 9.6 Sir Denis told the Inquiry that in normal circumstances, police authorities and, in future, Police and Crime Commissioners (PCCs) would regulate the activities of police forces. However, in extreme circumstances of sustained failure, HMIC could provide advice to the Home Secretary who had powers to direct the authority (or the IPCC).[^1136] When an issue emerged as being of national importance or one which was clearly systemic in nature, the Home Secretary may ask HMIC to conduct a review or, with a degree of independence, HMIC may initiate one itself.[^1137] Sir Denis told the Inquiry that, by emerging convention, if a clear and present issue emerged, HMIC could tackle that issue whether or not required to do so by the Home Office or identified within the business plan.[^1138] By way of example, he referred to the G20 summit and Anti-Social Behaviour.
 
@@ -18946,7 +18787,7 @@ Police Service and liaising with media experts, including the CRA, HMIC looked a
 
 9.12 HMIC also undertook a number of benchmarking exercises across the public and private sector, both nationally and internationally.[^1148] Mr Baker provided a summary of the findings:[^1149]
 
-> G "… we contacted not only police forces, nationally and internationally, but other organisations to take a view on all of the component parts of this report. So what were their relationships with the media and how did they manage it, some of which is cited in the report. So the New South Wales Police media policy, how New York Police Department dealt with integrity testing, because they have a 650-strong team on internal affairs that are separate from the police, if you like. I don't necessarily advocate that model. But also other organisations such as banks, charity organisations – so third sector – on how they were dealing with inappropriate disclosures of information and relationships. So not just about policing, but added the Police Service benchmark, and we didn't find the cure for this in any other organisation. In fact, in many parts, the Police Service in England and Wales was a lot stronger than many
+> "… we contacted not only police forces, nationally and internationally, but other organisations to take a view on all of the component parts of this report. So what were their relationships with the media and how did they manage it, some of which is cited in the report. So the New South Wales Police media policy, how New York Police Department dealt with integrity testing, because they have a 650-strong team on internal affairs that are separate from the police, if you like. I don't necessarily advocate that model. But also other organisations such as banks, charity organisations – so third sector – on how they were dealing with inappropriate disclosures of information and relationships. So not just about policing, but added the Police Service benchmark, and we didn't find the cure for this in any other organisation. In fact, in many parts, the Police Service in England and Wales was a lot stronger than many
 
 %%page 952%%
 
@@ -18988,7 +18829,7 @@ G and
 
 > "… the chief officer and the chief officer team were very clear on what was right and what was wrong and that was being articulated in not only bits of paper but the way they behaved, you would get that feedback from the staff, but you'd also see it when you tested some of those areas of business. Where they would bring in that clarity to it, we found a difference."
 
-9.20 The report also made clear that visible and consistent leadership was a key factor in ensuring good force corporate governance and oversight. HMIC argued that this was more than just systems and processes, but also required those in charge of the organisation and those who represented it to be consistent in demonstrating appropriate behaviour: they should promote its values in pursuit of its objectives.[^1161] As Sir Denis put it, "they are stewards of the reputation of the organisation."[^1162] G
+9.20 The report also made clear that visible and consistent leadership was a key factor in ensuring good force corporate governance and oversight. HMIC argued that this was more than just systems and processes, but also required those in charge of the organisation and those who represented it to be consistent in demonstrating appropriate behaviour: they should promote its values in pursuit of its objectives.[^1161] As Sir Denis put it, "they are stewards of the reputation of the organisation."[^1162]
 
 9.21 To that end, the report suggested that:[^1163]
 
@@ -19004,7 +18845,7 @@ Recommendations
 
 9.22 HMIC stressed that at the heart of the issues that it considered within its review was the importance of integrity, both personal and organisational, which they say was evident and transparent in the way individuals behaved and how forces and authorities conducted their business.[^1165] It was against this backdrop that HMIC made the following principal recommendations:[^1166]
 
-> - "Forces and authorities institute robust systems to ensure risks arising from relationships, information disclosure, gratuities, hospitality, contracting and secondary employment are identified. Monitored and managed. They should ideally do so on the basis of national standards and expectations – there are no geographical variables when it comes to integrity and there should not be local differences in standards. This work on national standards should be encouraged G by the Home Office and promoted by leaders in the Service locally.
+> - "Forces and authorities institute robust systems to ensure risks arising from relationships, information disclosure, gratuities, hospitality, contracting and secondary employment are identified. Monitored and managed. They should ideally do so on the basis of national standards and expectations – there are no geographical variables when it comes to integrity and there should not be local differences in standards. This work on national standards should be encouraged by the Home Office and promoted by leaders in the Service locally.
 > - There should be clear boundaries and thresholds in relation to these matters. Such limits should be consistent and Service wide. This in effect means identifying a clear message for staff on these issues as to what is acceptable, what is unacceptable and what areas of vulnerability to avoid. ACPO should lead this work in partnership with staff associations and those involved in police governance.
 > - Training courses should include appropriate input in relation to integrity and anti-corruption. In particular, given the importance of leadership to securing high standards of integrity (a theme which runs through this review), the Strategic Command Course (in January 2012) and the High Potential Development Scheme should encompass these issues. Chief Constables should review how much effort is being put into briefing their staff on the standards as to what is acceptable, unacceptable and on the areas of potential vulnerability.
 > - Chief officer teams should review their corporate governance and oversight arrangements to ensure that those arrangements are fulfilling their function in helping promote the values of their force in the delivery of its objectives, and that they are, through their actions and behaviours, promoting the values of the organisation and making sure good corporate governance is seen as a core part of everyday business. • HMIC expects the Service to have detailed proposals in the above areas ready for consultation with all relevant parties by April 2012. • An assessment relating to these matters should be conducted by HMIC by October 2012 to inform incoming Police and Crime Commissioners and Police and Crime Panels."
@@ -19013,7 +18854,7 @@ Recommendations
 
 9.23 Having received a draft version of the report in late November 2011, the Home Secretary wrote to Sir Denis on 6 December 2011 setting out her initial views on the findings and recommendations. The Home Secretary understandably welcomed HMIC's finding that corruption was not endemic in British policing, but stressed that, more generally, the conclusions of his report presented an urgent wake up call for police leaders. She accepted the proposed recommendations of HMIC as "valuable steps" towards addressing the concerns raised by the review.[^1167] However, the Home Secretary also pushed for a greater sense of pace and urgency from the Police Service in developing more robust and consistent arrangements, and requested that a more direct challenge be made to current police leaders to make the point that dealing with the findings of the report was their personal responsibility, individually as well as collectively.[^1168] These two points were addressed within the final version of the report published in December 2011, and encapsulated within the recommendations reproduced above.
 
-9.24 Having identified a number of recommendations to tackle the issues identified by the HMIC report, in his evidence to the Inquiry Sir Denis synthesised the key steps that now needed to be taken by the Police Service to recalibrate its relationship with the media in this way:[^1169] G
+9.24 Having identified a number of recommendations to tackle the issues identified by the HMIC report, in his evidence to the Inquiry Sir Denis synthesised the key steps that now needed to be taken by the Police Service to recalibrate its relationship with the media in this way:[^1169]
 
 > "… I take the view that there does need to be a significant revision in the way the relationship operates, but I would absolutely want to reassert with you: not actually in order to shrink the relationship but to put it on the right footing. Now getting it right means putting, to me, as a starter at least … some kind of framework for integrity in those dealings, which would have three components … These are some considerations in developing the right relationship, and I think that's probably the best one can say about them, but they're based on the idea that you put some kind of framework of integrity in place and then you support it in a number of ways … Three considerations in that would be: in their interactions with the media, there must be a legitimate policing purpose, whether it's a constable or a chief constable, and it should be more than relationship-building and relate to the core values and standards of policing. That's why I think it's important to establish those values, standards … part of the challenge is there are several sets around from the attestation, which I think, if you are familiar with it, you know, is quite moving, all the way through to – covers professional conduct to a statement of professional values. My instinct is that they're all worthy and as long as they crystallise what we hope from the police, they're a reference point in whether you actually have a legitimate policing purpose, which is likely to prevent crime and help people and help the investigation, than not …
 
@@ -19023,9 +18864,7 @@ Recommendations
 
 9.25 Sir Denis also suggested that there may need to be some mechanism whereby a police officer or member of police staff who was particularly concerned about an aspect of police behaviour (such as, for example, the suppression of an investigation) was able to report that concern and have it seriously considered without having to use the press as a vehicle to expose the wrongdoing.[^1170] The value of a route for whistle-blowing is that serious concerns could be addressed without prompting an allegation of disloyalty to the police although, ultimately, always leaving open the ability to go to the press in the public interest.
 
-9.26 Sir Denis accepted that in providing an alternative route to raising concerns with the press, in parallel, the police would have to be more ready to admit where things had not gone as well as they might have done.[^1171] Sir Denis also accepted an obvious potential danger with such a
-
-G system: that by moving to a stronger framework which tightened down the basis for contact, there was a risk of closing off an important avenue for revealing wrongdoing.[^1172] This "public interest safety valve process"[^1173] as it was described by Sir Denis, is obviously a very important part of what the press is in a position to achieve and one of the responsibilities that it has in our society: it is a role which I have no doubt that they should be able to continue to perform. This is an important issue and one to which it will be necessary to return in the concluding sections of this chapter.
+9.26 Sir Denis accepted that in providing an alternative route to raising concerns with the press, in parallel, the police would have to be more ready to admit where things had not gone as well as they might have done.[^1171] Sir Denis also accepted an obvious potential danger with such a system: that by moving to a stronger framework which tightened down the basis for contact, there was a risk of closing off an important avenue for revealing wrongdoing.[^1172] This "public interest safety valve process"[^1173] as it was described by Sir Denis, is obviously a very important part of what the press is in a position to achieve and one of the responsibilities that it has in our society: it is a role which I have no doubt that they should be able to continue to perform. This is an important issue and one to which it will be necessary to return in the concluding sections of this chapter.
 
 The response
 
@@ -19055,7 +18894,7 @@ The issue of recording contact between police officers and the media and the pos
 
 9.32 ACPO is leading the response to the HMIC report on behalf of the Police Service[^1191] and, by October 2012, HMIC will have conducted a further assessment of the progress made by police forces and authorities in addressing the recommendations contained within the report.[^1192] In relation to the general response by the police to the issues raised by this report, and with an eye to the future, the Home Secretary said:[^1193]
 
-> G "... I'm very keen that ACPO take the lead in this, as they are now beginning to do. The only thing I would add is that of course, in the future, there will be a different structure available within which these sorts of matters can be considered by the police, namely the police professional body which the government is establishing, which will be established by the end of this year, which will be looking at standards across a whole range of activities in relation to policing, for police officers and police staff."
+> "... I'm very keen that ACPO take the lead in this, as they are now beginning to do. The only thing I would add is that of course, in the future, there will be a different structure available within which these sorts of matters can be considered by the police, namely the police professional body which the government is establishing, which will be established by the end of this year, which will be looking at standards across a whole range of activities in relation to policing, for police officers and police staff."
 
 %%page 960%%
 
@@ -19184,9 +19023,7 @@ The Police and Justice Act 2006 confirms ACPO as a statutory consultee, and, as 
 
 > "… I have no operational responsibility or indeed authority at all. My job is to really bring together and through negotiation … get consistent national policies through what we call the Chief Constables' Council, which meets four times a year … My only technical operational responsibility, for example, if the fuel strike comes off, I will be responsible for making sure government is fully informed through Cobra and the Cabinet Office briefing room and my office will be responsible for co-ordinating any necessary movements of police officers around the country, as happened in the serious disturbances in August and as will happen in the pre-planned events around the Olympics. We co-ordinate the movement but the movement is given permission or authority by individual chief constables."[^1237]
 
-11.6 As Sir Hugh made clear, each police force operates independently of one another and manages communications with the media in respect of its own local policing. The role of ACPO is to provide a national voice for the Police Service to "explain, inform and defend the operational
-
-G work of the police service to cut crime and protect life."[^1238] Sir Hugh described this role in more detail:
+11.6 As Sir Hugh made clear, each police force operates independently of one another and manages communications with the media in respect of its own local policing. The role of ACPO is to provide a national voice for the Police Service to "explain, inform and defend the operational work of the police service to cut crime and protect life."[^1238] Sir Hugh described this role in more detail:
 
 > "It's very much providing a facility that enables the national media to go … to a single point of contact on matters that are of national interest, so in that sense we try and support the local forces where necessary. ACPO itself I describe very much as almost a band of volunteers. The business area work which is undertaken by chief constables … is to try and provide continuity, consistency and at the top end of our business, a consistent approach to the serious threats this country faces, be it terrorism, international crime, public order, those sorts of issues, where you have to have a
 
@@ -19212,7 +19049,7 @@ consistent approach."[^1239]
 
 11.12 Sir Hugh concurred with this assessment. He said:[^1251]
 
-> "… There's always a tension between, you know, the clear steer of the current government towards a local bespoke style of policing and localism and driving down responsibility and there's always that tension between local agendas, local policies, local procedures, and the national central agenda. So it's always a robust debate. I think certainly within the Police Service there's common agreement, it makes absolute sense that you can have one consistent approach, for example in relation to gifts and hospitality. The public will not understand why the standards are different across the country …"[^1252] In relation to ACPO taking the lead on the Police Service's response to the HMIC report, he made the point that: "… ACPO can mobilise quite quickly in G response to HMI, for example, when it's seen as critical to delivering a new policy, a new consistent policy which is important in terms of public confidence …"
+> "… There's always a tension between, you know, the clear steer of the current government towards a local bespoke style of policing and localism and driving down responsibility and there's always that tension between local agendas, local policies, local procedures, and the national central agenda. So it's always a robust debate. I think certainly within the Police Service there's common agreement, it makes absolute sense that you can have one consistent approach, for example in relation to gifts and hospitality. The public will not understand why the standards are different across the country …"[^1252] In relation to ACPO taking the lead on the Police Service's response to the HMIC report, he made the point that: "… ACPO can mobilise quite quickly in response to HMI, for example, when it's seen as critical to delivering a new policy, a new consistent policy which is important in terms of public confidence …"
 
 11.13 Sir Hugh reported that the main element of the ACPO response relating to Police Service integrity and corruption was being led through the national lead for Professional Standards, Chief Constable Mike Cunningham. The ACPO response to those HMIC recommendations which specifically dealt with media relationships has been addressed under the leadership of Chief Constable Andy Trotter.[^1253] I will deal with each in turn.
 
@@ -19278,7 +19115,7 @@ Police Superintendents' Association of England and Wales (PSAEW) have misconduct
 
 … would assist the person who's making a judgment in relation to that breach in order to form a view as to the severity of that breach."[^1268]
 
-11.20 In leading on the response by ACPO to the HMIC report 'Without Fear or Favour – A Review of Police Relationships', Mr Cunningham confirmed that three principal sets of guidance were being developed to address the report's recommendations; the first relates to the acceptance of gifts and hospitality; the second relates to officers taking secondary employment or having business interests; and the third relates to the police's relationship with the press and the media, on which Chief Constable Andy Trotter is leading.[^1269] Mr Cunningham candidly admitted that the delivery of national guidance would be a "challenge for the service."[^1270] He expanded on this point and said: G
+11.20 In leading on the response by ACPO to the HMIC report 'Without Fear or Favour – A Review of Police Relationships', Mr Cunningham confirmed that three principal sets of guidance were being developed to address the report's recommendations; the first relates to the acceptance of gifts and hospitality; the second relates to officers taking secondary employment or having business interests; and the third relates to the police's relationship with the press and the media, on which Chief Constable Andy Trotter is leading.[^1269] Mr Cunningham candidly admitted that the delivery of national guidance would be a "challenge for the service."[^1270] He expanded on this point and said:
 
 > "… We clearly, I think, acknowledge and agree with HMIC that national guidance is required in these areas … What will be a challenge will be to phrase that guidance in such a way as it can be applied to very different circumstances in different places. It needs to be sufficiently high level to be applicable to those different circumstances, yet sufficiently detailed to be meaningful. That's the balance we're trying to strike."[^1271]
 
@@ -19340,7 +19177,9 @@ Andy Trotter, Chair of the ACPO Communications Advisory Group (CAG).[^1308] In d
 
 11.37 A number of key principles underpin the guidance. Given their relevance I will reproduce them in full:[^1315]
 
-> "Legitimacy is an essential aspect of the British policing model, based on consent. The press and other forms of media play an important part in assuring police legitimacy and protecting the public interest. Police interaction with the media should be guided by a legitimate policing purpose, which is one related to the core values and standards of policing, set out in the Statement of Mission and Values. G The relationship between police and media should be undertaken in a manner which lives up to the highest standards of impartiality and integrity. The police service has a duty to safeguard the confidentiality and integrity of information, which must be balanced against the duty to be open and transparent wherever possible."
+> "Legitimacy is an essential aspect of the British policing model, based on consent. The press and other forms of media play an important part in assuring police legitimacy and protecting the public interest. Police interaction with the media should be guided by a legitimate policing purpose, which is one related to the core values and standards of policing, set out in the Statement of Mission and Values.
+
+> The relationship between police and media should be undertaken in a manner which lives up to the highest standards of impartiality and integrity. The police service has a duty to safeguard the confidentiality and integrity of information, which must be balanced against the duty to be open and transparent wherever possible."
 
 11.38 It is clear that a degree of confusion has existed in relation to the terminology used by journalists to establish the basis for a conversation with police officers and police staff (see section 2 above). The guidance attempts to address this issue by providing a set of general definitions:[^1316]
 
@@ -19464,7 +19303,7 @@ Article 8 and fair trial under Article 6 of the European Convention on Human Rig
 
 There are also issues of perception and favouritism, although the evidence I have heard falls short of suggesting anything close to an exchange of favours.
 
-3.2 I have already pointed out that there is existing ACPO Guidance[^9] and formal MPS policy[^10] on this issue. The question arises as to whether these documents are sufficient to assuage public concerns in this respect. As I have made clear above,[^11] I detected in much of the reflective evidence I heard on this issue a sense that there needs to be a further tightening of the current approach. G
+3.2 I have already pointed out that there is existing ACPO Guidance[^9] and formal MPS policy[^10] on this issue. The question arises as to whether these documents are sufficient to assuage public concerns in this respect. As I have made clear above,[^11] I detected in much of the reflective evidence I heard on this issue a sense that there needs to be a further tightening of the current approach.
 
 3.3 Overall I would endorse the general views of the Commissioner, Bernard Hogan-Howe, and
 
@@ -19481,8 +19320,6 @@ Forces must also have directly in mind a consideration of any potential and cons
 > "On the record – means that a journalist can report, quote and name their source. Where possible, all conversations should be on this basis and it should always be assumed that a conversation is on the record unless expressly agreed otherwise in advance. Background/guidance – means that information provided can be reported without it being attributed to a source, whether named or not. This is sometimes used to provide further context around an on the record statement. Off-the-record – means that use of information provided is restricted altogether. Occasionally there may be a legitimate reason for an off-the-record conversation or briefing to take place, such as where news reporting may have an impact on a current investigation or as a means of preventing inaccuracies or misunderstanding."
 
 4.2 I have already recognised that the use of off-the-record briefings, properly understood, may be a valuable resource in the context of an established, trusting relationship between a police officer and a journalist. Without seeking to revisit the terminological debate, background/ guidance briefings are also capable of working in the public interest, as opposed to the private interests of the police officer or the journalist. On the other hand, risks clearly exist and these are of a similar nature to those already highlighted in Sections 2 and 3 above: the potential for confidential information to be disseminated and then published; the perception that inappropriate relationships will be created and favours exchanged.
-
-G
 
 4.3 I have already pointed out that Elizabeth Filkin in her report into the ethics of the press and police relationship, agreed that there was value for the Police Service in the limited and responsible use of 'off-the-record' communications. She was specific about this:[^13]
 
@@ -19580,7 +19417,7 @@ That issue may be sub-divided into two segments. Taking first the position of ju
 
 I have concluded that it would be wrong to place restrictions, for example in the form of a
 
-'cooling off' period, on police officers and staff below ACPO rank leaving the Police Service, perhaps to return to a career in the media. In practice, the evidence suggests that journalists leaving the police service for an employed job rarely return to journalism. In addition, any restrictions would clearly have to be balanced against the right of any individual to seek employment as and where he or she wishes. In these circumstances, I believe that it would be contrary to the public interest to impose any restrictions of the type described. G
+'cooling off' period, on police officers and staff below ACPO rank leaving the Police Service, perhaps to return to a career in the media. In practice, the evidence suggests that journalists leaving the police service for an employed job rarely return to journalism. In addition, any restrictions would clearly have to be balanced against the right of any individual to seek employment as and where he or she wishes. In these circumstances, I believe that it would be contrary to the public interest to impose any restrictions of the type described.
 
 7.4 The position is different as regards senior officers of ACPO rank. The Inquiry received a considerable body of evidence which reflected public concern of very senior officers taking media jobs (usually on retirement), or writing articles for the press; I do not touch the question of books or memoires. This issue is intertwined in the public mind with the broader perceptual questions surrounding the relationship between senior officers of the MPS and
 
@@ -20518,9 +20355,7 @@ The Press and Data Protection
 
 1.3 It has the following features:
 
-(a) The law identifies broad principles requiring businesses acquiring and using personal information to do so lawfully, fairly, accurately, for specific purposes and to the limited extent necessary for those purposes; the information must be kept safely and individuals have legally enforceable rights to know what information is held about them, to see it, and to ensure that it is accurate. (b) There are a number of specific exceptions to those rights and principles, including exemptions designed to balance those rights with other individual rights, such as
-
-H freedom of expression, and other public interests such as crime prevention. (c) The regime (along with the regime for freedom of information) is the responsibility of the Information Commissioner who has statutory power to investigate and rule on breaches, and enforce compliance (including by court action and prosecution). The Commissioner also has a wide-ranging function to promote awareness, compliance, and good practice over and above the basic legal requirements, including by education, guidance, publications and reporting to Parliament.
+(a) The law identifies broad principles requiring businesses acquiring and using personal information to do so lawfully, fairly, accurately, for specific purposes and to the limited extent necessary for those purposes; the information must be kept safely and individuals have legally enforceable rights to know what information is held about them, to see it, and to ensure that it is accurate. (b) There are a number of specific exceptions to those rights and principles, including exemptions designed to balance those rights with other individual rights, such as freedom of expression, and other public interests such as crime prevention. (c) The regime (along with the regime for freedom of information) is the responsibility of the Information Commissioner who has statutory power to investigate and rule on breaches, and enforce compliance (including by court action and prosecution). The Commissioner also has a wide-ranging function to promote awareness, compliance, and good practice over and above the basic legal requirements, including by education, guidance, publications and reporting to Parliament.
 
 1.4 Successive Information Commissioners have worked hard and tirelessly to raise the profile of data protection within businesses, and to support public awareness, including by tackling 'myths' and unnecessarily risk-averse behaviour, and promoting straightforward and commonsense business practices.
 
@@ -20536,7 +20371,7 @@ H freedom of expression, and other public interests such as crime prevention. (c
 
 2. The ICO: structure, governance and approach
 
-2.1 The Information Commissioner is a 'corporation sole' appointed by Her Majesty The Queen and independent of Government who (like the senior judiciary) can only be dismissed pursuant to an Address from both Houses of Parliament. He is funded by fees and grant-in-Chapter 1 | Introduction aid voted by Parliament and supported through the Lord Chancellor and Ministry of Justice. Operationally independent, the full functions of the Office are exercised personally though the office holder who appoints staff who work by direct delegation from him. Between 2002 and 2009, the Commissioner was Richard Thomas, a solicitor by training. He was based in offices in Wilmslow and had two deputies and the office now has over 300 staff (including lawyers and investigators). The operational investigations department reported to him via one of the Deputies. Francis Aldhouse, also a solicitor, fulfilled this Deputy role from 1984 (in the precursor organisations) until his retirement in 2006.
+2.1 The Information Commissioner is a 'corporation sole' appointed by Her Majesty The Queen and independent of Government who (like the senior judiciary) can only be dismissed pursuant to an Address from both Houses of Parliament. He is funded by fees and grant-inaid voted by Parliament and supported through the Lord Chancellor and Ministry of Justice. Operationally independent, the full functions of the Office are exercised personally though the office holder who appoints staff who work by direct delegation from him. Between 2002 and 2009, the Commissioner was Richard Thomas, a solicitor by training. He was based in offices in Wilmslow and had two deputies and the office now has over 300 staff (including lawyers and investigators). The operational investigations department reported to him via one of the Deputies. Francis Aldhouse, also a solicitor, fulfilled this Deputy role from 1984 (in the precursor organisations) until his retirement in 2006.
 
 %%page 1001%%
 
@@ -20626,9 +20461,7 @@ DPA. However, the nature of these is not fully understood and it is for this rea
 
 1.17 I have no doubt that this analysis is both important and valid. It was for that reason that I took the view that it was both appropriate and correct that Mr Owens should produce the Motorman material to the Inquiry but that (given the privacy of those whose records had been mined), it should be seen by the core participants under strict confidentiality and should remain in redacted form.[^20] Having said that, I summarised the effect of the evidence in this way:[^21]
 
-"It's abundantly clear, looking at the electronic records, which you've checked against
-
-H the actual documents, that Mr Whittamore had collected together a vast amount of personal data. The documents identify the names of titles and specific journalists at the titles apparently or inferentially making the request. It identifies the names of people from a wide range of public life and in the public eye, and provides addresses, telephone numbers, mobile telephone numbers and charging details for that information. It's not necessary to go into the identity of the individuals, … it's not necessary otherwise to identify titles or names and certainly not necessary to identify the persons who were the targets of enquiry. In relation to some of them, it is absolutely right that there may well be a public interest justification in the enquiry. In relation to others, however, it is difficult, if not impossible, to see what public interest justification there could be."
+"It's abundantly clear, looking at the electronic records, which you've checked against the actual documents, that Mr Whittamore had collected together a vast amount of personal data. The documents identify the names of titles and specific journalists at the titles apparently or inferentially making the request. It identifies the names of people from a wide range of public life and in the public eye, and provides addresses, telephone numbers, mobile telephone numbers and charging details for that information. It's not necessary to go into the identity of the individuals, … it's not necessary otherwise to identify titles or names and certainly not necessary to identify the persons who were the targets of enquiry. In relation to some of them, it is absolutely right that there may well be a public interest justification in the enquiry. In relation to others, however, it is difficult, if not impossible, to see what public interest justification there could be."
 
 %%page 1008%%
 
@@ -20922,9 +20755,7 @@ This ignores the fact that the criminal offence existed and was hardly the const
 
 5.10 On 4 January 2007, there was a further meeting with Murdoch MacLennan (then Chief Executive Officer of Telegraph Media Group) and Guy Black, both by this stage leading actors in the s55 counter-campaign. On Mr Thomas' account,[^117] the agreed action points were that the ICO should prepare guidance on s55 and the public interest defence with a view to helping journalists to navigate it. It is notable, first, that the focus appears to have swung fully around from the industry representatives being asked to take action to change the culture, practices and ethics of the press, to the regulator being asked to clarify the law and his approach to regulation. Secondly, this appears, in itself, to have become part of what was, by now, a three- way negotiation on s55 between the press, the government and Mr Thomas.
 
-5.11 The course of that negotiation is set out more fully in that part of the Report that deals with the relationship between the press and politicians.[^118] It culminated in a compromise arrangement whereby a custodial penalty for s55 was finally introduced by the Criminal Justice and Immigration Act 2008,[^119] together with an enhanced, more subjective defence for
-
-H journalists, but neither provision was commenced as operative law; commencement relies on the exercise of an Order-making power which has not to date been exercised. At the same time, further desultory exchanges were continuing between Mr Thomas and the PCC. By letter of 27 March 2007, the Code Committee eventually rejected the amendments to the Code that he had proposed, but suggested some alternatives.[^120] The ICO responded on 16 April, accepting the changes on the basis of a "hope that they will be introduced with maximum publicity and advice to the media. Otherwise, the 'burial' of the changes within the existing Code, and the absence of a section explicitly prohibiting the obtaining of any private information without consent or a public interest justification, may present the risk that unacceptable activity will continue."
+5.11 The course of that negotiation is set out more fully in that part of the Report that deals with the relationship between the press and politicians.[^118] It culminated in a compromise arrangement whereby a custodial penalty for s55 was finally introduced by the Criminal Justice and Immigration Act 2008,[^119] together with an enhanced, more subjective defence for journalists, but neither provision was commenced as operative law; commencement relies on the exercise of an Order-making power which has not to date been exercised. At the same time, further desultory exchanges were continuing between Mr Thomas and the PCC. By letter of 27 March 2007, the Code Committee eventually rejected the amendments to the Code that he had proposed, but suggested some alternatives.[^120] The ICO responded on 16 April, accepting the changes on the basis of a "hope that they will be introduced with maximum publicity and advice to the media. Otherwise, the 'burial' of the changes within the existing Code, and the absence of a section explicitly prohibiting the obtaining of any private information without consent or a public interest justification, may present the risk that unacceptable activity will continue."
 
 %%page 1028%%
 
@@ -20954,7 +20785,7 @@ In due course, Mr Thomas met the Prime Minister, preparing for an agreed role in
 
 5.18 Reflecting more generally on his interaction with the PCC, Mr Thomas referred many times to an overall sense of disappointment. This is important commentary and it is worth setting some of them out in full.
 
-H (a) "I think over time I was somewhat disappointed. Although I don't decry everything they did, it fell short of what I'd hoped they might be doing."[^130] (b) "The evidence shows that I went back a number of times to the PCC throughout
+(a) "I think over time I was somewhat disappointed. Although I don't decry everything they did, it fell short of what I'd hoped they might be doing."[^130] (b) "The evidence shows that I went back a number of times to the PCC throughout
 
 2005, 2006 and 2007, and tried to keep – engage their interest with it. But it is true to say that I thought their response was less strident and I think I used the word "disappointing" more than once in this context. I thought they could and should have done more."[^131]
 
@@ -21012,9 +20843,7 @@ With this in mind, it is a sensible precaution to equip me at some point before 
 
 A: Absolutely not";[^14] (g) "there is clear evidence that there was not a policy conclusion even at that point [the approach to the PCC]";[^15] (h) "I don't accept that there was a policy decision. I don't accept that we abandoned the possibility of prosecuting journalists."[^16]
 
-1.9 Indeed, Mr Thomas was insistent in his evidence that there was no 'conscious decision' at all not to prosecute journalists.[^17] He explained that in two different ways although, on the face of it, these are not entirely straightforward to reconcile. He said both that he assumed that
-
-H in fact the office was making progress with the prosecution of journalists as they would with any other criminal investigation,[^18] and also that there was an active plan to keep the option of prosecution alive but to wait and see first how the conspiracy prosecutions being undertaken by the CPS fared, and in due course, if all went well, to activate them.[^19]
+1.9 Indeed, Mr Thomas was insistent in his evidence that there was no 'conscious decision' at all not to prosecute journalists.[^17] He explained that in two different ways although, on the face of it, these are not entirely straightforward to reconcile. He said both that he assumed that in fact the office was making progress with the prosecution of journalists as they would with any other criminal investigation,[^18] and also that there was an active plan to keep the option of prosecution alive but to wait and see first how the conspiracy prosecutions being undertaken by the CPS fared, and in due course, if all went well, to activate them.[^19]
 
 %%page 1034%%
 
@@ -21152,9 +20981,7 @@ H • The decision not to pursue any journalist was based solely on fear - fear 
 
 2.8 At this stage, it is sufficient to articulate the following concerns:
 
-(a) The Inquiry saw no evidence that any of these matters were the subject of serious consideration within the ICO. (b) The Inquiry received a quantity of evidence as to how far the Motorman material could be considered prima facie evidence of criminality on the part of journalists (not least because of the question of intent), but it is not credible to argue otherwise than that it was prima facie evidence of extensive unlawful and unethical data protection practice. (c) Whether the press would have had an answer to that prima facie unlawfulness certainly fell to be considered and, to such extent as it did, so the evidence is that the ICO was of the view that that was highly unlikely to be the case.[^42] The substantive exemptions from the principles and rights of the data protection regime in favour of the press may have
-
-H been extensive, but they were not limitless. It was not open to the ICO on the evidence of the Motorman material to conclude with any confidence that the press had been acting within its rights so far as personal information privacy was concerned. (d) The procedural hurdles standing in the way of formal proceedings by the ICO against the press may have been daunting – but it is not credible that Parliament intended them to be insuperable. If ever an operational data protection issue arose where active contemplation of regulatory action in respect of the press presented itself (I put it no higher), Motorman was surely that case.
+(a) The Inquiry saw no evidence that any of these matters were the subject of serious consideration within the ICO. (b) The Inquiry received a quantity of evidence as to how far the Motorman material could be considered prima facie evidence of criminality on the part of journalists (not least because of the question of intent), but it is not credible to argue otherwise than that it was prima facie evidence of extensive unlawful and unethical data protection practice. (c) Whether the press would have had an answer to that prima facie unlawfulness certainly fell to be considered and, to such extent as it did, so the evidence is that the ICO was of the view that that was highly unlikely to be the case.[^42] The substantive exemptions from the principles and rights of the data protection regime in favour of the press may have been extensive, but they were not limitless. It was not open to the ICO on the evidence of the Motorman material to conclude with any confidence that the press had been acting within its rights so far as personal information privacy was concerned. (d) The procedural hurdles standing in the way of formal proceedings by the ICO against the press may have been daunting – but it is not credible that Parliament intended them to be insuperable. If ever an operational data protection issue arose where active contemplation of regulatory action in respect of the press presented itself (I put it no higher), Motorman was surely that case.
 
 %%page 1042%%
 
@@ -21180,9 +21007,7 @@ The press organisations involved in the Motorman case were undoubtedly data cont
 
 3.2 The first recourse of a regulator is not usually to formal proceedings. In those circumstances, it is more usual to make informal contact in order to follow up an apparent problem (which is any practice falling short of desirable standards), hear the other side of the case, and seek to engage in a detailed dialogue about the nature and extent of the problem and the steps which might be taken to address it satisfactorily. At the very least, the Motorman material revealed to the ICO that the press had engaged in questionable practice in relation to individuals' information, that it remained in possession of that information in circumstances which, again at the very least, raised questions about their conformity with good practice, and that good practice would require some contemplation from the individuals' point of view as to whether steps were needed to improve the situation. But the Inquiry saw no evidence that any of these matters, any informal approach to the press data controllers or any assessment of the immediate practical steps suggested by good practice, were actively contemplated let alone put into effect.
 
-3.3 Mr Thomas said that he did, indeed, have it in mind to write to the various journalists and editors involved, drawing attention to the fact that they were 'incredibly lucky' not to have been prosecuted (or, it might have been added, not to have been made the subject of formal investigatory or regulatory action).[^45] Pressed as to why no attempt was in fact ever made to engage with the individual newspapers, his answer was that, in going to the PCC, he had "dealt with them all collectively".[^46] Apart from the identified concern that this suggests a lack of understanding of the role and responsibilities of the PCC, it implies that these were mutually exclusive approaches. It also suggests that there was no imperative to deal with the problem in the short term and in a practical way: that is to say, to address the issue not just
-
-H of the press ceasing to commission further unlawful trade in personal information but also of what it was doing with the information already in its possession as a result of that trade. As noted above, the PCC itself urged Mr Thomas to engage directly with the industry and, in any event, showed little appetite to take the responsibility that Mr Thomas wished to pass on.
+3.3 Mr Thomas said that he did, indeed, have it in mind to write to the various journalists and editors involved, drawing attention to the fact that they were 'incredibly lucky' not to have been prosecuted (or, it might have been added, not to have been made the subject of formal investigatory or regulatory action).[^45] Pressed as to why no attempt was in fact ever made to engage with the individual newspapers, his answer was that, in going to the PCC, he had "dealt with them all collectively".[^46] Apart from the identified concern that this suggests a lack of understanding of the role and responsibilities of the PCC, it implies that these were mutually exclusive approaches. It also suggests that there was no imperative to deal with the problem in the short term and in a practical way: that is to say, to address the issue not just of the press ceasing to commission further unlawful trade in personal information but also of what it was doing with the information already in its possession as a result of that trade. As noted above, the PCC itself urged Mr Thomas to engage directly with the industry and, in any event, showed little appetite to take the responsibility that Mr Thomas wished to pass on.
 
 3.4 It is also significant that there seems to have been no attempt to engage directly with the press (even indirectly, through the PCC) in the run up to the publication of What Price Privacy?[^47] That report was of course conceived principally from the perspective of a policy decision to the effect that the introduction of custodial penalties for s55 was to be the principal means of impacting on the unlawful trade in personal data. Considered, however, from an operational point of view, the lack of engagement with the press or any part of it on either the text or the data tables is both striking and surprising. It afforded the industry no possibility of verifying the data (the consequences of which, in at least one case, are considered further below). It also missed what might very well have been the prime opportunity to discuss with the industry what practical lessons could be learned and what steps they ought to have taken or be taking not only to remedy any persistent problems, but also to secure good practice for the future. A not insignificant 'carrot' might have been a willingness to include an account on that exchange in the report to Parliament, thereby demonstrating that the press were taking the issue seriously.
 
@@ -21298,7 +21123,7 @@ H of the press ceasing to commission further unlawful trade in personal informat
 
 (a) previous misconduct was inadequately brought to justice and was not otherwise addressed as a matter of law enforcement; (b) the risk of continuing breaches of law and standards was not effectively addressed; (c) the interests of the victims were inadequately protected; and (d) an important opportunity was missed to address problems in the culture, practices and ethics of the press in relation to the acquisition and use of personal information, which could have had an impact beyond the facts of the Motorman case.
 
-In the circumstances, a real question must remain as to whether these missed opportunities contributed, either at a general or a specific level, to later manifestations of disregard for the rights of others in relation to information privacy which were subsequently exhibited by certain parts of the press, of which phone hacking was the most serious. H
+In the circumstances, a real question must remain as to whether these missed opportunities contributed, either at a general or a specific level, to later manifestations of disregard for the rights of others in relation to information privacy which were subsequently exhibited by certain parts of the press, of which phone hacking was the most serious.
 
 5.10 I should make very clear that there is no evidence to suggest, as Mr Owens invited the Inquiry to do, that the political campaign and the publication of the What Price Privacy? reports were a deliberate attempt to deflect attention from the ICO's operational inactivity. To the extent that they drew public and political attention to the problem, they did themselves perform a function of acting as a warning to others in positions of authority to take action. To that extent, Mr Graham's description of the role of the ICO in the Motorman story ("we are the good guys") may fairly be endorsed.
 
@@ -21354,7 +21179,7 @@ In the circumstances, a real question must remain as to whether these missed opp
 
 2006, and that of course was about behaviour before when Mr Whittamore's office was raided, and much of it related to activity between 1999 and 2003. I simply offer a view that this is an issue of such high salience, many investigative journalists working in the area, great rivalry between newspaper groups, lots of campaigners, that if there was evidence of further breaches of Section 55 by the press, it would have been drawn to my attention, and it hasn't been."
 
-2.3 The latter point was one on which he expanded:[^5] H
+2.3 The latter point was one on which he expanded:[^5]
 
 "…there's been so much feverish activity over the past two years in relation to this with the various newspaper groups, with the journalists, with the books written on the subject, with the campaigning groups. If the best that critics can do is to turn up further evidence of what was going on between 1999 and 2003, it doesn't amount to much."
 
@@ -21504,7 +21329,7 @@ Civil law enforcement: the exemptions in s32 of the Data Protection Act Legal an
 
 "(2) The processing by the data controller must be both:
 
-– "only for the special purposes"; and H
+– "only for the special purposes"; and
 
 – with a view to the publication by any person (i.e. not just the data controller) of any journalistic, literary or artistic material (i.e. it need not be the data being processed nor need it be related to the data being processed).
 
@@ -21520,7 +21345,7 @@ Civil law enforcement: the exemptions in s32 of the Data Protection Act Legal an
 
 The Solicitor-General (Lord Falconer of Thoroton) then endorsed Lord Wakeham's view: "No one could have expressed the arguments in favour [of cl 31] more eloquently." "Disquiet was expressed in the House by others: – that, as a result of cl 31, the Bill failed to protect privacy, – that cl 31 was too wide and significantly undermined the function of the legislation, and – that the notion of the public interest was too wide and vague a basis upon which to disapply the protection conferred by the Bill. Amendments were unsuccessfully introduced to address these misgivings. In supporting the amendments, Lord Lester of Herne Hill warned at length that, as drafted and because of cl 31, the DPA failed to implement the Directive and authorised interference by the press with the right to privacy in breach of Art 8 of the ECHR.
 
-H "The authorities "Judicial pronouncements have acknowledged that the DPA is concerned with the protection of an individual's ECHR rights to privacy. "The principal judicial authority on the s 32 exemption is the Court of Appeal's judgment in Campbell v MGN Ltd. The claimant had claimed against a newspaper for its having published articles which disclosed details of the therapy the claimant was receiving for her drug addiction. These included covertly taken photographs of her leaving a therapy group meeting. The claimant alleged that these amounted to a breach of confidence (based on her right to privacy under ECHR arts 8 and 10) and a breach of the data protection principles (entitling her to claim a breach of the s 4(4) DPA statutory duty). "In the High Court, judgment was entered for the claimant on both claims. In relation to the DPA claim, the newspaper agreed that publishing the articles it had processed sensitive personal data relating to the claimant. The court held: – that the published information (i.e. the nature and details of her therapy) constituted sensitive personal data relating to the claimant; that that was not lawful since it constituted a breach of confidence; that that processing was not fair as the information was acquired surreptitiously; that that processing did not satisfy any of the conditions in Schedule 2; that that processing did not satisfy any of the conditions in Schedule 3; and that the exemption in s 32 only applied to processing out "with a view to publication" and not to the processing involved in the publication itself. The court assessed damages at £2,500 and aggravated damages at £1,000. "The Court of Appeal allowed the newspaper's appeal on both the confidentiality claim and the DPA claim. The Court of Appeal accepted that "processing" included publication in print. However, the Court, reversing the High Court, extended the duration of s 32 exemption to cover processing on and after publication. This division between processing before and after publication had limited s 32's disapplication of the DPA's protection up until, but not including, the most invasive activity - publication. In construing the section to give press freedom paramountcy throughout and with no opportunity to balance the individual's interest in maintaining privacy, the judgment renders the DPA unlikely to be compliant with the Directive. "The claimant appealed to the House of Lords. The claimant put the breach of confidence claim at the forefront of the appeal, with the parties agreeing that the DPA claim "stands or falls with the outcome of the main claim" and that it "add[ed] nothing to the claim for breach of confidence." In this way, protection of privacy in personal information came to be secured through the adaptation of the action for breach of confidence. In so doing, the House of Lords absorbed into the action the competition between freedom of expression as protected by Art 10 and respect for an individual's privacy as protected by Art 8 – the very balancing exercise which the Directive articulates and which the DPA is supposed to implement. "On one analysis, the House of Lord's judgment appears to leave untouched the Court of Appeal's treatment of the DPA. This would be unfortunate. The misgivings which had been expressed in Parliament during the passage of the Bill (see above) H materialised with the Court of Appeal's judgment. The better analysis is that, given the parties' agreement that the DPA claim stood or fell with the breach of confidence claim, the latter's success means that the DPA claim enjoyed equal, if unspoken, success in the House of Lords. "Personal privacy protection since Campbell v MGN "The practical effect of the Campbell litigation has been that breach of privacy claims are now principally brought under the HRA, rather than under the DPA. This is borne out by the treatment of privacy in the main media law practitioner text, which recognises that the DPA:
+"The authorities "Judicial pronouncements have acknowledged that the DPA is concerned with the protection of an individual's ECHR rights to privacy. "The principal judicial authority on the s 32 exemption is the Court of Appeal's judgment in Campbell v MGN Ltd. The claimant had claimed against a newspaper for its having published articles which disclosed details of the therapy the claimant was receiving for her drug addiction. These included covertly taken photographs of her leaving a therapy group meeting. The claimant alleged that these amounted to a breach of confidence (based on her right to privacy under ECHR arts 8 and 10) and a breach of the data protection principles (entitling her to claim a breach of the s 4(4) DPA statutory duty). "In the High Court, judgment was entered for the claimant on both claims. In relation to the DPA claim, the newspaper agreed that publishing the articles it had processed sensitive personal data relating to the claimant. The court held: – that the published information (i.e. the nature and details of her therapy) constituted sensitive personal data relating to the claimant; that that was not lawful since it constituted a breach of confidence; that that processing was not fair as the information was acquired surreptitiously; that that processing did not satisfy any of the conditions in Schedule 2; that that processing did not satisfy any of the conditions in Schedule 3; and that the exemption in s 32 only applied to processing out "with a view to publication" and not to the processing involved in the publication itself. The court assessed damages at £2,500 and aggravated damages at £1,000. "The Court of Appeal allowed the newspaper's appeal on both the confidentiality claim and the DPA claim. The Court of Appeal accepted that "processing" included publication in print. However, the Court, reversing the High Court, extended the duration of s 32 exemption to cover processing on and after publication. This division between processing before and after publication had limited s 32's disapplication of the DPA's protection up until, but not including, the most invasive activity - publication. In construing the section to give press freedom paramountcy throughout and with no opportunity to balance the individual's interest in maintaining privacy, the judgment renders the DPA unlikely to be compliant with the Directive. "The claimant appealed to the House of Lords. The claimant put the breach of confidence claim at the forefront of the appeal, with the parties agreeing that the DPA claim "stands or falls with the outcome of the main claim" and that it "add[ed] nothing to the claim for breach of confidence." In this way, protection of privacy in personal information came to be secured through the adaptation of the action for breach of confidence. In so doing, the House of Lords absorbed into the action the competition between freedom of expression as protected by Art 10 and respect for an individual's privacy as protected by Art 8 – the very balancing exercise which the Directive articulates and which the DPA is supposed to implement. "On one analysis, the House of Lord's judgment appears to leave untouched the Court of Appeal's treatment of the DPA. This would be unfortunate. The misgivings which had been expressed in Parliament during the passage of the Bill (see above) H materialised with the Court of Appeal's judgment. The better analysis is that, given the parties' agreement that the DPA claim stood or fell with the breach of confidence claim, the latter's success means that the DPA claim enjoyed equal, if unspoken, success in the House of Lords. "Personal privacy protection since Campbell v MGN "The practical effect of the Campbell litigation has been that breach of privacy claims are now principally brought under the HRA, rather than under the DPA. This is borne out by the treatment of privacy in the main media law practitioner text, which recognises that the DPA:
 
 %%page 1068%%
 
@@ -21645,8 +21470,6 @@ H (d) Taking individual subject access rights out of the automatic exemption pro
 "(4) Where a data controller cannot comply with the request without disclosing information relating to another individual who can be identified from that information, he is not obliged to comply with the request unless— (a) the other individual has consented to the disclosure of the information to the person making the request, or (b) it is reasonable in all the circumstances to comply with the request without the consent of the other individual. (5) In subsection (4) the reference to information relating to another individual includes a reference to information identifying that individual as the source of the information sought by the request; and that subsection is not to be construed as excusing a data controller from communicating so much of the information sought by the request as can be communicated without disclosing the identity of the other individual concerned, whether by the omission of names or other identifying particulars or otherwise. (6) In determining for the purposes of subsection (4)(b) whether it is reasonable in all the circumstances to comply with the request without the consent of the other individual concerned, regard shall be had, in particular, to— (a any duty of confidentiality owed to the other individual, (b) any steps taken by the data controller with a view to seeking the consent of the other individual, (c) whether the other individual is capable of giving consent, and (d) any express refusal of consent by the other individual."
 
 2.29 It is an important, if technical, point to note that the subject access right is a compound right, including not just a right of access to the information, but a right to know whether information is held at all about one. So if even to confirm whether information is held would disclose a source, s7 makes provision for an answer which will neither confirm nor deny it.
-
-H
 
 2.30 I do not express a concluded view as to whether the existing provisions of the DPA are a complete answer to the challenge that introducing at least the possibility of a right of subject access has to be reconciled with the need to protect journalists' sources. I simply observe that it is not apparent to me that the importance of protecting journalists' sources cannot be captured in suitable amendment to these provisions, should any be needed. The more fundamental point is that there does not seem to me to be an argument from first principles that the protection of journalists' sources necessitates a complete and blanket dis-application of the subject access right in all circumstances. And if it is not necessary to disapply a fundamental privacy right in all circumstances, it is necessary not to.
 
@@ -22020,7 +21843,7 @@ It might be observed, however, that these experiences were evidently not on the 
 
 1.26 Pressed as to whether this suggested an excessively circumspect approach on the part of the ICO in the face of potentially powerful prima facie evidence of criminality, Mr Thomas put it this way:[^26]
 
-H "Well, I have to look at it from all points of view, I suppose, but I can see that the media would not like any of their journalists being prosecuted and I suspect they would, for example, argue there's a public interest in being able to ensure freedom of expression. Now, I don't believe that, I don't accept that, but I – it's one thing as to whether or not that would be successful, but one can anticipate that that sort of point would have been raised and it would have engaged the office and bogged down the office for many years."
+"Well, I have to look at it from all points of view, I suppose, but I can see that the media would not like any of their journalists being prosecuted and I suspect they would, for example, argue there's a public interest in being able to ensure freedom of expression. Now, I don't believe that, I don't accept that, but I – it's one thing as to whether or not that would be successful, but one can anticipate that that sort of point would have been raised and it would have engaged the office and bogged down the office for many years."
 
 1.27 In other words, there was an apprehension of the unreasonable or unfair deployment of the rhetoric of freedom of expression as a litigation tactic to deterrent effect. Without commenting on its justification in this context, this perception is noteworthy in its own right not least because it was evidently a general perception within the ICO team. Mr Thomas recalled a conversation within the office around 2007 along the lines:[^27]
 
@@ -22034,7 +21857,7 @@ H "Well, I have to look at it from all points of view, I suppose, but I can see 
 
 1.29 The press, in other words, as an object of regulatory contemplation, was seen as trouble. That is so whether it was actively making operational mischief in response to regulatory attention or impassively declining to address its culture, practices and ethics itself (as Mr Graham memorably developed the metaphor, "if we're talking monkeys, it's see no evil, hear no evil.")[^30]
 
-H 2. The struggle for a profile: political campaigning and the power of the press
+2. The struggle for a profile: political campaigning and the power of the press
 
 2.1 At the beginning of this section of the Report, reference is made to the problematic reputation of the data protection regime. This is a burden with which successive Information Commissioners and their predecessor bodies have struggled constantly. Trying to get the issues surrounding data protection to be better known and understood is a vital precursor to improving compliance and standards. Communication and profile are in turn vital components of raising awareness. The ICO needs publicity for its functions. To a degree, it needs the press, and therefore has a motivation or predisposition to court it, or at least to view it as a potentially ally. To what may be a significantly greater degree, it is also vulnerable to press hostility and suppression or damage to its reputation which can translate directly into weakened operational capability.
 
@@ -22052,7 +21875,8 @@ H 2. The struggle for a profile: political campaigning and the power of the pres
 
 "We were aware from the outset that the media would probably ignore or show hostility to our reports. This presented two problems:
 
-H • The media usually play an important and influential role in any campaign by an independent body to secure legislative and other change. In this case we anticipated hostility through both editorial and proprietorial influence. • We had worked very hard to secure a "good press" for the ICO across a very wide range of other DPA and FOI functions and had been largely successful. There was a real fear that this could be jeopardised."
+- The media usually play an important and influential role in any campaign by an independent body to secure legislative and other change. In this case we anticipated hostility through both editorial and proprietorial influence.
+- We had worked very hard to secure a "good press" for the ICO across a very wide range of other DPA and FOI functions and had been largely successful. There was a real fear that this could be jeopardised."
 
 That was a fear which proved to be entirely well-founded. Furthermore, if it was a fear which was clearly present in Mr Thomas mind in relation to his strategic and political response to Operation Motorman, it does not seem a large step to infer that that was a fear understood more generally in the office, not excluding its (more junior) operational staff.
 
@@ -22083,8 +21907,6 @@ That was a fear which proved to be entirely well-founded. Furthermore, if it was
 3.4 The ICO has to be capable of performing its function in relation to the press, however balanced and light touch the exercise of that function should be. It keeps wicket in this respect, on behalf of the public and at public expense. It does not have an option simply to leave the field open. As was observed in recent High Court proceedings, which also took a wider view of the ICO's functions in relation to journalism than it was minded to take itself:[^37]
 
 "there is a need for someone to protect the public."
-
-H
 
 3.5 The final part of this part of the Report therefore briefly identifies the structural and governance issues which are likely to need to be addressed to put the ICO in a position in which it is capable of discharging its functions in relation to the press. This is at the margins of the Terms of Reference but, in the light of the analysis to which the ICO has been subject, I have no doubt that it is appropriate to identify the parameters of a solution before leaving the matter to the more detailed consideration both of the Ministry of Justice and the ICO itself.
 
@@ -22130,15 +21952,13 @@ All of these have a potential to promote collective decision-making as much more
 
 I recommend to the Ministry of Justice that: The exemption in section 32 of the Data Protection Act 1998 should be amended so as to make it available only where:[^1] (a) the processing of data is necessary for publication, rather than simply being in fact undertaken with a view to publication; (b) the data controller reasonably believes that the relevant publication would be or is in the public interest, with no special weighting of the balance between the public interest in freedom of expression and in privacy; and (c) objectively, that the likely interference with privacy resulting from the processing of the data is outweighed by the public interest in publication. The exemption in section 32 of the Data Protection Act 1998 should be narrowed in scope, so that it no longer allows, by itself, for exemption from:[^2] (a) the requirement of the first data protection principle to process personal data fairly (except in relation to the provision of information to the data subject under paragraph 2(1)(a) of Part II Schedule 1 to the 1998 Act) and in accordance with statute law; (b) the second data protection principle (personal data to be obtained only for specific purposes and not processed incompatibly with those purposes); (c) the fourth data protection principle (personal data to be accurate and kept up to date); (d) the sixth data protection principle (personal data to be processed in accordance with the rights of individuals under the Act);
 
-H (e) the eighth data protection principle (restrictions on exporting personal data); and (f) the right of subject access. The recommendation on the removal of the right of subject access from the scope of section 32 is subject to any necessary clarification that the law relating to the protection of journalists' sources is not affected by the Act. It should be made clear that the right to compensation for distress conferred by section 13 of the Data Protection Act 1998 is not restricted to cases of pecuniary loss, but should include compensation for pure distress.[^3]
+(e) the eighth data protection principle (restrictions on exporting personal data); and (f) the right of subject access. The recommendation on the removal of the right of subject access from the scope of section 32 is subject to any necessary clarification that the law relating to the protection of journalists' sources is not affected by the Act. It should be made clear that the right to compensation for distress conferred by section 13 of the Data Protection Act 1998 is not restricted to cases of pecuniary loss, but should include compensation for pure distress.[^3]
 
 %%page 1112%%
 
 The procedural provisions of the Data Protection Act 1998 with special application to journalism in: (a) section 32(4) and (5) (b) sections 44 to 46 inclusive should be repealed.[^4] In conjunction with the repeal of those procedural provisions, consideration should be given to the desirability of including in the Data Protection Act 1998 a provision to the effect that, in considering the exercise of any powers in relation to the media or other publishers, the Information Commissioner's Office should have special regard to the obligation in law to balance the public interest in freedom of expression alongside the public interest in upholding the data protection regime.[^5] Specific provision should be made to the effect that, in considering the exercise of any of its powers in relation to the media or other publishers, the Information Commissioner's Office must have regard to the application to a data controller of any relevant system of regulation or standards enforcement which is contained in or recognised by statute.[^6] The necessary steps should be taken to bring into force the amendments made to section 55 of the Data Protection Act 1998 by section 77 of the Criminal Justice and Immigration Act 2008 (increase of sentence maxima) to the extent of the maximum specified period; and by section 78 of the 2008 Act (enhanced defence for public interest journalism).[^7] The prosecution powers of the Information Commissioner should be extended to include any offence which also constitutes a breach of the data protection principles.[^8] A new duty should be introduced (whether formal or informal) for the Information Commissioner's Office to consult with the Crown Prosecution Service in relation to the exercise of its powers to undertake criminal proceedings.[^9] The opportunity should be taken to consider amending the Data Protection Act 1998 formally to reconstitute the Information Commissioner's Office as an Information H Commission, led by a Board of Commissioners with suitable expertise drawn from the worlds of regulation, public administration, law and business, and active consideration should be given in that context to the desirability of including on the Board a Commissioner from the media sector.[^10]
 
 %%page 1113%%
-
-Chapter 7 | Summary of recommendations
 
 I recommend to the Information Commissioner's Office that: The Information Commissioner's Office should take immediate steps to prepare, adopt and publish a policy on the exercise of its formal regulatory functions in order to ensure that the press complies with the legal requirements of the data protection regime.[^11] In discharge of its functions and duties to promote good practice in areas of public concern, the Information Commissioner's Office should take immediate steps, in consultation with the industry, to prepare and issue comprehensive good practice guidelines and advice on appropriate principles and standards to be observed by the press in the processing of personal data. This should be prepared and implemented within six months from the date of this Report.[^12] The Information Commissioner's Office should take steps to prepare and issue guidance to the public on their individual rights in relation to the obtaining and use by the press of their personal data, and how to exercise those rights.[^13] In particular, the Information Commissioner's Office should take immediate steps to publish advice aimed at individuals (data subjects) concerned that their data have or may have been processed by the press unlawfully or otherwise than in accordance with good practice.[^14] The Information Commissioner's Office, in the Annual Report to Parliament which it is required to make by virtue of section 52(1) of the Act, should include regular updates on the effectiveness of the foregoing measures, and on the culture, practices and ethics of the press in relation to the processing of personal data.[^15] The Information Commissioner's Office should immediately adopt the Guidelines for Prosecutors on assessing the public interest in cases affecting the media, issued by the Director of Public Prosecutions in September 2012.[^16] The Information Commissioner's Office should take immediate steps to engage with the Metropolitan Police on the preparation of a long-term strategy in relation to alleged media crime with a view to ensuring that the Office is well placed to fulfil any necessary role in this respect in the future, and in particular in the aftermath of Operations Weeting, Tuleta and Elveden.[^17] The Information Commissioner's Office should take the opportunity to review the H availability to it of specialist legal and practical knowledge of the application of the data protection regime to the press, and to any extent necessary address it.[^18] The Information Commissioner's Office should take the opportunity to review its organisation and decision-making processes to ensure that large-scale issues, with both strategic and operational dimensions (including the relationship between the culture, practices and ethics of the press in relation to personal information on the one hand, and the application of the data protection regime to the press on the other) can be satisfactorily considered and addressed in the round.[^19] parT I
 
@@ -22174,8 +21994,6 @@ Chapter 1
 
 %%page 1119%%
 
-Chapter 1 | Introduction
-
 1.11 From this, a clear pattern has in my view emerged about the relationship between the press and the politicians in recent years at the most senior levels of influence. There is of course no evidence at all of explicit, covert deals between senior politicians and newspaper proprietors or editors; no-one should seriously have expected that there would be. These very powerful relationships are more subtle than that, the extent to which interests coincide or diverge is more complicated, and the dialogue more sophisticated. But there can be no doubt that within these relationships, some of them having the quality of personal friendships (and some of active hostility), there have been exchanges of influence on matters of public policy which have given rise to legitimate questions about the trust and confidence the public can have that they have been conducted scrupulously in the public interest.
 
 1.12 Care has to be taken in talking about 'influence'. It is the prerogative of a free and partisan press in a democracy to campaign, lobby and seek to influence both public opinion and public policy. Where the issues arise is in the nature, visibility and accountability of the politicians' response. Nor is the existence of personal relationships and friendships at senior levels between press and politicians anything other than entirely natural and to be expected. The issues arise here in relation to the conduct of public affairs in the context of such relationships, and in the boundaries between public and private, accountable and unaccountable.
@@ -22184,9 +22002,7 @@ Chapter 1 | Introduction
 
 1.14 This section examines in particular the decision to permit Mr Murdoch's News Corporation to acquire The Times and The Sunday Times; the terms of the Broadcasting Act 1990 (insofar as they concerned foreign and cross media ownership) which were such as to permit Sky TV to continue in the ownership of News Corporation; the passage of the Communications Act 2003, in particular the development of its provisions on foreign and cross media ownership, which in their final form would not have prevented News Corporation from acquiring Channel 5; and finally, the bid by News Corporation for the remaining shares in BSkyB which came to an end shortly before the Inquiry was set up (and for connected reasons). Evidence on the last of these matters brought into sharp focus the pressures, from more than one direction, on governing politicians charged with making a decision of great importance to the media. In particular, it exposed a formidable and relentless lobbying operation which gave rise to serious legal and ethical issues.
 
-1.15 On more than one occasion during the period under consideration, concerns about the culture,
-
-I practices and ethics of the press surfaced in public debate. However, on each occasion the political reaction was not such as to bring about a lasting solution to the problem. As outlined earlier in this Report, concern during the late 1980s reached such a level that the then Home Secretary commissioned Sir David Calcutt QC to lead a committee which inquired into and reported on press standards, highlighting significant areas of legitimate public concern. The political response to the first Calcutt Report purported to give the press a final chance to put its own house in order before addressing the matter further. The press failed by some margin to meet the challenge, but the establishment of the 'self-regulatory' PCC was the chief exception to a prevalent "do nothing" response from the Government. How and why that was so is examined.
+1.15 On more than one occasion during the period under consideration, concerns about the culture, practices and ethics of the press surfaced in public debate. However, on each occasion the political reaction was not such as to bring about a lasting solution to the problem. As outlined earlier in this Report, concern during the late 1980s reached such a level that the then Home Secretary commissioned Sir David Calcutt QC to lead a committee which inquired into and reported on press standards, highlighting significant areas of legitimate public concern. The political response to the first Calcutt Report purported to give the press a final chance to put its own house in order before addressing the matter further. The press failed by some margin to meet the challenge, but the establishment of the 'self-regulatory' PCC was the chief exception to a prevalent "do nothing" response from the Government. How and why that was so is examined.
 
 %%page 1120%%
 
@@ -22222,9 +22038,9 @@ While titles with a consistent history of leaning to the left of centre were equ
 
 "Margaret was probably the most right of centre leader the Conservative Party had had for quite a long time, and I think that appealed to the natural instincts of many proprietors and editors at the time, and I think support was accordingly offered."
 
-Andrew Neil, the former editor of The Sunday Times, also described Baroness Thatcher and Mr Murdoch as "ideological soul mates".[^9] Sir John interestingly connected the bond between Baroness Thatcher and these proprietors with their common commitment to trade union
+Andrew Neil, the former editor of The Sunday Times, also described Baroness Thatcher and Mr Murdoch as "ideological soul mates".[^9] Sir John interestingly connected the bond between Baroness Thatcher and these proprietors with their common commitment to trade union reform, to shared views about business (and buccaneering businessmen)[^10] and the European Union, and to popular admiration for Baroness Thatcher's role in the Falklands War.
 
-I 1 p53, lines 1-2, Kenneth Clarke, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Afternoon-Hearing-30-May-2012.pdf 2 p3, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Lord-Mandelson.pdf 3 p6, lines 15-16, Rupert Murdoch, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/04/Transcript-of- Morning-Hearing-25-April-2012.pdf reform, to shared views about business (and buccaneering businessmen)[^10] and the European Union, and to popular admiration for Baroness Thatcher's role in the Falklands War.
+1 p53, lines 1-2, Kenneth Clarke, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Afternoon-Hearing-30-May-2012.pdf 2 p3, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Lord-Mandelson.pdf 3 p6, lines 15-16, Rupert Murdoch, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/04/Transcript-of- Morning-Hearing-25-April-2012.pdf
 
 %%page 1122%%
 
@@ -22602,7 +22418,7 @@ Q. "If he thinks we're going to win, he'll go easy on us, but if he thought we c
 
 %%page 1146%%
 
-3.11 In May 1997, the relationship between Mr Blair and Mr Murdoch was not close; they had only met on a handful of occasions and there were references in Mr Campbell's diaries to Mr Blair's ambivalence about such meetings ("...he felt that there was something unpleasant about newspaper power and influence"), although he recognised their importance and value.[^69] The relationship grew closer although, on Mr Blair's account, did not develop into personal friendship until after 2007 by which time he had left office.70
+3.11 In May 1997, the relationship between Mr Blair and Mr Murdoch was not close; they had only met on a handful of occasions and there were references in Mr Campbell's diaries to Mr Blair's ambivalence about such meetings ("...he felt that there was something unpleasant about newspaper power and influence"), although he recognised their importance and value.[^69] The relationship grew closer although, on Mr Blair's account, did not develop into personal friendship until after 2007 by which time he had left office.[^70]
 
 3.12 Lord Mandelson's evidence was along these lines:[^71]
 
@@ -22746,7 +22562,7 @@ A: I think that happened from the time I became Prime Minister. I'll be honest. 
 
 5. Political news management
 
-I Background "The truth becomes almost impossible to communicate because total frankness relayed in the shorthand of the mass media becomes simply a weapon in the hands of opponents."[^116]
+Background "The truth becomes almost impossible to communicate because total frankness relayed in the shorthand of the mass media becomes simply a weapon in the hands of opponents."[^116]
 
 %%page 1156%%
 
@@ -22850,7 +22666,7 @@ Reflections
 
 %%page 1164%%
 
-### Chapter 4: The Conservative Revival and the Coalition1
+### Chapter 4: The Conservative Revival and the Coalition[^1]
 
 1. Introduction and background
 
@@ -22860,11 +22676,7 @@ Reflections
 
 "I would say my time at Carlton probably taught me more about the television industry, about how it was regulated, and maybe we'll come on to this, a lot of the views I formed about media, media policy, media regulation, the BBC – Carlton was quite a formative period because I was working for a big part of the British broadcasting industry, ITV effectively, and I formed a lot of views and opinions there which I still hold today".
 
-1.3 Mr Cameron retained his interest in politics whilst at Carlton and was elected to Parliament as the member for Witney on 7 June 2001.[^7] This was the period of New Labour's potent new media strategy. His close political ally and near contemporary, George Osborne, put it this way: "…we came of political age – myself, David Cameron and others –during that political
-
-- I — 1
-
-On the basis that current relationships between the press and the Prime Minister have been the subject of considerable recent interest – and have each been ventilated at length during the course of the Inquiry – this section is considerably longer than those covering other periods of time and administrations where the issues are less immediate period …".[^8] As a backbencher, Mr Cameron wrote a column for the Guardian Online.[^9] His perspective has therefore been informed by more than twenty years of political activity and wide contact with national newspaper journalists, covering most of the period considered by the Inquiry in Module Three.
+1.3 Mr Cameron retained his interest in politics whilst at Carlton and was elected to Parliament as the member for Witney on 7 June 2001.[^7] This was the period of New Labour's potent new media strategy. His close political ally and near contemporary, George Osborne, put it this way: "…we came of political age – myself, David Cameron and others –during that political period …".[^8] As a backbencher, Mr Cameron wrote a column for the Guardian Online.[^9] His perspective has therefore been informed by more than twenty years of political activity and wide contact with national newspaper journalists, covering most of the period considered by the Inquiry in Module Three.
 
 %%page 1165%%
 
@@ -22903,8 +22715,6 @@ I "When I was his press secretary, we pursued a strategy of quietly puncturing t
 2.8 Mr Cameron confirmed that he had wanted more distance and a different approach to the media. Significantly though, he recalled them as eliding into one another rather than being tried sequentially. Given the opportunity to respond to Mr Eustice's observation, quoted above, he said:[^20]
 
 "I think parts of it are right, in that we did want to have this – we didn't want to go down the same route as everything Labour had done. We did want to have a bit more distance, but if you look at the record of the sort of meetings I was having and the rest of it, I was still, you know, flying off to meet proprietors and trying to win people over, so I don't think it totally squares up that there was one approach that was tried and failed and then another approach. There's slightly more elision between the two, my reflection on it."
-
-I
 
 2.9 Mr Cameron's evidence that he had been trying to "win people over" (that is to say, build political support) from the time of his appointment is amply borne out by the record of his meetings with the media. The record shows a modest increase in the frequency of meetings from 2007 onwards, but nothing like a step change.[^21] His entry in the Register of Members' Interests dated 27 September 2006 records a helicopter flight from London to Brecqhou, provided by Aidan Barclay. The entry was made the day after he met Sir David and Sir Frederick Barclay, owners of the Telegraph Media Group for a general discussion, thus showing that Mr Cameron was indeed meeting with media proprietors as early as 2006.[^22]
 
@@ -23116,8 +22926,6 @@ Strategy and tactics
 
 "It was important for three reasons. Firstly, you stood a better chance of getting your message across and of stopping misunderstandings quickly if you had good relationships. In a perfect world as Prime Minister you would issue a statement, give an interview, or stage a press conference and your message would be communicated to the public in fair, even-handed reports. Modern politics doesn't work that way. What we did and said required explanation and at times I needed to fight our corner for fair coverage. Secondly, I took the view that it was important that journalists saw David Cameron in a relaxed and informal mode, as well as at work. Again, modern politics demands this. I felt it was important to show his authentic life away from work, not least as the Labour Party was working hard to convince the public that he spent his private moments lounging around a mansion, in top hat and tails, sipping champagne and nibbling on caviar. This was an important myth to dispel. Thirdly, journalists want to meet politicians. There is no substitute in journalism for face to face contact. It was also important for David Cameron to hear what some of the journalists had to say on behalf of their readers and viewers. I believe I was even-handed in who had access to him".
 
-I
-
 2.61 These are revealing insights into what motivated Mr Cameron's Director of Communications to seek even closer proximity to the media for a principal who was already highly active and experienced in his dealing with the media. Mr Coulson clearly felt that this extra effort was required to achieve the legitimate media goals which are incorporated into the reasons quoted above: fair and even handed reporting, the rapid resolution of misunderstandings, an authentic picture of the politician and receipt of reader and viewer feedback. One might easily add to this list.
 
 %%page 1182%%
@@ -23170,7 +22978,7 @@ Relations with News Corporation and News International
 
 "No politician who wishes to get his message across to the public could afford not to take into account the scope of News International's coverage when deciding which people to meet".[^96] When he assumed the leadership of the Conservative Party he hoped that: "...in time, we would have the support of News International's papers. After all, these papers fundamentally share the same views on society and the free market as the Conservative Party".[^97]
 
-I Rupert Murdoch
+Rupert Murdoch
 
 2.74 Contact with Rupert Murdoch had in fact begun during the leadership contest. Mr Murdoch first recalled meeting Mr Cameron socially at a picnic hosted by his daughter Elisabeth.[^98] He dispelled rumours that his first impression of Mr Cameron was of a 'lightweight' politician.[^99] Rather, he said that he had been impressed with Mr Cameron as a family man.[^100] The first contact of a strictly business nature was when the two men met at The Sun's offices in Wapping in October 2005 before the leadership election.[^101]
 
@@ -23216,7 +23024,7 @@ And later:[^112]
 
 "A. I don't accept that. First of all, on this idea of overt deals, this idea that somehow the Conservative Party and News International got together and said, "You give us your support and we'll wave through this merger", that by the way we didn't even know about at that stage, I think the idea of overt deals is nonsense, and you've heard that from lots of people in front of this Inquiry. I also don't believe in this theory that there was a nod and a wink and some sort of covert agreement. Of course, I wanted to win over newspapers and other journalists, editors, proprietors, broadcasters. I worked very hard at that because I wanted to communicate what the Conservative Party and my leadership could bring to the country. I made those arguments. But I didn't do it on the basis of saying, either overtly or covertly, "Your support will mean I'll give you a better time on this policy or that policy", and there are plenty of examples I of policies that I believe in that the people who were backing me didn't believe in."
 
-2.85 One meeting which was to prove important from the point of view of public perception, if not of substance, was that which occurred on board a yacht, probably Elisabeth Murdoch's, off the Greek island of Santorini, on 16 August 2008.[^115] The meeting, which resulted a brief faceto-face encounter in a social context, involved some convoluted travel arrangements which were made possible by the provision of a private jet owned by Matthew Freud, Elisabeth Murdoch's husband and a longstanding friend of Mr Cameron.116 Mr Cameron, who declared the flight in the Registry of Members' interests, explained the lengths to which he had been prepared to go to meet Mr Murdoch:[^117]
+2.85 One meeting which was to prove important from the point of view of public perception, if not of substance, was that which occurred on board a yacht, probably Elisabeth Murdoch's, off the Greek island of Santorini, on 16 August 2008.[^115] The meeting, which resulted a brief faceto-face encounter in a social context, involved some convoluted travel arrangements which were made possible by the provision of a private jet owned by Matthew Freud, Elisabeth Murdoch's husband and a longstanding friend of Mr Cameron.[^116] Mr Cameron, who declared the flight in the Registry of Members' interests, explained the lengths to which he had been prepared to go to meet Mr Murdoch:[^117]
 
 %%page 1188%%
 
@@ -23231,10 +23039,6 @@ And later:[^112]
 "A. Well, I think I've explained that politicians go out of their way to impress people in the press, and I don't remember discussing any heavy political things with him at all. There may have been some issues discussed passingly. It was not a long meeting. As I say, I don't really remember the meeting. I think that's part of the democratic process. They – all politicians of all sides like to have their views known by the editors of newspapers or publishers, hoping that they will be put across, hoping that they will be – that they will succeed in impressing people. That's the game."
 
 The proprietor later added:[^121]
-
-- I — 116
-
-p57, lines 18-21, David Cameron, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Transcript-of- Morning-Hearing-14-June-2012.pdf
 
 %%page 1189%%
 
@@ -23290,7 +23094,7 @@ But certainly, you know, in 2006, 2007, not necessarily every week, I don't thin
 
 %%page 1192%%
 
-2.101 Mrs Brooks also denied expressing a view in any way to Mr Cameron about Mr Grieve.144
+2.101 Mrs Brooks also denied expressing a view in any way to Mr Cameron about Mr Grieve.[^144]
 
 2.102 Mrs Brooks' list of meetings with the leaders of political parties refers to a breakfast meeting with Mr Cameron at the start of the year, on 22 January 2008 and to a New Year's Eve Party on 31 December 2008. Neither of these entries is in Mr Cameron's list. The New Year's Eve Party was held at the Brooks' farm and was in fact hosted by Mr Brooks' sister. By 2008, Mr Cameron counted Ms Wade as a good friend, notwithstanding her paper's support, and her personal support, for Mr Brown.[^145] The growing friendship had been helped along by the fact that Mr Cameron had known Charlie Brooks, whom Mrs Brooks was to marry in 2009, for over 30 years.[^146] It did not prevent her newspaper giving its continued support to Mr Brown's Government and remaining critical of the Conservatives. For example, on 14 October 2008, The Sun criticised Conservative opposition to extending the detention time for terrorist suspects to 42 days.[^147]
 
@@ -23299,10 +23103,6 @@ But certainly, you know, in 2006, 2007, not necessarily every week, I don't thin
 2.104 It was during this month that Mrs Brooks recalled initial internal discussions with Rupert and James Murdoch about transferring The Sun's political support.[^149] Although it was not Mrs Brooks who informed Mr Cameron of The Sun's decision to abandon its support for Mr Brown, Mr Cameron had felt that she was onside months rather than weeks before it actually took place.[^150] On 21 September 2009, a few days before The Sun announced its change of allegiance, James Murdoch, Mrs Brooks and Mr Cameron had dinner together. The three also shared breakfast on 2 November 2009 and on 19 December 2009 Mr Cameron dined with Mrs Brooks and Rupert Murdoch at the Brooks'.
 
 2.105 Mrs Brooks' list of meetings with party leaders for 2009 includes a lunch at the home of James and Kathryn Murdoch on 3 May 2009, a meeting on 1 September 2009 and dinner at the Camerons' home on 24 October 2009. None of these meetings appeared in Mr Cameron's record. As best she could recall, Mrs Brooks thought that the European constitution debate and Afghanistan were discussed on 3 May 2009.[^151]
-
-- I — 144
-
-p111, lines 3-7, Rebekah Brooks, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Morning-Hearing-11-May-2012.pdf
 
 %%page 1193%%
 
@@ -23334,7 +23134,7 @@ And then:[^153]
 
 2.112 The text in question (which has been the subject of considerable media attention) was sent by Mrs Brooks to Mr Cameron on 7 October 2009 at 16:45hrs, just days after The Sun had abandoned support for Mr Brown. After the first line which was redacted on grounds of relevance, the text read:[^159]
 
-"But seriously [which suggests that the first line contains or might contain something of a jocular nature] I do understand the issue with the Times. Let's discuss over country supper soon. On the party it was because I had asked a number of NI [that's obviously News International] people to Manchester post endorsement and they were disappointed not to see you. But as always Sam was wonderful – (and I thought it was OE's that were charm personified!) I am so rooting for you tomorrow not just as a proud friend but because professionally we're definitely in this together! Speech of your life? Yes he Cam!" (emphasis added) I
+"But seriously [which suggests that the first line contains or might contain something of a jocular nature] I do understand the issue with the Times. Let's discuss over country supper soon. On the party it was because I had asked a number of NI [that's obviously News International] people to Manchester post endorsement and they were disappointed not to see you. But as always Sam was wonderful – (and I thought it was OE's that were charm personified!) I am so rooting for you tomorrow not just as a proud friend but because professionally we're definitely in this together! Speech of your life? Yes he Cam!" (emphasis added)
 
 2.113 The reference in the message to "tomorrow" was to Mr Cameron's speech to the Conservative Party Conference. The background to the message was that Mr Cameron had apologised for not attending the Times' party at the conference.[^160] The striking phrase "we're definitely in it together" was, in Mr Cameron's words, a reference to the fact that, having parted company with Labour, The Sun wanted to: "…make sure it was helping the Conservative Party put its best foot forward with the policies we were announcing, the speech I was going to make and all the rest of it …" and "…we were going to be pushing the same political agenda."[^161] The text illustrates how complete the sudden transfer of support was and how close the communication between News International and Mr Cameron was.
 
@@ -23502,9 +23302,7 @@ Now, as I say in this statement, I cannot remember exactly how this conversation
 
 2.154 Commenting on James Murdoch's 2009 MacTaggart lecture, Mr Osborne later made clear how significant were the differences between the Conservative Party and Mr Murdoch on the BBC:[^211]
 
-"I disagreed with him, basically, and certainly David Cameron also disagreed with him, and I think – you know, he had been agitating for some dramatic change in the
-
-I funding of the BBC or the structure of the BBC and he was not going to get that from the Conservatives".
+"I disagreed with him, basically, and certainly David Cameron also disagreed with him, and I think – you know, he had been agitating for some dramatic change in the funding of the BBC or the structure of the BBC and he was not going to get that from the Conservatives".
 
 Ofcom
 
@@ -23533,8 +23331,6 @@ Ofcom
 The 2010 General Election campaign
 
 2.160 The 2010 election campaign of course involved all of the contenders doing their utmost to get their competing political messages across using the media, including new media, and otherwise. Mr Cameron had won the much coveted support of News International's politically variable titles. He had secured the 'full throttled' support of the centre right press and enjoyed the support of those other politically uncommitted media titles, the Economist and the Financial Times. But the endorsement of The Sun did not bring outright victory.
-
-I
 
 2.161 The political commentator Andrew Neil attributed the outcome to a number of factors: the declining political influence of The Sun; the lack of a long period of sustained press support for Mr Cameron before the election; the overshadowing of newspapers generally by television and, in particular, the introduction for the first time in the United Kingdom, of televised leaders' debates during the campaign. Thought provokingly, he wrote:[^216]
 
@@ -23584,7 +23380,7 @@ That's very easy to say that, but I did actually try on getting into Number 10 D
 
 Street to do that. I'm not sure it's always been totally successful, but that's part of what I mean by distance. It means not sitting under a 24-hour news television screen looking at the ticker and worrying about what's happening every hour. If you do that, you get completely buried by the daily news agenda." (emphasis added)
 
-3.6 Focusing more specifically on newspapers, Mr Cameron explained how technological change has affected the content of printed news coverage, forcing it away from its historic model which focused on reporting the previous day's news:[^223] I
+3.6 Focusing more specifically on newspapers, Mr Cameron explained how technological change has affected the content of printed news coverage, forcing it away from its historic model which focused on reporting the previous day's news:[^223]
 
 "… I think a lot of evidence that's been put forward in the sessions you've had where people have talked about the growth of the 24-hour news culture, the fact that things move so fast that I think newspapers have been put in a difficult position, because the news has been made and reported long before they reach their deadlines and they publish their papers the next day, so I think newspapers have moved more towards trying to find impact, trying to find an angle on a story, rather than, as would have been the case before 24-hour news and all the rest of it, of just reporting what happened the day before.
 
@@ -23598,9 +23394,7 @@ So I think there has been a change, but I think that's quite a lot to do with te
 
 3.8 Mr Osborne explained how he and Mr Cameron had drawn lessons from New Labour's media strategy in the early days of the New Labour Government and confirmed that there was less emphasis in Government on fighting for every headline than there had been in Opposition. He pointed out, though, that the proliferation of news sources has in any event now made such an endeavour impossible. He said:[^225]
 
-"This is going to sound like talking my own book, but it also, I think, is genuinely the case. I think New Labour were very aggressive, when they became the government, in pursuing the media management techniques they had developed in opposition. And they had developed those techniques in opposition, to be fair to them, because of the way people like Neil Kinnock had been treated by all the press beforehand. Now, we learnt, in a way, from that. We were – we came of political age – myself, David Cameron and others – during that political period, and we felt too that that government in its early years had been too obsessive about tomorrow's headline and tried to control every aspect of the media. That's not to say when we came into government, we didn't want to have a good and effective media operation, but we were more relaxed about fighting for every single headline or fighting for every news bulletin, and I think there is also partly an understanding on our behalf that in what has become, even over that period, a much more fragmented media, it is impossible to manage every single headline or fight for every headline. In the end, we had a belief that – we came into government, we had
-
-I to set out some difficult things we needed to do and we would trust ultimately to the judgment of the public but also trust to the judgment of the media, even if along the line you got some bad headlines. Certainly, I have been more relaxed as Chancellor of the Exchequer in that early period than I would have been as Shadow Chancellor about some the headlines we've had."
+"This is going to sound like talking my own book, but it also, I think, is genuinely the case. I think New Labour were very aggressive, when they became the government, in pursuing the media management techniques they had developed in opposition. And they had developed those techniques in opposition, to be fair to them, because of the way people like Neil Kinnock had been treated by all the press beforehand. Now, we learnt, in a way, from that. We were – we came of political age – myself, David Cameron and others – during that political period, and we felt too that that government in its early years had been too obsessive about tomorrow's headline and tried to control every aspect of the media. That's not to say when we came into government, we didn't want to have a good and effective media operation, but we were more relaxed about fighting for every single headline or fighting for every news bulletin, and I think there is also partly an understanding on our behalf that in what has become, even over that period, a much more fragmented media, it is impossible to manage every single headline or fight for every headline. In the end, we had a belief that – we came into government, we had to set out some difficult things we needed to do and we would trust ultimately to the judgment of the public but also trust to the judgment of the media, even if along the line you got some bad headlines. Certainly, I have been more relaxed as Chancellor of the Exchequer in that early period than I would have been as Shadow Chancellor about some the headlines we've had."
 
 %%page 1212%%
 
@@ -23768,7 +23562,7 @@ Rebekah Brooks
 
 3.50 As for what she had told Mr Cameron, she said:[^274]
 
-I "It was a couple of years ago. It was a general discussion about – I think he asked me what the update was. I think it had been on the news that day, and I think I explained the story behind the news. No secret information, no privileged information; just a general update. I'm sorry, I can't remember the date, but I just don't have my records".
+"It was a couple of years ago. It was a general discussion about – I think he asked me what the update was. I think it had been on the news that day, and I think I explained the story behind the news. No secret information, no privileged information; just a general update. I'm sorry, I can't remember the date, but I just don't have my records".
 
 %%page 1222%%
 
@@ -24052,7 +23846,9 @@ serious implications in view of the importance of the magazine to the financial 
 
 1.37 From the other side of the political fence, Ron Leighton MP (Labour), who was a sponsored member of the printing union NATSOPA, made clear the support of the trade unions for the NI bid:[^36] "The printing trade unions and, I understand, a very large number of journalists take the view that the best chance of keeping the publications in existence is Rupert Murdoch – not Atlantic Richfield or Associated Newspapers ...it is our view that the most viable offer is the one from Murdoch".
 
-1.38 Two MPs alleged at the time that the decision was, in reality, that of the then Prime Minister. Firstly, Phillip Whitehead MP opined:[^37] "I detect the opinions of the Prime Minister. I think that it is the Prime Minister who has dictated that Rupert is owed a favour and that the proposal should not go to the commission. The Minister is an honourable man and a man somewhat given to private and public agonising." Mr Biffen rejected that suggestion. 1.39 Second, the Rt Hon Geoffrey Robinson MP said: "In this his first major decision the right hon. Gentleman has failed to stand up to the Prime Minister. That is the reality...This is a I straightforward pay-off for services rendered by The Sun."[^38]
+1.38 Two MPs alleged at the time that the decision was, in reality, that of the then Prime Minister. Firstly, Phillip Whitehead MP opined:[^37] "I detect the opinions of the Prime Minister. I think that it is the Prime Minister who has dictated that Rupert is owed a favour and that the proposal should not go to the commission. The Minister is an honourable man and a man somewhat given to private and public agonising." Mr Biffen rejected that suggestion.
+
+1.39 Second, the Rt Hon Geoffrey Robinson MP said: "In this his first major decision the right hon. Gentleman has failed to stand up to the Prime Minister. That is the reality...This is a I straightforward pay-off for services rendered by The Sun."[^38]
 
 1.40 In the result, the motion was defeated by 281 votes to 239 and the transfer took place without a reference to the MMC.
 
@@ -24258,9 +24054,7 @@ The Rt Hon Stephen Dorrell MP I
 
 2.38 Mr Dorrell was asked whether he was concerned about press coverage of this nature. He explained:[^81]
 
-"I was told early in my political life: any fool can have friends, it takes a wise man to have the right enemies. You have to pick which battles you're going to fight. I'm not in favour of having government policy determined by press editorial, but nor am I in favour, in the real world, of government policy being determined blind to press editorial. You have to choose which arguments you're going to have. One of the elements of that choice is that there's not much point in the government committing
-
-I itself to a course of action which, because of press hostility, it is profoundly unlikely to get through the House of Commons. That was in my judgment the position that would have been in if we'd contemplated going down the route of introducing legation and privacy.
+"I was told early in my political life: any fool can have friends, it takes a wise man to have the right enemies. You have to pick which battles you're going to fight. I'm not in favour of having government policy determined by press editorial, but nor am I in favour, in the real world, of government policy being determined blind to press editorial. You have to choose which arguments you're going to have. One of the elements of that choice is that there's not much point in the government committing itself to a course of action which, because of press hostility, it is profoundly unlikely to get through the House of Commons. That was in my judgment the position that would have been in if we'd contemplated going down the route of introducing legation and privacy.
 
 %%page 1254%%
 
@@ -24490,7 +24284,7 @@ Concerns of the press and lobbying
 
 3.22 I do not overlook the evidence of Mr Blair who placed a somewhat different interpretation of these events:[^137]
 
-"Q. Was it the position that News International – I suppose together with everybody else – were lobbying for complete press immunity from the Human Rights Act? A. Yes, that's right. They wanted no suggestion that you would move outside the bounds of the PCC and self-regulation. Q. And were you generally supportive of that position? A. Yes, that was – I mean, my – my view was that if you were to deal with this, you had to deal with it head on, as it were, not through the Human Rights Act, which would be a sort of side way of dealing with it. Also, at that time, I think I'm right in saying it was Lord Wakeham who was head of the PCC, who was something actually I thought was doing quite a good job of that, and the PCC were pretty fierce on this, on behalf the whole of the media, really, not any one particular part of it. Q. Was the position reached that following, if I can put it in these terms, pressure from Lord Irvine – of course then your Lord Chancellor, who I think was responsible for piloting the act through Parliament generally, certainly of course through the Lords – that he persuaded you that your position was incorrect and we ended up with a compromise, which we see in the form of Section 12 of the Act? A. That's right. Q. In terms, though, of what your position was, what was the problem in allowing a privacy law to develop incrementally through Article 8, which is what would have happened – indeed has happened in any event – with the introduction of the Act in the form in which we now see it? A. As I say, I felt we should still be with the self-regulation argument, and I knew that we were going to have quite a big battle over it if we changed that position. In the end, we did come to a compromise, and I think that compromise was perfectly sensible, by the way." I
+"Q. Was it the position that News International – I suppose together with everybody else – were lobbying for complete press immunity from the Human Rights Act? A. Yes, that's right. They wanted no suggestion that you would move outside the bounds of the PCC and self-regulation. Q. And were you generally supportive of that position? A. Yes, that was – I mean, my – my view was that if you were to deal with this, you had to deal with it head on, as it were, not through the Human Rights Act, which would be a sort of side way of dealing with it. Also, at that time, I think I'm right in saying it was Lord Wakeham who was head of the PCC, who was something actually I thought was doing quite a good job of that, and the PCC were pretty fierce on this, on behalf the whole of the media, really, not any one particular part of it. Q. Was the position reached that following, if I can put it in these terms, pressure from Lord Irvine – of course then your Lord Chancellor, who I think was responsible for piloting the act through Parliament generally, certainly of course through the Lords – that he persuaded you that your position was incorrect and we ended up with a compromise, which we see in the form of Section 12 of the Act? A. That's right. Q. In terms, though, of what your position was, what was the problem in allowing a privacy law to develop incrementally through Article 8, which is what would have happened – indeed has happened in any event – with the introduction of the Act in the form in which we now see it? A. As I say, I felt we should still be with the self-regulation argument, and I knew that we were going to have quite a big battle over it if we changed that position. In the end, we did come to a compromise, and I think that compromise was perfectly sensible, by the way."
 
 3.23 I can quite understand how from Mr Blair's perspective, section 12 appeared to be a compromise; he after all was supportive of the press case for complete exemption from the scope of the HRA. But the evidence of Lord Wakeham and Mr Straw clearly demonstrates that complete immunity was unrealistic and unacceptable, not least from the point of view of public opinion.
 
@@ -24514,9 +24308,7 @@ Aftermath
 
 Reflections
 
-3.28 It is clear that the press in general, and Lord Wakeham in particular, lobbied heavily against
-
-I the Human Rights Bill insofar as it related to the press and related freedom of expression issues. It is also clear that section 12 of the HRA was seen at the time as a form of compromise between competing interests. Even so, the robust evidence received from Mr Straw suggests that, although press/Wakeham lobbying had an influence on the ultimate course of events, there were other sound reasons for enacting section 12.
+3.28 It is clear that the press in general, and Lord Wakeham in particular, lobbied heavily against the Human Rights Bill insofar as it related to the press and related freedom of expression issues. It is also clear that section 12 of the HRA was seen at the time as a form of compromise between competing interests. Even so, the robust evidence received from Mr Straw suggests that, although press/Wakeham lobbying had an influence on the ultimate course of events, there were other sound reasons for enacting section 12.
 
 %%page 1270%%
 
@@ -24622,7 +24414,9 @@ Evidence of lobbying behind the scenes: reasons for the policy I change
 
 Reflections
 
-4.29 The evidence leaves no room for doubt that the press brought its full resources and influence to bear on an issue about which it clearly felt very strongly. In that respect, it was acting no differently from any other interested party with political influence in relation to proposed policy or legislative changes. Their case was highly stated, and to a degree they had the Government over a barrel on timing. The merits of the argument are dealt with in detail in Part H. 4.30 The dinner engagement of 10 September 2007 must have made it clear to Mr Brown just how seriously the press was prepared to campaign on this issue, and one way or another he made it clear to his interlocutors that he might be prepared to move on aspects of the policy. Having said that, the DPA amendments was only the fourth item on Mr Dacre's agenda and, as has already been pointed out, the Government adhered in the short term to its policy.
+4.29 The evidence leaves no room for doubt that the press brought its full resources and influence to bear on an issue about which it clearly felt very strongly. In that respect, it was acting no differently from any other interested party with political influence in relation to proposed policy or legislative changes. Their case was highly stated, and to a degree they had the Government over a barrel on timing. The merits of the argument are dealt with in detail in Part H.
+
+4.30 The dinner engagement of 10 September 2007 must have made it clear to Mr Brown just how seriously the press was prepared to campaign on this issue, and one way or another he made it clear to his interlocutors that he might be prepared to move on aspects of the policy. Having said that, the DPA amendments was only the fourth item on Mr Dacre's agenda and, as has already been pointed out, the Government adhered in the short term to its policy.
 
 4.31 But Mr Brown would have been aware of how high the stakes had become, and that if the passage of the amendments through Parliament became problematic, for any reason, then he was taking a significant political risk. These risks became more acute in January 2008 as pressure mounted, press lobbying intensified and deadlines loomed. Furthermore, there was at least some presentational attraction in the argument that the increase in the sentencing options should be matched by a broadening of the scope of the public interest defence.
 
@@ -24655,8 +24449,6 @@ The Legislative Process
 5.7 Of some significance is the fact that Ms Jowell felt it necessary, shortly after her appointment as Secretary of State for Culture, Media and Sport, to ask Mr Blair in terms whether or not he had reached a 'deal' with Mr Murdoch on the reform of cross media ownership rules. It demonstrates that even within the Cabinet there was suspicion that an arrangement might have been reached:[^171]
 
 "Q. Can I start by asking you whether you had any conversations with the prime minister of the time when you took up the portfolio? A. Yes, I did. From memory, it was, I think, the day after or within a couple of days of being appointed, once I had had time to assess what the priorities were for me as an incoming Secretary of State, what was in the in-tray. ... I saw the Prime Minister, as I say, within a couple of days of my appointment, and I had a conversation with him which was, I think, necessary, and I asked him whether or not any deal had been done with Rupert Murdoch on the reform of the cross-media ownership rules. He gave me an absolute assurance, which I completely accepted, that there had been no prior agreement, so that it – to a great extent, I had no constraints on the conclusions I might reach..."
-
-I
 
 5.8 Mr Blair confirmed Ms Jowell's account of the conversation and that there was no implied deal with Mr Murdoch. He was not surprised by his Minister's question, a fact which says something at least about contemporary perceptions about the relationship between Mr Murdoch and Mr Blair:[^172]
 
@@ -24720,9 +24512,7 @@ ITC do not consider to be a foreign-controlled company. "6. A position of recipr
 
 5.19 Ms Jowell did not accept the recommendations uncritically. An internal minute of 7 February 2002 evidences the fact that she called for a note from the Radio Authority on foreign ownership. The official who considered that note did not feel that it provided a strong case for maintaining a ban on non-EEA ownership. The internal minute also records preliminary legal advice about the strength of the ECHR challenge which had been threatened by News International (see 1.14 above) and Bloomberg. The view of the Department's lawyers was that the matter was not clear cut and that the argument advanced against the secretary of state would involve an extension of the current law if it were to prevail.[^190]
 
-5.20 In the result, both Ms Jowell and Ms Hewitt were persuaded that the best course was the
-
-I abolition of the restrictions on foreign ownership and recommended the same to the Prime Minister in a joint letter to him about media ownership rules dated 7 March 2002.[^191] After discussion, Mr Blair accepted the recommendation.[^192] In due course the decision was accepted by the Cabinet and incorporated into the Draft Communications Bill which was published on 7 May 2002. On the issue of foreign ownership, in the course of her statement about the Bill, Ms Jowell told the House:[^193]
+5.20 In the result, both Ms Jowell and Ms Hewitt were persuaded that the best course was the abolition of the restrictions on foreign ownership and recommended the same to the Prime Minister in a joint letter to him about media ownership rules dated 7 March 2002.[^191] After discussion, Mr Blair accepted the recommendation.[^192] In due course the decision was accepted by the Cabinet and incorporated into the Draft Communications Bill which was published on 7 May 2002. On the issue of foreign ownership, in the course of her statement about the Bill, Ms Jowell told the House:[^193]
 
 %%page 1284%%
 
@@ -24788,9 +24578,7 @@ Advantages – This suggestion would be proprietor-neutral – it allows anyone 
 
 C5 doesn't cover the whole of the UK population, has low viewing figures and few public service broadcasting commitments.
 
-ITV has a much more defined public service role, and comprises 15 regional licences that cover the whole country. These regional licences are already the focus of a 20% rule, and cannot be joint-owned with more than 20% of a
-
-I region's press. – We could try to protect the independence of Channel 5 by maintaining or even strengthening its public service requirements.
+ITV has a much more defined public service role, and comprises 15 regional licences that cover the whole country. These regional licences are already the focus of a 20% rule, and cannot be joint-owned with more than 20% of a region's press. – We could try to protect the independence of Channel 5 by maintaining or even strengthening its public service requirements.
 
 %%page 1288%%
 
@@ -24814,7 +24602,7 @@ Whichever option we choose, Channel 5 might be owned by a large newspaper group,
 
 and, later:[^210]
 
-"Q. I'm not for a moment suggesting that this wasn't a considered decision and that these things can happen as policy and legislation develops, but my question was: was it the influence of the Prime Minister's thinking that set you on a course of thinking that led to you changing your mind?" "A. Well, of course, it did, because he's the Prime Minister, and, you know, when you develop – you're a Secretary of State and you're developing policy and the Prime Minister has a slightly different view from the one that you're advancing, you take that seriously." I
+"Q. I'm not for a moment suggesting that this wasn't a considered decision and that these things can happen as policy and legislation develops, but my question was: was it the influence of the Prime Minister's thinking that set you on a course of thinking that led to you changing your mind?" "A. Well, of course, it did, because he's the Prime Minister, and, you know, when you develop – you're a Secretary of State and you're developing policy and the Prime Minister has a slightly different view from the one that you're advancing, you take that seriously."
 
 5.36 The safeguards referred to in the first of the quotations above concerned content regulation and the ability to require that Channel 5 took a nominated news provider in the event that the channel grew significantly. Their inclusion indicates that consideration was clearly being given to the plurality ramifications of the altered stance on Channel 5:[^211]
 
@@ -24864,7 +24652,7 @@ I "Plurality tests are not well supported by the industry because they are inher
 
 – All rules to be subject to automatic review by OFCOM no less than every 3
 
-> I years OFCOM to make recommendations to the SofS, who can amend rules by secondary legislation."
+> years OFCOM to make recommendations to the SofS, who can amend rules by secondary legislation."
 
 5.47 At this stage, on cross media ownership, the large media companies were heading towards getting most, but not all, of what they wanted. Within Government there was (and always remained) a refusal to accept that competition law alone would suffice to ensure plurality in the media. The ministers' underlying political thinking is well summarised in their joint letter to Mr Blair:[^220]
 
@@ -24914,7 +24702,7 @@ I "Plurality tests are not well supported by the industry because they are inher
 
 "MEDIA PLURALITY PUBLIC INTEREST CONSIDERATION (1) Section 58 of the Enterprise Act 2002 (c.40) (specific considerations) shall be amended as follows. (2) After subsection (2B) (which is inserted by section 368 of this Act) there shall
 
-> be inserted – "2(C) The public interest in the promotion and maintenance-" (a) of a plurality of media owners committed to a balanced and impartial I presentation of news and to a balanced presentation of comment, and (b) of a wide range of voices such as to satisfy a variety of tastes and interests is specified in this section.
+> be inserted – "2(C) The public interest in the promotion and maintenance-" (a) of a plurality of media owners committed to a balanced and impartial presentation of news and to a balanced presentation of comment, and (b) of a wide range of voices such as to satisfy a variety of tastes and interests is specified in this section.
 
 %%page 1296%%
 
@@ -24998,7 +24786,7 @@ Reflections
 
 1.6 The publication of KRM18 led to calls for other inquiries and other investigations. On 25 April 2012 I expressed the view that it would better to allow the Inquiry to proceed:[^7]
 
-"In due course, we will hear all the relevant evidence from all the relevant witnesses, and when I report, I will then make findings that are necessary for me to fulfil the terms of reference the Prime Minister has set for me. In the mean time, although I have seen requests for other inquiries and other investigations, it seems to me that the better course is to allow this Inquiry to proceed. When it is concluded, there will doubtless be opportunities for consideration to be given to any further investigation that is then considered necessary". I
+"In due course, we will hear all the relevant evidence from all the relevant witnesses, and when I report, I will then make findings that are necessary for me to fulfil the terms of reference the Prime Minister has set for me. In the mean time, although I have seen requests for other inquiries and other investigations, it seems to me that the better course is to allow this Inquiry to proceed. When it is concluded, there will doubtless be opportunities for consideration to be given to any further investigation that is then considered necessary".
 
 1.7 I returned to the subject of other inquiries and investigations on 15 May 2012 in the light of significant activity in Parliament arising from the publication of KRM18 during the intervening period. I fully recognised on that occasion the sovereignty of Parliament to determine its own proceedings, but explained how a Parliamentary investigation of the same events as were being investigated by the Inquiry, conducted in advance of, or concurrently with, the Inquiry's work risked making it impossible for the Inquiry to investigate this part of the evidence in accordance with its duty of fairness pursuant to s17(3) Inquiries Act 2005.[^8] In the event, Members of Parliament decided not to proceed in parallel with the Inquiry, and the Inquiry has continued as intended.
 
@@ -25072,9 +24860,7 @@ The guidance
 
 2.10 Of particular relevance to the bid for BSkyB was the policy on intervention in broadcasting and cross-media public interest cases set out in section 8 of the Guidance. This policy considerably narrows in practice the application of the otherwise widely worded public interest test applicable in broadcasting and cross-media public interest cases:[^26]
 
-"In principle, the Secretary of State may intervene in any relevant or special merger
-
-I situations involving media enterprises, including cross media mergers, where she believes that the broadcasting and cross-media public interest considerations are relevant. The Secretary of State's policy is that, save in exceptional circumstances, she will consider intervention only in cases where media ownership rules have been removed by the Communications Act 2003. These are: ... ...
+"In principle, the Secretary of State may intervene in any relevant or special merger situations involving media enterprises, including cross media mergers, where she believes that the broadcasting and cross-media public interest considerations are relevant. The Secretary of State's policy is that, save in exceptional circumstances, she will consider intervention only in cases where media ownership rules have been removed by the Communications Act 2003. These are: ... ...
 
 %%page 1306%%
 
@@ -25094,7 +24880,7 @@ such cases should be considered in light of the reasons for the adverse finding 
 
 2.12 News Corp was not alone at the outset of the bid in thinking that there was a strong case for not referring the bid when regard was had to this test. They did not see as exceptional a merger which involved the acquisition by it of the remaining shares in a company in which it already had a significant stake and exercised considerable control. Opponents of the bid differed and argued (insofar as is relevant) that there would in fact be a significant increase in control with real consequences for plurality.
 
-I Quasi-judicial procedure
+Quasi-judicial procedure
 
 2.13 Both Dr Cable and later Mr Hunt recognised that they were exercising a statutory power in a quasi-judicial capacity. What then are the requirements of a quasi-judicial procedure? Counsel for News Corp rightly referred in their helpful closing submissions both to the seminal case of Council of Civil Service Unions v Minister for the Civil Service,[^27] which is authority for the proposition that the requirement is to act with "procedural propriety", the precise requirements of which may depend upon the specific legislative context in which the decision is taken; and then R v Home Secretary ex p Doody[^28] in which Lord Mustill (with whom the rest of their Lordships agreed) distilled six broad principles of fairness from the authorities at p560:
 
@@ -25140,7 +24926,9 @@ Cable MP and the Department for Business, Innovation and Skills Initial reaction
 
 %%page 1310%%
 
-3.4 It is not necessary to resolve this conflict in the evidence for two reasons. First, whether or not Dr Cable expressed a provisional view, he later came to a very different conclusion and he did so on the basis of reasons which were both proper and well supported. Second, whatever else the remaining evidence about the bid shows, it certainly does not reveal any appearance of bias on the part of Dr Cable in favour of News Corp. 3.5 An internal BIS email suggests that in the conversation on 15 June 2010 Dr Cable had not ruled out meeting James Murdoch. His subsequent decisions not to do so were to become a source of frustration to News Corp:[^41]
+3.4 It is not necessary to resolve this conflict in the evidence for two reasons. First, whether or not Dr Cable expressed a provisional view, he later came to a very different conclusion and he did so on the basis of reasons which were both proper and well supported. Second, whatever else the remaining evidence about the bid shows, it certainly does not reveal any appearance of bias on the part of Dr Cable in favour of News Corp.
+
+3.5 An internal BIS email suggests that in the conversation on 15 June 2010 Dr Cable had not ruled out meeting James Murdoch. His subsequent decisions not to do so were to become a source of frustration to News Corp:[^41]
 
 "At the end of the call this week James suggested he and the SoS meet up at some point, SoS vaguely agreed. They now want a slot in the diary".
 
@@ -25306,7 +25094,9 @@ Media lobbying behind the scenes
 
 3.46 Throughout the bid, Mr Michel maintained a dialogue with DCMS about the proposed transaction. This communication was conducted principally, but not exclusively, through one of Mr Hunt's special advisers, Adam Smith. That contact (and contact with BIS and others) is primarily recorded in Mr Michel's emails, but also in text messages; and it is further evidenced by telephone records provided to the Inquiry. At the outset of a consideration of his evidence, it is necessary to make two important observations about Mr Michel's emails.
 
-3.47 First, Mr Michel's emails reporting this contact to his colleagues are very often worded as if he has had direct conversations with Mr Hunt. As was made clear when the emails were disclosed to the Inquiry, and as was confirmed by Mr Michel in a statement exhibiting a detailed supporting analysis, that was generally not the case. In particular, he maintains that he had no conversation with Mr Hunt between 24 December 2010 and the end of July 2011 relating to the BSkyB bid, beyond two formal meetings which he attended as part of the News Corp team (and which are considered later in this section of the Report). Other contact during this period was limited to seeing him very briefly before a dinner and to some personal text messages (which are also considered later in this section of the Report). Mr Michel wrote as he did as a form of shorthand:[^96] I "At no point between 24 December 2010 and the end of July 2011 did I have any direct conversation with Jeremy Hunt relating to the BSkyB proposal beyond the two formal meetings I attended with the News Corp team referred to above. Given the absences of direct interaction with Jeremy Hunt which I have just described, it may appear surprising that within the emails in Exhibit KRM18 there are emails after 24 December 2010 the language of which suggests that I had frequent contact with Jeremy Hunt on the BSkyB proposal. In the emails I use language such as "spoke to Hunt", "had a call with JH", "JH said", "Jeremy said" and other variations. I often use the wording "JH confidential" as a heading for emails. I want to make absolutely clear that such phrases are no more than shorthand for what I was told by someone within Jeremy Hunt's office, almost invariably his special adviser Adam Smith. For the purposes of these emails, I did not distinguish between Jeremy Hunt's advisers and him personally. His advisers were there to assist and advise Jeremy Hunt and it was my understanding that when they told me something, it was always on behalf of the Minister and after having conferred with him. It was on this basis that I relayed the information to my colleagues in the emails, using this form of shorthand." (emphasis added)
+3.47 First, Mr Michel's emails reporting this contact to his colleagues are very often worded as if he has had direct conversations with Mr Hunt. As was made clear when the emails were disclosed to the Inquiry, and as was confirmed by Mr Michel in a statement exhibiting a detailed supporting analysis, that was generally not the case. In particular, he maintains that he had no conversation with Mr Hunt between 24 December 2010 and the end of July 2011 relating to the BSkyB bid, beyond two formal meetings which he attended as part of the News Corp team (and which are considered later in this section of the Report). Other contact during this period was limited to seeing him very briefly before a dinner and to some personal text messages (which are also considered later in this section of the Report). Mr Michel wrote as he did as a form of shorthand:[^96]
+
+"At no point between 24 December 2010 and the end of July 2011 did I have any direct conversation with Jeremy Hunt relating to the BSkyB proposal beyond the two formal meetings I attended with the News Corp team referred to above. Given the absences of direct interaction with Jeremy Hunt which I have just described, it may appear surprising that within the emails in Exhibit KRM18 there are emails after 24 December 2010 the language of which suggests that I had frequent contact with Jeremy Hunt on the BSkyB proposal. In the emails I use language such as "spoke to Hunt", "had a call with JH", "JH said", "Jeremy said" and other variations. I often use the wording "JH confidential" as a heading for emails. I want to make absolutely clear that such phrases are no more than shorthand for what I was told by someone within Jeremy Hunt's office, almost invariably his special adviser Adam Smith. For the purposes of these emails, I did not distinguish between Jeremy Hunt's advisers and him personally. His advisers were there to assist and advise Jeremy Hunt and it was my understanding that when they told me something, it was always on behalf of the Minister and after having conferred with him. It was on this basis that I relayed the information to my colleagues in the emails, using this form of shorthand." (emphasis added)
 
 %%page 1321%%
 
@@ -25354,9 +25144,7 @@ Media lobbying behind the scenes
 
 "Had chat with Don Foster; DCMS spokesman for Libdems this morning. Very relaxed about the bid can't see plurality review taking place".
 
-3.62 A week later Mr Michel had "Talked to Vince's main economic adviser, who sits in the Lords,
-
-I over the week-end. He is leading on this for him." The peer had been reassuring (although by that time Dr Cable was in fact well on his way to deciding against NewsCorp): "I was told there is absolutely no reason to believe he would want a referral". Mr Michel was planning on keeping lines of communication open and sharing News Corp's arguments.[^112] The peer was probably Lord Oakeshott.[^113] Dr Cable was clear in evidence that in fact no one was leading for him. Whatever Lord Oakeshott actually said, it must have been in a personal capacity.
+3.62 A week later Mr Michel had "Talked to Vince's main economic adviser, who sits in the Lords, over the week-end. He is leading on this for him." The peer had been reassuring (although by that time Dr Cable was in fact well on his way to deciding against NewsCorp): "I was told there is absolutely no reason to believe he would want a referral". Mr Michel was planning on keeping lines of communication open and sharing News Corp's arguments.[^112] The peer was probably Lord Oakeshott.[^113] Dr Cable was clear in evidence that in fact no one was leading for him. Whatever Lord Oakeshott actually said, it must have been in a personal capacity.
 
 %%page 1324%%
 
@@ -25416,7 +25204,9 @@ Too much scrutiny. They also want to be able to say they took an independent vie
 
 3.76 Mr Michel's persistence yielded some useful information when he got an indication (rightly as it turned out) as to the imminence of the decision (but not its substance). On 2 November 2010 he reported that he had been told by Baroness Rawlings, the Government's DCMS spokeswoman in the House of Lords, that: "she believed Cable was preparing to make a decision within a few days of our filing becoming public."[^130]
 
-3.77 On the morning of the intervention announcement itself, Mr Michel was in contact by text with Dr Cable's adviser whom is reported to have texted that News Corp had: "put a v strong case which will stand you in good stead on this".[^131] It is possible that the adviser was referring to the coming steps in the process, because the intervention decision had gone against News Corp. 3.78 Mr Michel continued to lobby despite the set back which the intervention was for News Corp, hoping no doubt to increase the chances that the next decision in the process would be more favourable to his employer. On 9 November 2010 he met with Rupert Harrison, a Special Adviser to the Chancellor of the Exchequer, and the terms of his email report to James Murdoch suggests that he had recently also spoken to Vicky Pryce and David Laws. Whatever he was actually told, (as to which I expressly make no finding not least because it has not been the subject of evidence) what Mr Michel reported did not in fact reflect what actually happened:[^132]
+3.77 On the morning of the intervention announcement itself, Mr Michel was in contact by text with Dr Cable's adviser whom is reported to have texted that News Corp had: "put a v strong case which will stand you in good stead on this".[^131] It is possible that the adviser was referring to the coming steps in the process, because the intervention decision had gone against News Corp.
+
+3.78 Mr Michel continued to lobby despite the set back which the intervention was for News Corp, hoping no doubt to increase the chances that the next decision in the process would be more favourable to his employer. On 9 November 2010 he met with Rupert Harrison, a Special Adviser to the Chancellor of the Exchequer, and the terms of his email report to James Murdoch suggests that he had recently also spoken to Vicky Pryce and David Laws. Whatever he was actually told, (as to which I expressly make no finding not least because it has not been the subject of evidence) what Mr Michel reported did not in fact reflect what actually happened:[^132]
 
 "Vince made a political decision, probably without even reading the legal advice, as confirmed also to us by Vicky Price and David Laws yesterday I underlined the impact such regulatory process has for us financially; the signals it sends to major global potential investors. Rupert said the case would be made to BIS".
 
@@ -25436,9 +25226,7 @@ Too much scrutiny. They also want to be able to say they took an independent vie
 
 "Just spoke to Vince's main adviser. Neither date I put forward for a meeting with Vince (7th or 10th Jan) is likely to work. Vince is out of the country at that time, on current plans. I was told that he has yet to get "his full views on the advisability of a meeting – he is very keen to observe all the correct form and may therefore regard the possibility with an element of concern until extremely thoroughly briefed on all possible consequences. I think meeting, if it happens, will be in mid-January. Let's see."
 
-3.83 Unlike Dr Cable, at this stage Mr Hunt had no objection to meeting News Corp, although he
-
-I came to change his mind. When Mr Michel contacted him directly by text on 9 November 2010 seeking a meeting for James Murdoch, Mr Hunt agreed.[^139] But before the meeting took place Mr Hunt received advice from his officials. The advice, which had been approved by in-house legal advisers, recommended against the meeting because DCMS had no formal role in the intervention decision:[^140]
+3.83 Unlike Dr Cable, at this stage Mr Hunt had no objection to meeting News Corp, although he came to change his mind. When Mr Michel contacted him directly by text on 9 November 2010 seeking a meeting for James Murdoch, Mr Hunt agreed.[^139] But before the meeting took place Mr Hunt received advice from his officials. The advice, which had been approved by in-house legal advisers, recommended against the meeting because DCMS had no formal role in the intervention decision:[^140]
 
 %%page 1330%%
 
@@ -25588,9 +25376,7 @@ I 3.106 The evidence, discussed earlier in this Section, shows that Dr Cable did
 
 4.13 I am in no doubt that Mr Lamb took what Mr Michel said on 27 October 2010 about media coverage to be an implied threat and, given the impact that it had on him, whatever Mr Michel said could legitimately have been understood as such a threat. That explains why he reported it as such to both Mr Clegg and Dr Cable. However, I am prepared to accept Mr Michel's evidence that, however it might have appeared and however clumsily he might have spoken, he was not, in fact, intending to threaten Mr Lamb or the Liberal Democrats. His modus operandi, which is very well evidenced in the voluminous emails and texts messages which he sent, as well as the evidence of others who dealt with him, tends to support his denial.
 
-4.14 Mr Michel went about his work in a different way. He mounted charm offensives, flattered and sought to persuade others of the merits of his employer's bid. In his internal emails, there is no mention or hint that he was looking for other ways to pressurise or persuade, let alone deploy a threat. Further, his later strategy, so far as the bid is concerned, is recorded in his internal emails to colleagues, already discussed, and did not involve threatening the Liberal Democrats. Rather, he wanted News Corp to curry favour with Dr Cable by supporting him and the Liberal Democrats generally. His surprise at the interpretation put upon his words by Mr Lamb was genuine. I am reinforced in my conclusion by Mr Clegg's reaction that it was "not a hugely credible threat" and the absence of evidence that the Liberal Democrats were in fact "done over" by News International's titles as a result of Dr Cable's decision to
-
-I intervene. It was not suggested that they were.
+4.14 Mr Michel went about his work in a different way. He mounted charm offensives, flattered and sought to persuade others of the merits of his employer's bid. In his internal emails, there is no mention or hint that he was looking for other ways to pressurise or persuade, let alone deploy a threat. Further, his later strategy, so far as the bid is concerned, is recorded in his internal emails to colleagues, already discussed, and did not involve threatening the Liberal Democrats. Rather, he wanted News Corp to curry favour with Dr Cable by supporting him and the Liberal Democrats generally. His surprise at the interpretation put upon his words by Mr Lamb was genuine. I am reinforced in my conclusion by Mr Clegg's reaction that it was "not a hugely credible threat" and the absence of evidence that the Liberal Democrats were in fact "done over" by News International's titles as a result of Dr Cable's decision to intervene. It was not suggested that they were.
 
 4.15 That the bid was discussed in politicised terms between Mr Michel and Liberal Democrat MPs is plain and is evidenced not only by Dr Cable's recollection but also by Mr Michel's own reports of his lobbying efforts.[^180] Whether politicised discussion was in fact the result of a deliberate effort to politicise the decision by Mr Michel and News Corp is not at all clear. News Corp believed, on credible grounds, that it had a strong position on both competition and plurality grounds. James Murdoch explained that the timing of the bid was deliberately chosen, inter alia, to avoid the issue becoming a political football before the election.[^181]
 
@@ -25622,7 +25408,9 @@ The story breaks
 
 4.23 Before continuing with the events of 21 December 2010, it is appropriate to record that the use of subterfuge by the Daily Telegraph directed to Dr Cable was not an isolated incident. It was one of a number of instances in which undercover Daily Telegraph reporters sought to elicit unguarded comments from Liberal Democrat MPs. The results were the subject of articles on 21, 22 and 23 December 2010 and provoked a complaint to the PCC from Tim Farron MP, President of the Liberal Democrats. The complaint was upheld, albeit with an important qualification concerning Dr Cable:[^187]
 
-"For the Commission to have sanctioned this method, it would have had to be convinced that a high level of public interest could reasonably have been postulated in advance. It did not believe that the Telegraph – although acting no doubt with legitimate intent – had sufficient grounds, on a prima facie basis, to justify their decision to send the reporters in. The complaint was therefore upheld. The Commission did feel that the newspaper had uncovered material in the public interest regarding the remarks made by Vince Cable about the News Corporation bid for BSkyB, which had led to him being divested of his role in that decision. However, there had been no suggestion that the intention of the newspaper had been to explore how he had been handling the bid (it made clear in its coverage that Mr Cable [sic] had spoken "despite not being asked about the issue"), and the newspaper itself had chosen not to make it a focus of its first day's coverage. The test for the Commission was whether there were grounds in the first place to justify the subterfuge: the Cable disclosures about Sky were not relevant to that."
+"For the Commission to have sanctioned this method, it would have had to be convinced that a high level of public interest could reasonably have been postulated in advance. It did not believe that the Telegraph – although acting no doubt with legitimate intent – had sufficient grounds, on a prima facie basis, to justify their decision to send the reporters in. The complaint was therefore upheld.
+
+The Commission did feel that the newspaper had uncovered material in the public interest regarding the remarks made by Vince Cable about the News Corporation bid for BSkyB, which had led to him being divested of his role in that decision. However, there had been no suggestion that the intention of the newspaper had been to explore how he had been handling the bid (it made clear in its coverage that Mr Cable [sic] had spoken "despite not being asked about the issue"), and the newspaper itself had chosen not to make it a focus of its first day's coverage. The test for the Commission was whether there were grounds in the first place to justify the subterfuge: the Cable disclosures about Sky were not relevant to that."
 
 %%page 1342%%
 
@@ -25666,7 +25454,7 @@ The response to the story
 
 4.34 Mr Osborne recalled that the original suggestion to transfer responsibility for the bid to Mr Hunt came not from a politician but from (now Sir) Jeremy Heywood, then the Downing Street Permanent Secretary. He too emphasised a desire not to remove Dr Cable from his post altogether, expressing on his part concern about the impact that such a step might have had on the coalition:[^205]
 
-"The principal concern in the meeting – and certainly my principal concern, what I was seeking to say in the meeting – was that this was not something which should lead to the resignation of Dr Cable. I thought what Dr Cable had said was wrong but I didn't think it merited his resignation, and frankly I also had concerns about the impact of such a resignation on the Coalition and the unity of the government. So I was looking for a solution, as indeed were other people in the room, that did not involve someone else becoming the Secretary of State for Business and Dr Cable leaving the government or indeed Dr Cable moving to another portfolio, because that would trigger a wider Cabinet reshuffle which was not something we felt, just before Christmas, with, as I say, the Coalition in its first year, something we wanted to see, and indeed we thought Dr Cable was doing a good job as business secretary, other than on this particular issue of what he'd said about the Murdochs. So we were looking for solutions that did not involve Dr Cable resigning or moving from business secretary, and Jeremy Heywood suggested the solution of moving the responsibility for media plurality to the department for culture, media and sport. So it was, in a way, a structural solution within Whitehall to the problem, and my recollection is once Mr Heywood had proposed that, we thought that was a good solution and would help keep Dr Cable in government whilst removing from him the responsibility for media plurality, and it, I think, also struck us all as rather commonsensical that it would move to the department that was, after all, called the department for media and already had responsibilities for media regulation." I
+"The principal concern in the meeting – and certainly my principal concern, what I was seeking to say in the meeting – was that this was not something which should lead to the resignation of Dr Cable. I thought what Dr Cable had said was wrong but I didn't think it merited his resignation, and frankly I also had concerns about the impact of such a resignation on the Coalition and the unity of the government. So I was looking for a solution, as indeed were other people in the room, that did not involve someone else becoming the Secretary of State for Business and Dr Cable leaving the government or indeed Dr Cable moving to another portfolio, because that would trigger a wider Cabinet reshuffle which was not something we felt, just before Christmas, with, as I say, the Coalition in its first year, something we wanted to see, and indeed we thought Dr Cable was doing a good job as business secretary, other than on this particular issue of what he'd said about the Murdochs. So we were looking for solutions that did not involve Dr Cable resigning or moving from business secretary, and Jeremy Heywood suggested the solution of moving the responsibility for media plurality to the department for culture, media and sport. So it was, in a way, a structural solution within Whitehall to the problem, and my recollection is once Mr Heywood had proposed that, we thought that was a good solution and would help keep Dr Cable in government whilst removing from him the responsibility for media plurality, and it, I think, also struck us all as rather commonsensical that it would move to the department that was, after all, called the department for media and already had responsibilities for media regulation."
 
 4.35 By around 16:30hrs telephone advice was being sought from the Treasury Solicitor, (now Sir) Paul Jenkins about the issue. Sir Paul, who was at home on leave, spoke to a number of officials, including the Cabinet Secretary, Lord O'Donnell, during the course of the next hour. He confirmed, from a legal perspective, the prevailing view that Dr Cable could not properly retain responsibility for the bid, and went further by advising against delegating the decision to a junior minister at BIS:[^206]
 
@@ -25688,7 +25476,7 @@ The response to the story
 
 "a. An interview in the Financial Times, published on 16 June 2010, where he was quoted as saying:
 
-I It does seem to me that News Corp do control Sky already, so it isn't clear to me that in terms of media plurality there is a substantive change, but I don't want to second guess what regulators might decide." b. An interview in Broadcast magazine where he was also quoted as saying:
+It does seem to me that News Corp do control Sky already, so it isn't clear to me that in terms of media plurality there is a substantive change, but I don't want to second guess what regulators might decide." b. An interview in Broadcast magazine where he was also quoted as saying:
 
 %%page 1346%%
 
@@ -25740,9 +25528,7 @@ NewsCorp/Sky bid James Murdoch is pretty furious at Vince's referral of Ofcom. H
 
 " Q. Were you asked, though, about anything which was not in the public domain, but which might embarrass you should it enter the public domain? A. No. Q. Do you feel that such matters should have been volunteered by you? A. Are you talking about my memo to the Prime Minister? Q. Well, the memo to the Prime Minister, the conversation with Mr Murdoch and the text message we've looked at about the congratulations for Brussels, just Ofcom to go. It's the accumulation of pieces of evidence. It's that material, Mr Hunt, basically. A. I think that all that material is entirely consistent with the overall position that I'd taken that I was sympathetic to the bid and I didn't think there was a media plurality issue, I didn't think we should second-guess the regulators and I thought that due process should be followed. Q. Isn't there a difference, though, between what was stated publicly at interview with the Financial Times and the sort of material we've been looking at? Do you see there as being possibly any difference? A. I don't think there's a substantive difference because substantively my position in all those communications is the same: I, broadly speaking, had the view that BSkyB was already controlled by the Murdochs so I didn't think there was a change in plurality, but I believed that due process had to be respected, so I do not think there's a particular difference."
 
-4.52 It is not in the least surprising that the Secretary of State for Culture, Media and Sport had an opinion upon a major media issue, in this case the bid by News Corp, or that he should have contact with a major player in his sector of responsibility, such as James Murdoch: on
-
-I the contrary, it would have been more surprising had he not had a view or, indeed, contact with Mr Murdoch. Moreover, what Mr Hunt was saying in private to Mr Murdoch and writing to the Prime Minister was not inconsistent with what he was putting into the public domain. He did, though, go into more detail, his comments were much nearer in time to the transfer to him of responsibility for the bid and he was more emphatic in his support for the bid in private. The mere fact of his private statements increased the quantity (and quality) of what he had said and written on the subject.
+4.52 It is not in the least surprising that the Secretary of State for Culture, Media and Sport had an opinion upon a major media issue, in this case the bid by News Corp, or that he should have contact with a major player in his sector of responsibility, such as James Murdoch: on the contrary, it would have been more surprising had he not had a view or, indeed, contact with Mr Murdoch. Moreover, what Mr Hunt was saying in private to Mr Murdoch and writing to the Prime Minister was not inconsistent with what he was putting into the public domain. He did, though, go into more detail, his comments were much nearer in time to the transfer to him of responsibility for the bid and he was more emphatic in his support for the bid in private. The mere fact of his private statements increased the quantity (and quality) of what he had said and written on the subject.
 
 %%page 1350%%
 
@@ -25798,7 +25584,7 @@ Procedural arrangements and meetings with James Murdoch
 
 "3) The Secretary of State may make a reference to the Commission if he believes that it is or may be the case that – (a) arrangements are in progress or in contemplation which, if carried into effect, will result in the creation of a European relevant merger situation;
 
-I (b) one or more than one public interest consideration mentioned in the European intervention notice is relevant to a consideration of the European relevant merger situation concerned; and (c) taking account only of the relevant public interest consideration or considerations concerned, the creation of that situation operates or may be expected to operate against the public interest."
+(b) one or more than one public interest consideration mentioned in the European intervention notice is relevant to a consideration of the European relevant merger situation concerned; and (c) taking account only of the relevant public interest consideration or considerations concerned, the creation of that situation operates or may be expected to operate against the public interest."
 
 %%page 1354%%
 
@@ -25827,8 +25613,6 @@ I (b) one or more than one public interest consideration mentioned in the Europe
 5.17 Formal "minded to" letters were sent by Mr Hunt to both News Corp and BSkyB on 7 January 2011 enclosing both the OFT report and a redacted version of Ofcom's report. The letters explained that the Secretary of State was minded to refer the matter but, as is required by the Enterprise Act 2002,[^243] consulted the relevant parties likely to be adversely affected by the decision if it was confirmed. In this case the letters did so by inviting written submissions and offering a meeting.[^244]
 
 5.18 On 10 January 2012, Mr Hunt, Mr Smith and officials met Ed Richards, the CEO of Ofcom. This was to seek clarification on various aspects of the Ofcom report.[^245]
-
-I
 
 5.19 On 13 January 2011, BSkyB made detailed written submissions to the Secretary of State, urging him to reject Ofcom's advice and to permit the transaction to complete without a referral.[^246] These submissions were followed very shortly afterwards by those of Allen & Overy, on behalf of News Corp, which were delivered on 14 January 2011 in both confidential and redacted format. Their very detailed submissions amounted to a sustained full frontal attack on the Ofcom report, tantamount to an allegation of bias:[^247]
 
@@ -25861,8 +25645,6 @@ There will also be a number of commercial agreements between News/Sky and Newco,
 5.23 Mr Hunt's initial reaction was that the UIL was: "...a pretty big offer. I mean they were basically saying – this was a decision I had about news plurality, and they were saying that they would exclude the one news organisation that's part of BSkyB from the whole deal."[^252]
 
 5.24 On 20 January 2011, a second high level meeting between Mr Hunt and James Murdoch took place to enable News Corp to expand upon its written submissions and to speak to its proposed UIL. Both parties took the meeting very seriously. Mr Hunt was accompanied by a number of DCMS officials, independent specialist counsel, and both of his SpAds. Mr Murdoch brought Mr Michel and others. At the outset Mr Hunt explained that he was still minded to refer the case to the Competition Commission, notwithstanding News Corp's written submissions. He maintained that the low threshold for referral combined with the clear disagreement between Ofcom and News Corp was leading him to the view that a referral for further investigation was the reasonable approach. He would though be prepared to consider UIL as an alternative to referring the matter.
-
-I
 
 5.25 Undeterred by Mr Hunt's clear indication that he was minded to refer, the minutes show that News Corp maintained its furious rebuttal of the Ofcom report with a lengthy series of points, although there is no indication that they moved Mr Hunt from his provisional view. The Secretary of State was much more receptive in principle to the UIL, which were discussed next, but he was not prepared to be rushed when it came to the detail. He concluded that:
 
@@ -25962,9 +25744,7 @@ A related email between Jon Zeff and Rita Patel, referring to that quoted above,
 
 5.51 There was a further exchange of letters when, on 24 May 2011, Lord Prescott copied an article from the Guardian reporting criticism of News Corp by former US Vice President Al Gore.[^293] Mr Hunt replied on 27 June 2011 pointing out the limited remit of his decision, and assuring Lord Prescott that he would only accept UIL which were legally robust and enforceable and which addressed the media plurality concerns.[^294]
 
-5.52 Meanwhile, on 19 April 2011, Mr Watson also wrote to Mr Hunt, following up a letter which he had sent on 24 January 2011, before the consultation. His first letter had raised phone
-
-I hacking at the NoTW (to the extent then known) and urged Mr Hunt to widen the scope of his intervention to include News Corp's commitment to broadcasting standards. He had concluded:[^295]
+5.52 Meanwhile, on 19 April 2011, Mr Watson also wrote to Mr Hunt, following up a letter which he had sent on 24 January 2011, before the consultation. His first letter had raised phone hacking at the NoTW (to the extent then known) and urged Mr Hunt to widen the scope of his intervention to include News Corp's commitment to broadcasting standards. He had concluded:[^295]
 
 %%page 1366%%
 
@@ -26072,7 +25852,9 @@ News Corporation continues to believe that properly taking into account those fa
 
 5.73 Avaaz sought to seize the moment to press the case for the Secretary of State to issue a new EIN widened in scope to include not only plurality but also commitment to broadcasting standards. The group did so on 12 July 2011 by sending DCMS a Note, produced by counsel expert in merger and competition law, which challenged the view that s67(5) of the Enterprise Act 2002 prevented the Secretary of State from widening the scope of the intervention. Counsel concluded:[^323]
 
-"Although I cannot claim that the position is certain, I can say that in my view, given the factual context set out above, any attempt by News Corporation to challenge a decision by the Secretary of State to issue a further Notice allowing him and the CC to consider fitness would be more likely than not to fail, notwithstanding section 67(5) of the EA02. ... I I should make it clear that I am not saying that the Secretary of State is bound now to issue a replacement Notice allowing fitness to be examined as a public interest consideration. His discretion is a wide one. However, in the present circumstances, the view that he definitely cannot lawfully do so seems to me to be far too cautious."
+"Although I cannot claim that the position is certain, I can say that in my view, given the factual context set out above, any attempt by News Corporation to challenge a decision by the Secretary of State to issue a further Notice allowing him and the CC to consider fitness would be more likely than not to fail, notwithstanding section 67(5) of the EA02. ...
+
+I should make it clear that I am not saying that the Secretary of State is bound now to issue a replacement Notice allowing fitness to be examined as a public interest consideration. His discretion is a wide one. However, in the present circumstances, the view that he definitely cannot lawfully do so seems to me to be far too cautious."
 
 5.74 In the result, that legal argument did not need to be resolved because although the transaction was formally referred to the Competition Commission on 13 July, News Corp subsequently withdrew its bid and, on 25 July 2011, the reference was cancelled by the Competition Commission.[^324]
 
@@ -26160,7 +25942,7 @@ Frédéric Michel's contact with Jeremy Hunt I 5.93 On Christmas Eve, some three
 
 5.100 There were two more exchanges during the currency of the bid. First, on 13 March 2011, Mr Michel praised Mr Hunt's performance in an interview: "Very good on Marr. As always! Fred". Mr Hunt's reply amounted to a polite reminder of the bid and consequent need for some distance: "Merci hopefully when consultation over we can have a coffee like the old days!"[^349]
 
-I 5.101 Second, on 3 July, Mr Michel sent a text to propose a social engagement: "Come on Nadal!! We should get together to celebrate the one year baby birthdays! Hope all well. Warm regards, Fred". Mr Hunt replied in friendly terms but once again he put off Mr Michel whilst the bid was in progress: "Agree he MUST win! Let's do that when all over".[^350] During his oral evidence Mr Hunt candidly reflected on Mr Michel's 3 July 2011 text, stating:[^351]
+5.101 Second, on 3 July, Mr Michel sent a text to propose a social engagement: "Come on Nadal!! We should get together to celebrate the one year baby birthdays! Hope all well. Warm regards, Fred". Mr Hunt replied in friendly terms but once again he put off Mr Michel whilst the bid was in progress: "Agree he MUST win! Let's do that when all over".[^350] During his oral evidence Mr Hunt candidly reflected on Mr Michel's 3 July 2011 text, stating:[^351]
 
 %%page 1378%%
 
@@ -26308,9 +26090,7 @@ An ideal bridge between the department and Ministers, consistently adds value, a
 
 5.136 Mr Stephens in his evidence was confident that the requirements of a fair process had been clearly communicated. He stated:[^392]
 
-"Taken together, the written advice offered on 12 November and on 4 January 2011, and the oral advice offered in the meetings on 22 December and 5 January, including by legal advisers, established in my view clear requirements for how the process needed to be conducted, namely that this was a quasi-judicial process, in which decisions were now for the Secretary of State alone to take, on the basis of objective assessment of the evidence available to him, taking account of all the relevant considerations and ignoring any which were irrelevant. He needed to take an even-handed approach, giving all sides an appropriate opportunity to make representations, ensuring that
-
-I the process was without bias or the appearance of bias."
+"Taken together, the written advice offered on 12 November and on 4 January 2011, and the oral advice offered in the meetings on 22 December and 5 January, including by legal advisers, established in my view clear requirements for how the process needed to be conducted, namely that this was a quasi-judicial process, in which decisions were now for the Secretary of State alone to take, on the basis of objective assessment of the evidence available to him, taking account of all the relevant considerations and ignoring any which were irrelevant. He needed to take an even-handed approach, giving all sides an appropriate opportunity to make representations, ensuring that the process was without bias or the appearance of bias."
 
 5.137 When asked about what had been said at the 22 December 2010 meeting he thought avoiding bias and the appearance of bias had been specifically mentioned:[^393]
 
@@ -26362,9 +26142,7 @@ A. Not – well, the process that we were following was in the Enterprise Act, b
 
 5.149 For his part, Mr Michel was a professional lobbyist who, whilst charming and experienced, said that he himself was unaware of the dangers to the process of the contact which he was actively encouraging Mr Smith to engage in. It was the first time that Mr Michel had dealt with such a transaction and the concept of a quasi-judicial decision was not explained to him by a lawyer at any stage.[^404] He understood something of the position of the Secretary of State recognising that any direct discussions should be formal and minuted but he did not appreciate the need for distance and transparency when dealing with Mr Hunt's officials and SpAds:[^405]
 
-"Yes. I think we had discussions on the fact that it was very important that the
-
-I decision rested with the Secretary of State, that it was not appropriate to have direct discussions with the Secretary of State unless they were formal and minuted, but beyond that we were in unchartered territory in terms of – and I'm speaking in hindsight as well – in terms of the level of representations that could be made below the Secretary of State."
+"Yes. I think we had discussions on the fact that it was very important that the decision rested with the Secretary of State, that it was not appropriate to have direct discussions with the Secretary of State unless they were formal and minuted, but beyond that we were in unchartered territory in terms of – and I'm speaking in hindsight as well – in terms of the level of representations that could be made below the Secretary of State."
 
 %%page 1392%%
 
@@ -26386,7 +26164,9 @@ and:[^406]
 
 5.155 But there were times when Mr Smith succumbed to Mr Michel's tactics and appeared momentarily at least to have been drawn in by the narrative of common cause. On one occasion he found himself joking with Mr Michel about an opponent of the bid. On another, he joined in criticism of Ofcom. He passed on information about the progress of the bid that would have been more properly communicated in a much more formal manner. He did not make formal notes of the communications. There is an issue (analysed below) about Mr Michel's source of confidential information about the Government's thinking as to the form which inquiries arising out of the phone hacking scandal would take: whatever the truth of the matter, Mr Smith should never have been running any risk of being the source of any but the most inconsequential information.
 
-5.156 The above impressions can be illustrated by reference to a few salient examples. On 10 January 2011, the telephone records showed three calls between Mr Michel and Mr Smith totalling 27 minutes, 55 seconds.[^412] There is also an email from Mr Michel to James Murdoch and others. It is clear from the email that Mr Smith had told Mr Michel about the reaction of Ed Richards (of Ofcom) to the points on which Mr Hunt had sought clarification from him.[^413] Ultimately, Mr Smith did not dispute that he had done so and correctly pointed out that it had always been Mr Hunt's intention that News Corp should be informed of the clarifications that Mr Richards had provided. This is, however, an example of substantive information about the bid being communicated by Mr Smith in a very informal manner and without keeping a formal record. The e mail recorded in material part that:[^414] "[Jeremy Hunt/Adam Smith] saw Ed Richards today:
+5.156 The above impressions can be illustrated by reference to a few salient examples. On 10 January 2011, the telephone records showed three calls between Mr Michel and Mr Smith totalling 27 minutes, 55 seconds.[^412] There is also an email from Mr Michel to James Murdoch and others. It is clear from the email that Mr Smith had told Mr Michel about the reaction of Ed Richards (of Ofcom) to the points on which Mr Hunt had sought clarification from him.[^413] Ultimately, Mr Smith did not dispute that he had done so and correctly pointed out that it had always been Mr Hunt's intention that News Corp should be informed of the clarifications that Mr Richards had provided. This is, however, an example of substantive information about the bid being communicated by Mr Smith in a very informal manner and without keeping a formal record. The e mail recorded in material part that:[^414]
+
+"[Jeremy Hunt/Adam Smith] saw Ed Richards today:
 
 %%page 1394%%
 
@@ -26486,7 +26266,9 @@ Q. You're almost communicating there a public relations message, and coming clos
 
 "Hunt will be making references to phone-hacking in his statement on Rubicon this week. He will be repeating the same narrative as the one he gave in Parliament few weeks ago [sic]. This is based on his belief that the police is pursuing things thoroughly and phone-hacking has nothing to do with the media plurality issue. [It's] extremely helpful. On the issue of the Privacy Committee, he supports a widening of its remit to the future of the press and evidence from all newspaper groups on the regulatory regime. He wants to prevent a public enquiry [sic]. For this, the Committee will need to come up with a strong report in the Autumn and put enough pressure on the PCC to strengthen itself and take recommendations forward. JH is now starting to look into phone-hacking / practices more thoroughly and has asked me to advise him privately in the coming weeks and guide his and [No10's] positioning..."
 
-5.182 When asked about this email Mr Smith accepted that he might have asked Mr Michel to be kept informed about News Corp's reaction to the phone hacking scandal but denied that he asked to be guided. He said:[^448] I "A. Yes, certainly. If this was a conversation with me, it's quite possible that I asked him to let me know what steps News International was taking in response to the phone hacking situation, mainly because the department is obviously responsible for the media sector, so that would be interesting, but I would never have asked to be guided, and I think this use of the word "privately" again is one that I don't really sort of recognise because if I'd asked him to send me statements they were making about phone hacking, then he would have sent them to me. I don't think that's privately."
+5.182 When asked about this email Mr Smith accepted that he might have asked Mr Michel to be kept informed about News Corp's reaction to the phone hacking scandal but denied that he asked to be guided. He said:[^448]
+
+"A. Yes, certainly. If this was a conversation with me, it's quite possible that I asked him to let me know what steps News International was taking in response to the phone hacking situation, mainly because the department is obviously responsible for the media sector, so that would be interesting, but I would never have asked to be guided, and I think this use of the word "privately" again is one that I don't really sort of recognise because if I'd asked him to send me statements they were making about phone hacking, then he would have sent them to me. I don't think that's privately."
 
 %%page 1401%%
 
@@ -26572,7 +26354,9 @@ Conclusions
 
 %%page 1407%%
 
-5.207 Mr Smith was diligent, literally to a fault on this occasion, and undoubtedly had discharged his duties in an exemplary manner before having to deal with the bid. Despite all that can be said on his behalf, he ought nevertheless to have realised that Mr Michel was pushing his way too far into the process, by over-familiar means, and that action was required to address that. It is regrettable that he did not seek advice from either Mr Hunt or Mr Stephens, or alternatively take action himself to put the communications onto a proper footing. Instead, he succumbed to Mr Michel's intimate, surreptitious and conspiratorial language and got 'way too close' to him, ultimately, as I have concluded, probably passing on confidential information about Government thinking which should never have been imparted to News Corp. 5.208 The perception of bias emerges from the exchanges between Mr Smith and Mr Michel. What was not evident from the close consideration of events which the Inquiry undertook was any credible evidence of actual bias on the part of Mr Hunt. Whatever he had said, both publicly and in private, about News Corp or the Murdochs, as soon as he was given the responsibility for dealing with the bid the evidence demonstrates a real desire on his part to get it right. His actions as a decision maker were frequently adverse to News Corp's interests. He showed a willingness to follow Ofcom's advice and to take action, to the extent recommended by the regulators, in response to the consultation. Even had the deal been approved, it is abundantly clear, that it would only have been permitted to proceed subject to very significant and closely scrutinised UIL.
+5.207 Mr Smith was diligent, literally to a fault on this occasion, and undoubtedly had discharged his duties in an exemplary manner before having to deal with the bid. Despite all that can be said on his behalf, he ought nevertheless to have realised that Mr Michel was pushing his way too far into the process, by over-familiar means, and that action was required to address that. It is regrettable that he did not seek advice from either Mr Hunt or Mr Stephens, or alternatively take action himself to put the communications onto a proper footing. Instead, he succumbed to Mr Michel's intimate, surreptitious and conspiratorial language and got 'way too close' to him, ultimately, as I have concluded, probably passing on confidential information about Government thinking which should never have been imparted to News Corp.
+
+5.208 The perception of bias emerges from the exchanges between Mr Smith and Mr Michel. What was not evident from the close consideration of events which the Inquiry undertook was any credible evidence of actual bias on the part of Mr Hunt. Whatever he had said, both publicly and in private, about News Corp or the Murdochs, as soon as he was given the responsibility for dealing with the bid the evidence demonstrates a real desire on his part to get it right. His actions as a decision maker were frequently adverse to News Corp's interests. He showed a willingness to follow Ofcom's advice and to take action, to the extent recommended by the regulators, in response to the consultation. Even had the deal been approved, it is abundantly clear, that it would only have been permitted to proceed subject to very significant and closely scrutinised UIL.
 
 ### News Corp and the Rt Hon Alex Salmond MSP
 
@@ -26580,9 +26364,7 @@ Conclusions
 
 6.2 During the autumn of 2010, Mr Michel had been in touch with the First Minister for Scotland, the Rt Hon Alex Salmond MSP. By this stage, Mr Salmond was forging a close relationship with Rupert Murdoch and News Corp which is discussed more fully elsewhere in this Report.[^465] In particular, he was hoping to secure the support of The Scottish Sun in the then forthcoming 2011 Scottish Parliament election. Mr Salmond saw advantage for Scotland in the bid's success because News Corp is a big employer in Scotland. He was more than ready to try and encourage a successful outcome for the bid. An email from Mr Michel to James Murdoch dated 1 November 2010 records Mr Salmond's position and that of another unnamed politician[^466] with a political interest in the bid's success:[^467]
 
-"Mission accomplished. –Libdem MP, former Sky employee, with major Sky customer centres in his constituency
-
-I and around, will contact Vince Cable to ask him to bear in mind the economic / investment point of view rather than getting influenced by political games, especially in times of austerity and very difficult economic environment for those areas. He will also emphasise the opportunity for Cable to show the maturity of the Libdems as coalition partners, working for the long-term, and will draw from the Coalition government experience lib-dems have had in Scotland. He agrees with the need for this to be looked at by Brussels rather than scrutinised again on plurality ground in the UK [sic] –Alex Salmond is very keen to also put these issues across to Cable and have a call with you tomorrow or Wednesday. His team will also brief the Scottish press on the economic importance of News Corp for Scotland."(emphasis added)
+"Mission accomplished. –Libdem MP, former Sky employee, with major Sky customer centres in his constituency and around, will contact Vince Cable to ask him to bear in mind the economic / investment point of view rather than getting influenced by political games, especially in times of austerity and very difficult economic environment for those areas. He will also emphasise the opportunity for Cable to show the maturity of the Libdems as coalition partners, working for the long-term, and will draw from the Coalition government experience lib-dems have had in Scotland. He agrees with the need for this to be looked at by Brussels rather than scrutinised again on plurality ground in the UK [sic] –Alex Salmond is very keen to also put these issues across to Cable and have a call with you tomorrow or Wednesday. His team will also brief the Scottish press on the economic importance of News Corp for Scotland."(emphasis added)
 
 %%page 1408%%
 
@@ -26652,11 +26434,11 @@ and:
 
 Conclusion
 
-6.18 The handling of News Corp's 2010 bid for BSkyB proved to be an illuminating case study, highlighting the difficulties which politicians face when dealing with acutely sensitive media issues, in this instance a plurality decision. The picture which emerged, at a macro level, is of a swing from the clear perception of bias against News Corp on the part of Dr Cable in the comments he made to his 'constituents' to a highly unsatisfactory course of communications between Mr Michel and Mr Smith on Mr Hunt's watch which itself risked a finding of apparent bias in favour of News Corp. It involved political lobbying by News Corp, wholly without regard to the restricted ambit of the plurality test, and at least one politician expressing himself to be 'standing ready' to lobby on grounds that he was aware were legally irrelevant but served his (entirely legitimate) political interests. Had the bid not failed for other reasons, Mr Michel's activities, of which James Murdoch was aware, would have put at risk a favourable decision, had one materialised. In that respect not only was their activity misguided, it was also ultimately contrary to the interests of News Corp. 6.19 It is also highly material to issues concerning the relationship between the development of policy (where we depend on the democratically elected politicians and Government) and those who are in a position to use their powerful megaphones to advance causes which they support, namely the press (not, of course, constrained by the requirements of impartiality imposed on broadcasters). As I have made clear, dialogue between politicians and the press is greatly to the benefit of our democracy and entirely in the public interest. Where the public interest and private media interests can collide, however, care must be taken to ensure that the former prevails and the latter is recognised for what it is.
+6.18 The handling of News Corp's 2010 bid for BSkyB proved to be an illuminating case study, highlighting the difficulties which politicians face when dealing with acutely sensitive media issues, in this instance a plurality decision. The picture which emerged, at a macro level, is of a swing from the clear perception of bias against News Corp on the part of Dr Cable in the comments he made to his 'constituents' to a highly unsatisfactory course of communications between Mr Michel and Mr Smith on Mr Hunt's watch which itself risked a finding of apparent bias in favour of News Corp. It involved political lobbying by News Corp, wholly without regard to the restricted ambit of the plurality test, and at least one politician expressing himself to be 'standing ready' to lobby on grounds that he was aware were legally irrelevant but served his (entirely legitimate) political interests. Had the bid not failed for other reasons, Mr Michel's activities, of which James Murdoch was aware, would have put at risk a favourable decision, had one materialised. In that respect not only was their activity misguided, it was also ultimately contrary to the interests of News Corp.
+
+6.19 It is also highly material to issues concerning the relationship between the development of policy (where we depend on the democratically elected politicians and Government) and those who are in a position to use their powerful megaphones to advance causes which they support, namely the press (not, of course, constrained by the requirements of impartiality imposed on broadcasters). As I have made clear, dialogue between politicians and the press is greatly to the benefit of our democracy and entirely in the public interest. Where the public interest and private media interests can collide, however, care must be taken to ensure that the former prevails and the latter is recognised for what it is.
 
 6.20 The difficulties which the politicians concerned had with this bid gives pause for thought as to whether and, if so, in what capacity politicians ought to be involved in media plurality decisions. It is a question on which the Inquiry heard the views of both Dr Cable and Mr Hunt. Dr Cable thought it right that politicians ought to be involved.[^479] Mr Hunt believed that it was possible to set aside political and personal views but believed that, by taking and publishing advice, he had applied a valuable lock to the process with which to help safeguard it. He could, in practice, only depart from the advice if he could convincingly and publicly explain why.[^480]
-
-I
 
 6.21 A detailed consideration of the issues relevant to plurality is described elsewhere in the Report[^481] and the issue is not, therefore, taken further in the concluding part of the analysis of the bid by News Corp for the remaining shares in BSkyB. What this analysis does reveal, however, is that a new approach is essential. Repetition of the problems which arose on this bid is undeniably not in the public interest.
 
@@ -26706,7 +26488,9 @@ MP
 
 3.2 I made a connection between this analysis and some of the evidence I had heard from previous Prime Ministers, including Sir John Major and Mr Blair. The latter, for example, explained that for him 'too close' should not necessarily be taken to suggest something which was amicable and collaborative; the power of the press was also experienced as something creating a degree of circumspection in dealing with matters affecting the press's own reputation and commercial interests. I understood Mr Miliband's comments in that context; that this experience of the power of the press led to a correlative reticence in politicians, an unwillingness to speak out about problems in the culture, practices and ethics of the press, including those exposed in evidence to the Inquiry. Mr Miliband was including himself in that analysis.[^9]
 
-3.3 He said that when senior politicians did decide to speak out, this was perceived as 'crossing a Rubicon because this would be seen by News International as pretty much an act of war'.[^10] His assessment was that issues of power and influence could not be divorced from issues about the concentration of market share in a limited number of hands and the associated megaphone effect, and that issues of press misconduct equally could not be divorced from the fact of economic power, since it created:[^11] I "...[a] sense of power without responsibility, which is what I believe it was, came from the fact that they controlled 37 per cent of the newspaper market before the closure of the News of the World, and I don't think we can divorce these questions of ownership, quasi-monopoly et cetera, from – or at least concentration of power, better put than "quasi-monopoly" – concentration of power – I don't think we can divorce those questions from the behaviour of some parts of the press. And add in, by the way, the Sky platform, which then became – and Sky. All that became an issue around BSkyB, but I think that is a big concentration of media power, and I think part of the arrogance – and I use the word advisedly; in a way, it's a mild form of the word I might use – came from that."
+3.3 He said that when senior politicians did decide to speak out, this was perceived as 'crossing a Rubicon because this would be seen by News International as pretty much an act of war'.[^10] His assessment was that issues of power and influence could not be divorced from issues about the concentration of market share in a limited number of hands and the associated megaphone effect, and that issues of press misconduct equally could not be divorced from the fact of economic power, since it created:[^11]
+
+"...[a] sense of power without responsibility, which is what I believe it was, came from the fact that they controlled 37 per cent of the newspaper market before the closure of the News of the World, and I don't think we can divorce these questions of ownership, quasi-monopoly et cetera, from – or at least concentration of power, better put than "quasi-monopoly" – concentration of power – I don't think we can divorce those questions from the behaviour of some parts of the press. And add in, by the way, the Sky platform, which then became – and Sky. All that became an issue around BSkyB, but I think that is a big concentration of media power, and I think part of the arrogance – and I use the word advisedly; in a way, it's a mild form of the word I might use – came from that."
 
 %%page 1417%%
 
@@ -26770,7 +26554,7 @@ Salmond MSP
 
 "Well, I am concerned with it because I think there's a connecting thread which is that what seemed to me to be substantive evidence of illegality or illegal practices which was contained in the Information Commissioner – the English and Welsh Information Commissioner's report, Richard Thomas, I think, of December 2006 had been not left unlooked at because there had been a limited number of prosecutions, but even, for example, his proposal that breaches of data protection should be an indictable offence, as we call it in Scotland, and it's the same in England, you know, had been left, and most recently the revelations on hacking, I mean the connection is obviously that there was a substantial body of evidence that there had been a sequence of perhaps systematic illegal practices going on, and the response of the law and those who have responsibility for pursuing these things, whether the police or the prosecution services, had not been adequate, and therefore I suggested to the
 
-I Secretary of State that an explicit reference in the terms of reference to Operation Motorman would be helpful in making it clear that this was one key aspect, I hoped, of the Inquiry's consideration, and now as it happens, as you know, it was argued to me that it didn't have to be explicit because it was already implicit within the terms of reference and fair enough … . I was really thinking of illegal practices. I think it's possible to consider – clearly this Inquiry is considering practices which are improper but not necessarily illegal. I mean, there are ways to access people's data which are not illegal and it might be argued that's a perfectly proper way to do things. You might – but I wouldn't put my senses on that. I was really driving at the illegality as opposed to the propriety."
+Secretary of State that an explicit reference in the terms of reference to Operation Motorman would be helpful in making it clear that this was one key aspect, I hoped, of the Inquiry's consideration, and now as it happens, as you know, it was argued to me that it didn't have to be explicit because it was already implicit within the terms of reference and fair enough … . I was really thinking of illegal practices. I think it's possible to consider – clearly this Inquiry is considering practices which are improper but not necessarily illegal. I mean, there are ways to access people's data which are not illegal and it might be argued that's a perfectly proper way to do things. You might – but I wouldn't put my senses on that. I was really driving at the illegality as opposed to the propriety."
 
 %%page 1422%%
 
@@ -26894,8 +26678,6 @@ A. It may be the case sometimes that a relationship between certain journalists 
 
 1.12 However the term 'too close' is exactly defined, the question has boiled down to this issue: have there been unaccountable exchanges in influence and favours, trading political support and advancement (or the avoidance of political damage) for policies which favour the commercial interests of the press, however defined, or the abstention from policies which would disfavour those interests? Less starkly, but no less important, are there aspects of the close relationship between politicians and the press which should just very simply be less close, or which the public should be able to know more about so that they can make their own minds up about it?
 
-I
-
 1.13 Generally speaking, I have considered the issue on a chronological basis, taking the last five Prime Ministers over three periods of time, corresponding with the periods of power of their respective parties, and examining their relationship with the press; and then by scrutinising the issue through the lens of a series of policy and legislative developments, culminating in a close examination of the BSkyB bid. This last episode has been analysed in detail for a number of reasons. First, because of its currency and the quantity of evidence, both documentary and oral, which was brought to bear on it. Second, the story allows a clear focus on a number of aspects of the relationship between the press and the politicians. Third, the evidence available, and the fact that the case involved a decision with a legal (and quasi-judicial) dimension, makes it possible to analyse it forensically.
 
 %%page 1430%%
@@ -27004,8 +26786,6 @@ Reflections on the proprietors
 
 2.28 As discussed below, although I have reached the conclusion that, in some respects, the relationship between individual newspaper proprietors and senior politicians has not been wholly beneficial from the point of view of the public, I do not consider that the principal responsibility for remedying that situation lies with the proprietors. The response that I invite from newspaper proprietors to this Report lies in a different direction.
 
-I
-
 2.29 The culture, practices and ethics of individual press organisations, and the contribution that each one makes to the culture, practices and ethics of the press viewed as a whole, are matters on which individual proprietors are uniquely placed to exercise personal influence in the public interest. This does not, in any way, suggest interference with editorial independence or with the opinions or content that their titles are free to publish. I am referring instead to the way that any important business contributor to national life and culture will want his or her business to make that contribution, and to operate in ways that command public respect and admiration, enhance the reputation of the business and, in this case, the press generally and their titles in particular. The more that the public trust the press, the greater the chance that they will partake more freely and to a greater extent in the variety that different titles offer.
 
 %%page 1438%%
@@ -27084,7 +26864,7 @@ The press as lobbyists
 
 3.26 There is an important exception to the principle of unrestrained advocacy, and it relates to the openness and formality required in the context of quasi-judicial decision-making. This exception applies just as much to any other commercial or campaigning organisation as it does to the press.
 
-3.27 Having said that, I am clear that it is, more generally, entirely the responsibility of the politicians who are the object of lobbying to judge how far and in what way they consider it to be in the public interest for them to respond. As I have said, the relationship is not a symmetrical one. The politicians have responsibilities to the public who elected them. Lobbyists do not. I
+3.27 Having said that, I am clear that it is, more generally, entirely the responsibility of the politicians who are the object of lobbying to judge how far and in what way they consider it to be in the public interest for them to respond. As I have said, the relationship is not a symmetrical one. The politicians have responsibilities to the public who elected them. Lobbyists do not.
 
 3.28 One of the chief responsibilities of politicians is to bear in mind that while a free and healthy press is certainly in the public interest, that does not mean that everything which is in the (commercial or wider) interests of any individual press organisation, or even of the industry as a whole, will itself necessarily be in the public interest. The matter must be looked at in the round, taking all relevant considerations into account. I make that clear because, in listening to the evidence, I have noted the way in which the rhetoric of public interest tends to become elided with the self-interest of the press. No doubt other sectors also routinely appeal to a sense of the public interest in the health of their enterprises and the contribution they make to general quality of life, prosperity and well being. Perhaps the press do so especially insistently. It is politicians' job to test such claims on a case by case basis.
 
@@ -27130,9 +26910,7 @@ Public interest issues
 
 3.44 That risk also includes the possibility that the public will not be completely in the dark, but may come to learn something of what appear to be close relationships and reasonably suspect them of being in some degree relevant to the conduct of public affairs. Save for speculation or intrusion, however, there is no available means of understanding how far that may be so. That leaves the matter unsatisfactory from the public point of view; further, the speculation exposes the politicians involved to a degree of innuendo along with the difficulty of proving a negative both of which could very well be unfair.
 
-3.45 The result is uncomfortable and creates a problem for all concerned: the public is entitled to know about a personal relationship if, but only if, it is relevant to the conduct of public
-
-I responsibilities for which a politician should fairly be accountable. By their nature, the very senior relationships I am considering do contain the clear potential to have that sort of relevance. In the circumstances, it seems to me that it is necessary to find a way between the bare assertion of irrelevance to the conduct of public affairs on the one hand, and intolerable eavesdropping on private lives, on the other. I reflect on this further below.
+3.45 The result is uncomfortable and creates a problem for all concerned: the public is entitled to know about a personal relationship if, but only if, it is relevant to the conduct of public responsibilities for which a politician should fairly be accountable. By their nature, the very senior relationships I am considering do contain the clear potential to have that sort of relevance. In the circumstances, it seems to me that it is necessary to find a way between the bare assertion of irrelevance to the conduct of public affairs on the one hand, and intolerable eavesdropping on private lives, on the other. I reflect on this further below.
 
 3.46 In the rough and tumble of political life, pressures within the personal relationships between the decision-makers in the press and in politics have always been there. But there is an argument for saying that they appear to be intensifying in ways which are associated with a ripple of public unease. This can be described in a number of ways, but the common theme is the perception of the impoverishment of public debate and of risk to the public interest.
 
@@ -27168,9 +26946,7 @@ I responsibilities for which a politician should fairly be accountable. By their
 
 4.6 The principal context in which there is a regulatory dimension of any sort to the relationship between the press and the politicians, therefore, is of restricted application to politicians who are members of Government. It is obvious why that should be so. Government politicians are in a unique relationship of power and accountability in the conduct of public business, to the electorate. They are decision-takers. That is underpinned both in law and in practice.
 
-4.7 As a matter of law, there are a number of disciplines which are capable of imposing constraints, almost entirely of transparency, on the relationship between Government Ministers and the press. The Freedom of Information Act, for example, will oblige the disclosure of information about that relationship to the public on demand, subject only to exemptions imposed to
-
-I protect countervailing aspects of the public interests. Its application is, however, limited to recorded information, and to information held by or on behalf of government (rather than information held by Ministers in a party or personal capacity).
+4.7 As a matter of law, there are a number of disciplines which are capable of imposing constraints, almost entirely of transparency, on the relationship between Government Ministers and the press. The Freedom of Information Act, for example, will oblige the disclosure of information about that relationship to the public on demand, subject only to exemptions imposed to protect countervailing aspects of the public interests. Its application is, however, limited to recorded information, and to information held by or on behalf of government (rather than information held by Ministers in a party or personal capacity).
 
 4.8 Government accounting rules apply disciplines and transparency measures to government spending on issues relating to the press, as they do to all government spending. And the ordinary requirements of public law in relation to decision-making in government, including on matters such as public consultation, the giving of reasons for decisions, and the availability of judicial review, will also where appropriate apply to matters and interactions relating to the press.
 
@@ -27201,8 +26977,6 @@ The gaps in the existing framework
 4.14 As I have said, those general public interest considerations do not necessarily lie in the suppression or discouragement of lobbying relationships. They lie in the transparency of those relationships and the enhanced accountability which follows from that transparency. Just as in the case of Parliamentary disclosure of interests, good democratic governance requires that the interests and influences to which Ministers are subject should not necessarily be subject to restriction as such, but should be known about and understood, so that judgments can be made about their decisions and the decisions will be taken in the knowledge that those judgments will be made.
 
 4.15 Put at its crudest, the problem of the incomplete fit between the public interest considerations underlying the Ministerial Code and the realities of political/press relationships, raises a form of what might be described as anti-avoidance issues. If it is too easy for a Minister to classify an encounter with the press as 'political' or 'personal' business rather than 'government' business, the formal checks and balances on propriety and accountability in decision-taking become too marginal to do proper service. Furthermore, that threefold classification into government, party and personal relationships may be more theoretical than real where relationships with the press are concerned; such relationships are characteristically more complex and fluid than that. Again, from the same perspective, if a Minister and a press proprietor or executive arrange to conduct aspects of their relationship via intermediaries, then a transparency provision biting only on the Minister's own behaviour will have little real force.
-
-I
 
 4.16 Put slightly differently, and allowing for the observation of the spirit as well as the letter of the Ministerial Code, the problem is one of partial transparency which potentially distorts the public perspective on the relationship. In turn, that potentially does damage to the public accountability which the Code is intended to serve. If the public is told that a politician has a single meeting with a press interest on 'government' business, but knows nothing about the weekly or daily interactions on 'political' or 'personal' business, to a potentially significant degree, the public is being misinformed in a matter in which it has a legitimate interest. As I have said, the three are not so easily separable in practice.
 
@@ -27246,7 +27020,9 @@ Transparency I
 
 5.8 Before discussing how it might be possible to increase the visibility of the way in which politicians and the press interact at the highest levels of policy formulation, it is necessary to recognise that transparency, on its own, has its limits. There are three which I bear particularly in mind in making the recommendations I do.
 
-(a) There are very proper limits on the extent to which public intrusion into matters genuinely private is tolerable or appropriate. The detail of truly private friendships and relationships between politicians (however much they may have invited or permitted intrusion into their privacy) and individuals within the press merits respect. (b) There is a danger of the perverse incentive, well recognised in the context of regimes such as that established by the Freedom of Information Act. This danger is that measures to increase transparency simply drive activity into a different place. The result is that incentives are to be found for avoidance measures (such as ignoring the need to keep some record or finding alternative ways to communicate) which serve only to put accountability ever more distantly out of reach. (c) There is also a risk of a different effect. Excessively burdensome rules about transparency are impractical; mistakes and omissions then become virtually inevitable and, in themselves, produce unwarranted critique and suspicion. Ultimately, this is all counterproductive and erodes trust. I Towards more transparent relationships
+(a) There are very proper limits on the extent to which public intrusion into matters genuinely private is tolerable or appropriate. The detail of truly private friendships and relationships between politicians (however much they may have invited or permitted intrusion into their privacy) and individuals within the press merits respect. (b) There is a danger of the perverse incentive, well recognised in the context of regimes such as that established by the Freedom of Information Act. This danger is that measures to increase transparency simply drive activity into a different place. The result is that incentives are to be found for avoidance measures (such as ignoring the need to keep some record or finding alternative ways to communicate) which serve only to put accountability ever more distantly out of reach. (c) There is also a risk of a different effect. Excessively burdensome rules about transparency are impractical; mistakes and omissions then become virtually inevitable and, in themselves, produce unwarranted critique and suspicion. Ultimately, this is all counterproductive and erodes trust.
+
+Towards more transparent relationships
 
 5.9 I believe that further steps in the direction of transparency are necessary in order to reassure the public and restore confidence in the way the politicians handle those relationships with the media in which lobbying is a real possibility. Without seeking to be prescriptive as to what should be said, therefore:
 
@@ -27261,8 +27037,6 @@ I recommend as a first step that political leaders reflect constructively on the
 "Our new government has a particular and historic responsibility: to rebuild confidence in our political system. After the scandals of recent years, people have lost faith in politics and politicians. It is our duty to restore their trust. It is not enough simply to make a difference. We must be different. "We have promised the people a coalition government united behind the key principles of freedom, fairness and responsibility. Every day of this government we must make good on that promise, acting in a way that reflects these principles. "In everything we do – the policies we develop and how we implement them, the speeches we give, the meetings we hold – we must remember that we are not masters but servants. Though the British people have been disappointed in their politicians, they still expect the highest standards of conduct. We must not let them down. "We must be different in how we think and how we behave. We must be different from what has gone before us. Careful with public money. Transparent about what we do and how we do it. Determined to act in the national interest, above improper influence. Mindful of our duty. Above all, grateful for our chance to change our country."
 
 5.12 Remaining with the spirit of the Ministerial Code as a starting point, it is worth considering the possibility that there should be greater Ministerial transparency beyond its current scope. The Code itself prescribes the approach that should be adopted by Ministers to many if not all aspects of their ministerial duties relying on the clarity of the boundary between what may be described as political or private activities on the one hand and the conduct of government business on the other. However, there is a real risk that the two become blurred in the context of influential media relationships and that the latter will be transacted within the space left for the former; that risk should not be overlooked.
-
-I
 
 5.13 The amendment last year to the Ministerial Code recognised the nature of the problem but it remains. The Inquiry has revealed that the way in which some of these relationships have just been too complex for the Ministerial Code to render what is happening fairly transparent to the public in even the most basic way: whether or not lobbying of Ministers on matters of public policy takes place in what is 'party' or 'private' time, there is likely to be a public perception that it is.
 
@@ -27294,8 +27068,6 @@ My recommendation is that this opportunity be taken. My starting point, as I hav
 
 5.23 Having said that, I have no doubt that the public needs and expects increased transparency from all political leaders. Without a limited (but significant) improvement in the visibility of contact at the highest levels between proprietors, newspaper editors and senior executives on the one hand and those who develop media policy on the other, the public is entitled to be sceptical that it is being left out of account in exchanges of influence. I am concerned that lack of trust and confidence will inevitably ensue.
 
-I
-
 What might be done?
 
 5.24 The amended Ministerial Code now requires of Ministers a quarterly publication of all meetings between Ministers and senior media figures, regardless of the purpose of the meeting. I suggest therefore that consideration be given to the adoption of the same principle of transparency, in the first place for:
@@ -27326,7 +27098,7 @@ In the circumstances, I recommend that Leaders, Ministers and Front Bench Opposi
 
 (a) the simple fact of long term relationships with media proprietors, newspaper editors or senior executives which might be thought to be relevant to their responsibilities; and
 
-I (b) on a quarterly basis: (i) details of all meetings with media proprietors, newspaper editors or
+(b) on a quarterly basis: (i) details of all meetings with media proprietors, newspaper editors or
 
 > senior executives, whether in person or through agents on either side, and the fact and general nature of any discussion of media policy issues at those meetings; and
 
@@ -27376,9 +27148,7 @@ In the circumstances, I recommend that the suggestions that I have made in the d
 
 1.3 Although set out in Part C, Chapter 4, it is worth repeating the goal by reference to the Ofcom definition of the desired outcome of a plural market:
 
-(a) "ensuring there is a diversity of viewpoints available and consumed across and within media enterprises; (b) preventing any one media owner or voice having too much influence over public opinion and the political agenda."[^1] This approach to both the diversity of views available and the influence wielded seems to be
-
-I generally accepted.
+(a) "ensuring there is a diversity of viewpoints available and consumed across and within media enterprises; (b) preventing any one media owner or voice having too much influence over public opinion and the political agenda."[^1] This approach to both the diversity of views available and the influence wielded seems to be generally accepted.
 
 What are the questions that need to be answered?
 
@@ -27498,11 +27268,11 @@ Behavioural remedies
 
 4.14 Mr Foster suggests that it would be better to move away from structural remedies, such as caps on market share, and towards behavioural remedies. These could include requirements to invest in content; requirements to make space available for the inclusion of alternative viewpoints; effective right of reply procedures; and independent editorial boards.[^41]
 
-4.15 Ofcom identify three different forms of behavioural remedies that could be used. First, there are behavioural rules that may help to increase levels of internal plurality, for example by ensuring editorial independence for specific titles, channels or programmes. This approach may be less intrusive and more proportionate than structural remedies but would require complex ongoing monitoring and it does not have a particularly good reputation for effectiveness. 4.16 Second, Ofcom point to behavioural remedies that improve standards. This might include requirements on fairness, or accuracy and completeness in what is reported. This approach would be objective and well understood, but would also require ongoing monitoring and there is a risk that such remedies, if applied too widely, would reduce diversity in content.
+4.15 Ofcom identify three different forms of behavioural remedies that could be used. First, there are behavioural rules that may help to increase levels of internal plurality, for example by ensuring editorial independence for specific titles, channels or programmes. This approach may be less intrusive and more proportionate than structural remedies but would require complex ongoing monitoring and it does not have a particularly good reputation for effectiveness.
 
-4.17 Finally, Ofcom consider behavioural remedies to improve access. Must-carry obligations could require a distribution platform to distribute the content of news providers meeting specific criteria, while must-offer obligations could be used to ensure that news providers distribute their content via any platform meeting specified criteria. This is a good remedy to address specific concerns about discrimination by gatekeepers. It is unlikely to require
+4.16 Second, Ofcom point to behavioural remedies that improve standards. This might include requirements on fairness, or accuracy and completeness in what is reported. This approach would be objective and well understood, but would also require ongoing monitoring and there is a risk that such remedies, if applied too widely, would reduce diversity in content.
 
-I active monitoring as those entitled to access will complain if it is not complied with. However, this approach can be susceptible to gaming and can become outdated in the light of market developments.[^42] Robin Foster also considered access remedies, though specifically in the context of digital intermediaries. He suggested that a mixture of a guarantee that content would not be blocked, must-carry provisions, and an audit mechanism of some sort, might be considered should any relevant plurality concerns be identified.[^43]
+4.17 Finally, Ofcom consider behavioural remedies to improve access. Must-carry obligations could require a distribution platform to distribute the content of news providers meeting specific criteria, while must-offer obligations could be used to ensure that news providers distribute their content via any platform meeting specified criteria. This is a good remedy to address specific concerns about discrimination by gatekeepers. It is unlikely to require active monitoring as those entitled to access will complain if it is not complied with. However, this approach can be susceptible to gaming and can become outdated in the light of market developments.[^42] Robin Foster also considered access remedies, though specifically in the context of digital intermediaries. He suggested that a mixture of a guarantee that content would not be blocked, must-carry provisions, and an audit mechanism of some sort, might be considered should any relevant plurality concerns be identified.[^43]
 
 %%page 1470%%
 
@@ -28576,9 +28346,7 @@ Equally, however, the absence of complaint is little better than neutral and doe
 
 3. The investigation of crime: gathering evidence
 
-3.1 Assuming that a complaint has been made to the police, the problems facing any investigator have only just begun not least because of the respect which the law accords to journalists, the fundamental rights of freedom of expression and a free press and the entirely legitimate responsibility of the press to hold power to account. Such is the significance of these important
-
-J principles that very real safeguards are built into the law to provide protection.
+3.1 Assuming that a complaint has been made to the police, the problems facing any investigator have only just begun not least because of the respect which the law accords to journalists, the fundamental rights of freedom of expression and a free press and the entirely legitimate responsibility of the press to hold power to account. Such is the significance of these important principles that very real safeguards are built into the law to provide protection.
 
 3.2 A detailed analysis of the powers and duties in respect of the search and seizure when that impacts on the work of journalists is set out in Appendix 4. It is sufficient to emphasise that material acquired or created for the purpose of journalism, held on a confidential basis by a person who acquired or created it for that purpose, constitutes excluded material pursuant to ss11(1) and 13 of PACE and other journalistic material constitutes special procedure material
 
@@ -29084,15 +28852,11 @@ Newspapers or the Star titles. Both Richard Desmond, the proprietor of the North
 
 2.1 Before starting on an analysis of what went wrong, I should record what the PCC did well.
 
-2.2 Successive witnesses gave evidence that the PCC secretariat, in particular the complaints officers who handled complaints made by members of the public, were polite, efficient and dedicated.11 Members of the PCC secretariat worked hard in the public interest, as I have said, in sometimes difficult circumstances. The PCC established and then ran a 24 hour helpline for complainants, staffed by a small number of officers working in rotation.[^12] For a relatively small team to have handled the large volume of complaints received by the PCC speaks of the dedication and commitment of individual staff members. I have seen no evidence and heard no suggestion that the manner in which the members of the PCC secretariat have gone about their work has led or, in any sense, contributed to the limitations of the PCC as an organisation. I have no doubt that PCC staff did as well as is possible within the bounds set by the self-regulatory system.
+2.2 Successive witnesses gave evidence that the PCC secretariat, in particular the complaints officers who handled complaints made by members of the public, were polite, efficient and dedicated.[^11] Members of the PCC secretariat worked hard in the public interest, as I have said, in sometimes difficult circumstances. The PCC established and then ran a 24 hour helpline for complainants, staffed by a small number of officers working in rotation.[^12] For a relatively small team to have handled the large volume of complaints received by the PCC speaks of the dedication and commitment of individual staff members. I have seen no evidence and heard no suggestion that the manner in which the members of the PCC secretariat have gone about their work has led or, in any sense, contributed to the limitations of the PCC as an organisation. I have no doubt that PCC staff did as well as is possible within the bounds set by the self-regulatory system.
 
 2.3 I also heard evidence from the then current director of the PCC, Stephen Abell, and his immediate predecessor, Tim Toulmin, of the work done by PCC staff on a day to day basis. I should add that Mr Abell's witness statement was a genuine tour de force and I pay tribute to the immense care he has taken and the diligence he has shown. Through their respective evidence, each demonstrated his dedication and loyalty to an organisation which faced a naturally daunting task.
 
-2.4 The efforts of the PCC at mediation and conciliation were often helpful. Dr Martin Moore, the Director of the Media Standards Trust,[^13] highlighted "the genuine benefits of the current system, particularly with regard to the secretariat and the role they've played in conciliating and mediating complaints on behalf of complainants, and the very real attempt to both write and evolve the code over that 20-year period [that the PCC has been in existence]".[^14] On most
-
-- J — 11
-
-pp35-36, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Submission-by-Media-Standards-Trust. pdf occasions, complainants were satisfied with the mediated and agreed solutions to problems; and this was a job that the PCC was good at.[^15] In appropriate cases, and no doubt there are many, a mediated settlement is a sensible way of dealing with disputes between parties.
+2.4 The efforts of the PCC at mediation and conciliation were often helpful. Dr Martin Moore, the Director of the Media Standards Trust,[^13] highlighted "the genuine benefits of the current system, particularly with regard to the secretariat and the role they've played in conciliating and mediating complaints on behalf of complainants, and the very real attempt to both write and evolve the code over that 20-year period [that the PCC has been in existence]".[^14] On most occasions, complainants were satisfied with the mediated and agreed solutions to problems; and this was a job that the PCC was good at.[^15] In appropriate cases, and no doubt there are many, a mediated settlement is a sensible way of dealing with disputes between parties.
 
 %%page 1519%%
 
@@ -29214,7 +28978,7 @@ Serving editors on the PCC
 
 > DR BOWE: Because of conflicts. I'm sure you're familiar with the sorts of issues that arise, and you can manage small conflicts on boards; you can't manage large, endemic ones."
 
-3.25 I recognise that PCC witnesses gave evidence (which I entirely accept) that the lay or public members of the PCC are independently-minded, often strong-willed individuals who are not intimidated by the presence of editors:44
+3.25 I recognise that PCC witnesses gave evidence (which I entirely accept) that the lay or public members of the PCC are independently-minded, often strong-willed individuals who are not intimidated by the presence of editors:[^44]
 
 > "I think if you look at the list of people who served on the Commission, it's an impressive list of people who have either spent a life in public service or politics…they've excelled in their field in one way or another. These aren't patsies at all. Obviously, I was in every single Commission meeting whilst I was director and there would be some excellent knock-about debates. So these weren't people who were in any way cowed by the presence of a few editors."
 
@@ -29224,11 +28988,7 @@ Serving editors on the PCC
 
 3.27 I also expressly record that Tim Toulmin rejected the criticism that there were no representatives of the victims of press intrusion on the PCC, saying that "people who work at the PCC, whether they're on the board or full time staff, are motivated by trying to assist people who are having difficulties with the press, particularly those vulnerable people who can't afford a lawyer and so on."[^46]
 
-3.28 It may well be unnecessary, if not inappropriate, to ensure that one or more lay Commissioners should have had experience of having suffered at the hands of press intrusion, since individuals in this category might be expected to be biased the other way, or at least give rise to that appearance.[^47] Even so, without doubting the truth of Lord Grade's evidence as to the full and frank exchange of views which attends the deliberations on the PCC's adjudications in individual cases, I do not believe that it really addresses the structural problems I have
-
-- J — 44
-
-p42, lines 16-25, Tim Toulmin, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript-of- Morning-Hearing-30-January-2012.pdf identified. Lord Grade's evidence would fail to persuade those who reasonably believe that the system is inherently weighted in favour of the status quo. Neither is this point to doubt the real value that I am sure lay Commissioners have brought to the process.
+3.28 It may well be unnecessary, if not inappropriate, to ensure that one or more lay Commissioners should have had experience of having suffered at the hands of press intrusion, since individuals in this category might be expected to be biased the other way, or at least give rise to that appearance.[^47] Even so, without doubting the truth of Lord Grade's evidence as to the full and frank exchange of views which attends the deliberations on the PCC's adjudications in individual cases, I do not believe that it really addresses the structural problems I have identified. Lord Grade's evidence would fail to persuade those who reasonably believe that the system is inherently weighted in favour of the status quo. Neither is this point to doubt the real value that I am sure lay Commissioners have brought to the process.
 
 %%page 1527%%
 
@@ -29664,7 +29424,7 @@ a model of efficient and transparent complaints handling to be more appropriate 
 
 6.27 I note in this regard that a number of individuals gave evidence that they did not complain to the PCC because they were concerned that doing so would lead to retaliation from the newspaper industry in the shape of negative coverage or future invasions of privacy. Had the PCC initiated investigations of its own motion, or accepted third party complaints, the issue of retaliation would have been deadened. The PCC's policy served to perpetuate a wholly unsatisfactory state of affairs whereby complaints were (and remain) dis-incentivised and the PCC's own contribution to the evolving principles surrounding the issue of privacy in particular is limited. Lord Wakeham's view was that "The PCC's absence from the debate about privacy – including high profile adjudications – has … eroded its authority".[^149] This view was valid in the late 1990s and remains so now.
 
-J Powers the PCC did not exercise – investigations where there were criminal or civil proceedings
+Powers the PCC did not exercise – investigations where there were criminal or civil proceedings
 
 6.28 Article 53.3 of the Articles of Association further provided:
 
@@ -29676,7 +29436,9 @@ J Powers the PCC did not exercise – investigations where there were criminal o
 
 PCC might become aware that a criminal investigation or proceeding has commenced, it is obviously right that the PCC should defer any investigation it might undertake of its own motion until such proceedings have been concluded. This is the practice of comparable bodies responsible for the regulation of a profession, such as the General Medical Council. Although in cases involving professionals it is standard practice to suspend individuals from practice pending the outcome of the criminal process, I fully recognise that different considerations rightly apply in relation to the press. The deferral of regulatory investigation may be regarded as a self-denying ordinance designed to meet the wider interests of justice and the possibility of creating prejudice.
 
-6.30 The position is different in relation to civil proceedings. There may be reasons, depending on the facts of the particular case, for awaiting the outcome of such proceedings before commencing any regulatory process, but there is no requirement to elevate this into an absolute prohibition; Article 53.3(b) is currently framed in those terms. 6.31 Second, and regardless of whether the proceedings in issue are criminal or civil, the provision has been interpreted by the PCC in such a way that as soon as any proceedings begin the ability of the PCC to entertain a complaint is precluded.[^150] But this is not how the provision is framed, as is apparent from the use of the present tense in Article 53.3(b). Neither is it the manner in which most regulators operate: extant proceedings may be a current bar to regulatory action (ie, for so long as the proceedings may continue), but not an indefinite prohibition.
+6.30 The position is different in relation to civil proceedings. There may be reasons, depending on the facts of the particular case, for awaiting the outcome of such proceedings before commencing any regulatory process, but there is no requirement to elevate this into an absolute prohibition; Article 53.3(b) is currently framed in those terms.
+
+6.31 Second, and regardless of whether the proceedings in issue are criminal or civil, the provision has been interpreted by the PCC in such a way that as soon as any proceedings begin the ability of the PCC to entertain a complaint is precluded.[^150] But this is not how the provision is framed, as is apparent from the use of the present tense in Article 53.3(b). Neither is it the manner in which most regulators operate: extant proceedings may be a current bar to regulatory action (ie, for so long as the proceedings may continue), but not an indefinite prohibition.
 
 6.32 Third, Article 53.3(c) is potentially of extremely wide application since most breaches of the
 
@@ -29912,7 +29674,7 @@ Indeed, given the context of the request, it is somewhat surprising that the PCC
 
 %%page 1564%%
 
-7.16 There is no doubt that this was a deliberate approach on the part of the PCC, as Mr Toulmin explained:204
+7.16 There is no doubt that this was a deliberate approach on the part of the PCC, as Mr Toulmin explained:[^204]
 
 > "Q. Would you agree there was no attempt by the PCC in 2005, through its guidance, specifically to warn the press of what they should do in the future by reference to what they might have done in the past? A. I would agree with that. I think this guidance note was what we were asked to do by the Information Commissioner. Q. Did not the PCC form its own view as to what might be appropriate, given what the Information Commissioner was saying about the scale of the activity, namely what warnings should be given? A. Well, this was regarded to be appropriate. There are arguments about whether it should even have done this, given that it was a complaints body looking at breaches of the code of practice rather than the Data Protection Act, but it did want to be helpful and this was the outcome."
 
@@ -29930,15 +29692,9 @@ PCC at which Mr Thomas specifically expressed his disappointment that the PCC ha
 
 Reviews,[^208] but in my view it was: no formal steps had been taken by the PCC to take up this issue with the industry. Equally, Mr Thomas might well have been disappointed further when he was informed by Sir Christopher that the "PCC is not able to act as a general regulator", the reason for this apparently being:[^209]
 
-> "I think what I had in mind there was a notion that we should in some way take on the work of the Information Commissioner by virtue of being a Press Complaints Commission, and this is what I wanted to reject. The point I always made to Mr Thomas, apart from my insistent demands on beef, was to suggest that we had to work in a
-
-- J — 204
-
-pp84-85, lines 10-2, Tim Toulmin, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript-of- Morning-Hearing-30-January-2012.pdf
+> "I think what I had in mind there was a notion that we should in some way take on the work of the Information Commissioner by virtue of being a Press Complaints Commission, and this is what I wanted to reject. The point I always made to Mr Thomas, apart from my insistent demands on beef, was to suggest that we had to work in a complementary way. He did his thing, but there were things that we could do to help him, and I've described them in the – before lunch. And I think as a consequence of this precise meeting, it led to direct contacts between the Code Committee and Mr Thomas, which led to a change in clause 10 on subterfuge in the code of practice."
 
 %%page 1565%%
-
-> complementary way. He did his thing, but there were things that we could do to help him, and I've described them in the – before lunch. And I think as a consequence of this precise meeting, it led to direct contacts between the Code Committee and Mr Thomas, which led to a change in clause 10 on subterfuge in the code of practice."
 
 7.20 This introduces a further issue, which relates to the distinction between the PCC and the
 
@@ -30276,7 +30032,7 @@ Lord Hunt went on to confirm that Northern and Shell would qualify as a 'big fis
 
 2.4 The draft criteria set out a broad perspective on the public interest. As with the concept of effectiveness, there are many different aspects to the public interest in this context. The public interest in the freedom of the press and freedom of expression, including the public interest in a diverse and vibrant press, are the most obvious. Any regulatory regime that compromised the freedom of the press to hold authority to account, or to investigate wrongdoing by the powerful, would not qualify as effective according to any reasonable person's definition of that term. The public interest in the rule of law is also important. The law applies to journalists and the press as it applies to everybody else. This is not to say that journalists cannot sometimes break the law in the pursuit of public interest journalism, but that does not override the general public interest in the rule of law: on the contrary, it recognises that a clear countervailing public interest must be identified before the rule of law may yield. Finally, there is a public interest in the protection of the private rights of individuals, including the right to privacy, which falls to be weighed in the balance against the public interest in free speech. Providing this requisite balance is one of the most difficult challenges for any regulatory regime.
 
-2.5 The Inquiry has heard evidence that different editors weigh up these countervailing public interests in different ways. That may not be unreasonable looking at individual cases alone, but from an enforcement perspective it is only fair for both the public and the press themselves that each relevant enforcement authority should be clear about the basis on which they will reach such judgments. It also seems reasonable that, if there is to be a body adjudicating on press or media standards, such a body should set out for the public and the industry some guidance on what might be meant by the public interest in this context. The PCC Code, as most recently revised, sets out the following non-exhaustive definition of the public interest: 6 7
+2.5 The Inquiry has heard evidence that different editors weigh up these countervailing public interests in different ways. That may not be unreasonable looking at individual cases alone, but from an enforcement perspective it is only fair for both the public and the press themselves that each relevant enforcement authority should be clear about the basis on which they will reach such judgments. It also seems reasonable that, if there is to be a body adjudicating on press or media standards, such a body should set out for the public and the industry some guidance on what might be meant by the public interest in this context. The PCC Code, as most recently revised, sets out the following non-exhaustive definition of the public interest:[^6] 7
 
 %%page 1586%%
 
@@ -30672,7 +30428,7 @@ Sanctions
 
 Board in determining the level of fines is to be set out in the Financial Sanctions Guidelines.
 
-The Financial Sanctions Guidelines are to be issued by the IFB.[^118] A draft of those guidelines has been provided and would allow the Trust Board to impose a fine of up to 1% of the turnover related to the publication found to have committed a systematic failure up to a maximum of £1,000,000.119
+The Financial Sanctions Guidelines are to be issued by the IFB.[^118] A draft of those guidelines has been provided and would allow the Trust Board to impose a fine of up to 1% of the turnover related to the publication found to have committed a systematic failure up to a maximum of £1,000,000.[^119]
 
 5.24 In setting the level of any fine the Trust Board has to take account of the following factors:[^120]
 
@@ -30702,7 +30458,7 @@ Inquiry.[^121]
 
 7. Funding
 
-7.1 The proposed system would be fully funded by the industry through the payment of membership fees to the Trust. The funding arrangements for the standards and compliance part of the structure are slightly different, and are explained below, but again the process is fully funded by the industry. Lord Black, on behalf of the industry, has said that it would be inappropriate for the taxpayer to make any contribution towards a system of self-regulation. Similarly, it would be wrong to require complainants to pay any charge in relation to complaints. The fully funded self-regulatory proposal is submitted to the Inquiry as a sign of the industry's commitment to protecting the public and putting right things which have gone wrong.123 124
+7.1 The proposed system would be fully funded by the industry through the payment of membership fees to the Trust. The funding arrangements for the standards and compliance part of the structure are slightly different, and are explained below, but again the process is fully funded by the industry. Lord Black, on behalf of the industry, has said that it would be inappropriate for the taxpayer to make any contribution towards a system of self-regulation. Similarly, it would be wrong to require complainants to pay any charge in relation to complaints. The fully funded self-regulatory proposal is submitted to the Inquiry as a sign of the industry's commitment to protecting the public and putting right things which have gone wrong.[^123][^124]
 
 7.2 The funding for the Trust will be guaranteed as part of the contract. Publishers will commit to making payments for the duration of the contract.[^125] The core cost (excluding compliance and standards work to be funded separately) is estimated to be around £2.25 million per annum.[^126] The fees payable by each publisher will be calculated according to an "agreed formula".[^127] That formula is to be set by the IFB and can be changed at their discretion.[^128] Lord Black has told the Inquiry that it is:[^129]
 
@@ -30906,7 +30662,7 @@ Contract issues Contract term
 
 Transfer of title
 
-2.30 Should a member wish to transfer a title to a non-member they are required to use "all reasonable endeavours" to ensure that the new owner is a member of the regulatory scheme.[^33] This stops short of the more obvious requirement that a title may not be transferred unless the new owner signs a contract with the scheme. Lord Black explained that the looser formulation was intended to protect the position of proprietors of local newspapers, where a degree of consolidation in the market is expected and proprietors are reluctant to have their hands tied in the matter of potential purchasers. However, Lord Black pointed out that most transfers of titles were likely to be between publishers who were already members of the system so the issue would not arise often.34 I recognise the concern expressed in relation to the economic difficulties faced in particular by local newspapers. However, this is a rather obvious weak link in the argument that the contract binds newspapers into the system.
+2.30 Should a member wish to transfer a title to a non-member they are required to use "all reasonable endeavours" to ensure that the new owner is a member of the regulatory scheme.[^33] This stops short of the more obvious requirement that a title may not be transferred unless the new owner signs a contract with the scheme. Lord Black explained that the looser formulation was intended to protect the position of proprietors of local newspapers, where a degree of consolidation in the market is expected and proprietors are reluctant to have their hands tied in the matter of potential purchasers. However, Lord Black pointed out that most transfers of titles were likely to be between publishers who were already members of the system so the issue would not arise often.[^34] I recognise the concern expressed in relation to the economic difficulties faced in particular by local newspapers. However, this is a rather obvious weak link in the argument that the contract binds newspapers into the system.
 
 %%page 1620%%
 
@@ -30923,10 +30679,6 @@ Enforcement
 2.32 As further explained in paragraphs 5.23-5.35 below, the contract model is designed to introduce a measure of internal enforceability. I underline 'internal', because it is of the essence of the contractual arrangement that it is not intended to be enforceable at the suit of a third party – a reader, say, or member of the public. It relies in other words on a credible prospect of (expensive and uncertain) litigation proceedings between the press organisations themselves to enforce the contract against each other. There must be real questions about that credibility in real life. The likely motivations of press organisations to contemplate suing each other to retain commitment to the contract are very far from clear.
 
 In any event, classically, contractual disputes tend to be settled commercially by the payment of compensation rather than the specific enforcement of the terms of a contract. Even within the terms of the contract, there is at the very least an area of doubt and complexity about the extent to which financial penalties could be enforced in a contract action.
-
-- K — 34
-
-pp108-109, lines 21-16, Lord Black, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Transcript-of- Morning-Hearing-9-July-2012.pdf
 
 %%page 1621%%
 
@@ -31282,7 +31034,7 @@ The enforcement fund
 
 The operational budget
 
-6.9 Lord Black stressed that the £2.25m figure was an estimate. He suggested that the new complaints arm would be dealing with far fewer complaints than the PCC because improved governance in newspapers would lead to fewer complaints, and more of those complaints that are raised would be dealt with successfully by the publisher rather than the regulator.122
+6.9 Lord Black stressed that the £2.25m figure was an estimate. He suggested that the new complaints arm would be dealing with far fewer complaints than the PCC because improved governance in newspapers would lead to fewer complaints, and more of those complaints that are raised would be dealt with successfully by the publisher rather than the regulator.[^122]
 
 Against that I set the larger administrative role, with the need to support the Trust Board and a full time standards and compliance team in addition to the current PCC structure, and
 
@@ -31299,10 +31051,6 @@ Independence of funding
 6.11 This brings me to the most significant issue in relation to funding. Publishers will sign contracts with the regulator that bind them into the system for five years, and those contracts will require them to pay the fees set by the IFB. So far, so good. However, Lord Black was clear that this commitment was to the principle of funding, not to any particular amount:[^124]
 
 > "I can't give you guarantees over a five-year period. The industry might face a complete economic collapse in that time. What we are doing is making a commit through contracts to provide funding over a five-year period. I think it unlikely that we would be able to actually build exact figure into that contract because of course, the needs of the regulator may change over time."
-
-- K — 122
-
-pp72-73, lines 17-1,Lord Black, ibid
 
 %%page 1641%%
 
@@ -31404,7 +31152,7 @@ The Sunday Times, Chris Blackhurst[^151] from The Independent and Lloyd Embley[^
 
 Mirror, indicated that procedural changes would be required. Not a single editor indicated that the changes would have the effect of raising standards in respect of their own publication and most said that there would be no practical effect whatsoever:
 
-> "In my first witness statement, I explained the basis upon which The Daily Express operates. In light of those matters, I do not think that joining a system such as that described in the Proposals would make any significant difference to how The Daily Express is run."[^153] "I would not expect that membership of a system based on contractual obligations would have a material impact on the running of the Daily Star newspaper."[^154] "As the editor of The Daily Telegraph, while there will be new requirements placed upon us, I do not envisage that the existence of a new self-regulatory system will have much practical impact upon the publication." 155 "I would anticipate generally that there would be a continuation of the changes to the culture, practices and ethics that have been occurring at newspapers over the past five to six years."[^156]
+> "In my first witness statement, I explained the basis upon which The Daily Express operates. In light of those matters, I do not think that joining a system such as that described in the Proposals would make any significant difference to how The Daily Express is run."[^153] "I would not expect that membership of a system based on contractual obligations would have a material impact on the running of the Daily Star newspaper."[^154] "As the editor of The Daily Telegraph, while there will be new requirements placed upon us, I do not envisage that the existence of a new self-regulatory system will have much practical impact upon the publication."[^155] "I would anticipate generally that there would be a continuation of the changes to the culture, practices and ethics that have been occurring at newspapers over the past five to six years."[^156]
 
 %%page 1647%%
 
@@ -31978,11 +31726,7 @@ Dacre, that the code should be developed by a committee comprised of a majority 
 
 Lord Prescott, is that the code should be drawn up by the industry, possibly in conformity with very broad standards set out either in regulation or by an independent body. In these models a code that did not meet relevant standards would not be acceptable. In the third model the code would be drawn up by an independent body with representation from both industry and the public. In the final model the code would be developed by an independent regulator.
 
-8.3 I will look first at the situation where a code is to be devised by a set of serving editors, albeit with some support from lay members. Professor Greenslade argues that there has been little if any controversy about the code and little or no criticism of the changes made by the editors' committee.197 He therefore concludes that editors should remain in the majority on the code committee, but that they should be joined by a new Press Ombudsman, public representatives and some representatives from the NUJ.[^198] The Carnegie Trust urges that industry representatives, including editors and journalists, should continue to play a significant
-
-- K — 197
-
-p7, para 4, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Submission-by-Professor-Roy- Greenslade-of-City-University.pdf role in overseeing the standards required of the industry, but they do emphasise the need for citizens and members of civil society to be given a more prominent role in the process. It is suggested that this might be achieved by adding lay members to a code committee but that this could be strengthened by an ongoing programme of research into the standards to which citizens feel the press should adhere.[^199]
+8.3 I will look first at the situation where a code is to be devised by a set of serving editors, albeit with some support from lay members. Professor Greenslade argues that there has been little if any controversy about the code and little or no criticism of the changes made by the editors' committee.[^197] He therefore concludes that editors should remain in the majority on the code committee, but that they should be joined by a new Press Ombudsman, public representatives and some representatives from the NUJ.[^198] The Carnegie Trust urges that industry representatives, including editors and journalists, should continue to play a significant role in overseeing the standards required of the industry, but they do emphasise the need for citizens and members of civil society to be given a more prominent role in the process. It is suggested that this might be achieved by adding lay members to a code committee but that this could be strengthened by an ongoing programme of research into the standards to which citizens feel the press should adhere.[^199]
 
 %%page 1681%%
 
@@ -32715,7 +32459,7 @@ Sweden
 
 Act 1991) and the freedom of the Swedish press (Freedom of the Press Act 1949). These freedoms apply to any individual who has registered for authorisation to publish and can include private individuals such as online bloggers. Both Acts guarantee a ban on censorship, the protection for anonymous sources and the right of public access to documents held by
 
-Swedish authorities.82
+Swedish authorities.[^82]
 
 2.15 Press standards in Sweden are upheld through the Swedish Press Council. Membership is voluntary and not backed by legislation, unlike in Denmark. Newspapers and print publications are authorised to publish as members of either the Swedish Newspaper Publishers'
 
@@ -32743,15 +32487,9 @@ Ombudsman does not act as a mediator but rather makes decisions on whether a com
 
 Parliamentary Ombudsman, the Chair of the Swedish Bar Association and the Chair of the
 
-National Press Club. The length of time taken for an adjudication by the Press Council can be a further six or seven months after the Ombudsman has considered a submitted complaint
-
-- K — 82
-
-Advisory note provided by the British Embassy in Sweden
+National Press Club. The length of time taken for an adjudication by the Press Council can be a further six or seven months after the Ombudsman has considered a submitted complaint (which can last itself three to four months). The remedy for such complaints is the right to reply or the publication of a correction.
 
 %%page 1721%%
-
-(which can last itself three to four months). The remedy for such complaints is the right to reply or the publication of a correction.
 
 2.19 In contrast to the UK and Denmark, however, the Swedish Press Council operates a system whereby titles are expected to contribute towards costs after a breach of the code. Whereas only online operators in Denmark are ordered to pay a levy towards the funding of the Council if they are in breach of the code, in Sweden, anyone who breaches the code is required to pay a 'penalty' towards the fund. It is estimated that this form of 'polluter pays' policy contributes approximately 20% of the Press Council's funding.[^84]
 
@@ -32825,7 +32563,7 @@ Netherlands
 
 2.34 Freedom of speech is set out in Article 7 of the Constitution of the Netherlands. The
 
-Constitution also states that the Government has a duty to enable the media to freely exercise their profession without any form of undue influence or interference. This is realised through the Dutch Media Act 2008. Although the Act regulates only public broadcasters and cable operators in the Netherlands, it also ensures that newspapers and internet publications have rights to operate independently and free from Government interference.100 101
+Constitution also states that the Government has a duty to enable the media to freely exercise their profession without any form of undue influence or interference. This is realised through the Dutch Media Act 2008. Although the Act regulates only public broadcasters and cable operators in the Netherlands, it also ensures that newspapers and internet publications have rights to operate independently and free from Government interference.[^100][^101]
 
 2.35 The Netherlands has operated a system of self-regulation for the last 50 years. The Netherlands
 
@@ -34083,17 +33821,13 @@ If there were no such body at all, the regulator would have to issue its own cod
 
 4.1 This is the main question that defines the impact of any compulsory regulation. What should apply, and to whom it should apply are, to some extent, matters of technical detail. What happens in respect of breach defines the nature of the statutory intervention. For some regulators, there is a power to disqualify or ban: it goes without saying that, if a publisher could be banned from publication as a result of breach, that would amount to a licensing regime for the press which would be entirely unacceptable.
 
-4.2 The options that I consider below are only those that I believe would be acceptable in a democratic society and all respect the right of any publisher to publish any material. There is nothing here that would apply any form of prior restraint, or require any permission, in relation to publication. None of the options includes any form of state intervention in the content published (save to the extent that a requirement to publish a correction impacts on content), or even in setting any standards that might apply to any content published.3 These options relate solely to consequences after the event where standards (howsoever defined) have been breached.
+4.2 The options that I consider below are only those that I believe would be acceptable in a democratic society and all respect the right of any publisher to publish any material. There is nothing here that would apply any form of prior restraint, or require any permission, in relation to publication. None of the options includes any form of state intervention in the content published (save to the extent that a requirement to publish a correction impacts on content), or even in setting any standards that might apply to any content published.[^3] These options relate solely to consequences after the event where standards (howsoever defined) have been breached.
 
 4.3 Other than the first, which is the absence of consequences and included simply for the sake of completeness, each of these approaches would rely on the existence of statutory backstop regulator of some kind. They are set out so that they can be considered by all concerned with this issue.
 
 Rely solely on benefits from membership of a recognised body
 
 4.4 If there is no backstop regulator, the only effect of non-membership of a recognised body would be the inability to access the benefits of that membership. Effectively, this would be a 'do nothing' option. I have set out above[^4] the statutory benefits that I consider should apply to membership of a recognised body. These include the recognition by the courts of a commitment to high standards of behaviour and practice in connection with the issues that arise in relation to aggravated and exemplary damages and also of a willingness to participate in a fair, low cost, scheme to arbitrate disputes which is relevant to issues of costs.
-
-- K — 3
-
-If a backstop regulator has the power to require the publication of corrections and apologies this is a form of control of content, but only to rectify something that was previously incorrect
 
 %%page 1787%%
 
@@ -34311,8 +34045,6 @@ Powers and sanctions
 
 %%page 1797%%
 
-Chapter 9 | Recommendations for the self-regulatory body
-
 2.5 The Inquiry heard a substantial amount of evidence relating to the allegedly discriminatory treatment of women and minorities in the press. I have already recommended that a new regulatory body must have the power to take complaints from third parties and representative groups. This may equip a regulator sufficiently to deal with this issue to the extent that they deem necessary. However:
 
 > I recommend that consideration should also be given to Code amendments which, while fully protecting freedom of speech and the freedom of the press, would equip that body with the power to intervene in cases of allegedly discriminatory reporting, and in so doing reflect the spirit of equalities legislation.[^7]
@@ -34356,8 +34088,6 @@ Editors' Code now says:
 > I therefore recommend that a new regulatory body should consider whether it might provide an advisory service to editors in relation to consideration of the public interest in taking particular actions.[^14]
 
 %%page 1799%%
-
-Chapter 9 | Recommendations for the self-regulatory body
 
 Access to information
 
@@ -34985,7 +34715,7 @@ Paul Staines 08 February 2012 Michelle Stanistreet 09 February 2012
 
 A Tim Bratton Dr John Abraham British and Irish Ombudsman Association (BIOA) Bryan Adams British Psychological Society Advertising Standards Agency Benedict Brogan Dr Nafeez Ahmed David Brookes Abigail Alford David Brown Tasmin Allen Kim Brudenell Alternative Libel Project Chris Bryant MP Paul Ashford Bureau of Investigative Journalism Margaret Aspinall Dr Aidan Byrne Julian Assange C Associated News Ltd Campaign for Press and Broadcasting Freedom Association of Medical Research Charities Cancer Research UK
 
-Adam Cannon B
+Adam Cannon
 
 Carbon Brief Graham Banks
 
@@ -34998,8 +34728,6 @@ Coordinating Committee for Media Reform Claire Bradley (CCMR) Peter Bradley Domi
 %%page 1839%%
 
 D Paddy French Dart Centre Europe Professor Chris Frost Gareth Davies (on behalf of Barclays) G Professor Aeron Davis Professor Ivor Gaber Department of Culture, Media and Sport Gary Gibbon Irene Dennehy Professor Thomas Gibbons The Democratic Society Dr Rodney D Gilbert Disaster Action Glasgow University Seamus Dooley Deborah Glass Ian Down Peter Gold Dr Sallyanne Duncan Professor David Golding Greg Dyke Goldsmiths College E Timothy Gordon Early Resolution DCS Iain Goulding East London Mosque and London Muslim Philip Graf Centre Mike Granatt EAVES Housing Damian Green MP Audrey Edwards Rob Greener Paul Edwards Dr Chris Greer Nicholas Eldred Geordie Greg Martin Ellice George Greig Harriet Ellis Deborah Grobbelaar End Violence Against Women (EVAW)
-
-H
 
 ## ENGAGE
 
@@ -35031,7 +34759,7 @@ Make Justice Work John Humphries
 
 David Mannion I Ian Marratt Inclusion London Peter McCall Index on Censorship Professor Eugene McLaughlin INQUEST Michael McManus Irish Press Council Media Regulation Round Table The Irish Traveller Movement MediaWise Trust Robert Sinclair Irvine Kip Meek
 
-Professor Marie Messenger-Davies J
+Professor Marie Messenger-Davies
 
 Migrant and Refugee Communities Forum Sarah Jellema
 
@@ -35865,17 +35593,15 @@ Protection from Harassment Act 1997
 
 3.143 The Protection from Harassment Act 1997 (PHA) has potential application both to the conduct of journalists, for example news-gathering activities by journalists and photographers, and also in relation to the actual content of publications.
 
-3.144 The PHA provides that a person must not pursue "a course of conduct" which amounts to harassment of another and which he knows or ought to know amounts to harassment of that other.264 A person "ought to know" conduct amounts to harassment if a reasonable person in possession of the same information would think the course of conduct amounted to or involved harassment of the other.265 A course of conduct must involve conduct on at least two occasions.266
+3.144 The PHA provides that a person must not pursue "a course of conduct" which amounts to harassment of another and which he knows or ought to know amounts to harassment of that other.[^264] A person "ought to know" conduct amounts to harassment if a reasonable person in possession of the same information would think the course of conduct amounted to or involved harassment of the other.[^265] A course of conduct must involve conduct on at least two occasions.[^266]
 
-3.145 "Harassment" is not exhaustively defined in the Act, although the Act provides that harassment includes alarming another person or causing that person distress.267 However, the Act does not require alarm or distress to be caused; harassment may be demonstrated by other means, for example, the use by the press of offensive or insulting words about a person's appearance or repeated mocking by a newspaper of a person's sexual orientation, or in relation to other characteristics protected by the Equality Act 2010. The lack of an exhaustive definition of harassment gives the courts scope to interpret the Act so as to give effect to the rights under Article 8 and Article 10 of the ECHR.[^268]
+3.145 "Harassment" is not exhaustively defined in the Act, although the Act provides that harassment includes alarming another person or causing that person distress.[^267] However, the Act does not require alarm or distress to be caused; harassment may be demonstrated by other means, for example, the use by the press of offensive or insulting words about a person's appearance or repeated mocking by a newspaper of a person's sexual orientation, or in relation to other characteristics protected by the Equality Act 2010. The lack of an exhaustive definition of harassment gives the courts scope to interpret the Act so as to give effect to the rights under Article 8 and Article 10 of the ECHR.[^268]
 
 3.146 Section 1(3) sets out the defences to a claim for harassment, and these include that the course of conduct was pursued for the purpose of preventing or detecting crime, was pursued under any enactment or rule of law or to comply with any condition or requirement imposed by any person under any enactment, or in the particular circumstances the pursuit of the course of conduct was reasonable. In the context of the press seeking to rely on a reasonableness defence it has been held that the defence:[^269]
 
 > "requires the publisher to consider whether a proposed series of articles, which is likely to cause distress to an individual, will constitute an abuse of the freedom of press which the pressing social needs of a democratic society require should be curbed".
 
 3.147 Section 2 of the PHA provides that the course of conduct pursued in breach of section 1 will be a criminal offence. This is discussed in more detail at paragraph 4.129 of the Annex. Section 3 provides that an actual or apprehended breach of section 1 may be the subject of a claim in civil proceedings by the person who is or may be the victim of the course of conduct in question. This has the effect that a civil claim can be brought to restrain an apprehended breach of section 1, by way of an injunction; or a claim can be brought after the conduct has occurred to seek damages for (among other things) any anxiety caused by the harassment and any financial loss resulting from the harassment.[^270] If a court grants an injunction restraining a person from pursuing any conduct which amounts to harassment and the claimant considers that the defendant has breached the injunction, he or she may apply for the issue of a warrant for the arrest of the defendant.[^271]
-
-264 s1(1) 265 s1(2) 266 s7(3)(a) 267 s7(2)
 
 %%page 1893%%
 
@@ -36031,7 +35757,7 @@ Data Protection Act 1984
 
 4.6 The Data Protection Act 1984 (the 1984 Act) implemented the United Kingdom's obligations under the Convention and sought to regulate the use of automatically processed information relating to individuals and the provision of services in respect of such information.
 
-4.7 The 1984 Act established the position of Data Protection Registrar and also a Data Protection Tribunal.324 It obliged organisations holding personal data to register with the Data Protection Registrar and thereafter to abide by the principles of data protection outlined in the Act. These principles mirrored those set out in the Convention and were replicated in Schedule 1 of the 1984 Act.
+4.7 The 1984 Act established the position of Data Protection Registrar and also a Data Protection Tribunal.[^324] It obliged organisations holding personal data to register with the Data Protection Registrar and thereafter to abide by the principles of data protection outlined in the Act. These principles mirrored those set out in the Convention and were replicated in Schedule 1 of the 1984 Act.
 
 4.8 The Data Protection Registrar had responsibility for maintaining a register of data users who held and provided services in respect of personal data and a register of accepted applications for registration made by such users and for, determining applications to be a registered data user.[^325] The Data Protection Registrar was given powers to take enforcement action against registered users who had contravened the data protection principles including the power to de-register a data user for breach of the data protection principles and to issue a notice prohibiting the transfer of personal data outside the United Kingdom.[^326]
 
@@ -36040,8 +35766,6 @@ Data Protection Act 1984
 Data Protection Directive
 
 4.10 Directive 95/46/EC of the European Parliament and of the Council on the protection of individuals with regard to the processing of personal data and on the free movement of such data (the Data Protection Directive) was adopted on 24 October 1995 and required implementation by October 1998. The Directive itself was a response to the Organisation for Economic Co-operation and Development guidelines and adopts a number of the same principles.
-
-324 s3
 
 %%page 1905%%
 
@@ -36175,15 +35899,13 @@ Powers of investigation and enforcement
 
 4.46 The duty to enforce the provisions of the DPA lies with the Information Commissioner (the Commissioner) whose powers and duties are set out in Part V of the Act and can be summarised as follows:
 
-> (a) If the Commissioner is satisfied that a data controller has contravened or is contravening any of the data protection principles, the Commissioner may serve an enforcement notice requiring him to take such steps or refrain from taking such steps as may be specified and/or to refrain from processing personal data.368 In considering whether to issue an enforcement notice the Commissioner shall consider whether the contravention has caused or is likely to cause any person damage or distress. (b) The Commissioner may serve on a data controller an assessment notice for the purpose of enabling the Commissioner to determine whether the data controller has complied or is complying with the data protection principles.369 An assessment notice facilitates the exercise by the Commissioner of investigatory powers, including entry to premises, obtaining inspection or examination or documents, information or equipment, and requiring persons to be available for interview. Powers of entry and inspection are set out in detail in Schedule 9. (c) If any person who is, or believes themselves to be, directly affected by processing of personal data requests an assessment as to whether it is likely or unlikely that the processing has been or is being carried out in compliance with the provisions of this Act, the Commissioner shall make an assessment in such manner as appears to him to be appropriate.370 (d) The Commissioner may serve on a data controller an information notice requiring a data controller to furnish the Commissioner with specified information relating to the request or compliance with the principles.371
+> (a) If the Commissioner is satisfied that a data controller has contravened or is contravening any of the data protection principles, the Commissioner may serve an enforcement notice requiring him to take such steps or refrain from taking such steps as may be specified and/or to refrain from processing personal data.[^368] In considering whether to issue an enforcement notice the Commissioner shall consider whether the contravention has caused or is likely to cause any person damage or distress. (b) The Commissioner may serve on a data controller an assessment notice for the purpose of enabling the Commissioner to determine whether the data controller has complied or is complying with the data protection principles.[^369] An assessment notice facilitates the exercise by the Commissioner of investigatory powers, including entry to premises, obtaining inspection or examination or documents, information or equipment, and requiring persons to be available for interview. Powers of entry and inspection are set out in detail in Schedule 9. (c) If any person who is, or believes themselves to be, directly affected by processing of personal data requests an assessment as to whether it is likely or unlikely that the processing has been or is being carried out in compliance with the provisions of this Act, the Commissioner shall make an assessment in such manner as appears to him to be appropriate.[^370] (d) The Commissioner may serve on a data controller an information notice requiring a data controller to furnish the Commissioner with specified information relating to the request or compliance with the principles.[^371]
 
-4.47 It is an offence to fail to comply with an enforcement notice, an information notice or a special information notice.372 A person on whom an enforcement notice, an assessment notice, an information notice or a special information notice has been served may appeal against the notice to the Information Tribunal.373
+4.47 It is an offence to fail to comply with an enforcement notice, an information notice or a special information notice.[^372] A person on whom an enforcement notice, an assessment notice, an information notice or a special information notice has been served may appeal against the notice to the Information Tribunal.[^373]
 
 4.48 Whilst the Commissioner has a broad suite of enforcement powers at his disposal, the balance of evidence before the Inquiry suggests that there has to date been limited use of formal enforcement powers.
 
-4.49 Mr Thomas described the power to serve enforcement notices contained in s40 as the main formal power which the Commissioner had in its armoury for occasions when it felt that there had been non-compliance with the requirements of the legislation. He observed that the power was not used frequently, but there was a power to serve an enforcement notice on a data controller and that could be challenged, but if it was not challenged, then in due course it became a criminal matter not to obey the terms of an enforcement order.[^374] In terms
-
-368 s40 369 s41A 370 s42 371 s43 372 s47 373 s48 of numbers of enforcement notices served, Mr Thomas estimated this was probably only two or three in a year, and they were normally preceded by a draft of a notice which was served before the Commissioner entered the actual notice as a matter of good regulation.[^375] Mr Thomas agreed that in principle this power would apply to media organisations but this is subject to exemptions in s32.[^376]
+4.49 Mr Thomas described the power to serve enforcement notices contained in s40 as the main formal power which the Commissioner had in its armoury for occasions when it felt that there had been non-compliance with the requirements of the legislation. He observed that the power was not used frequently, but there was a power to serve an enforcement notice on a data controller and that could be challenged, but if it was not challenged, then in due course it became a criminal matter not to obey the terms of an enforcement order.[^374] In terms of numbers of enforcement notices served, Mr Thomas estimated this was probably only two or three in a year, and they were normally preceded by a draft of a notice which was served before the Commissioner entered the actual notice as a matter of good regulation.[^375] Mr Thomas agreed that in principle this power would apply to media organisations but this is subject to exemptions in s32.[^376]
 
 %%page 1914%%
 
@@ -36291,15 +36013,13 @@ Duties of the Information Commissioner in relation to the Data Protection Act 19
 
 4.85 The Commissioner has a duty where either (1) the Secretary of State so directs by order, or (2) the Commissioner considers it appropriate to do so, to prepare and disseminate to such persons as he considers appropriate codes of practice to provide guidance as to good practice. Prior to issuing codes of practice the Commissioner must consult trade associations, data subjects or persons representing data subjects as appears to him to be appropriate.
 
-4.86 The Information Commissioner must prepare a code of practice which contains (1) practical guidance in relation to the sharing of personal data in accordance with the requirements of the DPA, and (2) such other guidance as the Commissioner considers appropriate to promote good practice in the sharing of personal data. Before a code is prepared, the Commissioner must consult such of the following as the Commissioner considers appropriate: (a) trade associations, (b) data subjects, and (c) persons who appear to the Commissioner to represent the interests of data subjects.418 When such a code is prepared, it must be submitted to the Secretary of State for approval and there are rules as to procedure.419
+4.86 The Information Commissioner must prepare a code of practice which contains (1) practical guidance in relation to the sharing of personal data in accordance with the requirements of the DPA, and (2) such other guidance as the Commissioner considers appropriate to promote good practice in the sharing of personal data. Before a code is prepared, the Commissioner must consult such of the following as the Commissioner considers appropriate: (a) trade associations, (b) data subjects, and (c) persons who appear to the Commissioner to represent the interests of data subjects.[^418] When such a code is prepared, it must be submitted to the Secretary of State for approval and there are rules as to procedure.[^419]
 
-4.87 The Commissioner also has responsibility for disseminating information relating to: (a) any finding of the European Commission that a country or territory outside the European Economic Area does, or does not, ensure an adequate level of protection, (b) any decision of the European Commission which is made for the relevant purposes, and (c) such other information as it may appear to him or her to be expedient to give to data controllers in relation to any personal data about the protection of the rights and freedoms of data subjects in relation to the processing of personal data in countries and territories outside the European Economic Area.420
+4.87 The Commissioner also has responsibility for disseminating information relating to: (a) any finding of the European Commission that a country or territory outside the European Economic Area does, or does not, ensure an adequate level of protection, (b) any decision of the European Commission which is made for the relevant purposes, and (c) such other information as it may appear to him or her to be expedient to give to data controllers in relation to any personal data about the protection of the rights and freedoms of data subjects in relation to the processing of personal data in countries and territories outside the European Economic Area.[^420]
 
 4.88 In terms of duties to report, the Commissioner must lay annually before each House of Parliament a general report on the exercise of his or her functions under the DPA. The Commissioner may from time to time lay before each House of Parliament such other reports with respect to those functions as he or she thinks fit, under s52. In 2006, the Information Commissioner published two reports, "What Price Privacy? The unlawful trade in confidential personal information" and the "What Price Privacy Now?", pursuant to this section.
 
-4.89 A corollary of the fact that the DPA largely leaves it to individuals to take action to assert their rights in relation to processing of personal data for special purposes, including journalism, is that such individuals may apply to the Commissioner for assistance in their cases. An individual who is an actual or prospective party to any proceedings which relate to personal data processed for the special purposes, including the purposes of journalism, may apply to the Commissioner for assistance in relation to those proceedings.421 The power to provide assistance is limited to cases which involve a matter of substantial public importance. Assistance in most cases refers to the costs of advice or assistance from legal representatives or an agreement to indemnify the applicant against costs. The Commissioner must consider and decide whether and to what extent to grant the application, but cannot do so unless the case involves a matter of substantial public importance.422 The existing Information Commissioner notes that since 2009 no applications for such assistance have been made.[^423]
-
-418 s52A 419 s52B 420 s51(6) 421 s53 422 s53(2)
+4.89 A corollary of the fact that the DPA largely leaves it to individuals to take action to assert their rights in relation to processing of personal data for special purposes, including journalism, is that such individuals may apply to the Commissioner for assistance in their cases. An individual who is an actual or prospective party to any proceedings which relate to personal data processed for the special purposes, including the purposes of journalism, may apply to the Commissioner for assistance in relation to those proceedings.[^421] The power to provide assistance is limited to cases which involve a matter of substantial public importance. Assistance in most cases refers to the costs of advice or assistance from legal representatives or an agreement to indemnify the applicant against costs. The Commissioner must consider and decide whether and to what extent to grant the application, but cannot do so unless the case involves a matter of substantial public importance.[^422] The existing Information Commissioner notes that since 2009 no applications for such assistance have been made.[^423]
 
 %%page 1922%%
 
@@ -36307,7 +36027,7 @@ Duties of the Information Commissioner in relation to the Freedom of Information
 
 4.90 The Commissioner has a number of powers and duties under FOIA. Whilst FOIA has not been the subject of extensive evidence before the Inquiry, it is useful to summarise the provisions of FOIA to the extent that they relate to the Commissioner in order to understand the entire framework of the regulatory position.
 
-4.91 The purpose of the Act is stated at the outset to be, "to make provision for the disclosure of information held by public authorities or by persons providing services for them".424
+4.91 The purpose of the Act is stated at the outset to be, "to make provision for the disclosure of information held by public authorities or by persons providing services for them".[^424]
 
 4.92 The FOIA creates a general right of access, on request, to information held by public authorities. On receipt of a freedom of information claim a public authority has two corresponding duties. Firstly, a duty to inform a member of the public whether or not it holds the information requested and secondly, if it does hold that information, to communicate that fact to the person making that request.[^425] A critical distinction between the DPA and the FOI is that whilst under the DPA a request for data is limited to data held about yourself as a data subject, there is no such constraint in relation to information held by the public authority that is sought under the FOIA.
 
@@ -36317,7 +36037,7 @@ Duties of the Information Commissioner in relation to the Freedom of Information
 
 4.95 The Act contains a number of provisions which provide for exemptions from disclosure in relation to certain types of information. There are two forms of exemption: an absolute exemption which is an absolute bar to disclosure, and qualified exemption which is subject to a public interest test, balancing the public interest in maintaining the exemption against the public interest in disclosure.
 
-4.96 The absolute exemptions include information that: i) is accessible by other means, ii) relates to or deals with security matters iii) is contained in court records, iv) the disclosure of which would infringe parliamentary privilege, v) information held by the House of Commons or the House of Lords, where disclosure would prejudice the effective conduct of public affairs, vi) information which (a) the applicant could obtain under the Data Protection Act 1998; or (b) where release would breach the data protection principles, vii) information provided in confidence, viii) where disclosure of the information is prohibited by an enactment; incompatible with an EU obligation; or would commit a contempt of court.[^427] 424 s1
+4.96 The absolute exemptions include information that: i) is accessible by other means, ii) relates to or deals with security matters iii) is contained in court records, iv) the disclosure of which would infringe parliamentary privilege, v) information held by the House of Commons or the House of Lords, where disclosure would prejudice the effective conduct of public affairs, vi) information which (a) the applicant could obtain under the Data Protection Act 1998; or (b) where release would breach the data protection principles, vii) information provided in confidence, viii) where disclosure of the information is prohibited by an enactment; incompatible with an EU obligation; or would commit a contempt of court.[^427]
 
 %%page 1923%%
 
@@ -36429,7 +36149,7 @@ Computer hacking – Computer Misuse Act 1990
 
 %%page 1930%%
 
-5.20 Access of any kind by any person to any program held in a computer is "unauthorised" if they are not entitled to control access of the kind in question to the program or data, or do not have the consent to access the kind of program or data in question from any person so entitled.448 The section identifies two ways in which authority may be acquired – either by being oneself the person entitled to authorise access or by being a person who has been authorised by a person entitled to authorise access. It also makes clear that the authority must relate not simply to the data or programme, but also the actual kind of access secured.[^449]
+5.20 Access of any kind by any person to any program held in a computer is "unauthorised" if they are not entitled to control access of the kind in question to the program or data, or do not have the consent to access the kind of program or data in question from any person so entitled.[^448] The section identifies two ways in which authority may be acquired – either by being oneself the person entitled to authorise access or by being a person who has been authorised by a person entitled to authorise access. It also makes clear that the authority must relate not simply to the data or programme, but also the actual kind of access secured.[^449]
 
 5.21 There is some uncertainty as to whether an offence is committed under s1 by a person who is authorised to secure access to particular computer material, or data, but does so for unauthorised purposes.[^450] The leading authority on this point under the Data Protection Act 1984 (now repealed) was DPP v Bignell, in which the Court held that the retrieval of information from the police national computer (PNC), by someone with the proper authority under the Computer Misuse Act 1990, but at the request of others who were to use the data for non-police purposes, was a matter for the Data Protection Act 1984 or for police disciplinary proceedings rather than the Computer Misuse Act 1990.[^451] However, dicta in DPP v Bignell which related to the Computer Misuse Act 1990 were disapproved in R v Bow Street Metropolitan Stipendiary Magistrate, ex p Government of the United States of America which held that the Computer Misuse Act 1990 prevented someone with the authority to access data at a particular level on a computer system from accessing other data held on the same system for improper purposes, on the basis that such access will be unauthorised access within the meaning of section 1(1).[^452] It therefore remains unclear as to whether a person who had authorised access to information held on a computer, for example the PNC, but accesses this information for improper purposes, for example to sell it to a journalist, would commit an offence under s1 as well as s55 of the DPA. In a number of cases involving misuse of information held on police computers, offenders have been prosecuted for misconduct in public office rather than under the 1990 Act.[^453]
 
@@ -36437,9 +36157,7 @@ Computer hacking – Computer Misuse Act 1990
 
 5.23 Further offences for the purposes of s2 are offences which have a sentence fixed by law or where an individual found guilty of that offence would be liable for a term of imprisonment of five years or more. For example, a person will be guilty of an offence under s2 if unauthorised access to sensitive information held on a computer was obtained for the purposes of blackmailing a person to whom that information related, or where unauthorised access was obtained for the purposes of theft.
 
-5.24 It is immaterial for the purposes of s2 whether the further offence is to be committed on the same occasion as the unauthorised access or on any future occasion and a person can
-
-448 s17(5) be guilty of the offences under s2 even though the facts are such that the commission of the further offence is impossible.[^454]
+5.24 It is immaterial for the purposes of s2 whether the further offence is to be committed on the same occasion as the unauthorised access or on any future occasion and a person can be guilty of the offences under s2 even though the facts are such that the commission of the further offence is impossible.[^454]
 
 %%page 1931%%
 
@@ -47934,7 +47652,9 @@ TSO@Blackwell and other Accredited Agents
 
 [^68]: Associated Newspapers Ltd has robustly denied these allegations, and Mrs Cherie Blair has submitted further evidence in support of them. The Inquiry is in no position to adjudicate as between them http://www.levesoninquiry. org.uk/wp-content/uploads/2012/11/Witness-Statement-of-Cherie-Blair1.pdf
 
-[^69]: Campbell, A, Diaries Volume One: Prelude to Power 1994-1997, pp631 and 634 in particular I 70 p23, para 92, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/04/Witness-Statement-of-Keith-Rupert- Murdoch2.pdf; p80, lines 1-7, Tony Blair, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript- of-Morning-Hearing-28-May-2012.pdf. It was in 2010 that Mr Blair became a godfather to one of Mr Murdoch's daughters
+[^69]: Campbell, A, Diaries Volume One: Prelude to Power 1994-1997, pp631 and 634 in particular
+
+[^70]: p23, para 92, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/04/Witness-Statement-of-Keith-Rupert- Murdoch2.pdf; p80, lines 1-7, Tony Blair, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript- of-Morning-Hearing-28-May-2012.pdf. It was in 2010 that Mr Blair became a godfather to one of Mr Murdoch's daughters
 
 [^71]: p6, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Witness-Statement-of-Lord-Mandelson.pdf
 
@@ -48071,6 +47791,8 @@ TSO@Blackwell and other Accredited Agents
 [^137]: as above
 
 [^138]: p4, paras 21-22, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Witness-Statement-of-Simon- Walters.pdf
+
+[^1]: On the basis that current relationships between the press and the Prime Minister have been the subject of considerable recent interest – and have each been ventilated at length during the course of the Inquiry – this section is considerably longer than those covering other periods of time and administrations where the issues are less immediate
 
 [^2]: p5, para 12, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Witness-Statement-of-David-Cameron- MP.pdf
 
@@ -48300,6 +48022,8 @@ TSO@Blackwell and other Accredited Agents
 
 [^115]: pp9-10, line 21-6, Rupert Murdoch, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/04/Transcript-of- Afternoon-Hearing-25-April-2012.pdf
 
+[^116]: p57, lines 18-21, David Cameron, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Transcript-of- Morning-Hearing-14-June-2012.pdf
+
 [^117]: p67, para 199, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Witness-Statement-of-David- Cameron-MP.pdf; Rupert Murdoch was missing from the list of people Mr Cameron listed in exhibit DC2 as having been present on 16 August 2008 but he rapidly corrected this error (which arose at a time when the meeting was already in the public domain) in his oral evidence, pp56-57, line 14 –3, David Cameron, http://www.levesoninquiry.org. uk/wp-content/uploads/2012/06/Transcript-of-Morning-Hearing-14-June-2012.pdf
 
 [^118]: p59, line 11-17, David Cameron, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Transcript-of- Morning-Hearing-14-June-2012.pdf
@@ -48353,6 +48077,8 @@ TSO@Blackwell and other Accredited Agents
 [^142]: http://www.dominicgrieve.org.uk/about-dominic-grieve
 
 [^143]: p110-111, lines 18-2, Rebekah Brooks, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript- of-Morning-Hearing-11-May-2012.pdf
+
+[^144]: p111, lines 3-7, Rebekah Brooks, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/05/Transcript-of- Morning-Hearing-11-May-2012.pdf
 
 [^145]: pp78-79, lines 19-5, David Cameron, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/06/Transcript-of- Morning-Hearing-14-June-2012.pdf
 
@@ -50696,6 +50422,8 @@ TSO@Blackwell and other Accredited Agents
 
 [^10]: pp62-64, lines 15-9, Graham Shear, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/12/Transcript-of- Morning-Hearing-21-November-2011.pdf
 
+[^11]: pp35-36, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Submission-by-Media-Standards-Trust. pdf
+
 [^12]: p171, para 247, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Witness-Statement-of-Stephen- Abell.pdf
 
 [^13]: Having paid fulsome tribute to Mr Abell's witness statement, I should also record my admiration for the Media Standard Trust's work in this area. The relevant material and submissions is on the Inquiry website. Given its comprehensiveness, I have sought to boil the issues down somewhat
@@ -50759,6 +50487,8 @@ TSO@Blackwell and other Accredited Agents
 [^42]: pp 99-153, para 239, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Witness-Statement-of- Stephen-Abell.pdf
 
 [^43]: p61, lines 3-14, Dr Collette Bowe, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/02/Transcript-of- Morning-Hearing-1-February-2012.pdf
+
+[^44]: p42, lines 16-25, Tim Toulmin, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript-of- Morning-Hearing-30-January-2012.pdf
 
 [^45]: p47, line 17, p48, line 14, Lord Grade, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript- of-Afternoon-Hearing-31-January-2012.pdf
 
@@ -51077,6 +50807,8 @@ TSO@Blackwell and other Accredited Agents
 [^202]: p88, Tim Toulmin, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript-of-Morning-Hearing- 30-January-2012.pdf
 
 [^203]: PCC, Data Protection Act, Journalism and the PCC Code, http://www.pcc.org.uk/advice/editorials-detail. html?article=ODg
+
+[^204]: pp84-85, lines 10-2, Tim Toulmin, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Transcript-of- Morning-Hearing-30-January-2012.pdf
 
 [^205]: pp88-89, lines 23-15, ibid
 
@@ -51532,7 +51264,9 @@ TSO@Blackwell and other Accredited Agents
 
 [^117]: p5, para 25.1, ibid
 
-[^118]: p3, para 5.1.4, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Lord-Black-of-Brentwood- Annex-B1.pdf K 119 p12, para 2.1-2.2, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Lord-Black-of-Brentwood- Annex-C1.pdf
+[^118]: p3, para 5.1.4, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Lord-Black-of-Brentwood- Annex-B1.pdf
+
+[^119]: p12, para 2.1-2.2, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Lord-Black-of-Brentwood- Annex-C1.pdf
 
 [^120]: pp13-14, para 2.3-2.4, ibid
 
@@ -51572,7 +51306,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^138]: p74, lines 6-11, ibid
 
-[^139]: p45, para 93, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Submission-by-Lord-Black-of- Brentwood1.pdf K 140
+[^139]: p45, para 93, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Submission-by-Lord-Black-of- Brentwood1.pdf
 
 [^141]: pp40-41, para 79, ibid pp40-41, para 79-80, ibid
 
@@ -51678,6 +51412,8 @@ TSO@Blackwell and other Accredited Agents
 
 [^33]: p3, para 3.1.8, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Lord-Black-of-Brentwood-Annex-B1. pdf
 
+[^34]: pp108-109, lines 21-16, Lord Black, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Transcript-of- Morning-Hearing-9-July-2012.pdf
+
 [^35]: p116, lines 13-22, Lord Black, ibid
 
 [^36]: pp34-36, lines 24-1, Lord Black, ibid
@@ -51704,7 +51440,7 @@ TSO@Blackwell and other Accredited Agents
 
 [^47]: p39, lines 4-12,Lord Black, ibid
 
-[^48]: p39, lines 12-18,Lord Black, ibid K 49
+[^48]: p39, lines 12-18,Lord Black, ibid
 
 [^50]: p40, lines 4-8,Lord Black, ibid p41, lines 10-16,Lord Black, ibid
 
@@ -51850,6 +51586,8 @@ TSO@Blackwell and other Accredited Agents
 
 [^121]: pp103-104, lines 22-4, Lord Black, ibid
 
+[^122]: pp72-73, lines 17-1,Lord Black, ibid
+
 [^123]: p73, lines 2-7, Lord Black, ibid
 
 [^124]: p76, lines 9-16, Lord Black, ibid
@@ -51912,7 +51650,9 @@ TSO@Blackwell and other Accredited Agents
 
 [^153]: p4, para 12, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Second-witness-statement-of-Hugh- Whittow.pdf
 
-[^154]: para 7, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Second-witness-statement-of-Dawn-Nessom. pdf K 155 P3, para 8, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Witness-statement-of-Tony-Gallagher- signed-.pdf
+[^154]: para 7, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Second-witness-statement-of-Dawn-Nessom. pdf
+
+[^155]: P3, para 8, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Witness-statement-of-Tony-Gallagher- signed-.pdf
 
 [^156]: pp3-4, paras 9-10, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Third-witness-statement-of- Lloyd-Embley.pdf
 
@@ -52337,6 +52077,8 @@ TSO@Blackwell and other Accredited Agents
 [^195]: p7, para 13, ibid
 
 [^196]: pp7-8, paras 14-15, ibid
+
+[^197]: p7, para 4, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Submission-by-Professor-Roy- Greenslade-of-City-University.pdf
 
 [^198]: p14, para 12, ibid
 
@@ -52828,6 +52570,8 @@ TSO@Blackwell and other Accredited Agents
 
 [^81]: p89, lines 11-13, Lara Fielden, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Transcript-of- Afternoon-Hearing-13-July-20121.pdf
 
+[^82]: Advisory note provided by the British Embassy in Sweden
+
 [^83]: pp69-70, lines 15-5, Lara Fielden, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/07/Transcript-of- Afternoon-Hearing-13-July-20121.pdf
 
 [^84]: pp75-76, lines 13-3, Lara Fielden, ibid
@@ -53097,6 +52841,8 @@ TSO@Blackwell and other Accredited Agents
 [^1]: Part K, Chapter 7
 
 [^2]: Part J, Chapters 2 and 3
+
+[^3]: If a backstop regulator has the power to require the publication of corrections and apologies this is a form of control of content, but only to rectify something that was previously incorrect
 
 [^4]: Part K, Chapter 7
 
@@ -53874,6 +53620,14 @@ TSO@Blackwell and other Accredited Agents
 
 [^263]: See for example Douglas v Hello! Ltd [2003] EMLR 601 in which Morritt V-C permitted the pleading of a claim for exemplary damages
 
+[^264]: s1(1)
+
+[^265]: s1(2)
+
+[^266]: s7(3)(a)
+
+[^267]: s7(2)
+
 [^268]: Trimingham v Associated Newspapers Limited [2012] EWHC 1296 (QB)
 
 [^269]: Thomas v News Group Newspapers Ltd [2001] EWCA Civ 1233 at para 50
@@ -53986,6 +53740,8 @@ TSO@Blackwell and other Accredited Agents
 
 [^323]: The OECD guidelines set out eight basic principles of national application which are recognisable in the DPA 1998: (1) The collection limitation principle; (2) the data quality principle; (3) the purpose specification principle; (4) the use limitation principles; (5) the security safeguards principle; (6) the openness principle; (7) the individual participation principles; and (8) the accountability principle
 
+[^324]: s3
+
 [^325]: ss4(1), 7(1)
 
 [^326]: ss10(1), 11(1), 12(1)
@@ -54071,6 +53827,18 @@ TSO@Blackwell and other Accredited Agents
 [^366]: Guardian News and Media rely on the statement of Buxton LJ in Johnson v Medical Defence Union (No.2) [2007] EWCA Civ 262, [2008] Bus LR 503 at para 41, where he stated: "The argument put to the court [in Campbell], which had been adopted by the trial judge, was that the expression "with a view to" limited the exemption to acts prior to publication. The court was very concerned that that limitation would effectively nullify the investigative journalism that the exemption seemed designed to protect"
 
 [^367]: para 3.25, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Witness-Statement-of-Christopher- Graham.pdf
+
+[^368]: s40
+
+[^369]: s41A
+
+[^370]: s42
+
+[^371]: s43
+
+[^372]: s47
+
+[^373]: s48
 
 [^374]: p15, lines 1-9, Richard Thomas, http://www.levesoninquiry.org.uk/wp-content/uploads/2011/12/Transcript-of- Morning-Hearing-9-December-2011.pdf
 
@@ -54160,7 +53928,19 @@ TSO@Blackwell and other Accredited Agents
 
 [^417]: s51(2)
 
+[^418]: s52A
+
+[^419]: s52B
+
+[^420]: s51(6)
+
+[^421]: s53
+
+[^422]: s53(2)
+
 [^423]: para 3.22, http://www.levesoninquiry.org.uk/wp-content/uploads/2012/01/Witness-Statement-of-Christopher- Graham.pdf
+
+[^424]: s1
 
 [^425]: ss1(1)(a)-(b)
 
@@ -54207,6 +53987,8 @@ TSO@Blackwell and other Accredited Agents
 [^446]: [1993] QB 94
 
 [^447]: [2000] 2 AC 216 at 225-226
+
+[^448]: s17(5)
 
 [^449]: [2000] 2 AC 216 at 224
 

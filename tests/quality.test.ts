@@ -19,6 +19,7 @@ import {
   noteTextInBody,
   numberedProseList,
   numberedParagraphGlued,
+  unnumberedPageOpening,
   olWordsShare,
   printedPageReversal,
   quoteParity,
@@ -582,6 +583,11 @@ describe("numbered-paragraph-glued (B, reportsthatmatter-f951)", () => {
     expect(numberedParagraphGlued.run(input(glued.replace("B. 2.86 RBKC's", "B. 5.10 Metres")))).toEqual([]);
   });
 
+  it("fires when another chapter has a paragraph of that number (numbering restarts per chapter, Leveson, reportsthatmatter-1iz4)", () => {
+    const earlier = Array.from({ length: 90 }, (_, i) => `2.${i + 1} An earlier chapter's paragraph.`).join("\n\n");
+    expect(numberedParagraphGlued.run(input(`${earlier}\n\n${glued}`))).toHaveLength(1);
+  });
+
   it("stays quiet on a report that does not number its paragraphs", () => {
     expect(numberedParagraphGlued.run(input("Some text. 2.1 Million people came."))).toEqual([]);
   });
@@ -589,5 +595,30 @@ describe("numbered-paragraph-glued (B, reportsthatmatter-f951)", () => {
   it("is registered, advisory", () => {
     expect(SIGNALS.map((s) => s.id)).toContain("numbered-paragraph-glued");
     expect(numberedParagraphGlued.advisory).toBe(true);
+  });
+});
+
+describe("unnumbered-page-opening (B, reportsthatmatter-sh1b/ni9o)", () => {
+  const filler = Array.from({ length: 20 }, (_, i) => `3.${i + 1}. A paragraph of the chapter.`).join("\n\n");
+  const split = `${filler}\n\n3.71. As I have explained, she was still a serving prisoner.\n\n%%page 26%%\n\nMrs McDonald had anticipated seeing her daughter on her 18th birthday.\n\n3.72. The next paragraph.`;
+
+  it("fires on unnumbered body text opening a page under a numbered paragraph", () => {
+    const found = unnumberedPageOpening.run(input(split));
+    expect(found).toHaveLength(1);
+    expect(found[0].excerpt).toContain("Mrs McDonald");
+  });
+
+  it("passes a joined paragraph, a numbered opening, a heading, a caption, a quotation and a colon", () => {
+    expect(unnumberedPageOpening.run(input(split.replace("prisoner.\n\n%%page 26%%\n\nMrs", "prisoner. %%page 26%% Mrs")))).toEqual([]);
+    expect(unnumberedPageOpening.run(input(split.replace("Mrs McDonald had", "3.72. Mrs McDonald had")))).toEqual([]);
+    expect(unnumberedPageOpening.run(input(split.replace(/Mrs McDonald had.*birthday\./, "Late Claims")))).toEqual([]);
+    expect(unnumberedPageOpening.run(input(split.replace("Mrs McDonald had", "Figure 3.1: Mrs McDonald had")))).toEqual([]);
+    expect(unnumberedPageOpening.run(input(split.replace("Mrs McDonald had", "“Mrs McDonald had")))).toEqual([]);
+    expect(unnumberedPageOpening.run(input(split.replace("serving prisoner.", "serving prisoner, who wrote:")))).toEqual([]);
+  });
+
+  it("stays quiet on a report that does not number most of its paragraphs", () => {
+    const prose = Array.from({ length: 60 }, () => "An unnumbered paragraph.").join("\n\n");
+    expect(unnumberedPageOpening.run(input(`${prose}\n\n${split}`))).toEqual([]);
   });
 });

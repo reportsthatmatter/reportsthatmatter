@@ -25,7 +25,7 @@ Very large reports (Saville is ten volumes, about 5,000 pages) need a scoping de
 
 ## 2. Set up
 
-- **Work in a sibling git worktree**, not on the shared checkout: `git worktree add ../rtm-<task> -b <branch> origin/main`, then `CI=true pnpm install --frozen-lockfile` and `pnpm exec playwright install chromium`. Several sessions share `~/src/reportsthatmatter/reportsthatmatter`, and switching branches there switches everyone. It must be a sibling, not nested under `.worktrees/`, because `reports/manifest.yaml` locates each report as `../<report-repo>`.
+- **Work in a sibling git worktree**, not on the shared checkout: the commands are [`agent-protocol.md`](agent-protocol.md) rule 1 (`pnpm bootstrap` in it; `pnpm exec playwright install chromium` once per machine for the browser checks). Several sessions share `~/src/reportsthatmatter/reportsthatmatter`, and switching branches there switches everyone. It must be a sibling, not nested under `.worktrees/`, because `reports/manifest.yaml` locates each report as `../<report-repo>`.
 - **Never symlink a worktree's `node_modules`** to the main checkout's. pnpm then tries to purge the other project's modules, and scripts resolve the wrong `@rtm/ingest`.
 - **Never use bare `git stash` or `git stash pop`.** The stash is shared across worktrees.
 - `verify.sh` aggregates from the sibling report repos' *working trees*, not their commits, so a peer's uncommitted edits in `../<report-repo>` can fail your corpus check. Run `git -C ../<report-repo> status` before chasing a corpus move.

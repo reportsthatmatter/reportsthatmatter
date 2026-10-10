@@ -28,6 +28,7 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { parse } from "yaml";
+import { resolveReportDir } from "./report-dirs";
 
 export const STAGES = ["candidate", "source", "repo", "ingest", "evaluate", "editorial", "publish", "announce", "promote"] as const;
 export type Stage = (typeof STAGES)[number];
@@ -92,6 +93,8 @@ export type Options = {
   /** Verify archive checksums (reads every pinned file). */
   deep?: boolean;
   publish?: PublishProbe;
+  /** Environment for the report-directory resolver (RTM_REPORT_DIRS). Default none: tests are pure of process state. */
+  env?: NodeJS.ProcessEnv;
 };
 
 const rank = (stage: Stage) => STAGES.indexOf(stage);
@@ -117,10 +120,10 @@ export function readRecord(root: string): { units: Unit[]; problems: string[] } 
 // ---------- locating a report's repo ----------
 
 /** The report repo's directory from reports/manifest.yaml, or null when the id is not in it. */
-export function manifestDir(root: string, id: string): string | null {
+export function manifestDir(root: string, id: string, env: NodeJS.ProcessEnv = {}): string | null {
   const manifest = readYaml(join(root, "reports/manifest.yaml"));
   const entry = (manifest?.reports ?? []).find((r: any) => r.id === id);
-  return entry ? resolve(root, entry.dir) : null;
+  return entry ? resolveReportDir(root, id, entry, env).dir : null;
 }
 
 // ---------- gate items ----------
@@ -333,10 +336,12 @@ export async function deriveUnit(unit: Unit, opts: Options, secondary: boolean):
     };
   }
   const { root } = opts;
-  const listed = manifestDir(root, unit.id);
-  // A report not yet in the manifest still has its repo, by convention a sibling named for the id.
-  const sibling = resolve(root, "..", unit.id);
-  const dir = listed ?? (existsSync(sibling) ? sibling : null);
+  // reportsthatmatter-ai23: RTM_REPORT_DIRS (opts.env) wins, as for every other script (scripts/lib/report-dirs.ts), so a
+  // unit whose repo work is on a worktree branch reads from the branch, not from the shared checkout's empty main.
+  const listed = manifestDir(root, unit.id, opts.env);
+  // A report not yet in the manifest still has its repo, by convention a sibling named for the id (or its worktree).
+  const guess = resolveReportDir(root, unit.id, null, opts.env).dir;
+  const dir = listed ?? (existsSync(guess) ? guess : null);
   const items: Item[] = [
     ...repoItems(root, unit.id, dir, listed !== null, `report repo not found at ${dir}`, opts),
     ...ingestItems(root, unit.id, dir),

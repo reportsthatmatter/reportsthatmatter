@@ -77,7 +77,7 @@ reports:
     date_published: "2003-08"
     repo: us-columbia-shuttle-accident
     source_path: reports/columbia-accident/full.md
-    source_url: "https://www.nasa.gov/columbia/home/CAIB_Vol1.html"
+    source_url: "https://www.nasa.gov/wp-content/uploads/2025/04/caib-report.pdf"
     ingested: true
 
   - id: us-911-commission

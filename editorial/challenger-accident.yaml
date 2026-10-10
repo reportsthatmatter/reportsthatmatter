@@ -99,7 +99,7 @@ background: |
 
 findings:
   - text: Like the Rogers Commission, the Committee concluded that the accident was caused by the failure of the aft field joint on the right-hand solid rocket motor, a faulty design that neither NASA nor its contractor, Morton Thiokol, fully understood.
-    cites: [like-rogers-commission-committee-concluded, findings-2]
+    cites: [like-rogers-commission-committee-concluded, 1-design-field-joint-unsatisfactory]
 
   - text: Where the Commission pointed to a flawed decision-making process, the Committee concludes that the underlying problem was not poor communication but poor technical decision-making, over several years, by top NASA and Thiokol managers. Information on the joint's flaws had been presented to every level of Shuttle management.
     cites: [other-areas-committee-reached-somewhat, information-flaws-joint-design-problems, throughout-hearings-witnesses-said-had]
@@ -141,7 +141,7 @@ findings:
         directly contributed to unsafe launch operations.
 
   - text: The Committee confirms the Commission's finding that NASA's safety, reliability and quality assurance programmes were grossly inadequate, and finds nothing to show that NASA's safety staff ever evaluated the seal problem.
-    cites: [concurrence-rogers-commission-committee-con, second-there-nothing-show-what]
+    cites: [concurrence-rogers-commission-committee-confirms, second-there-nothing-show-what]
 
   - text: It goes beyond the Commission on other hardware, raising concerns about the margins of the Shuttle's main engines and recommending a new specification for its landing gear, tyres and brakes. It also finds that NASA's management waived its own launch commit criteria on the morning of the launch without a valid technical reason.
     cites: [committee-has-more-concerns-than, committee-has-gone-beyond-rogers, nasa-s-management-waived-its]
