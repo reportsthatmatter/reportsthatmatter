@@ -12,8 +12,8 @@ importers:
         specifier: ^0.22.0
         version: 0.22.0
       '@rtm/ingest':
-        specifier: github:reportsthatmatter/ingest#v0.26.0
-        version: https://codeload.github.com/reportsthatmatter/ingest/tar.gz/2797eb279fb14d441e55cb01f0339fa50b16a644
+        specifier: github:reportsthatmatter/ingest#v0.27.0
+        version: https://codeload.github.com/reportsthatmatter/ingest/tar.gz/c7ebd5460f1b842f33dad0e098b9588f2a5c7484
       hono:
         specifier: ^4.6.10
         version: 4.12.33
@@ -758,9 +758,9 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rtm/ingest@https://codeload.github.com/reportsthatmatter/ingest/tar.gz/2797eb279fb14d441e55cb01f0339fa50b16a644':
-    resolution: {gitHosted: true, integrity: sha512-EoaumFPXAitn/4ze3qIlx8RJAfeHuhx/fzRbhRE8s6TLhXK4mOdvR6bWwguvBpO8HzboYWGXUudGP3h3LmvtBg==, tarball: https://codeload.github.com/reportsthatmatter/ingest/tar.gz/2797eb279fb14d441e55cb01f0339fa50b16a644}
-    version: 0.26.0
+  '@rtm/ingest@https://codeload.github.com/reportsthatmatter/ingest/tar.gz/c7ebd5460f1b842f33dad0e098b9588f2a5c7484':
+    resolution: {gitHosted: true, integrity: sha512-3ULk8jS7OnLvolqYQxt8vDn4rDbRqaH+LlHzTAx0XNtncN2K+s90AIwrjg1hi2xzi1s7FM6TaY+xgNwUk+KuHw==, tarball: https://codeload.github.com/reportsthatmatter/ingest/tar.gz/c7ebd5460f1b842f33dad0e098b9588f2a5c7484}
+    version: 0.27.0
     hasBin: true
 
   '@sindresorhus/is@7.2.0':
@@ -1622,7 +1622,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.62.3':
     optional: true
 
-  '@rtm/ingest@https://codeload.github.com/reportsthatmatter/ingest/tar.gz/2797eb279fb14d441e55cb01f0339fa50b16a644':
+  '@rtm/ingest@https://codeload.github.com/reportsthatmatter/ingest/tar.gz/c7ebd5460f1b842f33dad0e098b9588f2a5c7484':
     dependencies:
       markdown-it: 14.3.0
       yaml: 2.9.0
