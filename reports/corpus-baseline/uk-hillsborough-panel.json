@@ -1,0 +1,234 @@
+{
+  "words": 203870,
+  "paragraphs": 2755,
+  "sections": [
+    {
+      "slug": "front-matter",
+      "title": "Front matter",
+      "paragraphs": 8,
+      "ids": "93e26dcbb4c7"
+    },
+    {
+      "slug": "foreword",
+      "title": "Foreword",
+      "paragraphs": 11,
+      "ids": "8a62614dbf05"
+    },
+    {
+      "slug": "report-summary",
+      "title": "Report summary",
+      "paragraphs": 218,
+      "ids": "7c895259f28a"
+    },
+    {
+      "slug": "part-1-hillsborough-what-was-known",
+      "title": "Part 1: Hillsborough: 'what was known'",
+      "paragraphs": 19,
+      "ids": "d5290d69c482"
+    },
+    {
+      "slug": "crowd-safety-at-sports-venues-a-history-of-tragedy",
+      "title": "Crowd safety at sports venues – a history of tragedy",
+      "paragraphs": 18,
+      "ids": "fb7b98cac8b7"
+    },
+    {
+      "slug": "the-lens-of-hooliganism-and-the-introduction-of-pens",
+      "title": "The 'lens of hooliganism' and the introduction of 'pens'",
+      "paragraphs": 13,
+      "ids": "191b0d33f48d"
+    },
+    {
+      "slug": "hillsborough-stadium",
+      "title": "Hillsborough Stadium",
+      "paragraphs": 28,
+      "ids": "8a8f459f8d75"
+    },
+    {
+      "slug": "15-april-1989",
+      "title": "15 April 1989",
+      "paragraphs": 28,
+      "ids": "02c099991378"
+    },
+    {
+      "slug": "the-taylor-inquiry",
+      "title": "The Taylor Inquiry",
+      "paragraphs": 16,
+      "ids": "e0dde31188ca"
+    },
+    {
+      "slug": "the-taylor-interim-report",
+      "title": "The Taylor Interim Report",
+      "paragraphs": 26,
+      "ids": "be53b77db17e"
+    },
+    {
+      "slug": "civil-actions-and-criminal-prosecution",
+      "title": "Civil actions and criminal prosecution",
+      "paragraphs": 20,
+      "ids": "63d91258e408"
+    },
+    {
+      "slug": "the-inquests",
+      "title": "The inquests",
+      "paragraphs": 49,
+      "ids": "4f13f83d098e"
+    },
+    {
+      "slug": "the-stuart-smith-scrutiny",
+      "title": "The Stuart-Smith Scrutiny",
+      "paragraphs": 27,
+      "ids": "aaec33adec41"
+    },
+    {
+      "slug": "review-and-alteration-of-police-statements",
+      "title": "Review and alteration of police statements",
+      "paragraphs": 13,
+      "ids": "552074bd83b1"
+    },
+    {
+      "slug": "private-prosecution",
+      "title": "Private prosecution",
+      "paragraphs": 25,
+      "ids": "0221b4bc20a5"
+    },
+    {
+      "slug": "part-2-hillsborough-what-is-added-to-public-understanding",
+      "title": "Part 2: Hillsborough: 'what is added to public understanding'",
+      "paragraphs": 128,
+      "ids": "588c0e33613a"
+    },
+    {
+      "slug": "chapter-2-the-moment-of-1989",
+      "title": "Chapter 2: The 'moment' of 1989",
+      "paragraphs": 98,
+      "ids": "63baaee75c39"
+    },
+    {
+      "slug": "chapter-3-custom-practice-roles-responsibilities",
+      "title": "Chapter 3: Custom, practice, roles, responsibilities",
+      "paragraphs": 161,
+      "ids": "702eab183b24"
+    },
+    {
+      "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
+      "title": "Chapter 4: Emergency response and aftermath: 'routinely requested to attend'",
+      "paragraphs": 212,
+      "ids": "7f4729c302ef"
+    },
+    {
+      "slug": "chapter-5-medical-evidence-the-testimony-of-the-dead",
+      "title": "Chapter 5: Medical evidence: the testimony of the dead",
+      "paragraphs": 127,
+      "ids": "1ee11e668419"
+    },
+    {
+      "slug": "chapter-6-parallel-investigations",
+      "title": "Chapter 6: Parallel investigations",
+      "paragraphs": 331,
+      "ids": "aeeddf46a92c"
+    },
+    {
+      "slug": "chapter-7-civil-litigation",
+      "title": "Chapter 7: Civil litigation",
+      "paragraphs": 234,
+      "ids": "15c048fb73ea"
+    },
+    {
+      "slug": "chapter-8-the-coroners-inquiry-from-the-immediate-aftermath-to-the-preliminary-h",
+      "title": "Chapter 8: The Coroner's inquiry: from the immediate aftermath to the preliminary hearings",
+      "paragraphs": 105,
+      "ids": "949c897b5f4e"
+    },
+    {
+      "slug": "chapter-9-the-generic-hearing-judicial-review-and-continuing-controversies",
+      "title": "Chapter 9: The generic hearing, Judicial Review and continuing controversies",
+      "paragraphs": 129,
+      "ids": "d4e619094672"
+    },
+    {
+      "slug": "chapter-10-the-315pm-cut-off",
+      "title": "Chapter 10: The 3.15pm cut-off",
+      "paragraphs": 144,
+      "ids": "a5775950c7ba"
+    },
+    {
+      "slug": "chapter-11-review-and-alteration-of-statements",
+      "title": "Chapter 11: Review and alteration of statements",
+      "paragraphs": 162,
+      "ids": "3692badbbfe9"
+    },
+    {
+      "slug": "chapter-12-behind-the-headlines-the-origins-promotion-and-reproduction-of-unsubs",
+      "title": "Chapter 12: Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations",
+      "paragraphs": 207,
+      "ids": "75c9a7ce054f"
+    },
+    {
+      "slug": "part-3-the-permanent-archive-for-the-hillsborough-disaster",
+      "title": "Part 3: The Permanent Archive for the Hillsborough Disaster",
+      "paragraphs": 6,
+      "ids": "16f5a93d8afa"
+    },
+    {
+      "slug": "the-permanent-archive",
+      "title": "The Permanent Archive",
+      "paragraphs": 8,
+      "ids": "38a6acf4e2eb"
+    },
+    {
+      "slug": "public-access",
+      "title": "Public access",
+      "paragraphs": 36,
+      "ids": "456ec6f8e560"
+    },
+    {
+      "slug": "from-active-digital-archive-to-permanent-archive",
+      "title": "From active digital archive to Permanent Archive",
+      "paragraphs": 11,
+      "ids": "2f34b0bfc35b"
+    },
+    {
+      "slug": "appendix-1-hillsborough-independent-panel-terms-of-reference",
+      "title": "Appendix 1: Hillsborough Independent Panel terms of reference",
+      "paragraphs": 39,
+      "ids": "f4dc45839f08"
+    },
+    {
+      "slug": "appendix-2-disclosure-process",
+      "title": "Appendix 2: Disclosure process",
+      "paragraphs": 21,
+      "ids": "5d418ab63934"
+    },
+    {
+      "slug": "contributing-organisations",
+      "title": "Contributing organisations",
+      "paragraphs": 19,
+      "ids": "0d368c38ac2a"
+    },
+    {
+      "slug": "appendix-3-research-process-and-method",
+      "title": "Appendix 3: Research process and method",
+      "paragraphs": 10,
+      "ids": "3870891b79fa"
+    },
+    {
+      "slug": "research-methodology",
+      "title": "Research methodology",
+      "paragraphs": 17,
+      "ids": "1bf4240e6dd6"
+    },
+    {
+      "slug": "appendix-4-retained-tissue-following-post-mortem-examination",
+      "title": "Appendix 4: Retained tissue following post mortem examination",
+      "paragraphs": 12,
+      "ids": "58489061461a"
+    },
+    {
+      "slug": "appendix-5-freedom-of-information-and-parliamentary-debate",
+      "title": "Appendix 5: Freedom of information and Parliamentary debate",
+      "paragraphs": 19,
+      "ids": "843ffd60901d"
+    }
+  ]
+}

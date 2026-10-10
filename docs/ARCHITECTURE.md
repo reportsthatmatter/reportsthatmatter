@@ -51,7 +51,7 @@ flowchart TB
         Manifest["reports/manifest.yaml\n(id -> report repo dir)"]
         Aggregate["reports/&lt;id&gt;/full.md\n(aggregated copy,\npnpm ingest aggregate)"]
         Prerender["assets/generated/\n(fragments + full-body.html,\npnpm prerender — NOT committed)"]
-        CorpusBaseline["reports/corpus-baseline.json\n(site-wide paragraph-id pin)"]
+        CorpusBaseline["reports/corpus-baseline/{id}.json\n(per-report paragraph-id pin)"]
         WorkerSrc["src/index.ts, templates/, lib/\n(Hono routes, rendering, search)"]
         Bundled["docs/CHANGELOG.md, reports/registry.yaml\n(bundled into the Worker script)"]
     end
@@ -120,7 +120,7 @@ reports:
 - **`pnpm ingest check`** — a report's own **markdown** against `baseline.json`
   *in that report's own repo*. Accept a real move with `pnpm ingest baseline <id>`.
 - **`pnpm corpus check`** — what this repo **renders from** that markdown:
-  every section's citable paragraph ids, against `reports/corpus-baseline.json`
+  every section's citable paragraph ids, against `reports/corpus-baseline/<id>.json`
   *in this repo*. Paragraph ids are permalinks (`src/lib/markdown.ts`), one
   stage downstream of anything a report has a pin on, so this is the only
   check that would catch a rendering-code change repointing citations across

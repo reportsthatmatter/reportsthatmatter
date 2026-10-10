@@ -102,7 +102,7 @@ out.push(
   "- [ ] I read the quality diff, the oracle table and the headline diff, not only the totals; every regression has a bead or a reason here.",
   "- [ ] No pass in this release was tuned on a held-out report (`reports/score-sets.yaml`): its examples came from the development set, and the held-out rows above did not fall. If one fell, say why it is not overfitting.",
   "- [ ] The adjudicated 'ours wrong / judged' did not rise on any report (a rise is a regression even where F1 is flat).",
-  "- [ ] `docs/design/lessons.md` has a line for anything this release taught us.",
+  "- [ ] Each lesson this release taught us is a file in `docs/design/lessons/` (`pnpm lessons new <slug> --theme \"<theme>\"`).",
   "- [ ] After shipping: `pnpm quality ratchet --record`, `pnpm scorecard --record --no-score`, `pnpm score`, and commit `reports/quality-last.json`, `reports/verify-last.json` and `docs/scores.json`.",
   "",
 );

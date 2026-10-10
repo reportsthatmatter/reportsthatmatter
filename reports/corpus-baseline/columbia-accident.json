@@ -1,0 +1,444 @@
+{
+  "words": 167542,
+  "paragraphs": 2616,
+  "sections": [
+    {
+      "slug": "in-memoriam",
+      "title": "IN MEMORIAM",
+      "paragraphs": 6,
+      "ids": "792ac4eea6e3"
+    },
+    {
+      "slug": "board-statement",
+      "title": "BOARD STATEMENT",
+      "paragraphs": 12,
+      "ids": "32108f013973"
+    },
+    {
+      "slug": "executive-summary",
+      "title": "EXECUTIVE SUMMARY",
+      "paragraphs": 10,
+      "ids": "34eebfc5e1a1"
+    },
+    {
+      "slug": "report-synopsis",
+      "title": "REPORT SYNOPSIS",
+      "paragraphs": 60,
+      "ids": "648ad356fccb"
+    },
+    {
+      "slug": "part-one-the-accident",
+      "title": "Part One: The Accident",
+      "paragraphs": 8,
+      "ids": "564a1ad74d1b"
+    },
+    {
+      "slug": "11-genesis-of-the-space-transportation-system",
+      "title": "1.1 Genesis of the Space Transportation System",
+      "paragraphs": 3,
+      "ids": "95e639b7d63c"
+    },
+    {
+      "slug": "12-merging-conflicting-interests",
+      "title": "1.2 Merging Conflicting Interests",
+      "paragraphs": 9,
+      "ids": "ed25b8a77640"
+    },
+    {
+      "slug": "13-shuttle-development-testing-and-qualification",
+      "title": "1.3 Shuttle Development, Testing, and Qualification",
+      "paragraphs": 4,
+      "ids": "245501583f8d"
+    },
+    {
+      "slug": "14-the-shuttle-becomes-operational",
+      "title": "1.4 The Shuttle Becomes \"Operational\"",
+      "paragraphs": 7,
+      "ids": "0acce7fa7a18"
+    },
+    {
+      "slug": "15-the-challenger-accident",
+      "title": "1.5 The Challenger Accident",
+      "paragraphs": 14,
+      "ids": "d4da8021766b"
+    },
+    {
+      "slug": "21-mission-objectives-and-their-rationales",
+      "title": "2.1 Mission Objectives and Their Rationales",
+      "paragraphs": 43,
+      "ids": "70884dfe0ed3"
+    },
+    {
+      "slug": "22-flight-preparation",
+      "title": "2.2 Flight Preparation",
+      "paragraphs": 18,
+      "ids": "14ed3e476457"
+    },
+    {
+      "slug": "23-launch-sequence",
+      "title": "2.3 Launch Sequence",
+      "paragraphs": 20,
+      "ids": "4e3053ab1249"
+    },
+    {
+      "slug": "24-on-orbit-events",
+      "title": "2.4 On-Orbit Events",
+      "paragraphs": 31,
+      "ids": "07f5e1730003"
+    },
+    {
+      "slug": "25-debris-strike-analysis-and-requests-for-imagery",
+      "title": "2.5 Debris Strike Analysis and Requests for Imagery",
+      "paragraphs": 7,
+      "ids": "6dbdcb3c9ed9"
+    },
+    {
+      "slug": "26-de-orbit-burn-and-re-entry-events",
+      "title": "2.6 De-Orbit Burn and Re-Entry Events",
+      "paragraphs": 16,
+      "ids": "0d3280b92c26"
+    },
+    {
+      "slug": "27-events-immediately-following-the-accident",
+      "title": "2.7 Events Immediately Following the Accident",
+      "paragraphs": 77,
+      "ids": "03c9335fb63e"
+    },
+    {
+      "slug": "32-the-external-tank-and-foam",
+      "title": "3.2 The External Tank and Foam",
+      "paragraphs": 78,
+      "ids": "bb73f9f60583"
+    },
+    {
+      "slug": "33-wing-leading-edge-structural-subsystem",
+      "title": "3.3 WING LEADING EDGE STRUCTURAL SUBSYSTEM",
+      "paragraphs": 60,
+      "ids": "4170ca454efb"
+    },
+    {
+      "slug": "34-image-and-transport-analyses",
+      "title": "3.4 Image and Transport Analyses",
+      "paragraphs": 51,
+      "ids": "e110e9e68710"
+    },
+    {
+      "slug": "35-on-orbit-debris-separation-the-flight-day-2-object",
+      "title": "3.5 On-Orbit Debris Separation – The \"Flight Day 2\" Object",
+      "paragraphs": 33,
+      "ids": "06fb399a99e2"
+    },
+    {
+      "slug": "36-de-orbitre-entry",
+      "title": "3.6 De-Orbit/Re-Entry",
+      "paragraphs": 181,
+      "ids": "43a3bcab2e82"
+    },
+    {
+      "slug": "37-debris-analysis",
+      "title": "3.7 Debris Analysis",
+      "paragraphs": 80,
+      "ids": "14e2d642f7c4"
+    },
+    {
+      "slug": "38-impact-analysis-and-testing",
+      "title": "3.8 Impact Analysis and Testing",
+      "paragraphs": 66,
+      "ids": "fdad4e3b3d96"
+    },
+    {
+      "slug": "41-fault-tree",
+      "title": "4.1 Fault Tree",
+      "paragraphs": 14,
+      "ids": "bfd37ca429f9"
+    },
+    {
+      "slug": "42-remaining-factors",
+      "title": "4.2 Remaining Factors",
+      "paragraphs": 128,
+      "ids": "61ed72ff990d"
+    },
+    {
+      "slug": "part-two-why-the-accident-occurred",
+      "title": "Part Two: Why The Accident Occurred",
+      "paragraphs": 11,
+      "ids": "8341c744b3d3"
+    },
+    {
+      "slug": "51-the-challenger-accident-and-its-aftermath",
+      "title": "5.1 The Challenger Accident and its Aftermath",
+      "paragraphs": 16,
+      "ids": "d37b89fd4e40"
+    },
+    {
+      "slug": "52-the-nasa-human-space-flight-culture",
+      "title": "5.2 The NASA Human Space Flight Culture",
+      "paragraphs": 10,
+      "ids": "940f43b8c19f"
+    },
+    {
+      "slug": "53-an-agency-trying-to-do-too-much-with-too-little",
+      "title": "5.3 An Agency Trying to Do Too Much With Too Little",
+      "paragraphs": 94,
+      "ids": "73d946f02074"
+    },
+    {
+      "slug": "54-turbulence-in-nasa-hits-the-space-shuttle-program",
+      "title": "5.4 Turbulence in NASA Hits the Space Shuttle Program",
+      "paragraphs": 100,
+      "ids": "5f1c093bd4d7"
+    },
+    {
+      "slug": "55-when-to-replace-the-space-shuttle",
+      "title": "5.5 When to Replace the Space Shuttle?",
+      "paragraphs": 48,
+      "ids": "35acca1e9796"
+    },
+    {
+      "slug": "56-a-change-in-nasa-leadership",
+      "title": "5.6 A Change in NASA Leadership",
+      "paragraphs": 13,
+      "ids": "57446d5a8a53"
+    },
+    {
+      "slug": "57-the-return-of-schedule-pressure",
+      "title": "5.7 The Return of Schedule Pressure",
+      "paragraphs": 22,
+      "ids": "22e890c7ad23"
+    },
+    {
+      "slug": "58-conclusion",
+      "title": "5.8 Conclusion",
+      "paragraphs": 11,
+      "ids": "4e31d3477add"
+    },
+    {
+      "slug": "61-a-history-of-foam-anomalies",
+      "title": "6.1 A History of Foam Anomalies",
+      "paragraphs": 154,
+      "ids": "081fc18c2266"
+    },
+    {
+      "slug": "62-schedule-pressure",
+      "title": "6.2 Schedule Pressure",
+      "paragraphs": 128,
+      "ids": "1b6ace6264e0"
+    },
+    {
+      "slug": "63-decision-making-during-the-flight-of-sts-107",
+      "title": "6.3 Decision-Making During the Flight of STS-107",
+      "paragraphs": 329,
+      "ids": "1d5b7e69de6e"
+    },
+    {
+      "slug": "64-possibility-of-rescue-or-repair",
+      "title": "6.4 Possibility of Rescue or Repair",
+      "paragraphs": 13,
+      "ids": "071d5a824c3f"
+    },
+    {
+      "slug": "chapter-7-the-accidents-organizational-causes",
+      "title": "Chapter 7: The Accidentʼs Organizational Causes",
+      "paragraphs": 7,
+      "ids": "87626e0f1b69"
+    },
+    {
+      "slug": "71-organizational-causes-insights-from-history",
+      "title": "7.1 Organizational Causes: Insights from History",
+      "paragraphs": 18,
+      "ids": "e8ac83100944"
+    },
+    {
+      "slug": "72-organizational-causes-insights-from-theory",
+      "title": "7.2 Organizational Causes: Insights from Theory",
+      "paragraphs": 20,
+      "ids": "f61880c27c12"
+    },
+    {
+      "slug": "73-organizational-causes-evaluating-best-safety-practices",
+      "title": "7.3 Organizational Causes: Evaluating Best Safety Practices",
+      "paragraphs": 23,
+      "ids": "276823166dfe"
+    },
+    {
+      "slug": "74-organizational-causes-a-broken-safety-culture",
+      "title": "7.4 Organizational Causes: A Broken Safety Culture",
+      "paragraphs": 80,
+      "ids": "624026350e6f"
+    },
+    {
+      "slug": "75-organizational-causes-impact-of-a-flawed-safety-culture-on-sts-107",
+      "title": "7.5 Organizational Causes: Impact of a Flawed Safety Culture on STS-107",
+      "paragraphs": 41,
+      "ids": "2146601c3092"
+    },
+    {
+      "slug": "76-findings-and-recommendations",
+      "title": "7.6 Findings and Recommendations",
+      "paragraphs": 20,
+      "ids": "c52450313075"
+    },
+    {
+      "slug": "81-echoes-of-challenger",
+      "title": "8.1 Echoes of Challenger",
+      "paragraphs": 6,
+      "ids": "98569e892f3b"
+    },
+    {
+      "slug": "82-failures-of-foresight-two-decision-histories-and-the-normalization-of-devianc",
+      "title": "8.2 Failures of Foresight: Two Decision Histories and the Normalization of Deviance",
+      "paragraphs": 10,
+      "ids": "b0e5c37ecf20"
+    },
+    {
+      "slug": "83-system-effects-the-impact-of-history-and-politics-on-risky-work",
+      "title": "8.3 System Effects: The Impact of History and Politics on Risky Work",
+      "paragraphs": 7,
+      "ids": "2b9421832f6b"
+    },
+    {
+      "slug": "84-organization-culture-and-unintended-consequences",
+      "title": "8.4 Organization, Culture, and Unintended Consequences",
+      "paragraphs": 4,
+      "ids": "0fdb4d23ec93"
+    },
+    {
+      "slug": "85-history-as-cause-two-accidents",
+      "title": "8.5 History as Cause: Two Accidents",
+      "paragraphs": 23,
+      "ids": "5e981f48f301"
+    },
+    {
+      "slug": "86-changing-nasas-organizational-system",
+      "title": "8.6 Changing NASAʼs Organizational System",
+      "paragraphs": 10,
+      "ids": "6e00d7c3b3d9"
+    },
+    {
+      "slug": "part-three-a-look-ahead",
+      "title": "Part Three: A Look Ahead",
+      "paragraphs": 9,
+      "ids": "c8409bfa02e9"
+    },
+    {
+      "slug": "chapter-9-implications-for-the-future-of-human-space-flight",
+      "title": "Chapter 9: Implications for the Future of Human Space Flight",
+      "paragraphs": 10,
+      "ids": "0cdae18425aa"
+    },
+    {
+      "slug": "92-mid-term-continuing-to-fly",
+      "title": "9.2 Mid-Term: Continuing to Fly",
+      "paragraphs": 12,
+      "ids": "a1a2155b9c88"
+    },
+    {
+      "slug": "93-long-term-future-directions-for-the-us-in-space",
+      "title": "9.3 Long-Term: Future Directions for the U.S. in Space",
+      "paragraphs": 17,
+      "ids": "223c1c089fe2"
+    },
+    {
+      "slug": "101-public-safety",
+      "title": "10.1 Public Safety",
+      "paragraphs": 23,
+      "ids": "fc54a48e79a1"
+    },
+    {
+      "slug": "102-crew-escape-and-survival",
+      "title": "10.2 Crew Escape and Survival",
+      "paragraphs": 39,
+      "ids": "a2744c93761e"
+    },
+    {
+      "slug": "104-industrial-safety-and-quality-assurance",
+      "title": "10.4 Industrial Safety and Quality Assurance",
+      "paragraphs": 46,
+      "ids": "5c465ba2381e"
+    },
+    {
+      "slug": "105-maintenance-documentation",
+      "title": "10.5 Maintenance Documentation",
+      "paragraphs": 9,
+      "ids": "5accfd47a032"
+    },
+    {
+      "slug": "106-orbiter-maintenance-down-periodorbiter-major-modification",
+      "title": "10.6 Orbiter Maintenance Down Period/Orbiter Major Modification",
+      "paragraphs": 12,
+      "ids": "96326b848530"
+    },
+    {
+      "slug": "107-orbiter-corrosion",
+      "title": "10.7 Orbiter Corrosion",
+      "paragraphs": 20,
+      "ids": "9776bcfb36e2"
+    },
+    {
+      "slug": "109-hold-down-post-cable-anomaly",
+      "title": "10.9 Hold-Down Post Cable Anomaly",
+      "paragraphs": 20,
+      "ids": "6c8a0a053be6"
+    },
+    {
+      "slug": "chapter-11-recommendations",
+      "title": "Chapter 11: Recommendations",
+      "paragraphs": 34,
+      "ids": "1a1e8593db94"
+    },
+    {
+      "slug": "a1-activation-of-the-columbia-accident-investigation-board",
+      "title": "A.1 ACTIVATION OF THE COLUMBIA ACCIDENT INVESTIGATION BOARD",
+      "paragraphs": 6,
+      "ids": "8a295fe3ad9b"
+    },
+    {
+      "slug": "a2-board-charter-and-organization",
+      "title": "A.2 BOARD CHARTER AND ORGANIZATION",
+      "paragraphs": 7,
+      "ids": "50a426d820dc"
+    },
+    {
+      "slug": "a3-investigation-process-and-scope",
+      "title": "A.3 INVESTIGATION PROCESS AND SCOPE",
+      "paragraphs": 6,
+      "ids": "00a663d23771"
+    },
+    {
+      "slug": "a4-board-policies-and-procedures",
+      "title": "A.4 BOARD POLICIES AND PROCEDURES",
+      "paragraphs": 11,
+      "ids": "4ce14602dc04"
+    },
+    {
+      "slug": "a5-investigation-interface-with-nasa",
+      "title": "A.5 INVESTIGATION INTERFACE WITH NASA",
+      "paragraphs": 7,
+      "ids": "5fe5127a8778"
+    },
+    {
+      "slug": "a6-board-documentation-system",
+      "title": "A.6 BOARD DOCUMENTATION SYSTEM",
+      "paragraphs": 19,
+      "ids": "00791487ad5c"
+    },
+    {
+      "slug": "a7-list-of-public-hearings",
+      "title": "A.7 LIST OF PUBLIC HEARINGS",
+      "paragraphs": 9,
+      "ids": "1b8c16cad761"
+    },
+    {
+      "slug": "appendix-b-board-member-biographies",
+      "title": "Appendix B: Board Member Biographies",
+      "paragraphs": 14,
+      "ids": "e8662d2a7470"
+    },
+    {
+      "slug": "appendix-c-board-staff",
+      "title": "Appendix C: Board Staff",
+      "paragraphs": 32,
+      "ids": "fe5635e5d443"
+    }
+  ]
+}

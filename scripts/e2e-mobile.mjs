@@ -258,7 +258,10 @@ for (const profile of profiles) {
     quote: document.querySelector(".passage-panel-quote")?.textContent ?? "",
   }));
   check(reader.kicker === "Shared passage", `${tag} a reader's passage is labelled "Shared passage"`, reader.kicker);
-  check(reader.quote.replace(/\s+/g, " ").includes(readerLink.replace(/\s+/g, " ").trim().slice(0, 30)), `${tag} its panel quotes the reader's words`, reader.quote);
+  // The panel sets a quotation inside its own quotes as ‘…’ (assets/passage-panel.js `nested`, #301): compare with every
+  // quote mark folded, or a passage that quotes someone ("…riot: "Mike Pence…") never matches.
+  const fold = (s) => s.replace(/\s+/g, " ").replace(/["'\u2018\u2019\u201c\u201d]/g, "'");
+  check(fold(reader.quote).includes(fold(readerLink).trim().slice(0, 30)), `${tag} its panel quotes the reader's words`, reader.quote);
   if (shots) await page.screenshot({ path: join(shots, `${slug(profile.name)}-landing-reader.png`) });
 
   // Starting a new selection closes the panel, so the dock does not stack on it.

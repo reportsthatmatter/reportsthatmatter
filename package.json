@@ -20,6 +20,8 @@
     "prerender": "tsx scripts/prerender.mjs",
     "index-search": "tsx scripts/index-search.mjs",
     "corpus": "tsx scripts/corpus.mjs",
+    "decisions": "tsx scripts/decisions.mjs",
+    "lessons": "tsx scripts/lessons.mjs",
     "aliases": "tsx scripts/aliases.ts",
     "quality": "tsx scripts/quality.mjs",
     "score": "tsx scripts/score.mjs",
