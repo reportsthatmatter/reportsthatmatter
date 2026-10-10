@@ -5,7 +5,7 @@
  * Nothing else catches a report that ships with almost no citable text at
  * all. `pnpm ingest check` compares a report's markdown against its own
  * baseline, `pnpm corpus check` compares its rendered ids against
- * `corpus-baseline.json` — both pass a report that was broken from the day
+ * `reports/corpus-baseline/<id>.json` — both pass a report that was broken from the day
  * it was first accepted, because a baseline records whatever shipped, not
  * whether it was right. That is exactly how uk-chilcot-inquiry's 892
  * numbered paragraphs, written to Markdown as a bare ordered list with no
