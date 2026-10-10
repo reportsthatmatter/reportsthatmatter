@@ -1,5 +1,5 @@
 {
-  "ingest": "v0.26.0",
+  "ingest": "v0.27.0",
   "recorded": "2026-10-10",
   "reports": {
     "challenger-accident": {
@@ -447,6 +447,34 @@
       "chapter-intro-misfiled": 0,
       "rendered-ol-words-share": 2,
       "numbered-prose-list": 0,
+      "ids-per-1k-words": 0,
+      "quote-share-parity": 2
+    },
+    "us-senate-cia-torture-report": {
+      "severed-into-quote": 101,
+      "severed-paragraph": 57,
+      "severed-paragraph-capital": 107,
+      "numbered-paragraph-glued": 0,
+      "unnumbered-page-opening": 0,
+      "bare-footnote-marker": 82,
+      "bare-marker-after-quote": 32,
+      "note-marker-wrong-note": 0,
+      "note-marker-unpaired": 0,
+      "note-reference-sequence": 283,
+      "note-text-in-body": 49,
+      "note-citation-vocabulary": 0,
+      "furniture-paragraph": 36,
+      "contents-entry-without-heading": 86,
+      "heading-density": 0,
+      "heading-repeated": 0,
+      "heading-function-word": 0,
+      "heading-marker": 0,
+      "heading-long": 82,
+      "printed-page-reversal": 0,
+      "rendered-h1": 0,
+      "chapter-intro-misfiled": 0,
+      "rendered-ol-words-share": 4,
+      "numbered-prose-list": 1,
       "ids-per-1k-words": 0,
       "quote-share-parity": 2
     },
