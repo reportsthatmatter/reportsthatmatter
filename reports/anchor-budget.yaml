@@ -96,10 +96,10 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 0
   us-senate-cia-torture-report:
-    markers-wrong: 8  # why: reportsthatmatter-gqsy.6 (scanned pages whose first lines the OCR reads in a different order; 98.8% of located markers are right)
-    markers-stacked: 5  # why: reportsthatmatter-gqsy.6
+    markers-wrong: 6  # why: reportsthatmatter-gqsy.6 (scanned pages whose first lines the OCR reads in a different order; 99.1% of located markers are right)
+    markers-stacked: 6  # why: reportsthatmatter-gqsy.6; 5 to 6 with fgle's note numbering, which takes note text the old numbering left in the body out of it (PDF p.278: note 1399, "From 2003 through 2009..."), so a page whose body only runs on from the page before has no block of its own and its marker sits beside the next
     pages-unmarked: 22  # why: reportsthatmatter-gqsy.6 (the anchor check reads "Page N of 19" counters as labels on the front matter, which is folioed in roman; the pipeline's markers there are roman)
-    blocks-wrong: 155  # why: reportsthatmatter-gqsy.6 (120 of them on those front-matter pages)
+    blocks-wrong: 146  # why: reportsthatmatter-gqsy.6 (122 of them on those front-matter pages)
   us-mueller-report:
     markers-wrong: 5  # why: reportsthatmatter-gqsy.5 (page labels repeat across the two volumes, and scanned pages' OCR order)
     markers-stacked: 0

@@ -79,8 +79,8 @@ reports:
     markers-unlinked: 0
     note-off-page: 0
   us-senate-cia-torture-report:
-    markers-unlinked: 760  # why: reportsthatmatter-fgle (notes merged into the note before, and markers the OCR garbled beside a box: "Country ( , 6 8")
-    note-off-page: 18  # why: reportsthatmatter-fgle
+    markers-unlinked: 525  # why: reportsthatmatter-fgle (notes still merged into the note before, about 270, and markers the OCR garbled beside a box: "Country ( , 6 8"; 765 to 523 with the page-sequence note numbering)
+    note-off-page: 20  # why: reportsthatmatter-fgle (18 to 20: pp.296-297's notes were already read into a body paragraph that runs on to p.298; with p.298's notes 1506-1507 now numbered, that paragraph's markers count as off page)
   us-mueller-report:
     markers-unlinked: 468  # why: reportsthatmatter-gqsy.5 (the oracle reads raised digits inside redaction boxes and scanned pages' OCR; reportsthatmatter-vs2x)
     note-off-page: 0
