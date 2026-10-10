@@ -199,8 +199,7 @@ function evaluateItems(root: string, id: string, repo: string | null): Item[] {
   const registry = readYaml(join(root, "reports/registry.yaml"));
   const entry = (registry?.reports ?? []).find((r: any) => r.id === id);
   const out: Item[] = [check("evaluate", "registered", entry?.ingested === true, entry ? `registry entry, ingested: ${entry.ingested}` : "no registry entry")];
-  const corpus = JSON.parse(existsSync(join(root, "reports/corpus-baseline.json")) ? readText(join(root, "reports/corpus-baseline.json")) : "{}");
-  out.push(check("evaluate", "corpus-baseline", !!corpus.reports?.[id], "entry in reports/corpus-baseline.json"));
+  out.push(check("evaluate", "corpus-baseline", existsSync(join(root, "reports/corpus-baseline", `${id}.json`)), "reports/corpus-baseline/<id>.json"));
   const oracle = readYaml(join(root, "reports/oracle-budget.yaml"));
   out.push(check("evaluate", "oracle-budget", !!oracle?.reports?.[id], "entry in reports/oracle-budget.yaml"));
   out.push(check("evaluate", "processing", existsSync(join(root, "reports", id, "PROCESSING.md")) || (!!repo && existsSync(join(repo, "PROCESSING.md"))), "PROCESSING.md"));

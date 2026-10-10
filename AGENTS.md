@@ -145,7 +145,8 @@ an interactive session.
 | `scripts/prerender.mjs` | Reports → static assets (`pnpm prerender`) — see #115 below |
 | `scripts/index-search.mjs` | Reports → the D1 search index (`pnpm index-search`) — see #100 below |
 | `reports/registry.yaml` | What is published |
-| `reports/corpus-baseline.json` | Every report's citable ids, for `pnpm corpus check` |
+| `scripts/lessons.mjs`, `scripts/decisions.mjs`, `scripts/lib/{lessons,decisions,corpus-baseline}.ts` | `pnpm lessons` (new / list by theme / themes / check), `pnpm decisions` (the generated decision index, `next` number, `check`), and the readers for the per-entry layouts of `docs/design/lessons/`, `docs/decisions/` and `reports/corpus-baseline/` |
+| `reports/corpus-baseline/<id>.json` | One file per report: its citable ids, for `pnpm corpus check` (one file each so PRs that move different reports do not conflict, v95z) |
 | `reports/quality-budget.yaml` | Per-report maximum counts for each quality signal, for `pnpm quality check` (signals in `src/lib/quality/`; `pnpm quality report` prints them all) |
 | `src/lib/score/`, `scripts/score.mjs` | Alignment scorer: `pnpm score <id>` / `--all` scores a report against its reference edition (`<repo>/reference/`) and writes `score-out/<id>/errors.md`, the worst errors with page and paragraph id. Measure-only, not in verify. See [`docs/scoring.md`](docs/scoring.md) |
 | `src/lib/content.ts` | Which store a report is read from — R2 at a pinned hash, or the deploy |
@@ -169,7 +170,7 @@ an interactive session.
     `baseline.json` in its own repo. Accept a move with
     `pnpm ingest baseline <id>`.
   - `pnpm corpus check` covers what this repo renders **from** that markdown —
-    every section's citable paragraph ids, against `reports/corpus-baseline.json`.
+    every section's citable paragraph ids, against `reports/corpus-baseline/<id>.json`.
     Accept a move with `pnpm corpus accept [<id>]`.
     A vanished or new section is explained, not just named: "folded into the
     section before it, X, which gained N paragraphs: consistent with the sliver
@@ -274,10 +275,24 @@ an interactive session.
   subdirectory); it prints the file's header comment, which is the usage block,
   and exits 0 before anything else loads. `tests/help.test.ts` fails for an
   entry point in `package.json` that lacks it.
-- **Append to [`docs/design/lessons.md`](docs/design/lessons.md).** After your
-  final-report retro, add the lessons worth keeping (one line each, with the bead
-  or doc as evidence) in the same PR as your work. It is the running log the
-  improvement loop (38s) reads.
+- **Add each lesson as its own file in [`docs/design/lessons/`](docs/design/lessons/README.md).**
+  After your final-report retro, run `pnpm lessons new <slug> --theme "<theme>"` for
+  each lesson worth keeping (one line, with the bead or doc as evidence) in the same
+  PR as your work. It is the running log the improvement loop (38s) reads. Never
+  append to the archive `docs/design/lessons.md`: a shared file of appended lines
+  conflicted in every concurrent PR (r4q2), and `tests/lessons.test.ts` fails if it
+  changes.
+- **Files that every PR touches are structured not to conflict.** One file per
+  entry (lessons, `reports/corpus-baseline/<id>.json`, `docs/decisions/NNNN-*.md`),
+  one item per line (ingest's `KNOWN_PAGE_PASS_NAMES`, sorted), and generated
+  indexes that are not committed (`pnpm decisions`). Do not add a shared list,
+  table or JSON object that each PR edits; make it a directory of files or
+  regenerate it. A git merge driver is not the answer: GitHub's merge does not run
+  one and every clone would need it configured.
+- **A stacked PR follows its parent.** When a parent PR squash-merges, retarget
+  its children before merging them: `gh pr edit <n> --base main`, then rebase
+  (`git rebase --onto origin/main <old parent head>`). The repo setting
+  `delete_branch_on_merge` would retarget them automatically; it is off (r4q2).
 - **Never weaken a fidelity check to make a report pass.** If a report cannot
   meet the gate, mark it `ingested: false` in the registry and record why. The
   checks exist to find exactly what a weakened check would hide.
@@ -672,7 +687,7 @@ Find work with `bd ready --label handoff --label level:specced` (add `--label st
 
 ## Decisions and open questions
 
-When a question of direction comes up (format, policy, sources, hosting, editorial), don't settle it in chat or in a PR description. Add a record to `docs/decisions/` (copy `0000-template.md`, status `open` or `proposed`) and a bead labelled `decision`, then carry on. Rufus decides open questions; update the record and close the bead when he does. See `docs/decisions/README.md`.
+When a question of direction comes up (format, policy, sources, hosting, editorial), don't settle it in chat or in a PR description. Add a record to `docs/decisions/` (copy `0000-template.md`, status `open` or `proposed`) and a bead labelled `decision`, then carry on. **Number it when you open the PR:** `docs/decisions/NNNN-<slug>.md` with the next free number on `origin/main` (`git fetch`, then `pnpm decisions next` on a branch made from it); if main takes that number before you merge, rebase and renumber (rename the file, its `# NNNN.` title and the references). `tests/decisions.test.ts` fails CI on a duplicate number, so the renumber happens before merge, not in review (js2r). The index is generated, not committed: `pnpm decisions`. Rufus decides open questions; update the record and close the bead when he does. See `docs/decisions/README.md`.
 
 ## Working conventions
 
@@ -684,7 +699,7 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 
 **Drafts live in the repo.** Posts, long-reads and research write-ups are files on a branch with a PR: the blog posts folder with `status: draft`, or `docs/research/`. Don't produce Claude artifacts as review copies unless Rufus asks for one.
 
-**Get better faster, not just fix the next bug.** Research and integrator work should also improve how we find and measure defects. Prefer work that produces measurement (reference texts, `pnpm score`, golden pages, the oracle, error clustering) over another one-off pass. Every agent's final report ends with a "Getting better faster" retro (what slowed you, what would have caught it, one proposal), and lessons go into `docs/design/lessons.md`. Reports that have a clean edition are both a served source and the labelled training set for PDF-only reports (shadow PDF ingest; docs/decisions/0003).
+**Get better faster, not just fix the next bug.** Research and integrator work should also improve how we find and measure defects. Prefer work that produces measurement (reference texts, `pnpm score`, golden pages, the oracle, error clustering) over another one-off pass. Every agent's final report ends with a "Getting better faster" retro (what slowed you, what would have caught it, one proposal), and lessons go into `docs/design/lessons/` (one file each). Reports that have a clean edition are both a served source and the labelled training set for PDF-only reports (shadow PDF ingest; docs/decisions/0003).
 
 **Rufus does not review PRs.** An agent review (a separate reviewer agent) is the gate; then the integrator merges and ships. (Rufus, 2026-10-03)
 

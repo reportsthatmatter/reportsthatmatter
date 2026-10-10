@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import { readCorpusBaseline } from "../scripts/lib/corpus-baseline";
 import { paragraphDensityCheck, MIN_PARAGRAPH_IDS_PER_1000_WORDS } from "../src/lib/density";
 
 // reportsthatmatter-4qw: uk-chilcot-inquiry shipped from ingest v0.14.0 with
@@ -24,7 +24,7 @@ describe("paragraphDensityCheck (reportsthatmatter-4qw)", () => {
 
   it("passes on every other report in the current corpus baseline", () => {
     const root = join(import.meta.dirname, "..");
-    const baseline = JSON.parse(readFileSync(join(root, "reports/corpus-baseline.json"), "utf8"));
+    const baseline = { reports: readCorpusBaseline(root) };
     const failing: string[] = [];
     for (const [id, report] of Object.entries(baseline.reports) as [string, { words: number; paragraphs: number }][]) {
       const { ok, perThousandWords } = paragraphDensityCheck(report.words, report.paragraphs);

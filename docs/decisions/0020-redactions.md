@@ -3,7 +3,7 @@
 - **Status:** proposed
 - **Date raised:** 2026-10-09 · **Date decided:** —
 - **Decided by:** — (applied provisionally to the Mueller report, reversible)
-- **Beads:** the `decision` bead filed from reportsthatmatter-gqsy.5
+- **Beads:** reportsthatmatter-oh89 (this decision, filed from reportsthatmatter-gqsy.5)
 
 ## Question
 

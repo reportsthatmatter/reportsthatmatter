@@ -3,6 +3,9 @@
  *   pnpm corpus check           # fail if any report's rendered output moved
  *   pnpm corpus accept [<id>]   # accept the move, after reading the diff
  *
+ * The baseline is one file per report, `reports/corpus-baseline/<id>.json` (scripts/lib/corpus-baseline.ts),
+ * so concurrent PRs that move different reports do not conflict.
+ *
  * `pnpm ingest check` already covers each report's *markdown* against the
  * `baseline.json` in its own repo. Nothing covered what happens after it.
  * Paragraph ids used to be produced in *this* repo, one stage downstream of
@@ -26,17 +29,17 @@
  * moved".
  */
 import "./lib/help.mjs";
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { extractPassages } from "@rtm/ingest";
 import { assertFresh } from "./prerender-stamp.mjs";
 import { explainGone, explainNew } from "./lib/corpus-explain.ts";
+import { acceptAll, acceptReport, hasCorpusBaseline, readCorpusBaseline } from "./lib/corpus-baseline.ts";
 import { paragraphDensityCheck, MIN_PARAGRAPH_IDS_PER_1000_WORDS } from "../src/lib/density.ts";
 
 const root = join(import.meta.dirname, "..");
-const BASELINE = join(root, "reports/corpus-baseline.json");
 
 const sha = (value) => createHash("sha256").update(value).digest("hex").slice(0, 12);
 
@@ -129,12 +132,10 @@ if (command === "accept") {
       console.error(`No such report: ${only}`);
       process.exit(2);
     }
-    const baseline = existsSync(BASELINE) ? JSON.parse(readFileSync(BASELINE, "utf8")) : { reports: {} };
-    baseline.reports[only] = corpus[only];
-    writeFileSync(BASELINE, JSON.stringify(baseline, null, 2) + "\n");
+    acceptReport(root, only, corpus[only]);
     console.log(`Accepted ${only}.`);
   } else {
-    writeFileSync(BASELINE, JSON.stringify({ reports: corpus }, null, 2) + "\n");
+    acceptAll(root, corpus);
     console.log(`Accepted all ${Object.keys(corpus).length} report(s).`);
   }
   process.exit(0);
@@ -145,13 +146,13 @@ if (command !== "check") {
   process.exit(2);
 }
 
-if (!existsSync(BASELINE)) {
+if (!hasCorpusBaseline(root)) {
   console.error(`No corpus baseline yet. Read the output, then: pnpm corpus accept`);
   process.exit(1);
 }
 
 assertFresh("pnpm corpus check");
-const baseline = JSON.parse(readFileSync(BASELINE, "utf8")).reports;
+const baseline = readCorpusBaseline(root);
 const corpus = currentCorpus();
 let failed = 0;
 

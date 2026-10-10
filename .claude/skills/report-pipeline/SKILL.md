@@ -27,7 +27,7 @@ The design is **`docs/design/2026-10-03-report-preparation-pipeline.md`**. Read 
 3. Spawn one agent per unit per stage, on the stage's model, with its own site worktree and `docs/agent-protocol.md` (plus the session's dated note, if any). Prompt: "Use the `report-<stage>` skill for <unit>; Bead <id>; you own report repo <repo> (or none); work in site worktree `rtm-<slug>-<MMDD>`; follow `docs/agent-protocol.md`; do not close beads; end with the retro." Stage 6 goes to the integrator only.
 4. On its final report, check the PR against the skill's **Exit gate**, line by line; re-run the cheap commands. Unmet gate: reply to the agent.
 5. The stage agent's PR sets the unit's row in `reports/pipeline.yaml` (stage 1, which has no other PR, adds the row with `reached: source` in a small site PR); check it (`reached`, `state`, `evidence`), then `pnpm pipeline status --check` must agree; a known gap is a `waive:` entry naming its Bead, not a lower `reached`. Close Beads only when live.
-6. Copy retro lessons into `docs/design/lessons.md`; handle uncaught defect classes per agent protocol R8; if a lesson is a missing gate, edit that stage's SKILL.md.
+6. Copy retro lessons into `docs/design/lessons/` (one file each, `pnpm lessons new`); handle uncaught defect classes per agent protocol R8; if a lesson is a missing gate, edit that stage's SKILL.md.
 7. Stage 4 hit a new defect class after one fix attempt: `state: parked`, Bead labelled `research`, hold its PRs, move on.
 
 Rules: stages 1-5 run in parallel across units; one owning agent per report repo at a time; stage 6 is serial. Two units of one report use separate branches; the supervisor orders their merges.

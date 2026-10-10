@@ -1,0 +1,750 @@
+{
+  "words": 489461,
+  "paragraphs": 5837,
+  "sections": [
+    {
+      "slug": "united-states-district-court-for-the-district-of-columbia",
+      "title": "UNITED STATES DISTRICT COURT FOR THE DISTRICT OF COLUMBIA",
+      "paragraphs": 32,
+      "ids": "41962856c42e"
+    },
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "paragraphs": 10,
+      "ids": "1f9fa3566c8b"
+    },
+    {
+      "slug": "preliminary-guidance-for-the-reader",
+      "title": "Preliminary Guidance for the Reader",
+      "paragraphs": 16,
+      "ids": "5d95893be0cd"
+    },
+    {
+      "slug": "procedural-history",
+      "title": "PROCEDURAL HISTORY",
+      "paragraphs": 11,
+      "ids": "2f1bea784564"
+    },
+    {
+      "slug": "creation-nature-and-operation-of-the-enterprise",
+      "title": "CREATION, NATURE, AND OPERATION OF THE ENTERPRISE",
+      "paragraphs": 6,
+      "ids": "c7f31cba7c29"
+    },
+    {
+      "slug": "creation-of-the-enterprise",
+      "title": "Creation of the Enterprise",
+      "paragraphs": 26,
+      "ids": "ffd45c4e8aaa"
+    },
+    {
+      "slug": "tircctr----tobacco-industry-research-committeecouncil-for-tobacco-research-usa",
+      "title": "TIRC/CTR -- Tobacco Industry Research Committee/Council for Tobacco Research-USA",
+      "paragraphs": 28,
+      "ids": "fdd0d20cbc6a"
+    },
+    {
+      "slug": "selection-and-approval-of-tircs-scientific-advisory-board-members-and-scientific",
+      "title": "Selection and Approval of TIRC's Scientific Advisory Board Members and Scientific Director",
+      "paragraphs": 17,
+      "ids": "41724706365e"
+    },
+    {
+      "slug": "research-activities-of-tircctr",
+      "title": "Research Activities of TIRC/CTR",
+      "paragraphs": 26,
+      "ids": "f74e42850238"
+    },
+    {
+      "slug": "public-relations-activities-of-tircctr",
+      "title": "Public Relations Activities of TIRC/CTR",
+      "paragraphs": 20,
+      "ids": "3c3dbfe2f07c"
+    },
+    {
+      "slug": "publications-and-public-statements-of-tircctr",
+      "title": "Publications and Public Statements of TIRC/CTR",
+      "paragraphs": 21,
+      "ids": "98d0314e919b"
+    },
+    {
+      "slug": "formation-of-the-tobacco-institute",
+      "title": "Formation of the Tobacco Institute",
+      "paragraphs": 25,
+      "ids": "495050455371"
+    },
+    {
+      "slug": "relationship-between-the-tobacco-institute-and-tircctr",
+      "title": "Relationship Between the Tobacco Institute and TIRC/CTR",
+      "paragraphs": 25,
+      "ids": "a880fe1bf0fd"
+    },
+    {
+      "slug": "tobacco-institute-press-releases-public-statements-advertisements-brochures-and-",
+      "title": "Tobacco Institute Press Releases, Public Statements, Advertisements, Brochures, and Other Publications",
+      "paragraphs": 31,
+      "ids": "93a8361a3d08"
+    },
+    {
+      "slug": "tobacco-institute-committees",
+      "title": "Tobacco Institute Committees",
+      "paragraphs": 26,
+      "ids": "e47736f1c35e"
+    },
+    {
+      "slug": "tobacco-institute-college-of-tobacco-knowledge",
+      "title": "Tobacco Institute College of Tobacco Knowledge",
+      "paragraphs": 26,
+      "ids": "bee0e885116a"
+    },
+    {
+      "slug": "witness-development",
+      "title": "Witness Development",
+      "paragraphs": 34,
+      "ids": "84126f99badc"
+    },
+    {
+      "slug": "ctr-special-projects",
+      "title": "CTR Special Projects",
+      "paragraphs": 50,
+      "ids": "6b41586973e3"
+    },
+    {
+      "slug": "lawyers-special-accounts",
+      "title": "Lawyers' Special Accounts",
+      "paragraphs": 43,
+      "ids": "de6cbeb3a2f5"
+    },
+    {
+      "slug": "research-review-committee-research-liaison-committee-and-industry-research-commi",
+      "title": "Research Review Committee, Research Liaison Committee, and Industry Research Committee",
+      "paragraphs": 11,
+      "ids": "8774f1e92cc9"
+    },
+    {
+      "slug": "industry-technical-committee",
+      "title": "Industry Technical Committee",
+      "paragraphs": 13,
+      "ids": "6c2c5f53f7cf"
+    },
+    {
+      "slug": "tobacco-working-group",
+      "title": "Tobacco Working Group",
+      "paragraphs": 16,
+      "ids": "c23424d30341"
+    },
+    {
+      "slug": "coordinated-smoking-and-health-literature-collection-and-retrieval",
+      "title": "Coordinated Smoking and Health Literature Collection and Retrieval",
+      "paragraphs": 16,
+      "ids": "166fcdf63246"
+    },
+    {
+      "slug": "defendants-organizations-focused-on-ets-issues",
+      "title": "Defendants' Organizations Focused on ETS Issues",
+      "paragraphs": 5,
+      "ids": "9e2789ad2796"
+    },
+    {
+      "slug": "overview-2",
+      "title": "Overview",
+      "paragraphs": 15,
+      "ids": "774d9c6a5ad9"
+    },
+    {
+      "slug": "tmsc----tobacco-manufacturers-standing-committee",
+      "title": "TMSC -- Tobacco Manufacturers' Standing Committee",
+      "paragraphs": 15,
+      "ids": "bcdc285da9ce"
+    },
+    {
+      "slug": "trc----tobacco-research-council",
+      "title": "TRC -- Tobacco Research Council",
+      "paragraphs": 6,
+      "ids": "efc7a2dff47c"
+    },
+    {
+      "slug": "tac----tobacco-advisory-council",
+      "title": "TAC -- Tobacco Advisory Council",
+      "paragraphs": 21,
+      "ids": "b1fa0aea5ac8"
+    },
+    {
+      "slug": "icosi----international-committee-on-smoking-issues",
+      "title": "ICOSI -- International Committee on Smoking Issues",
+      "paragraphs": 17,
+      "ids": "ad7f2d139072"
+    },
+    {
+      "slug": "infotab----international-tobacco-information-center",
+      "title": "INFOTAB -- International Tobacco Information Center",
+      "paragraphs": 19,
+      "ids": "7d0e1c7a75e5"
+    },
+    {
+      "slug": "tdc----tobacco-documentation-centre",
+      "title": "TDC -- Tobacco Documentation Centre",
+      "paragraphs": 14,
+      "ids": "00212cf3660e"
+    },
+    {
+      "slug": "tobacco-institute-interaction-with-overseas-and-international-groups",
+      "title": "Tobacco Institute Interaction with Overseas and International Groups",
+      "paragraphs": 41,
+      "ids": "7174b125a758"
+    },
+    {
+      "slug": "ctr",
+      "title": "CTR",
+      "paragraphs": 9,
+      "ids": "d44e0cf23277"
+    },
+    {
+      "slug": "the-defendants-are-engaged-in-and-their-activities-affect-interstate-and-foreign",
+      "title": "THE DEFENDANTS ARE ENGAGED IN AND THEIR ACTIVITIES AFFECT INTERSTATE AND FOREIGN COMMERCE",
+      "paragraphs": 9,
+      "ids": "c9eae3863125"
+    },
+    {
+      "slug": "tobacco-institute",
+      "title": "Tobacco Institute",
+      "paragraphs": 8,
+      "ids": "01cb5e61d377"
+    },
+    {
+      "slug": "tircctr",
+      "title": "TIRC/CTR",
+      "paragraphs": 7,
+      "ids": "37f602e1a039"
+    },
+    {
+      "slug": "cigarette-smoking-causes-disease",
+      "title": "Cigarette Smoking Causes Disease",
+      "paragraphs": 24,
+      "ids": "6d7312d5dba6"
+    },
+    {
+      "slug": "scientific-research-on-lung-cancer-up-to-december-1953",
+      "title": "Scientific Research on Lung Cancer up to December 1953",
+      "paragraphs": 42,
+      "ids": "ab9c510a92f2"
+    },
+    {
+      "slug": "developments-between-1953-and-1964",
+      "title": "Developments Between 1953 and 1964",
+      "paragraphs": 117,
+      "ids": "81ba511d532c"
+    },
+    {
+      "slug": "the-1964-surgeon-general-report-represented-a-scientific-consensus-that-smoking-",
+      "title": "The 1964 Surgeon General Report Represented a Scientific Consensus that Smoking Causes Disease",
+      "paragraphs": 26,
+      "ids": "acd7711032d5"
+    },
+    {
+      "slug": "post-1964-research-on-the-adverse-health-effects-of-smoking-and-defendants-persi",
+      "title": "Post-1964 Research on the Adverse Health Effects of Smoking and Defendants' Persistent Denials Thereof",
+      "paragraphs": 178,
+      "ids": "071f1aa2b0e4"
+    },
+    {
+      "slug": "as-of-2005-defendants-still-do-not-admit-the-serious-health-effects-of-smoking-w",
+      "title": "As of 2005, Defendants Still Do Not Admit the Serious Health Effects of Smoking Which They Recognized Internally Decades Ago",
+      "paragraphs": 29,
+      "ids": "bb7b6f58f7d4"
+    },
+    {
+      "slug": "conclusions",
+      "title": "Conclusions",
+      "paragraphs": 6,
+      "ids": "da218a87f324"
+    },
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "paragraphs": 5,
+      "ids": "7f59d70a4a5a"
+    },
+    {
+      "slug": "cigarette-smoking-is-addictive-and-nicotine-is-the-primary-element-of-that-addic",
+      "title": "Cigarette Smoking Is Addictive and Nicotine Is the Primary Element of that Addiction",
+      "paragraphs": 59,
+      "ids": "c9a3ab397bb9"
+    },
+    {
+      "slug": "defendants-were-well-aware-that-smoking-and-nicotine-are-addictive",
+      "title": "Defendants Were Well Aware that Smoking and Nicotine Are Addictive",
+      "paragraphs": 381,
+      "ids": "4775d9a2b400"
+    },
+    {
+      "slug": "defendants-publicly-denied-that-nicotine-is-addictive-and-continue-to-do-so",
+      "title": "Defendants Publicly Denied that Nicotine Is Addictive and Continue to Do So",
+      "paragraphs": 146,
+      "ids": "156f2577565a"
+    },
+    {
+      "slug": "defendants-concealed-and-suppressed-research-data-and-other-evidence-that-nicoti",
+      "title": "Defendants Concealed and Suppressed Research Data and Other Evidence that Nicotine Is Addictive",
+      "paragraphs": 125,
+      "ids": "c09bb906ec7c"
+    },
+    {
+      "slug": "conclusions-2",
+      "title": "Conclusions",
+      "paragraphs": 7,
+      "ids": "39360a2cfe5b"
+    },
+    {
+      "slug": "nicotine-manipulation-defendants-have-falsely-denied-that-they-can-and-do-contro",
+      "title": "Nicotine \"Manipulation\": Defendants Have Falsely Denied that They Can and Do Control the Level of Nicotine Delivered In Order to Create and Sustain Addiction",
+      "paragraphs": 5,
+      "ids": "05dc4ebaf9be"
+    },
+    {
+      "slug": "for-decades-defendants-have-recognized-that-controlling-nicotine-delivery-in-ord",
+      "title": "For Decades, Defendants Have Recognized that Controlling Nicotine Delivery, in Order to Create and Sustain Smokers' Addiction, Was Necessary to Ensure Commercial Success",
+      "paragraphs": 169,
+      "ids": "3fea304e6340"
+    },
+    {
+      "slug": "defendants-researched-developed-and-utilized-various-designs-and-methods-of-nico",
+      "title": "Defendants Researched, Developed, and Utilized Various Designs and Methods of Nicotine Control to Ensure that All Cigarettes Delivered Doses of Nicotine Adequate to Create and Sustain Addiction",
+      "paragraphs": 227,
+      "ids": "4aa94a3336f3"
+    },
+    {
+      "slug": "defendants-have-made-false-and-misleading-public-statements-regarding-their-cont",
+      "title": "Defendants Have Made False and Misleading Public Statements Regarding Their Control of the Nicotine Content and Delivery of Their Products",
+      "paragraphs": 66,
+      "ids": "62ff037714f2"
+    },
+    {
+      "slug": "conclusions-3",
+      "title": "Conclusions",
+      "paragraphs": 8,
+      "ids": "c26ec2372750"
+    },
+    {
+      "slug": "defendants-have-long-acknowledged-internally-the-existence-of-a-market-for-a-gen",
+      "title": "Defendants Have Long Acknowledged Internally the Existence of a Market for a Genuinely Less Hazardous Cigarette",
+      "paragraphs": 12,
+      "ids": "a4fd43dd2e84"
+    },
+    {
+      "slug": "defendants-received-conflicting-messages-from-the-government-and-the-public-heal",
+      "title": "Defendants Received Conflicting Messages From the Government and the Public Health Community About Their Efforts to Create and Market Less Hazardous Cigarettes",
+      "paragraphs": 22,
+      "ids": "f9e6860dc10c"
+    },
+    {
+      "slug": "as-part-of-the-effort-to-make-less-hazardous-cigarettes-defendants-experimented-",
+      "title": "As Part of the Effort to Make Less Hazardous Cigarettes, Defendants Experimented with General and Selective Reduction",
+      "paragraphs": 65,
+      "ids": "a424fe7a518d"
+    },
+    {
+      "slug": "defendants-efforts-to-developmarket-potentially-less-hazardous-non-conventional-",
+      "title": "Defendants' Efforts to Develop/Market Potentially Less Hazardous Non-Conventional Products",
+      "paragraphs": 176,
+      "ids": "3eda5b9d0727"
+    },
+    {
+      "slug": "the-government-has-not-proven-by-a-preponderance-of-the-evidence-that-defendant-",
+      "title": "The Government Has Not Proven by a Preponderance of the Evidence that Defendant Had a \"Gentleman's Agreement\" Not to Develop a Less Hazardous Cigarette and Not to Do In-House Biological Research on the Hazards of Smoking",
+      "paragraphs": 16,
+      "ids": "a37e1d50d1e2"
+    },
+    {
+      "slug": "conclusions-4",
+      "title": "Conclusions",
+      "paragraphs": 5,
+      "ids": "a5d079cc5eed"
+    },
+    {
+      "slug": "defendants-falsely-marketed-and-promoted-low-tarlight-cigarettes-as-less-harmful",
+      "title": "Defendants Falsely Marketed and Promoted Low Tar/Light Cigarettes as Less Harmful than Full-Flavor Cigarettes in Order to Keep People Smoking and Sustain Corporate Revenues",
+      "paragraphs": 6,
+      "ids": "f3653678bed7"
+    },
+    {
+      "slug": "low-tarlight-cigarettes-offer-no-clear-health-benefit-over-regular-cigarettes",
+      "title": "Low Tar/Light Cigarettes Offer No Clear Health Benefit over Regular Cigarettes",
+      "paragraphs": 151,
+      "ids": "3b891f0d7b9c"
+    },
+    {
+      "slug": "based-on-their-sophisticated-understanding-of-compensation-defendants-internally",
+      "title": "Based on Their Sophisticated Understanding of Compensation, Defendants Internally Recognized that Low Tar/Light Cigarettes Offer No Clear Health Benefit",
+      "paragraphs": 118,
+      "ids": "98cf6dbfcdeb"
+    },
+    {
+      "slug": "defendants-internally-recognized-that-smokers-switch-to-low-tarlight-cigarettes-",
+      "title": "Defendants Internally Recognized that Smokers Switch to Low Tar/Light Cigarettes, Rather than Quit Smoking, Because They Believe They Are Less Harmful",
+      "paragraphs": 168,
+      "ids": "179aa161641b"
+    },
+    {
+      "slug": "despite-their-internal-knowledge-defendants-publicly-denied-that-compensation-is",
+      "title": "Despite Their Internal Knowledge, Defendants Publicly Denied that Compensation Is Nearly Complete and that the FTC Method is Flawed",
+      "paragraphs": 39,
+      "ids": "5a98e377ddb9"
+    },
+    {
+      "slug": "despite-their-internal-knowledge-defendants-marketing-and-public-statements-abou",
+      "title": "Despite Their Internal Knowledge, Defendants' Marketing and Public Statements About Low Tar Cigarettes Continue to Suggest that They Are Less Harmful than Full-Flavor Cigarettes",
+      "paragraphs": 358,
+      "ids": "36876fb55985"
+    },
+    {
+      "slug": "the-defendants-need-youth-as-replacement-smokers",
+      "title": "The Defendants Need Youth as Replacement Smokers",
+      "paragraphs": 24,
+      "ids": "696b80b3b7fd"
+    },
+    {
+      "slug": "defendants-marketing-is-a-substantial-contributing-factor-to-youth-smoking-initi",
+      "title": "Defendants' Marketing Is a Substantial Contributing Factor to Youth Smoking Initiation",
+      "paragraphs": 97,
+      "ids": "ff9e4fc49b46"
+    },
+    {
+      "slug": "tracking-youth-behavior-and-preferences-ensures-that-marketing-and-promotion-rea",
+      "title": "Tracking Youth Behavior and Preferences Ensures that Marketing and Promotion Reach Youth",
+      "paragraphs": 441,
+      "ids": "a918c81a1455"
+    },
+    {
+      "slug": "defendants-marketing-successfully-reaches-youth",
+      "title": "Defendants' Marketing Successfully Reaches Youth",
+      "paragraphs": 145,
+      "ids": "f358401253ea"
+    },
+    {
+      "slug": "defendants-youth-smoking-prevention-programs-are-not-designed-to-effectively-pre",
+      "title": "Defendants' Youth Smoking Prevention Programs Are Not Designed to Effectively Prevent Youth Smoking",
+      "paragraphs": 182,
+      "ids": "ce76868055b5"
+    },
+    {
+      "slug": "conclusions-5",
+      "title": "Conclusions",
+      "paragraphs": 10,
+      "ids": "30d184928990"
+    },
+    {
+      "slug": "the-consensus-of-the-public-health-community-is-that-ets-causes-disease-in-nonsm",
+      "title": "The Consensus of the Public Health Community Is that ETS Causes Disease in Nonsmokers",
+      "paragraphs": 89,
+      "ids": "09c941498a47"
+    },
+    {
+      "slug": "internally-defendants-recognized-that-ets-is-hazardous-to-nonsmokers",
+      "title": "Internally, Defendants Recognized that ETS Is Hazardous to Nonsmokers",
+      "paragraphs": 81,
+      "ids": "a712876d02d1"
+    },
+    {
+      "slug": "internally-defendants-expressed-concern-that-the-mounting-evidence-on-ets-posed-",
+      "title": "Internally, Defendants Expressed Concern that the Mounting Evidence on ETS Posed a Grave Threat to Their Industry",
+      "paragraphs": 29,
+      "ids": "d0a0f3fe4b27"
+    },
+    {
+      "slug": "defendants-made-public-promises-to-support-independent-research-on-the-link-betw",
+      "title": "Defendants Made Public Promises to Support Independent Research on the Link Betwen ETS and Disease",
+      "paragraphs": 9,
+      "ids": "55bbaacfe1a5"
+    },
+    {
+      "slug": "defendants-undertook-joint-efforts-to-undermine-and-discredit-the-scientific-con",
+      "title": "Defendants Undertook Joint Efforts to Undermine and Discredit the Scientific Consensus that ETS Causes Disease",
+      "paragraphs": 453,
+      "ids": "6226e4a3b027"
+    },
+    {
+      "slug": "defendants-made-false-and-misleading-public-statements-denying-that-ets-is-hazar",
+      "title": "Defendants Made False and Misleading Public Statements Denying that ETS Is Hazardous to Nonsmokers",
+      "paragraphs": 50,
+      "ids": "417ec7db62f8"
+    },
+    {
+      "slug": "defendants-continue-to-obscure-the-fact-that-ets-is-hazardous-to-nonsmokers",
+      "title": "Defendants Continue to Obscure the Fact that ETS is Hazardous to Nonsmokers",
+      "paragraphs": 38,
+      "ids": "81e829958252"
+    },
+    {
+      "slug": "conclusions-6",
+      "title": "Conclusions",
+      "paragraphs": 6,
+      "ids": "92477d4f06e1"
+    },
+    {
+      "slug": "suppression-and-concealment-of-scientific-research",
+      "title": "Suppression and Concealment of Scientific Research",
+      "paragraphs": 86,
+      "ids": "cb16cbb827a0"
+    },
+    {
+      "slug": "document-destruction-policies",
+      "title": "Document Destruction Policies",
+      "paragraphs": 117,
+      "ids": "c804431f22a7"
+    },
+    {
+      "slug": "improper-use-of-attorney-client-and-work-product-privileges",
+      "title": "Improper use of Attorney-Client and Work Product Privileges",
+      "paragraphs": 45,
+      "ids": "2e635cc392fe"
+    },
+    {
+      "slug": "liggetts-settlement-agreement-with-various-states",
+      "title": "Liggett's Settlement Agreement with Various States",
+      "paragraphs": 8,
+      "ids": "2e2804204436"
+    },
+    {
+      "slug": "provisions-of-the-msa",
+      "title": "Provisions of the MSA",
+      "paragraphs": 19,
+      "ids": "6e5f706b1e6f"
+    },
+    {
+      "slug": "enforcement-of-the-msa",
+      "title": "Enforcement of the MSA",
+      "paragraphs": 23,
+      "ids": "ce241397cd20"
+    },
+    {
+      "slug": "developments-since-the-msa",
+      "title": "Developments Since the MSA",
+      "paragraphs": 24,
+      "ids": "8e5d8c83f1c3"
+    },
+    {
+      "slug": "conclusions-of-law",
+      "title": "CONCLUSIONS OF LAW",
+      "paragraphs": 7,
+      "ids": "4c4c42d24b1e"
+    },
+    {
+      "slug": "defendants-engaged-in-a-scheme-to-defraud-smokers-and-potential-smokers",
+      "title": "Defendants Engaged in a Scheme to Defraud Smokers and Potential Smokers",
+      "paragraphs": 9,
+      "ids": "0476a72042dc"
+    },
+    {
+      "slug": "defendants-falsely-denied-the-adverse-health-effects-of-smoking",
+      "title": "Defendants Falsely Denied the Adverse Health Effects of Smoking",
+      "paragraphs": 9,
+      "ids": "a151d8ac00a1"
+    },
+    {
+      "slug": "defendants-falsely-denied-that-nicotine-and-smoking-are-addictive",
+      "title": "Defendants Falsely Denied that Nicotine and Smoking Are Addictive",
+      "paragraphs": 9,
+      "ids": "641088637427"
+    },
+    {
+      "slug": "defendants-falsely-denied-that-they-manipulated-cigarette-design-and-composition",
+      "title": "Defendants Falsely Denied that They Manipulated Cigarette Design and Composition so as to Assure Nicotine Delivery Levels Which Create and Sustain Addiction",
+      "paragraphs": 6,
+      "ids": "1fcf16a4301d"
+    },
+    {
+      "slug": "defendants-falsely-represented-that-light-and-low-tar-cigarettes-deliver-less-ni",
+      "title": "Defendants Falsely Represented that Light and Low Tar Cigarettes Deliver Less Nicotine and Tar and, Therefore, Present Fewer Health Risks than Full-Flavor Cigarettes",
+      "paragraphs": 11,
+      "ids": "4424a72b587a"
+    },
+    {
+      "slug": "defendants-falsely-denied-that-they-market-to-youth",
+      "title": "Defendants Falsely Denied that They Market to Youth",
+      "paragraphs": 9,
+      "ids": "91adab5a149e"
+    },
+    {
+      "slug": "defendants-falsely-denied-that-ets-causes-disease",
+      "title": "Defendants Falsely Denied that ETS Causes Disease",
+      "paragraphs": 8,
+      "ids": "f96e4ebd19c2"
+    },
+    {
+      "slug": "defendants-suppressed-documents-information-and-research",
+      "title": "Defendants Suppressed Documents, Information, and Research",
+      "paragraphs": 4,
+      "ids": "1e1e49d62e40"
+    },
+    {
+      "slug": "applicable-legal-standards",
+      "title": "Applicable Legal Standards",
+      "paragraphs": 5,
+      "ids": "a8ac07996709"
+    },
+    {
+      "slug": "defendants-enterprise-had-a-common-purpose",
+      "title": "Defendants' Enterprise Had a Common Purpose",
+      "paragraphs": 4,
+      "ids": "2615f831f004"
+    },
+    {
+      "slug": "the-enterprise-operated-through-both-formal-and-informal-organization",
+      "title": "The Enterprise operated through both formal and informal organization",
+      "paragraphs": 5,
+      "ids": "de43e4195606"
+    },
+    {
+      "slug": "the-enterprise-has-functioned-as-a-continuous-unit",
+      "title": "The Enterprise Has Functioned as a Continuous Unit",
+      "paragraphs": 4,
+      "ids": "c9e60246663e"
+    },
+    {
+      "slug": "the-enterprise-engaged-in-and-its-activities-affected-interstate-and-foreign-com",
+      "title": "The Enterprise Engaged in and Its Activities Affected Interstate and Foreign Commerce",
+      "paragraphs": 6,
+      "ids": "83ecbe747e61"
+    },
+    {
+      "slug": "each-defendant-is-associated-with-the-enterprise",
+      "title": "Each Defendant Is Associated with the Enterprise",
+      "paragraphs": 9,
+      "ids": "30a0386d0c0b"
+    },
+    {
+      "slug": "each-defendant-participated-in-the-conduct-of-the-enterprise",
+      "title": "Each Defendant Participated in the Conduct of the Enterprise",
+      "paragraphs": 14,
+      "ids": "99c5a78e8b15"
+    },
+    {
+      "slug": "the-government-has-proven-that-defendants-caused-mailings-and-wire-transmissions",
+      "title": "The Government Has Proven that Defendants Caused Mailings and Wire Transmissions, in Furtherance of the Scheme to Defraud, in Violation of 18 U.S.C. § § 1341 and/or 1343",
+      "paragraphs": 33,
+      "ids": "8b7931b05071"
+    },
+    {
+      "slug": "the-first-amendment-does-not-protect-defendants-false-and-misleading-public-stat",
+      "title": "The First Amendment Does Not Protect Defendants' False and Misleading Public Statements",
+      "paragraphs": 9,
+      "ids": "908e07a13150"
+    },
+    {
+      "slug": "defendants-engaged-in-a-pattern-of-racketeering-activity-in-furtherance-of-the-s",
+      "title": "Defendants Engaged in a Pattern of Racketeering Activity in Furtherance of the Scheme to Defraud",
+      "paragraphs": 15,
+      "ids": "52fb611362b9"
+    },
+    {
+      "slug": "defendants-acted-with-the-specific-intent-to-defraud-or-deceive",
+      "title": "Defendants Acted with the Specific Intent to Defraud or Deceive",
+      "paragraphs": 27,
+      "ids": "66d28d61bb8c"
+    },
+    {
+      "slug": "defendants-false-and-fraudulent-statements-representations-and-promises-were-mat",
+      "title": "Defendants' False and Fraudulent Statements, Representations, and Promises Were Material",
+      "paragraphs": 14,
+      "ids": "424183b0149b"
+    },
+    {
+      "slug": "applicable-case-law",
+      "title": "Applicable Case Law",
+      "paragraphs": 19,
+      "ids": "06324cf564f6"
+    },
+    {
+      "slug": "liggett-withdrew-from-the-conspiracy",
+      "title": "Liggett Withdrew from the Conspiracy",
+      "paragraphs": 14,
+      "ids": "16049ce9707a"
+    },
+    {
+      "slug": "applicable-law",
+      "title": "Applicable Law",
+      "paragraphs": 8,
+      "ids": "c3d070ca272c"
+    },
+    {
+      "slug": "the-enterprises-scheme-to-defraud-presents-continuing-opportunities-for-defendan",
+      "title": "The Enterprise's Scheme to Defraud Presents Continuing Opportunities for Defendants to Commit Violations of 18 U.S.C. 1962 (c) and (d)",
+      "paragraphs": 9,
+      "ids": "b1753c8a5007"
+    },
+    {
+      "slug": "the-msa-has-not-sufficiently-altered-defendants-conduct-to-justify-not-imposing-",
+      "title": "The MSA Has Not Sufficiently Altered Defendants' Conduct to Justify Not Imposing Appropriate Remedies",
+      "paragraphs": 9,
+      "ids": "7b781b880f13"
+    },
+    {
+      "slug": "ctr-2",
+      "title": "CTR",
+      "paragraphs": 7,
+      "ids": "4366b009c8ae"
+    },
+    {
+      "slug": "the-tobacco-institute",
+      "title": "The Tobacco Institute",
+      "paragraphs": 13,
+      "ids": "0b12ae030b8e"
+    },
+    {
+      "slug": "liggett",
+      "title": "Liggett",
+      "paragraphs": 8,
+      "ids": "f3a3e193c661"
+    },
+    {
+      "slug": "legal-standards-governing-remedies",
+      "title": "Legal Standards Governing Remedies",
+      "paragraphs": 15,
+      "ids": "47ce6f411907"
+    },
+    {
+      "slug": "prohibition-of-brand-descriptors",
+      "title": "Prohibition of Brand Descriptors",
+      "paragraphs": 11,
+      "ids": "d892fd57d23d"
+    },
+    {
+      "slug": "corrective-communications",
+      "title": "Corrective Communications",
+      "paragraphs": 13,
+      "ids": "d37212496db1"
+    },
+    {
+      "slug": "disclosure-of-documents-and-disaggregated-marketing-data",
+      "title": "Disclosure of Documents and Disaggregated Marketing Data",
+      "paragraphs": 26,
+      "ids": "18146f7e34be"
+    },
+    {
+      "slug": "youth-smoking-reduction-targets",
+      "title": "Youth Smoking Reduction Targets",
+      "paragraphs": 3,
+      "ids": "dd79c1c9092d"
+    },
+    {
+      "slug": "corporate-structural-changes",
+      "title": "Corporate Structural Changes",
+      "paragraphs": 8,
+      "ids": "b05e55f0a11b"
+    },
+    {
+      "slug": "public-education-and-countermarketing-campaign",
+      "title": "Public Education and Countermarketing Campaign",
+      "paragraphs": 10,
+      "ids": "b5f04bd290e2"
+    },
+    {
+      "slug": "notes-not-linked-in-the-text",
+      "title": "Notes not linked in the text",
+      "paragraphs": 0,
+      "ids": "e3b0c44298fc"
+    }
+  ]
+}
