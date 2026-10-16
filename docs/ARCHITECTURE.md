@@ -197,7 +197,7 @@ checks against a live worker; it is the done condition (`AGENTS.md`).
   never rendered) it falls back to `indexed_at` against
   `report_versions.published_at`.
   It fails loudly, naming the report and how to fix it
-  (`./scripts/reindex-search.sh <id>`).
+  (`./scripts/reindex-search.sh <id> --yes`).
 - **Marks** (highlights/shares) are a D1 table plus per-browser
   `localStorage` for a reader's own kept passages — no account, nothing
   cross-device.

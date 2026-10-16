@@ -46,7 +46,7 @@ export function formatTable(rows: Row[], base: string): string {
   if (!todo.length && !unknown.length) lines.push(`all ${rows.length} report(s) are serving what this checkout would publish.`);
   if (todo.length) {
     lines.push(`${todo.length} of ${rows.length} report(s) need publishing: ${todo.map((r) => r.id).join(", ")}`);
-    lines.push(`  RTM_PUBLISH_SECRET=$(cat ~/.rtm-publish-secret) pnpm publish-report <id> --base ${base}`);
+    lines.push(`  RTM_PUBLISH_SECRET=$(cat ~/.rtm-publish-secret) pnpm publish-report <id> --base ${base} --yes`);
   }
   if (unknown.length) lines.push(`${unknown.length} report(s) could not be read: ${unknown.map((r) => r.id).join(", ")}`);
   return lines.join("\n");

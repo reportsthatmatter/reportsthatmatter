@@ -55,7 +55,7 @@ const stale = findStale(versions, indexed, (report) => locals.get(report) ?? nul
 if (stale.length) {
   console.error(`${stale.length} report(s) have a stale search index (${target}):`);
   for (const { report, reason } of stale) console.error(`  ✗ ${report} — ${reason}`);
-  console.error("\nFix: ./scripts/reindex-search.sh <report-id>" + (target === "--local" ? " --local" : ""));
+  console.error("\nFix: ./scripts/reindex-search.sh <report-id>" + (target === "--local" ? " --local" : " --yes"));
   process.exit(1);
 }
 

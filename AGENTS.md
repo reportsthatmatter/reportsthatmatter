@@ -490,7 +490,7 @@ that have not moved to publishing themselves yet):
 ```bash
 pnpm prerender   # if assets/generated/ isn't already current
 RTM_PUBLISH_SECRET=$(cat ~/.rtm-publish-secret) \
-  pnpm publish-report <report-id> --base https://reportsthatmatter.org
+  pnpm publish-report <report-id> --base https://reportsthatmatter.org --yes
 ```
 
 This also **reindexes the report for search** once the commit succeeds
@@ -517,17 +517,17 @@ v0.18.0 re-ingest (`pnpm exec tsx scripts/measure-reindex.mjs c5a9dcd`): 4,603
 row writes for the corpus against 253,473 for the full rewrite. `--full` on
 the script (`--full-reindex` on `publish-report`) is the old rewrite.
 
-- `pnpm publish-report <id> --preflight` asks D1 first, writing nothing of
+- `pnpm publish-report <id> --preflight --yes` asks D1 first, writing nothing of
   yours: it inserts and deletes one sentinel row, which says whether the quota
   is spent (code 7500, with the time it resets), what D1 bills for a search
   row, and what this publish would cost; with `CLOUDFLARE_API_TOKEN` and
   `CLOUDFLARE_ACCOUNT_ID` set it also reads today's writes and says whether it
   fits. A real publish against a deployed site runs it first and stops before
   uploading anything when the quota is spent (`--no-preflight` skips it).
-- `pnpm publish-report <id> --dry-run` prints the object count, the version the
+- `pnpm publish-report <id> --dry-run --yes` prints the object count, the version the
   site serves, whether the text is unchanged, and the estimated row writes
   (reads D1 for the reindex diff; `--offline` skips that). Needs no secret.
-- `./scripts/reindex-search.sh <id> --dry-run` prints the same plan alone.
+- `./scripts/reindex-search.sh <id> --dry-run --yes` prints the same plan alone. Against production every one of these needs `--yes` (jp6i), a dry run too: it reads production D1.
 - A publish that fails with D1 code 7500 has uploaded its objects and not
   committed: wait for 00:00 UTC, then repeat the same `publish-report` command
   (uploads are idempotent).

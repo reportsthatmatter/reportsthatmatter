@@ -274,7 +274,7 @@ if (!isRollback && !isLocal && !flag("--no-reindex")) {
     // of the one command named here, not a re-publish.
     console.error(
       `  ⚠ search reindex failed (content is still published correctly): ${error.message}\n` +
-        `    retry with: ./scripts/reindex-search.sh ${reportId}`
+        `    retry with: ./scripts/reindex-search.sh ${reportId} --yes`
     );
   }
 } else if (isRollback) {

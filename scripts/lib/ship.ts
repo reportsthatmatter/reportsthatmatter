@@ -686,7 +686,7 @@ export function buildSteps(): Step[] {
       title: "D1 estimate for the rest of the release (writes and reads); stop if it does not fit today's quota",
       kind: "read",
       describe: (ctx, s) => [
-        ...(s.data.toPublish ?? ["<each report to publish>"]).map((id) => `pnpm publish-report ${id} --dry-run --base ${ctx.base}   (reads D1, writes nothing)`),
+        ...(s.data.toPublish ?? ["<each report to publish>"]).map((id) => `pnpm publish-report ${id} --dry-run --yes --base ${ctx.base}   (reads D1, writes nothing)`),
         `writes: sum + 1 version row per report, +10% margin, against ${ctx.d1Limit.toLocaleString()} a day less today's use`,
         `reads: each reindex's read + ${VERIFY_READS_PER_REPORT.toLocaleString()} a report for verify-prod, +10%, against ${(ctx.d1ReadLimit ?? FREE_TIER.rowsRead).toLocaleString()} a day less today's use and a 500,000 reserve for the Worker (reportsthatmatter-t4al)`,
         "today's use: Cloudflare analytics (wrangler's login, or CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID) and the shared ledger every remote D1 call appends to (`pnpm d1-usage`)",
@@ -730,7 +730,7 @@ export function buildSteps(): Step[] {
       kind: "prod",
       describe: (ctx, s) => (s.data.toPublish ?? ["<each report to publish>"]).map((id) => show({ argv: ["pnpm", "publish-report", id, "--base", ctx.base, "--no-reindex", "--yes"], secret: true })),
       async run(rt) {
-        for (const id of rt.state.data.toPublish ?? []) await item(rt, "publish", id, { argv: ["pnpm", "publish-report", id, "--base", rt.ctx.base, "--no-reindex", "--yes"], secret: true }, [`pnpm publish-report ${id} --dry-run --base ${rt.ctx.base}`, "Re-running repeats the same command: uploads are idempotent. D1 code 7500 means the quota is spent: wait for 00:00 UTC."]);
+        for (const id of rt.state.data.toPublish ?? []) await item(rt, "publish", id, { argv: ["pnpm", "publish-report", id, "--base", rt.ctx.base, "--no-reindex", "--yes"], secret: true }, [`pnpm publish-report ${id} --dry-run --yes --base ${rt.ctx.base}`, "Re-running repeats the same command: uploads are idempotent. D1 code 7500 means the quota is spent: wait for 00:00 UTC."]);
       },
     },
     {
@@ -748,7 +748,7 @@ export function buildSteps(): Step[] {
       kind: "prod",
       describe: (ctx, s) => (s.data.toPublish ?? ["<each report to publish>"]).map((id) => `./scripts/reindex-search.sh ${id} --yes`),
       async run(rt) {
-        for (const id of rt.state.data.toPublish ?? []) await item(rt, "reindex", id, { argv: ["./scripts/reindex-search.sh", id, "--yes"] }, [`./scripts/reindex-search.sh ${id} --dry-run`, "D1 code 7500: the quota is spent. Wait for 00:00 UTC and re-run `pnpm ship`: the reports already reindexed stay done, and a repeat of a done one writes one row."]);
+        for (const id of rt.state.data.toPublish ?? []) await item(rt, "reindex", id, { argv: ["./scripts/reindex-search.sh", id, "--yes"] }, [`./scripts/reindex-search.sh ${id} --dry-run --yes`, "D1 code 7500: the quota is spent. Wait for 00:00 UTC and re-run `pnpm ship`: the reports already reindexed stay done, and a repeat of a done one writes one row."]);
       },
     },
     {
