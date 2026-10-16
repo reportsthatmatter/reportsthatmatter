@@ -11,10 +11,10 @@
  * written. Each report's `ingest.ts` imports `@rtm/ingest` from its own node_modules, so linking the site alone runs
  * the unreleased pipeline with the old report definitions (and silently ignores a new pass: reportsthatmatter-5xln).
  */
-import { existsSync, readFileSync, realpathSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { basename, join, resolve } from "node:path";
 import { parse } from "yaml";
-import { linkAll, linkLockPathFor, readLinkLock, unlinkAll } from "../lib/ingest-link.ts";
+import { isDrifted, linkAll, linkLockPathFor, linkStates, readLinkLock, unlinkAll } from "../lib/ingest-link.ts";
 import { installedIngest } from "../lib/ingest-version.ts";
 import { reportDirs } from "../lib/report-dirs.ts";
 import { resolveIngest } from "./try.ts";
@@ -37,7 +37,10 @@ export function runLink(argv: string[]): number {
       return 0;
     }
     console.log(`linked to ${lock.ingestDir} since ${lock.at}:`);
-    for (const { linkPath } of lock.links) console.log(`  ${linkPath} → ${existsSync(linkPath) ? realpathSync(linkPath) : "(missing)"}`);
+    for (const s of linkStates(lock)) {
+      console.log(`  ${s.linkPath}: ${s.linked ? `linked (${s.target})` : `drifted (points at ${s.target})`}`);
+    }
+    if (isDrifted(lock)) console.log("A link was undone (a pnpm install?). Fix: pnpm ingest link --restore && pnpm ingest link " + lock.ingestDir);
     return 0;
   }
   const [source, ...ids] = argv.filter((a) => !a.startsWith("--"));
@@ -53,9 +56,17 @@ export function runLink(argv: string[]): number {
     console.error("A `pnpm ingest try` left .rtm-try.lock: run `pnpm ingest try --restore` first.");
     return 1;
   }
-  if (readLinkLock(lockPath)) {
+  const existing = readLinkLock(lockPath);
+  if (existing && !isDrifted(existing)) {
     console.error("Already linked: run `pnpm ingest link --restore` first (or `--status`).");
     return 1;
+  }
+  if (existing) {
+    // a pnpm install reset some or all of the links behind the lock's back: clear it and link afresh
+    const drifted = linkStates(existing).filter((s) => !s.linked);
+    console.log(`.rtm-link.lock is stale: ${drifted.length} of ${existing.links.length} link(s) no longer point at ${existing.ingestDir} (a pnpm install?):`);
+    for (const s of drifted) console.log(`  ${s.linkPath} → ${s.target}`);
+    console.log("Clearing the lock and linking afresh.");
   }
   const manifest = parse(readFileSync(join(ROOT, "reports/manifest.yaml"), "utf8")) as { reports: Array<{ id: string; dir: string }> };
   const wanted = manifest.reports.filter((r) => !ids.length || ids.includes(r.id));

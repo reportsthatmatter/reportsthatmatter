@@ -7,7 +7,7 @@
  * pointed at in `.rtm-link.lock`, and `--restore` puts every one back. Nothing tracked changes, so there is nothing
  * to commit by accident; `pnpm install` also undoes it, as it undoes any node_modules edit.
  */
-import { existsSync, lstatSync, readFileSync, readlinkSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
+import { existsSync, lstatSync, readFileSync, readlinkSync, realpathSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { relink } from "./trial-links";
 
@@ -27,9 +27,40 @@ function targetOf(path: string): string | null {
   }
 }
 
-/** Points every `linkPath` at `ingestDir`, recording the old targets first. Throws, having undone its own work, if one is a real directory. */
+export type LinkState = { linkPath: string; linked: boolean; /** Where it points now; "(missing)" or "(not a symlink)" when it is not a link. */ target: string };
+
+const realOrNull = (path: string): string | null => {
+  try {
+    return realpathSync(path);
+  } catch {
+    return null;
+  }
+};
+
+/**
+ * Does each link the lock recorded still point at the lock's ingest dir? A `pnpm install` resets
+ * `node_modules/@rtm/ingest` to the pin without touching `.rtm-link.lock` (reportsthatmatter-irfs), so the lock alone
+ * does not say the override is live.
+ */
+export function linkStates(lock: LinkLock): LinkState[] {
+  const want = realOrNull(lock.ingestDir);
+  return lock.links.map(({ linkPath }) => {
+    const here = targetOf(linkPath);
+    const target = here ?? (existsSync(linkPath) ? "(not a symlink)" : "(missing)");
+    const linked = here !== null && (here === lock.ingestDir || (want !== null && realOrNull(linkPath) === want));
+    return { linkPath, linked, target };
+  });
+}
+
+/** A lock whose links no longer all point at its ingest dir (some, or all, were undone behind its back). */
+export const isDrifted = (lock: LinkLock): boolean => linkStates(lock).some((s) => !s.linked);
+
+/** Points every `linkPath` at `ingestDir`, recording the old targets first. A lock whose links no longer point at its ingest dir is cleared first; a live one refuses. Throws, having undone its own work, if one is a real directory. */
 export function linkAll(lockPath: string, ingestDir: string, linkPaths: string[]): LinkLock {
-  if (existsSync(lockPath)) throw new Error(`already linked (${lockPath}): run \`pnpm ingest link --restore\` first`);
+  const existing = readLinkLock(lockPath);
+  if (existing && !isDrifted(existing)) throw new Error(`already linked (${lockPath}): run \`pnpm ingest link --restore\` first`);
+  // a drifted lock (a pnpm install undid some or all of its links) is stale, not a live override: clear it and link afresh
+  if (existing) unlinkAll(lockPath);
   const lock: LinkLock = { ingestDir, links: linkPaths.map((linkPath) => ({ linkPath, originalTarget: targetOf(linkPath) })), at: new Date().toISOString() };
   // the lock goes down before the first link, so a crash half-way is still undoable
   writeFileSync(lockPath, `${JSON.stringify(lock, null, 2)}\n`);
@@ -42,13 +73,18 @@ export function linkAll(lockPath: string, ingestDir: string, linkPaths: string[]
   return lock;
 }
 
-/** Puts every link back where the lock says it was (removing one that did not exist) and deletes the lock. Returns one line per link changed. */
+/**
+ * Puts every link that still points at the lock's ingest dir back where the lock says it was (removing one that did not
+ * exist) and deletes the lock. A link that no longer points there is left alone: `pnpm install` owns it now, and the
+ * lock's recorded original may be a pin since bumped (reportsthatmatter-irfs). Returns one line per link changed.
+ */
 export function unlinkAll(lockPath: string): string[] {
   const lock = readLinkLock(lockPath);
   if (!lock) return [];
+  const live = new Set(linkStates(lock).filter((s) => s.linked).map((s) => s.linkPath));
   const said: string[] = [];
   for (const { linkPath, originalTarget } of lock.links) {
-    if (targetOf(linkPath) === originalTarget) continue;
+    if (!live.has(linkPath)) continue;
     rmSync(linkPath, { force: true });
     if (originalTarget !== null) symlinkSync(originalTarget, linkPath);
     said.push(`${linkPath} → ${originalTarget ?? "(absent)"}`);

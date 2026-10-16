@@ -1,7 +1,8 @@
-import { mkdirSync, mkdtempSync, symlinkSync, writeFileSync } from "node:fs";
+import { mkdirSync, mkdtempSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import { linkAll, linkLockPathFor } from "../scripts/lib/ingest-link";
 import { checkRepo, formatPreflight, pinSkew, pinnedVersion, preflight } from "../scripts/lib/preflight";
 
 const GH = (v: string) => `github:reportsthatmatter/ingest#v${v}`;
@@ -86,3 +87,41 @@ describe("preflight", () => {
     expect(pinSkew(rows)).toEqual(["2 report repo(s) pin v0.18.0, the site pins v0.18.1: x, y"]);
   });
 });
+
+// reportsthatmatter-irfs: the site fell back to the pin after a pnpm install while the report worktrees stayed linked.
+describe("preflight with a link lock", () => {
+  const siteAndReport = () => {
+    const site = repo("0.18.0", "0.18.0");
+    const report = repo("0.18.0", "0.18.0");
+    const checkout = mkdtempSync(join(tmpdir(), "rtm-ingest-linked-"));
+    writeFileSync(join(checkout, "package.json"), JSON.stringify({ name: "@rtm/ingest", version: "0.19.0-dev" }));
+    return { site, report, checkout, siteLink: join(site, "node_modules/@rtm/ingest"), reportLink: join(report, "node_modules/@rtm/ingest") };
+  };
+
+  it("passes when every link the lock recorded still points at the linked ingest", () => {
+    const { site, report, checkout, siteLink, reportLink } = siteAndReport();
+    linkAll(linkLockPathFor(site), checkout, [siteLink, reportLink]);
+    const rows = preflight(site, [["x", report]]);
+    expect(rows.every((r) => r.ok)).toBe(true);
+    expect(rows.map((r) => r.id)).toEqual(["site", "x"]);
+  });
+
+  it("fails, with the restore-and-relink fix, when the site is back on the pin and the report is still linked", () => {
+    const { site, report, checkout, siteLink, reportLink } = siteAndReport();
+    linkAll(linkLockPathFor(site), checkout, [siteLink, reportLink]);
+    rmSync(siteLink);
+    symlinkSync(join(site, "node_modules/.pnpm/@rtm+ingest@x/node_modules/@rtm/ingest"), siteLink);
+    const rows = preflight(site, [["x", report]]);
+    const bad = rows.filter((r) => !r.ok);
+    expect(bad).toHaveLength(1);
+    expect(bad[0].fix).toBe(`pnpm ingest link --restore && pnpm ingest link ${checkout}`);
+    expect(bad[0].problem).toContain(siteLink);
+    expect(formatPreflight(rows)).toContain("fix: pnpm ingest link --restore");
+  });
+
+  it("says nothing without a lock", () => {
+    const { site, report } = siteAndReport();
+    expect(preflight(site, [["x", report]]).every((r) => r.ok)).toBe(true);
+  });
+});
+

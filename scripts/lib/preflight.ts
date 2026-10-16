@@ -10,6 +10,7 @@
  */
 import { existsSync, lstatSync, readFileSync, realpathSync } from "node:fs";
 import { join } from "node:path";
+import { isDrifted, linkLockPathFor, linkStates, readLinkLock } from "./ingest-link";
 
 export type PreflightRow = {
   /** Report id, or "site" for this repo itself. */
@@ -88,7 +89,35 @@ export function preflight(site: string, reports: Array<[string, string]>): Prefl
     seen.add(dir);
     rows.push(checkRepo(id, dir));
   }
+  const drift = linkLockRow(site);
+  if (drift) rows.push(drift);
   return rows;
+}
+
+/**
+ * `.rtm-link.lock` says an unreleased ingest is linked, but a link it recorded has gone back to the pin (a `pnpm install` does that):
+ * the site and the report repos then run different pipelines while every row above reads fine (reportsthatmatter-irfs).
+ */
+export function linkLockRow(site: string): PreflightRow | null {
+  let lock;
+  try {
+    lock = readLinkLock(linkLockPathFor(site));
+  } catch {
+    return null;
+  }
+  if (!lock || !isDrifted(lock)) return null;
+  const states = linkStates(lock);
+  const gone = states.filter((s) => !s.linked);
+  return {
+    id: "link",
+    dir: lock.ingestDir,
+    pinned: null,
+    installed: null,
+    linked: false,
+    ok: false,
+    problem: `.rtm-link.lock lists ${states.length} link(s) to ${lock.ingestDir}, but ${gone.length} no longer point there (${gone.map((s) => `${s.linkPath} → ${s.target}`).join("; ")}): some repos run the linked ingest, others the pin`,
+    fix: `pnpm ingest link --restore && pnpm ingest link ${lock.ingestDir}`,
+  };
 }
 
 /** Report repos pinned to a different version than the site, grouped by pin: not a failure, but results then mix two pipelines. */
