@@ -113,6 +113,18 @@ export interface Runtime {
   acked(step: string): boolean;
 }
 
+/**
+ * The one path ship's clean-tree checks ignore (reportsthatmatter-xb83): bd re-exports `.beads/issues.jsonl` after every
+ * bead write, so it is dirty again within seconds of any checkout or commit. It is ignored, not checked out: ship leaves
+ * the file as it is. Any other `.beads/` path still counts.
+ */
+export const IGNORED_DIRTY_PATH = ".beads/issues.jsonl";
+
+/** `git status --porcelain` lines without bd's auto-exported JSONL (and ship's own build output when `buildOutput`). */
+export function treeLines(lines: string[] | null, buildOutput = false): string[] {
+  return (lines ?? []).filter((l) => l.slice(3) !== IGNORED_DIRTY_PATH && !(buildOutput && / (build|assets\/generated)\//.test(l)));
+}
+
 export interface Probe {
   /** package.json `@rtm/ingest` spec of a repo (or the site), null when absent. */
   pinOf(dir: string): string | null;
@@ -310,7 +322,7 @@ export function guardProblems(ctx: Ctx, probe: Probe, resumed = false): string[]
   if (branch !== probe.defaultBranch(ctx.root)) problems.push(`site is on ${branch ?? "no branch"}, not ${probe.defaultBranch(ctx.root)}: ship from the site's main, after the pin-bump PR has merged`);
   const behind = probe.behind(ctx.root);
   if (behind) problems.push(`site main is ${behind} commit(s) behind origin's default branch (as last fetched): \`git pull --ff-only\` first, or the aliases and the deploy are built from old files`);
-  const dirty = probe.status(ctx.root, ["."])?.filter((l) => !/ (build|assets\/generated)\//.test(l)) ?? [];
+  const dirty = treeLines(probe.status(ctx.root, ["."]), true);
   if (dirty.length && !resumed) problems.push(`site tree is not clean (${dirty.length} path(s): ${dirty.slice(0, 4).join("; ")}${dirty.length > 4 ? "; ..." : ""})`);
   for (const row of pinTable(ctx, probe.pinOf)) {
     const where = `${row.dir} (${row.ids.join(", ")})`;
@@ -321,8 +333,8 @@ export function guardProblems(ctx: Ctx, probe: Probe, resumed = false): string[]
     const b = probe.branch(repo.dir);
     if (b === null) problems.push(`${repo.dir} is not a git repo (clone it alongside the site; reports/manifest.yaml says where)`);
     else if (b !== probe.defaultBranch(repo.dir)) problems.push(`${repo.dir} is on ${b}, not ${probe.defaultBranch(repo.dir)} (a peer's branch? never switch a shared checkout: use a worktree)`);
-    const st = probe.status(repo.dir);
-    if (st?.length && !resumed) problems.push(`${repo.dir} has uncommitted changes (${st.slice(0, 3).join("; ")}${st.length > 3 ? "; ..." : ""}): peer noise or a half-done run; read \`git -C ${repo.dir} status\``);
+    const st = treeLines(probe.status(repo.dir));
+    if (st.length && !resumed) problems.push(`${repo.dir} has uncommitted changes (${st.slice(0, 3).join("; ")}${st.length > 3 ? "; ..." : ""}): peer noise or a half-done run; read \`git -C ${repo.dir} status\``);
   }
   if (!ctx.ids.length) problems.push("reports/manifest.yaml lists no reports");
   return problems;
@@ -634,7 +646,7 @@ export function buildSteps(): Step[] {
       title: "Everything that will be served is committed on main (gate, automatic)",
       kind: "read",
       describe: (ctx) => [
-        `site ${ctx.root}: on main, clean (derived files, aliases, budgets, editorial, generated/ merged by a PR), HEAD not ahead of origin/main`,
+        `site ${ctx.root}: on main, clean except bd's auto-exported ${IGNORED_DIRTY_PATH}, which is ignored (derived files, aliases, budgets, editorial, generated/ merged by a PR), HEAD not ahead of origin/main`,
         `every report repo: on main, clean (the pin bump and the re-ingest committed), nothing unpushed (their full.md is what gets published)`,
         ctx.allowDirty ? "--allow-dirty given: skipped" : "`--allow-dirty` skips this; do not, unless you will commit afterwards",
       ],
@@ -646,7 +658,7 @@ export function buildSteps(): Step[] {
         const problems: string[] = [];
         const dirs = [rt.ctx.root, ...rt.ctx.repos.map((r) => r.dir)];
         for (const dir of dirs) {
-          const st = (rt.probe.status(dir) ?? []).filter((l) => !/ (build|assets\/generated)\//.test(l));
+          const st = treeLines(rt.probe.status(dir), true);
           if (st.length) problems.push(`${dir}: ${st.length} uncommitted path(s): ${st.slice(0, 5).join("; ")}${st.length > 5 ? "; ..." : ""}`);
           const b = rt.probe.branch(dir);
           if (b !== rt.probe.defaultBranch(dir)) problems.push(`${dir} is on ${b}, not ${rt.probe.defaultBranch(dir)}`);
