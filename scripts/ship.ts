@@ -30,6 +30,7 @@ import { parse } from "yaml";
 import { reportDirs } from "./lib/report-dirs.ts";
 import { parseShipArgs } from "./lib/ship-args.ts";
 import { dailyLimits, usageToday } from "./lib/d1-usage.ts";
+import { productionPreflight } from "./lib/prod-preflight.ts";
 const FREE_TIER = dailyLimits(); // the target account's daily budget (lib/d1-usage.ts)
 import { buildSteps, drive, fileSha, formatPlan, freshState, movedReports, STEP_ORDER, versionOf, type Cmd, type Ctx, type ExecResult, type Probe, type Repo, type Runtime, type State, type StepId } from "./lib/ship.ts";
 
@@ -153,6 +154,10 @@ const probe: Probe = {
     });
   },
   sha: fileSha,
+  async prodUnreachable(base) {
+    const r = await productionPreflight(base);
+    return r.ok ? null : r.message;
+  },
   d1Today: () => usageToday(root),
 };
 

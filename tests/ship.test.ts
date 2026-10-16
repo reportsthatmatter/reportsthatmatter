@@ -47,7 +47,7 @@ function ctx(over: Partial<Ctx> = {}): Ctx {
 }
 
 /** A site and three report repos that exist only in this object. */
-function fakeProbe(init: { pins?: Record<string, string>; dirty?: Record<string, string[]>; branch?: Record<string, string>; numstat?: Array<[number, number, string]>; used?: number | null; reads?: number } = {}) {
+function fakeProbe(init: { pins?: Record<string, string>; dirty?: Record<string, string[]>; branch?: Record<string, string>; numstat?: Array<[number, number, string]>; used?: number | null; reads?: number; down?: string } = {}) {
   const pins: Record<string, string> = { ...Object.fromEntries(IDS.map((id) => [`/repos/${id}`, SPEC("0.20.0")])), ...init.pins };
   const written: Array<[string, string]> = [];
   const probe: Probe = {
@@ -63,6 +63,7 @@ function fakeProbe(init: { pins?: Record<string, string>; dirty?: Record<string,
     behind: () => 0,
     numstat: () => init.numstat ?? [],
     sha: () => null,
+    prodUnreachable: async () => init.down ?? null,
     d1Today: async () =>
       init.used === null
         ? { used: null, ledger: { rowsRead: 0, rowsWritten: 0 }, analytics: null, source: "unknown" }
@@ -487,6 +488,14 @@ describe("drive: gates and hard stops", () => {
     expect(ran(h.calls, "--no-reindex")).toEqual([]);
     const h2 = harness({ handler: happy, probe: { dirty }, ctx: { yes: true, allowDirty: true } });
     expect(await drive(h2.rt, buildSteps(), { from: "committed" })).toBe(0);
+  });
+
+  it("stops the status step with one 'production not reachable' line before reading anything", async () => {
+    const h = harness({ handler: happy, probe: { down: "production not reachable: 530 1016 (https://x/health)" }, ctx: { yes: true } });
+    expect(await drive(h.rt, buildSteps(), { from: "status" })).toBe(1);
+    expect(out(h)).toContain("status: production not reachable: 530 1016");
+    expect(ran(h.calls, "publish-report")).toEqual([]);
+    expect(ran(h.calls, "prerender")).toEqual([]);
   });
 
   it("ignores bd's auto-exported .beads/issues.jsonl in the clean-tree checks, and only that path", async () => {

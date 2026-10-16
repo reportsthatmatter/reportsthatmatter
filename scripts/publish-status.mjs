@@ -7,7 +7,11 @@
  *
  *   pnpm publish-report --all --status --base https://reportsthatmatter.org
  *
- * Exits 0 whatever it finds, so deploy-cloudflare.sh can print it; --fail-on-drift exits 1 when any
+ * It first GETs the base and /health (reportsthatmatter-6pky). A non-200, a network failure or a Cloudflare error
+ * page prints one line, `production not reachable: <status> <cf error code>`, and exits 1, instead of one
+ * unknown row per report.
+ *
+ * Otherwise exits 0 whatever it finds, so deploy-cloudflare.sh can print it; --fail-on-drift exits 1 when any
  * report needs publishing or could not be read.
  */
 import { readFileSync } from "node:fs";
@@ -15,6 +19,7 @@ import { join } from "node:path";
 import { parse } from "yaml";
 import { assertFresh } from "./prerender-stamp.mjs";
 import { localHash } from "./lib/publish-local.mjs";
+import { productionPreflight } from "./lib/prod-preflight.ts";
 import { classify, formatTable } from "./lib/status-table.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -31,6 +36,11 @@ if (!args.includes("--status")) {
 
 assertFresh("pnpm publish-report --all --status");
 const base = String(flag("--base") ?? "http://localhost:8799").replace(/\/$/, "");
+const reachable = await productionPreflight(base);
+if (!reachable.ok) {
+  console.error(reachable.message);
+  process.exit(1);
+}
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 
 async function served(id) {
