@@ -70,6 +70,16 @@ for (const profile of profiles) {
       }).observe({ type: "layout-shift", buffered: true });
     } catch {}
   });
+  // E2E_COLD_FONT_MS=1500 reproduces a0rx on demand: a cold, slow font CDN. It delays the web-font requests of the first page load only
+  // (the next loads find them cached on a real network, which routing would otherwise disable).
+  let fontsCold = true;
+  const coldFontMs = Number(process.env.E2E_COLD_FONT_MS || 0);
+  if (coldFontMs) {
+    await context.route(/fonts\.(googleapis|gstatic)\.com/, async (route) => {
+      if (fontsCold) await new Promise((resolve) => setTimeout(resolve, coldFontMs));
+      await route.continue();
+    });
+  }
   const marksPosted = [];
   if (!isLocal) await context.route("**/api/mark", (route) => route.fulfill({ status: 204, body: "" }));
   const page = await context.newPage();
@@ -81,7 +91,17 @@ for (const profile of profiles) {
 
   // ---------- the landing panel ----------
 
+  // Web fonts swap in late on a cold cache (display=swap), and that reflow is a layout shift of about 0.28 on the paragraph a
+  // link lands on, whether or not a panel is there. Measured cold, the ?h= link then differed from the ?p= control only because
+  // it was the first load and the control the second (a0rx: 0.2804 vs 0.0000 against production). So Chromium loads the plain
+  // link once, unmeasured, and waits for the fonts: every load the CLS check compares then starts from the same cache.
+  if (profile.engine === chromium) {
+    await page.goto(base + PLAIN_LINK, { waitUntil: "networkidle" });
+    await fontsSettled(page);
+  }
+  fontsCold = false;
   await page.goto(base + EDITOR_LINK, { waitUntil: "networkidle" });
+  await fontsSettled(page);
   await page.waitForTimeout(600);
   const landed = await page.evaluate(() => {
     const panel = document.getElementById("passage-panel");
@@ -145,6 +165,7 @@ for (const profile of profiles) {
     // No layout jump: the panel must add nothing to the layout shift a plain
     // paragraph link to the same place already has (web fonts swapping in).
     await page.goto(base + PLAIN_LINK, { waitUntil: "networkidle" });
+    await fontsSettled(page);
     await page.waitForTimeout(600);
     const control = await page.evaluate(() => window.__cls);
     check(landed.cls <= control + 0.001, `${tag} the panel adds no layout shift`, `?h= ${landed.cls.toFixed(4)} vs ?p= ${control.toFixed(4)}`);
@@ -345,6 +366,13 @@ for (const profile of profiles) {
   await page.keyboard.press("Escape");
   check((await page.locator("#passage-panel").count()) === 0, "[desktop] Escape closes the panel");
   await browser.close();
+}
+
+/** Resolves when every web font the page asked for has loaded or failed, so a swap-in cannot land inside a measurement. */
+async function fontsSettled(page) {
+  await page.evaluate(async () => {
+    await document.fonts.ready;
+  });
 }
 
 function slug(name) {
