@@ -34,3 +34,18 @@ describe("parseShipArgs", () => {
     expect(parseShipArgs(["--base", "a", "--base", "b"]).opt("--base")).toBe("b");
   });
 });
+
+describe("parseShipArgs: --reset (reportsthatmatter-fjej)", () => {
+  it("allows --reset alone, with --plan, and with a --state file", () => {
+    expect(parseShipArgs(["--reset"]).errors).toEqual([]);
+    expect(parseShipArgs(["--reset", "--plan"]).errors).toEqual([]);
+    expect(parseShipArgs(["--reset", "--state", "/tmp/s.json"]).errors).toEqual([]);
+  });
+
+  it("refuses --reset with anything that would run or change a release, naming the usage", () => {
+    for (const extra of [["--shared"], ["--yes"], ["--status"], ["--measure"], ["--ack", "baseline"], ["--redo", "status"], ["--base", "https://x.test"]]) {
+      const errors = parseShipArgs(["--reset", ...extra]).errors;
+      expect(errors.join("\n"), extra.join(" ")).toMatch(/cannot be combined with .*\n.*usage: pnpm ship --reset/);
+    }
+  });
+});
