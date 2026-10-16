@@ -36,6 +36,7 @@ import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
 import { renderCard, renderDefaultCard } from "../src/templates/card.ts";
+import { PLATELESS_CARD_REPORTS } from "../src/lib/card-plates.ts";
 import { SITE_HEADLINE, SITE_STANDFIRST } from "../src/templates/site.ts";
 import { renderMarkdown } from "@rtm/ingest";
 import { extractParagraph } from "../src/templates/report.ts";
@@ -69,8 +70,9 @@ function save(path, bytes) {
 // setContent() renders from about:blank, so images have to travel with the HTML.
 const dataUri = (path, type) => `data:${type};base64,${readFileSync(path).toString("base64")}`;
 
-/** A report's plate (#99), or nothing for a report without one. */
+/** A report's plate (#99), or nothing for a report without one or one that must not travel on a card (ay85). */
 function markFor(reportId) {
+  if (PLATELESS_CARD_REPORTS.includes(reportId)) return undefined;
   const path = join(root, "assets/marks", `${reportId}.webp`);
   return existsSync(path) ? dataUri(path, "image/webp") : undefined;
 }

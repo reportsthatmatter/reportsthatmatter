@@ -210,6 +210,111 @@ export type QueueItem = {
   posted_url: string | null;
 };
 
+// ---------- scheduling rules (reportsthatmatter-ay85) ----------
+//
+// Rules about *when* an item goes out, kept here so a later `pnpm posts` (new
+// excerpts, `--start` re-dating) cannot undo them by accident. They come from
+// the marketing strategy (marketing repo, strategy/2026-10-strategy.md section 8)
+// and the affected-community review of 9 Oct 2026.
+//
+// TODO(reportsthatmatter-63cd, needs-user): the tier rule itself (Tier A only
+// may be a card or an automated post for affected_community reports) is not
+// enforced here or in the poster until that decision lands. Today it is
+// enforced by hand: no card: true on a Tier B/C highlight.
+
+/** Reports whose items are spaced at least SPACING_DAYS apart: heavy subjects, never two in a fortnight. */
+export const SPACED_REPORTS: readonly string[] = ["uk-post-office-horizon-inquiry", "uk-grenfell-tower-inquiry"];
+export const SPACING_DAYS = 14;
+
+/** Kept-clear dates, every year, as inclusive `MM-DD` bounds: nothing is scheduled 18 December to 2 January. */
+export const BLACKOUT = { from: "12-18", to: "01-02" } as const;
+
+/** The queue opens with an excerpt from this report, on the queue's start date. */
+export const OPENING_REPORT = "challenger-accident";
+
+/** Quoted only on their own news days, and never first (strategy section 8, D4). */
+export const NEVER_FIRST_REPORTS: readonly string[] = ["jack-smith-vol1", "us-jan6-committee", "uk-chilcot-inquiry"];
+
+export function isBlackout(date: string): boolean {
+  const md = date.slice(5);
+  return md >= BLACKOUT.from || md <= BLACKOUT.to;
+}
+
+function daysBetween(a: string, b: string): number {
+  return Math.abs(Date.parse(`${a}T00:00:00Z`) - Date.parse(`${b}T00:00:00Z`)) / 86_400_000;
+}
+
+/**
+ * Dates `items` (in the order given, which is a preference, not a promise)
+ * one per day from `start`, honouring the rules above: no blackout day; no two
+ * items of a SPACED_REPORTS report within SPACING_DAYS of each other or of a
+ * `fixed` (already dated or posted) one; with `opening`, the first item is an
+ * OPENING_REPORT excerpt (or, if the queue has none, at least not a
+ * NEVER_FIRST_REPORTS one), dated `start`. A day on which only spaced items
+ * remain and none is allowed is left empty rather than breaking the spacing.
+ */
+export function scheduleItems<T extends { report: string }>(
+  items: readonly T[],
+  start: string,
+  fixed: readonly { report: string; scheduled: string }[] = [],
+  opening = false
+): (T & { scheduled: string })[] {
+  const remaining = [...items];
+  if (opening && remaining.length) {
+    const at = remaining.findIndex((i) => i.report === OPENING_REPORT);
+    const first = at >= 0 ? at : remaining.findIndex((i) => !NEVER_FIRST_REPORTS.includes(i.report));
+    if (first > 0) remaining.unshift(...remaining.splice(first, 1));
+  }
+  const placed: { report: string; scheduled: string }[] = [...fixed];
+  const out: (T & { scheduled: string })[] = [];
+  let day = start;
+  while (remaining.length) {
+    if (isBlackout(day)) {
+      day = addDays(day, 1);
+      continue;
+    }
+    const today = day;
+    const at = remaining.findIndex(
+      (i) =>
+        !SPACED_REPORTS.includes(i.report) ||
+        placed.every((p) => p.report !== i.report || daysBetween(p.scheduled, today) >= SPACING_DAYS)
+    );
+    if (at >= 0) {
+      const [item] = remaining.splice(at, 1);
+      placed.push({ report: item.report, scheduled: today });
+      out.push({ ...item, scheduled: today });
+    }
+    day = addDays(day, 1);
+  }
+  return out;
+}
+
+/**
+ * The rule breaks in a queue, as readable lines (empty when it is clean).
+ * Only not-yet-posted items can break a rule: a posted one already happened.
+ * `pnpm posts --check` fails on any, so a hand-edited date is caught.
+ */
+export function queueViolations(queue: readonly QueueItem[]): string[] {
+  const problems: string[] = [];
+  for (const i of queue.filter((i) => !i.posted_url)) {
+    if (isBlackout(i.scheduled)) problems.push(`${i.id}: scheduled ${i.scheduled}, inside the kept-clear dates (${BLACKOUT.from} to ${BLACKOUT.to})`);
+  }
+  for (const report of SPACED_REPORTS) {
+    const dated = queue.filter((i) => i.report === report).sort((a, b) => a.scheduled.localeCompare(b.scheduled));
+    for (let n = 1; n < dated.length; n++) {
+      if (dated[n].posted_url) continue;
+      const gap = daysBetween(dated[n - 1].scheduled, dated[n].scheduled);
+      if (gap < SPACING_DAYS) problems.push(`${dated[n].id}: ${gap} day(s) after ${dated[n - 1].scheduled}, under ${SPACING_DAYS} for ${report}`);
+    }
+  }
+  const first = [...queue].sort((a, b) => a.scheduled.localeCompare(b.scheduled))[0];
+  if (first && !queue.some((i) => i.posted_url)) {
+    if (queue.some((i) => i.report === OPENING_REPORT) && first.report !== OPENING_REPORT) problems.push(`${first.id}: the queue opens with ${first.report}, not ${OPENING_REPORT}`);
+    if (NEVER_FIRST_REPORTS.includes(first.report)) problems.push(`${first.id}: ${first.report} is never the first item`);
+  }
+  return problems;
+}
+
 /**
  * Interleaves candidates across reports in `reportOrder`, taking each
  * report's next candidate in turn (round-robin) rather than exhausting one
@@ -266,7 +371,9 @@ export function buildQueue(params: {
   dropStale?: boolean;
   /**
    * Re-date every not-yet-posted item, in its current order, one per day from
-   * this date (explicit `--start`, e.g. launch day). Posted items never move.
+   * this date (explicit `--start`, e.g. launch day), under the scheduling rules
+   * (`scheduleItems`: an OPENING_REPORT excerpt first, spacing, kept-clear dates).
+   * Posted items never move.
    */
   restartFrom?: string;
 }): { queue: QueueItem[]; added: number; staleUnposted: string[]; stalePosted: string[] } {
@@ -280,10 +387,16 @@ export function buildQueue(params: {
 
   if (params.dropStale) existing = existing.filter((i) => i.posted_url || resolvedById.has(i.id));
   if (params.restartFrom) {
-    const from = params.restartFrom;
-    const order = existing.filter((i) => !i.posted_url);
-    const dates = new Map(order.map((i, n) => [i.id, addDays(from, n)]));
-    existing = existing.map((i) => (dates.has(i.id) ? { ...i, scheduled: dates.get(i.id)! } : i));
+    const posted = existing.filter((i) => i.posted_url);
+    const dated = scheduleItems(
+      existing.filter((i) => !i.posted_url),
+      params.restartFrom,
+      posted,
+      posted.length === 0
+    );
+    const byId = new Map(existing.map((i) => [i.id, i]));
+    // In dated order, so the file reads in the order it will post.
+    existing = [...posted, ...dated.map((i) => ({ ...byId.get(i.id)!, scheduled: i.scheduled }))];
   }
 
   // A not-yet-posted item takes its current card and text: both are build
@@ -305,7 +418,7 @@ export function buildQueue(params: {
   const lastScheduled = existing.reduce((max, item) => (item.scheduled > max ? item.scheduled : max), "");
   const start = lastScheduled ? addDays(lastScheduled, 1) : params.restartFrom ?? addDays(today, 1);
 
-  const added: QueueItem[] = ordered.map((item, i) => ({
+  const added: QueueItem[] = scheduleItems(ordered, start, existing, existing.length === 0).map((item) => ({
     id: item.id,
     report: item.report,
     paragraph: item.paragraph,
@@ -313,7 +426,7 @@ export function buildQueue(params: {
     text: item.text,
     link: item.link,
     card: item.card,
-    scheduled: addDays(start, i),
+    scheduled: item.scheduled,
     posted_url: null,
   }));
 

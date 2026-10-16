@@ -32,7 +32,9 @@
  *                      problems are counted in one line. Without it, any problem anywhere exits 1, which on main
  *                      is the other reports' business (reportsthatmatter-5qmm).
  *   --start YYYY-MM-DD re-date every not-yet-posted item, one per day from that date,
- *                      in its current order. Posted items never move.
+ *                      in its current order, under the scheduling rules in src/lib/posts.ts: a
+ *                      Challenger excerpt first (on that date), no two Post Office or two Grenfell
+ *                      items within 14 days, nothing 18 Dec to 2 Jan. Posted items never move.
  *
  * Bluesky only (X dropped 2026-09-25: API credits; Rufus posts to X by hand).
  * Makes no network request of any kind — this only ever writes local files.
@@ -41,7 +43,7 @@ import "./lib/help.mjs";
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse, stringify } from "yaml";
-import { resolveCandidate, buildQueue, isoDate, QUEUE_HEADER } from "../src/lib/posts.ts";
+import { resolveCandidate, buildQueue, isoDate, queueViolations, QUEUE_HEADER } from "../src/lib/posts.ts";
 import { CARDS } from "../src/generated/cards.ts";
 import { SITE_ORIGIN } from "../src/templates/site.ts";
 import { inScope, reportScope } from "./lib/posts-scope.ts";
@@ -208,11 +210,19 @@ if (stalePosted.length) {
   for (const id of stalePosted) console.warn(`  - ${id}`);
 }
 
+// The scheduling rules (src/lib/posts.ts: opening report, Post Office / Grenfell spacing, kept-clear dates).
+const violations = queueViolations(queue);
+if (violations.length) {
+  console.error(`${violations.length} scheduling rule break(s) in the queue (re-date with pnpm posts --start YYYY-MM-DD):`);
+  for (const v of violations) console.error(`  - ${v}`);
+}
+
 if (flagCheck) {
-  // Read-only gate for the scheduled poster: only a stale not-yet-posted item fails it.
+  // Read-only gate for the scheduled poster: only a stale not-yet-posted item or a scheduling rule break fails it.
   // Skipped candidates and new additions are not the poster's business.
-  console.log(staleUnposted.length ? "Queue check failed." : "Queue check passed: every not-yet-posted item still resolves.");
-  process.exit(staleUnposted.length ? 1 : 0);
+  const failed = staleUnposted.length || violations.length;
+  console.log(failed ? "Queue check failed." : "Queue check passed: every not-yet-posted item still resolves.");
+  process.exit(failed ? 1 : 0);
 }
 
 const queueText = `${QUEUE_HEADER}${stringify({ items: queue })}`;
