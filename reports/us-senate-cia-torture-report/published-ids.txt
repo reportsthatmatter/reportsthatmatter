@@ -26,6 +26,7 @@
 10740-redacted-092308zmar03-d-i
 1091-captured-result-reporting-from
 10942-2216i0z-mar-03-according
+10950-redacted-222127z-mar-03
 11-cia-unprepared-began-operating
 11-ii-1111-i-redacted
 11-ii-11111-redacted-i
@@ -261,6 +262,7 @@ after-approximately-month-detention-extensive
 after-approximately-week-interrogating-al-masri
 after-being-detained-pakistan-jose
 after-being-rendered-cia-custody
+after-being-rendered-cia-custody-2
 after-conducting-extensive-surveillance-sajid
 after-detaining-least-113-individuals
 after-detention-site-blue-chief
@@ -449,6 +451,7 @@ c-o-n-c-l
 c-o-n-c-l-2
 c-o-n-c-l-3
 c-redacted-january-2004-redacted
+c-redacted-spring-2003-cia
 cable-described-abu-zubaydah-s
 cable-further-recommended-psychologists-likely
 cable-saying-light-ksm-s
@@ -553,6 +556,7 @@ cia-oig-audit-completed-june
 cia-oig-special-report-also
 cia-other-u-s-government
 cia-personnel-detention-site-green
+cia-personnel-karachi-reassured-addressees
 cia-placed-individuals-no-applicable
 cia-presentations-executive-legislative-branches
 cia-provided-extensive-amounts-inaccurate
@@ -688,11 +692,13 @@ conclusion-study-appears-buttress-its
 conclusion-upon-joining-committee-2013
 concurrent-emergence-information-linking-sajid
 conditions-cia-detention-sites-poor
+confinement-conditions-both-security-other
 consideration-detention-facility-country-redacted
 consistent-our-own-observations-cia
 contents-page-letter-transmittal-senate
 context-effectiveness-cia-s-enhanced
 context-m-ajor-threats-countered
+continued-its-pursuit-saifullah-who
 continued-unravel-details-plotting-provided
 contrary-cia-representations-cia-records
 contrary-cia-representations-department-justice
@@ -737,6 +743,7 @@ december-9-2014-ordered-be
 decision-conduct-late-night-interrogation
 decision-detain-abu-zubaydah-covert
 declassification-review-business-meeting
+delayed-redacted-briefing-redacted-redacted
 department-justice-did-not-conduct
 department-justice-office-legal-counsel
 deputy-director-cia-s-counterterrorism
@@ -941,6 +948,7 @@ fact-f-i-redacted-1
 fact-f-redacted-f-cia
 fact-f-v-b-h
 fact-k-redacted-cia-documents
+fact-redacted-cia-disclosed-olc
 fact-redacted-cia-documents-show
 fact-redacted-cia-provided-access
 fact-redacted-contrary-study-s
@@ -1181,6 +1189,7 @@ indicate-dj-total-number-detainees
 indications-political-considerations
 indications-political-considerations-2
 individual-who-conducted-experiments-mustard
+inedl-redacted-redacted-ghul-then
 information-about-money-acknowledged-delivered
 information-above-not-fully-congruent
 information-above-not-fully-congruent-2
@@ -1238,6 +1247,7 @@ january-15-2014-chairman-feinstein
 january-2-2004-cia-inspector
 january-2002-national-security-council
 january-2004-cia-inspector-general
+january-2004-icrc-sent-letter
 january-2009-one-his-first
 january-2009-president-obama-signed
 january-2013-president-obama-nominated
@@ -1328,6 +1338,7 @@ least-cia-s-june-27
 least-five-cia-detainees-subjected
 least-two-prominent-occasions-cia
 legal-basis-cia-detention-interrogation
+less-redacted-than-two-hours
 less-than-three-months-later
 letter-from-cia-s-associate
 letter-from-redacted-assistant-general
@@ -1570,6 +1581,7 @@ p-r-example-december-23
 p-r-o-v-i
 page-i-i-oof-499
 pakistan-based-facilitator-janat-gul-s
+pakistani-authorities-then-located-interviewed
 para
 para-2
 para-3
@@ -1647,9 +1659,11 @@ recommended-financial-compensation-asset-x
 records-indicate-all-these-cia
 records-indicate-cia-officers-believed
 redacted
+redacted---beginning-redacted-2005
 redacted--the-review-also-raises
 redacted-0-4-s-e
 redacted-0-8-8-4
+redacted-0-n-august-11
 redacted-01-country-redacted-february
 redacted-1-day-after-rendition
 redacted-1-november-december-2004
@@ -1739,6 +1753,7 @@ redacted-also-support-conclusion-study
 redacted-also-wrote
 redacted-although-cia-headquarters-asked
 redacted-analysis-adheres-intelligence-community
+redacted-analysts-operators-testified-before
 redacted-another-part-study-s
 redacted-april-13-2005-day
 redacted-april-14-2003-redacted
@@ -1748,9 +1763,11 @@ redacted-assessment-asset-y-t
 redacted-asset-x-redacted-i
 redacted-august-1-2002-olc
 redacted-august-20-2003-cia
+redacted-august-25-2004-cia
 redacted-b-y-early-o
 redacted-based-information-pakistani-authorities
 redacted-based-information-provided-muhammad
+redacted-based-information-september-11
 redacted-based-these-facts-we
 redacted-begin-however-review-context
 redacted-brings-us-s-s
@@ -1768,6 +1785,7 @@ redacted-cia-recommended-immediate-transfer
 redacted-cia-records-demonstrate-abu
 redacted-cia-records-indicate-detention
 redacted-cia-then-determined-k
+redacted-combatant-command-alert-command
 redacted-conclusion-6-opens-statement
 redacted-conclusion-6-states-t
 redacted-conclusion-6-states-t-2
@@ -1791,10 +1809,13 @@ redacted-director-ctc-may-9
 redacted-e-m-o-r
 redacted-early-july-2002-pakistani
 redacted-email-from-redacted-redacted
+redacted-email-from-redacted-redacted-2
 redacted-enhanced-interrogation-fbi-interrogator
 redacted-enhanced-interrogation-techniques-necessary
 redacted-entitled-15-june-request
 redacted-entitled-origins-cia-representations
+redacted-eventually-convinced-cia-officers
+redacted-example-january-2004-cia
 redacted-f-h-h-h
 redacted-family-details-critical-ultimately
 redacted-fbi-arrested-uzhair-new
@@ -1822,6 +1843,7 @@ redacted-identified-picture-bin-al-shibh
 redacted-iect-planned-release-detention
 redacted-inaccurate-incomplete-information-about
 redacted-incorrect-claim-made-study
+redacted-informed-cia-headquarters-pakistani
 redacted-informed-oig-ksm-had
 redacted-inteitogation-abu-zubaydah-2289
 redacted-interests
@@ -1837,6 +1859,7 @@ redacted-june-8-2003-zubair
 redacted-l-1-t-h
 redacted-late-2004-national-security
 redacted-later-redacted-released-redacted
+redacted-later-source-alerted-cia
 redacted-later-told-inspector-general
 redacted-legal-redacted-august-1
 redacted-legal-redacted-warned-possible
@@ -1869,8 +1892,10 @@ redacted-n-d-redacted-face-to-face
 redacted-n-f-time-issuance
 redacted-never-opened-investigation-related
 redacted-nf-early-september-2002
+redacted-not-surprising-cia-headquarters
 redacted-not-translated-until-after
 redacted-noted-olc-personnel-had
+redacted-noted-s-had-represented
 redacted-noted-would-compile-information
 redacted-o-n-m-y
 redacted-o-redacted-cc-redacted
@@ -1883,6 +1908,7 @@ redacted-officials-included-statement-many
 redacted-one-individual-redacted-personally
 redacted-only-able-detain-question
 redacted-original-assessments-abu-zubaydah
+redacted-other-terrorist-redacted-n
 redacted-our-view-cia-s
 redacted-pakistani-authorities-subsequently-placed
 redacted-particular-case-study-has
@@ -1898,6 +1924,7 @@ redacted-promised-keep-media-outreach
 redacted-proper-tradecraft-entails-understanding
 redacted-proposed-written-memorandum-understanding
 redacted-provided-about-abu-zubaydah
+redacted-provided-information-associate-ksm
 redacted-rahim-cooperating-u-s
 redacted-ramzi-bin-al-shibh-becomes
 redacted-rathe-than-committee-s
@@ -1924,6 +1951,7 @@ redacted-redacted-asset-y-deceptive
 redacted-redacted-association-one-our
 redacted-redacted-c-t-e
 redacted-redacted-chans-provided-committee
+redacted-redacted-cia-planned-operation
 redacted-redacted-conversation-between-ssci
 redacted-redacted-date-march-2
 redacted-redacted-foreign-authorities-captured
@@ -1942,6 +1970,8 @@ redacted-redacted-redacted-2
 redacted-redacted-redacted-3
 redacted-redacted-redacted-4
 redacted-redacted-redacted-b-h
+redacted-redacted-redacted-both-panelists
+redacted-redacted-redacted-fs-august
 redacted-redacted-redacted-general-cia
 redacted-redacted-redacted-jan-04
 redacted-redacted-redacted-march-12
@@ -2008,6 +2038,7 @@ redacted-study-argues-cia-provided
 redacted-study-asserts-cia-refused
 redacted-study-asserts-cia-representation
 redacted-study-asserts-contrary-cia
+redacted-study-asserts-information-acquired
 redacted-study-asserts-t-cia
 redacted-study-benefiting-from-ability
 redacted-study-cites-finished-intelligence
@@ -2041,6 +2072,7 @@ redacted-subject-general-comments-date
 redacted-subject-re-could-aq
 redacted-subject-report-from-gitmo
 redacted-suspected-individual-zubair-associated
+redacted-suspicion-photo-issa-al-hindi
 redacted-t-h-e-claim
 redacted-t-h-e-s
 redacted-technical-collection-indicated-issa
@@ -2062,6 +2094,7 @@ redacted-w-e-w-e
 redacted-we-found-however-information
 redacted-well-known-associate-hassan-ghul
 redacted-well-known-associate-hassan-ghul-2
+redacted-well-known-associate-redacted-redacted
 redacted-when-asked-how-would
 redacted-when-country-redacted-redacted
 redacted-while-numerous-detainees-cia
@@ -2117,6 +2150,7 @@ s-i-n-may-30
 s-redacted-o-contrary-cia
 s-redacted-o-n-september
 s-redacted-o-september-10
+s-y-s-claim-enhanced
 sajid-abu-issa-shoebomber-see
 same-c-w-q-u
 same-can-be-said-respect
@@ -2173,6 +2207,7 @@ senator-nelson-how-do-you
 senator-nelson-testimony-incongruent-cia
 senator-snowe-did-any-statement
 senator-whitehouse-rizzo-s-testimony
+senior-al-qa-ida-military-trainer
 senior-deputy-general-counsel-john
 sep-06
 separate-debriefings-padilla-his-associate
@@ -2351,6 +2386,7 @@ suspending-use-cia-s-enhanced
 t---s-b-h
 t-h-e-c-i
 t-h-e-c-i-2
+t-h-e-capture-o
 t-h-e-f-c
 t-h-e-final-faulty
 t-h-e-information-relayed
@@ -2367,6 +2403,7 @@ t-redacted-t-our-n
 t-s-i-redacted-n
 t-s-redacted-f-t
 t-s-redacted-p-h
+t0-work-see-email-from
 tactical-intelligence-shkai-pakistan
 tactical-intelligence-shkai-pakistan-64
 tear-line-pakistan-included-extensive-information
@@ -2494,6 +2531,7 @@ we-reviewed-17-20-cases
 we-suppose-critique-leveled-against
 what-remained-karachi-plotting-disrupted
 when-cia-asked-white-house
+when-cia-finally-located-met
 when-cia-interrogators-detention-site
 when-cia-officers-next-interrogated
 when-committee-reviews-intelligence-community

@@ -423,9 +423,9 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   us-senate-cia-torture-report:
-    severed-into-quote: 101  # why: reportsthatmatter-jc46 (block quotations whose first line the scan's OCR read into the paragraph before, and letter-spaced garble; a skewed scan's indents)
-    severed-paragraph: 57  # why: reportsthatmatter-jc46 (letter-spaced OCR garble and skewed first lines split paragraphs; 58 to 57 with the note numbering of fgle)
-    bare-footnote-marker: 82  # why: reportsthatmatter-fgle (markers whose notes the OCR lost the numbers of; 122 to 82 with the page-sequence numbering)
+    severed-into-quote: 23
+    severed-paragraph: 24
+    bare-footnote-marker: 81
     bare-marker-after-quote: 32  # why: reportsthatmatter-fgle
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
@@ -445,7 +445,7 @@ reports:
     rendered-ol-words-share: 4
     numbered-prose-list: 1  # why: reportsthatmatter-gqsy.6
     ids-per-1k-words: 0
-    quote-share-parity: 2
+    quote-share-parity: 1
   us-v-philip-morris:
     severed-into-quote: 104
     severed-paragraph: 2
