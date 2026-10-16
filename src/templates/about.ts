@@ -49,21 +49,6 @@ export function renderAbout(): string {
     </div>
   </section>
 
-  <section class="section wrap" id="what-we-record" aria-labelledby="what-we-record-heading">
-    <p class="section-label mono" id="what-we-record-heading">What we record</p>
-    <div class="prose measure">
-      <p>There are no accounts and no tracking cookies. When you save or share a passage, your browser sends us
-      its words and a few words either side, with the report, paragraph and page they come from, whether you saved
-      or shared it, and the time. We keep them alongside a code made from your network address and browser that
-      changes every day, used only to count how many different readers marked a passage and to limit how many
-      passages one reader can mark in a day; the address and browser themselves are not stored.</p>
-      <p>Saves and shares are both counted, anonymously. When the words are found in the report, the passage can
-      appear on <a href="/highlights">Highlights</a> about half an hour later, with the report's own text, page and
-      a time rounded to the hour, and nothing about who chose it. Your own list of saved passages stays in your
-      browser, and you can turn counting off on <a href="/highlights/yours">Yours</a>.</p>
-    </div>
-  </section>
-
   <section class="section wrap" id="ai" aria-labelledby="ai-heading">
     <p class="section-label mono" id="ai-heading">How AI was used</p>
     <div class="prose measure">
@@ -92,6 +77,21 @@ export function renderAbout(): string {
       document differ, the official document is right.</p>
       <p>Both open a form on GitHub, which needs a free account, and what you write there is public.
       For anything else, <a href="${REPO_URL}/issues/new">open an issue</a>.</p>
+    </div>
+  </section>
+
+  <section class="section wrap" id="what-we-record" aria-labelledby="what-we-record-heading">
+    <p class="section-label mono" id="what-we-record-heading">What we record</p>
+    <div class="prose measure">
+      <p>There are no accounts and no tracking cookies. When you save or share a passage, your browser sends us
+      its words and a few words either side, with the report, paragraph and page they come from, whether you saved
+      or shared it, and the time. We keep them alongside a code made from your network address and browser that
+      changes every day, used only to count how many different readers marked a passage and to limit how many
+      passages one reader can mark in a day; the address and browser themselves are not stored.</p>
+      <p>Saves and shares are both counted, anonymously. When the words are found in the report, the passage can
+      appear on <a href="/highlights">Highlights</a> about half an hour later, with the report's own text, page and
+      a time rounded to the hour, and nothing about who chose it. Your own list of saved passages stays in your
+      browser, and you can turn counting off on <a href="/highlights/yours">Yours</a>.</p>
     </div>
   </section>
 
