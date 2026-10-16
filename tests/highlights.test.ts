@@ -1,5 +1,8 @@
 import { beforeEach, describe, expect, it } from "vitest";
+import { spawnSync } from "node:child_process";
+import { readFileSync } from "node:fs";
 import { createStore, toJSON, toMarkdown } from "../assets/highlights-store.js";
+import { app } from "../src/index";
 
 /** A stand-in for localStorage: the store must not care which it is given. */
 function memoryStorage() {
@@ -135,5 +138,60 @@ describe("JSON export", () => {
     store.add(record());
 
     expect(JSON.parse(toJSON(store.all()))[0].quote).toBe("probably approved");
+  });
+});
+
+describe("counting on or off (bght.10.4, decision 0023 Q4)", () => {
+  it("is on by default, off once turned off, and on again", async () => {
+    const { countingOff, setCounting, COUNT_KEY } = await import("../assets/highlights-store.js");
+    const storage = memoryStorage();
+    expect(countingOff(storage)).toBe(false);
+    setCounting(storage, false);
+    expect(storage.getItem(COUNT_KEY)).toBe("off");
+    expect(countingOff(storage)).toBe(true);
+    setCounting(storage, true);
+    expect(storage.getItem(COUNT_KEY)).toBeNull();
+    expect(countingOff(storage)).toBe(false);
+  });
+
+  it("treats unreadable storage as on", async () => {
+    const { countingOff } = await import("../assets/highlights-store.js");
+    const broken = { getItem: () => { throw new Error("blocked"); }, setItem() {}, removeItem() {} };
+    expect(countingOff(broken)).toBe(false);
+    expect(countingOff(null)).toBe(false);
+  });
+
+  it("share.js sends nothing to /api/mark while counting is off", () => {
+    const source = readFileSync("assets/share.js", "utf8");
+    const report = source.slice(source.indexOf("const report = (kind"), source.indexOf('fetch("/api/mark"'));
+    expect(report).toContain("if (countingOff(window.localStorage)) return;");
+  });
+});
+
+describe("the pages say truthfully what is recorded", () => {
+  it("/highlights/yours offers the opt-out and says removing does not uncount", async () => {
+    const html = await (await app.request("http://localhost/highlights/yours")).text();
+    expect(html).toContain('<input type="checkbox" id="count-marks" checked />');
+    expect(html).toContain("Count my saves and shares anonymously");
+    expect(html).toContain("Removing a passage here does not remove it from those counts");
+    expect(html).toContain("counted anonymously");
+  });
+
+  it("/highlights carries the saved-passages line, hidden until the script fills it", async () => {
+    const html = await (await app.request("http://localhost/highlights")).text();
+    expect(html).toContain('<p class="highlights-yours-note mono" id="highlights-yours-note" hidden></p>');
+    expect(html).toContain('<script type="module" src="/assets/highlights-note.js"></script>');
+  });
+
+  it("/about says what we record", async () => {
+    const html = await (await app.request("http://localhost/about")).text();
+    expect(html).toContain('id="what-we-record"');
+    expect(html).toContain("Saves and shares are both counted, anonymously");
+  });
+
+  it("nothing in src/ or assets/ still says highlights are never sent", () => {
+    // git grep exits 1 when nothing matches.
+    const found = spawnSync("git", ["grep", "-n", "never sent to us", "--", "src", "assets"], { encoding: "utf8" });
+    expect(found.stdout.trim()).toBe("");
   });
 });

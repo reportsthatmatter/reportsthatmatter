@@ -102,6 +102,7 @@ export function renderReadersHighlights(page: ReadersPage): string {
   ${header("Highlights", "What readers are highlighting", "Passages readers have saved or shared, counted anonymously · updated every few minutes", "readers")}
 
   <div class="wrap measure highlights-page">
+    <p class="highlights-yours-note mono" id="highlights-yours-note" hidden></p>
     ${page.recent ? recentBlock(page.recent, page.names, page.now) : ""}
     ${picksBlock(page.picks, page.names)}
     <p class="highlights-how">When you save or share a passage, its words are counted anonymously: no account, no cookie, nothing that identifies you. Your own saved passages are under <a href="/highlights/yours">Yours</a>.</p>
@@ -111,6 +112,8 @@ export function renderReadersHighlights(page: ReadersPage): string {
   return renderLayout("Highlights — Reports that Matter", body, {
     description: "What readers are highlighting in the reports: passages saved or shared, counted anonymously, with links to the exact words.",
     url: `${SITE_ORIGIN}/highlights`,
+    // The one script: "You have N saved passages · Yours", from this browser's own list.
+    scripts: ["/assets/highlights-note.js"],
   });
 }
 
@@ -139,8 +142,12 @@ export function renderYourHighlights(): string {
     <button type="button" data-export="json">Copy as JSON</button>
   </div>
 
-  <div class="wrap measure">
-    <p class="byline mono">Your list stays in this browser. When you save or share a passage, its words are also sent to us, with no account, no cookie and nothing that names you, so we can count which passages readers mark.</p>
+  <div class="wrap measure highlights-counting">
+    <p class="highlights-note">Your list stays in this browser. When you save or share a passage, its words are also sent to us, with no account, no cookie and nothing that names you, and counted anonymously in <a href="/highlights">what readers are highlighting</a>. Removing a passage here does not remove it from those counts. <a href="/about#what-we-record">What we record</a>.</p>
+    <label class="highlights-optout" id="count-marks-label" hidden>
+      <input type="checkbox" id="count-marks" checked />
+      <span>Count my saves and shares anonymously in readers’ highlights</span>
+    </label>
   </div>
 </main>`;
 

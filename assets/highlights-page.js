@@ -1,17 +1,26 @@
-/* The /highlights page.
+/* The /highlights/yours page (bght.10.4; /highlights itself is the readers' page).
  *
  * Everything on it comes out of the reader's own browser. The export is the
  * part that matters: quote, source, printed page, permalink — a citation that
  * can be pasted into a draft, which is what these documents are for.
  */
 // @ts-check
-import { createStore, toJSON, toMarkdown } from "./highlights-store.js";
+import { countingOff, createStore, setCounting, toJSON, toMarkdown } from "./highlights-store.js";
 
 const container = document.getElementById("highlights");
 const actions = document.getElementById("highlights-actions");
 const store = createStore(window.localStorage);
 
 if (container && actions) render();
+
+// Counting on or off (decision 0023 Q4): a checkbox only a script can honour, so it is shown only by one.
+const counting = /** @type {HTMLInputElement | null} */ (document.getElementById("count-marks"));
+const countingLabel = document.getElementById("count-marks-label");
+if (counting && countingLabel) {
+  counting.checked = !countingOff(window.localStorage);
+  countingLabel.hidden = false;
+  counting.addEventListener("change", () => setCounting(window.localStorage, counting.checked));
+}
 
 function render() {
   const groups = store.byReport();
