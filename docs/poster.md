@@ -19,7 +19,7 @@ After the account exists (reportsthatmatter-y2t.1):
    ```bash
    gh variable set POSTER_LIVE --body true
    ```
-   The next 14:00 UTC run posts. Do this on launch day, Tue 2026-10-20, before 14:00 UTC (the 20 October run posts the first item, Challenger), or later: the queue's first item is dated 2026-10-20, so nothing is due before then whatever the variable says. Rufus's order for the day is `drafts/2026-10/launch-day-checklist.md` in the marketing repo.
+   The next 14:00 UTC run posts. Do this on launch day (Tue 2026-10-13) or after: the queue's first item is dated 2026-10-14, so nothing is due before then whatever the variable says.
 5. **Switch off:** set `POSTER_LIVE` to `false` or delete the variable. A scheduled run goes back to a dry run at once.
 
 The three states:
