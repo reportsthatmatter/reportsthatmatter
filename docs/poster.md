@@ -9,7 +9,7 @@ Merged, it does nothing visible: **it is a dry run until Rufus turns it on.**
 After the account exists (reportsthatmatter-y2t.1):
 
 1. In Bluesky, Settings, Privacy and security, App passwords: create one named `rtm-poster`. Never use the account password.
-2. In the repo, Settings, Secrets and variables, Actions, **Secrets**: add `BLUESKY_HANDLE` (the handle, e.g. `reportsthatmatter.org`, no `@`) and `BLUESKY_APP_PASSWORD` (the app password from step 1). Or:
+2. In the repo, Settings, Secrets and variables, Actions, **Secrets**: add `BLUESKY_HANDLE` (the handle without `@`, or the account's DID, which also works as the login identifier and in the `posted_url` links) and `BLUESKY_APP_PASSWORD` (the app password from step 1). **Done on 17 Oct 2026:** `BLUESKY_HANDLE` is the DID `did:plc:owtfs5pk265ppfmojghzr56t`, so the switch of the account's handle to `reportsthatmatter.org` (still pending) does not touch the secret; `posted_url` values are `https://bsky.app/profile/did:plc:…/post/…`. Or:
    ```bash
    gh secret set BLUESKY_HANDLE --body reportsthatmatter.org
    gh secret set BLUESKY_APP_PASSWORD   # paste when prompted
@@ -19,7 +19,7 @@ After the account exists (reportsthatmatter-y2t.1):
    ```bash
    gh variable set POSTER_LIVE --body true
    ```
-   The next scheduled run from 13:47 UTC posts (see "When it posts"). Launch is Tue 2026-10-20: switch on that day before 13:47 UTC (the 20 October run posts the queue's first item, Challenger p. 146), or later; nothing is dated before 20 October, so nothing is due before then whatever the variable says. `pnpm posts --check` must pass first (it runs in the workflow too). Rufus's order for the day is `drafts/2026-10/launch-day-checklist.md` in the marketing repo. **Launch-day backup:** if the 13:47 run has not started by 14:05, start one by hand: `gh workflow run post-next.yml -R reportsthatmatter/reportsthatmatter -f dry_run=false` (with `dry_run=false` it follows `POSTER_LIVE`; any scheduled run that starts later finds today's post and does nothing).
+   The next scheduled run from 13:47 UTC posts (see "When it posts"). Launch is Tue 2026-10-20: switch on that day before 13:47 UTC (the 20 October run posts the queue's first item, Challenger p. 146), or later; nothing is dated before 20 October, so nothing is due before then whatever the variable says. `pnpm posts --check` must pass first (it runs in the workflow too). Rufus's order for the day is `drafts/2026-10/launch-day-checklist.md` in the marketing repo. **Launch-day backup:** at 13:55 UTC (before the Show HN at 14:00), unless the excerpt is already on the account, start one by hand (safe even while the 13:47 run is still going: runs queue one at a time, and one that finds today's post does nothing): `gh workflow run post-next.yml -R reportsthatmatter/reportsthatmatter -f dry_run=false` (with `dry_run=false` it follows `POSTER_LIVE`; any scheduled run that starts later finds today's post and does nothing).
 5. **Switch off:** set `POSTER_LIVE` to `false` or delete the variable. A scheduled run goes back to a dry run at once.
 
 The three states:
