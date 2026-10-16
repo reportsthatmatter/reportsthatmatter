@@ -17,11 +17,19 @@
  * Today's usage is the larger of the two, so a burst the analytics have not caught up with still counts.
  */
 import { execFileSync } from "node:child_process";
+import { accountFromEnv } from "./migrate-hosting";
 import { appendFileSync, existsSync, mkdirSync, readFileSync } from "node:fs";
 import { homedir } from "node:os";
 import { basename, dirname, join } from "node:path";
 
 export const FREE_TIER = { rowsRead: 5_000_000, rowsWritten: 100_000 } as const;
+/**
+ * Workers Paid (the Datopian account since 2026-10-16) has no daily stop: it includes 25 billion rows read and 50 million
+ * rows written a month, then bills per million. A thirtieth of the allowance is the daily budget the checks hold a day to.
+ */
+export const PAID_DAILY = { rowsRead: 833_000_000, rowsWritten: 1_666_000 } as const;
+/** The daily budget of the account the scripts target (RTM_CF_ACCOUNT, default datopian). */
+export const dailyLimits = (env: NodeJS.ProcessEnv = process.env): Usage => (accountFromEnv(env).name === "atomatic" ? FREE_TIER : PAID_DAILY);
 
 export type Usage = { rowsRead: number; rowsWritten: number };
 export type LedgerEntry = Usage & { at: string; tool: string; label: string; queries: number };
@@ -117,17 +125,18 @@ export async function analyticsToday(fetchFn: Fetch, creds: Credentials, now: Da
 export function credentials(root: string, databaseId: string | undefined): Credentials {
   const env = process.env;
   if (env.CLOUDFLARE_API_TOKEN && env.CLOUDFLARE_ACCOUNT_ID) return { token: env.CLOUDFLARE_API_TOKEN, accounts: [env.CLOUDFLARE_ACCOUNT_ID], databaseId };
-  const json = (args: string[]) => {
+  // RTM_CF_ACCOUNT=datopian|atomatic (default datopian): that account's profile, id and database, whatever this directory is bound to.
+  const account = accountFromEnv(env);
+  let token = env.CLOUDFLARE_API_TOKEN;
+  if (!token) {
     try {
-      const out = execFileSync("pnpm", ["-s", "wrangler", ...args], { cwd: root, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], timeout: 60_000 });
-      return JSON.parse(out.slice(out.indexOf("{")));
+      const out = execFileSync("pnpm", ["-s", "wrangler", "auth", "token", "--json", "--profile", account.profile], { cwd: root, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], timeout: 60_000 });
+      token = JSON.parse(out.slice(out.indexOf("{"))).token;
     } catch {
-      return null;
+      token = undefined;
     }
-  };
-  const token = env.CLOUDFLARE_API_TOKEN ?? json(["auth", "token", "--json"])?.token;
-  const accounts = env.CLOUDFLARE_ACCOUNT_ID ? [env.CLOUDFLARE_ACCOUNT_ID] : (json(["whoami", "--json"])?.accounts ?? []).map((a: { id: string }) => a.id).filter(Boolean);
-  return { token, accounts, databaseId };
+  }
+  return { token, accounts: [account.accountId], databaseId: account.databaseId };
 }
 
 export const databaseIdOf = (root: string): string | undefined =>

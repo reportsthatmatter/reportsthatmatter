@@ -709,7 +709,7 @@ export function buildSteps(): Step[] {
         for (const id of ids) {
           const r = await rt.exec(pnpm("publish-report", id, "--dry-run", "--base", rt.ctx.base), `d1-estimate-${id}`);
           const n = estimatedWrites(r.stdout);
-          if (r.code !== 0 || n === null) throw new Stop(`d1-estimate: could not estimate ${id}\n${tail(r.stdout)}`, [`log: ${r.log}`, "The estimate reads D1 through wrangler: `pnpm wrangler d1 list` must show reportsthatmatter-marks (account office@atomatic.net).", "An unreadable index can mean the daily read quota is spent: pnpm d1-usage"]);
+          if (r.code !== 0 || n === null) throw new Stop(`d1-estimate: could not estimate ${id}\n${tail(r.stdout)}`, [`log: ${r.log}`, "The estimate reads D1 through wrangler on RTM_CF_ACCOUNT (default datopian): `pnpm wrangler d1 list --profile datopian` must show reportsthatmatter-marks ceb6c2cc-… (AGENTS.md, Cloudflare).", "An unreadable index can mean the daily read quota is spent: pnpm d1-usage"]);
           perReport[id] = n;
           // An older publish-report prints no read estimate: count the corpus-wide scan it does (~40k) rather than 0.
           readsPerReport[id] = (estimatedReads(r.stdout) ?? 45_000) + VERIFY_READS_PER_REPORT;
@@ -739,7 +739,7 @@ export function buildSteps(): Step[] {
       kind: "prod",
       describe: () => ["./scripts/deploy-cloudflare.sh   (prerenders, `wrangler deploy`, prints the drift table, which should list nothing)"],
       async run(rt) {
-        await item(rt, "deploy", "deploy", { argv: ["./scripts/deploy-cloudflare.sh"] }, ["pnpm wrangler whoami / pnpm wrangler d1 list (the right account? AGENTS.md, Cloudflare)", "If wrangler's OAuth expired, ask Rufus to run `! pnpm wrangler login`."]);
+        await item(rt, "deploy", "deploy", { argv: ["./scripts/deploy-cloudflare.sh"] }, ["pnpm wrangler d1 list --profile datopian (the right account? AGENTS.md, Cloudflare)", "If wrangler's OAuth for the datopian profile expired, ask Rufus to run `! pnpm wrangler auth create datopian`."]);
       },
     },
     {

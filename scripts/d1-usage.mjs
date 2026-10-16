@@ -11,7 +11,7 @@
  */
 import "./lib/help.mjs";
 import { join } from "node:path";
-import { analyticsToday, combine, credentials, databaseIdOf, FREE_TIER, ledgerEntries, ledgerPath, topQueries } from "./lib/d1-usage.ts";
+import { analyticsToday, combine, credentials, dailyLimits, databaseIdOf, ledgerEntries, ledgerPath, topQueries } from "./lib/d1-usage.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
@@ -27,6 +27,7 @@ if (alert !== null && !(alert > 0 && alert <= 100)) {
   process.exit(2);
 }
 
+const FREE_TIER = dailyLimits(); // the target account's daily budget (free tier on atomatic, a thirtieth of the monthly allowance on Workers Paid)
 const creds = credentials(root, databaseIdOf(root));
 const analytics = await analyticsToday(fetch, creds, at);
 const entries = ledgerEntries(at);
@@ -42,7 +43,7 @@ const over = used && alert !== null && (100 * used.rowsRead >= alert * FREE_TIER
 if (args.includes("--json")) {
   console.log(JSON.stringify({ day, limits: FREE_TIER, ...today, top }, null, 1));
 } else {
-  console.log(`D1 usage on ${day} (UTC; the free tier resets at 00:00 UTC)`);
+  console.log(`D1 usage on ${day} (UTC; days reset at 00:00 UTC)`);
   if (used) {
     console.log(`  rows read     ${fmt(used.rowsRead).padStart(11)} of ${fmt(FREE_TIER.rowsRead)}  (${pct(used.rowsRead, FREE_TIER.rowsRead)})`);
     console.log(`  rows written  ${fmt(used.rowsWritten).padStart(11)} of ${fmt(FREE_TIER.rowsWritten)}  (${pct(used.rowsWritten, FREE_TIER.rowsWritten)})`);

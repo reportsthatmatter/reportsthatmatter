@@ -1,5 +1,9 @@
 name = "reportsthatmatter"
 main = "src/index.ts"
+# The Datopian account (accounts@datopian.com, Workers Paid; decision 2oz, epic 4g4d, docs/hosting-migration.md).
+# Wrangler needs `--profile datopian` until ~/src/reportsthatmatter is bound to that profile; the scripts pass it
+# (scripts/lib/migrate-hosting.ts). The old atomatic account is `[env.atomatic]` below, for rollback only.
+account_id = "83025b28472d6aa2bf5ae59f3724aa78"
 compatibility_date = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
 
@@ -11,18 +15,20 @@ rules = [
 # preview/comparison URL and it is what verify.sh points at with VERIFY_BASE.
 workers_dev = true
 
+# The apex and www are Workers custom domains: the Worker owns each hostname and Cloudflare manages its DNS
+# record and certificate. A deploy fails (code 100117) while a hand-made or scanned DNS record exists for one of
+# them: delete it first. old.* is a zone route instead, because the zone's DNS scan left a proxied record there
+# that agents cannot delete (no DNS edit scope); a route works on any proxied record. Once Rufus deletes that
+# record it can become a custom domain like the others (docs/hosting-migration.md).
 routes = [
-  { pattern = "reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
-  { pattern = "www.reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
-  { pattern = "old.reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
+  { pattern = "reportsthatmatter.org", custom_domain = true },
+  { pattern = "www.reportsthatmatter.org", custom_domain = true },
+  { pattern = "old.reportsthatmatter.org/*", zone_id = "9aa68c2e0a324d10a69a117155fe3f11" },
 ]
 
 [vars]
 REPORTS_SOURCE = "bundled"
-# Where the pre-V2 site is readable. Its own subdomain would be nicer, but the
-# old.reportsthatmatter.org record still points at a dead Vercel deployment and
-# is DNS-only, so a Workers route cannot reach it. GitHub Pages' default URL
-# needs no DNS at all and keeps the old URLs alive today.
+# Where the Worker fetches the pre-V2 archive it serves on old.reportsthatmatter.org (serveArchive in src/index.ts).
 LEGACY_BASE = "https://reportsthatmatter.github.io/reportsthatmatter"
 # The public highlights feed (decision 0023, src/lib/feed-policy.ts). "false" stops new rows and shows only the
 # Editor's picks; FEED_EXCLUDE adds report ids to the affected-community list held out of the feed. A change here
@@ -45,7 +51,7 @@ run_worker_first = true
 [[d1_databases]]
 binding = "DB"
 database_name = "reportsthatmatter-marks"
-database_id = "5200e0db-733d-40d6-962e-2f1eb024f060"
+database_id = "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec"
 migrations_dir = "migrations"
 
 # Published report content, addressed by content hash (§3 of
@@ -64,3 +70,29 @@ binding = "CF_VERSION_METADATA"
 
 [dev]
 local_protocol = "http"
+
+# The office@atomatic.net account, production until 2026-10-16: kept, unrouted, for rollback and the final
+# marks sync (`pnpm migrate-hosting sync-d1`) until decommission (docs/hosting-migration.md (f)). Reach it with
+# `--env atomatic --profile default`. Serves only https://reportsthatmatter.office-d34.workers.dev.
+[env.atomatic]
+name = "reportsthatmatter"
+account_id = "d342705a2f17c3e08a5dab494564e406"
+workers_dev = true
+routes = []
+
+[env.atomatic.vars]
+REPORTS_SOURCE = "bundled"
+LEGACY_BASE = "https://reportsthatmatter.github.io/reportsthatmatter"
+
+[[env.atomatic.d1_databases]]
+binding = "DB"
+database_name = "reportsthatmatter-marks"
+database_id = "5200e0db-733d-40d6-962e-2f1eb024f060"
+migrations_dir = "migrations"
+
+[[env.atomatic.r2_buckets]]
+binding = "CONTENT"
+bucket_name = "reportsthatmatter-content"
+
+[env.atomatic.version_metadata]
+binding = "CF_VERSION_METADATA"
