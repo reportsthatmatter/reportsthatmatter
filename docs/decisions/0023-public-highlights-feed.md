@@ -1,8 +1,8 @@
 # 0023. What may the public highlights feed show, and where do a reader's own highlights go?
 
-- **Status:** proposed
-- **Date raised:** 2026-10-16 · **Date decided:** —
-- **Decided by:** —
+- **Status:** decided (accepted: A for Q1 to Q5, the recommended defaults)
+- **Date raised:** 2026-10-16 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus
 - **Beads:** reportsthatmatter-bght.10.8 (this decision); feature bght.10 and its children bght.10.1-.7; related: 63cd (affected-community tier rule), g0w.5 (Editor's picks), 6kky and PR #294 (marks reads), zh1w (the `affected_community` registry flag), decision 0014 (editor's highlights)
 
 ## Question
@@ -47,7 +47,9 @@ Rufus, 2026-10-16: `/highlights` shows only the reader's own browser-kept highli
 
 ## Decision
 
-Proposed: A for each of Q1 to Q5. Awaiting Rufus.
+Rufus, 2026-10-16: defaults accepted (A for each of Q1 to Q5), "go ahead and implement" (relayed by the session supervisor).
+
+The design was validated the same day (approve with changes): the policy and pages are built as above, while v1 serves them by verifying each mark's words when it is recorded into a small `public_marks` table and reading that table through a 5-minute edge cache, instead of the design's 10-minute cron and snapshot (kept as the scale-up path). See the review in the factory repo, `reviews/review-design-highlights-feed-2026-10-16.md`.
 
 ## Consequences
 
