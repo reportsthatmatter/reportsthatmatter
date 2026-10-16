@@ -129,11 +129,11 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 > **1/6**
 > Public inquiries and investigations are some of the most careful research done — usually locked in 700-page PDFs that don't load, can't be searched, and can't link to one paragraph.
 >
-> We rebuilt 13 of them as web pages instead.
+> We rebuilt some of them as web pages instead.
 >
 > reportsthatmatter.org
 
-*(249 graphemes)*
+*(248 graphemes)*
 
 > **2/6**
 > Different countries and decades, for example the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot, the Lehman examiner.
