@@ -136,9 +136,9 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 *(249 graphemes)*
 
 > **2/6**
-> Reports from different countries and decades, for example the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot (Iraq Inquiry), the Lehman examiner.
+> Different countries and decades, for example the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot, the Lehman examiner.
 
-*(263 graphemes)*
+*(286 graphemes)*
 
 > **3/6**
 > Each report is split into sections that load, and every paragraph has its own permanent link. Highlight any sentence and you get a link straight to that passage, not "somewhere in a PDF".
@@ -170,17 +170,17 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 >
 > reportsthatmatter.org
 
-*(145 graphemes)*
+*(142 graphemes)*
 
 **Alternative opening post (1/6), if a more concrete hook reads better:**
 
 > Investigations, inquiries, official findings — some of the most careful research that gets done. Most of it sits in scanned PDFs: no search, no section links, no way to point at one paragraph.
 >
-> 13 of them, rebuilt as web pages.
+> Some of them, rebuilt as web pages.
 >
 > reportsthatmatter.org
 
-*(250 graphemes)*
+*(252 graphemes)*
 
 **Pinned post**
 
@@ -194,7 +194,7 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 >
 > reportsthatmatter.org
 
-*(230 graphemes)*
+*(227 graphemes)*
 
 **Notes**
 - Posts 4/6 and 5/6 are the demo-and-proof pair, one per report, each a full sentence that stands on its own without its surrounding paragraph (per `docs/report-introductions.md`, "Quotations must stand on their own").
