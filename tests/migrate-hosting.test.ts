@@ -1,5 +1,7 @@
+import { spawnSync } from "node:child_process";
+import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { accountArgs, ACCOUNTS, insertSql, r2Diff, refuseOverwrite, sqlValue, staleReports } from "../scripts/lib/migrate-hosting";
+import { accountArgs, ACCOUNTS, insertSql, r2Diff, refuseAtomaticPublish, refuseOverwrite, sqlValue, staleReports } from "../scripts/lib/migrate-hosting";
 
 describe("migrate-hosting", () => {
   it("quotes SQL values", () => {
@@ -42,6 +44,28 @@ describe("migrate-hosting", () => {
     expect(accountArgs({})).toEqual(["--env", "", "--profile", "datopian"]);
     expect(accountArgs({ RTM_CF_ACCOUNT: "atomatic" })).toEqual(["--env", "atomatic", "--profile", "default"]);
     expect(() => accountArgs({ RTM_CF_ACCOUNT: "nope" })).toThrow(/expected/);
+  });
+
+  it("refuses a publish under RTM_CF_ACCOUNT=atomatic unless --rollback-account is given", () => {
+    const msg = refuseAtomaticPublish({ RTM_CF_ACCOUNT: "atomatic" }, false);
+    expect(msg).toMatch(/refusing to publish with RTM_CF_ACCOUNT=atomatic/);
+    expect(msg).toContain("--rollback-account");
+    expect(refuseAtomaticPublish({ RTM_CF_ACCOUNT: "atomatic" }, true)).toBeNull();
+    expect(refuseAtomaticPublish({}, false)).toBeNull();
+    expect(refuseAtomaticPublish({ RTM_CF_ACCOUNT: "datopian" }, false)).toBeNull();
+  });
+
+  it("refuses at the command line: a real publish to a remote base, not a status read or a local base", () => {
+    const run = (...args: string[]) => spawnSync("pnpm", ["--silent", "publish-report", "demo", ...args], { cwd: join(import.meta.dirname, ".."), encoding: "utf8", env: { ...process.env, RTM_CF_ACCOUNT: "atomatic", RTM_PUBLISH_SECRET: "" } });
+    const refused = run("--base", "https://reportsthatmatter.invalid", "--yes");
+    expect(refused.status).toBe(1);
+    expect(refused.stderr).toContain("refusing to publish with RTM_CF_ACCOUNT=atomatic");
+    // With the flag (known to the unknown-flag check, jp6i) it gets past the account check and stops at the missing secret (exit 2), calling nothing.
+    const allowed = run("--base", "https://reportsthatmatter.invalid", "--rollback-account", "--yes");
+    expect(allowed.status).toBe(2);
+    expect(allowed.stderr).toContain("RTM_PUBLISH_SECRET is not set");
+    // A local base never reindexes a remote D1.
+    expect(run("--base", "http://localhost:8799").stderr).not.toContain("refusing");
   });
 
   it("refuses to wipe or replace production data unless told to (post-cutover default direction)", () => {

@@ -93,6 +93,23 @@ export function accountFromEnv(env: NodeJS.ProcessEnv = process.env): Account {
 
 export const accountArgs = (env: NodeJS.ProcessEnv = process.env): string[] => accountFromEnv(env).wrangler;
 
+export const ROLLBACK_ACCOUNT_FLAG = "--rollback-account";
+
+/**
+ * A publish posts the content over HTTP to `--base` but writes its search reindex through wrangler to the
+ * RTM_CF_ACCOUNT account's D1. With RTM_CF_ACCOUNT=atomatic left exported, the content goes to the domain (Datopian)
+ * and the reindex to the old account: Datopian's search silently goes stale (reportsthatmatter-4g4d.8). So a
+ * publish refuses atomatic unless `--rollback-account` says the rollback is meant. Null: go ahead.
+ */
+export function refuseAtomaticPublish(env: NodeJS.ProcessEnv, rollbackAccount: boolean): string | null {
+  if ((env.RTM_CF_ACCOUNT || PRODUCTION) !== "atomatic" || rollbackAccount) return null;
+  return (
+    "refusing to publish with RTM_CF_ACCOUNT=atomatic: the content would be posted to --base but the search reindex written to the old atomatic account's D1, " +
+    "so production search would go stale with no error. Unset RTM_CF_ACCOUNT (production is datopian), or pass " +
+    `${ROLLBACK_ACCOUNT_FLAG} if you are deliberately publishing to the rollback account (--base must then be that account's site).`
+  );
+}
+
 /** The account that serves reportsthatmatter.org (since the cutover on 2026-10-16). */
 export const PRODUCTION: Account["name"] = "datopian";
 export const OVERWRITE_FLAG = "--overwrite-production";
