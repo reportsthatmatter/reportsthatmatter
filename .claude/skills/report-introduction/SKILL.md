@@ -26,4 +26,4 @@ Checks the tools do not make:
 - A highlight must stand alone: it names its subject (no opening "he", "His response"), as a card would be read with nothing around it.
 - Section slugs for the reading guide: `pnpm paragraphs <id> | grep '^## '`.
 
-**Reviewing** an existing introduction (a reviewer, or a burn-down): report each item of the guide's checklist as pass or fail with evidence, and the changes as a diff; run `pnpm editorial` (it rewrites `src/generated/editorial.ts`: `git checkout` it after if you are not shipping).
+**Reviewing** an existing introduction (a reviewer, or a burn-down): report each item of the guide's checklist as pass or fail with evidence, and the changes as a diff; run `pnpm editorial --check` (writes nothing; exits 1 on a failed quote or a stale `src/generated/editorial.ts`).
