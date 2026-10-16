@@ -28,6 +28,12 @@ export type VerifiedPassage = {
 };
 
 const SLUG = /^[A-Za-z0-9][A-Za-z0-9._-]{0,199}$/;
+/**
+ * A paragraph id as the renderer writes it: text-derived, possibly with accented letters, never with quotes,
+ * angle brackets, ampersands or spaces. Checked before the id is looked for in a fragment, because a substring
+ * test would otherwise accept `<id>" data-page="33` (the id plus the attribute after it) and store it.
+ */
+const PARAGRAPH_ID = /^[^\s"'<>&\\]{1,200}$/u;
 
 /** The first heading of a section fragment, as plain text: fragments open with the section's own heading. */
 export function fragmentTitle(fragment: string): string | null {
@@ -71,6 +77,7 @@ export async function verifyMark(
   content: ContentSource,
   event: Pick<MarkEvent, "section" | "paragraph" | "exact" | "prefix" | "suffix">
 ): Promise<VerifiedPassage | null> {
+  if (!PARAGRAPH_ID.test(event.paragraph)) return null;
   let paragraph = event.paragraph;
   let slug = event.section;
   let fragment: string | null = null;

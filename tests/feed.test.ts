@@ -89,6 +89,15 @@ describe("publishMark", () => {
     expect(published(db)).toEqual([]);
   });
 
+  it("(a) a real paragraph id with the next attribute appended is refused, not stored verbatim", async () => {
+    // `<p id="X" data-page="33"` contains `<p id="X" data-page="33`, so a substring check alone would accept it.
+    const db = createSqliteD1();
+    const forged = `${PARAGRAPH}" data-page="${PAGE}`;
+    expect(fragment.includes(`<p id="${forged}"`)).toBe(true);
+    expect(await mark(db, event({ paragraph: forged }))).toBe("unverified");
+    expect(published(db)).toEqual([]);
+  });
+
   it("(b) forged prefix, suffix and page are replaced by the report's own", async () => {
     const db = createSqliteD1();
     const forged = { prefix: "<script>alert(1)</script> ", suffix: " FORGED-SUFFIX", page: 9999 };
