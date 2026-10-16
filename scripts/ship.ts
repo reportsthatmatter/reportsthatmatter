@@ -17,7 +17,7 @@
  *
  * The site pin is the source of truth: merge the site's pin-bump PR first; every report repo is then moved to it.
  * Steps that touch production (publish, deploy, reindex, seed, verify-prod) need --yes. `--shared` is the integrator's
- * deliberate opt-in to write the shared report checkouts (without it `ingest run` refuses them, as it does for anyone).
+ * deliberate opt-in to write the shared report checkouts (without it the pin bump stops before writing one, and `ingest run` refuses them, as it does for anyone).
  * Merging, conflict resolution, committing, raising a budget and accepting a baseline stay with the integrator.
  * State: build/ship/state.json (gitignored); logs: build/ship/logs/. Exit 0 finished, 1 stopped on a failure, 3 waiting for you.
  */
