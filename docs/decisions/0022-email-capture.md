@@ -1,4 +1,4 @@
-# 0021. Should the site capture email sign-ups, and with which provider?
+# 0022. Should the site capture email sign-ups, and with which provider?
 
 - **Status:** proposed
 - **Date raised:** 2026-10-16 · **Date decided:** —
