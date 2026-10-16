@@ -54,14 +54,14 @@ export function renderAbout(): string {
     <div class="prose measure">
       <p>The report text is the official text. It is taken from the published document by ordinary,
       deterministic software and checked against the source; no language model wrote, summarised or
-      rewrote it, and nothing an AI wrote is presented as part of a report. For some scanned reports,
-      a vision model's reading of the page images helps find where paragraphs and headings break, used
-      only where its reading agrees word for word with the document's own text; the words are always
-      the document's.</p>
+      rewrote it, and nothing an AI wrote is presented as part of a report. For one scanned report, the
+      Challenger report, a vision model's reading of the page images helps find where paragraphs and
+      headings break, used only where its reading closely matches the document's own text;
+      the words are always the document's.</p>
       <p>AI coding agents wrote much of that software, and this website, under Rufus Pollock's direction;
       <a href="${REPO_URL}">the code is public</a>. The introduction at the top of each report is ours,
       not the report's: drafted with AI assistance, published under our editorial responsibility, and
-      every quotation in it is checked automatically to be the report's exact words.</p>
+      every excerpt it shows from the report is checked automatically to be the report's exact words.</p>
     </div>
   </section>
 
