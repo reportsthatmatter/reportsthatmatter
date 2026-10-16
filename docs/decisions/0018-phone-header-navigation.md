@@ -23,6 +23,8 @@ Measured in the 2026-10-09 launch audit with iPhone 13 and Pixel 7 emulation. Re
 
 Rufus, 2026-10-16: recommended default accepted. Option 2: phones show three header links (Reports, Search, Highlights) at full tap size; the rest move to the footer. The record stated no recommendation, so the clerk took the simplest reversible option (no script) as the agent's recommendation; a menu button (option 1) can replace it later.
 
+Rufus, 2026-10-17: option 2 confirmed. Phones show Reports, Search and Highlights; the rest are in the footer. No change to the implementation (reportsthatmatter-f2qx).
+
 ## Consequences
 
 ## Links

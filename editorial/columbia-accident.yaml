@@ -195,6 +195,8 @@ highlights:
     quote: We cannot explore space on a fixed-cost basis.
   - paragraph: strategies-must-increase-clarity-strength
     quote: Twice in NASA history, the agency embarked on a slippery slope that resulted in catastrophe.
+    card: true
+    tier: A
   - paragraph: after-accident-program-managers-stated
     quote: Managers did not seem to understand that as leaders they had a corresponding and perhaps greater obligation to create viable routes for the engineering community to express their views and receive information.
   - paragraph: engineering-solutions-presented-management-should

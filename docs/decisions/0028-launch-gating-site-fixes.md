@@ -21,6 +21,8 @@ The recommended default was proposed in the bead and in `factory/handoffs/next-s
 
 Rufus, 2026-10-16: recommended default accepted. The source line on the paragraph view and a contact and removal route gate the launch; the rest (intro label, homepage order, follow line, `src=` through the 302, /press fact sheet, footer wording) follow after launch.
 
+Rufus, 2026-10-17: the contact address is contact@reportsthatmatter.org, forwarding to Rufus (Cloudflare Email Routing on the Datopian zone; reportsthatmatter-fh6v). `/about#contact` shows it as the primary route for corrections and removal requests, with the GitHub forms as the public alternative; the "within a day" promise is unchanged. Marketing drafts use the address wherever they had "[email on the site]".
+
 ## Consequences
 
 Source line and contact/removal route are in progress (another agent). The rest are filed as one bead per item.

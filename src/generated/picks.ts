@@ -21,15 +21,6 @@ export const EDITOR_PICKS: readonly EditorPick[] = [
     "page": 9
   },
   {
-    "report": "litvinenko-inquiry",
-    "slug": "part-10-summary-of-conclusions",
-    "sectionTitle": "Part 10: Summary of conclusions",
-    "paragraph": "10-16-fsb-operation-kill",
-    "words": "The FSB operation to kill Mr Litvinenko was probably approved by Mr Patrushev and also by President Putin.",
-    "anchor": "10.16%20|The%20FSB%20operation%20to%20kill%20Mr%20Litvinenko%20was%20probably%20approved%20by%20Mr%20Patrushev%20and%20also%20by%20President%20Putin.|",
-    "page": 246
-  },
-  {
     "report": "uk-leveson-inquiry",
     "slug": "christopher-jefferies",
     "sectionTitle": "Christopher Jefferies",

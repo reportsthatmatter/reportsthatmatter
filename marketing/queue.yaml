@@ -56,21 +56,6 @@ items:
     card: assets/cards/us-psi-financial-crisis/q-af4e7a80.png
     scheduled: 2026-10-22
     posted_url: null
-  - id: litvinenko-inquiry:10-16-fsb-operation-kill:8e49eee3
-    report: litvinenko-inquiry
-    paragraph: 10-16-fsb-operation-kill
-    quote: The FSB operation to kill Mr Litvinenko was probably approved by Mr
-      Patrushev and also by President Putin.
-    text: >-
-      “The FSB operation to kill Mr Litvinenko was probably approved by Mr
-      Patrushev and also by President Putin.”
-
-
-      — The Litvinenko Inquiry, p. 246
-    link: https://reportsthatmatter.org/reports/litvinenko-inquiry?p=10-16-fsb-operation-kill&h=10.16%20|The%20FSB%20operation%20to%20kill%20Mr%20Litvinenko%20was%20probably%20approved%20by%20Mr%20Patrushev%20and%20also%20by%20President%20Putin.|&src=bsky
-    card: assets/cards/litvinenko-inquiry/q-22bb38bb.png
-    scheduled: 2026-10-24
-    posted_url: null
   - id: uk-leveson-inquiry:legislative-proposal-does-no-more:6f4f7e41
     report: uk-leveson-inquiry
     paragraph: legislative-proposal-does-no-more
@@ -113,21 +98,6 @@ items:
     card: assets/cards/us-psi-financial-crisis/q-a41b01a8.png
     scheduled: 2026-10-27
     posted_url: null
-  - id: litvinenko-inquiry:4-4-same-day-president:3bd8d835
-    report: litvinenko-inquiry
-    paragraph: 4-4-same-day-president
-    quote: For example, President Putin observed that, "the people that have done
-      this are not God, and Mr Litvinenko is, unfortunately, not Lazarus."
-    text: >-
-      “For example, President Putin observed that, ‘the people that have done
-      this are not God, and Mr Litvinenko is, unfortunately, not Lazarus.’”
-
-
-      — The Litvinenko Inquiry, p. 52
-    link: https://reportsthatmatter.org/reports/litvinenko-inquiry?p=4-4-same-day-president&h=border%5Bed%5D%20on%20the%20macabre%22.%20|For%20example%2C%20President%20Putin%20observed%20that%2C%20%22the%20people%20that%20have%20done%20this%20are%20not%20God%2C%20and%20Mr%20Litvinenko%20is%2C%20unfortunately%2C%20not%20Lazarus.%22|&src=bsky
-    card: assets/cards/litvinenko-inquiry/q-459a007b.png
-    scheduled: 2026-10-28
-    posted_url: null
   - id: uk-leveson-inquiry:1-2-follows-from-criticisms:91283f15
     report: uk-leveson-inquiry
     paragraph: 1-2-follows-from-criticisms
@@ -161,23 +131,6 @@ items:
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents&h=Health%20Proposal%22%20explained%3A%20|%22Doubt%20is%20our%20product%20since%20it%20is%20the%20best%20means%20of%20competing%20with%20the%20'body%20of%20fact'%20that%20exists%20in%20the%20mind%20of%20the%20general%20public.%20It%20is%20also%20the%20means%20of%20establishing%20a%20controversy.%22|%20690010951-0959%20at%200959&src=bsky
     card: assets/cards/us-v-philip-morris/q-ba1309d6.png
     scheduled: 2026-10-30
-    posted_url: null
-  - id: litvinenko-inquiry:9-187-open-evidence-i:a296dceb
-    report: litvinenko-inquiry
-    paragraph: 9-187-open-evidence-i
-    quote: The open evidence that I have set out above establishes a strong
-      circumstantial case that the Russian State was responsible for Mr
-      Litvinenko's death.
-    text: >-
-      “The open evidence that I have set out above establishes a strong
-      circumstantial case that the Russian State was responsible for Mr
-      Litvinenko's death.”
-
-
-      — The Litvinenko Inquiry, p. 239
-    link: https://reportsthatmatter.org/reports/litvinenko-inquiry?p=9-187-open-evidence-i&h=9.187%20|The%20open%20evidence%20that%20I%20have%20set%20out%20above%20establishes%20a%20strong%20circumstantial%20case%20that%20the%20Russian%20State%20was%20responsible%20for%20Mr%20Litvinenko's%20death.|&src=bsky
-    card: assets/cards/litvinenko-inquiry/q-c21245f7.png
-    scheduled: 2026-10-31
     posted_url: null
   - id: uk-leveson-inquiry:suffice-say-bearing-mind-my:16ecb582
     report: uk-leveson-inquiry
@@ -480,4 +433,19 @@ items:
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=june-14-2017-media-reported&h=interest%20and%20must%20be%20removed.%20|McGahn%20did%20not%20carry%20out%20the%20direction%2C%20however%2C%20deciding%20that%20he%20would%20resign%20rather%20than%20trigger%20what%20he%20regarded%20as%20a%20potential%20Saturday%20Night%20Massacre.|&src=bsky
     card: assets/cards/us-mueller-report/q-a09979ab.png
     scheduled: 2026-11-18
+    posted_url: null
+  - id: columbia-accident:strategies-must-increase-clarity-strength:651df4c0
+    report: columbia-accident
+    paragraph: strategies-must-increase-clarity-strength
+    quote: Twice in NASA history, the agency embarked on a slippery slope that
+      resulted in catastrophe.
+    text: >-
+      “Twice in NASA history, the agency embarked on a slippery slope that
+      resulted in catastrophe.”
+
+
+      — Columbia Accident Investigation Board Report, Volume I, p. 203
+    link: https://reportsthatmatter.org/reports/columbia-accident?p=strategies-must-increase-clarity-strength&h=challenge%20assumptions%20about%20risk.%20|Twice%20in%20NASA%20history%2C%20the%20agency%20embarked%20on%20a%20slippery%20slope%20that%20resulted%20in%20catastrophe.|%20Each%20decision%2C%20taken%20by&src=bsky
+    card: assets/cards/columbia-accident/q-4b46b1d0.png
+    scheduled: 2026-11-19
     posted_url: null

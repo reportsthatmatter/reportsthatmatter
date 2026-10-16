@@ -7,7 +7,7 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { app } from "../src/index";
-import { CONTACT_PATH, REMOVAL_ISSUE_URL, TEXT_DEFECT_ISSUE_URL } from "../src/templates/site";
+import { CONTACT_EMAIL, CONTACT_PATH, REMOVAL_ISSUE_URL, TEXT_DEFECT_ISSUE_URL } from "../src/templates/site";
 
 const get = async (path: string) => (await app.request(`http://localhost${path}`)).text();
 const registry = readFileSync(join(import.meta.dirname, "../reports/registry.yaml"), "utf8");
@@ -60,6 +60,9 @@ describe("contact and removal route", () => {
     expect(html).toContain(REMOVAL_ISSUE_URL);
     expect(html).toContain(TEXT_DEFECT_ISSUE_URL);
     expect(html).toContain("within a day");
+    expect(CONTACT_EMAIL).toBe("contact@reportsthatmatter.org");
+    expect(html).toContain(`href="mailto:${CONTACT_EMAIL}"`);
+    expect(html.indexOf(`mailto:${CONTACT_EMAIL}`)).toBeLessThan(html.indexOf(REMOVAL_ISSUE_URL));
     for (const url of [REMOVAL_ISSUE_URL, TEXT_DEFECT_ISSUE_URL]) {
       const template = url.match(/template=([\w.-]+)$/)![1];
       expect(existsSync(join(import.meta.dirname, "../.github/ISSUE_TEMPLATE", template)), template).toBe(true);

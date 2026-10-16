@@ -27,6 +27,12 @@ Rufus, 2026-10-16: recommended default accepted. MIT for code (site, ingest, too
 
 Implementation (site PR #347 and one licence PR per public repo, folded in here from #347's draft record so there is one 0024): code (site, ingest, factory, visual-changelog, design-experiments, and the build files in each report repo) is MIT, Copyright (c) 2026 Rufus Pollock and contributors, as a standard `LICENSE` file so GitHub shows MIT. Each report repo's `LICENSE` states three things: the report text's status with the report's own notice quoted, our markup, processing and editorial additions under CC BY 4.0, and the code under MIT (`LICENSE-MIT`). Where the report's own notice does not support a licence, the file says so instead of naming one: Hillsborough (the PDF imprint and the Panel's website terms reserve the rights in the report to the Panel) and Lehman (a court filing by a court-appointed examiner and his law firm, who were not federal employees). Columbia and 9/11 are treated as US government works with that caveat noted; Saville's OGL comes from GOV.UK, its imprint giving the HMSO reuse terms. The registry's `license` (JSON-LD) is set only where the repo records one, and is absent for Hillsborough and Lehman.
 
+Rufus, 2026-10-17: "go with your recommendations" on three follow-ups.
+
+- Hillsborough (reportsthatmatter-9kn4): keep serving the report while asking. Rufus will send the question to the Home Office, copying psi@nationalarchives.gov.uk; the email text is in the bead's notes. The registry licence stays absent and the repo LICENSE keeps its takedown line until there is an answer.
+- Lehman (reportsthatmatter-hx7j): keep it live; low risk. The bead stays open as a low-priority ask to Jenner & Block; nothing is claimed beyond "not established".
+- The copyright holder in the MIT licence stays "Rufus Pollock and contributors" (not Datopian or Life Itself; the git history is all Rufus Pollock's).
+
 ## Consequences
 
 - Leveson's README no longer says "Public domain": the report is Crown copyright under the Open Government Licence (version not stated in its 2012 imprint).
