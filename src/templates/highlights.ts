@@ -4,10 +4,11 @@ import { renderLayout } from "./layout";
 /**
  * The reader's own highlights.
  *
- * Rendered by the browser, not here, because the server has never been told
- * what anyone highlighted — that is the point of the feature, not a limitation
- * of it. This page is the shell and the empty state; `highlights-page.js`
- * fills it from local storage.
+ * Rendered by the browser, not here: the list itself lives only in the
+ * reader's local storage. (The words of each Save, Copy link, Copy quote or
+ * Share are separately recorded anonymously in `marks` by /api/mark, to count
+ * what readers find important; the page says so.) This page is the shell and
+ * the empty state; `highlights-page.js` fills it from local storage.
  */
 export function renderHighlights(): string {
   const body = `
@@ -17,7 +18,7 @@ export function renderHighlights(): string {
       <div class="measure">
         <p class="kicker mono">Yours</p>
         <h1>Highlights</h1>
-        <p class="byline mono">Kept in this browser · never sent to us</p>
+        <p class="byline mono">Kept in this browser</p>
       </div>
     </header>
 
@@ -32,6 +33,10 @@ export function renderHighlights(): string {
     <div class="wrap measure highlights-actions mono" id="highlights-actions" hidden>
       <button type="button" data-export="markdown">Copy as Markdown</button>
       <button type="button" data-export="json">Copy as JSON</button>
+    </div>
+
+    <div class="wrap measure">
+      <p class="byline mono">Your list stays in this browser. When you save or share a passage, its words are also sent to us, with no account, no cookie and nothing that names you, so we can count which passages readers mark.</p>
     </div>
   </article>
 </main>`;

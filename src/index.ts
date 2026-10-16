@@ -316,8 +316,9 @@ async function buildSearchResults(
 app.get("/about", (c) => c.html(renderAbout()));
 app.get("/press", (c) => c.html(renderPress()));
 
-// The reader's own highlights. The server holds none of them — this is the
-// shell, and the browser fills it from local storage.
+// The reader's own highlights. The list lives only in the browser: this is the
+// shell, and the browser fills it from local storage. (The words of each save
+// or share are recorded anonymously in `marks` via /api/mark; the page says so.)
 app.get("/highlights", (c) => c.html(renderHighlights()));
 
 /**

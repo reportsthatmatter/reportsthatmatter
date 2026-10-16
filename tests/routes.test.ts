@@ -526,3 +526,14 @@ describe("structured data", () => {
     expect(json).not.toContain("</script");
   });
 });
+
+describe("highlights page privacy copy", () => {
+  it("does not claim the words are never sent to us, and says what is sent", async () => {
+    const res = await app.request("http://localhost/highlights");
+    expect(res.status).toBe(200);
+    const html = await res.text();
+    expect(html).not.toContain("never sent to us");
+    expect(html).toContain("its words are also sent to us");
+    expect(html).toContain("Kept in this browser");
+  });
+});

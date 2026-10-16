@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-16 — A correction about highlights
+
+**Correction.** The 21 August entry on saved highlights said that "none of it is sent to us". That was wrong. Your saved list does stay in your browser, but each time you save a passage, copy its link or quote, or share it, its words, report and paragraph are also sent to us, with no account or cookie and nothing that names you, so we can count which passages readers mark. The /highlights page now says so.
+
 ## 2026-10-10 — The Senate Torture Report (ingest v0.27.0)
 
 The Senate Select Committee on Intelligence's Study of the CIA's Detention and Interrogation Program (S. Rept. 113-288: the declassified Executive Summary, findings and conclusions, foreword and the minority views) is now on the site: 55 sections, about 2,350 citable paragraphs, searchable, with its plate, four share cards, an introduction and 14 highlights. It is a scan, so the words are the OCR's: about 270 notes are merged into the note before them, about 84% of note markers are linked, and about 57 paragraphs break mid-sentence. Redactions show inline as "[Redacted]" (9,947 of them), distinct from the report's own "[REDACTED]" substitutions (decision 0020). The processing notes on the report's page list the limits.
