@@ -50,6 +50,15 @@ describe("shared checkout detection", () => {
     expect(sharedTargets(targets, { shared: true })).toEqual([]);
   });
 
+  it("aggregate's refusal says an agent owning no report repo passes VERIFY_SHARED=1, checks reports/, and does not claim it dirties the checkout", () => {
+    const msg = sharedMessage("aggregate", [{ id: "a", dir: main, defaultDir: main }]);
+    expect(msg).toContain(main);
+    expect(msg).toContain("owns no report repo passes VERIFY_SHARED=1");
+    expect(msg).toContain("git status --short reports/");
+    expect(msg).toContain("pnpm ingest worktrees a");
+    expect(msg).not.toContain("dirties it for everyone");
+  });
+
   it("the refusal names the repo, the worktrees helper and --shared", () => {
     const msg = sharedMessage("run", [{ id: "a", dir: main, defaultDir: main }]);
     expect(msg).toContain(main);

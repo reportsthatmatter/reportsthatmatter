@@ -83,7 +83,7 @@ Five to eight things the report found, in the report's order of importance, not 
 
 Rufus's highlights: 8–15 short, striking passages, the kind a reader would mark or share. They are not shown on the landing page. `pnpm seed-highlights --remote` writes them into the site's marks table, so they appear highlighted in the text as any reader's marks do. They are anonymous today, shown as "1 reader"; named highlights are `reportsthatmatter-38k`.
 
-A highlight must be inside a paragraph with an id. Block quotations have no id yet (`reportsthatmatter-dam`), so the check rejects them as highlights. Mark `card: true` on the ones worth a share card.
+A highlight must be inside a paragraph with an id. Block quotations have no id yet (`reportsthatmatter-dam`), so the check rejects them as highlights. Mark `card: true` on the ones worth a share card. In a report flagged `affected_community: true` in the registry a card must be Tier A (strategy section 8): `pnpm editorial` warns (later fails, decision 63cd) on a `card: true` quote with a word such as died, death, killed, victims, or with a name from the file's optional top-level `private_people:` list, and `pnpm posts` lists every such card with what became of it.
 
 ## Quotations: the rules
 
