@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-16 — A new host, a mended Senate study, a cleaner launch queue (ingest v0.28.0)
+
+The site now runs on a new hosting account, with the apex, www and old. addresses unchanged. The Senate Torture Report's paragraphs that the page breaks had cut in two are rejoined: severed paragraphs fall from 57 to 24 and paragraphs split into quotes from 101 to 23, with no words changed (ingest v0.28.0 also checks every report for stray control characters). Ahead of launch, the Bluesky post queue lost the cards that should not go out, the About, Press and report pages link to our Bluesky account, and the launch plan no longer quotes a report count.
+
+---
+
 ## 2026-10-16 — What readers are highlighting
 
 /highlights now shows every visitor what readers have been saving and sharing: the passages, newest first, with their report, section and page, how many times each was highlighted (from two), roughly when, and a link to the exact words. Below them sit the Editor's picks, one passage from each of several reports, so the page is never empty. Nothing about who chose a passage is shown or kept with it, a passage appears about half an hour after it is marked, and the words are always checked against the report first, so the page can only ever quote the report itself. Reports about events with affected communities are left out for now. Your own saved passages have moved to [Yours](/highlights/yours), where you can also turn counting off; [About](/about#what-we-record) says what we record.
