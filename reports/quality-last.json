@@ -1,6 +1,6 @@
 {
-  "ingest": "v0.27.0",
-  "recorded": "2026-10-10",
+  "ingest": "v0.28.0",
+  "recorded": "2026-10-16",
   "reports": {
     "challenger-accident": {
       "severed-into-quote": 85,
@@ -451,12 +451,12 @@
       "quote-share-parity": 2
     },
     "us-senate-cia-torture-report": {
-      "severed-into-quote": 101,
-      "severed-paragraph": 57,
-      "severed-paragraph-capital": 107,
+      "severed-into-quote": 23,
+      "severed-paragraph": 24,
+      "severed-paragraph-capital": 117,
       "numbered-paragraph-glued": 0,
       "unnumbered-page-opening": 0,
-      "bare-footnote-marker": 82,
+      "bare-footnote-marker": 81,
       "bare-marker-after-quote": 32,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
@@ -476,7 +476,7 @@
       "rendered-ol-words-share": 4,
       "numbered-prose-list": 1,
       "ids-per-1k-words": 0,
-      "quote-share-parity": 2
+      "quote-share-parity": 1
     },
     "us-v-philip-morris": {
       "severed-into-quote": 104,
