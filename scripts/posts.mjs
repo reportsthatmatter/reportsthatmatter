@@ -18,6 +18,9 @@
  * Also writes a static local preview, `build/posts-preview.html` — open it
  * in a browser; nothing here is served or deployed.
  *
+ * Prints every card: true highlight in an affected-community report (the registry's affected_community: true) with
+ * what became of it: queued, skipped and why, and whether it is Tier C (src/lib/tier-c.ts; reportsthatmatter-zh1w).
+ *
  * Flags (all explicit; a plain run never does any of this):
  *   --check            write nothing; exit 1 if a not-yet-posted item is stale. The
  *                      scheduled poster's workflow runs this before every post.
@@ -47,6 +50,7 @@ import { resolveCandidate, buildQueue, isoDate, queueViolations, QUEUE_HEADER } 
 import { CARDS } from "../src/generated/cards.ts";
 import { SITE_ORIGIN } from "../src/templates/site.ts";
 import { inScope, reportScope } from "./lib/posts-scope.ts";
+import { affectedCommunityIds, tierCMatch, TIER_C_IS_FAILURE } from "../src/lib/tier-c.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
@@ -64,6 +68,7 @@ if (startIdx >= 0 && !/^\d{4}-\d{2}-\d{2}$/.test(flagStart ?? "")) {
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const titleOf = Object.fromEntries(registry.reports.map((r) => [r.id, r.title]));
 const reportOrder = registry.reports.map((r) => r.id);
+const affected = affectedCommunityIds(registry); // the registry's affected_community flag (zh1w)
 const unknownScope = scope.filter((id) => !titleOf[id]);
 if (unknownScope.length) {
   console.error(`--report: not in reports/registry.yaml: ${unknownScope.join(", ")}`);
@@ -82,6 +87,7 @@ for (const name of editorialFiles) {
   for (const h of source.highlights ?? []) {
     if (!h.card) continue;
     candidates.push({
+      privatePeople: source.private_people ?? [],
       report: source.report,
       reportTitle: titleOf[source.report],
       paragraph: h.paragraph,
@@ -144,22 +150,46 @@ const skipped = [];
 const resolved = [];
 const seen = new Set();
 let defaultCardCount = 0;
+// Every card in an affected-community report with what became of it (zh1w): the reviewer found ten Tier C ones that
+// escaped the queue only by length or page number.
+const affectedCards = [];
 
 for (const candidate of candidates) {
   if (!titleOf[candidate.report]) {
     skipped.push({ report: candidate.report, text: `${candidate.report}/${candidate.paragraph}: not in reports/registry.yaml` });
     continue;
   }
+  const inAffected = affected.includes(candidate.report);
+  const tierC = inAffected ? tierCMatch(candidate.quote, candidate.privatePeople) : null;
+  const tierCNote = tierC ? `Tier C (${tierC.kind === "word" ? `word "${tierC.matched}"` : `names ${tierC.matched}`})` : null;
+  const note = (status) => inAffected && affectedCards.push({ report: candidate.report, paragraph: candidate.paragraph, origin: candidate.origin, status, tierC: tierCNote });
+  if (tierC && TIER_C_IS_FAILURE) {
+    const text = `${candidate.report}/${candidate.paragraph}: ${tierCNote} in an affected-community report, refused (strategy section 8, decision 63cd)`;
+    skipped.push({ report: candidate.report, text });
+    note(`skipped: ${text.split(": ").slice(1).join(": ")}`);
+    continue;
+  }
   const html = htmlFor(candidate.report);
   const result = resolveCandidate(candidate, html, CARDS, SITE_ORIGIN);
   if (!result.ok) {
     skipped.push({ report: candidate.report, text: result.problem });
+    note(`skipped: ${result.problem.replace(`${candidate.report}/${candidate.paragraph}: `, "")}`);
     continue;
   }
-  if (seen.has(result.item.id)) continue; // same quote reached us from both sources
+  if (seen.has(result.item.id)) {
+    note("duplicate of an item already in the queue");
+    continue; // same quote reached us from both sources
+  }
   seen.add(result.item.id);
   if (result.item.cardIsDefault) defaultCardCount++;
   resolved.push(result.item);
+  note("would be queued");
+}
+
+if (affectedCards.length) {
+  const tierCCount = affectedCards.filter((c) => c.tierC).length;
+  console.log(`${affectedCards.length} card: true highlight(s) in affected-community reports, ${tierCCount} Tier C${tierCCount && !TIER_C_IS_FAILURE ? " (queued today: Tier C is a warning until decision 63cd)" : ""}:`);
+  for (const c of affectedCards) console.log(`  ${c.tierC ? "!" : "-"} ${c.report}/${c.paragraph} [${c.origin}]: ${c.status}${c.tierC ? `; ${c.tierC}` : ""}`);
 }
 
 const mine = inScope(skipped, scope);

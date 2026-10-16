@@ -217,10 +217,9 @@ export type QueueItem = {
 // the marketing strategy (marketing repo, strategy/2026-10-strategy.md section 8)
 // and the affected-community review of 9 Oct 2026.
 //
-// TODO(reportsthatmatter-63cd, needs-user): the tier rule itself (Tier A only
-// may be a card or an automated post for affected_community reports) is not
-// enforced here or in the poster until that decision lands. Today it is
-// enforced by hand: no card: true on a Tier B/C highlight.
+// The tier rule (strategy section 8) is checked in src/lib/tier-c.ts: `pnpm editorial` warns on a Tier C card: true
+// in an affected_community report and `pnpm posts` lists them. TIER_C_IS_FAILURE there is the one constant 63cd
+// (needs-user) flips to make it a failure and have the poster refuse them. Tier B is not checkable by machine.
 
 /** Reports whose items are spaced at least SPACING_DAYS apart: heavy subjects, never two in a fortnight. */
 export const SPACED_REPORTS: readonly string[] = ["uk-post-office-horizon-inquiry", "uk-grenfell-tower-inquiry"];

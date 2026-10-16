@@ -31,6 +31,13 @@ describe("registry", () => {
     expect(ids).toContain("jack-smith-vol1");
   });
 
+  it("flags the affected-community reports (zh1w), only ever as true", async () => {
+    const registry = await loadRegistry("local");
+    for (const report of registry.reports) expect([undefined, true], `${report.id}: affected_community`).toContain(report.affected_community);
+    const flagged = registry.reports.filter((r) => r.affected_community).map((r) => r.id);
+    for (const id of ["uk-grenfell-tower-inquiry", "uk-hillsborough-panel", "uk-post-office-horizon-inquiry", "uk-saville-inquiry", "us-911-commission", "us-deepwater-horizon", "challenger-accident", "columbia-accident", "us-senate-cia-torture-report"]) expect(flagged).toContain(id);
+  });
+
   it("gives every report a source path", async () => {
     const registry = await loadRegistry("local");
     for (const report of registry.reports) {

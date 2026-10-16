@@ -18,6 +18,8 @@ export type ReportRegistry = {
     issued_by?: string;
     /** Machine date for `published_at`: ISO 8601, `YYYY-MM-DD` or `YYYY-MM` where only the month is known. */
     date_published?: string;
+    /** About events with affected communities (strategy section 8, decision 63cd): the feed leaves it out, and `pnpm editorial` / `pnpm posts` hold its highlights to the tier rule. */
+    affected_community?: boolean;
     /** The report repository on GitHub (`github.com/reportsthatmatter/<repo>`). */
     repo?: string;
     /** The report's own licence, only where a repository or processing note records one. */

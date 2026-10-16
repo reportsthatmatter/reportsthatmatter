@@ -91,3 +91,25 @@ describe("pnpm editorial --check", () => {
     expect(run("--help").stdout).toContain("--check");
   });
 });
+
+describe("Tier C card: true in an affected-community report (zh1w)", () => {
+  const withHighlight = (quote: string) => {
+    writeFileSync(join(dir, "reports/registry.yaml"), "reports:\n  - id: demo\n    affected_community: true\n");
+    writeFileSync(join(dir, "editorial/demo.yaml"), yaml('who replied "So what?"').replace("status: draft", "status: approved") + `highlights:\n  - paragraph: so-what\n    quote: ${JSON.stringify(quote)}\n    card: true\n`);
+  };
+
+  it("passes a Tier A card without a warning", () => {
+    withHighlight("The riot continued.");
+    const out = run();
+    expect(out.status).toBe(0);
+    expect(out.stderr).not.toContain("Tier C");
+  });
+
+  it("warns, naming file, paragraph and word, for a Tier C card (a warning until decision 63cd)", () => {
+    withHighlight("Many died as the riot continued.");
+    writeFileSync(join(dir, "assets/generated/reports/demo/full-body.html"), BODY.replace("The riot continued.", "Many died as the riot continued."));
+    const out = run();
+    expect(out.status).toBe(0);
+    expect(out.stderr).toContain('demo/so-what: card: true on a Tier C highlight (word "died")');
+  });
+});
