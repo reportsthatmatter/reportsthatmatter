@@ -294,15 +294,15 @@
     "headings-spurious": 42,
     "markers-unlinked": 523,
     "markers-spurious": 71,
-    "paragraphs-oversplit": 143,
-    "paragraphs-merged": 2251,
-    "quotes-spurious": 153,
-    "quotes-missed": 189,
+    "paragraphs-oversplit": 116,
+    "paragraphs-merged": 2285,
+    "quotes-spurious": 126,
+    "quotes-missed": 217,
     "note-off-page": 20
    },
    "golden": {
-    "match": 3,
-    "total": 7,
+    "match": 6,
+    "total": 10,
     "known": 4
    }
   },
