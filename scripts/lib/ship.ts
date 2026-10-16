@@ -129,6 +129,8 @@ export interface Probe {
   /** `git diff --numstat` rows [added, removed, path] for the paths against HEAD. */
   numstat(dir: string, paths: string[]): Array<[number, number, string]>;
   sha(file: string): string | null;
+  /** null when `<base>/` and `<base>/health` answer 200 (not a Cloudflare error page); else `production not reachable: <status> <cf error code>`. */
+  prodUnreachable(base: string): Promise<string | null>;
   /** Today's (UTC) D1 usage: Cloudflare analytics and the shared ledger (lib/d1-usage.ts). */
   d1Today(): Promise<Today>;
 }
@@ -661,8 +663,10 @@ export function buildSteps(): Step[] {
       id: "status",
       title: "Which reports does production serve a different text for?",
       kind: "read",
-      describe: (ctx) => ["pnpm prerender                    (a merge may have touched mtimes; the prerender refuses a stale stamp)", `pnpm publish-report --all --status --base ${ctx.base}   (read-only: no secret, no writes)`, "to-publish = the DRIFT / not-published reports it lists (recorded in the state)"],
+      describe: (ctx) => [`GET ${ctx.base}/ and /health first: a non-200 or a Cloudflare error page stops with one "production not reachable: <status> <cf error code>" line`, "pnpm prerender                    (a merge may have touched mtimes; the prerender refuses a stale stamp)", `pnpm publish-report --all --status --base ${ctx.base}   (read-only: no secret, no writes)`, "to-publish = the DRIFT / not-published reports it lists (recorded in the state)"],
       async run(rt) {
+        const down = await rt.probe.prodUnreachable(rt.ctx.base);
+        if (down) throw new Stop(`status: ${down}`, [`curl -sI ${rt.ctx.base}/health`, "Nothing was read or written. Fix production (or --base), then re-run `pnpm ship`: the checks above stay done."]);
         const pre = await rt.exec(pnpm("prerender"), "status-prerender");
         if (pre.code !== 0) throw new Stop(`status: pnpm prerender failed\n${tail(pre.stdout)}`, [`log: ${pre.log}`]);
         const r = await rt.exec(pnpm("publish-report", "--all", "--status", "--base", rt.ctx.base), "status-table");
