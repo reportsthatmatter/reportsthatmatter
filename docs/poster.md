@@ -19,7 +19,7 @@ After the account exists (reportsthatmatter-y2t.1):
    ```bash
    gh variable set POSTER_LIVE --body true
    ```
-   The next 14:00 UTC run posts. Launch is Tue 2026-10-20 and the queue's first item (Challenger) is dated that day, so nothing is due before then whatever the variable says. `pnpm posts --check` must pass first (it runs in the workflow too).
+   The next 14:00 UTC run posts. Launch is Tue 2026-10-20: switch on that day before 14:00 UTC (the 20 October run posts the queue's first item, Challenger p. 146), or later; nothing is dated before 20 October, so nothing is due before then whatever the variable says. `pnpm posts --check` must pass first (it runs in the workflow too). Rufus's order for the day is `drafts/2026-10/launch-day-checklist.md` in the marketing repo.
 5. **Switch off:** set `POSTER_LIVE` to `false` or delete the variable. A scheduled run goes back to a dry run at once.
 
 The three states:
