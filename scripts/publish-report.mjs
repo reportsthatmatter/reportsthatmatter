@@ -48,8 +48,9 @@ import { contentHash, extractPassages, manifestFor, tokenFor } from "@rtm/ingest
 import { readLocalFiles } from "./lib/publish-local.mjs";
 import { makePublishCall } from "./lib/publish-call.ts";
 import { wranglerRunner } from "./lib/d1.ts";
-import { FREE_TIER_DAILY_WRITES, probeWrite, verdict } from "./lib/d1-probe.ts";
-import { FREE_TIER, usageToday } from "./lib/d1-usage.ts";
+import { probeWrite, verdict } from "./lib/d1-probe.ts";
+import { dailyLimits, usageToday } from "./lib/d1-usage.ts";
+const FREE_TIER = dailyLimits(); // the target account's daily budget (lib/d1-usage.ts)
 import { describePlan, estimatedReindexReads, planReport } from "./lib/reindex-run.ts";
 import { DEFAULT_COST } from "./lib/reindex.ts";
 
@@ -74,7 +75,7 @@ const isLocal = base.includes("localhost") || base.includes("127.0.0.1");
 const d1Target = isLocal ? "--local" : "--remote";
 const root = join(import.meta.dirname, "..");
 const run = wranglerRunner(root);
-const limit = Number(flag("--limit") ?? FREE_TIER_DAILY_WRITES);
+const limit = Number(flag("--limit") ?? FREE_TIER.rowsWritten);
 
 /**
  * Can D1 take writes, what does a search row cost, and does this publish fit today's headroom? Prints the answer

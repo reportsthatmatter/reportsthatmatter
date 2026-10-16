@@ -29,8 +29,8 @@ import { basename, join, relative, resolve } from "node:path";
 import { parse } from "yaml";
 import { reportDirs } from "./lib/report-dirs.ts";
 import { parseShipArgs } from "./lib/ship-args.ts";
-import { FREE_TIER_DAILY_WRITES } from "./lib/d1-probe.ts";
-import { FREE_TIER, usageToday } from "./lib/d1-usage.ts";
+import { dailyLimits, usageToday } from "./lib/d1-usage.ts";
+const FREE_TIER = dailyLimits(); // the target account's daily budget (lib/d1-usage.ts)
 import { buildSteps, drive, fileSha, formatPlan, freshState, movedReports, STEP_ORDER, versionOf, type Cmd, type Ctx, type ExecResult, type Probe, type Repo, type Runtime, type State, type StepId } from "./lib/ship.ts";
 
 const SITE = join(import.meta.dirname, "..");
@@ -102,7 +102,7 @@ const ctx: Ctx = {
   shared: flag("--shared"),
   yes: flag("--yes"),
   allowDirty: flag("--allow-dirty"),
-  d1Limit: Number(opt("--d1-limit") ?? FREE_TIER_DAILY_WRITES),
+  d1Limit: Number(opt("--d1-limit") ?? FREE_TIER.rowsWritten),
   d1ReadLimit: Number(opt("--d1-read-limit") ?? FREE_TIER.rowsRead),
   has,
 };

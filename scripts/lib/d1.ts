@@ -5,6 +5,7 @@
  */
 import { execFileSync } from "node:child_process";
 import { metaTotals, recordUsage } from "./d1-usage";
+import { accountArgs } from "./migrate-hosting";
 import { parseLayout, runsOf, type Layout, type StoredPassage } from "./reindex";
 
 export const DB_NAME = "reportsthatmatter-marks";
@@ -17,7 +18,8 @@ export type Statement = { results: Array<Record<string, unknown>>; meta: Meta; s
 export type Runner = (target: Target, sql: { command: string } | { file: string }) => Statement[];
 
 export const wranglerRunner = (cwd: string): Runner => (target, sql) => {
-  const args = ["wrangler", "d1", "execute", DB_NAME, target, "--json", ...("command" in sql ? ["--command", sql.command] : ["--file", sql.file])];
+  // The account's wrangler flags (RTM_CF_ACCOUNT, default datopian; docs/hosting-migration.md), never the directory binding.
+  const args = ["wrangler", "d1", "execute", DB_NAME, target, "--json", ...(target === "--remote" ? accountArgs() : []), ...("command" in sql ? ["--command", sql.command] : ["--file", sql.file])];
   let out: string;
   try {
     out = execFileSync("pnpm", args, { cwd, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], maxBuffer: 256 * 1024 * 1024 });
