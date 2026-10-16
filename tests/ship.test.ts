@@ -10,6 +10,8 @@ import {
   estimatedWrites,
   formatPlan,
   freshState,
+  IGNORED_DIRTY_PATH,
+  treeLines,
   guardProblems,
   movedReports,
   pinTable,
@@ -494,6 +496,25 @@ describe("drive: gates and hard stops", () => {
     expect(out(h)).toContain("status: production not reachable: 530 1016");
     expect(ran(h.calls, "publish-report")).toEqual([]);
     expect(ran(h.calls, "prerender")).toEqual([]);
+  });
+
+  it("ignores bd's auto-exported .beads/issues.jsonl in the clean-tree checks, and only that path", async () => {
+    expect(IGNORED_DIRTY_PATH).toBe(".beads/issues.jsonl");
+    expect(treeLines([" M .beads/issues.jsonl", "M  .beads/issues.jsonl", "?? .beads/issues.jsonl"])).toEqual([]);
+    expect(treeLines([" M .beads/issues.jsonl", " M reports/beta/aliases.yaml", " M .beads/other.jsonl"])).toEqual([" M reports/beta/aliases.yaml", " M .beads/other.jsonl"]);
+    expect(treeLines(null)).toEqual([]);
+
+    const only = { "/site": [" M .beads/issues.jsonl"] };
+    const h = harness({ handler: happy, probe: { dirty: only }, ctx: { yes: true } });
+    expect(await drive(h.rt, buildSteps(), { from: "committed" })).toBe(0);
+    expect(guardProblems(ctx(), fakeProbe({ dirty: { "/site:.": [" M .beads/issues.jsonl"] } }).probe)).toEqual([]);
+
+    const both = { "/site": [" M .beads/issues.jsonl", " M reports/beta/aliases.yaml"] };
+    const h2 = harness({ handler: happy, probe: { dirty: both }, ctx: { yes: true } });
+    expect(await drive(h2.rt, buildSteps(), { from: "committed" })).toBe(1);
+    const text = out(h2);
+    expect(text).toContain("reports/beta/aliases.yaml");
+    expect(text).not.toContain("issues.jsonl");
   });
 
   it("stops before publishing when the D1 estimate does not fit today's quota", async () => {
