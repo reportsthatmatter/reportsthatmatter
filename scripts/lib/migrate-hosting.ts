@@ -8,10 +8,11 @@
 export type Account = { name: "atomatic" | "datopian"; accountId: string; wrangler: string[]; profile: string; databaseId: string };
 
 export const ACCOUNTS: Record<Account["name"], Account> = {
-  // office@atomatic.net: production until the cutover. `--profile default` is explicit so the call does not depend on the cwd's binding.
-  atomatic: { name: "atomatic", accountId: "d342705a2f17c3e08a5dab494564e406", wrangler: ["--profile", "default"], profile: "default", databaseId: "5200e0db-733d-40d6-962e-2f1eb024f060" },
-  // accounts@datopian.com (Workers Paid): `[env.datopian]` in wrangler.toml carries its account_id and bindings.
-  datopian: { name: "datopian", accountId: "83025b28472d6aa2bf5ae59f3724aa78", wrangler: ["--env", "datopian", "--profile", "datopian"], profile: "datopian", databaseId: "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec" },
+  // office@atomatic.net: production until 2026-10-16, now `[env.atomatic]` in wrangler.toml (rollback and decommission only).
+  atomatic: { name: "atomatic", accountId: "d342705a2f17c3e08a5dab494564e406", wrangler: ["--env", "atomatic", "--profile", "default"], profile: "default", databaseId: "5200e0db-733d-40d6-962e-2f1eb024f060" },
+  // accounts@datopian.com (Workers Paid): production, the top level of wrangler.toml. `--profile datopian` because
+  // ~/src/reportsthatmatter is bound to wrangler's atomatic `default` profile until Rufus rebinds it.
+  datopian: { name: "datopian", accountId: "83025b28472d6aa2bf5ae59f3724aa78", wrangler: ["--env", "", "--profile", "datopian"], profile: "datopian", databaseId: "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec" },
 };
 
 export const TABLES = ["marks", "search_index_versions", "report_versions", "passages"] as const;
@@ -83,15 +84,11 @@ export function staleReports(source: IndexVersion[], target: IndexVersion[]): st
   }).map((s) => s.report);
 }
 
-/**
- * The account the scripts' remote wrangler calls go to: `RTM_CF_ACCOUNT=datopian|atomatic`. Unset means no flags,
- * i.e. wrangler's own resolution (this tree's directory binding: atomatic until the cutover).
- */
-export function accountFromEnv(env: NodeJS.ProcessEnv = process.env): Account | null {
-  const name = env.RTM_CF_ACCOUNT;
-  if (!name) return null;
+/** The account the scripts' remote wrangler calls go to: `RTM_CF_ACCOUNT=datopian|atomatic`, default datopian (production). */
+export function accountFromEnv(env: NodeJS.ProcessEnv = process.env): Account {
+  const name = env.RTM_CF_ACCOUNT || "datopian";
   if (name !== "atomatic" && name !== "datopian") throw new Error(`RTM_CF_ACCOUNT=${name}: expected atomatic or datopian`);
   return ACCOUNTS[name];
 }
 
-export const accountArgs = (env: NodeJS.ProcessEnv = process.env): string[] => accountFromEnv(env)?.wrangler ?? [];
+export const accountArgs = (env: NodeJS.ProcessEnv = process.env): string[] => accountFromEnv(env).wrangler;

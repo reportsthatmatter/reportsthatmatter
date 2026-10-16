@@ -14,13 +14,11 @@ fi
 echo "Installing dependencies (if needed)..."
 pnpm install
 
-# RTM_CF_ACCOUNT=datopian deploys to the Datopian account ([env.datopian] in wrangler.toml) with its own
-# wrangler profile, whatever this directory is bound to (docs/hosting-migration.md). Unset: wrangler's defaults.
-ACCOUNT_ARGS=()
-case "${RTM_CF_ACCOUNT:-}" in
-  "") ;;
-  datopian) ACCOUNT_ARGS=(--env datopian --profile datopian) ;;
-  atomatic) ACCOUNT_ARGS=(--profile default) ;;
+# Production is the Datopian account (top level of wrangler.toml), reached with its wrangler profile whatever this
+# directory is bound to. RTM_CF_ACCOUNT=atomatic deploys [env.atomatic] instead (rollback only; docs/hosting-migration.md).
+case "${RTM_CF_ACCOUNT:-datopian}" in
+  datopian) ACCOUNT_ARGS=(--env "" --profile datopian) ;;
+  atomatic) ACCOUNT_ARGS=(--env atomatic --profile default) ;;
   *) echo "RTM_CF_ACCOUNT=${RTM_CF_ACCOUNT}: expected datopian or atomatic" >&2; exit 1 ;;
 esac
 

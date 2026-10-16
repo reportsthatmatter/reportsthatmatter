@@ -38,9 +38,9 @@ describe("migrate-hosting", () => {
     expect(staleReports([v("a", "1"), v("b", "2", 5), v("c", "3")], [v("a", "1"), v("b", "2", 4)])).toEqual(["b", "c"]);
   });
 
-  it("selects the account from RTM_CF_ACCOUNT, and nothing when unset", () => {
-    expect(accountArgs({})).toEqual([]);
-    expect(accountArgs({ RTM_CF_ACCOUNT: "datopian" })).toEqual(["--env", "datopian", "--profile", "datopian"]);
+  it("selects the account from RTM_CF_ACCOUNT, Datopian (production) when unset", () => {
+    expect(accountArgs({})).toEqual(["--env", "", "--profile", "datopian"]);
+    expect(accountArgs({ RTM_CF_ACCOUNT: "atomatic" })).toEqual(["--env", "atomatic", "--profile", "default"]);
     expect(() => accountArgs({ RTM_CF_ACCOUNT: "nope" })).toThrow(/expected/);
   });
 });

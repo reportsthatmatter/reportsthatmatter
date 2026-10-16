@@ -18,7 +18,7 @@ to check when the live site looks stale. `scripts/verify.sh` runs against either
 VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh  # deployed
 ```
 
-Cloudflare account: `office@atomatic.net`. Deploy with `pnpm wrangler deploy`.
+Cloudflare account: Datopian (Workers Paid; [docs/hosting-migration.md](docs/hosting-migration.md)). Deploy with `./scripts/deploy-cloudflare.sh`.
 
 ## Contributing / picking this up
 

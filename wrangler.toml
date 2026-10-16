@@ -1,5 +1,9 @@
 name = "reportsthatmatter"
 main = "src/index.ts"
+# The Datopian account (accounts@datopian.com, Workers Paid; decision 2oz, epic 4g4d, docs/hosting-migration.md).
+# Wrangler needs `--profile datopian` until ~/src/reportsthatmatter is bound to that profile; the scripts pass it
+# (scripts/lib/migrate-hosting.ts). The old atomatic account is `[env.atomatic]` below, for rollback only.
+account_id = "83025b28472d6aa2bf5ae59f3724aa78"
 compatibility_date = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
 
@@ -11,10 +15,12 @@ rules = [
 # preview/comparison URL and it is what verify.sh points at with VERIFY_BASE.
 workers_dev = true
 
+# Workers custom domains: the Worker owns each hostname and Cloudflare manages its DNS record and certificate.
+# A deploy fails (code 100117) while a hand-made or scanned DNS record exists for one of them: delete it first.
 routes = [
-  { pattern = "reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
-  { pattern = "www.reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
-  { pattern = "old.reportsthatmatter.org/*", zone_name = "reportsthatmatter.org" },
+  { pattern = "reportsthatmatter.org", custom_domain = true },
+  { pattern = "www.reportsthatmatter.org", custom_domain = true },
+  { pattern = "old.reportsthatmatter.org", custom_domain = true },
 ]
 
 [vars]
@@ -39,7 +45,7 @@ run_worker_first = true
 [[d1_databases]]
 binding = "DB"
 database_name = "reportsthatmatter-marks"
-database_id = "5200e0db-733d-40d6-962e-2f1eb024f060"
+database_id = "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec"
 migrations_dir = "migrations"
 
 # Published report content, addressed by content hash (§3 of
@@ -59,30 +65,28 @@ binding = "CF_VERSION_METADATA"
 [dev]
 local_protocol = "http"
 
-# The Datopian account (Workers Paid; decision reportsthatmatter-2oz, epic 4g4d). Selected with
-# `--env datopian --profile datopian` on every wrangler call: `--profile` picks the credentials without
-# touching the directory bindings (this tree is bound to the atomatic `default` profile), and `account_id`
-# here pins the account. Bindings are not inherited by an environment, so they are repeated. No routes until
-# the cutover (docs/hosting-migration.md): it serves on its workers.dev URL only.
-[env.datopian]
+# The office@atomatic.net account, production until 2026-10-16: kept, unrouted, for rollback and the final
+# marks sync (`pnpm migrate-hosting sync-d1`) until decommission (docs/hosting-migration.md (f)). Reach it with
+# `--env atomatic --profile default`. Serves only https://reportsthatmatter.office-d34.workers.dev.
+[env.atomatic]
 name = "reportsthatmatter"
-account_id = "83025b28472d6aa2bf5ae59f3724aa78"
+account_id = "d342705a2f17c3e08a5dab494564e406"
 workers_dev = true
 routes = []
 
-[env.datopian.vars]
+[env.atomatic.vars]
 REPORTS_SOURCE = "bundled"
 LEGACY_BASE = "https://reportsthatmatter.github.io/reportsthatmatter"
 
-[[env.datopian.d1_databases]]
+[[env.atomatic.d1_databases]]
 binding = "DB"
 database_name = "reportsthatmatter-marks"
-database_id = "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec"
+database_id = "5200e0db-733d-40d6-962e-2f1eb024f060"
 migrations_dir = "migrations"
 
-[[env.datopian.r2_buckets]]
+[[env.atomatic.r2_buckets]]
 binding = "CONTENT"
 bucket_name = "reportsthatmatter-content"
 
-[env.datopian.version_metadata]
+[env.atomatic.version_metadata]
 binding = "CF_VERSION_METADATA"

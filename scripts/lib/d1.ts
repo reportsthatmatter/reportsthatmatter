@@ -18,7 +18,7 @@ export type Statement = { results: Array<Record<string, unknown>>; meta: Meta; s
 export type Runner = (target: Target, sql: { command: string } | { file: string }) => Statement[];
 
 export const wranglerRunner = (cwd: string): Runner => (target, sql) => {
-  // RTM_CF_ACCOUNT=datopian sends the call to the Datopian account (docs/hosting-migration.md); unset, wrangler's own resolution applies.
+  // The account's wrangler flags (RTM_CF_ACCOUNT, default datopian; docs/hosting-migration.md), never the directory binding.
   const args = ["wrangler", "d1", "execute", DB_NAME, target, "--json", ...(target === "--remote" ? accountArgs() : []), ...("command" in sql ? ["--command", sql.command] : ["--file", sql.file])];
   let out: string;
   try {

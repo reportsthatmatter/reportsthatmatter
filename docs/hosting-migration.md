@@ -2,12 +2,19 @@
 
 Runbook for moving reportsthatmatter.org from the `office@atomatic.net` Cloudflare account (free plan) to the Datopian account (`accounts@datopian.com`, Workers Paid). Decision: bead `reportsthatmatter-2oz` (Rufus, 2026-10-16: migrate ASAP, Worker, D1, R2 and the domain). Epic `reportsthatmatter-4g4d`. The site is not publicly launched yet, so Rufus accepts a short outage at the switch; there is no proxy-Worker interim (option (b) below records why it was considered and dropped).
 
+## Status (2026-10-16, 18:45 UTC)
+
+- Datopian resources exist and pass verify on https://reportsthatmatter.datopian.workers.dev (step 1 done). D1 copied and re-synced (no marks or reindexes on atomatic since); R2: every report's current version copied, older versions (for `--rollback`) still copying.
+- Rufus added the zone on Datopian (`9aa68c2e0a324d10a69a117155fe3f11`, nameservers glen/pam.ns.cloudflare.com) and the registry nameservers changed to it at 18:18 UTC, ahead of steps 3 and 5. The zone's auto-scan created proxied A records for the apex pointing at Cloudflare's own IPs, so production answered Cloudflare error 1000 from ~18:27 UTC, and the custom-domain attach was refused (100117, "externally managed DNS records"). Fix in progress (supervisor): delete the scanned records, attach the custom domains, recreate `_atproto`. Lesson for the steps below: skip the scan, and do step 3 before the nameservers move.
+- This PR switches the repo's default to Datopian (part (d)), since the domain now resolves to the Datopian zone.
+
 ## Where things stand
 
 | | atomatic (production today) | Datopian (staging, then production) |
 |---|---|---|
 | Account id | `d342705a2f17c3e08a5dab494564e406` | `83025b28472d6aa2bf5ae59f3724aa78` |
 | wrangler profile | `default` (what `~/src/reportsthatmatter` is bound to) | `datopian` |
+| `wrangler.toml` | `[env.atomatic]` (after this PR) | top level (after this PR); `[env.datopian]` before it |
 | Worker | `reportsthatmatter`, routes `reportsthatmatter.org/*`, `www.…/*`, `old.…/*`; https://reportsthatmatter.office-d34.workers.dev | `reportsthatmatter`, no routes yet; https://reportsthatmatter.datopian.workers.dev |
 | D1 `reportsthatmatter-marks` | `5200e0db-733d-40d6-962e-2f1eb024f060` | `ceb6c2cc-f9a2-414c-8ff5-476da129e7ec` (WEUR) |
 | R2 `reportsthatmatter-content` | WEUR, 9,841 objects, 1.06 GB (2026-10-16) | WEUR, copied with `pnpm migrate-hosting sync-r2` |
@@ -16,13 +23,12 @@ Runbook for moving reportsthatmatter.org from the `office@atomatic.net` Cloudfla
 
 Everything else production uses: compatibility date 2024-12-01, `nodejs_compat`, static assets (`assets/`, `run_worker_first`), vars `REPORTS_SOURCE` and `LEGACY_BASE`, `[version_metadata]`. No KV, cron triggers, queues, Durable Objects or Analytics Engine. D1 tables: `marks` (303 rows on 2026-10-16), `passages` (FTS5, 46,744 rows), `report_versions` (18), `search_index_versions` (18).
 
-## How an agent targets the Datopian account
+## How an agent targets each account
 
 Without touching wrangler's directory bindings (`~/Library/Preferences/.wrangler/profiles/directory-bindings.json`, which only Rufus changes):
 
-- **wrangler directly:** add `--env datopian --profile datopian`. `--profile` is wrangler's global flag (there is no environment variable for it; `WRANGLER_PROFILE` is not read). `[env.datopian]` in `wrangler.toml` carries the `account_id` and the Datopian bindings. Example: `pnpm wrangler d1 execute reportsthatmatter-marks --remote --env datopian --profile datopian --command "SELECT count(*) FROM marks"`.
-- **Expected warning until the switch:** a plain `wrangler deploy` (atomatic, unchanged) now warns "Multiple environments are defined … but no target environment was specified"; it still deploys the top level. `CLOUDFLARE_ENV=datopian` is wrangler's own variable for `--env`, but not for the profile, so it is not enough on its own here.
-- **The repo's scripts:** `RTM_CF_ACCOUNT=datopian`. `scripts/lib/d1.ts` (publish's reindex, `seed-highlights`, `check-search-staleness`, `marks check`), `scripts/deploy-cloudflare.sh` and `pnpm d1-usage` honour it. Unset, they behave as before (wrangler's own resolution: atomatic).
+- **wrangler directly:** Datopian is the top level of `wrangler.toml`, so add `--env "" --profile datopian` (the empty `--env` silences wrangler's "multiple environments" warning). The old account is `--env atomatic --profile default`. `--profile` is wrangler's global flag (there is no environment variable for it; `WRANGLER_PROFILE` is not read). Example: `pnpm wrangler d1 execute reportsthatmatter-marks --remote --env "" --profile datopian --command "SELECT count(*) FROM marks"`. Before this PR the Datopian copy was `[env.datopian]` and the commands in step 1 below use that form.
+- **The repo's scripts:** `RTM_CF_ACCOUNT=datopian|atomatic`, default `datopian`. `scripts/lib/d1.ts` (publish's reindex, `seed-highlights`, `check-search-staleness`, `marks check`), `scripts/deploy-cloudflare.sh` and `pnpm d1-usage` (and its daily budget: `dailyLimits()`) follow it.
 - **Data copy:** `pnpm migrate-hosting` (`--help`). It never writes to the source account.
 
 ## Steps
@@ -119,13 +125,13 @@ The idea: keep the domain on atomatic and replace the atomatic Worker with a thi
 
 ## (d) Switching the repo to Datopian
 
-One PR after step 5 (bead to file at the switch):
+Done in PR #335 (the domain moved early, so the switch went with the copy), except the directory rebinding, which is Rufus's. What changed:
 
-- `wrangler.toml`: Datopian becomes the top level: `account_id = "83025b28472d6aa2bf5ae59f3724aa78"`, D1 `database_id = "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec"`, the routes replaced by `routes = [{ pattern = "reportsthatmatter.org", custom_domain = true }, { pattern = "www.reportsthatmatter.org", custom_domain = true }, { pattern = "old.reportsthatmatter.org", custom_domain = true }]`; drop `[env.datopian]`. Keep the atomatic ids in this runbook for rollback.
+- `wrangler.toml`: Datopian becomes the top level: `account_id = "83025b28472d6aa2bf5ae59f3724aa78"`, D1 `database_id = "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec"`, the routes replaced by `routes = [{ pattern = "reportsthatmatter.org", custom_domain = true }, { pattern = "www.reportsthatmatter.org", custom_domain = true }, { pattern = "old.reportsthatmatter.org", custom_domain = true }]`; `[env.datopian]` dropped; the atomatic ids and bindings kept as `[env.atomatic]` for rollback and the final syncs.
 - Rufus rebinds the directory once: `cd ~/src/reportsthatmatter && pnpm wrangler auth activate datopian` (agents must not edit the bindings). Until then agents add `--profile datopian` (scripts: `RTM_CF_ACCOUNT=datopian`). Afterwards plain `pnpm wrangler …` works again and `pnpm wrangler d1 list` shows the Datopian database.
-- `scripts/lib/migrate-hosting.ts`: `accountFromEnv` defaults to `datopian` (so `d1.ts`, `d1-usage` and `deploy-cloudflare.sh` need no variable).
-- `scripts/lib/d1-usage.ts` `FREE_TIER` and `pnpm ship`'s d1-estimate step: Workers Paid includes 25 billion rows read and 50 million rows written a month (then billed per million), with no daily stop. Replace the daily free-tier refusal with a warning on unusual spend (the t4al and h6b limits no longer apply); the `--no-reindex` and `WHERE report = ?` advice stays (cost, not outage).
-- `scripts/lib/d1-probe.ts` (`FREE_TIER_DAILY_WRITES`, the publish preflight's refusal), `scripts/lib/ship.ts` (limits passed to `fits`), `scripts/d1-usage.mjs` ("the free tier resets at 00:00 UTC" wording and `--alert` percentages), `scripts/lib/d1.ts` `quotaExhausted`: keep the measurement, drop the daily stop.
+- `scripts/lib/migrate-hosting.ts`: `accountFromEnv` defaults to `datopian` (so `d1.ts`, `d1-usage` and `deploy-cloudflare.sh` need no variable); `atomatic` is `--env atomatic --profile default`.
+- `scripts/lib/d1-usage.ts` `FREE_TIER` and `pnpm ship`'s d1-estimate step: Workers Paid includes 25 billion rows read and 50 million rows written a month (then billed per million), with no daily stop. Done as `PAID_DAILY` (a thirtieth of the monthly allowance: 833M reads, 1.67M writes) and `dailyLimits()` in `scripts/lib/d1-usage.ts`, used by `d1-usage`, `publish-report` and `ship`; `FREE_TIER` stays for the atomatic account. The `--no-reindex` and `WHERE report = ?` advice stays (cost, not outage).
+- Not changed: `scripts/lib/d1-probe.ts` `FREE_TIER_DAILY_WRITES` (now only a default for tests and the probe's wording) and `scripts/lib/d1.ts` `quotaExhausted` (a paid account never returns 7500; harmless).
 - `README.md` ("Cloudflare account: office@atomatic.net"), `.claude/skills/integrate-and-ship/SKILL.md` step 6 (D1 budget).
 - `AGENTS.md`: the Deploy section ("Cloudflare account office@atomatic.net") and the Cloudflare paragraph under Working conventions (account, profile, binding, free-tier limits); `docs/release-checklist.md` steps 11 and 13; `docs/d1-usage-alert.md`; `docs/ARCHITECTURE.md` if it names the account.
 - `pnpm publish-report` needs no change (it posts to `--base`, which is the domain), nor do the report repos' tokens (same `PUBLISH_SECRET`).
