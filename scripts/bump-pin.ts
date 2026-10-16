@@ -1,20 +1,24 @@
 /* Bump the @rtm/ingest pin everywhere (reportsthatmatter-jsk3).
  *
- *   pnpm bump-pin <version> [--dry-run] [--shared] [--no-install]
+ *   pnpm bump-pin <version> [--dry-run] [--shared] [--no-install] [--no-push]
  *
  * <version> is the ingest release (0.25.0 or v0.25.0; `pnpm release X.Y.Z` in ingest tags it). It edits the site's
  * package.json, refreshes the site's lockfile and node_modules (`pnpm install --no-frozen-lockfile`: a frozen install
  * refuses a changed pin), does the same in every report repo (RTM_REPORT_DIRS worktrees where they exist), then runs
  * `pnpm ingest preflight`. Report repos that are shared checkouts are refused unless --shared (the integrator's
- * flag, as for `pnpm ingest baseline`). --dry-run prints what it would do and writes nothing. It never commits:
- * commit package.json and pnpm-lock.yaml in the site PR, and in each report repo as that repo's process says.
+ * flag, as for `pnpm ingest baseline`). --dry-run prints what it would do and writes nothing.
+ * It leaves the site uncommitted (package.json and pnpm-lock.yaml go in the site PR), but commits each report
+ * repo's package.json and pnpm-lock.yaml (only those) on that repo's default branch (detected from origin/HEAD:
+ * most use main, columbia-accident and uk-leveson-inquiry use master) and pushes it. --no-push commits without
+ * pushing. A report repo on another branch (a worktree) or with other uncommitted changes is skipped with a
+ * message, and so is every report repo under --no-install (its lockfile would be stale). Never forces.
  * `pnpm ship` does the report-repo half itself (its pin-bump step); use this to open the pin-bump PR.
  */
 import "./lib/help.mjs";
 import { spawnSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { installArgv, normaliseVersion, pinWith, rewritePin, type BumpStep } from "./lib/bump-pin.ts";
+import { commitPinBump, defaultBranch, installArgv, normaliseVersion, pinWith, rewritePin, type BumpStep } from "./lib/bump-pin.ts";
 import { reportDirs } from "./lib/report-dirs.ts";
 import { sharedMessage, sharedTargets, type Target } from "./lib/shared-checkout.ts";
 
@@ -22,15 +26,16 @@ const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
 const flags = args.filter((a) => a.startsWith("--"));
 const positional = args.filter((a) => !a.startsWith("--"));
-const known = ["--dry-run", "--shared", "--no-install"];
+const known = ["--dry-run", "--shared", "--no-install", "--no-push"];
 const bad = flags.filter((f) => !known.includes(f));
 const tag = positional.length === 1 ? normaliseVersion(positional[0]) : null;
 if (bad.length || !tag) {
-  console.error(bad.length ? `unknown flag ${bad.join(" ")}` : "usage: pnpm bump-pin <version> [--dry-run] [--shared] [--no-install]   (e.g. 0.25.0)");
+  console.error(bad.length ? `unknown flag ${bad.join(" ")}` : "usage: pnpm bump-pin <version> [--dry-run] [--shared] [--no-install] [--no-push]   (e.g. 0.25.0)");
   process.exit(2);
 }
 const dry = flags.includes("--dry-run");
 const install = !flags.includes("--no-install");
+const push = !flags.includes("--no-push");
 
 const pinOf = (dir: string): string | null => {
   try {
@@ -71,8 +76,18 @@ for (const r of dirs) {
 
 for (const s of steps) {
   const note = s.from === s.to ? "already at the pin" : `${s.from ?? "no pin"} -> ${s.to}`;
-  console.log(`${dry ? "would " : ""}${s.label}: ${note}${install ? `; ${s.argv.join(" ")}` : ""}`);
+  const commits = s.dir !== root && install;
+  const tail = commits ? `; commit package.json + pnpm-lock.yaml on ${defaultBranch(s.dir) ?? "?"}${push ? " and push" : ""}` : "";
+  console.log(`${dry ? "would " : ""}${s.label}: ${note}${install ? `; ${s.argv.join(" ")}` : ""}${dry ? tail : ""}`);
 }
+function reportCommit(s: BumpStep): void {
+  const r = commitPinBump(s.dir, s.to.replace(/^.*#/, ""), { push });
+  if (r.kind === "unchanged") console.log(`  ${s.label}: nothing to commit`);
+  else if (r.kind === "skipped") console.log(`  ! ${s.label}: not committed, ${r.reason}; commit package.json and pnpm-lock.yaml there yourself`);
+  else if (r.error) console.log(`  ! ${s.label}: committed on ${r.branch}, push failed: ${r.error}`);
+  else console.log(`  ${s.label}: committed on ${r.branch}${r.pushed ? " and pushed" : " (not pushed)"}`);
+}
+
 if (!dry) {
   for (const s of steps) {
     const path = join(s.dir, "package.json");
@@ -90,6 +105,7 @@ if (!dry) {
         console.error(`  ✗ ${s.argv.join(" ")} failed (${r.status}); fix it and re-run (already-bumped repos are left as they are)`);
         process.exit(1);
       }
+      if (s.dir !== root) reportCommit(s);
     }
   }
   if (install) {
