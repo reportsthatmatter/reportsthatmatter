@@ -1,8 +1,8 @@
 # 0015. How are captions of photographs we do not reproduce served?
 
-- **Status:** open (interim choice in place)
-- **Date raised:** 2026-10-09 · **Date decided:** —
-- **Decided by:** —
+- **Status:** decided (accepted: the recommended default) 2026-10-16
+- **Date raised:** 2026-10-09 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus, 2026-10-16: recommended default accepted
 - **Beads:** reportsthatmatter-12s2 (this decision), reportsthatmatter-2t3t (the defect), reportsthatmatter-699 (images epic)
 
 ## Question
@@ -23,6 +23,10 @@ The site shows no photographs (no image handling yet, and many are third-party c
 3. **Drop captions.** Simplest, but loses the report's words (the PDF prints them), raises "PDF text not in the edition" suspects, and removes the ids too.
 
 ## Decision
+
+Rufus, 2026-10-16: recommended default accepted. Option 1: keep the italic, citable caption (the 9/11 convention). Option 2 (a non-citable figure placeholder) is revisited when the images epic (699) gives figures a construct.
+
+Earlier note:
 
 Interim, 2026-10-09 (anchors agent, reversible): option 1 for January 6th, which matches 9/11. Option 2 is the likely end state once 699 gives figures a construct; whether captions should then stay citable is Rufus's call.
 

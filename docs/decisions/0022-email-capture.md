@@ -1,8 +1,8 @@
 # 0022. Should the site capture email sign-ups, and with which provider?
 
-- **Status:** proposed
-- **Date raised:** 2026-10-16 · **Date decided:** —
-- **Decided by:** —
+- **Status:** decided (accepted: the recommended default) 2026-10-16
+- **Date raised:** 2026-10-16 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus, 2026-10-16: recommended default accepted
 - **Beads:** reportsthatmatter-y2t.8 (the Bluesky half shipped; the email half is this decision), reportsthatmatter-3d41 (this decision)
 
 ## Question
@@ -26,7 +26,7 @@ Option 1 for launch week, then option 2 (Buttondown) the first time there is an 
 
 ## Decision
 
-Open.
+Rufus, 2026-10-16: recommended default accepted. Option 1: no email capture at launch; Bluesky follow and the blog's Atom feed are the capture. Revisit option 2 (a hosted Buttondown link) the first time there is an announcement worth sending. Option 4 is not to be built.
 
 ## Consequences
 

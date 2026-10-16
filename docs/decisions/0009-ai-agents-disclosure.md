@@ -1,8 +1,8 @@
 # 0009. Do we say on the site that AI agents did much of the work?
 
-- **Status:** open
-- **Date raised:** 2026-10-03
-- **Decided by:** —
+- **Status:** decided (accepted: the recommended default) 2026-10-16
+- **Date raised:** 2026-10-03 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus, 2026-10-16: recommended default accepted
 - **Beads:** reportsthatmatter-0ino
 
 ## Context
@@ -15,4 +15,4 @@ Keep the sentence; expand it into a methods note (on the about page or in a post
 
 ## Decision
 
-Rufus to decide.
+Rufus, 2026-10-16: recommended default accepted. One plain note on /about saying what the AI models did and did not touch (a note on the site, not only a sentence in a post). Published blog posts keep their wording as dated posts. Implementation in progress (bead 0ino, with pbkk).
