@@ -66,4 +66,12 @@ Kept in code (`scheduleItems`, `queueViolations` in `src/lib/posts.ts`, with tes
 - no two Post Office items, and no two Grenfell items, within 14 days of each other (a day with only such items left stays empty);
 - nothing is scheduled from 18 December to 2 January, every year.
 
-Tier C highlights (deaths, private individuals, condemned words) in affected-community reports must not carry `card: true`; that is enforced by hand until decision 63cd lands. The Post Office and Hillsborough cards render without a plate (`src/lib/card-plates.ts`): the Inquiry's wordmark and the Leppings Lane plan must not travel on a post.
+Three more rules, decided by Rufus on 2026-10-16 (63cd, 80qf) and read from the registry (`reports/registry.yaml`), applied before a candidate is resolved and again by `--check`:
+
+- **Affected-community reports** (`affected_community: true`): only a Tier A highlight is queued (strategy section 8). Tier C (the word list, the file's `private_people:`) is refused and `pnpm editorial` fails on it (`TIER_C_IS_FAILURE` in `src/lib/tier-c.ts` is `true`). Tier A is a person's judgement (an institution is the subject, the verb says what it did, knew or failed to do, the sentence stands alone), recorded as `tier: A` on the highlight in `editorial/<id>.yaml`. An unmarked highlight is Tier B: it stays on the page, is listed by `pnpm posts` as kept out, and is for a person to post with a context line. It is not a failure.
+- **Context line** (`context_line:` in the registry; the strategy names Post Office, Grenfell and Hillsborough): appended after the source line of every post from that report, so it counts against the 300 graphemes; an item that no longer fits is skipped and listed like any over-length one.
+- **News-day-only reports** (`news_day_only: true`: Jack Smith, the January 6th report, Chilcot): never scheduled; not-yet-posted items of theirs leave the queue. `pnpm posts --report <id>` lists the held items with their text and link, for a person to post on the report's news day.
+
+Marking another highlight Tier A, or adding a report to either list, is a registry or editorial edit followed by `pnpm editorial && pnpm posts --drop-stale`.
+
+Still by hand: the kept-clear single dates (23 Oct, 23 Nov, 6 Jan, 28 Jan, 30 Jan) are not in the scheduler (only 18 Dec to 2 Jan is). The Post Office and Hillsborough cards render without a plate (`src/lib/card-plates.ts`): the Inquiry's wordmark and the Leppings Lane plan must not travel on a post.

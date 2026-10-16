@@ -33,7 +33,7 @@ async function crawl(link: string): Promise<string> {
 
 describe("queue links preview with the card the post uploads", () => {
   it("has quote-carded items to check", () => {
-    expect(quoteCarded.length).toBeGreaterThan(40);
+    expect(quoteCarded.length).toBeGreaterThan(20);
   });
 
   it.each(quoteCarded.map((item) => [item.id, item] as const))("%s", async (_id, item) => {

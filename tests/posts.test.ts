@@ -7,7 +7,10 @@ import {
   graphemeLength,
   isBlackout,
   isoDate,
+  posterEligibility,
   queueViolations,
+  reportPolicies,
+  tierOf,
   resolveCandidate,
   roundRobin,
   scheduleItems,
@@ -462,5 +465,141 @@ describe("scheduling rules (ay85)", () => {
     expect(problems.join("\n")).toMatch(/kept-clear/);
     const posted = queue.map((i) => ({ ...i, posted_url: "https://bsky.app/x" }));
     expect(queueViolations(posted)).toEqual([]);
+  });
+});
+
+describe("who may reach the queue (63cd, 80qf)", () => {
+  const registry = {
+    reports: [
+      { id: "challenger-accident", affected_community: true },
+      { id: "uk-hillsborough-panel", affected_community: true, context_line: "Hillsborough Independent Panel (2012). 97 people died." },
+      { id: "jack-smith-vol1", news_day_only: true },
+      { id: "uk-leveson-inquiry" },
+    ],
+  };
+  const policies = reportPolicies(registry);
+  const item = (id: string, report: string, extra: Partial<QueueItem> = {}): QueueItem => ({
+    ...resolved({ id, report, paragraph: id }),
+    scheduled: "2026-10-20",
+    posted_url: null,
+    ...extra,
+  });
+
+  it("reads the registry flags and context line", () => {
+    expect(policies.get("challenger-accident")).toEqual({ affected: true, newsDayOnly: false, contextLine: undefined });
+    expect(policies.get("uk-hillsborough-panel")?.contextLine).toBe("Hillsborough Independent Panel (2012). 97 people died.");
+    expect(policies.get("jack-smith-vol1")).toEqual({ affected: false, newsDayOnly: true, contextLine: undefined });
+    expect(policies.get("uk-leveson-inquiry")).toEqual({ affected: false, newsDayOnly: false, contextLine: undefined });
+  });
+
+  it("tiers a highlight: C by the word list or a private person, A only when a person marked it, B otherwise", () => {
+    expect(tierOf("South Yorkshire Police failed to close the tunnel.", "A")).toBe("A");
+    expect(tierOf("South Yorkshire Police failed to close the tunnel.")).toBe("B");
+    expect(tierOf("It appears instead they started from the assumption.")).toBe("B");
+    expect(tierOf("The deaths of the 96 victims", "A")).toBe("C");
+    expect(tierOf("Mr Smith told the inquiry", "A", ["mr smith"])).toBe("C");
+  });
+
+  it("lets only a marked Tier A highlight of an affected-community report through", () => {
+    const quote = "NASA failed to act on the O-ring erosion.";
+    expect(posterEligibility({ report: "challenger-accident", quote }, policies)).toMatchObject({ ok: false, kind: "tier-b" });
+    expect(posterEligibility({ report: "challenger-accident", quote, tier: "A" }, policies)).toEqual({ ok: true });
+    expect(posterEligibility({ report: "challenger-accident", quote: "Many died.", tier: "A" }, policies)).toMatchObject({ ok: false, kind: "tier-b" });
+    expect(posterEligibility({ report: "uk-leveson-inquiry", quote }, policies)).toEqual({ ok: true });
+    expect(posterEligibility({ report: "not-in-registry", quote }, policies)).toEqual({ ok: true });
+  });
+
+  it("holds every item of a news-day-only report, marked or not", () => {
+    expect(posterEligibility({ report: "jack-smith-vol1", quote: "x", tier: "A" }, policies)).toMatchObject({ ok: false, kind: "news-day" });
+  });
+
+  it("appends the context line to the post, after the source line, and counts it against the 300 graphemes", () => {
+    const context = "Hillsborough Independent Panel (2012). 97 people died.";
+    expect(formatPost("The police failed.", "The Panel Report", 9, context)).toBe(`“The police failed.”\n\n— The Panel Report, p. 9\n\n${context}`);
+    expect(formatPost("The police failed.", "The Panel Report", 9)).toBe("“The police failed.”\n\n— The Panel Report, p. 9");
+    const ok = resolveCandidate(candidate({ contextLine: context }), HTML, CARDS, "https://x.org");
+    expect(ok.ok && ok.item.text.endsWith(`\n\n${context}`)).toBe(true);
+    const long = candidate({ quote: "x".repeat(0) + 'When an advisor rushed to tell Mr. Trump, he replied "So what?"', contextLine: "c".repeat(300) });
+    expect(resolveCandidate(long, HTML, CARDS, "https://x.org")).toMatchObject({ ok: false });
+  });
+
+  it("never schedules a news-day-only item on an ordinary day: new ones are held, queued unposted ones leave, posted ones stay", () => {
+    const js = (id: string) => resolved({ id, report: "jack-smith-vol1", paragraph: id });
+    const fresh = buildQueue({
+      resolved: [js("js1"), resolved({ id: "ch1", report: "challenger-accident", paragraph: "ch1" }), js("js2")],
+      existing: [],
+      today: "2026-10-16",
+      reportOrder: [],
+      restartFrom: "2026-10-20",
+      newsDayOnly: ["jack-smith-vol1"],
+    });
+    expect(fresh.queue.map((i) => i.id)).toEqual(["ch1"]);
+
+    const existing = [
+      item("ch1", "challenger-accident", { scheduled: "2026-10-20" }),
+      item("js1", "jack-smith-vol1", { scheduled: "2026-10-21" }),
+      item("js2", "jack-smith-vol1", { scheduled: "2026-10-22", posted_url: "https://bsky.app/x" }),
+    ];
+    const rebuilt = buildQueue({
+      resolved: [js("js1"), js("js2"), resolved({ id: "ch1", report: "challenger-accident", paragraph: "ch1" })],
+      existing,
+      today: "2026-10-16",
+      reportOrder: [],
+      newsDayOnly: ["jack-smith-vol1"],
+    });
+    expect(rebuilt.queue.map((i) => i.id)).toEqual(["ch1", "js2"]);
+    expect(rebuilt.heldBack.map((i) => i.id)).toEqual(["js1"]);
+  });
+
+  it("queueViolations fails a queue that schedules a news-day-only item, but not a posted one", () => {
+    const queue = [item("ch1", "challenger-accident"), item("js1", "jack-smith-vol1", { scheduled: "2026-10-21" })];
+    expect(queueViolations(queue)).toEqual([]);
+    expect(queueViolations(queue, ["jack-smith-vol1"]).join("\n")).toMatch(/js1.*only on its own news days/);
+    expect(queueViolations([queue[0], { ...queue[1], posted_url: "https://bsky.app/x" }], ["jack-smith-vol1"])).toEqual([]);
+  });
+
+  it("opens with Challenger on the start date when --start re-dates a queue that held Jack Smith second", () => {
+    const rs = [
+      resolved({ id: "js1", report: "jack-smith-vol1", paragraph: "js1" }),
+      resolved({ id: "lv1", report: "uk-leveson-inquiry", paragraph: "lv1" }),
+      resolved({ id: "ch1", report: "challenger-accident", paragraph: "ch1" }),
+    ];
+    const { queue } = buildQueue({ resolved: rs, existing: rs.map((r, n) => ({ ...r, scheduled: `2026-10-0${n + 1}`, posted_url: null })), today: "2026-10-16", reportOrder: [], restartFrom: "2026-10-20", newsDayOnly: ["jack-smith-vol1"] });
+    expect(queue.map((i) => [i.id, i.scheduled])).toEqual([["ch1", "2026-10-20"], ["lv1", "2026-10-21"]]);
+  });
+
+  it("the opening Challenger excerpt is not the passage the org launch thread shows an hour earlier", () => {
+    const items = [
+      { id: "a", report: "challenger-accident", paragraph: "committee-found-nasa-s-drive" },
+      { id: "b", report: "challenger-accident", paragraph: "committee-concurs-dr-feynman-s" },
+    ];
+    expect(scheduleItems(items, "2026-10-20", [], true)[0]).toMatchObject({ id: "b", scheduled: "2026-10-20" });
+  });
+
+  it("the live registry flags exactly the three news-day reports, and the three context lines the strategy names", () => {
+    const { parse } = require("yaml") as typeof import("yaml");
+    const live = parse(require("node:fs").readFileSync(require("node:path").join(__dirname, "../reports/registry.yaml"), "utf8"));
+    const p = reportPolicies(live);
+    expect([...p].filter(([, v]) => v.newsDayOnly).map(([id]) => id).sort()).toEqual(["jack-smith-vol1", "uk-chilcot-inquiry", "us-jan6-committee"]);
+    expect([...p].filter(([, v]) => v.contextLine).map(([id]) => id).sort()).toEqual(["uk-grenfell-tower-inquiry", "uk-hillsborough-panel", "uk-post-office-horizon-inquiry"]);
+    for (const id of [...p].filter(([, v]) => v.contextLine).map(([id]) => id)) expect(p.get(id)?.affected).toBe(true);
+  });
+
+  it("the committed queue obeys them: Challenger first, no news-day item, every affected-community item a marked Tier A", () => {
+    const fs = require("node:fs") as typeof import("node:fs");
+    const { parse } = require("yaml") as typeof import("yaml");
+    const root = require("node:path").join(__dirname, "..");
+    const live = reportPolicies(parse(fs.readFileSync(`${root}/reports/registry.yaml`, "utf8")));
+    const items = (parse(fs.readFileSync(`${root}/marketing/queue.yaml`, "utf8")).items ?? []) as QueueItem[];
+    const open = items.filter((i) => !i.posted_url);
+    expect([...open].sort((a, b) => a.scheduled.localeCompare(b.scheduled))[0].report).toBe("challenger-accident");
+    expect(open.filter((i) => live.get(i.report)?.newsDayOnly).map((i) => i.id)).toEqual([]);
+    for (const i of open.filter((i) => live.get(i.report)?.affected)) {
+      const highlights = parse(fs.readFileSync(`${root}/editorial/${i.report}.yaml`, "utf8")).highlights as Array<{ paragraph: string; quote: string; tier?: string }>;
+      const h = highlights.find((h) => h.paragraph === i.paragraph && i.quote.replace(/\s+/g, " ") === h.quote.replace(/\s+/g, " "));
+      expect(h?.tier, i.id).toBe("A");
+      const context = live.get(i.report)?.contextLine;
+      if (context) expect(i.text.endsWith(context), i.id).toBe(true);
+    }
   });
 });

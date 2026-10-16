@@ -105,11 +105,11 @@ describe("Tier C card: true in an affected-community report (zh1w)", () => {
     expect(out.stderr).not.toContain("Tier C");
   });
 
-  it("warns, naming file, paragraph and word, for a Tier C card (a warning until decision 63cd)", () => {
+  it("fails, naming file, paragraph and word, for a Tier C card (decision 63cd is decided)", () => {
     withHighlight("Many died as the riot continued.");
     writeFileSync(join(dir, "assets/generated/reports/demo/full-body.html"), BODY.replace("The riot continued.", "Many died as the riot continued."));
     const out = run();
-    expect(out.status).toBe(0);
+    expect(out.status).toBe(1);
     expect(out.stderr).toContain('demo/so-what: card: true on a Tier C highlight (word "died")');
   });
 });

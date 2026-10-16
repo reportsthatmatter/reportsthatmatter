@@ -11,6 +11,7 @@ reports:
     source_path: reports/jack-smith-vol1/full.md
     source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
     ingested: true
+    news_day_only: true
 
   - id: us-psi-financial-crisis
     title: "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse"
@@ -138,6 +139,7 @@ reports:
     source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
     ingested: true
     affected_community: true
+    context_line: "Hillsborough Independent Panel (2012). 97 people died."
 
   - id: uk-saville-inquiry
     title: "The Report of the Bloody Sunday Inquiry, Volume I"
@@ -167,6 +169,7 @@ reports:
     source_path: reports/uk-chilcot-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20171123123237mp_/http://www.iraqinquiry.org.uk/media/246416/the-report-of-the-iraq-inquiry_executive-summary.pdf"
     ingested: true
+    news_day_only: true
 
   - id: us-lehman-examiner
     title: "Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings Inc., et al. — Volumes 1 and 3"
@@ -195,6 +198,7 @@ reports:
     source_path: reports/uk-post-office-horizon-inquiry/full.md
     source_url: "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf"
     affected_community: true
+    context_line: "Post Office Horizon IT Inquiry, Volume 1 (July 2025): the human impact and redress only. Who was responsible is for later volumes."
   - id: us-jan6-committee
     title: "Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol"
     authors: "Select Committee to Investigate the January 6th Attack on the United States Capitol, U.S. House of Representatives"
@@ -208,6 +212,7 @@ reports:
     source_path: reports/us-jan6-committee/full.md
     source_url: "https://www.govinfo.gov/app/details/GPO-J6-REPORT"
     ingested: true
+    news_day_only: true
 
   - id: uk-grenfell-tower-inquiry
     title: "Grenfell Tower Inquiry: Phase 2 Report, Volume 1"
@@ -223,6 +228,7 @@ reports:
     source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
     ingested: true
     affected_community: true
+    context_line: "Grenfell Tower Inquiry Phase 2, Volume 1 of 7. 72 people died."
 
   - id: us-senate-cia-torture-report
     title: "Committee Study of the Central Intelligence Agency's Detention and Interrogation Program"

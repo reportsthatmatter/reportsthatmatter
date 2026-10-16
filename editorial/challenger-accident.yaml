@@ -212,6 +212,7 @@ highlights:
   - paragraph: committee-found-nasa-s-drive
     quote: The Committee found that NASA's drive to achieve a launch schedule of 24 flights per year created pressure throughout the agency that directly contributed to unsafe launch operations.
     card: true
+    tier: A
   - paragraph: committee-congress-administration-have-played
     quote: The Committee, the Congress, and the Administration have played a contributing role in creating this pressure.
     card: true
@@ -225,6 +226,7 @@ highlights:
   - paragraph: committee-concurs-dr-feynman-s
     quote: The Committee concurs with Dr. Feynman's analysis that NASA had no understanding of the O-ring erosion phenomenon, and their rationale for accepting it was not based on sound engineering principles.
     card: true
+    tier: A
   - paragraph: executive-summary-help-seal-task
     quote: Executive Summary. HELP! The seal task force is constantly being delayed by every possible means.
     card: true
