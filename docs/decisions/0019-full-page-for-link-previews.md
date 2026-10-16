@@ -1,8 +1,8 @@
 # 0019. What does `/full` do for a report too big to preview, and to load?
 
-- **Status:** proposed
-- **Date raised:** 2026-10-09 · **Date decided:** —
-- **Decided by:** —
+- **Status:** decided (accepted: the recommended default) 2026-10-16
+- **Date raised:** 2026-10-09 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus, 2026-10-16: recommended default accepted
 - **Beads:** reportsthatmatter-te56 (the defect); reportsthatmatter-yvfr (this decision)
 
 ## Question
@@ -24,6 +24,10 @@
 - E. **De-emphasise `/full` on mobile for reports over a threshold** (link text "Read all 10 MB at once", or hide it on small screens). Fixes nothing for previews; reduces accidental loads.
 
 ## Decision
+
+Rufus, 2026-10-16: recommended default accepted. Options B and E: for `/full` over about 3 MB, answer known link-preview user agents with a head-only page (same head, a one-paragraph summary, a link to the contents page; `Vary: User-Agent`), and de-emphasise `/full` on mobile for those reports. Only Leveson is affected today. C and D are revisited if analytics show mobile `/full` loads matter.
+
+Earlier note:
 
 Recommended default (not yet decided): **B for previews, plus E for load**, behind a size threshold so only Leveson is affected today. It keeps every permalink working, needs no change to the text, and fixes the only user-visible failure the audit found (the bare link). Revisit C or D if mobile load of `/full` turns out to matter in analytics after launch.
 

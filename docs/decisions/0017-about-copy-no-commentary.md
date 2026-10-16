@@ -1,8 +1,8 @@
 # 0017. Does "No commentary. No spin." still describe the site?
 
-- **Status:** open
-- **Date raised:** 2026-10-09 · **Date decided:** —
-- **Decided by:** —
+- **Status:** decided (accepted: the recommended default) 2026-10-16
+- **Date raised:** 2026-10-09 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus, 2026-10-16: recommended default accepted
 - **Beads:** reportsthatmatter-pbkk
 
 ## Question
@@ -20,6 +20,8 @@ Found in the 2026-10-09 launch audit (docs/research/2026-10-09-launch-audit.md).
 3. Drop the line.
 
 ## Decision
+
+Rufus, 2026-10-16: recommended default accepted. Option 2, with one word changed: "The report's own words, as published. Our introductions and highlights are labelled as ours." (also the site's meta description). "As published" replaces the option's "unedited" because the pipeline repairs layout and OCR slips, so "unedited" would overclaim; the wording is the implementing PR's (#349, bead pbkk, with 0ino), aligned here by the reviewer.
 
 ## Consequences
 

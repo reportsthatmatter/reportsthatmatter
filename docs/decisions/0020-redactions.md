@@ -1,8 +1,8 @@
 # 0020. How do we show a redaction in a report's text?
 
-- **Status:** proposed
-- **Date raised:** 2026-10-09 · **Date decided:** —
-- **Decided by:** — (applied provisionally to the Mueller report, reversible)
+- **Status:** decided (accepted: the recommended default) 2026-10-16
+- **Date raised:** 2026-10-09 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus, 2026-10-16: recommended default accepted
 - **Beads:** reportsthatmatter-oh89 (this decision, filed from reportsthatmatter-gqsy.5)
 
 ## Question
@@ -24,6 +24,10 @@ A FOIA-processed report (the Mueller report as DOJ publishes it now) blacks out 
 4. Rendered markup (a styled black bar with the codes on hover). Needs a site change and a format decision (0002).
 
 ## Decision
+
+Rufus, 2026-10-16: recommended default accepted. Option 2: `[Redacted: <printed codes>]` where the box prints codes (Mueller), margin labels dropped; and `[Redacted]`, one per box, where no codes are printed (the CIA study), per the 2026-10-10 addendum. Both stay as applied provisionally. One decision for beads oh89 and 8fsl.
+
+Earlier note:
 
 Proposed: option 2, applied to the Mueller report by the opt-in `foiaRedactions()` pass in `@rtm/ingest`. The fidelity check does not count the word "Redacted" in a marker of that exact shape as invented. `PROCESSING.md` explains each code in plain words. Option 4 can be layered on later: the marker is a fixed, parseable shape.
 

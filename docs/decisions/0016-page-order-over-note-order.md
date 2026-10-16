@@ -1,8 +1,8 @@
 # 0016. A float across a page turn: does page order or note order decide where it is served?
 
-- **Status:** proposed
-- **Date raised:** 2026-10-09 · **Date decided:** —
-- **Decided by:** —
+- **Status:** decided (accepted: the recommended default) 2026-10-16
+- **Date raised:** 2026-10-09 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus, 2026-10-16: recommended default accepted
 - **Beads:** reportsthatmatter-hcam (this decision), reportsthatmatter-smof, reportsthatmatter-gq4j, reportsthatmatter-bqu0
 
 ## Question
@@ -22,6 +22,10 @@ A box or caption that interrupts a paragraph is served whole, before or after th
 3. **Split the paragraph** at the box. Both orders hold, but a citable paragraph is cut mid-sentence (severed-paragraph), which every other check treats as a defect.
 
 ## Decision
+
+Rufus, 2026-10-16: recommended default accepted. Option 1: page order wins over note order where a float sits across a page turn (as applied in `assembleEdition`).
+
+Earlier note:
 
 Proposed, 2026-10-09 (anchors agent): option 1. A page is what a reader cites, and citing p.146 for a sentence printed on p.145 is a citation error; a sidenote numbered 3 shown before 2 in the margin is a reading oddity. Reversible: `floats: "by-notes"` still applies wherever the box shares the head's page, and option 2 is a one-condition revert in `assembleEdition`.
 
