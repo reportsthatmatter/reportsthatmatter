@@ -9,7 +9,7 @@
  *   pnpm ship --skip <step>             record a step you did by hand (e.g. aliases, after restoring lost lines), then continue
  *   pnpm ship --redo <step>             forget a step (and what it found) so it runs again
  *   pnpm ship --from <step> | --only <step>
- *   pnpm ship --reset                   delete the state file (a new release)
+ *   pnpm ship --reset [--plan]          delete the state file (a new release) and stop; with --plan, then print the plan. Runs no step
  *
  * Options: --base <url> (default https://reportsthatmatter.org), --old-ref <ref> (aliases are rendered against it;
  * default origin/main, resolved to a sha on the first run and kept), --d1-limit <n> (row writes a day), --d1-read-limit <n> (rows read a day), --allow-dirty, --state <file>,
@@ -55,6 +55,13 @@ const git = (dir: string, a: string[]) => spawnSync("git", ["-C", dir, ...a], { 
 const statePath = resolve(opt("--state") ?? join(root, "build/ship/state.json"));
 const logDir = join(root, "build/ship/logs");
 
+if (flag("--reset")) {
+  // Reset only: the state file goes and nothing else happens (a reset that went on to run step 1 left a half-bumped checkout; reportsthatmatter-fjej).
+  if (existsSync(statePath)) rmSync(statePath);
+  console.log(`state reset: ${statePath}`);
+  if (!flag("--plan")) process.exit(0);
+}
+
 for (const id of [...list("--ack"), ...list("--skip"), ...list("--redo"), ...list("--from"), ...list("--only")]) {
   if (!(STEP_ORDER as readonly string[]).includes(id)) {
     console.error(`unknown step "${id}"; steps: ${STEP_ORDER.join(", ")}`);
@@ -81,7 +88,6 @@ const has = (file: string, needle: string) => {
 };
 
 let existing: State | null = null;
-if (flag("--reset") && existsSync(statePath)) rmSync(statePath);
 if (existsSync(statePath)) existing = JSON.parse(readFileSync(statePath, "utf8"));
 
 const resolveRef = (ref: string) => git(root, ["rev-parse", "--short=12", "--verify", "-q", ref]).stdout.trim() || ref;
@@ -190,7 +196,7 @@ const steps = buildSteps();
 const head = git(root, ["rev-parse", "--short", "HEAD"]).stdout.trim();
 
 if (existing && existing.spec !== spec) {
-  console.error(`${statePath} is for ${existing.spec}, the site pins ${spec}. A new release starts clean: pnpm ship --reset (or --state <file>).`);
+  console.error(`${statePath} is for ${existing.spec}, the site pins ${spec}. A new release starts clean: pnpm ship --reset (deletes the state file and stops; then run pnpm ship again) or --state <file>.`);
   process.exit(2);
 }
 const state: State = existing ?? freshState(spec, ctx.oldRef, new Date().toISOString());

@@ -9,6 +9,10 @@
 export const BOOLEAN_FLAGS = ["--plan", "--measure", "--status", "--reset", "--shared", "--yes", "--allow-dirty", "--verbose", "--help", "-h"] as const;
 export const VALUE_FLAGS = ["--ack", "--skip", "--redo", "--from", "--only", "--base", "--old-ref", "--d1-limit", "--d1-read-limit", "--root", "--state"] as const;
 
+/** What `--reset` may be combined with: `--plan` (reset, then print the plan) and where the state lives. Anything else is refused. */
+export const RESET_COMPANIONS = ["--reset", "--plan", "--state", "--root", "--help", "-h"] as const;
+export const RESET_USAGE = "usage: pnpm ship --reset [--plan] [--state <file>]   (deletes the state file; runs no step)";
+
 export type ShipArgs = {
   /** Human-readable problems; empty when the line is valid. */
   errors: string[];
@@ -35,6 +39,10 @@ export function parseShipArgs(argv: string[]): ShipArgs {
       }
     } else if (a.startsWith("-")) errors.push(`unknown flag ${a}`);
     else errors.push(`unexpected argument "${a}"`);
+  }
+  if (flags.has("--reset")) {
+    const others = [...flags, ...values.keys()].filter((f) => !(RESET_COMPANIONS as readonly string[]).includes(f));
+    if (others.length > 0) errors.push(`--reset only deletes the state file and cannot be combined with ${others.join(", ")}\n${RESET_USAGE}`);
   }
   return {
     errors,
