@@ -7,7 +7,7 @@ description: Use when you are the one integrator on Reports that Matter taking r
 
 **Level:** `level:specced` (Sonnet; it follows the review's steps and decides nothing new). **Only the integrator** merges, releases, deploys, publishes or seeds; one at a time. The ordered steps and what each answers are **[`docs/release-checklist.md`](../../../docs/release-checklist.md)**; `pnpm ship` automates most of its steps 3-16 as 22 named steps (`pnpm ship --plan` lists them; `scripts/ship.ts`; flags: `pnpm ship --help`). `--plan` and `--status` write nothing and are safe anywhere; `--state <file>` points either at a scratch state file for a rehearsal. What ships how: `docs/ARCHITECTURE.md` "what needs a deploy?". D1 limits and Cloudflare profile: AGENTS.md "Working conventions", "Cloudflare".
 
-**Entry.** A review file (`~/src/reportsthatmatter/review-*.md`, `pr-review` skill) whose verdicts say MERGE/SHIP, with head shas and numbered integrator steps. No other integrator mid-release (`pnpm ship --status` in the shared site checkout says where a previous run stopped).
+**Entry.** A review file (`~/src/reportsthatmatter/factory/reviews/review-*.md`, `pr-review` skill) whose verdicts say MERGE/SHIP, with head shas and numbered integrator steps. No other integrator mid-release (`pnpm ship --status` in the shared site checkout says where a previous run stopped).
 
 ## Procedure
 
