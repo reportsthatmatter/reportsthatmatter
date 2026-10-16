@@ -1,0 +1,4 @@
+---
+theme: Design validation, public highlights feed (2026-10-16, bght.10)
+---
+- **Cite only code that runs in production as evidence that new Worker work fits, and measure it** (2026-10-16, bght.10, design validator) The feed design argued that the cron's verification fits Workers Free's 10 ms limit because `topMarkedPassages` already does the same work. That function never runs in production (it is skipped whenever editorial is approved, which is all 18 reports). Measured on Node, the largest fragment costs about 0.7 ms to verify and the largest `meta.json` about 3.7 ms to parse, so 25 verifications in one cron run can exceed 10 ms. Caught only by tracing the call site and timing it. Proposal: a `scripts/measure-cpu.mjs` that times `loadReportMeta`, `loadFragment`, `extractParagraph` and `locate` on the largest fragments and metas, for design docs to cite. [status: proposed]
