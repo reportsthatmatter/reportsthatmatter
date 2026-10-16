@@ -2,7 +2,7 @@
 
 How the text on Reports that Matter was made, and where it still falls short of the printed page. Nothing has been rewritten. Where we know the text differs from the printed report, this page says so.
 
-*Last reviewed 10 October 2026 (reportsthatmatter-gqsy.6).*
+*Last reviewed 16 October 2026 (reportsthatmatter-jc46).*
 
 ## The edition
 
@@ -25,7 +25,7 @@ How the text on Reports that Matter was made, and where it still falls short of 
 - **The words are OCR.** The scan is clean and most of the text reads well, but there are OCR errors throughout ("inclucfc" for "include", "arc" for "are"), some words spaced letter by letter ("i n t e r v i e w"), and around some redactions a few characters of garble. They are listed for review in `fidelity.md` in the repository; none has been corrected by hand yet.
 - **Where a redaction sits is approximate.** A marker is placed from the box's position on the page and the OCR's word positions. A letter beside a box is sometimes taken into it ("DIRECTO [Redacted]"), and where the OCR dropped a whole line that held boxes (a few appendix pages), the markers stand on a line of their own without the words around them.
 - **About 270 notes are merged into the note before them** (of about 3,500 printed; 230 of them in the Executive Summary, 23 in the minority views). Where neither a number, the layout nor the page's sequence shows that a new note begins, its text is shown at the end of the previous note, and the marker that cites it in the text stays a plain number. No note text is lost, but these notes are not under their own numbers. A few notes restored from the sequence where two were lost together may carry their neighbour's number. On a few pages (for example printed pp.267-268) the notes were read into the body text as a paragraph. Overall about 84% of the note markers printed in the text are linked.
-- **Some paragraphs are split or run together.** About 57 paragraphs break mid-sentence, and about 100 have a line or two set as a quotation that is not one, mostly where a quotation's first line was read into the paragraph before it, or where letter-spaced OCR garble split a line.
+- **Some paragraphs are split or run together.** About 24 paragraphs break mid-sentence and about 23 have a line or two set as a quotation that is not one. Most are in Appendix 3 (printed pp.465-497), whose two columns, the Director's testimony beside the record, are read across as one; the rest are where OCR garble or a box opens a line (some notes read into the body, the draft cables of printed pp.673-677). Where a paragraph's first lines are pushed in by a box at the margin, a block quotation runs over a page, or the minority views set a "Study Claim:" or "Fact:" with its lines hanging in, the paragraph is now kept whole. A few paragraphs that open a page on a box are still not joined to the sentence they continue.
 - **Headings in the minority views.** The minority views have their own contents, which is not read: some of their sub-headings are shown as paragraphs, and a few as sections of their own.
 - **A few classification markings remain** where the OCR garbled the marking together with the first word of the paragraph.
 - **Tables and charts** (the list of detainees in Appendix 2, the minority views' charts) are shown as text as the OCR read them.

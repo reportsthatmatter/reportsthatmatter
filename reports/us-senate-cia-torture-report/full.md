@@ -823,11 +823,9 @@ Committee. In January 1989, the CIA informed the Committee that "inhumane physic
 
 The CIA did, however, have historical experience using coercive forms of interrogation. In 1963, the CIA produced the KUBARK Counterintelligence Interrogation Manual, intended as a manual for Cold War interrogations, which included the "principal coercive techniques of interrogation: arrest, detention, deprivation of sensory stimuli through solitary confinement or similar methods, threats and fear, debility, pain, heightened suggestibility and hypnosis, narcosis and induced regression."[^40] Tn 1978, DCI Stansfield Turner asked former CIA officer John Limond Hart to investigate the CIA interrogation of Soviet KGB officer Yuri Nosenko[^41] using the KUBARK methods—to include sensory deprivation techniques and forced standing.[^42] In Hart's testimony before the House Sclcct Committee on Assassinations on September 15, 1978, he noted that in his 31 years of government service:
 
-> "It has never fallen to my lot to be involved with any experience as unpleasant in every possible way as, first, the investigation of this case, and, second, the necessity of lecturing upon it and testifying. To me it is an abomination, and I
+> "It has never fallen to my lot to be involved with any experience as unpleasant in every possible way as, first, the investigation of this case, and, second, the necessity of lecturing upon it and testifying. To me it is an abomination, and I am happy to say that... it is not in my memory typical of what my colleagues and I did in the agency during the time I was connected with it."[^43]
 
 %%page 19%%
-
-> am happy to say that... it is not in my memory typical of what my colleagues and I did in the agency during the time I was connected with it."[^43]
 
 Notwithstanding the Hart investigation findings, just five years later, in 1983, a CIA officer incorporated significant portions of the KUBARK manual into the Human Resource Exploitation (HRE) Training Manual, which the same officer used to provide interrogation training in Latin America in the early 1980s, and which was used to provide interrogation training to the [Redacted] [Redacted] m 198I-44 CIA o f f i [Redacted] was involved in the HRE training and conducted interrogations. The CIA inspector general later recommended that he be orally admonished for inappropriate use of interrogation techniques.[^45] In the fall of 2002, [Redacted] became the CIA's chief of interrogations in the CIA's Renditions Group,[^46] the officer in charge of CIA interrogations[^47]
 
@@ -945,11 +943,9 @@ After the July 2002 meetings, the CIA's [Redacted] T C Legal, [Redacted] f t e d
 
 The CIA attorneys described the 12 proposed interrogation techniques and told the Department of Justice and National Security Council attorneys that Abu Zubaydah continued to withhold critical intelligence on the identities of al-Qa'ida personnel in the United States and planned al-Qa'ida attacks. The CIA attorneys also told the group that CIA officers were complemented by:
 
-> "expert personnel retained on contract who possess extensive experience, gained within the Department of Defense, on the psychological and physical
+> "expert personnel retained on contract who possess extensive experience, gained within the Department of Defense, on the psychological and physical methods of interrogation and the resistance techniques employed as countermeasures to such interrogation."[^144]
 
 %%page 34%%
-
-> methods of interrogation and the resistance techniques employed as countermeasures to such interrogation."[^144]
 
 According to the CIA cable describing the meeting, the representatives from the OLC, including Deputy Assistant Attorney General John Yoo, advised that the criminal prohibition on torture would not prohibit the methods proposed by the interrogation team because of the absence of any specific intent to inflict severe physical or mental pain or suffering.[^145] On July 13,2002, Yoo sent an unclassified letter to the CIA's acting general counsel describing his interpretation of the statute.[^146]
 
@@ -1027,11 +1023,9 @@ Abu Zubaydah to its enhanced interrogation techniques on a near 24-hour-per-day 
 
 %%page 41%%
 
-> "The sessions accelerated rapidly progressing quickly to the water board after large box, walling, and small box periods. [Abu Zubaydah] seems very resistant to the water board. Longest time with the cloth over his face so far has been 17 seconds. This is sure to increase shortly. NO useful information
+> "The sessions accelerated rapidly progressing quickly to the water board after large box, walling, and small box periods. [Abu Zubaydah] seems very resistant to the water board. Longest time with the cloth over his face so far has been 17 seconds. This is sure to increase shortly. NO useful information so far.. ..He did vomit a couple of times during the water board with some beans and rice. It's been 10 hours since he ate so this is surprising and disturbing. We plan to only feed Ensure for a while now. I'm head[ing | back for another water board session."[^189]
 
 %%page 42%%
-
-> so far.. ..He did vomit a couple of times during the water board with some beans and rice. It's been 10 hours since he ate so this is surprising and disturbing. We plan to only feed Ensure for a while now. I'm head[ing | back for another water board session."[^189]
 
 The use of the CIA's enhanced interrogation techniques— including "walling, attention grasps, slapping, facial hold, stress positions, cramped confinement, white noise and sleep deprivation"—continued in "varying combinations, 24 hours a day" for 17 straight days, through August 20, 2002.[^190] When Abu Zubaydah was left alone during this period, he was placed in a stress position, left on the waterboard with a cloth over his face, or locked in one of two confinement boxes. According to the cables, Abu Zubaydah was also subjected to the waterboard "2-4 times a day... with multiple iterations of the watering cycle during each application."[^191]
 
@@ -1088,11 +1082,9 @@ CIA documents identified the "key intelligence" acquired from Abu Zubaydah as in
 
 The CIA has consistently represented that Abu Zubaydah stated that the CIA's enhanced interrogation techniques were necessary to gain his cooperation. For example, the CIA informed the OLC that:
 
-> "As Zubaydah himself explained with respect to enhanced techniques, 'brothers who are captured and interrogated are permitted by Allah to provide
+> "As Zubaydah himself explained with respect to enhanced techniques, 'brothers who are captured and interrogated are permitted by Allah to provide information when they believe they have 'reached the limit of their ability to withhold it' in the face of psychological and physical hardships.'"[^228]
 
 %%page 48%%
-
-> information when they believe they have 'reached the limit of their ability to withhold it' in the face of psychological and physical hardships.'"[^228]
 
 As is described in greater detail in the full Committee Study, CIA records do not support the CIA representation that Abu Zubaydah made these statements[^229] CIA records indicate that Abu Zubaydah maintained that he always intended to talk and never believed he could withhold information from interrogators.[^230] In February 2003, Abu Zubaydah told a CIA psychologist that he believed prior to his capture that every captured "brother" would talk in detention and that he told individuals at a terrorist training camp that "brothers should be able to expect that the organization will make adjustments to protect people and plans when someone with knowledge is captured."[^231]
 
@@ -1167,9 +1159,7 @@ The U.S. military legal advisor concluded that, because of al- Najjar' s treatme
 
 %%page 54%%
 
-> [Redacted] [combatant command] to alert the command of the risks prior to the U.S. military [Redacted] being involved in any aspect of the interrogation of al-Najjar.[^266] According to the CIA
-
-inspector general, the detention and interrogation of Ridha al-Najjar "became the model" for handling other CIA detainees at DETENTION SITE COBALT.[^267] The CIA disseminated one intelligence report from its detention and interrogation of Ridha al-Najjar.[^268]
+[Redacted] [combatant command] to alert the command of the risks prior to the U.S. military [Redacted] being involved in any aspect of the interrogation of al-Najjar.[^266] According to the CIA inspector general, the detention and interrogation of Ridha al-Najjar "became the model" for handling other CIA detainees at DETENTION SITE COBALT.[^267] The CIA disseminated one intelligence report from its detention and interrogation of Ridha al-Najjar.[^268]
 
 #### 4. Death of Gul Rahman Leads CIA Headquarters to Learn of Unreported Coercive Interrogation Techniques at DETENTION SITE COBALT; CIA Inspector General Review Reveals Lack of Oversight of the Detention Site
 
@@ -1207,11 +1197,9 @@ On November[Redacted] J 2002 ; after the completion of the first formal t r a i 
 
 [Redacted] to "[m]ake it known that from now on, CTC/LGL must vet all personnel who are enrolled in, observing or teaching - or otherwise associated with - the [Redacted] class."[^291] added:
 
-> "Moreover, we will be forced to Disapprove [sic] the participation of specific personnel in the use of enhanced techniques unless we have ourselves vetted
+> "Moreover, we will be forced to Disapprove [sic] the participation of specific personnel in the use of enhanced techniques unless we have ourselves vetted them and are satisfied with their qualifications and suitability for what are clearly unusual measures that are lawful only when practiced correctly by personnel whose records clearly demonstrate their suitability for that role. The vetting process will not be that dissimilar from the checks that are provided by the OIG, OS, etc. in certain cases before individuals are promoted or receive awards, and the selection and training of aggressive interrogators certainly warrants a similar vetting process."[^292]
 
 %%page 59%%
-
-> them and are satisfied with their qualifications and suitability for what are clearly unusual measures that are lawful only when practiced correctly by personnel whose records clearly demonstrate their suitability for that role. The vetting process will not be that dissimilar from the checks that are provided by the OIG, OS, etc. in certain cases before individuals are promoted or receive awards, and the selection and training of aggressive interrogators certainly warrants a similar vetting process."[^292]
 
 The chief of CTC, Jose Rodriguez, objected to this approach, stating:
 
@@ -1239,9 +1227,7 @@ By the end of December 2002, the CIA Renditions Group that had visited DETENTION
 
 #### 8. The CIA Places CIA Detainees in Country [Redacted] Facilities Because They Did Not Meet the MON Standard for Detention
 
-> c [Redacted] ) In the spring of 2003, the CIA continued to hold detainees at
-
-facilities in Country [Redacted] who were known not to meet the MON standard for detention. CIA officer [Redacted] [CIA OFFICER 1] described the arrangement he had with Country [Redacted] officers in an email, writing:
+c [Redacted] ) In the spring of 2003, the CIA continued to hold detainees at facilities in Country [Redacted] who were known not to meet the MON standard for detention. CIA officer [Redacted] [CIA OFFICER 1] described the arrangement he had with Country [Redacted] officers in an email, writing:
 
 [Redacted]
 
@@ -1469,9 +1455,7 @@ G F S [Redacted] N F ) The CIA disseminated 109 intelligence reports from the CI
 
 The capture of KSM was attributable to a single CIA source who first came to the CIA's attention in the spring of 2001[^432] The source [Redacted] [Redacted] led the CIA and Pakistan authorities directly to KSM. KSM was held in Pakistani custody from the time of his capture on March 1, 2003, to March [Redacted] 2003, and was interrogated by CIA officers and Pakistani officials. According to CIA records, while in Pakistani custody, KSM was subjected to some sleep deprivation, but there are no indications of other coercive interrogation techniques being used.[^433] While KSM denied knowledge of attack plans and the locations of Usama bin Laden and Ayman al-Zawahiri,[^434] he did provide limited information on various al-Qa'ida leaders and operatives who had already been captured. KSM's willingness to discuss operatives when confronted with information about their capture—-behavior noted by CIA officers on-site in Pakistan—was a recurring theme throughout KSM's subsequent detention and interrogation in CIA custody.[^435]
 
-> Less [Redacted] than two hours after KSM's capture^anticipating KSM's
-
-arrival at DETENTION SITE COBALT, the chief of interrogations, [Redacted] [Redacted] s e n t a n e m a i l to CIA Headquarters with the subject line, "Let's roll with the new guy." The email requested permission to "press [KSM] for threat info right away."[^436] Later that day, CIA Headquarters authorized [Redacted] to use a number of the CIA's enhanced interrogation techniques against
+Less [Redacted] than two hours after KSM's capture^anticipating KSM's arrival at DETENTION SITE COBALT, the chief of interrogations, [Redacted] [Redacted] s e n t a n e m a i l to CIA Headquarters with the subject line, "Let's roll with the new guy." The email requested permission to "press [KSM] for threat info right away."[^436] Later that day, CIA Headquarters authorized [Redacted] to use a number of the CIA's enhanced interrogation techniques against
 
 %%page 82%%
 
@@ -1567,9 +1551,7 @@ That evening, the detention site received two reports. The first recounted the r
 
 [Redacted] 10941 (221506Z MAR 03); [Redacted] 10950 (222127Z MAR 03). One cable from DETENTION SITE BLUE hypothesized that KSM was lying in order to force the CIA interrogators to apply the CIA's enhanced interrogation techniques: "[T]he enhanced measures resulting from his lying in [sic] details could be a resistance strategy to keep the interrogation from threatening issues... [KSM's] apparent willingness to provoke and incur the use of enhanced measures may represent a calculated strategy to either: (A) redirect the course of the interrogation; or (B) to attempt to cultivate some doubt that he had knowledge of any current or future operations against the US." See [Redacted] 10950 (222127Z MAR 03).
 
-> [10950 [Redacted] (222127Z MAR 03) ] 10942(2216102^1AR 03), disseminated as [Redacted] [Redacted] 10948 (2221017. MAR 03),
-
-disseminated as [Redacted]
+[10950 [Redacted] (222127Z MAR 03) ] 10942(2216102^1AR 03), disseminated as [Redacted] [Redacted] 10948 (2221017. MAR 03), disseminated as [Redacted]
 
 > 10942 (221610Z MAR 03), disseminated as [Redacted] [Redacted] 12095 (222049Z JUN 03) 12558 (041938Z AUG 03) [Redacted] 31148 (171919Z DEC 05); [Redacted] [31147 (171919Z DEC 05), disseminated as [Redacted] [Redacted] 10983 (242321Z MAR 03); 110972 (241122Z MAR 03) [Redacted] 10974 (241834Z MAR 03); 110983 (242321Z MAR 03)
 
@@ -1629,9 +1611,7 @@ Nearly a year later, in May 2004, revelations about U.S. detainee abuses at the 
 
 W ^ i [Redacted] N F M r t a separate country, Country [Redacted] the CIA obtained the approval of the [Redacted] and the political leadership to establish a detention facility before informing the U.S. ambassador.[^573] As the CIA chief of Station stated in his request to CIA Headquarters to brief the ambassador, Country [Redacted] s [Redacted] d the [Redacted] irobably would ask the ambassador about the CIA detention [Redacted] facility.[^574] Afterl
 
-> (delayed [Redacted] briefing the [Redacted] for [Redacted] months, to the consternation of the CIA Station, which wanted political approval prior to the
-
-a m v a U r f C I ^ l e t a i n e e [Redacted] Country [Redacted] official outside of the m t ^ ^ ^ m ^ ^ ^ m m a m a w are of the described as "shocked," but nonetheless approved.[^576]
+(delayed [Redacted] briefing the [Redacted] for [Redacted] months, to the consternation of the CIA Station, which wanted political approval prior to the a m v a U r f C I ^ l e t a i n e e [Redacted] Country [Redacted] official outside of the m t ^ ^ ^ m ^ ^ ^ m m a m a w are of the described as "shocked," but nonetheless approved.[^576]
 
 By mid-2003 the CIA had concluded that its completed, but still unused "holding cell" in Country [Redacted] was insufficient, given the growing number of CIA detainees in the program and the CIA's interest in interrogating multiple detainees at the same detention site. The CIA thus sought to build a new, expanded detention facility in the country.[^577] The CIA also offered $ [Redacted] million to the [Redacted] to "show appreciation" for the [Redacted] support for the program.378 According to a CIA cable, however, the [Redacted] [Redacted]
 
@@ -1664,17 +1644,13 @@ By mid-2003 the CIA had concluded that its completed, but still unused "holding 
 
 See 34491 (051400Z MAR [Redacted] 03). Interview [REDACTED] and [REDACTED] of the Office of the Inspector General, March 27, [Redacted] 34575 [Redacted]
 
-> [Redacted] email from: [Redacted] to: [REDACTED]; cc: [Redacted] subject: Re: Update; date: [Redacted] a t 4 : 5 1 : 3 2 P [Redacted] 2 3 8 5 ( 2 2 2 0 4 5 Z J U L [Redacted] H m [Redacted] In
-
-addition to the rectal rehydration or feeding of al-Nashiri, KSM and Majid Khan, described elsewhere, there is at leasUm^-ecord of Abt^ubaydahreceiving "rectal fluid resuscitation" for "partially refusing liquids." (See [Redacted] 7 0 [Redacted] Marwan al-Jabbur was subjected to what was originally referred to in a c a b l ^ ^ ^ e n e m a , " but was later acknowledged to be rectal rehydration. (See [Redacted]
+[Redacted] email from: [Redacted] to: [REDACTED]; cc: [Redacted] subject: Re: Update; date: [Redacted] a t 4 : 5 1 : 3 2 P [Redacted] 2 3 8 5 ( 2 2 2 0 4 5 Z J U L [Redacted] H m [Redacted] In addition to the rectal rehydration or feeding of al-Nashiri, KSM and Majid Khan, described elsewhere, there is at leasUm^-ecord of Abt^ubaydahreceiving "rectal fluid resuscitation" for "partially refusing liquids." (See [Redacted] 7 0 [Redacted] Marwan al-Jabbur was subjected to what was originally referred to in a c a b l ^ ^ ^ e n e m a , " but was later acknowledged to be rectal rehydration. (See [Redacted]
 
 [Redacted] email from: [Redacted] to: [Redacted] D A C T E D ] , [REDACTED], [REDACTED], [REDACTED]; subject: Re: TASKING - [Redacted] March 30, 2007; DTS #2007-1502.) Ramzi bin al-Shibh, Khallad bin Attash and Adnan al-Libi were threatened with rectal rehydration. (See [Redacted]
 
 [Redacted] [Redacted] 2385 (222045Z JUL 03); from: [Redacted] to: [Redacted] [Redacted] subject: Medical Evaluation/Update [Redacted] 4 7 ) ; date: March [Redacted] 2004.) CIA medical officers discussed rectal rehydration as a means of behavior control. As one officer wrote, "[w]hile IV infusion is safe and effective, we were impressed_with the ancillary effectiveness of rectal infusion on ending the water refusal in a similar case." (See f r o m [Redacted] to [Redacted] subject: Re: [Redacted] (048); date: February [Redacted] 2004.) The same officer provided a description of the procedure, writing that "[regarding the rectal tube, if you place it and open up the IV tubing, the flow will self regulate, sloshing up the large intestines." Referencing the experience of the medical officer who subjected KSM to rectal rehydration, the officer wrote that, "[w]hat I infer is that you get a tube up as far as you can, then open the IV wide. No need to squeeze the bag - let
 
-> t0 the work." (See email from [Redacted] [Redacted] [Redacted] [Redacted] [Redacted] [Redacted] and [REDACTED], February 27,2004, Subject: R e [Redacted] 0 4 8 ) 3 T h e same
-
-email exchange included a description of a previous application of the technique, in which "we used the largest Ewal [sicUub^we had." (See email from: [REDACTED]; to [Redacted] E D A C T E D ] , [Redacted]
+t0 the work." (See email from [Redacted] [Redacted] [Redacted] [Redacted] [Redacted] [Redacted] and [REDACTED], February 27,2004, Subject: R e [Redacted] 0 4 8 ) 3 T h e same email exchange included a description of a previous application of the technique, in which "we used the largest Ewal [sicUub^we had." (See email from: [REDACTED]; to [Redacted] E D A C T E D ] , [Redacted]
 
 [Redacted] [REDACTED], [REDACTED]; subject: R e [Redacted] (048); date: Febmary [Redacted] 2004, at 11:42:16 PM.) As described in the context of the rectal feeding of al-Nashiri, Ensure was infused into al- Nashiri "in a forward-facing position (Trendlenberg) with head lower than torso." (See [Redacted] 0 3 (231709Z MAY 04).) Majid Khan's "lunch tray," consisting of hummus, pasta with sauce, nuts, and raisins was "pureed" and rectally infused. (See [Redacted] 4 0 (231839Z SEP 04).) The CIA's June 2013 Response does not address the use of rectal feeding with CIA detainees, but defends the use of rectal rehydration as a "well acknowledged medical technique." CIA leadership, including General Counsel Scott Muller and DDO James Pavitt, was also alerted to allegations that rectal exams were conducted with "excessive force" on two detainees at DETENTION SITE COBALT. CIA attorney [Redacted] was asked to follow up, although CIA records do not indicate any resolution of the inquiry. CIA records indicate that one of the detainees, Mustafa al-Hawsawi, was later diagnosed with chronic hemorrhoids, an anal fissure, and symptomatic rectal prolapse. See email from: [REDACTED]; to [REDACTED]; cc: [Redacted] [Redacted] [REDACTED]; subject: ACTIONS from the GC Update this Morning, d a t e [Redacted] at 12:15 PM; email from: [Redacted] to: [REDACTED]; cc: [Redacted] D A C T E D ] , [REDACTED], [REDACTED], subject: ACTIONS from the GC Update this M o r n i n g ^ l a [Redacted] a t 1:23:31 PM; email from: [Redacted] to: [REDACTED]; cc: [Redacted] A C T E D ] ; subject: Re: ACTIONS from the GC Update this Moming REQUEST FOR STATUS UPDATE; date: December![Redacted] 2003, at 10:47:32 AM; [Redacted] [Redacted] 32231 HEADQUARTERS [Redacted] [Redacted]
 
@@ -1854,9 +1830,7 @@ On September 4, 2003, CIA records indicate that CIA officials may have provided 
 
 > /. ICRC Pressure Leads to Detainee Transfers; Department of Defense Official Informs the CIA that the U.S. Government "Should Not Be in the Position of Causing People to Disappear"; the CIA Provides Inaccurate Information on CIA Detainee to the Department of Defense
 
-> In January 2004, the ICRC sent a letter to [Redacted] [Redacted] indicating that it was aware that the United States Government was holding
-
-unacknowledged detainees in several facilities in Country [Redacted] "incommunicado for extensive periods of time, subjected to unacceptable conditions of internment, to ill treatment and torture, while deprived of any possible recourse."[^706] According to the CIA, the letter included a "fairly complete list" of CIA detainees to whom the ICRC had not had access.[^707] This prompted CIA Headquarters to conclude that it was necessary to reduce the number of detainees in CIA custody.[^708] The CIA subsequently transferred at least 25 of its detainees in Country [Redacted] to the U.S. military and foreign governments. The CIA also released five detainees.[^709]
+In January 2004, the ICRC sent a letter to [Redacted] [Redacted] indicating that it was aware that the United States Government was holding unacknowledged detainees in several facilities in Country [Redacted] "incommunicado for extensive periods of time, subjected to unacceptable conditions of internment, to ill treatment and torture, while deprived of any possible recourse."[^706] According to the CIA, the letter included a "fairly complete list" of CIA detainees to whom the ICRC had not had access.[^707] This prompted CIA Headquarters to conclude that it was necessary to reduce the number of detainees in CIA custody.[^708] The CIA subsequently transferred at least 25 of its detainees in Country [Redacted] to the U.S. military and foreign governments. The CIA also released five detainees.[^709]
 
 %%page 120%%
 
@@ -1926,9 +1900,7 @@ A subsequent CIA memorandum, dated March 5, 2005, concerning an upcoming meeting
 
 On March 21, 2005, the director of the CTC formally proposed the "establishment of an independent 'blue ribbon' commission... with a charter to s t u d ^ u ^ ^ ^ ElTs."[^747] The CIA then began the processofestablishing^ [Redacted]
 
-> [Redacted] and [Redacted] [Redacted] Both panelists received briefings and papers from CIA
-
-personnel who participated in the CIA's Detention and Interrogation Program. [Redacted] [the first panelist] wrote: "It is clear from our discussions with both DO and DI officers that the program is deemed by them to be a great success, and I would concur. The EITs, as part of the overall program, are credited with enabling the US to disrupt terrorist plots, capture additional terrorists, and collect a high volume of useful intelligence on al-Qa'ida (AQ).... There are accounts of numerous plots against the US and the West that were revealed as a result of HVD interrogations." He also observed, however, that "[n]either my background nor field of expertise particularly lend themselves to judgingtheeffectiveness of interrogation techniques, taken individually or collectively."[^748] [Redacted] [the second panelist] concluded that "there is no objective way to answer the question of efficacy," but stated it was possible to "make some general observations" about the program based on CIA personnel assessments of "the quality of the intelligence provided" by CIA detainees. Regarding the effectiveness of the CIA's enhanced interrogation techniques, he wrote: "here enters the epistemological problem. We can never know whether or not this intelligence could have been extracted though alternative procedures. Spokesmen from within the organization firmly believe it could not have been."[^749]
+[Redacted] and [Redacted] [Redacted] Both panelists received briefings and papers from CIA personnel who participated in the CIA's Detention and Interrogation Program. [Redacted] [the first panelist] wrote: "It is clear from our discussions with both DO and DI officers that the program is deemed by them to be a great success, and I would concur. The EITs, as part of the overall program, are credited with enabling the US to disrupt terrorist plots, capture additional terrorists, and collect a high volume of useful intelligence on al-Qa'ida (AQ).... There are accounts of numerous plots against the US and the West that were revealed as a result of HVD interrogations." He also observed, however, that "[n]either my background nor field of expertise particularly lend themselves to judgingtheeffectiveness of interrogation techniques, taken individually or collectively."[^748] [Redacted] [the second panelist] concluded that "there is no objective way to answer the question of efficacy," but stated it was possible to "make some general observations" about the program based on CIA personnel assessments of "the quality of the intelligence provided" by CIA detainees. Regarding the effectiveness of the CIA's enhanced interrogation techniques, he wrote: "here enters the epistemological problem. We can never know whether or not this intelligence could have been extracted though alternative procedures. Spokesmen from within the organization firmly believe it could not have been."[^749]
 
 %%page 128%%
 
@@ -1936,9 +1908,7 @@ personnel who participated in the CIA's Detention and Interrogation Program. [Re
 
 After the dissemination of the draft CIA Inspector General Spccial Review in early 2004, approvals from CIA Headquarters to use the CIA's enhanced interrogation techniques adhered more closely to the language of the DCI guidelines. Nonetheless, CIA records indicate that officers at CIA Headquarters continued to fail to properly monitor justifications for the capture and detention of detainees, as well as the justification for the use of the CIA's enhanced interrogation techniques on particular detainees.[^750]
 
-> For [Redacted] example, on January 2004, the CIA rendered German
-
-citizen Khalid al-Masri to a Country [Redacted] facility used by the CIA for detention purposes. The rendition was based on the determination by officers in the CIA's ALEC Station that "al-Masri knows key information that could assist in the capture of other al-Qa'ida operatives that pose a serious threat of violence or death to U.S. persons and interests and who may be planning terrorist activities."[^751] The cable did not state that Khalid al-Masri himself posed a serious threat of violence or death, the standard required for detention under the September 17, 2001, Memorandum of Notification (MON).
+For [Redacted] example, on January 2004, the CIA rendered German citizen Khalid al-Masri to a Country [Redacted] facility used by the CIA for detention purposes. The rendition was based on the determination by officers in the CIA's ALEC Station that "al-Masri knows key information that could assist in the capture of other al-Qa'ida operatives that pose a serious threat of violence or death to U.S. persons and interests and who may be planning terrorist activities."[^751] The cable did not state that Khalid al-Masri himself posed a serious threat of violence or death, the standard required for detention under the September 17, 2001, Memorandum of Notification (MON).
 
 CIA debriefing cables from Country [Redacted] on January 27, 2004, and January 28, 2004, note that Khalid al-Masri "seemed bewildered on why he has been sent to this particular prison,"[^752] and was "adamant that [CIA] has the wrong person."753 Despite doubts from CIA officers in Country [Redacted] about Khalid al-Masri's links to terrorists, and RDG's concurrence with those doubts, different components within the CIA disagreed on the process for his release.754 As later described by the CIA inspector general, officers in ALEC Station continued to think that releasing Khalid al-Masri would pose a threat to U.S. interests and that monitoring should be required, while those in the CIA's [Redacted] Division did not want to notify the German government about the rendition of a German citizen.[^755] Because of the significance of the dispute, the National Security Council settled the matter, concluding that al-Masri should be repatriated and that the Germans should be told about al-Masri's rendition.[^756]
 
@@ -2022,9 +1992,7 @@ Memorandum for John A. Rizzo, Senior Deputy General Counsel, Central Intelligenc
 
 %%page 138%%
 
-> [Redacted] 0 n August 11, 2004, in the midst of the interrogation of Janat Gul
-
-using the CIA's enhanced interrogation techniques, CIA attorney [Redacted] wrote a letter to Acting Assistant Attorney General Dan Levin with "brief biographies" of four individuals whom the CIA hoped to detain. Given the requirement at the time that the CIA seek individual approval from the Department of Justice before using the CIA's enhanced interrogation techniques against a detainee, the CIA letter states, "[w]e are providing these preliminary biographies in preparation for a future request for a legal opinion on their subsequent interrogation in CIA control." Two of the individuals—Abu Faraj al-Libi and Hamza Rabi'a— had not yet been captured, and thus the "biographies" made no reference to their interrogations or the need to use the CIA's enhanced interrogation techniques. The third individual, Abu Talha al-Pakistani, was in foreign government custody. His debriefings by a foreign government, [Redacted] [Redacted] were described in the letter as "only moderately effective" because Abu Talha was "distracting [those questioning him] with noncritical information that is truthful, but is not related to operational planning." The fourth individual, Ahmed Khalfan Ghailani, was also inforeign government custody and being debriefed by foreign government officials [Redacted]
+[Redacted] 0 n August 11, 2004, in the midst of the interrogation of Janat Gul using the CIA's enhanced interrogation techniques, CIA attorney [Redacted] wrote a letter to Acting Assistant Attorney General Dan Levin with "brief biographies" of four individuals whom the CIA hoped to detain. Given the requirement at the time that the CIA seek individual approval from the Department of Justice before using the CIA's enhanced interrogation techniques against a detainee, the CIA letter states, "[w]e are providing these preliminary biographies in preparation for a future request for a legal opinion on their subsequent interrogation in CIA control." Two of the individuals—Abu Faraj al-Libi and Hamza Rabi'a— had not yet been captured, and thus the "biographies" made no reference to their interrogations or the need to use the CIA's enhanced interrogation techniques. The third individual, Abu Talha al-Pakistani, was in foreign government custody. His debriefings by a foreign government, [Redacted] [Redacted] were described in the letter as "only moderately effective" because Abu Talha was "distracting [those questioning him] with noncritical information that is truthful, but is not related to operational planning." The fourth individual, Ahmed Khalfan Ghailani, was also inforeign government custody and being debriefed by foreign government officials [Redacted]
 
 [Redacted] According to the letter, Ghailani's foreign government debriefings were "ineffective" because Ghailani had "denied knowledge of current threats." The letter described reporting on the pre-election threat—much of which came from the CIA source—in the context of all four individuals.830 Ahmed Ghailani and Abu Faraj al-Libi were eventually rendered to CIA custody and subjected to the CIA's enhanced interrogation techniques.
 
@@ -2086,9 +2054,7 @@ Shortly after placing CIA detainees within an already existing Country [Redacted
 
 [Redacted] According to the ririef of Station, Country [Redacted] saw the CIA as "querulous and unappreciative recipients of their [Redacted] cooperation."[^861] By the end of 2004, relations between the CIA and Country [Redacted] deteriorated, particularly with regard to intelligence cooperation.[^862] The CIA detainees were transferred out of Country [Redacted] i [Redacted] 2005.[^863]
 
-> [Redacted] -) Beginning in [Redacted] 2005, the [Redacted] [Redacted] in Country [Redacted] insisted, over the CIA's opposition, to brief Country [Redacted]'s [Redacted] on
-
-the effort to establish a more permanent and unilateral CIA detention facility, which was under construction. A proposed phone call to the [Redacted] from Vice President Cheney to solidify support for CIA operations in Country [Redacted] was complicated by the fact that Vice President Cheney had not been told about the locations of the CIA detention facilities. The CIA wrote that there was a "primary need" to "eliminate any possibility that [ [Redacted] could explicitly or implicitly refer to the existence of a black site in [the country]" during the call with the vice president.[^864] There are no indications that the call occurred. The [Redacted] of Country [Redacted] nonetheless approved the unilateral CIA detention facility, which cost [Redacted] million, but was never used by the CIA.[^865] By [Redacted] 2006, the CTA was working with Country [Redacted] to decommission what was described as the "aborted" project.866 heard reminded him of what he previously endured in [Redacted] and it sounded to him like a prisoner had been tied up and beaten. See [REDACTED] 1989 \ [Redacted]
+[Redacted] -) Beginning in [Redacted] 2005, the [Redacted] [Redacted] in Country [Redacted] insisted, over the CIA's opposition, to brief Country [Redacted]'s [Redacted] on the effort to establish a more permanent and unilateral CIA detention facility, which was under construction. A proposed phone call to the [Redacted] from Vice President Cheney to solidify support for CIA operations in Country [Redacted] was complicated by the fact that Vice President Cheney had not been told about the locations of the CIA detention facilities. The CIA wrote that there was a "primary need" to "eliminate any possibility that [ [Redacted] could explicitly or implicitly refer to the existence of a black site in [the country]" during the call with the vice president.[^864] There are no indications that the call occurred. The [Redacted] of Country [Redacted] nonetheless approved the unilateral CIA detention facility, which cost [Redacted] million, but was never used by the CIA.[^865] By [Redacted] 2006, the CTA was working with Country [Redacted] to decommission what was described as the "aborted" project.866 heard reminded him of what he previously endured in [Redacted] and it sounded to him like a prisoner had been tied up and beaten. See [REDACTED] 1989 \ [Redacted]
 
 %%page 143%%
 
@@ -2312,11 +2278,9 @@ CIA interrogators initially expressed optimism about their ability to acquire in
 
 Four CIA interrogators present at the CIA detention site began applying the CIA's enhanced interrogation techniques on July 21, 2007.[^1004] According to CIA records, the interrogators "employed interrogation measures of facial slap, abdominal slap, and facial hold, and explained to [Rahim] that his assumptions of how he would be treated were wrong."[^1005] The interrogators emphasized to Rahim that "his situation was the result of his deception, he would stay in this position until interrogators chose to remove him from it, and he could always correct a previous misstatement."1006 According to the cable describing the interrogation, Rahim then threatened to fabricate information:
 
-> "[Rahim] reiterated several times during the session that he would make up information if interrogators pressured him, and that he was at the complete
+> "[Rahim] reiterated several times during the session that he would make up information if interrogators pressured him, and that he was at the complete mercy of the interrogators and they could even kill him if they wanted. Interrogators emphasized to [Rahim] that they would not allow him to die because then he could not give them information, but that he would, eventually, tell interrogators the truth."[^1007]
 
 %%page 165%%
-
-> mercy of the interrogators and they could even kill him if they wanted. Interrogators emphasized to [Rahim] that they would not allow him to die because then he could not give them information, but that he would, eventually, tell interrogators the truth."[^1007]
 
 During the interrogation of Rahim using the CIA's enhanced interrogation techniques, Rahim was subjected to eight extensive sleep deprivation sessions,[^1008] as well as to the attention grasp, facial holds, abdominal slaps, and the facial slap.[^1009] During sleep deprivation sessions, Rahim was usually shackled in a standing position, wearing a diaper and a pair of shorts.[^1010] Rahim's diet was almost entirely limited to water and liquid Ensure meals.[^1011] CIA interrogators would provide Rahim with a cloth to further cover himself as an incentive to cooperate. For example, a July 27, 2007, cable from the CIA detention site states that when Rahim showed a willingness to engage in questioning about "historical information," he was "provided a large towel to cover his torso" as a "subtle reward."[^1012] CIA interrogators asked Rahim a variety of questions during these interrogations, seeking information about the current location of senior al-Qa'ida leaders, which he did not provide.[^1013]
 
@@ -2448,11 +2412,9 @@ On February 1, 2002, a CTC attorney researched the impact of the application of 
 
 The Department of Justice Office of Legal Counsel (OLC) included the "necessity defense" in its August 1, 2002, memorandum to the White House Counsel, determining, among other things, that "under the current circumstances, necessity or self-defense may justify interrogation methods that might violate" the criminal prohibition against torture.[^1068] The OLC memorandum states:
 
-> "It appears to us that under the current circumstances the necessity defense could be successfully maintained in response to an allegation of a Section 2340A violation. ...Under these circumstances, a detainee may possess
+> "It appears to us that under the current circumstances the necessity defense could be successfully maintained in response to an allegation of a Section 2340A violation. ...Under these circumstances, a detainee may possess information that could enable the United States to prevent attacks that potentially could equal or surpass the September 11 attacks in their magnitude. Clearly, any harm that might occur during an interrogation would pale to insignificance compared to the harm avoided by preventing such an attack, which could take hundreds or thousands of lives."[^1069]
 
 %%page 181%%
-
-> information that could enable the United States to prevent attacks that potentially could equal or surpass the September 11 attacks in their magnitude. Clearly, any harm that might occur during an interrogation would pale to insignificance compared to the harm avoided by preventing such an attack, which could take hundreds or thousands of lives."[^1069]
 
 According to a report by the Department of Justice Office of Professional Responsibility (OPR), released in July 2009, Deputy Assistant Attorney General John Yoo "acknowledged that the CIA may have indirectly suggested the new sections [related to Commander-in-Chief authority and possible defenses, including the necessity defense] by asking him what would happen in a case where an interrogator went 'over the line' and inadvertently violated the statute." Yoo also told the OPR that he drafted those relevant sections. Another senior Department of Justice lawyer at the time, Patrick Philbin, informed the OPR that when he told Yoo that the sections were superfluous and should be removed, Yoo responded, "They want it in there." The CIA's former Deputy General Counsel John Rizzo told the OPR that the CIA did not request the addition of the sections.[^1070] In his response to the OPR report, Assistant Attorney General Jay Bybee stated that the "ticking time bomb" that could justify the necessity defense was, in fact, a "real world" scenario. According to Bybee, "the OLC attorneys working on the [August 1, 2002] Memo had been briefed on the apprehension of Jose Padilla on May 8, 2002. Padilla was believed to have built and planted a dirty bomb."[^1071] The August 1, 2002, memorandum states that the "[interrogation of captured al Qaida operatives allegedly allowed U.S. intelligence and law enforcement agencies to track Padilla and to detain him upon his entry into the United States."[^1072] This information was inaccurate.[^1073]
 
@@ -2592,11 +2554,9 @@ As described in more detail in the full Committee Study, the Administration soug
 
 > "'...questioning the detainees in this program has given us information that has saved innocent lives by helping us to stop new attacks - here in the United States and across the world.''
 
-> CIA concurs with this assessment. Information from detainees prevented - among others - the West Coast airliner plot, a plot to blow up an apartment
+> CIA concurs with this assessment. Information from detainees prevented - among others - the West Coast airliner plot, a plot to blow up an apartment building in the United States, a plot to attack various targets in the United Kingdom, and plots against targets in Karachi and the Arabian Gulf. These attacks would undoubtedly have killed thousands."[^1157]
 
 %%page 198%%
-
-> building in the United States, a plot to attack various targets in the United Kingdom, and plots against targets in Karachi and the Arabian Gulf. These attacks would undoubtedly have killed thousands."[^1157]
 
 Multiple iterations of the CIA "validation" documents reflect changes to the speech as it was being prepared. One week before the scheduled speech, a passage in the draft speech made inaccurate claims about the role played by Abu Zubaydah in the capture of Ramzi bin al-Shibh and the role of Abu Zubaydah and Ramzi bin al-Shibh in the capture of KSM, but did not explicitly connect these claims to the use of the CIA's enhanced interrogation techniques. In an August 31, 2006, email exchange, CIA officers proposed the following language for the speech:
 
@@ -3038,9 +2998,7 @@ On May [Redacted] 2003, Ammar al-Baluchi and Khallad bin Attash were rendered to
 
 > "[w]hile reporting from both [al-Baluchi and bin Attash] was chilling- [CIA officers] had become aware of most of this reporting either through previous information or through interviews of al-Baluchi and [Khallad bin] Attash prior to their transfer out of Karachi."[^1386]
 
-> CIA personnel in Karachi reassured addressees that, in [Redacted] the U.S. Consulate in Karachi took increased steps to
-
-protect U.S. Consulate personnel based on similar terrorist threat reporting. According to the cable, Americans in the referenced housing area had already been vacated from the "area for several months," the potential for "attacks targeting Americans at the airport" had been "recognized several months ago," and new procedures and security measures had been put in place to minimize the risks associated with the potential terrorist attacks.[^1387]
+CIA personnel in Karachi reassured addressees that, in [Redacted] the U.S. Consulate in Karachi took increased steps to protect U.S. Consulate personnel based on similar terrorist threat reporting. According to the cable, Americans in the referenced housing area had already been vacated from the "area for several months," the potential for "attacks targeting Americans at the airport" had been "recognized several months ago," and new procedures and security measures had been put in place to minimize the risks associated with the potential terrorist attacks.[^1387]
 
 As noted, in November 2007, the CIA prepared and provided a set of talking points to the CIA director for an "upcoming meeting with the President regarding the Waterboard Enhanced Interrogation Technique." Under a section entitled, "Plots Discovered as a Result of EITs," the document lists the "Karachi Plot," stating the disruption was the result of "key intelligence collected from CIA detainee interrogations after applying the waterboard along with other interrogation techniques," and that the plotting was "uncovered during the initial interrogations of Khallad Bin Attash and Ammar al-Baluchi and later confirmed by KSM."[^1388] While Ammar al-Baluchi and Khallad bin Attash were subjected to the CIA's enhanced interrogation techniques, there are no CIA records to indicate that either was ever subjected to the CIA's waterboard interrogation technique. KSM did provide information on the plotting, but was assessed by CIA personnel to be withholding information on the plotting, more than a month after the CIA stopped using its enhanced interrogation techniques against KSM. In late April 2003, CIA interrogators confronted KSM with photographs demonstrating that Ammar alamong other documents, the June 2005 CIA Intelligence Assessment entitled, "Detainee Reporting Pivotal for the War Against Al-Qa'ida." CIA records indicate this document was provided to White House officials on June 1, 2005. A slightly modified version of this Intelligence Assessment was broadly disseminated within the Intelligence Community on June 3, 2005. On March 31, 2009, former Vice President Cheney requested the declassification of this Intelligence Assessment, which was publicly released with redactions on August 24,2009. The assessment represents that "detainee reporting" resulted in the "[r]evealing of the Karachi Plots," stating: "When confronted with information provided by Ammar al-Baluchi, Khallad admitted during debriefings that al-Qa'ida was planning to attack the US Consulate in Karachi, Westerners at the Karachi Airport, and Western housing areas." The footnote for this claim cites the May [Redacted] 2003, disseminated intelligence report detailingth^dmissioi^nade by Khallad bin Attash while being subjected to the CIA's enhanced inteirogation techniques ( [Redacted] as its source.
 
@@ -3224,9 +3182,7 @@ c [Redacted] ) In January 2004, [Redacted] urged [Redacted] [foreign partner] of
 
 [Redacted] [foreign partner] officials to CIA officials [Redacted] depicting an individual whom CIA officials wrote "bears a striking resemblance" to the Issa al-Hindi sketch provided by Moazzem Begg, the detainee in U.S. military custody.[^1527] The CIA would later write that Moazzem Bcgg's "description and resulting sketch of U.K. contact Issa al-Hindi" was "compared to a still shot of an unidentified man taken from a surveillance video of UK extremists," and the comparison "revealed that the man in the video probably [was] the elusive Issa al-Hindi."[^1528]
 
-> [Redacted] ?) With the suspicion that the photo was Issa al-Hindi, the CIA's [Redacted] requested the photo be "shown to detainees" and requested "immediate
-
-feedback."[^1529] According to a CIA cable dated June 17, 2004, the suspected Issa al-Hindi photograph was shown to KSM, who "confirmed that the unidentified photo depicts al- Hindi."[^1530]
+[Redacted] ?) With the suspicion that the photo was Issa al-Hindi, the CIA's [Redacted] requested the photo be "shown to detainees" and requested "immediate feedback."[^1529] According to a CIA cable dated June 17, 2004, the suspected Issa al-Hindi photograph was shown to KSM, who "confirmed that the unidentified photo depicts al- Hindi."[^1530]
 
 %%page 272%%
 
@@ -3256,11 +3212,9 @@ On August 23, 2004, the CIA received an update from [Redacted] [foreign partner]
 
 On August 30, 2004, talking points on the Dhiren Barot case were prepared by CIA officers. A CIA officer wrote that KSM's reporting on contact numbers for Issa was "a dead end" and "that it appears KSM was protecting al-Hindi."154y The talking points highlighted the cyber capabilities enabled by the USA PATRIOT Act in the investigation of Dhiren Barot, stating:
 
-> "Probably the most important intelligence tool we used in breaking this [Dhiren Barot] case was our cyber capability enabled by the USA Patriot Act. From beginning to end cyber played a role, but it was not the only tool that was used. HUMINT and SIGINT threads were followed and contributed to our
+> "Probably the most important intelligence tool we used in breaking this [Dhiren Barot] case was our cyber capability enabled by the USA Patriot Act. From beginning to end cyber played a role, but it was not the only tool that was used. HUMINT and SIGINT threads were followed and contributed to our understanding of the cyber messages and also in finding new cyber leads. Exploitation of computers and other information obtained in raids before and during the case also contributed significantly, as did surveillance. However, none of these tools are stand-alones. Good old fashioned hard targeting and analysis of these maddeningly vague and disparate and incomplete threads of information was the glue that put it all together."[^1550]
 
 %%page 275%%
-
-> understanding of the cyber messages and also in finding new cyber leads. Exploitation of computers and other information obtained in raids before and during the case also contributed significantly, as did surveillance. However, none of these tools are stand-alones. Good old fashioned hard targeting and analysis of these maddeningly vague and disparate and incomplete threads of information was the glue that put it all together."[^1550]
 
 { ^ S [Redacted] ) O" September 10, 2004, the Interagency Intelligence Committee on Terrorism (IICT) disseminated a report entitled, "Homeland: Reappraising al-Qa'ida's Election Threat," which states:
 
@@ -3374,19 +3328,15 @@ Volume II for additional CIA representations asserting that the CIA's enhanced i
 
 CIA to obtain unique, otherwise unavailableintelligenc^haTjsara
 
-> 11111111111 mi 11 iii i [Redacted]
+> 11111111111 mi 11 iii i [Redacted] operative who was preparing another attack[^1621] like that attempted by 'shoe bomber' Richard Reid."[^1622]
 
 %%page 288%%
 
-> operative who was preparing another attack[^1621] like that attempted by 'shoe bomber' Richard Reid."[^1622]
-
 Similarly, in early March 2005, the CIA compiled talking points on the effectiveness of the CIA's enhanced interrogation techniques for use in a meeting with the National Security Council. The document states, "[t]he Central Intelligence Agency can advise you that this program works and the techniques are effective in producing foreign intelligence." The document states that"after applying interrogation techniques," the CIA "learned from KSM and Ammar that Sajid Badat was the operative slated to launch a simultaneous shoe bomb attack with Richard Reid in December 2001."[^1623] A month later, on April 15, 2005, the CIA faxed an eight-page document to the Department of Justice's Office of Legal Counsel entitled, "Briefing Notes on the Value of Detainee Reporting" which contained similar information.[^1624] The Office of Legal Counsel used the information to support its May 30, 2005, legal opinion on whether certain "enhanced interrogation techniques" were consistent with United States obligations under Article 16 of the United Nations Convention Against Torture and Other Cruel, Inhumane or Degrading Treatment or Punishment.[^1625] The CIA-provided document states:
 
-> "Identifying the 'other' shoe bomber. Leads provided by KSM in November 2003 led directly to the arrest of shoe bomber Richard Reid's one-time partner Sajid Badat in the UK. KSM had volunteered the existence of Badat—whom
+> "Identifying the 'other' shoe bomber. Leads provided by KSM in November 2003 led directly to the arrest of shoe bomber Richard Reid's one-time partner Sajid Badat in the UK. KSM had volunteered the existence of Badat—whom he knew as 'Issa al-Pakistani'1626—as the operative who was slated to launch a simultaneous shoe bomb attack with Richard Reid in December 2001."[^1627]
 
 %%page 289%%
-
-> he knew as 'Issa al-Pakistani'1626—as the operative who was slated to launch a simultaneous shoe bomb attack with Richard Reid in December 2001."[^1627]
 
 The CIA provided similar inaccurate representations regarding the purported role of KSM and Ammar al-Baluchi[^1628] in the discovery, identification, capture, and arrest of Sajid Badat in 16 of the 20 documents provided to policymakers and the Department of Justice between July 2003 and March 2009.[^1629] However, in an additional case, a March 4, 2005, CIA briefing for Vice President Cheney, the CIA credited Abu Zubaydah with identifying Sajid Badat,[^1630] despite a lack of any reporting on Sajid Badat from Abu Zubaydah.[^1631]
 
@@ -3544,9 +3494,7 @@ On March 11, 2003, after being confronted with information that confirmed KSM's 
 
 %%page 309%%
 
-> [Redacted] later, the source alerted the CIA that the person suspected of being Zubair would be [Redacted] When Zubair arrived at [Redacted] he was
-
-photographed and followed by Thai authorities.1729 A detainee in foreign government custody confirmed the individual in the surveillance photo was Zubair.1730 On June 8, 2003, Zubair was detained by the government of Thailand.1731 While still in Thai custody, Zubair was questioned about his efforts to obtain fraudulent [Redacted] documents, as well as his phone contact [Redacted]
+[Redacted] later, the source alerted the CIA that the person suspected of being Zubair would be [Redacted] When Zubair arrived at [Redacted] he was photographed and followed by Thai authorities.1729 A detainee in foreign government custody confirmed the individual in the surveillance photo was Zubair.1730 On June 8, 2003, Zubair was detained by the government of Thailand.1731 While still in Thai custody, Zubair was questioned about his efforts to obtain fraudulent [Redacted] documents, as well as his phone contact [Redacted]
 
 [Redacted] [Business Q].1732 Zubair admitted to seeking [Redacted] documents on behalf of Hambali, as well as using [Redacted] [Business Q] [Redacted]
 
@@ -3707,9 +3655,7 @@ On July [Redacted] 2002, seeking to capture Hassan Ghul, Pakistani authorities [
 
 %%page 322%%
 
-> [Redacted] [the well-known associate], [Redacted] [Redacted] [and family members of the well-known associate]. A [Redacted] providing
-
-details on the raid states that " [Redacted] [the well-known associate] was interviewed on the spot and was fully cooperative with [Pakistani authorities J." [Redacted] [the well-known associate] stated that he had not seen Hassan Ghul or [Redacted] since June 3, 2002, but that he believed they were still in Karachi. A c c o r d i n g [Redacted] [ t h e well-known associate], he had already informed Pakistani authorities that Hassan Ghul was an al-Qa'ida member. According to a cable [Redacted] l t h e well-known associate] stated that, as a result of his reporting on Ghul to Pakistani officials, he received "a death threat from Hassan Ghul," causing Ghul to "cease coming to the [Redacted] [the well-known associate's] house."1802
+[Redacted] [the well-known associate], [Redacted] [Redacted] [and family members of the well-known associate]. A [Redacted] providing details on the raid states that " [Redacted] [the well-known associate] was interviewed on the spot and was fully cooperative with [Pakistani authorities J." [Redacted] [the well-known associate] stated that he had not seen Hassan Ghul or [Redacted] since June 3, 2002, but that he believed they were still in Karachi. A c c o r d i n g [Redacted] [ t h e well-known associate], he had already informed Pakistani authorities that Hassan Ghul was an al-Qa'ida member. According to a cable [Redacted] l t h e well-known associate] stated that, as a result of his reporting on Ghul to Pakistani officials, he received "a death threat from Hassan Ghul," causing Ghul to "cease coming to the [Redacted] [the well-known associate's] house."1802
 
 CIA records indicate that Pakistani authorities continued to i n t e r v i e w t [Redacted] [the well-known associate] in an effort to acquire information and capture Hassan Ghul. A CIA cable dated July [Redacted] 2002, states that the Pakistani government "is keying on any information which could get [Redacted] closer to bagging [Hassan] Ghul," specifically "through of [Redacted] [the well-known associate of Hassan Ghul]." According to the cable, during one of the interviews, [Redacted] [the well-known associate] told Pakistani authorities about an address where Hassan Ghul used to reside circa December 2001. [Redacted] [the well-known associate] sent [Redacted] with
 
@@ -3739,9 +3685,7 @@ Nine days after Abu Zubaydah referenced [Redacted]
 
 [Redacted] to request that Pakistani authorities "reinterview [Redacted] [the well-known associate] for additional intelligence on Hassan Ghul."1814 The next day, August 30, 2002,
 
-> [Redacted] informed CIA Headquarters that Pakistani authorities were "in contact with the [the well-known associate]," but that [Redacted] would nonetheless ask the Pakistani
-
-authorities to question [Redacted] associate] again about Hassan Ghul's Location.1815 On A u g u s t 3 l 7 2 0 0 [Redacted] relayed that Pakistani authorities and [Redacted] believed it was possible that [Redacted] well-known associate] was not being full\ truthful in his interviews with Pakistani authorities.1816 On September 3, [Redacted] 2002,1 reported that Pakistani authorities had re-interviewed [Redacted] [the well-known associate] an unknown number of times, and that the Pakistani authorities noted that at times [Redacted] [the well-known associate] contradicted himself.1817 Approximately one week later, on September 9, 2002, Pakistani authorities returned again to [Redacted] [the well-known associate's] home and interviewed [Redacted] family member of the well-known associate], who had recently returned [Redacted] [the well-known associate's home].1818
+[Redacted] informed CIA Headquarters that Pakistani authorities were "in contact with the [the well-known associate]," but that [Redacted] would nonetheless ask the Pakistani authorities to question [Redacted] associate] again about Hassan Ghul's Location.1815 On A u g u s t 3 l 7 2 0 0 [Redacted] relayed that Pakistani authorities and [Redacted] believed it was possible that [Redacted] well-known associate] was not being full\ truthful in his interviews with Pakistani authorities.1816 On September 3, [Redacted] 2002,1 reported that Pakistani authorities had re-interviewed [Redacted] [the well-known associate] an unknown number of times, and that the Pakistani authorities noted that at times [Redacted] [the well-known associate] contradicted himself.1817 Approximately one week later, on September 9, 2002, Pakistani authorities returned again to [Redacted] [the well-known associate's] home and interviewed [Redacted] family member of the well-known associate], who had recently returned [Redacted] [the well-known associate's home].1818
 
 [Redacted] 11746 [Redacted] The CIA's June 2013 Response highlights the following statement in the December 13, 2012, Committee Study: "It is possible that the sourcing for CIA claims that 'as a result of the use of EITs' Abu Zubaydah provided information that 'played a key role in the ultimate capture of Ramzi Bin al-Shibh,' are related to Abu Zubaydah's information indicating that Hassan Ghul could be located through [Redacted] [the well-known associate]." The CIA's June 2013 Response states: "It is true that Abu Zubaydah provided no information specifically on Bin al Shibh's whereabouts, but as the Study explicitly acknowledges, he did provide information on another al-Qa'ida facilitator that prompted Pakistani action that netted Bin al-Shibh." The Committee could find no CIA records of the CIA ever making this claim externally, or internally within the CIA, prior to the CIA's June 2013 Response. Rather, as described, the CIA claimed both before and after the President's September 2006 speech that Abu Zubaydahprovided inforroatioin^latecU^in al-Shibh that resulted in bin al-
 
@@ -3755,9 +3699,7 @@ i8is wjjjie [ ( i s u n c iear from CIA records how Pakistani authorities learne
 
 ' n interviews with Pakistani authorities, [Redacted] [the specific family member of the well-known associate] was cooperative and told the Pakistani authorities where Hassan Ghul's last apartment was located.[^1819] Based on the information provided on Ghul's apartment, Pakistani authorities conducted a raid, but found the apartment empty.[^1820]
 
-> Pakistani authorities then located and interviewed [Redacted] [Redacted] [a third individual at the apartment complex]. From the
-
-interview [of the third individual], Pakistani authorities learned that while Hassan Ghul had vacated the apartment, he was scheduled to return to the complex [Redacted]
+Pakistani authorities then located and interviewed [Redacted] [Redacted] [a third individual at the apartment complex]. From the interview [of the third individual], Pakistani authorities learned that while Hassan Ghul had vacated the apartment, he was scheduled to return to the complex [Redacted]
 
 [Redacted] Based on this information, Pakistani authorities placed the complex under surveillance and waited for Hassan Ghul to return.[^1821] On September 10, 2002, Pakistani authorities arrested two individuals believed to be Hassan Ghul and his driver outside of the apartment complex.[^1822] A CIA cable noted that "Ghul had returned to the apartment to [Redacted] however, he got more than he bargained for."[^1823] Another CIA cable stated:
 
@@ -3809,9 +3751,7 @@ In [Redacted] 2001, ASSET X proposed multiple times to the CIA that he use his c
 
 [Redacted] —the same approach that would lead the CIA to KSM more than 15 months later.[^1851] ASSET X also argued for "a more aggressive and proactive approach [Redacted]
 
-> [Redacted] " but was eventually convinced by CIA officers to [Redacted] [Redacted], instead.[^1852] After ALEC Station rejected the CIA case officer's
-
-recommended financial compensation for ASSET X, ASSET X declined to work with the CIA as a CIA source.[^1853] Over the next nine months, the CIA continued to believe that ASSET X had the potential to develop information on KSM and his location, and sought, but was unable to reestablish contact with ASSET X.[^1854] During this time, the CIA continued to collect
+[Redacted] " but was eventually convinced by CIA officers to [Redacted] [Redacted], instead.[^1852] After ALEC Station rejected the CIA case officer's recommended financial compensation for ASSET X, ASSET X declined to work with the CIA as a CIA source.[^1853] Over the next nine months, the CIA continued to believe that ASSET X had the potential to develop information on KSM and his location, and sought, but was unable to reestablish contact with ASSET X.[^1854] During this time, the CIA continued to collect
 
 > [Redacted] to: [REDACTED]; cc: [Redacted] [REDACTED],! [Redacted] [Redacted] [Redacted] b c c [Redacted] [Redacted] subject: Re: [REDACTED] [Redacted] [Redacted]; date: [Redacted] ,at 3:59:00PM. [Redacted]; t o [Redacted] cc: [Redacted] [REDACTED], [Redacted] [Redacted] [Redacted] [REDACTED], [REDACTED], [Redacted] b j e c t : Access to Khalid Shaykh
 
@@ -3823,9 +3763,7 @@ intelligence on [Redacted] and sought other opportunities to gain access to KSM 
 
 [Redacted] I who "should know how to contact KSM."[^1857]
 
-> When the CIA finally located and met again with ASSET X on [Redacted], 2002, ASSET X stated that "he could [Redacted]
-
-within a few weeks," and was "willing to travel [Redacted] to locate [Redacted]
+When the CIA finally located and met again with ASSET X on [Redacted], 2002, ASSET X stated that "he could [Redacted] within a few weeks," and was "willing to travel [Redacted] to locate [Redacted]
 
 [Redacted] ' m 8 ASSET X was recruited as a source by the CIA, but, despite his offer to track KSM's [Redacted] ASSET X was dispatched by the CIA to [Redacted] [Redacted] [Redacted] [Redacted] [Redacted] [Redacted] [Redacted]
 
@@ -3897,11 +3835,9 @@ In the September 6, 2006, speech, acknowledging the CIA's Detention and Interrog
 
 The speech continued:
 
-> "These are some of the plots that have been stopped because of information from this vital program. Terrorists held in CIA custody have also provided
+> "These are some of the plots that have been stopped because of information from this vital program. Terrorists held in CIA custody have also provided information that helped stop the planned strike on U.S. Marines at Camp Lemonier in Djibouti.'" 900
 
 %%page 337%%
-
-> information that helped stop the planned strike on U.S. Marines at Camp Lemonier in Djibouti.'" 900
 
 An Office of the Director of National Intelligence public release accompanying the September 6, 2006, speech, states that "the CIA designed a new interrogation program that would be safe, effective, and legal." The document asserts: "In early 2004, shortly after his capture, al-Qa'ida facilitator Gouled Hassan Dourad revealed that in mid-2003 al- Qa'ida East Africa cell leader Abu Talha al-Sudani sent him from Mogadishu to Djibouti to case the US Marine base Camp Lemonier, as part of a plot to send suicide bombers with a truck bomb."[^1901]
 
@@ -4043,9 +3979,7 @@ Citing information from the CIA's August 25, 2004, letter, Bradbury wrote:
 
 > "the CIA believed [that Janat Gul] had actionable intelligence concerning the pre-election threat to the United States... Gul had extensive connections to various al Qaeda leaders, members of the Taliban, and the al-Zarqawi network, and intelligence indicated that 'Gul had arranged a... meeting between [a [Redacted] source] and al-Qa'ida finance chief Shaykh Sa'id at which elements of the pre-election threat were discussed.'"[^1975]
 
-> [Redacted] noted, the A S had represented that the use of the C I A C I A ' S
-
-enhanced interrogation techniques was necessary for Janat Gul to provide information on an imminent threat to the United States, the pre-election threat. As further noted, Gul did not provide this information and records indicate that the threat was based on fabricated CIA source reporting. When the OLC requested the results of using the C I A ' s enhanced interrogation techniques against Janat Gul, the CIA represented that "Gul has provided information that has helped the CIA with validating one of its key assets reporting on the pre-election threat." This information was included in the May 30, 2005, OLC memorandum, which also stated that Gul's information "contradicted the asset's contention that Gul met with Shaykh Sa'id," and that, "[a]rmed with Gul's assertions, the CIA [Redacted] the asset, who then admitted that he had
+[Redacted] noted, the A S had represented that the use of the C I A C I A ' S enhanced interrogation techniques was necessary for Janat Gul to provide information on an imminent threat to the United States, the pre-election threat. As further noted, Gul did not provide this information and records indicate that the threat was based on fabricated CIA source reporting. When the OLC requested the results of using the C I A ' s enhanced interrogation techniques against Janat Gul, the CIA represented that "Gul has provided information that has helped the CIA with validating one of its key assets reporting on the pre-election threat." This information was included in the May 30, 2005, OLC memorandum, which also stated that Gul's information "contradicted the asset's contention that Gul met with Shaykh Sa'id," and that, "[a]rmed with Gul's assertions, the CIA [Redacted] the asset, who then admitted that he had
 
 1976 lied about the meeting." There are no indications in the memorandum that the CIA informed the OLC that CIA officers had concluded that Gul had no information about the pre-election threat and had determined that Gul was "not the man we thought he was."[^1977] As noted, after the May 30, 2005, OLC memorandum, the CIA continued to represent that the use of the CIA's enhanced interrogation techniques allowed the CIA to validate sources.[^1978]
 
@@ -4067,11 +4001,9 @@ Similarly, on July 29, 2003, the CIA made a presentation to a select group of Na
 
 A widely disseminated CIA Intelligence Assessment, entitled "Detainee Reporting Pivotal for the War Against Al-Qa'ida," that was described in internal CIA emails as being "put together using past assessments" and initially intended for the White House only, with "marching orders" to "throw everything in it,"[^1985] states:
 
-> "Since 11 September 2001, detainee reporting has become a crucial pillar of US counterterrorism efforts, aiding... operations to capture additional terrorists, helping to thwart terrorist plots... KSM's revelation in March 2003
+> "Since 11 September 2001, detainee reporting has become a crucial pillar of US counterterrorism efforts, aiding... operations to capture additional terrorists, helping to thwart terrorist plots... KSM's revelation in March 2003 that he was plotting with Sayf al-Rahman Paracha—who also used the name Saifullah al-Rahman Paracha—to smuggle explosives into the United States for a planned attack in New York prompted the FBI to investigate Paracha's business ties in the United States ,"[^1986]
 
 %%page 354%%
-
-> that he was plotting with Sayf al-Rahman Paracha—who also used the name Saifullah al-Rahman Paracha—to smuggle explosives into the United States for a planned attack in New York prompted the FBI to investigate Paracha's business ties in the United States ,"[^1986]
 
 CIA representations related to the "identification" of the Parachas and/or the arrest of Uzair Paracha—as well as the identification of an explosives smuggling plot—omit significant information acquired by the Intelligence Community prior to any reporting from CIA detainees. Specifically, prior to KSM's reporting, the Intelligence Community had already collected and acted upon significant information related to the Paracha family's connections to al-Qa'ida and international terrorism:
 
@@ -4104,11 +4036,9 @@ On July 5, 2003, Saifullah Paracha was detained in [Redacted] in an operation or
 
 With regards to the explosives smuggling reporting, a senior CIA counterterrorism official commented:
 
-> "again, another ksm op worthy of the lamentable knuckleheads... why 'smuggle' in explosives when you can get them here? neither fertilizer for bombs or regular explosives are that hard to come by. ramzi yousef came to
+> "again, another ksm op worthy of the lamentable knuckleheads... why 'smuggle' in explosives when you can get them here? neither fertilizer for bombs or regular explosives are that hard to come by. ramzi yousef came to conus with a suitcase and hundred bucks and got everything he needed right here, this may be true, but it just seems damn odd to me." 2012
 
 %%page 358%%
-
-> conus with a suitcase and hundred bucks and got everything he needed right here, this may be true, but it just seems damn odd to me." 2012
 
 #### 9. Critical Intelligence Alerting the CIA to Jaffar al-Tayyar
 
@@ -4124,11 +4054,9 @@ May 2002, prior to being subjected to the CIA's enhanced interrogation technique
 
 For example, in a March 2, 200S, CIA memorandum with the subject line, "Effectiveness of the CIA Counterterrorist Interrogation Techniques," the CIA responded to a request from the Office of Legal Counsel "for the intelligence the Agency obtained from detainees who, before their interrogations, were not providing any information of intelligence [value]." Under a section entitled, "Results," the CIA stated:
 
-> "CIA's use of DOJ-approved enhanced interrogation techniques, as part of a comprehensive interrogation approach, has enabled CIA to disrupt terrorist plots, capture additional terrorists, and collect a high volume of critical intelligence on al-Qa'ida. We believe that intelligence acquired from these interrogations has been a key reason why al-Qa'ida has failed to launch a spectacular attack in the West since 11 September 2001. Key intelligence
+> "CIA's use of DOJ-approved enhanced interrogation techniques, as part of a comprehensive interrogation approach, has enabled CIA to disrupt terrorist plots, capture additional terrorists, and collect a high volume of critical intelligence on al-Qa'ida. We believe that intelligence acquired from these interrogations has been a key reason why al-Qa'ida has failed to launch a spectacular attack in the West since 11 September 2001. Key intelligence collected from HVD interrogations after applying interrogation techniques:"[^2022]
 
 %%page 360%%
-
-> collected from HVD interrogations after applying interrogation techniques:"[^2022]
 
 The CIA then listed "Jafaar al-Tayyar" as one of 11 examples, stating:
 
@@ -4184,11 +4112,9 @@ Over the course of the next two weeks, during the period when KSM was being subj
 
 An email exchange the afternoon of March 18, 2003, between CIA personnel expressed the views of interrogators and officers at CIA Headquarters with regard to KSM and Jaffar al-Tayyar. The email from KSM debriefer [Redacted] stated:
 
-> "we've finally gotten [KSM] to admit that al-Tayyar is meant for a plan in the US, but I'm still not sure he's fessing up as to what Jafar's role/plan really is. Today he's working with Majid Khan, yesterday the London crowd, the day
+> "we've finally gotten [KSM] to admit that al-Tayyar is meant for a plan in the US, but I'm still not sure he's fessing up as to what Jafar's role/plan really is. Today he's working with Majid Khan, yesterday the London crowd, the day before Padilla - you get the point. Anyway, I'm still worried he might be misdirecting us on Jafar."[^2055]
 
 %%page 365%%
-
-> before Padilla - you get the point. Anyway, I'm still worried he might be misdirecting us on Jafar."[^2055]
 
 An officer from CIA Headquarters responded, "1 agree.. .KSM is yanking our chain about Jafar... really trying hard to throw us off course... suggesting whatever Jafar really is up to must be baaaad [sic]." The officer noted that "[a]nother big hole is Jafar's true name," and relayed that KSM's use of "another Abu name... Abu Arif... doesn't get us far."[^2056] When KSM was confronted with the reporting he had provided on Jaffar al-Tayyar, KSM claimed that he had been forced to lie about al-Tayyar because of the pressure he was under from his CIA interrogators, who had been subjecting KSM to the CIA's enhanced interrogation techniques since his rendition to CIA custody.[^2057]
 
@@ -4296,9 +4222,7 @@ Hassan Ghul's reporting on Shkai prior to the use of the CIA's enhanced interrog
 
 [Redacted] referenced nine cables describing Hassan Ghul's reporting prior to the use of the CIA's enhanced interrogation techniques,2127 and no cables describing Ghul's reporting after the use of the techniques.2128 The cable from [Redacted] then stated that "Station sees the type of information coming from [Hassan Ghul's] interrogations as perfect fodder f o i j ^ r e s s i m ^ ^ ^ ^ [Pakistan] into action against [Redacted] associates of Hassan Ghul in Pakistan, [Redacted]
 
-> [Redacted] and other terrorist [Redacted] ' n Pakistan [Redacted] [Redacted] The
-
-tear-line for Pakistan included extensive information provided by Hassan Ghul prior to the use of the CIA's enhanced interrogation techniques.[^2129] On February 3, 2004, CIA Headquarters requested that the tear-line be passed to the Pakistanis, but deferred to [Redacted] o n ^ c portions dealing with Shkai.[^2130] As CIA's [Redacted] informed CIA Headquarters on February 9, 2004, it intended to hold the information on Shkai until the DCI's visit to Pakistan the following day. As Station noted, "this tearline will prove critical [Redacted] [Redacted] 1 In the meantime and afterwards, additional tear-lines were prepared for the Pakistanis that were based primarily on reporting from Hassan Ghul prior to the use of the CIA's enhanced interrogation techniques, combined with Ghul's subsequent reporting, and information from sources unrelated to the CIA's Detention and Interrogation Program.[^2132]
+[Redacted] and other terrorist [Redacted] ' n Pakistan [Redacted] [Redacted] The tear-line for Pakistan included extensive information provided by Hassan Ghul prior to the use of the CIA's enhanced interrogation techniques.[^2129] On February 3, 2004, CIA Headquarters requested that the tear-line be passed to the Pakistanis, but deferred to [Redacted] o n ^ c portions dealing with Shkai.[^2130] As CIA's [Redacted] informed CIA Headquarters on February 9, 2004, it intended to hold the information on Shkai until the DCI's visit to Pakistan the following day. As Station noted, "this tearline will prove critical [Redacted] [Redacted] 1 In the meantime and afterwards, additional tear-lines were prepared for the Pakistanis that were based primarily on reporting from Hassan Ghul prior to the use of the CIA's enhanced interrogation techniques, combined with Ghul's subsequent reporting, and information from sources unrelated to the CIA's Detention and Interrogation Program.[^2132]
 
 > [Redacted] (2901.57Z JAN-J 04) 04) [Redacted] [Redacted] [Redacted] [Redacted] 1681 JAN 04 [Redacted] [Redacted] AN 04); 11679 AN 04); AN 04); [Redacted] [Redacted] [Redacted] [Redacted] 1677 AN 04); 04); 11654 AN 04); 04), 1644 AN 04).
 
@@ -4326,25 +4250,19 @@ Within days of the raid on UBL's compound, CIA officials represented that CIA de
 
 The CIA did not receive any information from CIA detainees on Abu Ahmad al-Kuwaiti until 2003. Nonetheless, by the end of 2002, the CIA was actively targeting Abu Ahmad al-Kuwaiti and had collected significant reporting on Abu Ahmad al- Kuwaiti—to include reporting on Abu Ahmad al-Kuwaiti's close links to UBL. CIA records indicate that prior to receiving any information from CIA detainees, the CIA had collected:
 
-- Reporting on Abu Ahmad al-Kuwaiti's Telephonic Activity: A phone number associated with Abu Ahmad al-Kuwaiti was under U.S. government intelligence collection as early as January 1, 2002.2143 In March 2002, this phone number would be found in Abu Zubaydah's address book under the heading "Abu Ahmad K."2144 In April 2002, the same phone number was found to be in contact with UBL family members 2145 In June 2002, a person using the identified phone number and believed at the time to be "al-Kuwaiti" called a number
+- Reporting on Abu Ahmad al-Kuwaiti's Telephonic Activity: A phone number associated with Abu Ahmad al-Kuwaiti was under U.S. government intelligence collection as early as January 1, 2002.2143 In March 2002, this phone number would be found in Abu Zubaydah's address book under the heading "Abu Ahmad K."2144 In April 2002, the same phone number was found to be in contact with UBL family members 2145 In June 2002, a person using the identified phone number and believed at the time to be "al-Kuwaiti" called a number associated with KSM.[^2146] All of this information was acquired in 2002, prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.
 
 %%page 381%%
 
-> associated with KSM.[^2146] All of this information was acquired in 2002, prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.
-
 - Reporting on Abu Ahmad al-Kuwaiti's Email Communications: In July 2002, the CIA had obtained an email address believed to be associated with Abu Ahmad al-Kuwaiti,[^2147] As early as August 24, 2002, the CIA was collecting and tracking al-Kuwaiti's email activity. A cable from that day states that an email account associated with KSM "intermediary Abu Ahmed al-Kuwaiti" remained active in Karachi.[^2148] On September 17, 2002, the CIA received reporting on al-Kuwaiti's email address from a detainee in the custody of a foreign government. The detainee reported that al-Kuwaiti shared an email address with Ammar al- Baluchi, and that al-Kuwaiti was "coordinating martyrdom operations."[^2149] When KSM was captured on March 1, 2003, an email address associated with al-Kuwaiti was found on a laptop believed to be used by KSM.[^2150] All of this information was acquired prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.
-- A Body of Intelligence Reporting on Abu Ahmad al-Kuwaiti's Involvement in Operational Attack Planning with KSM—Including Targeting of the United States: On June 10, 2002, the CIA received reporting from a detainee in the custody of a foreign government indicating that Abu Ahmad al-Kuwaiti was engaged in operational attack planning with KSM.[^2151] On June 25, 2002, the CIA received reporting from another detainee in the custody of a foreign government corroborating information that al-Kuwaiti was close with KSM, as well as reporting that al-Kuwaiti worked on "secret operations" with KSM prior to the September 11, 2001, teiTorist attacks.[^2152] By August 9, 2002, the CIA had received reporting from a third detainee in the custody of a foreign government indicating that Abu Ahmad al-Kuwaiti was supporting KSM's operational attack planning targeting the United States.[^2153] By October 20, 2002, the CIA had received reporting from a fourth detainee in the custody of a foreign government indicating that a known terrorist—Hassan Ghul—"received funding and instructions primarily from Abu Ahmad, a close associate of KSM."[^2154] All of this
+- A Body of Intelligence Reporting on Abu Ahmad al-Kuwaiti's Involvement in Operational Attack Planning with KSM—Including Targeting of the United States: On June 10, 2002, the CIA received reporting from a detainee in the custody of a foreign government indicating that Abu Ahmad al-Kuwaiti was engaged in operational attack planning with KSM.[^2151] On June 25, 2002, the CIA received reporting from another detainee in the custody of a foreign government corroborating information that al-Kuwaiti was close with KSM, as well as reporting that al-Kuwaiti worked on "secret operations" with KSM prior to the September 11, 2001, teiTorist attacks.[^2152] By August 9, 2002, the CIA had received reporting from a third detainee in the custody of a foreign government indicating that Abu Ahmad al-Kuwaiti was supporting KSM's operational attack planning targeting the United States.[^2153] By October 20, 2002, the CIA had received reporting from a fourth detainee in the custody of a foreign government indicating that a known terrorist—Hassan Ghul—"received funding and instructions primarily from Abu Ahmad, a close associate of KSM."[^2154] All of this information was acquired in 2002, prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.
 
 %%page 382%%
 
-> information was acquired in 2002, prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.
-
 - Significant Corroborative Reporting on Abu Ahmad al-Kuwaiti's Age, Physical Description, and Family—Including Information the CIA Would Later Cite As Pivotal: In September 2001, the CIA received reporting on al-Kuwaiti's family that the CIA would later cite as pivotal in identifying al-Kuwaiti's true name.[^2155] From January 2002 through October 2002, the CIA received significant corroborative reporting on al-Kuwaiti's age, physical appearance, and family from detainees held in the custody of foreign governments and the U.S. military.[^2156] All of this information was acquired prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.
-- Multiple Reports on Abu Ahmad al-Kuwaiti's Close Association with UBL and His Frequent Travel to See UBL:[^2157] As early as April 2002, CIA had signals intelligence linking a phone number associated with al-Kuwaiti with UBL's family, specifically al-Qa'ida member Sa'ad Bin Ladin.[^2158] On June 5, 2002, the CIA received reporting from a detainee in the custody of a foreign government indicating that "Abu Ahmad" was one of three al-Qa'ida associated individuals—to include Sa'ad bin Ladin and KSM—who visited him. The detainee—Ridha al-Najjar—was a former UBL caretaker.[^2159] On June 25, 2002, the CIA received reporting from another detainee in the custody of a foreign government—Riyadh the Facilitator— suggesting al-Kuwaiti may have served as a courier for UBL. Riyadh the Facilitator
+- Multiple Reports on Abu Ahmad al-Kuwaiti's Close Association with UBL and His Frequent Travel to See UBL:[^2157] As early as April 2002, CIA had signals intelligence linking a phone number associated with al-Kuwaiti with UBL's family, specifically al-Qa'ida member Sa'ad Bin Ladin.[^2158] On June 5, 2002, the CIA received reporting from a detainee in the custody of a foreign government indicating that "Abu Ahmad" was one of three al-Qa'ida associated individuals—to include Sa'ad bin Ladin and KSM—who visited him. The detainee—Ridha al-Najjar—was a former UBL caretaker.[^2159] On June 25, 2002, the CIA received reporting from another detainee in the custody of a foreign government—Riyadh the Facilitator— suggesting al-Kuwaiti may have served as a courier for UBL. Riyadh the Facilitator highlighted that al-Kuwaiti was "actively working in secret locations in Karachi, but traveled frequently" to "meet with Usama bin Ladin."[^2160] Months earlier the CIA disseminated signals intelligence indicating that Abu Ahmad al-Kuwaiti and Riyadh the Facilitator were in phone contact with each other[^2161] In August 2002, another detainee in the custody of a foreign government with known links to al-Kuwaiti[^2162]—Abu Zubair al-Ha'ili—reported that al-Kuwaiti "was one of a few close associates of Usama bin Ladin."[^2163] All of this information was acquired in 2002, prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.[^2164]
 
 %%page 383%%
-
-> highlighted that al-Kuwaiti was "actively working in secret locations in Karachi, but traveled frequently" to "meet with Usama bin Ladin."[^2160] Months earlier the CIA disseminated signals intelligence indicating that Abu Ahmad al-Kuwaiti and Riyadh the Facilitator were in phone contact with each other[^2161] In August 2002, another detainee in the custody of a foreign government with known links to al-Kuwaiti[^2162]—Abu Zubair al-Ha'ili—reported that al-Kuwaiti "was one of a few close associates of Usama bin Ladin."[^2163] All of this information was acquired in 2002, prior to any reporting on Abu Ahmad al-Kuwaiti from CIA detainees.[^2164]
 
 Within a day of the UBL operation, the CIA began providing classified briefings to Congress on the overall operation and the intelligence that led to the raid and UBL's death.[^2165] On May 2, 2011, CIA officials, including CIA Deputy Director Michael Morell, briefed the Committee. A second briefing occurred on May 4, 2011, when CIA Director Leon Panetta and other CIA officials briefed both the Senate Select Committee on Intelligence and the Senate Armed Services Committee. Both of these briefings indicated that CIA detainee information—and the CIA's enhanced interrogation techniques—played a substantial role in developing intelligence that led to the UBL operation. The testimony contained significant inaccurate information.
 
@@ -4413,11 +4331,9 @@ See intelligence chronology in Volume n, including CIA recorcH"Call Details Inco
 A review of CIA records found that these CIA documents contained inaccurate information and omitted important and material facts.
 
 - The May 5, 2011, CIA chart represents that all 12 detainees (12/12: 100 percent) providing "Tier 1" intelligence—information that "linked Abu Ahmad to Bin Ladin"[^2202]—were detainees in CIA custody. A review of CIA records found that the CIA document omitted the fact that five of the 12 listed detainees (5/12:41 percent) provided intelligence on Abu Ahmad al-Kuwaiti prior to entering CIA custody.[^2203] In addition, other detainees—not in CIA custody—provided information that "linked Abu Ahmad to Bin Ladin," but were not included in the CIA list. For example, the first detainee-related information identified in CIA records indicating a close relationship between UBL and Abu Ahmad al-Kuwaiti was acquired in July 2002, from a detainee in the custody of a foreign government, Abu Zubair al-Ha'ili (Zubair). According to CIA records, Zubair provided a detailed physical description of Abu Ahmad al-Kuwaiti, information on Abu Ahmad's family, his close connection to KSM, and that "Ahmad al-Kuwaiti: was a one of a few close associates of Usama bin Ladin."[^2204] This information would be used to question other detainees, but was omitted in the CIA's "Detainee Reporting on Abu Ahmed al-Kuwaiti" chart.
-- The May 5, 2011, CIA chart also states that nine of the 12 (9/12:75 percent) "CIA detainees" providing "Tier 1" intelligence were subjected to the CIA's enhanced interrogation techniques. A review of CIA records found that of the nine detainees the CIA identified as having been subjected to the CIA's enhanced interrogation techniques and providing "Tier 1" information on links between Abu Ahmad al-Kuwaiti and UBL, five of the 9 (5/9:55 percent) provided information on Abu Ahmad al-Kuwaiti prior to being
+- The May 5, 2011, CIA chart also states that nine of the 12 (9/12:75 percent) "CIA detainees" providing "Tier 1" intelligence were subjected to the CIA's enhanced interrogation techniques. A review of CIA records found that of the nine detainees the CIA identified as having been subjected to the CIA's enhanced interrogation techniques and providing "Tier 1" information on links between Abu Ahmad al-Kuwaiti and UBL, five of the 9 (5/9:55 percent) provided information on Abu Ahmad al-Kuwaiti prior to being subjected to the CIA's enhanced interrogation techniques.22 This information was omitted from the CIA document. Of the remaining four detainees who did not provide information on Abu Ahmad al-Kuwaiti until after being subjected to the CIA's enhanced intenogation techniques, three were not substantially questioned on any topic prior to the CIA's use of enhanced interrogation techniques.[^2206] All three provided information the CIA assessed to be fabricated and intentionally misleading.[^2207] The fourth, Abu Zubaydah, who was detained on March 28, 2002, and subjected to the CIA's enhanced interrogation techniques in August 2002, to include the waterboard technique, did not provide information on Abu Ahmad al- Kuwaiti until August 25, 2005, intelligence that was described by CIA officers at the time as "speculative."[^2208] These relevant details were omitted from the CIA documents.[^2209]
 
 %%page 392%%
-
-> subjected to the CIA's enhanced interrogation techniques.22 This information was omitted from the CIA document. Of the remaining four detainees who did not provide information on Abu Ahmad al-Kuwaiti until after being subjected to the CIA's enhanced intenogation techniques, three were not substantially questioned on any topic prior to the CIA's use of enhanced interrogation techniques.[^2206] All three provided information the CIA assessed to be fabricated and intentionally misleading.[^2207] The fourth, Abu Zubaydah, who was detained on March 28, 2002, and subjected to the CIA's enhanced interrogation techniques in August 2002, to include the waterboard technique, did not provide information on Abu Ahmad al- Kuwaiti until August 25, 2005, intelligence that was described by CIA officers at the time as "speculative."[^2208] These relevant details were omitted from the CIA documents.[^2209]
 
 - The May 5, 2011, CIA chart also states that of the 13 detainees "who provided general information on Abu Ahmad," labeled as "Tier 2 " information, four of the 13 (4/13:30 percent) detainees were in CIA custody and that all four (4/4:100 percent) were subjected to the CIA's enhanced interrogation techniques.[^2210] A review of CIA records found the CIA document omitted that two of the four (2/4:50 percent) "CIA detainees" who were described as subjected to the CIA's enhanced interrogation techniques provided intelligence on Abu Ahmad al-Kuwaiti prior to entering CIA custody, and therefore prior to being subjected to the CIA's enhanced interrogation techniques.[^2211] Finally, there were additional detainees in foreign government custody "who provided general information on Abu Ahmad" that were not included in the list of 13 detainees. For example, in January 2002, the CIA received reporting from a detainee in the custody of a foreign government who provided a physical description of a Kuwaiti named Abu Ahmad who attended a terrorist training camp.[^2212]
 
@@ -4435,11 +4351,9 @@ Kuwaiti until August 25, 2005, intelligence that, as noted, was described by CIA
 
 - The October 3, 2012, "Lessons for the Hunt for Bin Ladin" document also states that "only two [detainees] (KSM and Abu Zubaydah) had been waterboarded. Even so, KSM gave false information about Abu Ahmad.... "[^2221] The CIA's May 5, 2011, Chart, "Reporting on Abu Ahmad al-Kuwaiti," states that Abu Zubaydah and KSM provided "Tier 1" intelligence that "linked Abu Ahmad to Bin Ladin." CIA records indicate that both detainees denied any significant connection between al-Kuwaiti and UBL. CTA records further indicate that Abu Zubaydah and KSM, who were both subjected to the CIA's waterboard interrogation technique, withheld information on Abu Ahmad al-Kuwaiti:
 
-> o Abu Zubaydah: "Abu Ahmad K." and a phone number associated with Abu Ahmad al-Kuwaiti was found on page 8 of a 27-page address book captured with Abu Zubaydah on March 28, 2002. In July 2003, Abu Zubaydah stated that he was not familiar with the name Abu Ahmad al-Kuwaiti, or the description provided to him by CIA officers. In April 2004, Abu Zubaydah again stated that he did not recognize the name "Abu Ahmad al-Kuwaiti."[^2222] According to a CIA cable, in August 2005, Abu Zubaydah provided information on "an individual whose name he did not know, but who might be identifiable with Abu Ahmad al-Kuwaiti, aka Abu Ahmad al- Pakistani." According to the cable, Abu Zubaydah speculated that this individual knew UBL and al-Zawahiri, but did not think their relationship would be close. Days later a CIA cable elaborated that Abu Zubaydah had speculated on a family of brothers from Karachi that may have included Abu Ahmad.[^2223]
+> o Abu Zubaydah: "Abu Ahmad K." and a phone number associated with Abu Ahmad al-Kuwaiti was found on page 8 of a 27-page address book captured with Abu Zubaydah on March 28, 2002. In July 2003, Abu Zubaydah stated that he was not familiar with the name Abu Ahmad al-Kuwaiti, or the description provided to him by CIA officers. In April 2004, Abu Zubaydah again stated that he did not recognize the name "Abu Ahmad al-Kuwaiti."[^2222] According to a CIA cable, in August 2005, Abu Zubaydah provided information on "an individual whose name he did not know, but who might be identifiable with Abu Ahmad al-Kuwaiti, aka Abu Ahmad al- Pakistani." According to the cable, Abu Zubaydah speculated that this individual knew UBL and al-Zawahiri, but did not think their relationship would be close. Days later a CIA cable elaborated that Abu Zubaydah had speculated on a family of brothers from Karachi that may have included Abu Ahmad.[^2223] o KSM: When KSM was captured on March 1, 2003, an email address associated with Abu Ahmad al-Kuwaiti was found on a laptop believed to be used by KSM. As detailed in this review, KSM first acknowledged Abu Ahmad al-Kuwaiti in May 2003, after being confronted with reporting on Abu Ahmad al-Kuwaiti from a detainee who was not in CIA custody. KSM provided various reports on Abu Ahmad that the CIA described as "pithy." In August 2005, KSM claimed that al-Kuwaiti was not a courier, and that he had never heard of Abu Ahmad transporting letters for UBL. In May 2007, the CIA reported that the denials of KSM and another detainee, combined with conflicting reporting from other detainees, added to the CIA's belief that Abu Ahmad al-Kuwaiti was a significant figure.2224
 
 %%page 395%%
-
-> o KSM: When KSM was captured on March 1, 2003, an email address associated with Abu Ahmad al-Kuwaiti was found on a laptop believed to be used by KSM. As detailed in this review, KSM first acknowledged Abu Ahmad al-Kuwaiti in May 2003, after being confronted with reporting on Abu Ahmad al-Kuwaiti from a detainee who was not in CIA custody. KSM provided various reports on Abu Ahmad that the CIA described as "pithy." In August 2005, KSM claimed that al-Kuwaiti was not a courier, and that he had never heard of Abu Ahmad transporting letters for UBL. In May 2007, the CIA reported that the denials of KSM and another detainee, combined with conflicting reporting from other detainees, added to the CIA's belief that Abu Ahmad al-Kuwaiti was a significant figure.2224
 
 The CIA detainee who provided the most accurate "Tier 1" information linking Abu Ahmad al-Kuwaiti to UBL, Hassan Ghul, provided the information prior to being subjected to the CIA's enhanced interrogation techniques.2225 Hassan Ghul was captured on January [Redacted] 2004, by foreign authorities in the Iraqi Kurdistan Region.2226 Ghul was reportedly first interrogated by [Redacted] then transferred to U.S. military custody and questioned, and then rendered to CIA custody at DETENTION SITE COBALT on January [Redacted] 2004.2227 From January [Redacted] 2004, to January [Redacted] 2004, Hassan Ghul was questioned by the CIA at DETENTION SITE COBALT. During this period the CIA disseminated 21 intelligence reports based on Ghul's reporting.2228 A CIA officer told the CIA Office of Inspector General
 
@@ -4533,11 +4447,9 @@ Both the Kessler book and the Jehl article included inaccurate claims about the 
 
 2263 noted that "we need an OWI, at least every now and then.. ,." According to Mudd, concerns within the CIA about defending the CIA's Detention and Interrogation Program in the press were misplaced:[^2264]
 
-> "maybe people should know we're trying to sell their program, if they complain, they should know that we're trying to protect our capability to continue, we're not just out there to brag... they don't realize that we have few options here, we either get out and sell, or we get hammered, which has implications beyond the media, congress reads it, cuts our authorities, messes
+> "maybe people should know we're trying to sell their program, if they complain, they should know that we're trying to protect our capability to continue, we're not just out there to brag... they don't realize that we have few options here, we either get out and sell, or we get hammered, which has implications beyond the media, congress reads it, cuts our authorities, messes up our budget, we need to make sure the impression of what we do is positive... we must be more aggressive out there, we either put out our story or we get eaten, there is no middle ground."[^2265]
 
 %%page 403%%
-
-> up our budget, we need to make sure the impression of what we do is positive... we must be more aggressive out there, we either put out our story or we get eaten, there is no middle ground."[^2265]
 
 Mudd counseled not to "advertise" the discussions between CIA personnel and the media with the CIA "workforce," because "they'd misread it."[^2266] After
 
@@ -4605,11 +4517,9 @@ T h e f a c t s provided by the CIA, and relied on by the OLC to support its leg
 
 > - Abu Zubaydah's Status in Al-Qa'ida: The OLC memorandum repeated the CIA's representation that Abu Zubaydah was the "third or fourth man" in al-Qa'ida.[^2299] This CIA assessment was based on single-source reporting that was recanted prior to the August 1, 2002, OLC legal memorandum. This retraction was provided to several senior CIA officers, including [Redacted] C Legal, to whom the information was emailed on July 10, 2002, three weeks prior to the issuance of the August 1, 2002, OLC memorandum.[^2300] The CIA later concluded that Abu Zubaydah was not a member of al- Qa'ida.[^2301]
 > - Abu Zubaydah's Role in Al-Qa'ida Plots: The OLC memorandum repeated the CIA's representation that Abu Zubaydah "has been involved in every major terrorist operation carried out by al Qaeda,"[^2302] and that Abu Zubaydah "was one of the planners of the September 11 attacks."[^2303] CIA records do not support these claims.
-> - Abu Zubaydah's Expertise in Interrogation Resistance Training: The OLC memorandum repeated the CIA's representation that Abu Zubaydah was "well-versed" in resistance to interrogation techniques, and that "it is believed Zubaydah wrote al Qaeda's manual on resistance techniques."[^2304] A review of CIA records found no information to support these claims. To the contrary, Abu Zubaydah later stated that it was his belief that all
+> - Abu Zubaydah's Expertise in Interrogation Resistance Training: The OLC memorandum repeated the CIA's representation that Abu Zubaydah was "well-versed" in resistance to interrogation techniques, and that "it is believed Zubaydah wrote al Qaeda's manual on resistance techniques."[^2304] A review of CIA records found no information to support these claims. To the contrary, Abu Zubaydah later stated that it was his belief that all individuals provide information in detention, and that captured individuals should "expect that the organization will make adjustments to protect people and plans when someone with knowledge is captured."[^2305]
 
 %%page 411%%
-
-> individuals provide information in detention, and that captured individuals should "expect that the organization will make adjustments to protect people and plans when someone with knowledge is captured."[^2305]
 
 > - Abu Zubaydah's Withholding of Information on Pending Terrorist Attacks: The OLC memorandum repeated CIA representations stating that "the interrogation team is certain" Abu Zubaydah was withholding information related to planned attacks against the United States, either within the U.S. homeland or abroad.[^2306] CIA records do not support this claim. Abu Zubaydah's interrogation team was not "certain" that Abu Zubaydah was withholding "critical threat information." To the contrary, the interrogation team wrote to CIA Headquarters: "[o]ur assumption is the objective of this operation [the interrogation of Abu Zubaydah] is to achieve a high degree of confidence that [Abu Zubaydah] is not holding back actionable information concerning threats to the United States beyond that which [Abu Zubaydah] has already provided."[^2307]
 
@@ -4641,9 +4551,7 @@ On August 13, 2004, CIA attorneys, medical officers, and other personnel met wit
 
 %%page 416%%
 
-> £ [Redacted] ) On August 25, 2004, the CIA's Associate General Counsel [Redacted] [Redacted] a letter to the OLC stating that Janat Gul, who had been rendered to CIA custody
-
-on July [Redacted] 2004, had been subjected to the attention grasp, walling, facial hold, facial slap, wall standing, stress positions, and sleep deprivation. The letter further stated that CIA interrogators "assess Gul not to be cooperating, and to be using a sophisticated counterinterrogation strategy," and that the further use of the same enhanced interrogation techniques would be "unlikely to move Gul to cooperate absent concurrent use" of dietary manipulation, nudity, water dousing, and the abdominal slap. The letter referenced the reporting from a CIA source,[^2334] stating: "CIA understands that before his capture, Gul had been working to facilitate a direct meeting between the [Redacted] CIA [Redacted] source reporting on the pre-election threat and Abu Faraj [al-Libi]
+£ [Redacted] ) On August 25, 2004, the CIA's Associate General Counsel [Redacted] [Redacted] a letter to the OLC stating that Janat Gul, who had been rendered to CIA custody on July [Redacted] 2004, had been subjected to the attention grasp, walling, facial hold, facial slap, wall standing, stress positions, and sleep deprivation. The letter further stated that CIA interrogators "assess Gul not to be cooperating, and to be using a sophisticated counterinterrogation strategy," and that the further use of the same enhanced interrogation techniques would be "unlikely to move Gul to cooperate absent concurrent use" of dietary manipulation, nudity, water dousing, and the abdominal slap. The letter referenced the reporting from a CIA source,[^2334] stating: "CIA understands that before his capture, Gul had been working to facilitate a direct meeting between the [Redacted] CIA [Redacted] source reporting on the pre-election threat and Abu Faraj [al-Libi]
 
 2335 himself."
 
@@ -4901,11 +4809,9 @@ On March 15, 2007, in a speech to a gathering of ambassadors to the United State
 
 On April 12, 2007, CIA Director Hayden testified at a lengthy hearing that was attended by all but one committee member, and for the first time, the CIA allowed most of the Committee's staff to attend. The members stated that the Committee was still seeking access to CIA documents and information on the CIA's Detention and Interrogation Program, including Department of Justice memoranda and the location of the CIA's detention facilities.[^2515] Director Hayden's Statement for the Record included extensive inaccurate information with regard to Abu Zubaydah, CIA interrogators, abuses identified by the ICRC, and the effectiveness of the CIA's enhanced interrogation techniques.[^2516] Director Hayden's Statement for the Record also listed five examples of captures and four examples of plots "thwarted" purportedly resulting from information acquired from CIA detainees, all of which included significant inaccurate information.[^2517] Director Hayden's Statement for the Record further included the following representation with regard to the effects of legislation that would limit interrogations to techniques authorized by the Army Field Manual:
 
-> "The CIA program has proven to be effective... should our techniques be limited to the [Army] field manual, we are left with very little offense and are relegated to rely primarily on defense. Without the approval of EITs... we have severely restricted our attempts to obtain timely information from HVDs who possess information that will help us save lives and disrupt operations. Limiting our interrogation tools to those detailed in the [Army] field manual
+> "The CIA program has proven to be effective... should our techniques be limited to the [Army] field manual, we are left with very little offense and are relegated to rely primarily on defense. Without the approval of EITs... we have severely restricted our attempts to obtain timely information from HVDs who possess information that will help us save lives and disrupt operations. Limiting our interrogation tools to those detailed in the [Army] field manual will increase the probability that a determined, resilient HVD will be able to withhold critical, time-sensitive, actionable intelligence that could prevent an imminent, catastrophic attack."[^2518]
 
 %%page 450%%
-
-> will increase the probability that a determined, resilient HVD will be able to withhold critical, time-sensitive, actionable intelligence that could prevent an imminent, catastrophic attack."[^2518]
 
 At the April 12, 2007, hearing, Director Hayden verbally provided extensive inaccurate information on, among other topics: (1) the interrogation of Abu Zubaydah, (2) the application of Department of Defense survival school practices to the program, (3) detainees' counterinterrogation training, (4) the backgrounds of CIA interrogators, (5) the role of other members of the interrogation teams, (6) the number of CIA detainees and their intelligence production, (7) the role of CIA detainee reporting in the captures of terrorist suspects, (8) the interrogation process, (9) the use of detainee reporting, (10) the purported relationship between Islam and the need to use the CIA's enhanced interrogation techniques, (11) threats against detainees' families, (12) the punching and kicking of detainees, (13) detainee hygiene, (14) denial of medical care, (15) dietary manipulation, (16) the use of waterboarding and its effectiveness, and (17) the injury and death of detainees. In addition, the chief of CTC's [Redacted]
 
@@ -5160,11 +5066,9 @@ DIRECTOR HAYDEN: "This The CIA testimony that SWIGERT was deployed to really beg
 
 See intelligence reporting charts in Abu Zubaydah detainee review in Volume III, as well as a CIA paper entitled, "Abu Zubaydah," dated March 2005. Similar information was included in, "Abu Zubaydah Bio," a CIA document "Prepared on 9 August 2006." 2555
 
-> See Abu Zubaydah detainee review in Volume III. 111111 11 ii 11111 [Redacted]
+> See Abu Zubaydah detainee review in Volume III. 111111 11 ii 11111 [Redacted] to focus on developing "learned helplessness" in CIA detainees.2556
 
 %%page 464%%
-
-> to focus on developing "learned helplessness" in CIA detainees.2556
 
 > - Following the suggestion of [Redacted] C Legal, CTC contracted with SWIGERT to assist in the interrogation of Abu Zubaydah.
 > - As described in the Abu Zubaydah detainee review in Volume III, almost immediately after Abu Zubaydah's transfer to CIA custody on March [Redacted] 2002, Abu Zubaydah's medical condition deteriorated and Abu Zubaydahwastransferred to the intensive care unit of a [Redacted] hospital in Country [Redacted] During this time, FBI personnel continued to collect significant intelligence from Abu Zubaydah. According to an FBI report, during the period when Abu Zubaydah was still "connected to the intubator" at the hospital and unable to speak, he "indicated that he was willing to answer questions of the interviewers via writing in Arabic." While in the intensive care unit of the hospital, Abu Zubaydah first discussed "Mukhtar" (KSM) and identified a photograph of KSM.
@@ -5206,11 +5110,9 @@ DIRECTOR HAYDEN: "This As described in this summary, the August 1, 2002, list of
 
 VICE CHAIRMAN BOND: A review of CIA records on this topic identified no "How far down the line [does al- records to indicate that al-Qa'ida had conducted "broadly- Qa'ida] train [its] operatives for based" interrogation resistance training. The CIA interrogation resistance?" repeatedly represented that Abu Zubaydah "wrote al DIRECTOR HAYDEN: "I'm Qaeda's manual on resistance techniques."[^2567] This getting a nod from the representation is also not supported by CIA records. experts,[^2566] Senator, that it's When asked about interrogation resistance training, Abu rather broadly-based." Zubaydah stated: VICE CHAIRMAN BOND: "So even if you capturcd the al- "... both Khaldan camp and Faruq [terrorist Qa'ida facilitator, probably the training] camp at least periodically included army field manual stuff are instruction in how to manage captivity. He things that he's already been explained that in one instance, Khaldan had an trained on and he knows that he Egyptian who had collected and studied doesn't have to talk." information from a variety of sources DIRECTOR HAYDEN: "We (including manuals and people who had been would expect that, yes, Senator." in 'different armies'). This Egyptian 'talked
 
-> to the brothers about being strong' and 'not talking.' Abu Zubaydah's response to this
+> to the brothers about being strong' and 'not talking.' Abu Zubaydah's response to this was to take him aside—out of the view of the brothers—and explain to him that it was more important to have a 'super plan-not expect a superman.'"[^2568]
 
 %%page 469%%
-
-> was to take him aside—out of the view of the brothers—and explain to him that it was more important to have a 'super plan-not expect a superman.'"[^2568]
 
 > Abu Zubaydah explained that he informed trainees at the training camp that '"no brother' should be expected to hold out for an extended time," and that captured individuals will provide information in detention. For that reason, the captured individuals, he explained, should "expect that the organization will make adjustments to protect people and plans when someone with knowledge is captured."[^2569] CIA Interrogators, U.S. Military Interrogators, and the Army Field Manual
 
@@ -5240,11 +5142,9 @@ DIRECTOR HAYDEN: "They During the KSM interrogation sessions, the CIA chief coul
 
 > the CIA's enhanced interrogation techniques at the direction of CIA Headquarters, despite opposition from CIA interrogators.[^2585]
 
-> The CIA Inspector General Special Review states that CIA "psychologists objected to the use of on-site
+> The CIA Inspector General Special Review states that CIA "psychologists objected to the use of on-site psychologists as interrogators and raised conflict of interest and ethical concerns." According to the Special Review, this was "based on a concern that the on-site psychologists who were administering the [CIA's enhanced interrogation techniques] participated in the evaluations, assessing the effectiveness and impact of the [CIA's enhanced interrogation techniques] on the detainees."[^2586] In January 2003, CIA Headquarters required that at least one other psychologist be present who was not physically participating in the administration of the CTA's enhanced interrogation techniques. According to [Redacted] [Redacted] however, the problem still existed because "psychologist/interrogators continue to perform both functions."[^2587]
 
 %%page 473%%
-
-> psychologists as interrogators and raised conflict of interest and ethical concerns." According to the Special Review, this was "based on a concern that the on-site psychologists who were administering the [CIA's enhanced interrogation techniques] participated in the evaluations, assessing the effectiveness and impact of the [CIA's enhanced interrogation techniques] on the detainees."[^2586] In January 2003, CIA Headquarters required that at least one other psychologist be present who was not physically participating in the administration of the CTA's enhanced interrogation techniques. According to [Redacted] [Redacted] however, the problem still existed because "psychologist/interrogators continue to perform both functions."[^2587]
 
 SENATOR SNOWE: "Did any This statement is incongruent with CIA records. For CIA personnel express example, from August 4, 2002, through August 23, 2002, reservations about being engaged the CIA subjected Abu Zubaydah to its enhanced in the interrogation or these interrogation techniques on a near 24-hour-per-day basis. techniques that were used?" The non-stop use of the CIA's enhanced interrogation DIRECTOR HAYDEN: "I'm techniques was disturbing to CIA personnel at not aware of any. These guys are DETENTION SITE GREEN. These CIA personnel more experienced. No." objected to the continued use of the CIA's enhanced
 
@@ -5288,11 +5188,9 @@ Hekmatyar. That guy never gets location of senior al-Qa'ida leadership. They inc
 
 %%page 477%%
 
-> The CIA represented to the OLC that the CIA would only use its enhanced interrogation techniques against detainees who had knowledge of imminent threats or direct involvement in planning and preparing of terrorist actions. Not until July 20, 2007, more than three months after this testimony, did the OLC approve the use of the CIA's enhanced interrogation techniques against detainees based
+> The CIA represented to the OLC that the CIA would only use its enhanced interrogation techniques against detainees who had knowledge of imminent threats or direct involvement in planning and preparing of terrorist actions. Not until July 20, 2007, more than three months after this testimony, did the OLC approve the use of the CIA's enhanced interrogation techniques against detainees based on their suspected knowledge of the locations of UBL or Ayman al-Zawahiri. 2609 Prior to July 20, 2007, in the case of at least six CIA detainees, the use of the CIA's enhanced interrogation techniques was nonetheless predicated on the assessment that the detainees possessed "locational information" on senior HVTs, to include UBL or Ayman al-Zawahiri. 2610 Intelligence Reporting from Overall Detainee Population
 
 %%page 478%%
-
-> on their suspected knowledge of the locations of UBL or Ayman al-Zawahiri. 2609 Prior to July 20, 2007, in the case of at least six CIA detainees, the use of the CIA's enhanced interrogation techniques was nonetheless predicated on the assessment that the detainees possessed "locational information" on senior HVTs, to include UBL or Ayman al-Zawahiri. 2610 Intelligence Reporting from Overall Detainee Population
 
 DIRECTOR HAYDEN: "Since CIA representations suggesting that every CIA detainee we began this in the summer of provided intelligence reporting are not supported by CIA 2002, the 97 detainees have records. A detailed reporting chart is provided in Volume helped us by their testimony II. CIA reporting records indicate that 34 percent of all create 8,000 intelligence reports." CIA detainees produced no intelligence reports, and nearly SENATOR SNOWE: "Of the 70 percent produced fewer than 15 intelligence reports. 8,000 intelligence reports that Of the 39 detainees who were, according to CIA records, were provided, as you said, by 30 subjected to the CIA's enhanced interrogation techniques, of the detainees - " nearly 20 percent produced no intelligence reports, while DIRECTOR HAYDEN: "By all 40 percent produced fewer than 15 intelligence reports. 97, ma'am."[^2611]
 
@@ -5332,9 +5230,7 @@ DIRECTOR HAYDEN: "Zubair This testimony is incongruent with CIA records. Prior t
 
 > Hambali and a [Redacted] [Business Q] [Redacted] .2hl'' [Redacted] Zubair admitted to seeking illeg[Redacted]documents on [Redacted] behalf of Hambali, as well as using [Redacted] [Business Q] [Redacted] detention records do not state what immediate investigative steps the CIA or Thai authorities took with regard to [Redacted] [Business Q], although signals intelligence had indicated that Zubair had been in frequent contact with the company. 2621
 
-> After being rendered to CIA custody, Zubair was immediately subjected to the CIA's enhanced
-
-excellent level of rapport." (See [Redacted] 13678 (070724Z MAR 03).) Records indicate that this information was also disseminated in FBI channels. See ALEC [Redacted] [Redacted] interrogation techniques.[^2622] After days of being questioned about other matters, Zubair was asked about his efforts to obtain [Redacted] c u m e n t s for Hambali, at which point he again acknowledged [Redacted] [Redacted] u s i n e s s Q] [Redacted] [Redacted] h e n T h a i approached "a c o n t a c T a [Redacted] [Business Q], they were provided [Redacted] [Redacted]
+After being rendered to CIA custody, Zubair was immediately subjected to the CIA's enhanced excellent level of rapport." (See [Redacted] 13678 (070724Z MAR 03).) Records indicate that this information was also disseminated in FBI channels. See ALEC [Redacted] [Redacted] interrogation techniques.[^2622] After days of being questioned about other matters, Zubair was asked about his efforts to obtain [Redacted] c u m e n t s for Hambali, at which point he again acknowledged [Redacted] [Redacted] u s i n e s s Q] [Redacted] [Redacted] h e n T h a i approached "a c o n t a c T a [Redacted] [Business Q], they were provided [Redacted] [Redacted]
 
 %%page 481%%
 
@@ -5342,11 +5238,9 @@ DIRECTOR HAYDEN: In an operation that included surveillance of [Redacted] "Worki
 
 > According to the chief of the CTC's Southeast Asia Branch:
 
-> "[The CIA] stumbled onto Hambali. We stumbled onto the [source]... picking up the phone and calling his case officer to say there's [Redacted] ...we really stumbled over it. It wasn't police work, it
+> "[The CIA] stumbled onto Hambali. We stumbled onto the [source]... picking up the phone and calling his case officer to say there's [Redacted] ...we really stumbled over it. It wasn't police work, it wasn't good targeting, it was we stumbled over it and it yielded up Hambali."[^2628] KSM, Hambali, am the Karachi "Cell" (the al-Ghuraba Group)
 
 %%page 482%%
-
-> wasn't good targeting, it was we stumbled over it and it yielded up Hambali."[^2628] KSM, Hambali, am the Karachi "Cell" (the al-Ghuraba Group)
 
 DIRECTOR HAYDEN: CIA Director Hayden's reference to "the guys trying to
 
@@ -5362,21 +5256,17 @@ Hambali then admits that he was representations, Hambali's brother, 'Abdul al-Ha
 
 > reported that Gunawan had just identified "a group of 16 individuals, most all of whom are Malaysians." 2631 Records indicate that it was this initial analysis that led the CIA to consider the group a KSM "cell" for the "next wave of attacks."
 
-> While Hambali was being subjected to the CIA's enhanced interrogation techniques, he was confronted about KSM's efforts to find pilots, as well as information on the al-Ghuraba group—which the CIA assessed was a KSM "cell." Hambali told his CIA interrogators "that some of the members of [the al-Ghuraba group] were destined to work for al-Qa'ida if everything had gone
+> While Hambali was being subjected to the CIA's enhanced interrogation techniques, he was confronted about KSM's efforts to find pilots, as well as information on the al-Ghuraba group—which the CIA assessed was a KSM "cell." Hambali told his CIA interrogators "that some of the members of [the al-Ghuraba group] were destined to work for al-Qa'ida if everything had gone according to plan," and that "KSM told him to provide as many pilots as he could."[^2632]
 
 %%page 483%%
-
-> according to plan," and that "KSM told him to provide as many pilots as he could."[^2632]
 
 > Months later, on November 30, 2003, after three weeks of being questioned by a debriefer "almost entirely in Bahasa Indonesia," Hambali admitted to fabricating information during the period he was being subjected to the CIA's enhanced intenogation techniques. According to Hambali, he fabricated these claims "in an attempt to reduce the pressure on himself' and "to give an account that was consistent with what [Hambali] assessed thc questioners wanted to hear."[^2633] A November 30, 2003, cable noted that CIA personnel "assesse[d] [Hambali]'s admission of previous fabrication to be credible." Hambali then consistently described "the al-Ghuraba organization" as a "development camp for potential future JI operatives and leadership, vice a JI cell or an orchestrated attempt by JI to initiate JI operations outside of Southeast Asia." This description was consistent and corroborative of other intelligence reporting.[^2634]
 
 > A wide body of intelligence reporting indicates that, contrary to CIA representations, the al-Ghuraba group was not "tasked" with, or witting, of any aspect of the "Second Wave" plotting.[^2635]
 
-> While KSM's reporting varied, KSM stated "he did not yet view the group as an operational pool from which to draft operatives."[^2636] An Octobcr 27, 2006, CIA cable stated that "all of the members of the JI al-Ghuraba cell have been released,"[^2637] while an April 18, 2008, CIA intelligence report referencing the al-Ghuraba group
+> While KSM's reporting varied, KSM stated "he did not yet view the group as an operational pool from which to draft operatives."[^2636] An Octobcr 27, 2006, CIA cable stated that "all of the members of the JI al-Ghuraba cell have been released,"[^2637] while an April 18, 2008, CIA intelligence report referencing the al-Ghuraba group makes no reference to the group serving as potential operatives for KSM's "Second Wave" plotting.[^2638] r J he Interrogation Process
 
 %%page 484%%
-
-> makes no reference to the group serving as potential operatives for KSM's "Second Wave" plotting.[^2638] r J he Interrogation Process
 
 DIRECTOR HAYDEN: "As This testimony is incongruent with CIA records. As is before, with these seven detailed throughout the Committee Study, CIA detainees [enhanced interrogation were frequently subjected to the CIA's enhanced techniques] we use the least interrogation techniques immediately after being rendered coercive measures to create to CIA custody. 2639 CIA interrogators asked open-ended cooperation at a predictable, questions of CIA detainees, to which the CIA did not reliable, sustainable level. They know the answers, while subjecting detainees to the CIA's are used to create a state of enhanced interrogation techniques. This approach began cooperation. Once the state of with Abu Zubaydah, whose interrogation focused on him cooperation is created, we simply being told to provide "the one thing you don't want me to productively debrief the detainee. know,"[^2640] and remained a central feature of the program. On average, we get to that state Numerous CIA detainees were determined never to have of cooperation in a period reached a "state of cooperation." Several detainees, when measured by about one to two subjected to the CIA's enhanced interrogation techniques, weeks." transitioned to normal debriefing, and were then subjected to one or more additional periods of being subjected to the "When we're asking him techniques.[^2641] questions during that period of increased stress, when we're being more rather than less coercive, we are generally asking him questions for which we know the answers. Otherwise, how do we know we have moved him from a spirit of defiance into a spirit of cooperation? And only after we have moved him into this second stage do we then begin to ask him things we really think he knows but we don't."
 
@@ -5818,11 +5708,9 @@ Ih the absence of recommendations in the SSCI's report, I believe four actions s
 
 > (1) Outlaw waterboarding of detainees once and for all. President Obama implemented this policy when he took office by signing Executive Order 13491, which requires all government agencies, not just the Department of Defense, to adhere to the techniques in the Army Field Manual 2-22.3. Codifying this prohibition would make this restriction even more explicit than the Detainee Treatment Act of 2005. I voted in favor of the Fiscal Year 2008 Intelligence Authorization Act in February 2008, which would have restricted the interrogation techniques employed by CIA personnel to only those covered in the Army Field Manual. Unfortunately, tihis legislation was vetoed on March 8,2008.
 
-> (2) Reduce the number of programs now shared exclusively with the Gang of Eight, which consists of the Chairman and Vice Chairman of the intelligence committees and the leadership of both chambers of Congress, so more member of the oversight
+> (2) Reduce the number of programs now shared exclusively with the Gang of Eight, which consists of the Chairman and Vice Chairman of the intelligence committees and the leadership of both chambers of Congress, so more member of the oversight committees have access to significant information. Congress was informed about the RDI program to the bare minimum required by the National Security Act and no further. Most members of the intelligence committees, not to mention the rest of Congress, officially learned about the program on the same day President Bush announced it to the world in September 2006. In this case, adherence to the letter of the law rather than the spirit of the law resulted in insufficient oversight. As former CIA attorney John Rizzo has said:
 
 %%page 519%%
-
-> committees have access to significant information. Congress was informed about the RDI program to the bare minimum required by the National Security Act and no further. Most members of the intelligence committees, not to mention the rest of Congress, officially learned about the program on the same day President Bush announced it to the world in September 2006. In this case, adherence to the letter of the law rather than the spirit of the law resulted in insufficient oversight. As former CIA attorney John Rizzo has said:
 
 > The decision in 2002 to limit congressional knowledge of the EITs to the Gang of 8 and to stick to that position for four long years—as the prevailing political winds were increasingly howling in the other direction—was foolish ' feckless.. .For our part, we in the CIA leadership should have insisted at the outset that all members of the intelligence committees be apprised of all the gory details all along the way, on the record, in closed congressional proceedings.
 
@@ -5962,9 +5850,7 @@ APPENDIX I: CIA, Countering Misconceptions About Training Camps in
 
 Afghanistan, 1990-2001, August 16,2006 : 1
 
-APPENDIX II: CIA, Briefing Notes on the Value of Detainee Reporting,
-
-August 2005 j
+APPENDIX II: CIA, Briefing Notes on the Value of Detainee Reporting, August 2005 j
 
 A P P E N D I X I I [Redacted] f [Redacted]
 
@@ -6178,9 +6064,7 @@ The Study claims, "[o]ver a period of years, the CIA provided the 'identificatio
 
 [Redacted] We found, however, that information obtained from KSM during his enhanced interrogation on March 25, 2003, about alleged explosives smuggling into the United States, attacks on U.S. gas stations, and related material support to al-Qa'ida, motivated the FBI to track down and arrest Uzhair Paracha in New York a few days later on 63
 
-> continued its pursuit of Saifullah, who was later [Redacted] 1 u
-
-arrested [Redacted] J 'y 6, 2003. Among other charges, Uzhair was successfully convicted on November 23, 2005, of providing material support to al-Qa'ida and sentenced to 30 years in prison. KSM's description of Uzhair's involvement in the gas station plots and his claim that Uzhair may have provided other logistical support for Majid's entry into the United States was consistent with the press release's description of some of the evidence used during Uzhair's trial.[^70]
+continued its pursuit of Saifullah, who was later [Redacted] 1 u arrested [Redacted] J 'y 6, 2003. Among other charges, Uzhair was successfully convicted on November 23, 2005, of providing material support to al-Qa'ida and sentenced to 30 years in prison. KSM's description of Uzhair's involvement in the gas station plots and his claim that Uzhair may have provided other logistical support for Majid's entry into the United States was consistent with the press release's description of some of the evidence used during Uzhair's trial.[^70]
 
 %%page 540%%
 
@@ -6658,21 +6542,15 @@ Ultimately, our analysis of these case studies leads us to conclude that there a
 
 > The Identification of Khalid Shaykh Mohammad as the Mastermind of the 9/11 Attacks and His "Mukhtar" Alias
 
-Study Claim: f [Redacted] ) "On at least two prominent occasions, the CIA
-
-> represented, inaccurately, that Abu Zubaydah provided [information identifying KSM as the mastermind of 9/11] after the use of the CIA's enhanced interrogation techniques."[^99]
+Study Claim: f [Redacted] ) "On at least two prominent occasions, the CIA represented, inaccurately, that Abu Zubaydah provided [information identifying KSM as the mastermind of 9/11] after the use of the CIA's enhanced interrogation techniques."[^99]
 
 > [Redacted] "In at least one instance in November 2007 . . . the CIA asserted that Abu Zubaydah identified KSM as 'Mukhtar' after the use of the CIA's enhanced interrogation techniques."[^100]
 
 > [Redacted] 'There is no evidence to support the statement that Abu Zubaydah's information—obtained by FBI interrogators prior to the use of the CIA's enhanced interrogation techniques and while Abu Zubaydah was hospitalized—was uniquely important in the identification of KSM as the 'mastermind' of the 9/11 attacks."[^101]
 
-Fact: (U) Neither of the occasions cited with respect to the "Mastermind of 9/11"
-
-> information were "prominent." The first occasion was not even a CIA representation, but rather a mistake made by the Department of Justice in one of its legal opinions.[^102] The second occasion was a set of November 2007 documents and talking points for the CIA Director to use in a briefing with
+Fact: (U) Neither of the occasions cited with respect to the "Mastermind of 9/11" information were "prominent." The first occasion was not even a CIA representation, but rather a mistake made by the Department of Justice in one of its legal opinions.[^102] The second occasion was a set of November 2007 documents and talking points for the CIA Director to use in a briefing with the President. Although these briefing materials did contain some erroneous information about KSM's interrogation, the Study fails to demonstrate whether this erroneous information was "represented" to the President during that timeframe.103
 
 %%page 582%%
-
-> the President. Although these briefing materials did contain some erroneous information about KSM's interrogation, the Study fails to demonstrate whether this erroneous information was "represented" to the President during that timeframe.103
 
 > The one instance where the CIA asserted that Abu Zubaydah identified KSM as "Mukhtar" after the use of enhanced interrogation techniques was contained in the same November 2007 briefing materials used by the CIA Director to brief the President.104 Again, the Study fails to demonstrate whether this erroneous information was "represented" to the President during this timeframe.
 
@@ -6720,17 +6598,11 @@ Finally, the 9/11 Commission notes that the information connecting KSM to the Bi
 
 > The Thwarting of the Dirty Bomb/Tall Buildings Plot and the Capture of Jose Padilla
 
-Study Claim: {T[Redacted]^} "A review of CIA operational cables and other
+Study Claim: {T[Redacted]^} "A review of CIA operational cables and other CIA records found that the use of the CIA's enhanced interrogation techniques played no role in the identification of 'Jose Padilla' or the thwarting of the Dirty Bomb or Tall Buildings plotting. CIA records indicate that:... (3) Abu Zubaydah provided this information to FBI officers who were using rapport-building techniques, in April 2002, more than three months prior to the CIA's 'use of DOJ-approved enhanced interrogation techniques,'.,. ."[^124]
 
-> CIA records found that the use of the CIA's enhanced interrogation techniques played no role in the identification of 'Jose Padilla' or the thwarting of the Dirty Bomb or Tall Buildings plotting. CIA records indicate that:... (3) Abu Zubaydah provided this information to FBI officers who were using rapport-building techniques, in April 2002, more than three months prior to the CIA's 'use of DOJ-approved enhanced interrogation techniques,'.,. ."[^124]
-
-Fact: ( T [Redacted] F ) CIA records clearly indicate that sleep
-
-> deprivation played a significant role in Abu Zubaydah's identification of Jose Padilla as an al-Qa'ida operative tasked to carry out an attack against
+Fact: ( T [Redacted] F ) CIA records clearly indicate that sleep deprivation played a significant role in Abu Zubaydah's identification of Jose Padilla as an al-Qa'ida operative tasked to carry out an attack against the United States. Abu Zubaydah provided this information to FBI agents during an interrogation session that began late at night on April 20, 2002, and ended on April 21,2002. Between April 15,2002 and April 21,2002, Abu Zubaydah was deprived of sleep for a total of 126.5 hours (5.27 days) over a 136 hour (5.6 day) period—while only being permitted several brief sleep breaks between April 19,2002 and April 21,2002, which totaled 9.5 hours.
 
 %%page 586%%
-
-> the United States. Abu Zubaydah provided this information to FBI agents during an interrogation session that began late at night on April 20, 2002, and ended on April 21,2002. Between April 15,2002 and April 21,2002, Abu Zubaydah was deprived of sleep for a total of 126.5 hours (5.27 days) over a 136 hour (5.6 day) period—while only being permitted several brief sleep breaks between April 19,2002 and April 21,2002, which totaled 9.5 hours.
 
 [Redacted] This particular Study claim gives the false impression that enhanced interrogation techniques played no role in obtaining important threat information about Jose Padilla during the interrogation of Abu Zubaydah on April 20-21, 2002, and implies that such information was really just the result of the "rapport-building" techniques used by the FBI agents that evening.
 
@@ -6760,13 +6632,9 @@ August 4 , 2 0 0 2 , G i v e n the breadth o f the information provided by Abu Z
 
 The Capture of Ramzi bin al-Shibh
 
-Study Claim: [Redacted] "A review of CIA records found no connection
+Study Claim: [Redacted] "A review of CIA records found no connection between Abu Zubaydah's reporting on Ramzi bin al-Shibh and Ramzi bin al- Shibh's capture... While CIA records indicate that Abu Zubaydah provided information on Ramzi bin al-Shibh, there is no indication that Abu Zubaydah provided information on bin al-Shibh's whereabouts. Further, while Abu Zubaydah provided information on bin al-Shibh while being subjected to the CIA's enhanced interrogation techniques, he provided similar information to FBI interrogators prior to the initiation of the CIA's enhanced interrogation techniques."142
 
-> between Abu Zubaydah's reporting on Ramzi bin al-Shibh and Ramzi bin al- Shibh's capture... While CIA records indicate that Abu Zubaydah provided information on Ramzi bin al-Shibh, there is no indication that Abu Zubaydah provided information on bin al-Shibh's whereabouts. Further, while Abu Zubaydah provided information on bin al-Shibh while being subjected to the CIA's enhanced interrogation techniques, he provided similar information to FBI interrogators prior to the initiation of the CIA's enhanced interrogation techniques."142
-
-Fact: f F [Redacted] 1 ^ CIA records demonstrate that Abu Zubaydah
-
-> was subjected to enhanced interrogation techniques during two separate periods in April 2002 and August 2002. During these timeframes, Abu Zubaydah made several photographic identifications of Ramzi bin al-Shibh and provided information that bin al-Shibh had been in Kandahar at the end of 2001, but was then working with KSM in Karachi, Pakistan. More important, Abu Zubaydah provided information about how he would go about locating Hassan Ghul and other al-Qa'ida associates in Karachi. This information caused [Redacted] Pakistani authorities to intensify their efforts and helped lead them to capture Ramzi bin al-Shibh and other al- Qa'ida associates during the Karachi safe house raids conducted on September 10-11,2002.
+Fact: f F [Redacted] 1 ^ CIA records demonstrate that Abu Zubaydah was subjected to enhanced interrogation techniques during two separate periods in April 2002 and August 2002. During these timeframes, Abu Zubaydah made several photographic identifications of Ramzi bin al-Shibh and provided information that bin al-Shibh had been in Kandahar at the end of 2001, but was then working with KSM in Karachi, Pakistan. More important, Abu Zubaydah provided information about how he would go about locating Hassan Ghul and other al-Qa'ida associates in Karachi. This information caused [Redacted] Pakistani authorities to intensify their efforts and helped lead them to capture Ramzi bin al-Shibh and other al- Qa'ida associates during the Karachi safe house raids conducted on September 10-11,2002.
 
 [Redacted] T h e claim made in this c a s e study relies, in part, upon the factually incorrect premise that Abu Zubaydah w a s not subjected to enhanced interrogation techniques until A u g u s t 4, 2 0 0 2 . 1 4 3 A s previously demonstrated, A b u Zubaydah w a s first subjected to the e n h a n c e d interrogation techniques o f sleep deprivation, nudity, and dietary
 
@@ -6798,9 +6666,7 @@ The Study also incorrectly claims that "there is no indication in CIA records th
 
 The Study dismisses Abu Zubaydah's identification of the well-known associate of Hassan Ghul as mere ''corroborative reporting," and does not attach the appropriate significance to this information because of its rigid adherence to its flawed analytical methodology, which presumes that anything corroborative cannot be considered as "otherwise unavailable actionable intelligence."[^160] The facts tell a different story. Abu Zubaydah was a recognized senior member of al-Qa'ida who had direct ties to multiple high-ranking terrorists, including Usama Bin Ladin. The CIA was focused on Hassan Ghul, another well-connected senior member of al-Qa'ida, and "other" al-Qa'ida associates of Abu Zubaydah. Therefore, Abu Zubaydah's disclosures were deemed by the CIA as significant and actionable intelligence. When Abu Zubaydah identified the well-known associate of Hassan Ghul as the first person he would contact to reconnect with Hassan Ghul and other al-Qa'ida associates, it is very likely that collecting additional intelligence from the well-known associate of Hassan Ghul became a top operational priority for U.S. and Pakistani officials.
 
-> [Redacted] It is not surprising that CIA Headquarters [Redacted] on [Redacted] August 29, 2002, to request that Pakistani officials "reinterview the well-known
-
-associateofllassaii Ghul for additional intelligence on Hassan Ghul."[^161] On September 3, 2002, [Redacted] reported that Pakistani officials had re-interviewed the well-known associate of Hassan Ghul an unknown number of times and that these officials noted that at times the well-known associate of Hassan Ghul contradicted himself.[^162] On September 9, 2002, Pakistani officials returned to the well-known associate of Hassan Ghul's home and interviewed another well-known associate of Hassan Ghul who had recently returned t o [Redacted] The other well-known associate of Hassan Ghul cooperated and disclosed t h e l o c a t i o [Redacted] Hassan Ghul's apartment, which was promptly raided but found to be empty.[^163] Pakistani authorities interviewed [Redacted] n i 1 learned that while Hassan Ghul had vacated the apartment, he was scheduled to return to the complex [Redacted]
+[Redacted] It is not surprising that CIA Headquarters [Redacted] on [Redacted] August 29, 2002, to request that Pakistani officials "reinterview the well-known associateofllassaii Ghul for additional intelligence on Hassan Ghul."[^161] On September 3, 2002, [Redacted] reported that Pakistani officials had re-interviewed the well-known associate of Hassan Ghul an unknown number of times and that these officials noted that at times the well-known associate of Hassan Ghul contradicted himself.[^162] On September 9, 2002, Pakistani officials returned to the well-known associate of Hassan Ghul's home and interviewed another well-known associate of Hassan Ghul who had recently returned t o [Redacted] The other well-known associate of Hassan Ghul cooperated and disclosed t h e l o c a t i o [Redacted] Hassan Ghul's apartment, which was promptly raided but found to be empty.[^163] Pakistani authorities interviewed [Redacted] n i 1 learned that while Hassan Ghul had vacated the apartment, he was scheduled to return to the complex [Redacted]
 
 [Redacted] The Pakistani authorities subsequently placed the complex under surveillance in an effort to capture Hassan Ghul.[^164]
 
@@ -6814,19 +6680,13 @@ M u h a m m a d Ali bin Attash, and other a l - Q a ' i d a m e m b e r s . 1 6 
 
 S i n c e the S t u d y ' s c l a i m s o n this t o p i c d o not h o l d up t o factual scrutiny, its c r i t i c i s m s o f the C I A representations with r e s p e c t to R a m z i b i n a l - S h i b h a n d President B u s h ' s r e f e r e n c e s t o b i n a l - S h i b h in h i s S e p t e m b e r 6 , 2 0 0 6 , s p e e c h o n the C I A ' s D e t e n t i o n and Interrogation P r o g r a m are not valid. T h e C I A said A b u Z u b a y d a h ' s " k n o w l e d g e o f a l - Q a ' i d a l o w e r - l e v e l facilitators, m o d u s operandi and s a f e h o u s e s . . . p l a y e d a k e y role in the ultimate capture o f R a m z i bin a l - S h i b h . " 1 6 9 Far f r o m a "misrepresentation," that statement w a s c o m p l e t e l y accurate and c o n s i s t e n t with the c i r c u m s t a n c e s that l e d to bin a l - S h i b h ' s ultimate capture. S i m i l a r l y , the text in President B u s h ' s S e p t e m b e r 6, 2 0 0 6 , s p e e c h o n the C I A ' s D e t e n t i o n and Interrogation Program noting that "the i n f o r m a t i o n Z u b a y d a h p r o v i d e d h e l p e d l e a d to the capture o f B i n a l s h i b h " w a s also a c c u r a t e . 1 7 0
 
-> T h e capture o f R a m z i bin al-Shibh and the other a l - Q a ' i d a terrorists during [Redacted] [Redacted] raids o f S e p t e m b e r 10-11, 2 0 0 2 , w e r e stunning operational s u c c e s s e s , m a d e
-
-p o s s i b l e , in part, b y the C I A ' s D e t e n t i o n and Interrogation Program.
+T h e capture o f R a m z i bin al-Shibh and the other a l - Q a ' i d a terrorists during [Redacted] [Redacted] raids o f S e p t e m b e r 10-11, 2 0 0 2 , w e r e stunning operational s u c c e s s e s , m a d e p o s s i b l e , in part, b y the C I A ' s D e t e n t i o n and Interrogation Program.
 
 The Capture of Khalid Shaykh Mohammad
 
-Study Claim: ^ d [Redacted] ) "£T]here are no CIA records to support the
+Study Claim: ^ d [Redacted] ) "£T]here are no CIA records to support the assertion that Abu Zubaydah, Ramzi bin al-Shibh, or any other CIA detainee played any role in the 'the planning and execution of the operation that captured Khalid Sheikh Mohammed.'"[^171]
 
-> assertion that Abu Zubaydah, Ramzi bin al-Shibh, or any other CIA detainee played any role in the 'the planning and execution of the operation that captured Khalid Sheikh Mohammed.'"[^171]
-
-Fact: f F [Redacted] [Redacted] P ^ Information obtained from CIA detainee Abu
-
-> Zubaydah was essential to furthering the CIA's understanding of KSM's role in the September 11,2001, terrorist attacks and helped lead to the
+Fact: f F [Redacted] [Redacted] P ^ Information obtained from CIA detainee Abu Zubaydah was essential to furthering the CIA's understanding of KSM's role in the September 11,2001, terrorist attacks and helped lead to the
 
 167 '"7 See CIA, ALEC [Redacted] e m b e r 11, 2002, pp. 2-3. Madni informed the arresting officers that Abu Badr was a "major al-Qa'ida [facilitator!." See also CIA, CIA CABLE 12267, September 11, 2002, pp. 2-4. He also gave [Redacted]
 
@@ -6876,13 +6736,9 @@ A l t h o u g h A S S E T X ' s contributions w e r e clearly important tn K S M
 
 The Disruption of the Karachi Hotels Bombing Plot
 
-Study Claim: [Redacted] "[T]he CIA's enhanced interrogation
+Study Claim: [Redacted] "[T]he CIA's enhanced interrogation techniques—to include the waterboard—played no role in the disruption of the Karachi Plot(s)."[^198]
 
-> techniques—to include the waterboard—played no role in the disruption of the Karachi Plot(s)."[^198]
-
-Fact: (U) CIA documents show that key intelligence collected through the CIA's
-
-> Detention and Interrogation Program, including information obtained after the use of enhanced interrogation techniques, played a major role in disrupting the Karachi hotels bombing plot.
+Fact: (U) CIA documents show that key intelligence collected through the CIA's Detention and Interrogation Program, including information obtained after the use of enhanced interrogation techniques, played a major role in disrupting the Karachi hotels bombing plot.
 
 [Redacted] A s the S t u d y notes, the r e f e r e n c e to the "Karachi P l o t ( s ) " ii < i i h i mi i I H M H I H W I 'in »i I Mini terrorist plotting ascarly as September 11, 2002, in the form of the "perfume letter," which was obtained during a M B raid [Redacted] S f l ^ ^ U f f i S S S f f i i o f a s a f e house in Karachi, Pakistan.[^201] What the Study fails to point out, however, is that Abu Zubaydah provided crucial information which played a big role in leading to the H | raids of the al-Qa'ida safe houses on September 11, 2002—the samcraids that yielded the "perfume letter" and disrupted the Karachi hotels plot. Specifically, [Redacted] raids were the direct result of information provided by Abu Zubaydah on August 20, 2002, during his second period of enhanced interrogation. 2 0 2
 
@@ -6890,9 +6746,7 @@ Fact: (U) CIA documents show that key intelligence collected through the CIA's
 
 [Redacted] When asked how he would go about finding his former al- Qa'ida associates if he were set free, Abu Zubaydah told CIA interrogators that he would contact a well-known associate of Hassan Ghul who could put him in touch with Ghul and other senior al-Qa'ida members.[^203] CIA officers then asked Pakistani officials to question the well-known associate of Hassan Ghul, who on September 7, 2002, provided vague information the Pakistanis assessed was untruthful.[^204] The Pakistanis continued to watch the residence and, when another well-known associate of Hassan Ghul returned to the residence, questioned the other well-known associate of Hassan Ghul as well. The other well-known associate of Hassan Ghul cooperated and provided the location of Ghul's last apartment.[^205] This information led to the arrest, on September 9, 2002, of an individual thought to be Ghul[^206], but who turned out to be another al- Qa'ida terrorist.[^207] Abu Zubaydah then positively identified this terrorist as Abu Badr, "KSM's driver and KSM's man in Karachi," facilitating the movement of al-Qa'ida operatives.[^208] Badr's driver, who was also arrested, identified information about several al-Qa'ida safehouses and residences in Karachi.[^209]
 
-> [Redacted] Based on this information, on September 11, 2002, [Redacted] [Redacted] conducted [Redacted] raids, which resulted in the arrests of several terrorists and
-
-key documents, including one dubbed the "perfume letter" because the word "perfumes" was used as a codeword.[^210] In this May 2002 letter, KSM told Hamza Zubayr, a terrorist killed in the same raids, he would provide him with $30,000, with another $20,000 available upon request, and that "we have acquired the green light that is strong for the [hotels]" clearly indicating a plot of some kind.2'1 More troubling, the ietter suggested "[increasing] the number to make it three instead of one."[^212] Were it not for Abu Zubaydah's original information about the significance o f the w e l l - k n o w n a s s o c i a t e o f Hassan Ghul, w h i c h led to the Karachi s a f e h o u s e raids, it is u n c l e a r i f the " p e r f u m e letter" w o u l d e v e r h a v e b e e n f o u n d .
+[Redacted] Based on this information, on September 11, 2002, [Redacted] [Redacted] conducted [Redacted] raids, which resulted in the arrests of several terrorists and key documents, including one dubbed the "perfume letter" because the word "perfumes" was used as a codeword.[^210] In this May 2002 letter, KSM told Hamza Zubayr, a terrorist killed in the same raids, he would provide him with $30,000, with another $20,000 available upon request, and that "we have acquired the green light that is strong for the [hotels]" clearly indicating a plot of some kind.2'1 More troubling, the ietter suggested "[increasing] the number to make it three instead of one."[^212] Were it not for Abu Zubaydah's original information about the significance o f the w e l l - k n o w n a s s o c i a t e o f Hassan Ghul, w h i c h led to the Karachi s a f e h o u s e raids, it is u n c l e a r i f the " p e r f u m e letter" w o u l d e v e r h a v e b e e n f o u n d .
 
 %%page 599%%
 
@@ -6906,9 +6760,7 @@ p r o v i d i n g the true s i g n i f i c a n c e o f the w e l l - k n o w n a
 
 The Heathrow and Canary Wharf Plots
 
-Study Claim: f F [Redacted] [Redacted] F ) "[C]ontrary to CIA representations, information
-
-> acquired during or after the use of the CIA's enhanced interrogation techniques played no role in 'alert[ing]' the CIA to the threat to—or the
+Study Claim: f F [Redacted] [Redacted] F ) "[C]ontrary to CIA representations, information acquired during or after the use of the CIA's enhanced interrogation techniques played no role in 'alert[ing]' the CIA to the threat to—or the
 
 %%page 600%%
 
@@ -6942,15 +6794,11 @@ continued to unravel the details of this plotting and provided information that 
 
 The Capture of Hambali
 
-Study Claim: [Redacted] "A review of CIA operational cables and other
+Study Claim: [Redacted] "A review of CIA operational cables and other records found that information obtained from KSM during or after the use of the CIA's enhanced interrogation techniques played no role in the capture of Hambali."[^239]
 
-> records found that information obtained from KSM during or after the use of the CIA's enhanced interrogation techniques played no role in the capture of Hambali."[^239]
+Fact: [Redacted] CIA documents show that the interrogation of KSM and al-Qa'ida operative Zubair, during and after the use of enhanced interrogation techniques on both individuals, played a key role in the capture of Hambali.
 
-Fact: [Redacted] CIA documents show that the interrogation of
-
-> KSM and al-Qa'ida operative Zubair, during and after the use of enhanced interrogation techniques on both individuals, played a key role in the capture of Hambali. S ^ y ' s ; claim that the enhanced interrogation of KSM
-
-played "no role" in the capture of Hambali is not accurate, because two detainees subjected to enhanced interrogation techniques, KSM and Mohd Farik bin Amin, a senior member of Jemaah Islamiya (JI) and more commonly known as "Zubair,[^240] provided significant information that helped lead to the capture of Hambali.
+S ^ y ' s ; claim that the enhanced interrogation of KSM played "no role" in the capture of Hambali is not accurate, because two detainees subjected to enhanced interrogation techniques, KSM and Mohd Farik bin Amin, a senior member of Jemaah Islamiya (JI) and more commonly known as "Zubair,[^240] provided significant information that helped lead to the capture of Hambali.
 
 %%page 603%%
 
@@ -6978,21 +6826,15 @@ I.[^255] [Redacted] Zubair
 
 %%page 605%%
 
-> [Redacted] [Redacted] (the CIA planned an operation to find Hambali by w a t c h i [Redacted] n d
-
-waiting for Hambali's [Redacted] It appears that Zubair provided key information about these Hambali facilitators after being subjected to the CIA's enhanced interrogation techniques. Specifically, CIA documents show that analysts assessed that it would be "Zubair cohoit and former roommateLili[Redacted] "per thc Zubair now anc ( "findin^ilie, therefore, may be tantamount to finding [Redacted] Hambali."[^258] [Redacted] Hambali associate Amer, who actually [Redacted] s tracked and Zubair identified a picture of him and speculated that "Lilie likely tasked [Amer] to handle [Redacted] thus following Amer would likely lead to finding Lilie."[^259] Amer was arrested on August 11, 2003, and cooperated in locating Lilie hours later.[^260] Lilie was found to have a key fob in his possession imprinted with an address, which Lilie said was the address of two apartments he used for Hambali's activities, one of which was Hambali's residence.[^261] Hambali was captured at the address found on the key fob several hours later.[^262] It appears that Zubair's cooperation after being subjected to enhanced interrogation techniques played a significant role in the capture of Hambali through Amer and Lilie.
+[Redacted] [Redacted] (the CIA planned an operation to find Hambali by w a t c h i [Redacted] n d waiting for Hambali's [Redacted] It appears that Zubair provided key information about these Hambali facilitators after being subjected to the CIA's enhanced interrogation techniques. Specifically, CIA documents show that analysts assessed that it would be "Zubair cohoit and former roommateLili[Redacted] "per thc Zubair now anc ( "findin^ilie, therefore, may be tantamount to finding [Redacted] Hambali."[^258] [Redacted] Hambali associate Amer, who actually [Redacted] s tracked and Zubair identified a picture of him and speculated that "Lilie likely tasked [Amer] to handle [Redacted] thus following Amer would likely lead to finding Lilie."[^259] Amer was arrested on August 11, 2003, and cooperated in locating Lilie hours later.[^260] Lilie was found to have a key fob in his possession imprinted with an address, which Lilie said was the address of two apartments he used for Hambali's activities, one of which was Hambali's residence.[^261] Hambali was captured at the address found on the key fob several hours later.[^262] It appears that Zubair's cooperation after being subjected to enhanced interrogation techniques played a significant role in the capture of Hambali through Amer and Lilie.
 
 The Thwarting of the Second Wave Plots and Discovery of the Al-Ghuraba Group
 
-Study Claim: [Redacted] "A review of CIA operational cables and other
-
-> documents found that the CIA's enhanced interrogation techniques played no role in the 'discovery' or thwarting of either 'Second Wave' plot. Likewise, records indicate that the CIA's enhanced interrogation techniques played no role in the 'discovery' of a 17-member 'cell tasked with executing the 'Second Wave.""[^263]
+Study Claim: [Redacted] "A review of CIA operational cables and other documents found that the CIA's enhanced interrogation techniques played no role in the 'discovery' or thwarting of either 'Second Wave' plot. Likewise, records indicate that the CIA's enhanced interrogation techniques played no role in the 'discovery' of a 17-member 'cell tasked with executing the 'Second Wave.""[^263]
 
 %%page 606%%
 
-Fact: [Redacted] (TSWWlHWIiWIWIIHMII i The CIA interrogation program played a k e y
-
-> role in disrupting the "Second Wa ve" plot and led to the capture of the 17- m e m b e r al-Ghuraba group.
+Fact: [Redacted] (TSWWlHWIiWIWIIHMII i The CIA interrogation program played a k e y role in disrupting the "Second Wa ve" plot and led to the capture of the 17- m e m b e r al-Ghuraba group.
 
 The Study asserts that because Hambali's brother, Gun Gun Ruswan Gunawan, first identified a group of 17 Malaysian and Indonesian Jemaah Islamiya (JI) affiliated students in Karachi, "the use of the CIA's enhanced interrogation techniques against Hambali did not result in the 'discovery' of 'the Ghuraba Cell' that was 'tasked with executing the 'Second Wave' plotting."'[^264] While Gunawan did identify the group of JI students in Karachi, the Study ignores that KSM, who had also been subjected to the CIA's enhanced interrogation techniques, provided information months earlier on this same group of JI students and their lbcation in Karachi—information that had helped lead to the capture of Gunawan himself. The Study also ignores information provided by other detainees in CIA's interrogation program.
 
@@ -7026,27 +6868,19 @@ During a CIA interrogation of Hambali days later. Hambali, now in CIA custody an
 
 Critical Intelligence Alerting the CIA to Jaffar al-Tayyar
 
-Study Claim: [Redacted] 'CIA representations [about detainee reporting
+Study Claim: [Redacted] 'CIA representations [about detainee reporting on Jaffar al-Tayyar] also omitted key contextual facts, including t h a t . . . (2) CIA detainee Abu Zubaydah provided a description and information on a KSM associate named Jaffar al-Tayyar to FBI Special Agents in May 2002, prior to being subjected to the CIA's enhanced interrogation techniques... and (5) CIA records indicate that KSM did not know al-Tayyar's true name and that it was Jose Padilla—in military custody and being questioned by the FBI—who provided al-Tayyar's true name as Adnan el-Shukrijumah."[^286]
 
-> on Jaffar al-Tayyar] also omitted key contextual facts, including t h a t . . . (2) CIA detainee Abu Zubaydah provided a description and information on a KSM associate named Jaffar al-Tayyar to FBI Special Agents in May 2002, prior to being subjected to the CIA's enhanced interrogation techniques... and (5) CIA records indicate that KSM did not know al-Tayyar's true name and that it was Jose Padilla—in military custody and being questioned by the FBI—who provided al-Tayyar's true name as Adnan el-Shukrijumah."[^286]
+Fact: f F [Redacted] E ) Abu Zubaydah provided a description of and information about Jaffar al-Tayyar to FBI special agents in May 2002 after being subjected to enhanced interrogation between April 15,2002 and April 21, 2002. Although KSM did not know al-Tayyar's true name, he did report that Padilla might know al-Tayyar's true name. Padilla subsequently confirmed Jaffar's true name as Adnan E! Shukrijumah.
 
-Fact: f F [Redacted] E ) Abu Zubaydah provided a description of and
-
-> information about Jaffar al-Tayyar to FBI special agents in May 2002 after being subjected to enhanced interrogation between April 15,2002 and April 21, 2002. Although KSM did not know al-Tayyar's true name, he did report that Padilla might know al-Tayyar's true name. Padilla subsequently confirmed Jaffar's true name as Adnan E! Shukrijumah. [Redacted]
-
-provided information on an associate of KSM by the name of Abu Jaffar al-Thayer. Abu^ Zubaydah provided a detailed description of Abu Jaffar al-Thayer, including that he spoke English well and may have studied in the United States.[^287] The Study incorrectly claims that this May 20, 2002, interrogation took place prior to the initiation of the CIA's enhanced interrogation techniques.[^288] Abu Zubaydah had already been subjected to an extended period of sleep deprivation and other enhanced interrogation techniques during his interrogation between April 15, 2002 and April 21, 2002, about one month prior to his May 20 interrogation.[^289] f ^ S f i S H I ^ G G H H ^ ^ The Study also cites as a key contextual fact omitted from CIA representations that KSM did not know al-Tayyar's true name, and it was Jose Padilla, in military custody and being questioned by the FBI, who provided al-Tayyar's true name as Adnan el-Shukrijumah.[^290] However, this omission was rendered moot because, as the Study itself notes a few pages later,[^291] the "FBI began participating in the military debriefings [of Padilla] in March 2003, after KSM reported Padilla might know the true name of a US-bound al-Qa'ida operative known at the time only as Jaffar al-Tayyar. Padilla subsequently confirmed Jaffar's true name as Adnan El Shukrijumah,"[^292]
+[Redacted] provided information on an associate of KSM by the name of Abu Jaffar al-Thayer. Abu^ Zubaydah provided a detailed description of Abu Jaffar al-Thayer, including that he spoke English well and may have studied in the United States.[^287] The Study incorrectly claims that this May 20, 2002, interrogation took place prior to the initiation of the CIA's enhanced interrogation techniques.[^288] Abu Zubaydah had already been subjected to an extended period of sleep deprivation and other enhanced interrogation techniques during his interrogation between April 15, 2002 and April 21, 2002, about one month prior to his May 20 interrogation.[^289] f ^ S f i S H I ^ G G H H ^ ^ The Study also cites as a key contextual fact omitted from CIA representations that KSM did not know al-Tayyar's true name, and it was Jose Padilla, in military custody and being questioned by the FBI, who provided al-Tayyar's true name as Adnan el-Shukrijumah.[^290] However, this omission was rendered moot because, as the Study itself notes a few pages later,[^291] the "FBI began participating in the military debriefings [of Padilla] in March 2003, after KSM reported Padilla might know the true name of a US-bound al-Qa'ida operative known at the time only as Jaffar al-Tayyar. Padilla subsequently confirmed Jaffar's true name as Adnan El Shukrijumah,"[^292]
 
 %%page 609%%
 
 The Identification and Arrest ofSaleh al-Marri
 
-Study Claim: [Redacted] The Study correctly asserts, "[t]he CIA
+Study Claim: [Redacted] The Study correctly asserts, "[t]he CIA represented to the CIA Office of Inspector General that 'as a result of the lawful use of EITs,' KSM 'provided information that helped lead t the arrests of terrorists including... Saleh Almari, a sleeper operative in New York."*291
 
-> represented to the CIA Office of Inspector General that 'as a result of the lawful use of EITs,' KSM 'provided information that helped lead t the arrests of terrorists including... Saleh Almari, a sleeper operative in New York."*291
-
-Fact: [Redacted] KSM provided valuable intelligence that helped
-
-> to clarify Saleh al-Marri's role in al-Qa'ida operations and played a significant role in al-Marri's prosecution.
+Fact: [Redacted] KSM provided valuable intelligence that helped to clarify Saleh al-Marri's role in al-Qa'ida operations and played a significant role in al-Marri's prosecution.
 
 [Redacted] The Study cites an interview between the OIG and the Deputy Chief of the Counterterrorist Center, in which the deputy chief claims that information from KSM helped lead to the arrest of al-Marri.[^294] As the Study makes clear, al-Marri was not arrested based on information from KSM, and could not have been, because al-Marri was arrested in December 2001, before the detention of KSM in March 2003. Two days after the interview with the IG, the deputy chief wrote in an email that al-Marri "had been detained on a material witness warrant based on information linking him to the 9/11 financier Hasawi."[^295] The Study correctly notes that this inaccuracy appears in the final version of the OIG's May 2004 Special Review[^296], as referenced in an Office of Legal Counsel memorandum analyzing the legality of the CIA's enhanced interrogation techniques.[^297] In its response to the Study, the CIA concedes that the agency erred in describing detainee reporting as contributing to al-Marri's arrest. However, the agency stresses that KSM did provide valuable intelligence on al-Marri— intelligence that played a significant role in al-Marri's prosecution.[^298]
 
@@ -7058,13 +6892,9 @@ Fact: [Redacted] KSM provided valuable intelligence that helped
 
 The Arrest and Prosecution of Iyman Faris
 
-Study Claim: (U) "Over a period of years, the CIA provided the 'identification,' 'arrest,'
+Study Claim: (U) "Over a period of years, the CIA provided the 'identification,' 'arrest,' 'capture,' 'investigation,' and 'prosecution' of Iyman Faris as evidence for the effectiveness of the CIA's enhanced interrogation techniques. These representations were inaccurate."[^303]
 
-> 'capture,' 'investigation,' and 'prosecution' of Iyman Faris as evidence for the effectiveness of the CIA's enhanced interrogation techniques. These representations were inaccurate."[^303]
-
-Fact: (U) CIA, FBI, and Department of Justice documents show that information
-
-> obtained from KSM after he was waterboarded led directly to Faris's arrest and was key in his prosecution.
+Fact: (U) CIA, FBI, and Department of Justice documents show that information obtained from KSM after he was waterboarded led directly to Faris's arrest and was key in his prosecution.
 
 %%page 611%%
 
@@ -7096,13 +6926,9 @@ On March 5, 2003, Majid Khan, an al-Qa'ida operative directly subordinate to KSM
 
 > The Arrest and Prosecution of Uzhair Paracha and the Arrest of Saifullah Paracha
 
-Study Claim: f l P [Redacted] F ) "The CIA represented that information
+Study Claim: f l P [Redacted] F ) "The CIA represented that information obtained through the use of the CIA's enhanced interrogation techniques produced otherwise unavailable intelligence that led to the identification and/or arrest of Uzhair Paracha and his father Saifullah Paracha (aka, Sayf al-Rahman Paracha). These CIA representations included inaccurate information and omitted significant material information, specifically a body [of] intelligence reporting—acquired prior to CIA detainee reporting—that linked the Parachas to al-Qa'ida-related terrorist activities."[^322]
 
-> obtained through the use of the CIA's enhanced interrogation techniques produced otherwise unavailable intelligence that led to the identification and/or arrest of Uzhair Paracha and his father Saifullah Paracha (aka, Sayf al-Rahman Paracha). These CIA representations included inaccurate information and omitted significant material information, specifically a body [of] intelligence reporting—acquired prior to CIA detainee reporting—that linked the Parachas to al-Qa'ida-related terrorist activities."[^322]
-
-Fact: ( T [Redacted] [Redacted] Information obtained from KSM during his
-
-> enhanced interrogation on March 25,2003, about alleged explosives smuggling into the United States, attacks on U.S. gas stations, and related material support to al-Qa'ida, motivated the FBI to track down and arrest Uzhair Paracha in New York a few days later on March 31,2003. The Intelligenc^omm^ who was later arrested [Redacted] on July 2003. Among other charges, Uzhair was successfully convicted on November 23,2005, of providing material support to al-Qa'ida and sentenced to 30 years in prison. KSM's description of Uzhair's involvement in the gas station plots and his claim that Uzhair may have provided other logistical support for Majid's entry into the United States was consistent with the press release's description of some of the evidence used during Uzhair's trial.
+Fact: ( T [Redacted] [Redacted] Information obtained from KSM during his enhanced interrogation on March 25,2003, about alleged explosives smuggling into the United States, attacks on U.S. gas stations, and related material support to al-Qa'ida, motivated the FBI to track down and arrest Uzhair Paracha in New York a few days later on March 31,2003. The Intelligenc^omm^ who was later arrested [Redacted] on July 2003. Among other charges, Uzhair was successfully convicted on November 23,2005, of providing material support to al-Qa'ida and sentenced to 30 years in prison. KSM's description of Uzhair's involvement in the gas station plots and his claim that Uzhair may have provided other logistical support for Majid's entry into the United States was consistent with the press release's description of some of the evidence used during Uzhair's trial.
 
 [Redacted] On March 25, 2003, while being subjected to enhanced interrogation techniques, KSM provided U.S. domestic threat information concerning Saifullah Paracha and his son, Uzhair Paracha. KSM stated that Saifullah Paracha was a Pakistani businessman in Karachi, who owned a textile business with a branch in New York City. KSM alleged that his nephew,. Ammar al-Baluchi, and Majid Khan had discussed a plan with Saifullah to use his textile business to smuggle explosives into the United States. According to this plan, the explosives would be shipped in containers that Saifullah used to ship the clothes that he sold in the United States. KSM stated that Saifullah agreed to the plan, but he was unclear how much Uzhair Paracha knew about it.[^323] KSM added that Majid Khan planned to rent a storage space in whatever area of United States he chose, not necessarily close to New York City, and that the explosives would be used in al-Qa'ida's campaign against economic targets in the United States.[^324]
 
@@ -7170,13 +6996,9 @@ CIA Memorandum for Steve Bradbury at Office of Legal Counsel, Department of Just
 
 In a.September 6, 2006 speech, President Bush highlighted the thwarting of a planned strike against Camp Lemonier in Djibouti as an example of the value of information obtained as a part of CIA's Detention and Interrogation Program. The core claim in this section of the Study is not only inaccurate; it was never made.
 
-Study Claim: f P [Redacted] ) "The CIA represented that intelligence derived
+Study Claim: f P [Redacted] ) "The CIA represented that intelligence derived from the use of CIA's enhanced interrogation techniques thwarted plotting against the U.S. military base, Camp Lemonier, in Djibouti. These representations are inaccurate."[^355]
 
-> from the use of CIA's enhanced interrogation techniques thwarted plotting against the U.S. military base, Camp Lemonier, in Djibouti. These representations are inaccurate."[^355]
-
-Fact: f i [Redacted] 1 ) Representations about the thwarting of an attack
-
-> against Camp Lemonier in Djibouti, specifically President Bush's 2006 comments that "Terrorists held in CIA custody have also provided information that helped stop a planned strike on U.S. Marines at Camp Lemonier in Djibouti," were accurate and have been mischaracterized bv the Study.[^356]
+Fact: f i [Redacted] 1 ) Representations about the thwarting of an attack against Camp Lemonier in Djibouti, specifically President Bush's 2006 comments that "Terrorists held in CIA custody have also provided information that helped stop a planned strike on U.S. Marines at Camp Lemonier in Djibouti," were accurate and have been mischaracterized bv the Study.[^356]
 
 [Redacted] In this section of the Executive Summary, the Study fundamentally mischaracterizes two representations attributed to President Bush and the CIA. The first representation, which comes from the President's September 6, 2006, speech, is attributed to the CIA by the Study because of the CIA's vetting of the speech. In his speech, the President stated, "ftterrorists held in CIA custody have also provided information that helped stop a planned strike on U.S. Marines at Camp Lemonier in Djibouti . .. ."[^357] Contrary to the Study's assertions, the President did not attribute the thwarting of this plot exclusively to the use of enhanced interrogation techniques, but information from "| terrorists held in CIA custody." In addition, the President never stated that the plot was disrupted exclusively because of information from detainees in CIA custody. The President was clear that information from detainees "helped" to stop the planned strike. This idea that detainee reporting builds on and contextualizes previous and subsequent reporting is repeated a few lines later in the speech, when the President makes clear, "[t]he information we get from these detainees is corroborated by intelligence . . . that we've received from other sources, and together this intelligence has helped us connect the dots and stop attacks before they occur."[^358] This is another example of where the President and the CIA are pilloried by the Study for representations they actually never made.
 
@@ -7190,13 +7012,9 @@ Fact: f i [Redacted] 1 ) Representations about the thwarting of an attack
 
 CIA Detainees Subjected to EITs Validated CIA Sources
 
-Study Claim: f l S H i H I H H H N ^ "fflhe CIA also represented that its enhanced
+Study Claim: f l S H i H I H H H N ^ "fflhe CIA also represented that its enhanced interrogation techniques were necessary to validate CIA sources. The claim was based on one CIA detainee—Janat Gul—contradicting the reporting of one CIA asset."366 ;
 
-> interrogation techniques were necessary to validate CIA sources. The claim was based on one CIA detainee—Janat Gul—contradicting the reporting of one CIA asset."366 ;
-
-Fact: f F [Redacted] N ^ Contrary to the Study's claim, the CIA
-
-> representations cited by the Study do not assert that enhanced interrogation techniques helped to validate sources. Rather, the representations only make reference to "detainee information" or detainee "reporting." Also contrary to the Study's claim, we found evidence in the documentary record where the CIA representations about Janat Gul also contained additional examples of source validation. Moreover, the three items of information thait the Study asserts should have been included in the Janat Gul asset validation representations were not "critical" and their inclusion does not alter the fact that Gul's persistent contradiction of the asset's claims did help the CIA "validate" that particular asset.
+Fact: f F [Redacted] N ^ Contrary to the Study's claim, the CIA representations cited by the Study do not assert that enhanced interrogation techniques helped to validate sources. Rather, the representations only make reference to "detainee information" or detainee "reporting." Also contrary to the Study's claim, we found evidence in the documentary record where the CIA representations about Janat Gul also contained additional examples of source validation. Moreover, the three items of information thait the Study asserts should have been included in the Janat Gul asset validation representations were not "critical" and their inclusion does not alter the fact that Gul's persistent contradiction of the asset's claims did help the CIA "validate" that particular asset.
 
 [Redacted] The Study complains that the CIA justified the use of enhanced interrogation techniques by repeatedly using the same Janat Gul example of detainee reporting to determine that one of its assets had fabricated information. The Study first provides the following representation made by CIA Director Hayden during one of our Committee hearings:
 
@@ -7246,15 +7064,11 @@ The Identification of Bin Ladin's Courier
 
 [Redacted] [Redacted] Shortly after the May 2011 raid on the Usama Bin Ladin compound, current and former CIA employees highlighted the role of reporting from the CIA Detention and Interrogation Program in the operation. These officials represented that CIA detainees provided the "tip-off' information on Abu Ahmad al-Kuwaiti (variant Abu Ahmed al- Kuwaiti), the Bin Ladin courier who ultimately led to finding Bin Ladin.387 As we show below, these representations were accurate.
 
-Study Claim: [Redacted] '[T]he 'tipofF on Abu Ahmad al-Kuwaiti in 2002
+Study Claim: [Redacted] '[T]he 'tipofF on Abu Ahmad al-Kuwaiti in 2002 did not come from the interrogation of CIA detainees and was obtained prior to any CIA detainee reporting."[^388]
 
-> did not come from the interrogation of CIA detainees and was obtained prior to any CIA detainee reporting."[^388]
+Fact: ( K [Redacted] CIA documents show that detainee information served as the "tip-off" and played a significant role in leading CIA analysts to tlie courier Abu Ahmad al-Kuwaiti. While there was other information in CIA databases about al-Kuwaiti, this information was not recognized as important by analysts until after detainees provided information on him.
 
-Fact: ( K [Redacted] CIA documents show that detainee information
-
-> served as the "tip-off" and played a significant role in leading CIA analysts to tlie courier Abu Ahmad al-Kuwaiti. While there was other information in CIA databases about al-Kuwaiti, this information was not recognized as important by analysts until after detainees provided information on him. [Redacted]
-
-analysts and operators testified before the Committee about how they tracked down Bin Ladin. The CIA described the lead information as being provided by detainees in U.S. custody at CIA secret sites and the detention facility at Guantanamo Bay, Cuba, and from detainees in the custody of foreign governments that helped the CIA recognize the importance of Bin Ladin's courier, Abu Ahmad al-Kuwaiti.[^389] CIA officers were clear that the information was from detainees, but never portrayed the information as originating solely from detainees held by the CIA,
+[Redacted] analysts and operators testified before the Committee about how they tracked down Bin Ladin. The CIA described the lead information as being provided by detainees in U.S. custody at CIA secret sites and the detention facility at Guantanamo Bay, Cuba, and from detainees in the custody of foreign governments that helped the CIA recognize the importance of Bin Ladin's courier, Abu Ahmad al-Kuwaiti.[^389] CIA officers were clear that the information was from detainees, but never portrayed the information as originating solely from detainees held by the CIA,
 
 [Redacted] . CIA documents show that even before the raid took place, CIA analysts prepared briefings and papers on their analysis of what led them to the courier. These briefings and papers clearly described the key role that detainee reporting played in this analytical and operational process. A CIA paper in November 2007 noted that "over twenty mid to high-value detainees have discussed Abu Ahmad"s ties to senior al-Qa'ida leaders, including his role in delivering messages from Bin Ladin and his close association with former al-Qa'ida third-in-command Abu Faraj al-Libi."[^390] The report highlighted specific reporting from two detainees, Hassan Ghul and Ammar al-Baluchi, who both identified Abu Faraj al-Libi's role in communicating to Bin Ladin through Abu Ahmad. It was this and similar reporting from other detainees that helped analysts realize Abu Faraj's categorical denials that he even knew anyone named Abu Ahmad al-Kuwaiti, "almost certainly were an attempt to protect Abu Ahmed," thus showing his importance.[^391]
 
@@ -7266,9 +7080,7 @@ SSCI and SASC Transcript. Briefing on Operation Neptune's Spear, May 4, 2011, pp
 
 > debriefing al-Qa'ida detainees provided them with unparalleled expertise and knowledge of the organization. The ability to cross-check detainee statements against one another—specifically Abu Faraj's with that of numerous other detainees—ultimately led to the assessment that Abu Ahmad was directly serving as Bin Ladin's facilitator and possibly harboring him. In sum, 25 detainees provided information on Abu Ahmad al-Kuwaiti, his al-Qa'ida membership, and his historic role as a courier for Bin Ladin. Nine of the 25 were held in non-CIA custody. Of the 16 held in CIA custody, all but three had given information after being subjected to enhanced interrogation techniques (EITs), although of the 13 only two (KSM and Abu Zubaydah) had been waterboarded. Even so, KSM gave false information about Abu Ahmad, as did Abu Faraj, who received lesser EITs. Ironically, the falsity of the information was itself important in establishing Abu Ahmad's significance.[^392]
 
-> [Redacted] The Study asserts that information acquired in 2002 [Redacted] I [Redacted] was the "tip-off' to Abu Ahmad al-Kuwaiti, but this information sat
-
-unnoticed in a CIA database for five years.[^393] It was multiple detainee reports about a Bin Ladin courier with the alias Abu Ahmad al-Kuwaiti that triggered a search that uncovered the old information.194 This is another example of the Study's use of hindsight to criticize the CIA for not recognizing the significance of previouslycollecteOuUio^lly-understood, intelligence information. It is also an attempt to use this [Redacted] information to categorize the subsequently collected detainee information as being "otherwise obtainable." Under the Study's flawed analytical methodology, information in that category cannot be used as evidence of the effectiveness of the CIA's Detention and Interrogation Program. We are not similarly constrained.
+[Redacted] The Study asserts that information acquired in 2002 [Redacted] I [Redacted] was the "tip-off' to Abu Ahmad al-Kuwaiti, but this information sat unnoticed in a CIA database for five years.[^393] It was multiple detainee reports about a Bin Ladin courier with the alias Abu Ahmad al-Kuwaiti that triggered a search that uncovered the old information.194 This is another example of the Study's use of hindsight to criticize the CIA for not recognizing the significance of previouslycollecteOuUio^lly-understood, intelligence information. It is also an attempt to use this [Redacted] information to categorize the subsequently collected detainee information as being "otherwise obtainable." Under the Study's flawed analytical methodology, information in that category cannot be used as evidence of the effectiveness of the CIA's Detention and Interrogation Program. We are not similarly constrained.
 
 [Redacted] The Study—benefiting from the ability to search a database compiled of only information relevant to its specific task (something intelligence analysts are not able to do) with the advantage of hindsight to understand which names are now important— asserts that prior to receiving information from CIA detainees, the CIA had other critical reporting on the courier. The Study cites Abu Ahmad's phone number and e-mail address, a body of intelligence reporting linking him to KSM's operational planning, and reporting on Abu Ahmad's age, physical appearance, and family—including information the CIA would later cite as pivotal in identifying his true name.[^395]
 
@@ -7286,13 +7098,9 @@ Further review of CIA records confirmed that the phone number at issue was an In
 
 %%page 628%%
 
-Study Claim: f ^ S f l H H H I H B ^ F ) "[Tjhe most accurate information on Abu
+Study Claim: f ^ S f l H H H I H B ^ F ) "[Tjhe most accurate information on Abu Ahmad al-Kuwaiti obtained from a CIA detainee [Hassan Ghul] was provided by a CIA detainee who had not yet been subjected to the CIA's enhanced interrogation techniques."[^402]
 
-> Ahmad al-Kuwaiti obtained from a CIA detainee [Hassan Ghul] was provided by a CIA detainee who had not yet been subjected to the CIA's enhanced interrogation techniques."[^402]
-
-Fact: [Redacted] Detainees who provided useful and accurate
-
-> information on Abu Ahmad al-Kuwaiti and Bin Ladin had undergone enhanced interrogation prior to providing the information. For example, Hassan Ghul provided more specificity about Abu Ahmad after being transferred from COBALT and receiving enhanced interrogation techniques.
+Fact: [Redacted] Detainees who provided useful and accurate information on Abu Ahmad al-Kuwaiti and Bin Ladin had undergone enhanced interrogation prior to providing the information. For example, Hassan Ghul provided more specificity about Abu Ahmad after being transferred from COBALT and receiving enhanced interrogation techniques.
 
 The Study disputes statements from current and former CIA officials that information from detainees in CIA's enhanced interrogation program provided valuable information on Abu Ahmad al-Kuwaiti. For example, then-CIA Director Leon Panetta told ABC News in May 2011, soon after the Bin Ladin raid, that enhanced interrogation techniques were used to extract information that led to the mission's success.[^403] Former Director Hayden said in an interview that "the original lead information—and frankly it was incomplete identity information on the couriers—began with information from CIA detainees at the black sites."[^404] Both of these statements are accurate.
 
@@ -7320,13 +7128,9 @@ Conclusion 6 (CIA Impeded Congressional Oversight)
 
 ## Timing of the CIA's Briefings on Enhanced Interrogation Techniques
 
-Study Claim: ( T S f l H ^ H I ^ ^ B ^ " [Redacted] T h e C I A d i d n o t b r i e f t h e Senate Intelligence
+Study Claim: ( T S f l H ^ H I ^ ^ B ^ " [Redacted] T h e C I A d i d n o t b r i e f t h e Senate Intelligence Committee leadership on the CIA's enhanced interrogation techniques until September 2002, after the techniques had been approved and used.'"[^417]
 
-> Committee leadership on the CIA's enhanced interrogation techniques until September 2002, after the techniques had been approved and used.'"[^417]
-
-Fact: f F [Redacted] F ) The CIA provided information to the Committee
-
-> in hearings, briefings, and notifications beginning shortly after the signing of the Memorandum of Notification (MON) on September 17,2001.
+Fact: f F [Redacted] F ) The CIA provided information to the Committee in hearings, briefings, and notifications beginning shortly after the signing of the Memorandum of Notification (MON) on September 17,2001.
 
 [Redacted] Conclusion 6 opens with the statement that the CIA did not brief the Senate Intelligence Committee leadership on the CIA's enhanced interrogation techniques until after the techniques had been approved and used, setting the tone for a narrative that the CIA actively and systematically concealed information from the Congress. In reality, the CIA began discussing concerns about interrogation with the Committee even prior to the creation of the Program. The Study's review of the CIA's representations to Congress cites CIA hearing testimony from November 7, 2001, discussing the uncertainty in the boundaries on interrogation techniques[^418] The Study also cites additional discussions between staff and CIA lawyers in February 2002.[^419]
 
@@ -7336,9 +7140,7 @@ Fact: f F [Redacted] F ) The CIA provided information to the Committee
 
 ## Acce.ss to Documents
 
-Study Claim: [Redacted] "The CIA subsequently resisted efforts by then-
-
-> Vice Chairman John D. Rockefeller, IV, tc investigate the program, including by refusing in 2006 to provide requested documents."[^421]
+Study Claim: [Redacted] "The CIA subsequently resisted efforts by then- Vice Chairman John D. Rockefeller, IV, tc investigate the program, including by refusing in 2006 to provide requested documents."[^421]
 
 Fact: [Redacted] > The CIA provided access to the documents requested.
 
@@ -7346,13 +7148,9 @@ Fact: [Redacted] > The CIA provided access to the documents requested.
 
 Breadth of Congressional Access
 
-Study Claim: [Redacted] The CIA impeded congressional oversight by
+Study Claim: [Redacted] The CIA impeded congressional oversight by restricting access to information about the Program from members of the Committee beyond the Chairman and Vice Chairman.[^425]
 
-> restricting access to information about the Program from members of the Committee beyond the Chairman and Vice Chairman.[^425]
-
-Fact: f F [Redacted] F ) The CIA's limitation of access to sensitive covert
-
-> action information is a long-standing practice codified in Section 503 of the National Security Act of 1947, as amended.
+Fact: f F [Redacted] F ) The CIA's limitation of access to sensitive covert action information is a long-standing practice codified in Section 503 of the National Security Act of 1947, as amended.
 
 [Redacted] The Study notes numerous times that the CIA refused to provide information on its Detention and Interrogation Program to Committee members and staff[^426] The underlying assertion is that the CIA's restriction of access to the Chairman and Vice Chairman somehow constituted an attempt to avoid or impede congressional oversight of the Program. This is simply untrue. According to section 503(c)(2) of the National Security Act of 1947, as amended:
 
@@ -7384,13 +7182,9 @@ Our analysis of the documentary record demonstrates that most of the CIA's repre
 
 Executive Branch Oversight
 
-Study Claim: f F S [Redacted] l i ) "According to CIA records, no CIA officer, up
+Study Claim: f F S [Redacted] l i ) "According to CIA records, no CIA officer, up to and including CIA Directors George Tenet and Porter Goss, briefed the President on the specific CIA enhanced interrogation techniques before April 2006. By that time, 38 of the 39 detainees identified as having been subjected to the CIA's enhanced interrogation techniques had already been subjected to the techniques."[^432]
 
-> to and including CIA Directors George Tenet and Porter Goss, briefed the President on the specific CIA enhanced interrogation techniques before April 2006. By that time, 38 of the 39 detainees identified as having been subjected to the CIA's enhanced interrogation techniques had already been subjected to the techniques."[^432]
-
-Fact: (U) CIA records are contradictory and incomplete regarding when the
-
-> President was briefed, but President Bush himself says he was briefed in 2002, before any techniques were used.[^433]
+Fact: (U) CIA records are contradictory and incomplete regarding when the President was briefed, but President Bush himself says he was briefed in 2002, before any techniques were used.[^433]
 
 [Redacted] The Study finds that the CIA "impeded" executive branch oversight, not just by withholding information about the Program, but by providing inaccurate urn 111 in i B i W I H I i M W i B f t H l minimi information about its operation and effectiveness. Beginning with the premise that the Cf A did not obtain approval from the President or the National Security Council prior to using enhanced interrogation techniques on Abu Zubaydah, the Study identifies records that cast some doubt on whether the President was briefed before April 2006.[^434] However, CIA records are inconsistent on this point.
 
@@ -7408,17 +7202,13 @@ There is at least one person, however, who disputes this mutative and says that 
 
 Accuracy of Information Provided
 
-Study Claim: f F [Redacted] F } "The information provided connecting the
-
-> CIA's detention and interrogation program directly to [the "Dirty Bomb" Plot/Tall Buildings Plot, the Karachi Plots, Heathrow and Canary Wharf
+Study Claim: f F [Redacted] F } "The information provided connecting the CIA's detention and interrogation program directly to [the "Dirty Bomb" Plot/Tall Buildings Plot, the Karachi Plots, Heathrow and Canary Wharf
 
 %%page 636%%
 
 > Plot, and the Identification/Capture of Iyman Faris] was, to a great extent, inaccurate."[^445]
 
-Fact: (U) The information provided to the White House attributing the arrests of
-
-> these terrorists and the thwarting of these plots to the CIA's Detention and Interrogation Program was accurate.
+Fact: (U) The information provided to the White House attributing the arrests of these terrorists and the thwarting of these plots to the CIA's Detention and Interrogation Program was accurate.
 
 The Study accuses the CIA of providing inaccurate information to the White House and the National Security Council Principals about the Program and its effectiveness. Pivotal to this allegation is a July 29, 2003, briefing that the CIA Director and General Counsel had with executive branch officials, including the Vice President, the National Security Advisor, the White House Counsel, and the Attorney General. According to the six-page memorandum for the record prepared by the CIA General Counsel on August 5, 2003, the purpose of the meeting was to "discuss current, past and future CIA policies and practices concerning the interrogation of certain detainees held by CIA,"[^446]
 
@@ -7432,27 +7222,19 @@ Conclusion 8 states, "|t |he CIA's operation and management of the program compl
 
 Access to the Covert Action Program
 
-Study Claim: f F [Redacted] F ) "The CIA blocked State Department leadership
+Study Claim: f F [Redacted] F ) "The CIA blocked State Department leadership from access to information crucial to foreign policy decision-making and diplomatic activities."[^452]
 
-> from access to information crucial to foreign policy decision-making and diplomatic activities."[^452]
-
-Fact: [Redacted] The National Security Staff controlled access to
-
-> the covert action program and there is no evidence that the CIA refused to brief State Department leadership when directed.
+Fact: [Redacted] The National Security Staff controlled access to the covert action program and there is no evidence that the CIA refused to brief State Department leadership when directed.
 
 [Redacted] The Study does not provide any evidence that the CIA deliberately impeded, obstructed or blocked the State Department from obtaining information about the Program inconsistent with directions from the White House or the National Security Council. In fact, the Study acknowledges that CIA officers were in close and constant contact with their State Department counterparts where detention facilities were located and among senior leadership to include the Secretary of State and the U.S. Deputy Secretary of State. For example, leading to the establishment of a facility in Country[Redacted] the Study notes that the chief of station (COS) was coordinating activities with the ambassador. Because the Program was highly compartmented, the ambassador was directed by the National Security Council not to discuss with his immediate superior at headquarters due to the highly compartmented nature of the covert action. Instead, the COS, sent feedback from the ambassador through CIA channels, to the NSC, whereby the Deputy Secretary of State with the knowledge of the Secretary, would discuss any issues or concerns with the ambassador in country.[^453] While the process was less direct, the security precautions to protect sensitive information did not impede the national security mission of the State Department.
 
 CIA Denied FBI Requests
 
-Study Claim: [Redacted] "The CIA denied specific requests from FBI
-
-> Director Robert Mueller, HI, for FBI access to CIA detainees that the FBI believed was necessary to understand CIA detainee reporting on threats to the U.S. Homeland."[^454]
+Study Claim: [Redacted] "The CIA denied specific requests from FBI Director Robert Mueller, HI, for FBI access to CIA detainees that the FBI believed was necessary to understand CIA detainee reporting on threats to the U.S. Homeland."[^454]
 
 %%page 638%%
 
-Fact: While the FBI's participation in the
-
-> interrogation of detainees was self-proscribed, the Bureau was still able to submit requirements to the CIA and received reports on interrogations.
+Fact: While the FBI's participation in the interrogation of detainees was self-proscribed, the Bureau was still able to submit requirements to the CIA and received reports on interrogations.
 
 C-[Redacted][Redacted]^ 1 ) This Study claim appears to focus on FBI access to KSM in 2003 after FBI Director Mueller read an intenogation report that vaguely referenced possible threats to New York, Washington, DC, Chicago, Dallas, and San Francisco.[^455] However, the Study acknowledges the FBI's fear that the use of enhanced techniques activity would place FBI agents at future legal risk if they participated in interrogations.[^456] Recognizing the need for FBI access to detainees, bothaggngigs finalized a memorandum of understanding in the fall of 2003
 
@@ -7460,13 +7242,9 @@ FBI [Redacted] agents would be provided access to detainees [Redacted]
 
 The ODNI was Provided with Inaccurate and Incomplete Information
 
-Study Claim: [Redacted] 'The ODNI was provided with inaccurate and
+Study Claim: [Redacted] 'The ODNI was provided with inaccurate and incomplete information about the program, preventing the ODNI from effectively carrying out its statutory responsibility to serve as the principal advisor to the President on intelligence matters."[^458]
 
-> incomplete information about the program, preventing the ODNI from effectively carrying out its statutory responsibility to serve as the principal advisor to the President on intelligence matters."[^458]
-
-Fact: [Redacted] > The Study incorrectly claims that inaccurate
-
-> information was provided to the Office of the Director of National Intelligence.
+Fact: [Redacted] > The Study incorrectly claims that inaccurate information was provided to the Office of the Director of National Intelligence.
 
 The updated Study treats this claim differently than it did in the version that was adopted by the Committee during the 112th Congress. The original Study sought to dispute claims regarding the use of enhanced interrogation techniques and disruption of several plots. However, the updated Study drops the direct reference to coercive measures and instead focuses on the Detention and Interrogation Program in general[^459] The 2006 press release from the Office of Director of National Intelligence[^460] does not reference the use of enhanced interrogation techniques, but states unequivocally: "The detention of terrorists disrupts—at least temporarily—the plots they were involved in." To claim that the detention and interrogation of terrorists did not yield intelligence of value is simply not credible.
 
@@ -7480,13 +7258,9 @@ Program." Our analysis of the claims used in support of this c o n c l u s i o n
 
 "Novel" Use of the Necessity Defense
 
-Study Claim: [Redacted] "CIA attorneys stated that 'a novel application
+Study Claim: [Redacted] "CIA attorneys stated that 'a novel application of using the necessity defense' could be used 'to avoid prosecution of U.S. officials who tortured to obtain information that saved many lives."'[^462]
 
-> of using the necessity defense' could be used 'to avoid prosecution of U.S. officials who tortured to obtain information that saved many lives."'[^462]
-
-Fact: ( T [Redacted] ) The draft CIA Office of General Counsel (OGC)
-
-> legal appendix cited by the report contained a cursory discussion of the necessity defense that did not support the use of such defense in the context of the CIA's Detention and Interrogation Program.[^463]
+Fact: ( T [Redacted] ) The draft CIA Office of General Counsel (OGC) legal appendix cited by the report contained a cursory discussion of the necessity defense that did not support the use of such defense in the context of the CIA's Detention and Interrogation Program.[^463]
 
 T h i s particular c l a i m appears to be a remnant from what had b e e n "Conclusion 2" in the original version of the Study approved by the S S C I during the 1I2 l h Congress. Our original minority v i e w s w e r e very critical o f the claims made in support o f the "necessity d e f e n s e " c o n c l u s i o n . W e w e r e pleased to see that the original "Conclusion 2" w a s dropped from the c o n c l u s i o n s in the updated version o f the Study; h o w e v e r , w e are disappointed to see this factually and legally incorrect claim repeated here in support o f a c o n c l u s i o n alleging that the C I A provided inaccurate information to the Department of Justice.
 
@@ -7516,17 +7290,13 @@ The August 1, 2002, memorandum opinion, however, did finally conclude with the s
 
 Accuracy of Claims about Abu Zubaydah
 
-Study Claim: The OLC "relied on inaccurate CIA
-
-> representations about Abu Zubaydah's status in al-Qa'ida and the interrogation team's 'certain[ty]' that Abu Zubaydah was withholding information about planned terrorist attacks."[^478]
+Study Claim: The OLC "relied on inaccurate CIA representations about Abu Zubaydah's status in al-Qa'ida and the interrogation team's 'certain[ty]' that Abu Zubaydah was withholding information about planned terrorist attacks."[^478]
 
 > [Redacted] The CIA assessment that Abu Zubaydah was the "third or fourth man" in al-Qa'ida was "based on single-source reporting that was recanted prior to the August 1,2002, OLC memorandum."[^479]
 
 > [Redacted] "The CIA later concluded that Abu Zubaydah was not a member of al-Qa'ida."[^480]
 
-Fact: [Redacted] The information relied upon by the Study to
-
-> criticize the CIA's representations about Abu Zubaydah withholding of information about planned terrorists attacks neglected to include important statements from within that same intelligence cable, which supported those representations by the CIA.
+Fact: [Redacted] The information relied upon by the Study to criticize the CIA's representations about Abu Zubaydah withholding of information about planned terrorists attacks neglected to include important statements from within that same intelligence cable, which supported those representations by the CIA.
 
 > [Redacted] The CIA was in possession of multiple threads of ; Abu Zubaydah's prominent role in al-Qa'ida. The [Redacted] [Redacted]
 
@@ -7548,11 +7318,9 @@ The Study claims that the CIA's unsupported representations to OLC included the 
 
 Zubaydah was the "third or fourth man" in al-Qa'ida was based on a single source who had recanted prior to the drafting of the August 1, 2002, OLC memorandum[^488] The CIA counters this criticism by stating that the Agency had:
 
-> multiple threads of reporting indicating that Zubaydah was a dangerous terrorist, close associate of senior al Qa'ida leaders, and was aware of critical logistical and operational details of the organization, whether or not he held formal rank in al- Qa'ida. Analysts did not alter their fundamental assessment of Zubaydah's
+> multiple threads of reporting indicating that Zubaydah was a dangerous terrorist, close associate of senior al Qa'ida leaders, and was aware of critical logistical and operational details of the organization, whether or not he held formal rank in al- Qa'ida. Analysts did not alter their fundamental assessment of Zubaydah's intelligence value as a result of anything said or later recanted by the single source.489 "
 
 %%page 644%%
-
-> intelligence value as a result of anything said or later recanted by the single source.489 "
 
 [Redacted] [who had admitted that he was sent by Abu Zubaydah to conduct terrorist operations [Redacted] [Redacted] including an attack on a U.S. embassy.[^490] had also reported to interrogators that Abu Zubaydah was considered the "third or fourth ranking individual after Bin Ladin."[^491] He provided the following additional information that Abu Zubaydah: (!) was considered the financial officer; (2) handled the "fraudulent" operations; (3) was considered to be responsible for the Gulf networks; and (4) was considered to be experienced in military affairs.[^492] [Redacted] also admitted to meeting with Abu Zubaydah at least twice[^493] An intelligence cable indicates that "as of 2 October 2001, [[Redacted] had retracte^ii^revious admissions . . . to cany out a terrorist attack against the U.S. embassy . . . ."[^494] [Redacted] [Redacted] were certain, however, that despite retraction of his admissions concerning a plot against a U.S. embassy, he was involved in terrorist planning activity against unknown targets. They also assessed that [Redacted] d not been previously aware of the September 11, 2001, terrorist attacks by al-Qa'ida when he made his earlier admissions related to Abu Zubaydah[^495]
 
@@ -7574,9 +7342,7 @@ At best, this text supports the rather useless assertion that in August 2006, a 
 
 Breadth of Application of Enhanced Interrogation Techniques
 
-Study Claim: [Redacted] "[T]lie CIA applied its enhanced interrogation
-
-> techniques to numerous other CIA detainees without seeking additional formal legal advice from the OLC."[^501]
+Study Claim: [Redacted] "[T]lie CIA applied its enhanced interrogation techniques to numerous other CIA detainees without seeking additional formal legal advice from the OLC."[^501]
 
 Fact: ( T S [Redacted] F ) The CIA appropriately applied the legal principles of the August 1,2002, OLC memorandum to other CIA detainees.
 
@@ -7586,15 +7352,11 @@ f F [Redacted] F ) The Study authors appear to misunderstand the role of the OLC
 
 Detainees' Importance Overstated
 
-Study Claim: ( ^ j H H S H N ^ Tt»e CIA made inaccurate representations to
-
-> DOJ that Janat Gul and Ahmed Khalfan Ghailani were high-value al Qaeda operatives with knowledge of a pre-election plot against the United States when seeking legal guidance on whether the use of four additional interrogation techniques might violate U.S. law or treaty obligations.303
+Study Claim: ( ^ j H H S H N ^ Tt»e CIA made inaccurate representations to DOJ that Janat Gul and Ahmed Khalfan Ghailani were high-value al Qaeda operatives with knowledge of a pre-election plot against the United States when seeking legal guidance on whether the use of four additional interrogation techniques might violate U.S. law or treaty obligations.303
 
 > [Redacted] '[T]he threat of a terrorist attack to precede the November 2004 U.S. election was found to be based on a CIA source whose information was questioned by senior CTC officials at the time and who admitted to fabricating the information after a [Redacted] >n [Redacted] c t o b e r 2004."[^504]
 
-Fact: [Redacted] Contrary to the Study's claim, the CIA believed
-
-> the representations to be true at the time it made them to the OLC. The CIA did not learn that some of these representations had been fabricated by a sensitive CIA source until months after OLC had approved the use of enhanced interrogation techniques against Janat Gul and Ahmed Khalfan Ghailani.
+Fact: [Redacted] Contrary to the Study's claim, the CIA believed the representations to be true at the time it made them to the OLC. The CIA did not learn that some of these representations had been fabricated by a sensitive CIA source until months after OLC had approved the use of enhanced interrogation techniques against Janat Gul and Ahmed Khalfan Ghailani.
 
 > [Redacted] The email relied upon by the Study does not support the proposition that senior CTC officials questioned the veracity of the sensitive CIA source. Also, while the source did admit to fabricating information about a meeting that never occurred, the Study does not acknowledge that the Chief of Base believed that the source was "generally truthful" about his discussions on the pre-election threat, despite [Redacted] I [Redacted] result on that issue.
 
@@ -7618,13 +7380,9 @@ I [Redacted] on the issue of the pre-election threat | _
 
 Effectiveness of the Program
 
-Study Claim: [Redacted] The CIA's "representations of 'effectiveness'
+Study Claim: [Redacted] The CIA's "representations of 'effectiveness' were almost entirely inaccurate and mirrored other inaccurate information provided to the White House, Congress, and the CIA inspector general."[^515]
 
-> were almost entirely inaccurate and mirrored other inaccurate information provided to the White House, Congress, and the CIA inspector general."[^515]
-
-Fact: f £ [Redacted] F ) The CIA's Detention and Interrogation
-
-> Program, to include the use of enhanced interrogation techniques, was effective and yielded valuable intelligence. The Study's exaggerated and absolute claims about inaccurate "effectiveness" representations by the CIA have been largely discredited by these minority views and the CIA's June 27, 2013, response to the Study.
+Fact: f £ [Redacted] F ) The CIA's Detention and Interrogation Program, to include the use of enhanced interrogation techniques, was effective and yielded valuable intelligence. The Study's exaggerated and absolute claims about inaccurate "effectiveness" representations by the CIA have been largely discredited by these minority views and the CIA's June 27, 2013, response to the Study.
 
 [Redacted] In our view, the CIA's June 27, 2013, response to the Study identified significant problems with the original Study approved by the SSCI during the 112lh Congress. Their response also fairly addressed the Study's many allegations of inaccurate representations in the context of the effectiveness of the Detention and Interrogation Program. For the most part, we found that the CIA acknowledged those representations that were made in error or could have benefited from the inclusion of additional clarification.
 
@@ -7638,15 +7396,11 @@ Fact: f £ [Redacted] F ) The CIA's Detention and Interrogation
 
 Use of Constant Light, White Noise, and Shaving of Detainees
 
-Study Claim: f F S f l H H H H H N ^ C I A assertions to the OLC that loud music and
+Study Claim: f F S f l H H H H H N ^ C I A assertions to the OLC that loud music and white noise, constant light, and 24-hour shackling were all for security purposes were inaccurate.®30
 
-> white noise, constant light, and 24-hour shackling were all for security purposes were inaccurate.®30
+Fact: [Redacted] The CIA disclosed to OLC that these
 
-Fact:
-
-> [Redacted] The CIA disclosed to OLC that these confinement conditions were both for security and for other purposes. [Redacted]
-
-purpose for c o n f i n i n g detainees in conditions including loud music, w h i t e noise, constant light, 2 4 - h o u r shackling, and shaving of the head and face. 5 3 1 T h e C I A ' s response asserts that this characterization takes the C I A ' s representations out o f context. T h e A g e n c y claimed that such c o n d i t i o n s w e r e necessary for security, not that the m e c h a n i s m s served no other purpose. The A g e n c y noted that in responding to a draft O L C opinion, the C I A tried to correct the misunderstanding, noting that "these conditions are also used for other valid reasons, such as to create an e n v i r o n m e n t c o n d u c i v e to transitioning captured and resistant terrorist to detainees participating in debriefings." 5 3 2
+confinement conditions were both for security and for other purposes. [Redacted] purpose for c o n f i n i n g detainees in conditions including loud music, w h i t e noise, constant light, 2 4 - h o u r shackling, and shaving of the head and face. 5 3 1 T h e C I A ' s response asserts that this characterization takes the C I A ' s representations out o f context. T h e A g e n c y claimed that such c o n d i t i o n s w e r e necessary for security, not that the m e c h a n i s m s served no other purpose. The A g e n c y noted that in responding to a draft O L C opinion, the C I A tried to correct the misunderstanding, noting that "these conditions are also used for other valid reasons, such as to create an e n v i r o n m e n t c o n d u c i v e to transitioning captured and resistant terrorist to detainees participating in debriefings." 5 3 2
 
 Conclusion 9 (CIA Impeded Oversight by CIA Office of Inspector General)
 
@@ -7702,13 +7456,9 @@ Conclusion 10 (The CIA Released Classified Information on EITs to the Media)
 
 Conclusion 10 asserts, "|t]he CIA coordinated the release of classified information to the media, including inaccurate information concerning the effectiveness of the CIA's enhanced interrogation techniques."[^551] This conclusion insinuates that there was something improper about the manner in which the CIA managed the process by which information about the Detention and Interrogation Program was disclosed to the media. It also repeats one of its main faulty claims—that the CIA released inaccurate information about the Program's effectiveness. Our examination of the record revealed that the CIA's disclosures were authorized and that the CIA's representations about the Program were largely accurate.
 
-Study Claim: [Redacted] "The CIA's Office of Public Affairs and senior
+Study Claim: [Redacted] "The CIA's Office of Public Affairs and senior CIA officials coordinated to share classified information on the CIA's Detention and Interrogation Program to select members of the media to counter public criticism, shape public opinion, and avoid potential congressional action to restrict the CIA's detention and interrogation authorities and budget. These disclosures occurred when the program was a classified covert action program and before the CIA had briefed the full Committee membership on the program."352
 
-> CIA officials coordinated to share classified information on the CIA's Detention and Interrogation Program to select members of the media to counter public criticism, shape public opinion, and avoid potential congressional action to restrict the CIA's detention and interrogation authorities and budget. These disclosures occurred when the program was a classified covert action program and before the CIA had briefed the full Committee membership on the program."352
-
-Fact: (U) The National Security Council Policy Coordinating Committee
-
-> designated the CIA as "the lead" on the "Public Diplomacy issue regarding detainees."
+Fact: (U) The National Security Council Policy Coordinating Committee designated the CIA as "the lead" on the "Public Diplomacy issue regarding detainees."
 
 The Study seems to confuse the difference between an authorized disclosure of classified information and the unauthorized "leak" of that same information. Despite acknowledging that the "National Security Council Principals Committee discussed a public campaign for the CIA's Detention and Interrogation Program,[^553] the Study tries to cast the authorized disclosures as a "media campaign" that must be "done cleverly,"[^554] and dwells on CIA officers providing information on the Program to journalists.[^555] Specifically, on April 15, 2005, the National Security Council (NSC) Policy Coordinating Committee (PCC) determined that the CIA would have "the lead" on the "Public Diplomacy issue regarding detainees."[^556] Once the PCC designated CIA as "the lead" on this matter, the CIA was authorized to make determinations on what information related to this highly classified covert action could be disclosed to the public on a case-by-case basis, without having to return to the White House for subsequent approvals.
 
@@ -7728,13 +7478,9 @@ mi 11111 [Redacted] 'HBMBWMWMMI"'i"1111111
 
 The Study quotes, inconclusively, emails with various CIA counsels on how to handle the protection of covert action equities against public revelations[^563] and chat sessions between officers in CTC who were tasked to prepare and review talking points for an appearance by senior CIA officials on NBC Dateline with Tom Brokaw. Their exchanges include comments on the rhetorical context of the possible media discussion, ("we either get out and sell, or we get hammered . . . we either put out our story or get eaten, there is no middle ground").[^564] As noted in the CIA response to the Study, "the informal comments of any one CIA officer do not constitute Agency policy with regard to media interactions."[^565] One officer's speculation in a chat session about the risks of the Congress' reaction to unfavorable media coverage does not support the conclusion that the CIA shaped its public affairs strategy as a means to avoid congressional action. Moreover, the CIA refuted the suggestion that this chat session exchange related to the disclosure of classified information by stating that the NBC Dateline broadcast for which the officers were preparing, "contained no public disclosures of classified CIA, information; indeed, the RDI program was not discussed. "[^566]
 
-Study Claim: [Redacted] "Much of the information the CIA provided to
+Study Claim: [Redacted] "Much of the information the CIA provided to the media on the operation of the CIA's Detention and Interrogation Program and the effectiveness of its enhanced interrogation techniques was inaccurate and was similar to the inaccurate information provided by the CIA to the Congress, the Department of Justice, and the White House."[^567]
 
-> the media on the operation of the CIA's Detention and Interrogation Program and the effectiveness of its enhanced interrogation techniques was inaccurate and was similar to the inaccurate information provided by the CIA to the Congress, the Department of Justice, and the White House."[^567]
-
-Fact: f F [Redacted] F ) The CIA's Detention and Interrogation
-
-> Program, to include the use of enhanced interrogation techniques, was effective and yielded valuable intelligence. The Study's exaggerated and absolute claims about inaccurate "effectiveness" representations by the CIA have been largely discredited by these minority views and the CIA's June 27, 2013, response to the Study.
+Fact: f F [Redacted] F ) The CIA's Detention and Interrogation Program, to include the use of enhanced interrogation techniques, was effective and yielded valuable intelligence. The Study's exaggerated and absolute claims about inaccurate "effectiveness" representations by the CIA have been largely discredited by these minority views and the CIA's June 27, 2013, response to the Study.
 
 [Redacted] As previously discussed, our own review of the documentary record in response to the Study's serious allegations against the CIA found that many of these claims of alleged misrepresentations were themselves inaccurate. The Study's flawed analytical methodology cannot suppress the reality that the CIA's Detention and Interrogation Program set up an effective cycle of events whereby al-Qa'ida terrorists were removed from the battlefield, which had a disruptive effect on their current terrorist activities and often permitted the Intelligence Community to collect additional intelligence, which, in turn, often led back to the capture of more terrorists. We found, with a few limited exceptions, that the CIA generally did a good job in explaining the Program's accomplishments to policymakers. We will not repeat the listing of our specific effectiveness findings here.[^568]
 
@@ -7752,9 +7498,7 @@ APPENDIX I: CIA, Countering Misconceptions About Training Camps in Afghanistan, 
 
 [Redacted]
 
-> [Redacted] [Redacted] [Redacted]
-
-fS August 2006
+[Redacted] [Redacted] [Redacted] fS August 2006
 
 Countering [Redacted] Misconceptions About Training Camps in Afghanistan, 1990-2001 [Redacted] [Redacted]
 
@@ -7897,9 +7641,7 @@ Hassan Ghul. After his early 2004 capture, Hassan Ghul provided considerable int
 
 [Redacted] lough we had a body of reporting from clandestine and other sources indicating that senior al-Qa'ida targets were congregating in the Shkai valley in 2004, Ghul's confirmation and critical narrative helped counterterrorism officer [Redacted] [Redacted]
 
-> inedl [Redacted] [Redacted] Ghul
-
-then supplied detailed insight into the nature of their training, the al-Qa'ida operatives involved In their grooming, and the location o f [Redacted] c i l i t i e s in Shkai where the operatives trained. [Redacted]arned later through debriefings of Abu Talha a l - P a l ^ ^ ^ ^ ^ ^ ^ p e c n e c r u i t the Pakistanis—that one of the ooeratives. [Redacted] a s attempting to apply for a US student vis* [Redacted]
+inedl [Redacted] [Redacted] Ghul then supplied detailed insight into the nature of their training, the al-Qa'ida operatives involved In their grooming, and the location o f [Redacted] c i l i t i e s in Shkai where the operatives trained. [Redacted]arned later through debriefings of Abu Talha a l - P a l ^ ^ ^ ^ ^ ^ ^ p e c n e c r u i t the Pakistanis—that one of the ooeratives. [Redacted] a s attempting to apply for a US student vis* [Redacted]
 
 [Redacted] [Redacted]
 
@@ -7907,9 +7649,7 @@ Sharif al-MasrL Sharif al-Masri also provided Invaluable insights in over 150 di
 
 Various operatives discuss capabilities, including CBRN. Detained al-Qa'ida technical experts—some of whom had very focused roles in the organization— have provided unique insight into the origins of the group's efforts to develop weapons and the technical limitations of key al-Qa'ida personnel—in particular, detainees have helped to clarify al-Qa'ida's CBRN program.
 
-> senior al-Qa'ida military trainer Ibn al-Shaykh identified [Redacted] -who had been associated with poison training—as the
-
-individual who conducted experiments with mustard on rabbits and dogs.
+senior al-Qa'ida military trainer Ibn al-Shaykh identified [Redacted] -who had been associated with poison training—as the individual who conducted experiments with mustard on rabbits and dogs.
 
 - KSM's reporting advanced our understanding of al-Qa'ida's interest in developing a nuclear weapons program, and also revealed important information about al-Qa'ida's program to produce anthrax. Me apparently calculated incorrectly that we had this information already, given that one of the three—Yazid Sufaat—had been in foreign custody [Redacted]
 
