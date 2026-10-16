@@ -156,7 +156,9 @@ function syncD1() {
       const layout = JSON.parse(String(src.find((s) => s.report === report)?.layout ?? "null"));
       if (!layout?.runs) throw new Error(`${report}: no layout on ${from.name}; run export-d1 and import-d1 instead`);
       const rows = layout.runs.flatMap(([lo, hi]: [number, number]) => query(from, `SELECT ${COLUMNS.passages.join(", ")} FROM passages WHERE rowid BETWEEN ${lo} AND ${hi} ORDER BY rowid`)).filter((r: Row) => r.report === report);
-      parts.push(`DELETE FROM passages WHERE report = '${report.replace(/'/g, "''")}';`, insertSql("passages", rows));
+      // Every stale report's rows go before any are inserted: a reindex can reuse rowids another stale report freed.
+      parts.unshift(`DELETE FROM passages WHERE report = '${report.replace(/'/g, "''")}';`);
+      parts.push(insertSql("passages", rows));
     }
     const versions = query(from, `SELECT ${COLUMNS.report_versions.join(", ")} FROM report_versions`);
     parts.push("DELETE FROM report_versions;", insertSql("report_versions", versions), "DELETE FROM search_index_versions;", insertSql("search_index_versions", src));
@@ -221,14 +223,20 @@ async function syncR2() {
   const diff = r2Diff(src, dst);
   const bytes = (os: R2Object[]) => os.reduce((t, o) => t + o.size, 0);
   console.log(`R2 ${BUCKET}: ${from.name} ${fmt(src.length)} objects (${fmt(bytes(src))} bytes); ${to.name} ${fmt(dst.length)}; missing ${fmt(diff.missing.length)}, changed ${fmt(diff.changed.length)}, extra on ${to.name} ${fmt(diff.extra.length)}`);
-  const todo = [...diff.missing, ...diff.changed];
+  // The objects of each report's current version first (the ones readers are served; report_versions from the
+  // target, which import-d1/sync-d1 filled, so this costs no source reads), then older versions (kept for --rollback).
+  const current = new Set(query(to, "SELECT report, content_hash FROM report_versions").map((r) => `reports/${r.report}/${r.content_hash}/`));
+  const isCurrent = (o: R2Object) => current.has(o.key.split("/").slice(0, 3).join("/") + "/");
+  const todo = [...diff.missing, ...diff.changed].sort((a, b) => Number(isCurrent(b)) - Number(isCurrent(a)));
+  console.log(`  ${fmt(todo.filter(isCurrent).length)} of them belong to a report's current version and go first`);
   if (flag("--dry-run") || !todo.length) return;
   let done = 0;
+  const started = Date.now();
   const queue = [...todo];
   await Promise.all(Array.from({ length: Number(opt("--parallel") ?? 4) }, async () => {
     for (let o = queue.shift(); o; o = queue.shift()) {
       await r2Copy(o);
-      if (++done % 25 === 0 || done === todo.length) process.stdout.write(`\r  copied ${fmt(done)}/${fmt(todo.length)}`);
+      if (++done % 25 === 0 || done === todo.length) process.stdout.write(`\r  copied ${fmt(done)}/${fmt(todo.length)} (${(done / ((Date.now() - started) / 1000)).toFixed(1)}/s)`);
     }
   }));
   process.stdout.write("\n");
