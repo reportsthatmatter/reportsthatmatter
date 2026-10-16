@@ -80,5 +80,6 @@ export function renderPress(): string {
     description:
       "Logo, logotype, and brand assets for Reports that Matter, in the sizes the site itself ships.",
     url: `${SITE_ORIGIN}/press`,
+    follow: true,
   });
 }

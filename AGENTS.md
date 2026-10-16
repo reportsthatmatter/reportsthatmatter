@@ -117,6 +117,7 @@ an interactive session.
 
 | Path | What |
 | --- | --- |
+| `~/src/reportsthatmatter/factory/` (its own public repo, [reportsthatmatter/factory](https://github.com/reportsthatmatter/factory), not this one; on a fresh machine `git clone git@github.com:reportsthatmatter/factory ~/src/reportsthatmatter/factory`) | Factory: the coordination layer. Session handoffs, dated agent protocols, review files, backlog snapshots; logs and scratch (gitignored). See `~/src/reportsthatmatter/factory/README.md` and decision 0021 |
 | `src/index.ts` | Hono routes on Cloudflare Workers |
 | `src/templates/` | Page shells; `layout.ts` is the design system's HTML |
 | `src/lib/markdown.ts` | Markdown → HTML, paragraph ids, sidenotes, page anchors |
@@ -656,7 +657,7 @@ even if a step gets skipped.
 
 ## Work streams
 
-Work falls into five streams. Every open bead carries exactly one `stream:*` label; give a new bead its label when you create it (`bd create ... -l stream:quality`). Filter with `bd list --label stream:<name>` or `bd ready --label stream:<name>`. A supervisor plans a session by stream, so say which stream a batch of work serves. (Rufus, 2026-10-09; the first labelling pass and the triage behind it are in `~/src/reportsthatmatter/triage-2026-10-09.tsv`.)
+Work falls into five streams. Every open bead carries exactly one `stream:*` label; give a new bead its label when you create it (`bd create ... -l stream:quality`). Filter with `bd list --label stream:<name>` or `bd ready --label stream:<name>`. A supervisor plans a session by stream, so say which stream a batch of work serves. (Rufus, 2026-10-09; the first labelling pass and the triage behind it are in `~/src/reportsthatmatter/factory/backlog/triage-2026-10-09.tsv`.)
 
 - **`stream:marketing`** — getting readers: the launch, social accounts, the poster and excerpt campaign, outreach, SEO submission, and the licence and disclosure questions that gate going public. Drafts live in the `marketing` repo.
 - **`stream:reports`** — more reports, done well: finding and checking sources, new reports and further volumes, introductions and highlights, heroes and plates, per-report processing notes, and the report-preparation skills (`ifb5`).
@@ -715,7 +716,7 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 - Opus: new heuristics, research, design, and writing introductions.
 - Fable: only for big design synthesis.
 
-Run 5–7 agents at a time (usage limits), and resume stopped agents rather than starting fresh. Fix agents open PRs and never release. One Sonnet integrator merges, releases with `pnpm release`, bumps pins, reads every diff, deploys and publishes. Each report repo has one owning agent at a time. The standing rules every spawned agent follows are [`docs/agent-protocol.md`](docs/agent-protocol.md); a session may add a dated note on top (`~/src/reportsthatmatter/.agent-protocol-<date>.md`). Roles have skills: `fix-agent`, `pr-review`, `integrate-and-ship`, `burn-down` (see "Skills" above).
+Run 5–7 agents at a time (usage limits), and resume stopped agents rather than starting fresh. Fix agents open PRs and never release. One Sonnet integrator merges, releases with `pnpm release`, bumps pins, reads every diff, deploys and publishes. Each report repo has one owning agent at a time. The standing rules every spawned agent follows are [`docs/agent-protocol.md`](docs/agent-protocol.md); a session may add a dated note on top (`~/src/reportsthatmatter/factory/protocols/agent-protocol-<date>.md`). Roles have skills: `fix-agent`, `pr-review`, `integrate-and-ship`, `burn-down` (see "Skills" above).
 
 **Shared checkouts.** `~/src/reportsthatmatter/reportsthatmatter`, `~/src/reportsthatmatter/ingest` and the report repos are shared by concurrent sessions. Never switch branches or stash in a shared checkout. Work in a `git worktree` (site: `pnpm bootstrap`; report repos too whenever another agent may touch the same repo), with its own `node_modules`, never a symlink. A peer's uncommitted edits in a sibling report repo can fail verify's corpus check: that's peer noise, so check `git status` there. **The CLI enforces it:** `pnpm ingest run`, `baseline` and `aggregate` refuse a report repo that is the shared checkout (the default sibling path, and a main working tree rather than a linked worktree). Make worktrees with `pnpm ingest worktrees <id…>` (it creates `<site>-reports/<repo>` worktrees on a new branch and prints the `RTM_REPORT_DIRS` to export; every script that reads a report repo resolves it through `scripts/lib/report-dirs.ts`, so `pnpm score`, `pipeline status`, `marks` and `ingest aggregate <id>` honour it too; `RTM_REPO_ROOT` is the old name), or pass `--shared` — **the integrator's deliberate opt-in only** (`VERIFY_SHARED=1 ./scripts/verify.sh` passes it to `aggregate`). Before a pass PR: `pnpm ingest recheck --passes <changed,passes>` re-ingests every report declaring one (in memory) and fails on a correction that no longer matches exactly once, and `pnpm ingest crosscheck` fails on a golden page that contradicts `reference/adjudicated.yaml`.
 

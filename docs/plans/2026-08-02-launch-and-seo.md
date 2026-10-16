@@ -90,7 +90,7 @@ Rufus's personal account, posted by hand — there is no organisation account on
 > **1/**
 > Important public reports — inquiries, investigations, official findings — are some of the most careful research ever done. And they're almost unreadable: 700-page scanned PDFs on government sites that break.
 >
-> I've been fixing that. 13 reports live now: reportsthatmatter.org
+> I've been fixing that. The reports are live now: reportsthatmatter.org
 
 > **2/**
 > Among them: the Jack Smith report on Trump and the 2020 election, the Senate's report on the 2008 financial crisis, the 9/11 Commission, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko.
@@ -129,16 +129,16 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 > **1/6**
 > Public inquiries and investigations are some of the most careful research done — usually locked in 700-page PDFs that don't load, can't be searched, and can't link to one paragraph.
 >
-> We rebuilt 13 of them as web pages instead.
+> We rebuilt some of them as web pages instead.
 >
 > reportsthatmatter.org
 
-*(249 graphemes)*
+*(251 graphemes)*
 
 > **2/6**
-> 13 reports so far, different countries and decades: the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot (Iraq Inquiry), the Lehman examiner.
+> Different countries and decades, for example the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot, the Lehman examiner.
 
-*(263 graphemes)*
+*(286 graphemes)*
 
 > **3/6**
 > Each report is split into sections that load, and every paragraph has its own permanent link. Highlight any sentence and you get a link straight to that passage, not "somewhere in a PDF".
@@ -166,21 +166,21 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 > **6/6**
 > No commentary. No spin. The documents, made readable.
 >
-> 13 reports and counting. If there's one you think belongs, tell us.
+> More reports to come. If there's one you think belongs, tell us.
 >
 > reportsthatmatter.org
 
-*(145 graphemes)*
+*(142 graphemes)*
 
 **Alternative opening post (1/6), if a more concrete hook reads better:**
 
 > Investigations, inquiries, official findings — some of the most careful research that gets done. Most of it sits in scanned PDFs: no search, no section links, no way to point at one paragraph.
 >
-> 13 of them, rebuilt as web pages.
+> Some of them, rebuilt as web pages.
 >
 > reportsthatmatter.org
 
-*(250 graphemes)*
+*(252 graphemes)*
 
 **Pinned post**
 
@@ -190,11 +190,11 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 >
 > Every excerpt links to the exact paragraph in the full report.
 >
-> 13 reports and counting.
+> More reports to come.
 >
 > reportsthatmatter.org
 
-*(230 graphemes)*
+*(227 graphemes)*
 
 **Notes**
 - Posts 4/6 and 5/6 are the demo-and-proof pair, one per report, each a full sentence that stands on its own without its surrounding paragraph (per `docs/report-introductions.md`, "Quotations must stand on their own").

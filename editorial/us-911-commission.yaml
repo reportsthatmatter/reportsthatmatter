@@ -190,10 +190,8 @@ reading_guide:
 highlights:
   - paragraph: american-11-we-have-some
     quote: 'American 11: We have some planes. Just stay quiet, and you''ll be okay.'
-    card: true
   - paragraph: five-seconds-later-jarrah-asked
     quote: 'Sixteen seconds later, a passenger yelled, "Roll it!"'
-    card: true
   - paragraph: summary-neads-received-notice-hijacking
     quote: >-
       In summary, NEADS received notice of the hijacking nine minutes before
@@ -226,7 +224,6 @@ highlights:
       Integration Center (TTIC).
   - paragraph: september-11-nation-suffered-largest
     quote: On September 11, the nation suffered the largest loss of life—2,973—on its soil as a result of hostile attack in its history.
-    card: true
   - paragraph: no-one-exemplifies-model-terrorist
     quote: No one exemplifies the model of the terrorist entrepreneur more clearly than Khalid Sheikh Mohammed, the principal architect of the 9/11 attacks.
   - paragraph: calculus-becomes-important-story-both

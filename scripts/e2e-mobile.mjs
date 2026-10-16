@@ -275,6 +275,29 @@ for (const profile of profiles) {
   await page.waitForTimeout(700);
   check((await page.locator("#passage-panel").count()) === 0, `${tag} a new selection closes the landing panel`);
 
+  // ---------- the quiet "Follow on Bluesky" link (y2t.8) ----------
+
+  const followPages = ["/about", "/press", `/reports/${REPORT}`];
+  for (const path of followPages) {
+    await page.goto(base + path, { waitUntil: "networkidle" });
+    const follow = await page.evaluate(() => {
+      const links = [...document.querySelectorAll(".site-footer-follow a")];
+      const r = links[0]?.getBoundingClientRect();
+      return {
+        count: links.length,
+        href: links[0]?.getAttribute("href") ?? "",
+        text: links[0]?.textContent ?? "",
+        visible: Boolean(r && r.width > 0 && r.height > 0 && r.left >= 0 && r.right <= window.innerWidth),
+        overflow: document.documentElement.scrollWidth - window.innerWidth,
+      };
+    });
+    check(follow.count === 1 && follow.text === "Follow on Bluesky" && follow.href.startsWith("https://bsky.app/profile/"), `${tag} ${path} has one Follow on Bluesky link`, JSON.stringify(follow));
+    check(follow.visible && follow.overflow <= 0, `${tag} ${path}: the follow link is on screen and the page does not scroll sideways`, JSON.stringify(follow));
+    if (shots) await page.screenshot({ path: join(shots, `${slug(profile.name)}-follow-${slug(path)}.png`) });
+  }
+  await page.goto(base + `/reports/${REPORT}/full`, { waitUntil: "networkidle" });
+  check((await page.locator(".site-footer-follow").count()) === 0, `${tag} reading pages carry no follow line`);
+
   check(errors.length === 0, `${tag} no page errors`, errors.join(" | "));
   await browser.close();
 }

@@ -5,9 +5,12 @@ import {
   candidateId,
   formatPost,
   graphemeLength,
+  isBlackout,
   isoDate,
+  queueViolations,
   resolveCandidate,
   roundRobin,
+  scheduleItems,
   type PostCandidate,
   type QueueItem,
   type ResolvedPost,
@@ -287,7 +290,7 @@ describe("buildQueue", () => {
         text: "x",
         link: "y",
         card: "z",
-        scheduled: "2026-01-01",
+        scheduled: "2026-03-01",
         posted_url: "https://bsky.app/post/1",
       },
     ];
@@ -300,7 +303,7 @@ describe("buildQueue", () => {
     expect(queue[0]).toEqual(existing[0]);
     expect(added).toBe(1);
     // New items schedule after the *last* existing date, not after today.
-    expect(queue[1].scheduled).toBe("2026-01-02");
+    expect(queue[1].scheduled).toBe("2026-03-02");
   });
 
   it("flags a not-yet-posted item whose source no longer resolves as staleUnposted", () => {
@@ -313,7 +316,7 @@ describe("buildQueue", () => {
         text: "x",
         link: "y",
         card: "z",
-        scheduled: "2026-01-01",
+        scheduled: "2026-03-01",
         posted_url: null,
       },
     ];
@@ -339,7 +342,7 @@ describe("buildQueue", () => {
         text: "x",
         link: "y",
         card: "z",
-        scheduled: "2026-01-01",
+        scheduled: "2026-03-01",
         posted_url: "https://bsky.app/post/1",
       },
     ];
@@ -357,5 +360,107 @@ describe("buildQueue", () => {
 describe("isoDate", () => {
   it("formats a Date as YYYY-MM-DD in UTC", () => {
     expect(isoDate(new Date("2026-09-27T23:30:00Z"))).toBe("2026-09-27");
+  });
+});
+
+describe("scheduling rules (ay85)", () => {
+  const item = (id: string, report: string, extra: Partial<QueueItem> = {}): QueueItem => ({
+    ...resolved({ id, report, paragraph: id }),
+    scheduled: "2026-10-20",
+    posted_url: null,
+    ...extra,
+  });
+  const gaps = (dates: string[]) =>
+    dates.slice(1).map((d, n) => (Date.parse(d) - Date.parse(dates[n])) / 86_400_000);
+
+  it("knows the kept-clear dates, 18 December to 2 January, in any year", () => {
+    expect(["2026-12-17", "2027-01-03", "2026-06-01"].some(isBlackout)).toBe(false);
+    expect(["2026-12-18", "2026-12-25", "2027-01-01", "2027-01-02", "2028-12-31"].every(isBlackout)).toBe(true);
+  });
+
+  it("opens with the opening report's excerpt on the start date, whatever the start, and never with Jack Smith", () => {
+    for (const start of ["2026-10-20", "2026-11-03"]) {
+      const out = scheduleItems(
+        [{ report: "jack-smith-vol1" }, { report: "us-911-commission" }, { report: "challenger-accident" }],
+        start,
+        [],
+        true
+      );
+      expect(out[0]).toEqual({ report: "challenger-accident", scheduled: start });
+    }
+    const noChallenger = scheduleItems([{ report: "jack-smith-vol1" }, { report: "us-911-commission" }], "2026-10-20", [], true);
+    expect(noChallenger[0].report).toBe("us-911-commission");
+  });
+
+  it("keeps two Post Office items, and two Grenfell items, at least 14 days apart, filling the days between", () => {
+    const po = "uk-post-office-horizon-inquiry";
+    const gr = "uk-grenfell-tower-inquiry";
+    const reports = [po, po, po, gr, gr, ...Array.from({ length: 40 }, () => "other")];
+    const out = scheduleItems(reports.map((report) => ({ report })), "2026-10-20");
+    for (const r of [po, gr]) {
+      const dates = out.filter((i) => i.report === r).map((i) => i.scheduled);
+      expect(dates.length).toBe(r === po ? 3 : 2);
+      expect(Math.min(...gaps(dates))).toBeGreaterThanOrEqual(14);
+    }
+    expect(out).toHaveLength(reports.length);
+  });
+
+  it("counts an already posted item of a spaced report", () => {
+    const out = scheduleItems(
+      [{ report: "uk-grenfell-tower-inquiry" }, { report: "other" }],
+      "2026-10-20",
+      [{ report: "uk-grenfell-tower-inquiry", scheduled: "2026-10-15" }]
+    );
+    expect(out.map((i) => i.report)).toEqual(["other", "uk-grenfell-tower-inquiry"]);
+    expect(out[1].scheduled >= "2026-10-29").toBe(true);
+  });
+
+  it("schedules nothing from 18 December to 2 January", () => {
+    const out = scheduleItems(Array.from({ length: 20 }, () => ({ report: "other" })), "2026-12-10");
+    expect(out.some((i) => isBlackout(i.scheduled))).toBe(false);
+    expect(out[7].scheduled).toBe("2026-12-17");
+    expect(out[8].scheduled).toBe("2027-01-03");
+  });
+
+  it("buildQueue --start applies all of it, and a later plain run keeps it", () => {
+    const po = "uk-post-office-horizon-inquiry";
+    const all = [
+      resolved({ id: "js", report: "jack-smith-vol1", paragraph: "js" }),
+      resolved({ id: "po1", report: po, paragraph: "po1" }),
+      resolved({ id: "po2", report: po, paragraph: "po2" }),
+      resolved({ id: "ch", report: "challenger-accident", paragraph: "ch" }),
+      ...Array.from({ length: 30 }, (_, n) => resolved({ id: `o${n}`, report: "other", paragraph: `o${n}` })),
+    ];
+    const first = buildQueue({ resolved: all, existing: [], today: "2026-10-16", reportOrder: ["jack-smith-vol1", po, "challenger-accident"] });
+    const second = buildQueue({ resolved: all, existing: first.queue, today: "2026-10-16", reportOrder: [], restartFrom: "2026-11-02" });
+    expect(second.queue[0]).toMatchObject({ id: "ch", scheduled: "2026-11-02" });
+    expect(queueViolations(second.queue)).toEqual([]);
+    const third = buildQueue({
+      resolved: [...all, resolved({ id: "po3", report: po, paragraph: "po3" })],
+      existing: second.queue,
+      today: "2026-10-16",
+      reportOrder: [],
+    });
+    expect(third.added).toBe(1);
+    expect(queueViolations(third.queue)).toEqual([]);
+  });
+
+  it("queueViolations names each broken rule, and ignores a posted item's date", () => {
+    const po = "uk-post-office-horizon-inquiry";
+    const queue = [
+      item("js", "jack-smith-vol1", { scheduled: "2026-10-20" }),
+      item("ch", "challenger-accident", { scheduled: "2026-10-21" }),
+      item("po1", po, { scheduled: "2026-10-22" }),
+      item("po2", po, { scheduled: "2026-10-30" }),
+      item("xmas", "other", { scheduled: "2026-12-25" }),
+    ];
+    const problems = queueViolations(queue);
+    expect(problems).toHaveLength(4);
+    expect(problems.join("\n")).toMatch(/opens with jack-smith-vol1, not challenger-accident/);
+    expect(problems.join("\n")).toMatch(/never the first/);
+    expect(problems.join("\n")).toMatch(/under 14/);
+    expect(problems.join("\n")).toMatch(/kept-clear/);
+    const posted = queue.map((i) => ({ ...i, posted_url: "https://bsky.app/x" }));
+    expect(queueViolations(posted)).toEqual([]);
   });
 });
