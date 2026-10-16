@@ -57,7 +57,10 @@ function findAnchored(anchor, paragraphId) {
 function markLinked() {
   const params = new URLSearchParams(window.location.search);
   const anchor = decodeAnchor(params.get("h"));
-  if (!anchor) return;
+  if (!anchor) {
+    landOnParagraph(params.get("p"));
+    return;
+  }
 
   const paragraphId = params.get("p") || window.location.hash.slice(1);
   const range = findAnchored(anchor, paragraphId);
@@ -99,6 +102,20 @@ function markLinked() {
     paragraph.classList.add("hl-lost");
     paragraph.scrollIntoView({ block: "center" });
   }
+}
+
+/**
+ * A `?p=` link names a whole paragraph: the browser has scrolled to it and washed it (:target), and
+ * the panel says which report and page it is from, with the official document (decision hbnj). The
+ * paragraph is landed where a quote is, a third of the way down, so the panel never covers its start.
+ * @param {string | null} paragraphId
+ */
+function landOnParagraph(paragraphId) {
+  const paragraph = paragraphId ? document.getElementById(paragraphId) : null;
+  if (!body || !paragraph || paragraph.tagName !== "P") return;
+  document.documentElement.classList.add("passage-landing");
+  landOn(paragraph);
+  showPassagePanel({ body, marks: [], paragraph, exact: null });
 }
 
 /**

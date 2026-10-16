@@ -1,0 +1,37 @@
+name: Correction or removal request
+description: Ask us to correct or remove something we made from a report (a quote card, a post, an excerpt, an introduction), or tell us about an error.
+labels: ["removal-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Anyone named in or affected by a report can ask us to change or remove anything we have made from it: a quote card, a post, an excerpt or highlight on a landing page, or a line of our introduction. We will do so within a day, and you do not need to say why.
+
+        The report text itself is the official publication, reproduced as published. If it reads wrongly here (a sentence cut in half, a stray number), we will fix our copy; to change what the report says, contact the body that published it.
+
+        **This issue will be public.** Write only what you are happy for anyone to read. You do not need to say who you are.
+  - type: input
+    id: url
+    attributes:
+      label: Page or post
+      description: The address of the page, card or post. A link from the share button, which names the paragraph, is best.
+      placeholder: https://reportsthatmatter.org/reports/…
+    validations:
+      required: true
+  - type: dropdown
+    id: request
+    attributes:
+      label: What you would like
+      options:
+        - Remove a quote card or a post
+        - Remove an excerpt or highlight from a landing page
+        - Change or remove a line of our introduction
+        - Correct an error in our copy of the report text
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Anything else
+      description: Optional.

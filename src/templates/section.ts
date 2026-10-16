@@ -1,7 +1,7 @@
 import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
-import { quotedPassage, truncate, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear } from "./report";
+import { quotedPassage, truncate, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear, sourceAttributes } from "./report";
 import { SITE_ORIGIN } from "./site";
 import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-data";
 import { reportTitle, sectionTitle } from "../lib/titles";
@@ -178,6 +178,19 @@ export function renderReportOverview(
   });
 }
 
+/**
+ * Where this text comes from, on every section page (decision hbnj): a reader who lands on one
+ * section, or reads it without the landing panel, still sees the official document and the
+ * edition notes, as the report's landing page shows them.
+ */
+function sectionSourceLine(meta: ReportMeta, processingNotes = false): string {
+  const links = [
+    meta.source_url ? `<a href="${escapeHtml(meta.source_url)}" rel="nofollow">Original document ↗</a>` : "",
+    processingNotes ? `<a href="/reports/${escapeHtml(meta.id ?? "")}/processing">About this edition →</a>` : "",
+  ].filter(Boolean);
+  return links.length ? `<p class="byline mono">${links.join(" · ")}</p>` : "";
+}
+
 /** One section of a report. */
 export function renderSection(
   meta: ReportMeta,
@@ -188,7 +201,8 @@ export function renderSection(
   html: string,
   highlighted?: string,
   /** Quote anchor from `?h=`, naming the words within that paragraph. */
-  anchor?: string
+  anchor?: string,
+  options: { processingNotes?: boolean } = {}
 ): string {
   const section = sections[index];
   const previous = sections[index - 1];
@@ -207,13 +221,15 @@ export function renderSection(
         <p class="kicker mono"><a href="${escapeHtml(reportPath)}">${escapeHtml(meta.title)}</a>${publicationYear(meta) ? ` · ${escapeHtml(publicationYear(meta)!)}` : ""}</p>
         <h1>${escapeHtml(section.title)}</h1>
         <p class="byline mono">Section ${index + 1} of ${sections.length}</p>
+        ${sectionSourceLine(meta, options.processingNotes)}
       </div>
     </header>
     <div class="prose wrap measure" id="report-body"
       data-report="${escapeHtml(meta.id ?? "")}"
       data-report-title="${escapeHtml(meta.title)}"
       data-section="${escapeHtml(section.slug)}"
-      data-section-title="${escapeHtml(section.title)}">
+      data-section-title="${escapeHtml(section.title)}"
+      ${sourceAttributes(meta, options.processingNotes)}>
       ${html}
     </div>
     <nav class="section-nav wrap measure mono">

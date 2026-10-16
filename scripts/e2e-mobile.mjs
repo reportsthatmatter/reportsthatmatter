@@ -116,6 +116,7 @@ for (const profile of profiles) {
       kicker: panel?.querySelector(".passage-panel-kicker")?.textContent ?? "",
       quote: panel?.querySelector(".passage-panel-quote")?.textContent ?? "",
       cite: panel?.querySelector(".passage-panel-cite")?.textContent ?? "",
+      sources: [...(panel?.querySelectorAll(".passage-panel-source a") ?? [])].map((a) => a.getAttribute("href")),
       share: visible(panel?.querySelector('[data-action="share"]')),
       bluesky: visible(panel?.querySelector('[data-action="bluesky"]')),
       copyLink: visible(panel?.querySelector('[data-action="copy-link"]')),
@@ -135,6 +136,11 @@ for (const profile of profiles) {
   check(landed.kicker === "Editor’s highlight", `${tag} an editor's highlight is labelled as the editor's`, landed.kicker);
   check(landed.quote.includes("So what?"), `${tag} the panel quotes the linked words`, landed.quote.slice(0, 80));
   check(/^p\. \d+ · /.test(landed.cite) && landed.cite.includes("Jack Smith"), `${tag} the panel cites page and report`, landed.cite);
+  check(
+    /^https:\/\/www\.justice\.gov\//.test(landed.sources[0] ?? "") && landed.sources.includes("/about#contact"),
+    `${tag} the panel links the official document and the corrections and removal route (hbnj)`,
+    JSON.stringify(landed.sources)
+  );
   check(
     profile.shareSheet ? landed.share && !landed.bluesky : !landed.share && landed.bluesky,
     `${tag} the panel offers ${profile.shareSheet ? "the share sheet" : "Bluesky"} beside Copy link`,
@@ -187,6 +193,30 @@ for (const profile of profiles) {
   await page.locator('#passage-panel [data-action="close"]').tap();
   check((await page.locator("#passage-panel").count()) === 0, `${tag} the panel closes`);
   check(marksPosted.length === before && before === 0, `${tag} the panel records no mark (no D1 write)`, String(marksPosted.length));
+
+  // A ?p= link names a whole paragraph: the panel says where it is from, without quoting it (hbnj).
+  await page.goto(base + PLAIN_LINK, { waitUntil: "networkidle" });
+  await fontsSettled(page);
+  await page.waitForTimeout(600);
+  const linked = await page.evaluate(() => {
+    const panel = document.getElementById("passage-panel");
+    const para = document.getElementById("just-before-2-24-p")?.getBoundingClientRect();
+    const p = panel?.getBoundingClientRect();
+    return {
+      kicker: panel?.querySelector(".passage-panel-kicker")?.textContent ?? "",
+      quote: Boolean(panel?.querySelector(".passage-panel-quote")),
+      cite: panel?.querySelector(".passage-panel-cite")?.textContent ?? "",
+      sources: [...(panel?.querySelectorAll(".passage-panel-source a") ?? [])].map((a) => a.textContent),
+      paraInView: Boolean(para && p && para.top >= 0 && para.top < p.top),
+      overflow: document.documentElement.scrollWidth > window.innerWidth,
+    };
+  });
+  check(linked.kicker === "Linked paragraph" && !linked.quote, `${tag} a ?p= link lands with a source panel and no quote`, JSON.stringify(linked));
+  check(/^p\. \d+ · /.test(linked.cite) && linked.sources[0] === "Original document ↗", `${tag} the ?p= panel names page, report and the official document`, JSON.stringify(linked));
+  check(linked.paraInView, `${tag} the linked paragraph starts above the panel`, JSON.stringify(linked));
+  check(!linked.overflow, `${tag} the ?p= page has no sideways scroll`);
+  if (shots) await page.screenshot({ path: join(shots, `${slug(profile.name)}-paragraph-link.png`) });
+  await page.locator('#passage-panel [data-action="close"]').tap();
 
   // A passage that is nobody's highlight.
   await page.goto(base + PLAIN_LINK, { waitUntil: "networkidle" });
