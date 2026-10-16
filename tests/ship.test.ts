@@ -349,6 +349,46 @@ describe("drive: the pin bump", () => {
   });
 });
 
+describe("drive: the pin bump and shared checkouts (reportsthatmatter-0eeq)", () => {
+  const unshared = { ctx: { shared: false } };
+
+  it("without --shared, stops before writing or installing anything when a repo to bump is a shared checkout", async () => {
+    const h = harness({ handler: happy, ...unshared });
+    expect(await drive(h.rt, buildSteps(), { only: "pin-bump" })).toBe(1);
+    expect(out(h)).toContain("pin-bump refuses to write the shared checkout");
+    expect(out(h)).toContain("/repos/alpha");
+    expect(out(h)).toContain("pnpm ingest worktrees alpha beta gamma");
+    expect(out(h)).toContain("pnpm ship --shared");
+    expect(h.written).toEqual([]);
+    expect(h.calls).toEqual([]);
+  });
+
+  it("with --shared, behaves as before", async () => {
+    const h = harness({ handler: happy });
+    await drive(h.rt, buildSteps(), { only: "pin-bump" });
+    expect(h.written.map(([dir]) => dir)).toEqual(["/repos/alpha", "/repos/beta", "/repos/gamma"]);
+    expect(h.calls).toHaveLength(3);
+  });
+
+  it("without --shared, writes the worktree repos and refuses only when a shared one needs a bump", async () => {
+    const repos = IDS.map((id) => ({ dir: `/repos/${id}`, ids: [id], shared: false }));
+    const h = harness({ handler: happy, ctx: { shared: false, repos } });
+    await drive(h.rt, buildSteps(), { only: "pin-bump" });
+    expect(h.written).toHaveLength(3);
+
+    const alreadyThere = harness({ handler: happy, ctx: { shared: false }, probe: { pins: Object.fromEntries(IDS.map((id) => [`/repos/${id}`, SPEC("0.21.0")])) } });
+    expect(await drive(alreadyThere.rt, buildSteps(), { only: "pin-bump" })).toBe(0);
+    expect(alreadyThere.written).toEqual([]);
+  });
+
+  it("--plan without --shared says which repos pin-bump would refuse", () => {
+    const text = formatPlan(ctx({ shared: false }), freshState(SPEC("0.21.0"), "abc123", "t0"), buildSteps(), fakeProbe().probe);
+    expect(text).toMatch(/\/repos\/alpha: REFUSED without --shared/);
+    const withShared = formatPlan(ctx({ shared: true }), freshState(SPEC("0.21.0"), "abc123", "t0"), buildSteps(), fakeProbe().probe);
+    expect(withShared).not.toContain("REFUSED without --shared");
+  });
+});
+
 describe("drive: gates and hard stops", () => {
   const moved: Handler = (cmd) => {
     const text = cmd.argv.join(" ");

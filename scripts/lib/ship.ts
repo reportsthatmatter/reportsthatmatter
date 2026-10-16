@@ -158,6 +158,13 @@ export function pinTable(ctx: Pick<Ctx, "spec" | "version" | "repos">, pinOf: (d
   });
 }
 
+/** The report repos pin-bump would write that are shared checkouts, when `--shared` was not passed (reportsthatmatter-0eeq). */
+export function pinBumpRefusals(ctx: Pick<Ctx, "spec" | "version" | "repos" | "shared">, pinOf: (dir: string) => string | null): PinRow[] {
+  if (ctx.shared) return [];
+  const shared = new Set(ctx.repos.filter((r) => r.shared).map((r) => r.dir));
+  return pinTable(ctx, pinOf).filter((row) => row.action === "bump" && shared.has(row.dir));
+}
+
 /** `pnpm ingest check` prints `✗ <id> — output moved:` for each report that differs from its baseline.json. */
 export function movedReports(output: string): string[] {
   const plain = output.replace(/\x1b\[[0-9;]*m/g, "");
@@ -346,11 +353,22 @@ export function buildSteps(): Step[] {
       kind: "write",
       describe: (ctx, _s, probe) => {
         const rows = pinTable(ctx, probe.pinOf);
-        const lines = rows.map((r) => (r.action === "bump" ? `${r.dir}/package.json: "@rtm/ingest" ${r.pinned} -> "${ctx.spec}", then CI=true pnpm -C ${r.dir} install --no-frozen-lockfile` : `${r.dir}: ${r.action === "ok" ? "already at the site's pin, untouched" : r.action === "ahead" ? "AHEAD of the site's pin: the guard stops" : "no pin: the guard stops"}`));
+        const refused = new Set(pinBumpRefusals(ctx, probe.pinOf).map((r) => r.dir));
+        const lines = rows.map((r) => (refused.has(r.dir) ? `${r.dir}: REFUSED without --shared (a shared checkout: use RTM_REPORT_DIRS worktrees or pass --shared as the integrator); nothing is written or installed` : r.action === "bump" ? `${r.dir}/package.json: "@rtm/ingest" ${r.pinned} -> "${ctx.spec}", then CI=true pnpm -C ${r.dir} install --no-frozen-lockfile` : `${r.dir}: ${r.action === "ok" ? "already at the site's pin, untouched" : r.action === "ahead" ? "AHEAD of the site's pin: the guard stops" : "no pin: the guard stops"}`));
         return lines;
       },
       async run(rt) {
         const { ctx, probe } = rt;
+        const refused = pinBumpRefusals(ctx, probe.pinOf).filter((row) => rt.state.steps["pin-bump"]?.items[row.dir]?.status !== "done");
+        if (refused.length > 0) {
+          throw new Stop(
+            `pin-bump refuses to write the shared checkout of:\n${refused.map((r) => `    ${r.ids.join(" ")}  ${r.dir}`).join("\n")}\nNothing was written or installed.`,
+            [
+              `Use RTM_REPORT_DIRS worktrees: pnpm ingest worktrees ${refused.flatMap((r) => r.ids).join(" ")}, then export the RTM_REPORT_DIRS it prints and re-run pnpm ship.`,
+              "Or, as the integrator writing the shared checkouts on purpose: pnpm ship --shared.",
+            ]
+          );
+        }
         for (const row of pinTable(ctx, probe.pinOf)) {
           const key = row.dir;
           if (rt.state.steps["pin-bump"]?.items[key]?.status === "done") continue;
