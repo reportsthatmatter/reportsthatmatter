@@ -59,7 +59,7 @@ Every problem exits 1 and turns the run red: GitHub emails the people watching t
 
 ```bash
 pnpm post-next                      # dry run, no network
-POSTER_TODAY=2026-10-14 pnpm post-next   # pretend it is that day
+POSTER_TODAY=2026-10-20 pnpm post-next   # pretend it is that day
 ```
 
 `pnpm test` covers selection, idempotency, dry run and the Bluesky calls (against a local stand-in server). A real account has not been exercised yet; step 3 above is the first time.
