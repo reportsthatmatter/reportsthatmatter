@@ -23,3 +23,14 @@ export const SITE_CARD_PATH = "/assets/cards/site.png";
 export const SITE_HEADLINE = "Reports that shaped history are still trapped in PDFs.";
 export const SITE_STANDFIRST =
   "Official inquiries publish the evidence that anchors public understanding — then bury it in scanned documents on decaying websites. We rebuild them as web pages you can read, search, and cite by passage.";
+
+/**
+ * The project's Bluesky account, linked by its DID so the link survives the
+ * handle moving. The account's handle is meant to be @reportsthatmatter.org
+ * (the `_atproto` TXT record resolves to this DID), but until the custom
+ * domain is verified on the account Bluesky still names it
+ * reportsthatmatter.bsky.social, and `bsky.app/profile/reportsthatmatter.org`
+ * shows "profile not found". The DID works either way; the link text shows no
+ * handle for the same reason.
+ */
+export const BLUESKY_PROFILE_URL = "https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t";

@@ -1,4 +1,4 @@
-import { SITE_ORIGIN, SITE_CARD_PATH } from "./site";
+import { SITE_ORIGIN, SITE_CARD_PATH, BLUESKY_PROFILE_URL } from "./site";
 
 export type NavLink = { label: string; href: string };
 
@@ -50,6 +50,8 @@ export type HeadOptions = {
 type LayoutOptions = HeadOptions & {
   navLinks?: NavLink[];
   scripts?: string[];
+  /** A quiet "Follow on Bluesky" line in the footer: only the pages launch traffic lands on (reportsthatmatter-y2t.8), not the reading pages. */
+  follow?: boolean;
 };
 
 /**
@@ -105,7 +107,7 @@ export function renderLayout(
   body: string,
   options: LayoutOptions = {}
 ): string {
-  const { navLinks = DEFAULT_NAV, scripts = [], ...head } = options;
+  const { navLinks = DEFAULT_NAV, scripts = [], follow = false, ...head } = options;
 
   const nav = navLinks.length
     ? `<nav class="site-nav mono" aria-label="Main">${navLinks
@@ -140,7 +142,7 @@ ${body}
       <a href="/changelog">Changelog</a>
     </nav>
   </div>
-  <p class="site-footer-credit">A sensemaking project built with ❤️ by <a href="https://rufuspollock.com">Rufus Pollock</a> and <a href="https://datopian.com">Datopian</a> since 2015.</p>
+  ${follow ? `<p class="site-footer-follow"><a href="${BLUESKY_PROFILE_URL}" rel="me noopener">Follow on Bluesky</a></p>\n  ` : ""}<p class="site-footer-credit">A sensemaking project built with ❤️ by <a href="https://rufuspollock.com">Rufus Pollock</a> and <a href="https://datopian.com">Datopian</a> since 2015.</p>
 </footer>
 ${scripts
   // Modules, so that the browser and the Worker can import one shared anchor
