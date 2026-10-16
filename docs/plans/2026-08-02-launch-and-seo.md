@@ -5,6 +5,8 @@
 
 **Update, 2026-09-27 (reportsthatmatter-y2t.2):** Appendices A–C below were drafted when the site carried one report. There are now 11. They are rewritten here for the full archive, and for the channels actually decided on 2026-09-25: Bluesky (`@reportsthatmatter.org`) is the organisation's only account and carries both the launch thread and the pinned post; there is no organisation account on X. X carries only the personal-account thread, which Rufus posts by hand. Section 4 below is updated to match. Nothing is posted by an agent — see AGENTS.md, "No external posting, account creation, or scheduling."
 
+**Update, 2026-10-16:** the launch is **Tuesday 2026-10-20**. These appendices are superseded by the marketing repo's `drafts/2026-10/` (start with `launch-day-checklist.md`): Challenger leads, the org Bluesky account carries the launch thread and the daily excerpt, Rufus's personal accounts carry the personal post, there is no email capture at launch, and no draft states a report count. The text below keeps its original dates and wording as history.
+
 ---
 
 ## 1. The two channels, and why they are different

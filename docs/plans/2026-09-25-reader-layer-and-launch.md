@@ -14,7 +14,7 @@ Written 2026-09-25. Ties together the three directions Rufus raised: summaries a
 
 1. **Nothing to post.** A campaign that runs "in a fairly automated way" needs a queue of 50 to 150 good, verified, deep-linked excerpts across several reports. We have 5. **The excerpt layer is the campaign's engine, so it comes first.** This is the real blocker and it is ours to fix.
 2. **No accounts or credentials.** Only Rufus can create `@ReportsThatMatter` on X and Bluesky, verify Search Console, and hand over posting tokens. This takes about 30 minutes of his time and is the only step that needs him.
-3. **No launch date.** "Next" with no date has meant never. Proposed date: **Tuesday 13 October 2026**. That is three weeks before the US midterms on 3 November (Jack Smith is topical) and six weeks before the 20th anniversary of Litvinenko's death on 23 November.
+3. **No launch date.** "Next" with no date has meant never. Proposed date: **Tuesday 13 October 2026** (moved on 2026-10-16 to **Tuesday 20 October 2026**). That is three weeks before the US midterms on 3 November (Jack Smith is topical) and six weeks before the 20th anniversary of Litvinenko's death on 23 November.
 
 ## Decisions (made here so work can start; reverse any of them)
 

@@ -19,7 +19,7 @@ After the account exists (reportsthatmatter-y2t.1):
    ```bash
    gh variable set POSTER_LIVE --body true
    ```
-   The next 14:00 UTC run posts. Do this on launch day (Tue 2026-10-13) or after: the queue's first item is dated 2026-10-14, so nothing is due before then whatever the variable says.
+   The next 14:00 UTC run posts. Do this on launch day, Tue 2026-10-20, before 14:00 UTC (the 20 October run posts the first item, Challenger), or later: the queue's first item is dated 2026-10-20, so nothing is due before then whatever the variable says. Rufus's order for the day is `drafts/2026-10/launch-day-checklist.md` in the marketing repo.
 5. **Switch off:** set `POSTER_LIVE` to `false` or delete the variable. A scheduled run goes back to a dry run at once.
 
 The three states:
@@ -59,7 +59,7 @@ Every problem exits 1 and turns the run red: GitHub emails the people watching t
 
 ```bash
 pnpm post-next                      # dry run, no network
-POSTER_TODAY=2026-10-14 pnpm post-next   # pretend it is that day
+POSTER_TODAY=2026-10-20 pnpm post-next   # pretend it is that day
 ```
 
 `pnpm test` covers selection, idempotency, dry run and the Bluesky calls (against a local stand-in server). A real account has not been exercised yet; step 3 above is the first time.
