@@ -58,3 +58,31 @@ binding = "CF_VERSION_METADATA"
 
 [dev]
 local_protocol = "http"
+
+# The Datopian account (Workers Paid; decision reportsthatmatter-2oz, epic 4g4d). Selected with
+# `--env datopian --profile datopian` on every wrangler call: `--profile` picks the credentials without
+# touching the directory bindings (this tree is bound to the atomatic `default` profile), and `account_id`
+# here pins the account. Bindings are not inherited by an environment, so they are repeated. No routes until
+# the cutover (docs/hosting-migration.md): it serves on its workers.dev URL only.
+[env.datopian]
+name = "reportsthatmatter"
+account_id = "83025b28472d6aa2bf5ae59f3724aa78"
+workers_dev = true
+routes = []
+
+[env.datopian.vars]
+REPORTS_SOURCE = "bundled"
+LEGACY_BASE = "https://reportsthatmatter.github.io/reportsthatmatter"
+
+[[env.datopian.d1_databases]]
+binding = "DB"
+database_name = "reportsthatmatter-marks"
+database_id = "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec"
+migrations_dir = "migrations"
+
+[[env.datopian.r2_buckets]]
+binding = "CONTENT"
+bucket_name = "reportsthatmatter-content"
+
+[env.datopian.version_metadata]
+binding = "CF_VERSION_METADATA"

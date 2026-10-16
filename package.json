@@ -32,6 +32,7 @@
     "worktrees": "tsx scripts/worktrees.ts",
     "check-search-staleness": "tsx scripts/check-search-staleness.mjs",
     "d1-usage": "tsx scripts/d1-usage.mjs",
+    "migrate-hosting": "tsx scripts/migrate-hosting.ts",
     "marks": "tsx scripts/marks.mjs",
     "heroes": "node scripts/imagery/heroes.mjs",
     "mark-mockups": "node scripts/imagery/mockups.mjs docs/design/2026-09-12-imagery/candidates docs/design/2026-09-12-imagery/mockups",
