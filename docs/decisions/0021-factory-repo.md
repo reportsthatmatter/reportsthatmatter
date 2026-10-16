@@ -1,9 +1,9 @@
 # 0021. Should coordination live in its own factory repo?
 
-- **Status:** proposed
-- **Date raised:** 2026-10-16 · **Date decided:** —
-- **Decided by:** —
-- **Beads:** reportsthatmatter-jcht (this decision), reportsthatmatter-re74 (create the GitHub repo, needs-user)
+- **Status:** decided (accepted: option (c), public)
+- **Date raised:** 2026-10-16 · **Date decided:** 2026-10-16
+- **Decided by:** Rufus
+- **Beads:** reportsthatmatter-jcht (this decision), reportsthatmatter-re74 (create the GitHub repo; done, closed)
 
 ## Question
 
@@ -21,20 +21,20 @@ The beads database belongs to the site repo (AGENTS.md), as do the house rules, 
 
 (b) **A local `factory/` repo only.** Versioned and tidy, and agents already write there. But it exists on one machine, so it has no backup and cannot be shared with another supervisor or machine.
 
-(c) **`factory/` as a private GitHub repo `reportsthatmatter/factory`.** Holds handoffs, dated protocols, reviews and backlog snapshots; logs and scratch stay gitignored. Backed up and shareable. Later candidates to move there, each as its own decision: `docs/agent-protocol.md`, the supervision skills (`report-pipeline`, `pr-review`, `integrate-and-ship`) and lessons. Beads, house rules, decisions and the app's skills stay in the site repo.
+(c) **`factory/` as a GitHub repo `reportsthatmatter/factory`.** Holds handoffs, dated protocols, reviews and backlog snapshots; logs and scratch stay gitignored. Backed up and shareable. (Proposed as private; Rufus chose public.) Later candidates to move there, each as its own decision: `docs/agent-protocol.md`, the supervision skills (`report-pipeline`, `pr-review`, `integrate-and-ship`) and lessons. Beads, house rules, decisions and the app's skills stay in the site repo.
 
 ## Decision
 
-Proposed: (c), for the first step only. Push the existing local repo as it is and move nothing out of the site repo yet. Whether `docs/agent-protocol.md`, the supervision skills or lessons follow is a later decision, taken once the factory has been used for a few sessions.
+(c), **public** (Rufus, 2026-10-16): https://github.com/reportsthatmatter/factory, created and pushed that day. First step only: the existing local repo was pushed as it is and nothing moves out of the site repo yet. Whether `docs/agent-protocol.md`, the supervision skills or lessons follow is a later decision, taken once the factory has been used for a few sessions.
 
 ## Consequences
 
 - A supervisor gets one place for session history, and the site repo stays app-focused.
-- Agents working in a site worktree must find the factory: they do so through the absolute `~/src/reportsthatmatter/factory/` paths in the protocol and skills. A machine without that checkout has nowhere to write, so the protocol should say to clone it first.
+- Agents working in a site worktree must find the factory: they do so through the absolute `~/src/reportsthatmatter/factory/` paths in the protocol and skills. A fresh machine clones it first: `git clone git@github.com:reportsthatmatter/factory ~/src/reportsthatmatter/factory` (AGENTS.md Layout and `docs/agent-protocol.md` say so).
 - Two repos to keep in step: a rule in the site repo can name a factory path that moves. Keeping the paths in few places (AGENTS.md Layout, the protocol, three skills) limits that.
-- Creating the GitHub repo and pushing is Rufus's call (the `needs-user` bead reportsthatmatter-re74). Until then the repo is local only, as in (b).
+- The repo is public, like the site repo: anything committed there (handoffs, protocols, reviews, backlog snapshots) is readable by anyone, so it carries no secrets, tokens or private correspondence. Logs and scratch stay gitignored.
 
 ## Links
 
-- `~/src/reportsthatmatter/factory/README.md`
+- https://github.com/reportsthatmatter/factory (`~/src/reportsthatmatter/factory/README.md`)
 - [`docs/agent-protocol.md`](../agent-protocol.md), AGENTS.md "Layout"

@@ -117,7 +117,7 @@ an interactive session.
 
 | Path | What |
 | --- | --- |
-| `~/src/reportsthatmatter/factory/` (a separate local repo, not this one) | Factory: the coordination layer. Session handoffs, dated agent protocols, review files, backlog snapshots; logs and scratch (gitignored). See `~/src/reportsthatmatter/factory/README.md` and decision 0021 |
+| `~/src/reportsthatmatter/factory/` (its own public repo, [reportsthatmatter/factory](https://github.com/reportsthatmatter/factory), not this one; on a fresh machine `git clone git@github.com:reportsthatmatter/factory ~/src/reportsthatmatter/factory`) | Factory: the coordination layer. Session handoffs, dated agent protocols, review files, backlog snapshots; logs and scratch (gitignored). See `~/src/reportsthatmatter/factory/README.md` and decision 0021 |
 | `src/index.ts` | Hono routes on Cloudflare Workers |
 | `src/templates/` | Page shells; `layout.ts` is the design system's HTML |
 | `src/lib/markdown.ts` | Markdown → HTML, paragraph ids, sidenotes, page anchors |
