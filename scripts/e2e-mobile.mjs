@@ -314,7 +314,7 @@ for (const profile of profiles) {
     });
     check(laid.overflow <= 0 && laid.main === 1 && laid.h1 === 1, `${tag} ${path} fits the screen, one main and one h1`, JSON.stringify(laid));
     check(laid.targets > 0 && laid.small.length === 0, `${tag} ${path}: tabs, Read in place and the opt-out are 44px tap targets`, JSON.stringify(laid));
-    if (shots) await page.screenshot({ path: join(shots, `${slug(profile.name)}-${slug(path)}.png`), fullPage: true });
+    if (shots) await page.screenshot({ path: join(shots, `${slug(profile.name)}${path.replace(/\//g, "-")}.png`), fullPage: true });
   }
 
   check(errors.length === 0, `${tag} no page errors`, errors.join(" | "));

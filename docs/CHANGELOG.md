@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-16 — What readers are highlighting
+
+/highlights now shows every visitor what readers have been saving and sharing: the passages, newest first, with their report, section and page, how many times each was highlighted (from two), roughly when, and a link to the exact words. Below them sit the Editor's picks, one passage from each of several reports, so the page is never empty. Nothing about who chose a passage is shown or kept with it, a passage appears about half an hour after it is marked, and the words are always checked against the report first, so the page can only ever quote the report itself. Reports about events with affected communities are left out for now. Your own saved passages have moved to [Yours](/highlights/yours), where you can also turn counting off; [About](/about#what-we-record) says what we record.
+
 ## 2026-10-16 — A correction about highlights
 
 **Correction.** The 21 August entry on saved highlights said that "none of it is sent to us". That was wrong. Your saved list does stay in your browser, but each time you save a passage, copy its link or quote, or share it, its words, report and paragraph are also sent to us, with no account or cookie and nothing that names you, so we can count which passages readers mark. The /highlights page now says so.
