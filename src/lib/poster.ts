@@ -15,7 +15,7 @@
  *   red and GitHub emails the committer); nothing is swallowed or retried.
  * - dry-run: the default. Live needs `POSTER_LIVE=true` and both credentials.
  */
-import { BLUESKY_GRAPHEME_LIMIT, graphemeLength, type QueueItem } from "./posts";
+import { BLUESKY_GRAPHEME_LIMIT, graphemeLength, isBlackout, type QueueItem } from "./posts";
 
 /** A queue row as the poster sees it: `posted_at` is added by the poster. */
 export type PosterItem = QueueItem & { posted_at?: string | null };
@@ -76,6 +76,8 @@ export type Selection =
 export function selectNext(items: readonly PosterItem[], today: string): Selection {
   const postedToday = items.find((i) => i.posted_url && (i.posted_at ?? "").slice(0, 10) === today);
   if (postedToday) return { kind: "already-today", item: postedToday };
+  // A kept-clear day (posts.ts isBlackout) posts nothing, not even an item overdue from a missed day before it.
+  if (isBlackout(today)) return { kind: "none", reason: `${today} is a kept-clear date: nothing is posted` };
 
   const due = items
     .map((item, index) => ({ item, index }))
