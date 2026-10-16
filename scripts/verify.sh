@@ -65,8 +65,9 @@ step "Aggregate reports"
 # before pre-rendering is what stops the site serving a stale copy of a report
 # that was edited where it actually lives.
 # `aggregate` refuses a report repo that is the shared checkout (reportsthatmatter-m7ga): the integrator
-# runs this with VERIFY_SHARED=1 (passes --shared); anyone else sets RTM_REPORT_DIRS to worktrees
-# (`pnpm ingest worktrees <ids>`).
+# runs this with VERIFY_SHARED=1 (passes --shared), and so does any agent that owns no report repo (aggregate
+# only reads the shared checkouts; check `git status --short reports/` before committing). An agent that owns a
+# report repo sets RTM_REPORT_DIRS to worktrees (`pnpm ingest worktrees <ids>`).
 if pnpm ingest aggregate ${VERIFY_SHARED:+--shared} >"${RUN_DIR}/aggregate.log" 2>&1; then
   pass "reports/ is current with each report's source of truth"
 else
