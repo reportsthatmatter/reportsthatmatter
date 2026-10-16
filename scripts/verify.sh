@@ -93,9 +93,11 @@ step "Editorial layer"
 # Our summaries and excerpts (editorial/*.yaml) quote the reports. A quote the
 # report does not contain, or a citation to a paragraph that has moved, is
 # the one error this project cannot ship — so it is checked against the pages
-# just pre-rendered, and src/generated/editorial.ts rebuilt from them.
-if pnpm editorial >"${RUN_DIR}/editorial.log" 2>&1; then
-  pass "every editorial quote is verbatim and every citation resolves"
+# just pre-rendered. --check also fails when the tracked src/generated/editorial.ts
+# is stale and writes nothing (reportsthatmatter-v724); the plain run after it only
+# refreshes the untracked build/editorial-highlights.json that the seed step reads.
+if pnpm editorial --check >"${RUN_DIR}/editorial.log" 2>&1 && pnpm editorial >>"${RUN_DIR}/editorial.log" 2>&1; then
+  pass "every editorial quote is verbatim, every citation resolves and src/generated/editorial.ts is current"
 else
   fail "pnpm editorial"
   tail -30 "${RUN_DIR}/editorial.log"
