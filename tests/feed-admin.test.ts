@@ -138,3 +138,39 @@ describe("planRebuild", () => {
     expect(rows[0].anchor).toBe(encodeAnchor(selectorFor(TEXT, start, start + words(1, 7).length)));
   });
 });
+
+describe("pnpm feed --remote without --yes (jp6i)", () => {
+  // The real script, with a fake `pnpm` first on PATH that records any call: wrangler is reached only through it.
+  const { mkdtempSync, writeFileSync: write, chmodSync, existsSync } = require("node:fs") as typeof import("node:fs");
+  const { spawnSync } = require("node:child_process") as typeof import("node:child_process");
+  const { join } = require("node:path") as typeof import("node:path");
+  const { tmpdir } = require("node:os") as typeof import("node:os");
+  const tsx = join(process.cwd(), "node_modules/.bin/tsx");
+
+  const commands = [
+    ["status"],
+    ["list", "--held"],
+    ["hide", "42"],
+    ["show", "42"],
+    ["hide", "--report", "uk-leveson-inquiry"],
+    ["hide", "--all"],
+    ["rebuild"],
+    ["rebuild", "--dry-run"],
+  ];
+
+  for (const command of commands) {
+    it(`${command.join(" ")} --remote exits before any remote call`, () => {
+      const bin = mkdtempSync(join(tmpdir(), "feed-gate-"));
+      const called = join(bin, "called");
+      write(join(bin, "pnpm"), `#!/bin/sh\necho "$@" >> "${called}"\nexit 1\n`);
+      chmodSync(join(bin, "pnpm"), 0o755);
+      const result = spawnSync(tsx, ["scripts/feed.mjs", ...command, "--remote"], {
+        encoding: "utf8",
+        env: { ...process.env, PATH: `${bin}:${process.env.PATH}` },
+      });
+      expect(result.status).not.toBe(0);
+      expect(`${result.stdout}${result.stderr}`).toMatch(/--yes/);
+      expect(existsSync(called)).toBe(false);
+    }, 20_000);
+  }
+});

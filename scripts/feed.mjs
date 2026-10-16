@@ -1,16 +1,18 @@
 /* Moderate the public highlights feed on /highlights (reportsthatmatter-bght.10.5, decision 0023).
  *
- *   pnpm feed status [--remote]                    counts by status and reason, and the newest visible rows
- *   pnpm feed list [--held|--hidden|--visible] [--limit N] [--remote]
+ *   pnpm feed status [--remote --yes]              counts by status and reason, and the newest visible rows
+ *   pnpm feed list [--held|--hidden|--visible] [--limit N] [--remote --yes]
  *   pnpm feed hide <id | link> [--remote --yes]    hide one row, or every row of the passage a link names
  *   pnpm feed show <id | link> [--remote --yes]    undo a hide (held rows stay held)
  *   pnpm feed hide --report <id> [--remote --yes]  hide every visible row of one report
  *   pnpm feed hide --all [--remote --yes]          THE KILL SWITCH: hide every visible row, no deploy needed
  *   pnpm feed rebuild [--dry-run] [--remote --yes] replay marks through today's policy and text, rewrite public_marks
+ *                                                  (--remote --dry-run still reads production: it needs --yes too)
  *
  * A link is what /highlights prints under "Read in place": /reports/<id>?p=<paragraph>&h=<anchor> (with or
- * without the origin or a section slug). Local D1 (wrangler dev) by default; --remote is production, and every
- * remote write prints what it will cost and needs --yes. Every remote statement goes through scripts/lib/d1.ts,
+ * without the origin or a section slug). Local D1 (wrangler dev) by default; --remote is production, and EVERY
+ * --remote command, reads included, needs --yes: without it the script exits before its first remote call (the
+ * runner below refuses, so no path can forget). A write without --yes prints the SQL it would run first. Every remote statement goes through scripts/lib/d1.ts,
  * so it lands in today's D1 ledger (pnpm d1-usage).
  *
  * hide --all hides what is there now; marks made afterwards still appear (after the 30-minute delay) until
@@ -33,7 +35,12 @@ const option = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : u
 const remote = flag("--remote");
 const target = remote ? "--remote" : "--local";
 const where = remote ? "production" : "local";
-const run = wranglerRunner(root);
+const wrangler = wranglerRunner(root);
+/** The only way this script reaches D1: a --remote call without --yes never leaves the machine. */
+const run = (t, sql) => {
+  if (t === "--remote" && !flag("--yes")) fail("Nothing sent to production. Every --remote command needs --yes (reads too).");
+  return wrangler(t, sql);
+};
 const query = (sql) => run(target, { command: sql })[0];
 
 const [command, operand] = args.filter((arg, i) => !arg.startsWith("--") && !["--report", "--limit"].includes(args[i - 1]));
@@ -99,7 +106,7 @@ switch (command) {
     break;
   }
   case "rebuild": {
-    if (remote && !flag("--yes") && !flag("--dry-run")) fail("rebuild --remote reads every row of production's marks and rewrites public_marks: add --dry-run to plan it, or --yes to run it.");
+    if (remote && !flag("--yes")) fail("rebuild --remote reads every row of production's marks (and, without --dry-run, rewrites public_marks): add --yes, with --dry-run to plan only.");
     const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
     const env = { FEED_ENABLED: process.env.FEED_ENABLED, FEED_EXCLUDE: process.env.FEED_EXCLUDE };
     const marks = query("SELECT id, report, section, paragraph, exact, prefix, suffix, page, kind, actor, created_at FROM marks ORDER BY id").results;
@@ -118,7 +125,6 @@ switch (command) {
     console.log(`${marks.length} mark(s) read from ${where} D1; ${rows.length} public row(s) planned (${rows.filter((r) => r.status === "visible").length} visible); skipped ${JSON.stringify(skipped)}.`);
     console.log(`Plan: delete every public_marks row, insert ${rows.length}: about ${writes} row write(s). SQL in ${file}.`);
     if (flag("--dry-run")) break;
-    if (remote && !flag("--yes")) fail("Nothing written. Add --yes to rebuild production's public_marks.");
     const written = run(target, { file }).reduce((sum, r) => sum + (Number(r.meta?.rows_written) || 0), 0);
     console.log(`${where}: rebuilt (${written} rows written).`);
     break;
