@@ -90,7 +90,7 @@ Rufus's personal account, posted by hand — there is no organisation account on
 > **1/**
 > Important public reports — inquiries, investigations, official findings — are some of the most careful research ever done. And they're almost unreadable: 700-page scanned PDFs on government sites that break.
 >
-> I've been fixing that. 13 reports live now: reportsthatmatter.org
+> I've been fixing that. The reports are live now: reportsthatmatter.org
 
 > **2/**
 > Among them: the Jack Smith report on Trump and the 2020 election, the Senate's report on the 2008 financial crisis, the 9/11 Commission, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko.
@@ -136,7 +136,7 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 *(249 graphemes)*
 
 > **2/6**
-> 13 reports so far, different countries and decades: the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot (Iraq Inquiry), the Lehman examiner.
+> Reports from different countries and decades, for example the Jack Smith report on the 2020 election, the Senate's report on the 2008 financial crisis, 9/11, Deepwater Horizon, US v. Philip Morris, Bloody Sunday, Hillsborough, Challenger, Columbia, Leveson, Litvinenko, Chilcot (Iraq Inquiry), the Lehman examiner.
 
 *(263 graphemes)*
 
@@ -166,7 +166,7 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 > **6/6**
 > No commentary. No spin. The documents, made readable.
 >
-> 13 reports and counting. If there's one you think belongs, tell us.
+> More reports to come. If there's one you think belongs, tell us.
 >
 > reportsthatmatter.org
 
@@ -190,7 +190,7 @@ The organisation's only account (X has none — decided 2026-09-25). Same voice 
 >
 > Every excerpt links to the exact paragraph in the full report.
 >
-> 13 reports and counting.
+> More reports to come.
 >
 > reportsthatmatter.org
 
