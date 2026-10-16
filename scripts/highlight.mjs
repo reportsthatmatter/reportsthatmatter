@@ -9,7 +9,7 @@
  * it in the posting queue (`pnpm posts`).
  *
  * Then: `pnpm editorial` (checks it), commit, and the integrator runs
- * `pnpm seed-highlights --remote` after the deploy, which writes only the new
+ * `pnpm seed-highlights --remote --yes` after the deploy, which writes only the new
  * highlight (one row).
  */
 import "./lib/help.mjs";
@@ -61,4 +61,4 @@ if (!added) {
 }
 writeFileSync(editorialPath, text);
 console.log(`+ editorial/${parsed.report}.yaml: ${resolved.paragraph}\n  “${resolved.quote}”`);
-console.log("\nNext: pnpm editorial, commit; after deploy the integrator runs pnpm seed-highlights --remote.");
+console.log("\nNext: pnpm editorial, commit; after deploy the integrator runs pnpm seed-highlights --remote --yes.");

@@ -17,7 +17,16 @@ export type Statement = { results: Array<Record<string, unknown>>; meta: Meta; s
 /** Runs SQL against a D1 database and returns wrangler's parsed `--json` output (one entry per statement). */
 export type Runner = (target: Target, sql: { command: string } | { file: string }) => Statement[];
 
-export const wranglerRunner = (cwd: string): Runner => (target, sql) => {
+/** Thrown by `wranglerRunner` for a `--remote` call its caller did not confirm. */
+export class RemoteNotConfirmed extends Error {}
+
+/**
+ * The only way a script reaches D1. A `--remote` call needs `confirmed` (the script's `--yes`), checked before
+ * wrangler is started, so no code path can reach production by forgetting a check of its own (jp6i: pnpm feed's first
+ * draft counted production rows before checking --yes). Unset means refuse.
+ */
+export const wranglerRunner = (cwd: string, { confirmed = false }: { confirmed?: boolean } = {}): Runner => (target, sql) => {
+  if (target === "--remote" && !confirmed) throw new RemoteNotConfirmed("Nothing sent to production: a --remote D1 call needs --yes.");
   // The account's wrangler flags (RTM_CF_ACCOUNT, default datopian; docs/hosting-migration.md), never the directory binding.
   const args = ["wrangler", "d1", "execute", DB_NAME, target, "--json", ...(target === "--remote" ? accountArgs() : []), ...("command" in sql ? ["--command", sql.command] : ["--file", sql.file])];
   let out: string;

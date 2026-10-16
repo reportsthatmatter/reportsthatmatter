@@ -537,7 +537,7 @@ export function buildSteps(): Step[] {
         "pnpm editorial                    (a broken quote or id in editorial/<id>.yaml fails: fix the yaml in a PR)",
         ctx.has("scripts/posts.mjs", "--check") ? "pnpm posts --check               (a queued excerpt whose paragraph id moved fails)" : "(pnpm posts --check is not on this checkout yet: skipped)",
         ctx.has("scripts/posts.mjs", "--drop-stale") ? "GATE on a stale queue item: `pnpm ship --ack editorial` runs `pnpm posts --drop-stale`, then `pnpm posts --check`" : "",
-        ctx.has("scripts/marks.mjs", "check") ? "pnpm marks check --all             (read-only D1: every saved mark still resolves; offline needs --baseline)" : "(pnpm marks check is not on this checkout yet: skipped)",
+        ctx.has("scripts/marks.mjs", "check") ? "pnpm marks check --all --yes       (read-only D1: every saved mark still resolves; offline needs --baseline)" : "(pnpm marks check is not on this checkout yet: skipped)",
       ].filter(Boolean),
       async run(rt) {
         const { ctx } = rt;
@@ -554,7 +554,7 @@ export function buildSteps(): Step[] {
           } else rt.out("  ✓ pnpm posts --check");
         }
         if (ctx.has("scripts/marks.mjs", "check")) {
-          await item(rt, "editorial", "marks", pnpm("marks", "check", "--all"), ["pnpm marks check <id>   (a saved mark whose paragraph id no longer resolves)", "Reads production D1; needs wrangler logged in. Offline: pnpm marks check --all --baseline <previous prerender>"]);
+          await item(rt, "editorial", "marks", pnpm("marks", "check", "--all", "--yes"), ["pnpm marks check <id>   (a saved mark whose paragraph id no longer resolves)", "Reads production D1; needs wrangler logged in. Offline: pnpm marks check --all --baseline <previous prerender>"]);
         }
       },
     },
@@ -707,7 +707,7 @@ export function buildSteps(): Step[] {
         const perReport: Record<string, number> = {};
         const readsPerReport: Record<string, number> = {};
         for (const id of ids) {
-          const r = await rt.exec(pnpm("publish-report", id, "--dry-run", "--base", rt.ctx.base), `d1-estimate-${id}`);
+          const r = await rt.exec(pnpm("publish-report", id, "--dry-run", "--yes", "--base", rt.ctx.base), `d1-estimate-${id}`);
           const n = estimatedWrites(r.stdout);
           if (r.code !== 0 || n === null) throw new Stop(`d1-estimate: could not estimate ${id}\n${tail(r.stdout)}`, [`log: ${r.log}`, "The estimate reads D1 through wrangler on RTM_CF_ACCOUNT (default datopian): `pnpm wrangler d1 list --profile datopian` must show reportsthatmatter-marks ceb6c2cc-… (AGENTS.md, Cloudflare).", "An unreadable index can mean the daily read quota is spent: pnpm d1-usage"]);
           perReport[id] = n;
@@ -728,9 +728,9 @@ export function buildSteps(): Step[] {
       id: "publish",
       title: "Publish each drifted report (objects and commit only, --no-reindex)",
       kind: "prod",
-      describe: (ctx, s) => (s.data.toPublish ?? ["<each report to publish>"]).map((id) => show({ argv: ["pnpm", "publish-report", id, "--base", ctx.base, "--no-reindex"], secret: true })),
+      describe: (ctx, s) => (s.data.toPublish ?? ["<each report to publish>"]).map((id) => show({ argv: ["pnpm", "publish-report", id, "--base", ctx.base, "--no-reindex", "--yes"], secret: true })),
       async run(rt) {
-        for (const id of rt.state.data.toPublish ?? []) await item(rt, "publish", id, { argv: ["pnpm", "publish-report", id, "--base", rt.ctx.base, "--no-reindex"], secret: true }, [`pnpm publish-report ${id} --dry-run --base ${rt.ctx.base}`, "Re-running repeats the same command: uploads are idempotent. D1 code 7500 means the quota is spent: wait for 00:00 UTC."]);
+        for (const id of rt.state.data.toPublish ?? []) await item(rt, "publish", id, { argv: ["pnpm", "publish-report", id, "--base", rt.ctx.base, "--no-reindex", "--yes"], secret: true }, [`pnpm publish-report ${id} --dry-run --base ${rt.ctx.base}`, "Re-running repeats the same command: uploads are idempotent. D1 code 7500 means the quota is spent: wait for 00:00 UTC."]);
       },
     },
     {
@@ -746,19 +746,19 @@ export function buildSteps(): Step[] {
       id: "reindex",
       title: "Reindex search for the published reports (incremental: only changed paragraphs are written)",
       kind: "prod",
-      describe: (ctx, s) => (s.data.toPublish ?? ["<each report to publish>"]).map((id) => `./scripts/reindex-search.sh ${id}`),
+      describe: (ctx, s) => (s.data.toPublish ?? ["<each report to publish>"]).map((id) => `./scripts/reindex-search.sh ${id} --yes`),
       async run(rt) {
-        for (const id of rt.state.data.toPublish ?? []) await item(rt, "reindex", id, { argv: ["./scripts/reindex-search.sh", id] }, [`./scripts/reindex-search.sh ${id} --dry-run`, "D1 code 7500: the quota is spent. Wait for 00:00 UTC and re-run `pnpm ship`: the reports already reindexed stay done, and a repeat of a done one writes one row."]);
+        for (const id of rt.state.data.toPublish ?? []) await item(rt, "reindex", id, { argv: ["./scripts/reindex-search.sh", id, "--yes"] }, [`./scripts/reindex-search.sh ${id} --dry-run`, "D1 code 7500: the quota is spent. Wait for 00:00 UTC and re-run `pnpm ship`: the reports already reindexed stay done, and a repeat of a done one writes one row."]);
       },
     },
     {
       id: "seed",
       title: "Seed highlights into production marks",
       kind: "prod",
-      describe: () => ["pnpm editorial", "pnpm seed-highlights --remote"],
+      describe: () => ["pnpm editorial", "pnpm seed-highlights --remote --yes"],
       async run(rt) {
         await item(rt, "seed", "editorial", pnpm("editorial"), ["pnpm editorial"]);
-        await item(rt, "seed", "seed-highlights", pnpm("seed-highlights", "--remote"), ["pnpm seed-highlights --remote  (needs build/editorial-highlights.json)"]);
+        await item(rt, "seed", "seed-highlights", pnpm("seed-highlights", "--remote", "--yes"), ["pnpm seed-highlights --remote --yes  (needs build/editorial-highlights.json)"]);
       },
     },
     {

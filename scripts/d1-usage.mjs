@@ -11,10 +11,12 @@
  */
 import "./lib/help.mjs";
 import { join } from "node:path";
+import { exitOnUnknownFlags } from "./lib/args.ts";
 import { analyticsToday, combine, credentials, dailyLimits, databaseIdOf, ledgerEntries, ledgerPath, topQueries } from "./lib/d1-usage.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
+exitOnUnknownFlags(args, ["--json"], ["--day", "--alert"]);
 const opt = (name) => {
   const i = args.indexOf(name);
   return i === -1 ? undefined : args[i + 1];

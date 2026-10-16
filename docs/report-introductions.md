@@ -81,7 +81,7 @@ Five to eight things the report found, in the report's order of importance, not 
 
 ### `highlights`
 
-Rufus's highlights: 8–15 short, striking passages, the kind a reader would mark or share. They are not shown on the landing page. `pnpm seed-highlights --remote` writes them into the site's marks table, so they appear highlighted in the text as any reader's marks do. They are anonymous today, shown as "1 reader"; named highlights are `reportsthatmatter-38k`.
+Rufus's highlights: 8–15 short, striking passages, the kind a reader would mark or share. They are not shown on the landing page. `pnpm seed-highlights --remote --yes` writes them into the site's marks table, so they appear highlighted in the text as any reader's marks do. They are anonymous today, shown as "1 reader"; named highlights are `reportsthatmatter-38k`.
 
 A highlight must be inside a paragraph with an id. Block quotations have no id yet (`reportsthatmatter-dam`), so the check rejects them as highlights. Mark `card: true` on the ones worth a share card.
 
@@ -101,7 +101,7 @@ A highlight must be inside a paragraph with an id. Block quotations have no id y
 4. **Write `editorial/<id>.yaml`** with `status: approved`.
 5. **Check**: run `pnpm editorial` until it passes, then `./scripts/verify.sh`.
 6. **Review in the browser**: run `pnpm dev` and open `/reports/<id>`. Read it as a stranger would. Does the standfirst make you want to read on? Does every quotation make sense alone? Does every link land somewhere readable?
-7. **Ship it**: PR, merge, deploy, then `pnpm seed-highlights --remote`. Do not wait for Rufus's review (Rufus, 2026-09-26); he reads the live page and his feedback becomes a follow-up change. (A `status: draft` file is hidden without `?draft` and is `noindex`; use it only when a second opinion must come before going live.)
+7. **Ship it**: PR, merge, deploy, then `pnpm seed-highlights --remote --yes`. Do not wait for Rufus's review (Rufus, 2026-09-26); he reads the live page and his feedback becomes a follow-up change. (A `status: draft` file is hidden without `?draft` and is `noindex`; use it only when a second opinion must come before going live.)
 8. **Record it**: add a `docs/CHANGELOG.md` entry and screenshots per AGENTS.md, and close the Bead.
 
 ## Checklist

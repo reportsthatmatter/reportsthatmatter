@@ -16,6 +16,9 @@
  *                     references that were already broken, and exits 1 only for the former
  * --refresh           re-read the marks from D1 instead of the cache (one grouped read of the table)
  * --local             read the local D1 instead of production
+ * --yes               allow the read of production D1 when there is no usable cache (a cache hit, --marks-file,
+ *                     --no-marks and --local never reach production, so they need no --yes); without it the
+ *                     run stops before its first remote call (reportsthatmatter-jp6i)
  * --marks-file <json> use an export you already have (same shape as the cache); D1 is not touched
  * --no-marks          links and editorial only (offline)
  * --queue <yaml>, --editorial-dir <dir>   read those from elsewhere (default: this checkout's)
@@ -28,11 +31,17 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { parse } from "yaml";
 import { checkEditorial, checkLink, checkMark, regressions } from "../src/lib/marks-check.ts";
-import { wranglerRunner } from "./lib/d1.ts";
+import { exitOnUnknownFlags } from "./lib/args.ts";
+import { RemoteNotConfirmed, wranglerRunner } from "./lib/d1.ts";
 import { loadMarks, readCache } from "./lib/marks-export.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
+exitOnUnknownFlags(
+  args,
+  ["--all", "--refresh", "--local", "--no-marks", "--json", "--yes"],
+  ["--candidate", "--baseline", "--marks-file", "--cache", "--queue", "--editorial-dir"]
+);
 const flag = (name) => args.includes(name);
 const value = (name) => {
   const i = args.indexOf(name);
@@ -46,7 +55,7 @@ const known = registry.reports.map((r) => r.id);
 const reports = flag("--all") ? known : positional;
 
 if (!reports.length) {
-  console.error("Usage: pnpm marks check <report>... | --all  [--candidate <dir>] [--baseline <dir>] [--refresh] [--local] [--marks-file <json>] [--no-marks] [--json]");
+  console.error("Usage: pnpm marks check <report>... | --all  [--candidate <dir>] [--baseline <dir>] [--refresh] [--yes] [--local] [--marks-file <json>] [--no-marks] [--json]");
   process.exit(2);
 }
 const unknown = reports.filter((r) => !known.includes(r));
@@ -98,13 +107,17 @@ if (!flag("--no-marks")) {
     const target = flag("--local") ? "--local" : "--remote";
     const cachePath = resolve(value("--cache") ?? join(root, `build/marks-check/marks${target === "--local" ? "-local" : ""}.json`));
     try {
-      const { data, fromCache } = loadMarks({ cachePath, target, refresh: flag("--refresh"), run: wranglerRunner(root) });
+      const { data, fromCache } = loadMarks({ cachePath, target, refresh: flag("--refresh"), run: wranglerRunner(root, { confirmed: flag("--yes") || target === "--local" }) });
       marks = data.marks;
       const age = Math.round((Date.now() - Date.parse(data.fetchedAt)) / 3600000);
       marksNote = fromCache
         ? `marks: ${marks.length} passage(s) from the cache (${age}h old; --refresh re-reads D1)`
         : `marks: ${marks.length} passage(s) read from D1 ${target === "--local" ? "locally" : "in production"} (${data.rowsRead} rows read), cached at ${cachePath}`;
     } catch (error) {
+      if (error instanceof RemoteNotConfirmed) {
+        console.error(`No usable cache of the marks, and reading production D1 needs --yes (nothing was sent). Add --yes, or use --marks-file <export>, --local or --no-marks.`);
+        process.exit(2);
+      }
       console.error(`Could not read marks from D1: ${String(error.message).split("\n")[0]}`);
       console.error("Run `pnpm wrangler login`, use --marks-file <export>, or --no-marks to skip them (the check then says so).");
       process.exit(2);

@@ -7,6 +7,9 @@
  *   pnpm publish-report <id> --preflight [--base https://…]   (no secret: can D1 take writes, and does this fit?)
  *   pnpm publish-report <id> --dry-run [--base https://…]     (no secret: what would be uploaded, and the row writes)
  *
+ * Against a deployed --base, anything that reads or writes production D1 (--preflight, --dry-run without --offline, a
+ * publish that preflights or reindexes) needs --yes, checked before the first D1 call (reportsthatmatter-jp6i).
+ *
  * A 5xx from the objects upload or the commit is retried three times (scripts/lib/publish-call.ts; reportsthatmatter-moej).
  *
  * Reads what `pnpm prerender` produced, uploads it under a content hash, then
@@ -47,6 +50,7 @@ import { execFileSync } from "node:child_process";
 import { contentHash, extractPassages, manifestFor, tokenFor } from "@rtm/ingest";
 import { readLocalFiles } from "./lib/publish-local.mjs";
 import { makePublishCall } from "./lib/publish-call.ts";
+import { exitOnUnknownFlags, exitUnlessConfirmed } from "./lib/args.ts";
 import { wranglerRunner } from "./lib/d1.ts";
 import { probeWrite, verdict } from "./lib/d1-probe.ts";
 import { dailyLimits, usageToday } from "./lib/d1-usage.ts";
@@ -55,6 +59,11 @@ import { describePlan, estimatedReindexReads, planReport } from "./lib/reindex-r
 import { DEFAULT_COST } from "./lib/reindex.ts";
 
 const args = process.argv.slice(2);
+exitOnUnknownFlags(
+  args,
+  ["--all", "--status", "--fail-on-drift", "--no-reindex", "--no-preflight", "--full-reindex", "--preflight", "--dry-run", "--offline", "--yes"],
+  ["--base", "--rollback", "--limit"]
+);
 // `--all --status`: which reports must be republished? A read-only table, no secret (scripts/publish-status.mjs).
 if (args.includes("--all")) await import("./publish-status.mjs");
 const reportId = args[0];
@@ -65,7 +74,7 @@ const flag = (name) => {
 
 if (!reportId || reportId.startsWith("--")) {
   console.error(
-    "Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>] [--no-reindex] [--no-preflight] [--full-reindex]\n       pnpm publish-report <id> --preflight | --dry-run [--base <url>] [--limit <daily row writes>]\n       pnpm publish-report --all --status [--base <url>]   # which reports need publishing"
+    "Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>] [--no-reindex] [--no-preflight] [--full-reindex] [--yes]\n       pnpm publish-report <id> --preflight | --dry-run [--base <url>] [--limit <daily row writes>] [--yes]\n       pnpm publish-report --all --status [--base <url>]   # which reports need publishing"
   );
   process.exit(2);
 }
@@ -74,7 +83,14 @@ const base = flag("--base") ?? "http://localhost:8799";
 const isLocal = base.includes("localhost") || base.includes("127.0.0.1");
 const d1Target = isLocal ? "--local" : "--remote";
 const root = join(import.meta.dirname, "..");
-const run = wranglerRunner(root);
+// Against a real deploy, these reach production D1: --preflight, --dry-run (it reads the search index), a publish
+// that preflights or reindexes. --status, --dry-run --offline and a publish with --no-preflight and no reindex do not.
+const touchesD1 =
+  !isLocal &&
+  !flag("--status") &&
+  (flag("--dry-run") ? !flag("--offline") : flag("--preflight") || !flag("--no-preflight") || !(flag("--no-reindex") || typeof flag("--rollback") === "string"));
+exitUnlessConfirmed(args, "pnpm publish-report against a deployed --base (it reads or writes production D1)", touchesD1);
+const run = wranglerRunner(root, { confirmed: args.includes("--yes") });
 const limit = Number(flag("--limit") ?? FREE_TIER.rowsWritten);
 
 /**
@@ -238,7 +254,7 @@ const isRollback = typeof rollbackTo === "string";
 if (!isRollback && !isLocal && !flag("--no-reindex")) {
   console.log(`  reindexing ${reportId} for search...`);
   try {
-    execFileSync("./scripts/reindex-search.sh", [reportId, ...(flag("--full-reindex") ? ["--full"] : [])], { stdio: "inherit" });
+    execFileSync("./scripts/reindex-search.sh", [reportId, "--yes", ...(flag("--full-reindex") ? ["--full"] : [])], { stdio: "inherit" });
   } catch (error) {
     // A failed reindex must not read as a failed publish — the content is
     // already live and correct. Say so loudly and leave the fix to a rerun

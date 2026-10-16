@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Refreshes and applies the D1 search index for one report.
 #
-#   ./scripts/reindex-search.sh <report-id> [--local] [--dry-run] [--full]
+#   ./scripts/reindex-search.sh <report-id> [--local | --yes] [--dry-run] [--full]
+#
+# Against production (no --local) it needs --yes, a --dry-run too: the run reads production D1 first.
 #
 # This is the automated half of a publish (docs/ARCHITECTURE.md "Search"):
 # `pnpm publish-report <id>` calls this itself once a publish commits, so a

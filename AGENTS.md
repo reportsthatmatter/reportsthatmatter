@@ -694,6 +694,8 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 
 **Decide and proceed.** Don't route execution choices back to Rufus. If in doubt, go forward with a reversible choice, record it, and keep going. Batch real questions at the end. (Questions of *direction* are different: log them; see "Decisions and open questions" above.)
 
+**Production calls need `--yes`, and unknown flags stop the run.** Any script that can reach production D1 or a Cloudflare account (`feed`, `seed-highlights --remote`, `marks check` when it has no cache, `check-search-staleness`, `reindex-search`, `publish-report` against a deployed `--base`, `migrate-hosting`) exits before its first remote call without `--yes`, reads and `--dry-run` included, and exits 2 on a flag it does not know (jp6i, cs92). `wranglerRunner(root, { confirmed })` is the backstop: it refuses `--remote` unless the caller confirmed. A new such script gets a `describe` in `tests/remote-gate.test.ts` (`gateCases`, with a fake `pnpm`/`wrangler` on PATH) and calls `exitOnUnknownFlags` from `scripts/lib/args.ts` right after the help import. `pnpm d1-usage` (the cron) is the one exemption: it only rejects unknown flags.
+
 **Ship introductions without review.** Report introductions (`editorial/<id>.yaml`) go out approved, merged and deployed in one go. Rufus gives feedback later as a follow-up. Don't open "Rufus: review" beads for intros.
 
 **Drafts live in the repo.** Posts, long-reads and research write-ups are files on a branch with a PR: the blog posts folder with `status: draft`, or `docs/research/`. Don't produce Claude artifacts as review copies unless Rufus asks for one.
