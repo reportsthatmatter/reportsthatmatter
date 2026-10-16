@@ -41,10 +41,11 @@ import {
   actorHash,
   markCounts,
   parseMarkPayload,
-  recordMark,
+  recordMarkCounted,
   todayUTC,
   type MarksDB,
 } from "./lib/marks";
+import { publishMark } from "./lib/feed";
 import { queryPassages, firstMatchOffsets, type PassageRow } from "./lib/search";
 
 /** The write half of the content bucket, which only publishing touches. */
@@ -88,6 +89,12 @@ export type Bindings = {
    * under a key that never changes (reportsthatmatter-h3iu).
    */
   CF_VERSION_METADATA?: { id?: string; tag?: string };
+  /** The public highlights feed (decision 0023): "false" turns it off. See src/lib/feed-policy.ts. */
+  FEED_ENABLED?: string;
+  /** Comma-separated report ids left out of the public feed, on top of the affected-community list. */
+  FEED_EXCLUDE?: string;
+  /** Minutes before a reader's passage appears on /highlights (default 30). */
+  FEED_DELAY_MINUTES?: string;
 };
 
 /**
@@ -541,12 +548,28 @@ app.post("/api/mark", async (c) => {
 
   try {
     const actor = await actorHash(secret, todayUTC(now), ip, ua);
-    const result = await recordMark(db, event, actor, now);
-    return c.body(null, result === "ok" ? 204 : 429);
+    const { status, before } = await recordMarkCounted(db, event, actor, now);
+    if (status === "ok") {
+      // The public feed (bght.10.1): check the words against the report and, if they are there, write one
+      // public_marks row. After the response, never in its way: publishMark swallows its own failures.
+      const publishing = publishMark(c.env, db, event, actor, before, now);
+      if (!afterResponse(c, publishing)) await publishing;
+    }
+    return c.body(null, status === "ok" ? 204 : 429);
   } catch (err) {
     return c.body(null, 204);
   }
 });
+
+/** Hand `task` to the runtime to finish after the response; false where there is no execution context (tests). */
+function afterResponse(c: any, task: Promise<unknown>): boolean {
+  try {
+    c.executionCtx.waitUntil(task);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 /**
  * What other readers marked in this report, above the display threshold.
