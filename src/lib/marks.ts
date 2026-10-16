@@ -87,6 +87,16 @@ export async function actorHash(
 const KINDS: MarkKind[] = ["share", "save"];
 
 /**
+ * Longest accepted selection and context (bght.10.1). The browser's own selector keeps about 25 characters of
+ * context either side (assets/anchor.js), and a quotation past 1,000 characters is a page, not a highlight;
+ * anything longer is refused rather than stored unbounded.
+ */
+export const MAX_EXACT_CHARS = 1000;
+export const MAX_CONTEXT_CHARS = 64;
+/** Paragraph ids and section slugs are short, text-derived names. */
+export const MAX_NAME_CHARS = 200;
+
+/**
  * Validate a mark payload from the client. Never trust it — this is the only
  * thing standing between a malformed request and a bad row in `marks`.
  */
@@ -103,6 +113,8 @@ export function parseMarkPayload(body: unknown): MarkEvent | null {
   if (typeof paragraph !== "string" || !paragraph) return null;
   if (typeof exact !== "string" || !exact) return null;
   if (typeof kind !== "string" || !KINDS.includes(kind as MarkKind)) return null;
+  if (report.length > MAX_NAME_CHARS || paragraph.length > MAX_NAME_CHARS) return null;
+  if (exact.length > MAX_EXACT_CHARS) return null;
 
   // "" on the /full page, which has no single section — the paragraph id is
   // what actually identifies the passage, so section is descriptive only.
@@ -110,6 +122,8 @@ export function parseMarkPayload(body: unknown): MarkEvent | null {
   const prefix = typeof value.prefix === "string" ? value.prefix : "";
   const suffix = typeof value.suffix === "string" ? value.suffix : "";
   const page = typeof value.page === "number" && Number.isFinite(value.page) ? value.page : null;
+  if (section.length > MAX_NAME_CHARS) return null;
+  if (prefix.length > MAX_CONTEXT_CHARS || suffix.length > MAX_CONTEXT_CHARS) return null;
 
   return { report, section, paragraph, exact, prefix, suffix, page, kind: kind as MarkKind };
 }
@@ -125,12 +139,27 @@ export async function recordMark(
   actor: string,
   now: number = Date.now()
 ): Promise<"ok" | "rate-limited"> {
+  return (await recordMarkCounted(db, event, actor, now)).status;
+}
+
+/**
+ * `recordMark`, also returning how many marks this actor had made in this report in the last 24 hours before this
+ * one: the count its rate limit reads anyway, which the public feed's per-reader cap reuses so that it costs no
+ * further D1 read (bght.10.1).
+ */
+export async function recordMarkCounted(
+  db: MarksDB,
+  event: MarkEvent,
+  actor: string,
+  now: number = Date.now()
+): Promise<{ status: "ok" | "rate-limited"; before: number }> {
   const since = now - DAY_MS;
   const recent = await db
     .prepare("SELECT COUNT(*) as n FROM marks WHERE report = ? AND actor = ? AND created_at >= ?")
     .bind(event.report, actor, since)
     .first<{ n: number }>();
-  if (recent && recent.n >= RATE_LIMIT_PER_DAY) return "rate-limited";
+  const before = Number(recent?.n ?? 0);
+  if (before >= RATE_LIMIT_PER_DAY) return { status: "rate-limited", before };
 
   await db
     .prepare(
@@ -151,7 +180,7 @@ export async function recordMark(
     )
     .run();
 
-  return "ok";
+  return { status: "ok", before };
 }
 
 /**

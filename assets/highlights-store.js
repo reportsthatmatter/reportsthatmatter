@@ -1,8 +1,10 @@
 /* Highlights a reader keeps.
  *
  * Kept in the browser, deliberately. A reader who marks six passages and
- * exports them has had the whole value of the feature and given us nothing —
- * no account, no email, no record of what they read. Sync between devices is
+ * exports them has had the whole value of the feature with no account, no
+ * email and no record of who they are. (The words of each save or share are
+ * sent to /api/mark and counted anonymously, unless the reader turns that off
+ * on /highlights/yours: `countingOff` below, decision 0023 Q4.) Sync between devices is
  * the only thing an account would add, and it can be added later without
  * moving any of this: records carry their own ids, so signing in one day
  * uploads what is already here rather than starting over.
@@ -13,6 +15,35 @@
 // @ts-check
 
 const KEY = "rtm.highlights.v1";
+
+/** "off" when the reader has asked not to have their saves and shares counted (bght.10.4). */
+export const COUNT_KEY = "rtm.count-marks";
+
+/**
+ * Whether the reader has turned counting off. Unreadable storage counts as on,
+ * the default (decision 0023 Q4 A).
+ * @param {Pick<Storage, "getItem"> | null | undefined} storage @returns {boolean}
+ */
+export function countingOff(storage) {
+  try {
+    return storage?.getItem(COUNT_KEY) === "off";
+  } catch (err) {
+    return false;
+  }
+}
+
+/**
+ * Turn counting on (the default: the key is removed) or off.
+ * @param {Storage} storage @param {boolean} on
+ */
+export function setCounting(storage, on) {
+  try {
+    if (on) storage.removeItem(COUNT_KEY);
+    else storage.setItem(COUNT_KEY, "off");
+  } catch (err) {
+    /* blocked storage: nothing to remember the choice in */
+  }
+}
 
 /**
  * @typedef {{

@@ -298,6 +298,25 @@ for (const profile of profiles) {
   await page.goto(base + `/reports/${REPORT}/full`, { waitUntil: "networkidle" });
   check((await page.locator(".site-footer-follow").count()) === 0, `${tag} reading pages carry no follow line`);
 
+  // ---------- /highlights and /highlights/yours on a phone (bght.10.3, .4) ----------
+
+  for (const path of ["/highlights", "/highlights/yours"]) {
+    await page.goto(base + path, { waitUntil: "networkidle" });
+    const laid = await page.evaluate(() => {
+      const targets = [...document.querySelectorAll(".highlights-tabs > *, .highlight-place, .highlights-optout:not([hidden]), #highlights-yours-note:not([hidden]) a")];
+      return {
+        overflow: document.documentElement.scrollWidth - window.innerWidth,
+        targets: targets.length,
+        small: targets.map((el) => Math.round(el.getBoundingClientRect().height)).filter((h) => h < 44),
+        main: document.querySelectorAll("main").length,
+        h1: document.querySelectorAll("h1").length,
+      };
+    });
+    check(laid.overflow <= 0 && laid.main === 1 && laid.h1 === 1, `${tag} ${path} fits the screen, one main and one h1`, JSON.stringify(laid));
+    check(laid.targets > 0 && laid.small.length === 0, `${tag} ${path}: tabs, Read in place and the opt-out are 44px tap targets`, JSON.stringify(laid));
+    if (shots) await page.screenshot({ path: join(shots, `${slug(profile.name)}${path.replace(/\//g, "-")}.png`), fullPage: true });
+  }
+
   check(errors.length === 0, `${tag} no page errors`, errors.join(" | "));
   await browser.close();
 }

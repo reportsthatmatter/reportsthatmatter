@@ -1,0 +1,4 @@
+---
+theme: Public highlights feed implementation (2026-10-16, bght.10)
+---
+- **A script with a `--remote` mode must refuse before its first remote call, not after a "cheap" read to print a cost** (2026-10-16, bght.10.5, implementation agent) The first `pnpm feed hide --all --remote` counted production's `public_marks` rows before checking `--yes`, and running it to see the message sent two read queries to production D1 (both failed: the table does not exist there yet, so nothing was read or written). Fixed: the `--yes` check comes first and the cost is printed from the SQL, not measured; the reviewer found `status`, `list` and `rebuild --dry-run` still read production without `--yes`, and moved the gate into the script's one runner so no path can skip it (tested with a fake `pnpm` on PATH, tests/feed-admin.test.ts). Proposal: the same test for every script under `scripts/` that takes `--remote`. [status: done in #333 for pnpm feed; proposed for the rest (jp6i)]

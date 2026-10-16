@@ -271,6 +271,13 @@ describe("the other pages", () => {
     expect(head.ogUrl).toEqual([canonical]);
   });
 
+  it("a reader's own highlights (/highlights/yours) are not indexed; the readers' page is", async () => {
+    const yours = await get("/highlights/yours");
+    expect(yours.robots).toBe("noindex");
+    expect(yours.canonical).toEqual([`${ORIGIN}/highlights/yours`]);
+    expect((await get("/highlights")).robots).toBeNull();
+  });
+
   it("the home page says what the site is", async () => {
     const head = await get("/");
     expect(head.jsonLd.map((n) => n["@type"])).toEqual(["WebSite", "Organization"]);

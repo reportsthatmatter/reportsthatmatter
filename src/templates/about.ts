@@ -39,13 +39,28 @@ export function renderAbout(): string {
       <div class="col">
         <h2>Paragraph permalinks</h2>
         <p>Every paragraph has its own address. Highlight any passage to copy a link straight
-        to it.</p>
+        to it, or save it to your own list.</p>
       </div>
       <div class="col">
         <h2>Stable hosting</h2>
         <p>Published as plain web pages that search engines can index and that will not rot
         behind a broken departmental site.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="what-we-record" aria-labelledby="what-we-record-heading">
+    <p class="section-label mono" id="what-we-record-heading">What we record</p>
+    <div class="prose measure">
+      <p>There are no accounts and no tracking cookies. When you save or share a passage, your browser sends us
+      its words and a few words either side, with the report, paragraph and page they come from, whether you saved
+      or shared it, and the time. We keep them alongside a code made from your network address and browser that
+      changes every day, used only to count how many different readers marked a passage and to limit how many
+      passages one reader can mark in a day; the address and browser themselves are not stored.</p>
+      <p>Saves and shares are both counted, anonymously. When the words are found in the report, the passage can
+      appear on <a href="/highlights">Highlights</a> about half an hour later, with the report's own text, page and
+      a time rounded to the hour, and nothing about who chose it. Your own list of saved passages stays in your
+      browser, and you can turn counting off on <a href="/highlights/yours">Yours</a>.</p>
     </div>
   </section>
 

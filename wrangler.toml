@@ -30,6 +30,12 @@ routes = [
 REPORTS_SOURCE = "bundled"
 # Where the Worker fetches the pre-V2 archive it serves on old.reportsthatmatter.org (serveArchive in src/index.ts).
 LEGACY_BASE = "https://reportsthatmatter.github.io/reportsthatmatter"
+# The public highlights feed (decision 0023, src/lib/feed-policy.ts). "false" stops new rows and shows only the
+# Editor's picks; FEED_EXCLUDE adds report ids to the affected-community list held out of the feed. A change here
+# needs a deploy; the no-deploy switch is `pnpm feed hide --all --remote --yes`.
+FEED_ENABLED = "true"
+FEED_EXCLUDE = ""
+FEED_DELAY_MINUTES = "30"
 
 [assets]
 directory = "assets"

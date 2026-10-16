@@ -16,7 +16,7 @@
 // @ts-check
 import { encodeAnchor, selectorFor } from "./anchor.js";
 import { buildIndex, indexOfPoint } from "./dom-text.js";
-import { createStore } from "./highlights-store.js";
+import { countingOff, createStore } from "./highlights-store.js";
 import { canShare, copy, flash, nativeShare, pageFor } from "./share-actions.js";
 
 const body = document.getElementById("report-body");
@@ -162,7 +162,8 @@ if (body && pop) {
 
   /**
    * Tell the server a passage was marked — the input to what other readers
-   * see (#96). Best-effort and unawaited: a slow or unreachable endpoint must
+   * see (#96) and to the public feed on /highlights (decision 0023), unless
+   * the reader has turned counting off. Best-effort and unawaited: a slow or unreachable endpoint must
    * never make sharing or saving feel broken. `keepalive` matters more than it
    * looks: copying a link is usually followed immediately by switching tabs or
    * pasting it somewhere, and without it the browser cancels the request
@@ -174,6 +175,8 @@ if (body && pop) {
    */
   const report = (kind, what = current) => {
     if (!what.paragraph) return;
+    // The reader turned counting off on /highlights/yours (bght.10.4): send nothing.
+    if (countingOff(window.localStorage)) return;
     const selector = what.selector;
     fetch("/api/mark", {
       method: "POST",

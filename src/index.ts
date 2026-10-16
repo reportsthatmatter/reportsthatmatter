@@ -11,7 +11,8 @@ import { renderProcessing } from "./templates/processing";
 import { renderPress } from "./templates/press";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
-import { renderHighlights } from "./templates/highlights";
+import { renderReadersHighlights, renderYourHighlights } from "./templates/highlights";
+import { EDITOR_PICKS } from "./generated/picks";
 import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
 import { EDITORIAL } from "./generated/editorial";
 import { showsEditorial } from "./templates/editorial";
@@ -41,10 +42,12 @@ import {
   actorHash,
   markCounts,
   parseMarkPayload,
-  recordMark,
+  recordMarkCounted,
   todayUTC,
   type MarksDB,
 } from "./lib/marks";
+import { publishMark, readFeed } from "./lib/feed";
+import { isExcludedReport } from "./lib/feed-policy";
 import { queryPassages, firstMatchOffsets, type PassageRow } from "./lib/search";
 
 /** The write half of the content bucket, which only publishing touches. */
@@ -88,6 +91,12 @@ export type Bindings = {
    * under a key that never changes (reportsthatmatter-h3iu).
    */
   CF_VERSION_METADATA?: { id?: string; tag?: string };
+  /** The public highlights feed (decision 0023): "false" turns it off. See src/lib/feed-policy.ts. */
+  FEED_ENABLED?: string;
+  /** Comma-separated report ids left out of the public feed, on top of the affected-community list. */
+  FEED_EXCLUDE?: string;
+  /** Minutes before a reader's passage appears on /highlights (default 30). */
+  FEED_DELAY_MINUTES?: string;
 };
 
 /**
@@ -316,10 +325,37 @@ async function buildSearchResults(
 app.get("/about", (c) => c.html(renderAbout()));
 app.get("/press", (c) => c.html(renderPress()));
 
-// The reader's own highlights. The list lives only in the browser: this is the
-// shell, and the browser fills it from local storage. (The words of each save
-// or share are recorded anonymously in `marks` via /api/mark; the page says so.)
-app.get("/highlights", (c) => c.html(renderHighlights()));
+/**
+ * What readers are highlighting (decision 0023, bght.10.3): the newest public_marks rows (a bounded rowid read,
+ * src/lib/feed.ts) and the Editor's picks (generated, no D1). Edge-cached for 5 minutes, keyed on the deploy, so
+ * D1 is read at most once per data centre per 5 minutes. A missing table or a D1 failure renders the picks alone.
+ */
+app.get("/highlights", (c) =>
+  cached(
+    c,
+    async () => {
+      const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+      const registry = await loadRegistry(sourceMode);
+      const names = Object.fromEntries(registry.reports.map((r) => [r.id, r.common_name ?? r.title]));
+      const now = Date.now();
+      return c.html(
+        renderReadersHighlights({
+          recent: await readFeed(c.env?.DB, c.env, now),
+          picks: EDITOR_PICKS.filter((pick) => names[pick.report] && !isExcludedReport(c.env, pick.report)),
+          names,
+          now,
+        })
+      );
+    },
+    300,
+    // One cache entry per deploy whatever the query string, so `?anything` cannot force a D1 read per request.
+    `${new URL(c.req.url).origin}/highlights`
+  )
+);
+
+// The reader's own highlights. The list lives only in this browser's local storage: this is the shell, and the
+// browser fills it. (The words of each save or share are counted anonymously; see /highlights.)
+app.get("/highlights/yours", (c) => c.html(renderYourHighlights()));
 
 /**
  * A sitemap listing every section of every report.
@@ -358,6 +394,8 @@ app.get("/sitemap.xml", async (c) => {
     { loc: "/", priority: "1.0" },
     { loc: "/reports", priority: "0.9" },
     { loc: "/about", priority: "0.7" },
+    // What readers are highlighting (bght.10.3): public and indexed. /highlights/yours is per-browser and noindex.
+    { loc: "/highlights", priority: "0.6" },
     { loc: "/press", priority: "0.3" },
     { loc: "/changelog", priority: "0.4" },
     { loc: "/blog", priority: "0.5" },
@@ -487,7 +525,9 @@ export function cacheKeyFor(url: string, deployId: string): Request {
 async function cached(
   c: any,
   build: () => Promise<Response>,
-  maxAge = 86400
+  maxAge = 86400,
+  /** The URL to key on, when it should not be the request's own (/highlights ignores its query string). */
+  keyUrl: string = c.req.url
 ): Promise<Response> {
   // `caches` is absent under Node, where the tests run.
   if (typeof caches === "undefined" || c.req.method !== "GET") return build();
@@ -497,7 +537,7 @@ async function cached(
   if (!deployId) return build();
 
   const cache = (caches as any).default;
-  const key = cacheKeyFor(c.req.url, deployId);
+  const key = cacheKeyFor(keyUrl, deployId);
 
   const hit = await cache.match(key);
   if (hit) return hit;
@@ -541,12 +581,28 @@ app.post("/api/mark", async (c) => {
 
   try {
     const actor = await actorHash(secret, todayUTC(now), ip, ua);
-    const result = await recordMark(db, event, actor, now);
-    return c.body(null, result === "ok" ? 204 : 429);
+    const { status, before } = await recordMarkCounted(db, event, actor, now);
+    if (status === "ok") {
+      // The public feed (bght.10.1): check the words against the report and, if they are there, write one
+      // public_marks row. After the response, never in its way: publishMark swallows its own failures.
+      const publishing = publishMark(c.env, db, event, actor, before, now);
+      if (!afterResponse(c, publishing)) await publishing;
+    }
+    return c.body(null, status === "ok" ? 204 : 429);
   } catch (err) {
     return c.body(null, 204);
   }
 });
+
+/** Hand `task` to the runtime to finish after the response; false where there is no execution context (tests). */
+function afterResponse(c: any, task: Promise<unknown>): boolean {
+  try {
+    c.executionCtx.waitUntil(task);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 /**
  * What other readers marked in this report, above the display threshold.

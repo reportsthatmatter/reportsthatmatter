@@ -1,0 +1,4 @@
+---
+theme: Public highlights feed implementation (2026-10-16, bght.10)
+---
+- **Test D1 code against real SQL: `node:sqlite` with the repo's migrations, loaded through `createRequire` under vitest 2** (2026-10-16, bght.10.1, implementation agent) `tests/support/fake-d1.ts` recognises statement shapes, so it cannot show a missing table, a wrong WHERE or an UPDATE that hits the wrong rows; `tests/support/sqlite-d1.ts` runs the migrations in memory and executes what the code sends (vite 5 cannot resolve `node:sqlite` from an import, hence `createRequire`). It made tests (a) to (h) of the feed and the rebuild-equals-publishMark check cheap to write. Proposal: move the marks and search route tests onto it, and use it for wmar's row-count ceilings where miniflare is too slow. [status: done in #333 for the feed; proposed for the rest]

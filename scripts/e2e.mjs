@@ -351,14 +351,72 @@ if (firstReportId) {
   const persisted = await page.evaluate(() => document.querySelectorAll("mark.hl.saved").length);
   check(persisted > 0, "a saved highlight is still marked after a reload", String(persisted));
 
-  await page.goto(`${base}/highlights`, { waitUntil: "networkidle" });
+  await page.goto(`${base}/highlights/yours`, { waitUntil: "networkidle" });
   await page.waitForTimeout(300);
   const listed = await page.evaluate(() => ({
     entries: document.querySelectorAll(".highlight-entry").length,
     markdown: document.querySelector("[data-export=markdown]") ? true : false,
   }));
-  check(listed.entries > 0, "saved highlights are listed at /highlights", String(listed.entries));
+  check(listed.entries > 0, "saved highlights are listed at /highlights/yours", String(listed.entries));
   check(listed.markdown, "highlights can be exported as Markdown");
+
+  // Counting off (bght.10.4, decision 0023 Q4): unticking the box on Yours stops share.js posting to /api/mark;
+  // ticking it again starts it.
+  const optout = await page.evaluate(() => {
+    const box = /** @type {HTMLInputElement | null} */ (document.getElementById("count-marks"));
+    return { shown: Boolean(box) && !document.getElementById("count-marks-label").hidden, checked: box?.checked };
+  });
+  check(optout.shown && optout.checked, "Yours offers counting, on by default", JSON.stringify(optout));
+  const marksSent = async (counting) => {
+    await page.goto(`${base}/highlights/yours`, { waitUntil: "networkidle" });
+    const box = page.locator("#count-marks");
+    if ((await box.isChecked()) !== counting) await box.click();
+    await page.goto(`${base}/reports/${firstReportId}/full`, { waitUntil: "networkidle" });
+    let posted = 0;
+    const onRequest = (req) => { if (req.url().endsWith("/api/mark") && req.method() === "POST") posted++; };
+    page.on("request", onRequest);
+    await page.evaluate(() => {
+      const p = document.querySelectorAll(".prose p[id]")[1];
+      const range = document.createRange();
+      range.selectNodeContents(p);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      document.dispatchEvent(new MouseEvent("mouseup", { bubbles: true }));
+    });
+    await page.waitForTimeout(150);
+    await page.locator('#share-pop button[data-action="save"]').click();
+    await page.waitForTimeout(300);
+    page.off("request", onRequest);
+    return posted;
+  };
+  const offSent = await marksSent(false);
+  check(offSent === 0, "with counting off, Save sends nothing to /api/mark", String(offSent));
+  const onSent = await marksSent(true);
+  check(onSent === 1, "with counting back on, Save sends one mark", String(onSent));
+
+  // /highlights for everyone (bght.10.3): never empty (Editor's picks at least), and "Read in place" lands on
+  // the exact words, marked.
+  await page.goto(`${base}/highlights`, { waitUntil: "networkidle" });
+  const readers = await page.evaluate(() => ({
+    entries: document.querySelectorAll(".highlight-entry").length,
+    picks: Boolean(document.getElementById("picks-heading")),
+    current: document.querySelector(".highlights-tabs [aria-current=page]")?.textContent ?? "",
+    first: document.querySelector("#picks-heading ~ .highlights-stream .highlight-place")?.getAttribute("href") ?? null,
+  }));
+  check(readers.entries > 0 && readers.picks, "/highlights shows passages to every visitor", JSON.stringify(readers));
+  check(readers.current === "Readers", "/highlights marks the Readers tab as current", readers.current);
+  const note = await page.evaluate(() => {
+    const el = document.getElementById("highlights-yours-note");
+    return el && !el.hidden ? el.textContent : null;
+  });
+  check(Boolean(note && /^You have \d+ saved passages? · Yours$/.test(note)), "/highlights points a reader with saved passages at Yours", String(note));
+  if (readers.first) {
+    await page.goto(base + readers.first, { waitUntil: "networkidle" });
+    await page.waitForTimeout(300);
+    const landed = await page.evaluate(() => document.querySelectorAll("mark.hl").length);
+    check(landed > 0, "a /highlights Read in place link lands on the marked words", readers.first);
+  }
 
   // social proof (#96): a real mark, recorded against a real D1, has to come
   // back through /reports/:id/marks and render as a highlight — this is the
