@@ -53,9 +53,10 @@ export function renderAbout(): string {
     <p class="section-label mono" id="what-we-record-heading">What we record</p>
     <div class="prose measure">
       <p>There are no accounts and no tracking cookies. When you save or share a passage, your browser sends us
-      its words, with the report, paragraph and page they come from and the time. We keep them alongside a code
-      made from your network address and browser that changes every day, used only to count how many different
-      readers marked a passage; the address and browser themselves are not stored.</p>
+      its words and a few words either side, with the report, paragraph and page they come from, whether you saved
+      or shared it, and the time. We keep them alongside a code made from your network address and browser that
+      changes every day, used only to count how many different readers marked a passage and to limit how many
+      passages one reader can mark in a day; the address and browser themselves are not stored.</p>
       <p>Saves and shares are both counted, anonymously. When the words are found in the report, the passage can
       appear on <a href="/highlights">Highlights</a> about half an hour later, with the report's own text, page and
       a time rounded to the hour, and nothing about who chose it. Your own list of saved passages stays in your
