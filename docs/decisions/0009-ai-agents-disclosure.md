@@ -15,4 +15,4 @@ Keep the sentence; expand it into a methods note (on the about page or in a post
 
 ## Decision
 
-Rufus, 2026-10-16: recommended default accepted. One plain note on /about saying what the AI models did and did not touch (a note on the site, not only a sentence in a post). Published blog posts keep their wording as dated posts. Implementation in progress (bead 0ino, with pbkk).
+Rufus, 2026-10-16: recommended default accepted. One plain note on /about saying what the AI models did and did not touch (a note on the site, not only a sentence in a post). Implementation in progress (bead 0ino, with pbkk).

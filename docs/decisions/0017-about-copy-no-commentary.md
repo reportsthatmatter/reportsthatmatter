@@ -21,7 +21,7 @@ Found in the 2026-10-09 launch audit (docs/research/2026-10-09-launch-audit.md).
 
 ## Decision
 
-Rufus, 2026-10-16: recommended default accepted. Option 2: reword to say the report text is unedited and our introductions and highlights are labelled as ours ("The report's own words, unedited. Our introductions and highlights are labelled as ours."). Implementation in progress (bead pbkk, with 0ino).
+Rufus, 2026-10-16: recommended default accepted. Option 2, with one word changed: "The report's own words, as published. Our introductions and highlights are labelled as ours." (also the site's meta description). "As published" replaces the option's "unedited" because the pipeline repairs layout and OCR slips, so "unedited" would overclaim; the wording is the implementing PR's (#349, bead pbkk, with 0ino), aligned here by the reviewer.
 
 ## Consequences
 
