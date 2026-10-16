@@ -21,6 +21,7 @@ Everything else production uses: compatibility date 2024-12-01, `nodejs_compat`,
 Without touching wrangler's directory bindings (`~/Library/Preferences/.wrangler/profiles/directory-bindings.json`, which only Rufus changes):
 
 - **wrangler directly:** add `--env datopian --profile datopian`. `--profile` is wrangler's global flag (there is no environment variable for it; `WRANGLER_PROFILE` is not read). `[env.datopian]` in `wrangler.toml` carries the `account_id` and the Datopian bindings. Example: `pnpm wrangler d1 execute reportsthatmatter-marks --remote --env datopian --profile datopian --command "SELECT count(*) FROM marks"`.
+- **Expected warning until the switch:** a plain `wrangler deploy` (atomatic, unchanged) now warns "Multiple environments are defined … but no target environment was specified"; it still deploys the top level. `CLOUDFLARE_ENV=datopian` is wrangler's own variable for `--env`, but not for the profile, so it is not enough on its own here.
 - **The repo's scripts:** `RTM_CF_ACCOUNT=datopian`. `scripts/lib/d1.ts` (publish's reindex, `seed-highlights`, `check-search-staleness`, `marks check`), `scripts/deploy-cloudflare.sh` and `pnpm d1-usage` honour it. Unset, they behave as before (wrangler's own resolution: atomatic).
 - **Data copy:** `pnpm migrate-hosting` (`--help`). It never writes to the source account.
 
@@ -124,6 +125,8 @@ One PR after step 5 (bead to file at the switch):
 - Rufus rebinds the directory once: `cd ~/src/reportsthatmatter && pnpm wrangler auth activate datopian` (agents must not edit the bindings). Until then agents add `--profile datopian` (scripts: `RTM_CF_ACCOUNT=datopian`). Afterwards plain `pnpm wrangler …` works again and `pnpm wrangler d1 list` shows the Datopian database.
 - `scripts/lib/migrate-hosting.ts`: `accountFromEnv` defaults to `datopian` (so `d1.ts`, `d1-usage` and `deploy-cloudflare.sh` need no variable).
 - `scripts/lib/d1-usage.ts` `FREE_TIER` and `pnpm ship`'s d1-estimate step: Workers Paid includes 25 billion rows read and 50 million rows written a month (then billed per million), with no daily stop. Replace the daily free-tier refusal with a warning on unusual spend (the t4al and h6b limits no longer apply); the `--no-reindex` and `WHERE report = ?` advice stays (cost, not outage).
+- `scripts/lib/d1-probe.ts` (`FREE_TIER_DAILY_WRITES`, the publish preflight's refusal), `scripts/lib/ship.ts` (limits passed to `fits`), `scripts/d1-usage.mjs` ("the free tier resets at 00:00 UTC" wording and `--alert` percentages), `scripts/lib/d1.ts` `quotaExhausted`: keep the measurement, drop the daily stop.
+- `README.md` ("Cloudflare account: office@atomatic.net"), `.claude/skills/integrate-and-ship/SKILL.md` step 6 (D1 budget).
 - `AGENTS.md`: the Deploy section ("Cloudflare account office@atomatic.net") and the Cloudflare paragraph under Working conventions (account, profile, binding, free-tier limits); `docs/release-checklist.md` steps 11 and 13; `docs/d1-usage-alert.md`; `docs/ARCHITECTURE.md` if it names the account.
 - `pnpm publish-report` needs no change (it posts to `--base`, which is the domain), nor do the report repos' tokens (same `PUBLISH_SECRET`).
 
