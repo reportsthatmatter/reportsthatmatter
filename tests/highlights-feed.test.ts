@@ -68,7 +68,7 @@ describe("GET /highlights", () => {
 
   it("shows a reader's passage with its report, section, page, coarse time and a link to the words", async () => {
     const DB = createSqliteD1();
-    insert(DB, { words: "The Inquiry has found that the culture was reckless", anchor: "of%20a%20|The%20Inquiry|%20has", paragraph: "p-one", created_at: Date.now() - 3 * HOUR - 5 * MIN });
+    insert(DB, { words: "The Inquiry has found that the culture was reckless", anchor: "of%20a%20|The%20Inquiry|%20has", paragraph: "p-one", created_at: Math.floor(Date.now() / HOUR) * HOUR - 3 * HOUR }); // on the hour: "3 hours ago" whatever the minute
     const { html } = await page({ DB });
     const block = recent(html);
     expect(block).toContain("The Inquiry has found that the culture was reckless");
