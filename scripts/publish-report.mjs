@@ -7,6 +7,8 @@
  *   pnpm publish-report <id> --preflight [--base https://…]   (no secret: can D1 take writes, and does this fit?)
  *   pnpm publish-report <id> --dry-run [--base https://…]     (no secret: what would be uploaded, and the row writes)
  *
+ * A 5xx from the objects upload or the commit is retried three times (scripts/lib/publish-call.ts; reportsthatmatter-moej).
+ *
  * Reads what `pnpm prerender` produced, uploads it under a content hash, then
  * asks the endpoint to point at it. The endpoint re-derives the hash and
  * checks every object before it writes the pointer, so this script cannot
@@ -44,6 +46,7 @@ import { join } from "node:path";
 import { execFileSync } from "node:child_process";
 import { contentHash, extractPassages, manifestFor, tokenFor } from "@rtm/ingest";
 import { readLocalFiles } from "./lib/publish-local.mjs";
+import { makePublishCall } from "./lib/publish-call.ts";
 import { wranglerRunner } from "./lib/d1.ts";
 import { FREE_TIER_DAILY_WRITES, probeWrite, verdict } from "./lib/d1-probe.ts";
 import { FREE_TIER, usageToday } from "./lib/d1-usage.ts";
@@ -157,26 +160,7 @@ if (!secret) {
 
 const token = await tokenFor(secret, reportId);
 
-async function call(path, body) {
-  const response = await fetch(`${base}${path}`, {
-    method: body ? "POST" : "GET",
-    headers: { authorization: `Bearer ${token}`, "content-type": "application/json" },
-    body: body ? JSON.stringify(body) : undefined,
-  });
-  const text = await response.text();
-  let parsed;
-  try {
-    parsed = JSON.parse(text);
-  } catch {
-    parsed = { error: text.slice(0, 300) };
-  }
-  if (!response.ok) {
-    console.error(`${response.status} ${path}`);
-    console.error(JSON.stringify(parsed, null, 2));
-    process.exit(1);
-  }
-  return parsed;
-}
+const call = makePublishCall({ base, token, rerun: `RTM_PUBLISH_SECRET=… pnpm publish-report ${args.join(" ")}` });
 
 if (flag("--status")) {
   console.log(JSON.stringify(await call(`/internal/publish/${reportId}`), null, 2));
