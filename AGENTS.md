@@ -490,7 +490,7 @@ that have not moved to publishing themselves yet):
 ```bash
 pnpm prerender   # if assets/generated/ isn't already current
 RTM_PUBLISH_SECRET=$(cat ~/.rtm-publish-secret) \
-  pnpm publish-report <report-id> --base https://reportsthatmatter.org
+  pnpm publish-report <report-id> --base https://reportsthatmatter.org --yes
 ```
 
 This also **reindexes the report for search** once the commit succeeds
@@ -517,17 +517,17 @@ v0.18.0 re-ingest (`pnpm exec tsx scripts/measure-reindex.mjs c5a9dcd`): 4,603
 row writes for the corpus against 253,473 for the full rewrite. `--full` on
 the script (`--full-reindex` on `publish-report`) is the old rewrite.
 
-- `pnpm publish-report <id> --preflight` asks D1 first, writing nothing of
+- `pnpm publish-report <id> --preflight --yes` asks D1 first, writing nothing of
   yours: it inserts and deletes one sentinel row, which says whether the quota
   is spent (code 7500, with the time it resets), what D1 bills for a search
   row, and what this publish would cost; with `CLOUDFLARE_API_TOKEN` and
   `CLOUDFLARE_ACCOUNT_ID` set it also reads today's writes and says whether it
   fits. A real publish against a deployed site runs it first and stops before
   uploading anything when the quota is spent (`--no-preflight` skips it).
-- `pnpm publish-report <id> --dry-run` prints the object count, the version the
+- `pnpm publish-report <id> --dry-run --yes` prints the object count, the version the
   site serves, whether the text is unchanged, and the estimated row writes
   (reads D1 for the reindex diff; `--offline` skips that). Needs no secret.
-- `./scripts/reindex-search.sh <id> --dry-run` prints the same plan alone.
+- `./scripts/reindex-search.sh <id> --dry-run --yes` prints the same plan alone. Against production every one of these needs `--yes` (jp6i), a dry run too: it reads production D1.
 - A publish that fails with D1 code 7500 has uploaded its objects and not
   committed: wait for 00:00 UTC, then repeat the same `publish-report` command
   (uploads are idempotent).
@@ -693,6 +693,8 @@ When a question of direction comes up (format, policy, sources, hosting, editori
 How Rufus wants work done here. These conventions live in this file, not in any agent's private memory, so every agent and session sees them. When Rufus states a new convention, add it here.
 
 **Decide and proceed.** Don't route execution choices back to Rufus. If in doubt, go forward with a reversible choice, record it, and keep going. Batch real questions at the end. (Questions of *direction* are different: log them; see "Decisions and open questions" above.)
+
+**Production calls need `--yes`, and unknown flags stop the run.** Any script that can reach production D1 or a Cloudflare account (`feed`, `seed-highlights --remote`, `marks check` when it has no cache, `check-search-staleness`, `reindex-search`, `publish-report` against a deployed `--base`, `migrate-hosting`) exits before its first remote call without `--yes`, reads and `--dry-run` included, and exits 2 on a flag it does not know (jp6i, cs92). `wranglerRunner(root, { confirmed })` is the backstop: it refuses `--remote` unless the caller confirmed. A new such script gets a `describe` in `tests/remote-gate.test.ts` (`gateCases`, with a fake `pnpm`/`wrangler` on PATH) and calls `exitOnUnknownFlags` from `scripts/lib/args.ts` right after the help import. `pnpm d1-usage` (the cron) is the one exemption: it only rejects unknown flags.
 
 **Ship introductions without review.** Report introductions (`editorial/<id>.yaml`) go out approved, merged and deployed in one go. Rufus gives feedback later as a follow-up. Don't open "Rufus: review" beads for intros.
 

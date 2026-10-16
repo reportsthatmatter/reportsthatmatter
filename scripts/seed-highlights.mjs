@@ -2,9 +2,12 @@
  * decision 0014).
  *
  *   pnpm editorial                              # resolves approved files to build/editorial-highlights.json
- *   pnpm seed-highlights --dry-run [--remote]   # reads D1, prints the plan and writes build/seed-highlights.sql
- *   pnpm seed-highlights [--remote]             # applies it (local D1 by default; --remote is production)
+ *   pnpm seed-highlights --dry-run [--remote --yes]   # reads D1, prints the plan and writes build/seed-highlights.sql
+ *   pnpm seed-highlights [--remote --yes]             # applies it (local D1 by default; --remote is production)
  *   pnpm seed-highlights --report <id> ...      # only these reports
+ *
+ * Local D1 by default. EVERY --remote run, a --dry-run too (it reads production), needs --yes, checked before the
+ * first remote call (reportsthatmatter-jp6i). Both modes are reads until the plan has writes.
  *
  * The highlights live in `editorial/<id>.yaml` under `highlights:`, checked
  * verbatim like every other quote there; only approved files are seeded (wb0).
@@ -22,11 +25,15 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 
 import { join } from "node:path";
 import { parse } from "yaml";
 import { EDITOR_ACTOR, planSeed, planSql } from "../src/lib/seed-highlights.ts";
+import { exitOnUnknownFlags, exitUnlessConfirmed } from "./lib/args.ts";
 import { wranglerRunner } from "./lib/d1.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
+exitOnUnknownFlags(args, ["--remote", "--yes", "--dry-run"], ["--report"]);
 const remote = args.includes("--remote");
+// Every --remote run, --dry-run included, first reads the editor's rows from production: it needs --yes before that.
+exitUnlessConfirmed(args, "pnpm seed-highlights --remote", remote);
 const dryRun = args.includes("--dry-run");
 const only = args.flatMap((arg, i) => (args[i - 1] === "--report" ? [arg] : []));
 
@@ -47,7 +54,7 @@ const approved = readdirSync(join(root, "editorial"))
 const reports = only.length ? only : approved;
 
 // Through the shared runner, so the rows it costs land in today's D1 ledger (pnpm d1-usage).
-const run = wranglerRunner(root);
+const run = wranglerRunner(root, { confirmed: args.includes("--yes") });
 const target = remote ? "--remote" : "--local";
 const read = run(target, {
   command: `SELECT id, report, section, paragraph, exact, prefix, suffix, page FROM marks WHERE actor = '${EDITOR_ACTOR}'`,

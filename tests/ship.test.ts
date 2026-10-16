@@ -556,7 +556,7 @@ describe("drive: gates and hard stops", () => {
 
   it("a failed reindex (quota spent mid-run) leaves the finished reports done and resumes at the next", async () => {
     let quotaSpent = true;
-    const handler: Handler = (cmd) => (quotaSpent && cmd.argv.join(" ") === "./scripts/reindex-search.sh gamma" ? { code: 1, stdout: "D1 code 7500" } : happy(cmd));
+    const handler: Handler = (cmd) => (quotaSpent && cmd.argv.join(" ") === "./scripts/reindex-search.sh gamma --yes" ? { code: 1, stdout: "D1 code 7500" } : happy(cmd));
     const h = harness({ handler, ctx: { yes: true } });
     expect(await drive(h.rt, buildSteps())).toBe(1);
     expect(out(h)).toContain("D1 code 7500");

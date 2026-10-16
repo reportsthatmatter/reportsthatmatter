@@ -14,6 +14,8 @@
  *   --overwrite-production                    allow import-d1, sync-d1 --versions and sync-r2's overwrite of changed objects
  *                                             when the target is production (datopian since the 2026-10-16 cutover); refused without it
  *
+ *   --yes                                     required by every command: each reads or writes a Cloudflare account, and none starts without it
+ *
  * Nothing here writes to the source account. Credentials: wrangler's profiles (`--profile default` = atomatic,
  * `--profile datopian`), never the directory bindings; the R2 copy uses `wrangler auth token` for each profile.
  */
@@ -22,12 +24,14 @@ import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { exitOnUnknownFlags, exitUnlessConfirmed } from "./lib/args";
 import { metaTotals, recordUsage } from "./lib/d1-usage";
 import { ACCOUNTS, COLUMNS, insertSql, OVERWRITE_FLAG, r2Diff, refuseOverwrite, staleReports, TABLES, type Account, type IndexVersion, type R2Object, type Table } from "./lib/migrate-hosting";
 
 const root = join(import.meta.dirname, "..");
 const out = join(root, "build", "hosting");
 const args = process.argv.slice(2);
+exitOnUnknownFlags(args, ["--dry-run", "--versions", "--overwrite-production", "--yes"], ["--from", "--to", "--parallel"]);
 const command = args[0];
 const flag = (n: string) => args.includes(n);
 const opt = (n: string) => (args.includes(n) ? args[args.indexOf(n) + 1] : undefined);
@@ -270,4 +274,6 @@ if (!commands[command]) {
   console.error(`usage: pnpm migrate-hosting ${Object.keys(commands).join("|")} (see --help)`);
   process.exit(2);
 }
+// Every command reads or writes a Cloudflare account, so none runs without --yes (reportsthatmatter-jp6i).
+exitUnlessConfirmed(args, `pnpm migrate-hosting ${command} (it calls both Cloudflare accounts)`);
 await commands[command]();

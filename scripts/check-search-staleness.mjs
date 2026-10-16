@@ -16,9 +16,10 @@
  * publish hash equals `report_versions.content_hash` (it is the published text); otherwise, e.g. a report repo's own
  * `rtm-publish` of text this checkout never rendered (9j2), it falls back to the timestamps.
  *
- * Usage: pnpm check-search-staleness [--remote|--local]  (default --remote)
+ * Usage: pnpm check-search-staleness [--remote --yes | --local]  (default --remote, which reads production and so needs --yes)
  */
 import "./lib/help.mjs";
+import { exitOnUnknownFlags, exitUnlessConfirmed } from "./lib/args.ts";
 import { wranglerRunner } from "./lib/d1.ts";
 import { join } from "node:path";
 import { extractPassages } from "@rtm/ingest";
@@ -27,10 +28,13 @@ import { findStale } from "./lib/search-staleness.ts";
 import { localHash } from "./lib/publish-local.mjs";
 
 const root = join(import.meta.dirname, "..");
-const target = process.argv.includes("--local") ? "--local" : "--remote";
+const args = process.argv.slice(2);
+exitOnUnknownFlags(args, ["--local", "--remote", "--yes"]);
+const target = args.includes("--local") ? "--local" : "--remote";
+exitUnlessConfirmed(args, "pnpm check-search-staleness (production unless --local)", target === "--remote");
 
 // Through the shared runner, so the rows it reads land in today's D1 ledger (pnpm d1-usage). Two tiny tables.
-const run = wranglerRunner(root);
+const run = wranglerRunner(root, { confirmed: args.includes("--yes") });
 const query = (sql) => run(target, { command: sql })[0].results;
 
 const versions = query("SELECT report, content_hash, published_at FROM report_versions");
@@ -51,7 +55,7 @@ const stale = findStale(versions, indexed, (report) => locals.get(report) ?? nul
 if (stale.length) {
   console.error(`${stale.length} report(s) have a stale search index (${target}):`);
   for (const { report, reason } of stale) console.error(`  ✗ ${report} — ${reason}`);
-  console.error("\nFix: ./scripts/reindex-search.sh <report-id>" + (target === "--local" ? " --local" : ""));
+  console.error("\nFix: ./scripts/reindex-search.sh <report-id>" + (target === "--local" ? " --local" : " --yes"));
   process.exit(1);
 }
 

@@ -57,11 +57,11 @@ describe("migrate-hosting", () => {
 
   it("refuses at the command line: a real publish to a remote base, not a status read or a local base", () => {
     const run = (...args: string[]) => spawnSync("pnpm", ["--silent", "publish-report", "demo", ...args], { cwd: join(import.meta.dirname, ".."), encoding: "utf8", env: { ...process.env, RTM_CF_ACCOUNT: "atomatic", RTM_PUBLISH_SECRET: "" } });
-    const refused = run("--base", "https://reportsthatmatter.invalid");
+    const refused = run("--base", "https://reportsthatmatter.invalid", "--yes");
     expect(refused.status).toBe(1);
     expect(refused.stderr).toContain("refusing to publish with RTM_CF_ACCOUNT=atomatic");
-    // With the flag it gets past the account check and stops at the missing secret (exit 2), calling nothing.
-    const allowed = run("--base", "https://reportsthatmatter.invalid", "--rollback-account");
+    // With the flag (known to the unknown-flag check, jp6i) it gets past the account check and stops at the missing secret (exit 2), calling nothing.
+    const allowed = run("--base", "https://reportsthatmatter.invalid", "--rollback-account", "--yes");
     expect(allowed.status).toBe(2);
     expect(allowed.stderr).toContain("RTM_PUBLISH_SECRET is not set");
     // A local base never reindexes a remote D1.

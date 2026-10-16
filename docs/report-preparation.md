@@ -80,7 +80,7 @@ Every report should say honestly how its text was made and where it falls short.
 1. `./scripts/verify.sh` must exit 0. Then look at the rendered pages yourself.
 2. Open a PR and squash-merge it.
 3. **A report that has never been published needs a Worker deploy first** (`./scripts/deploy-cloudflare.sh`, which pre-renders), because until then it is served from `assets/generated/`. If the deploy fails with a D1 "database not found" error, wrangler is using the wrong Cloudflare account profile; this project is the `default` profile, and a directory binding in wrangler's preferences file chooses it.
-4. Publish the content to R2 with `pnpm publish-report <id> --base https://reportsthatmatter.org`, which also reindexes search. See AGENTS.md, "Publishing a report".
+4. Publish the content to R2 with `pnpm publish-report <id> --base https://reportsthatmatter.org --yes`, which also reindexes search. See AGENTS.md, "Publishing a report".
 5. Confirm production: the `x-rtm-content-version` header should be a hash, not `assets`; then `VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh`.
 6. Run the **Changelog checklist in AGENTS.md** (entry, screenshots, hotlink, redeploy). A new report is a changelog-worthy event; a new internal doc is not.
 7. Remove your worktree from the main checkout: `git worktree remove --force ../rtm-<task>`.

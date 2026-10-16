@@ -32,7 +32,7 @@ Still open (beads under `reportsthatmatter-4g4d`): Rufus confirms the registrati
 | `wrangler.toml` | `[env.atomatic]` (after this PR) | top level (after this PR); `[env.datopian]` before it |
 | Worker | `reportsthatmatter`, unrouted since its zone moved (it had routes `reportsthatmatter.org/*`, `www.…/*`, `old.…/*`); https://reportsthatmatter.office-d34.workers.dev | `reportsthatmatter`, custom domains apex and `www`, zone route `old.reportsthatmatter.org/*`; https://reportsthatmatter.datopian.workers.dev |
 | D1 `reportsthatmatter-marks` | `5200e0db-733d-40d6-962e-2f1eb024f060` | `ceb6c2cc-f9a2-414c-8ff5-476da129e7ec` (WEUR) |
-| R2 `reportsthatmatter-content` | WEUR, 9,841 objects, 1.06 GB (2026-10-16) | WEUR, copied with `pnpm migrate-hosting sync-r2` |
+| R2 `reportsthatmatter-content` | WEUR, 9,841 objects, 1.06 GB (2026-10-16) | WEUR, copied with `pnpm migrate-hosting sync-r2 --yes` |
 | Secrets | `PUBLISH_SECRET`, `MARK_SALT` | `PUBLISH_SECRET` (same value, from `~/.rtm-publish-secret`, so every report token still works), `MARK_SALT` (new random value: it only salts the daily actor hash) |
 | Zone / domain | Zone `661996764ff46ed21660699599d54aa7` (Free plan), Moved; domain on Cloudflare Registrar, NS jeff/jessica.ns.cloudflare.com until 2026-10-16, expires 2027-07-07 | Zone `9aa68c2e0a324d10a69a117155fe3f11` (Free zone plan, Active), NS glen/pam.ns.cloudflare.com |
 
@@ -56,9 +56,9 @@ Who does what: **R** = Rufus in the Cloudflare dashboard (bead `reportsthatmatte
 pnpm wrangler d1 create reportsthatmatter-marks --location weur --profile datopian
 pnpm wrangler r2 bucket create reportsthatmatter-content --location weur --profile datopian
 pnpm wrangler d1 migrations apply reportsthatmatter-marks --remote --env datopian --profile datopian
-pnpm migrate-hosting export-d1     # production D1 into build/hosting/ (reads every row once, ~47k of the 5M/day)
-pnpm migrate-hosting import-d1     # wipes the Datopian tables, loads, then verify-d1 (row counts and sha256 per table)
-pnpm migrate-hosting sync-r2       # copies every object missing or different, then compares every ETag (~45 min for 10k objects: API rate limit)
+pnpm migrate-hosting export-d1 --yes     # production D1 into build/hosting/ (reads every row once, ~47k of the 5M/day)
+pnpm migrate-hosting import-d1 --yes     # wipes the Datopian tables, loads, then verify-d1 (row counts and sha256 per table)
+pnpm migrate-hosting sync-r2 --yes       # copies every object missing or different, then compares every ETag (~45 min for 10k objects: API rate limit)
 RTM_CF_ACCOUNT=datopian ./scripts/deploy-cloudflare.sh
 tr -d '\n' < ~/.rtm-publish-secret | pnpm wrangler secret put PUBLISH_SECRET --env datopian --profile datopian
 openssl rand -hex 32 | tr -d '\n' | pnpm wrangler secret put MARK_SALT --env datopian --profile datopian
@@ -92,9 +92,9 @@ Prerequisites (checked 2026-10-16): DNSSEC is off (no DS record); registered 201
 **Before you click Start, tell the agent (or the integrator) "freeze"**: no `publish-report`, no deploy and no `seed-highlights --remote` until step 5 is done. The agent then runs the pre-move sync:
 
 ```bash
-pnpm migrate-hosting sync-r2                 # objects published since the copy (e.g. the CIA report on 2026-10-16)
-pnpm migrate-hosting sync-d1 --versions      # new marks, report_versions, search_index_versions, passages of reindexed reports
-pnpm migrate-hosting verify-d1               # informational after a sync: marks rows differ by what was appended
+pnpm migrate-hosting sync-r2 --yes                 # objects published since the copy (e.g. the CIA report on 2026-10-16)
+pnpm migrate-hosting sync-d1 --yes --versions      # new marks, report_versions, search_index_versions, passages of reindexed reports
+pnpm migrate-hosting verify-d1 --yes               # informational after a sync: marks rows differ by what was appended
 ```
 
 1. **atomatic account**: Domain Registration > Manage Domains > reportsthatmatter.org > **Manage** > **Configuration** tab > **Start** (the inter-account move) and follow the prompts: enter the Datopian account id `83025b28472d6aa2bf5ae59f3724aa78` and confirm.
@@ -115,13 +115,13 @@ for host in reportsthatmatter.org www.reportsthatmatter.org; do   # old.: a zone
     "https://api.cloudflare.com/client/v4/accounts/83025b28472d6aa2bf5ae59f3724aa78/workers/domains" \
     --data "{\"hostname\":\"$host\",\"service\":\"reportsthatmatter\",\"zone_id\":\"$ZONE\",\"environment\":\"production\"}"
 done
-pnpm migrate-hosting sync-d1                 # marks written on atomatic since the last sync (appended; ids are not kept)
+pnpm migrate-hosting sync-d1 --yes                 # marks written on atomatic since the last sync (appended; ids are not kept)
 RTM_CF_ACCOUNT=datopian VERIFY_SHARED=1 VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh
 curl -sI https://www.reportsthatmatter.org/ | head -3   # 301 to the apex, served by the Worker
 dig +short TXT _atproto.reportsthatmatter.org           # Bluesky handle record
 ```
 
-Run `pnpm migrate-hosting sync-d1` again a day later (the last resolvers have moved by then), then lift the freeze. Then make Datopian the default (part (d) below) in one PR.
+Run `pnpm migrate-hosting sync-d1 --yes` again a day later (the last resolvers have moved by then), then lift the freeze. Then make Datopian the default (part (d) below) in one PR.
 
 ## (a) The domain move, in short
 
@@ -133,8 +133,8 @@ The idea: keep the domain on atomatic and replace the atomatic Worker with a thi
 
 ## (c) Data freeze and final re-sync
 
-- `pnpm migrate-hosting sync-d1 [--versions]` reads only marks with `id >` the watermark in `build/hosting/state.json` (set by `import-d1`, advanced by each sync), so it costs a handful of reads on the free tier. It appends them on Datopian without their ids (Datopian assigns new ones once it takes its own writes; nothing refers to a mark by id). `--versions` also replaces `report_versions` and `search_index_versions` and re-copies the passages of every report reindexed on atomatic since the copy; use it only before the switch (afterwards Datopian's are the newer; it is now refused without `--overwrite-production`, as is `import-d1`).
-- `pnpm migrate-hosting sync-r2` is incremental: it copies only missing or changed objects (by key, ETag and size) and then compares all of them.
+- `pnpm migrate-hosting sync-d1 --yes [--versions]` reads only marks with `id >` the watermark in `build/hosting/state.json` (set by `import-d1`, advanced by each sync), so it costs a handful of reads on the free tier. It appends them on Datopian without their ids (Datopian assigns new ones once it takes its own writes; nothing refers to a mark by id). `--versions` also replaces `report_versions` and `search_index_versions` and re-copies the passages of every report reindexed on atomatic since the copy; use it only before the switch (afterwards Datopian's are the newer; it is now refused without `--overwrite-production`, as is `import-d1`).
+- `pnpm migrate-hosting sync-r2 --yes` is incremental: it copies only missing or changed objects (by key, ETag and size) and then compares all of them.
 - `build/hosting/` is per worktree: run every sync from the worktree that ran `import-d1`, or run `export-d1` and `import-d1` again (a full re-copy takes ~3 minutes and ~47k reads; it also wipes the staging marks that verify.sh wrote on Datopian).
 - Freeze: from the pre-move sync in step 4 until step 5's verify passes, nobody publishes, deploys or seeds. A publish in that window would go to whichever account the publisher's DNS resolves to.
 
@@ -155,13 +155,13 @@ Done in PR #335 (the domain moved early, so the switch went with the copy), exce
 
 - **Before step 4's Accept**: nothing has changed for readers. Cancel the move (or let the 5 days lapse); atomatic keeps serving.
 - **After the move, if the Datopian Worker misbehaves**: fix forward on Datopian (`pnpm wrangler rollback --env "" --profile datopian` to the previous version; D1 Time Travel `pnpm wrangler d1 time-travel restore reportsthatmatter-marks --timestamp <ISO> --env "" --profile datopian` for data). Datopian is the top level of `wrangler.toml` since #335: there is no `[env.datopian]` any more, so never pass `--env datopian`.
-- **If the Datopian account itself is the problem**: the registration cannot return to atomatic for 30 days, but the zone can point anywhere. Deploy a proxy Worker on the Datopian zone (or a custom domain on a tiny Worker) forwarding to `https://reportsthatmatter.office-d34.workers.dev`, which keeps running on atomatic with its own D1 and R2 until decommission; copy back marks written on Datopian with `pnpm migrate-hosting sync-d1 --from datopian --to atomatic` (writes to atomatic: only for a real rollback).
+- **If the Datopian account itself is the problem**: the registration cannot return to atomatic for 30 days, but the zone can point anywhere. Deploy a proxy Worker on the Datopian zone (or a custom domain on a tiny Worker) forwarding to `https://reportsthatmatter.office-d34.workers.dev`, which keeps running on atomatic with its own D1 and R2 until decommission; copy back marks written on Datopian with `pnpm migrate-hosting sync-d1 --yes --from datopian --to atomatic` (writes to atomatic: only for a real rollback).
 
 ## (f) Decommission (on or after 2026-10-23: 7 clean days, bead `reportsthatmatter-4g4d.7`)
 
 Rufus decided on 2026-10-16: decommission the atomatic resources after 7 clean days on Datopian (production verify green, no incident beads). Acceptance is on `reportsthatmatter-4g4d.7`. The domain registration is not part of it: if it is still on atomatic, it moves first (`reportsthatmatter-4g4d.6`).
 
 
-1. Final read of anything written on atomatic after the switch: `pnpm migrate-hosting sync-d1` (should report 0 marks).
+1. Final read of anything written on atomatic after the switch: `pnpm migrate-hosting sync-d1 --yes` (should report 0 marks).
 2. Rufus or an agent with Rufus's go-ahead, on atomatic: delete the Worker `reportsthatmatter` (its routes went with the zone), then `pnpm wrangler d1 delete reportsthatmatter-marks --env atomatic --profile default` (always with `--env atomatic`: without it wrangler takes the top-level `account_id`, which is production) (take a last `export-d1` first and keep `build/hosting/` in the factory scratch), then empty and delete the R2 bucket `reportsthatmatter-content`. Leave the other atomatic resources (`flowershow-cloud`, `rufus` buckets) alone.
 3. Remove `ACCOUNTS.atomatic`, the `--from/--to` reverse path if unused, and this runbook's "Where things stand" atomatic column; close epic `reportsthatmatter-4g4d`.

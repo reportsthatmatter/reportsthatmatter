@@ -1,6 +1,6 @@
 /* Brings one report's D1 search index up to date, writing only the paragraphs that changed.
  *
- *   pnpm exec tsx scripts/reindex-search.mjs <report-id> [--local] [--dry-run] [--full]
+ *   pnpm exec tsx scripts/reindex-search.mjs <report-id> [--local | --yes] [--dry-run] [--full]
  *
  * (`./scripts/reindex-search.sh <id>` calls this; `pnpm publish-report` calls that after a commit.)
  *
@@ -21,7 +21,8 @@
  *   --full          the old way: delete the report's rows and insert them all again (repairs nothing the
  *                   incremental run would not; kept for a suspect index and for comparison)
  *   --verify-count  also count the report's rows after applying (reads the whole table, ~40k rows)
- *   --local         the local D1 (default: remote)
+ *   --local         the local D1 (default: remote, which needs --yes, a --dry-run too)
+ *   --yes           confirm the run against production
  *
  *   pnpm exec tsx scripts/reindex-search.mjs --record-layouts [--local] [--dry-run]
  *                   one pass over the table (~40k rows read) records every report's layout at once; run it once
@@ -32,6 +33,7 @@ import { dirname, join } from "node:path";
 import { extractPassages } from "@rtm/ingest";
 import { parse } from "yaml";
 import { readFileSync } from "node:fs";
+import { exitOnUnknownFlags, exitUnlessConfirmed } from "./lib/args.ts";
 import { wranglerRunner } from "./lib/d1.ts";
 import { fullStatements, incrementalStatements, sqlString } from "./lib/reindex.ts";
 import { describePlan, placement, planReport } from "./lib/reindex-run.ts";
@@ -39,14 +41,16 @@ import { maxRowid, readCounter, readVersionRow, scanAllLayouts } from "./lib/d1.
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
+exitOnUnknownFlags(args, ["--record-layouts", "--local", "--dry-run", "--full", "--verify-count", "--yes"]);
 const report = args.includes("--record-layouts") ? "--record-layouts" : args.find((a) => !a.startsWith("--"));
 const target = args.includes("--local") ? "--local" : "--remote";
+exitUnlessConfirmed(args, "pnpm reindex-search against production (--dry-run reads it too; --local avoids it)", target === "--remote");
 const dry = args.includes("--dry-run");
 const full = args.includes("--full");
 const verifyCount = args.includes("--verify-count");
 
 if (!report) {
-  console.error("Usage: reindex-search.mjs <report-id> [--local] [--dry-run] [--full]");
+  console.error("Usage: reindex-search.mjs <report-id> [--local | --yes] [--dry-run] [--full]");
   process.exit(2);
 }
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
@@ -55,7 +59,7 @@ if (report !== "--record-layouts" && !registry.reports.some((r) => r.id === repo
   process.exit(2);
 }
 
-const run = wranglerRunner(root);
+const run = wranglerRunner(root, { confirmed: args.includes("--yes") });
 
 if (args.includes("--record-layouts")) {
   // One pass over the table records every report's layout (migration 0004), so no report's next reindex has to scan

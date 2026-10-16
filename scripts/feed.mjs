@@ -24,18 +24,20 @@ import "./lib/help.mjs";
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
+import { exitOnUnknownFlags } from "./lib/args.ts";
 import { wranglerRunner } from "./lib/d1.ts";
 import { parseTarget, planRebuild, rebuildSql, statusSql } from "../src/lib/feed-admin.ts";
 import { contentFor } from "../src/lib/content.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
+exitOnUnknownFlags(args, ["--remote", "--yes", "--held", "--hidden", "--visible", "--all", "--dry-run"], ["--limit", "--report"]);
 const flag = (name) => args.includes(name);
 const option = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
 const remote = flag("--remote");
 const target = remote ? "--remote" : "--local";
 const where = remote ? "production" : "local";
-const wrangler = wranglerRunner(root);
+const wrangler = wranglerRunner(root, { confirmed: flag("--yes") });
 /** The only way this script reaches D1: a --remote call without --yes never leaves the machine. */
 const run = (t, sql) => {
   if (t === "--remote" && !flag("--yes")) fail("Nothing sent to production. Every --remote command needs --yes (reads too).");
