@@ -4,7 +4,10 @@
  * At v0.21.0 the commit step returned 500 for 4 of 10 reports and succeeded on the next try. Both the objects upload
  * (an R2 put per file) and the commit (verify every object, then upsert the version pointer) are idempotent for the
  * same hash, so a 5xx is retried up to three times with a back-off. A 4xx is a real refusal and is never retried;
- * neither is a D1 quota error, which will not clear until 00:00 UTC (`pnpm publish-report <id> --preflight`).
+ * neither is a 5xx whose body names a D1 quota, which will not clear until 00:00 UTC (`pnpm publish-report <id> --preflight`).
+ * Caveat (review 2026-10-16): the Worker has no onError, so an uncaught D1 error in the commit's pointer write, a spent
+ * quota included, reaches us as Hono's bare "Internal Server Error" and IS retried; harmless (the commit costs no D1
+ * rows until that write succeeds, and a real publish runs the quota preflight first), and the final message says so.
  */
 export const RETRY_DELAYS_MS = [2000, 5000, 10000];
 
@@ -55,7 +58,10 @@ export function makePublishCall(opts: PublishCallOptions) {
       }
       log(`${response.status} ${path}`);
       log(JSON.stringify(parsed, null, 2));
-      if (transient) log(`still failing after ${delays.length} retries; the uploads are idempotent, so run the same command again:\n  ${opts.rerun}`);
+      if (transient) {
+        log(`still failing after ${delays.length} retries; the uploads are idempotent, so run the same command again:\n  ${opts.rerun}`);
+        log("If D1's daily quota is spent (the Worker's 500 does not say), a retry will not help before 00:00 UTC: check with --preflight.");
+      }
       return fail();
     }
   };

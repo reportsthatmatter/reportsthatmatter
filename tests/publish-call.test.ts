@@ -43,6 +43,7 @@ describe("publish-report call (reportsthatmatter-moej)", () => {
     expect(out).toContain("500 /internal/publish/demo/commit");
     expect(out).toContain("Internal Server Error");
     expect(out).toContain("pnpm publish-report demo --base https://x.test");
+    expect(out).toContain("--preflight");
   });
 
   it("does not retry a 4xx", async () => {
