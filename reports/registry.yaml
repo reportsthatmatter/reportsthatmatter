@@ -56,6 +56,7 @@ reports:
     source_path: reports/litvinenko-inquiry/full.md
     source_url: "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/493860/The-Litvinenko-Inquiry-H-C-695-web.pdf"
     ingested: true
+    affected_community: true
 
   - id: uk-leveson-inquiry
     title: "An Inquiry into the Culture, Practices and Ethics of the Press"

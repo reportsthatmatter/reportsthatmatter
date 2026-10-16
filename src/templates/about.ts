@@ -1,4 +1,4 @@
-import { SITE_ORIGIN, REPO_URL, REMOVAL_ISSUE_URL, TEXT_DEFECT_ISSUE_URL } from "./site";
+import { SITE_ORIGIN, REPO_URL, CONTACT_EMAIL, REMOVAL_ISSUE_URL, TEXT_DEFECT_ISSUE_URL } from "./site";
 import { renderLayout } from "./layout";
 
 /**
@@ -70,13 +70,14 @@ export function renderAbout(): string {
     <div class="prose measure">
       <p>If you are named in or affected by a report, you can ask us to change or remove anything we have
       made from it: a quote card, a post, an excerpt or highlight, a line of our introduction. We will do
-      so within a day, and you do not need to say why.
-      <a href="${REMOVAL_ISSUE_URL}">Ask for a correction or removal</a>.</p>
-      <p>If something in a report reads wrongly here, a sentence cut in half or a stray number,
-      <a href="${TEXT_DEFECT_ISSUE_URL}">report the problem</a>. Where our copy and the official
+      so within a day, and you do not need to say why. Write to
+      <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>; it goes to the editor, Rufus Pollock. Or, if you would rather do it in public,
+      <a href="${REMOVAL_ISSUE_URL}">ask for a correction or removal on GitHub</a>.</p>
+      <p>If something in a report reads wrongly here, a sentence cut in half or a stray number, write to the
+      same address or <a href="${TEXT_DEFECT_ISSUE_URL}">report the problem</a>. Where our copy and the official
       document differ, the official document is right.</p>
-      <p>Both open a form on GitHub, which needs a free account, and what you write there is public.
-      For anything else, <a href="${REPO_URL}/issues/new">open an issue</a>.</p>
+      <p>The GitHub forms need a free account, and what you write there is public. Email is not.
+      For anything else, write to the same address or <a href="${REPO_URL}/issues/new">open an issue</a>.</p>
     </div>
   </section>
 

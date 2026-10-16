@@ -40,10 +40,11 @@ export const REPO_URL = "https://github.com/reportsthatmatter/reportsthatmatter"
 
 /**
  * Where a reader asks for a correction or a removal (decisions hbnj and 63cd): the contact section
- * on /about, linked from the footer and from the panel a shared passage lands on. The project has no
- * email address yet (reportsthatmatter-fh6v); until it has, requests arrive as GitHub issues
- * from the two templates below.
+ * on /about, linked from the footer and from the panel a shared passage lands on. The primary route
+ * is the email address (reportsthatmatter-fh6v; Cloudflare Email Routing forwards it to Rufus); the
+ * public alternative is a GitHub issue from the two templates below.
  */
 export const CONTACT_PATH = "/about#contact";
+export const CONTACT_EMAIL = "contact@reportsthatmatter.org";
 export const REMOVAL_ISSUE_URL = `${REPO_URL}/issues/new?template=removal.yml`;
 export const TEXT_DEFECT_ISSUE_URL = `${REPO_URL}/issues/new?template=text-defect.yml`;
