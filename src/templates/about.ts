@@ -64,6 +64,19 @@ export function renderAbout(): string {
     </div>
   </section>
 
+  <section class="section wrap" id="licences" aria-labelledby="licences-heading">
+    <p class="section-label mono" id="licences-heading">Licences</p>
+    <div class="prose measure">
+      <p>The code is open source under the <a href="https://github.com/reportsthatmatter/reportsthatmatter/blob/main/LICENSE">MIT licence</a>.
+      Each report's text keeps the status it has at source: reports of the US government are in the public
+      domain, and UK inquiry reports are Crown copyright, reused under the Open Government Licence where the
+      report says so. Our own markup and editorial writing are
+      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The exact terms, with the evidence
+      and anything we could not confirm, are in the LICENSE file of each
+      <a href="https://github.com/reportsthatmatter">report's repository</a>.</p>
+    </div>
+  </section>
+
   <section class="section wrap">
     <div class="hero" style="padding-block: 0; text-align: left">
       <div class="actions" style="justify-content: flex-start; margin-top: 0">

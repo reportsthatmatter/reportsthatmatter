@@ -80,3 +80,14 @@ Verify:
 ## About
 
 Reports that Matter makes important public-interest reports easy to find, read, and link to online. Many government and inquiry reports are buried in obscure websites or locked inside long PDFs, making them hard to discover and reference. Reports that Matter presents these documents in a web-native format — searchable, readable, and linkable at the level of specific sections — so primary evidence can actually be used in journalism, research, and public debate.
+
+## Licence
+
+The code is MIT, Copyright (c) 2026 Rufus Pollock and contributors ([LICENSE](LICENSE)). That does not cover everything in the repository:
+
+- `reports/<id>/` holds copies of each report's text. It keeps the status it has at source (US federal works are public domain; UK reports are Crown copyright, mostly under the Open Government Licence v3.0); the evidence per report is in the `LICENSE` file of each report's repository. Hillsborough and Lehman are unconfirmed there.
+- `editorial/` and `content/` (our introductions, highlights and blog posts) are CC BY 4.0.
+- `assets/heroes/` and `assets/marks/` are treated images; each photograph's source and terms are in `docs/design/2026-09-27-hero/sources.yaml` and `docs/design/2026-09-12-imagery/`, not under MIT.
+
+The decision and its reasoning: [docs/decisions/0024-licences.md](docs/decisions/0024-licences.md).
+

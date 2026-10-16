@@ -8,6 +8,7 @@ reports:
     issued_by: "Office of Special Counsel Jack Smith, U.S. Department of Justice"
     date_published: "2025-01"
     repo: jack-smith-report
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/jack-smith-vol1/full.md
     source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
     ingested: true
@@ -64,6 +65,7 @@ reports:
     issued_by: "The Leveson Inquiry"
     date_published: "2012-11-29"
     repo: uk-leveson-inquiry
+    license: {name: "Open Government Licence", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-leveson-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp"
     ingested: true
@@ -77,6 +79,7 @@ reports:
     issued_by: "Columbia Accident Investigation Board"
     date_published: "2003-08"
     repo: us-columbia-shuttle-accident
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/columbia-accident/full.md
     source_url: "https://www.nasa.gov/wp-content/uploads/2025/04/caib-report.pdf"
     ingested: true
@@ -106,6 +109,7 @@ reports:
     issued_by: "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling"
     date_published: "2011-01"
     repo: us-deepwater-horizon
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-deepwater-horizon/full.md
     source_url: "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf"
     ingested: true
@@ -120,6 +124,7 @@ reports:
     issued_by: "U.S. District Court for the District of Columbia"
     date_published: "2006-08-17"
     repo: us-v-philip-morris
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-v-philip-morris/full.md
     source_url: "https://www.justice.gov/sites/default/files/civil/legacy/2014/09/11/amended%20opinion_0.pdf"
     ingested: true
@@ -133,7 +138,6 @@ reports:
     issued_by: "Hillsborough Independent Panel"
     date_published: "2012-09-12"
     repo: uk-hillsborough-panel
-    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-hillsborough-panel/full.md
     source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
     ingested: true
@@ -177,7 +181,6 @@ reports:
     issued_by: "Anton R. Valukas, Examiner (Jenner & Block LLP), U.S. Bankruptcy Court, S.D.N.Y."
     date_published: "2010-03-11"
     repo: us-lehman-examiner
-    license: {name: "Public domain (US court filing)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-lehman-examiner/full.md
     source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
     ingested: true
