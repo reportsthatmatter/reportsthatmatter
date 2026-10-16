@@ -15,20 +15,20 @@ rules = [
 # preview/comparison URL and it is what verify.sh points at with VERIFY_BASE.
 workers_dev = true
 
-# Workers custom domains: the Worker owns each hostname and Cloudflare manages its DNS record and certificate.
-# A deploy fails (code 100117) while a hand-made or scanned DNS record exists for one of them: delete it first.
+# The apex and www are Workers custom domains: the Worker owns each hostname and Cloudflare manages its DNS
+# record and certificate. A deploy fails (code 100117) while a hand-made or scanned DNS record exists for one of
+# them: delete it first. old.* is a zone route instead, because the zone's DNS scan left a proxied record there
+# that agents cannot delete (no DNS edit scope); a route works on any proxied record. Once Rufus deletes that
+# record it can become a custom domain like the others (docs/hosting-migration.md).
 routes = [
   { pattern = "reportsthatmatter.org", custom_domain = true },
   { pattern = "www.reportsthatmatter.org", custom_domain = true },
-  { pattern = "old.reportsthatmatter.org", custom_domain = true },
+  { pattern = "old.reportsthatmatter.org/*", zone_id = "9aa68c2e0a324d10a69a117155fe3f11" },
 ]
 
 [vars]
 REPORTS_SOURCE = "bundled"
-# Where the pre-V2 site is readable. Its own subdomain would be nicer, but the
-# old.reportsthatmatter.org record still points at a dead Vercel deployment and
-# is DNS-only, so a Workers route cannot reach it. GitHub Pages' default URL
-# needs no DNS at all and keeps the old URLs alive today.
+# Where the Worker fetches the pre-V2 archive it serves on old.reportsthatmatter.org (serveArchive in src/index.ts).
 LEGACY_BASE = "https://reportsthatmatter.github.io/reportsthatmatter"
 
 [assets]

@@ -2,24 +2,38 @@
 
 Runbook for moving reportsthatmatter.org from the `office@atomatic.net` Cloudflare account (free plan) to the Datopian account (`accounts@datopian.com`, Workers Paid). Decision: bead `reportsthatmatter-2oz` (Rufus, 2026-10-16: migrate ASAP, Worker, D1, R2 and the domain). Epic `reportsthatmatter-4g4d`. The site is not publicly launched yet, so Rufus accepts a short outage at the switch; there is no proxy-Worker interim (option (b) below records why it was considered and dropped).
 
-## Status (2026-10-16, 18:45 UTC)
+## Status (2026-10-16, after the cutover)
 
-- Datopian resources exist and pass verify on https://reportsthatmatter.datopian.workers.dev (step 1 done). D1 copied and re-synced (no marks or reindexes on atomatic since); R2: every report's current version copied, older versions (for `--rollback`) still copying.
-- Rufus added the zone on Datopian (`9aa68c2e0a324d10a69a117155fe3f11`, nameservers glen/pam.ns.cloudflare.com) and the registry nameservers changed to it at 18:18 UTC, ahead of steps 3 and 5. The zone's auto-scan created proxied A records for the apex pointing at Cloudflare's own IPs, so production answered Cloudflare error 1000 from ~18:27 UTC, and the custom-domain attach was refused (100117, "externally managed DNS records"). Fix in progress (supervisor): delete the scanned records, attach the custom domains, recreate `_atproto`. Lesson for the steps below: skip the scan, and do step 3 before the nameservers move.
-- This PR switches the repo's default to Datopian (part (d)), since the domain now resolves to the Datopian zone.
+**Production is on Datopian.** The registry nameservers point at the Datopian zone `9aa68c2e0a324d10a69a117155fe3f11` (glen/pam.ns.cloudflare.com, Active); the apex and `www` are Workers custom domains of the Datopian Worker; `old.` is a zone route on the same Worker (see below); `_atproto` TXT resolves. D1 was re-synced after the switch (0 marks written on atomatic since id 1684). The atomatic Worker, D1 and R2 are untouched and unrouted, kept for rollback until decommission (f).
+
+What actually happened (UTC):
+
+| Time | Event |
+|---|---|
+| 18:09-18:14 | D1 exported, imported and verified on Datopian; Worker deployed with `--env datopian`; secrets set (step 1). |
+| before 18:18 | Rufus added `reportsthatmatter.org` as a zone on Datopian. Cloudflare's DNS scan auto-imported the records it could see, which for a proxied zone are **proxied A records pointing at Cloudflare's own anycast IPs** (apex, `www`, `old`). |
+| 18:18 | The registry nameservers switched to the Datopian zone (glen/pam), ahead of steps 3 and 5. For a Cloudflare Registrar domain whose zone is added on another account, this can happen as part of the move without a separate "change nameservers" step. |
+| ~18:27 | Production answered Cloudflare **error 1000** ("DNS points to prohibited IP"): the scanned A records pointed at Cloudflare itself. Attaching custom domains was refused with **100117** ("externally managed DNS records"). |
+| 18:33 | `sync-d1 --versions`: nothing new on atomatic. |
+| by 18:52 | Rufus deleted the scanned apex and `www` records in the dashboard (agents' OAuth has no DNS edit); the supervisor attached the custom domains `reportsthatmatter.org` and `www.reportsthatmatter.org`; the site returned 200. Outage ~25 minutes. |
+| ~19:00 | `old.reportsthatmatter.org` still answered 403 (its scanned record remains, so the custom domain is refused with 100117). Fixed without DNS edit by adding a zone **route** `old.reportsthatmatter.org/*` to the Worker (a route works on any proxied record; agents' OAuth has `workers_routes` write). `wrangler.toml` declares it the same way, so deploys do not fail. `sync-d1`: 0 marks since id 1684. Production verify run (`VERIFY_SHARED=1`, log `factory/logs/2026-10-16/rtm-datopian-1016-verify-prod-postcutover.log`). |
+
+**Lesson** (`docs/design/lessons/2026-10-16-registrar-zone-scan-error-1000.md`): adding a Cloudflare Registrar domain's zone on a new account auto-imports proxied records that point at Cloudflare, and the nameservers can switch before you are ready, so production goes to error 1000. Delete every scanned A/AAAA/CNAME record for hosts the Worker will own (apex, `www`, `old`) the moment the zone is added, and attach the custom domains on the pending zone before starting the move.
+
+Still open (beads under `reportsthatmatter-4g4d`): Rufus deletes the scanned record on `old.` (then it can become a custom domain like the others) and rebinds `~/src/reportsthatmatter` to the `datopian` profile; `sync-d1` once more a day later (resolvers that cached the old nameservers for up to the 3,600 s `.org` TTL, or longer, may still reach the atomatic Worker); the R2 copy of older versions (rollback only) to finish; decommission atomatic after a clean soak.
 
 ## Where things stand
 
-| | atomatic (production today) | Datopian (staging, then production) |
+| | atomatic (production until 2026-10-16, now rollback only) | Datopian (production since 2026-10-16) |
 |---|---|---|
 | Account id | `d342705a2f17c3e08a5dab494564e406` | `83025b28472d6aa2bf5ae59f3724aa78` |
 | wrangler profile | `default` (what `~/src/reportsthatmatter` is bound to) | `datopian` |
 | `wrangler.toml` | `[env.atomatic]` (after this PR) | top level (after this PR); `[env.datopian]` before it |
-| Worker | `reportsthatmatter`, routes `reportsthatmatter.org/*`, `www.…/*`, `old.…/*`; https://reportsthatmatter.office-d34.workers.dev | `reportsthatmatter`, no routes yet; https://reportsthatmatter.datopian.workers.dev |
+| Worker | `reportsthatmatter`, unrouted since its zone moved (it had routes `reportsthatmatter.org/*`, `www.…/*`, `old.…/*`); https://reportsthatmatter.office-d34.workers.dev | `reportsthatmatter`, custom domains apex and `www`, zone route `old.reportsthatmatter.org/*`; https://reportsthatmatter.datopian.workers.dev |
 | D1 `reportsthatmatter-marks` | `5200e0db-733d-40d6-962e-2f1eb024f060` | `ceb6c2cc-f9a2-414c-8ff5-476da129e7ec` (WEUR) |
 | R2 `reportsthatmatter-content` | WEUR, 9,841 objects, 1.06 GB (2026-10-16) | WEUR, copied with `pnpm migrate-hosting sync-r2` |
 | Secrets | `PUBLISH_SECRET`, `MARK_SALT` | `PUBLISH_SECRET` (same value, from `~/.rtm-publish-secret`, so every report token still works), `MARK_SALT` (new random value: it only salts the daily actor hash) |
-| Zone / domain | Zone `661996764ff46ed21660699599d54aa7` (Free plan); domain on Cloudflare Registrar, NS jeff/jessica.ns.cloudflare.com, expires 2027-07-07 | none yet |
+| Zone / domain | Zone `661996764ff46ed21660699599d54aa7` (Free plan), Moved; domain on Cloudflare Registrar, NS jeff/jessica.ns.cloudflare.com until 2026-10-16, expires 2027-07-07 | Zone `9aa68c2e0a324d10a69a117155fe3f11` (Free zone plan, Active), NS glen/pam.ns.cloudflare.com |
 
 Everything else production uses: compatibility date 2024-12-01, `nodejs_compat`, static assets (`assets/`, `run_worker_first`), vars `REPORTS_SOURCE` and `LEGACY_BASE`, `[version_metadata]`. No KV, cron triggers, queues, Durable Objects or Analytics Engine. D1 tables: `marks` (303 rows on 2026-10-16), `passages` (FTS5, 46,744 rows), `report_versions` (18), `search_index_versions` (18).
 
@@ -53,7 +67,7 @@ RTM_CF_ACCOUNT=datopian VERIFY_BASE=https://reportsthatmatter.datopian.workers.d
 ### 2. Add the zone on Datopian, and an API token (R)
 
 1. In the **atomatic** account: Websites > reportsthatmatter.org > DNS > Records > **Import and Export** > **Export**. Save the file as `~/src/reportsthatmatter/factory/scratch/datopian-1016/atomatic-zone.txt` (the agent's OAuth token cannot read DNS records; public DNS shows only the proxied apex/www/old and `_atproto` TXT, so the export is how nothing is missed).
-2. In the **Datopian** account: Add a domain > `reportsthatmatter.org` > **Free** plan is enough (Workers Paid is per account, not per zone). When it offers to scan or import DNS records, skip it (an import of proxied records from the scan can cause error 1000; the agent creates the records). The zone stays **Pending** with its own two assigned nameservers; note them. Do not change nameservers anywhere: the registrar move does that.
+2. In the **Datopian** account: Add a domain > `reportsthatmatter.org` > **Free** plan is enough (Workers Paid is per account, not per zone). When it offers to scan or import DNS records, skip it; if it imports them anyway, **delete every scanned A/AAAA/CNAME record for the apex, `www` and `old` at once** (they are proxied records pointing at Cloudflare's own IPs: error 1000 the moment the nameservers move, and 100117 when a custom domain is attached). This is what took production down on 2026-10-16. The zone stays **Pending** with its own two assigned nameservers; note them. Do not change nameservers anywhere: the registrar move does that, and it may do it sooner than you expect (on 2026-10-16 they switched within minutes of the zone being added, before steps 3-5).
 3. In the **Datopian** account: My Profile > API Tokens > Create Token > Custom token, scoped to account Datopian and zone `reportsthatmatter.org`, permissions: Zone > DNS > Edit; Zone > Workers Routes > Edit; Zone > SSL and Certificates > Edit; Zone > Zone > Read; Account > Workers Scripts > Edit. Save it to `~/.config/cloudflare/datopian-rtm-token` (`chmod 600`; one line, the token only). Agents use it with `CLOUDFLARE_API_TOKEN` and never print it.
 
 ### 3. Recreate DNS records in the Datopian zone (A)
@@ -95,7 +109,7 @@ Once the zone is Active on Datopian:
 
 ```bash
 # Custom domains (the Worker owns the hostname; Cloudflare creates the DNS record and certificate):
-for host in reportsthatmatter.org www.reportsthatmatter.org old.reportsthatmatter.org; do
+for host in reportsthatmatter.org www.reportsthatmatter.org; do   # old.: a zone route while its scanned record remains (wrangler.toml)
   curl -s -X PUT -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "content-type: application/json" \
     "https://api.cloudflare.com/client/v4/accounts/83025b28472d6aa2bf5ae59f3724aa78/workers/domains" \
     --data "{\"hostname\":\"$host\",\"service\":\"reportsthatmatter\",\"zone_id\":\"$ZONE\",\"environment\":\"production\"}"
