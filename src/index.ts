@@ -11,7 +11,8 @@ import { renderProcessing } from "./templates/processing";
 import { renderPress } from "./templates/press";
 import { renderNotFound } from "./templates/not-found";
 import { renderChangelog } from "./templates/changelog";
-import { renderHighlights } from "./templates/highlights";
+import { renderReadersHighlights, renderYourHighlights } from "./templates/highlights";
+import { EDITOR_PICKS } from "./generated/picks";
 import { renderReportOverview, renderSection, type TopPassage } from "./templates/section";
 import { EDITORIAL } from "./generated/editorial";
 import { showsEditorial } from "./templates/editorial";
@@ -45,7 +46,8 @@ import {
   todayUTC,
   type MarksDB,
 } from "./lib/marks";
-import { publishMark } from "./lib/feed";
+import { publishMark, readFeed } from "./lib/feed";
+import { isExcludedReport } from "./lib/feed-policy";
 import { queryPassages, firstMatchOffsets, type PassageRow } from "./lib/search";
 
 /** The write half of the content bucket, which only publishing touches. */
@@ -323,10 +325,37 @@ async function buildSearchResults(
 app.get("/about", (c) => c.html(renderAbout()));
 app.get("/press", (c) => c.html(renderPress()));
 
-// The reader's own highlights. The list lives only in the browser: this is the
-// shell, and the browser fills it from local storage. (The words of each save
-// or share are recorded anonymously in `marks` via /api/mark; the page says so.)
-app.get("/highlights", (c) => c.html(renderHighlights()));
+/**
+ * What readers are highlighting (decision 0023, bght.10.3): the newest public_marks rows (a bounded rowid read,
+ * src/lib/feed.ts) and the Editor's picks (generated, no D1). Edge-cached for 5 minutes, keyed on the deploy, so
+ * D1 is read at most once per data centre per 5 minutes. A missing table or a D1 failure renders the picks alone.
+ */
+app.get("/highlights", (c) =>
+  cached(
+    c,
+    async () => {
+      const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+      const registry = await loadRegistry(sourceMode);
+      const names = Object.fromEntries(registry.reports.map((r) => [r.id, r.common_name ?? r.title]));
+      const now = Date.now();
+      return c.html(
+        renderReadersHighlights({
+          recent: await readFeed(c.env?.DB, c.env, now),
+          picks: EDITOR_PICKS.filter((pick) => names[pick.report] && !isExcludedReport(c.env, pick.report)),
+          names,
+          now,
+        })
+      );
+    },
+    300,
+    // One cache entry per deploy whatever the query string, so `?anything` cannot force a D1 read per request.
+    `${new URL(c.req.url).origin}/highlights`
+  )
+);
+
+// The reader's own highlights. The list lives only in this browser's local storage: this is the shell, and the
+// browser fills it. (The words of each save or share are counted anonymously; see /highlights.)
+app.get("/highlights/yours", (c) => c.html(renderYourHighlights()));
 
 /**
  * A sitemap listing every section of every report.
@@ -365,6 +394,8 @@ app.get("/sitemap.xml", async (c) => {
     { loc: "/", priority: "1.0" },
     { loc: "/reports", priority: "0.9" },
     { loc: "/about", priority: "0.7" },
+    // What readers are highlighting (bght.10.3): public and indexed. /highlights/yours is per-browser and noindex.
+    { loc: "/highlights", priority: "0.6" },
     { loc: "/press", priority: "0.3" },
     { loc: "/changelog", priority: "0.4" },
     { loc: "/blog", priority: "0.5" },
@@ -494,7 +525,9 @@ export function cacheKeyFor(url: string, deployId: string): Request {
 async function cached(
   c: any,
   build: () => Promise<Response>,
-  maxAge = 86400
+  maxAge = 86400,
+  /** The URL to key on, when it should not be the request's own (/highlights ignores its query string). */
+  keyUrl: string = c.req.url
 ): Promise<Response> {
   // `caches` is absent under Node, where the tests run.
   if (typeof caches === "undefined" || c.req.method !== "GET") return build();
@@ -504,7 +537,7 @@ async function cached(
   if (!deployId) return build();
 
   const cache = (caches as any).default;
-  const key = cacheKeyFor(c.req.url, deployId);
+  const key = cacheKeyFor(keyUrl, deployId);
 
   const hit = await cache.match(key);
   if (hit) return hit;

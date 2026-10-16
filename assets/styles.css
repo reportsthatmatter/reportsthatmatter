@@ -1520,6 +1520,80 @@ html.passage-landing body {
   text-decoration: underline;
 }
 
+/* /highlights (bght.10.3): the readers' page and its two tabs. Two pages with their own URLs, not an ARIA
+ * tablist; the current one is plain text with aria-current. Padding, not type size, makes each tab a 44 px tap
+ * target (decision 0018). */
+.highlights-tabs {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.75rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.highlights-tabs a,
+.highlights-tabs span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+  margin-bottom: -1px;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.highlights-tabs a:hover {
+  color: var(--ink);
+}
+
+.highlights-tabs [aria-current="page"] {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+.highlights-block h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0;
+  margin-block: 3rem 0.5rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.highlights-stream {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.highlights-stream blockquote p {
+  margin: 0;
+}
+
+.highlights-note,
+.highlights-how {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.highlights-how {
+  margin-block: 3.5rem 1rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+
+.highlights-how a {
+  color: var(--ink);
+}
+
+/* "Read in place": a 44 px tap target without making the line look like a button. */
+.highlight-place {
+  display: inline-block;
+  padding-block: 1rem;
+  margin-block: -1rem;
+  color: var(--ink);
+}
+
 .highlights-actions {
   display: flex;
   gap: 1px;

@@ -70,7 +70,7 @@ export type EditorialSource = {
     excerpt?: QuoteSource;
   }>;
   /** Passages Rufus has highlighted: seeded into the marks table, not printed on the landing page. */
-  highlights?: Array<QuoteSource & { context?: string; card?: boolean }>;
+  highlights?: Array<QuoteSource & { context?: string; card?: boolean; pick?: boolean }>;
   /** The landing page's hero photograph (reportsthatmatter-cdp): optional. */
   hero?: HeroSource;
 };
@@ -102,6 +102,8 @@ export type ResolvedHighlight = {
   page: number | null;
   /** `card: true` in the file: gets a quote card and a place in the posting queue. Not stored in D1. */
   card?: boolean;
+  /** `pick: true` in the file: one of the Editor's picks on /highlights (g0w.5, bght.10.3). Not stored in D1. */
+  pick?: boolean;
 };
 
 /** What the build knows of a report's structure, from its pre-rendered meta.json. */
@@ -268,6 +270,7 @@ export function resolveEditorial(
       suffix: selector.suffix,
       page: pageOf(html, h.paragraph),
       ...(h.card ? { card: true } : {}),
+      ...(h.pick ? { pick: true } : {}),
     });
   });
 

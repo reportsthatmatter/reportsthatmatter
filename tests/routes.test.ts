@@ -528,8 +528,9 @@ describe("structured data", () => {
 });
 
 describe("highlights page privacy copy", () => {
+  // The reader's own list moved to /highlights/yours (bght.10.3); /highlights is the readers' page for everyone.
   it("does not claim the words are never sent to us, and says what is sent", async () => {
-    const res = await app.request("http://localhost/highlights");
+    const res = await app.request("http://localhost/highlights/yours");
     expect(res.status).toBe(200);
     const html = await res.text();
     expect(html).not.toContain("never sent to us");

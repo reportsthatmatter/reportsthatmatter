@@ -203,6 +203,17 @@ async function registryIds(env: PublishEnv): Promise<Set<string>> {
 // ---------------------------------------------------------------------------------------------------------------
 // Read side
 
+/** One of the Editor's picks on /highlights, resolved at build time into src/generated/picks.ts (scripts/editorial.mjs). */
+export type EditorPick = {
+  report: string;
+  slug: string;
+  sectionTitle: string;
+  paragraph: string;
+  words: string;
+  anchor: string | null;
+  page: number | null;
+};
+
 /** A stored row, as /highlights reads it. */
 export type PublicMarkRow = {
   id: number;

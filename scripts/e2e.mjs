@@ -351,14 +351,32 @@ if (firstReportId) {
   const persisted = await page.evaluate(() => document.querySelectorAll("mark.hl.saved").length);
   check(persisted > 0, "a saved highlight is still marked after a reload", String(persisted));
 
-  await page.goto(`${base}/highlights`, { waitUntil: "networkidle" });
+  await page.goto(`${base}/highlights/yours`, { waitUntil: "networkidle" });
   await page.waitForTimeout(300);
   const listed = await page.evaluate(() => ({
     entries: document.querySelectorAll(".highlight-entry").length,
     markdown: document.querySelector("[data-export=markdown]") ? true : false,
   }));
-  check(listed.entries > 0, "saved highlights are listed at /highlights", String(listed.entries));
+  check(listed.entries > 0, "saved highlights are listed at /highlights/yours", String(listed.entries));
   check(listed.markdown, "highlights can be exported as Markdown");
+
+  // /highlights for everyone (bght.10.3): never empty (Editor's picks at least), and "Read in place" lands on
+  // the exact words, marked.
+  await page.goto(`${base}/highlights`, { waitUntil: "networkidle" });
+  const readers = await page.evaluate(() => ({
+    entries: document.querySelectorAll(".highlight-entry").length,
+    picks: Boolean(document.getElementById("picks-heading")),
+    current: document.querySelector(".highlights-tabs [aria-current=page]")?.textContent ?? "",
+    first: document.querySelector("#picks-heading ~ .highlights-stream .highlight-place")?.getAttribute("href") ?? null,
+  }));
+  check(readers.entries > 0 && readers.picks, "/highlights shows passages to every visitor", JSON.stringify(readers));
+  check(readers.current === "Readers", "/highlights marks the Readers tab as current", readers.current);
+  if (readers.first) {
+    await page.goto(base + readers.first, { waitUntil: "networkidle" });
+    await page.waitForTimeout(300);
+    const landed = await page.evaluate(() => document.querySelectorAll("mark.hl").length);
+    check(landed > 0, "a /highlights Read in place link lands on the marked words", readers.first);
+  }
 
   // social proof (#96): a real mark, recorded against a real D1, has to come
   // back through /reports/:id/marks and render as a highlight — this is the
