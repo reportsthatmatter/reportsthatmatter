@@ -53,6 +53,17 @@ export function sharedTargets(targets: Target[], opts: { shared: boolean }): Tar
 export function sharedMessage(command: string, offenders: Target[]): string {
   const ids = offenders.map((t) => t.id).join(" ");
   const list = offenders.map((t) => `    ${t.id}  ${t.dir}`).join("\n");
+  if (command === "aggregate") {
+    return (
+      `\`pnpm ingest aggregate\` refuses to read the shared checkout of:\n${list}\n\n` +
+      "  Aggregate only reads full.md and PROCESSING.md from the report repo and writes into this site worktree's reports/<id>/, so it does not dirty the shared checkout.\n" +
+      "  The risk is the reverse: it copies a peer's uncommitted or off-main text into your worktree, where it can be committed by mistake.\n" +
+      "  An agent that owns no report repo passes VERIFY_SHARED=1 (`VERIFY_SHARED=1 ./scripts/verify.sh`, or `--shared` on aggregate), then runs `git status --short reports/` and commits nothing there it did not mean to.\n" +
+      "  An agent that owns a report repo works in a worktree instead:\n\n" +
+      `    pnpm ingest worktrees ${ids}\n` +
+      "    export RTM_REPORT_DIRS=<the directory it prints>     # then re-run this command"
+    );
+  }
   return (
     `\`pnpm ingest ${command}\` refuses to touch the shared checkout of:\n${list}\n\n` +
     "  Concurrent sessions share that checkout; a run here dirties it for everyone (their verify fails on your full.md).\n" +
