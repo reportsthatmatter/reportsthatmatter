@@ -1,4 +1,4 @@
-# 0021. What may the public highlights feed show, and where do a reader's own highlights go?
+# 0023. What may the public highlights feed show, and where do a reader's own highlights go?
 
 - **Status:** proposed
 - **Date raised:** 2026-10-16 · **Date decided:** —

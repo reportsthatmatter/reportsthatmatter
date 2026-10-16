@@ -1,7 +1,8 @@
 # Public highlights feed: what readers are highlighting, on /highlights
 
-- **Bead:** reportsthatmatter-bght.10 (epic bght). Decision record: [0021](../decisions/0021-public-highlights-feed.md), decision bead bght.10.8.
+- **Bead:** reportsthatmatter-bght.10 (epic bght). Decision record: [0023](../decisions/0023-public-highlights-feed.md), decision bead bght.10.8.
 - **Status:** design, for validation by a separate reviewer agent before anything is built. No code in this change.
+- **Validated 2026-10-16:** approve with changes. The product design (§3), policy (§5) and decision questions stand; the serving architecture for v1 (§4.2 to §4.7) is replaced by write-time verification and a cached read of one small table, with this cron and snapshot kept as the scale-up path. Review: factory `reviews/review-design-highlights-feed-2026-10-16.md` and the PR #331 comment; each affected child bead carries a validator note with the required change, which overrides its description where they differ.
 - **Author:** design agent, 2026-10-16. Rufus's request (2026-10-16): https://reportsthatmatter.org/highlights is effectively empty because it shows only the reader's own highlights, kept in their browser. Separate "my highlights" from a record of what is getting highlighted; the highlights section should show running updates of what readers are highlighting, to make the site a bit social. It can be completely anonymous. Personal highlights stay browser-based, on their own page or tab.
 
 ## 0. The short version
@@ -9,7 +10,7 @@
 - `/highlights` becomes a public, server-rendered page with three blocks: **Recently highlighted** (a stream of passages readers saved or shared, newest first), **Most highlighted this week** (once there are enough), and **Editor's picks** (so the page is never empty). The reader's own browser-kept highlights move to `/highlights/yours`, a second tab. The nav label stays "Highlights".
 - The data already exists: every Save and every Copy link/Share already posts the selected words to `POST /api/mark`, which stores them in D1 `marks` with a daily-salted hash of IP and user agent. Production holds 224 editor rows and **no reader rows** today (measured below), so the empty state matters more than the stream at first.
 - A Cron Trigger every 10 minutes rolls new `marks` rows (read by primary key above a watermark, so it never rescans) into two small tables, **verifies each passage's words against the published report text**, applies the public-display policy, and writes one JSON snapshot row. A view of `/highlights` costs one D1 row read (and is edge-cached for 60 s).
-- Defaults for the policy (decision 0021 asks Rufus to confirm): a passage appears **30 minutes after it is first marked, from one reader**; a count is printed only from 2 readers; times are coarse ("within the hour", "3 hours ago", "yesterday"); nothing identifying is shown or newly stored; selections under 4 words or 20 characters never appear; one reader can put at most 5 passages per report per day into the stream; affected-community reports (decision bead 63cd) are left out of the public stream until 63cd is decided.
+- Defaults for the policy (decision 0023 asks Rufus to confirm): a passage appears **30 minutes after it is first marked, from one reader**; a count is printed only from 2 readers; times are coarse ("within the hour", "3 hours ago", "yesterday"); nothing identifying is shown or newly stored; selections under 4 words or 20 characters never appear; one reader can put at most 5 passages per report per day into the stream; affected-community reports (decision bead 63cd) are left out of the public stream until 63cd is decided.
 - Budget at launch scale (10,000 page views and 500 marks a day): about 40,000 D1 rows read a day typically, about 110,000 at worst (0.8% to 2.2% of the 5M free tier), and about 2,600 new row writes a day (2.6% of 100k). Writes, not reads, are what bind as traffic grows: roughly 8 row writes per mark in total, so the free tier tops out near 12,000 marks a day.
 - Seven child beads under bght.10, ordered, each handoff-ready; none started.
 
@@ -116,10 +117,10 @@ Nothing new identifies a reader. The design stores no IP, no user agent, no cook
 One item is one **passage**: (report, current paragraph id, exact words). Markup reuses `.highlight-entry` and `.highlight-meta` from `assets/styles.css`, so it looks like the existing personal list:
 
 ```
-  │ NASA chose to continue to fly with a flawed design and to follow a
-  │ measured, 27-month, corrective program.
+  │ In the Inquiry's view, the diplomatic options had not at that stage
+  │ been exhausted. Military action was therefore not a last resort.
 
-  CHALLENGER: HOUSE REPORT · III. FINDINGS · P. 45 · 3 READERS · 2 HOURS AGO
+  CHILCOT INQUIRY · PRE-CONFLICT STRATEGY AND PLANNING · P. 6 · 3 READERS · 2 HOURS AGO
   READ IN PLACE →
 ```
 
@@ -150,7 +151,7 @@ We never fabricate activity: no seeded "reader" rows, no rotating editor items w
 
 ### 3.5 Per-report variant
 
-The report landing page gets a "What readers are highlighting" block (top 3 passages of that report with 2+ reader-days in the last 30 days), from the same snapshot, so it costs no extra D1 query beyond the snapshot row. It appears below the editorial reading guide and only when at least 2 passages qualify. Reports in `FEED_EXCLUDE` or flagged affected-community (while decision 0021 Q2's default holds) show no block. This replaces the dormant `topMarkedPassages` block, which never shows while editorial is approved. A filtered `/highlights?report=<id>` is left for later (§8).
+The report landing page gets a "What readers are highlighting" block (top 3 passages of that report with 2+ reader-days in the last 30 days), from the same snapshot, so it costs no extra D1 query beyond the snapshot row. It appears below the editorial reading guide and only when at least 2 passages qualify. Reports in `FEED_EXCLUDE` or flagged affected-community (while decision 0023 Q2's default holds) show no block. This replaces the dormant `topMarkedPassages` block, which never shows while editorial is approved. A filtered `/highlights?report=<id>` is left for later (§8).
 
 ### 3.6 Phones
 
@@ -223,7 +224,7 @@ Batches of 200 rows and at most 25 verifications per run keep a run inside the 1
 
 For each new passage: load the section fragment for its paragraph (resolved through the report's aliases, `resolveParagraph`) from the published content (`contentFor` then `loadFragment`, R2 or assets, no D1 beyond the `report_versions` pointer), then `extractParagraph` and `locate(paragraph, {prefix, exact, suffix})` (the same functions `topMarkedPassages` and `quotedPassage` use). Found: store the located words (they equal `exact` after normalisation). Not found, report not in the registry, or section missing: `status = 'rejected', reason = 'unverified'`. A rejected passage never appears and is never re-tried unless the rollup is rebuilt. This removes the injection and spam vector entirely: the public page can only ever print words the report contains, at a place it contains them.
 
-The landing page's `topMarkedPassages` already performs the same fragment load and paragraph extraction inside a request's CPU budget, which is the evidence that it fits; the implementation bead measures it (`wrangler dev --test-scheduled`, Workers CPU time).
+The landing page's `topMarkedPassages` performs the same fragment load and paragraph extraction, but it never runs in production (it is skipped whenever editorial is approved, which is all 18 reports), so it is not evidence that this fits. The live evidence is a `?p=…&h=…` request, which does one `loadReportMeta` parse plus one fragment load and `locate` per request. Measured by the validator on Node (same V8 engine; Workers will be somewhat slower): one fragment decode, `extractParagraph` and `locate` is about 0.7 ms on the largest fragment (Lehman `repo-105`, 1.1 MB), and parsing the largest `meta.json` (Leveson, 1.5 MB) is about 3.7 ms. 25 verifications in one run can therefore exceed the 10 ms Free-plan limit; one verification per request does not exceed what a quote link already costs.
 
 ### 4.4 The snapshot
 
@@ -284,15 +285,15 @@ The existing per-report marks reads (6kky) are not part of this table; #294 boun
 
 ## 5. Policy: what may appear publicly
 
-### 5.1 Threshold and delay (decision 0021 Q1)
+### 5.1 Threshold and delay (decision 0023 Q1)
 
 A passage becomes `visible` when all hold: verified; not held, hidden or rejected; at least **K = 1** reader-day; at least **30 minutes since `first_seen`**. Counts are printed only from 2. Times are coarse (§3.2). Both K and the delay are environment variables (`FEED_MIN_READERS`, `FEED_DELAY_MINUTES`), so a change needs no code.
 
 Why K = 1 and not the 2026-08-21 design's 3: production has had zero reader marks; at A2's 500 marks over 300 passages, most passages have one reader, so K = 3 would leave the stream empty for weeks and fail Rufus's "running updates". The privacy risk of K = 1 is that someone who knows you were reading the site at a given time could guess which passage was yours. The delay and the coarse hour break the link between "I just pressed Save" and "it appeared", and nothing shown or stored identifies anyone. K = 2 is the fallback if abuse or a complaint shows K = 1 is wrong.
 
-### 5.2 Affected-community reports (decision 0021 Q2)
+### 5.2 Affected-community reports (decision 0023 Q2)
 
-Strategy section 8 (63cd) makes Tier C passages "landing page only, never a card, post or thread", and with no review by the campaign groups "silence means Tier A only". A public stream of reader-chosen passages lifted out of the report is closer to a post than to the landing page, and Tier A cannot be judged automatically (it needs a reading of the grammatical subject). Default, until 63cd is decided: **reader passages from reports flagged `affected_community` (zh1w's flag; until it lands, the eight named reports plus the CIA torture report, hard-coded in one list) are rolled up with `status = 'held', reason = 'excluded-report'` and appear neither in the stream nor in a landing block.** They still shade the text inside the report itself, as today. When 63cd is decided, the options are an automated Tier C screen (the strategy's word list and the editorial files' private-people list) or keeping them out.
+Strategy section 8 (63cd) makes Tier C passages "landing page only, never a card, post or thread", and with no review by the campaign groups "silence means Tier A only". A public stream of reader-chosen passages lifted out of the report is closer to a post than to the landing page, and Tier A cannot be judged automatically (it needs a reading of the grammatical subject). This is 9 of the 18 live reports (Challenger, Columbia, 9/11, Deepwater Horizon, Hillsborough, Saville, Post Office, Grenfell, CIA torture), so for now the public stream draws on half the corpus. Default, until 63cd is decided: **reader passages from reports flagged `affected_community` (zh1w's flag; until it lands, the eight named reports plus the CIA torture report, hard-coded in one list) are rolled up with `status = 'held', reason = 'excluded-report'` and appear neither in the stream nor in a landing block.** They still shade the text inside the report itself, as today. When 63cd is decided, the options are an automated Tier C screen (the strategy's word list and the editorial files' private-people list) or keeping them out.
 
 ### 5.3 Short, long and offensive selections
 
@@ -317,20 +318,20 @@ Strategy section 8 (63cd) makes Tier C passages "landing page only, never a card
 
 - Stored: nothing new about readers. The feed tables hold passages, counts and times, no actor.
 - Shown: report, section, page, words, a count from 2, a time rounded to the hour.
-- Consent (decision 0021 Q4): counting stays on by default, as it is today, with accurate copy and an opt-out. On `/highlights/yours`, a checkbox "Count my saves and shares anonymously in Readers' highlights" (checked) writes `rtm.count-marks = "off"` to `localStorage`; `share.js` skips `/api/mark` when it is off. The byline becomes "Kept in this browser. When you save or share, the words (not you) are counted anonymously." The About page gets a short "What we record" paragraph.
+- Consent (decision 0023 Q4): counting stays on by default, as it is today, with accurate copy and an opt-out. On `/highlights/yours`, a checkbox "Count my saves and shares anonymously in Readers' highlights" (checked) writes `rtm.count-marks = "off"` to `localStorage`; `share.js` skips `/api/mark` when it is off. The byline becomes "Kept in this browser. When you save or share, the words (not you) are counted anonymously." The About page gets a short "What we record" paragraph.
 - Removing a highlight on Yours does not retract its count (the actor rotates daily and the rollup only adds). Same-day retraction (`DELETE` by today's actor hash plus a rollup that subtracts) was considered and left out of v1: it doubles the rollup's logic for a case the delay and anonymity already make low-stakes. The Yours page says so in one line.
 
 ## 6. Alternatives considered
 
 | Alternative | Why not |
 | --- | --- |
-| Query `marks` on every `/highlights` view (`ORDER BY created_at DESC`) | Needs a new index on `marks` (3 → 4 writes a mark); reads scale with views × window, the 6kky pattern that exhausted reads on 2026-10-03 (t4al); no place for verification. |
+| Query `marks` on every `/highlights` view (`ORDER BY created_at DESC`) | Reads scale with views × window, the 6kky pattern that exhausted reads on 2026-10-03 (t4al); no place for verification. (Validator: no new index is needed, since `ORDER BY id DESC LIMIT n` is a rowid scan; the objection that stands is verification, which write-time verification into a small table answers. See the Validated line at the top.) |
 | Maintain counts inside `POST /api/mark` | Adds reads, writes and fragment-parse CPU to every mark on the request path, and the delay still needs something to run later. |
 | Rebuild the snapshot lazily on a `/highlights` request (no cron) | Racy with two concurrent rebuilds, puts work on a reader's request, and nothing becomes visible while nobody visits. |
 | Snapshot in KV | A new binding and service for one value; free KV writes are 1,000 a day (enough, but a second budget to watch). D1 one row is simpler. |
 | Snapshot as an R2 object in `CONTENT` | That bucket holds immutable content-hash objects; mixing derived, mutable state in breaks a clean rule. |
 | Live updates (polling, SSE, Durable Objects with websockets) | Cost and complexity, and moving content breaks the restrained design and screen readers; a 60 s cached page is "running" enough. |
-| Threshold 3 (2026-08-21 design) | Empty for weeks at launch traffic (0 reader marks today). Kept as an option in 0021. |
+| Threshold 3 (2026-08-21 design) | Empty for weeks at launch traffic (0 reader marks today). Kept as an option in 0023. |
 | Threshold 1 with no delay and exact times | "Saved 1 minute ago" ties a reader's action to a public row; the 30-minute delay and hour rounding cost little. |
 | Printing `exact` as posted | Anyone could publish arbitrary text on reportsthatmatter.org. Never. |
 | Interleaving Editor's picks with readers' items, or giving them times | Poses as reader activity (decision 0014). |
@@ -338,7 +339,7 @@ Strategy section 8 (63cd) makes Tier C passages "landing page only, never a card
 | Rename the nav link ("Readers' highlights", "Highlighted", "Saved") | Longer on a crowded phone header (0018); "Highlights" covers both tabs. |
 | Rotating editor's highlights as "fresh" content | Fakes activity. Picks are a fixed, labelled list. |
 | Include affected-community reports with an automated Tier C screen now | 63cd is undecided and campaign groups have not been asked; Tier A cannot be judged by a word list. Offered as the post-63cd option. |
-| Opt-in counting | The stream would stay empty; today's behaviour is already opt-out-less counting, and the design adds the opt-out and honest copy. Offered in 0021 Q4. |
+| Opt-in counting | The stream would stay empty; today's behaviour is already opt-out-less counting, and the design adds the opt-out and honest copy. Offered in 0023 Q4. |
 | A network hash against inflation now | Stores more per reader for a speculative risk; held as a follow-up (§5.4). |
 
 ## 7. Implementation beads (children of bght.10, all `stream:product`, unstarted)
@@ -351,9 +352,9 @@ In order; each lists its blockers. Full Goal, Where, Acceptance, Verify and Out 
 4. **bght.10.4 Yours tab, honest copy and opt-out** (`level:specced`, after .3): move the personal list to `/highlights/yours` (noindex); "You have N saved" line on `/highlights`; byline and About copy; opt-out checkbox honoured by `share.js`; links from the popover.
 5. **bght.10.5 `pnpm feed` moderation and kill switches** (`level:specced`, after .1): `status`, `list --held`, `hide`, `show`, `hide --report`, `rebuild` (reset the watermark and re-verify everything); `FEED_ENABLED`, `FEED_EXCLUDE`; AGENTS.md and release-checklist lines (the migration must be applied before the deploy that reads it).
 6. **bght.10.6 Landing-page "What readers are highlighting"** (`level:specced`, after .2, P3): per-report top 3 from the snapshot; replaces the dormant `topMarkedPassages` call.
-7. **bght.10.7 Production check after the first week** (`level:judgement`, after .3 and the ship, P3): `pnpm d1-usage` against §4.7, `pnpm feed status` (held and rejected reasons), a read of the visible items for anything that should not be there; adjust K, delay or blocklist through 0021 if needed.
+7. **bght.10.7 Production check after the first week** (`level:judgement`, after .3 and the ship, P3): `pnpm d1-usage` against §4.7, `pnpm feed status` (held and rejected reasons), a read of the visible items for anything that should not be there; adjust K, delay or blocklist through 0023 if needed.
 
-The decision bead for 0021 does not block the build: implementation proceeds on the defaults, and each default is an environment variable or a one-line list.
+The decision bead for 0023 does not block the build: implementation proceeds on the defaults, and each default is an environment variable or a one-line list.
 
 ## 8. Not in this design
 
@@ -369,4 +370,4 @@ The decision bead for 0021 does not block the build: implementation proceeds on 
 - **Migration ordering:** the cron and page read tables that a deploy alone does not create; the integrator applies `0005` to production first (one-off, a few rows written). Code must treat a missing table as "feed off".
 - **`export default` change:** `src/index.ts` exports `app` today; tests and scripts that import it must keep working.
 - **Alias drift:** `feed_passages.paragraph` is stored as marked and resolved at snapshot time (j53o), so a re-ingest moves items correctly. A visible passage whose words a correction removed stays visible (verification runs once per passage) until `pnpm feed rebuild` (bght.10.5) re-verifies everything; the integrator runs it after a republish that changes text, and the item's link still lands (the ?h= fallback marks the paragraph and says so).
-- **The 0021 defaults could be overruled** after build; each is a variable or a list, so that costs a deploy, not a redesign.
+- **The 0023 defaults could be overruled** after build; each is a variable or a list, so that costs a deploy, not a redesign.
