@@ -291,6 +291,13 @@ export const SPACING_DAYS = 14;
 /** Kept-clear dates, every year, as inclusive `MM-DD` bounds: nothing is scheduled 18 December to 2 January. */
 export const BLACKOUT = { from: "12-18", to: "01-02" } as const;
 
+/**
+ * Single kept-clear days, every year (`MM-DD`; strategy, "Dates we keep clear": nothing from us on them). 23 Oct: the Soldier F
+ * acquittal; 23 Nov: Litvinenko's death; 6 Jan: the Capitol (the strategy allows one plain excerpt at most: the poster posts none);
+ * 28 Jan: Challenger, NASA Day of Remembrance; 30 Jan: Bloody Sunday.
+ */
+export const KEPT_CLEAR_DAYS: readonly string[] = ["10-23", "11-23", "01-06", "01-28", "01-30"];
+
 /** The queue opens with an excerpt from this report, on the queue's start date. */
 export const OPENING_REPORT = "challenger-accident";
 
@@ -302,7 +309,7 @@ export const NEVER_FIRST_REPORTS: readonly string[] = ["jack-smith-vol1", "us-ja
 
 export function isBlackout(date: string): boolean {
   const md = date.slice(5);
-  return md >= BLACKOUT.from || md <= BLACKOUT.to;
+  return md >= BLACKOUT.from || md <= BLACKOUT.to || KEPT_CLEAR_DAYS.includes(md);
 }
 
 function daysBetween(a: string, b: string): number {
@@ -366,7 +373,7 @@ export function queueViolations(queue: readonly QueueItem[], newsDayOnly: readon
     problems.push(`${i.id}: ${i.report} is quoted only on its own news days, never scheduled (${i.scheduled})`);
   }
   for (const i of queue.filter((i) => !i.posted_url)) {
-    if (isBlackout(i.scheduled)) problems.push(`${i.id}: scheduled ${i.scheduled}, inside the kept-clear dates (${BLACKOUT.from} to ${BLACKOUT.to})`);
+    if (isBlackout(i.scheduled)) problems.push(`${i.id}: scheduled ${i.scheduled}, on a kept-clear date (${BLACKOUT.from} to ${BLACKOUT.to}, or ${KEPT_CLEAR_DAYS.join(", ")})`);
   }
   for (const report of SPACED_REPORTS) {
     const dated = queue.filter((i) => i.report === report).sort((a, b) => a.scheduled.localeCompare(b.scheduled));

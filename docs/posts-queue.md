@@ -64,7 +64,7 @@ Kept in code (`scheduleItems`, `queueViolations` in `src/lib/posts.ts`, with tes
 
 - the first item is a Challenger excerpt, dated the queue's start date (whatever `--start` is; only while nothing has been posted); Jack Smith, the January 6th report and Chilcot are never first;
 - no two Post Office items, and no two Grenfell items, within 14 days of each other (a day with only such items left stays empty);
-- nothing is scheduled from 18 December to 2 January, every year.
+- nothing is scheduled from 18 December to 2 January, or on 23 October, 23 November, 6, 28 or 30 January, every year.
 
 Three more rules, decided by Rufus on 2026-10-16 (63cd, 80qf) and read from the registry (`reports/registry.yaml`), applied before a candidate is resolved and again by `--check`:
 
@@ -74,4 +74,4 @@ Three more rules, decided by Rufus on 2026-10-16 (63cd, 80qf) and read from the 
 
 Marking another highlight Tier A, or adding a report to either list, is a registry or editorial edit followed by `pnpm editorial && pnpm posts --drop-stale`.
 
-Still by hand: the kept-clear single dates (23 Oct, 23 Nov, 6 Jan, 28 Jan, 30 Jan) are not in the scheduler (only 18 Dec to 2 Jan is). The Post Office and Hillsborough cards render without a plate (`src/lib/card-plates.ts`): the Inquiry's wordmark and the Leppings Lane plan must not travel on a post.
+The single kept-clear dates (23 Oct, 23 Nov, 6 Jan, 28 Jan, 30 Jan; `KEPT_CLEAR_DAYS`) are skipped like 18 Dec to 2 Jan, and `--check` fails an item scheduled on one. Still by hand: the Post Office and Hillsborough cards render without a plate (`src/lib/card-plates.ts`): the Inquiry's wordmark and the Leppings Lane plan must not travel on a post.

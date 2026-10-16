@@ -381,6 +381,11 @@ describe("scheduling rules (ay85)", () => {
     expect(["2026-12-18", "2026-12-25", "2027-01-01", "2027-01-02", "2028-12-31"].every(isBlackout)).toBe(true);
   });
 
+  it("knows the single kept-clear days (23 Oct, 23 Nov, 6, 28 and 30 Jan), in any year", () => {
+    expect(["2026-10-23", "2026-11-23", "2027-01-06", "2027-01-28", "2027-01-30", "2030-10-23"].every(isBlackout)).toBe(true);
+    expect(["2026-10-22", "2026-10-24", "2026-11-22", "2027-01-29"].some(isBlackout)).toBe(false);
+  });
+
   it("opens with the opening report's excerpt on the start date, whatever the start, and never with Jack Smith", () => {
     for (const start of ["2026-10-20", "2026-11-03"]) {
       const out = scheduleItems(
