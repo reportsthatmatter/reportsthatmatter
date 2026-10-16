@@ -7,6 +7,8 @@
  * switch is `pnpm feed hide --all` (scripts/feed.mjs).
  */
 
+import { AFFECTED_COMMUNITY_REPORTS } from "../generated/affected";
+
 /** The environment the feed reads. All optional: unset means the decision 0023 default. */
 export type FeedEnv = {
   /** "false" turns the feed off: no new rows are written and /highlights shows Editor's picks only. */
@@ -20,20 +22,10 @@ export type FeedEnv = {
 /**
  * Reports about events with affected communities (decision bead 63cd, strategy section 8). Decision 0023 Q2 A:
  * left out of the public stream until 63cd is decided; they are still shaded inside the report as before.
- * Hard-coded until zh1w adds an `affected_community` flag to reports/registry.yaml; then this list is read from
- * there.
+ * Read from `affected_community: true` in reports/registry.yaml (zh1w), the one list: `pnpm editorial` copies it
+ * to src/generated/affected.ts, which the Worker bundles (no YAML parse in the Worker), and `--check` fails if stale.
  */
-export const AFFECTED_COMMUNITY_REPORTS: readonly string[] = [
-  "challenger-accident",
-  "columbia-accident",
-  "us-911-commission",
-  "us-deepwater-horizon",
-  "uk-hillsborough-panel",
-  "uk-saville-inquiry",
-  "uk-post-office-horizon-inquiry",
-  "uk-grenfell-tower-inquiry",
-  "us-senate-cia-torture-report",
-];
+export { AFFECTED_COMMUNITY_REPORTS };
 
 /** A selection shorter than this (in words, or in characters) is never published: it is not a quotation. */
 export const MIN_WORDS = 4;
