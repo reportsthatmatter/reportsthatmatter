@@ -8,6 +8,7 @@
  *       --versions                            also copy report_versions and search_index_versions, and the passages of any report
  *                                             reindexed since; only before the cutover (afterwards Datopian's are the newer)
  *   pnpm migrate-hosting sync-r2 [--dry-run]  copy every R2 object missing or different on Datopian, then compare every ETag
+ *       --parallel N                          concurrent copies (default 4: the API allows ~4 requests a second per user, so ~10k objects take ~45 min)
  *
  *   --from atomatic --to datopian             the default direction; --from datopian --to atomatic reverses it (rollback)
  *
@@ -206,8 +207,11 @@ async function r2Copy(o: R2Object) {
       if (!put.ok) throw new Error(`PUT ${o.key}: ${put.status} ${await put.text()}`);
       return;
     } catch (e) {
-      if (attempt >= 6) throw e;
-      await new Promise((r) => setTimeout(r, 2000 * attempt * attempt));
+      // The API allows 1,200 requests per 5 minutes per user: a 429 waits out a good part of that window.
+      const limited = / 429\b/.test(String((e as Error).message));
+      if (attempt >= (limited ? 20 : 6)) throw e;
+      console.error(`\n  retry ${attempt} ${o.key}: ${(e as Error).message.slice(0, 160)}`);
+      await new Promise((r) => setTimeout(r, limited ? 30_000 : 2000 * attempt * attempt));
     }
   }
 }
@@ -221,7 +225,7 @@ async function syncR2() {
   if (flag("--dry-run") || !todo.length) return;
   let done = 0;
   const queue = [...todo];
-  await Promise.all(Array.from({ length: 16 }, async () => {
+  await Promise.all(Array.from({ length: Number(opt("--parallel") ?? 4) }, async () => {
     for (let o = queue.shift(); o; o = queue.shift()) {
       await r2Copy(o);
       if (++done % 25 === 0 || done === todo.length) process.stdout.write(`\r  copied ${fmt(done)}/${fmt(todo.length)}`);

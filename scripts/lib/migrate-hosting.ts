@@ -5,13 +5,13 @@
  */
 
 /** A Cloudflare account this project can run on, and the wrangler flags that select it without touching wrangler's directory bindings. */
-export type Account = { name: "atomatic" | "datopian"; accountId: string; wrangler: string[]; profile: string };
+export type Account = { name: "atomatic" | "datopian"; accountId: string; wrangler: string[]; profile: string; databaseId: string };
 
 export const ACCOUNTS: Record<Account["name"], Account> = {
   // office@atomatic.net: production until the cutover. `--profile default` is explicit so the call does not depend on the cwd's binding.
-  atomatic: { name: "atomatic", accountId: "d342705a2f17c3e08a5dab494564e406", wrangler: ["--profile", "default"], profile: "default" },
+  atomatic: { name: "atomatic", accountId: "d342705a2f17c3e08a5dab494564e406", wrangler: ["--profile", "default"], profile: "default", databaseId: "5200e0db-733d-40d6-962e-2f1eb024f060" },
   // accounts@datopian.com (Workers Paid): `[env.datopian]` in wrangler.toml carries its account_id and bindings.
-  datopian: { name: "datopian", accountId: "83025b28472d6aa2bf5ae59f3724aa78", wrangler: ["--env", "datopian", "--profile", "datopian"], profile: "datopian" },
+  datopian: { name: "datopian", accountId: "83025b28472d6aa2bf5ae59f3724aa78", wrangler: ["--env", "datopian", "--profile", "datopian"], profile: "datopian", databaseId: "ceb6c2cc-f9a2-414c-8ff5-476da129e7ec" },
 };
 
 export const TABLES = ["marks", "search_index_versions", "report_versions", "passages"] as const;
