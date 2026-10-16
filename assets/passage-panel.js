@@ -33,11 +33,28 @@ const nested = (text) =>
     .replace(/(^|[\s(\[\u2014])["\u201c]/g, "$1\u2018")
     .replace(/["\u201d\u201c]/g, "\u2019");
 
+/** Where a reader asks for a correction or a removal (src/templates/site.ts CONTACT_PATH). */
+const CONTACT_PATH = "/about#contact";
+
 /**
- * @param {{ body: HTMLElement, marks: HTMLElement[], paragraph: HTMLElement | null, exact: string }} landed
+ * A paragraph's own words, without its ¶ permalink or its notes: what a `?p=` link names.
+ * @param {HTMLElement} paragraph
+ */
+function paragraphText(paragraph) {
+  const copy = /** @type {HTMLElement} */ (paragraph.cloneNode(true));
+  for (const extra of copy.querySelectorAll(".permalink, .sidenote, .sidenote-toggle")) extra.remove();
+  return copy.textContent || "";
+}
+
+/**
+ * A `?h=` link names words (`exact`) and the panel quotes them. A `?p=` link names a whole paragraph,
+ * already washed on the page, so the panel leaves the quote out and only says where it is from
+ * (decision hbnj: the source line on the paragraph view).
+ * @param {{ body: HTMLElement, marks: HTMLElement[], paragraph: HTMLElement | null, exact: string | null }} landed
  */
 export function showPassagePanel({ body, marks, paragraph, exact }) {
-  const quote = tidy(exact);
+  const whole = exact === null;
+  const quote = tidy(whole ? (paragraph ? paragraphText(paragraph) : "") : exact);
   const url = shareableUrl(paragraph);
   const page = paragraph ? pageFor(paragraph) : null;
   const report = body.dataset.reportTitle || "";
@@ -52,19 +69,23 @@ export function showPassagePanel({ body, marks, paragraph, exact }) {
   panel.setAttribute("aria-labelledby", "passage-panel-kicker");
   panel.innerHTML = `
 <div class="passage-panel-head">
-  <p class="passage-panel-kicker mono" id="passage-panel-kicker">Shared passage</p>
+  <p class="passage-panel-kicker mono" id="passage-panel-kicker">${whole ? "Linked paragraph" : "Shared passage"}</p>
   <button type="button" class="passage-panel-close" data-action="close" aria-label="Close">×</button>
 </div>
 <blockquote class="passage-panel-quote"></blockquote>
 <p class="passage-panel-cite mono"></p>
+<p class="passage-panel-source mono"></p>
 <div class="passage-panel-actions">
   <button type="button" data-action="share" hidden>Share</button>
   <a data-action="bluesky" target="_blank" rel="noopener" hidden>Bluesky</a>
   <button type="button" data-action="copy-link">Copy link</button>
   <button type="button" data-action="copy-quote">Copy quote</button>
 </div>`;
-  /** @type {HTMLElement} */ (panel.querySelector(".passage-panel-quote")).textContent = `“${nested(shorten(quote, QUOTE_MAX))}”`;
+  const quoteBlock = /** @type {HTMLElement} */ (panel.querySelector(".passage-panel-quote"));
+  if (whole) quoteBlock.remove();
+  else quoteBlock.textContent = `“${nested(shorten(quote, QUOTE_MAX))}”`;
   /** @type {HTMLElement} */ (panel.querySelector(".passage-panel-cite")).textContent = cite;
+  sourceLine(/** @type {HTMLElement} */ (panel.querySelector(".passage-panel-source")), body);
 
   // A phone has a share sheet, which reaches Bluesky and everything else; a
   // desktop usually does not, so it gets the one network we post to.
@@ -118,6 +139,29 @@ export function showPassagePanel({ body, marks, paragraph, exact }) {
   });
 
   return panel;
+}
+
+/**
+ * The official document, the edition notes and the way to ask for a correction or removal, from the
+ * report body's data attributes (src/templates/report.ts sourceAttributes). Built as elements, not
+ * markup, because the URLs come from the registry.
+ * @param {HTMLElement} line
+ * @param {HTMLElement} body
+ */
+function sourceLine(line, body) {
+  const links = [
+    [body.dataset.sourceUrl, "Original document ↗", "nofollow noopener"],
+    [body.dataset.editionUrl, "About this edition", ""],
+    [CONTACT_PATH, "Corrections and removal", ""],
+  ].filter(([href]) => href);
+  links.forEach(([href, label, rel], i) => {
+    if (i) line.append(" · ");
+    const link = document.createElement("a");
+    link.href = /** @type {string} */ (href);
+    link.textContent = /** @type {string} */ (label);
+    if (rel) link.rel = /** @type {string} */ (rel);
+    line.append(link);
+  });
 }
 
 /**

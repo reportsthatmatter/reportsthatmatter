@@ -1353,6 +1353,22 @@ hr {
   color: var(--muted);
 }
 
+/* Where the passage comes from (decision hbnj): the official document, the edition notes, and the
+ * way to ask for a correction or removal. Quieter than the citation above it. */
+.passage-panel-source {
+  margin: -0.5rem 0 0;
+  padding: 0 1rem 0.9rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.passage-panel-source a {
+  color: var(--body);
+  text-underline-offset: 0.2em;
+}
+
 .passage-panel-actions {
   display: flex;
   gap: 1px;

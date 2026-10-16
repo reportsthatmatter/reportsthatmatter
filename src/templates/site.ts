@@ -34,3 +34,16 @@ export const SITE_STANDFIRST =
  * handle for the same reason.
  */
 export const BLUESKY_PROFILE_URL = "https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t";
+
+/** The site repo, where readers' reports and requests arrive as issues. */
+export const REPO_URL = "https://github.com/reportsthatmatter/reportsthatmatter";
+
+/**
+ * Where a reader asks for a correction or a removal (decisions hbnj and 63cd): the contact section
+ * on /about, linked from the footer and from the panel a shared passage lands on. The project has no
+ * email address yet (reportsthatmatter-fh6v); until it has, requests arrive as GitHub issues
+ * from the two templates below.
+ */
+export const CONTACT_PATH = "/about#contact";
+export const REMOVAL_ISSUE_URL = `${REPO_URL}/issues/new?template=removal.yml`;
+export const TEXT_DEFECT_ISSUE_URL = `${REPO_URL}/issues/new?template=text-defect.yml`;

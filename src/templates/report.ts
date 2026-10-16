@@ -160,6 +160,17 @@ export function reportPreview(
   };
 }
 
+/**
+ * What the panel a `?p=` link lands on needs to name its source (decision hbnj): the official
+ * document and, where the report has them, its processing notes. Data attributes on the report body,
+ * the same on every request (tests/head.test.ts), read by assets/passage-panel.js.
+ */
+export function sourceAttributes(meta: ReportMeta, processingNotes = false): string {
+  const edition = processingNotes && meta.id ? `/reports/${meta.id}/processing` : "";
+  return `data-source-url="${escapeHtml(meta.source_url ?? "")}"
+      data-edition-url="${escapeHtml(edition)}"`;
+}
+
 /** The frontispiece slot, in CSS px — a plate of any proportion fits inside. */
 const FRONTISPIECE = { width: 300, height: 220 };
 
@@ -181,7 +192,8 @@ export function renderReport(
   /** Paragraph id from `?p=`, used to preview the quoted passage when shared. */
   highlighted?: string,
   /** Quote anchor from `?h=`, naming the words within that paragraph. */
-  anchor?: string
+  anchor?: string,
+  options: { processingNotes?: boolean } = {}
 ): string {
   const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
   const quoted = highlighted ? quotedPassage(html, highlighted, anchor) : null;
@@ -207,7 +219,8 @@ export function renderReport(
       data-report="${escapeHtml(meta.id ?? "")}"
       data-report-title="${escapeHtml(meta.title)}"
       data-section=""
-      data-section-title="">
+      data-section-title=""
+      ${sourceAttributes(meta, options.processingNotes)}>
       ${html}
     </div>
   </article>

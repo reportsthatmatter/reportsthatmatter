@@ -795,8 +795,9 @@ app.get("/reports/:id/full", async (c) => {
     const body = await loadFullBody(loaded.content);
     if (body === null) return c.html(renderNotFound(false), 404);
 
+    const processingNotes = (await loadProcessingNotes(c.env?.ASSETS, reportId)) !== null;
     c.header("x-rtm-content-version", loaded.content.version);
-    return c.html(renderReport(loaded.report, body, p, h));
+    return c.html(renderReport(loaded.report, body, p, h, { processingNotes }));
   });
 });
 
@@ -845,8 +846,9 @@ app.get("/reports/:id/:section", async (c) => {
     const fragment = await loadFragment(loaded.content, slug);
     if (fragment === null) return c.html(renderNotFound(false), 404);
 
+    const processingNotes = (await loadProcessingNotes(c.env?.ASSETS, reportId)) !== null;
     c.header("x-rtm-content-version", loaded.content.version);
-    return c.html(renderSection(loaded.report, loaded.meta.sections, index, fragment, p, h));
+    return c.html(renderSection(loaded.report, loaded.meta.sections, index, fragment, p, h, { processingNotes }));
   });
 });
 
