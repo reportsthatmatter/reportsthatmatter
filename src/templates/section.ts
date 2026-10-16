@@ -170,6 +170,7 @@ export function renderReportOverview(
     image: shareImage(meta),
     imageAlt: meta.title,
     url: `${SITE_ORIGIN}/reports/${meta.id ?? ""}`,
+    follow: true,
     extraMeta: citationMeta(meta),
     structuredData: reportJsonLd(meta, description),
     // A draft shown for review must not be what a search engine keeps.
