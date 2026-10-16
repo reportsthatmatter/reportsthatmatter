@@ -68,9 +68,9 @@ export function renderAbout(): string {
     <p class="section-label mono" id="licences-heading">Licences</p>
     <div class="prose measure">
       <p>The code is open source under the <a href="https://github.com/reportsthatmatter/reportsthatmatter/blob/main/LICENSE">MIT licence</a>.
-      Each report's text keeps the status it has at source: reports of the US government are in the public
-      domain, and UK inquiry reports are Crown copyright, reused under the Open Government Licence where the
-      report says so. Our own markup and editorial writing are
+      Each report's text keeps the status it has at source, which is not ours to change: most are works of the
+      US government, in the public domain, or UK Crown copyright reused under the Open Government Licence. A few
+      are neither, or we could not confirm their status, and we say so. Our own markup and editorial writing are
       <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The exact terms, with the evidence
       and anything we could not confirm, are in the LICENSE file of each
       <a href="https://github.com/reportsthatmatter">report's repository</a>.</p>
