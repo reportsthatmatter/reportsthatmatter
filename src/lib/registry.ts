@@ -20,6 +20,10 @@ export type ReportRegistry = {
     date_published?: string;
     /** About events with affected communities (strategy section 8, decision 63cd): the feed leaves it out, and `pnpm editorial` / `pnpm posts` hold its highlights to the tier rule. */
     affected_community?: boolean;
+    /** Quoted only on the report's own news days (strategy section 8, 80qf): the queue never schedules its items on an ordinary day. */
+    news_day_only?: boolean;
+    /** A factual line appended to every automated post from the report (strategy section 8, 63cd). */
+    context_line?: string;
     /** The report repository on GitHub (`github.com/reportsthatmatter/<repo>`). */
     repo?: string;
     /** The report's own licence, only where a repository or processing note records one. */

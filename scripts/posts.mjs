@@ -46,7 +46,7 @@ import "./lib/help.mjs";
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse, stringify } from "yaml";
-import { resolveCandidate, buildQueue, isoDate, queueViolations, QUEUE_HEADER } from "../src/lib/posts.ts";
+import { resolveCandidate, buildQueue, isoDate, queueViolations, reportPolicies, posterEligibility, QUEUE_HEADER } from "../src/lib/posts.ts";
 import { CARDS } from "../src/generated/cards.ts";
 import { SITE_ORIGIN } from "../src/templates/site.ts";
 import { inScope, reportScope } from "./lib/posts-scope.ts";
@@ -68,6 +68,8 @@ if (startIdx >= 0 && !/^\d{4}-\d{2}-\d{2}$/.test(flagStart ?? "")) {
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const titleOf = Object.fromEntries(registry.reports.map((r) => [r.id, r.title]));
 const reportOrder = registry.reports.map((r) => r.id);
+const policies = reportPolicies(registry);
+const newsDayOnly = registry.reports.filter((r) => r.news_day_only === true).map((r) => r.id);
 const affected = affectedCommunityIds(registry); // the registry's affected_community flag (zh1w)
 const unknownScope = scope.filter((id) => !titleOf[id]);
 if (unknownScope.length) {
@@ -92,6 +94,7 @@ for (const name of editorialFiles) {
       reportTitle: titleOf[source.report],
       paragraph: h.paragraph,
       quote: h.quote,
+      tier: h.tier,
       origin: "editorial",
     });
   }
@@ -147,6 +150,8 @@ function htmlFor(reportId) {
 // on, in the same way `verify.sh` already does; failing the whole queue a
 // second time here would only duplicate that gate less thoroughly.
 const skipped = [];
+// Policy exclusions (63cd Tier B, 80qf news-day-only): not defects, so they are listed and never fail the run.
+const excluded = [];
 const resolved = [];
 const seen = new Set();
 let defaultCardCount = 0;
@@ -169,8 +174,14 @@ for (const candidate of candidates) {
     note(`skipped: ${text.split(": ").slice(1).join(": ")}`);
     continue;
   }
+  const eligible = posterEligibility(candidate, policies);
+  if (!eligible.ok) {
+    excluded.push({ report: candidate.report, paragraph: candidate.paragraph, kind: eligible.kind, reason: eligible.reason, candidate });
+    note(`excluded: ${eligible.reason}`);
+    continue;
+  }
   const html = htmlFor(candidate.report);
-  const result = resolveCandidate(candidate, html, CARDS, SITE_ORIGIN);
+  const result = resolveCandidate({ ...candidate, contextLine: policies.get(candidate.report)?.contextLine }, html, CARDS, SITE_ORIGIN);
   if (!result.ok) {
     skipped.push({ report: candidate.report, text: result.problem });
     note(`skipped: ${result.problem.replace(`${candidate.report}/${candidate.paragraph}: `, "")}`);
@@ -188,8 +199,20 @@ for (const candidate of candidates) {
 
 if (affectedCards.length) {
   const tierCCount = affectedCards.filter((c) => c.tierC).length;
-  console.log(`${affectedCards.length} card: true highlight(s) in affected-community reports, ${tierCCount} Tier C${tierCCount && !TIER_C_IS_FAILURE ? " (queued today: Tier C is a warning until decision 63cd)" : ""}:`);
+  console.log(`${affectedCards.length} card: true highlight(s) in affected-community reports, ${tierCCount} Tier C${tierCCount && !TIER_C_IS_FAILURE ? " (queued today: Tier C is a warning)" : ""}:`);
   for (const c of affectedCards) console.log(`  ${c.tierC ? "!" : "-"} ${c.report}/${c.paragraph} [${c.origin}]: ${c.status}${c.tierC ? `; ${c.tierC}` : ""}`);
+}
+
+const tierB = excluded.filter((e) => e.kind === "tier-b");
+const newsDay = excluded.filter((e) => e.kind === "news-day");
+if (tierB.length) console.log(`${tierB.length} candidate(s) kept out of the queue as Tier B (affected-community reports need \`tier: A\` on the highlight; 63cd).`);
+if (newsDay.length) {
+  const reports = [...new Set(newsDay.map((e) => e.report))];
+  console.log(`${newsDay.length} candidate(s) held for news days (${reports.join(", ")}; 80qf). Pass --report <id> to list them.`);
+  for (const e of newsDay.filter((e) => scope.includes(e.report))) {
+    const r = resolveCandidate(e.candidate, htmlFor(e.report), CARDS, SITE_ORIGIN);
+    console.log(`  - ${e.report}/${e.paragraph}: ${r.ok ? `${r.item.link}\n${r.item.text.replace(/^/gm, "      ")}` : `not postable: ${r.problem}`}`);
+  }
 }
 
 const mine = inScope(skipped, scope);
@@ -206,14 +229,19 @@ const queuePath = join(root, "marketing/queue.yaml");
 const existingDoc = existsSync(queuePath) ? parse(readFileSync(queuePath, "utf8")) : null;
 const existing = existingDoc?.items ?? [];
 
-const { queue, added, staleUnposted: staleAll, stalePosted } = buildQueue({
+const { queue, added, staleUnposted: staleAll, stalePosted, heldBack } = buildQueue({
   resolved,
   existing,
   today: isoDate(new Date()),
   reportOrder,
   dropStale: flagDropStale,
   restartFrom: flagStart,
+  newsDayOnly,
 });
+if (heldBack.length) {
+  console.warn(`Took ${heldBack.length} not-yet-posted news-day-only item(s) out of the queue (80qf):`);
+  for (const i of heldBack) console.warn(`  - ${i.scheduled} ${i.id}`);
+}
 
 // A stale item belongs to the report its queue entry names; --report scopes which ones fail this run.
 const reportOfItem = new Map(existing.map((item) => [item.id, item.report]));
@@ -241,7 +269,7 @@ if (stalePosted.length) {
 }
 
 // The scheduling rules (src/lib/posts.ts: opening report, Post Office / Grenfell spacing, kept-clear dates).
-const violations = queueViolations(queue);
+const violations = queueViolations(queue, newsDayOnly);
 if (violations.length) {
   console.error(`${violations.length} scheduling rule break(s) in the queue (re-date with pnpm posts --start YYYY-MM-DD):`);
   for (const v of violations) console.error(`  - ${v}`);

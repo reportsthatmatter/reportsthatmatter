@@ -19,7 +19,7 @@ After the account exists (reportsthatmatter-y2t.1):
    ```bash
    gh variable set POSTER_LIVE --body true
    ```
-   The next 14:00 UTC run posts. Do this on launch day (Tue 2026-10-13) or after: the queue's first item is dated 2026-10-14, so nothing is due before then whatever the variable says.
+   The next 14:00 UTC run posts. Launch is Tue 2026-10-20: switch on that day before 14:00 UTC (the 20 October run posts the queue's first item, Challenger p. 146), or later; nothing is dated before 20 October, so nothing is due before then whatever the variable says. `pnpm posts --check` must pass first (it runs in the workflow too). Rufus's order for the day is `drafts/2026-10/launch-day-checklist.md` in the marketing repo. GitHub starts the scheduled run late (4 to 8 hours late every day from 4 to 16 October), so for a post at 14:00 start the run by hand: `gh workflow run post-next.yml -R reportsthatmatter/reportsthatmatter -f dry_run=false` (with `dry_run=false` it follows `POSTER_LIVE`; the late scheduled run then finds today's post and does nothing).
 5. **Switch off:** set `POSTER_LIVE` to `false` or delete the variable. A scheduled run goes back to a dry run at once.
 
 The three states:

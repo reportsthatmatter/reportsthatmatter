@@ -65,6 +65,12 @@ describe("selectNext: queue selection", () => {
     expect(sel).toMatchObject({ kind: "item", item: { id: "b" } });
   });
 
+  it("posts nothing on a kept-clear date, not even an item overdue from the day before", () => {
+    const q = [item("missed", "2026-10-22"), item("next", "2026-10-24")];
+    expect(selectNext(q, "2026-10-23")).toMatchObject({ kind: "none", reason: expect.stringMatching(/kept-clear/) });
+    expect(selectNext(q, "2026-10-24")).toMatchObject({ kind: "item", item: { id: "missed" } });
+  });
+
   it("never takes an item scheduled in the future", () => {
     const sel = selectNext([item("a", "2026-10-14")], "2026-10-13");
     expect(sel).toEqual({ kind: "none", reason: "nothing due until 2026-10-14" });

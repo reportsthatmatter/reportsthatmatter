@@ -70,7 +70,7 @@ export type EditorialSource = {
     excerpt?: QuoteSource;
   }>;
   /** Passages Rufus has highlighted: seeded into the marks table, not printed on the landing page. */
-  highlights?: Array<QuoteSource & { context?: string; card?: boolean; pick?: boolean }>;
+  highlights?: Array<QuoteSource & { context?: string; card?: boolean; pick?: boolean; tier?: "A" }>;
   /** The landing page's hero photograph (reportsthatmatter-cdp): optional. */
   hero?: HeroSource;
 };

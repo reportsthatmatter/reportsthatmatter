@@ -5,11 +5,11 @@
  * Tier C (landing page only, never a card, post or thread): the passage states or counts deaths or injuries,
  * names a private individual, or reproduces words quoted in order to condemn them. Only the first two are
  * machine-checkable: the word list below and an editorial file's optional `private_people:` list. The third
- * (a smear, a last word) is for the person who marks the highlight.
+ * (a smear, a last word) is for the person who marks the highlight. Tier A is also a person's mark (`tier: A`, see `tierOf` in posts.ts).
  */
 
-/** Until 63cd is decided a Tier C `card: true` is a warning; flip this one constant and it fails `pnpm editorial` and the poster refuses it. */
-export const TIER_C_IS_FAILURE = false;
+/** 63cd is decided (Rufus, 2026-10-16): a Tier C `card: true` fails `pnpm editorial` and `pnpm posts` refuses it. */
+export const TIER_C_IS_FAILURE = true;
 
 /** Strategy section 8's word list, with the plural and spelling variants a reader would count as the same word. */
 export const TIER_C_WORDS: readonly string[] = [

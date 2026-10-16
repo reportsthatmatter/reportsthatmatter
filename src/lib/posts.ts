@@ -15,6 +15,7 @@ import { createHash } from "node:crypto";
 import { comparable, placeQuote, citationHref, pageOf } from "./editorial";
 import { findText, selectorFor } from "../../assets/anchor.js";
 import { quoteCardId } from "./card-key";
+import { tierCMatch } from "./tier-c";
 
 /** Bluesky posts are rejected past this many graphemes. */
 export const BLUESKY_GRAPHEME_LIMIT = 300;
@@ -63,6 +64,8 @@ export type PostCandidate = {
    * the specific card; an `editorial` one always gets the report's default.
    */
   origin: "editorial" | "share-quotes";
+  /** The report's registry `context_line`, appended to the post (strategy section 8: a context line on every post from an affected-community report). */
+  contextLine?: string;
 };
 
 /** `report/paragraph` (a curated card) or `report/default` — as `src/generated/cards.ts` records them. */
@@ -111,8 +114,9 @@ function nestQuotes(quote: string): string {
  * commentary, ever — that rule is enforced by never taking a "why this
  * matters" field here, only the quote and the citation.
  */
-export function formatPost(quote: string, reportTitle: string, page: number): string {
-  return `${nestQuotes(quote.trim())}\n\n— ${reportTitle}, p. ${page}`;
+export function formatPost(quote: string, reportTitle: string, page: number, contextLine?: string): string {
+  const post = `${nestQuotes(quote.trim())}\n\n— ${reportTitle}, p. ${page}`;
+  return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
 }
 
 /**
@@ -163,7 +167,7 @@ export function resolveCandidate(
   }
   const card = `assets/cards/${candidate.report}/${specific ?? "default"}.png`;
 
-  const text = formatPost(candidate.quote, candidate.reportTitle, page);
+  const text = formatPost(candidate.quote, candidate.reportTitle, page, candidate.contextLine);
   const length = graphemeLength(text);
   if (length > BLUESKY_GRAPHEME_LIMIT) {
     return {
@@ -210,6 +214,65 @@ export type QueueItem = {
   posted_url: string | null;
 };
 
+// ---------- who may reach the queue (reportsthatmatter-63cd, 80qf) ----------
+//
+// Strategy section 8, decided by Rufus on 2026-10-16. Two registry-driven rules, applied by `scripts/posts.mjs`
+// before a candidate is resolved and again by `buildQueue`, so `pnpm posts --check` fails a queue that breaks them.
+
+/** The registry fields the posting rules read, per report. */
+export type ReportPolicy = {
+  /** `affected_community: true`: only Tier A reaches the queue. */
+  affected: boolean;
+  /** `news_day_only: true`: never scheduled on an ordinary day; held for a person to post on the report's news day. */
+  newsDayOnly: boolean;
+  /** `context_line`: appended to every post from the report. */
+  contextLine?: string;
+};
+
+export function reportPolicies(registry: {
+  reports: Array<{ id: string; affected_community?: boolean; news_day_only?: boolean; context_line?: string }>;
+}): Map<string, ReportPolicy> {
+  return new Map(
+    registry.reports.map((r) => [
+      r.id,
+      { affected: r.affected_community === true, newsDayOnly: r.news_day_only === true, contextLine: r.context_line?.trim() || undefined },
+    ])
+  );
+}
+
+export type Tier = "A" | "B" | "C";
+
+/**
+ * Strategy section 8's tiers for a highlight in an affected-community report. C is machine-checked (the word list and the
+ * file's `private_people:`); A is a person's judgement, recorded as `tier: A` on the highlight (the grammatical subject is
+ * an institution, the verb says what it did, knew or failed to do, and the sentence stands alone); everything else is B.
+ * An unmarked highlight is therefore B, never A: the poster refuses anything that is not Tier A.
+ */
+export function tierOf(quote: string, marked?: string, privatePeople: readonly string[] = []): Tier {
+  if (tierCMatch(quote, privatePeople)) return "C";
+  return marked === "A" ? "A" : "B";
+}
+
+export type Eligibility = { ok: true } | { ok: false; kind: "tier-b" | "news-day"; reason: string };
+
+/**
+ * Whether an automated post may be scheduled from this candidate. Tier C is refused earlier (tier-c.ts, a skipped
+ * candidate); here: an affected-community report's unmarked or Tier B highlight stays on the page and for a person to post
+ * with a context line, and a news-day-only report's items are held. Both are policy, not defects: they are listed, not failures.
+ */
+export function posterEligibility(
+  candidate: { report: string; quote: string; tier?: string; privatePeople?: readonly string[] },
+  policies: ReadonlyMap<string, ReportPolicy>
+): Eligibility {
+  const policy = policies.get(candidate.report);
+  if (!policy) return { ok: true };
+  if (policy.newsDayOnly) return { ok: false, kind: "news-day", reason: "news-day-only report (80qf): held for a person to post on the report's news day" };
+  if (policy.affected && tierOf(candidate.quote, candidate.tier, candidate.privatePeople) !== "A") {
+    return { ok: false, kind: "tier-b", reason: "Tier B in an affected-community report (63cd): not marked `tier: A`, so text only, posted by a person with a context line" };
+  }
+  return { ok: true };
+}
+
 // ---------- scheduling rules (reportsthatmatter-ay85) ----------
 //
 // Rules about *when* an item goes out, kept here so a later `pnpm posts` (new
@@ -228,15 +291,25 @@ export const SPACING_DAYS = 14;
 /** Kept-clear dates, every year, as inclusive `MM-DD` bounds: nothing is scheduled 18 December to 2 January. */
 export const BLACKOUT = { from: "12-18", to: "01-02" } as const;
 
+/**
+ * Single kept-clear days, every year (`MM-DD`; strategy, "Dates we keep clear": nothing from us on them). 23 Oct: the Soldier F
+ * acquittal; 23 Nov: Litvinenko's death; 6 Jan: the Capitol (the strategy allows one plain excerpt at most: the poster posts none);
+ * 28 Jan: Challenger, NASA Day of Remembrance; 30 Jan: Bloody Sunday.
+ */
+export const KEPT_CLEAR_DAYS: readonly string[] = ["10-23", "11-23", "01-06", "01-28", "01-30"];
+
 /** The queue opens with an excerpt from this report, on the queue's start date. */
 export const OPENING_REPORT = "challenger-accident";
+
+/** `report/paragraph` already shown an hour earlier in the org launch thread (post 3): the first automated post must be a different passage. */
+export const OPENING_AVOID: readonly string[] = ["challenger-accident/committee-found-nasa-s-drive"];
 
 /** Quoted only on their own news days, and never first (strategy section 8, D4). */
 export const NEVER_FIRST_REPORTS: readonly string[] = ["jack-smith-vol1", "us-jan6-committee", "uk-chilcot-inquiry"];
 
 export function isBlackout(date: string): boolean {
   const md = date.slice(5);
-  return md >= BLACKOUT.from || md <= BLACKOUT.to;
+  return md >= BLACKOUT.from || md <= BLACKOUT.to || KEPT_CLEAR_DAYS.includes(md);
 }
 
 function daysBetween(a: string, b: string): number {
@@ -260,7 +333,8 @@ export function scheduleItems<T extends { report: string }>(
 ): (T & { scheduled: string })[] {
   const remaining = [...items];
   if (opening && remaining.length) {
-    const at = remaining.findIndex((i) => i.report === OPENING_REPORT);
+    const fresh = (i: T) => !OPENING_AVOID.includes(`${i.report}/${(i as { paragraph?: string }).paragraph}`);
+    const at = remaining.findIndex((i) => i.report === OPENING_REPORT && fresh(i));
     const first = at >= 0 ? at : remaining.findIndex((i) => !NEVER_FIRST_REPORTS.includes(i.report));
     if (first > 0) remaining.unshift(...remaining.splice(first, 1));
   }
@@ -293,10 +367,13 @@ export function scheduleItems<T extends { report: string }>(
  * Only not-yet-posted items can break a rule: a posted one already happened.
  * `pnpm posts --check` fails on any, so a hand-edited date is caught.
  */
-export function queueViolations(queue: readonly QueueItem[]): string[] {
+export function queueViolations(queue: readonly QueueItem[], newsDayOnly: readonly string[] = []): string[] {
   const problems: string[] = [];
+  for (const i of queue.filter((i) => !i.posted_url && newsDayOnly.includes(i.report))) {
+    problems.push(`${i.id}: ${i.report} is quoted only on its own news days, never scheduled (${i.scheduled})`);
+  }
   for (const i of queue.filter((i) => !i.posted_url)) {
-    if (isBlackout(i.scheduled)) problems.push(`${i.id}: scheduled ${i.scheduled}, inside the kept-clear dates (${BLACKOUT.from} to ${BLACKOUT.to})`);
+    if (isBlackout(i.scheduled)) problems.push(`${i.id}: scheduled ${i.scheduled}, on a kept-clear date (${BLACKOUT.from} to ${BLACKOUT.to}, or ${KEPT_CLEAR_DAYS.join(", ")})`);
   }
   for (const report of SPACED_REPORTS) {
     const dated = queue.filter((i) => i.report === report).sort((a, b) => a.scheduled.localeCompare(b.scheduled));
@@ -375,7 +452,9 @@ export function buildQueue(params: {
    * Posted items never move.
    */
   restartFrom?: string;
-}): { queue: QueueItem[]; added: number; staleUnposted: string[]; stalePosted: string[] } {
+  /** Reports whose items are never scheduled (registry `news_day_only`). Not-yet-posted items of theirs leave the queue; posted ones stay. */
+  newsDayOnly?: readonly string[];
+}): { queue: QueueItem[]; added: number; staleUnposted: string[]; stalePosted: string[]; heldBack: QueueItem[] } {
   const { resolved, reportOrder } = params;
   let existing = params.existing;
   const today = params.today;
@@ -385,6 +464,9 @@ export function buildQueue(params: {
   const stalePosted = existing.filter((item) => item.posted_url && !resolvedById.has(item.id)).map((i) => i.id);
 
   if (params.dropStale) existing = existing.filter((i) => i.posted_url || resolvedById.has(i.id));
+  const newsDayOnly = params.newsDayOnly ?? [];
+  const heldBack = existing.filter((i) => !i.posted_url && newsDayOnly.includes(i.report));
+  existing = existing.filter((i) => i.posted_url || !newsDayOnly.includes(i.report));
   if (params.restartFrom) {
     const posted = existing.filter((i) => i.posted_url);
     const dated = scheduleItems(
@@ -411,7 +493,7 @@ export function buildQueue(params: {
   });
 
   const existingIds = new Set(existing.map((i) => i.id));
-  const newItems = resolved.filter((r) => !existingIds.has(r.id));
+  const newItems = resolved.filter((r) => !existingIds.has(r.id) && !newsDayOnly.includes(r.report));
   const ordered = roundRobin(newItems, reportOrder);
 
   const lastScheduled = existing.reduce((max, item) => (item.scheduled > max ? item.scheduled : max), "");
@@ -429,5 +511,5 @@ export function buildQueue(params: {
     posted_url: null,
   }));
 
-  return { queue: [...existing, ...added], added: added.length, staleUnposted, stalePosted };
+  return { queue: [...existing, ...added], added: added.length, staleUnposted, stalePosted, heldBack };
 }
