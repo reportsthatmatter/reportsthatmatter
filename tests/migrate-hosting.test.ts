@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { accountArgs, insertSql, r2Diff, sqlValue, staleReports } from "../scripts/lib/migrate-hosting";
+import { accountArgs, ACCOUNTS, insertSql, r2Diff, refuseOverwrite, sqlValue, staleReports } from "../scripts/lib/migrate-hosting";
 
 describe("migrate-hosting", () => {
   it("quotes SQL values", () => {
@@ -42,5 +42,16 @@ describe("migrate-hosting", () => {
     expect(accountArgs({})).toEqual(["--env", "", "--profile", "datopian"]);
     expect(accountArgs({ RTM_CF_ACCOUNT: "atomatic" })).toEqual(["--env", "atomatic", "--profile", "default"]);
     expect(() => accountArgs({ RTM_CF_ACCOUNT: "nope" })).toThrow(/expected/);
+  });
+
+  it("refuses to wipe or replace production data unless told to (post-cutover default direction)", () => {
+    const prod = ACCOUNTS.datopian;
+    expect(refuseOverwrite("import-d1", prod, {})).toMatch(/refusing: import-d1 wipes/);
+    expect(refuseOverwrite("sync-d1", prod, { versions: true })).toMatch(/refusing: sync-d1 replaces/);
+    expect(refuseOverwrite("sync-r2", prod, { changedObjects: 2 })).toMatch(/overwrites 2/);
+    expect(refuseOverwrite("sync-d1", prod, {})).toBeNull(); // appends marks only
+    expect(refuseOverwrite("sync-r2", prod, { changedObjects: 0 })).toBeNull(); // copies missing objects only
+    expect(refuseOverwrite("import-d1", prod, { overwrite: true })).toBeNull();
+    expect(refuseOverwrite("import-d1", ACCOUNTS.atomatic, {})).toBeNull(); // the rollback direction
   });
 });

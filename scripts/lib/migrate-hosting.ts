@@ -92,3 +92,23 @@ export function accountFromEnv(env: NodeJS.ProcessEnv = process.env): Account {
 }
 
 export const accountArgs = (env: NodeJS.ProcessEnv = process.env): string[] => accountFromEnv(env).wrangler;
+
+/** The account that serves reportsthatmatter.org (since the cutover on 2026-10-16). */
+export const PRODUCTION: Account["name"] = "datopian";
+export const OVERWRITE_FLAG = "--overwrite-production";
+
+/**
+ * Why `command` must not run against `to` without OVERWRITE_FLAG, or null when it may. After the cutover the default
+ * direction (atomatic to datopian) writes into production: `import-d1` wipes every table, `sync-d1 --versions` replaces
+ * the version tables and passages with the old account's, and `sync-r2` would overwrite objects whose ETag differs.
+ * Appending marks (`sync-d1`) and copying missing objects (`sync-r2`) stay allowed: they delete and replace nothing.
+ */
+export function refuseOverwrite(command: string, to: Account, flags: { versions?: boolean; changedObjects?: number; overwrite?: boolean }): string | null {
+  if (to.name !== PRODUCTION || flags.overwrite) return null;
+  const why =
+    command === "import-d1" ? "wipes every D1 table on it and loads an export"
+    : command === "sync-d1" && flags.versions ? "replaces its report_versions, search_index_versions and reindexed passages with the source's (older since the cutover)"
+    : command === "sync-r2" && (flags.changedObjects ?? 0) > 0 ? `overwrites ${flags.changedObjects} of its objects with the source's`
+    : null;
+  return why ? `refusing: ${command} ${why}, and ${to.name} is production. Re-run with ${OVERWRITE_FLAG} only for a deliberate re-copy (docs/hosting-migration.md).` : null;
+}

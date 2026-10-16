@@ -24,7 +24,7 @@ esac
 
 echo "Checking Cloudflare login..."
 if ! pnpm wrangler d1 list "${ACCOUNT_ARGS[@]}" >/dev/null 2>&1; then
-  echo "Not logged in to Cloudflare. Run: pnpm wrangler login" >&2
+  echo "Cannot reach reportsthatmatter-marks with ${ACCOUNT_ARGS[*]}: is wrangler's ${RTM_CF_ACCOUNT:-datopian} profile logged in? (Rufus: pnpm wrangler auth create datopian; AGENTS.md, Cloudflare)" >&2
   exit 1
 fi
 

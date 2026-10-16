@@ -11,6 +11,8 @@
  *       --parallel N                          concurrent copies (default 4: the API allows ~4 requests a second per user, so ~10k objects take ~45 min)
  *
  *   --from atomatic --to datopian             the default direction; --from datopian --to atomatic reverses it (rollback)
+ *   --overwrite-production                    allow import-d1, sync-d1 --versions and sync-r2's overwrite of changed objects
+ *                                             when the target is production (datopian since the 2026-10-16 cutover); refused without it
  *
  * Nothing here writes to the source account. Credentials: wrangler's profiles (`--profile default` = atomatic,
  * `--profile datopian`), never the directory bindings; the R2 copy uses `wrangler auth token` for each profile.
@@ -21,7 +23,7 @@ import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { metaTotals, recordUsage } from "./lib/d1-usage";
-import { ACCOUNTS, COLUMNS, insertSql, r2Diff, staleReports, TABLES, type Account, type IndexVersion, type R2Object, type Table } from "./lib/migrate-hosting";
+import { ACCOUNTS, COLUMNS, insertSql, OVERWRITE_FLAG, r2Diff, refuseOverwrite, staleReports, TABLES, type Account, type IndexVersion, type R2Object, type Table } from "./lib/migrate-hosting";
 
 const root = join(import.meta.dirname, "..");
 const out = join(root, "build", "hosting");
@@ -35,6 +37,9 @@ if (!from || !to || from === to) throw new Error("--from and --to must be atomat
 const DB = "reportsthatmatter-marks";
 const BUCKET = "reportsthatmatter-content";
 const fmt = (n: number) => n.toLocaleString("en-US");
+const guard = (why: string | null) => {
+  if (why) throw new Error(why);
+};
 
 type Row = Record<string, unknown>;
 
@@ -59,7 +64,7 @@ function query(account: Account, sql: string): Row[] {
 }
 
 function executeFile(account: Account, file: string) {
-  if (account.name === "atomatic" && from.name === "atomatic") throw new Error("refusing to write to the source account");
+  if (account === from) throw new Error("refusing to write to the source account");
   const text = wrangler(account, ["d1", "execute", DB, "--remote", "--yes", "--file", file]);
   process.stdout.write(text.split("\n").filter((l) => /rows|Executed|written|✘|error/i.test(l)).map((l) => `    ${l.trim()}\n`).join(""));
 }
@@ -107,6 +112,7 @@ function exportD1() {
 }
 
 function importD1() {
+  guard(refuseOverwrite("import-d1", to, { overwrite: flag(OVERWRITE_FLAG) }));
   const manifest = readJson<Manifest>(manifestPath);
   if (!manifest) throw new Error(`no ${manifestPath}: run export-d1 first`);
   console.log(`Loading the ${manifest.from} export of ${manifest.at} into ${to.name}`);
@@ -139,9 +145,10 @@ function verifyD1(): boolean {
 }
 
 function syncD1() {
+  const dry = flag("--dry-run");
+  if (!dry) guard(refuseOverwrite("sync-d1", to, { versions: flag("--versions"), overwrite: flag(OVERWRITE_FLAG) }));
   const state = readJson<{ marksWatermark: number }>(statePath);
   if (!state) throw new Error(`no ${statePath}: run import-d1 first`);
-  const dry = flag("--dry-run");
   const fresh = query(from, `SELECT ${COLUMNS.marks.join(", ")} FROM marks WHERE id > ${state.marksWatermark} ORDER BY id`);
   console.log(`marks: ${fresh.length} written on ${from.name} since id ${state.marksWatermark}`);
   const parts: string[] = [];
@@ -227,6 +234,7 @@ async function syncR2() {
   // target, which import-d1/sync-d1 filled, so this costs no source reads), then older versions (kept for --rollback).
   const current = new Set(query(to, "SELECT report, content_hash FROM report_versions").map((r) => `reports/${r.report}/${r.content_hash}/`));
   const isCurrent = (o: R2Object) => current.has(o.key.split("/").slice(0, 3).join("/") + "/");
+  if (diff.changed.length && !flag("--dry-run")) guard(refuseOverwrite("sync-r2", to, { changedObjects: diff.changed.length, overwrite: flag(OVERWRITE_FLAG) }));
   const todo = [...diff.missing, ...diff.changed].sort((a, b) => Number(isCurrent(b)) - Number(isCurrent(a)));
   console.log(`  ${fmt(todo.filter(isCurrent).length)} of them belong to a report's current version and go first`);
   if (flag("--dry-run") || !todo.length) return;
