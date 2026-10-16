@@ -11,8 +11,15 @@ name: Post next excerpt to Bluesky
 
 on:
   schedule:
-    # 14:00 UTC: 10:00 US Eastern in summer, 09:00 after the clocks change (1 Nov).
-    - cron: "0 14 * * *"
+    # The post is meant for about 14:00 UTC (10:00 US Eastern in summer, 09:00 after the clocks change on 1 Nov).
+    # GitHub starts scheduled runs late, worst at the top of the hour: "0 14 * * *" started 4 to 8 hours late every
+    # day from 4 to 16 Oct (gweq). So: off-peak minutes, and several of them. Whichever run starts first from 13:00
+    # UTC on posts; the others find today's post and do nothing (one post per UTC day, and a run before 13:00 UTC
+    # posts nothing). Each run is cheap. docs/poster.md "When it posts".
+    - cron: "47 13 * * *"
+    - cron: "17 14 * * *"
+    - cron: "47 14 * * *"
+    - cron: "17 15 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

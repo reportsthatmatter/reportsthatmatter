@@ -11,6 +11,9 @@
  *   account's recent posts are searched for the item's deep link (or exact
  *   text). A post that went out but whose commit was lost is found there and
  *   its URL written back instead of posting a second time.
+ * - not early: a live run before `notBefore` (13:00 UTC by default) posts
+ *   nothing, so the several scheduled runs a day and an early manual run
+ *   cannot post ahead of the intended hour.
  * - fails loud: every problem throws (the script exits 1, the workflow goes
  *   red and GitHub emails the committer); nothing is swallowed or retried.
  * - dry-run: the default. Live needs `POSTER_LIVE=true` and both credentials.
@@ -114,7 +117,18 @@ export function cardMeta(item: Pick<PosterItem, "text">): { title: string; descr
     : { title: "Reports that Matter", description: "Read the passage in context." };
 }
 
+/** The earliest UTC time of day (HH:MM) a live run may post. Scheduled runs fire after it; a run before it waits. */
+export const DEFAULT_NOT_BEFORE = "13:00";
+
+/** True when `now` (UTC) is earlier in its day than `notBefore` ("HH:MM"). A malformed `notBefore` throws. */
+export function isTooEarly(now: Date, notBefore: string): boolean {
+  const m = /^([01]\d|2[0-3]):([0-5]\d)$/.exec(notBefore.trim());
+  if (!m) throw new Error(`POSTER_NOT_BEFORE must be HH:MM in UTC, got "${notBefore}"`);
+  return now.getUTCHours() * 60 + now.getUTCMinutes() < Number(m[1]) * 60 + Number(m[2]);
+}
+
 export type Outcome =
+  | { outcome: "too-early"; item: PosterItem; notBefore: string }
   | { outcome: "nothing-due"; reason: string }
   | { outcome: "already-posted-today"; item: PosterItem }
   | { outcome: "dry-run"; item: PosterItem; wouldReconcile: FeedPost | null }
@@ -135,6 +149,8 @@ export async function runPoster(params: {
   client: PosterClient | null;
   siteOrigin: string;
   now?: () => Date;
+  /** Live runs earlier than this UTC time of day (HH:MM) post nothing. Unset: no gate (the script passes DEFAULT_NOT_BEFORE). Dry runs are never gated, so a rehearsal at any hour shows the post. */
+  notBefore?: string;
 }): Promise<RunResult> {
   const { queue, today, mode, client, siteOrigin } = params;
   const now = params.now ?? (() => new Date());
@@ -148,6 +164,12 @@ export async function runPoster(params: {
 
   const item = picked.item;
   validateItem(item, siteOrigin);
+
+  // The schedule fires several times a day (GitHub starts runs late, so one cron is not enough); this keeps any
+  // of them from posting before the intended hour, e.g. a run on launch morning before the post is due.
+  if (mode.live && params.notBefore && isTooEarly(now(), params.notBefore)) {
+    return { ...unchanged, outcome: "too-early", item, notBefore: params.notBefore };
+  }
 
   const write = (post: FeedPost) => {
     const next = queue.map((i) => (i.id === item.id ? { ...i, posted_url: post.url, posted_at: post.createdAt || now().toISOString() } : { ...i }));

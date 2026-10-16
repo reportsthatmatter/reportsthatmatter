@@ -7,7 +7,8 @@
  *
  * Environment: BLUESKY_HANDLE, BLUESKY_APP_PASSWORD (repository secrets),
  * POSTER_LIVE (repository variable; anything but "true" is a dry run).
- * Optional: POSTER_TODAY=YYYY-MM-DD, POSTER_QUEUE=path (tests and rehearsals), POSTER_SERVICE.
+ * Optional: POSTER_NOT_BEFORE=HH:MM (UTC, default 13:00: a live run earlier than this posts nothing),
+ * POSTER_NOW=ISO timestamp (tests: the clock the gate reads), POSTER_TODAY=YYYY-MM-DD, POSTER_QUEUE=path (tests and rehearsals), POSTER_SERVICE.
  *
  * Exit 0: posted, reconciled, dry run, nothing due, already posted today.
  * Exit 1: anything wrong. Nothing is swallowed. The decisions are in
@@ -19,7 +20,7 @@ import { join } from "node:path";
 import { parse, stringify } from "yaml";
 import { AtpAgent } from "@atproto/api";
 import { QUEUE_HEADER, isoDate } from "../src/lib/posts.ts";
-import { decideMode, runPoster, cardMeta } from "../src/lib/poster.ts";
+import { DEFAULT_NOT_BEFORE, decideMode, runPoster, cardMeta } from "../src/lib/poster.ts";
 import { SITE_ORIGIN } from "../src/templates/site.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -78,9 +79,14 @@ try {
   const client = mode.hasCredentials ? await connect(env) : null;
 
   say(`Poster mode: ${mode.live ? "LIVE" : "DRY RUN"} — ${mode.why}. Date: ${today}.`);
-  const result = await runPoster({ queue: doc.items ?? [], today, mode, client, siteOrigin: SITE_ORIGIN });
+  const notBefore = (env.POSTER_NOT_BEFORE || DEFAULT_NOT_BEFORE).trim();
+  const clock = env.POSTER_NOW ? () => new Date(env.POSTER_NOW) : undefined;
+  const result = await runPoster({ queue: doc.items ?? [], today, mode, client, siteOrigin: SITE_ORIGIN, notBefore, now: clock });
 
   switch (result.outcome) {
+    case "too-early":
+      say(`Too early: ${result.item.id} is due, but a live run posts nothing before ${result.notBefore} UTC. A later run today will post it.`);
+      break;
     case "nothing-due":
       say(`Nothing to post: ${result.reason}.`);
       break;
