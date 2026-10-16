@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-16 — Where each passage comes from, who to tell, and what the licences are
+
+Open a link to a single paragraph and the page now shows where it comes from: the report, the page, a link to the original document, and a route to ask for a correction or removal. [About](/about#contact) says how to reach us, and that a removal request is answered within a day; the route is a GitHub issue for now, with an email address to follow. [About](/about#ai) says plainly what AI does and does not do here: the report's words are extracted by code, no model writes or rewrites them, and the introductions are AI-assisted and labelled. [About](/about#licences) sets out the licences: the code is MIT, each report's text keeps the status it has at source, and where we could not confirm a report's status (the Hillsborough report and the Lehman examiner's report) we say so rather than claim one. The post queue also gained its rules: nothing goes out on the dates we keep clear, and reports about affected communities follow a stricter tier.
+
+---
+
 ## 2026-10-16 — A new host, a mended Senate study, a cleaner launch queue (ingest v0.28.0)
 
 The site now runs on a new hosting account, with the apex, www and old. addresses unchanged. The Senate Torture Report's paragraphs that the page breaks had cut in two are rejoined: severed paragraphs fall from 57 to 24 and paragraphs split into quotes from 101 to 23, with no words changed (ingest v0.28.0 also checks every report for stray control characters). Ahead of launch, the Bluesky post queue lost the cards that should not go out, the About, Press and report pages link to our Bluesky account, and the launch plan no longer quotes a report count.
