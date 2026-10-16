@@ -11,6 +11,7 @@ import {
   cardMeta,
   decideMode,
   findPosted,
+  isTooEarly,
   runPoster,
   selectNext,
   validateItem,
@@ -42,7 +43,7 @@ const DRY_WITH_CREDS: Mode = { live: false, hasCredentials: true, why: "" };
 const LIVE: Mode = { live: true, hasCredentials: true, why: "" };
 
 /** A fake account: remembers what was posted and what is already on it. */
-function fakeClient(onAccount: FeedPost[] = []) {
+function fakeClient(onAccount: FeedPost[] = [], createdAt = "2026-10-14T14:00:00.000Z") {
   const published: PosterItem[] = [];
   let feedReads = 0;
   const client: PosterClient = {
@@ -52,7 +53,7 @@ function fakeClient(onAccount: FeedPost[] = []) {
     },
     async publish(i) {
       published.push(i);
-      return { uri: `at://did:plc:x/app.bsky.feed.post/${published.length}`, url: `https://bsky.app/profile/h/post/${published.length}`, text: i.text, embedUri: i.link, createdAt: "2026-10-14T14:00:00.000Z" };
+      return { uri: `at://did:plc:x/app.bsky.feed.post/${published.length}`, url: `https://bsky.app/profile/h/post/${published.length}`, text: i.text, embedUri: i.link, createdAt };
     },
   };
   return { client, published, feedReads: () => feedReads };
@@ -179,6 +180,98 @@ describe("idempotency", () => {
     const { queue } = buildQueue({ resolved, existing: [posted as QueueItem], today: "2026-10-20", reportOrder: ["demo"] });
     expect(queue[0]).toEqual(posted);
     expect(queue[1].scheduled).toBe("2026-10-15");
+  });
+});
+
+describe("the daily window (gweq): several scheduled runs, one post, not before 13:00 UTC", () => {
+  const at = (iso: string) => () => new Date(iso);
+  const base = { today: "2026-10-20", mode: LIVE, siteOrigin: ORIGIN, notBefore: "13:00" };
+
+  it("isTooEarly compares the UTC time of day, to the minute", () => {
+    expect(isTooEarly(new Date("2026-10-20T12:59:59Z"), "13:00")).toBe(true);
+    expect(isTooEarly(new Date("2026-10-20T13:00:00Z"), "13:00")).toBe(false);
+    expect(isTooEarly(new Date("2026-10-20T00:05:00Z"), "13:00")).toBe(true);
+    expect(() => isTooEarly(new Date(), "1pm")).toThrow(/HH:MM/);
+  });
+
+  it("a live run before 13:00 UTC on launch day posts nothing and does not even read the feed", async () => {
+    const { client, published, feedReads } = fakeClient([], "2026-10-20T13:47:00.000Z");
+    const r = await runPoster({ ...base, queue: [item("a", "2026-10-20")], client, now: at("2026-10-20T12:50:00Z") });
+    expect(r.outcome).toBe("too-early");
+    expect(r.changed).toBe(false);
+    expect(published).toHaveLength(0);
+    expect(feedReads()).toBe(0);
+  });
+
+  it("the same day's 13:47 run posts it", async () => {
+    const { client, published } = fakeClient([], "2026-10-20T13:47:00.000Z");
+    const r = await runPoster({ ...base, queue: [item("a", "2026-10-20")], client, now: at("2026-10-20T13:47:00Z") });
+    expect(r.outcome).toBe("posted");
+    expect(published.map((p) => p.id)).toEqual(["a"]);
+  });
+
+  it("the day's four cron runs, in any order of lateness, post exactly once", async () => {
+    const { client, published } = fakeClient([], "2026-10-20T13:47:00.000Z");
+    let queue: PosterItem[] = [item("a", "2026-10-20"), item("b", "2026-10-21")];
+    const outcomes: string[] = [];
+    for (const t of ["13:47", "14:17", "14:47", "15:17"]) {
+      const r = await runPoster({ ...base, queue, client, now: at(`2026-10-20T${t}:00Z`) });
+      queue = r.queue;
+      outcomes.push(r.outcome);
+    }
+    expect(outcomes).toEqual(["posted", "already-posted-today", "already-posted-today", "already-posted-today"]);
+    expect(published).toHaveLength(1);
+  });
+
+  it("if GitHub starts the first run late, the next run still posts once (the late runs find the post)", async () => {
+    const { client, published } = fakeClient([], "2026-10-20T13:47:00.000Z");
+    let queue: PosterItem[] = [item("a", "2026-10-20")];
+    const late = await runPoster({ ...base, queue, client, now: at("2026-10-20T19:36:00Z") });
+    queue = late.queue;
+    const later = await runPoster({ ...base, queue, client, now: at("2026-10-20T20:01:00Z") });
+    expect([late.outcome, later.outcome]).toEqual(["posted", "already-posted-today"]);
+    expect(published).toHaveLength(1);
+  });
+
+  it("a kept-clear day is skipped by every run, early or late", async () => {
+    const { client, published } = fakeClient([], "2026-10-20T13:47:00.000Z");
+    for (const t of ["12:00", "13:47", "17:47"]) {
+      const r = await runPoster({ ...base, today: "2026-10-23", queue: [item("a", "2026-10-22")], client, now: at(`2026-10-23T${t}:00Z`) });
+      expect(r.outcome).toBe("nothing-due");
+    }
+    expect(published).toHaveLength(0);
+  });
+
+  it("a dry run is never gated, so a rehearsal at any hour shows the post", async () => {
+    const r = await runPoster({ ...base, mode: DRY, queue: [item("a", "2026-10-20")], client: null, now: at("2026-10-20T08:00:00Z") });
+    expect(r.outcome).toBe("dry-run");
+  });
+
+  it("with no notBefore (library default) there is no gate", async () => {
+    const { client } = fakeClient([], "2026-10-20T13:47:00.000Z");
+    const r = await runPoster({ ...base, notBefore: undefined, queue: [item("a", "2026-10-20")], client, now: at("2026-10-20T01:00:00Z") });
+    expect(r.outcome).toBe("posted");
+  });
+});
+
+describe("the workflow's schedule", () => {
+  const yml = readFileSync(join(import.meta.dirname, "..", ".github/workflows/post-next.yml"), "utf8");
+  const crons = [...yml.matchAll(/^\s*- cron: "(.+)"$/gm)].map((m) => m[1]);
+
+  it("never uses a round minute (GitHub delays the top of the hour worst) and has several runs a day", () => {
+    expect(crons.length).toBeGreaterThanOrEqual(3);
+    for (const c of crons) {
+      const minute = Number(c.split(" ")[0]);
+      expect(minute % 5).not.toBe(0);
+    }
+  });
+
+  it("every scheduled run is at or after the 13:00 UTC gate and before the day is far gone", () => {
+    for (const c of crons) {
+      const [m, h] = c.split(" ").map(Number);
+      expect(h * 60 + m).toBeGreaterThanOrEqual(13 * 60);
+      expect(h).toBeLessThanOrEqual(16);
+    }
   });
 });
 
@@ -347,7 +440,7 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
     try {
       const r = await promisify(execFile)("node_modules/.bin/tsx", ["scripts/post-next.mjs"], {
         cwd: root,
-        env: { PATH: process.env.PATH ?? "", HOME: process.env.HOME ?? "", POSTER_QUEUE: path, POSTER_TODAY: "2026-10-14", POSTER_SERVICE: base, BLUESKY_HANDLE: "rtm.test", BLUESKY_APP_PASSWORD: "app-pass", ...env },
+        env: { PATH: process.env.PATH ?? "", HOME: process.env.HOME ?? "", POSTER_QUEUE: path, POSTER_TODAY: "2026-10-14", POSTER_NOT_BEFORE: "00:00", POSTER_SERVICE: base, BLUESKY_HANDLE: "rtm.test", BLUESKY_APP_PASSWORD: "app-pass", ...env },
       });
       out = r.stdout;
     } catch (e: any) {
@@ -391,6 +484,24 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
       expect(after[0]).toMatchObject({ posted_url: "https://bsky.app/profile/rtm.test/post/3kfake" });
       expect(after[0].posted_at).toMatch(/^\d{4}-/);
       expect(after[1].posted_url).toBeNull();
+    } finally {
+      server.close();
+    }
+  });
+
+  it("gate, by default 13:00 UTC: a live run at 12:30 posts nothing; the same queue at 13:47 posts once", async () => {
+    feed = [];
+    await start();
+    try {
+      const q = [real("a")];
+      const early = await run(q, { POSTER_LIVE: "true", POSTER_NOT_BEFORE: "", POSTER_NOW: "2026-10-14T12:30:00Z" });
+      expect(early.status).toBe(0);
+      expect(early.out).toContain("Too early");
+      expect(writes()).toHaveLength(0);
+      expect(early.after[0].posted_url).toBeNull();
+      const onTime = await run(q, { POSTER_LIVE: "true", POSTER_NOT_BEFORE: "", POSTER_NOW: "2026-10-14T13:47:00Z" });
+      expect(onTime.out).toContain("Posted a");
+      expect(writes()).toHaveLength(1);
     } finally {
       server.close();
     }
