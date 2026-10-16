@@ -1,0 +1,4 @@
+---
+theme: Licences (2026-10-16, y2y8.9 review)
+---
+- **A site footer's "© Crown Copyright" or a host's blanket OGL line is not the report's licence: read the publisher's own terms-of-use page as well as the imprint** (2026-10-16, y2y8.9, reviewer agent) Hillsborough's website footer said "© Crown Copyright 2012" and GOV.UK offers the OGL "except where otherwise stated", which looked like a conflict with the PDF imprint. The Panel's "Copyright, acknowledgements and terms of use" page (Wayback 20140222031352) settles it: OGL only for the site's Crown copyright material, "In particular this relates to the Panel's Report" for the rights it reserves. Before recording any report licence, fetch the publisher's terms page (Wayback if gone) and the GOV.UK publication page's own notice, and quote the most specific one. [status: done in #347 and uk-hillsborough-panel#13]
