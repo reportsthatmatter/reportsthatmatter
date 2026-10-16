@@ -8,7 +8,7 @@ pnpm posts
 open build/posts-preview.html   # a static local preview, not committed
 ```
 
-Flags, all explicit (a plain run does none of this): `--check` writes nothing and exits 1 if a not-yet-posted item no longer resolves (the poster's workflow runs it before every post); `--drop-stale` removes such items; `--report <id>` (repeatable) makes only the named reports' skipped candidates and stale items fail the run, so a report's PR is not blocked by other reports' items on main (the queue is still built from every report; 5qmm); `--start YYYY-MM-DD` re-dates every not-yet-posted item one per day from that date, in its current order (posted items never move). The poster that consumes the queue is described in [poster.md](poster.md).
+Flags, all explicit (a plain run does none of this): `--check` writes nothing and exits 1 if a not-yet-posted item no longer resolves (the poster's workflow runs it before every post); `--drop-stale` removes such items; `--report <id>` (repeatable) makes only the named reports' skipped candidates and stale items fail the run, so a report's PR is not blocked by other reports' items on main (the queue is still built from every report; 5qmm); `--start YYYY-MM-DD` re-dates every not-yet-posted item one per day from that date, in its current order, under the scheduling rules below (posted items never move). The poster that consumes the queue is described in [poster.md](poster.md).
 
 ## Sources
 
@@ -57,3 +57,13 @@ Append-only. Re-running `pnpm posts`:
 - a **not-yet-posted** item whose quote or paragraph no longer resolves is reported loudly (fix it before its scheduled date, or the poster would ship a broken link); an **already-posted** one in the same state is only a warning — it already happened, and can't be un-posted.
 
 Matching across runs is by a stable id (`report:paragraph:hash-of-the-quote`), not file position, so reordering an editorial file's highlights never reschedules anything.
+
+## Scheduling rules
+
+Kept in code (`scheduleItems`, `queueViolations` in `src/lib/posts.ts`, with tests), applied whenever items are dated (`--start`, or new items appended) and checked by `pnpm posts --check` and `--verify`, so a later run cannot undo them (reportsthatmatter-ay85):
+
+- the first item is a Challenger excerpt, dated the queue's start date (whatever `--start` is; only while nothing has been posted); Jack Smith, the January 6th report and Chilcot are never first;
+- no two Post Office items, and no two Grenfell items, within 14 days of each other (a day with only such items left stays empty);
+- nothing is scheduled from 18 December to 2 January, every year.
+
+Tier C highlights (deaths, private individuals, condemned words) in affected-community reports must not carry `card: true`; that is enforced by hand until decision 63cd lands. The Post Office and Hillsborough cards render without a plate (`src/lib/card-plates.ts`): the Inquiry's wordmark and the Leppings Lane plan must not travel on a post.
