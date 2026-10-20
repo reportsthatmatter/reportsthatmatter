@@ -18,7 +18,8 @@ describe("follow on Bluesky", () => {
 
   it("is a plain link: no third-party script, and the profile is a bsky.app URL", async () => {
     expect(BLUESKY_PROFILE_URL).toMatch(/^https:\/\/bsky\.app\/profile\/did:plc:[a-z0-9]+$/);
-    expect(await get("/about")).not.toMatch(/<script[^>]+src="https?:\/\/(?!reportsthatmatter\.org)/);
+    // The one third-party script allowed is our self-hosted, cookie-free Umami analytics.
+    expect(await get("/about")).not.toMatch(/<script[^>]+src="https?:\/\/(?!reportsthatmatter\.org|umami\.lifeitself\.org\/script\.js)/);
   });
 
   it("is left off the home page and the reading pages", async () => {
