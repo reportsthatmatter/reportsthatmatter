@@ -98,6 +98,7 @@ ${extraMeta}<link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="icon" href="/assets/brand/pilcrow-64.png" sizes="64x64" type="image/png" />
 <link rel="apple-touch-icon" href="/assets/brand/pilcrow-180.png" />
 <link rel="stylesheet" href="/assets/styles.css" />
+<script defer src="https://umami.lifeitself.org/script.js" data-website-id="ada34320-6ed4-4dd0-bcfa-f5e40e9112d1"></script>
 ${structuredData ? `<script type="application/ld+json">${structuredData}</script>` : ""}
 </head>`;
 }

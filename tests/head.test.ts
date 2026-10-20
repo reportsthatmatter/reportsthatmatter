@@ -15,6 +15,12 @@ describe("renderHead", () => {
     const head = renderHead("T", { description: 'a " quote' });
     expect(head).toContain('content="a &quot; quote"');
   });
+
+  it("loads the self-hosted Umami analytics script on every page", () => {
+    expect(renderHead("T")).toContain(
+      '<script defer src="https://umami.lifeitself.org/script.js" data-website-id="ada34320-6ed4-4dd0-bcfa-f5e40e9112d1"></script>'
+    );
+  });
 });
 
 /**

@@ -89,6 +89,9 @@ export function renderAbout(): string {
       or shared it, and the time. We keep them alongside a code made from your network address and browser that
       changes every day, used only to count how many different readers marked a passage and to limit how many
       passages one reader can mark in a day; the address and browser themselves are not stored.</p>
+      <p>We also count page views with Umami, a cookie-free analytics tool we host ourselves. It records the page,
+      the site you came from, and your browser, device type and country; it sets no cookies and stores no network
+      address or other personal identifier.</p>
       <p>Saves and shares are both counted, anonymously. When the words are found in the report, the passage can
       appear on <a href="/highlights">Highlights</a> about half an hour later, with the report's own text, page and
       a time rounded to the hour, and nothing about who chose it. Your own list of saved passages stays in your
