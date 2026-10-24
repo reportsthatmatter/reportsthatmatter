@@ -22,6 +22,7 @@ held_out:
     # written by reading this report and its reference, so its first held-out score (boundary F1 90.9%) measures the
     # report, not whether those passes generalise; it stays held-out for shared passes written from now on. Its
     # reference is also over the error ceiling (2 of 30 adjudicated breaks wrong, 6.7% > 5%), so `pnpm score` warns.
+  - us-ica-2017-russia-elections  # served from Wikisource's validated transcription (cleanEdition); `pnpm score --shadow` measures the PDF reading against it; new publisher family, ODNI (gqsy.13)
 # A reference whose wrong-answer rate at adjudicated page breaks plus its no-answer share exceeds
 # the sum of these is too noisy to tune against: `pnpm score` warns.
 reference_ceiling:

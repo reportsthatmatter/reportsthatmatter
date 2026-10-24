@@ -45,3 +45,5 @@ reports:
     dir: ../us-senate-cia-torture-report
   - id: us-mueller-report
     dir: ../us-mueller-report
+  - id: us-ica-2017-russia-elections
+    dir: ../us-ica-2017-russia-elections

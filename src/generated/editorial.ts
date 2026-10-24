@@ -3133,6 +3133,207 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 25%"
     }
   },
+  "us-ica-2017-russia-elections": {
+    "status": "approved",
+    "whyItMatters": "The declassified assessment by the CIA, the FBI and the NSA of Russian activities aimed at the 2016 US presidential election, published on 6 January 2017. It is the source of the judgments still argued over: that Vladimir Putin ordered the campaign, and that Russia preferred and aspired to help Donald Trump. Here are its exact words, including how confident each agency said it was, and the definitions of that language.",
+    "background": [
+      "In December 2016, after a presidential election in which material stolen from the Democratic National Committee had been published, President Barack Obama directed the intelligence agencies to review Russia's activities and to report before he left office on 20 January 2017. The Central Intelligence Agency, the Federal Bureau of Investigation and the National Security Agency drafted and coordinated the assessment, using information available as of 29 December 2016. By 6 January 2017 the agency heads had briefed President Obama, President-elect Trump and congressional leaders, and that day the Office of the Director of National Intelligence published this declassified version.",
+      "The assessment says its conclusions are identical to those of the classified version, but that it leaves out the supporting intelligence, so most of its judgments are stated without their evidence. It says it made no assessment of whether Russia's activities affected the outcome of the election. Its words of likelihood and confidence (\"we assess\", \"high confidence\") are defined in Annex B and in the Background note that opens the PDF.",
+      "The assessment has been reviewed since. In April 2020 the Senate Intelligence Committee, in the fourth volume of its bipartisan investigation, found that it \"presents a coherent and well-constructed intelligence basis for the case that Russia engaged in an attempt to interfere with the 2016 U.S. presidential election\" and that \"analysts were under no political pressure to reach specific conclusions\". In July 2025 the CIA declassified a review of the assessment's tradecraft, ordered by its director, John Ratcliffe, which identified \"procedural anomalies\" in how it was prepared, among them \"a compressed timeline\" and \"excessive involvement of agency heads\"."
+    ],
+    "findings": [
+      {
+        "text": "The assessment finds that Vladimir Putin ordered an influence campaign aimed at the 2016 election, to undermine faith in the democratic process and to harm Hillary Clinton, and that Russia developed a clear preference for Donald Trump. It states these judgments with high confidence.",
+        "cites": [
+          {
+            "id": "we-assess-russian-president-vladimir",
+            "page": null,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-russian-president-vladimir"
+          },
+          {
+            "id": "we-assess-high-confidence-russian-2",
+            "page": 1,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-high-confidence-russian-2"
+          }
+        ],
+        "excerpt": {
+          "quote": "We assess with high confidence that Russian President Vladimir Putin ordered an influence campaign in 2016 aimed at the US presidential election, the consistent goals of which were to undermine public faith in the US democratic process, denigrate Secretary Clinton, and harm her electability and potential presidency. We further assess Putin and the Russian Government developed a clear preference for President-elect Trump.",
+          "cite": {
+            "id": "we-assess-high-confidence-russian-2",
+            "page": 1,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-high-confidence-russian-2&h=|We%20assess%20with%20high%20confidence%20that%20Russian%20President%20Vladimir%20Putin%20ordered%20an%20influence%20campaign%20in%202016%20aimed%20at%20the%20%E2%8B%AFl%20presidency.%20We%20further%20assess%20Putin%20and%20the%20Russian%20Government%20developed%20a%20clear%20preference%20for%20President-elect%20Trump.|%20When%20it%20appeared%20to"
+          }
+        }
+      },
+      {
+        "text": "On whether Russia aspired to help Trump's chances, the three agencies agree but differ in confidence, the only judgment in the declassified text where the agencies' confidence is stated separately.",
+        "cites": [
+          {
+            "id": "we-also-assess-putin-russian",
+            "page": null,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-also-assess-putin-russian"
+          },
+          {
+            "id": "we-also-assess-putin-russian-2",
+            "page": 1,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-also-assess-putin-russian-2"
+          }
+        ],
+        "excerpt": {
+          "quote": "We also assess Putin and the Russian Government aspired to help President-elect Trump’s election chances when possible by discrediting Secretary Clinton and publicly contrasting her unfavorably to him. All three agencies agree with this judgment. CIA and FBI have high confidence in this judgment; NSA has moderate confidence.",
+          "cite": {
+            "id": "we-also-assess-putin-russian-2",
+            "page": 1,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-also-assess-putin-russian-2&h=%E2%80%A2%20|We%20also%20assess%20Putin%20and%20the%20Russian%20Government%20aspired%20to%20help%20President-elect%20Trump%E2%80%99s%20election%20chances%20when%20possible%20b%E2%8B%AFthree%20agencies%20agree%20with%20this%20judgment.%20CIA%20and%20FBI%20have%20high%20confidence%20in%20this%20judgment%3B%20NSA%20has%20moderate%20confidence.|"
+          }
+        }
+      },
+      {
+        "text": "It finds that Russian intelligence gained access to Democratic National Committee networks in July 2015, and assesses with high confidence that Russian military intelligence (the GRU) released the stolen material through Guccifer 2.0, DCLeaks.com and WikiLeaks.",
+        "cites": [
+          {
+            "id": "we-assess-russian-intelligence-services",
+            "page": 2,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-russian-intelligence-services"
+          },
+          {
+            "id": "public-disclosures-russian-collected-data-we",
+            "page": 2,
+            "href": "/reports/us-ica-2017-russia-elections?p=public-disclosures-russian-collected-data-we"
+          },
+          {
+            "id": "we-assess-high-confidence-gru",
+            "page": 3,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-high-confidence-gru"
+          }
+        ],
+        "excerpt": {
+          "quote": "We assess with high confidence that the GRU relayed material it acquired from the DNC and senior Democratic officials to WikiLeaks. Moscow most likely chose WikiLeaks because of its self-proclaimed reputation for authenticity. Disclosures through WikiLeaks did not contain any evident forgeries.",
+          "cite": {
+            "id": "we-assess-high-confidence-gru",
+            "page": 3,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-high-confidence-gru&h=|We%20assess%20with%20high%20confidence%20that%20the%20GRU%20relayed%20material%20it%20acquired%20from%20the%20DNC%20and%20senior%20Democratic%20officials%20to%20WikiLeaks.%20Moscow%20most%20likely%20chose%20WikiLeaks%20because%20of%20its%20self-proclaimed%20reputation%20for%20authenticity.%20Disclosures%20through%20WikiLeaks%20did%20not%20contain%20any%20evident%20forgeries.|"
+          }
+        }
+      },
+      {
+        "text": "It finds that Russian intelligence accessed elements of state or local electoral boards, and records the Department of Homeland Security's assessment that the systems targeted were not involved in counting votes.",
+        "cites": [
+          {
+            "id": "russian-cyber-intrusions-into-state",
+            "page": 3,
+            "href": "/reports/us-ica-2017-russia-elections?p=russian-cyber-intrusions-into-state"
+          },
+          {
+            "id": "dhs-assesses-types-systems-we",
+            "page": 3,
+            "href": "/reports/us-ica-2017-russia-elections?p=dhs-assesses-types-systems-we"
+          },
+          {
+            "id": "russian-intelligence-obtained-maintained-access",
+            "page": null,
+            "href": "/reports/us-ica-2017-russia-elections?p=russian-intelligence-obtained-maintained-access"
+          }
+        ]
+      },
+      {
+        "text": "It describes the state media outlets RT and Sputnik and paid social media \"trolls\" as part of the campaign, and Russian media coverage that grew more favourable to Trump and stayed negative towards Clinton.",
+        "cites": [
+          {
+            "id": "russian-propaganda-efforts-russia-s",
+            "page": 3,
+            "href": "/reports/us-ica-2017-russia-elections?p=russian-propaganda-efforts-russia-s"
+          },
+          {
+            "id": "russia-used-trolls-well-rt",
+            "page": 4,
+            "href": "/reports/us-ica-2017-russia-elections?p=russia-used-trolls-well-rt"
+          }
+        ]
+      },
+      {
+        "text": "It made no assessment of whether Russia's activities changed the result of the election, saying that is outside the intelligence agencies' remit.",
+        "cites": [
+          {
+            "id": "we-did-not-make-assessment",
+            "page": null,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-did-not-make-assessment"
+          }
+        ],
+        "excerpt": {
+          "quote": "We did not make an assessment of the impact that Russian activities had on the outcome of the 2016 election. The US Intelligence Community is charged with monitoring and assessing the intentions, capabilities, and actions of foreign actors; it does not analyze US political processes or US public opinion.",
+          "cite": {
+            "id": "we-did-not-make-assessment",
+            "page": null,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-did-not-make-assessment&h=|We%20did%20not%20make%20an%20assessment%20of%20the%20impact%20that%20Russian%20activities%20had%20on%20the%20outcome%20of%20the%202016%20election.%20The%20US%20Inte%E2%8B%AFntentions%2C%20capabilities%2C%20and%20actions%20of%20foreign%20actors%3B%20it%20does%20not%20analyze%20US%20political%20processes%20or%20US%20public%20opinion.|"
+          }
+        }
+      },
+      {
+        "text": "It calls the 2016 campaign a significant escalation on earlier Russian efforts, and assesses that Moscow will apply its lessons to future elections in the United States and among its allies.",
+        "cites": [
+          {
+            "id": "russia-s-effort-influence-2016",
+            "page": 5,
+            "href": "/reports/us-ica-2017-russia-elections?p=russia-s-effort-influence-2016"
+          },
+          {
+            "id": "we-assess-moscow-will-apply-2",
+            "page": 5,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-moscow-will-apply-2"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "key-judgments",
+        "title": "Key Judgments",
+        "page": "1",
+        "why": "The assessment's conclusions on two pages, with the confidence attached to each."
+      },
+      {
+        "slug": "scope-and-sourcing",
+        "title": "Scope and Sourcing",
+        "page": null,
+        "why": "What the assessment covers, what the declassified version leaves out, and what it did not try to judge."
+      },
+      {
+        "slug": "putin-ordered-campaign-to-influence-us-election",
+        "title": "Putin Ordered Campaign To Influence US Election",
+        "page": "2",
+        "why": "The judgments on Putin's motives and preferences, and where the agencies' confidence differs.",
+        "excerpt": {
+          "quote": "Putin most likely wanted to discredit Secretary Clinton because he has publicly blamed her since 2011 for inciting mass protests against his regime in late 2011 and early 2012, and because he holds a grudge for comments he almost certainly saw as disparaging him.",
+          "cite": {
+            "id": "putin-most-likely-wanted-discredit",
+            "page": 1,
+            "href": "/reports/us-ica-2017-russia-elections?p=putin-most-likely-wanted-discredit&h=%E2%80%A2%20|Putin%20most%20likely%20wanted%20to%20discredit%20Secretary%20Clinton%20because%20he%20has%20publicly%20blamed%20her%20since%202011%20for%20inciting%20mass%20protests%20against%20his%20regime%20in%20late%202011%20and%20early%202012%2C%20and%20because%20he%20holds%20a%20grudge%20for%20comments%20he%20almost%20certainly%20saw%20as%20disparaging%20him.|"
+          }
+        }
+      },
+      {
+        "slug": "russian-campaign-was-multifaceted",
+        "title": "Russian Campaign Was Multifaceted",
+        "page": "3",
+        "why": "The hacking, the release of stolen material, the electoral boards and the propaganda, and the warning about future elections."
+      },
+      {
+        "slug": "rt-focuses-on-social-media-building-audience",
+        "title": "Annex B: Estimative Language",
+        "page": "11",
+        "why": "Annex B defines \"we assess\" and \"high\", \"moderate\" and \"low confidence\". The site does not yet give it a page of its own: it is at the end of this section, after the rest of Annex A.",
+        "excerpt": {
+          "quote": "High confidence generally indicates that judgments are based on high-quality information from multiple sources. High confidence in a judgment does not imply that the assessment is a fact or a certainty; such judgments might be wrong.",
+          "cite": {
+            "id": "high-confidence-generally-indicates-judgments",
+            "page": 13,
+            "href": "/reports/us-ica-2017-russia-elections?p=high-confidence-generally-indicates-judgments&h=%E2%80%A2%20|High%20confidence%20generally%20indicates%20that%20judgments%20are%20based%20on%20high-quality%20information%20from%20multiple%20sources.%20High%20confidence%20in%20a%20judgment%20does%20not%20imply%20that%20the%20assessment%20is%20a%20fact%20or%20a%20certainty%3B%20such%20judgments%20might%20be%20wrong.|"
+          }
+        }
+      }
+    ]
+  },
   "us-jan6-committee": {
     "status": "approved",
     "whyItMatters": "The final report of the House select committee that investigated the attack on the US Capitol on 6 January 2021. Drawing on its hearings, depositions and documents, some obtained after litigation, it sets out the committee's account of the efforts to overturn the 2020 presidential election, and its conclusions, criminal referrals and recommendations.",
