@@ -177,6 +177,18 @@ REFERENCES = {
             "The Inquiry's own HTML edition of the volume (reference/raw/volume-1.html, Wayback; the live site is behind a captcha at the National Archives) is cached as a second reference: it has every word, h1-h5 headings and all 2019 notes linked, but no paragraph numbers and no page anchors, so it is not the adapter here; an HTML adapter (or a hybrid) is gqsy.4 follow-up work.",
         ],
     },
+    "uk-covid-inquiry-module-2": {
+        "set": "held-out",
+        "adapter": "tagged",
+        "edition": "Volume I's PDF's own structure tree (tagged PDF, InDesign: H1-H5, P, Note, LI/Lbl, role-mapped), February 2026 issue with post-publication amends",
+        "licence": CROWN,
+        "numbered": True,
+        "files": [("https://covid19.public-inquiry.uk/documents/reports/modules-2-2a-2b-2c-core-decision-making-and-political-governance-volume-i", "volume-1.html")],
+        "caveats": [
+            "A new publisher family (the UK Covid-19 Inquiry), so held out: score it, do not tune passes on it.",
+            "The Inquiry's own HTML edition of Volume I (reference/raw/volume-1.html) is cached as a second reference: amended text, numbered paragraphs, h2-h5 headings and per-chapter linked notes, but no page anchors. The Inquiry's site refuses this script's User-Agent (403), so fetch it with --cache from a browser-UA download.",
+        ],
+    },
     "us-duelfer-report": {
         "set": "held-out",
         "adapter": "duelfer",

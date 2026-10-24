@@ -377,6 +377,7 @@ check_status /reports/uk-saville-inquiry/processing 200
 check_contains /reports/uk-saville-inquiry/processing "Known limitations"
 check_contains /reports/uk-saville-inquiry "About this edition"
 check_status /reports/jack-smith-vol1/processing 404
+check_contains /reports/uk-covid-inquiry-module-2/processing "post-publication amends"
 
 # A report's landing page (g0w.8): our layer, when the report has one.
 check_contains "/reports/jack-smith-vol1" "Where to start reading"
