@@ -15,7 +15,8 @@ export type Meta = { rows_read?: number; rows_written?: number; changes?: number
 export type Statement = { results: Array<Record<string, unknown>>; meta: Meta; success?: boolean };
 
 /** Runs SQL against a D1 database and returns wrangler's parsed `--json` output (one entry per statement). */
-export type Runner = (target: Target, sql: { command: string } | { file: string }) => Statement[];
+/** `label` replaces the SQL in the usage ledger, for a statement that carries personal data (pnpm subscribers remove). */
+export type Runner = (target: Target, sql: ({ command: string } | { file: string }) & { label?: string }) => Statement[];
 
 /** Thrown by `wranglerRunner` for a `--remote` call its caller did not confirm. */
 export class RemoteNotConfirmed extends Error {}
@@ -40,7 +41,7 @@ export const wranglerRunner = (cwd: string, { confirmed = false }: { confirmed?:
   // wrangler may print informational lines before the JSON array.
   const result: Statement[] = JSON.parse(out.slice(out.indexOf("[")));
   // Every remote call goes in the shared ledger of today's D1 usage (lib/d1-usage.ts).
-  if (target === "--remote") recordUsage({ label: "command" in sql ? sql.command : `file ${sql.file}`, ...metaTotals(result) });
+  if (target === "--remote") recordUsage({ label: sql.label ?? ("command" in sql ? sql.command : `file ${sql.file}`), ...metaTotals(result) });
   return result;
 };
 

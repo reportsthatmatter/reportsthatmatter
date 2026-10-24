@@ -159,6 +159,11 @@ function fitToCard(text, limit = 420) {
 const targets = [];
 const highlightsOnly = process.argv.includes("--highlights");
 const blogOnly = process.argv.includes("--blog");
+if (blogOnly && highlightsOnly) {
+  // Together neither block would render, and the --highlights prune would then take every quote card with it.
+  console.error("--blog and --highlights cannot be combined: run them one after the other.");
+  process.exit(2);
+}
 const [argReport, argParagraph] = highlightsOnly || blogOnly ? [] : process.argv.slice(2).filter((arg) => !arg.startsWith("--"));
 const highlightReports = highlightsOnly ? process.argv.slice(2).filter((arg) => !arg.startsWith("--")) : [];
 

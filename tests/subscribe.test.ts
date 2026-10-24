@@ -63,7 +63,7 @@ describe("parseSubscription", () => {
   });
 
   it("flags a filled honeypot", () => {
-    expect(parseSubscription({ email: "bot@example.org", website: "http://spam" })?.spam).toBe(true);
+    expect(parseSubscription({ email: "bot@example.org", rtm_hp: "http://spam" })?.spam).toBe(true);
   });
 });
 
@@ -111,9 +111,32 @@ describe("POST /api/subscribe", () => {
 
   it("thanks a bot that filled the honeypot, and stores nothing", async () => {
     const { db, rows } = fakeDb();
-    const res = await app.request("http://localhost/api/subscribe", form({ email: "bot@example.org", website: "x" }), { DB: db });
+    const res = await app.request("http://localhost/api/subscribe", form({ email: "bot@example.org", rtm_hp: "x" }), { DB: db });
     expect(res.headers.get("location")).toBe("/newsletter?subscribed");
     expect(rows).toEqual([]);
+  });
+
+  it("refuses a post from another site, and an oversized body", async () => {
+    const { db, rows } = fakeDb();
+    const cross = await app.request(
+      "http://localhost/api/subscribe",
+      { ...form({ email: "victim@example.org" }), headers: { "content-type": "application/x-www-form-urlencoded", origin: "https://evil.example", "sec-fetch-site": "cross-site" } },
+      { DB: db }
+    );
+    expect(cross.status).toBe(403);
+    const same = await app.request(
+      "http://localhost/api/subscribe",
+      { ...form({ email: "reader@example.org" }), headers: { "content-type": "application/x-www-form-urlencoded", origin: "http://localhost", "sec-fetch-site": "same-origin" } },
+      { DB: db }
+    );
+    expect(same.status).toBe(303);
+    const big = await app.request(
+      "http://localhost/api/subscribe",
+      { ...form({ email: "reader2@example.org", pad: "x".repeat(5000) }), headers: { "content-type": "application/x-www-form-urlencoded", "content-length": "5100" } },
+      { DB: db }
+    );
+    expect(big.status).toBe(413);
+    expect(rows.map((row) => row.email)).toEqual(["reader@example.org"]);
   });
 
   it("says try later when the table is missing (migration 0006 not applied)", async () => {
@@ -156,7 +179,7 @@ describe("the signup on the site", () => {
     expect(page).toContain("contact@reportsthatmatter.org");
     expect(page).not.toContain("noindex");
     const thanks = await (await app.request("http://localhost/newsletter?subscribed")).text();
-    expect(thanks).toContain("you are on the list");
+    expect(thanks).toContain("asking you to confirm");
     expect(thanks).toContain("noindex");
     const unknown = await (await app.request("http://localhost/newsletter?error=<b>")).text();
     expect(unknown).not.toContain("signup-notice");
@@ -169,6 +192,10 @@ describe("the signup on the site", () => {
 });
 
 describe("subscribersCsv", () => {
+  it("keeps a formula-looking cell as text", () => {
+    expect(subscribersCsv([{ email: "=cmd@example.org", source: "home", created_at: 0, status: "unconfirmed" }])).toContain("\n'=cmd@example.org,");
+  });
+
   it("writes a header and quotes what needs it", () => {
     expect(subscribersCsv([{ email: "a@example.org", source: "home", created_at: 0, status: "unconfirmed" }])).toBe(
       "email,subscribed_at,source,status\na@example.org,1970-01-01T00:00:00.000Z,home,unconfirmed\n"

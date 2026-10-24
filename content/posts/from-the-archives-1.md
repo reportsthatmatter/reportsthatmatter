@@ -1,5 +1,5 @@
 ---
-title: "From the archives, No. 1: the warnings were on the record"
+title: "From the archives, No. 1: “There for all to see”"
 date: "2026-11-03"
 author: "Reports that Matter"
 summary: "The first monthly newsletter from Reports that Matter: five passages from five inquiries that found the danger had been visible, written down, sometimes said out loud, long before the collapse."
@@ -8,13 +8,13 @@ issue: 1
 review:
   - "DECISION: send date. Drafted for Tuesday 3 November 2026, a week after the public launch; change the date before publishing. The Leveson anniversary line ('this month') only holds for a November issue."
   - "Link the launch announcement in the opening paragraph once launch-pack's post has a slug (replace the plain 'launched last week')."
-  - "The quotes and their ?p=/&h= links are copied from marketing/queue.yaml (checked by pnpm marks check), with src=newsletter. Context lines are ours: check them, especially that Madelyn Antoncic was Lehman's chief risk officer when she wrote the Lehman line."
+  - "The quotes and their ?p=/&h= links are copied from marketing/queue.yaml (checked by pnpm marks check), with src=newsletter. Context lines are ours and were checked against the reports' text and footnotes (Antoncic: CRO until 2007, email of 8 Apr 2008, footnote 440; PSI: S&P email chain of December 2006, p. 297)."
   - "This post is also the email. When a provider is chosen (decision 0033), paste the markdown body into it; the links already work outside the site."
 ---
 
 Reports that Matter launched last week: [eighteen public inquiries and investigations](/reports), every paragraph readable, searchable and citable by its own link. This is the first of a monthly letter from that archive. Each issue picks a few passages worth reading again, quotes them exactly, and links to the place in the report where they sit, so you can read what comes before and after.
 
-This month's theme runs through more of the archive than we expected. Report after report finds that the danger was not hidden. It was visible, written down, sometimes said out loud, long before the collapse.
+This month's passages share one finding. Looking back, each inquiry found that the signs were on the record long before the event, even where nobody read them that way at the time.
 
 ## "There for all to see almost from the very start"
 
@@ -22,7 +22,7 @@ Fourteen years ago this month, on 29 November 2012, Lord Justice Leveson publish
 
 > Although the system as constituted in this manner unravelled, in spectacular fashion, in July 2011, the inherent weakness was there for all to see almost from the very start.
 
-The "system" is the press's own regulation through the Press Complaints Commission; July 2011 is when the phone-hacking scandal at the News of the World broke open. [Read it in place, p. 1515 →](https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=1-2-follows-from-criticisms&h=industry%20has%20with%20the%20PCC.%20|Although%20the%20system%20as%20constituted%20in%20this%20manner%20unravelled%2C%20in%20spectacular%20fashion%2C%20in%20July%202011%2C%20the%20inherent%20weakness%20was%20there%20for%20all%20to%20see%20almost%20from%20the%20very%20start.|&src=newsletter)
+The "system" is press self-regulation as a whole, built around the Press Complaints Commission; July 2011 is when the phone-hacking scandal at the News of the World broke open. [Read it in place, p. 1515 →](https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=1-2-follows-from-criticisms&h=industry%20has%20with%20the%20PCC.%20|Although%20the%20system%20as%20constituted%20in%20this%20manner%20unravelled%2C%20in%20spectacular%20fashion%2C%20in%20July%202011%2C%20the%20inherent%20weakness%20was%20there%20for%20all%20to%20see%20almost%20from%20the%20very%20start.|&src=newsletter)
 
 ## "A slippery slope that resulted in catastrophe"
 
@@ -34,7 +34,7 @@ The paragraph goes on: "Each decision, taken by itself, seemed correct, routine,
 
 ## "Precisely when the need for regulatory oversight intensified"
 
-The National Commission on the BP Deepwater Horizon oil spill traced how the regulator's inspections thinned out as drilling moved into deeper water:
+The National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling traced how the regulator's inspections thinned out as drilling moved into deeper water:
 
 > Precisely when the need for regulatory oversight intensified, the government's capacity for oversight diminished.
 
@@ -42,7 +42,7 @@ The National Commission on the BP Deepwater Horizon oil spill traced how the reg
 
 ## "Every one saw the train wreck coming"
 
-The examiner appointed in Lehman Brothers' bankruptcy quotes Lehman's own risk officer, looking back on the months before the firm failed in September 2008:
+The examiner appointed in Lehman Brothers' bankruptcy quotes Madelyn Antoncic, Lehman's chief risk officer until 2007, in an email of 8 April 2008, five months before the firm failed:
 
 > "every one saw the train wreck coming. 64k question is why didn't anyone get out of the way???"
 
@@ -50,7 +50,7 @@ The examiner appointed in Lehman Brothers' bankruptcy quotes Lehman's own risk o
 
 ## "This house of cards"
 
-The US Senate Permanent Subcommittee on Investigations, examining the financial crisis in 2011, quotes the credit rating agencies' own staff:
+The US Senate Permanent Subcommittee on Investigations, examining the financial crisis in 2011, quotes a December 2006 email chain among Standard & Poor's analysts rating a complex mortgage security:
 
 > One analyst wrote: "Rating agencies continue to create and [sic] even bigger monster – the CDO market. Let's hope we are all wealthy and retired by the time this house of cards falters."
 

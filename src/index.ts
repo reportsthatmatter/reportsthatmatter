@@ -3,7 +3,7 @@ import { resolveParagraph, resolveSection } from "./lib/aliases";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog, loadPostFiles } from "./lib/source";
 import { parsePosts, visiblePosts, findPost, isPublished, publishedIssues } from "./lib/blog";
-import { parseSubscription, recordSubscription } from "./lib/subscribe";
+import { parseSubscription, recordSubscription, isSameSite, MAX_BODY_BYTES } from "./lib/subscribe";
 import { renderNewsletterPage, signupMessage, type SignupOutcome } from "./templates/newsletter";
 import { renderBlogIndex, renderPostPage, renderAtomFeed } from "./templates/blog";
 import { renderIndex, renderReportsIndex } from "./templates/index";
@@ -490,6 +490,8 @@ app.get("/newsletter", async (c) => {
  */
 app.post("/api/subscribe", async (c) => {
   const wantsJson = (c.req.header("accept") ?? "").includes("application/json");
+  if (!isSameSite(c.req.url, c.req.header("origin"), c.req.header("sec-fetch-site"))) return c.text("Forbidden", 403);
+  if (Number(c.req.header("content-length") ?? 0) > MAX_BODY_BYTES) return c.text("Payload too large", 413);
   let body: Record<string, unknown> = {};
   try {
     body = (c.req.header("content-type") ?? "").includes("application/json")

@@ -1837,6 +1837,12 @@ html.passage-landing body {
   border-color: var(--ink);
 }
 
+.signup-form input[type="email"]:focus-visible,
+.signup-form button:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
 .signup-form button {
   font-family: var(--mono);
   font-size: 0.72rem;

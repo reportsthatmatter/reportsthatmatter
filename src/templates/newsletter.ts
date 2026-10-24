@@ -15,7 +15,7 @@ export const SIGNUP_SCRIPT = "/assets/signup.js";
 
 /** One line, under every form: what we keep and what happens next. The full version is on /newsletter and /about. */
 export const SIGNUP_PRIVACY =
-  "We keep your address and where you signed up, nothing else, and use it only for this newsletter. Before the first issue you get one email asking you to confirm; every issue has an unsubscribe link.";
+  "We keep your address, and when and where on the site you signed up; nothing else, and only for this newsletter. Before the first issue you get one email asking you to confirm; every issue has an unsubscribe link.";
 
 export const NEWSLETTER_PITCH =
   "A few passages worth reading again, sometimes tied to the date or the news, each linked to its place in the report.";
@@ -43,7 +43,7 @@ function signupForm(source: string): string {
       <input type="hidden" name="source" value="${escapeHtml(source)}" />
       <label class="visually-hidden" for="signup-email">Email address</label>
       <input type="email" id="signup-email" name="email" required autocomplete="email" maxlength="254" placeholder="you@example.org" />
-      <div class="signup-trap" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+      <div class="signup-trap" aria-hidden="true"><label>Leave this empty <input type="text" name="rtm_hp" tabindex="-1" autocomplete="off" /></label></div>
       <button type="submit">Subscribe</button>
     </form>
     <p class="signup-status" role="status" aria-live="polite"></p>
@@ -53,7 +53,7 @@ function signupForm(source: string): string {
 export type SignupOutcome = "subscribed" | "invalid" | "unavailable" | undefined;
 
 const OUTCOME_TEXT: Record<Exclude<SignupOutcome, undefined>, string> = {
-  subscribed: "Thank you: you are on the list. Look out for one email asking you to confirm, before the first issue.",
+  subscribed: "Thank you. Before the first issue you will get one email asking you to confirm; the list is only those who do.",
   invalid: "That does not look like an email address. Please check it and try again.",
   unavailable: "Sorry, we could not save that just now. Please try again in a few minutes.",
 };
@@ -100,7 +100,7 @@ export function renderNewsletterPage(issues: Post[], outcome?: SignupOutcome): s
       network address or browser, and we do not use your address for anything but this newsletter. We will never sell it, or give it to anyone but the mailing service that sends the newsletter.</p>
       <p>The list is held on the same Cloudflare database as the rest of the site until we send the first issue. The
       newsletter will then be sent by a mailing service, which emails you once to ask you to confirm before you
-      receive anything; if you do not confirm, your address is deleted. Every issue has an unsubscribe link.</p>
+      receive anything; we delete addresses that are not confirmed. Every issue has an unsubscribe link.</p>
     <p>To be removed at any time, or to ask what we hold, write to <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
   </div>
 </main>`;

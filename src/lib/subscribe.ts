@@ -11,6 +11,26 @@ export type Subscription = { email: string; source: string };
 
 export type SubscribeResult = "ok" | "invalid" | "unavailable";
 
+/** A signup body is a few hundred bytes; anything much larger is not a form we rendered. */
+export const MAX_BODY_BYTES = 4096;
+
+/**
+ * Only our own pages may post a signup: a cross-site form or script posting to us is refused. Browsers send
+ * `Sec-Fetch-Site` (and `Origin` on a POST); a request with neither (curl, a test) is let through, since the
+ * check is against other sites signing strangers up from their pages, not against a determined script.
+ */
+export function isSameSite(requestUrl: string, origin: string | undefined, fetchSite: string | undefined): boolean {
+  if (fetchSite && fetchSite !== "same-origin" && fetchSite !== "same-site" && fetchSite !== "none") return false;
+  if (origin && origin !== "null") {
+    try {
+      return new URL(origin).host === new URL(requestUrl).host;
+    } catch {
+      return false;
+    }
+  }
+  return true;
+}
+
 /** RFC 5321 caps a path at 254 characters; anything longer is not an address we could ever send to. */
 const MAX_EMAIL = 254;
 
@@ -37,7 +57,7 @@ export function normaliseSource(value: unknown): string {
 
 /**
  * A signup from a form body (urlencoded or JSON, already parsed to a record). `null` when the address is
- * missing or malformed. The hidden `website` field is a honeypot: a person never sees it, a form-filling bot
+ * missing or malformed. The hidden `rtm_hp` field is a honeypot: a person never sees it, a form-filling bot
  * fills it, and its signup is accepted (so it learns nothing) but never stored — `spam: true`.
  */
 export function parseSubscription(body: Record<string, unknown>): (Subscription & { spam: boolean }) | null {
@@ -45,7 +65,7 @@ export function parseSubscription(body: Record<string, unknown>): (Subscription 
   if (typeof raw !== "string") return null;
   const email = normaliseEmail(raw);
   if (!isValidEmail(email)) return null;
-  const honeypot = body.website;
+  const honeypot = body.rtm_hp;
   return {
     email,
     source: normaliseSource(body.source),
@@ -73,7 +93,11 @@ export async function recordSubscription(db: MarksDB | undefined, sub: Subscript
 
 /** A list as the provider's CSV import reads it: email, then when and where they signed up. */
 export function subscribersCsv(rows: Array<{ email: string; source: string; created_at: number; status: string }>): string {
-  const cell = (value: string) => (/[",\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value);
+  // A leading = + - @ would be a formula to a spreadsheet opening the file: prefix ' so it stays text.
+  const cell = (raw: string) => {
+    const value = /^[=+\-@]/.test(raw) ? `'${raw}` : raw;
+    return /[",\n]/.test(value) ? `"${value.replace(/"/g, '""')}"` : value;
+  };
   const lines = rows.map((row) =>
     [row.email, new Date(row.created_at).toISOString(), row.source, row.status].map((value) => cell(String(value))).join(",")
   );
