@@ -700,6 +700,8 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 
 **Ship introductions without review.** Report introductions (`editorial/<id>.yaml`) go out approved, merged and deployed in one go. Rufus gives feedback later as a follow-up. Don't open "Rufus: review" beads for intros.
 
+**One voice for public copy.** Every post, thread, email, pitch, blog post, bio and line of site chrome follows [`docs/brand-voice.md`](docs/brand-voice.md): opinionated about access, silent about verdicts. Read it before writing any copy; report introductions also follow `docs/report-introductions.md`. (Asked for by Rufus, written by `launch-pack`, 2026-10-24.)
+
 **Drafts live in the repo.** Posts, long-reads and research write-ups are files on a branch with a PR: the blog posts folder with `status: draft`, or `docs/research/`. Don't produce Claude artifacts as review copies unless Rufus asks for one.
 
 **Get better faster, not just fix the next bug.** Research and integrator work should also improve how we find and measure defects. Prefer work that produces measurement (reference texts, `pnpm score`, golden pages, the oracle, error clustering) over another one-off pass. Every agent's final report ends with a "Getting better faster" retro (what slowed you, what would have caught it, one proposal), and lessons go into `docs/design/lessons/` (one file each). Reports that have a clean edition are both a served source and the labelled training set for PDF-only reports (shadow PDF ingest; docs/decisions/0003).
