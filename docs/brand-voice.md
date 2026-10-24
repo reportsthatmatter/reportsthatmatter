@@ -22,7 +22,7 @@ When copy reads as bland, we have usually hedged about access. Being careful abo
 
 ## Do
 
-- Lead with the document: one verbatim sentence, its source, its year, its page or paragraph number.
+- Lead with the document: one verbatim sentence, its source, its year, its page or paragraph number. On a post with a quote card, the card is the sentence and the text is its context: what the document is, who wrote it, when and why, never the quote again (the `post-writing` skill; Rufus, 24 Oct 2026).
 - Say what we did in one line: rebuilt from the official PDF, every paragraph has its own link, the official PDF is one click away.
 - Say what's wrong, with the number. "Where our text and the PDF differ, the PDF is right."
 - Give the context line on every post from an `affected_community` report (registry field `context_line`; Challenger, Columbia and the others without one need one written before they are posted).
@@ -54,7 +54,7 @@ When copy reads as bland, we have usually hedged about access. Being careful abo
 
 | Where | Who speaks | Register |
 | --- | --- | --- |
-| Org Bluesky `@reportsthatmatter.org` | The record | The sentence in the text, then source, page, link. No "I". |
+| Org Bluesky `@reportsthatmatter.org` | The record | The card carries the sentence; the text gives the context and a hook, then source, page, link. No "I". |
 | Rufus's own accounts | Rufus, "I" | Why he made it, in one or two sentences, then the documents. The access argument lives here. |
 | Hacker News, Reddit | Rufus, in his own words | Agents supply facts only; both sites ban or punish generated text. |
 | Emails and pitches | Rufus | Three to five sentences, one passage matched to the reader, one link, one question or none. |
