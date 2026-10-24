@@ -31,6 +31,17 @@
 report: us-senate-cia-torture-report
 status: approved
 
+hero:
+  src: /assets/heroes/us-senate-cia-torture-report.webp
+  alt: >-
+    The Hart Senate Office Building in Washington, a white marble block with a
+    grid of tall windows, seen from across the street. It houses the Senate
+    Select Committee on Intelligence.
+  credit: "Hart Senate Office Building, Washington, 2011 · Photo: Architect of the Capitol, public domain"
+  source: "https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_Hart_Senate_Office_Building.jpg"
+  licence: Public domain (US federal government work)
+  focus: "50% 25%"
+
 why_it_matters: >-
   The Senate Intelligence Committee's study of the CIA's secret detention and
   interrogation programme after 11 September 2001, published in December 2014
