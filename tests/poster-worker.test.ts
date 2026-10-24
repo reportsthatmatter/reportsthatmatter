@@ -26,7 +26,7 @@ function item(id: string, scheduled: string, extra: Partial<PosterItem> = {}): P
 }
 
 /** The world the Worker sees: the repo's main on raw, the site, and the Bluesky account. */
-function world(opts: { queue: PosterItem[]; live?: string | null; brokenLinks?: string[] }) {
+function world(opts: { queue: PosterItem[]; live?: string | null; brokenLinks?: string[]; movedLinks?: Record<string, string> }) {
   const account: FeedPost[] = [];
   const fetched: string[] = [];
   let logins = 0;
@@ -40,6 +40,12 @@ function world(opts: { queue: PosterItem[]; live?: string | null; brokenLinks?: 
     if (url.startsWith(`${RAW}/assets/cards/`)) return new Response(new Uint8Array([137, 80, 78, 71]));
     if (url.startsWith(`${ORIGIN}/reports/demo?p=`)) {
       const p = new URL(url).searchParams.get("p")!;
+      if (opts.movedLinks?.[p]) {
+        // What fetch returns after following the site's alias redirect: the final URL names the new id.
+        const res = new Response(`<html><p id="${opts.movedLinks[p]}">text</p></html>`);
+        Object.defineProperty(res, "url", { value: `${ORIGIN}/reports/demo/section?p=${opts.movedLinks[p]}#${opts.movedLinks[p]}` });
+        return res;
+      }
       const id = opts.brokenLinks?.includes(p) ? "somewhere-else" : p;
       return new Response(`<html><p id="${id}">text</p></html>`);
     }
@@ -78,6 +84,14 @@ describe("readSwitch", () => {
   it("the committed switch file parses", () => {
     const text = readFileSync(join(import.meta.dirname, "..", "marketing/poster-live.yaml"), "utf8");
     expect(text).toMatch(/^live: (true|false)$/m);
+  });
+});
+
+describe("selectNext reads posted_at as a UTC day whatever its offset", () => {
+  it("a post at 23:30 -05:00 on 2 Nov is 3 Nov in UTC", () => {
+    const q = [item("a", "2026-11-02", { posted_url: "https://bsky.app/x/1", posted_at: "2026-11-02T23:30:00-05:00" }), item("b", "2026-11-02")];
+    expect(selectNext(q, "2026-11-03")).toMatchObject({ kind: "already-today" });
+    expect(selectNext(q, "2026-11-02")).toMatchObject({ kind: "item", item: { id: "b" } });
   });
 });
 
@@ -120,8 +134,9 @@ describe("runWorkerPoster", () => {
   it("posts at 13:47, the 14:17 and 14:47 retries post nothing more, and the queue is never written", async () => {
     const w = world({ queue });
     expect(await w.run("2026-10-25T13:47:00Z")).toMatchObject({ outcome: "posted", item: { id: "a" } });
-    expect(await w.run("2026-10-25T14:17:00Z")).toMatchObject({ outcome: "already-posted-today", item: { id: "a" } });
-    expect(await w.run("2026-10-25T14:47:00Z")).toMatchObject({ outcome: "already-posted-today" });
+    // Each retry finds the post on the account (the queue on main still says unposted) and posts nothing.
+    expect(await w.run("2026-10-25T14:17:00Z")).toMatchObject({ outcome: "reconciled", item: { id: "a" } });
+    expect(await w.run("2026-10-25T14:47:00Z")).toMatchObject({ outcome: "reconciled", item: { id: "a" } });
     expect(w.account.map((p) => p.embedUri)).toEqual([queue[0].link]);
     expect(w.fetched.some((u) => u === `${RAW}/assets/cards/demo/a.png`)).toBe(true);
   });
@@ -145,6 +160,35 @@ describe("runWorkerPoster", () => {
     const w = world({ queue, brokenLinks: ["para-a"] });
     await expect(w.run("2026-10-25T13:47:00Z")).rejects.toThrow(/does not open on paragraph para-a/);
     expect(w.account).toHaveLength(0);
+  });
+
+  it("accepts a deep link whose id moved (the site redirects the alias), and probes it without src=bsky", async () => {
+    const w = world({ queue, movedLinks: { "para-a": "para-a-new" } });
+    expect(await w.run("2026-10-25T13:47:00Z")).toMatchObject({ outcome: "posted", item: { id: "a" } });
+    const probes = w.fetched.filter((u) => u.startsWith(`${ORIGIN}/reports/`));
+    expect(probes).toHaveLength(1);
+    expect(probes[0]).not.toContain("src=bsky");
+  });
+
+  it("a GitHub run whose queue differs from the one the Worker read still posts nothing that day", async () => {
+    // The Worker read a queue without x; by the time GitHub checks out main, x (scheduled earlier) has been merged.
+    const w = world({ queue });
+    await w.run("2026-10-25T13:47:00Z");
+    const ghQueue = [item("x", "2026-10-24"), ...queue];
+    const gh: PosterClient = { recentPosts: async () => [...w.account], publish: async () => Promise.reject(new Error("must not post")) };
+    const r = await runPoster({ queue: ghQueue, today: "2026-10-25", mode: { live: true, hasCredentials: true, why: "" }, client: gh, siteOrigin: ORIGIN, notBefore: "15:00", now: () => new Date("2026-10-25T17:30:00Z") });
+    expect(r).toMatchObject({ outcome: "reconciled", item: { id: "a" }, changed: true });
+    expect(r.queue.find((i) => i.id === "x")!.posted_url).toBeNull();
+  });
+
+  it("a GitHub run catching up after days of lost write-backs records them all in one run, then posts nothing more today", async () => {
+    const w = world({ queue });
+    await w.run("2026-10-25T13:47:00Z");
+    await w.run("2026-10-26T13:47:00Z");
+    const gh: PosterClient = { recentPosts: async () => [...w.account], publish: async () => Promise.reject(new Error("must not post")) };
+    const r = await runPoster({ queue, today: "2026-10-26", mode: { live: true, hasCredentials: true, why: "" }, client: gh, siteOrigin: ORIGIN, notBefore: "15:00", now: () => new Date("2026-10-26T17:30:00Z") });
+    expect(r).toMatchObject({ outcome: "reconciled", item: { id: "b" } });
+    expect(r.queue.slice(0, 2).map((i) => i.posted_at)).toEqual(["2026-10-25T13:47:00.000Z", "2026-10-26T13:47:00.000Z"]);
   });
 
   it("a GitHub run after it, on the unrecorded queue, records the Worker's post with today's posted_at and posts nothing", async () => {
@@ -174,8 +218,8 @@ describe("the Worker's and the workflow's schedules", () => {
     }
   });
 
-  it("a scheduled GitHub run does not post before 15:00 UTC, and the workflow reads the switch file, not a variable", () => {
-    expect(yml).toContain("POSTER_NOT_BEFORE: ${{ github.event_name == 'schedule' && '15:00' || '13:00' }}");
+  it("no GitHub run posts before 15:00 UTC, and the workflow reads the switch file, not a variable", () => {
+    expect(yml).toContain('POSTER_NOT_BEFORE: "15:00"');
     expect(yml).toContain("|| 'file' }}");
     expect(yml).not.toContain("vars.POSTER_LIVE");
   });

@@ -296,7 +296,7 @@ describe("dry run", () => {
 
   it("reports that a live run would only reconcile when the account already has the item", async () => {
     const a = item("a", "2026-10-14");
-    const { client, published } = fakeClient([{ uri: "u", url: "https://bsky.app/x/9", text: a.text, embedUri: a.link, createdAt: "" }]);
+    const { client, published } = fakeClient([{ uri: "u", url: "https://bsky.app/x/9", text: a.text, embedUri: a.link, createdAt: "2026-10-14T14:00:00Z" }]);
     const r = await runPoster({ queue: [a], today: "2026-10-14", mode: DRY_WITH_CREDS, client, siteOrigin: ORIGIN });
     expect(r).toMatchObject({ outcome: "dry-run", changed: false, wouldReconcile: { url: "https://bsky.app/x/9" } });
     expect(published).toHaveLength(0);

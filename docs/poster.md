@@ -5,13 +5,13 @@ Reportsthatmatter-y2t.4. Once a day the next due item in [`marketing/queue.yaml`
 Two posters share one decision module ([`src/lib/poster.ts`](../src/lib/poster.ts)) and one Bluesky adapter ([`src/lib/bluesky-client.ts`](../src/lib/bluesky-client.ts)):
 
 - **The Worker `rtm-poster`** ([`workers/poster/`](../workers/poster/), Datopian Cloudflare account) makes the post, on time: Cloudflare crons at 13:47 UTC, retrying at 14:17 and 14:47. It reads the switch and the queue from the public repo's `main` (raw.githubusercontent.com, so no token) and cannot write anything back.
-- **The GitHub workflow** ([`.github/workflows/post-next.yml`](../.github/workflows/post-next.yml)) is the backup and the write-back. Its scheduled runs start hours late (see "When it posts"); each finds the Worker's post on the account and commits its `posted_url` and `posted_at` to the queue. If the Worker posted nothing, a scheduled run posts, but never before 15:00 UTC, so the two never race.
+- **The GitHub workflow** ([`.github/workflows/post-next.yml`](../.github/workflows/post-next.yml)) is the backup and the write-back. Its scheduled runs start hours late (see "When it posts"); each finds the Worker's post on the account and commits its `posted_url` and `posted_at` to the queue. If the Worker posted nothing, a workflow run posts, but never before 15:00 UTC (scheduled or manual), so the two never race.
 
 ## The switch
 
 **One switch for both: [`marketing/poster-live.yaml`](../marketing/poster-live.yaml).** `live: true` posts; anything else (or `live: false`) makes both posters dry runs. Live since Sun 2026-10-25 (Rufus's instruction, 24 Oct). The old repository variable `POSTER_LIVE` is retired and deleted; the workflow no longer reads it.
 
-- **Switch off:** set `live: false` in that file and push to `main` (on github.com: edit the file, commit). The workflow sees it on its next run; the Worker within about 5 minutes (GitHub's raw cache). Any agent may switch it off.
+- **Switch off:** set `live: false` in that file and push to `main` (on github.com: edit the file, commit). The workflow sees it on its next run; the Worker usually within 5 minutes (GitHub's raw cache, `max-age=300`; allow 10). If it must stop sooner, stop the Worker outright (below). Any agent may switch it off.
 - **Switch on:** `live: true`, pushed to `main`. Rufus's call.
 - **Stop the Worker outright** (belt and braces, or if GitHub is unreachable): `pnpm wrangler delete -c workers/poster/wrangler.toml` from a checkout logged into the Datopian account, or remove its cron triggers in the Cloudflare dashboard (Workers, `rtm-poster`, Settings, Triggers). Redeploy to restore.
 
@@ -23,31 +23,31 @@ The workflow's states:
 | --- | --- | --- |
 | none | off | dry run, no Bluesky request at all, exit 0 |
 | both | off | dry run that logs in and reads the account's recent posts (read-only), exit 0 |
-| both | `live: true` | records the Worker's post, or (after 15:00 UTC, scheduled) posts if there is none; commits `posted_url` |
+| both | `live: true` | records the Worker's post, or (after 15:00 UTC) posts if there is none; commits `posted_url` |
 | missing or one | `live: true` | fails, loudly: live was asked for without credentials |
 
-The Worker with the switch off makes no Bluesky request at all. A manual run of the workflow is a dry run unless you untick "Dry run", and even then it posts only if the switch is on. A manual live run keeps the 13:00 UTC gate: `gh workflow run post-next.yml -R reportsthatmatter/reportsthatmatter -f dry_run=false`. Avoid starting one in the minute after 13:47, 14:17 or 14:47 UTC, when the Worker may be mid-post; at any other time it finds today's post and does nothing.
+The Worker with the switch off makes no Bluesky request at all. A manual run of the workflow is a dry run unless you untick "Dry run", and even then it posts only if the switch is on. A manual live run (`gh workflow run post-next.yml -R reportsthatmatter/reportsthatmatter -f dry_run=false`) has the same 15:00 UTC gate as a scheduled one: before then it says "Too early" and does nothing, so it can never race the Worker. After 15:00 it records today's post, or posts if the Worker did not.
 
 ## When it posts
 
 The post is meant for about 14:00 UTC. GitHub's `schedule` is best-effort: a single `0 14 * * *` cron started 4 to 8 hours late every day from 4 to 16 October (reportsthatmatter-gweq), and the four off-peak crons that replaced it (`47 13`, `17 14`, `47 14`, `17 15`) still started around 17:00 to 19:00 UTC. So the Worker makes the post (Cloudflare crons run within a minute or so of their time), and the workflow's crons stay as the backup and the write-back. The rules, enforced by the shared code:
 
-- **One post per UTC day.** The Worker first lays the account's 100 most recent posts over the queue (`overlayAccount`): any queue item already on the account counts as posted, at that post's time. So its retries, and its next day's run, never repost an item, however late (or absent) the GitHub write-back. The workflow finds today's `posted_at` (or the post on the account) the same way it always did; runs are serialised by `concurrency: post-next`.
-- **Not before 13:00 UTC** for the Worker and a manual run; **not before 15:00 UTC** for a scheduled workflow run (`POSTER_NOT_BEFORE`), which leaves the Worker's window to the Worker. Dry runs are never gated.
+- **One post per UTC day.** Every run, Worker or workflow, first lays the account's 100 most recent posts over the queue (`overlayAccount` in `runPoster`): any queue item already on the account counts as posted, at that post's time. So the Worker's retries and next days never repost, however late (or absent) the GitHub write-back, and a workflow run whose queue is behind (lost commits, a missed day, an item merged after the Worker read the queue) records every post it finds in one go and posts nothing more that day. Workflow runs are also serialised by `concurrency: post-next`.
+- **Not before 13:00 UTC** for the Worker; **not before 15:00 UTC** for any workflow run (`POSTER_NOT_BEFORE`), which leaves the Worker's window to the Worker. Dry runs are never gated.
 - **Kept-clear days** are skipped by every run.
 
 Measure: `gh run list --workflow post-next.yml --limit 30 --json createdAt,event` for the workflow; the Worker's runs and logs are in the Cloudflare dashboard (Workers, `rtm-poster`, Logs; observability is on), or `pnpm wrangler tail -c workers/poster/wrangler.toml` at 13:47.
 
 ## What a run does
 
-**The Worker** (`workers/poster/run.ts`): reads the switch (stops there if off), the queue and the account's recent posts, overlays them, then the same selection and checks as below. In place of `pnpm posts --check` (which needs a build), just before posting it fetches the item's deep link from the live site and refuses unless the page carries the paragraph id. It fetches the card image from the repo. Every problem throws: the invocation shows as failed in the Cloudflare dashboard, and the workflow's backup run after 15:00 UTC posts if nothing went out.
+**The Worker** (`workers/poster/run.ts`): reads the switch (stops there if off), the queue and the account's recent posts, overlays them, then the same selection and checks as below. In place of `pnpm posts --check` (which needs a build), just before posting it fetches the item's deep link from the live site (without `src=bsky`) and refuses unless the page carries the paragraph id, or the id the site redirected an alias to. It fetches the card image from the repo. Every problem throws: the invocation shows as failed in the Cloudflare dashboard, and the workflow's backup run after 15:00 UTC posts if nothing went out.
 
 **The workflow:**
 
 1. `pnpm prerender` and `pnpm posts --check`: fails the run, before anything is posted, if an unposted queue item no longer matches its report (a re-ingest moved a paragraph id). Fix with `pnpm posts --drop-stale` in a PR.
 2. `pnpm post-next` ([`scripts/post-next.mjs`](../scripts/post-next.mjs), decisions in [`src/lib/poster.ts`](../src/lib/poster.ts)):
    - **Selects** the first unposted item, in `scheduled` order, whose date has arrived. A missed day is made up one post at a time, never in a burst. At most one item per UTC day.
-   - **Checks the account**: the 100 most recent posts of the account itself (replies and reposts excluded). If one carries this item's deep link in its card, or has exactly its text, the item is recorded as posted (`posted_url` set to that post) and **nothing is posted**.
+   - **Checks the account**: the 100 most recent posts of the account itself (replies and reposts excluded). Every queue item one of them carries (its deep link in the card, or exactly its text) is recorded as posted (`posted_url` and `posted_at` from that post). If that makes today already posted, **nothing is posted**; otherwise the first due item is.
    - **Posts** the text (quote and source line, as in Appendix C of the launch plan) with an `app.bsky.embed.external` link card: `uri` is the item's `?p=` deep link (with `src=bsky`), the title is the report's title, the description names the page, and the thumbnail is the item's card image from the queue.
    - **Writes** `posted_url` and `posted_at` into `marketing/queue.yaml`.
 3. Commits that file as `github-actions[bot]` and pushes to `main` (three attempts, rebasing between). `main` is not branch-protected; if that changes, give the workflow a bypass or move the write-back to a PR.
@@ -56,9 +56,9 @@ Measure: `gh run list --workflow post-next.yml --limit 30 --json createdAt,event
 
 - An item with a `posted_url` is never selected, and `pnpm posts` never clears one.
 - One post per UTC day, from `posted_at` (this is what makes the several crons safe).
-- No live post before 13:00 UTC; no scheduled workflow post before 15:00 UTC, after the Worker's last retry at 14:47.
+- No live post before 13:00 UTC; no workflow post before 15:00 UTC, after the Worker's last retry at 14:47.
 - The workflow runs one at a time (`concurrency: post-next`); the Worker's three crons are 30 minutes apart, and each run takes seconds.
-- The Worker never writes the queue, so it trusts the account: an item on the account is posted (`overlayAccount`).
+- Both posters trust the account over the queue: an item on the account is posted (`overlayAccount`), and a post found for today means nothing more is posted today.
 - The post goes out before the commit, so a crash between them leaves a post with no `posted_url`. The next run finds it on the account by its deep link and records it instead of posting again. This is the case the account check exists for.
 - A feed read that fails stops the run before anything is posted. No blind post.
 

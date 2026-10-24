@@ -65,6 +65,12 @@ export function decideMode(env: Record<string, string | undefined>): Mode {
   return { live: false, hasCredentials, why: "dry run (no Bluesky credentials set): no network request is made" };
 }
 
+/** The UTC day (YYYY-MM-DD) of a timestamp, whatever offset it was written with; "" if absent or unparseable. */
+function utcDay(ts: string | null | undefined): string {
+  const t = ts ? Date.parse(ts) : NaN;
+  return Number.isNaN(t) ? "" : new Date(t).toISOString().slice(0, 10);
+}
+
 export type Selection =
   | { kind: "item"; item: PosterItem }
   | { kind: "none"; reason: string }
@@ -77,7 +83,7 @@ export type Selection =
  * item is posted per UTC day.
  */
 export function selectNext(items: readonly PosterItem[], today: string): Selection {
-  const postedToday = items.find((i) => i.posted_url && (i.posted_at ?? "").slice(0, 10) === today);
+  const postedToday = items.find((i) => i.posted_url && utcDay(i.posted_at) === today);
   if (postedToday) return { kind: "already-today", item: postedToday };
   // A kept-clear day (posts.ts isBlackout) posts nothing, not even an item overdue from a missed day before it.
   if (isBlackout(today)) return { kind: "none", reason: `${today} is a kept-clear date: nothing is posted` };
@@ -171,23 +177,37 @@ export async function runPoster(params: {
     return { ...unchanged, outcome: "too-early", item, notBefore: params.notBefore };
   }
 
-  const write = (post: FeedPost) => {
-    const next = queue.map((i) => (i.id === item.id ? { ...i, posted_url: post.url, posted_at: post.createdAt || now().toISOString() } : { ...i }));
-    return { queue: next, changed: true, item: next.find((i) => i.id === item.id)! };
-  };
+  if (!client) return { ...unchanged, outcome: "dry-run", item, wouldReconcile: null };
 
-  // Idempotency, second layer: ask the account itself. Done in dry runs too
-  // when credentials exist, so a dry run also proves the secrets work.
-  const existing = client ? findPosted(item, await client.recentPosts()) : null;
+  // Idempotency, second layer: ask the account itself (in dry runs too, so a dry run also proves the secrets work).
+  // Every queue item found among the account's recent posts counts as posted at that post's time (overlayAccount),
+  // so the decision is the same whichever poster makes it: the Worker, which never writes the queue, or a GitHub
+  // run whose queue is behind (a lost commit, a missed day, or a queue edit that hid an item from the Worker).
+  const recent = await client.recentPosts();
+  const overlaid = overlayAccount(queue, recent, now().toISOString());
+  const found = overlaid.filter((i, n) => i.posted_url && !queue[n].posted_url);
+  const again = selectNext(overlaid, today);
+  const reconciledToday = again.kind === "already-today" && found.some((i) => i.id === again.item.id) ? again.item : null;
 
-  if (existing) {
-    if (!mode.live) return { ...unchanged, outcome: "dry-run", item, wouldReconcile: existing };
-    return { ...write(existing), outcome: "reconciled", post: existing };
+  if (!mode.live) {
+    if (reconciledToday) return { ...unchanged, outcome: "dry-run", item: reconciledToday, wouldReconcile: recent.find((p) => p.url === reconciledToday.posted_url)! };
+    if (again.kind === "item") return { ...unchanged, outcome: "dry-run", item: again.item, wouldReconcile: null };
+    return { ...unchanged, outcome: "nothing-due", reason: again.kind === "none" ? again.reason : "already posted today" };
   }
-  if (!mode.live) return { ...unchanged, outcome: "dry-run", item, wouldReconcile: null };
 
-  const post = await client!.publish(item);
-  return { ...write(post), outcome: "posted", post };
+  const recorded = { queue: overlaid, changed: found.length > 0 };
+  if (again.kind === "already-today") {
+    const post = recent.find((p) => p.url === again.item.posted_url);
+    return post ? { ...recorded, outcome: "reconciled", item: again.item, post } : { ...recorded, outcome: "already-posted-today", item: again.item };
+  }
+  if (again.kind === "none") {
+    // Only earlier days' posts were found: recorded; nothing more is due today.
+    return { ...recorded, outcome: "nothing-due", reason: again.reason };
+  }
+  validateItem(again.item, siteOrigin);
+  const post = await client.publish(again.item);
+  const next = overlaid.map((i) => (i.id === again.item.id ? { ...i, posted_url: post.url, posted_at: post.createdAt || now().toISOString() } : i));
+  return { queue: next, changed: true, outcome: "posted", item: next.find((i) => i.id === again.item.id)!, post };
 }
 
 /**
@@ -196,11 +216,12 @@ export async function runPoster(params: {
  * that records its posts may be hours or days late, so the Worker decides from this view: an item it posted
  * yesterday is not selected again, and today's post counts as today's. Never mutates its input.
  */
-export function overlayAccount(queue: readonly PosterItem[], recent: readonly FeedPost[]): PosterItem[] {
+export function overlayAccount(queue: readonly PosterItem[], recent: readonly FeedPost[], fallbackTime = new Date().toISOString()): PosterItem[] {
   return queue.map((i) => {
     if (i.posted_url) return { ...i };
     const p = findPosted(i, recent);
-    return p ? { ...i, posted_url: p.url, posted_at: p.createdAt } : { ...i };
+    // A post with no readable time counts as now: the safe direction (it holds back today's post, never doubles one).
+    return p ? { ...i, posted_url: p.url, posted_at: p.createdAt || fallbackTime } : { ...i };
   });
 }
 

@@ -2,8 +2,8 @@
 # marketing/queue.yaml to Bluesky and commits `posted_url` back. Bluesky only.
 #
 # THE BACKUP AND THE WRITE-BACK. The daily post is made by the Cloudflare Worker rtm-poster (workers/poster/,
-# 13:47 UTC, retries 14:17 and 14:47), because GitHub starts scheduled runs hours late. A scheduled run here posts
-# only after 15:00 UTC and only if the Worker did not: normally it finds the Worker's post on the account and
+# 13:47 UTC, retries 14:17 and 14:47), because GitHub starts scheduled runs hours late. A run here (scheduled or
+# manual) posts only after 15:00 UTC and only if the Worker did not: normally it finds the Worker's post on the account and
 # records posted_url/posted_at in the queue. docs/poster.md.
 #
 # SAFE BY DEFAULT. It posts nothing unless both exist:
@@ -74,8 +74,8 @@ jobs:
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           # A manual run defaults to a dry run; otherwise the switch file decides ("file": marketing/poster-live.yaml).
           POSTER_LIVE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'false' || 'file' }}
-          # A scheduled run leaves 13:00-15:00 UTC to the Worker, so the two never race; a manual run keeps 13:00.
-          POSTER_NOT_BEFORE: ${{ github.event_name == 'schedule' && '15:00' || '13:00' }}
+          # Every live run here leaves 13:00-15:00 UTC to the Worker (crons 13:47, 14:17, 14:47), so the two never race.
+          POSTER_NOT_BEFORE: "15:00"
         run: pnpm post-next
 
       # Runs even if the step above failed after posting, so a posted_url is never left uncommitted.

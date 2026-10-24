@@ -7,7 +7,7 @@
  *
  * - the switch and the queue are read from the public repo's main (raw.githubusercontent.com, about 5 minutes'
  *   cache), so the one switch is marketing/poster-live.yaml for both posters;
- * - it cannot write the queue back, so it first lays the account's recent posts over the queue (overlayAccount):
+ * - it cannot write the queue back; runPoster lays the account's recent posts over the queue (overlayAccount), so
  *   whatever it posted on earlier days counts as posted, and today's post counts as today's, however late the
  *   GitHub run that records them;
  * - the workflow's `pnpm posts --check` needs a build, so instead, just before posting, it fetches the item's deep
@@ -18,7 +18,7 @@
  */
 import { parse } from "yaml";
 import { connectBluesky } from "../../src/lib/bluesky-client";
-import { DEFAULT_NOT_BEFORE, SWITCH_PATH, decideMode, overlayAccount, readSwitch, runPoster, type FeedPost, type PosterClient, type PosterItem, type RunResult } from "../../src/lib/poster";
+import { DEFAULT_NOT_BEFORE, SWITCH_PATH, decideMode, readSwitch, runPoster, type PosterClient, type PosterItem, type RunResult } from "../../src/lib/poster";
 import { SITE_ORIGIN } from "../../src/templates/site";
 
 export type PosterEnv = {
@@ -48,12 +48,28 @@ async function getText(f: typeof fetch, url: string): Promise<string> {
   return res.text();
 }
 
-/** The deep link must open on the item's paragraph: a re-ingest that moved the id would otherwise ship a broken link. */
+/**
+ * The deep link must open on the item's paragraph: a re-ingest that dropped the id would otherwise ship a broken link.
+ * A moved id still works (the site redirects an alias to the new id), so the id the final URL names is accepted too.
+ * `src=bsky` is taken off so the check is not counted as a visit from Bluesky.
+ */
 export async function checkDeepLink(f: typeof fetch, item: Pick<PosterItem, "id" | "link" | "paragraph">): Promise<void> {
-  const res = await f(item.link, { redirect: "follow" });
+  const probe = new URL(item.link);
+  probe.searchParams.delete("src");
+  const res = await f(probe.toString(), { redirect: "follow" });
   if (!res.ok) throw new Error(`Deep link for ${item.id} answered HTTP ${res.status}: ${item.link}`);
   const html = await res.text();
-  if (!html.includes(`id="${item.paragraph}"`)) throw new Error(`Deep link for ${item.id} does not open on paragraph ${item.paragraph} (stale queue item?): ${item.link}`);
+  const ids = new Set([item.paragraph]);
+  try {
+    const final = new URL(res.url || probe.toString());
+    if (final.searchParams.get("p")) ids.add(final.searchParams.get("p")!);
+    if (final.hash.length > 1) ids.add(decodeURIComponent(final.hash.slice(1)));
+  } catch {
+    // no usable final URL: only the item's own id counts
+  }
+  if (![...ids].some((id) => html.includes(`id="${id}"`))) {
+    throw new Error(`Deep link for ${item.id} does not open on paragraph ${item.paragraph} (stale queue item?): ${item.link}`);
+  }
 }
 
 export async function runWorkerPoster(deps: RunDeps): Promise<WorkerOutcome> {
@@ -87,15 +103,12 @@ export async function runWorkerPoster(deps: RunDeps): Promise<WorkerOutcome> {
     beforePublish: (item) => checkDeepLink(f, item),
   });
 
-  // Read the account once: the overlay and runPoster's own check see the same list.
-  const recent = await client.recentPosts();
-  const cached: PosterClient = { recentPosts: async (): Promise<FeedPost[]> => recent, publish: (i) => client.publish(i) };
-
+  // runPoster lays the account's recent posts over the queue (overlayAccount) before it selects.
   const result = await runPoster({
-    queue: overlayAccount(queue, recent),
+    queue,
     today,
     mode,
-    client: cached,
+    client,
     siteOrigin: SITE_ORIGIN,
     notBefore: DEFAULT_NOT_BEFORE,
     now: () => now,
