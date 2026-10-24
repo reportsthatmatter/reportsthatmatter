@@ -1,12 +1,16 @@
 # The scheduled poster (reportsthatmatter-y2t.4): once a day, posts the next due item in
 # marketing/queue.yaml to Bluesky and commits `posted_url` back. Bluesky only.
 #
-# SAFE BY DEFAULT. It posts nothing until all three exist:
+# THE BACKUP AND THE WRITE-BACK. The daily post is made by the Cloudflare Worker rtm-poster (workers/poster/,
+# 13:47 UTC, retries 14:17 and 14:47), because GitHub starts scheduled runs hours late. A run here (scheduled or
+# manual) posts only after 15:00 UTC and only if the Worker did not: normally it finds the Worker's post on the account and
+# records posted_url/posted_at in the queue. docs/poster.md.
+#
+# SAFE BY DEFAULT. It posts nothing unless both exist:
 #   secrets   BLUESKY_HANDLE, BLUESKY_APP_PASSWORD
-#   variable  POSTER_LIVE = true
-# With no secrets it is a dry run that makes no Bluesky request. With the secrets but no
-# variable it is a dry run that logs in and reads the account's recent posts, so it also
-# proves the secrets work. How to switch it on: docs/poster.md.
+#   switch    marketing/poster-live.yaml says `live: true` (the one switch, shared with the Worker)
+# With no secrets it is a dry run that makes no Bluesky request. With the secrets and the switch off it is a dry
+# run that logs in and reads the account's recent posts, so it also proves the secrets work.
 name: Post next excerpt to Bluesky
 
 on:
@@ -23,7 +27,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Dry run: show what would be posted, post nothing (ignores the POSTER_LIVE variable)"
+        description: "Dry run: show what would be posted, post nothing (unticked, it still posts only if marketing/poster-live.yaml says live: true)"
         type: boolean
         default: true
 
@@ -57,9 +61,11 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      # The queue must still match the reports (a re-ingest can move a paragraph id).
-      # Fails the run, before anything is posted, if the next item would ship a broken link.
+      # The queue must still match the reports (a re-ingest can move a paragraph id). If it does not, the run still
+      # records posts already on the account (POSTER_RECORD_ONLY: it never posts), then fails at the end.
       - name: Check the queue against the reports
+        id: check
+        continue-on-error: true
         run: |
           pnpm prerender
           pnpm posts --check
@@ -68,8 +74,11 @@ jobs:
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-          # A manual run defaults to a dry run; a scheduled run follows the variable.
-          POSTER_LIVE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'false' || vars.POSTER_LIVE }}
+          # A manual run defaults to a dry run; otherwise the switch file decides ("file": marketing/poster-live.yaml).
+          POSTER_LIVE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'false' || 'file' }}
+          # Every live run here leaves 13:00-15:00 UTC to the Worker (crons 13:47, 14:17, 14:47), so the two never race.
+          POSTER_NOT_BEFORE: "15:00"
+          POSTER_RECORD_ONLY: ${{ steps.check.outcome == 'failure' && '1' || '' }}
         run: pnpm post-next
 
       # Runs even if the step above failed after posting, so a posted_url is never left uncommitted.
@@ -91,4 +100,10 @@ jobs:
             git pull --rebase origin main
           done
           echo "::error::Could not push the posted_url commit. The post is on Bluesky; the next run will record it without posting again."
+          exit 1
+
+      - name: Fail if the queue check failed
+        if: ${{ steps.check.outcome == 'failure' }}
+        run: |
+          echo "::error::pnpm posts --check failed: nothing was posted (posts already on the account were recorded). Fix the queue (pnpm posts --drop-stale) in a PR."
           exit 1

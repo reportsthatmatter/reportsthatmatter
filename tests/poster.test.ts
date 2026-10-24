@@ -296,7 +296,7 @@ describe("dry run", () => {
 
   it("reports that a live run would only reconcile when the account already has the item", async () => {
     const a = item("a", "2026-10-14");
-    const { client, published } = fakeClient([{ uri: "u", url: "https://bsky.app/x/9", text: a.text, embedUri: a.link, createdAt: "" }]);
+    const { client, published } = fakeClient([{ uri: "u", url: "https://bsky.app/x/9", text: a.text, embedUri: a.link, createdAt: "2026-10-14T14:00:00Z" }]);
     const r = await runPoster({ queue: [a], today: "2026-10-14", mode: DRY_WITH_CREDS, client, siteOrigin: ORIGIN });
     expect(r).toMatchObject({ outcome: "dry-run", changed: false, wouldReconcile: { url: "https://bsky.app/x/9" } });
     expect(published).toHaveLength(0);
@@ -517,6 +517,62 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
       expect(out).toContain("already on the account");
       expect(writes()).toHaveLength(0);
       expect(after[0].posted_url).toBe("https://bsky.app/profile/rtm.test/post/3kold");
+    } finally {
+      server.close();
+    }
+  });
+
+  it("the late GitHub run after the Worker posted: the switch file says live, it records the Worker's post with today's posted_at, posts nothing", async () => {
+    const a = real("a");
+    // The Worker's post at 13:47; GitHub's scheduled run starts at 17:30 with the schedule's 15:00 gate.
+    feed = [entry(DID, "3kworker", a.text, a.link)];
+    feed[0].post.record.createdAt = "2026-10-14T13:47:03.000Z";
+    const sw = join(mkdtempSync(join(tmpdir(), "switch-")), "poster-live.yaml");
+    writeFileSync(sw, "# comment\nlive: true\n");
+    await start();
+    try {
+      const { status, out, after } = await run([a, real("b")], { POSTER_LIVE: "file", POSTER_SWITCH: sw, POSTER_NOT_BEFORE: "15:00", POSTER_NOW: "2026-10-14T17:30:00Z" });
+      expect(status).toBe(0);
+      expect(out).toContain("live is true");
+      expect(out).toContain("already on the account");
+      expect(writes()).toHaveLength(0);
+      expect(after[0]).toMatchObject({ posted_url: "https://bsky.app/profile/rtm.test/post/3kworker", posted_at: "2026-10-14T13:47:03.000Z" });
+      expect(after[1].posted_url).toBeNull();
+      // The next scheduled run that day, on the committed queue: one post per day, so it does nothing.
+      expect(selectNext(after, "2026-10-14")).toMatchObject({ kind: "already-today", item: { id: "a" } });
+    } finally {
+      server.close();
+    }
+  });
+
+  it("POSTER_RECORD_ONLY (the queue check failed): records a post already on the account, but never posts", async () => {
+    const a = real("a");
+    feed = [entry(DID, "3kworker", a.text, a.link)];
+    await start();
+    try {
+      const recorded = await run([a], { POSTER_LIVE: "true", POSTER_RECORD_ONLY: "1" });
+      expect(recorded.status).toBe(0);
+      expect(recorded.after[0].posted_url).toBe("https://bsky.app/profile/rtm.test/post/3kworker");
+      feed = [];
+      const refused = await run([real("b")], { POSTER_LIVE: "true", POSTER_RECORD_ONLY: "1" });
+      expect(refused.status).toBe(1);
+      expect(refused.out).toContain("queue check failed");
+      expect(writes()).toHaveLength(0);
+    } finally {
+      server.close();
+    }
+  });
+
+  it("with the switch file off, POSTER_LIVE=file is a dry run", async () => {
+    feed = [];
+    const sw = join(mkdtempSync(join(tmpdir(), "switch-")), "poster-live.yaml");
+    writeFileSync(sw, "live: false\n");
+    await start();
+    try {
+      const { status, out } = await run([real("a")], { POSTER_LIVE: "file", POSTER_SWITCH: sw });
+      expect(status).toBe(0);
+      expect(out).toContain("DRY RUN: would post a");
+      expect(writes()).toHaveLength(0);
     } finally {
       server.close();
     }
