@@ -545,6 +545,24 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
     }
   });
 
+  it("POSTER_RECORD_ONLY (the queue check failed): records a post already on the account, but never posts", async () => {
+    const a = real("a");
+    feed = [entry(DID, "3kworker", a.text, a.link)];
+    await start();
+    try {
+      const recorded = await run([a], { POSTER_LIVE: "true", POSTER_RECORD_ONLY: "1" });
+      expect(recorded.status).toBe(0);
+      expect(recorded.after[0].posted_url).toBe("https://bsky.app/profile/rtm.test/post/3kworker");
+      feed = [];
+      const refused = await run([real("b")], { POSTER_LIVE: "true", POSTER_RECORD_ONLY: "1" });
+      expect(refused.status).toBe(1);
+      expect(refused.out).toContain("queue check failed");
+      expect(writes()).toHaveLength(0);
+    } finally {
+      server.close();
+    }
+  });
+
   it("with the switch file off, POSTER_LIVE=file is a dry run", async () => {
     feed = [];
     const sw = join(mkdtempSync(join(tmpdir(), "switch-")), "poster-live.yaml");

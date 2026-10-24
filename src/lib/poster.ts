@@ -169,7 +169,9 @@ export async function runPoster(params: {
   if (picked.kind === "already-today") return { ...unchanged, outcome: "already-posted-today", item: picked.item };
 
   const item = picked.item;
-  validateItem(item, siteOrigin);
+  // With no client (a dry run without credentials) this is the item; otherwise only the item chosen after the account
+  // check is validated, so a post already made is recorded even if its queue row would no longer pass.
+  if (!client) validateItem(item, siteOrigin);
 
   // The schedule fires several times a day (GitHub starts runs late, so one cron is not enough); this keeps any
   // of them from posting before the intended hour, e.g. a run on launch morning before the post is due.

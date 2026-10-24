@@ -44,7 +44,7 @@ Measure: `gh run list --workflow post-next.yml --limit 30 --json createdAt,event
 
 **The workflow:**
 
-1. `pnpm prerender` and `pnpm posts --check`: fails the run, before anything is posted, if an unposted queue item no longer matches its report (a re-ingest moved a paragraph id). Fix with `pnpm posts --drop-stale` in a PR.
+1. `pnpm prerender` and `pnpm posts --check`: if an unposted queue item no longer matches its report (a re-ingest moved a paragraph id), the run posts nothing and ends red, but still records any posts already on the account (`POSTER_RECORD_ONLY`), so a post the Worker made is never left unrecorded. Fix with `pnpm posts --drop-stale` in a PR.
 2. `pnpm post-next` ([`scripts/post-next.mjs`](../scripts/post-next.mjs), decisions in [`src/lib/poster.ts`](../src/lib/poster.ts)):
    - **Selects** the first unposted item, in `scheduled` order, whose date has arrived. A missed day is made up one post at a time, never in a burst. At most one item per UTC day.
    - **Checks the account**: the 100 most recent posts of the account itself (replies and reposts excluded). Every queue item one of them carries (its deep link in the card, or exactly its text) is recorded as posted (`posted_url` and `posted_at` from that post). If that makes today already posted, **nothing is posted**; otherwise the first due item is.

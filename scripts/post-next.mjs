@@ -56,6 +56,12 @@ try {
         },
       })
     : null;
+  if (client && env.POSTER_RECORD_ONLY) {
+    // The workflow's queue check failed: record what is on the account, never post.
+    client.publish = async (item) => {
+      throw new Error(`Not posting ${item.id}: the queue check failed (POSTER_RECORD_ONLY).`);
+    };
+  }
 
   say(`Poster mode: ${mode.live ? "LIVE" : "DRY RUN"} — ${mode.why}. Date: ${today}.`);
   const notBefore = (env.POSTER_NOT_BEFORE || DEFAULT_NOT_BEFORE).trim();

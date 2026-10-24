@@ -61,9 +61,11 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      # The queue must still match the reports (a re-ingest can move a paragraph id).
-      # Fails the run, before anything is posted, if the next item would ship a broken link.
+      # The queue must still match the reports (a re-ingest can move a paragraph id). If it does not, the run still
+      # records posts already on the account (POSTER_RECORD_ONLY: it never posts), then fails at the end.
       - name: Check the queue against the reports
+        id: check
+        continue-on-error: true
         run: |
           pnpm prerender
           pnpm posts --check
@@ -76,6 +78,7 @@ jobs:
           POSTER_LIVE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'false' || 'file' }}
           # Every live run here leaves 13:00-15:00 UTC to the Worker (crons 13:47, 14:17, 14:47), so the two never race.
           POSTER_NOT_BEFORE: "15:00"
+          POSTER_RECORD_ONLY: ${{ steps.check.outcome == 'failure' && '1' || '' }}
         run: pnpm post-next
 
       # Runs even if the step above failed after posting, so a posted_url is never left uncommitted.
@@ -97,4 +100,10 @@ jobs:
             git pull --rebase origin main
           done
           echo "::error::Could not push the posted_url commit. The post is on Bluesky; the next run will record it without posting again."
+          exit 1
+
+      - name: Fail if the queue check failed
+        if: ${{ steps.check.outcome == 'failure' }}
+        run: |
+          echo "::error::pnpm posts --check failed: nothing was posted (posts already on the account were recorded). Fix the queue (pnpm posts --drop-stale) in a PR."
           exit 1
