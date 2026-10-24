@@ -597,7 +597,8 @@ describe("who may reach the queue (63cd, 80qf)", () => {
     const live = reportPolicies(parse(fs.readFileSync(`${root}/reports/registry.yaml`, "utf8")));
     const items = (parse(fs.readFileSync(`${root}/marketing/queue.yaml`, "utf8")).items ?? []) as QueueItem[];
     const open = items.filter((i) => !i.posted_url);
-    expect([...open].sort((a, b) => a.scheduled.localeCompare(b.scheduled))[0].report).toBe("challenger-accident");
+    // The opening rule is about the queue's first post, posted or not (queueViolations): once Challenger has gone out, the next open item may be any report.
+    expect([...items].sort((a, b) => a.scheduled.localeCompare(b.scheduled))[0].report).toBe("challenger-accident");
     expect(open.filter((i) => live.get(i.report)?.newsDayOnly).map((i) => i.id)).toEqual([]);
     for (const i of open.filter((i) => live.get(i.report)?.affected)) {
       const highlights = parse(fs.readFileSync(`${root}/editorial/${i.report}.yaml`, "utf8")).highlights as Array<{ paragraph: string; quote: string; tier?: string }>;
