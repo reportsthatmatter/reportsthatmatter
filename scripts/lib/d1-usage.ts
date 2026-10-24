@@ -29,7 +29,7 @@ export const FREE_TIER = { rowsRead: 5_000_000, rowsWritten: 100_000 } as const;
  */
 export const PAID_DAILY = { rowsRead: 833_000_000, rowsWritten: 1_666_000 } as const;
 /** The daily budget of the account the scripts target (RTM_CF_ACCOUNT, default datopian). */
-export const dailyLimits = (env: NodeJS.ProcessEnv = process.env): Usage => (accountFromEnv(env).name === "atomatic" ? FREE_TIER : PAID_DAILY);
+export const dailyLimits = (env: NodeJS.ProcessEnv = process.env): Usage => (accountFromEnv(env), PAID_DAILY);
 
 export type Usage = { rowsRead: number; rowsWritten: number };
 export type LedgerEntry = Usage & { at: string; tool: string; label: string; queries: number };

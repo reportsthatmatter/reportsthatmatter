@@ -24,7 +24,7 @@
 #                                    (default: its id and registry title)
 
 units:
-  # The thirteen live reports: text, introduction and plate are live. None is
+  # The 18 live reports: text, introduction and plate are live. None is
   # recorded as announced: the launch (reportsthatmatter-y2t.6) announces them
   # together, which moves every row below to `announce`.
   - id: jack-smith-vol1
