@@ -56,7 +56,7 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
   },
   "us-ica-2017-russia-elections": {
     "width": 660,
-    "height": 186
+    "height": 302
   },
   "us-jan6-committee": {
     "width": 660,
