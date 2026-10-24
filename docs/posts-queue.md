@@ -51,6 +51,7 @@ Appendix C of [`docs/plans/2026-08-02-launch-and-seo.md`](plans/2026-08-02-launc
 [hook]
 
 — [Report common name], p. [n]
+
 [context line, where the registry has one]
 ```
 

@@ -15,6 +15,7 @@ description: Use when writing or revising the text of a Bluesky post (or an X or
 [hook: 2–3 sentences, ending where the card begins]
 
 — [Report common name], p. [n]
+
 [registry context_line, for Post Office, Grenfell, Hillsborough: added by pnpm posts]
 ```
 
