@@ -15,11 +15,11 @@ echo "Installing dependencies (if needed)..."
 pnpm install
 
 # Production is the Datopian account (top level of wrangler.toml), reached with its wrangler profile whatever this
-# directory is bound to. RTM_CF_ACCOUNT=atomatic deploys [env.atomatic] instead (rollback only; docs/hosting-migration.md).
+# directory is bound to. The atomatic account was decommissioned on 2026-10-24 (reportsthatmatter-4g4d.7): RTM_CF_ACCOUNT=atomatic is refused.
 case "${RTM_CF_ACCOUNT:-datopian}" in
   datopian) ACCOUNT_ARGS=(--env "" --profile datopian) ;;
-  atomatic) ACCOUNT_ARGS=(--env atomatic --profile default) ;;
-  *) echo "RTM_CF_ACCOUNT=${RTM_CF_ACCOUNT}: expected datopian or atomatic" >&2; exit 1 ;;
+  atomatic) echo "RTM_CF_ACCOUNT=atomatic: the atomatic account was decommissioned on 2026-10-24 (reportsthatmatter-4g4d.7, .8); production is datopian. Unset RTM_CF_ACCOUNT." >&2; exit 1 ;;
+  *) echo "RTM_CF_ACCOUNT=${RTM_CF_ACCOUNT}: expected datopian" >&2; exit 1 ;;
 esac
 
 echo "Checking Cloudflare login..."

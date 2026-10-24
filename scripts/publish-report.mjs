@@ -3,9 +3,7 @@
  *   RTM_PUBLISH_SECRET=… pnpm publish-report <id> [--base https://…]
  *   RTM_PUBLISH_SECRET=… pnpm publish-report <id> --status
  *   RTM_PUBLISH_SECRET=… pnpm publish-report <id> --rollback <hash>
- *   RTM_CF_ACCOUNT=atomatic is refused for a real publish (content and reindex would split across accounts,
- *   reportsthatmatter-4g4d.8) unless --rollback-account is given: that flag is for deliberately publishing to the
- *   old account as a rollback, with --base that account's site.
+ *   RTM_CF_ACCOUNT=atomatic is refused (the old account was decommissioned on 2026-10-24, reportsthatmatter-4g4d.7/.8).
  *   pnpm publish-report --all --status [--base https://…]   (no secret: local vs served hash per report)
  *   pnpm publish-report <id> --preflight [--base https://…]   (no secret: can D1 take writes, and does this fit?)
  *   pnpm publish-report <id> --dry-run [--base https://…]     (no secret: what would be uploaded, and the row writes)
@@ -55,7 +53,7 @@ import { readLocalFiles } from "./lib/publish-local.mjs";
 import { makePublishCall } from "./lib/publish-call.ts";
 import { exitOnUnknownFlags, exitUnlessConfirmed } from "./lib/args.ts";
 import { wranglerRunner } from "./lib/d1.ts";
-import { refuseAtomaticPublish, ROLLBACK_ACCOUNT_FLAG } from "./lib/migrate-hosting.ts";
+import { refuseAtomaticPublish } from "./lib/migrate-hosting.ts";
 import { probeWrite, verdict } from "./lib/d1-probe.ts";
 import { dailyLimits, usageToday } from "./lib/d1-usage.ts";
 const FREE_TIER = dailyLimits(); // the target account's daily budget (lib/d1-usage.ts)
@@ -65,7 +63,7 @@ import { DEFAULT_COST } from "./lib/reindex.ts";
 const args = process.argv.slice(2);
 exitOnUnknownFlags(
   args,
-  ["--all", "--status", "--fail-on-drift", "--no-reindex", "--no-preflight", "--full-reindex", "--preflight", "--dry-run", "--offline", "--yes", ROLLBACK_ACCOUNT_FLAG],
+  ["--all", "--status", "--fail-on-drift", "--no-reindex", "--no-preflight", "--full-reindex", "--preflight", "--dry-run", "--offline", "--yes"],
   ["--base", "--rollback", "--limit"]
 );
 // `--all --status`: which reports must be republished? A read-only table, no secret (scripts/publish-status.mjs).
@@ -78,7 +76,7 @@ const flag = (name) => {
 
 if (!reportId || reportId.startsWith("--")) {
   console.error(
-    "Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>] [--no-reindex] [--no-preflight] [--full-reindex] [--rollback-account] [--yes]\n       pnpm publish-report <id> --preflight | --dry-run [--base <url>] [--limit <daily row writes>] [--yes]\n       pnpm publish-report --all --status [--base <url>]   # which reports need publishing"
+    "Usage: pnpm publish-report <id> [--base <url>] [--status] [--rollback <hash>] [--no-reindex] [--no-preflight] [--full-reindex] [--yes]\n       pnpm publish-report <id> --preflight | --dry-run [--base <url>] [--limit <daily row writes>] [--yes]\n       pnpm publish-report --all --status [--base <url>]   # which reports need publishing"
   );
   process.exit(2);
 }
@@ -175,7 +173,7 @@ if (flag("--dry-run")) {
 
 // RTM_CF_ACCOUNT=atomatic would split this publish across accounts (4g4d.8): content to --base, reindex to atomatic.
 if (!isLocal && !flag("--status")) {
-  const refused = refuseAtomaticPublish(process.env, args.includes(ROLLBACK_ACCOUNT_FLAG));
+  const refused = refuseAtomaticPublish(process.env);
   if (refused) {
     console.error(refused);
     process.exit(1);

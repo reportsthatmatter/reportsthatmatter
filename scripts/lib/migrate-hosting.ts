@@ -84,30 +84,22 @@ export function staleReports(source: IndexVersion[], target: IndexVersion[]): st
   }).map((s) => s.report);
 }
 
-/** The account the scripts' remote wrangler calls go to: `RTM_CF_ACCOUNT=datopian|atomatic`, default datopian (production). */
+/** The message for RTM_CF_ACCOUNT=atomatic: the old account's Worker, D1 and R2 were deleted on 2026-10-24 (reportsthatmatter-4g4d.7). */
+export const ATOMATIC_GONE = "RTM_CF_ACCOUNT=atomatic: the atomatic account's Worker, D1 and R2 were decommissioned on 2026-10-24 (reportsthatmatter-4g4d.7, .8); production is datopian. Unset RTM_CF_ACCOUNT.";
+
+/** The account the scripts' remote wrangler calls go to: `RTM_CF_ACCOUNT=datopian` (the default and the only account left). */
 export function accountFromEnv(env: NodeJS.ProcessEnv = process.env): Account {
   const name = env.RTM_CF_ACCOUNT || "datopian";
-  if (name !== "atomatic" && name !== "datopian") throw new Error(`RTM_CF_ACCOUNT=${name}: expected atomatic or datopian`);
+  if (name === "atomatic") throw new Error(ATOMATIC_GONE);
+  if (name !== "datopian") throw new Error(`RTM_CF_ACCOUNT=${name}: expected datopian`);
   return ACCOUNTS[name];
 }
 
 export const accountArgs = (env: NodeJS.ProcessEnv = process.env): string[] => accountFromEnv(env).wrangler;
 
-export const ROLLBACK_ACCOUNT_FLAG = "--rollback-account";
-
-/**
- * A publish posts the content over HTTP to `--base` but writes its search reindex through wrangler to the
- * RTM_CF_ACCOUNT account's D1. With RTM_CF_ACCOUNT=atomatic left exported, the content goes to the domain (Datopian)
- * and the reindex to the old account: Datopian's search silently goes stale (reportsthatmatter-4g4d.8). So a
- * publish refuses atomatic unless `--rollback-account` says the rollback is meant. Null: go ahead.
- */
-export function refuseAtomaticPublish(env: NodeJS.ProcessEnv, rollbackAccount: boolean): string | null {
-  if ((env.RTM_CF_ACCOUNT || PRODUCTION) !== "atomatic" || rollbackAccount) return null;
-  return (
-    "refusing to publish with RTM_CF_ACCOUNT=atomatic: the content would be posted to --base but the search reindex written to the old atomatic account's D1, " +
-    "so production search would go stale with no error. Unset RTM_CF_ACCOUNT (production is datopian), or pass " +
-    `${ROLLBACK_ACCOUNT_FLAG} if you are deliberately publishing to the rollback account (--base must then be that account's site).`
-  );
+/** A publish with RTM_CF_ACCOUNT=atomatic would split across accounts (4g4d.8) and the account is gone: refuse. Null: go ahead. */
+export function refuseAtomaticPublish(env: NodeJS.ProcessEnv): string | null {
+  return (env.RTM_CF_ACCOUNT || PRODUCTION) === "atomatic" ? `refusing to publish with ${ATOMATIC_GONE}` : null;
 }
 
 /** The account that serves reportsthatmatter.org (since the cutover on 2026-10-16). */
