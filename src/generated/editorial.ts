@@ -3157,11 +3157,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         ],
         "excerpt": {
-          "quote": "We assess Russian President Vladimir Putin ordered an influence campaign in 2016 aimed at the US presidential election. Russia’s goals were to undermine public faith in the US democratic process, denigrate Secretary Clinton, and harm her electability and potential presidency. We further assess Putin and the Russian Government developed a clear preference for President-elect Trump. We have high confidence in these judgments.",
+          "quote": "We assess with high confidence that Russian President Vladimir Putin ordered an influence campaign in 2016 aimed at the US presidential election, the consistent goals of which were to undermine public faith in the US democratic process, denigrate Secretary Clinton, and harm her electability and potential presidency. We further assess Putin and the Russian Government developed a clear preference for President-elect Trump.",
           "cite": {
-            "id": "we-assess-russian-president-vladimir",
-            "page": null,
-            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-russian-president-vladimir&h=|We%20assess%20Russian%20President%20Vladimir%20Putin%20ordered%20an%20influence%20campaign%20in%202016%20aimed%20at%20the%20US%20presidential%20election.%20%E2%8B%AFe%20Russian%20Government%20developed%20a%20clear%20preference%20for%20President-elect%20Trump.%20We%20have%20high%20confidence%20in%20these%20judgments.|"
+            "id": "we-assess-high-confidence-russian-2",
+            "page": 1,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-assess-high-confidence-russian-2&h=|We%20assess%20with%20high%20confidence%20that%20Russian%20President%20Vladimir%20Putin%20ordered%20an%20influence%20campaign%20in%202016%20aimed%20at%20the%20%E2%8B%AFl%20presidency.%20We%20further%20assess%20Putin%20and%20the%20Russian%20Government%20developed%20a%20clear%20preference%20for%20President-elect%20Trump.|%20When%20it%20appeared%20to"
           }
         }
       },
@@ -3182,9 +3182,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "We also assess Putin and the Russian Government aspired to help President-elect Trump’s election chances when possible by discrediting Secretary Clinton and publicly contrasting her unfavorably to him. All three agencies agree with this judgment. CIA and FBI have high confidence in this judgment; NSA has moderate confidence.",
           "cite": {
-            "id": "we-also-assess-putin-russian",
-            "page": null,
-            "href": "/reports/us-ica-2017-russia-elections?p=we-also-assess-putin-russian&h=%E2%80%A2%20|We%20also%20assess%20Putin%20and%20the%20Russian%20Government%20aspired%20to%20help%20President-elect%20Trump%E2%80%99s%20election%20chances%20when%20possible%20b%E2%8B%AFthree%20agencies%20agree%20with%20this%20judgment.%20CIA%20and%20FBI%20have%20high%20confidence%20in%20this%20judgment%3B%20NSA%20has%20moderate%20confidence.|"
+            "id": "we-also-assess-putin-russian-2",
+            "page": 1,
+            "href": "/reports/us-ica-2017-russia-elections?p=we-also-assess-putin-russian-2&h=%E2%80%A2%20|We%20also%20assess%20Putin%20and%20the%20Russian%20Government%20aspired%20to%20help%20President-elect%20Trump%E2%80%99s%20election%20chances%20when%20possible%20b%E2%8B%AFthree%20agencies%20agree%20with%20this%20judgment.%20CIA%20and%20FBI%20have%20high%20confidence%20in%20this%20judgment%3B%20NSA%20has%20moderate%20confidence.|"
           }
         }
       },

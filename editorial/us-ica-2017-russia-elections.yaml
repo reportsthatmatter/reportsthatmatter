@@ -80,20 +80,22 @@ background: |
 findings:
   - text: The assessment finds that Vladimir Putin ordered an influence campaign aimed at the 2016 election, to undermine faith in the democratic process and to harm Hillary Clinton, and that Russia developed a clear preference for Donald Trump. It states these judgments with high confidence.
     cites: [we-assess-russian-president-vladimir, we-assess-high-confidence-russian-2]
+    # Quoted from p.1, where the assessment restates its Key Judgments (p.ii): the landing
+    # page labels an excerpt on a roman-numbered page with the wrong page (reportsthatmatter-aflq).
     excerpt:
-      paragraph: we-assess-russian-president-vladimir
+      paragraph: we-assess-high-confidence-russian-2
       quote: >-
-        We assess Russian President Vladimir Putin ordered an influence campaign
-        in 2016 aimed at the US presidential election. Russia’s goals were to
-        undermine public faith in the US democratic process, denigrate Secretary
-        Clinton, and harm her electability and potential presidency. We further
-        assess Putin and the Russian Government developed a clear preference for
-        President-elect Trump. We have high confidence in these judgments.
+        We assess with high confidence that Russian President Vladimir Putin
+        ordered an influence campaign in 2016 aimed at the US presidential
+        election, the consistent goals of which were to undermine public faith in
+        the US democratic process, denigrate Secretary Clinton, and harm her
+        electability and potential presidency. We further assess Putin and the
+        Russian Government developed a clear preference for President-elect Trump.
 
   - text: On whether Russia aspired to help Trump's chances, the three agencies agree but differ in confidence, the only judgment in the declassified text where the agencies' confidence is stated separately.
     cites: [we-also-assess-putin-russian, we-also-assess-putin-russian-2]
     excerpt:
-      paragraph: we-also-assess-putin-russian
+      paragraph: we-also-assess-putin-russian-2
       quote: >-
         We also assess Putin and the Russian Government aspired to help
         President-elect Trump’s election chances when possible by discrediting
