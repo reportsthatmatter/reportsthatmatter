@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-24 — Share cards show the report's image beside the quote
+
+A shared link to a passage, and each daily Bluesky post, now previews with a card split in two: the report's plate (an image from its own evidence) on the left, the quoted words on the right, with the page and the report's name below. Links to a report or an unhighlighted paragraph get the same frame with the report's title. Cards are now 1200×630 and under 200 KB, so WhatsApp shows them too.
+
+---
+
 ## 2026-10-17 — You can now email us
 
 [About](/about#contact) now leads with contact@reportsthatmatter.org for corrections, removal requests and questions; the GitHub issue form is still there.

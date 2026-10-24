@@ -35,7 +35,7 @@ import { chromium } from "playwright";
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
-import { renderCard, renderDefaultCard } from "../src/templates/card.ts";
+import { renderCard, renderDefaultCard, cardSourceName } from "../src/templates/card.ts";
 import { PLATELESS_CARD_REPORTS } from "../src/lib/card-plates.ts";
 import { SITE_HEADLINE, SITE_STANDFIRST } from "../src/templates/site.ts";
 import { renderMarkdown } from "@rtm/ingest";
@@ -184,7 +184,9 @@ if (highlightsOnly) {
 const browser = await chromium.launch();
 const page = await browser.newPage({
   viewport: { width: 1200, height: 630 },
-  deviceScaleFactor: 2,
+  // 1x, the canonical og:image size. At 2x a plate's grain made a quote card 300-580 KB even at 64 colours, over
+  // WhatsApp's ~300 KB; at 1x it is 120-200 KB (share-cards-1024). layout.ts states 1200x630.
+  deviceScaleFactor: 1,
 });
 
 const generated = [];
@@ -212,6 +214,7 @@ for (const target of targets) {
   const html = renderCard({
     quote: target.quote ? target.quote.trim() : fitToCard(resolved.quote),
     reportTitle: resolved.report.title,
+    sourceName: resolved.report.common_name,
     page: resolved.page,
     markDataUri: markFor(target.report),
   });
@@ -220,7 +223,7 @@ for (const target of targets) {
   await page.waitForTimeout(250);
   await assertFits(`${target.report}/${resolved.id}`);
 
-  save(join(root, "assets/cards", target.report, `${resolved.id}.png`), await page.screenshot());
+  save(join(root, "assets/cards", target.report, `${resolved.id}.png`), quantise(await page.screenshot()));
 
   generated.push(`${target.report}/${resolved.id}`);
   console.log(`  ✓ ${target.report}/${resolved.id}${target.note ? ` — ${target.note}` : ""}`);
@@ -248,6 +251,7 @@ if (!(argReport && argParagraph)) {
       const html = renderCard({
         quote: fitToCard(h.exact),
         reportTitle: report.title,
+        sourceName: report.common_name,
         page: h.page ? String(h.page) : undefined,
         markDataUri: markFor(h.report),
       });
@@ -281,7 +285,7 @@ if (!(argReport && argParagraph) && !highlightsOnly) {
   await page.setContent(siteHtml, { waitUntil: "networkidle" });
   await page.waitForTimeout(250);
   await assertFits("site");
-  save(join(root, "assets/cards/site.png"), await page.screenshot());
+  save(join(root, "assets/cards/site.png"), quantise(await page.screenshot()));
   console.log(`  ✓ site`);
 
   for (const report of registry.reports) {
@@ -289,13 +293,14 @@ if (!(argReport && argParagraph) && !highlightsOnly) {
     const html = renderDefaultCard({
       title: report.title,
       subtitle: byline,
+      footer: cardSourceName(report.common_name ?? report.title),
       markDataUri: markFor(report.id),
     });
     await page.setContent(html, { waitUntil: "networkidle" });
     await page.waitForTimeout(250);
     await assertFits(`${report.id}/default`);
 
-    save(join(root, "assets/cards", report.id, "default.png"), await page.screenshot());
+    save(join(root, "assets/cards", report.id, "default.png"), quantise(await page.screenshot()));
 
     generated.push(`${report.id}/default`);
     console.log(`  ✓ ${report.id}/default`);
