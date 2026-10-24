@@ -5,7 +5,7 @@ description: Use when writing or revising the text of a Bluesky post (or an X or
 
 # Writing the post text
 
-**Level:** judgement (Opus; Sonnet for a batch once a week's hooks are drafted). Voice: the brand voice doc, docs/brand-voice.md (site PR #361). Affected-community rules (marketing repo `strategy/2026-10-strategy.md` §8) override everything here. Queue mechanics: [`docs/posts-queue.md`](../../../docs/posts-queue.md). Evidence: marketing repo `research/post-hooks.md` (what hooks people) and `research/2026-10-24-post-writing-test.md` (30 variants, a four-reader panel, what won).
+**Level:** judgement (Opus; Sonnet for a batch once a week's hooks are drafted). Voice: [`docs/brand-voice.md`](../../../docs/brand-voice.md). Affected-community rules (marketing repo `strategy/2026-10-strategy.md` §8) override everything here. Queue mechanics: [`docs/posts-queue.md`](../../../docs/posts-queue.md). Evidence: marketing repo `research/post-hooks.md` (what hooks people) and `research/2026-10-24-post-writing-test.md` (30 variants, a four-reader panel, what won).
 
 **Why this exists.** The first live post (Challenger p. 146, 24 Oct 2026) repeated the quote that was already on the card image. Rufus: "ok but not at all compelling." The card shows the quote. The text does what the card cannot: tells a stranger what this document is, why it existed, and why this sentence is worth reading.
 
