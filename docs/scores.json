@@ -1,5 +1,5 @@
 {
- "ingest": "v0.28.0",
+ "ingest": "v0.29.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
@@ -96,6 +96,33 @@
     "ref_no_answer_rate": 0.26666666666666666,
     "ref_unusable_rate": 0.3
    }
+  },
+  "uk-covid-inquiry-module-2": {
+   "set": "held-out",
+   "ingest": "v0.29.0",
+   "metrics": {
+    "boundary_p": 0.8751617076326003,
+    "boundary_r": 0.9471473573678684,
+    "boundary_f1": 0.9097327281896116,
+    "join_all": 0.9415887850467289,
+    "join_all_n": 428,
+    "join_high": 0.9635416666666666,
+    "join_high_n": 384,
+    "join_adj_ours_wrong": 7,
+    "join_adj_judged": 30,
+    "marker_p": 1,
+    "marker_r": 0.9919777846343721,
+    "wer": 0.006292782667225461,
+    "wer_ref_coverage": 0.9974032883236643,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": 0.1,
+    "ref_no_answer_rate": 0,
+    "ref_unusable_rate": 0.1
+   },
+   "previous": null
   },
   "uk-grenfell-tower-inquiry": {
    "set": "held-out",

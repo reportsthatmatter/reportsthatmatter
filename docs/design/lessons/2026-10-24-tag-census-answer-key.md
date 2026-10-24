@@ -1,0 +1,4 @@
+---
+theme: sources
+---
+- **For a tagged PDF, check the first ingest's heading counts per level and its note count against the structure tree's census, and its numbered paragraphs against the HTML edition, before reading excerpts** (2026-10-24, reportsthatmatter-gqsy.14, Claude) On the Covid Inquiry Module 2 volume the census (H3 69, H4 74, H5 18, Note 3,241) showed at once that chapters sat a level too deep and that each chapter's first notes were missing, and the HTML's 1,422 paragraph numbers found the only two glued paragraphs; both took minutes, where the quality signals pointed at symptoms. The HTML edition also misnumbers one paragraph (3.83 printed as 3.82), so an edition is a check, not ground truth. [status: done in reportsthatmatter#367; a `pnpm source probe` that prints the census is ifb5.10]

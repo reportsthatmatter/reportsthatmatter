@@ -182,6 +182,30 @@ reports:
     numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 1
+  uk-covid-inquiry-module-2:
+    severed-into-quote: 72  # why: reportsthatmatter-jz19 (quotations split at a page turn; first ingest)
+    severed-paragraph: 6  # why: reportsthatmatter-jz19 (message figures and quotations over a page)
+    bare-footnote-marker: 3  # why: reportsthatmatter-pxjq (Ch5 notes 371-374, p.257)
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-reference-sequence: 2  # why: reportsthatmatter-pxjq
+    note-text-in-body: 1  # why: reportsthatmatter-pxjq (Ch6 note 1, p.267)
+    note-citation-vocabulary: 0
+    furniture-paragraph: 9  # why: reportsthatmatter-gqsy.14 (the same chart "Source: UK Health Security Agency …" line under nine figures, as printed)
+    contents-entry-without-heading: 124  # why: reportsthatmatter-nqc4 (the contents also lists Volume II and the figures, which are not headings in this volume)
+    heading-density: 0
+    heading-repeated: 2  # why: reportsthatmatter-nqc4 ("Introduction" opens each chapter, as printed; the volume title in the front matter)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 0
+    printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 1  # why: reportsthatmatter-nqc4
+    rendered-ol-words-share: 1
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 1
   uk-hillsborough-panel:
     severed-into-quote: 2
     severed-paragraph: 0

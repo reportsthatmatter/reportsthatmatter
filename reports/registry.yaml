@@ -260,6 +260,21 @@ reports:
     source_path: reports/us-mueller-report/full.md
     source_url: "https://www.justice.gov/storage/report_volume1.pdf"
     ingested: true
+
+  - id: uk-covid-inquiry-module-2
+    title: "UK Covid-19 Inquiry, Modules 2, 2A, 2B, 2C: Core decision-making and political governance, Volume I"
+    authors: "The Rt Hon the Baroness Hallett DBE (Chair)"
+    published_at: "20 November 2025"
+    common_name: "Covid Inquiry Module 2 Report, Volume I"
+    also_known_as: ["UK Covid-19 Inquiry Module 2 report", "Covid Inquiry report on core decision-making and political governance", "Hallett report on Covid decision-making", "HC 1436"]
+    issued_by: "UK Covid-19 Inquiry"
+    date_published: "2025-11-20"
+    repo: uk-covid-inquiry-module-2
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    source_path: reports/uk-covid-inquiry-module-2/full.md
+    source_url: "https://covid19.public-inquiry.uk/wp-content/uploads/2026/02/12093057/M2-Volume-1-with-post-publication-amends-Feb-2026.pdf"
+    ingested: true
+    affected_community: true
   - id: us-ica-2017-russia-elections
     title: "Assessing Russian Activities and Intentions in Recent US Elections"
     authors: "Office of the Director of National Intelligence (CIA, FBI and NSA)"

@@ -95,6 +95,11 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
+  uk-covid-inquiry-module-2:
+    markers-wrong: 6  # why: reportsthatmatter-gqsy.14 (each chapter's "Introduction" heading after a title page, and the front matter; 98.6% of located markers right)
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 5  # why: reportsthatmatter-gqsy.14 (5 of 2,728 blocks, the same chapter openings)
   us-senate-cia-torture-report:
     markers-wrong: 5  # why: reportsthatmatter-gqsy.6 (scanned pages whose first lines the OCR reads in a different order; 99.1% of located markers are right)
     markers-stacked: 6  # why: reportsthatmatter-gqsy.6; 5 to 6 with fgle's note numbering, which takes note text the old numbering left in the body out of it (PDF p.278: note 1399, "From 2003 through 2009..."), so a page whose body only runs on from the page before has no block of its own and its marker sits beside the next
