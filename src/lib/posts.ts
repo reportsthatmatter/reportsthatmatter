@@ -52,6 +52,8 @@ export function candidateId(report: string, paragraph: string, quote: string): s
 export type PostCandidate = {
   report: string;
   reportTitle: string;
+  /** The registry's `common_name`: the short name a hooked post's source line uses (falls back to the title). */
+  sourceTitle?: string;
   paragraph: string;
   quote: string;
   /**
@@ -82,6 +84,10 @@ export type ResolvedPost = {
   card: string;
   /** True when no card was rendered for this exact quote and the report's plain default card is used instead. */
   cardIsDefault: boolean;
+  /** What a hooked post's source line is built from (`formatHooked`). */
+  page?: number;
+  sourceTitle?: string;
+  contextLine?: string;
 };
 
 /**
@@ -116,6 +122,16 @@ function nestQuotes(quote: string): string {
  */
 export function formatPost(quote: string, reportTitle: string, page: number, contextLine?: string): string {
   const post = `${nestQuotes(quote.trim())}\n\n— ${reportTitle}, p. ${page}`;
+  return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
+}
+
+/**
+ * The post when a person has written a `hook` for the item (the post-writing skill): the hook, then the source line
+ * with the report's short name and page, then the context line. The quote is not repeated: the card image under the
+ * post carries it. The source line keeps the form `cardMeta` (src/lib/poster.ts) reads the link card's title from.
+ */
+export function formatHooked(hook: string, sourceTitle: string, page: number, contextLine?: string): string {
+  const post = `${hook.trim()}\n\n— ${sourceTitle}, p. ${page}`;
   return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
 }
 
@@ -189,6 +205,9 @@ export function resolveCandidate(
       link,
       card,
       cardIsDefault,
+      page,
+      sourceTitle: candidate.sourceTitle?.trim() || candidate.reportTitle,
+      contextLine: candidate.contextLine?.trim() || undefined,
     },
   };
 }
@@ -212,6 +231,11 @@ export type QueueItem = {
   card: string;
   scheduled: string;
   posted_url: string | null;
+  /**
+   * Hand-written by the post-writing skill: the context and hook that post in place of the quote (the card image
+   * carries the quote). When set, `text` is built from it (`formatHooked`); `pnpm posts` never writes or clears it.
+   */
+  hook?: string | null;
 };
 
 // ---------- who may reach the queue (reportsthatmatter-63cd, 80qf) ----------
@@ -454,7 +478,7 @@ export function buildQueue(params: {
   restartFrom?: string;
   /** Reports whose items are never scheduled (registry `news_day_only`). Not-yet-posted items of theirs leave the queue; posted ones stay. */
   newsDayOnly?: readonly string[];
-}): { queue: QueueItem[]; added: number; staleUnposted: string[]; stalePosted: string[]; heldBack: QueueItem[] } {
+}): { queue: QueueItem[]; added: number; staleUnposted: string[]; stalePosted: string[]; heldBack: QueueItem[]; overLength: string[] } {
   const { resolved, reportOrder } = params;
   let existing = params.existing;
   const today = params.today;
@@ -486,10 +510,21 @@ export function buildQueue(params: {
   // page marker (four items said "p. 2" where the pinned text says 3, and so
   // did not agree with their card or landing panel; p3o8). Posted items keep
   // the record of what was posted.
+  // A hooked item's text is its hook plus the source line (formatHooked); one over Bluesky's limit keeps its old text
+  // and is reported, so --check fails it before the poster would.
+  const overLength: string[] = [];
   existing = existing.map((i) => {
     const now = resolvedById.get(i.id);
     if (i.posted_url || !now) return i;
-    return now.card !== i.card || now.text !== i.text ? { ...i, card: now.card, text: now.text } : i;
+    let text = now.text;
+    if (i.hook?.trim() && now.page !== undefined) {
+      const hooked = formatHooked(i.hook, now.sourceTitle ?? "", now.page, now.contextLine);
+      if (graphemeLength(hooked) > BLUESKY_GRAPHEME_LIMIT) {
+        overLength.push(`${i.id}: hook makes the post ${graphemeLength(hooked)} graphemes, over Bluesky's ${BLUESKY_GRAPHEME_LIMIT}`);
+        text = i.text;
+      } else text = hooked;
+    }
+    return now.card !== i.card || text !== i.text ? { ...i, card: now.card, text } : i;
   });
 
   const existingIds = new Set(existing.map((i) => i.id));
@@ -511,5 +546,5 @@ export function buildQueue(params: {
     posted_url: null,
   }));
 
-  return { queue: [...existing, ...added], added: added.length, staleUnposted, stalePosted, heldBack };
+  return { queue: [...existing, ...added], added: added.length, staleUnposted, stalePosted, heldBack, overLength };
 }

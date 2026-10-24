@@ -38,21 +38,16 @@ items:
     card: assets/cards/us-mueller-report/q-a0da52f5.png
     scheduled: 2026-10-25
     posted_url: null
-  - id: challenger-accident:committee-found-nasa-s-drive:59aeec79
-    report: challenger-accident
-    paragraph: committee-found-nasa-s-drive
-    quote: The Committee found that NASA's drive to achieve a launch schedule of 24
-      flights per year created pressure throughout the agency that directly
-      contributed to unsafe launch operations.
-    text: >-
-      “The Committee found that NASA's drive to achieve a launch schedule of 24
-      flights per year created pressure throughout the agency that directly
-      contributed to unsafe launch operations.”
+  - id: uk-leveson-inquiry:legislative-proposal-does-no-more:6f4f7e41
+    report: uk-leveson-inquiry
+    paragraph: legislative-proposal-does-no-more
+    quote: This is not, and cannot be characterised as, regulation of the press.
+    text: |-
+      “This is not, and cannot be characterised as, regulation of the press.”
 
-
-      — Investigation of the Challenger Accident, p. 3
-    link: https://reportsthatmatter.org/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes&src=bsky
-    card: assets/cards/challenger-accident/q-7b861b87.png
+      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 1781
+    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more&h=described%20are%20to%20be%20made%20use%20of.%20|This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|&src=bsky
+    card: assets/cards/uk-leveson-inquiry/q-8c18f02a.png
     scheduled: 2026-10-26
     posted_url: null
   - id: us-mueller-report:fourth-if-we-had-confidence:eb9effeb
@@ -89,6 +84,23 @@ items:
     card: assets/cards/us-psi-financial-crisis/q-af4e7a80.png
     scheduled: 2026-10-28
     posted_url: null
+  - id: challenger-accident:committee-found-nasa-s-drive:59aeec79
+    report: challenger-accident
+    paragraph: committee-found-nasa-s-drive
+    quote: The Committee found that NASA's drive to achieve a launch schedule of 24
+      flights per year created pressure throughout the agency that directly
+      contributed to unsafe launch operations.
+    text: >-
+      “The Committee found that NASA's drive to achieve a launch schedule of 24
+      flights per year created pressure throughout the agency that directly
+      contributed to unsafe launch operations.”
+
+
+      — Investigation of the Challenger Accident, p. 3
+    link: https://reportsthatmatter.org/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes&src=bsky
+    card: assets/cards/challenger-accident/q-7b861b87.png
+    scheduled: 2026-10-29
+    posted_url: null
   - id: us-mueller-report:ira-later-used-social-media:ae66fa60
     report: us-mueller-report
     paragraph: ira-later-used-social-media
@@ -105,18 +117,6 @@ items:
       Presidential Election, p. 4
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=ira-later-used-social-media&h=|The%20IRA%20later%20used%20social%20media%20accounts%20and%20interest%20groups%20to%20sow%20discord%20in%20the%20U.S.%20political%20system%20through%20what%20it%20termed%20%22information%20warfare.%22|%20The%20campaign%20evolved&src=bsky
     card: assets/cards/us-mueller-report/q-9c2db7b6.png
-    scheduled: 2026-10-29
-    posted_url: null
-  - id: uk-leveson-inquiry:legislative-proposal-does-no-more:6f4f7e41
-    report: uk-leveson-inquiry
-    paragraph: legislative-proposal-does-no-more
-    quote: This is not, and cannot be characterised as, regulation of the press.
-    text: |-
-      “This is not, and cannot be characterised as, regulation of the press.”
-
-      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 1781
-    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more&h=described%20are%20to%20be%20made%20use%20of.%20|This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|&src=bsky
-    card: assets/cards/uk-leveson-inquiry/q-8c18f02a.png
     scheduled: 2026-10-30
     posted_url: null
   - id: us-mueller-report:june-14-2017-media-reported:e8497ae0
