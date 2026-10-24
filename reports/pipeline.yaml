@@ -170,6 +170,13 @@ units:
     state: active
     evidence: "better-source-texts.md §4: the inquiry HTML covers every volume"
     notes: "Scope decision open (wdt); cheap once the Saville hybrid (ivg.2) works."
+  - id: uk-covid-inquiry-module-2
+    scope: "Volume I (HC 1436-I, Introduction and key events, amended Feb 2026)"
+    bead: reportsthatmatter-gqsy.14
+    reached: evaluate
+    state: waiting
+    evidence: "ingest PR #83 (labelWraps, note-restart scan, label guard); report repo PR #1 (branch vol1-1024); site branch covid-m2-vol1-1024 (registry, manifest, budgets, reference entry); golden 4/6 + 2 xfail (r41s, jz19); adjudicated.yaml (30 breaks; reference wrong 3/30, ours 7/30); held-out score boundary F1 91.0%"
+    notes: "Waiting on the ingest release carrying ingest#83 (the report's ingest.ts declares labelWraps). Numbered paragraphs 1,422/1,422; notes 3,236/3,241 (pxjq). Editorial: gqsy.14.1 (plate and card not yet). Hero: gqsy.14.2. Volume II: nshl."
   - id: uk-post-office-horizon-inquiry
     scope: "Volume 1"
     bead: reportsthatmatter-gqsy.2

@@ -205,7 +205,7 @@
 
 - id: more-reports
   desc: >
-    Fourteen published. Prepared 2026-10-09 (not yet released):
+    Fourteen published. Prepared 2026-10-24 (not yet released): uk-covid-inquiry-module-2, the UK Covid-19 Inquiry's Module 2 report, Volume I (February 2026 issue with post-publication amends), needing geometry("per-page"), furnitureFaces(), figureFaces() for an OCR layer over figures, sequencedNoteOpenings() with footnoteRestarts() and typographicHeadings({ labelWraps }) (ingest#83). Prepared 2026-10-09 (not yet released):
     us-mueller-report, the Mueller Report's Volumes I and II as DOJ's FOIA
     re-releases print them, needing foiaRedactions(), asteriskBreaks(),
     layoutRunOvers(), letteredItems(), romanFolios() and

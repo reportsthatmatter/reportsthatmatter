@@ -516,3 +516,27 @@ marks:
     caveat: >-
       The page is a 144dpi scan, so the crop is upscaled from about 980px; check the 92px row reads as
       text and black bars rather than grey.
+
+  - id: covidm2
+    set: plate
+    report: uk-covid-inquiry-module-2
+    pdf: archive/covid-inquiry-module-2-vol1-hc1436-i-amended-2026-02.pdf
+    page: 177
+    dpi: 300
+    # The photograph's placement on the page (pdfplumber, 2026-10-24): x 101-494, y 410-704 pt. The crop takes
+    # its left half below the viewer's title bar: the first four handwritten lines, x 106-300, y 470-548 pt (below the wall and the board's top edge).
+    crop: [442, 1958, 808, 325]
+    subject: >-
+      The whiteboard used at the meeting in 10 Downing Street on the evening of 13 March 2020: a
+      handwritten numbered list ("No vaccine in 2020", "Must avoid NHS collapse", "To stop NHS collapse
+      we will probably have to 'lockdown'", "Lockdown = e/o stays home"). From Figure 7 (printed p.157,
+      Chapter 4, Realisation and lockdown), which the report quotes in 4.29 as the moment the
+      need for a lockdown was set out. The exhibit the lockdown findings turn on, not the pandemic
+      itself: no patients, wards or the bereaved.
+    rights: >-
+      An Inquiry exhibit (INQ000273872_0045, the source line under Figure 7), reproduced in the report,
+      Crown copyright 2025 under the Open Government Licence v3.0 as the imprint states (PDF p.3).
+    treat: { black: 0.40, white: 0.80, grain: 40, cut: none }
+    caveat: >-
+      Marker handwriting on a white board is thin line work at 92px; if the row reads as grey, crop
+      tighter on items 2-4 or raise black.

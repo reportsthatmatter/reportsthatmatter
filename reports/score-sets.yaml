@@ -17,6 +17,7 @@ held_out:
   - uk-chilcot-inquiry
   - us-duelfer-report
   - uk-post-office-horizon-inquiry  # tagged-PDF reference; new publisher family (gqsy.2)
+  - uk-covid-inquiry-module-2  # tagged-PDF reference (HTML edition cached beside it); new publisher family (gqsy.14)
   - uk-grenfell-tower-inquiry  # tagged-PDF reference (HTML edition cached beside it); new publisher family (gqsy.4)
     # Caveat (v0.24.0 review): its own opt-in passes (furnitureFaces, figureFaces, numberedOpenings, relevel) were
     # written by reading this report and its reference, so its first held-out score (boundary F1 90.9%) measures the

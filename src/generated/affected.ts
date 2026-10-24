@@ -9,5 +9,6 @@ export const AFFECTED_COMMUNITY_REPORTS: readonly string[] = [
   "uk-saville-inquiry",
   "uk-post-office-horizon-inquiry",
   "uk-grenfell-tower-inquiry",
-  "us-senate-cia-torture-report"
+  "us-senate-cia-torture-report",
+  "uk-covid-inquiry-module-2"
 ];
