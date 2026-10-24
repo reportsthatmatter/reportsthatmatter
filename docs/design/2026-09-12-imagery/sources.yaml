@@ -541,7 +541,12 @@ marks:
     rights: >-
       U.S. Government work, public domain (the report's own page). The seals are
       U.S. federal insignia; reproduced as they appear on the report's page, as
-      for the DOJ seal on Jack Smith's plate.
+      for the DOJ seal on Jack Smith's plate. Copyright does not bar this, but
+      statutes limit use of agency seals where it could imply the agency's
+      approval or authorship (18 U.S.C. 701 and 1017 for the FBI, 50 U.S.C. 3515
+      for the CIA); here the seals are shown as the report's own authors, in a
+      page that says whose words they are. Not legal advice: if an agency ever
+      objects, fall back to the NIC seal from the cover (PDF p.4).
     treat: { black: 0.15, white: 0.88, grain: 60, cut: none }
     caveat: >-
       A wide strip (about 3.5:1), so small in the 92px archive row. If it reads
