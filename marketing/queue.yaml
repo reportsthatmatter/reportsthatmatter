@@ -20,7 +20,8 @@ items:
     link: https://reportsthatmatter.org/reports/challenger-accident?p=committee-concurs-dr-feynman-s&h=|The%20Committee%20concurs%20with%20Dr.%20Feynman's%20analysis%20that%20NASA%20had%20no%20understanding%20of%20the%20O-ring%20erosion%20phenomenon%2C%20and%20their%20rationale%20for%20accepting%20it%20was%20not%20based%20on%20sound%20engineering%20principles.|&src=bsky
     card: assets/cards/challenger-accident/q-74e37442.png
     scheduled: 2026-10-24
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mynir4r3nn2z
+    posted_at: 2026-10-24T20:09:56.138Z
   - id: us-mueller-report:russian-government-interfered-2016-presidential:f8e0ffaa
     report: us-mueller-report
     paragraph: russian-government-interfered-2016-presidential
