@@ -1,5 +1,5 @@
 {
-  "ingest": "v0.28.0",
+  "ingest": "v0.29.0",
   "recorded": "2026-10-24",
   "reports": {
     "challenger-accident": {
@@ -141,6 +141,34 @@
       "numbered-prose-list": 0,
       "ids-per-1k-words": 0,
       "quote-share-parity": 2
+    },
+    "uk-covid-inquiry-module-2": {
+      "severed-into-quote": 72,
+      "severed-paragraph": 6,
+      "severed-paragraph-capital": 40,
+      "numbered-paragraph-glued": 0,
+      "unnumbered-page-opening": 36,
+      "bare-footnote-marker": 3,
+      "bare-marker-after-quote": 0,
+      "note-marker-wrong-note": 0,
+      "note-marker-unpaired": 0,
+      "note-reference-sequence": 2,
+      "note-text-in-body": 1,
+      "note-citation-vocabulary": 0,
+      "furniture-paragraph": 9,
+      "contents-entry-without-heading": 124,
+      "heading-density": 0,
+      "heading-repeated": 2,
+      "heading-function-word": 0,
+      "heading-marker": 0,
+      "heading-long": 0,
+      "printed-page-reversal": 0,
+      "rendered-h1": 0,
+      "chapter-intro-misfiled": 1,
+      "rendered-ol-words-share": 1,
+      "numbered-prose-list": 0,
+      "ids-per-1k-words": 0,
+      "quote-share-parity": 1
     },
     "uk-grenfell-tower-inquiry": {
       "severed-into-quote": 2,

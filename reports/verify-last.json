@@ -324,6 +324,24 @@
     "known": 2
    }
   },
+  "uk-covid-inquiry-module-2": {
+   "oracle": {
+    "headings-missed": 52,
+    "headings-spurious": 5,
+    "markers-unlinked": 8,
+    "markers-spurious": 42,
+    "paragraphs-oversplit": 102,
+    "paragraphs-merged": 1189,
+    "quotes-spurious": 44,
+    "quotes-missed": 102,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 4,
+    "total": 6,
+    "known": 2
+   }
+  },
   "us-ica-2017-russia-elections": {
    "oracle": {
     "headings-missed": 6,
@@ -346,7 +364,7 @@
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 16,
-   "fp": 27,
+   "fp": 30,
    "fn": 4
   },
   "headings-spurious": {
@@ -365,13 +383,13 @@
    "fn": 1
   },
   "paragraphs-oversplit": {
-   "tp": 12,
+   "tp": 13,
    "fp": 18,
-   "fn": 26
+   "fn": 28
   },
   "paragraphs-merged": {
-   "tp": 4,
-   "fp": 238,
+   "tp": 5,
+   "fp": 249,
    "fn": 1
   },
   "quotes-spurious": {
@@ -381,7 +399,7 @@
   },
   "quotes-missed": {
    "tp": 3,
-   "fp": 38,
+   "fp": 40,
    "fn": 0
   }
  }
