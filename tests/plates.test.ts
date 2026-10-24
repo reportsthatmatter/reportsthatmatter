@@ -53,10 +53,13 @@ describe("report plates", () => {
     expect(html).not.toContain("report-mark");
   });
 
-  it("sets the plate opposite the wordmark on share cards, and omits the slot without one", () => {
+  it("sets the plate in the left panel of share cards, and a typographic panel without one", () => {
     const withMark = renderCard({ quote: "q", reportTitle: "T", markDataUri: "data:image/webp;base64,AA" });
     expect(withMark).toContain('<div class="imprint"><img src="data:image/webp;base64,AA"');
-    expect(renderCard({ quote: "q", reportTitle: "T" })).not.toContain('class="imprint"');
+    const bare = renderCard({ quote: "q", reportTitle: "T", page: "12" });
+    expect(bare).toContain('class="imprint bare"');
+    expect(bare).not.toContain("<img");
+    expect(bare).toContain('<span class="pg">p. 12</span>');
     expect(renderDefaultCard({ title: "T", markDataUri: "data:x" })).toContain('class="imprint"');
   });
 });

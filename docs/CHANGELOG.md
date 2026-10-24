@@ -11,6 +11,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 You can now sign up for a monthly email from the archive: a few passages worth reading again, sometimes tied to the date or the news, each linked to its place in the report. The form is at the end of the homepage, every report's contents and sections, and the [blog](/blog); [the newsletter page](/newsletter) says exactly what we keep (your address, the time and which page you signed up on) and that you will be asked to confirm before the first issue. Every issue will also be a blog post. Blog posts now carry their own share card instead of the site's.
 
+## 2026-10-24 — Share cards show the report's image beside the quote
+
+A shared link to a passage, and each daily Bluesky post, now previews with a card split in two: the report's plate (an image from its own evidence) on the left, the quoted words on the right, with the page and the report's name below. Links to a report or an unhighlighted paragraph get the same frame with the report's title. Cards are now 1200×630 and under 200 KB, so WhatsApp shows them too.
+
 ---
 
 ## 2026-10-17 — You can now email us

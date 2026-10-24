@@ -86,10 +86,10 @@ ${noindex ? `<meta name="robots" content="noindex" />\n` : ""}<meta property="og
 ${url ? `<meta property="og:url" content="${escapeHtml(url)}" />\n` : ""}${canonical ? `<link rel="canonical" href="${escapeHtml(canonical)}" />\n` : ""}${publishedTime ? `<meta property="article:published_time" content="${escapeHtml(publishedTime)}" />\n` : ""}${feed ? `<link rel="alternate" type="application/atom+xml" href="${escapeHtml(feed.href)}" title="${escapeHtml(feed.title)}" />\n` : ""}
 <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}" />
 ${image ? `<meta property="og:image" content="${escapeHtml(image)}" />\n<meta name="twitter:image" content="${escapeHtml(image)}" />\n` : ""}${
-    // Every card is rendered at 2400×1260 (scripts/cards.mjs): stating it lets
+    // Every card is rendered at 1200×630 (scripts/cards.mjs): stating it lets
     // Facebook and LinkedIn show the image on the very first share, before they
     // have fetched it.
-    image?.includes("/assets/cards/") ? `<meta property="og:image:width" content="2400" />\n<meta property="og:image:height" content="1260" />\n` : ""
+    image?.includes("/assets/cards/") ? `<meta property="og:image:width" content="1200" />\n<meta property="og:image:height" content="630" />\n` : ""
   }${image && imageAlt ? `<meta property="og:image:alt" content="${escapeHtml(imageAlt)}" />\n<meta name="twitter:image:alt" content="${escapeHtml(imageAlt)}" />` : ""}
 ${extraMeta}<link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

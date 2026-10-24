@@ -10,7 +10,7 @@ Every published report has a **plate**: one treated greyscale image, drawn from 
 | --- | --- | --- | --- |
 | Archive row (`/reports`, homepage) | 92px box (64px under 48rem) | `assets/marks/<report-id>-row.webp` | `rowMark()` in `src/templates/index.ts` |
 | Report header (contents page, `/full`) | fits 300×220, centred | `assets/marks/<report-id>.webp` | `frontispiece()` in `src/templates/report.ts` |
-| Share cards (quote and default) | top right, fits 200×190 | `<report-id>.webp`, inlined | `scripts/cards.mjs` → `src/templates/card.ts` |
+| Share cards (quote and default) | left panel, 520×630 card px, fitted (contain) in a 440×550 box | `<report-id>.webp`, inlined | `scripts/cards.mjs` → `src/templates/card.ts` |
 
 Both files come from one entry in [`docs/design/2026-09-12-imagery/sources.yaml`](design/2026-09-12-imagery/sources.yaml), built by `pnpm marks`. The row file is *treated separately* at 276px rather than resized from the 660px one, because the grain is fixed to output pixels and a resize would average it away. Both are lossless WebP, and both are committed — a deploy has no report PDFs to rebuild them from. `src/generated/marks.ts` records each plate's pixel size so every `<img>` carries its dimensions.
 
