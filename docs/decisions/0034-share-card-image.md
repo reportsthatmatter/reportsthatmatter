@@ -1,4 +1,4 @@
-# 0033. What image travels on a share card, and does the daily Bluesky post carry it as a link card or an image post?
+# 0034. What image travels on a share card, and does the daily Bluesky post carry it as a link card or an image post?
 
 - **Status:** proposed
 - **Date raised:** 2026-10-24 · **Date decided:** —
