@@ -478,12 +478,20 @@ export const chapterIntroMisfiled: Signal = {
       if (!firstId) continue;
       if (!/<h3\b/.test(input.html.slice((m.index ?? 0) + m[0].length, (m.index ?? 0) + m[0].length + 5))) continue;
       const slug = index[firstId];
-      if (slug === undefined || titleOf.get(slug) === plain(m[1])) continue;
+      // a heading that carries a note renders it beside it; the section's title is the heading's words alone (us-ica-2017-russia-elections, Annex A)
+      if (slug === undefined || titleOf.get(slug) === plain(withoutHeadingSidenote(m[1]))) continue;
       out.push({ signal: "chapter-intro-misfiled", page: null, excerpt: clip(`${plain(m[1])} (opening is under "${titleOf.get(slug) ?? slug}")`) });
     }
     return out;
   },
 };
+
+/** A heading's HTML without the sidenote its marker renders (as `splitSections` titles it). */
+const withoutHeadingSidenote = (html: string) =>
+  html
+    .replace(/<label class="sidenote-toggle"[\s\S]*?<\/label>/g, "")
+    .replace(/<input class="sidenote-checkbox"[^>]*>/g, "")
+    .replace(/<span class="sidenote[^"]*">[\s\S]*?<\/span>/g, "");
 
 const plain = (html: string) =>
   html

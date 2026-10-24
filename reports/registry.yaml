@@ -260,3 +260,16 @@ reports:
     source_path: reports/us-mueller-report/full.md
     source_url: "https://www.justice.gov/storage/report_volume1.pdf"
     ingested: true
+  - id: us-ica-2017-russia-elections
+    title: "Assessing Russian Activities and Intentions in Recent US Elections"
+    authors: "Office of the Director of National Intelligence (CIA, FBI and NSA)"
+    published_at: "6 January 2017"
+    common_name: "2017 Intelligence Community Assessment"
+    also_known_as: ["ICA 2017-01D", "Assessing Russian Activities and Intentions in Recent US Elections", "Intelligence Community Assessment on Russian interference in the 2016 election", "January 2017 intelligence assessment on Russia"]
+    issued_by: "Office of the Director of National Intelligence"
+    date_published: "2017-01-06"
+    repo: us-ica-2017-russia-elections
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    source_path: reports/us-ica-2017-russia-elections/full.md
+    source_url: "https://www.dni.gov/files/documents/ICA_2017_01.pdf"
+    ingested: true
