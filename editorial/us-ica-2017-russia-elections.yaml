@@ -1,0 +1,214 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      editor's highlights: seeded into the marks table, not printed here
+#
+# Written 2026-10-24 (reportsthatmatter-gqsy.13) to the rule of the Jack Smith and
+# Mueller introductions: our words neutral and attributed ("the assessment finds"),
+# every judgment in the report's own words and in quotation marks. A contested
+# subject: the background states the later reviews as dated facts with their sources,
+# and quotes neither side's characterisation.
+#
+# Sources for the background facts that are not in the report (checked 2026-10-24):
+#   Obama directed the review on 9 December 2016, report due before 20 January
+#     (govexec.com/oversight/2016/12/obama-orders-investigation-election-related-hacking/133794;
+#     foxnews.com/politics/2016/12/09/obama-orders-review-election-hacking.html)
+#   ODNI statement of 6 January 2017: President Obama, President-elect Trump and
+#     congressional leaders briefed; a declassified version released
+#     (intelligencecommunitynews.com/odni-releases-declassified-ic-assessment-of-russian-activities-and-intentions-in-recent-us-elections)
+#   Senate Intelligence Committee, Volume 4, "Review of the Intelligence Community
+#     Assessment", released 21 April 2020; press release key findings, quoted below
+#     (intelligence.senate.gov/press/senate-intel-releases-new-report-intel-community-assessment-russian-interference,
+#     read via the Wayback Machine)
+#   CIA tradecraft review, ordered by Director John Ratcliffe, declassified 2 July 2025:
+#     "multiple procedural anomalies ... such as a compressed timeline, uneven access to
+#     compartmented information, marginalization of the National Intelligence Council,
+#     and excessive involvement of agency heads"
+#     (cia.gov/stories/story/cia-director-john-ratcliffe-declassifies-internal-tradecraft-review)
+# Facts taken from the report: its date, the three agencies, information as of
+# 29 December 2016, the classified version, and that it made no assessment of the
+# outcome.
+
+report: us-ica-2017-russia-elections
+status: approved
+
+why_it_matters: >-
+  The declassified assessment by the CIA, the FBI and the NSA of Russia's
+  campaign to influence the 2016 US presidential election, published on
+  6 January 2017. It is the source of the judgments still argued over: that
+  Vladimir Putin ordered the campaign, and that Russia aimed to help Donald
+  Trump. Here are its exact words, including how confident each agency said
+  it was, and the definitions of that language.
+
+background: |
+  In December 2016, after a presidential election in which material stolen
+  from the Democratic National Committee had been published, President Barack
+  Obama directed the
+  intelligence agencies to review Russia's activities and to report before he
+  left office on 20 January 2017. The Central Intelligence Agency, the Federal
+  Bureau of Investigation and the National Security Agency drafted and
+  coordinated the assessment, using information available as of 29 December
+  2016. On 6 January 2017 they briefed President Obama, President-elect Trump
+  and congressional leaders, and the Office of the Director of National
+  Intelligence published this declassified version.
+
+  The assessment says its conclusions are identical to those of the classified
+  version, but that it leaves out the supporting intelligence, so most of its
+  judgments are stated without their evidence. It says it made no assessment of
+  whether Russia's activities affected the outcome of the election. Its words
+  of likelihood and confidence ("we assess", "high confidence") are defined in
+  Annex B and in the Background note that opens the file.
+
+  The assessment has been reviewed since. In April 2020 the Senate
+  Intelligence Committee, in the fourth volume of its bipartisan investigation,
+  found that it "presents a coherent and well-constructed intelligence basis"
+  for its case and that "analysts were under no political pressure to reach
+  specific conclusions". In July 2025 the CIA declassified a review of the
+  assessment's tradecraft, ordered by its director, John Ratcliffe, which
+  identified "procedural anomalies" in how it was prepared, among them "a
+  compressed timeline" and "excessive involvement of agency heads".
+
+findings:
+  - text: The assessment finds that Vladimir Putin ordered an influence campaign aimed at the 2016 election, to undermine faith in the democratic process and to harm Hillary Clinton, and that Russia developed a clear preference for Donald Trump. It states these judgments with high confidence.
+    cites: [we-assess-russian-president-vladimir, we-assess-high-confidence-russian-2]
+    excerpt:
+      paragraph: we-assess-russian-president-vladimir
+      quote: >-
+        We assess Russian President Vladimir Putin ordered an influence campaign
+        in 2016 aimed at the US presidential election. Russia’s goals were to
+        undermine public faith in the US democratic process, denigrate Secretary
+        Clinton, and harm her electability and potential presidency. We further
+        assess Putin and the Russian Government developed a clear preference for
+        President-elect Trump. We have high confidence in these judgments.
+
+  - text: On whether Russia aspired to help Trump's chances, the three agencies agree but differ in confidence, the one judgment in the assessment where they do.
+    cites: [we-also-assess-putin-russian, we-also-assess-putin-russian-2]
+    excerpt:
+      paragraph: we-also-assess-putin-russian
+      quote: >-
+        We also assess Putin and the Russian Government aspired to help
+        President-elect Trump’s election chances when possible by discrediting
+        Secretary Clinton and publicly contrasting her unfavorably to him. All
+        three agencies agree with this judgment. CIA and FBI have high confidence
+        in this judgment; NSA has moderate confidence.
+
+  - text: It finds that Russian intelligence gained access to Democratic National Committee networks in July 2015, and assesses with high confidence that Russian military intelligence (the GRU) released the stolen material through Guccifer 2.0, DCLeaks.com and WikiLeaks.
+    cites: [we-assess-russian-intelligence-services, public-disclosures-russian-collected-data-we, we-assess-high-confidence-gru]
+    excerpt:
+      paragraph: we-assess-high-confidence-gru
+      quote: >-
+        We assess with high confidence that the GRU relayed material it acquired
+        from the DNC and senior Democratic officials to WikiLeaks. Moscow most
+        likely chose WikiLeaks because of its self-proclaimed reputation for
+        authenticity. Disclosures through WikiLeaks did not contain any evident
+        forgeries.
+
+  - text: It finds that Russian intelligence accessed elements of state or local electoral boards, and records the Department of Homeland Security's assessment that the systems targeted were not involved in counting votes.
+    cites: [russian-cyber-intrusions-into-state, dhs-assesses-types-systems-we, russian-intelligence-obtained-maintained-access]
+
+  - text: It describes the state media outlets RT and Sputnik and paid social media "trolls" as part of the campaign, and Russian media coverage that grew more favourable to Trump and stayed negative towards Clinton.
+    cites: [russian-propaganda-efforts-russia-s, russia-used-trolls-well-rt]
+
+  - text: It made no assessment of whether Russia's activities changed the result of the election, saying that is outside the intelligence agencies' remit.
+    cites: [we-did-not-make-assessment]
+    excerpt:
+      paragraph: we-did-not-make-assessment
+      quote: >-
+        We did not make an assessment of the impact that Russian activities had
+        on the outcome of the 2016 election. The US Intelligence Community is
+        charged with monitoring and assessing the intentions, capabilities, and
+        actions of foreign actors; it does not analyze US political processes or
+        US public opinion.
+
+  - text: It calls the 2016 campaign a significant escalation on earlier Russian efforts, and assesses that Moscow will apply its lessons to future elections in the United States and among its allies.
+    cites: [russia-s-effort-influence-2016, we-assess-moscow-will-apply-2]
+
+reading_guide:
+  - section: key-judgments
+    why: The assessment's conclusions on two pages, with the confidence attached to each.
+  - section: scope-and-sourcing
+    why: What the assessment covers, what the declassified version leaves out, and what it did not try to judge.
+  - section: putin-ordered-campaign-to-influence-us-election
+    why: The judgments on Putin's motives and preferences, and where the agencies' confidence differs.
+    excerpt:
+      paragraph: putin-most-likely-wanted-discredit
+      quote: >-
+        Putin most likely wanted to discredit Secretary Clinton because he has
+        publicly blamed her since 2011 for inciting mass protests against his
+        regime in late 2011 and early 2012, and because he holds a grudge for
+        comments he almost certainly saw as disparaging him.
+  - section: russian-campaign-was-multifaceted
+    why: The hacking, the release of stolen material, the electoral boards and the propaganda, and the warning about future elections.
+  - section: rt-focuses-on-social-media-building-audience
+    title: "Annex B: Estimative Language"
+    why: What "we assess" and "high", "moderate" and "low confidence" mean, at the end of this section after the last of Annex A.
+    excerpt:
+      paragraph: high-confidence-generally-indicates-judgments
+      quote: >-
+        High confidence generally indicates that judgments are based on
+        high-quality information from multiple sources. High confidence in a
+        judgment does not imply that the assessment is a fact or a certainty;
+        such judgments might be wrong.
+
+highlights:
+  # The NSA line is printed twice: in Key Judgments (p.ii) and on p.1. The card takes p.1's,
+  # because a card's source line needs an arabic page number (pnpm posts).
+  - paragraph: we-also-assess-putin-russian-2
+    quote: >-
+      CIA and FBI have high confidence in this judgment; NSA has moderate
+      confidence.
+    card: true
+  - paragraph: we-did-not-make-assessment
+    quote: >-
+      We did not make an assessment of the impact that Russian activities had
+      on the outcome of the 2016 election.
+  - paragraph: high-confidence-generally-indicates-judgments
+    quote: >-
+      High confidence in a judgment does not imply that the assessment is a
+      fact or a certainty; such judgments might be wrong.
+    card: true
+  - paragraph: dhs-assesses-types-systems-we
+    quote: >-
+      DHS assesses that the types of systems we observed Russian actors
+      targeting or compromising are not involved in vote tallying.
+    card: true
+  - paragraph: we-assess-high-confidence-gru
+    quote: >-
+      Disclosures through WikiLeaks did not contain any evident forgeries.
+  - paragraph: russia-collected-some-republican-affiliated-targets
+    quote: >-
+      Russia collected on some Republican-affiliated targets but did not
+      conduct a comparable disclosure campaign.
+    card: true
+  - paragraph: we-assess-russian-intelligence-services
+    quote: >-
+      In July 2015, Russian intelligence gained access to Democratic National
+      Committee (DNC) networks and maintained that access until at least June
+      2016.
+  - paragraph: report-declassified-version-highly-classified
+    quote: >-
+      This document’s conclusions are identical to the highly classified
+      assessment, but this document does not include the full supporting
+      information, including specific intelligence on key elements of the
+      influence campaign.
+  - paragraph: we-assess-moscow-will-apply-2
+    quote: >-
+      We assess Moscow will apply lessons learned from its campaign aimed at
+      the US presidential election to future influence efforts in the United
+      States and worldwide, including against US allies and their election
+      processes.
+    card: true
+  - paragraph: when-intelligence-community-analysts-use
+    quote: >-
+      When Intelligence Community analysts use words such as “we assess” or
+      “we judge,” they are conveying an analytic assessment or judgment.
+  - paragraph: simonyan-claimed-popular-arts-magazine
+    quote: >-
+      "It is important to have a channel that people get used to, and then,
+      when needed, you show them what you need to show.
+    context: RT's editor in chief, Margarita Simonyan, quoted in Annex A (2012).

@@ -73,5 +73,14 @@ export const EDITOR_PICKS: readonly EditorPick[] = [
     "words": "The Russian government interfered in the 2016 presidential election in sweeping and systematic fashion.",
     "anchor": "|The%20Russian%20government%20interfered%20in%20the%202016%20presidential%20election%20in%20sweeping%20and%20systematic%20fashion.|%20Evidence%20of%20Russian",
     "page": 1
+  },
+  {
+    "report": "us-ica-2017-russia-elections",
+    "slug": "putin-ordered-campaign-to-influence-us-election",
+    "sectionTitle": "Putin Ordered Campaign To Influence US Election",
+    "paragraph": "we-also-assess-putin-russian-2",
+    "words": "CIA and FBI have high confidence in this judgment; NSA has moderate confidence.",
+    "anchor": "agree%20with%20this%20judgment.%20|CIA%20and%20FBI%20have%20high%20confidence%20in%20this%20judgment%3B%20NSA%20has%20moderate%20confidence.|",
+    "page": 1
   }
 ];
