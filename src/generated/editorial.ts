@@ -4413,7 +4413,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "page": "521",
         "why": "The minority's critique of the study's process, method and conclusions."
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-senate-cia-torture-report.webp",
+      "width": 2400,
+      "height": 1586,
+      "small": {
+        "src": "/assets/heroes/us-senate-cia-torture-report-1200.webp",
+        "width": 1200
+      },
+      "credit": "Hart Senate Office Building, Washington, 2011 · Photo: Architect of the Capitol, public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_Hart_Senate_Office_Building.jpg",
+      "alt": "The Hart Senate Office Building in Washington, a white marble block with a grid of tall windows, seen from across the street. It houses the Senate Select Committee on Intelligence.",
+      "focus": "50% 25%"
+    }
   },
   "us-v-philip-morris": {
     "status": "approved",
