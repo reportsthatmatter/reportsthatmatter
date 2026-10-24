@@ -1,5 +1,5 @@
 {
- "ingest": "v0.28.0",
+ "ingest": "v0.29.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
@@ -99,7 +99,7 @@
   },
   "uk-covid-inquiry-module-2": {
    "set": "held-out",
-   "ingest": "v0.28.0",
+   "ingest": "v0.29.0",
    "metrics": {
     "boundary_p": 0.8751617076326003,
     "boundary_r": 0.9471473573678684,
