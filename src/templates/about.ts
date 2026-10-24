@@ -92,6 +92,9 @@ export function renderAbout(): string {
       <p>We also count page views with Umami, a cookie-free analytics tool we host ourselves. It records the page,
       the site you came from, and your browser, device type and country; it sets no cookies and stores no network
       address or other personal identifier.</p>
+      <p>If you sign up for the <a href="/newsletter">newsletter</a>, we keep your email address, the time and which
+      page the form was on, and use them only for the newsletter. You get one email asking you to confirm before the
+      first issue, and every issue has an unsubscribe link; <a href="/newsletter#privacy">the details</a>.</p>
       <p>Saves and shares are both counted, anonymously. When the words are found in the report, the passage can
       appear on <a href="/highlights">Highlights</a> about half an hour later, with the report's own text, page and
       a time rounded to the hour, and nothing about who chose it. Your own list of saved passages stays in your

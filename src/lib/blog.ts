@@ -21,6 +21,8 @@ export type Post = {
   status: PostStatus;
   /** Open questions for the editor; shown only on a draft's preview page. */
   review: string[];
+  /** The newsletter issue this post is (decision 0033): each monthly email is also a post. Absent for other posts. */
+  issue?: number;
   /** Markdown, frontmatter removed. */
   body: string;
 };
@@ -56,6 +58,11 @@ export function parsePost(slug: string, raw: string): Post {
     fail('"review" must be a list of strings');
   }
 
+  const issue = data.issue;
+  if (issue !== undefined && (!Number.isInteger(issue) || (issue as number) < 1)) {
+    fail('"issue" must be a whole number from 1 (the newsletter issue)');
+  }
+
   return {
     slug,
     title: text("title"),
@@ -64,6 +71,7 @@ export function parsePost(slug: string, raw: string): Post {
     summary: text("summary"),
     status: status as PostStatus,
     review: review as string[],
+    ...(issue !== undefined ? { issue: issue as number } : {}),
     body: match[2].trim(),
   };
 }
@@ -84,4 +92,15 @@ export function visiblePosts(posts: Post[], preview: boolean): Post[] {
 
 export function findPost(posts: Post[], slug: string, preview: boolean): Post | undefined {
   return visiblePosts(posts, preview).find((post) => post.slug === slug);
+}
+
+/** Published newsletter issues, newest first. */
+export function publishedIssues(posts: Post[]): Post[] {
+  return posts.filter((post) => isPublished(post) && post.issue !== undefined);
+}
+
+/** The words a post's share card carries: the title up to its first colon, so a long title still fits a card. */
+export function cardTitle(post: Post): string {
+  const colon = post.title.indexOf(": ");
+  return colon > 12 ? post.title.slice(0, colon) : post.title;
 }

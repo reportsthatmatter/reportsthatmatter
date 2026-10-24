@@ -64,8 +64,14 @@ describe("committed cards", () => {
   it("no other orphan: a curated card is in docs/share-quotes.yaml, a default card is a report's", () => {
     const quotes = parse(readFileSync(join(root, "docs/share-quotes.yaml"), "utf8")).quotes as Array<{ report: string; paragraph: string }>;
     const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8")).reports as Array<{ id: string }>;
-    const keep = [...quotes.map((q) => `${q.report}/${q.paragraph}`), ...registry.map((r) => `${r.id}/default`), ...wantedQuoteCards(highlights)];
+    const posts = readdirSync(join(root, "content/posts")).filter((f) => f.endsWith(".md")).map((f) => `blog/${f.slice(0, -3)}`);
+    const keep = [...quotes.map((q) => `${q.report}/${q.paragraph}`), ...registry.map((r) => `${r.id}/default`), ...wantedQuoteCards(highlights), ...posts];
     expect(orphanCards(onDisk, keep)).toEqual([]);
+  });
+
+  it("every blog post has its card (run: pnpm cards --blog)", () => {
+    const posts = readdirSync(join(root, "content/posts")).filter((f) => f.endsWith(".md")).map((f) => `blog/${f.slice(0, -3)}`);
+    expect(posts.filter((name) => !CARDS.has(name))).toEqual([]);
   });
 
   it("the manifest lists exactly the cards on disk", () => {

@@ -7,6 +7,7 @@
  *                                      # default cards, for a fast iteration loop
  *   pnpm cards --highlights [<id>…]   # only the quote cards for the editor's
  *                                      # highlights (all reports, or these)
+ *   pnpm cards --blog                 # only the blog's cards, one per post (assets/cards/blog/<slug>.png)
  *   --all-highlights                  # every highlight, not only card: true
  *   --check                           # render in memory and write nothing; exit 1 if any card or the
  *                                      # manifest differs from disk, or a card nobody asks for is on disk
@@ -45,6 +46,7 @@ import { quoteCardId } from "../src/lib/card-key.ts";
 import { orphanCards } from "../src/lib/card-plan.ts";
 import { statSync, readdirSync, rmSync } from "node:fs";
 import UPNG from "upng-js";
+import { parsePosts, cardTitle } from "../src/lib/blog.ts";
 
 /** A screenshot as a 64-colour PNG: a card is grey ink, a grey plate and one off-white, so nothing visible is lost. */
 function quantise(png) {
@@ -156,11 +158,12 @@ function fitToCard(text, limit = 420) {
 
 const targets = [];
 const highlightsOnly = process.argv.includes("--highlights");
-const [argReport, argParagraph] = highlightsOnly ? [] : process.argv.slice(2).filter((arg) => !arg.startsWith("--"));
+const blogOnly = process.argv.includes("--blog");
+const [argReport, argParagraph] = highlightsOnly || blogOnly ? [] : process.argv.slice(2).filter((arg) => !arg.startsWith("--"));
 const highlightReports = highlightsOnly ? process.argv.slice(2).filter((arg) => !arg.startsWith("--")) : [];
 
-if (highlightsOnly) {
-  // Quote cards only; the manifest below keeps every other card already on disk.
+if (highlightsOnly || blogOnly) {
+  // Quote cards (or blog cards) only; the manifest below keeps every other card already on disk.
 } else if (argReport && argParagraph) {
   targets.push({ report: argReport, paragraph: argParagraph });
 } else {
@@ -230,7 +233,7 @@ for (const target of targets) {
 // shared link to exactly those words previews with them (f2e). The words are
 // the verbatim selector `pnpm editorial` resolved; a card too long for one
 // screen is cut at a sentence by fitToCard, never rewritten.
-if (!(argReport && argParagraph)) {
+if (!(argReport && argParagraph) && !blogOnly) {
   const highlightsPath = join(root, "build/editorial-highlights.json");
   if (!existsSync(highlightsPath)) {
     console.error("\nbuild/editorial-highlights.json is missing — run pnpm editorial first");
@@ -269,7 +272,7 @@ if (!(argReport && argParagraph)) {
 // cover: the site itself, and every report's contents/full/uncurated-paragraph
 // pages (reportsthatmatter-obw). Skipped in the ad-hoc single-quote form so
 // iterating on one curated quote stays fast.
-if (!(argReport && argParagraph) && !highlightsOnly) {
+if (!(argReport && argParagraph) && !highlightsOnly && !blogOnly) {
   console.log("\nDefault cards:");
 
   const siteHtml = renderDefaultCard({
@@ -302,6 +305,31 @@ if (!(argReport && argParagraph) && !highlightsOnly) {
   }
 }
 
+// Blog cards (decision 0033): a default card per post, drafts included so a draft previews as it will share.
+// The title up to its first colon, with "Blog" (or the newsletter issue) beneath, in the site card's design.
+if (!(argReport && argParagraph) && !highlightsOnly) {
+  console.log("\nBlog cards:");
+  const postsDir = join(root, "content/posts");
+  const files = Object.fromEntries(
+    readdirSync(postsDir)
+      .filter((name) => name.endsWith(".md"))
+      .map((name) => [name.slice(0, -3), readFileSync(join(postsDir, name), "utf8")])
+  );
+  for (const post of parsePosts(files)) {
+    const html = renderDefaultCard({
+      title: cardTitle(post),
+      // No date: a post's date changes when it is published, and a card should not need re-rendering for that.
+      subtitle: post.issue !== undefined ? `Newsletter · From the archives · No. ${post.issue}` : "Blog · Notes on the work",
+    });
+    await page.setContent(html, { waitUntil: "networkidle" });
+    await page.waitForTimeout(250);
+    await assertFits(`blog/${post.slug}`);
+    save(join(root, "assets/cards/blog", `${post.slug}.png`), quantise(await page.screenshot()));
+    generated.push(`blog/${post.slug}`);
+    console.log(`  ✓ blog/${post.slug}`);
+  }
+}
+
 await browser.close();
 
 // Cards on disk, as <report>/<card>. The manifest lists every one that stays, so an ad hoc or
@@ -316,7 +344,9 @@ for (const dir of readdirSync(join(root, "assets/cards"), { withFileTypes: true 
 
 // Cards nobody asks for any more (u09x). A failed render means `generated` is incomplete: prune nothing then.
 const adHoc = Boolean(argReport && argParagraph);
-const orphans = adHoc || process.exitCode ? [] : orphanCards(onDisk, generated, highlightsOnly ? { quoteOnly: true, reports: highlightReports } : {});
+const orphans = adHoc || process.exitCode
+  ? []
+  : orphanCards(onDisk, generated, highlightsOnly ? { quoteOnly: true, reports: highlightReports } : blogOnly ? { reports: ["blog"] } : {});
 for (const name of orphans) {
   if (checkOnly) console.error(`  ✗ ${name} — on disk, but no highlight, curated quote or report asks for it`);
   else {
