@@ -22,9 +22,17 @@
 #     congressional leaders had been briefed; a declassified version released
 #     (intelligencecommunitynews.com/odni-releases-declassified-ic-assessment-of-russian-activities-and-intentions-in-recent-us-elections)
 #   Senate Intelligence Committee, Volume 4, "Review of the Intelligence Community
-#     Assessment", released 21 April 2020; press release key findings, quoted below
+#     Assessment", released 21 April 2020; both quotations below checked 2026-10-25
+#     against the committee's own press release, "Key Findings" paragraph
 #     (intelligence.senate.gov/press/senate-intel-releases-new-report-intel-community-assessment-russian-interference,
-#     read via the Wayback Machine)
+#     read via the Wayback Machine): "presents a coherent and well-constructed
+#     intelligence basis for the case that Russia engaged in an attempt to interfere
+#     with the 2016 U.S. presidential election" is verbatim; "analysts were under no
+#     political pressure to reach specific conclusions" is verbatim, but there the
+#     committee says interviews with the ICA's drafters "affirmed" it, so the
+#     background attributes it that way. Full report: S. Rept. 116-290, Volumes I-V
+#     (govinfo.gov/content/pkg/CRPT-116srpt290/pdf/CRPT-116srpt290.pdf), Volume 4
+#     is a scanned image, so the press release is the checked text.
 #   CIA tradecraft review, ordered by Director John Ratcliffe, declassified 2 July 2025:
 #     "multiple procedural anomalies ... such as a compressed timeline, uneven access to
 #     compartmented information, marginalization of the National Intelligence Council,
@@ -71,7 +79,8 @@ background: |
   Intelligence Committee, in the fourth volume of its bipartisan investigation,
   found that it "presents a coherent and well-constructed intelligence basis
   for the case that Russia engaged in an attempt to interfere with the 2016
-  U.S. presidential election" and that "analysts were under no political pressure to reach
+  U.S. presidential election", and reported that interviews with those who
+  drafted it "affirmed that analysts were under no political pressure to reach
   specific conclusions". In July 2025 the CIA declassified a review of the
   assessment's tradecraft, ordered by its director, John Ratcliffe, which
   identified "procedural anomalies" in how it was prepared, among them "a
