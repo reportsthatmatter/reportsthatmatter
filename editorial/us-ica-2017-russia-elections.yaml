@@ -19,7 +19,7 @@
 #     (govexec.com/oversight/2016/12/obama-orders-investigation-election-related-hacking/133794;
 #     foxnews.com/politics/2016/12/09/obama-orders-review-election-hacking.html)
 #   ODNI statement of 6 January 2017: President Obama, President-elect Trump and
-#     congressional leaders briefed; a declassified version released
+#     congressional leaders had been briefed; a declassified version released
 #     (intelligencecommunitynews.com/odni-releases-declassified-ic-assessment-of-russian-activities-and-intentions-in-recent-us-elections)
 #   Senate Intelligence Committee, Volume 4, "Review of the Intelligence Community
 #     Assessment", released 21 April 2020; press release key findings, quoted below
@@ -30,6 +30,9 @@
 #     compartmented information, marginalization of the National Intelligence Council,
 #     and excessive involvement of agency heads"
 #     (cia.gov/stories/story/cia-director-john-ratcliffe-declassifies-internal-tradecraft-review)
+# Critiqued by a Fable reviewer before shipping (2026-10-24, agent protocol 2026-10-24);
+# its changes applied. The CIA page says nothing about the "aspired" judgment, so the
+# background quotes the 2025 review only on what that page states.
 # Facts taken from the report: its date, the three agencies, information as of
 # 29 December 2016, the classified version, and that it made no assessment of the
 # outcome.
@@ -38,11 +41,11 @@ report: us-ica-2017-russia-elections
 status: approved
 
 why_it_matters: >-
-  The declassified assessment by the CIA, the FBI and the NSA of Russia's
-  campaign to influence the 2016 US presidential election, published on
+  The declassified assessment by the CIA, the FBI and the NSA of Russian
+  activities aimed at the 2016 US presidential election, published on
   6 January 2017. It is the source of the judgments still argued over: that
-  Vladimir Putin ordered the campaign, and that Russia aimed to help Donald
-  Trump. Here are its exact words, including how confident each agency said
+  Vladimir Putin ordered the campaign, and that Russia preferred and aspired
+  to help Donald Trump. Here are its exact words, including how confident each agency said
   it was, and the definitions of that language.
 
 background: |
@@ -53,21 +56,22 @@ background: |
   left office on 20 January 2017. The Central Intelligence Agency, the Federal
   Bureau of Investigation and the National Security Agency drafted and
   coordinated the assessment, using information available as of 29 December
-  2016. On 6 January 2017 they briefed President Obama, President-elect Trump
-  and congressional leaders, and the Office of the Director of National
-  Intelligence published this declassified version.
+  2016. By 6 January 2017 the agency heads had briefed President Obama,
+  President-elect Trump and congressional leaders, and that day the Office of
+  the Director of National Intelligence published this declassified version.
 
   The assessment says its conclusions are identical to those of the classified
   version, but that it leaves out the supporting intelligence, so most of its
   judgments are stated without their evidence. It says it made no assessment of
   whether Russia's activities affected the outcome of the election. Its words
   of likelihood and confidence ("we assess", "high confidence") are defined in
-  Annex B and in the Background note that opens the file.
+  Annex B and in the Background note that opens the PDF.
 
   The assessment has been reviewed since. In April 2020 the Senate
   Intelligence Committee, in the fourth volume of its bipartisan investigation,
-  found that it "presents a coherent and well-constructed intelligence basis"
-  for its case and that "analysts were under no political pressure to reach
+  found that it "presents a coherent and well-constructed intelligence basis
+  for the case that Russia engaged in an attempt to interfere with the 2016
+  U.S. presidential election" and that "analysts were under no political pressure to reach
   specific conclusions". In July 2025 the CIA declassified a review of the
   assessment's tradecraft, ordered by its director, John Ratcliffe, which
   identified "procedural anomalies" in how it was prepared, among them "a
@@ -86,7 +90,7 @@ findings:
         assess Putin and the Russian Government developed a clear preference for
         President-elect Trump. We have high confidence in these judgments.
 
-  - text: On whether Russia aspired to help Trump's chances, the three agencies agree but differ in confidence, the one judgment in the assessment where they do.
+  - text: On whether Russia aspired to help Trump's chances, the three agencies agree but differ in confidence, the only judgment in the declassified text where the agencies' confidence is stated separately.
     cites: [we-also-assess-putin-russian, we-also-assess-putin-russian-2]
     excerpt:
       paragraph: we-also-assess-putin-russian
@@ -146,7 +150,10 @@ reading_guide:
     why: The hacking, the release of stolen material, the electoral boards and the propaganda, and the warning about future elections.
   - section: rt-focuses-on-social-media-building-audience
     title: "Annex B: Estimative Language"
-    why: What "we assess" and "high", "moderate" and "low confidence" mean, at the end of this section after the last of Annex A.
+    why: >-
+      Annex B defines "we assess" and "high", "moderate" and "low confidence".
+      The site does not yet give it a page of its own: it is at the end of this
+      section, after the rest of Annex A.
     excerpt:
       paragraph: high-confidence-generally-indicates-judgments
       quote: >-
@@ -209,6 +216,6 @@ highlights:
       “we judge,” they are conveying an analytic assessment or judgment.
   - paragraph: simonyan-claimed-popular-arts-magazine
     quote: >-
-      "It is important to have a channel that people get used to, and then,
+      It is important to have a channel that people get used to, and then,
       when needed, you show them what you need to show.
     context: RT's editor in chief, Margarita Simonyan, quoted in Annex A (2012).

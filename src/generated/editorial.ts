@@ -3135,11 +3135,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "us-ica-2017-russia-elections": {
     "status": "approved",
-    "whyItMatters": "The declassified assessment by the CIA, the FBI and the NSA of Russia's campaign to influence the 2016 US presidential election, published on 6 January 2017. It is the source of the judgments still argued over: that Vladimir Putin ordered the campaign, and that Russia aimed to help Donald Trump. Here are its exact words, including how confident each agency said it was, and the definitions of that language.",
+    "whyItMatters": "The declassified assessment by the CIA, the FBI and the NSA of Russian activities aimed at the 2016 US presidential election, published on 6 January 2017. It is the source of the judgments still argued over: that Vladimir Putin ordered the campaign, and that Russia preferred and aspired to help Donald Trump. Here are its exact words, including how confident each agency said it was, and the definitions of that language.",
     "background": [
-      "In December 2016, after a presidential election in which material stolen from the Democratic National Committee had been published, President Barack Obama directed the intelligence agencies to review Russia's activities and to report before he left office on 20 January 2017. The Central Intelligence Agency, the Federal Bureau of Investigation and the National Security Agency drafted and coordinated the assessment, using information available as of 29 December 2016. On 6 January 2017 they briefed President Obama, President-elect Trump and congressional leaders, and the Office of the Director of National Intelligence published this declassified version.",
-      "The assessment says its conclusions are identical to those of the classified version, but that it leaves out the supporting intelligence, so most of its judgments are stated without their evidence. It says it made no assessment of whether Russia's activities affected the outcome of the election. Its words of likelihood and confidence (\"we assess\", \"high confidence\") are defined in Annex B and in the Background note that opens the file.",
-      "The assessment has been reviewed since. In April 2020 the Senate Intelligence Committee, in the fourth volume of its bipartisan investigation, found that it \"presents a coherent and well-constructed intelligence basis\" for its case and that \"analysts were under no political pressure to reach specific conclusions\". In July 2025 the CIA declassified a review of the assessment's tradecraft, ordered by its director, John Ratcliffe, which identified \"procedural anomalies\" in how it was prepared, among them \"a compressed timeline\" and \"excessive involvement of agency heads\"."
+      "In December 2016, after a presidential election in which material stolen from the Democratic National Committee had been published, President Barack Obama directed the intelligence agencies to review Russia's activities and to report before he left office on 20 January 2017. The Central Intelligence Agency, the Federal Bureau of Investigation and the National Security Agency drafted and coordinated the assessment, using information available as of 29 December 2016. By 6 January 2017 the agency heads had briefed President Obama, President-elect Trump and congressional leaders, and that day the Office of the Director of National Intelligence published this declassified version.",
+      "The assessment says its conclusions are identical to those of the classified version, but that it leaves out the supporting intelligence, so most of its judgments are stated without their evidence. It says it made no assessment of whether Russia's activities affected the outcome of the election. Its words of likelihood and confidence (\"we assess\", \"high confidence\") are defined in Annex B and in the Background note that opens the PDF.",
+      "The assessment has been reviewed since. In April 2020 the Senate Intelligence Committee, in the fourth volume of its bipartisan investigation, found that it \"presents a coherent and well-constructed intelligence basis for the case that Russia engaged in an attempt to interfere with the 2016 U.S. presidential election\" and that \"analysts were under no political pressure to reach specific conclusions\". In July 2025 the CIA declassified a review of the assessment's tradecraft, ordered by its director, John Ratcliffe, which identified \"procedural anomalies\" in how it was prepared, among them \"a compressed timeline\" and \"excessive involvement of agency heads\"."
     ],
     "findings": [
       {
@@ -3166,7 +3166,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "On whether Russia aspired to help Trump's chances, the three agencies agree but differ in confidence, the one judgment in the assessment where they do.",
+        "text": "On whether Russia aspired to help Trump's chances, the three agencies agree but differ in confidence, the only judgment in the declassified text where the agencies' confidence is stated separately.",
         "cites": [
           {
             "id": "we-also-assess-putin-russian",
@@ -3322,7 +3322,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "rt-focuses-on-social-media-building-audience",
         "title": "Annex B: Estimative Language",
         "page": "11",
-        "why": "What \"we assess\" and \"high\", \"moderate\" and \"low confidence\" mean, at the end of this section after the last of Annex A.",
+        "why": "Annex B defines \"we assess\" and \"high\", \"moderate\" and \"low confidence\". The site does not yet give it a page of its own: it is at the end of this section, after the rest of Annex A.",
         "excerpt": {
           "quote": "High confidence generally indicates that judgments are based on high-quality information from multiple sources. High confidence in a judgment does not imply that the assessment is a fact or a certainty; such judgments might be wrong.",
           "cite": {
