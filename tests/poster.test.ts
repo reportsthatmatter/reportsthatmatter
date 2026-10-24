@@ -522,6 +522,44 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
     }
   });
 
+  it("the late GitHub run after the Worker posted: the switch file says live, it records the Worker's post with today's posted_at, posts nothing", async () => {
+    const a = real("a");
+    // The Worker's post at 13:47; GitHub's scheduled run starts at 17:30 with the schedule's 15:00 gate.
+    feed = [entry(DID, "3kworker", a.text, a.link)];
+    feed[0].post.record.createdAt = "2026-10-14T13:47:03.000Z";
+    const sw = join(mkdtempSync(join(tmpdir(), "switch-")), "poster-live.yaml");
+    writeFileSync(sw, "# comment\nlive: true\n");
+    await start();
+    try {
+      const { status, out, after } = await run([a, real("b")], { POSTER_LIVE: "file", POSTER_SWITCH: sw, POSTER_NOT_BEFORE: "15:00", POSTER_NOW: "2026-10-14T17:30:00Z" });
+      expect(status).toBe(0);
+      expect(out).toContain("live is true");
+      expect(out).toContain("already on the account");
+      expect(writes()).toHaveLength(0);
+      expect(after[0]).toMatchObject({ posted_url: "https://bsky.app/profile/rtm.test/post/3kworker", posted_at: "2026-10-14T13:47:03.000Z" });
+      expect(after[1].posted_url).toBeNull();
+      // The next scheduled run that day, on the committed queue: one post per day, so it does nothing.
+      expect(selectNext(after, "2026-10-14")).toMatchObject({ kind: "already-today", item: { id: "a" } });
+    } finally {
+      server.close();
+    }
+  });
+
+  it("with the switch file off, POSTER_LIVE=file is a dry run", async () => {
+    feed = [];
+    const sw = join(mkdtempSync(join(tmpdir(), "switch-")), "poster-live.yaml");
+    writeFileSync(sw, "live: false\n");
+    await start();
+    try {
+      const { status, out } = await run([real("a")], { POSTER_LIVE: "file", POSTER_SWITCH: sw });
+      expect(status).toBe(0);
+      expect(out).toContain("DRY RUN: would post a");
+      expect(writes()).toHaveLength(0);
+    } finally {
+      server.close();
+    }
+  });
+
   it("a repost of someone else's post with the same link is not ours: it is ignored", async () => {
     const a = real("a");
     feed = [entry("did:plc:other", "1", a.text, a.link, { reason: { $type: "app.bsky.feed.defs#reasonRepost", by: { did: DID, handle: "rtm.test" }, indexedAt: "2026-10-14T14:00:02.000Z" } })];

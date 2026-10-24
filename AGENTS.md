@@ -343,12 +343,7 @@ an interactive session.
   words so that re-ingestion cannot silently repoint a citation. Never make them
   positional. `verify.sh` fails if `p-1`-style ids reappear.
 - Work on a branch; don't rewrite `main`.
-- No external posting, account creation, or scheduling by an agent. Campaign
-  material is drafted in-repo only. The one exception is built, not run: the
-  scheduled poster (`.github/workflows/post-next.yml`, [docs/poster.md](docs/poster.md))
-  posts the queue to Bluesky from GitHub Actions, and only after Rufus adds the
-  two secrets and sets `POSTER_LIVE=true`. Agents never set those, never run it
-  live, and never post by hand.
+- No external posting, account creation, or scheduling by an agent. Campaign material is drafted in-repo only. The one exception is the scheduled poster ([docs/poster.md](docs/poster.md)): the Cloudflare Worker `rtm-poster` (`workers/poster/`, 13:47 UTC) posts the queue to Bluesky, and the GitHub workflow `.github/workflows/post-next.yml` is its backup and records each post in the queue. Both obey one switch, `marketing/poster-live.yaml` (`live: true`; live since 2026-10-25 on Rufus's instruction). Switching it off (`live: false`, pushed to main) is always allowed; switching it on is Rufus's call. Agents never post by hand.
 - Stop and report if `verify.sh` fails the same way three times running.
 
 ## Changelog
@@ -417,7 +412,7 @@ Romana and Akkurat, which are licensed.
 ./scripts/deploy-cloudflare.sh   # = pnpm prerender && pnpm wrangler deploy --env "" --profile datopian
 ```
 
-Cloudflare account: Datopian (`accounts@datopian.com`, id `83025b28472d6aa2bf5ae59f3724aa78`, Workers Paid) since 2026-10-16; before that `office@atomatic.net`, whose Worker, D1 and R2 were deleted on 2026-10-24 ([docs/hosting-migration.md](docs/hosting-migration.md)). Live on `reportsthatmatter.org` and `www` (301 to apex) as Workers custom domains, zone `9aa68c2e0a324d10a69a117155fe3f11` on the Datopian account; the pre-V2 site is served on `old.reportsthatmatter.org` by the same Worker through a zone route (a scanned proxied DNS record still sits on that host, so it cannot be a custom domain until Rufus deletes it). Staging/comparison URL: https://reportsthatmatter.datopian.workers.dev.
+Cloudflare account: Datopian (`accounts@datopian.com`, id `83025b28472d6aa2bf5ae59f3724aa78`, Workers Paid) since 2026-10-16; before that `office@atomatic.net`, whose Worker, D1 and R2 were deleted on 2026-10-24 ([docs/hosting-migration.md](docs/hosting-migration.md)). Live on `reportsthatmatter.org` and `www` (301 to apex) as Workers custom domains, zone `9aa68c2e0a324d10a69a117155fe3f11` on the Datopian account; the pre-V2 site is served on `old.reportsthatmatter.org` by the same Worker through a zone route (a scanned proxied DNS record still sits on that host, so it cannot be a custom domain until Rufus deletes it). Staging/comparison URL: https://reportsthatmatter.datopian.workers.dev. The same account runs the cron-only Worker `rtm-poster` (the daily Bluesky post; `workers/poster/wrangler.toml`, secret `BLUESKY_APP_PASSWORD`; deploy `pnpm wrangler deploy -c workers/poster/wrangler.toml`), separate from the site Worker: [docs/poster.md](docs/poster.md).
 
 **Report pages are pre-rendered, not bundled or rendered on request** (#115,
 `docs/plans/2026-08-21-serving-architecture.md`). `pnpm prerender` renders every

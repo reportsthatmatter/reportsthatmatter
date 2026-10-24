@@ -1,0 +1,5 @@
+# The Bluesky poster's one on/off switch (docs/poster.md). Both posters read it: the Cloudflare Worker
+# `rtm-poster` (from GitHub's raw main, so a change reaches it within about 5 minutes of merging) and the
+# GitHub Actions workflow post-next.yml (from its checkout). `live: true` posts; anything else is a dry run.
+# Switch off: set `live: false` and push to main.
+live: true

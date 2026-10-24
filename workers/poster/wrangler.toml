@@ -1,0 +1,25 @@
+# rtm-poster (docs/poster.md): the daily Bluesky post, from a Cloudflare cron because GitHub Actions starts
+# scheduled runs hours late. Deploy: pnpm wrangler deploy -c workers/poster/wrangler.toml --profile datopian
+# Secret: BLUESKY_APP_PASSWORD (wrangler secret put BLUESKY_APP_PASSWORD -c workers/poster/wrangler.toml).
+# The one on/off switch is marketing/poster-live.yaml in the repo, not anything here.
+name = "rtm-poster"
+main = "index.ts"
+account_id = "83025b28472d6aa2bf5ae59f3724aa78"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+# No public URL: only the cron can run it.
+workers_dev = false
+preview_urls = false
+
+[triggers]
+# 13:47 UTC posts; 14:17 and 14:47 retry if it failed (each finds the post and does nothing otherwise). The GitHub
+# workflow does not post before 15:00 UTC on a scheduled run, so the two never race.
+crons = ["47 13 * * *", "17 14 * * *", "47 14 * * *"]
+
+[vars]
+REPO_RAW_BASE = "https://raw.githubusercontent.com/reportsthatmatter/reportsthatmatter/main"
+# The account DID (not secret; the same value as the GitHub secret BLUESKY_HANDLE).
+BLUESKY_HANDLE = "did:plc:owtfs5pk265ppfmojghzr56t"
+
+[observability]
+enabled = true

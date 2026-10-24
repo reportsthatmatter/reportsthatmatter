@@ -6,21 +6,23 @@
  *   POSTER_LIVE=true BLUESKY_HANDLE=... BLUESKY_APP_PASSWORD=... pnpm post-next
  *
  * Environment: BLUESKY_HANDLE, BLUESKY_APP_PASSWORD (repository secrets),
- * POSTER_LIVE (repository variable; anything but "true" is a dry run).
+ * POSTER_LIVE ("true" posts, anything else is a dry run; "file" reads the switch marketing/poster-live.yaml,
+ * which is what the workflow passes, or POSTER_SWITCH=path to read another file).
  * Optional: POSTER_NOT_BEFORE=HH:MM (UTC, default 13:00: a live run earlier than this posts nothing),
  * POSTER_NOW=ISO timestamp (tests: the clock the gate reads), POSTER_TODAY=YYYY-MM-DD, POSTER_QUEUE=path (tests and rehearsals), POSTER_SERVICE.
  *
  * Exit 0: posted, reconciled, dry run, nothing due, already posted today.
  * Exit 1: anything wrong. Nothing is swallowed. The decisions are in
- * src/lib/poster.ts; this file is only the Bluesky adapter and the file I/O.
+ * src/lib/poster.ts; the Bluesky adapter is src/lib/bluesky-client.ts
+ * (shared with the Worker poster, workers/poster/); this file is only the file I/O.
  */
 import "./lib/help.mjs";
 import { readFileSync, writeFileSync, appendFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { parse, stringify } from "yaml";
-import { AtpAgent } from "@atproto/api";
 import { QUEUE_HEADER, isoDate } from "../src/lib/posts.ts";
-import { DEFAULT_NOT_BEFORE, decideMode, runPoster, cardMeta } from "../src/lib/poster.ts";
+import { DEFAULT_NOT_BEFORE, SWITCH_PATH, decideMode, readSwitch, runPoster } from "../src/lib/poster.ts";
+import { connectBluesky } from "../src/lib/bluesky-client.ts";
 import { SITE_ORIGIN } from "../src/templates/site.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -31,52 +33,29 @@ function say(line) {
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${line}\n`);
 }
 
-const postUrl = (handle, uri) => `https://bsky.app/profile/${handle}/post/${uri.split("/").pop()}`;
-
-async function connect(env) {
-  const agent = new AtpAgent({ service: env.POSTER_SERVICE || "https://bsky.social" });
-  const handle = env.BLUESKY_HANDLE.trim().replace(/^@/, "");
-  await agent.login({ identifier: handle, password: env.BLUESKY_APP_PASSWORD.trim() });
-  const did = agent.session.did;
-
-  const toFeedPost = (p) => ({
-    uri: p.uri,
-    url: postUrl(handle, p.uri),
-    text: p.record?.text ?? "",
-    embedUri: p.embed?.external?.uri ?? null,
-    createdAt: p.record?.createdAt ?? p.indexedAt ?? "",
-  });
-
-  return {
-    async recentPosts() {
-      const res = await agent.getAuthorFeed({ actor: did, limit: 100, filter: "posts_no_replies" });
-      // Own posts only: a repost of someone else's post carries their author did.
-      return res.data.feed.filter((f) => f.post.author.did === did && !f.reason).map((f) => toFeedPost(f.post));
-    },
-    async publish(item) {
-      const cardFile = join(root, item.card);
-      if (!existsSync(cardFile)) throw new Error(`Card image missing: ${item.card}`);
-      const upload = await agent.uploadBlob(readFileSync(cardFile), { encoding: "image/png" });
-      const { title, description } = cardMeta(item);
-      const res = await agent.post({
-        text: item.text,
-        langs: ["en"],
-        embed: {
-          $type: "app.bsky.embed.external",
-          external: { uri: item.link, title, description, thumb: upload.data.blob },
-        },
-      });
-      return { uri: res.uri, url: postUrl(handle, res.uri), text: item.text, embedUri: item.link, createdAt: new Date().toISOString() };
-    },
-  };
-}
-
 try {
-  const env = process.env;
+  const env = { ...process.env };
+  // The workflow passes POSTER_LIVE=file: the switch is marketing/poster-live.yaml, which the Worker poster reads too.
+  if (env.POSTER_LIVE === "file") {
+    const switchPath = env.POSTER_SWITCH || join(root, SWITCH_PATH);
+    env.POSTER_LIVE = readSwitch(readFileSync(switchPath, "utf8")) ? "true" : "false";
+    say(`Switch ${SWITCH_PATH}: live is ${env.POSTER_LIVE}.`);
+  }
   const mode = decideMode(env);
   const today = env.POSTER_TODAY || isoDate(new Date());
   const doc = parse(readFileSync(queuePath, "utf8"));
-  const client = mode.hasCredentials ? await connect(env) : null;
+  const client = mode.hasCredentials
+    ? await connectBluesky({
+        service: env.POSTER_SERVICE,
+        handle: env.BLUESKY_HANDLE,
+        password: env.BLUESKY_APP_PASSWORD,
+        async readCard(path) {
+          const cardFile = join(root, path);
+          if (!existsSync(cardFile)) throw new Error(`Card image missing: ${path}`);
+          return readFileSync(cardFile);
+        },
+      })
+    : null;
 
   say(`Poster mode: ${mode.live ? "LIVE" : "DRY RUN"} — ${mode.why}. Date: ${today}.`);
   const notBefore = (env.POSTER_NOT_BEFORE || DEFAULT_NOT_BEFORE).trim();

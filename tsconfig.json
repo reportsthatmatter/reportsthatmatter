@@ -9,5 +9,5 @@
     "allowJs": true,
     "types": ["vitest/globals"]
   },
-  "include": ["src", "tests", "assets/anchor.js"]
+  "include": ["src", "tests", "workers", "assets/anchor.js"]
 }

@@ -55,7 +55,7 @@ export function decideMode(env: Record<string, string | undefined>): Mode {
   if (wantsLive && !hasCredentials) {
     throw new Error(
       "POSTER_LIVE is true but BLUESKY_HANDLE and/or BLUESKY_APP_PASSWORD are not set. " +
-        "Add both repository secrets, or set the POSTER_LIVE variable back to false."
+        "Add both credentials, or set marketing/poster-live.yaml back to `live: false`."
     );
   }
   if (wantsLive) return { live: true, hasCredentials, why: "POSTER_LIVE=true" };
@@ -188,4 +188,30 @@ export async function runPoster(params: {
 
   const post = await client!.publish(item);
   return { ...write(post), outcome: "posted", post };
+}
+
+/**
+ * The queue as the account says it is: every unposted item found among the account's recent posts gets that post's
+ * `posted_url` and `posted_at`. The Worker poster (workers/poster/) cannot write the queue back, and the GitHub run
+ * that records its posts may be hours or days late, so the Worker decides from this view: an item it posted
+ * yesterday is not selected again, and today's post counts as today's. Never mutates its input.
+ */
+export function overlayAccount(queue: readonly PosterItem[], recent: readonly FeedPost[]): PosterItem[] {
+  return queue.map((i) => {
+    if (i.posted_url) return { ...i };
+    const p = findPosted(i, recent);
+    return p ? { ...i, posted_url: p.url, posted_at: p.createdAt } : { ...i };
+  });
+}
+
+/** Where the one on/off switch lives, read by both posters: the workflow from its checkout, the Worker from GitHub. */
+export const SWITCH_PATH = "marketing/poster-live.yaml";
+
+/**
+ * Parses the switch file. Live only for `live: true` exactly; anything else, including a file that will not parse,
+ * is off (the caller fails loudly on a fetch error rather than reading that as off, so a GitHub outage is visible).
+ */
+export function readSwitch(yamlText: string): boolean {
+  const m = /^live:\s*(\S+)\s*(#.*)?$/m.exec(yamlText);
+  return m?.[1] === "true";
 }

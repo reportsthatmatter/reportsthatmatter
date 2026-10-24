@@ -1,12 +1,16 @@
 # The scheduled poster (reportsthatmatter-y2t.4): once a day, posts the next due item in
 # marketing/queue.yaml to Bluesky and commits `posted_url` back. Bluesky only.
 #
-# SAFE BY DEFAULT. It posts nothing until all three exist:
+# THE BACKUP AND THE WRITE-BACK. The daily post is made by the Cloudflare Worker rtm-poster (workers/poster/,
+# 13:47 UTC, retries 14:17 and 14:47), because GitHub starts scheduled runs hours late. A scheduled run here posts
+# only after 15:00 UTC and only if the Worker did not: normally it finds the Worker's post on the account and
+# records posted_url/posted_at in the queue. docs/poster.md.
+#
+# SAFE BY DEFAULT. It posts nothing unless both exist:
 #   secrets   BLUESKY_HANDLE, BLUESKY_APP_PASSWORD
-#   variable  POSTER_LIVE = true
-# With no secrets it is a dry run that makes no Bluesky request. With the secrets but no
-# variable it is a dry run that logs in and reads the account's recent posts, so it also
-# proves the secrets work. How to switch it on: docs/poster.md.
+#   switch    marketing/poster-live.yaml says `live: true` (the one switch, shared with the Worker)
+# With no secrets it is a dry run that makes no Bluesky request. With the secrets and the switch off it is a dry
+# run that logs in and reads the account's recent posts, so it also proves the secrets work.
 name: Post next excerpt to Bluesky
 
 on:
@@ -23,7 +27,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Dry run: show what would be posted, post nothing (ignores the POSTER_LIVE variable)"
+        description: "Dry run: show what would be posted, post nothing (unticked, it still posts only if marketing/poster-live.yaml says live: true)"
         type: boolean
         default: true
 
@@ -68,8 +72,10 @@ jobs:
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-          # A manual run defaults to a dry run; a scheduled run follows the variable.
-          POSTER_LIVE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'false' || vars.POSTER_LIVE }}
+          # A manual run defaults to a dry run; otherwise the switch file decides ("file": marketing/poster-live.yaml).
+          POSTER_LIVE: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'false' || 'file' }}
+          # A scheduled run leaves 13:00-15:00 UTC to the Worker, so the two never race; a manual run keeps 13:00.
+          POSTER_NOT_BEFORE: ${{ github.event_name == 'schedule' && '15:00' || '13:00' }}
         run: pnpm post-next
 
       # Runs even if the step above failed after posting, so a posted_url is never left uncommitted.
