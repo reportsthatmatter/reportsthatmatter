@@ -73,8 +73,8 @@ describe("renderHead for a shared quote", () => {
 
   it("states the site, the card's size and its words", () => {
     expect(head).toContain('<meta property="og:site_name" content="Reports that Matter" />');
-    expect(head).toContain('<meta property="og:image:width" content="2400" />');
-    expect(head).toContain('<meta property="og:image:height" content="1260" />');
+    expect(head).toContain('<meta property="og:image:width" content="1200" />');
+    expect(head).toContain('<meta property="og:image:height" content="630" />');
     expect(head).toContain('<meta property="og:image:alt" content="“the exact words” — The Demo Report" />');
     expect(head).toContain('<meta name="twitter:card" content="summary_large_image" />');
   });
