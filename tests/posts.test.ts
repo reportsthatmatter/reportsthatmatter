@@ -1,8 +1,10 @@
 import { describe, expect, it } from "vitest";
+import { cardMeta } from "../src/lib/poster";
 import {
   BLUESKY_GRAPHEME_LIMIT,
   buildQueue,
   candidateId,
+  formatHooked,
   formatPost,
   graphemeLength,
   isBlackout,
@@ -357,6 +359,51 @@ describe("buildQueue", () => {
     });
     expect(staleUnposted).toEqual([]);
     expect(stalePosted).toEqual(["gone"]);
+  });
+});
+
+describe("hooks (post-writing skill)", () => {
+  const hooked = (overrides: Partial<ResolvedPost> = {}) => resolved({ page: 30, sourceTitle: "Demo Report", ...overrides });
+  const queued = (hook: string | null, overrides: Partial<ResolvedPost> = {}) => {
+    const first = buildQueue({ resolved: [hooked(overrides)], existing: [], today: "2026-09-27", reportOrder: ["demo"] });
+    return buildQueue({ resolved: [hooked(overrides)], existing: first.queue.map((i) => ({ ...i, hook })), today: "2026-09-28", reportOrder: ["demo"] });
+  };
+
+  it("formats the hook, then the short source line, then the context line; the quote is not repeated", () => {
+    expect(formatHooked(" In 1986 a shuttle broke apart. ", "Demo Report", 3)).toBe("In 1986 a shuttle broke apart.\n\n— Demo Report, p. 3");
+    expect(formatHooked("Hook.", "Demo Report", 3, "97 people died.")).toBe("Hook.\n\n— Demo Report, p. 3\n\n97 people died.");
+  });
+
+  it("a hooked post's source line still gives the link card its title and page", () => {
+    expect(cardMeta({ text: formatHooked("Hook, with a comma.", "Challenger Accident Report (House Science Committee)", 3) })).toEqual({
+      title: "Challenger Accident Report (House Science Committee)",
+      description: "Page 3. Read the passage in context.",
+    });
+  });
+
+  it("builds a not-yet-posted item's text from its hook and keeps the hook; no hook keeps the quote post", () => {
+    const { queue, overLength } = queued("In 1986 a shuttle broke apart.");
+    expect(queue[0].hook).toBe("In 1986 a shuttle broke apart.");
+    expect(queue[0].text).toBe("In 1986 a shuttle broke apart.\n\n— Demo Report, p. 30");
+    expect(overLength).toEqual([]);
+    expect(queued(null).queue[0].text).toBe('"So what?"\n\n— The Demo Report, p. 30');
+  });
+
+  it("keeps the context line last, so the affected-community check still holds", () => {
+    expect(queued("Hook.", { contextLine: "97 people died." }).queue[0].text.endsWith("97 people died.")).toBe(true);
+  });
+
+  it("reports a hook that takes the post over 300 graphemes and keeps the old text", () => {
+    const { queue, overLength } = queued("x".repeat(BLUESKY_GRAPHEME_LIMIT));
+    expect(overLength).toHaveLength(1);
+    expect(queue[0].text).toBe('"So what?"\n\n— The Demo Report, p. 30');
+  });
+
+  it("never rewrites a posted item's text, hook or not", () => {
+    const first = buildQueue({ resolved: [hooked()], existing: [], today: "2026-09-27", reportOrder: ["demo"] });
+    const posted = first.queue.map((i) => ({ ...i, hook: "A later hook.", posted_url: "https://bsky.app/x" }));
+    const { queue } = buildQueue({ resolved: [hooked()], existing: posted, today: "2026-09-28", reportOrder: ["demo"] });
+    expect(queue[0].text).toBe(first.queue[0].text);
   });
 });
 

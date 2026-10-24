@@ -55,6 +55,7 @@ Runbooks for the key steps live as skills, one `SKILL.md` each, in `.claude/skil
 | `report-publish` | Stage 6, integrator only: publish to R2, deploy, reindex, seed, production verify | specced |
 | `report-announce` | Stage 7: changelog entry, long-read and social drafts (nothing posted) | specced |
 | `report-promote` | Stage 8: the report's excerpts in the posting queue | specced |
+| `post-writing` | Writing a post's text (the queue item's `hook`): context and a hook, every claim checked, never repeating the card quote | judgement |
 | `fix-agent` | You were handed a bead to fix: worktrees, measure before and after, PRs, notes, lessons, retro | the bead's |
 | `pr-review` | You are the reviewer gating PRs: trial merge, checks, ratchet, the review file and the integrator's steps | judgement |
 | `integrate-and-ship` | You are the integrator: merge, release ingest, bump the pin, re-ingest, `pnpm ship`, D1 budget, close beads | specced |

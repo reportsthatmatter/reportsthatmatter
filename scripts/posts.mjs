@@ -67,6 +67,7 @@ if (startIdx >= 0 && !/^\d{4}-\d{2}-\d{2}$/.test(flagStart ?? "")) {
 
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const titleOf = Object.fromEntries(registry.reports.map((r) => [r.id, r.title]));
+const shortTitleOf = Object.fromEntries(registry.reports.map((r) => [r.id, r.common_name ?? r.title]));
 const reportOrder = registry.reports.map((r) => r.id);
 const policies = reportPolicies(registry);
 const newsDayOnly = registry.reports.filter((r) => r.news_day_only === true).map((r) => r.id);
@@ -92,6 +93,7 @@ for (const name of editorialFiles) {
       privatePeople: source.private_people ?? [],
       report: source.report,
       reportTitle: titleOf[source.report],
+      sourceTitle: shortTitleOf[source.report],
       paragraph: h.paragraph,
       quote: h.quote,
       tier: h.tier,
@@ -111,6 +113,7 @@ if (existsSync(shareQuotesPath)) {
     candidates.push({
       report: q.report,
       reportTitle: titleOf[q.report],
+      sourceTitle: shortTitleOf[q.report],
       paragraph: q.paragraph,
       quote: q.quote,
       origin: "share-quotes",
@@ -229,7 +232,7 @@ const queuePath = join(root, "marketing/queue.yaml");
 const existingDoc = existsSync(queuePath) ? parse(readFileSync(queuePath, "utf8")) : null;
 const existing = existingDoc?.items ?? [];
 
-const { queue, added, staleUnposted: staleAll, stalePosted, heldBack } = buildQueue({
+const { queue, added, staleUnposted: staleAll, stalePosted, heldBack, overLength } = buildQueue({
   resolved,
   existing,
   today: isoDate(new Date()),
@@ -275,10 +278,24 @@ if (violations.length) {
   for (const v of violations) console.error(`  - ${v}`);
 }
 
+// A hook (post-writing skill) whose post is over Bluesky's limit, or whose `text` was not rebuilt after the hook was
+// edited: the poster posts `text`, so either would post the wrong words.
+if (overLength.length) {
+  console.error(`${overLength.length} hooked item(s) too long (shorten the hook):`);
+  for (const o of overLength) console.error(`  - ${o}`);
+  process.exitCode = 1;
+}
+const before = new Map(existing.map((i) => [i.id, i]));
+const hookDrift = queue.filter((i) => !i.posted_url && i.hook?.trim() && before.get(i.id)?.text !== i.text).map((i) => i.id);
+if (flagCheck && hookDrift.length) {
+  console.error(`${hookDrift.length} hooked item(s) whose text is not built from the hook (run pnpm posts and commit):`);
+  for (const id of hookDrift) console.error(`  - ${id}`);
+}
+
 if (flagCheck) {
-  // Read-only gate for the scheduled poster: only a stale not-yet-posted item or a scheduling rule break fails it.
-  // Skipped candidates and new additions are not the poster's business.
-  const failed = staleUnposted.length || violations.length;
+  // Read-only gate for the scheduled poster: a stale not-yet-posted item, a scheduling rule break, or a hooked item
+  // that is too long or whose text is out of date fails it. Skipped candidates and new additions are not its business.
+  const failed = staleUnposted.length || violations.length || overLength.length || hookDrift.length;
   console.log(failed ? "Queue check failed." : "Queue check passed: every not-yet-posted item still resolves.");
   process.exit(failed ? 1 : 0);
 }

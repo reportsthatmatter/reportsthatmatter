@@ -27,32 +27,40 @@ items:
     paragraph: russian-government-interfered-2016-presidential
     quote: The Russian government interfered in the 2016 presidential election in
       sweeping and systematic fashion.
+    hook: In June 2016 the Democratic National Committee said Russian hackers had
+      broken into its computer network. Hacked material began to be released
+      that same month. Special Counsel Robert Mueller's 2019 report opens with
+      his finding.
     text: >-
-      “The Russian government interfered in the 2016 presidential election in
-      sweeping and systematic fashion.”
+      In June 2016 the Democratic National Committee said Russian hackers had
+      broken into its computer network. Hacked material began to be released
+      that same month. Special Counsel Robert Mueller's 2019 report opens with
+      his finding.
 
 
-      — Report on the Investigation into Russian Interference in the 2016
-      Presidential Election, p. 1
+      — Mueller Report, p. 1
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=russian-government-interfered-2016-presidential&h=|The%20Russian%20government%20interfered%20in%20the%202016%20presidential%20election%20in%20sweeping%20and%20systematic%20fashion.|%20Evidence%20of%20Russian&src=bsky
     card: assets/cards/us-mueller-report/q-a0da52f5.png
     scheduled: 2026-10-25
     posted_url: null
-  - id: challenger-accident:committee-found-nasa-s-drive:59aeec79
-    report: challenger-accident
-    paragraph: committee-found-nasa-s-drive
-    quote: The Committee found that NASA's drive to achieve a launch schedule of 24
-      flights per year created pressure throughout the agency that directly
-      contributed to unsafe launch operations.
+  - id: uk-leveson-inquiry:legislative-proposal-does-no-more:6f4f7e41
+    report: uk-leveson-inquiry
+    paragraph: legislative-proposal-does-no-more
+    quote: This is not, and cannot be characterised as, regulation of the press.
+    hook: In July 2011, amid a phone-hacking scandal, the News of the World closed
+      after 168 years. The judge-led inquiry that followed proposed a press
+      regulator recognised in law. Lord Justice Leveson wrote what that law was
+      not.
     text: >-
-      “The Committee found that NASA's drive to achieve a launch schedule of 24
-      flights per year created pressure throughout the agency that directly
-      contributed to unsafe launch operations.”
+      In July 2011, amid a phone-hacking scandal, the News of the World closed
+      after 168 years. The judge-led inquiry that followed proposed a press
+      regulator recognised in law. Lord Justice Leveson wrote what that law was
+      not.
 
 
-      — Investigation of the Challenger Accident, p. 3
-    link: https://reportsthatmatter.org/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes&src=bsky
-    card: assets/cards/challenger-accident/q-7b861b87.png
+      — Leveson Report, p. 1781
+    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more&h=described%20are%20to%20be%20made%20use%20of.%20|This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|&src=bsky
+    card: assets/cards/uk-leveson-inquiry/q-8c18f02a.png
     scheduled: 2026-10-26
     posted_url: null
   - id: us-mueller-report:fourth-if-we-had-confidence:eb9effeb
@@ -60,13 +68,16 @@ items:
     paragraph: fourth-if-we-had-confidence
     quote: Accordingly, while this report does not conclude that the President
       committed a crime, it also does not exonerate him.
+    hook: A 2000 Justice Department legal opinion holds that a sitting President
+      cannot be indicted. Special Counsel Robert Mueller's office accepted it.
+      Volume II of its 2019 report explains what that meant for its conclusion.
     text: >-
-      “Accordingly, while this report does not conclude that the President
-      committed a crime, it also does not exonerate him.”
+      A 2000 Justice Department legal opinion holds that a sitting President
+      cannot be indicted. Special Counsel Robert Mueller's office accepted it.
+      Volume II of its 2019 report explains what that meant for its conclusion.
 
 
-      — Report on the Investigation into Russian Interference in the 2016
-      Presidential Election, p. 2
+      — Mueller Report, p. 2
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=fourth-if-we-had-confidence&h=criminal%20conduct%20occurred.%20|Accordingly%2C%20while%20this%20report%20does%20not%20conclude%20that%20the%20President%20committed%20a%20crime%2C%20it%20also%20does%20not%20exonerate%20him.|&src=bsky
     card: assets/cards/us-mueller-report/q-fd5a5b56.png
     scheduled: 2026-10-27
@@ -77,17 +88,39 @@ items:
     quote: At one point, Mr. Lippmann was asked to buy a specific CDO security and
       responded that it "rarely trades," but he "would take it and try to dupe
       someone" into buying it.
+    hook: Deutsche Bank's top CDO trader, Greg Lippmann, bet against the US mortgage
+      market and made the bank about $1.5 billion. Its own mortgage investments
+      lost about $4.5 billion. A Senate subcommittee later read his emails.
     text: >-
-      “At one point, Mr. Lippmann was asked to buy a specific CDO security and
-      responded that it ‘rarely trades,’ but he ‘would take it and try to dupe
-      someone’ into buying it.”
+      Deutsche Bank's top CDO trader, Greg Lippmann, bet against the US mortgage
+      market and made the bank about $1.5 billion. Its own mortgage investments
+      lost about $4.5 billion. A Senate subcommittee later read his emails.
 
 
-      — Wall Street and the Financial Crisis: Anatomy of a Financial Collapse,
-      p. 330
+      — Levin–Coburn Financial Crisis Report, p. 330
     link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=one-point-lippmann-asked-buy&h=|At%20one%20point%2C%20Mr.%20Lippmann%20was%20asked%20to%20buy%20a%20specific%20CDO%20security%20and%20responded%20that%20it%20%22rarely%20trades%2C%22%20but%20he%20%22would%20take%20it%20and%20try%20to%20dupe%20someone%22%20into%20buying%20it.|%20He%20also%20at%20times&src=bsky
     card: assets/cards/us-psi-financial-crisis/q-af4e7a80.png
     scheduled: 2026-10-28
+    posted_url: null
+  - id: challenger-accident:committee-found-nasa-s-drive:59aeec79
+    report: challenger-accident
+    paragraph: committee-found-nasa-s-drive
+    quote: The Committee found that NASA's drive to achieve a launch schedule of 24
+      flights per year created pressure throughout the agency that directly
+      contributed to unsafe launch operations.
+    hook: Challenger broke apart 73 seconds after launch in January 1986, killing
+      its 7 crew. NASA had flown 8 shuttle missions in fiscal 1985. Forty years
+      ago today a House committee reported on the schedule NASA was aiming for.
+    text: >-
+      Challenger broke apart 73 seconds after launch in January 1986, killing
+      its 7 crew. NASA had flown 8 shuttle missions in fiscal 1985. Forty years
+      ago today a House committee reported on the schedule NASA was aiming for.
+
+
+      — Challenger Accident Report (House Science Committee), p. 3
+    link: https://reportsthatmatter.org/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes&src=bsky
+    card: assets/cards/challenger-accident/q-7b861b87.png
+    scheduled: 2026-10-29
     posted_url: null
   - id: us-mueller-report:ira-later-used-social-media:ae66fa60
     report: us-mueller-report
@@ -95,28 +128,18 @@ items:
     quote: The IRA later used social media accounts and interest groups to sow
       discord in the U.S. political system through what it termed "information
       warfare."
+    hook: In mid-2014 the Internet Research Agency, based in St Petersburg, sent
+      employees to the US with instructions to obtain photos of vacant houses
+      and broken windows. The Mueller report describes what the agency did next.
     text: >-
-      “The IRA later used social media accounts and interest groups to sow
-      discord in the U.S. political system through what it termed ‘information
-      warfare.’”
+      In mid-2014 the Internet Research Agency, based in St Petersburg, sent
+      employees to the US with instructions to obtain photos of vacant houses
+      and broken windows. The Mueller report describes what the agency did next.
 
 
-      — Report on the Investigation into Russian Interference in the 2016
-      Presidential Election, p. 4
+      — Mueller Report, p. 4
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=ira-later-used-social-media&h=|The%20IRA%20later%20used%20social%20media%20accounts%20and%20interest%20groups%20to%20sow%20discord%20in%20the%20U.S.%20political%20system%20through%20what%20it%20termed%20%22information%20warfare.%22|%20The%20campaign%20evolved&src=bsky
     card: assets/cards/us-mueller-report/q-9c2db7b6.png
-    scheduled: 2026-10-29
-    posted_url: null
-  - id: uk-leveson-inquiry:legislative-proposal-does-no-more:6f4f7e41
-    report: uk-leveson-inquiry
-    paragraph: legislative-proposal-does-no-more
-    quote: This is not, and cannot be characterised as, regulation of the press.
-    text: |-
-      “This is not, and cannot be characterised as, regulation of the press.”
-
-      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 1781
-    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more&h=described%20are%20to%20be%20made%20use%20of.%20|This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|&src=bsky
-    card: assets/cards/uk-leveson-inquiry/q-8c18f02a.png
     scheduled: 2026-10-30
     posted_url: null
   - id: us-mueller-report:june-14-2017-media-reported:e8497ae0
@@ -125,14 +148,16 @@ items:
     quote: McGahn did not carry out the direction, however, deciding that he would
       resign rather than trigger what he regarded as a potential Saturday Night
       Massacre.
+    hook: On 17 June 2017 the President called his White House Counsel, Don McGahn,
+      at home and told him to have the Special Counsel removed. Volume II of the
+      Mueller report records what McGahn decided.
     text: >-
-      “McGahn did not carry out the direction, however, deciding that he would
-      resign rather than trigger what he regarded as a potential Saturday Night
-      Massacre.”
+      On 17 June 2017 the President called his White House Counsel, Don McGahn,
+      at home and told him to have the Special Counsel removed. Volume II of the
+      Mueller report records what McGahn decided.
 
 
-      — Report on the Investigation into Russian Interference in the 2016
-      Presidential Election, p. 4
+      — Mueller Report, p. 4
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=june-14-2017-media-reported&h=interest%20and%20must%20be%20removed.%20|McGahn%20did%20not%20carry%20out%20the%20direction%2C%20however%2C%20deciding%20that%20he%20would%20resign%20rather%20than%20trigger%20what%20he%20regarded%20as%20a%20potential%20Saturday%20Night%20Massacre.|&src=bsky
     card: assets/cards/us-mueller-report/q-a09979ab.png
     scheduled: 2026-10-31
@@ -141,10 +166,16 @@ items:
     report: us-v-philip-morris
     paragraph: we-believe-products-we-make
     quote: We believe the products we make are not injurious to health.
-    text: |-
-      “We believe the products we make are not injurious to health.”
+    hook: In December 1953, as studies linked smoking to lung cancer, tobacco
+      executives met at New York's Plaza Hotel. On 4 January 1954 their advert
+      ran in 448 newspapers. A federal judge reprinted it in full in 2006.
+    text: >-
+      In December 1953, as studies linked smoking to lung cancer, tobacco
+      executives met at New York's Plaza Hotel. On 4 January 1954 their advert
+      ran in 448 newspapers. A federal judge reprinted it in full in 2006.
 
-      — United States v. Philip Morris USA Inc.: Amended Final Opinion, p. 55
+
+      — United States v. Philip Morris (Kessler Opinion), p. 55
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=we-believe-products-we-make&h=|We%20believe%20the%20products%20we%20make%20are%20not%20injurious%20to%20health.|&src=bsky
     card: assets/cards/us-v-philip-morris/q-d5fb60ca.png
     scheduled: 2026-11-01
@@ -155,14 +186,16 @@ items:
     quote: "One analyst wrote: \"Rating agencies continue to create and [sic] even
       bigger monster – the CDO market. Let's hope we are all wealthy and retired
       by the time this house of cards falters.\""
+    hook: Analysts later found that over 90% of the AAA ratings on subprime mortgage
+      securities from 2006 and 2007 were cut to junk. In December 2006, analysts
+      at S&P were emailing each other about the CDO market.
     text: >-
-      “One analyst wrote: ‘Rating agencies continue to create and [sic] even
-      bigger monster – the CDO market. Let's hope we are all wealthy and retired
-      by the time this house of cards falters.’”
+      Analysts later found that over 90% of the AAA ratings on subprime mortgage
+      securities from 2006 and 2007 were cut to junk. In December 2006, analysts
+      at S&P were emailing each other about the CDO market.
 
 
-      — Wall Street and the Financial Crisis: Anatomy of a Financial Collapse,
-      p. 297
+      — Levin–Coburn Financial Crisis Report, p. 297
     link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=times-some-cra-analysts-openly&h=ability%20to%20rate%20the%20product.%20|One%20analyst%20wrote%3A%20%22Rating%20agencies%20continue%20to%20create%20and%20%5Bsic%5D%20even%20bigger%20monster%20%E2%80%93%20the%20CDO%20market.%20Let's%20hope%20we%20are%20all%20wealthy%20and%20retired%20by%20the%20time%20this%20house%20of%20cards%20falters.%22|%20In%20an%20email%20written%20in%20a&src=bsky
     card: assets/cards/us-psi-financial-crisis/q-a41b01a8.png
     scheduled: 2026-11-02
@@ -173,13 +206,16 @@ items:
     quote: Although the system as constituted in this manner unravelled, in
       spectacular fashion, in July 2011, the inherent weakness was there for all
       to see almost from the very start.
+    hook: For 20 years complaints about British newspapers went to the Press
+      Complaints Commission, funded by the industry, which each paper could join
+      or leave. In 2012 Lord Justice Leveson gave his judgement on it.
     text: >-
-      “Although the system as constituted in this manner unravelled, in
-      spectacular fashion, in July 2011, the inherent weakness was there for all
-      to see almost from the very start.”
+      For 20 years complaints about British newspapers went to the Press
+      Complaints Commission, funded by the industry, which each paper could join
+      or leave. In 2012 Lord Justice Leveson gave his judgement on it.
 
 
-      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 1515
+      — Leveson Report, p. 1515
     link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=1-2-follows-from-criticisms&h=industry%20has%20with%20the%20PCC.%20|Although%20the%20system%20as%20constituted%20in%20this%20manner%20unravelled%2C%20in%20spectacular%20fashion%2C%20in%20July%202011%2C%20the%20inherent%20weakness%20was%20there%20for%20all%20to%20see%20almost%20from%20the%20very%20start.|&src=bsky
     card: assets/cards/uk-leveson-inquiry/q-ba3f5072.png
     scheduled: 2026-11-03
@@ -190,13 +226,16 @@ items:
     quote: "\"Doubt is our product since it is the best means of competing with the
       'body of fact' that exists in the mind of the general public. It is also
       the means of establishing a controversy.\""
+    hook: In 1964 the US Surgeon General reported that smoking caused disease. The
+      cigarette makers argued otherwise for decades. Judge Gladys Kessler's 2006
+      ruling quotes an undated Brown & Williamson memo on why.
     text: >-
-      “‘Doubt is our product since it is the best means of competing with the
-      'body of fact' that exists in the mind of the general public. It is also
-      the means of establishing a controversy.’”
+      In 1964 the US Surgeon General reported that smoking caused disease. The
+      cigarette makers argued otherwise for decades. Judge Gladys Kessler's 2006
+      ruling quotes an undated Brown & Williamson memo on why.
 
 
-      — United States v. Philip Morris USA Inc.: Amended Final Opinion, p. 1537
+      — United States v. Philip Morris (Kessler Opinion), p. 1537
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents&h=Health%20Proposal%22%20explained%3A%20|%22Doubt%20is%20our%20product%20since%20it%20is%20the%20best%20means%20of%20competing%20with%20the%20'body%20of%20fact'%20that%20exists%20in%20the%20mind%20of%20the%20general%20public.%20It%20is%20also%20the%20means%20of%20establishing%20a%20controversy.%22|%20690010951-0959%20at%200959&src=bsky
     card: assets/cards/us-v-philip-morris/q-ba1309d6.png
     scheduled: 2026-11-04
@@ -207,13 +246,16 @@ items:
     quote: Suffice to say, bearing in mind my duty to consider the interests of the
       public, my view is that there would then be no alternative but to provide
       in legislation for a backstop regulator to apply and enforce a Code.
+    hook: Lord Justice Leveson wanted the British press to set up its own regulator,
+      recognised in law. In his 2012 report he also said what should happen if
+      the industry would not do it.
     text: >-
-      “Suffice to say, bearing in mind my duty to consider the interests of the
-      public, my view is that there would then be no alternative but to provide
-      in legislation for a backstop regulator to apply and enforce a Code.”
+      Lord Justice Leveson wanted the British press to set up its own regulator,
+      recognised in law. In his 2012 report he also said what should happen if
+      the industry would not do it.
 
 
-      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 1782
+      — Leveson Report, p. 1782
     link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=suffice-say-bearing-mind-my&h=|Suffice%20to%20say%2C%20bearing%20in%20mind%20my%20duty%20to%20consider%20the%20interests%20of%20the%20public%2C%20my%20view%20is%20that%20there%20would%20then%20be%20no%20alternative%20but%20to%20provide%20in%20legislation%20for%20a%20backstop%20regulator%20to%20apply%20and%20enforce%20a%20Code.|&src=bsky
     card: assets/cards/uk-leveson-inquiry/q-766adfa6.png
     scheduled: 2026-11-05
@@ -224,13 +266,18 @@ items:
     quote: In summary, NEADS received notice of the hijacking nine minutes before it
       struck the North Tower. That nine minutes' notice before impact was the
       most the military would receive of any of the four hijackings.
+    hook: On 11 September 2001, 2,973 people were killed. At 8:46, as American 11
+      hit the North Tower, fighters were scrambled from Otis Air Force Base;
+      controllers did not know where to send them. The 9/11 Commission timed the
+      military's warning.
     text: >-
-      “In summary, NEADS received notice of the hijacking nine minutes before it
-      struck the North Tower. That nine minutes' notice before impact was the
-      most the military would receive of any of the four hijackings.”
+      On 11 September 2001, 2,973 people were killed. At 8:46, as American 11
+      hit the North Tower, fighters were scrambled from Otis Air Force Base;
+      controllers did not know where to send them. The 9/11 Commission timed the
+      military's warning.
 
 
-      — The 9/11 Commission Report, p. 21
+      — 9/11 Commission Report, p. 21
     link: https://reportsthatmatter.org/reports/us-911-commission?p=summary-neads-received-notice-hijacking&h=|In%20summary%2C%20NEADS%20received%20notice%20of%20the%20hijacking%20nine%20minutes%20before%20it%20struck%20the%20North%20Tower.%20That%20nine%20minutes'%20notice%20before%20impact%20was%20the%20most%20the%20military%20would%20receive%20of%20any%20of%20the%20four%20hijackings.|121&src=bsky
     card: assets/cards/us-911-commission/q-09fa1d31.png
     scheduled: 2026-11-06
@@ -241,13 +288,16 @@ items:
     quote: '"Our basic position in the cigarette controversy is subject to the
       charge, and may be subject to a finding, that we are making false or
       misleading statements to promote the sale of cigarettes."'
+    hook: In April 1968 William Kloepfer, the Tobacco Institute's vice president for
+      public relations, warned its president that the industry's constant denial
+      of smoking's harm could not hold. The 2006 ruling quotes his reason.
     text: >-
-      “‘Our basic position in the cigarette controversy is subject to the
-      charge, and may be subject to a finding, that we are making false or
-      misleading statements to promote the sale of cigarettes.’”
+      In April 1968 William Kloepfer, the Tobacco Institute's vice president for
+      public relations, warned its president that the industry's constant denial
+      of smoking's harm could not hold. The 2006 ruling quotes his reason.
 
 
-      — United States v. Philip Morris USA Inc.: Amended Final Opinion, p. 1537
+      — United States v. Philip Morris (Kessler Opinion), p. 1537
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents&h=concern%20about%20the%20purpose%3A%20|%22Our%20basic%20position%20in%20the%20cigarette%20controversy%20is%20subject%20to%20the%20charge%2C%20and%20may%20be%20subject%20to%20a%20finding%2C%20that%20we%20are%20making%20false%20or%20misleading%20statements%20to%20promote%20the%20sale%20of%20cigarettes.%22|%20TIMN0072354-56%20at%202354&src=bsky
     card: assets/cards/us-v-philip-morris/q-b9a6e21f.png
     scheduled: 2026-11-07

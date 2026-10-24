@@ -16,8 +16,9 @@ Design: `docs/design/2026-10-03-report-preparation-pipeline.md` §2-3. The queue
 1. `pnpm prerender`, then `pnpm posts` (it writes `marketing/queue.yaml` and `build/posts-preview.html`). Read its output for this report: items added, skipped (and why), items on a default card. Read-only checks: `pnpm posts --verify --report <id>` (exit 1 if a plain run would change this report's items) and `pnpm posts --check` (a not-yet-posted item whose quote or id went stale).
 2. A skipped highlight goes back to stage 5 (replace it there; never trim a quote).
 3. Open `build/posts-preview.html` and read this report's items as a reader would.
-4. Commit `marketing/queue.yaml`. Scheduling is append-only and round-robin across reports; do not hand-move dates.
-5. **After any re-ingest of this report**: rerun `pnpm posts`; an unresolved not-yet-posted item is fixed before its scheduled date.
+4. Write each new item's `hook:` (the post text; the card carries the quote) with the **`post-writing`** skill, rerun `pnpm posts`, then `pnpm posts --check`.
+5. Commit `marketing/queue.yaml`. Scheduling is append-only and round-robin across reports; do not hand-move dates.
+6. **After any re-ingest of this report**: rerun `pnpm posts`; an unresolved not-yet-posted item is fixed before its scheduled date.
 
 ## Exit gate
 

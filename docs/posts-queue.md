@@ -45,6 +45,18 @@ Appendix C of [`docs/plans/2026-08-02-launch-and-seo.md`](plans/2026-08-02-launc
 — [Report title], p. [n]
 ```
 
+**With a hook** (Rufus, 24 Oct 2026: the first post repeated the quote already on its card and was "not at all compelling"). A person, following the `post-writing` skill, writes the item's `hook:` field in `marketing/queue.yaml`: one to three sentences of context ending on the gap the card fills. `pnpm posts` then builds `text` as
+
+```
+[hook]
+
+— [Report common name], p. [n]
+
+[context line, where the registry has one]
+```
+
+The quote is not repeated in the text: it is on the card image, which travels as the link card's thumbnail. The source line uses the registry's `common_name` (shorter than the title, so the hook has room) and stays in the `— Name, p. N` form the poster reads the link card's title and page from (`cardMeta`), so the deployed poster needs no change. `pnpm posts` never writes or clears a `hook`; it rebuilds `text` from it on every run. `--check` fails a hooked item whose post is over 300 graphemes or whose `text` was not rebuilt after the hook was edited (the poster posts `text`). A posted item's text is never rewritten. An item with no hook posts in the quote form above.
+
 `link` is the `?p=` deep link to the paragraph (with `?h=` to the exact words, where they're in the paragraph itself) plus `&src=bsky`, so Cloudflare analytics and Search Console can be read by channel later.
 
 ## Scheduling and idempotency
