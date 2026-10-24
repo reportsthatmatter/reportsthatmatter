@@ -1786,3 +1786,131 @@ html.passage-landing body {
 .draft-banner ul {
   margin: 0 0 0.5rem;
 }
+
+/* ---------- newsletter signup (decision 0033) ---------- */
+
+.signup {
+  padding-block: clamp(2.5rem, 6vw, 4.5rem);
+  border-top: 1px solid var(--rule);
+}
+
+.signup .section-label {
+  margin-bottom: 1.25rem;
+}
+
+.signup-title {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  line-height: 1.15;
+  color: var(--ink);
+  margin: 0 0 0.75rem;
+}
+
+.signup-pitch {
+  margin: 0 0 1.25rem;
+  color: var(--body);
+}
+
+.signup-form {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 30rem;
+}
+
+.signup-form input[type="email"] {
+  flex: 1;
+  min-width: 12rem;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 0;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.signup-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--ink);
+}
+
+.signup-form input[type="email"]:focus-visible,
+.signup-form button:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.signup-form button {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.6rem 1.1rem;
+  min-height: 44px;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  background: var(--ink);
+  color: var(--canvas);
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  opacity: 0.8;
+}
+
+.signup-form button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+/* The honeypot: off-screen for people, still in the form for bots that fill every field. */
+.signup-trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.signup-status:empty {
+  display: none;
+}
+
+.signup-status,
+.signup-notice {
+  margin: 0.9rem 0 0;
+  color: var(--ink);
+}
+
+.signup-status-error,
+.signup-notice-error {
+  color: #9b2c2c;
+}
+
+.signup-privacy {
+  margin: 0.9rem 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--muted);
+  max-width: 34rem;
+}
+
+.signup-privacy a {
+  color: inherit;
+}
+
+/* On /newsletter the form sits inside the page's own prose column. */
+.signup-bare {
+  padding-block: 0.5rem 1.5rem;
+  border-top: 0;
+}
+
+.prose .signup-privacy,
+.prose .signup-status {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}

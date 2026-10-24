@@ -1,7 +1,17 @@
 import { renderMarkdown } from "@rtm/ingest";
 import { renderLayout, escapeHtml } from "./layout";
 import { SITE_ORIGIN } from "./site";
-import type { Post } from "../lib/blog";
+import { cardTitle, type Post } from "../lib/blog";
+import { CARDS } from "../generated/cards";
+import { renderSignup, SIGNUP_SCRIPT, NEWSLETTER_PATH } from "./newsletter";
+
+/** A post's own share card (`pnpm cards`: assets/cards/blog/<slug>.png), or none yet: the site card stands in. */
+export function postCard(post: Post): string | undefined {
+  return CARDS.has(`blog/${post.slug}`) ? `${SITE_ORIGIN}/assets/cards/blog/${post.slug}.png` : undefined;
+}
+
+/** "Newsletter No. 1 · " before an issue's date; nothing for another post. */
+const issueLabel = (post: Post) => (post.issue !== undefined ? `<a href="${NEWSLETTER_PATH}">Newsletter No. ${post.issue}</a> · ` : "");
 
 const FEED_PATH = "/blog/feed.xml";
 const FEED = { href: FEED_PATH, title: "Reports that Matter — Blog" };
@@ -25,7 +35,7 @@ export function renderBlogIndex(posts: Post[], preview: boolean): string {
     .map(
       (post) => `
     <li class="post-item">
-      <p class="post-meta mono">${formatDate(post.date)}${post.status === "draft" ? ' · <span class="post-draft">Draft</span>' : ""}</p>
+      <p class="post-meta mono">${issueLabel(post)}${formatDate(post.date)}${post.status === "draft" ? ' · <span class="post-draft">Draft</span>' : ""}</p>
       <h2><a href="${postHref(post, preview)}">${escapeHtml(post.title)}</a></h2>
       <p class="post-summary">${escapeHtml(post.summary)}</p>
     </li>`
@@ -38,7 +48,7 @@ export function renderBlogIndex(posts: Post[], preview: boolean): string {
     <div class="measure">
       <p class="kicker mono">Blog</p>
       <h1>Notes on the work.</h1>
-      <p class="byline mono">Methods, sourcing and data wrangling · <a href="${FEED_PATH}">Atom feed</a> · <a href="/changelog">Changelog</a></p>
+      <p class="byline mono">Methods, sourcing, news and the monthly <a href="${NEWSLETTER_PATH}">newsletter</a> · <a href="${FEED_PATH}">Atom feed</a> · <a href="/changelog">Changelog</a></p>
     </div>
   </section>
   <div class="prose wrap measure">
@@ -48,12 +58,14 @@ export function renderBlogIndex(posts: Post[], preview: boolean): string {
         : "<p>No posts yet. What has changed, in brief, is in the <a href=\"/changelog\">changelog</a>.</p>"
     }
   </div>
+  ${renderSignup("blog")}
 </main>`;
 
   return renderLayout("Blog — Reports that Matter", body, {
     description:
-      "Long-form notes from Reports that Matter on methods, sourcing and the data wrangling behind readable, citable public reports.",
+      "Notes from Reports that Matter: methods, sourcing and the data wrangling behind readable, citable public reports, and the monthly newsletter from the archives.",
     feed: FEED,
+    scripts: [SIGNUP_SCRIPT],
     url: `${SITE_ORIGIN}/blog`,
     noindex: preview && posts.some((post) => post.status === "draft"),
   });
@@ -80,7 +92,7 @@ export function renderPostPage(post: Post): string {
     <div class="measure">
       <p class="kicker mono"><a href="/blog">Blog</a></p>
       <h1>${escapeHtml(post.title)}</h1>
-      <p class="byline mono">${escapeHtml(post.author)} · <time datetime="${post.date}">${formatDate(post.date)}</time></p>
+      <p class="byline mono">${issueLabel(post)}${escapeHtml(post.author)} · <time datetime="${post.date}">${formatDate(post.date)}</time></p>
     </div>
   </section>
   <div class="prose wrap measure">
@@ -88,6 +100,7 @@ export function renderPostPage(post: Post): string {
     ${renderMarkdown(post.body)}
   </div>
   </article>
+  ${renderSignup(`post:${post.slug}`)}
 </main>`;
 
   return renderLayout(`${post.title} — Reports that Matter`, body, {
@@ -97,6 +110,9 @@ export function renderPostPage(post: Post): string {
     publishedTime: post.date,
     feed: FEED,
     noindex: draft,
+    image: postCard(post),
+    imageAlt: postCard(post) ? cardTitle(post) : undefined,
+    scripts: [SIGNUP_SCRIPT],
   });
 }
 
@@ -125,7 +141,7 @@ export function renderAtomFeed(posts: Post[]): string {
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>${SITE_ORIGIN}/blog</id>
   <title>${xml(FEED.title)}</title>
-  <subtitle>Methods, sourcing and data wrangling</subtitle>
+  <subtitle>Methods, sourcing, news, and the monthly newsletter from the archives</subtitle>
   <link rel="self" type="application/atom+xml" href="${SITE_ORIGIN}${FEED_PATH}" />
   <link rel="alternate" type="text/html" href="${SITE_ORIGIN}/blog" />
   <updated>${updated}T00:00:00Z</updated>

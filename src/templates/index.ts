@@ -3,6 +3,7 @@ import { renderLayout, escapeHtml } from "./layout";
 import { SITE_HEADLINE, SITE_STANDFIRST, SITE_ORIGIN } from "./site";
 import { siteJsonLd } from "../lib/structured-data";
 import { MARKS } from "../generated/marks";
+import { renderSignup, SIGNUP_SCRIPT } from "./newsletter";
 
 /** The archive row's mark slot, in CSS px. Plates of any proportion fit
  * inside it, so ten of them line up on one axis (issue #99). */
@@ -93,9 +94,10 @@ export function renderIndex(registry: ReportRegistry): string {
     <p class="section-label mono">The archive</p>
     ${renderReportList(registry)}
   </section>
+  ${renderSignup("home")}
 </main>`;
 
-  return renderLayout("Reports that Matter", body, { url: `${SITE_ORIGIN}/`, structuredData: siteJsonLd() });
+  return renderLayout("Reports that Matter", body, { url: `${SITE_ORIGIN}/`, structuredData: siteJsonLd(), scripts: [SIGNUP_SCRIPT] });
 }
 
 export function renderReportsIndex(registry: ReportRegistry): string {

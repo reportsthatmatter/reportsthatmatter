@@ -7,6 +7,7 @@ import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-dat
 import { reportTitle, sectionTitle } from "../lib/titles";
 import { renderHero, renderLanding, renderOurNote, renderStandfirst, showsEditorial } from "./editorial";
 import type { Editorial } from "../lib/editorial";
+import { renderSignup, SIGNUP_SCRIPT } from "./newsletter";
 
 /** What the page shell needs of a section — not its html. */
 type SectionRef = Pick<Section, "slug" | "title">;
@@ -155,6 +156,7 @@ export function renderReportOverview(
       editorial ? "" : renderMostMarked(topMarked)
     }
   </article>
+  ${renderSignup(`report:${meta.id ?? ""}`)}
 </main>
 <script src="/assets/find-anchor.js" defer></script>`;
 
@@ -171,6 +173,7 @@ export function renderReportOverview(
     imageAlt: meta.title,
     url: `${SITE_ORIGIN}/reports/${meta.id ?? ""}`,
     follow: true,
+    scripts: [SIGNUP_SCRIPT],
     extraMeta: citationMeta(meta),
     structuredData: reportJsonLd(meta, description),
     // A draft shown for review must not be what a search engine keeps.
@@ -238,6 +241,7 @@ export function renderSection(
       ${next ? `<a class="next" href="${escapeHtml(reportPath)}/${escapeHtml(next.slug)}">${escapeHtml(next.title)} →</a>` : "<span></span>"}
     </nav>
   </article>
+  ${renderSignup(`report:${meta.id ?? ""}`, { compact: true })}
 </main>
 <div class="share-pop" id="share-pop" role="dialog" aria-label="Share selection">
   <button type="button" data-action="share" hidden>Share</button>
@@ -248,7 +252,7 @@ export function renderSection(
 
   return renderLayout(title, body, {
     description,
-    scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js"],
+    scripts: ["/assets/share.js", "/assets/highlight.js", "/assets/social-proof.js", SIGNUP_SCRIPT],
     image,
     imageAlt: preview.imageAlt,
     url: preview.url,

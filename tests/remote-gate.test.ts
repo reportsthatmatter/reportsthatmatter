@@ -35,6 +35,14 @@ describe("pnpm feed", () => {
   });
 });
 
+describe("pnpm subscribers", () => {
+  gateCases({
+    script: "scripts/subscribers.mjs",
+    base: ["count"],
+    refuses: [["count", "--remote"], ["export", "--remote"], ["remove", "reader@example.org", "--remote"]],
+  });
+});
+
 describe("pnpm seed-highlights", () => {
   gateCases({ script: "scripts/seed-highlights.mjs", base: ["--dry-run"], refuses: [["--remote"], ["--remote", "--dry-run"], ["--remote", "--report", REPORT]] });
 });

@@ -2,7 +2,9 @@ import { Hono } from "hono";
 import { resolveParagraph, resolveSection } from "./lib/aliases";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog, loadPostFiles } from "./lib/source";
-import { parsePosts, visiblePosts, findPost, isPublished } from "./lib/blog";
+import { parsePosts, visiblePosts, findPost, isPublished, publishedIssues } from "./lib/blog";
+import { parseSubscription, recordSubscription, isSameSite, MAX_BODY_BYTES } from "./lib/subscribe";
+import { renderNewsletterPage, signupMessage, type SignupOutcome } from "./templates/newsletter";
 import { renderBlogIndex, renderPostPage, renderAtomFeed } from "./templates/blog";
 import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
@@ -399,6 +401,7 @@ app.get("/sitemap.xml", async (c) => {
     { loc: "/press", priority: "0.3" },
     { loc: "/changelog", priority: "0.4" },
     { loc: "/blog", priority: "0.5" },
+    { loc: "/newsletter", priority: "0.4" },
   ];
   // Drafts are never in the sitemap.
   for (const post of parsePosts(await loadPostFiles(sourceMode)).filter(isPublished)) {
@@ -469,6 +472,42 @@ app.get("/blog/:slug", async (c) => {
   const post = findPost(parsePosts(await loadPostFiles(sourceMode)), c.req.param("slug"), preview);
   if (!post) return c.html(renderNotFound(false), 404);
   return c.html(renderPostPage(post));
+});
+
+// The newsletter (decision 0033): /newsletter, and the one endpoint every signup form posts to.
+app.get("/newsletter", async (c) => {
+  const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
+  const issues = publishedIssues(parsePosts(await loadPostFiles(sourceMode)));
+  const outcome = c.req.query("subscribed") !== undefined ? "subscribed" : (c.req.query("error") as SignupOutcome);
+  const known: SignupOutcome[] = ["subscribed", "invalid", "unavailable"];
+  return c.html(renderNewsletterPage(issues, known.includes(outcome) ? outcome : undefined));
+});
+
+/**
+ * A signup. A plain form post (no script) is answered with a 303 back to /newsletter saying what happened;
+ * /assets/signup.js asks for JSON and shows the same words in place. One row write for a new address, none
+ * for a repeat or a honeypot hit (which is told "subscribed" like anyone else).
+ */
+app.post("/api/subscribe", async (c) => {
+  const wantsJson = (c.req.header("accept") ?? "").includes("application/json");
+  if (!isSameSite(c.req.url, c.req.header("origin"), c.req.header("sec-fetch-site"))) return c.text("Forbidden", 403);
+  if (Number(c.req.header("content-length") ?? 0) > MAX_BODY_BYTES) return c.text("Payload too large", 413);
+  let body: Record<string, unknown> = {};
+  try {
+    body = (c.req.header("content-type") ?? "").includes("application/json")
+      ? ((await c.req.json()) as Record<string, unknown>)
+      : ((await c.req.parseBody()) as Record<string, unknown>);
+  } catch {
+    body = {};
+  }
+
+  const sub = parseSubscription(body ?? {});
+  const result = !sub ? "invalid" : sub.spam ? "ok" : await recordSubscription(c.env?.DB, sub, Date.now());
+  const outcome = result === "ok" ? "subscribed" : result;
+  const status = result === "ok" ? 200 : result === "invalid" ? 400 : 503;
+
+  if (wantsJson) return c.json({ ok: result === "ok", message: signupMessage(outcome) }, status);
+  return c.redirect(result === "ok" ? "/newsletter?subscribed" : `/newsletter?error=${result}`, 303);
 });
 
 /**
