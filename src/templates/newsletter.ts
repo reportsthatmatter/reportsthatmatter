@@ -18,7 +18,7 @@ export const SIGNUP_PRIVACY =
   "We keep your address and where you signed up, nothing else, and use it only for this newsletter. Before the first issue you get one email asking you to confirm; every issue has an unsubscribe link.";
 
 export const NEWSLETTER_PITCH =
-  "Once a month, a few passages from the archive worth reading again, sometimes tied to the date or the news, each linked to its place in the report.";
+  "A few passages worth reading again, sometimes tied to the date or the news, each linked to its place in the report.";
 
 /**
  * The signup block. `source` says where it is ("home", "blog", "post:<slug>", "report:<id>", "newsletter"), so
@@ -31,8 +31,15 @@ export function renderSignup(source: string, options: { compact?: boolean } = {}
   <div class="measure">
     <p class="section-label mono" id="signup-heading">Newsletter · From the archives</p>
     ${options.compact ? "" : `<h2 class="signup-title">One email a month from the archive.</h2>`}
-    <p class="signup-pitch">${escapeHtml(NEWSLETTER_PITCH)}</p>
-    <form class="signup-form" method="post" action="/api/subscribe" data-signup>
+    <p class="signup-pitch">${escapeHtml(options.compact ? `Once a month: ${NEWSLETTER_PITCH.charAt(0).toLowerCase()}${NEWSLETTER_PITCH.slice(1)}` : NEWSLETTER_PITCH)}</p>
+    ${signupForm(source)}
+  </div>
+</section>`;
+}
+
+/** The form, the answer line under it and the privacy line, without the block around them. */
+function signupForm(source: string): string {
+  return `<form class="signup-form" method="post" action="/api/subscribe" data-signup>
       <input type="hidden" name="source" value="${escapeHtml(source)}" />
       <label class="visually-hidden" for="signup-email">Email address</label>
       <input type="email" id="signup-email" name="email" required autocomplete="email" maxlength="254" placeholder="you@example.org" />
@@ -40,15 +47,13 @@ export function renderSignup(source: string, options: { compact?: boolean } = {}
       <button type="submit">Subscribe</button>
     </form>
     <p class="signup-status" role="status" aria-live="polite"></p>
-    <p class="signup-privacy">${escapeHtml(SIGNUP_PRIVACY)} <a href="${NEWSLETTER_PATH}#privacy">More</a></p>
-  </div>
-</section>`;
+    <p class="signup-privacy">${escapeHtml(SIGNUP_PRIVACY)} <a href="${NEWSLETTER_PATH}#privacy">More</a></p>`;
 }
 
 export type SignupOutcome = "subscribed" | "invalid" | "unavailable" | undefined;
 
 const OUTCOME_TEXT: Record<Exclude<SignupOutcome, undefined>, string> = {
-  subscribed: "Thank you: you are on the list. Before the first issue you will get one email asking you to confirm.",
+  subscribed: "Thank you: you are on the list. Look out for one email asking you to confirm, before the first issue.",
   invalid: "That does not look like an email address. Please check it and try again.",
   unavailable: "Sorry, we could not save that just now. Please try again in a few minutes.",
 };
@@ -86,26 +91,18 @@ export function renderNewsletterPage(issues: Post[], outcome?: SignupOutcome): s
   </section>
   <div class="prose wrap measure">
     ${notice}
-    <p>${escapeHtml(NEWSLETTER_PITCH)} No commentary in place of the source: we quote the report and point into it, so you can read the passage in context and cite it by its own link.</p>
-  </div>
-  ${renderSignup("newsletter", { compact: true })}
-  <section class="section wrap" aria-labelledby="issues-heading">
-    <div class="measure">
-      <p class="section-label mono" id="issues-heading">Past issues</p>
-      ${past}
-    </div>
-  </section>
-  <section class="section wrap" id="privacy" aria-labelledby="privacy-heading">
-    <div class="prose measure">
-      <p class="section-label mono" id="privacy-heading">Your address</p>
-      <p>When you subscribe we keep your email address, the time, and which page the form was on. We do not keep your
-      network address or browser, and we do not use your address for anything but this newsletter. We will never sell or share it.</p>
+    <p>Once a month: ${escapeHtml(NEWSLETTER_PITCH.charAt(0).toLowerCase() + NEWSLETTER_PITCH.slice(1))} No commentary in place of the source: we quote the report and point into it, so you can read the passage in context and cite it by its own link.</p>
+    <div class="signup signup-bare">${signupForm("newsletter")}</div>
+    <h2 id="issues">Past issues</h2>
+    ${past}
+    <h2 id="privacy">Your address</h2>
+    <p>When you subscribe we keep your email address, the time, and which page the form was on. We do not keep your
+      network address or browser, and we do not use your address for anything but this newsletter. We will never sell it, or give it to anyone but the mailing service that sends the newsletter.</p>
       <p>The list is held on the same Cloudflare database as the rest of the site until we send the first issue. The
       newsletter will then be sent by a mailing service, which emails you once to ask you to confirm before you
       receive anything; if you do not confirm, your address is deleted. Every issue has an unsubscribe link.</p>
-      <p>To be removed at any time, or to ask what we hold, write to <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
-    </div>
-  </section>
+    <p>To be removed at any time, or to ask what we hold, write to <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
+  </div>
 </main>`;
 
   return renderLayout("Newsletter — Reports that Matter", body, {

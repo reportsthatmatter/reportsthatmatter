@@ -169,9 +169,9 @@ All content should be batch‑generated and scheduled in advance.
 
 ### Email list role
 
-* Notification channel, not a newsletter.
-* Low frequency.
-* Clear value proposition: alerts when new important reports are surfaced.
+* A monthly newsletter, "From the archives" (Rufus, 2026-10-24; decision 0033 supersedes "notification channel, not a newsletter").
+* Low frequency: one issue a month, a few verbatim passages with neutral context, each linked into its report, sometimes tied to the date or the news. New reports are announced in it.
+* Every issue is also a blog post (`content/posts/` with `issue: N`).
 
 Retention is intentionally lightweight at this stage.
 

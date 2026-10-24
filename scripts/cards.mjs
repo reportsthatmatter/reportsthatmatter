@@ -319,7 +319,7 @@ if (!(argReport && argParagraph) && !highlightsOnly) {
     const html = renderDefaultCard({
       title: cardTitle(post),
       // No date: a post's date changes when it is published, and a card should not need re-rendering for that.
-      subtitle: post.issue !== undefined ? `Newsletter · From the archives · No. ${post.issue}` : "Blog · Notes on the work",
+      subtitle: post.issue !== undefined ? `From the archives · Newsletter No. ${post.issue}` : "Blog · Notes on the work",
     });
     await page.setContent(html, { waitUntil: "networkidle" });
     await page.waitForTimeout(250);

@@ -99,8 +99,15 @@ export function publishedIssues(posts: Post[]): Post[] {
   return posts.filter((post) => isPublished(post) && post.issue !== undefined);
 }
 
-/** The words a post's share card carries: the title up to its first colon, so a long title still fits a card. */
+/**
+ * The words a post's share card carries: the title up to its first colon, so a long title still fits a card. A
+ * newsletter issue ("From the archives, No. 1: the warnings were on the record") takes the part after the colon
+ * instead: the card's subtitle already names the issue.
+ */
 export function cardTitle(post: Post): string {
   const colon = post.title.indexOf(": ");
-  return colon > 12 ? post.title.slice(0, colon) : post.title;
+  if (colon <= 12) return post.title;
+  if (post.issue === undefined) return post.title.slice(0, colon);
+  const rest = post.title.slice(colon + 2);
+  return rest.charAt(0).toUpperCase() + rest.slice(1);
 }

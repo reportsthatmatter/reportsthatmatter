@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-24 — A monthly newsletter, and blog posts that share well
+
+You can now sign up for a monthly email from the archive: a few passages worth reading again, sometimes tied to the date or the news, each linked to its place in the report. The form is at the end of the homepage, every report's contents and sections, and the [blog](/blog); [the newsletter page](/newsletter) says exactly what we keep (your address, the time and which page you signed up on) and that you will be asked to confirm before the first issue. Every issue will also be a blog post. Blog posts now carry their own share card instead of the site's.
+
+---
+
 ## 2026-10-17 — You can now email us
 
 [About](/about#contact) now leads with contact@reportsthatmatter.org for corrections, removal requests and questions; the GitHub issue form is still there.

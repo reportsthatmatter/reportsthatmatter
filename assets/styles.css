@@ -1895,3 +1895,16 @@ html.passage-landing body {
 .signup-privacy a {
   color: inherit;
 }
+
+/* On /newsletter the form sits inside the page's own prose column. */
+.signup-bare {
+  padding-block: 0.5rem 1.5rem;
+  border-top: 0;
+}
+
+.prose .signup-privacy,
+.prose .signup-status {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
