@@ -82,6 +82,27 @@ items:
     card: assets/cards/us-mueller-report/q-fd5a5b56.png
     scheduled: 2026-10-27
     posted_url: null
+  - id: us-ica-2017-russia-elections:high-confidence-generally-indicates-judgments:ac3746f2
+    report: us-ica-2017-russia-elections
+    paragraph: high-confidence-generally-indicates-judgments
+    quote: High confidence in a judgment does not imply that the assessment is a
+      fact or a certainty; such judgments might be wrong.
+    hook: On 6 January 2017 the US intelligence community published a declassified
+      version of a classified assessment of Russian activities in recent US
+      elections. Its last annex defines what its confidence levels mean, and
+      what they do not.
+    text: >-
+      On 6 January 2017 the US intelligence community published a declassified
+      version of a classified assessment of Russian activities in recent US
+      elections. Its last annex defines what its confidence levels mean, and
+      what they do not.
+
+
+      — 2017 Intelligence Community Assessment, p. 13
+    link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=high-confidence-generally-indicates-judgments&h=information%20from%20multiple%20sources.%20|High%20confidence%20in%20a%20judgment%20does%20not%20imply%20that%20the%20assessment%20is%20a%20fact%20or%20a%20certainty%3B%20such%20judgments%20might%20be%20wrong.|&src=bsky
+    card: assets/cards/us-ica-2017-russia-elections/q-21d254b4.png
+    scheduled: 2026-10-28
+    posted_url: null
   - id: us-psi-financial-crisis:one-point-lippmann-asked-buy:9b909e46
     report: us-psi-financial-crisis
     paragraph: one-point-lippmann-asked-buy
@@ -100,7 +121,7 @@ items:
       — Levin–Coburn Financial Crisis Report, p. 330
     link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=one-point-lippmann-asked-buy&h=|At%20one%20point%2C%20Mr.%20Lippmann%20was%20asked%20to%20buy%20a%20specific%20CDO%20security%20and%20responded%20that%20it%20%22rarely%20trades%2C%22%20but%20he%20%22would%20take%20it%20and%20try%20to%20dupe%20someone%22%20into%20buying%20it.|%20He%20also%20at%20times&src=bsky
     card: assets/cards/us-psi-financial-crisis/q-af4e7a80.png
-    scheduled: 2026-10-28
+    scheduled: 2026-10-29
     posted_url: null
   - id: challenger-accident:committee-found-nasa-s-drive:59aeec79
     report: challenger-accident
@@ -120,7 +141,7 @@ items:
       — Challenger Accident Report (House Science Committee), p. 3
     link: https://reportsthatmatter.org/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes&src=bsky
     card: assets/cards/challenger-accident/q-7b861b87.png
-    scheduled: 2026-10-29
+    scheduled: 2026-10-30
     posted_url: null
   - id: us-mueller-report:ira-later-used-social-media:ae66fa60
     report: us-mueller-report
@@ -140,7 +161,7 @@ items:
       — Mueller Report, p. 4
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=ira-later-used-social-media&h=|The%20IRA%20later%20used%20social%20media%20accounts%20and%20interest%20groups%20to%20sow%20discord%20in%20the%20U.S.%20political%20system%20through%20what%20it%20termed%20%22information%20warfare.%22|%20The%20campaign%20evolved&src=bsky
     card: assets/cards/us-mueller-report/q-9c2db7b6.png
-    scheduled: 2026-10-30
+    scheduled: 2026-10-31
     posted_url: null
   - id: us-mueller-report:june-14-2017-media-reported:e8497ae0
     report: us-mueller-report
@@ -160,7 +181,7 @@ items:
       — Mueller Report, p. 4
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=june-14-2017-media-reported&h=interest%20and%20must%20be%20removed.%20|McGahn%20did%20not%20carry%20out%20the%20direction%2C%20however%2C%20deciding%20that%20he%20would%20resign%20rather%20than%20trigger%20what%20he%20regarded%20as%20a%20potential%20Saturday%20Night%20Massacre.|&src=bsky
     card: assets/cards/us-mueller-report/q-a09979ab.png
-    scheduled: 2026-10-31
+    scheduled: 2026-11-01
     posted_url: null
   - id: us-v-philip-morris:we-believe-products-we-make:306ad3c1
     report: us-v-philip-morris
@@ -178,7 +199,7 @@ items:
       — United States v. Philip Morris (Kessler Opinion), p. 55
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=we-believe-products-we-make&h=|We%20believe%20the%20products%20we%20make%20are%20not%20injurious%20to%20health.|&src=bsky
     card: assets/cards/us-v-philip-morris/q-d5fb60ca.png
-    scheduled: 2026-11-01
+    scheduled: 2026-11-02
     posted_url: null
   - id: us-psi-financial-crisis:times-some-cra-analysts-openly:d556d9d7
     report: us-psi-financial-crisis
@@ -198,7 +219,7 @@ items:
       — Levin–Coburn Financial Crisis Report, p. 297
     link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=times-some-cra-analysts-openly&h=ability%20to%20rate%20the%20product.%20|One%20analyst%20wrote%3A%20%22Rating%20agencies%20continue%20to%20create%20and%20%5Bsic%5D%20even%20bigger%20monster%20%E2%80%93%20the%20CDO%20market.%20Let's%20hope%20we%20are%20all%20wealthy%20and%20retired%20by%20the%20time%20this%20house%20of%20cards%20falters.%22|%20In%20an%20email%20written%20in%20a&src=bsky
     card: assets/cards/us-psi-financial-crisis/q-a41b01a8.png
-    scheduled: 2026-11-02
+    scheduled: 2026-11-03
     posted_url: null
   - id: uk-leveson-inquiry:1-2-follows-from-criticisms:91283f15
     report: uk-leveson-inquiry
@@ -218,7 +239,7 @@ items:
       — Leveson Report, p. 1515
     link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=1-2-follows-from-criticisms&h=industry%20has%20with%20the%20PCC.%20|Although%20the%20system%20as%20constituted%20in%20this%20manner%20unravelled%2C%20in%20spectacular%20fashion%2C%20in%20July%202011%2C%20the%20inherent%20weakness%20was%20there%20for%20all%20to%20see%20almost%20from%20the%20very%20start.|&src=bsky
     card: assets/cards/uk-leveson-inquiry/q-ba3f5072.png
-    scheduled: 2026-11-03
+    scheduled: 2026-11-04
     posted_url: null
   - id: us-v-philip-morris:paramount-significance-defendants-internal-documents:ef5dcf30
     report: us-v-philip-morris
@@ -238,7 +259,7 @@ items:
       — United States v. Philip Morris (Kessler Opinion), p. 1537
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents&h=Health%20Proposal%22%20explained%3A%20|%22Doubt%20is%20our%20product%20since%20it%20is%20the%20best%20means%20of%20competing%20with%20the%20'body%20of%20fact'%20that%20exists%20in%20the%20mind%20of%20the%20general%20public.%20It%20is%20also%20the%20means%20of%20establishing%20a%20controversy.%22|%20690010951-0959%20at%200959&src=bsky
     card: assets/cards/us-v-philip-morris/q-ba1309d6.png
-    scheduled: 2026-11-04
+    scheduled: 2026-11-05
     posted_url: null
   - id: uk-leveson-inquiry:suffice-say-bearing-mind-my:16ecb582
     report: uk-leveson-inquiry
@@ -258,7 +279,7 @@ items:
       — Leveson Report, p. 1782
     link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=suffice-say-bearing-mind-my&h=|Suffice%20to%20say%2C%20bearing%20in%20mind%20my%20duty%20to%20consider%20the%20interests%20of%20the%20public%2C%20my%20view%20is%20that%20there%20would%20then%20be%20no%20alternative%20but%20to%20provide%20in%20legislation%20for%20a%20backstop%20regulator%20to%20apply%20and%20enforce%20a%20Code.|&src=bsky
     card: assets/cards/uk-leveson-inquiry/q-766adfa6.png
-    scheduled: 2026-11-05
+    scheduled: 2026-11-06
     posted_url: null
   - id: us-911-commission:summary-neads-received-notice-hijacking:91036b07
     report: us-911-commission
@@ -280,7 +301,7 @@ items:
       — 9/11 Commission Report, p. 21
     link: https://reportsthatmatter.org/reports/us-911-commission?p=summary-neads-received-notice-hijacking&h=|In%20summary%2C%20NEADS%20received%20notice%20of%20the%20hijacking%20nine%20minutes%20before%20it%20struck%20the%20North%20Tower.%20That%20nine%20minutes'%20notice%20before%20impact%20was%20the%20most%20the%20military%20would%20receive%20of%20any%20of%20the%20four%20hijackings.|121&src=bsky
     card: assets/cards/us-911-commission/q-09fa1d31.png
-    scheduled: 2026-11-06
+    scheduled: 2026-11-07
     posted_url: null
   - id: us-v-philip-morris:paramount-significance-defendants-internal-documents:3f90176c
     report: us-v-philip-morris
@@ -300,7 +321,7 @@ items:
       — United States v. Philip Morris (Kessler Opinion), p. 1537
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents&h=concern%20about%20the%20purpose%3A%20|%22Our%20basic%20position%20in%20the%20cigarette%20controversy%20is%20subject%20to%20the%20charge%2C%20and%20may%20be%20subject%20to%20a%20finding%2C%20that%20we%20are%20making%20false%20or%20misleading%20statements%20to%20promote%20the%20sale%20of%20cigarettes.%22|%20TIMN0072354-56%20at%202354&src=bsky
     card: assets/cards/us-v-philip-morris/q-b9a6e21f.png
-    scheduled: 2026-11-07
+    scheduled: 2026-11-08
     posted_url: null
   - id: us-deepwater-horizon:frequency-unannounced-inspections-plummeted-although:3f73441b
     report: us-deepwater-horizon
@@ -316,7 +337,7 @@ items:
       p. 75
     link: https://reportsthatmatter.org/reports/us-deepwater-horizon?p=frequency-unannounced-inspections-plummeted-although&h=deepwater%20drilling%20rigs.%20|Precisely%20when%20the%20need%20for%20regulatory%20oversight%20intensified%2C%20the%20government's%20capacity%20for%20oversight%20diminished.|&src=bsky
     card: assets/cards/us-deepwater-horizon/q-09509400.png
-    scheduled: 2026-11-08
+    scheduled: 2026-11-09
     posted_url: null
   - id: us-v-philip-morris:smoking-cause-significant-disease-death:d5cb0766
     report: us-v-philip-morris
@@ -331,7 +352,7 @@ items:
       — United States v. Philip Morris USA Inc.: Amended Final Opinion, p. 1535
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=smoking-cause-significant-disease-death&h=smokers%20and%20former%20smokers.%20|Cigarette%20smoking%20and%20exposure%20to%20secondhand%20smoke%20kills%20440%2C000%20Americans%20every%20year%2C%20or%20more%20than%201%2C200%20every%20single%20day.|%20The%20annual%20number%20of&src=bsky
     card: assets/cards/us-v-philip-morris/q-db40b6b3.png
-    scheduled: 2026-11-09
+    scheduled: 2026-11-10
     posted_url: null
   - id: us-v-philip-morris:seven-year-history-extraordinarily-complex-case:36ba2d5d
     report: us-v-philip-morris
@@ -350,7 +371,7 @@ items:
       — United States v. Philip Morris USA Inc.: Amended Final Opinion, p. 33
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=seven-year-history-extraordinarily-complex-case&h=or%20cessation%20of%20smoking.%20|In%20short%2C%20Defendants%20have%20marketed%20and%20sold%20their%20lethal%20product%20with%20zeal%2C%20with%20deception%2C%20with%20a%20single-minded%20focus%20on%20their%20financial%20success%2C%20and%20without%20regard%20for%20the%20human%20tragedy%20or%20social%20costs%20that%20success%20exacted.|&src=bsky
     card: assets/cards/us-v-philip-morris/q-c5f5521d.png
-    scheduled: 2026-11-10
+    scheduled: 2026-11-11
     posted_url: null
   - id: us-911-commission:we-believe-9-11-attacks:2c3ff7aa
     report: us-911-commission
@@ -365,7 +386,7 @@ items:
       — The 9/11 Commission Report, p. 339
     link: https://reportsthatmatter.org/reports/us-911-commission?p=we-believe-9-11-attacks&h=|We%20believe%20the%209%2F11%20attacks%20revealed%20four%20kinds%20of%20failures%3A%20in%20imagination%2C%20policy%2C%20capabilities%2C%20and%20management.|&src=bsky
     card: assets/cards/us-911-commission/q-9c7a039f.png
-    scheduled: 2026-11-11
+    scheduled: 2026-11-12
     posted_url: null
   - id: us-v-philip-morris:defendants-fraudulent-statements-stem-from:46699358
     report: us-v-philip-morris
@@ -382,7 +403,7 @@ items:
       — United States v. Philip Morris USA Inc.: Amended Final Opinion, p. 1548
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=defendants-fraudulent-statements-stem-from&h=Demographic%20Trends%2C%22%20stated%20that%20|%22Today's%20teenager%20is%20tomorrow's%20potential%20regular%20customer%2C%20and%20the%20overwhelming%20majority%20of%20smokers%20first%20begin%20to%20smoke%20while%20still%20in%20their%20teens.|%20.%20.%20.%20The&src=bsky
     card: assets/cards/us-v-philip-morris/q-bd7a4c4a.png
-    scheduled: 2026-11-12
+    scheduled: 2026-11-13
     posted_url: null
   - id: us-lehman-examiner:buy-itself-more-time-maintain:290a1bda
     report: us-lehman-examiner
@@ -398,7 +419,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 5
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=buy-itself-more-time-maintain&h=|But%20to%20buy%20itself%20more%20time%2C%20to%20maintain%20that%20critical%20confidence%2C%20Lehman%20painted%20a%20misleading%20picture%20of%20its%20financial%20condition.|&src=bsky
     card: assets/cards/us-lehman-examiner/q-0c457e99.png
-    scheduled: 2026-11-13
+    scheduled: 2026-11-14
     posted_url: null
   - id: us-lehman-examiner:2006-lehman-made-deliberate-decision:e5c2f57b
     report: us-lehman-examiner
@@ -414,7 +435,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 4
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=2006-lehman-made-deliberate-decision&h=and%20other%20business%20lines.%20|Rather%20than%20pull%20back%2C%20Lehman%20made%20the%20conscious%20decision%20to%20%22double%20down%2C%22%20hoping%20to%20profit%20from%20a%20counter%E2%80%90cyclical%20strategy.|%20As%20it%20did%20so%2C%20Lehman&src=bsky
     card: assets/cards/us-lehman-examiner/q-c756f8f7.png
-    scheduled: 2026-11-14
+    scheduled: 2026-11-15
     posted_url: null
   - id: us-lehman-examiner:nagioff-also-had-broader-concerns:aa90336b
     report: us-lehman-examiner
@@ -430,7 +451,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 120
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=nagioff-also-had-broader-concerns&h=markets%20were%20in%20trouble%3A%20|%22every%20one%20saw%20the%20train%20wreck%20coming.%2064k%20question%20is%20why%20didn't%20anyone%20get%20out%20of%20the%20way%3F%3F%3F%22|&src=bsky
     card: assets/cards/us-lehman-examiner/q-acf28452.png
-    scheduled: 2026-11-15
+    scheduled: 2026-11-16
     posted_url: null
   - id: uk-hillsborough-panel:24-opening-gate-c-there:f3cb9a3b
     report: uk-hillsborough-panel
@@ -449,7 +470,7 @@ items:
       Hillsborough Independent Panel (2012). 97 people died.
     link: https://reportsthatmatter.org/reports/uk-hillsborough-panel?p=24-opening-gate-c-there&h=24.%20|On%20opening%20Gate%20C%20there%20was%20no%20instruction%20given%20to%20the%20SYP%20officers%20inside%20the%20stadium%20to%20manage%20the%20flow%20and%20direction%20of%20the%20incoming%20crowd.|&src=bsky
     card: assets/cards/uk-hillsborough-panel/q-a41f1724.png
-    scheduled: 2026-11-16
+    scheduled: 2026-11-17
     posted_url: null
   - id: us-senate-cia-torture-report:while-cia-has-represented-public:46298f4f
     report: us-senate-cia-torture-report
@@ -465,7 +486,7 @@ items:
       Interrogation Program, p. 14
     link: https://reportsthatmatter.org/reports/us-senate-cia-torture-report?p=while-cia-has-represented-public&h=detainees%20was%20at%20least%20119.%20|Internal%20CIA%20documents%20indicate%20that%20inadequate%20record%20keeping%20made%20it%20impossible%20for%20the%20CIA%20to%20determine%20how%20many%20individuals%20it%20had%20detained.|%20In%20December%202003%2C%20a%20CIA&src=bsky
     card: assets/cards/us-senate-cia-torture-report/q-1993ad2f.png
-    scheduled: 2026-11-17
+    scheduled: 2026-11-18
     posted_url: null
   - id: uk-grenfell-tower-inquiry:2-103-first-week-after:ddb845cd
     report: uk-grenfell-tower-inquiry
@@ -483,7 +504,7 @@ items:
       Grenfell Tower Inquiry Phase 2, Volume 1 of 7. 72 people died.
     link: https://reportsthatmatter.org/reports/uk-grenfell-tower-inquiry?p=2-103-first-week-after&h=2.103%20|In%20the%20first%20week%20after%20the%20fire%20at%20Grenfell%20Tower%20the%20response%20of%20the%20government%20and%20RBKC%20was%20muddled%2C%20slow%2C%20indecisive%20and%20piecemeal.|%20RBKC's%20systems%20and&src=bsky
     card: assets/cards/uk-grenfell-tower-inquiry/q-f5d9c11d.png
-    scheduled: 2026-11-18
+    scheduled: 2026-11-19
     posted_url: null
   - id: columbia-accident:strategies-must-increase-clarity-strength:651df4c0
     report: columbia-accident
@@ -498,5 +519,69 @@ items:
       — Columbia Accident Investigation Board Report, Volume I, p. 203
     link: https://reportsthatmatter.org/reports/columbia-accident?p=strategies-must-increase-clarity-strength&h=challenge%20assumptions%20about%20risk.%20|Twice%20in%20NASA%20history%2C%20the%20agency%20embarked%20on%20a%20slippery%20slope%20that%20resulted%20in%20catastrophe.|%20Each%20decision%2C%20taken%20by&src=bsky
     card: assets/cards/columbia-accident/q-4b46b1d0.png
-    scheduled: 2026-11-19
+    scheduled: 2026-11-20
+    posted_url: null
+  - id: us-ica-2017-russia-elections:we-also-assess-putin-russian-2:3131a1b5
+    report: us-ica-2017-russia-elections
+    paragraph: we-also-assess-putin-russian-2
+    quote: CIA and FBI have high confidence in this judgment; NSA has moderate
+      confidence.
+    text: >-
+      “CIA and FBI have high confidence in this judgment; NSA has moderate
+      confidence.”
+
+
+      — Assessing Russian Activities and Intentions in Recent US Elections, p. 1
+    link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=we-also-assess-putin-russian-2&h=agree%20with%20this%20judgment.%20|CIA%20and%20FBI%20have%20high%20confidence%20in%20this%20judgment%3B%20NSA%20has%20moderate%20confidence.|&src=bsky
+    card: assets/cards/us-ica-2017-russia-elections/q-3c12744c.png
+    scheduled: 2026-11-21
+    posted_url: null
+  - id: us-ica-2017-russia-elections:dhs-assesses-types-systems-we:2310fdbe
+    report: us-ica-2017-russia-elections
+    paragraph: dhs-assesses-types-systems-we
+    quote: DHS assesses that the types of systems we observed Russian actors
+      targeting or compromising are not involved in vote tallying.
+    text: >-
+      “DHS assesses that the types of systems we observed Russian actors
+      targeting or compromising are not involved in vote tallying.”
+
+
+      — Assessing Russian Activities and Intentions in Recent US Elections, p. 3
+    link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=dhs-assesses-types-systems-we&h=%E2%80%A2%20|DHS%20assesses%20that%20the%20types%20of%20systems%20we%20observed%20Russian%20actors%20targeting%20or%20compromising%20are%20not%20involved%20in%20vote%20tallying.|&src=bsky
+    card: assets/cards/us-ica-2017-russia-elections/q-1d5cdbb3.png
+    scheduled: 2026-11-22
+    posted_url: null
+  - id: us-ica-2017-russia-elections:russia-collected-some-republican-affiliated-targets:590bddb9
+    report: us-ica-2017-russia-elections
+    paragraph: russia-collected-some-republican-affiliated-targets
+    quote: Russia collected on some Republican-affiliated targets but did not
+      conduct a comparable disclosure campaign.
+    text: >-
+      “Russia collected on some Republican-affiliated targets but did not
+      conduct a comparable disclosure campaign.”
+
+
+      — Assessing Russian Activities and Intentions in Recent US Elections, p. 3
+    link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=russia-collected-some-republican-affiliated-targets&h=|Russia%20collected%20on%20some%20Republican-affiliated%20targets%20but%20did%20not%20conduct%20a%20comparable%20disclosure%20campaign.|&src=bsky
+    card: assets/cards/us-ica-2017-russia-elections/q-315d5c57.png
+    scheduled: 2026-11-24
+    posted_url: null
+  - id: us-ica-2017-russia-elections:we-assess-moscow-will-apply-2:eb337e28
+    report: us-ica-2017-russia-elections
+    paragraph: we-assess-moscow-will-apply-2
+    quote: We assess Moscow will apply lessons learned from its campaign aimed at
+      the US presidential election to future influence efforts in the United
+      States and worldwide, including against US allies and their election
+      processes.
+    text: >-
+      “We assess Moscow will apply lessons learned from its campaign aimed at
+      the US presidential election to future influence efforts in the United
+      States and worldwide, including against US allies and their election
+      processes.”
+
+
+      — Assessing Russian Activities and Intentions in Recent US Elections, p. 5
+    link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=we-assess-moscow-will-apply-2&h=|We%20assess%20Moscow%20will%20apply%20lessons%20learned%20from%20its%20campaign%20aimed%20at%20the%20US%20presidential%20election%20to%20future%20influence%20efforts%20in%20the%20United%20States%20and%20worldwide%2C%20including%20against%20US%20allies%20and%20their%20election%20processes.|%20We%20assess%20the%20Russian&src=bsky
+    card: assets/cards/us-ica-2017-russia-elections/q-40d4bcd3.png
+    scheduled: 2026-11-25
     posted_url: null
