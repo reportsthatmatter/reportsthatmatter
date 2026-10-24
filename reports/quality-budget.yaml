@@ -489,7 +489,7 @@ reports:
     heading-long: 60
     printed-page-reversal: 0
     rendered-h1: 0
-    chapter-intro-misfiled: 1
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 1
     numbered-prose-list: 2
     ids-per-1k-words: 0
