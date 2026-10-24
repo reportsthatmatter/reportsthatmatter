@@ -273,6 +273,12 @@ describe("rendered HTML signals (J, N)", () => {
     const good = input("", { html, meta: { words: 10, sections, paragraphToSection: { pre: "preface", tuesday: "we-have-some-planes", a: "we-have-some-planes" } } });
     expect(chapterIntroMisfiled.run(good)).toEqual([]);
   });
+  it("reads a chapter heading that carries a note by its words, as its section is titled (ICA 2017 Annex A)", () => {
+    const html = '<h2>Annex A: Russia<label class="sidenote-toggle" for="sn-1-1" aria-label="Note 1"><sup>1</sup></label><input class="sidenote-checkbox" id="sn-1-1" type="checkbox" /><span class="sidenote"><sup>1</sup> This annex was originally published in 2012.</span></h2><p id="rt">RT America TV.</p><h3>RT Conducts Strategic Messaging</h3><p id="b">x</p>';
+    const sections = [{ slug: "annex-a-russia", title: "Annex A: Russia" }, { slug: "rt-conducts", title: "RT Conducts Strategic Messaging" }];
+    expect(chapterIntroMisfiled.run(input("", { html, meta: { words: 10, sections, paragraphToSection: { rt: "annex-a-russia", b: "rt-conducts" } } }))).toEqual([]);
+    expect(chapterIntroMisfiled.run(input("", { html, meta: { words: 10, sections, paragraphToSection: { rt: "rt-conducts", b: "rt-conducts" } } }))).toHaveLength(1);
+  });
   it("measures words inside <ol> as a share of the report (Lehman-style contents lists)", () => {
     const html = "<ol><li>one two three</li><li>four five</li></ol><p>outside words</p>";
     const i = input("", { html, meta: { words: 10, sections: [] } });

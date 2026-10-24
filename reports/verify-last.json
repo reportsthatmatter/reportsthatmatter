@@ -323,12 +323,30 @@
     "total": 6,
     "known": 2
    }
+  },
+  "us-ica-2017-russia-elections": {
+   "oracle": {
+    "headings-missed": 6,
+    "headings-spurious": 0,
+    "markers-unlinked": 0,
+    "markers-spurious": 0,
+    "paragraphs-oversplit": 6,
+    "paragraphs-merged": 81,
+    "quotes-spurious": 0,
+    "quotes-missed": 38,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 7,
+    "total": 7,
+    "known": 0
+   }
   }
  },
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 16,
-   "fp": 25,
+   "fp": 27,
    "fn": 4
   },
   "headings-spurious": {
@@ -348,12 +366,12 @@
   },
   "paragraphs-oversplit": {
    "tp": 12,
-   "fp": 15,
+   "fp": 18,
    "fn": 26
   },
   "paragraphs-merged": {
    "tp": 4,
-   "fp": 207,
+   "fp": 238,
    "fn": 1
   },
   "quotes-spurious": {
@@ -363,7 +381,7 @@
   },
   "quotes-missed": {
    "tp": 3,
-   "fp": 29,
+   "fp": 38,
    "fn": 0
   }
  }

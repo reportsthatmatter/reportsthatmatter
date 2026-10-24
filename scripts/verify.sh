@@ -375,6 +375,8 @@ check_contains /changelog "What has changed"
 # assets, linked from the report only when it has written them.
 check_status /reports/uk-saville-inquiry/processing 200
 check_contains /reports/uk-saville-inquiry/processing "Known limitations"
+check_status /reports/us-ica-2017-russia-elections/processing 200
+check_contains /reports/us-ica-2017-russia-elections/processing "Annex B (page 13)"
 check_contains /reports/uk-saville-inquiry "About this edition"
 check_status /reports/jack-smith-vol1/processing 404
 check_contains /reports/uk-covid-inquiry-module-2/processing "post-publication amends"

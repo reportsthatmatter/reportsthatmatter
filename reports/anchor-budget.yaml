@@ -110,3 +110,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 3  # why: reportsthatmatter-gqsy.5 (scanned Vol I pages)
+  us-ica-2017-russia-elections:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 0

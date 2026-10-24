@@ -212,3 +212,13 @@ units:
     state: waiting
     evidence: "ingest #77 (contentsOutline ocr, source passes, uncoded [Redacted]); report repo #1; site #312 (registry, manifest, plate, default and 3 quote cards, editorial approved); decision 0020 addendum"
     notes: "Live 2026-10-10 (ingest v0.27.0, grade B-). OCR text; ~270 notes merged, ~84% of markers linked; jc46 57 severed / ~100 severed-into-quote."
+  - id: us-ica-2017-russia-elections
+    scope: "ICA 2017-01D, the whole PDF released 6 January 2017 (with ODNI's Background note)"
+    bead: reportsthatmatter-gqsy.13
+    reached: editorial
+    state: active
+    waive:
+      repo.reference-manifest: reportsthatmatter-cj3h
+      evaluate.adjudicated: reportsthatmatter-cj3h
+    evidence: "source stack in gqsy.13 notes; report repo reportsthatmatter/us-ica-2017-russia-elections (first-ingest-1024); cleanEdition over Wikisource's validated transcription; golden 7/7; plate (CIA/FBI/NSA seals), default and 5 quote cards; editorial approved (Fable-critiqued); ingest PR #82 (optional: clears Annex B's review rows)"
+    notes: "Target: live before the US midterms, 3 Nov 2026. Hero: gqsy.13.1. Annex B section page: 4kxk. Annex B review rows: l40o (ingest #82)."

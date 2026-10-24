@@ -47,3 +47,5 @@ reports:
     dir: ../us-mueller-report
   - id: uk-covid-inquiry-module-2
     dir: ../uk-covid-inquiry-module-2
+  - id: us-ica-2017-russia-elections
+    dir: ../us-ica-2017-russia-elections

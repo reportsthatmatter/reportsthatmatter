@@ -540,3 +540,38 @@ marks:
     caveat: >-
       Marker handwriting on a white board is thin line work at 92px; if the row reads as grey, crop
       tighter on items 2-4 or raise black.
+  - id: ica2017
+    set: plate
+    report: us-ica-2017-russia-elections
+    pdf: archive/ica-2017-01d.pdf
+    page: 10
+    dpi: 300
+    # Seal ink measured at 718,1198–1780,1471 on the 300dpi page (2026-10-24,
+    # rows and columns with a pixel under 230 below the title's rule); the box
+    # below adds about 10% margin. The page's title and rule are left out.
+    crop: [664, 1170, 1170, 330]
+    subject: >-
+      The seals of the CIA, the FBI and the NSA, side by side on the title page
+      of the assessment's body (PDF p.10), "Russia's Influence Campaign Targeting
+      the 2016 US Presidential Election". The exhibit is the joint authorship
+      the assessment turns on: a judgment coordinated among three agencies, each
+      stating its own confidence ("CIA and FBI have high confidence in this
+      judgment; NSA has moderate confidence"). Avoided: portraits of anyone the
+      report names, and the RT broadcast stills in Annex A (the event, not the
+      evidence). The only other candidates in the PDF are the ODNI and National
+      Intelligence Council seals on the covers and the Annex B likelihood bar,
+      which reads as a grey strip at row size.
+    rights: >-
+      U.S. Government work, public domain (the report's own page). The seals are
+      U.S. federal insignia; reproduced as they appear on the report's page, as
+      for the DOJ seal on Jack Smith's plate. Copyright does not bar this, but
+      statutes limit use of agency seals where it could imply the agency's
+      approval or authorship (18 U.S.C. 701 and 1017 for the FBI, 50 U.S.C. 3515
+      for the CIA); here the seals are shown as the report's own authors, in a
+      page that says whose words they are. Not legal advice: if an agency ever
+      objects, fall back to the NIC seal from the cover (PDF p.4).
+    treat: { black: 0.15, white: 0.88, grain: 60, cut: none }
+    caveat: >-
+      A wide strip (about 3.5:1), so small in the 92px archive row. If it reads
+      as three grey dots there, crop to the CIA and FBI seals or use the NIC seal
+      from the cover (PDF p.4).
