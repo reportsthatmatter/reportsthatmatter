@@ -628,12 +628,12 @@ describe("who may reach the queue (63cd, 80qf)", () => {
     expect(scheduleItems(items, "2026-10-20", [], true)[0]).toMatchObject({ id: "b", scheduled: "2026-10-20" });
   });
 
-  it("the live registry flags exactly the three news-day reports, and the three context lines the strategy names", () => {
+  it("the live registry flags exactly the three news-day reports, and the context lines (the three the strategy names, plus Covid Module 2, gqsy.14.1)", () => {
     const { parse } = require("yaml") as typeof import("yaml");
     const live = parse(require("node:fs").readFileSync(require("node:path").join(__dirname, "../reports/registry.yaml"), "utf8"));
     const p = reportPolicies(live);
     expect([...p].filter(([, v]) => v.newsDayOnly).map(([id]) => id).sort()).toEqual(["jack-smith-vol1", "uk-chilcot-inquiry", "us-jan6-committee"]);
-    expect([...p].filter(([, v]) => v.contextLine).map(([id]) => id).sort()).toEqual(["uk-grenfell-tower-inquiry", "uk-hillsborough-panel", "uk-post-office-horizon-inquiry"]);
+    expect([...p].filter(([, v]) => v.contextLine).map(([id]) => id).sort()).toEqual(["uk-covid-inquiry-module-2", "uk-grenfell-tower-inquiry", "uk-hillsborough-panel", "uk-post-office-horizon-inquiry"]);
     for (const id of [...p].filter(([, v]) => v.contextLine).map(([id]) => id)) expect(p.get(id)?.affected).toBe(true);
   });
 
