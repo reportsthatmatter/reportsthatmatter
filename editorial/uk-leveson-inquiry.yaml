@@ -120,9 +120,9 @@ findings:
         see almost from the very start.
 
   - text: Leveson recommends a new, voluntary self-regulatory body for the press, independent of both the industry and government, backed by legislation that would recognise it in law and give publishers incentives to join. He states that this recognition is not itself regulation of the press.
-    cites: [7-2-i-have-therefore, 7-4-order-give-effect, legislative-proposal-does-no-more]
+    cites: [7-2-i-have-therefore, 7-4-order-give-effect]
     excerpt:
-      paragraph: legislative-proposal-does-no-more
+      paragraph: 7-4-order-give-effect
       quote: >-
         This legislative proposal does no more than ensure an appropriate
         degree of independence and effectiveness on the part of the
@@ -131,7 +131,7 @@ findings:
         press.
 
   - text: If the industry does not itself set up an adequately independent regulator, the report recommends that the Government legislate for a backstop regulator to apply and enforce a code of standards.
-    cites: [7-10-unfortunately-there-may, suffice-say-bearing-mind-my]
+    cites: [7-10-unfortunately-there-may]
 
   - text: The News of the World hacked Milly Dowler's phone in April 2002, as it later admitted to Surrey Police. The report finds, on the balance of probabilities, that this hacking was not the cause of the "false hope moment" widely blamed on it - the voicemail system's own automatic deletion of messages accounts for that - but confirms the phone was indeed hacked.
     cites: [f-2-19-last-assertion, 2-15-would-be-otiose, 2-16-remains-worthwhile-underline]
@@ -156,7 +156,7 @@ findings:
         three months.
 
   - text: The Inquiry examined the relationship between the press and the Metropolitan Police, prompted in part by the police's investigation into phone hacking. It found no widespread evidence of police corruption, but did find a damaging perception that the News of the World had an inappropriate degree of influence over the force, including some senior officers.
-    cites: [first-scale-problem-needs-be, 1-3-integrity-lies-heart, 1-4-i-mention-mps]
+    cites: [1-5-i-will-examine, 1-3-integrity-lies-heart, 1-4-i-mention-mps]
 
 reading_guide:
   - section: chapter-7
@@ -205,7 +205,7 @@ reading_guide:
   - section: the-dowlers
     why: The phone-hacking case that brought down the News of the World and led to the Inquiry, including the Inquiry's own correction of one widely-reported detail about it.
     excerpt:
-      paragraph: nor-i-pointed-out-4
+      paragraph: 2-22-guardian-s-error
       quote: >-
         The fact remains that the NoTW hacked the phone of a dead schoolgirl
         called Milly Dowler. The revelation of that story rightly shocked
@@ -218,7 +218,7 @@ reading_guide:
     title: "The press and the police: conclusions and recommendations"
     why: Whether the closeness between the Metropolitan Police and the News of the World amounted to corruption, and what the Inquiry recommends instead.
     excerpt:
-      paragraph: first-scale-problem-needs-be
+      paragraph: 1-5-i-will-examine
       quote: >-
         First, the scale of the problem needs to be kept in proportion. The
         Inquiry has not unearthed extensive evidence of police corruption
@@ -248,7 +248,7 @@ highlights:
       now the subject of criminal charges.
     card: true
 
-  - paragraph: legislative-proposal-does-no-more
+  - paragraph: 7-4-order-give-effect
     quote: This is not, and cannot be characterised as, regulation of the press.
     card: true
 
@@ -273,7 +273,7 @@ highlights:
       leads and 'angles' began to take over, with their corollary
       tendencies of sensationalism and scandal.
 
-  - paragraph: first-scale-problem-needs-be
+  - paragraph: 1-5-i-will-examine
     quote: >-
       The Inquiry has not unearthed extensive evidence of police corruption
       (noting, as it has done, the current position in relation to Operation
@@ -283,7 +283,7 @@ highlights:
       probabilities, that significant numbers of police officers lack
       integrity in one or more of the respects I have examined earlier.
 
-  - paragraph: suffice-say-bearing-mind-my
+  - paragraph: 7-10-unfortunately-there-may
     quote: >-
       Suffice to say, bearing in mind my duty to consider the interests of
       the public, my view is that there would then be no alternative but to

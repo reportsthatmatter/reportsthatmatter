@@ -37,9 +37,9 @@ reports:
     blocks-wrong: 35
   uk-leveson-inquiry:
     markers-wrong: 0
-    markers-stacked: 1
+    markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 3
+    blocks-wrong: 4  # why: reportsthatmatter-fkx - after facingPageMargins the recommendations box over printed pp.1112-1113 ("…led by a Board of Commissioners" / "Board a Commissioner from the media sector.[^10] I recommend…") opens its page-1113 block under %%page 1112%%; the three from main (pp.56/57, 919/920, 1830/1831) are unchanged
   columbia-accident:
     markers-wrong: 0
     markers-stacked: 0
