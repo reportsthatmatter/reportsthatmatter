@@ -1,12 +1,12 @@
 {
- "ingest": "v0.32.0",
- "site": "17945bb8",
+ "ingest": "v0.33.0",
+ "site": "97a85c58",
  "recorded": "2026-10-25",
  "reports": {
   "jack-smith-vol1": {
    "id": "jack-smith-vol1",
    "pages": 159,
-   "per10": 6.052798622047919,
+   "per10": 5.947658211809155,
    "letter": "C",
    "publishable": false,
    "below": [],
@@ -56,16 +56,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 14.124113475177305,
-     "per10": 0.8883090235960569,
+     "errors": 12.452380952380953,
+     "per10": 0.7831686133572926,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 22,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 7.957446808510639
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 6.285714285714286
       },
       {
        "source": "oracle headings-spurious",
@@ -164,7 +164,7 @@
   "us-psi-financial-crisis": {
    "id": "us-psi-financial-crisis",
    "pages": 641,
-   "per10": 1.4023734201647702,
+   "per10": 1.3585114833164755,
    "letter": "B",
    "publishable": true,
    "below": [],
@@ -214,16 +214,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 14.716312056737591,
-     "per10": 0.22958365143116366,
+     "errors": 11.904761904761905,
+     "per10": 0.18572171458286904,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 37,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 13.382978723404257
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 10.571428571428571
       },
       {
        "source": "oracle headings-spurious",
@@ -322,7 +322,7 @@
   "challenger-accident": {
    "id": "challenger-accident",
    "pages": 421,
-   "per10": 8.55488424245689,
+   "per10": 8.24984991255775,
    "letter": "C",
    "publishable": false,
    "below": [],
@@ -372,16 +372,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 78.12765957446808,
-     "per10": 1.8557638853792893,
+     "errors": 65.28571428571428,
+     "per10": 1.5507295554801492,
      "letter": "B",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 169,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 61.12765957446809
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 48.285714285714285
       },
       {
        "source": "oracle headings-spurious",
@@ -480,8 +480,8 @@
   "litvinenko-inquiry": {
    "id": "litvinenko-inquiry",
    "pages": 313,
-   "per10": 10.30895621949935,
-   "letter": "D",
+   "per10": 3.756334187644092,
+   "letter": "C",
    "publishable": false,
    "below": [],
    "dimensions": {
@@ -499,16 +499,16 @@
      "key": "paragraphs",
      "basis": "estimated",
      "graded": true,
-     "errors": 101.67032967032966,
-     "per10": 3.2482533440999894,
+     "errors": 101.83516483516483,
+     "per10": 3.253519643296001,
      "letter": "C",
      "terms": [
       {
        "source": "oracle paragraphs-oversplit",
-       "count": 245,
+       "count": 246,
        "precision": 0.3076923076923077,
        "precisionFrom": "pooled golden 8/26",
-       "errors": 75.38461538461539
+       "errors": 75.6923076923077
       },
       {
        "source": "page breaks (mini-reference, random) 0/13 wrong x 313 pages",
@@ -519,10 +519,10 @@
       },
       {
        "source": "oracle quotes-spurious",
-       "count": 184,
+       "count": 183,
        "precision": 0.14285714285714285,
        "precisionFrom": "pooled golden 2/14",
-       "errors": 26.285714285714285
+       "errors": 26.142857142857142
       }
      ]
     },
@@ -530,23 +530,23 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 220,
-     "per10": 7.0287539936102235,
-     "letter": "C",
+     "errors": 14.738095238095237,
+     "per10": 0.4708656625589533,
+     "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
-       "count": 220,
-       "precision": 1,
-       "precisionFrom": "report golden 5/5",
-       "errors": 220
+       "count": 51,
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 14.571428571428571
       },
       {
        "source": "oracle headings-spurious",
-       "count": 0,
+       "count": 1,
        "precision": 0.16666666666666666,
        "precisionFrom": "prior (0+1)/(4+2)",
-       "errors": 0
+       "errors": 0.16666666666666666
       }
      ]
     },
@@ -629,8 +629,8 @@
       }
      ],
      "unmatched": {
-      "count": 749,
-      "per10": 23.929712460063897
+      "count": 771,
+      "per10": 24.632587859424923
      }
     }
    }
@@ -796,7 +796,7 @@
   "columbia-accident": {
    "id": "columbia-accident",
    "pages": 240,
-   "per10": 6.489511079936611,
+   "per10": 6.207722832722832,
    "letter": "C",
    "publishable": false,
    "below": [],
@@ -846,16 +846,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 33.858156028368796,
-     "per10": 1.410756501182033,
+     "errors": 27.095238095238095,
+     "per10": 1.128968253968254,
      "letter": "B",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 89,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 32.19148936170213
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 25.428571428571427
       },
       {
        "source": "oracle headings-spurious",
@@ -954,7 +954,7 @@
   "us-911-commission": {
    "id": "us-911-commission",
    "pages": 450,
-   "per10": 0.7932117527862208,
+   "per10": 0.7476190476190476,
    "letter": "A",
    "publishable": true,
    "below": [],
@@ -1006,16 +1006,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 10.26595744680851,
-     "per10": 0.2281323877068558,
+     "errors": 8.214285714285714,
+     "per10": 0.1825396825396825,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 27,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 9.76595744680851
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 7.7142857142857135
       },
       {
        "source": "oracle headings-spurious",
@@ -1114,7 +1114,7 @@
   "us-deepwater-horizon": {
    "id": "us-deepwater-horizon",
    "pages": 334,
-   "per10": 4.476842433907028,
+   "per10": 3.7260643548068693,
    "letter": "C",
    "publishable": false,
    "below": [],
@@ -1164,16 +1164,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 119.36170212765958,
-     "per10": 3.573703656516754,
-     "letter": "C",
+     "errors": 94.28571428571428,
+     "per10": 2.822925577416595,
+     "letter": "B",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 330,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 119.36170212765958
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 94.28571428571428
       },
       {
        "source": "oracle headings-spurious",
@@ -1329,8 +1329,8 @@
       {
        "source": "oracle headings-missed",
        "count": 0,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
        "errors": 0
       },
       {
@@ -1430,7 +1430,7 @@
   "uk-hillsborough-panel": {
    "id": "uk-hillsborough-panel",
    "pages": 371,
-   "per10": 3.8874863165165396,
+   "per10": 3.7441130298273158,
    "letter": "C",
    "publishable": false,
    "below": [],
@@ -1474,16 +1474,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 25.319148936170215,
-     "per10": 0.6824568446407066,
+     "errors": 20,
+     "per10": 0.5390835579514826,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 70,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 25.319148936170215
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 20
       },
       {
        "source": "oracle headings-spurious",
@@ -1582,7 +1582,7 @@
   "uk-saville-inquiry": {
    "id": "uk-saville-inquiry",
    "pages": 472,
-   "per10": 2.3118780786469215,
+   "per10": 2.065561557086981,
    "letter": "B",
    "publishable": true,
    "below": [],
@@ -1626,16 +1626,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 55.840425531914896,
-     "per10": 1.1830598629642988,
-     "letter": "B",
+     "errors": 44.214285714285715,
+     "per10": 0.9367433414043584,
+     "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 153,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 55.340425531914896
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 43.714285714285715
       },
       {
        "source": "oracle headings-spurious",
@@ -1734,7 +1734,7 @@
   "uk-chilcot-inquiry": {
    "id": "uk-chilcot-inquiry",
    "pages": 145,
-   "per10": 0.7413618418754149,
+   "per10": 0.6732348111658455,
    "letter": "A",
    "publishable": true,
    "below": [],
@@ -1792,16 +1792,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 5.202127659574469,
-     "per10": 0.3587674247982392,
+     "errors": 4.2142857142857135,
+     "per10": 0.2906403940886699,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 13,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 4.702127659574469
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 3.714285714285714
       },
       {
        "source": "oracle headings-spurious",
@@ -1957,8 +1957,8 @@
       {
        "source": "oracle headings-missed",
        "count": 0,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
        "errors": 0
       },
       {
@@ -2058,7 +2058,7 @@
   "uk-post-office-horizon-inquiry": {
    "id": "uk-post-office-horizon-inquiry",
    "pages": 164,
-   "per10": 0.7523784812316208,
+   "per10": 0.6643437862950058,
    "letter": "A",
    "publishable": true,
    "below": [],
@@ -2108,16 +2108,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 6.872340425531915,
-     "per10": 0.4190451478982875,
+     "errors": 5.428571428571428,
+     "per10": 0.3310104529616725,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 19,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 6.872340425531915
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 5.428571428571428
       },
       {
        "source": "oracle headings-spurious",
@@ -2216,7 +2216,7 @@
   "us-jan6-committee": {
    "id": "us-jan6-committee",
    "pages": 522,
-   "per10": 1.8197598846901855,
+   "per10": 1.7295061260578501,
    "letter": "B",
    "publishable": true,
    "below": [],
@@ -2260,16 +2260,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 24.925531914893618,
-     "per10": 0.47750061139642946,
+     "errors": 20.21428571428571,
+     "per10": 0.3872468527640941,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 62,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 22.425531914893618
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 17.71428571428571
       },
       {
        "source": "oracle headings-spurious",
@@ -2368,7 +2368,7 @@
   "uk-grenfell-tower-inquiry": {
    "id": "uk-grenfell-tower-inquiry",
    "pages": 215,
-   "per10": 1.5331165618152258,
+   "per10": 1.2857142857142858,
    "letter": "B",
    "publishable": true,
    "below": [],
@@ -2418,16 +2418,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 25.652482269503547,
-     "per10": 1.1931387102094673,
-     "letter": "B",
+     "errors": 20.333333333333332,
+     "per10": 0.9457364341085271,
+     "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 70,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 25.319148936170215
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 20
       },
       {
        "source": "oracle headings-spurious",
@@ -2526,7 +2526,7 @@
   "us-senate-cia-torture-report": {
    "id": "us-senate-cia-torture-report",
    "pages": 709,
-   "per10": 10.325934006575006,
+   "per10": 10.21125559912584,
    "letter": "D",
    "publishable": false,
    "below": [],
@@ -2570,16 +2570,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 45.70212765957447,
-     "per10": 0.6445998259460434,
+     "errors": 37.57142857142857,
+     "per10": 0.5299214184968769,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 107,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 38.70212765957447
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 30.57142857142857
       },
       {
        "source": "oracle headings-spurious",
@@ -2830,7 +2830,7 @@
   "uk-covid-inquiry-module-2": {
    "id": "uk-covid-inquiry-module-2",
    "pages": 451,
-   "per10": 3.3041692782222105,
+   "per10": 3.216555801921656,
    "letter": "C",
    "publishable": false,
    "below": [],
@@ -2880,16 +2880,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 19.641843971631207,
-     "per10": 0.43551760469248796,
+     "errors": 15.69047619047619,
+     "per10": 0.34790412839193324,
      "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 52,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 18.808510638297875
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 14.857142857142856
       },
       {
        "source": "oracle headings-spurious",
@@ -2989,7 +2989,7 @@
   "us-ica-2017-russia-elections": {
    "id": "us-ica-2017-russia-elections",
    "pages": 18,
-   "per10": 2.2313147845062744,
+   "per10": 1.978021978021978,
    "letter": "B",
    "publishable": true,
    "below": [],
@@ -3033,16 +3033,16 @@
      "key": "headings",
      "basis": "estimated",
      "graded": true,
-     "errors": 2.170212765957447,
-     "per10": 1.2056737588652484,
-     "letter": "B",
+     "errors": 1.7142857142857142,
+     "per10": 0.9523809523809523,
+     "letter": "A",
      "terms": [
       {
        "source": "oracle headings-missed",
        "count": 6,
-       "precision": 0.3617021276595745,
-       "precisionFrom": "pooled golden 17/47",
-       "errors": 2.170212765957447
+       "precision": 0.2857142857142857,
+       "precisionFrom": "pooled golden 12/42",
+       "errors": 1.7142857142857142
       },
       {
        "source": "oracle headings-spurious",

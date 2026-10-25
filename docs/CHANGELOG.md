@@ -7,6 +7,10 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-25 — The Litvinenko Inquiry's sub-headings are headings
+
+In [the Litvinenko Inquiry's report](/reports/litvinenko-inquiry), about 180 printed sub-headings ("Treatment in Barnet Hospital", "The Pine Bar") read as one-line paragraphs, Part 5 sat inside Part 4, and five chapter openings had been deleted as page furniture. They are headings again, read from the report's own typography, so each Part and chapter is where the print puts it. Links to a sub-heading's old address lead to the paragraph under it.
+
 ## 2026-10-25 — Leveson's paragraphs are whole again
 
 In [the Leveson Inquiry's report](/reports/uk-leveson-inquiry), about 2,000 paragraphs were cut into fragments: the text on facing pages sits at different distances from the edge, and on one side of every spread each line that began with a capital started a new paragraph ("…I selected" / "Robert Jay QC to be Counsel to the Inquiry…"). Each page is now measured against its own side of the spread, so those paragraphs read and cite as one, and 11 chapters that had lost their opening are now sections of their own. Links to a fragment that is now part of a paragraph lead to that paragraph.
