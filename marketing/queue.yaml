@@ -42,7 +42,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=russian-government-interfered-2016-presidential&h=|The%20Russian%20government%20interfered%20in%20the%202016%20presidential%20election%20in%20sweeping%20and%20systematic%20fashion.|%20Evidence%20of%20Russian&src=bsky
     card: assets/cards/us-mueller-report/q-a0da52f5.png
     scheduled: 2026-10-25
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mypdukrabe2t
+    posted_at: 2026-10-25T13:47:41.358Z
   - id: uk-leveson-inquiry:7-4-order-give-effect:6f4f7e41
     report: uk-leveson-inquiry
     paragraph: 7-4-order-give-effect
