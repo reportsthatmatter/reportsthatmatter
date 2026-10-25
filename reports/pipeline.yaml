@@ -173,10 +173,10 @@ units:
   - id: uk-covid-inquiry-module-2
     scope: "Volume I (HC 1436-I, Introduction and key events, amended Feb 2026)"
     bead: reportsthatmatter-gqsy.14
-    reached: publish
-    state: waiting
+    reached: promote
+    state: ongoing
     evidence: "ingest PR #83 (labelWraps, note-restart scan, label guard); report repo PR #1 (branch vol1-1024); site branch covid-m2-vol1-1024 (registry, manifest, budgets, reference entry); golden 4/6 + 2 xfail (r41s, jz19); adjudicated.yaml (30 breaks; reference wrong 3/30, ours 7/30); held-out score boundary F1 91.0%"
-    notes: "Live 2026-10-25 on ingest v0.29.0 (content 74edcb53cb7a5754). Numbered paragraphs 1,422/1,422; notes 3,236/3,241 (pxjq). Editorial: gqsy.14.1 (plate and card not yet). Hero: gqsy.14.2. Volume II: nshl."
+    notes: "Live 2026-10-25 on ingest v0.29.0 (content 74edcb53cb7a5754). Numbered paragraphs 1,422/1,422; notes 3,236/3,241 (pxjq). Introduction, hero and 3 Tier A cards 2026-10-25 (gqsy.14.1, gqsy.14.2); queued 26-28 Nov, after the decision-0026 emails (6j4h). Volume II: nshl."
   - id: uk-post-office-horizon-inquiry
     scope: "Volume 1"
     bead: reportsthatmatter-gqsy.2
