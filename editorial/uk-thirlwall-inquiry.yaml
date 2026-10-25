@@ -1,0 +1,230 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and docs/report-introductions.md for the rules. Every quote is
+# verbatim from the rendered report and is checked by `pnpm editorial`; every id
+# must resolve.
+#
+# Written 2026-10-25 (reportsthatmatter-gqsy.16.4) by thirlwall.
+#
+# Scope: the site holds the Summary report only (HC 601): Chapter 1
+# (Introduction), Chapter 2 (The babies), Chapter 3 (Concerns, reviews, errors)
+# and Chapter 4 (Part Two, the Chair's summaries of chapters 31 to 44). Volumes I
+# to III, with the full findings and the 17 recommendations of Chapter 45, are
+# not on the site yet.
+#
+# Care for the bereaved (decision 0026; the rules the Covid introduction followed,
+# PR #381). Babies were killed and harmed, and their parents are a living affected
+# community. Our text names no baby and no family, not even by the report's own
+# letters, and quotes no parent: Chapter 2's testimony and every quotation of a
+# parent or a victim impact statement is never quoted, highlighted or carded here.
+# Every quotation and highlight is the Chair's own finding, about the hospital, its
+# managers or the NHS. Deaths are counted only in the background, from the report's
+# own paragraphs. There are no cards (no `card: true`): no excerpt from this report
+# is to be queued until the courtesy emails go (reportsthatmatter-6j4h). Lucy Letby
+# is named in our text only where the facts need it (her convictions and the CCRC
+# review); she is in private_people so that `pnpm editorial` warns if her name ever
+# reaches a card. The Inquiry's judgments are attributed to the Inquiry or the Chair,
+# never stated as ours. Reporting Restriction Orders made in the Crown Court still
+# apply (the Inquiry's release of 15 September 2026): we add no identifying detail.
+#
+# Background facts, checked 2026-10-25. From the report itself: deaths on the unit
+# 2010-2016 (1.23, whose year-by-year list renders as a list under it, and 1.24-1.25); convictions for murdering seven babies (1.24, 1.25); the
+# Chair's focus not on guilt or the convictions (1.3); balance of probabilities
+# (1.2); Letby moved off the unit in July 2016 (1.25); police investigation opened
+# 15 May 2017 (3.203); arrest in July 2018 (3.206); conviction in August 2023
+# (3.60); one count of attempted murder retried and convicted (2.95); the Inquiry
+# announced 4 September 2023 and established 19 October 2023 (3.210); counsel for
+# the senior managers on hindsight (1.4). From elsewhere:
+#   - The retrial verdict was in July 2024, and the Court of Appeal refused her
+#     permission to appeal in May and October 2024: press reports of the Court of
+#     Appeal's rulings (e.g. Express & Star, 24 May and 24 October 2024).
+#   - Hearings: the Chair's opening remarks, 10 September 2024; oral evidence ended
+#     January 2025; evidence and submissions closed 19 March 2025 (Inquiry news
+#     posts of those dates, thirlwall.public-inquiry.uk/news). Oral hearings at
+#     Liverpool Town Hall (Inquiry FAQ).
+#   - The Chair refused an application by four former senior managers to pause the
+#     Inquiry: ruling of 19 March 2025, published 21 March 2025 (Inquiry news post).
+#   - 17 recommendations, in Chapter 45: the Inquiry's release of 15 September 2026,
+#     https://thirlwall.public-inquiry.uk/2026/09/15/inquiry-report-finds-profound-failure-of-management-governance-and-safeguarding/
+#   - Government: the Health and Social Care Secretary's oral statement and DHSC
+#     press release of 15 September 2026 (gov.uk, "Government response to the
+#     Thirlwall Inquiry"; "Government to act on Thirlwall patient safety
+#     recommendations"): an apology on behalf of the government and the health
+#     service, first measures including work on 'cot cams', and a full response
+#     to follow.
+#   - CCRC: an application on behalf of Ms Letby was received on 3 February 2025
+#     (CCRC news, 4 February 2025); the Chair of the CCRC said on 13 February 2026
+#     that "A review of Ms Letby's convictions is underway"
+#     (https://ccrc.gov.uk/news/chairs-statement-on-lucy-letby-application-review).
+#     No decision found on 25 October 2026. Re-check before any revision.
+
+report: uk-thirlwall-inquiry
+status: approved
+
+hero:
+  src: /assets/heroes/uk-thirlwall-inquiry.webp
+  alt: >-
+    The front of Liverpool Town Hall: a stone portico with six columns above
+    three arched entrances, seen from the street in grey light.
+  credit: "Liverpool Town Hall, High Street, where the Inquiry's proceedings were held · Photo: Rodhullandemu, CC BY-SA 4.0"
+  source: "https://commons.wikimedia.org/wiki/File:Liverpool_Town_Hall_front_2018.jpg"
+  licence: CC BY-SA 4.0
+  focus: "50% 90%"
+
+private_people:
+  - Letby
+
+description: >-
+  The summary report of the Thirlwall Inquiry (2026) into events at the Countess of Chester Hospital from 2015 to 2018: what the hospital, the NHS and its regulators did when doctors raised concerns.
+
+why_it_matters: >-
+  The summary report of the Thirlwall Inquiry, the public inquiry chaired by
+  Lady Justice Thirlwall into events at the Countess of Chester Hospital from
+  2015 to 2018. Its subject is not the criminal case, which the Chair writes was
+  not her focus, but what the hospital's managers, the NHS and its regulators
+  did when doctors raised concerns, and what the Inquiry says must change.
+
+background: |
+  In 2015 eight babies died on the neonatal unit of the Countess of Chester Hospital, against one to three a year from 2010 to 2014; five more died in the first half of 2016. Consultant paediatricians raised concerns about the deaths and unexpected collapses and their association with one nurse, Lucy Letby. She was moved off the unit in July 2016. The police opened an investigation in May 2017 and arrested her in July 2018. In August 2023 she was convicted of murdering seven babies and attempting to murder others, and in July 2024, at a retrial, of one further attempted murder; the Court of Appeal refused her permission to appeal.
+
+  The government announced the Inquiry on 4 September 2023; it was established under the Inquiries Act 2005 on 19 October 2023 and held public hearings, mostly in Liverpool, from September 2024 to early 2025. The report was published on 15 September 2026: this summary and three volumes, with 17 recommendations in Chapter 45. Only the summary is on this site so far. On the day of publication the Health and Social Care Secretary apologised on behalf of the government and the health service and said a full response would follow.
+
+  A public inquiry is not a court. The Chair makes findings on the balance of probabilities, and writes that her focus was not on Ms Letby's guilt or her convictions. She sets out how she approached the senior managers' submission that she should avoid hindsight; in March 2025 she refused an application by four former senior managers to pause the Inquiry. The Criminal Cases Review Commission received an application on Ms Letby's behalf in February 2025 and said on 13 February 2026 that a review of her convictions is underway; it had announced no decision by 25 October 2026.
+
+findings:
+  - text: The Inquiry finds that no one at the hospital seemed to understand that a concern about a nurse possibly harming babies was a safeguarding issue, and that the head of its safeguarding team made no safeguarding referral until March 2018. Safeguarding requires action on suspicion, the Chair writes, and those who raised concerns did not have to be sure; but staff training had not covered the possibility of a staff member harming children, and the senior managers who knew of the concerns did not apply the guidance.
+    cites: [3-45-there-safeguarding-team, 3-40-dr-brearey-emailed, 3-46-kelly-did-not]
+    excerpt:
+      paragraph: 3-45-there-safeguarding-team
+      quote: >-
+        Throughout the evidence there was a real sense that people were
+        reticent about saying anything for fear of being wrong. It seems to
+        prevail over the fear of being right. That is why safeguarding
+        legislation requires action on suspicion or concern rather than leaving
+        it to the choice of the person who is concerned.
+
+  - text: The report finds that the hospital's Board received no reports on the deaths of babies and children at any point in the period, which it calls "a serious failure of governance", and that the hospital's risk systems failed to protect the babies on the unit.
+    cites: [3-9-meeting-board-directors, 3-70-risk-patient-safety, 3-74-risk-systems-processes]
+
+  - text: The report finds that when consultants raised their concerns in 2016 the hospital's executives chose to wait and see, then shut the consultants out of the hospital's own investigations and treated them as the problem. A grievance process required two consultants to apologise to the nurse and to take part in mediation, on pain of disciplinary action; the Inquiry calls the way the grievance was handled "deplorable".
+    cites: [3-39-outcome-meeting-decision, 3-55-baby-p-died, 3-133-finally-weatherley-held, 3-134-weatherley-read-papers]
+
+  - text: The Inquiry finds that the reviews the hospital commissioned could not answer the doctors' concern. The Royal College of Paediatrics and Child Health's then head of invited reviews accepted in evidence that its review should not have gone ahead, and the College's advice to hold an HR investigation was, in the Chair's words, "a serious misjudgement"; none of the reviews excluded deliberate harm.
+    cites: [3-81-eardley-acknowledged-evidence, 3-97-recommend-hr-investigation, 3-111-late-2016-early]
+    excerpt:
+      paragraph: 3-97-recommend-hr-investigation
+      quote: >-
+        To recommend an HR investigation when concerns had been expressed about
+        the deliberate harm and killing of babies was a serious misjudgement.
+        What was needed was a police investigation, with police powers to
+        search, seize phones, interview and so on.
+
+  - text: The report finds that the police should have been told earlier than they were, and that the then Chief Executive's intention throughout was "to stall or obstruct a police investigation", which he did for almost a year, until May 2017.
+    cites: [3-204-police-should-have, 3-203-15-may-2017]
+
+  - text: The Inquiry heard from parents who were told nothing of the concerns until the police contacted them in July 2018; it finds that the hospital should have told them as soon as the police were notified, and that it shared their babies' medical records with reviewers without their consent.
+    cites: [3-206-inquiry-heard-evidence, 3-83-eardley-asked-harvey, 3-101-before-commencing-her]
+    excerpt:
+      paragraph: 3-206-inquiry-heard-evidence
+      quote: >-
+        To the extent the executives thought about the parents at all, they
+        considered it better to say nothing in the belief that the police
+        investigation would lead nowhere. The parents should have been informed
+        by the hospital as soon as the police were notified. They had a right
+        to know.
+
+  - text: The report also finds failings outside the hospital. The Care Quality Commission's inspectors did not see the data on neonatal deaths it held, the coroner's office did not have the hospital's own review of the deaths before it at an inquest, and NHS England's staff were too ready to accept the hospital's assurances, though the Inquiry places the principal responsibility for NHS England not knowing of the possibility of deliberate harm on the hospital's Chief Executive, Medical Director and Director of Nursing.
+    cites: [3-25-report-did-not, 3-144-rheinberg-thought-thematic, 3-181-overall-witnesses-from]
+
+  - text: In Part Two the Chair looks beyond the Countess. The Inquiry's review of 30 years of NHS inquiries finds that most of their recommendations have not been implemented, and she recommends that the National Audit Office audit them. She recommends in-cot cameras in every neonatal unit, a duty of candour for NHS managers, a barring system for managers that moves towards full regulation, and a protocol for suspicion of deliberate harm in every Trust, and finds that the NHS's move to a 'no blame' culture was a mistake.
+    cites: [4-2-first-detailed-work, 4-5-within-government-there, 4-9-from-outset-inquiry, 4-24-government-s-response, 4-22-more-fundamentally-fact, 4-34-inquiry-heard-evidence, 4-26-move-towards-no]
+    excerpt:
+      paragraph: 4-2-first-detailed-work
+      quote: >-
+        The review shows that, whilst some significant changes have been
+        introduced in response to inquiry recommendations over the last 30
+        years, most have not been implemented.
+
+reading_guide:
+  - section: contents
+    title: "1. Introduction"
+    why: The Chair on what the report is and is not, the hospital and its neonatal unit, and the number of deaths on the unit year by year. (The section opens with the report's cover and contents.)
+
+  - section: 2-the-babies
+    why: The account the Chair puts first, of the babies on the indictment and what happened to them, drawn from the medical records and the evidence of their parents.
+
+  - section: 3-concerns-reviews-errors
+    why: The core of the Inquiry's findings, month by month from June 2015 to the arrest in July 2018 and the Inquiry that followed, on what the doctors raised, how the executives, reviewers, coroner, regulator and NHS England responded, and how long it took to call the police.
+    excerpt:
+      paragraph: 3-47-all-safeguarding-guidance
+      quote: >-
+        All the safeguarding guidance in the world makes no difference to the
+        safety of babies if those to whom concerns are expressed do nothing.
+
+  - section: part-two
+    why: The Chair's summary of each chapter of Part Two, from medical examiners and insulin to the regulation of managers, the duty of candour and the Care Quality Commission, and what she recommends.
+    excerpt:
+      paragraph: 4-32-if-suspicions-murder
+      quote: >-
+        If suspicions of murder have been raised in a hospital, the police must
+        also be called.
+
+highlights:
+  - paragraph: 3-47-all-safeguarding-guidance
+    quote: >-
+      All the safeguarding guidance in the world makes no difference to the
+      safety of babies if those to whom concerns are expressed do nothing.
+  - paragraph: 3-45-there-safeguarding-team
+    quote: >-
+      That is why safeguarding legislation requires action on suspicion or
+      concern rather than leaving it to the choice of the person who is
+      concerned.
+  - paragraph: 3-9-meeting-board-directors
+    quote: >-
+      the Board did not receive any reports about the deaths of babies
+      and children at any stage during the period I am considering.
+  - paragraph: 3-74-risk-systems-processes
+    quote: >-
+      The risk systems and processes failed in their principal purpose of
+      protecting patients, here the babies on the neonatal unit.
+  - paragraph: 3-25-report-did-not
+    quote: >-
+      Because the inspection team did not have the relevant data packs, they
+      did not ask the relevant questions. This was a serious failing by CQC.
+  - paragraph: 3-97-recommend-hr-investigation
+    quote: >-
+      What was needed was a police investigation, with police powers to search,
+      seize phones, interview and so on.
+  - paragraph: 3-204-police-should-have
+    quote: >-
+      The police should have been notified earlier than they were.
+  - paragraph: 3-206-inquiry-heard-evidence
+    quote: >-
+      The parents should have been informed by the hospital as soon as the
+      police were notified. They had a right to know.
+  - paragraph: 4-2-first-detailed-work
+    quote: >-
+      The review shows that, whilst some significant changes have been
+      introduced in response to inquiry recommendations over the last 30 years,
+      most have not been implemented.
+  - paragraph: 4-31-where-concerns-about
+    quote: >-
+      Where concerns about or suspicions of deliberate harm are raised against
+      healthcare staff, the most usual and correct response is to move the
+      person about whom the concern has been expressed to a post where they can
+      do no harm, or to suspend them altogether while the matter is
+      investigated.
+  - paragraph: 4-32-if-suspicions-murder
+    quote: >-
+      If suspicions of murder have been raised in a hospital, the police must
+      also be called.
+  - paragraph: 4-20-inquiry-heard-ample
+    quote: >-
+      The NHS must be prepared to dismiss senior managers for serious
+      misconduct.
+  - paragraph: 4-26-move-towards-no
+    quote: >-
+      The move towards a 'no blame' culture in the NHS, starting in 2000, was a
+      mistake.
+  - paragraph: 4-38-cqc-has-not
+    quote: >-
+      CQC has not often achieved its purpose since it was set up in 2009.

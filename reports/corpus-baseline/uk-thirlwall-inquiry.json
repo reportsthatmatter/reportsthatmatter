@@ -1,0 +1,30 @@
+{
+  "words": 38710,
+  "paragraphs": 470,
+  "sections": [
+    {
+      "slug": "contents",
+      "title": "Contents",
+      "paragraphs": 37,
+      "ids": "3c1656b14ef2"
+    },
+    {
+      "slug": "2-the-babies",
+      "title": "2. The babies",
+      "paragraphs": 162,
+      "ids": "8dc68d44998b"
+    },
+    {
+      "slug": "3-concerns-reviews-errors",
+      "title": "3. Concerns, reviews, errors",
+      "paragraphs": 225,
+      "ids": "ae7a803098f8"
+    },
+    {
+      "slug": "part-two",
+      "title": "Part Two",
+      "paragraphs": 46,
+      "ids": "96d803ee63a1"
+    }
+  ]
+}

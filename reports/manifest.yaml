@@ -49,3 +49,5 @@ reports:
     dir: ../uk-covid-inquiry-module-2
   - id: us-ica-2017-russia-elections
     dir: ../us-ica-2017-russia-elections
+  - id: uk-thirlwall-inquiry
+    dir: ../uk-thirlwall-inquiry
