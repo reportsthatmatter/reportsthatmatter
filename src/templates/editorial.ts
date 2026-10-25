@@ -60,7 +60,8 @@ export function renderHero(hero: Hero): string {
  * paragraph that says why a reader arriving cold should care.
  */
 export function renderStandfirst(editorial: Editorial): string {
-  return `<p class="landing-standfirst serif">${escapeHtml(editorial.whyItMatters)}</p>`;
+  // The introduction is ours, not the report's: say so where it starts (reportsthatmatter-xq4i).
+  return `<p class="kicker mono landing-label">Our introduction</p><p class="landing-standfirst serif">${escapeHtml(editorial.whyItMatters)}</p>`;
 }
 
 /**
@@ -141,5 +142,5 @@ export function renderOurNote(editorial: Editorial): string {
     editorial.status !== "approved"
       ? `<p class="landing-draft mono">Draft — not yet approved. Visible only with <code>?draft</code>.</p>`
       : "";
-  return `${draft}<p class="landing-note mono">Introduction by Reports that Matter. Only words in quotation marks are the report's own; every link opens them in context.</p>`;
+  return `${draft}<p class="landing-note mono">Introduction by Reports that Matter, not part of the report. Only words in quotation marks are the report's own; every link opens them in context.</p>`;
 }

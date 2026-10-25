@@ -704,8 +704,14 @@ app.get("/reports/:id", async (c) => {
       // or a shared quote arrives as a plain paragraph link.
       const quote = c.req.query("h");
       const anchor = quote ? `&h=${encodeURIComponent(quote)}` : "";
+      // Any other parameter (src=bsky, utm_*) survives too, so the visit is still attributed
+      // to where the link was shared (reportsthatmatter-xq4i).
+      const rest = new URLSearchParams(new URL(c.req.url).search);
+      rest.delete("p");
+      rest.delete("h");
+      const others = rest.toString() ? `&${rest.toString()}` : "";
       return c.redirect(
-        `/reports/${reportId}/${target.slug}?p=${encodeURIComponent(target.id)}${anchor}#${target.id}`,
+        `/reports/${reportId}/${target.slug}?p=${encodeURIComponent(target.id)}${anchor}${others}#${target.id}`,
         302
       );
     }
