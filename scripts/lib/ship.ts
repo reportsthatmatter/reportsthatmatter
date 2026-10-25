@@ -791,11 +791,12 @@ export function buildSteps(): Step[] {
       id: "record",
       title: "Record the release: quality-last, verify-last, scores",
       kind: "write",
-      describe: () => ["pnpm quality ratchet --record   (reports/quality-last.json)", "pnpm scorecard --record           (reports/verify-last.json, docs/scores.json; re-runs score and verify, minutes)", "then YOU: commit those files in a PR, record the release in the changelog, close the beads"],
+      describe: () => ["pnpm quality ratchet --record   (reports/quality-last.json)", "pnpm scorecard --record           (reports/verify-last.json, docs/scores.json; re-runs score and verify, minutes)", "pnpm grade --record               (reports/grades.json, grades.md, grades-history.jsonl; reads the records above)", "then YOU: commit those files in a PR, record the release in the changelog, close the beads"],
       async run(rt) {
         await item(rt, "record", "quality", pnpm("quality", "ratchet", "--record"), ["pnpm quality ratchet --record"]);
         await item(rt, "record", "scorecard", pnpm("scorecard", "--record"), ["pnpm scorecard --record  (reads the pipeline's own verify run)"]);
-        rt.out("  Now: commit reports/quality-last.json reports/verify-last.json docs/scores.json in a PR, add the changelog entry (AGENTS.md, Changelog), close the beads, `bd dolt push`.");
+        await item(rt, "record", "grade", pnpm("grade", "--record"), ["pnpm grade --record"]);
+        rt.out("  Now: commit reports/quality-last.json reports/verify-last.json docs/scores.json reports/grades.json reports/grades.md reports/grades-history.jsonl in a PR, add the changelog entry (AGENTS.md, Changelog), close the beads, `bd dolt push`.");
       },
     },
   ];

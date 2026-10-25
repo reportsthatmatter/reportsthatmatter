@@ -2,7 +2,9 @@
  * The release scorecard (38s.6): parsing `pnpm ingest verify` into the oracle counts and golden-page tables,
  * and diffing them against the copy recorded at the last release (reports/verify-last.json).
  */
-export type VerifyReport = { oracle: Record<string, number> | null; golden: { match: number; total: number; known: number } | null };
+export type OracleScore = { tp: number; fp: number; fn: number };
+/** `goldenOracle`: the oracle's tp/fp/fn on this report's golden pages (the "oracle on golden pages" line), where verify printed one; `pnpm grade` (38s.16) takes per-report precision from it. */
+export type VerifyReport = { oracle: Record<string, number> | null; golden: { match: number; total: number; known: number } | null; goldenOracle?: Record<string, OracleScore> };
 export type VerifyRecord = { reports: Record<string, VerifyReport>; oracleVsGolden: Record<string, { tp: number; fp: number; fn: number }> };
 
 const ANSI = /\x1b\[[0-9;]*m/g;
@@ -34,6 +36,8 @@ export function parseVerify(output: string): VerifyRecord {
     if (o) reports[current].oracle = Object.fromEntries([...o[1].matchAll(/([a-z-]+) (\d+)/g)].map((m) => [m[1], +m[2]]));
     const g = line.match(/golden pages — (\d+)\/(\d+) match the PDF(?:, (\d+) known failure)?/);
     if (g) reports[current].golden = { match: +g[1], total: +g[2], known: +(g[3] ?? 0) };
+    const go = line.match(/oracle on golden pages: (.+)$/);
+    if (go) reports[current].goldenOracle = Object.fromEntries([...go[1].matchAll(/([a-z-]+) tp(\d+)\/fp(\d+)\/fn(\d+)/g)].map((m) => [m[1], { tp: +m[2], fp: +m[3], fn: +m[4] }]));
   }
   return { reports, oracleVsGolden };
 }
