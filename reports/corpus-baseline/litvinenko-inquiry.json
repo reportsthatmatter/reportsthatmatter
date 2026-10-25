@@ -1,12 +1,12 @@
 {
-  "words": 135021,
-  "paragraphs": 2136,
+  "words": 134900,
+  "paragraphs": 2000,
   "sections": [
     {
-      "slug": "front-matter",
-      "title": "Front matter",
-      "paragraphs": 47,
-      "ids": "fb666f58c83e"
+      "slug": "contents",
+      "title": "Contents",
+      "paragraphs": 41,
+      "ids": "021a57da8dee"
     },
     {
       "slug": "part-1-preface",
@@ -23,8 +23,8 @@
     {
       "slug": "part-3-alexander-litvinenko-his-life-in-russia-and-the-united-kingdom-his-illnes",
       "title": "Part 3: Alexander Litvinenko – his life in Russia and the United Kingdom, his illness and death",
-      "paragraphs": 86,
-      "ids": "f53991ee7591"
+      "paragraphs": 76,
+      "ids": "5d511e4e7cd8"
     },
     {
       "slug": "chapter-2-leaving-russia",
@@ -35,26 +35,26 @@
     {
       "slug": "chapter-3-in-the-united-kingdom",
       "title": "Chapter 3: In the United Kingdom",
-      "paragraphs": 23,
-      "ids": "7374c10b2978"
+      "paragraphs": 18,
+      "ids": "37c832c043b2"
     },
     {
       "slug": "chapter-4-illness-and-death",
       "title": "Chapter 4: Illness and death",
-      "paragraphs": 84,
-      "ids": "91de7c4209e1"
+      "paragraphs": 75,
+      "ids": "2ec14b905aea"
     },
     {
       "slug": "chapter-5-scientific-examination-of-alexander-litvinenkos-body",
       "title": "Chapter 5: Scientific examination of Alexander Litvinenko's body",
-      "paragraphs": 46,
-      "ids": "fabab5d88175"
+      "paragraphs": 39,
+      "ids": "4d7d5509c1c2"
     },
     {
       "slug": "part-4-why-would-anyone-wish-to-kill-alexander-litvinenko",
       "title": "Part 4: Why would anyone wish to kill Alexander Litvinenko?",
-      "paragraphs": 61,
-      "ids": "b8ca28765bf7"
+      "paragraphs": 58,
+      "ids": "e73c3b745cd1"
     },
     {
       "slug": "chapter-3-work-for-uk-intelligence-agencies",
@@ -65,8 +65,8 @@
     {
       "slug": "chapter-4-work-for-the-mitrokhin-commission-in-italy",
       "title": "Chapter 4: Work for the Mitrokhin Commission in Italy",
-      "paragraphs": 27,
-      "ids": "49e078dfdc6f"
+      "paragraphs": 26,
+      "ids": "3ce1b26d80bc"
     },
     {
       "slug": "chapter-5-work-for-the-spanish-security-services",
@@ -77,14 +77,14 @@
     {
       "slug": "chapter-6-private-security-work",
       "title": "Chapter 6: Private security work",
-      "paragraphs": 62,
-      "ids": "6428af07c7e1"
+      "paragraphs": 56,
+      "ids": "8a14f7ba0492"
     },
     {
-      "slug": "chapter-2-the-2006-russian-laws",
-      "title": "Chapter 2: The 2006 Russian laws",
-      "paragraphs": 42,
-      "ids": "193aec5facef"
+      "slug": "part-5-alexander-litvinenkos-final-months",
+      "title": "Part 5: Alexander Litvinenko's final months",
+      "paragraphs": 38,
+      "ids": "96b350ebac53"
     },
     {
       "slug": "chapter-3-continued-opposition-to-president-putin",
@@ -137,32 +137,32 @@
     {
       "slug": "chapter-4-visa-applications",
       "title": "Chapter 4: Visa applications",
-      "paragraphs": 23,
-      "ids": "91c6452eb57c"
+      "paragraphs": 21,
+      "ids": "e151bf7c8c61"
     },
     {
       "slug": "chapter-5-events-in-london-16-18-october",
       "title": "Chapter 5: Events in London 16-18 October",
-      "paragraphs": 120,
-      "ids": "f82fe665a0be"
+      "paragraphs": 111,
+      "ids": "ebce1d4aefeb"
     },
     {
       "slug": "chapter-6-events-in-london-25-28-october",
       "title": "Chapter 6: Events in London 25-28 October",
-      "paragraphs": 45,
-      "ids": "868493858a3d"
+      "paragraphs": 40,
+      "ids": "80da5bf80664"
     },
     {
       "slug": "chapter-7-events-in-hamburg-28-october-1-november",
       "title": "Chapter 7: Events in Hamburg 28 October – 1 November",
-      "paragraphs": 52,
-      "ids": "20e361bcc6d5"
+      "paragraphs": 47,
+      "ids": "9ce7189f621d"
     },
     {
       "slug": "chapter-8-events-in-london-31-october-3-november",
       "title": "Chapter 8: Events in London 31 October – 3 November",
-      "paragraphs": 146,
-      "ids": "6597b9e18c9a"
+      "paragraphs": 135,
+      "ids": "a1dd914b15ac"
     },
     {
       "slug": "part-7-the-closed-evidence",
@@ -191,26 +191,26 @@
     {
       "slug": "chapter-5-did-alexander-litvinenko-poison-himself",
       "title": "Chapter 5: Did Alexander Litvinenko poison himself?",
-      "paragraphs": 21,
-      "ids": "96ab8801e379"
+      "paragraphs": 18,
+      "ids": "7e121169dfb0"
     },
     {
       "slug": "chapter-6-who-administered-the-poison",
       "title": "Chapter 6: Who administered the poison?",
-      "paragraphs": 118,
-      "ids": "e523d123318b"
+      "paragraphs": 106,
+      "ids": "e111e2894324"
     },
     {
       "slug": "part-9-who-directed-the-killing",
       "title": "Part 9: Who directed the killing?",
-      "paragraphs": 19,
-      "ids": "690bb07542d2"
+      "paragraphs": 25,
+      "ids": "201a1bb6fc4a"
     },
     {
-      "slug": "chapter-4-organised-crime",
-      "title": "Chapter 4: Organised crime",
-      "paragraphs": 15,
-      "ids": "09934190ab65"
+      "slug": "chapter-5-mario-scaramella-chechen-groups-alexander-talik",
+      "title": "Chapter 5: Mario Scaramella, Chechen groups, Alexander Talik",
+      "paragraphs": 7,
+      "ids": "30a7e793c555"
     },
     {
       "slug": "chapter-6-russian-state-responsibility-introduction",
@@ -221,14 +221,14 @@
     {
       "slug": "chapter-7-russian-state-responsibility-the-source-of-the-polonium-210",
       "title": "Chapter 7: Russian State responsibility – the source of the polonium 210",
-      "paragraphs": 79,
-      "ids": "2cf56a213906"
+      "paragraphs": 72,
+      "ids": "0966901a2425"
     },
     {
       "slug": "chapter-8-russian-state-responsibility-motive-and-evidence-of-similar-deaths-and",
       "title": "Chapter 8: Russian State responsibility – motive and evidence of similar deaths and killings",
-      "paragraphs": 41,
-      "ids": "3541ce484964"
+      "paragraphs": 39,
+      "ids": "f520baad2d2b"
     },
     {
       "slug": "chapter-9-russian-state-responsibility-links-between-andrey-lugovoy-and-dmitri-k",
@@ -239,8 +239,8 @@
     {
       "slug": "chapter-10-russian-state-responsibility-events-since-alexander-litvinenkos-death",
       "title": "Chapter 10: Russian State responsibility – events since Alexander Litvinenko's death",
-      "paragraphs": 28,
-      "ids": "8a78d16c89a4"
+      "paragraphs": 24,
+      "ids": "eaf9405fa9fd"
     },
     {
       "slug": "chapter-11-conclusions-regarding-russian-state-responsibility",
@@ -263,8 +263,50 @@
     {
       "slug": "appendix-1-the-history-of-the-inquiry-and-procedures-adopted",
       "title": "Appendix 1: The history of the Inquiry and procedures adopted",
-      "paragraphs": 187,
-      "ids": "b7f3187a7e42"
+      "paragraphs": 9,
+      "ids": "9f7198ccfde0"
+    },
+    {
+      "slug": "the-inquest-proceedings",
+      "title": "The inquest proceedings",
+      "paragraphs": 29,
+      "ids": "60a7c2038a3d"
+    },
+    {
+      "slug": "government-disclosure-and-public-interest-immunity",
+      "title": "Government disclosure and public interest immunity",
+      "paragraphs": 27,
+      "ids": "6e38296e390f"
+    },
+    {
+      "slug": "the-steps-to-an-inquiry",
+      "title": "The steps to an inquiry",
+      "paragraphs": 30,
+      "ids": "fff69a00ec6b"
+    },
+    {
+      "slug": "anonymity-restriction-orders",
+      "title": "Anonymity – restriction orders",
+      "paragraphs": 23,
+      "ids": "072bc631cf71"
+    },
+    {
+      "slug": "public-access-to-hearings",
+      "title": "Public access to hearings",
+      "paragraphs": 28,
+      "ids": "60a84997c792"
+    },
+    {
+      "slug": "the-substantive-hearings",
+      "title": "The substantive hearings",
+      "paragraphs": 11,
+      "ids": "b7d415e72908"
+    },
+    {
+      "slug": "miscellaneous-procedural-matters",
+      "title": "Miscellaneous procedural matters",
+      "paragraphs": 14,
+      "ids": "b211de61b269"
     },
     {
       "slug": "appendix-2-terms-of-reference",
@@ -275,8 +317,8 @@
     {
       "slug": "appendix-3-list-of-issues",
       "title": "Appendix 3: List of Issues",
-      "paragraphs": 17,
-      "ids": "054a7a257ff4"
+      "paragraphs": 15,
+      "ids": "034f1c45e7e6"
     },
     {
       "slug": "appendix-4-chronology",
@@ -299,14 +341,26 @@
     {
       "slug": "appendix-7-restriction-notices-and-orders",
       "title": "Appendix 7: Restriction Notices and Orders",
-      "paragraphs": 154,
-      "ids": "23093ac4d1e8"
+      "paragraphs": 31,
+      "ids": "4bea965572bb"
+    },
+    {
+      "slug": "restriction-notice-no-2",
+      "title": "RESTRICTION NOTICE No. 2",
+      "paragraphs": 28,
+      "ids": "aa44b47f053f"
+    },
+    {
+      "slug": "restriction-notice-no-3",
+      "title": "RESTRICTION NOTICE No. 3",
+      "paragraphs": 91,
+      "ids": "c59bab97be36"
     },
     {
       "slug": "appendix-8-key-documents",
       "title": "Appendix 8: Key documents",
-      "paragraphs": 22,
-      "ids": "5cd6409abf77"
+      "paragraphs": 21,
+      "ids": "e489fb24c7c3"
     },
     {
       "slug": "appendix-9-list-of-witnesses",
@@ -318,13 +372,13 @@
       "slug": "appendix-10-list-of-inquiry-staff-and-counsel",
       "title": "Appendix 10: List of Inquiry staff and counsel",
       "paragraphs": 3,
-      "ids": "42f1da75c0e6"
+      "ids": "087e343e62ab"
     },
     {
       "slug": "appendix-11-list-of-core-participants-and-legal-representatives",
       "title": "Appendix 11: List of core participants and legal representatives",
       "paragraphs": 14,
-      "ids": "dfe063cb037b"
+      "ids": "af2aea48723f"
     }
   ]
 }

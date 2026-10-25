@@ -41,6 +41,17 @@ describe("alias generation", () => {
     expect(lost).toEqual([]);
   });
 
+  it("sends a paragraph that became a heading to the first paragraph under it (men)", () => {
+    // before: the sub-heading "Treatment in Barnet Hospital" read as a one-line paragraph; after: a heading
+    const old = render(doc({ Chapter: [A, "Treatment in Barnet Hospital", B, "Chapter 5: Mario Scaramella, Chechen groups,", C] }));
+    const now = render(doc({ Chapter: [A, "#### Treatment in Barnet Hospital", B, "#### Chapter 5: Mario Scaramella, Chechen groups, Alexander Talik", C] }));
+    const idOf = (r: Rendered, text: string) => r.passages.find((p) => p.text.startsWith(text))!.id;
+    const { moved, lost } = computeMoves(old, now);
+    expect(moved[idOf(old, "Treatment in Barnet")]).toBe(idOf(now, B.slice(0, 20)));
+    expect(moved[idOf(old, "Chapter 5: Mario")]).toBe(idOf(now, C.slice(0, 20)));
+    expect(lost).toEqual([]);
+  });
+
   it("reports an id whose text is gone as lost, and unmatched in the file", () => {
     const after = render(doc({ "The decision": [A, B] }));
     const file = fold(emptyAliases(), before, after);
