@@ -770,6 +770,41 @@
     }
    }
   },
+  "uk-southport-inquiry": {
+   "oracle": {
+    "headings-missed": 31,
+    "headings-spurious": 1,
+    "markers-unlinked": 0,
+    "markers-spurious": 28,
+    "paragraphs-oversplit": 165,
+    "paragraphs-merged": 862,
+    "quotes-spurious": 11,
+    "quotes-missed": 225,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 7,
+    "total": 7,
+    "known": 0
+   },
+   "goldenOracle": {
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 18,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 3,
+     "fn": 0
+    }
+   }
+  },
   "us-ica-2017-russia-elections": {
    "oracle": {
     "headings-missed": 6,
@@ -874,12 +909,12 @@
   },
   "paragraphs-oversplit": {
    "tp": 8,
-   "fp": 18,
+   "fp": 19,
    "fn": 31
   },
   "paragraphs-merged": {
    "tp": 5,
-   "fp": 255,
+   "fp": 273,
    "fn": 1
   },
   "quotes-spurious": {
@@ -889,7 +924,7 @@
   },
   "quotes-missed": {
    "tp": 3,
-   "fp": 40,
+   "fp": 43,
    "fn": 1
   }
  }
