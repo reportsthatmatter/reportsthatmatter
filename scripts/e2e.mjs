@@ -44,6 +44,11 @@ page.on("console", (msg) => {
   if (msg.type() === "error") consoleErrors.push(msg.text());
 });
 const failedRequests = [];
+// 3gx4: fonts are self-hosted; no page may ask Google for them.
+const googleFontRequests = [];
+page.on("request", (req) => {
+  if (/fonts\.(googleapis|gstatic)\.com/.test(req.url())) googleFontRequests.push(req.url());
+});
 page.on("requestfailed", (req) => {
   // Chromium detaches a keepalive fetch from the page that started it and
   // hands it to the browser process, so it can outlive a navigation — that is
@@ -520,6 +525,7 @@ if (firstReportId) {
 
 check(consoleErrors.length === 0, "no console errors", consoleErrors.join(" | "));
 check(failedRequests.length === 0, "no failed requests", failedRequests.join(" | "));
+check(googleFontRequests.length === 0, "no request to fonts.googleapis.com or fonts.gstatic.com", googleFontRequests.join(" | "));
 
 await browser.close();
 
