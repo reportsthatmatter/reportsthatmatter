@@ -163,6 +163,26 @@ if (firstReportId) {
       .evaluate((el) => el.getBoundingClientRect().height);
     check(before < 200, "long sidenote is clamped by default", `${Math.round(before)}px`);
     check(after > before, "long sidenote expands on click", `${Math.round(before)} -> ${Math.round(after)}`);
+
+    // 3rj: the control stays once open, says "Show less", and puts the clamp back.
+    const less = await page
+      .locator(".sidenote.long")
+      .first()
+      .locator(".sidenote-expand")
+      .evaluate((el) => ({ visible: el.getBoundingClientRect().height > 0, text: getComputedStyle(el, "::after").content }));
+    check(less.visible && /Show less/.test(less.text), "expanded sidenote offers Show less", less.text);
+    await page.locator(".sidenote-expand").first().click();
+    const collapsed = await page
+      .locator(".sidenote.long")
+      .first()
+      .evaluate((el) => el.getBoundingClientRect().height);
+    check(Math.abs(collapsed - before) < 2, "long sidenote collapses again", `${Math.round(after)} -> ${Math.round(collapsed)}`);
+    // Keyboard: Space on the focused checkbox toggles it too.
+    await page.locator(".sidenote-checkbox:has(+ .sidenote.long)").first().focus();
+    await page.keyboard.press("Space");
+    const viaKeys = await page.locator(".sidenote.long").first().evaluate((el) => el.getBoundingClientRect().height);
+    check(viaKeys > before, "long sidenote expands from the keyboard", `${Math.round(viaKeys)}px`);
+    await page.keyboard.press("Space");
   }
 
   // :target highlight actually applies
