@@ -207,6 +207,46 @@ export function frontispiece(id: string | undefined): string {
   return `<div class="frontispiece" aria-hidden="true"><img src="/assets/marks/${escapeHtml(id)}.webp" alt="" width="${Math.round(mark.width * scale)}" height="${Math.round(mark.height * scale)}" decoding="async" /></div>`;
 }
 
+/**
+ * `/full` for a link-preview fetcher when the real page is too big for it to read (decision 0019):
+ * the same head as `renderReport` (title, description, card, canonical), a one-paragraph summary
+ * and a link to the contents page. Never served to anyone else.
+ */
+export function renderReportPreviewOnly(
+  meta: ReportMeta,
+  summary: string,
+  quoted: string | null,
+  highlighted?: string,
+  anchor?: string
+): string {
+  const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
+  const { title, description, image, imageAlt } = reportPreview(meta, quoted, highlighted, anchor);
+  const id = escapeHtml(meta.id ?? "");
+  const body = `
+<main>
+  <article>
+    <header class="report-header wrap">
+      <div class="measure">
+        <p class="kicker mono">Report</p>
+        <h1>${escapeHtml(meta.title)}</h1>
+        ${byline ? `<p class="byline mono">${escapeHtml(byline)}</p>` : ""}
+        ${quoted ? `<blockquote class="serif">“${escapeHtml(truncate(quoted, 400))}”</blockquote>` : ""}
+        <p>${escapeHtml(summary)}</p>
+        <p class="mono"><a href="/reports/${id}">Read ${escapeHtml(meta.title)}: contents and linkable paragraphs →</a></p>
+      </div>
+    </header>
+  </article>
+</main>`;
+  return renderLayout(title, body, {
+    description,
+    image,
+    imageAlt,
+    url: sharedUrl(`/reports/${meta.id ?? ""}/full`, highlighted, anchor),
+    canonical: `${SITE_ORIGIN}/reports/${meta.id ?? ""}/full`,
+    extraMeta: citationMeta(meta),
+  });
+}
+
 export function renderReport(
   meta: ReportMeta,
   html: string,

@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import { isPreviewAgent, FULL_PREVIEW_THRESHOLD_BYTES } from "./lib/preview-agents";
 import { resolveParagraph, resolveSection } from "./lib/aliases";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog, loadPostFiles } from "./lib/source";
@@ -7,7 +8,7 @@ import { parseSubscription, recordSubscription, isSameSite, MAX_BODY_BYTES } fro
 import { renderNewsletterPage, signupMessage, type SignupOutcome } from "./templates/newsletter";
 import { renderBlogIndex, renderPostPage, renderAtomFeed } from "./templates/blog";
 import { renderIndex, renderReportsIndex } from "./templates/index";
-import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
+import { renderReport, renderReportPreviewOnly, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderProcessing } from "./templates/processing";
 import { renderPress } from "./templates/press";
@@ -818,10 +819,13 @@ app.get("/reports/:id/full", async (c) => {
   const reportId = c.req.param("id");
   const p = c.req.query("p");
   const h = c.req.query("h");
+  // Decision 0019 (B): the page differs by agent for a very large /full, so say so to caches.
+  const previewAgent = isPreviewAgent(c.req.header("user-agent"));
 
-  return maybeCached(c, Boolean(p || h), async () => {
+  return maybeCached(c, Boolean(p || h) && !previewAgent, async () => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
+    c.header("Vary", "User-Agent");
 
     const moved = p ? resolveParagraph(loaded.meta, p) : null;
     if (moved && moved.id !== p) {
@@ -833,6 +837,18 @@ app.get("/reports/:id/full", async (c) => {
 
     const body = await loadFullBody(loaded.content);
     if (body === null) return c.html(renderNotFound(false), 404);
+
+    if (previewAgent && body.length > FULL_PREVIEW_THRESHOLD_BYTES) {
+      // The quoted words come from the one section holding the paragraph, never the whole body.
+      let quoted: string | null = null;
+      const slug = p ? loaded.meta.paragraphToSection[p] : undefined;
+      const fragment = slug ? await loadFragment(loaded.content, slug) : null;
+      if (p && fragment) quoted = quotedPassage(fragment, p, h);
+      const editorial = EDITORIAL[reportId];
+      const summary = editorial?.status === "approved" ? editorial.whyItMatters : `${loaded.report.title}. Read the full text with linkable paragraphs.`;
+      c.header("x-rtm-content-version", loaded.content.version);
+      return c.html(renderReportPreviewOnly(loaded.report, summary, quoted, p, h));
+    }
 
     const processingNotes = (await loadProcessingNotes(c.env?.ASSETS, reportId)) !== null;
     c.header("x-rtm-content-version", loaded.content.version);

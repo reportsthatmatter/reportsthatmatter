@@ -1,6 +1,7 @@
 import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
+import { HEAVY_FULL_WORDS } from "../lib/preview-agents";
 import { quotedPassage, truncate, capDescription, firstSentence, quoteDescription, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear, sourceAttributes } from "./report";
 import { SITE_ORIGIN } from "./site";
 import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-data";
@@ -147,7 +148,12 @@ export function renderReportOverview(
       <p class="section-label mono">Contents</p>
       <ul class="report-list">${items}</ul>
       <p class="mono" style="margin-top:2rem">
-        <a href="/reports/${escapeHtml(meta.id ?? "")}/full">Read the whole report on one page →</a>
+        ${
+          // Decision 0019 (E): a report whose /full is several MB says so, so a phone reader does not load it by accident.
+          stats.words >= HEAVY_FULL_WORDS
+            ? `<a href="/reports/${escapeHtml(meta.id ?? "")}/full" data-heavy-full>Read the whole report on one page (about ${Math.round((stats.words * 10) / 1_000_000)} MB: slow on a phone, best on a computer) →</a>`
+            : `<a href="/reports/${escapeHtml(meta.id ?? "")}/full">Read the whole report on one page →</a>`
+        }
       </p>
     </section>
     ${
