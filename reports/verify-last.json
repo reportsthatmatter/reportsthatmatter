@@ -809,13 +809,53 @@
      "fn": 0
     }
    }
+  },
+  "uk-thirlwall-inquiry": {
+   "oracle": {
+    "headings-missed": 31,
+    "headings-spurious": 1,
+    "markers-unlinked": 0,
+    "markers-spurious": 0,
+    "paragraphs-oversplit": 3,
+    "paragraphs-merged": 139,
+    "quotes-spurious": 0,
+    "quotes-missed": 5,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 0,
+    "total": 8,
+    "known": 8
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 3
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 4
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 6,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    }
+   }
   }
  },
  "oracleVsGolden": {
   "headings-missed": {
-   "tp": 12,
-   "fp": 30,
-   "fn": 4
+   "tp": 13,
+   "fp": 31,
+   "fn": 7
   },
   "headings-spurious": {
    "tp": 0,
@@ -835,11 +875,11 @@
   "paragraphs-oversplit": {
    "tp": 8,
    "fp": 18,
-   "fn": 27
+   "fn": 31
   },
   "paragraphs-merged": {
    "tp": 5,
-   "fp": 249,
+   "fp": 255,
    "fn": 1
   },
   "quotes-spurious": {
@@ -850,7 +890,7 @@
   "quotes-missed": {
    "tp": 3,
    "fp": 40,
-   "fn": 0
+   "fn": 1
   }
  }
 }
