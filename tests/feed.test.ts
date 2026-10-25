@@ -230,7 +230,7 @@ describe("publishMark", () => {
       ctx as any
     );
     expect(res.status).toBe(204);
-    expect(pending).toHaveLength(1);
+    expect(pending).toHaveLength(2); // the cached counts being evicted (6kky), and the feed row
     await Promise.all(pending);
     expect(published(db)).toHaveLength(1);
   });
