@@ -1,5 +1,5 @@
 {
-  "ingest": "v0.30.0",
+  "ingest": "v0.31.0",
   "recorded": "2026-10-25",
   "reports": {
     "challenger-accident": {
@@ -456,11 +456,11 @@
       "severed-paragraph-capital": 25,
       "numbered-paragraph-glued": 0,
       "unnumbered-page-opening": 0,
-      "bare-footnote-marker": 54,
-      "bare-marker-after-quote": 19,
+      "bare-footnote-marker": 43,
+      "bare-marker-after-quote": 5,
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
-      "note-reference-sequence": 128,
+      "note-reference-sequence": 105,
       "note-text-in-body": 7,
       "note-citation-vocabulary": 0,
       "furniture-paragraph": 49,
@@ -473,7 +473,7 @@
       "printed-page-reversal": 1,
       "rendered-h1": 0,
       "chapter-intro-misfiled": 0,
-      "rendered-ol-words-share": 3,
+      "rendered-ol-words-share": 2,
       "numbered-prose-list": 0,
       "ids-per-1k-words": 0,
       "quote-share-parity": 2
