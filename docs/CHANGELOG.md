@@ -7,6 +7,16 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-25 — An introduction to the Covid Inquiry's Module 2 report
+
+[The UK Covid-19 Inquiry's report on core decision-making](/reports/uk-covid-inquiry-module-2) (Volume I, November 2025) now opens with our introduction: what the report covers, how the Inquiry worked, eight of its findings with the paragraphs behind them, and six sections to read first. The landing page shows Liverpool Street Station almost empty on 21 May 2020. [The 2017 Intelligence Community Assessment](/reports/us-ica-2017-russia-elections) gains a photograph of the CIA's original headquarters.
+
+![Covid Inquiry Module 2 landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-10-25-covid-intro-heroes/1-covid-landing-desktop.png)
+
+[More screenshots](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md#2026-10-25--covid-inquiry-module-2-introduction-and-hero-ica-2017-hero)
+
+---
+
 ## 2026-10-24 — A monthly newsletter, and blog posts that share well
 
 You can now sign up for a monthly email from the archive: a few passages worth reading again, sometimes tied to the date or the news, each linked to its place in the report. The form is at the end of the homepage, every report's contents and sections, and the [blog](/blog); [the newsletter page](/newsletter) says exactly what we keep (your address, the time and which page you signed up on) and that you will be asked to confirm before the first issue. Every issue will also be a blog post. Blog posts now carry their own share card instead of the site's.
