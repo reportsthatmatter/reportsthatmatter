@@ -225,7 +225,7 @@ units:
   - id: uk-thirlwall-inquiry
     scope: "Summary report (HC 601, 15 September 2026)"
     bead: reportsthatmatter-gqsy.16
-    reached: editorial
+    reached: publish
     state: active
     waive:
       editorial.card-highlights: reportsthatmatter-6j4h
