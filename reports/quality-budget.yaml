@@ -231,17 +231,17 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   uk-leveson-inquiry:
-    severed-into-quote: 323
-    severed-paragraph: 25  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
+    severed-into-quote: 145
+    severed-paragraph: 14
     bare-footnote-marker: 6
     bare-marker-after-quote: 1
     note-marker-wrong-note: 0
-    note-marker-unpaired: 1
-    note-reference-sequence: 12
+    note-marker-unpaired: 0
+    note-reference-sequence: 11
     note-text-in-body: 1
     note-citation-vocabulary: 0
-    furniture-paragraph: 149
-    contents-entry-without-heading: 1331
+    furniture-paragraph: 140
+    contents-entry-without-heading: 1287
     heading-density: 0
     heading-repeated: 3
     heading-function-word: 1
@@ -253,7 +253,7 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 26  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: reportsthatmatter-fkx (facingPageMargins: quotations 20.9% of blocks on even pages, 19.5% on odd, gap 1.4; no side-of-spread defect, which reads ~90 (Deepwater). The share rose on both sides because 2,595 oversplit fragments rejoined and quotations the gutter had made prose are quotations again: oracle quotes-missed 1,242 -> 657, quotes-spurious 319 -> 256)
   uk-post-office-horizon-inquiry:
     severed-into-quote: 5  # why: reportsthatmatter-gqsy.2 (first ingest; quotations run on from their lead-in)
     severed-paragraph: 0

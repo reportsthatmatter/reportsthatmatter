@@ -43,9 +43,9 @@ items:
     card: assets/cards/us-mueller-report/q-a0da52f5.png
     scheduled: 2026-10-25
     posted_url: null
-  - id: uk-leveson-inquiry:legislative-proposal-does-no-more:6f4f7e41
+  - id: uk-leveson-inquiry:7-4-order-give-effect:6f4f7e41
     report: uk-leveson-inquiry
-    paragraph: legislative-proposal-does-no-more
+    paragraph: 7-4-order-give-effect
     quote: This is not, and cannot be characterised as, regulation of the press.
     hook: In July 2011, amid a phone-hacking scandal, the News of the World closed
       after 168 years. The judge-led inquiry that followed proposed a press
@@ -59,8 +59,8 @@ items:
 
 
       — Leveson Report, p. 1781
-    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more&h=described%20are%20to%20be%20made%20use%20of.%20|This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|&src=bsky
-    card: assets/cards/uk-leveson-inquiry/q-8c18f02a.png
+    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=7-4-order-give-effect&h=described%20are%20to%20be%20made%20use%20of.%20|This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|&src=bsky
+    card: assets/cards/uk-leveson-inquiry/q-453e8fa5.png
     scheduled: 2026-10-26
     posted_url: null
   - id: us-mueller-report:fourth-if-we-had-confidence:eb9effeb
@@ -261,9 +261,9 @@ items:
     card: assets/cards/us-v-philip-morris/q-ba1309d6.png
     scheduled: 2026-11-05
     posted_url: null
-  - id: uk-leveson-inquiry:suffice-say-bearing-mind-my:16ecb582
+  - id: uk-leveson-inquiry:7-10-unfortunately-there-may:16ecb582
     report: uk-leveson-inquiry
-    paragraph: suffice-say-bearing-mind-my
+    paragraph: 7-10-unfortunately-there-may
     quote: Suffice to say, bearing in mind my duty to consider the interests of the
       public, my view is that there would then be no alternative but to provide
       in legislation for a backstop regulator to apply and enforce a Code.
@@ -277,8 +277,8 @@ items:
 
 
       — Leveson Report, p. 1782
-    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=suffice-say-bearing-mind-my&h=|Suffice%20to%20say%2C%20bearing%20in%20mind%20my%20duty%20to%20consider%20the%20interests%20of%20the%20public%2C%20my%20view%20is%20that%20there%20would%20then%20be%20no%20alternative%20but%20to%20provide%20in%20legislation%20for%20a%20backstop%20regulator%20to%20apply%20and%20enforce%20a%20Code.|&src=bsky
-    card: assets/cards/uk-leveson-inquiry/q-766adfa6.png
+    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=7-10-unfortunately-there-may&h=|Suffice%20to%20say%2C%20bearing%20in%20mind%20my%20duty%20to%20consider%20the%20interests%20of%20the%20public%2C%20my%20view%20is%20that%20there%20would%20then%20be%20no%20alternative%20but%20to%20provide%20in%20legislation%20for%20a%20backstop%20regulator%20to%20apply%20and%20enforce%20a%20Code.|&src=bsky
+    card: assets/cards/uk-leveson-inquiry/q-d07bad25.png
     scheduled: 2026-11-06
     posted_url: null
   - id: us-911-commission:summary-neads-received-notice-hijacking:91036b07

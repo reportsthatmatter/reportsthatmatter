@@ -2225,19 +2225,14 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "7-4-order-give-effect",
             "page": 1781,
             "href": "/reports/uk-leveson-inquiry?p=7-4-order-give-effect"
-          },
-          {
-            "id": "legislative-proposal-does-no-more",
-            "page": 1781,
-            "href": "/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more"
           }
         ],
         "excerpt": {
           "quote": "This legislative proposal does no more than ensure an appropriate degree of independence and effectiveness on the part of the self-regulatory body if the incentives described are to be made use of. This is not, and cannot be characterised as, regulation of the press.",
           "cite": {
-            "id": "legislative-proposal-does-no-more",
+            "id": "7-4-order-give-effect",
             "page": 1781,
-            "href": "/reports/uk-leveson-inquiry?p=legislative-proposal-does-no-more&h=|This%20legislative%20proposal%20does%20no%20more%20than%20ensure%20an%20appropriate%20degree%20of%20independence%20and%20effectiveness%20on%20the%20part%20of%20the%20self-regulatory%20body%20if%20the%20incentives%20described%20are%20to%20be%20made%20use%20of.%20This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|"
+            "href": "/reports/uk-leveson-inquiry?p=7-4-order-give-effect&h=recognition%20in%20legal%20processes.%20|This%20legislative%20proposal%20does%20no%20more%20than%20ensure%20an%20appropriate%20degree%20of%20independence%20and%20effectiveness%20on%20the%20part%20of%20the%20self-regulatory%20body%20if%20the%20incentives%20described%20are%20to%20be%20made%20use%20of.%20This%20is%20not%2C%20and%20cannot%20be%20characterised%20as%2C%20regulation%20of%20the%20press.|"
           }
         }
       },
@@ -2248,11 +2243,6 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "7-10-unfortunately-there-may",
             "page": 1782,
             "href": "/reports/uk-leveson-inquiry?p=7-10-unfortunately-there-may"
-          },
-          {
-            "id": "suffice-say-bearing-mind-my",
-            "page": 1782,
-            "href": "/reports/uk-leveson-inquiry?p=suffice-say-bearing-mind-my"
           }
         ]
       },
@@ -2313,7 +2303,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "4-21-jefferies-victim-very",
             "page": 564,
-            "href": "/reports/uk-leveson-inquiry?p=4-21-jefferies-victim-very&h=4.21%20|Mr%20Jefferies%20was%20the%20victim%20of%20a%20very%20serious%20injustice%20perpetrated%20by%20a%20significant%20section%20of%20the%20press.%20Without%20such%20reporting%2C%20it%20is%20hard%20to%20accept%20that%20he%20would%20have%20found%20it%20necessary%20to%20change%20his%20appearance%20and%20effectively%20lodge%20with%20friends%20for%20approximately%20three%20months.|"
+            "href": "/reports/uk-leveson-inquiry?p=4-21-jefferies-victim-very&h=4.21%20|Mr%20Jefferies%20was%20the%20victim%20of%20a%20very%20serious%20injustice%20perpetrated%20by%20a%20significant%20section%20of%20the%20press.%20Without%20such%20reporting%2C%20it%20is%20hard%20to%20accept%20that%20he%20would%20have%20found%20it%20necessary%20to%20change%20his%20appearance%20and%20effectively%20lodge%20with%20friends%20for%20approximately%20three%20months.|%20For%20those%20who%20have%20said"
           }
         }
       },
@@ -2321,9 +2311,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The Inquiry examined the relationship between the press and the Metropolitan Police, prompted in part by the police's investigation into phone hacking. It found no widespread evidence of police corruption, but did find a damaging perception that the News of the World had an inappropriate degree of influence over the force, including some senior officers.",
         "cites": [
           {
-            "id": "first-scale-problem-needs-be",
+            "id": "1-5-i-will-examine",
             "page": 981,
-            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be"
+            "href": "/reports/uk-leveson-inquiry?p=1-5-i-will-examine"
           },
           {
             "id": "1-3-integrity-lies-heart",
@@ -2363,7 +2353,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "cite": {
             "id": "arbitration-service-22-board-should",
             "page": 1806,
-            "href": "/reports/uk-leveson-inquiry?p=arbitration-service-22-board-should&h=Arbitration%20Service%2022.%20|The%20Board%20should%20provide%20an%20arbitral%20process%20in%20relation%20to%20civil%20legal%20claims%20against%20subscribers%2C%20drawing%20on%20independe%E2%8B%AFator%20must%20have%20the%20power%20to%20hold%20hearings%20where%20necessary%20but%2C%20equally%2C%20to%20dispense%20with%20them%20where%20it%20is%20not%20necessary.|"
+            "href": "/reports/uk-leveson-inquiry?p=arbitration-service-22-board-should&h=Arbitration%20Service%2022.%20|The%20Board%20should%20provide%20an%20arbitral%20process%20in%20relation%20to%20civil%20legal%20claims%20against%20subscribers%2C%20drawing%20on%20independe%E2%8B%AFator%20must%20have%20the%20power%20to%20hold%20hearings%20where%20necessary%20but%2C%20equally%2C%20to%20dispense%20with%20them%20where%20it%20is%20not%20necessary.|%20The%20process%20must%20have%20a"
           }
         }
       },
@@ -2389,9 +2379,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "The fact remains that the NoTW hacked the phone of a dead schoolgirl called Milly Dowler. The revelation of that story rightly shocked the public conscience in a way that other stories of phone hacking may not have, but it also gave momentum to growing calls for light to be shed on an unethical and unlawful practice of which there were literally thousands of victims.",
           "cite": {
-            "id": "nor-i-pointed-out-4",
+            "id": "2-22-guardian-s-error",
             "page": 546,
-            "href": "/reports/uk-leveson-inquiry?p=nor-i-pointed-out-4&h=what%20some%20have%20suggested.%20|The%20fact%20remains%20that%20the%20NoTW%20hacked%20the%20phone%20of%20a%20dead%20schoolgirl%20called%20Milly%20Dowler.%20The%20revelation%20of%20that%20story%20r%E2%8B%AFing%20calls%20for%20light%20to%20be%20shed%20on%20an%20unethical%20and%20unlawful%20practice%20of%20which%20there%20were%20literally%20thousands%20of%20victims.|%20In%20that%20context%2C%20whether"
+            "href": "/reports/uk-leveson-inquiry?p=2-22-guardian-s-error&h=what%20some%20have%20suggested.%20|The%20fact%20remains%20that%20the%20NoTW%20hacked%20the%20phone%20of%20a%20dead%20schoolgirl%20called%20Milly%20Dowler.%20The%20revelation%20of%20that%20story%20r%E2%8B%AFing%20calls%20for%20light%20to%20be%20shed%20on%20an%20unethical%20and%20unlawful%20practice%20of%20which%20there%20were%20literally%20thousands%20of%20victims.|%20In%20that%20context%2C%20whether"
           }
         }
       },
@@ -2403,9 +2393,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "First, the scale of the problem needs to be kept in proportion. The Inquiry has not unearthed extensive evidence of police corruption (noting, as it has done, the current position in relation to Operation Elveden which is concerned with payments to public officials generally); nor is there evidence satisfying the standard of proof I am applying to findings of fact in this Inquiry, namely the balance of probabilities, that significant numbers of police officers lack integrity in one or more of the respects I have examined earlier.",
           "cite": {
-            "id": "first-scale-problem-needs-be",
+            "id": "1-5-i-will-examine",
             "page": 981,
-            "href": "/reports/uk-leveson-inquiry?p=first-scale-problem-needs-be&h=|First%2C%20the%20scale%20of%20the%20problem%20needs%20to%20be%20kept%20in%20proportion.%20The%20Inquiry%20has%20not%20unearthed%20extensive%20evidence%20of%20poli%E2%8B%AFties%2C%20that%20significant%20numbers%20of%20police%20officers%20lack%20integrity%20in%20one%20or%20more%20of%20the%20respects%20I%20have%20examined%20earlier.|%20Speculation%2C%20suspicion"
+            "href": "/reports/uk-leveson-inquiry?p=1-5-i-will-examine&h=which%20need%20to%20be%20set%20out.%20|First%2C%20the%20scale%20of%20the%20problem%20needs%20to%20be%20kept%20in%20proportion.%20The%20Inquiry%20has%20not%20unearthed%20extensive%20evidence%20of%20poli%E2%8B%AFties%2C%20that%20significant%20numbers%20of%20police%20officers%20lack%20integrity%20in%20one%20or%20more%20of%20the%20respects%20I%20have%20examined%20earlier.|%20Speculation%2C%20suspicion"
           }
         }
       }

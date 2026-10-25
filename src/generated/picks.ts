@@ -26,7 +26,7 @@ export const EDITOR_PICKS: readonly EditorPick[] = [
     "sectionTitle": "Christopher Jefferies",
     "paragraph": "4-21-jefferies-victim-very",
     "words": "Mr Jefferies was the victim of a very serious injustice perpetrated by a significant section of the press. Without such reporting, it is hard to accept that he would have found it necessary to change his appearance and effectively lodge with friends for approximately three months.",
-    "anchor": "4.21%20|Mr%20Jefferies%20was%20the%20victim%20of%20a%20very%20serious%20injustice%20perpetrated%20by%20a%20significant%20section%20of%20the%20press.%20Without%20such%20reporting%2C%20it%20is%20hard%20to%20accept%20that%20he%20would%20have%20found%20it%20necessary%20to%20change%20his%20appearance%20and%20effectively%20lodge%20with%20friends%20for%20approximately%20three%20months.|",
+    "anchor": "4.21%20|Mr%20Jefferies%20was%20the%20victim%20of%20a%20very%20serious%20injustice%20perpetrated%20by%20a%20significant%20section%20of%20the%20press.%20Without%20such%20reporting%2C%20it%20is%20hard%20to%20accept%20that%20he%20would%20have%20found%20it%20necessary%20to%20change%20his%20appearance%20and%20effectively%20lodge%20with%20friends%20for%20approximately%20three%20months.|%20For%20those%20who%20have%20said",
     "page": 564
   },
   {
