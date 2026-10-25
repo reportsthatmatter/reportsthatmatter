@@ -3332,7 +3332,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-ica-2017-russia-elections.webp",
+      "width": 2400,
+      "height": 1600,
+      "small": {
+        "src": "/assets/heroes/us-ica-2017-russia-elections-1200.webp",
+        "width": 1200
+      },
+      "credit": "CIA Original Headquarters Building, Langley, Virginia, 2011 · Photo: Central Intelligence Agency, public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Original_Headquarters_Building_(OHB)_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "alt": "The entrance of the CIA's Original Headquarters Building at Langley, Virginia: a wide, flat concrete canopy on tapering pillars in front of a long pale facade with rows of windows, under a blue sky with cloud.",
+      "focus": "50% 62%"
+    }
   },
   "us-jan6-committee": {
     "status": "approved",
