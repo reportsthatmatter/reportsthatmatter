@@ -173,7 +173,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "conclusions",
         "title": "Conclusions",
-        "page": "4",
+        "page": "3",
         "why": "The Committee's verdict in a few pages, including where and why it parts company with the Rogers Commission, followed by a digest of every finding.",
         "excerpt": {
           "quote": "NASA management and the Congress must remember the lessons learned from the Challenger accident and never again set unreasonable goals which stress the system beyond its safe functioning.",
@@ -187,7 +187,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "history",
         "title": "History",
-        "page": "51",
+        "page": "50",
         "why": "The joint problem from the 1973 contract to the night before launch, set out as a chronology of what NASA and Thiokol knew and when.",
         "excerpt": {
           "quote": "At seven different times in the Shuttle Program, NASA and Thiokol managers made poor technical decisions that ultimately permitted continued flight of an unsafe Solid Rocket Motor design.",
@@ -201,7 +201,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "summary-of-casing-joint-design",
         "title": "Summary of Casing Joint Design",
-        "page": "61",
+        "page": "60",
         "why": "How the booster joint worked, why it failed, and how erosion of its seals came to be treated as acceptable.",
         "excerpt": {
           "quote": "But rather than identify this condition as a joint that didn't seal, that is, a joint that had already failed, NASA elected to regard a certain degree of erosion or blow-by as \"acceptable.\"",
@@ -215,7 +215,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "2-operations",
         "title": "Pressures on Shuttle Operations",
-        "page": "115",
+        "page": "114",
         "why": "Where the pressure to fly more often came from, and what it did to training, planning and safety.",
         "excerpt": {
           "quote": "Without operating pressures the program might have been stopped months before the accident to redesign or at least understand the SRB joint. Without operating pressure the flight could have been stopped the night of January 27.",
@@ -229,7 +229,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "technical-management-2",
         "title": "Technical Management",
-        "page": "139",
+        "page": "138",
         "why": "Why senior managers did not act on the seal problem, including a NASA manager's own account of how they talked themselves into it.",
         "excerpt": {
           "quote": "When we recognized that it had design deficiency, we did not fix it. Then we continued to fly with it, and rationalized why it was safe, and eventually concluded and convinced ourselves that it was an acceptable risk.",
@@ -243,7 +243,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-sts-51-l-launch-decision",
         "title": "The STS 51-L Launch Decision",
-        "page": "208",
+        "page": "207",
         "why": "The flight readiness reviews, the teleconference of 27 January, and the ice on the launch pad the next morning.",
         "excerpt": {
           "quote": "Clearly evident is the fact that the Flight Readiness Review procedure cannot compensate for poor engineering analysis.",
@@ -465,13 +465,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "executive-summary",
         "title": "Executive summary",
-        "page": "10",
+        "page": "9",
         "why": "The physical cause and the organisational causes in two pages, and how the report is laid out."
       },
       {
         "slug": "61-a-history-of-foam-anomalies",
         "title": "A history of foam anomalies",
-        "page": "122",
+        "page": "121",
         "why": "How foam came off the tank on flight after flight, and how NASA came to live with it.",
         "excerpt": {
           "quote": "Photographic evidence of foam shedding exists for 65 of the 79 missions for which imagery is available.",
@@ -485,7 +485,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "62-schedule-pressure",
         "title": "Schedule pressure",
-        "page": "132",
+        "page": "131",
         "why": "The February 2004 deadline for the Space Station, and what it did to the people preparing the Shuttle.",
         "excerpt": {
           "quote": "A screen saver (see Figure 6.2-3) was mailed to managers in NASAʼs human spaceflight program that depicted a clock counting down to February 19, 2004 – U.S. Core Complete.",
@@ -499,7 +499,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "63-decision-making-during-the-flight-of-sts-107",
         "title": "Decision-making during the flight",
-        "page": "141",
+        "page": "140",
         "why": "The Board's summary of the 16 days in orbit, when engineers sought images of the wing and managers declined them.",
         "excerpt": {
           "quote": "Managersʼ claims that they didnʼt hear the engineersʼ concerns were due in part to their not asking or listening.",
@@ -513,13 +513,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "64-possibility-of-rescue-or-repair",
         "title": "Possibility of rescue or repair",
-        "page": "174",
+        "page": "173",
         "why": "What could have been done had the damage been found, from a repair with scavenged metal and ice to a rescue by Atlantis."
       },
       {
         "slug": "82-failures-of-foresight-two-decision-histories-and-the-normalization-of-devianc",
         "title": "The normalisation of deviance",
-        "page": "197",
+        "page": "196",
         "why": "The chapter's core comparison of foam and the Challenger O-rings, and how warning signs became routine.",
         "excerpt": {
           "quote": "Engineers and managers incorporated worsening anomalies into the engineering experience base, which functioned as an elastic waistband, expanding to hold larger deviations from the original design.",
@@ -706,7 +706,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-results-of-the-investigation",
         "title": "The results of the investigation",
-        "page": "3",
+        "page": "2",
         "why": "The whole case in a few pages — what the Special Counsel says happened, and who the six unnamed co-conspirators were.",
         "excerpt": {
           "quote": "In service of these efforts, Mr. Trump worked with other people to achieve a common plan: to overturn the election results and perpetuate himself in office.",
@@ -720,7 +720,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "mr-trumps-pressure-on-state-officials",
         "title": "Mr. Trump's Pressure on State Officials",
-        "page": "9",
+        "page": "8",
         "why": "The calls to Arizona, Georgia and Michigan, and what the officials on the other end told him.",
         "excerpt": {
           "quote": "Co-Conspirator 1 not only failed to ever provide such evidence, but he conceded to the Arizona Speaker at an in-person meeting a week later that \"[w]e don't have the evidence, but we have lots of theories.\"",
@@ -734,7 +734,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "mr-trumps-fraudulent-elector-plan",
         "title": "Mr. Trump's Fraudulent Elector Plan",
-        "page": "12",
+        "page": "11",
         "why": "How electors were organised in seven states he lost, from the planning memos to December 14.",
         "excerpt": {
           "quote": "Two and a half hours later, he replied to his own email and, as cover, wrote that \"'alternative' votes is probably a better term than 'fake' votes\"",
@@ -748,7 +748,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "mr-trumps-supporters-attack-the-united-states-capitol",
         "title": "Mr. Trump's Supporters Attack the United States Capitol",
-        "page": "24",
+        "page": "23",
         "why": "January 6 hour by hour — the Ellipse speech, the march, and the afternoon in the White House dining room.",
         "excerpt": {
           "quote": "Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and other lawmakers, with some chanting, \"Hang Mike Pence!\"",
@@ -762,13 +762,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-principles-of-federal-prosecution",
         "title": "THE PRINCIPLES OF FEDERAL PROSECUTION",
-        "page": "69",
+        "page": "68",
         "why": "Why prosecute a former president at all — the prosecutors' argument, including what the police at the Capitol went through."
       },
       {
         "slug": "mr-trumps-conduct-had-no-historical-analogue",
         "title": "Mr. Trump's Conduct Had No Historical Analogue",
-        "page": "91",
+        "page": "90",
         "why": "Why this was not like the disputed elections of 1876, 1960 or 2000.",
         "excerpt": {
           "quote": "Mr. Trump was \"not being prosecuted for publicly contesting the results of the election; he is being prosecuted for knowingly making false statements in furtherance of a criminal conspiracy and for obstruction of election certification proceedings.\"",
@@ -970,7 +970,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-10-summary-of-conclusions",
         "title": "Part 10: Summary of conclusions",
-        "page": "246",
+        "page": "245",
         "why": "The whole chain of findings in a couple of pages - how Litvinenko died, who poisoned him, and on whose orders.",
         "excerpt": {
           "quote": "I am sure that Mr Litvinenko ingested the fatal dose of polonium 210 whilst drinking tea in the Pine Bar of the Millennium Hotel during the afternoon of 1 November 2006.",
@@ -984,7 +984,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-6-who-administered-the-poison",
         "title": "Chapter 6: Who administered the poison?",
-        "page": "193",
+        "page": "192",
         "why": "The forensic case against Lugovoy and Kovtun - the polonium trail through three hotel bathrooms, and the inconsistencies in the two men's own accounts of that afternoon.",
         "excerpt": {
           "quote": "Mr Lugovoy initially declined to give an account of the meeting at the Pine Bar because, he said, the room had been covered by, \"high quality video equipment, which doubtless recorded the meeting\". In fact, there was no such video equipment in the Pine Bar, and it is not credible that Mr Lugovoy, as a security professional, could have mistakenly thought that there was.",
@@ -998,7 +998,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-11-conclusions-regarding-russian-state-responsibility",
         "title": "Chapter 11: Conclusions regarding Russian State responsibility",
-        "page": "240",
+        "page": "239",
         "why": "Why the Chairman found a Russian State operation rather than a private killing - the polonium's likely source, Litvinenko's enemies within the FSB, and how Putin has treated Lugovoy since 2006.",
         "excerpt": {
           "quote": "The fact that Mr Litvinenko was poisoned with polonium 210 that had been manufactured in a nuclear reactor suggests that Mr Lugovoy and Mr Kovtun were acting for a state body, rather than (say) a criminal organisation.",
@@ -1012,7 +1012,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-12-russian-state-responsibility-involvement-of-nikolai-patrushev-and-pre",
         "title": "Chapter 12: Russian State responsibility – involvement of Nikolai Patrushev and President Vladimir Putin",
-        "page": "242",
+        "page": "241",
         "why": "How the Chairman reached \"probably approved\" specifically for Patrushev and Putin, weighing expert evidence on who controls the FSB.",
         "excerpt": {
           "quote": "\"The conclusion must be\", Professor Service stated: \"that Putin generally endorsed what the agency got up to in the years through to 2006 and beyond and that Patrushev as its Director knew that he had his President's support in its operations.\"",
@@ -1026,7 +1026,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-2-introduction",
         "title": "Part 2: Introduction",
-        "page": "10",
+        "page": "9",
         "why": "Why an inquest became a public inquiry, and the standards of proof - \"sure\", \"find\", \"probable\" - that run through the whole report.",
         "excerpt": {
           "quote": "I add that where in this Report I state that 'I am sure' I will have found a fact to the criminal standard. When I use such expressions as 'I find' or 'I am satisfied' the standard of proof will have been the ordinary civil standard of proof, namely the balance of probabilities.",
@@ -1238,7 +1238,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "preconflict-strategy-and-planning",
         "title": "Pre‑conflict strategy and planning",
-        "page": "6",
+        "page": "5",
         "why": "The Inquiry's own two-page account of the road to war, from 9/11 to the vote in the House of Commons.",
         "excerpt": {
           "quote": "Mr Blair asked Parliament to endorse a decision to invade and occupy a sovereign nation, without the support of a Security Council resolution explicitly authorising the use of force. Parliament endorsed that choice.",
@@ -1252,7 +1252,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-impact-of-911",
         "title": "The impact of 9/11",
-        "page": "11",
+        "page": "10",
         "why": "How policy moved from containment to confrontation after 9/11, and Mr Blair's private notes to President Bush.",
         "excerpt": {
           "quote": "I will be with you, whatever. But this is the moment to assess bluntly the difficulties.",
@@ -1266,7 +1266,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "was-iraq-a-serious-or-imminent-threat",
         "title": "Was Iraq a serious or imminent threat?",
-        "page": "41",
+        "page": "40",
         "why": "The Inquiry's answer to the central question, including the warnings that war would raise the terrorist threat to the UK.",
         "excerpt": {
           "quote": "At no stage was the proposition that Iraq might no longer have chemical, biological or nuclear weapons or programmes identified and examined by either the JIC or the policy community.",
@@ -1280,7 +1280,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "lord-goldsmiths-advice-of-7-march-2003",
         "title": "Lord Goldsmith's advice of 7 March 2003",
-        "page": "66",
+        "page": "65",
         "why": "How the Attorney General's advice moved between 7 and 13 March 2003, from \"the safest legal course\" to a \"better view\".",
         "excerpt": {
           "quote": "Lord Goldsmith concluded on 13 March that, on balance, the \"better view\" was that the conditions for the operation of the revival argument were met in this case, meaning that there was a lawful basis for the use of force without a further resolution beyond resolution 1441.",
@@ -1294,7 +1294,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-planning-process-and-decisionmaking",
         "title": "The planning process and decision‑making",
-        "page": "82",
+        "page": "81",
         "why": "Why the UK was unready for the occupation, department by department.",
         "excerpt": {
           "quote": "In the absence of a single person responsible for overseeing all aspects of planning and preparation, departments pursued complementary, but separate, objectives. Gaps in UK capabilities were overlooked.",
@@ -1308,7 +1308,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-beginning-of-the-end",
         "title": "THE BEGINNING OF THE END",
-        "page": "109",
+        "page": "108",
         "why": "The Inquiry's verdict on the six years of occupation and what they left behind.",
         "excerpt": {
           "quote": "The Iraq of 2009 certainly did not meet the UK's objectives as described in January 2003: it fell far short of strategic success.",
@@ -1322,7 +1322,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-decision-to-go-to-war",
         "title": "The decision to go to war",
-        "page": "130",
+        "page": "129",
         "why": "The first of the Inquiry's lessons, on how a Government should weigh a decision to use force, and what it owes the public in making it.",
         "excerpt": {
           "quote": "When the potential for military action arises, the Government should not commit to a firm political objective before it is clear that it can be achieved.",
@@ -1336,7 +1336,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "weapons-of-mass-destruction",
         "title": "Weapons of mass destruction",
-        "page": "131",
+        "page": "130",
         "why": "The Inquiry's lessons on intelligence, and on the invasion itself, including why assessed intelligence must not be organised into an argument for policy.",
         "excerpt": {
           "quote": "Organising the evidence in order to present an argument in the language of Ministerial statements produces a quite different type of document.",
@@ -1350,7 +1350,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "reconstruction",
         "title": "Reconstruction",
-        "page": "136",
+        "page": "135",
         "why": "The lessons of the occupation, on why reconstruction is so hard and what better planning could and could not have done.",
         "excerpt": {
           "quote": "The starting point for all discussions of reconstruction in circumstances comparable to those in Iraq between 2003 and 2009 must be that this is an area where progress will be extremely difficult.",
@@ -1588,13 +1588,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "executive-summary",
         "title": "Executive summary",
-        "page": "2",
+        "page": "xviii",
         "why": "The Inquiry's own summary of the whole period, from January 2020 to the end of restrictions in May 2022; the place to start."
       },
       {
         "slug": "key-themes",
         "title": "Key themes",
-        "page": "9",
+        "page": "8",
         "why": "What the Inquiry concludes about scientific advice, the impact on vulnerable groups, how each government made decisions, communication with the public, the law and relations between the four nations.",
         "excerpt": {
           "quote": "Time and again, public messaging failed to reflect the actual laws in place. Ministers made statements suggesting legal obligations where none existed, or vice versa.",
@@ -1608,13 +1608,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "lost-time",
         "title": "Lost time",
-        "page": "92",
+        "page": "91",
         "why": "The Inquiry's conclusions on January and February 2020, and why it does not accept that uncertainty about the virus justified the lack of action."
       },
       {
         "slug": "decision-making-leading-to-the-lockdown-decision",
         "title": "Decision-making leading to the lockdown decision",
-        "page": "200",
+        "page": "199",
         "why": "The Inquiry's analysis of the decision of 23 March 2020, why it came when it did, and why it was imposed without a plan for leaving it.",
         "excerpt": {
           "quote": "The lockdown decision of 23 March 2020 was as difficult a decision as any UK government or devolved administration has ever had to make.",
@@ -1628,7 +1628,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "a-second-lockdown-in-england",
         "title": "A second lockdown in England",
-        "page": "320",
+        "page": "319",
         "why": "The autumn of 2020 in England, the advice for a circuit breaker, and the evidence of those who disagreed with it.",
         "excerpt": {
           "quote": "The Inquiry accepts that a second lockdown was to be avoided at all costs. Unfortunately, the failure to take timely action had made one inevitable.",
@@ -1642,7 +1642,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "a-new-normal",
         "title": "A new normal",
-        "page": "439",
+        "page": "438",
         "why": "The Inquiry's conclusions on the vaccine period, the Omicron wave and the end of restrictions in 2022."
       }
     ],
@@ -1866,7 +1866,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-2-executive-summary",
         "title": "Chapter 2: Executive summary",
-        "page": "10",
+        "page": "9",
         "why": "The Panel's own summary of all fourteen Parts of the report, from the regulatory regime to the response after the fire; the place to start.",
         "excerpt": {
           "quote": "The purpose of this chapter is to describe in broad terms the contents of the report and the main conclusions we have reached about the events that culminated in the tragedy at Grenfell Tower.",
@@ -1880,7 +1880,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-1-introduction",
         "title": "Part 1: Introduction",
-        "page": "3",
+        "page": "1",
         "why": "How Phase 2 was run, what the Inquiry could and could not decide, and the Panel's response to calls to examine race and social background.",
         "excerpt": {
           "quote": "It is not possible to identify any single cause of the tragedy; many different acts and omissions combined to bring about the Grenfell Tower fire, although some were more significant than others.",
@@ -1894,7 +1894,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-7-the-government-and-the-building-research-establishment",
         "title": "Chapter 7: The government and the Building Research Establishment",
-        "page": "82",
+        "page": "81",
         "why": "The department and BRE from the 1990s on, including the 2001 large-scale test of aluminium composite panels whose results were never published.",
         "excerpt": {
           "quote": "No one was able to explain why the results of the tests had never been made public, even in the wake of the fire at Grenfell Tower, when they would have been highly relevant to the department's investigations into the fire performance of similar products. We think that the explanation lies in the fact that having once been shelved they had subsequently been entirely forgotten.",
@@ -1908,7 +1908,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-9-the-governments-response-to-the-lakanal-house-fire",
         "title": "Chapter 9: The government's response to the Lakanal House fire",
-        "page": "132",
+        "page": "131",
         "why": "The fire at Lakanal House in 2009, the inquests that followed, and what the department did with the coroner's recommendations.",
         "excerpt": {
           "quote": "In our view the department's response to the Lakanal House fire was inadequate.",
@@ -1922,13 +1922,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-10-the-department-for-communities-and-local-government-20132017",
         "title": "Chapter 10: The Department for Communities and Local Government 2013–2017",
-        "page": "146",
+        "page": "145",
         "why": "The department in the four years before the fire, its dealings with the All-Party Parliamentary Group on Fire Safety, and the state of its building regulations team."
       },
       {
         "slug": "chapter-11-combustible-cladding-warnings-to-government",
         "title": "Chapter 11: Combustible cladding: warnings to government",
-        "page": "174",
+        "page": "173",
         "why": "The warnings about combustible cladding and insulation that reached the department between 2013 and 2017, and what was done with them."
       }
     ]
@@ -2099,7 +2099,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "report-summary",
         "title": "Report summary",
-        "page": "4",
+        "page": "3",
         "why": "The Panel's own chapter-by-chapter digest of the first four chapters — the risks ignored before 1989, the day itself, and the roles and responsibilities that went unresolved.",
         "excerpt": {
           "quote": "Ninety-six women, men and children died as a consequence of the crush, while hundreds more were injured and thousands traumatised.",
@@ -2113,7 +2113,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "report-summary",
         "title": "The rest of the report summary",
-        "page": "4",
+        "page": "3",
         "why": "Continues the chapter-by-chapter summary through the emergency response, the contested medical evidence, the 3.15pm cut-off, the altered statements and the unsubstantiated press allegations.",
         "excerpt": {
           "quote": "The Panel's access to all of the relevant records has confirmed that the notion of a single, unvarying and rapid pattern of death in all cases is unsustainable.",
@@ -2127,7 +2127,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
         "title": "The day itself, and the emergency response",
-        "page": "132",
+        "page": "129",
         "why": "The Panel's detailed reconstruction of the day and of the emergency response that followed it, drawing on control-room tapes and radio transcripts not previously made public.",
         "excerpt": {
           "quote": "Yet the documents confirm that no-one at these locations activated the major incident procedure, not even in response to SO Eason's 3.21pm call.",
@@ -2141,7 +2141,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-10-the-315pm-cut-off",
         "title": "The coroner's inquiry and the 3.15pm cut-off",
-        "page": "292",
+        "page": "291",
         "why": "How the inquest was split into a hearing for each victim followed by a single generic hearing, and why the Coroner decided to hear no evidence of what happened after 3.15pm.",
         "excerpt": {
           "quote": "Dr Popper returned to the cut-off: 'we did not take much evidence after 3.15 in fact hardly any, and that was a deliberate decision of mine'.",
@@ -2155,7 +2155,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-11-review-and-alteration-of-statements",
         "title": "The altered statements, and 'The Truth'",
-        "page": "316",
+        "page": "313",
         "why": "How SYP officers' statements were reviewed and amended before the Taylor Inquiry, and how allegations against Liverpool fans reached The Sun's front page four days after the disaster.",
         "excerpt": {
           "quote": "A total of 164 statements were marked for amendments more substantial than simple corrections. Of these, 22 were amended to remove coarse or informal language.",
@@ -2342,7 +2342,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-7",
         "title": "Chapter 7: Conclusions and recommendations for future regulation",
-        "page": "1749",
+        "page": "1748",
         "why": "Leveson's own summary of what he recommends and why - an independent regulator, backed by law only to recognise it, which he insists is not regulation of the press.",
         "excerpt": {
           "quote": "I have therefore set out a vision of a voluntary independent self-organised regulatory system that would provide an appropriate degree of independence from the industry, coupled with satisfactory powers to handle complaints, promote and enforce standards, and deal with dispute resolution.",
@@ -2356,7 +2356,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-l-summary-of-recommendations",
         "title": "Part L: Summary of recommendations",
-        "page": "1803",
+        "page": "1801",
         "why": "The recommendations themselves, numbered and grouped by topic, from the regulator's powers to the criminal law and police conduct.",
         "excerpt": {
           "quote": "The Board should provide an arbitral process in relation to civil legal claims against subscribers, drawing on independent legal experts of high reputation and ability on a cost-only basis to the subscribing member. The process should be fair, quick and inexpensive, inquisitorial and free for complainants to use (save for a power to make an adverse order for the costs of the arbitrator if proceedings are frivolous or vexatious). The arbitrator must have the power to hold hearings where necessary but, equally, to dispense with them where it is not necessary.",
@@ -2370,7 +2370,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-4-the-press-complaints-commission-and-its-effectiveness",
         "title": "The Press Complaints Commission and its effectiveness",
-        "page": "1516",
+        "page": "1515",
         "why": "Why the Inquiry judged decades of voluntary self-regulation to have failed.",
         "excerpt": {
           "quote": "The Press Complaints Commission (PCC) has always been a voluntary system based on a network of implied contracts. Accordingly, participation has been optional, and in the event never universal; and has always been contingent on an evaluation by individual titles or publishers of their self-interest. Newspapers notionally sign up, and remain tied into the rules of the system, but only for the period and to the extent that they judge that this is in their best interests.",
@@ -2384,7 +2384,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-dowlers",
         "title": "The Dowlers",
-        "page": "543",
+        "page": "542",
         "why": "The phone-hacking case that brought down the News of the World and led to the Inquiry, including the Inquiry's own correction of one widely-reported detail about it.",
         "excerpt": {
           "quote": "The fact remains that the NoTW hacked the phone of a dead schoolgirl called Milly Dowler. The revelation of that story rightly shocked the public conscience in a way that other stories of phone hacking may not have, but it also gave momentum to growing calls for light to be shed on an unethical and unlawful practice of which there were literally thousands of victims.",
@@ -2398,7 +2398,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-4-the-press-and-the-police-conclusions-and-recommendations",
         "title": "The press and the police: conclusions and recommendations",
-        "page": "981",
+        "page": "980",
         "why": "Whether the closeness between the Metropolitan Police and the News of the World amounted to corruption, and what the Inquiry recommends instead.",
         "excerpt": {
           "quote": "First, the scale of the problem needs to be kept in proportion. The Inquiry has not unearthed extensive evidence of police corruption (noting, as it has done, the current position in relation to Operation Elveden which is concerned with payments to public officials generally); nor is there evidence satisfying the standard of proof I am applying to findings of fact in this Inquiry, namely the balance of probabilities, that significant numbers of police officers lack integrity in one or more of the respects I have examined earlier.",
@@ -2616,13 +2616,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "recommendations",
         "title": "RECOMMENDATIONS",
-        "page": "11",
+        "page": "10",
         "why": "All 19 recommendations on two pages, each argued for later in the volume."
       },
       {
         "slug": "c-case-illustrations",
         "title": "c. Case Illustrations",
-        "page": "23",
+        "page": "22",
         "why": "Seventeen case illustrations, drawn mainly from the evidence of the people concerned, from imprisonment and bankruptcy to the death of Martin Griffiths.",
         "excerpt": {
           "quote": "Mr Butoy's convictions resulted in widespread and damning publicity.",
@@ -2636,19 +2636,19 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "a-the-meaning-of-the-phrase-full-and-fair-redress",
         "title": "a. The meaning of the phrase 'Full and Fair Redress'",
-        "page": "123",
+        "page": "122",
         "why": "What \"full and fair\" compensation should mean, and the recommendations that follow from it."
       },
       {
         "slug": "c-has-financial-redress-been-delivered-promptly",
         "title": "c. Has financial redress been delivered promptly?",
-        "page": "144",
+        "page": "143",
         "why": "Why compensation has taken so long, scheme by scheme."
       },
       {
         "slug": "d-other-issues-and-recommendations",
         "title": "d. Other Issues and Recommendations",
-        "page": "159",
+        "page": "158",
         "why": "A standing compensation body, redress for families, and restorative justice."
       }
     ]
@@ -2799,7 +2799,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-5-the-overall-assessment",
         "title": "The overall assessment",
-        "page": "100",
+        "page": "99",
         "why": "The Tribunal's conclusion in six short paragraphs - how the shooting began, why it spread, and what it calls \"a catastrophe for the people of Northern Ireland.\"",
         "excerpt": {
           "quote": "The firing by soldiers of 1 PARA on Bloody Sunday caused the deaths of 13 people and injury to a similar number, none of whom was posing a threat of causing death or serious injury. What happened on Bloody Sunday strengthened the Provisional IRA, increased nationalist resentment and hostility towards the Army and exacerbated the violent conflict of the years that followed. Bloody Sunday was a tragedy for the bereaved and the wounded, and a catastrophe for the people of Northern Ireland.",
@@ -2813,7 +2813,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-3-the-events-of-the-day",
         "title": "Chapter 3: The events of the day",
-        "page": "53",
+        "page": "52",
         "why": "A reconstruction of the shootings, soldier by soldier and victim by victim, and the Tribunal's reasons for accepting or rejecting each soldier's account.",
         "excerpt": {
           "quote": "Jackie Duddy was running away from the soldiers when he was shot. He probably had a stone in his hand at the time.",
@@ -2827,7 +2827,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-4-the-question-of-responsibility-for-the-deaths-and-injuries-on-bloody-s",
         "title": "Chapter 4: The question of responsibility for the deaths and injuries on Bloody Sunday",
-        "page": "91",
+        "page": "90",
         "why": "Who, beyond the soldiers who fired, the Tribunal holds responsible for the deaths and injuries - and who it clears, including the generals and the Brigadier who gave the orders.",
         "excerpt": {
           "quote": "Colonel Wilford should have ordered his soldiers to stay in and around William Street and the northern end of Rossville Street. Instead, he sent them into the Bogside, where they chased people down Rossville Street, into the car park of the Rossville Flats, into Glenfada Park North and as far as Abbey Park.",
@@ -2841,7 +2841,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-2-outline-of-events-before-the-day",
         "title": "Chapter 2: Outline of events before the day",
-        "page": "49",
+        "page": "48",
         "why": "How a banned civil rights march became an arrest operation - the barriers, the changed route, and the decision to use 1 PARA.",
         "excerpt": {
           "quote": "To that end General Ford ordered that 1st Battalion, The Parachute Regiment (1 PARA), which was stationed near Belfast, should travel to Londonderry and be used as the arrest force.",
@@ -2855,7 +2855,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-7-the-period-up-to-july-1971",
         "title": "The period up to July 1971",
-        "page": "106",
+        "page": "105",
         "why": "The wider history the Tribunal thought necessary background - partition, the charge of gerrymandering in Londonderry's local government, and the civil rights marches of 1968-69.",
         "excerpt": {
           "quote": "These events led to the establishment of the first “no go” areas in Londonderry. Residents of the Bogside and other predominantly Catholic parts of the city erected barricades and organised vigilante patrols to prevent the RUC or loyalist crowds from entering their neighbourhoods.",
@@ -3057,7 +3057,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "we-have-some-planes",
         "title": "\"WE HAVE SOME PLANES\"",
-        "page": "2",
+        "page": "1",
         "why": "Minute by minute, how four hijacked airliners boarded, took off, and defeated the security and air-defence systems in place that morning.",
         "excerpt": {
           "quote": "They were planning to hijack these planes and turn them into large guided missiles, loaded with up to 11,400 gallons of jet fuel. By 8:00 A.M. on the morning of Tuesday, September 11, 2001, they had defeated all the security layers that America's civil aviation security system then had in place to prevent a hijacking.",
@@ -3071,7 +3071,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "82-late-leadsmihdhar-moussaoui-and-ksm",
         "title": "8.2 Late Leads—Mihdhar, Moussaoui, and KSM",
-        "page": "267",
+        "page": "266",
         "why": "The late leads on Mihdhar, Moussaoui and KSM in the summer of 2001, and how little of what worried Washington reached the FBI agents who had, without knowing it, already found one of the plot's operatives.",
         "excerpt": {
           "quote": "The supervisor replied that was precisely his intent. He said he was \"trying to keep someone from taking a plane and crashing into the World Trade Center.\" The headquarters agent replied that this was not going to happen and that they did not know if Moussaoui was a terrorist.",
@@ -3085,7 +3085,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "foresightand-hindsight",
         "title": "FORESIGHT—AND HINDSIGHT",
-        "page": "340",
+        "page": "339",
         "why": "The Commission's own diagnosis of why the attack succeeded — not one culprit but four kinds of failure — and why imagination was the hardest to build into routine practice.",
         "excerpt": {
           "quote": "It is therefore crucial to find a way of routinizing, even bureaucratizing, the exercise of imagination.",
@@ -3099,7 +3099,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "how-to-do-it-a-different-way-of-organizing-the-government",
         "title": "HOW TO DO IT? A DIFFERENT WAY OF ORGANIZING THE GOVERNMENT",
-        "page": "400",
+        "page": "399",
         "why": "The case for a National Counterterrorism Center, and how the Commission proposed it should work.",
         "excerpt": {
           "quote": "We recommend the establishment of a National Counterterrorism Center (NCTC), built on the foundation of the existing Terrorist Threat Integration Center (TTIC).",
@@ -3113,7 +3113,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "132-unity-of-effort-in-the-intelligence-community",
         "title": "13.2 Unity of Effort in the Intelligence Community",
-        "page": "408",
+        "page": "407",
         "why": "The case for a National Intelligence Director in place of the Director of Central Intelligence, and what authority the new office would and would not have.",
         "excerpt": {
           "quote": "The current position of Director of Central Intelligence should be replaced by a National Intelligence Director with two main areas of responsibility: (1) to oversee national intelligence centers on specific subjects of interest across the U.S. government and (2) to manage the national intelligence program and oversee the agencies that contribute to it.",
@@ -3335,7 +3335,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-i-the-path-to-tragedy",
         "title": "Part I and Chapter 1: Sudden Death on the Gulf of Mexico",
-        "page": "1",
+        "page": "xiii",
         "why": "An hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.",
         "excerpt": {
           "quote": "Down in Ezell's cabin, he was still watching TV when his phone rang. It was assistant driller Steve Curtis calling, also from the rig floor. \"We have a situation. …The well is blown out. . . . We have mud going to the crown.\"",
@@ -3349,7 +3349,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster",
         "title": "Part II and Chapter 4: The Macondo Well and the Blowout",
-        "page": "89",
+        "page": "87",
         "why": "The Commission's technical account of why the well failed, from the cement job to the warning signs missed in the last hour.",
         "excerpt": {
           "quote": "It appears instead they started from the assumption that the well could not be flowing, and kept running tests and coming up with various explanations until they had convinced themselves their assumption was correct.",
@@ -3363,7 +3363,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "part-iii-lessons-learned-industry-government-energy-policy",
         "title": "Part III and Chapter 8: Changing Business as Usual",
-        "page": "217",
+        "page": "215",
         "why": "The case for the industry to change its own safety culture, and how.",
         "excerpt": {
           "quote": "The Deepwater Horizon blowout, explosion, and oil spill did not have to happen.",
@@ -3377,7 +3377,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "the-need-for-a-new-independent-agency",
         "title": "Chapter 9: The Need for a New, Independent Agency",
-        "page": "255",
+        "page": "254",
         "why": "Why renaming and splitting the old regulator was not enough, and the independent safety agency the Commission proposed instead.",
         "excerpt": {
           "quote": "Although the proposed reorganization of Interior's offshore leasing, safety, and revenue management program represents a significant improvement, it does not adequately address the deeper problem of fully insulating the Department's safety and environmental protection functions from the pressures to increase production and maximize lease revenues.",
@@ -3391,7 +3391,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-ten-american-energy-policy-and-the-future-of-offshore-drilling",
         "title": "Chapter 10: American Energy Policy and the Future of Offshore Drilling",
-        "page": "294",
+        "page": "293",
         "why": "The Commission on drilling in new frontiers such as the Arctic, and on rebuilding public trust.",
         "excerpt": {
           "quote": "The extent to which offshore drilling contributes to augmenting that domestic supply depends importantly on rebuilding public faith in existing offshore energy exploration and production.",
@@ -3573,19 +3573,19 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "key-judgments",
         "title": "Key Judgments",
-        "page": "1",
+        "page": "ii",
         "why": "The assessment's conclusions on two pages, with the confidence attached to each."
       },
       {
         "slug": "scope-and-sourcing",
         "title": "Scope and Sourcing",
-        "page": null,
+        "page": "i",
         "why": "What the assessment covers, what the declassified version leaves out, and what it did not try to judge."
       },
       {
         "slug": "putin-ordered-campaign-to-influence-us-election",
         "title": "Putin Ordered Campaign To Influence US Election",
-        "page": "2",
+        "page": "1",
         "why": "The judgments on Putin's motives and preferences, and where the agencies' confidence differs.",
         "excerpt": {
           "quote": "Putin most likely wanted to discredit Secretary Clinton because he has publicly blamed her since 2011 for inciting mass protests against his regime in late 2011 and early 2012, and because he holds a grudge for comments he almost certainly saw as disparaging him.",
@@ -3599,13 +3599,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "russian-campaign-was-multifaceted",
         "title": "Russian Campaign Was Multifaceted",
-        "page": "3",
+        "page": "2",
         "why": "The hacking, the release of stolen material, the electoral boards and the propaganda, and the warning about future elections."
       },
       {
         "slug": "rt-focuses-on-social-media-building-audience",
         "title": "Annex B: Estimative Language",
-        "page": "11",
+        "page": "10",
         "why": "Annex B defines \"we assess\" and \"high\", \"moderate\" and \"low confidence\". The site does not yet give it a page of its own: it is at the end of this section, after the rest of Annex A.",
         "excerpt": {
           "quote": "High confidence generally indicates that judgments are based on high-quality information from multiple sources. High confidence in a judgment does not imply that the assessment is a fact or a certainty; such judgments might be wrong.",
@@ -3813,7 +3813,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "executive-summary",
         "title": "Executive Summary",
-        "page": "1",
+        "page": "xvii",
         "why": "How the committee frames its work, starting with an Oath Keeper testifying against the group's leader, and what the report covers.",
         "excerpt": {
           "quote": "On October 31, 2022, in a Federal courthouse in Washington, DC, Graydon Young testified against Stewart Rhodes and other members of the Oath Keepers militia group.",
@@ -3827,13 +3827,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "executive-summary-overview-of-the-evidence-developed",
         "title": "Executive Summary: Overview of the Evidence Developed",
-        "page": "9",
+        "page": "8",
         "why": "The committee's whole account in summary, from election night to the afternoon of 6 January."
       },
       {
         "slug": "referrals-to-the-us-department-of-justice-special-counsel-and-house-ethics-commi",
         "title": "Referrals to the U.S. Department of Justice Special Counsel and House Ethics Committee",
-        "page": "99",
+        "page": "98",
         "why": "The criminal referrals, statute by statute, and the referral of members of Congress who did not comply with subpoenas.",
         "excerpt": {
           "quote": "Today we know that the planning to overturn the election on January 6th was substantially more extensive, and involved many other players, and many other efforts over a longer time period.",
@@ -3847,13 +3847,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-4-just-call-it-corrupt-and-leave-the-rest-to-me",
         "title": "Chapter 4. “JUST CALL IT CORRUPT AND LEAVE THE REST TO ME”",
-        "page": "374",
+        "page": "373",
         "why": "The Justice Department chapter, from Attorney General Barr's resignation to the threat of mass resignations."
       },
       {
         "slug": "chapter-7-187-minutes-of-dereliction",
         "title": "Chapter 7. 187 MINUTES OF DERELICTION",
-        "page": "578",
+        "page": "577",
         "why": "The afternoon of 6 January inside the White House, hour by hour.",
         "excerpt": {
           "quote": "By 1:21 p.m., President Trump was informed that the Capitol was under attack. He could have interceded immediately. But the President chose not to do so. It was not until 4:17 p.m. that President Trump finally tweeted a video in which he told the rioters to go home.",
@@ -3867,7 +3867,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "recommendations",
         "title": "Recommendations",
-        "page": "690",
+        "page": "689",
         "why": "The committee's eleven recommendations, from the Electoral Count Act to the Insurrection Act."
       }
     ]
@@ -4073,13 +4073,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "why-did-lehman-fail-are-there-colorable-causes-of-action-that-arise-from-its-fin",
         "title": "Why Did Lehman Fail? Are There Colorable Causes of Action That Arise From Its Financial Condition and Failure?",
-        "page": "16",
+        "page": "15",
         "why": "The examiner's conclusions in brief, including Repo 105 and the case against Ernst & Young, and what he means by a \"colorable\" claim."
       },
       {
         "slug": "repo-105",
         "title": "Repo 105",
-        "page": "733",
+        "page": "732",
         "why": "The examiner's full analysis of Repo 105, the core of the report at some 320 pages, opening with a summary of how the device worked, the e-mails that show what it was for, and the claims against Lehman's officers and Ernst & Young.",
         "excerpt": {
           "quote": "Lehman employed off‐balance sheet devices, known within Lehman as \"Repo 105\" and \"Repo 108\" transactions, to temporarily remove securities inventory from its balance sheet, usually for a period of seven to ten days, and to create a materially misleading picture of the firm's financial condition in late 2007 and 2008.",
@@ -4093,7 +4093,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "business-and-risk-management",
         "title": "Business and Risk Management",
-        "page": "44",
+        "page": "43",
         "why": "How Lehman overrode its own risk limits, removed a senior manager judged not aggressive enough, and committed to the Archstone deal.",
         "excerpt": {
           "quote": "Months later, Antoncic, for example, reflected back on the general consensus that the markets were in trouble: \"every one saw the train wreck coming. 64k question is why didn't anyone get out of the way???\"",
@@ -4107,7 +4107,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "document-collection-and-review",
         "title": "Document Collection and Review",
-        "page": "31",
+        "page": "30",
         "why": "The scale of the investigation, from three petabytes of Lehman data down to the 34 million pages the examiner reviewed."
       }
     ],
@@ -4271,13 +4271,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "introduction-to-volume-i",
         "title": "INTRODUCTION TO VOLUME I",
-        "page": "2",
+        "page": "1",
         "why": "The report's own overview of both volumes, and why it speaks of conspiracy, not \"collusion\"."
       },
       {
         "slug": "executive-summary-to-volume-i",
         "title": "EXECUTIVE SUMMARY TO VOLUME I",
-        "page": "5",
+        "page": "4",
         "why": "The interference operations and the Campaign's Russian contacts, year by year, and the charging decisions in summary.",
         "excerpt": {
           "quote": "In March 2016, the GRU began hacking the email accounts of Clinton Campaign volunteers and employees, including campaign chairman John Podesta.",
@@ -4291,25 +4291,25 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "june-9-2016-meeting-at-trump-tower",
         "title": "June 9, 2016 Meeting at Trump Tower",
-        "page": "111",
+        "page": "110",
         "why": "The meeting offered as \"part of Russia and its government's support for Mr. Trump\", from the emails setting it up to what followed."
       },
       {
         "slug": "introduction-to-volume-ii",
         "title": "INTRODUCTION TO VOLUME II",
-        "page": "2",
+        "page": "1",
         "why": "Why the Office did not decide whether the President committed a crime, in four short points."
       },
       {
         "slug": "executive-summary-to-volume-ii",
         "title": "EXECUTIVE SUMMARY TO VOLUME II",
-        "page": "4",
+        "page": "3",
         "why": "Each of the episodes the obstruction investigation examined, in summary, and the Office's answer to the President's legal defences."
       },
       {
         "slug": "the-press-reports-that-the-president-is-being-investigated-for-obstruction-of-ju",
         "title": "The Press Reports that the President is Being Investigated for Obstruction of Justice and the President Directs the White House Counsel to Have the Special Counsel Removed",
-        "page": "85",
+        "page": "84",
         "why": "The order to have the Special Counsel removed, and McGahn's refusal to carry it out."
       }
     ]
@@ -4455,19 +4455,19 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "subcommittee-investigation",
         "title": "Executive summary",
-        "page": "2",
+        "page": "v",
         "why": "The whole argument in twelve pages — four causes, four case studies, and what the Subcommittee recommended."
       },
       {
         "slug": "high-risk-lending-strategy",
         "title": "Washington Mutual's high risk lending strategy",
-        "page": "59",
+        "page": "58",
         "why": "How a bank chose riskier loans on purpose, in its own planning documents."
       },
       {
         "slug": "destructive-compensation-practices",
         "title": "Washington Mutual's destructive compensation practices",
-        "page": "144",
+        "page": "143",
         "why": "Loan officers rewarded for volume, and the one executive who pushed back on \"The Power of Yes\".",
         "excerpt": {
           "quote": "the power of yes absolutely needed to be balanced by the wisdom of no.",
@@ -4481,13 +4481,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "regulatory-failures",
         "title": "Regulatory failures",
-        "page": "209",
+        "page": "208",
         "why": "Why the Office of Thrift Supervision never stopped it — deference to the bank, and a fight with the FDIC."
       },
       {
         "slug": "ratings-deficiencies",
         "title": "Inside the rating agencies",
-        "page": "268",
+        "page": "267",
         "why": "The analysts' own emails and instant messages about the securities they were rating.",
         "excerpt": {
           "quote": "In an April 2007 instant message, an S&P analyst offered this cynical comment: \"[W]e rate every deal[.] [I]t could be structured by cows and we would rate it.\"",
@@ -4501,7 +4501,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "timberwolf-i",
         "title": "Timberwolf, one deal from start to finish",
-        "page": "542",
+        "page": "541",
         "why": "How Goldman sold a CDO to its clients while marking down the same securities on its own books."
       }
     ],
@@ -4675,13 +4675,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "findings-and-conclusions",
         "title": "Findings and Conclusions",
-        "page": "1",
+        "page": "x",
         "why": "The Committee's 20 findings, each with a short summary of the evidence; the place to start."
       },
       {
         "slug": "foreword",
         "title": "Foreword",
-        "page": null,
+        "page": "iv",
         "why": "Senator Feinstein's account of why the study was undertaken and what she concludes from it.",
         "excerpt": {
           "quote": "While the Office of Legal Counsel found otherwise between 2002 and 2007, it is my personal conclusion that, under any common meaning of the term, CIA detainees were tortured.",
@@ -4695,19 +4695,19 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "b-the-detention-of-abu-zubaydah-and-the-development-and-authorization-of-the-cia",
         "title": "B. The Detention of Abu Zubaydah and the Development and Authorization of the CIA's Enhanced Interrogation Techniques",
-        "page": "18",
+        "page": "17",
         "why": "How the techniques were devised and first used, on the CIA's first detainee, Abu Zubaydah."
       },
       {
         "slug": "c-the-origins-of-cia-representations-regarding-the-effectiveness-of-the-cias-enh",
         "title": "C. The Origins of CIA Representations Regarding the Effectiveness of the CIA's Enhanced Interrogation Techniques As Having \"Saved Lives,\" \"Thwarted Plots,\" and \"Captured Terrorists\"",
-        "page": "180",
+        "page": "179",
         "why": "Where the CIA's claims that the techniques saved lives came from, before the summary tests them case by case."
       },
       {
         "slug": "minority-views-of-vice-chairman-chambliss-senators-burr-risch-coats-rubio-and-co",
         "title": "Minority Views of Vice Chairman Chambliss and Senators Burr, Risch, Coats, Rubio and Coburn",
-        "page": "521",
+        "page": "520",
         "why": "The minority's critique of the study's process, method and conclusions."
       }
     ],
@@ -4921,7 +4921,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "overview",
         "title": "Introduction",
-        "page": "32",
+        "page": "31",
         "why": "The whole judgment in four pages — what the Government alleged, what the court found, the remedies it could and could not order, and a word on the lawyers.",
         "excerpt": {
           "quote": "At every stage, lawyers played an absolutely central role in the creation and perpetuation of the Enterprise and the implementation of its fraudulent schemes.",
@@ -4935,13 +4935,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "creation-of-the-enterprise",
         "title": "Creation of the Enterprise",
-        "page": "49",
+        "page": "48",
         "why": "Where it began — the December 1953 meeting at the Plaza Hotel, the public relations firm Hill & Knowlton, and the \"Frank Statement\" of January 1954."
       },
       {
         "slug": "defendants-falsely-denied-the-adverse-health-effects-of-smoking",
         "title": "Defendants Falsely Denied the Adverse Health Effects of Smoking",
-        "page": "1536",
+        "page": "1535",
         "why": "The court's conclusions on the central deception, with the internal memos that set out the \"open controversy\" strategy.",
         "excerpt": {
           "quote": "Using the sophisticated and well-organized machinery created to serve their agenda, Defendants fraudulently denied the adverse health effects of smoking for at least 40 years in order to sustain the appearance of an open controversy about the link between smoking and disease, and thereby maintain and enhance the cigarette market and their collective revenues.",
@@ -4955,7 +4955,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "defendants-falsely-denied-that-they-market-to-youth",
         "title": "Defendants Falsely Denied that They Market to Youth",
-        "page": "1549",
+        "page": "1548",
         "why": "The court's conclusions on marketing to young people, and on the companies' public denials.",
         "excerpt": {
           "quote": "Defendants' fraudulent statements stem from their recognition, contained in internal documents written for decades, that new teenage smokers were essential to their continued profitability.",
@@ -4969,7 +4969,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "applicable-law",
         "title": "Applicable Law",
-        "page": "1632",
+        "page": "1631",
         "why": "Why the court concluded the companies had not changed — including what their senior executives said on the witness stand.",
         "excerpt": {
           "quote": "For example, during live testimony in January 2005, more than forty years after the 1964 Surgeon General's Report, Reynolds American Executive Chairman Andrew Schindler refused to admit that smoking causes disease.",
@@ -4983,7 +4983,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "prohibition-of-brand-descriptors",
         "title": "Remedies: Banning \"Light\" and \"Low Tar\"",
-        "page": "1658",
+        "page": "1657",
         "why": "The remedy the court ordered first — a ban on descriptors that imply a cigarette is less harmful.",
         "excerpt": {
           "quote": "Accordingly, beginning January 1, 2007, Defendants are prohibited from using any descriptors indicating lower tar delivery -- including, but not limited to, \"low tar,\" \"light,\" \"mild,\" \"medium\" and \"ultra light\" -- which create the false impression that such cigarettes are less harmful to smokers.",
