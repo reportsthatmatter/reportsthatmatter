@@ -1,9 +1,9 @@
 {
- "ingest": "v0.29.0",
+ "ingest": "v0.30.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.8942583732057416,
     "boundary_r": 0.8866223908918406,
@@ -51,7 +51,7 @@
   },
   "uk-chilcot-inquiry": {
    "set": "held-out",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.9942763695829926,
     "boundary_r": 0.7875647668393783,
@@ -99,7 +99,7 @@
   },
   "uk-covid-inquiry-module-2": {
    "set": "held-out",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.8751617076326003,
     "boundary_r": 0.9471473573678684,
@@ -126,7 +126,7 @@
   },
   "uk-grenfell-tower-inquiry": {
    "set": "held-out",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.9896907216494846,
     "boundary_r": 0.8414342629482072,
@@ -174,7 +174,7 @@
   },
   "uk-hillsborough-panel": {
    "set": "held-out",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.912,
     "boundary_r": 0.9108789182544561,
@@ -268,7 +268,7 @@
   },
   "uk-post-office-horizon-inquiry": {
    "set": "held-out",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.9908361970217641,
     "boundary_r": 0.9105263157894737,
@@ -316,7 +316,7 @@
   },
   "uk-saville-inquiry": {
    "set": "development",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.8159908186687069,
     "boundary_r": 0.9920930232558139,
@@ -389,7 +389,7 @@
   },
   "us-911-commission": {
    "set": "development",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.9360086767895879,
     "boundary_r": 0.9417970170971263,
@@ -483,7 +483,7 @@
   },
   "us-duelfer-report": {
    "set": "held-out",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.8098833218943033,
     "boundary_r": 0.677382319173364,
@@ -510,7 +510,7 @@
   },
   "us-v-philip-morris": {
    "set": "development",
-   "ingest": "v0.29.0",
+   "ingest": "v0.30.0",
    "metrics": {
     "boundary_p": 0.986100950987564,
     "boundary_r": 0.9877870053737177,
