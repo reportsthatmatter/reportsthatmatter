@@ -607,3 +607,28 @@ marks:
       crop a taller box that includes 3.46 or 3.48, but that is no longer the
       one-sentence paragraph. Re-check against the printed page if the PDF is
       reissued.
+
+  - id: southport
+    set: plate
+    report: uk-southport-inquiry
+    pdf: archive/southport-inquiry-phase-1-volume-1-hc1768-i-v2.pdf
+    page: 1
+    dpi: 200
+    # Measured on the 200dpi page (A4, 1654x2339): the title block runs x 530-1225, y 840-1215 (the
+    # "The Southport Inquiry Report" lines, then "Volume 1"); the box adds about 30px margin and stops
+    # above the date and the HC number. The purple column and the Inquiry's wordmark at its head are
+    # outside the crop.
+    crop: [500, 810, 760, 440]
+    subject: >-
+      Typographic: the title of the report as its cover sets it, "The Southport Inquiry Report /
+      Volume 1", PDF p.1. This is an affected-community report (decision 0026): no photograph, plan,
+      map, CCTV still or any figure of the venue or the attack appears, and none is used. Avoided:
+      the figures in Chapters 4 and 5 (the venue, the plans, the locations) and the Inquiry's own
+      wordmark on the cover.
+    rights: >-
+      Crown copyright 2026, Open Government Licence v3.0 (imprint, PDF p.3). Plain type on the
+      report's cover; no logo or insignia in the crop.
+    treat: { black: 0.30, white: 0.90, grain: 40, cut: none }
+    caveat: >-
+      Title text is thin line work, so at 92px the row reads as a few grey lines. It is the shape
+      of a title page, as with the Russia elections plate. If it reads as noise, raise black.

@@ -201,6 +201,18 @@ REFERENCES = {
             "The Inquiry's own HTML edition of the summary (thirlwall.public-inquiry.uk/summary-chapter/summary-report/) has about 60 words broken by stray spaces inside them and no paragraph numbers, so it is not cached; the tags are the reference.",
         ],
     },
+    "uk-southport-inquiry": {
+        "set": "held-out",
+        "adapter": "tagged",
+        "edition": "Volume 1's PDF's own structure tree (tagged PDF, InDesign: H, P, Note, LI, Table, Figure), version 2 (July 2026)",
+        "licence": CROWN,
+        "numbered": True,
+        "files": [("https://www.gov.uk/api/content/government/publications/the-southport-inquiry-phase-1-report/phase-1-report-volume-1-accessible", "volume-1-accessible.json")],
+        "caveats": [
+            "A new inquiry, so held out: score it, do not tune passes on it.",
+            "The served text is GOV.UK's accessible HTML edition (cleanEdition, govuk-html.ts); this reference is the PDF's tags, which stand as the answer key for the PDF reading (pnpm score --shadow). The HTML edition's content-API record is cached beside it (reference/raw/volume-1-accessible.json; the body is volume-1-accessible.html).",
+        ],
+    },
     "us-duelfer-report": {
         "set": "held-out",
         "adapter": "duelfer",
