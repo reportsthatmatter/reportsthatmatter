@@ -587,6 +587,10 @@ hr {
 }
 
 .landing-guide-title .serif {
+  /* Shrinks and wraps beside the page cue instead of pushing it off a 320px screen (076k). */
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
   font-size: 1.45rem;
   line-height: 1.2;
   color: var(--ink);
@@ -839,6 +843,8 @@ hr {
 }
 
 .prose a {
+  /* A long URL in a footnote or citation must wrap, not widen the page (076k). */
+  overflow-wrap: anywhere;
   color: var(--ink);
   text-decoration: underline;
   text-underline-offset: 0.18em;
@@ -1217,6 +1223,7 @@ hr {
 }
 
 .orphan-notes {
+  overflow-wrap: anywhere;
   margin-top: 4rem;
   padding-top: 2rem;
   border-top: 1px solid var(--rule);
