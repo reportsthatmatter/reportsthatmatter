@@ -38,6 +38,12 @@ Done in this change: only the head check (`tests/full-head.test.ts`). Nothing ab
 - If B: a small branch in the `/full` route, a user-agent list kept in one place, a test per agent, and `Vary: User-Agent` on the response (edge-cache key). The head-only page needs the report's summary text, which the contents page already has.
 - If C: `/full` redirects become part of the report's contract; the `?p=` redirect rule needs a test.
 
+## Implemented (reportsthatmatter-te56)
+
+- `src/lib/preview-agents.ts` holds the user-agent list and the threshold. The threshold is **8 MB**, not 3 MB: the decision says "about 3 MB" and "only Leveson today", but Philip Morris (4.4 MB), Jan 6 (3.8 MB) and PSI (3.1 MB) preview fine on Bluesky, and 3 MB would change their working previews. Lower `FULL_PREVIEW_THRESHOLD_BYTES` if one is found failing.
+- B: `/full` answers those agents with `renderReportPreviewOnly` when the body is over the threshold (same head and `?p=`/`?h=` quote description, the editor's summary, a link to the contents page); every `/full` response carries `Vary: User-Agent`; the in-Worker cache is skipped for preview agents.
+- E: the landing page's /full link for a report over `HEAVY_FULL_WORDS` (800,000 words, about 8 MB) reads "(about 11 MB: slow on a phone, best on a computer)". Text only; no CSS change.
+
 ## Links
 
 - `docs/research/2026-10-09-launch-audit.md` (PR #301)
