@@ -48,6 +48,17 @@
 report: us-ica-2017-russia-elections
 status: approved
 
+hero:
+  src: /assets/heroes/us-ica-2017-russia-elections.webp
+  alt: >-
+    The entrance of the CIA's Original Headquarters Building at Langley,
+    Virginia: a wide, flat concrete canopy on tapering pillars in front of a
+    long pale facade with rows of windows, under a blue sky with cloud.
+  credit: "CIA Original Headquarters Building, Langley, Virginia, 2011 · Photo: Central Intelligence Agency, public domain"
+  source: "https://commons.wikimedia.org/wiki/File:Original_Headquarters_Building_(OHB)_-_Flickr_-_The_Central_Intelligence_Agency.jpg"
+  licence: Public domain (US federal government work)
+  focus: "50% 62%"
+
 why_it_matters: >-
   The declassified assessment by the CIA, the FBI and the NSA of Russian
   activities aimed at the 2016 US presidential election, published on

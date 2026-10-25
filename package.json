@@ -38,7 +38,8 @@
     "mark-mockups": "node scripts/imagery/mockups.mjs docs/design/2026-09-12-imagery/candidates docs/design/2026-09-12-imagery/mockups",
     "highlight": "tsx scripts/highlight.mjs",
     "feed": "tsx scripts/feed.mjs",
-    "subscribers": "tsx scripts/subscribers.mjs"
+    "subscribers": "tsx scripts/subscribers.mjs",
+    "grade": "tsx scripts/grade.mjs"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.131.0",

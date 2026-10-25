@@ -2,7 +2,7 @@ import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
 import { HEAVY_FULL_WORDS } from "../lib/preview-agents";
-import { quotedPassage, truncate, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear, sourceAttributes } from "./report";
+import { quotedPassage, truncate, capDescription, firstSentence, quoteDescription, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear, sourceAttributes } from "./report";
 import { SITE_ORIGIN } from "./site";
 import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-data";
 import { reportTitle, sectionTitle } from "../lib/titles";
@@ -29,8 +29,8 @@ export function sectionPreview(
 ): { title: string; description: string; image?: string; imageAlt: string; url: string; canonical: string; structuredData: string } {
   const reportPath = `/reports/${meta.id ?? ""}`;
   const description = quoted
-    ? `“${truncate(quoted, 280)}” — ${meta.title}`
-    : `${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`;
+    ? quoteDescription(quoted, meta.title)
+    : capDescription(`${section.title} — ${meta.title}. Read the full text with linkable paragraphs.`);
 
   return {
     title: sectionTitle(meta, section),
@@ -166,12 +166,13 @@ export function renderReportOverview(
 </main>
 <script src="/assets/find-anchor.js" defer></script>`;
 
-  // An approved "why it matters" is the best one-line answer to "what is this?"
-  // there is — better in a search result than a title and a byline.
+  // An approved editorial's own `description:` or, failing that, the first sentence of its
+  // "why it matters" is the best one-line answer to "what is this?" there is, and short enough
+  // (<= 200 characters) for a link card to show whole (reportsthatmatter-ntjx).
   const description =
     options.editorial?.status === "approved"
-      ? options.editorial.whyItMatters
-      : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`;
+      ? options.editorial.description ?? firstSentence(options.editorial.whyItMatters)
+      : capDescription(`${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`);
 
   return renderLayout(reportTitle(meta), body, {
     description,

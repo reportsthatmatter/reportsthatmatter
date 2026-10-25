@@ -1376,6 +1376,289 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 50%"
     }
   },
+  "uk-covid-inquiry-module-2": {
+    "status": "approved",
+    "whyItMatters": "The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett, on how the UK government and the governments of Scotland, Wales and Northern Ireland made their decisions from the first reports of the virus in January 2020 to the end of restrictions in May 2022. This first volume holds the Inquiry's summary, its key themes and its account, month by month, of the lockdowns and what led to them.",
+    "background": [
+      "Covid-19 reached the UK in early 2020. Over the next two and a half years the four governments of the UK closed schools and businesses, and ordered people to stay at home; England had three national lockdowns. The last restrictions in the UK ended on 30 May 2022. The Chair's introduction records that Covid-19 is mentioned on the death certificates of more than 230,000 people in the UK.",
+      "The UK Covid-19 Inquiry was established in June 2022 under the Inquiries Act 2005, chaired by Baroness Hallett. It works through ten modules. Its first report, on the UK's resilience and preparedness (Module 1), was published on 18 July 2024 and found the UK ill prepared. This second report covers core political and administrative decision-making: Module 2 for the UK government, and Modules 2A, 2B and 2C for Scotland, Wales and Northern Ireland. The Inquiry gathered more than 2 million potentially relevant documents and heard 166 witnesses over 69 days, in 2023 and 2024. The report was published on 20 November 2025. Its Volume II, with the lessons and the full list of recommendations (19 key recommendations, in the Inquiry's words), is not yet on this site.",
+      "A public inquiry establishes facts and makes recommendations; it does not decide civil or criminal liability. The Chair writes that politicians \"were faced with unenviable choices\" and that she has asked whether their decisions were reasonable in light of what was known, or ought to have been known, at the time. Where witnesses disagreed with the Inquiry's view, the report sets out their evidence, including Boris Johnson's view that earlier restrictions were unlikely to have avoided the first lockdown. In March 2026 the UK government published its response, saying it broadly agrees with the recommendations and setting out actions on each."
+    ],
+    "findings": [
+      {
+        "text": "The Inquiry finds that the response of the four governments repeatedly amounted to \"too little, too late\", and that while the lockdowns of 2020 and 2021 saved lives, they became inevitable only because of the governments' own acts and omissions.",
+        "cites": [
+          {
+            "id": "inquiry-finds-response-four-governments",
+            "page": 2,
+            "href": "/reports/uk-covid-inquiry-module-2?p=inquiry-finds-response-four-governments"
+          },
+          {
+            "id": "4-231-through-their-own",
+            "page": 213,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-231-through-their-own"
+          }
+        ],
+        "excerpt": {
+          "quote": "The Inquiry finds that the response of the four governments repeatedly amounted to a case of 'too little, too late'. The failure to appreciate the scale of the threat, or the urgency of response it demanded, meant that – by the time the possibility of a mandatory lockdown was first considered – it was already too late and a lockdown had become unavoidable.",
+          "cite": {
+            "id": "inquiry-finds-response-four-governments",
+            "page": 2,
+            "href": "/reports/uk-covid-inquiry-module-2?p=inquiry-finds-response-four-governments&h=|The%20Inquiry%20finds%20that%20the%20response%20of%20the%20four%20governments%20repeatedly%20amounted%20to%20a%20case%20of%20'too%20little%2C%20too%20late'.%20The%E2%8B%AFossibility%20of%20a%20mandatory%20lockdown%20was%20first%20considered%20%E2%80%93%20it%20was%20already%20too%20late%20and%20a%20lockdown%20had%20become%20unavoidable.|%20That%20these%20same%20mistakes"
+          }
+        }
+      },
+      {
+        "text": "The report finds that by mid-February 2020 the four governments knew enough to act, and that their lack of urgency, including during the half-term holidays, and their failure to make adequate preparations were inexplicable. It calls February 2020 \"a lost month\".",
+        "cites": [
+          {
+            "id": "2-206-four-governments-knew",
+            "page": 91,
+            "href": "/reports/uk-covid-inquiry-module-2?p=2-206-four-governments-knew"
+          },
+          {
+            "id": "2-207-independent-panel-pandemic",
+            "page": 91,
+            "href": "/reports/uk-covid-inquiry-module-2?p=2-207-independent-panel-pandemic"
+          },
+          {
+            "id": "spread-virus-globally-particular-escalating",
+            "page": 3,
+            "href": "/reports/uk-covid-inquiry-module-2?p=spread-virus-globally-particular-escalating"
+          }
+        ],
+        "excerpt": {
+          "quote": "The four governments knew enough to spur them into action. Accordingly, the Inquiry finds that the lack of urgency (particularly during the mid-February school half-term holidays) and the failure of the four governments to take a grip of the situation and make adequate preparations are inexplicable.",
+          "cite": {
+            "id": "2-206-four-governments-knew",
+            "page": 91,
+            "href": "/reports/uk-covid-inquiry-module-2?p=2-206-four-governments-knew&h=2.206.%20|The%20four%20governments%20knew%20enough%20to%20spur%20them%20into%20action.%20Accordingly%2C%20the%20Inquiry%20finds%20that%20the%20lack%20of%20urgency%20(particularly%20during%20the%20mid-February%20school%20half-term%20holidays)%20and%20the%20failure%20of%20the%20four%20governments%20to%20take%20a%20grip%20of%20the%20situation%20and%20make%20adequate%20preparations%20are%20inexplicable.|%20They%20failed%20to"
+          }
+        }
+      },
+      {
+        "text": "The Inquiry accepts the consensus of the evidence that the first mandatory lockdown should have been imposed a week earlier, and reports modelling that doing so would have meant about 23,000 fewer deaths in England in the first wave. It rejects the criticism that the governments were wrong in principle to impose a lockdown.",
+        "cites": [
+          {
+            "id": "inquiry-recognises-lockdown-decision-difficult",
+            "page": 5,
+            "href": "/reports/uk-covid-inquiry-module-2?p=inquiry-recognises-lockdown-decision-difficult"
+          },
+          {
+            "id": "however-inquiry-rejects-criticism-four",
+            "page": 5,
+            "href": "/reports/uk-covid-inquiry-module-2?p=however-inquiry-rejects-criticism-four"
+          },
+          {
+            "id": "4-227-however-inquiry-rejects",
+            "page": 213,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-227-however-inquiry-rejects"
+          }
+        ],
+        "excerpt": {
+          "quote": "However, the Inquiry rejects the criticism that the four governments were wrong, in principle, to impose a lockdown. In any event, the UK government and the devolved administrations had received clear and compelling advice by this time that the exponential growth in transmission would, in the absence of a mandatory lockdown, likely lead to loss of life on a scale that was unconscionable and unacceptable.",
+          "cite": {
+            "id": "however-inquiry-rejects-criticism-four",
+            "page": 5,
+            "href": "/reports/uk-covid-inquiry-module-2?p=however-inquiry-rejects-criticism-four&h=|However%2C%20the%20Inquiry%20rejects%20the%20criticism%20that%20the%20four%20governments%20were%20wrong%2C%20in%20principle%2C%20to%20impose%20a%20lockdown.%20In%20%E2%8B%AFin%20the%20absence%20of%20a%20mandatory%20lockdown%2C%20likely%20lead%20to%20loss%20of%20life%20on%20a%20scale%20that%20was%20unconscionable%20and%20unacceptable.|%20No%20government%2C%20acting%20in"
+          }
+        }
+      },
+      {
+        "text": "The report finds that none of the four governments had planned for a lockdown or for how to leave one, and that the initial plan, based in part on the 2011 strategy for pandemic influenza, aimed only to slow the spread of the virus.",
+        "cites": [
+          {
+            "id": "4-167-decision-impose-uk-wide",
+            "page": 200,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-167-decision-impose-uk-wide"
+          },
+          {
+            "id": "4-168-initial-plan-respond",
+            "page": 200,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-168-initial-plan-respond"
+          },
+          {
+            "id": "4-180-absence-planning-further",
+            "page": 202,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-180-absence-planning-further"
+          }
+        ]
+      },
+      {
+        "text": "The report finds that the UK government, the Welsh Government and the Northern Ireland Executive failed to learn from the first lockdown in the autumn of 2020. It concludes that Mr Johnson should have ordered a circuit breaker lockdown in late September or early October 2020, describes decision-making in Northern Ireland as \"chaotic\", and finds that Scotland's stringent local measures avoided a second national lockdown that autumn.",
+        "cites": [
+          {
+            "id": "autumn-2020-infection-rates-varied",
+            "page": 6,
+            "href": "/reports/uk-covid-inquiry-module-2?p=autumn-2020-infection-rates-varied"
+          },
+          {
+            "id": "johnson-should-have-ordered-imposition",
+            "page": 7,
+            "href": "/reports/uk-covid-inquiry-module-2?p=johnson-should-have-ordered-imposition"
+          },
+          {
+            "id": "notwithstanding-imposition-circuit-breaker-restrictions",
+            "page": 7,
+            "href": "/reports/uk-covid-inquiry-module-2?p=notwithstanding-imposition-circuit-breaker-restrictions"
+          },
+          {
+            "id": "number-cases-scotland-autumn-2020",
+            "page": 7,
+            "href": "/reports/uk-covid-inquiry-module-2?p=number-cases-scotland-autumn-2020"
+          }
+        ]
+      },
+      {
+        "text": "The report describes the vaccine rollout from December 2020 as a remarkable achievement, and finds that in 2021 the four governments led their plans by data rather than dates and in that respect had learned from earlier lockdowns.",
+        "cites": [
+          {
+            "id": "december-2020-uk-first-country",
+            "page": 8,
+            "href": "/reports/uk-covid-inquiry-module-2?p=december-2020-uk-first-country"
+          },
+          {
+            "id": "development-enabled-four-governments-take",
+            "page": 8,
+            "href": "/reports/uk-covid-inquiry-module-2?p=development-enabled-four-governments-take"
+          },
+          {
+            "id": "7-118-inquiry-accepts-restrictions",
+            "page": 374,
+            "href": "/reports/uk-covid-inquiry-module-2?p=7-118-inquiry-accepts-restrictions"
+          }
+        ]
+      },
+      {
+        "text": "Among its key themes, the Inquiry finds that the UK Cabinet was largely sidelined; that decision-making was affected by cultural problems in the UK government and the Northern Ireland Executive, including a \"toxic and chaotic culture\" at the centre of the UK government; that instances of ministers and advisers appearing to break the rules caused huge distress; and that ministers in all four nations made far-reaching laws with little or no parliamentary oversight.",
+        "cites": [
+          {
+            "id": "uk-cabinet-largely-sidelined-decision-making",
+            "page": 10,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-cabinet-largely-sidelined-decision-making"
+          },
+          {
+            "id": "decision-making-particularly-affected-cultural-problems",
+            "page": 11,
+            "href": "/reports/uk-covid-inquiry-module-2?p=decision-making-particularly-affected-cultural-problems"
+          },
+          {
+            "id": "pandemic-response-also-exposed-wider",
+            "page": 11,
+            "href": "/reports/uk-covid-inquiry-module-2?p=pandemic-response-also-exposed-wider"
+          },
+          {
+            "id": "ministers-relied-secondary-legislation-implement",
+            "page": 12,
+            "href": "/reports/uk-covid-inquiry-module-2?p=ministers-relied-secondary-legislation-implement"
+          }
+        ],
+        "excerpt": {
+          "quote": "Ministers relied on secondary legislation to implement many of the most far-reaching restrictions in modern UK history, with little or no parliamentary oversight.",
+          "cite": {
+            "id": "ministers-relied-secondary-legislation-implement",
+            "page": 12,
+            "href": "/reports/uk-covid-inquiry-module-2?p=ministers-relied-secondary-legislation-implement&h=|Ministers%20relied%20on%20secondary%20legislation%20to%20implement%20many%20of%20the%20most%20far-reaching%20restrictions%20in%20modern%20UK%20history%2C%20with%20little%20or%20no%20parliamentary%20oversight.|%20Across%20all%20four%20nations%2C"
+          }
+        }
+      },
+      {
+        "text": "The report finds that the impact of the pandemic was not shared equally, that older people, disabled people and some ethnic minority groups faced a higher risk of dying, and that the harm restrictions would do to vulnerable groups, including children, was foreseeable but had not been adequately considered.",
+        "cites": [
+          {
+            "id": "although-pandemic-affected-everyone-uk",
+            "page": 9,
+            "href": "/reports/uk-covid-inquiry-module-2?p=although-pandemic-affected-everyone-uk"
+          },
+          {
+            "id": "vulnerable-groups-also-affected-restrictions",
+            "page": 9,
+            "href": "/reports/uk-covid-inquiry-module-2?p=vulnerable-groups-also-affected-restrictions"
+          },
+          {
+            "id": "despite-harm-being-foreseeable-impact",
+            "page": 10,
+            "href": "/reports/uk-covid-inquiry-module-2?p=despite-harm-being-foreseeable-impact"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "executive-summary",
+        "title": "Executive summary",
+        "page": "2",
+        "why": "The Inquiry's own summary of the whole period, from January 2020 to the end of restrictions in May 2022; the place to start."
+      },
+      {
+        "slug": "key-themes",
+        "title": "Key themes",
+        "page": "9",
+        "why": "What the Inquiry concludes about scientific advice, the impact on vulnerable groups, how each government made decisions, communication with the public, the law and relations between the four nations.",
+        "excerpt": {
+          "quote": "Time and again, public messaging failed to reflect the actual laws in place. Ministers made statements suggesting legal obligations where none existed, or vice versa.",
+          "cite": {
+            "id": "time-again-public-messaging-failed",
+            "page": 12,
+            "href": "/reports/uk-covid-inquiry-module-2?p=time-again-public-messaging-failed&h=|Time%20and%20again%2C%20public%20messaging%20failed%20to%20reflect%20the%20actual%20laws%20in%20place.%20Ministers%20made%20statements%20suggesting%20legal%20obligations%20where%20none%20existed%2C%20or%20vice%20versa.|%20The%20public%20%E2%80%93%20and%20even"
+          }
+        }
+      },
+      {
+        "slug": "lost-time",
+        "title": "Lost time",
+        "page": "92",
+        "why": "The Inquiry's conclusions on January and February 2020, and why it does not accept that uncertainty about the virus justified the lack of action."
+      },
+      {
+        "slug": "decision-making-leading-to-the-lockdown-decision",
+        "title": "Decision-making leading to the lockdown decision",
+        "page": "200",
+        "why": "The Inquiry's analysis of the decision of 23 March 2020, why it came when it did, and why it was imposed without a plan for leaving it.",
+        "excerpt": {
+          "quote": "The lockdown decision of 23 March 2020 was as difficult a decision as any UK government or devolved administration has ever had to make.",
+          "cite": {
+            "id": "4-165-lockdown-decision-23",
+            "page": 199,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-165-lockdown-decision-23&h=4.165.%20|The%20lockdown%20decision%20of%2023%20March%202020%20was%20as%20difficult%20a%20decision%20as%20any%20UK%20government%20or%20devolved%20administration%20has%20ever%20had%20to%20make.|%20The%20highly%20polarised"
+          }
+        }
+      },
+      {
+        "slug": "a-second-lockdown-in-england",
+        "title": "A second lockdown in England",
+        "page": "320",
+        "why": "The autumn of 2020 in England, the advice for a circuit breaker, and the evidence of those who disagreed with it.",
+        "excerpt": {
+          "quote": "The Inquiry accepts that a second lockdown was to be avoided at all costs. Unfortunately, the failure to take timely action had made one inevitable.",
+          "cite": {
+            "id": "6-236-inquiry-accepts-second",
+            "page": 329,
+            "href": "/reports/uk-covid-inquiry-module-2?p=6-236-inquiry-accepts-second&h=6.236.%20|The%20Inquiry%20accepts%20that%20a%20second%20lockdown%20was%20to%20be%20avoided%20at%20all%20costs.%20Unfortunately%2C%20the%20failure%20to%20take%20timely%20action%20had%20made%20one%20inevitable.|%20Once%20the%20second%20lockdown"
+          }
+        }
+      },
+      {
+        "slug": "a-new-normal",
+        "title": "A new normal",
+        "page": "439",
+        "why": "The Inquiry's conclusions on the vaccine period, the Omicron wave and the end of restrictions in 2022."
+      }
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-covid-inquiry-module-2.webp",
+      "width": 2400,
+      "height": 1351,
+      "small": {
+        "src": "/assets/heroes/uk-covid-inquiry-module-2-1200.webp",
+        "width": 1200
+      },
+      "credit": "Liverpool Street Station, London, 21 May 2020 · Photo: Kwh1050, CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Liverpool_Street_Station_London_UK_-_empty_during_COVID_lockdown.jpg",
+      "alt": "The concourse of Liverpool Street Station in London on a weekday afternoon in May 2020, during the first lockdown, almost empty: a few travellers cross the tiled floor beneath the departure boards, and banners along the left read \"Thank you\" to the NHS and key workers.",
+      "focus": "50% 35%"
+    }
+  },
   "uk-grenfell-tower-inquiry": {
     "status": "approved",
     "whyItMatters": "The report of the public inquiry into the fire at Grenfell Tower in west London on 14 June 2017, in which 72 people died. This first of its seven volumes holds the Panel's introduction, its own summary of the whole report, and its account of how central government and the Building Research Establishment dealt with the risks of combustible cladding in the decades before the fire.",
@@ -3332,7 +3615,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           }
         }
       }
-    ]
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-ica-2017-russia-elections.webp",
+      "width": 2400,
+      "height": 1600,
+      "small": {
+        "src": "/assets/heroes/us-ica-2017-russia-elections-1200.webp",
+        "width": 1200
+      },
+      "credit": "CIA Original Headquarters Building, Langley, Virginia, 2011 · Photo: Central Intelligence Agency, public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Original_Headquarters_Building_(OHB)_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "alt": "The entrance of the CIA's Original Headquarters Building at Langley, Virginia: a wide, flat concrete canopy on tapering pillars in front of a long pale facade with rows of windows, under a blue sky with cloud.",
+      "focus": "50% 62%"
+    }
   },
   "us-jan6-committee": {
     "status": "approved",

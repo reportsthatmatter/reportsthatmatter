@@ -1,0 +1,76 @@
+{
+ "ingest": "v0.29.0",
+ "recorded": "2026-10-25",
+ "reports": {
+  "jack-smith-vol1": {
+   "random": {
+    "judged": 14,
+    "wrong": 1
+   },
+   "all": {
+    "judged": 29,
+    "wrong": 3
+   }
+  },
+  "us-deepwater-horizon": {
+   "random": {
+    "judged": 13,
+    "wrong": 0
+   },
+   "all": {
+    "judged": 27,
+    "wrong": 1
+   }
+  },
+  "us-psi-financial-crisis": {
+   "random": {
+    "judged": 15,
+    "wrong": 0
+   },
+   "all": {
+    "judged": 30,
+    "wrong": 2
+   }
+  },
+  "challenger-accident": {
+   "random": {
+    "judged": 14,
+    "wrong": 3
+   },
+   "all": {
+    "judged": 28,
+    "wrong": 5
+   }
+  },
+  "us-lehman-examiner": {
+   "random": {
+    "judged": 14,
+    "wrong": 0
+   },
+   "all": {
+    "judged": 29,
+    "wrong": 1
+   }
+  },
+  "uk-leveson-inquiry": {
+   "random": {
+    "judged": 15,
+    "wrong": 0
+   },
+   "all": {
+    "judged": 30,
+    "wrong": 3
+   }
+  },
+  "litvinenko-inquiry": {
+   "random": {
+    "judged": 13,
+    "wrong": 0
+   },
+   "all": {
+    "judged": 25,
+    "wrong": 0
+   }
+  }
+ }
+}
