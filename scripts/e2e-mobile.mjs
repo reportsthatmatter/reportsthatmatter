@@ -71,12 +71,12 @@ for (const profile of profiles) {
       }).observe({ type: "layout-shift", buffered: true });
     } catch {}
   });
-  // E2E_COLD_FONT_MS=1500 reproduces a0rx on demand: a cold, slow font CDN. It delays the web-font requests of the first page load only
+  // E2E_COLD_FONT_MS=1500 reproduces a0rx on demand: cold, slow web fonts (now self-hosted under /assets/fonts/). It delays the web-font requests of the first page load only
   // (the next loads find them cached on a real network, which routing would otherwise disable).
   let fontsCold = true;
   const coldFontMs = Number(process.env.E2E_COLD_FONT_MS || 0);
   if (coldFontMs) {
-    await context.route(/fonts\.(googleapis|gstatic)\.com/, async (route) => {
+    await context.route(/\/assets\/fonts\//, async (route) => {
       if (fontsCold) await new Promise((resolve) => setTimeout(resolve, coldFontMs));
       await route.continue();
     });
