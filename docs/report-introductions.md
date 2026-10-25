@@ -24,7 +24,8 @@ A report without an approved file keeps the plain contents page.
 | Field | What goes in it | Length |
 | --- | --- | --- |
 | `status` | `approved` when it ships (Rufus reviews the live page afterwards); `draft` only for work that needs a second opinion first | |
-| `why_it_matters` | The standfirst under the title. Also the page's meta description, so it is what search results show | 2–4 sentences, 50–80 words |
+| `why_it_matters` | The standfirst under the title. Its first sentence is the page's meta description unless `description` is set | 2–4 sentences, 50–80 words |
+| `description` | Optional. The meta and og:description (what a link card and a search result show), at most 200 characters; checked by `pnpm editorial`. Without it the page uses the first sentence of `why_it_matters`, cut at a word boundary if longer | 1 sentence, under 200 characters |
 | `background` | What happened, who commissioned the report and why, when it was published, and what followed. Paragraphs separated by a blank line | 2–4 paragraphs, 200–300 words |
 | `findings` | What the report found. Each has `text` (ours), `cites` (paragraph ids), and optionally an `excerpt` (a quotation) | 5–8 findings; 3–4 with excerpts |
 | `reading_guide` | The sections to read first. Each has `section` (slug), optional `title`, `why`, and optional `excerpt` | 4–6 sections |
