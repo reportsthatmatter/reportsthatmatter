@@ -46,6 +46,19 @@ describe("visibility", () => {
   });
 });
 
+describe("scheduling", () => {
+  const scheduled = parsePosts({ later: post().replace("draft", "published").replace("2026-01-02", "2026-10-27") });
+
+  it("keeps a published post unlisted until its date (UTC)", () => {
+    expect(visiblePosts(scheduled, false, new Date("2026-10-26T23:59:59Z"))).toHaveLength(0);
+    expect(visiblePosts(scheduled, false, new Date("2026-10-27T00:00:00Z"))).toHaveLength(1);
+  });
+
+  it("still previews it with ?draft", () => {
+    expect(visiblePosts(scheduled, true, new Date("2026-10-25T00:00:00Z"))).toHaveLength(1);
+  });
+});
+
 describe("the posts in the repo", () => {
   it("all parse", () => {
     const files = Object.fromEntries(
@@ -71,14 +84,14 @@ describe("changelog links to posts", () => {
   });
 });
 
-// The posts committed today are all drafts, so these routes are the "safe in
-// the repo" guarantee. Published behaviour is in blog-published.test.ts.
-describe("blog routes with only drafts", () => {
+// The drafts committed in the repo never reach a reader: these routes are the "safe in the repo" guarantee. They
+// hold whether or not a launch post is live yet (it is scheduled for 2026-10-27). Published behaviour is in
+// blog-published.test.ts.
+describe("blog routes with drafts in the repo", () => {
   const slug = "getting-the-text-right";
 
-  it("lists nothing and links no draft", async () => {
+  it("links no draft", async () => {
     const body = await (await app.request("http://localhost/blog")).text();
-    expect(body).toContain("No posts yet");
     expect(body).not.toContain(slug);
   });
 
@@ -106,7 +119,7 @@ describe("blog routes with only drafts", () => {
 
   it("keeps drafts out of the feed and the sitemap", async () => {
     const feed = await (await app.request("http://localhost/blog/feed.xml")).text();
-    expect(feed).not.toContain("<entry>");
+    expect(feed).not.toContain(slug);
     const sitemap = await (await app.request("http://localhost/sitemap.xml")).text();
     expect(sitemap).toContain("/blog</loc>");
     expect(sitemap).not.toContain(slug);

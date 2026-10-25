@@ -83,20 +83,25 @@ export function parsePosts(files: Record<string, string>): Post[] {
     .sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
 }
 
-export const isPublished = (post: Post): boolean => post.status === "published";
+/**
+ * Published and not scheduled for later: `status: published` with a `date` still ahead (UTC) stays unlisted until that
+ * day, so a post can be deployed in advance and appear on its date with no second deploy.
+ */
+export const isPublished = (post: Post, now: Date = new Date()): boolean =>
+  post.status === "published" && post.date <= now.toISOString().slice(0, 10);
 
 /** What a reader may see: published posts, plus drafts when previewing. */
-export function visiblePosts(posts: Post[], preview: boolean): Post[] {
-  return preview ? posts : posts.filter(isPublished);
+export function visiblePosts(posts: Post[], preview: boolean, now: Date = new Date()): Post[] {
+  return preview ? posts : posts.filter((post) => isPublished(post, now));
 }
 
-export function findPost(posts: Post[], slug: string, preview: boolean): Post | undefined {
-  return visiblePosts(posts, preview).find((post) => post.slug === slug);
+export function findPost(posts: Post[], slug: string, preview: boolean, now: Date = new Date()): Post | undefined {
+  return visiblePosts(posts, preview, now).find((post) => post.slug === slug);
 }
 
 /** Published newsletter issues, newest first. */
-export function publishedIssues(posts: Post[]): Post[] {
-  return posts.filter((post) => isPublished(post) && post.issue !== undefined);
+export function publishedIssues(posts: Post[], now: Date = new Date()): Post[] {
+  return posts.filter((post) => isPublished(post, now) && post.issue !== undefined);
 }
 
 /**
