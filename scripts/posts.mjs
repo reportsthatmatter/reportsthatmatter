@@ -289,15 +289,15 @@ if (overLength.length) {
   for (const o of overLength) console.error(`  - ${o}`);
   process.exitCode = 1;
 }
-// An item queued only because it can carry a hook (its quote form is over the limit): listed always, a failure once
-// its date arrives with no hook (reportsthatmatter-f9we).
+// An item queued only because it can carry a hook (its quote form is over the limit): listed always, and loudly once
+// its date arrives with no hook (f9we). Not a failure: the poster skips it and posts the next item (irro).
 const needsHook = needsHookViolations(queue, isoDate(new Date()));
 if (needsHook.waiting.length) {
   console.warn(`${needsHook.waiting.length} queued item(s) need a hook before they can post (quote form over ${BLUESKY_GRAPHEME_LIMIT} graphemes; the card carries the quote):`);
   for (const i of needsHook.waiting) console.warn(`  - ${i.scheduled} ${i.id}`);
 }
 if (needsHook.due.length) {
-  console.error(`${needsHook.due.length} item(s) due with no hook:`);
+  console.error(`${needsHook.due.length} item(s) due with no hook, skipped by the poster until one is written:`);
   for (const d of needsHook.due) console.error(`  - ${d}`);
 }
 const before = new Map(existing.map((i) => [i.id, i]));
@@ -310,7 +310,7 @@ if (flagCheck && hookDrift.length) {
 if (flagCheck) {
   // Read-only gate for the scheduled poster: a stale not-yet-posted item, a scheduling rule break, or a hooked item
   // that is too long or whose text is out of date fails it. Skipped candidates and new additions are not its business.
-  const failed = staleUnposted.length || violations.length || overLength.length || hookDrift.length || needsHook.due.length;
+  const failed = staleUnposted.length || violations.length || overLength.length || hookDrift.length;
   console.log(failed ? "Queue check failed." : "Queue check passed: every not-yet-posted item still resolves.");
   process.exit(failed ? 1 : 0);
 }

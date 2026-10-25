@@ -278,14 +278,18 @@ export type QueueItem = {
   needs_hook?: true;
 };
 
-/** Items that cannot post until a person writes a hook, with their dates (a notice); the ones due by `today` fail `--check`. */
+/**
+ * Items that cannot post until a person writes a hook, with their dates (a notice). The ones due by `today` are
+ * skipped by the poster (`selectNext`, irro) and reported loudly by `--check`, but do not fail it: failing it would put
+ * the workflow in record-only mode and stop the backup poster for every later item too.
+ */
 export function needsHookViolations(queue: readonly QueueItem[], today: string): { waiting: QueueItem[]; due: string[] } {
   const waiting = queue.filter((i) => !i.posted_url && i.needs_hook && !i.hook?.trim());
   return {
     waiting,
     due: waiting
       .filter((i) => i.scheduled <= today)
-      .map((i) => `${i.id}: scheduled ${i.scheduled} with no hook; its post in quote form is over Bluesky's ${BLUESKY_GRAPHEME_LIMIT} (write a hook, or re-date it in a PR)`),
+      .map((i) => `${i.id}: scheduled ${i.scheduled} with no hook; its post in quote form is over Bluesky's ${BLUESKY_GRAPHEME_LIMIT}, so the poster skips it until one is written (write a hook, or re-date it in a PR)`),
   };
 }
 

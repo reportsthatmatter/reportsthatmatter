@@ -478,7 +478,7 @@ describe("hooks (post-writing skill)", () => {
       expect(queue[0].text).toBe("In 1986 a shuttle broke apart.\n\n— Demo Report, p. 30");
     });
 
-    it("fails the check only once the date arrives with no hook", () => {
+    it("reports it as due only once the date arrives with no hook", () => {
       const { queue } = first(); // scheduled 2026-09-28
       expect(needsHookViolations(queue, "2026-09-27")).toMatchObject({ due: [] });
       expect(needsHookViolations(queue, "2026-09-27").waiting).toHaveLength(1);
