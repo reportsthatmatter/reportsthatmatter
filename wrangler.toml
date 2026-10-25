@@ -63,6 +63,15 @@ migrations_dir = "migrations"
 binding = "CONTENT"
 bucket_name = "reportsthatmatter-content"
 
+# Newsletter signup brake (reportsthatmatter-bvl7, decision 0033): POST /api/subscribe allows 5 requests a minute
+# per caller address. Cloudflare keeps the count; the Worker passes the address as the key and stores nothing, so
+# the privacy promise holds. namespace_id is unique within the (shared Datopian) account: pick a new number if
+# another project's binding ever uses it. A further cap of DAILY_SIGNUP_CAP new rows a day is in src/lib/subscribe.ts.
+[[ratelimits]]
+name = "SIGNUP_LIMITER"
+namespace_id = "4619001"
+simple = { limit = 5, period = 60 }
+
 # The running version's id, which changes on every deploy: the edge cache of ?p=/?h= pages is keyed on it, so
 # a deploy retires them (reportsthatmatter-h3iu). Free, and needs no read of D1.
 [version_metadata]

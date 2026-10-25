@@ -4,7 +4,7 @@ import { resolveParagraph, resolveSection } from "./lib/aliases";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog, loadPostFiles } from "./lib/source";
 import { parsePosts, visiblePosts, findPost, isPublished, publishedIssues } from "./lib/blog";
-import { parseSubscription, recordSubscription, isSameSite, MAX_BODY_BYTES } from "./lib/subscribe";
+import { parseSubscription, recordSubscription, isSameSite, withinRateLimit, MAX_BODY_BYTES, type SignupLimiter } from "./lib/subscribe";
 import { renderNewsletterPage, signupMessage, type SignupOutcome } from "./templates/newsletter";
 import { renderBlogIndex, renderPostPage, renderAtomFeed } from "./templates/blog";
 import { renderIndex, renderReportsIndex } from "./templates/index";
@@ -68,6 +68,8 @@ export type Bindings = {
    * prefix (GitHub Pages serves project sites under /<repo>/).
    */
   LEGACY_BASE?: string;
+  /** Workers Rate Limiting binding for POST /api/subscribe (reportsthatmatter-bvl7). Absent under Node/vitest unless a test supplies a fake. */
+  SIGNUP_LIMITER?: SignupLimiter;
   /** Social proof (#96): who marked what. Absent under Node/vitest unless a test supplies a fake. */
   DB?: MarksDB;
   /**
@@ -521,7 +523,7 @@ app.get("/newsletter", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
   const issues = publishedIssues(parsePosts(await loadPostFiles(sourceMode)));
   const outcome = c.req.query("subscribed") !== undefined ? "subscribed" : (c.req.query("error") as SignupOutcome);
-  const known: SignupOutcome[] = ["subscribed", "invalid", "unavailable"];
+  const known: SignupOutcome[] = ["subscribed", "invalid", "unavailable", "limited"];
   return c.html(renderNewsletterPage(issues, known.includes(outcome) ? outcome : undefined));
 });
 
@@ -534,6 +536,11 @@ app.post("/api/subscribe", async (c) => {
   const wantsJson = (c.req.header("accept") ?? "").includes("application/json");
   if (!isSameSite(c.req.url, c.req.header("origin"), c.req.header("sec-fetch-site"))) return c.text("Forbidden", 403);
   if (Number(c.req.header("content-length") ?? 0) > MAX_BODY_BYTES) return c.text("Payload too large", 413);
+  // Per caller, before the body is read or anything is written. The address is the limiter's key and goes no further.
+  if (!(await withinRateLimit(c.env?.SIGNUP_LIMITER, c.req.header("cf-connecting-ip")))) {
+    if (wantsJson) return c.json({ ok: false, message: signupMessage("limited") }, 429, { "retry-after": "60" });
+    return c.redirect("/newsletter?error=limited", 303);
+  }
   let body: Record<string, unknown> = {};
   try {
     body = (c.req.header("content-type") ?? "").includes("application/json")
@@ -546,7 +553,7 @@ app.post("/api/subscribe", async (c) => {
   const sub = parseSubscription(body ?? {});
   const result = !sub ? "invalid" : sub.spam ? "ok" : await recordSubscription(c.env?.DB, sub, Date.now());
   const outcome = result === "ok" ? "subscribed" : result;
-  const status = result === "ok" ? 200 : result === "invalid" ? 400 : 503;
+  const status = result === "ok" ? 200 : result === "invalid" ? 400 : result === "limited" ? 429 : 503;
 
   if (wantsJson) return c.json({ ok: result === "ok", message: signupMessage(outcome) }, status);
   return c.redirect(result === "ok" ? "/newsletter?subscribed" : `/newsletter?error=${result}`, 303);
