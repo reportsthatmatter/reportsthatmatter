@@ -16,7 +16,7 @@ Public inquiries and investigations are the most careful fact-finding a country 
 
 In date order: the House Science Committee's Challenger report (1986); the Columbia Accident Investigation Board (2003); the 9/11 Commission (2004); *United States v. Philip Morris* (2006); the Lehman Brothers examiner's report (2010); the Saville Inquiry into Bloody Sunday (2010); the Deepwater Horizon commission (2011); the Senate's financial-crisis report (2011); the Hillsborough Independent Panel (2012); Leveson (2012); the Senate torture report (2014); the Litvinenko Inquiry (2016); Chilcot (2016); the 2017 Intelligence Community Assessment of Russian election interference; Mueller (2019); the January 6th Committee (2022); Grenfell Phase 2 (2024); Jack Smith (2025); the Post Office Horizon IT Inquiry (2025); and the Covid Inquiry's Module 2 report (2025).
 
-Some are not whole yet. Chilcot is the executive summary only; Grenfell, Jack Smith and the Post Office Inquiry are Volume 1 only; Columbia, Saville and the Covid Inquiry's Module 2 are Volume I. Each says so at the top.
+Some are not whole yet. Chilcot is the executive summary only; Lehman is Volumes 1 and 3 (the introduction, the executive summary and selected sections); Grenfell, Jack Smith and the Post Office Inquiry are Volume 1 only; Columbia, Saville and the Covid Inquiry's Module 2 are Volume I. The Senate torture report is the declassified executive summary and findings; the full study of more than 6,700 pages remains classified. Each says so at the top.
 
 Each report has a short introduction at the top. That is ours, not the report's: drafted with AI help, checked by me, and labelled as such. Below it is the report.
 
