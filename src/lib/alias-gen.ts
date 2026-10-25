@@ -108,7 +108,8 @@ function locator(after: Rendered) {
   const starts: { at: number; id: string }[] = [];
   for (const p of after.passages) {
     starts.push({ at: stream.length, id: p.id });
-    stream += norm(p.text) + " ";
+    // The block a paragraph introduces (a quotation, a list: they carry no id) is searched too, and answers with this paragraph, the nearest citable one before it (xmgr).
+    stream += norm(p.block ? `${p.text} ${p.block}` : p.text) + " ";
   }
   const idAt = (pos: number) => {
     let lo = 0;
