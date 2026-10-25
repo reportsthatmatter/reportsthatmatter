@@ -32,7 +32,7 @@ priorities, dependencies, and blockers.
 - [ROADMAP.md](docs/ROADMAP.md) — the master feature list, ordered by distribution
 - [Architecture (2026-08-01, superseded)](docs/plans/2026-08-01-architecture.md) — storage, splitting, permalink stability; kept for history, not current
 - [Loop engineering setup](docs/plans/2026-08-01-loop-engineering-setup.md)
-- [MARKETING.md](docs/MARKETING.md)
+- [MARKETING.md](docs/MARKETING.md): points to the marketing foundation in the marketing repo
   - [Landing Page Brief](docs/plans/brief-landing-page.md)
 - [PRODUCT.md](docs/PRODUCT.md)
 - [AGENTS.md](AGENTS.md) — house rules and the done condition
