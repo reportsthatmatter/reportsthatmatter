@@ -30,3 +30,10 @@ export function linkExact(exact: string): string {
 export function quoteCardId(paragraph: string, exact: string): string {
   return `q-${fnv1a(`${paragraph}\n${foldText(normalise(linkExact(exact)))}`)}`;
 }
+
+/**
+ * The longest quote a card carries whole. `scripts/cards.mjs` (`fitToCard`) cuts a longer one at a sentence, so a card of
+ * it no longer shows the words the post links to; at this length `quoteSize` is already at its 34px floor and the text
+ * still fits one 630px screen (`assertFits` in cards.mjs fails a card that does not).
+ */
+export const CARD_QUOTE_LIMIT = 420;

@@ -9,7 +9,29 @@ import type { MarksDB } from "./marks";
 
 export type Subscription = { email: string; source: string };
 
-export type SubscribeResult = "ok" | "invalid" | "unavailable";
+export type SubscribeResult = "ok" | "invalid" | "unavailable" | "limited";
+
+/** More new addresses than this in the last 24 hours and signups pause until the window moves on (reportsthatmatter-bvl7). */
+export const DAILY_SIGNUP_CAP = 500;
+
+/**
+ * The Workers Rate Limiting binding (`[[ratelimits]]` in wrangler.toml). The caller's network address is only ever
+ * handed to Cloudflare as the counting key: we never write it anywhere (the privacy promise, decision 0033).
+ */
+export type SignupLimiter = { limit(options: { key: string }): Promise<{ success: boolean }> };
+
+/**
+ * Whether one caller may post another signup now. A missing binding (tests, local dev) or a failing one lets the
+ * request through: the limit is a brake on scripts, not a reason to refuse a reader.
+ */
+export async function withinRateLimit(limiter: SignupLimiter | undefined, clientKey: string | undefined): Promise<boolean> {
+  if (!limiter) return true;
+  try {
+    return (await limiter.limit({ key: clientKey || "unknown" })).success;
+  } catch {
+    return true;
+  }
+}
 
 /** A signup body is a few hundred bytes; anything much larger is not a form we rendered. */
 export const MAX_BODY_BYTES = 4096;
@@ -77,10 +99,18 @@ export function parseSubscription(body: Record<string, unknown>): (Subscription 
  * Store one signup. A repeat of an address already on the list changes nothing (the UNIQUE index), so asking
  * twice is harmless and reveals nothing about whether an address was already there. "unavailable" when there is
  * no database or the table is missing (migration 0006 not applied): the caller tells the reader to try later.
+ * "limited" when `DAILY_SIGNUP_CAP` addresses have been added in the last 24 hours, counted from the newest
+ * rows only (a reverse rowid scan, so at most the cap in rows read); a repeat is not told apart from a new one
+ * below the cap, and above it nobody is stored.
  */
 export async function recordSubscription(db: MarksDB | undefined, sub: Subscription, now: number): Promise<SubscribeResult> {
   if (!db) return "unavailable";
   try {
+    const recent = await db
+      .prepare("SELECT COUNT(*) AS n FROM (SELECT created_at FROM subscribers ORDER BY id DESC LIMIT ?) WHERE created_at >= ?")
+      .bind(DAILY_SIGNUP_CAP, now - 24 * 60 * 60 * 1000)
+      .first<{ n: number }>();
+    if ((recent?.n ?? 0) >= DAILY_SIGNUP_CAP) return "limited";
     await db
       .prepare("INSERT INTO subscribers (email, source, created_at) VALUES (?, ?, ?) ON CONFLICT(email) DO NOTHING")
       .bind(sub.email, sub.source, now)

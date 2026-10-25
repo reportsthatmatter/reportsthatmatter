@@ -13,8 +13,8 @@
  */
 import { createHash } from "node:crypto";
 import { comparable, placeQuote, citationHref, pageOf } from "./editorial";
-import { findText, selectorFor } from "../../assets/anchor.js";
-import { quoteCardId } from "./card-key";
+import { findText, selectorFor, decodeAnchor } from "../../assets/anchor.js";
+import { quoteCardId, CARD_QUOTE_LIMIT } from "./card-key";
 import { tierCMatch } from "./tier-c";
 
 /** Bluesky posts are rejected past this many graphemes. */
@@ -88,6 +88,12 @@ export type ResolvedPost = {
   page?: number;
   sourceTitle?: string;
   contextLine?: string;
+  /**
+   * The quote form of the post is over Bluesky's limit, but a quote card carries the whole quote legibly, so the item can
+   * still be queued: only as a hooked post (the hook in place of the quote). Its `text` stays the quote form and cannot post
+   * (reportsthatmatter-f9we).
+   */
+  needsHook?: boolean;
 };
 
 /**
@@ -135,6 +141,9 @@ export function formatHooked(hook: string, sourceTitle: string, page: number, co
   return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
 }
 
+/** The least room a hooked post must leave for the hook itself (graphemes), or a "needs hook" item could never be written. */
+export const MIN_HOOK_ROOM = 80;
+
 /**
  * Checks one candidate against the report's pre-rendered text and resolves
  * it to a postable item, or explains why it can't be posted. Never throws:
@@ -177,6 +186,15 @@ export function resolveCandidate(
       : candidate.origin === "share-quotes" && cards.has(`${candidate.report}/${candidate.paragraph}`)
         ? candidate.paragraph
         : null;
+  // The page reads `?h=` back (decoded once by the server, then by decodeAnchor) and looks the card up by those words. A link
+  // whose words do not come back the same (a "%" in the quote, a quote over MAX_EXACT named by its ends) previews with the
+  // default card instead of the one the post uploads: refuse it rather than queue a post whose link card differs.
+  if (specific === quoteCard && quoteCard && placed.inParagraph) {
+    const read = decodeAnchor(new URL(href, siteOrigin).searchParams.get("h") ?? "")?.exact;
+    if (!read || quoteCardId(candidate.paragraph, read) !== quoteCard) {
+      return { ok: false, problem: `${where}: its ?h= link does not read back as the card's words (a "%" or over 300 characters in the quote), so the link would preview with the default card` };
+    }
+  }
   const cardIsDefault = specific === null;
   if (cardIsDefault && !cards.has(`${candidate.report}/default`)) {
     return { ok: false, problem: `${where}: no card image at all — run pnpm cards` };
@@ -185,11 +203,26 @@ export function resolveCandidate(
 
   const text = formatPost(candidate.quote, candidate.reportTitle, page, candidate.contextLine);
   const length = graphemeLength(text);
-  if (length > BLUESKY_GRAPHEME_LIMIT) {
-    return {
-      ok: false,
-      problem: `${where}: ${length} graphemes, over Bluesky's ${BLUESKY_GRAPHEME_LIMIT} limit (quote can't be trimmed — verbatim only)`,
-    };
+  // Over the limit in quote form. A hooked post omits the quote, so it can still be queued when the card carries the
+  // whole quote: a card rendered for exactly these words (not the plain default) and short enough that cards.mjs does not
+  // cut it. Otherwise it is skipped, as ever; the quote is never trimmed.
+  const needsHook = length > BLUESKY_GRAPHEME_LIMIT;
+  if (needsHook) {
+    // The hooked post keeps the source line and the context line; the hook gets what is left.
+    const fixed = graphemeLength(formatHooked("", candidate.sourceTitle?.trim() || candidate.reportTitle, page, candidate.contextLine));
+    const why = cardIsDefault
+      ? `no quote card for these words, and the default card does not carry the quote — run pnpm cards`
+      : graphemeLength(candidate.quote.trim()) > CARD_QUOTE_LIMIT
+        ? `the quote is over ${CARD_QUOTE_LIMIT} characters, so its card would be cut`
+        : BLUESKY_GRAPHEME_LIMIT - fixed < MIN_HOOK_ROOM
+          ? `the source and context lines leave under ${MIN_HOOK_ROOM} graphemes for a hook`
+          : null;
+    if (why) {
+      return {
+        ok: false,
+        problem: `${where}: ${length} graphemes, over Bluesky's ${BLUESKY_GRAPHEME_LIMIT} limit (quote can't be trimmed — verbatim only); not queued as a hooked post: ${why}`,
+      };
+    }
   }
 
   const link = `${siteOrigin}${href}${href.includes("?") ? "&" : "?"}src=bsky`;
@@ -208,6 +241,7 @@ export function resolveCandidate(
       page,
       sourceTitle: candidate.sourceTitle?.trim() || candidate.reportTitle,
       contextLine: candidate.contextLine?.trim() || undefined,
+      ...(needsHook ? { needsHook: true } : {}),
     },
   };
 }
@@ -236,7 +270,28 @@ export type QueueItem = {
    * carries the quote). When set, `text` is built from it (`formatHooked`); `pnpm posts` never writes or clears it.
    */
   hook?: string | null;
+  /**
+   * Set by `pnpm posts`, never by hand: the quote form of this item is over Bluesky's limit and no `hook` is written yet,
+   * so it cannot post. `pnpm posts --check` fails it once its date arrives (`needsHookViolations`). Cleared on the next
+   * run after a hook is written.
+   */
+  needs_hook?: true;
 };
+
+/**
+ * Items that cannot post until a person writes a hook, with their dates (a notice). The ones due by `today` are
+ * skipped by the poster (`selectNext`, irro) and reported loudly by `--check`, but do not fail it: failing it would put
+ * the workflow in record-only mode and stop the backup poster for every later item too.
+ */
+export function needsHookViolations(queue: readonly QueueItem[], today: string): { waiting: QueueItem[]; due: string[] } {
+  const waiting = queue.filter((i) => !i.posted_url && i.needs_hook && !i.hook?.trim());
+  return {
+    waiting,
+    due: waiting
+      .filter((i) => i.scheduled <= today)
+      .map((i) => `${i.id}: scheduled ${i.scheduled} with no hook; its post in quote form is over Bluesky's ${BLUESKY_GRAPHEME_LIMIT}, so the poster skips it until one is written (write a hook, or re-date it in a PR)`),
+  };
+}
 
 // ---------- who may reach the queue (reportsthatmatter-63cd, 80qf) ----------
 //
@@ -524,7 +579,10 @@ export function buildQueue(params: {
         text = i.text;
       } else text = hooked;
     }
-    return now.card !== i.card || text !== i.text ? { ...i, card: now.card, text } : i;
+    const needsHook = now.needsHook === true && !i.hook?.trim();
+    const { needs_hook: _was, ...rest } = i;
+    const next: QueueItem = { ...rest, card: now.card, text, ...(needsHook ? { needs_hook: true as const } : {}) };
+    return now.card !== i.card || text !== i.text || needsHook !== (i.needs_hook === true) ? next : i;
   });
 
   const existingIds = new Set(existing.map((i) => i.id));
@@ -544,6 +602,7 @@ export function buildQueue(params: {
     card: item.card,
     scheduled: item.scheduled,
     posted_url: null,
+    ...(item.needsHook ? { needs_hook: true as const } : {}),
   }));
 
   return { queue: [...existing, ...added], added: added.length, staleUnposted, stalePosted, heldBack, overLength };

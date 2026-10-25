@@ -23,8 +23,12 @@ Every candidate is checked with the exact same functions `scripts/editorial.mjs`
 
 - the quote isn't verbatim in that paragraph (or the block quotation after it) — from `docs/share-quotes.yaml` this usually means the report's text moved since the entry was written; from an *approved editorial file* it means `pnpm editorial` should be failing too, so look there first;
 - the paragraph has no page number (rare — an epigraph or similar with no page marker at all) — Appendix C requires one, always;
-- the post text (quote + source line) is over Bluesky's 300-grapheme limit. **The quote is never trimmed to fit** — verbatim only, so an over-length highlight is excluded, not shortened;
+- the post text (quote + source line + context line) is over Bluesky's 300-grapheme limit **and** it cannot be queued as a hooked post (next section). **The quote is never trimmed to fit** — verbatim only;
 - no card image exists for it at all (see below) — run `pnpm cards`.
+
+## Long quotes: queued as "needs hook"
+
+A hooked post omits the quote (the card carries it), so a highlight whose quote form is over 300 graphemes can still be queued, provided the card shows the whole quote legibly: a quote card was rendered for exactly these words (not the report's plain default card) and the quote is at most `CARD_QUOTE_LIMIT` (420) characters, the length `scripts/cards.mjs` cuts at (the card's type is already at its 34px floor there, and `assertFits` fails a card that overflows 630px). Such an item is appended like any other but carries `needs_hook: true` (set and cleared by `pnpm posts`, never by hand) and its `text` stays the over-length quote form, which the poster refuses to post. A person writes its `hook:` (the `post-writing` skill), and the next `pnpm posts` rebuilds `text` from it and clears the flag. `pnpm posts` lists items waiting for a hook, and `--check` lists loudly one whose `scheduled` date has arrived with no hook. That is not a failure: both posters skip such an item (`selectNext`, `awaitsHook`) and post the next due one, so one missing hook never stops the queue (reportsthatmatter-irro). Once its hook is written it is the oldest due item and posts on the next posting day. A hook that takes the post over 300 still fails `--check`, as ever. A quote over 420 characters, or one with only the default card, is still skipped. The quote is never trimmed.
 
 ## The card image
 

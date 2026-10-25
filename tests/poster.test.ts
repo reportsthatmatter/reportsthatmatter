@@ -72,6 +72,15 @@ describe("selectNext: queue selection", () => {
     expect(selectNext(q, "2026-10-24")).toMatchObject({ kind: "item", item: { id: "missed" } });
   });
 
+  it("skips a due item still waiting for its hook and posts the next one (irro)", () => {
+    const q = [item("long", "2026-11-29", { needs_hook: true }), item("next", "2026-11-30")];
+    expect(selectNext(q, "2026-11-29")).toEqual({ kind: "none", reason: "nothing due until 2026-11-30 (skipped, waiting for a hook: long)" });
+    expect(selectNext(q, "2026-11-30")).toMatchObject({ kind: "item", item: { id: "next" } });
+    // Once the hook is written it is the oldest due item again.
+    const hooked = [{ ...q[0], hook: "A hook." }, q[1]];
+    expect(selectNext(hooked, "2026-11-30")).toMatchObject({ kind: "item", item: { id: "long" } });
+  });
+
   it("never takes an item scheduled in the future", () => {
     const sel = selectNext([item("a", "2026-10-14")], "2026-10-13");
     expect(sel).toEqual({ kind: "none", reason: "nothing due until 2026-10-14" });

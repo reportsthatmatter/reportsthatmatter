@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { app } from "../src/index";
-import { isValidEmail, normaliseSource, parseSubscription, recordSubscription, subscribersCsv } from "../src/lib/subscribe";
+import { DAILY_SIGNUP_CAP, isValidEmail, normaliseSource, parseSubscription, recordSubscription, subscribersCsv } from "../src/lib/subscribe";
 import type { MarksDB } from "../src/lib/marks";
 
 /** A fake D1 holding `subscribers` in memory, honouring the UNIQUE email. `missing` acts as if migration 0006 is not applied. */
-function fakeDb(missing = false) {
-  const rows: Array<{ email: string; source: string; created_at: number }> = [];
+function fakeDb(missing = false, seed: Array<{ email: string; source: string; created_at: number }> = []) {
+  const rows: Array<{ email: string; source: string; created_at: number }> = [...seed];
   const db: MarksDB = {
     prepare(sql: string) {
       return {
@@ -22,6 +22,11 @@ function fakeDb(missing = false) {
               return { results: [] as T[] };
             },
             async first<T>() {
+              // The recent-rows count: rows newer than the cutoff among the newest `limit` ones.
+              if (sql.includes("COUNT(*)")) {
+                const [limit, cutoff] = args as [number, number];
+                return { n: rows.slice(-limit).filter((row) => row.created_at >= cutoff).length } as T;
+              }
               return null as T | null;
             },
           };
@@ -142,6 +147,72 @@ describe("POST /api/subscribe", () => {
   it("says try later when the table is missing (migration 0006 not applied)", async () => {
     const res = await app.request("http://localhost/api/subscribe", form({ email: "reader@example.org" }, "application/json"), { DB: fakeDb(true).db });
     expect(res.status).toBe(503);
+  });
+});
+
+/** A fake Workers rate-limit binding: allows `allowed` calls per key, records the keys it was given. */
+function fakeLimiter(allowed: number) {
+  const seen = new Map<string, number>();
+  return {
+    seen,
+    limit: async ({ key }: { key: string }) => {
+      const n = (seen.get(key) ?? 0) + 1;
+      seen.set(key, n);
+      return { success: n <= allowed };
+    },
+  };
+}
+
+describe("signup rate limits (reportsthatmatter-bvl7)", () => {
+  const post = (ip: string, email: string, accept?: string) => ({
+    ...form({ email }, accept),
+    headers: { "content-type": "application/x-www-form-urlencoded", "cf-connecting-ip": ip, ...(accept ? { accept } : {}) },
+  });
+
+  it("answers 429 past the per-caller limit, stores nothing for it, and keeps other callers working", async () => {
+    const { db, rows } = fakeDb();
+    const SIGNUP_LIMITER = fakeLimiter(5);
+    const env = { DB: db, SIGNUP_LIMITER };
+    for (let i = 0; i < 5; i++) {
+      const ok = await app.request("http://localhost/api/subscribe", post("203.0.113.9", `r${i}@example.org`, "application/json"), env);
+      expect(ok.status).toBe(200);
+    }
+    const blocked = await app.request("http://localhost/api/subscribe", post("203.0.113.9", "r5@example.org", "application/json"), env);
+    expect(blocked.status).toBe(429);
+    expect(blocked.headers.get("retry-after")).toBe("60");
+    const page = await app.request("http://localhost/api/subscribe", post("203.0.113.9", "r6@example.org"), env);
+    expect(page.status).toBe(303);
+    expect(page.headers.get("location")).toBe("/newsletter?error=limited");
+    const other = await app.request("http://localhost/api/subscribe", post("198.51.100.4", "other@example.org", "application/json"), env);
+    expect(other.status).toBe(200);
+    expect(rows.map((row) => row.email)).toEqual(["r0@example.org", "r1@example.org", "r2@example.org", "r3@example.org", "r4@example.org", "other@example.org"]);
+  });
+
+  it("hands the address to the limiter only: no row or response carries it", async () => {
+    const { db, rows } = fakeDb();
+    const SIGNUP_LIMITER = fakeLimiter(5);
+    const res = await app.request("http://localhost/api/subscribe", post("203.0.113.77", "a@example.org", "application/json"), { DB: db, SIGNUP_LIMITER });
+    expect([...SIGNUP_LIMITER.seen.keys()]).toEqual(["203.0.113.77"]);
+    expect(JSON.stringify(rows)).not.toContain("203.0.113.77");
+    expect(await res.text()).not.toContain("203.0.113.77");
+  });
+
+  it("lets a request through when the binding is absent or throws", async () => {
+    const { db } = fakeDb();
+    const broken = { limit: async () => { throw new Error("binding down"); } };
+    const res = await app.request("http://localhost/api/subscribe", post("203.0.113.9", "a@example.org", "application/json"), { DB: db, SIGNUP_LIMITER: broken });
+    expect(res.status).toBe(200);
+  });
+
+  it("stops storing once the last 24 hours hold the daily cap, and starts again as they age out", async () => {
+    const now = Date.now();
+    const full = Array.from({ length: DAILY_SIGNUP_CAP }, (_, i) => ({ email: `s${i}@example.org`, source: "home", created_at: now - 1000 }));
+    const { db, rows } = fakeDb(false, full);
+    expect(await recordSubscription(db, { email: "late@example.org", source: "home" }, now)).toBe("limited");
+    expect(rows).toHaveLength(DAILY_SIGNUP_CAP);
+    const res = await app.request("http://localhost/api/subscribe", form({ email: "late@example.org" }, "application/json"), { DB: db });
+    expect(res.status).toBe(429);
+    expect(await recordSubscription(db, { email: "later@example.org", source: "home" }, now + 25 * 60 * 60 * 1000)).toBe("ok");
   });
 });
 

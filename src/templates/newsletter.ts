@@ -50,12 +50,13 @@ function signupForm(source: string): string {
     <p class="signup-privacy">${escapeHtml(SIGNUP_PRIVACY)} <a href="${NEWSLETTER_PATH}#privacy">More</a></p>`;
 }
 
-export type SignupOutcome = "subscribed" | "invalid" | "unavailable" | undefined;
+export type SignupOutcome = "subscribed" | "invalid" | "unavailable" | "limited" | undefined;
 
 const OUTCOME_TEXT: Record<Exclude<SignupOutcome, undefined>, string> = {
   subscribed: "Thank you. Before the first issue you will get one email asking you to confirm; the list is only those who do.",
   invalid: "That does not look like an email address. Please check it and try again.",
   unavailable: "Sorry, we could not save that just now. Please try again in a few minutes.",
+  limited: "Too many signups just now. Please try again in a few minutes.",
 };
 
 export function signupMessage(outcome: Exclude<SignupOutcome, undefined>): string {

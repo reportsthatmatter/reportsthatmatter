@@ -18,6 +18,10 @@
  * Also writes a static local preview, `build/posts-preview.html` — open it
  * in a browser; nothing here is served or deployed.
  *
+ * A card: true highlight whose quote-form post is over Bluesky's limit is still queued when a quote card carries the whole
+ * quote (reportsthatmatter-f9we): as an item flagged `needs_hook: true`, which cannot post until a person writes its `hook:`;
+ * `--check` fails it once its date arrives with none.
+ *
  * Prints every card: true highlight in an affected-community report (the registry's affected_community: true) with
  * what became of it: queued, skipped and why, and whether it is Tier C (src/lib/tier-c.ts; reportsthatmatter-zh1w).
  *
@@ -46,7 +50,7 @@ import "./lib/help.mjs";
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse, stringify } from "yaml";
-import { resolveCandidate, buildQueue, isoDate, queueViolations, reportPolicies, posterEligibility, QUEUE_HEADER } from "../src/lib/posts.ts";
+import { resolveCandidate, buildQueue, isoDate, BLUESKY_GRAPHEME_LIMIT, queueViolations, needsHookViolations, reportPolicies, posterEligibility, QUEUE_HEADER } from "../src/lib/posts.ts";
 import { CARDS } from "../src/generated/cards.ts";
 import { SITE_ORIGIN } from "../src/templates/site.ts";
 import { inScope, reportScope } from "./lib/posts-scope.ts";
@@ -284,6 +288,17 @@ if (overLength.length) {
   console.error(`${overLength.length} hooked item(s) too long (shorten the hook):`);
   for (const o of overLength) console.error(`  - ${o}`);
   process.exitCode = 1;
+}
+// An item queued only because it can carry a hook (its quote form is over the limit): listed always, and loudly once
+// its date arrives with no hook (f9we). Not a failure: the poster skips it and posts the next item (irro).
+const needsHook = needsHookViolations(queue, isoDate(new Date()));
+if (needsHook.waiting.length) {
+  console.warn(`${needsHook.waiting.length} queued item(s) need a hook before they can post (quote form over ${BLUESKY_GRAPHEME_LIMIT} graphemes; the card carries the quote):`);
+  for (const i of needsHook.waiting) console.warn(`  - ${i.scheduled} ${i.id}`);
+}
+if (needsHook.due.length) {
+  console.error(`${needsHook.due.length} item(s) due with no hook, skipped by the poster until one is written:`);
+  for (const d of needsHook.due) console.error(`  - ${d}`);
 }
 const before = new Map(existing.map((i) => [i.id, i]));
 const hookDrift = queue.filter((i) => !i.posted_url && i.hook?.trim() && before.get(i.id)?.text !== i.text).map((i) => i.id);
