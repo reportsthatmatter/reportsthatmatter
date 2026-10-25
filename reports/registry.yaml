@@ -276,6 +276,21 @@ reports:
     ingested: true
     affected_community: true
     context_line: "UK Covid-19 Inquiry (2025): the four UK governments' decisions, 2020 to 2022."
+  - id: uk-southport-inquiry
+    title: "The Southport Inquiry Report, Volume 1"
+    authors: "Sir Adrian Fulford (Chair)"
+    published_at: "13 April 2026"
+    common_name: "Southport Inquiry Phase 1 Report, Volume 1"
+    also_known_as: ["Southport Inquiry report", "Southport Inquiry Phase 1 report", "Fulford report on the Southport attack", "HC 1768-I"]
+    issued_by: "Southport Inquiry"
+    date_published: "2026-04-13"
+    repo: uk-southport-inquiry
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    source_path: reports/uk-southport-inquiry/full.md
+    source_url: "https://assets.publishing.service.gov.uk/media/6a61eef4abcde513b38b6d95/31.236_HO_Southport_Inquiry_Volume1_WEB_v2__1_.pdf"
+    ingested: true
+    affected_community: true
+    context_line: "Southport Inquiry, Phase 1 report (2026), Volume 1: how the risk the perpetrator posed was handled before the attack of 29 July 2024."
   - id: us-ica-2017-russia-elections
     title: "Assessing Russian Activities and Intentions in Recent US Elections"
     authors: "Office of the Director of National Intelligence (CIA, FBI and NSA)"
