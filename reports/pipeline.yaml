@@ -133,6 +133,13 @@ units:
     notes: "Announce: launch y2t.6. Has card: true highlights since ifb5.14; no queue items yet (pnpm posts)."
 
   # Units in preparation.
+  - id: uk-southport-inquiry
+    scope: "Volume 1 (HC 1768-I, Foreword and Chapters 1-6)"
+    bead: reportsthatmatter-gqsy.15
+    reached: ingest
+    state: active
+    evidence: "report repo PR vol1-1024 (cleanEdition from the GOV.UK HTML, 99.0% of edition words aligned, 641/641 notes); stage 4 not started"
+    notes: "Affected community (decision 0026). govuk-html.ts is the reusable GOV.UK adapter (reportsthatmatter-pbou). Registry entry, introduction and plate are stage 4."
   - id: us-duelfer-report
     scope: "Volume I"
     bead: reportsthatmatter-9br

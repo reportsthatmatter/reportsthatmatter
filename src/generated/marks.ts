@@ -49,6 +49,11 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
   "uk-thirlwall-inquiry": {
     "width": 660,
     "height": 55
+
+  },
+  "uk-southport-inquiry": {
+    "width": 660,
+    "height": 382
   },
   "us-911-commission": {
     "width": 631,
