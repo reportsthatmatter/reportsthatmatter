@@ -58,7 +58,7 @@ export function renderPress(): string {
   <section class="section wrap">
     <p class="section-label mono">Logotype alone</p>
     <div class="press-swatch">
-      <span class="wordmark" style="font-size: 3rem; pointer-events: none">Reports that Matter</span>
+      <span class="wordmark" style="font-size: clamp(1.9rem, 9vw, 3rem); pointer-events: none">Reports that Matter</span>
     </div>
     <p>Set in EB Garamond, the same serif as the site itself. No condensed,
     bold, or all-caps variant — set the name as running text, the way it

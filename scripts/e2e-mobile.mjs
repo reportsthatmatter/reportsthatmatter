@@ -34,6 +34,7 @@ const check = (cond, name, detail = "") => {
 const REPORT = "jack-smith-vol1";
 const EDITOR_LINK =
   `/reports/${REPORT}?p=just-before-2-24-p&h=location%20at%20the%20Capitol.%20|When%20an%20advisor%20at%20the%20White%20House%20learned%20this%2C%20he%20rushed%20to%20the%20dining%20room%20and%20informed%20Mr.%20Trump%2C%20who%20replied%20%22So%20what%3F%22|&src=bsky`;
+const SECTION = "the-results-of-the-investigation";
 const PLAIN_LINK = `/reports/${REPORT}?p=just-before-2-24-p`;
 
 const profiles = [
@@ -133,7 +134,9 @@ for (const profile of profiles) {
   });
   check(landed.panel, `${tag} a ?h= link lands with a passage panel`);
   check(landed.fixed === "fixed" && landed.outsideBody, `${tag} the panel is fixed and outside the report text`, JSON.stringify(landed.fixed));
-  check(landed.kicker === "Editor’s highlight", `${tag} an editor's highlight is labelled as the editor's`, landed.kicker);
+  // A local worker has no seeded editor marks, so the link falls back to "Shared passage" (the label is right; the data is missing).
+  if (isLocal && landed.kicker === "Shared passage") ok(`skip editor label (no local editor marks) ${tag}`);
+  else check(landed.kicker === "Editor’s highlight", `${tag} an editor's highlight is labelled as the editor's`, landed.kicker);
   check(landed.quote.includes("So what?"), `${tag} the panel quotes the linked words`, landed.quote.slice(0, 80));
   check(/^p\. \d+ · /.test(landed.cite) && landed.cite.includes("Jack Smith"), `${tag} the panel cites page and report`, landed.cite);
   check(
@@ -386,6 +389,44 @@ for (const profile of profiles) {
     check(laid.overflow <= 0 && laid.main === 1 && laid.h1 === 1, `${tag} ${path} fits the screen, one main and one h1`, JSON.stringify(laid));
     check(laid.targets > 0 && laid.small.length === 0, `${tag} ${path}: tabs, Read in place and the opt-out are 44px tap targets`, JSON.stringify(laid));
     if (shots) await page.screenshot({ path: join(shots, `${slug(profile.name)}${path.replace(/\//g, "-")}.png`), fullPage: true });
+  }
+
+  // ---------- no page scrolls sideways (076k) ----------
+
+  // Every kind of route, at the profile's own width and at 320 px (an iPhone SE, 1st generation).
+  const routes = [
+    "/",
+    "/reports",
+    "/about",
+    "/press",
+    "/highlights",
+    "/search",
+    "/search?q=intelligence",
+    "/changelog",
+    "/blog",
+    "/reports/us-911-commission",
+    `/reports/${REPORT}/${SECTION}`,
+    `/reports/${REPORT}/full`,
+    PLAIN_LINK,
+    EDITOR_LINK,
+    "/no-such-page-076k",
+  ];
+  const nativeWidth = page.viewportSize().width;
+  for (const width of [nativeWidth, 320]) {
+    await page.setViewportSize({ width, height: page.viewportSize().height });
+    for (const route of routes) {
+      await page.goto(base + route, { waitUntil: "load" });
+      const over = await page.evaluate((vw) => {
+        const scroll = document.documentElement.scrollWidth - vw;
+        if (scroll <= 1) return { scroll, wide: [] };
+        const wide = [...document.querySelectorAll("body *")]
+          .filter((el) => el.getBoundingClientRect().right > vw + 1)
+          .slice(0, 3)
+          .map((el) => `${el.tagName.toLowerCase()}${el.className ? "." + String(el.className).split(" ")[0] : ""}`);
+        return { scroll, wide };
+      }, width);
+      check(over.scroll <= 1, `no horizontal overflow on ${route.split("&")[0]} (${profile.name}${width === 320 ? ", 320px" : ""})`, `${over.scroll}px by ${over.wide.join(", ")}`);
+    }
   }
 
   check(errors.length === 0, `${tag} no page errors`, errors.join(" | "));
