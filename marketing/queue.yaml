@@ -648,6 +648,10 @@ items:
     scheduled: 2026-11-28
     posted_url: null
   - id: uk-leveson-inquiry:4-21-jefferies-victim-very:d968b696
+    hook: A landlord was arrested on 30 December 2010 over the murder of his tenant
+      in Bristol, held for three days and released on bail; another man was
+      later convicted. Eight of the articles printed while he was held were put
+      before the Leveson inquiry into the press.
     report: uk-leveson-inquiry
     paragraph: 4-21-jefferies-victim-very
     quote: Mr Jefferies was the victim of a very serious injustice perpetrated by a
@@ -655,47 +659,50 @@ items:
       accept that he would have found it necessary to change his appearance and
       effectively lodge with friends for approximately three months.
     text: >-
-      “Mr Jefferies was the victim of a very serious injustice perpetrated by a
-      significant section of the press. Without such reporting, it is hard to
-      accept that he would have found it necessary to change his appearance and
-      effectively lodge with friends for approximately three months.”
+      A landlord was arrested on 30 December 2010 over the murder of his tenant
+      in Bristol, held for three days and released on bail; another man was
+      later convicted. Eight of the articles printed while he was held were put
+      before the Leveson inquiry into the press.
 
 
-      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 564
+      — Leveson Report, p. 564
     link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=4-21-jefferies-victim-very&h=4.21%20|Mr%20Jefferies%20was%20the%20victim%20of%20a%20very%20serious%20injustice%20perpetrated%20by%20a%20significant%20section%20of%20the%20press.%20Without%20such%20reporting%2C%20it%20is%20hard%20to%20accept%20that%20he%20would%20have%20found%20it%20necessary%20to%20change%20his%20appearance%20and%20effectively%20lodge%20with%20friends%20for%20approximately%20three%20months.|&src=bsky
     card: assets/cards/uk-leveson-inquiry/q-c162d632.png
     scheduled: 2026-11-29
     posted_url: null
-    needs_hook: true
   - id: us-lehman-examiner:contemporaneous-lehman-e-mails-describe:cc75122e
+    hook: Lehman Brothers filed for bankruptcy on 15 September 2008, the largest
+      filing ever. Its court-appointed examiner found it had moved about $50
+      billion off its balance sheet with a device called Repo 105, and asked its
+      financial controller why.
     report: us-lehman-examiner
     paragraph: contemporaneous-lehman-e-mails-describe
     quote: Lehman's Global Financial Controller confirmed that "the only purpose or
       motive for [Repo 105] transactions was reduction in the balance sheet" and
       that "there was no substance to the transactions."
     text: >-
-      “Lehman's Global Financial Controller confirmed that ‘the only purpose or
-      motive for [Repo 105] transactions was reduction in the balance sheet’ and
-      that ‘there was no substance to the transactions.’”
+      Lehman Brothers filed for bankruptcy on 15 September 2008, the largest
+      filing ever. Its court-appointed examiner found it had moved about $50
+      billion off its balance sheet with a device called Repo 105, and asked its
+      financial controller why.
 
 
-      — Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings
-      Inc., et al. — Volumes 1 and 3, p. 7
+      — Valukas Report (Lehman Brothers Examiner), p. 7
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=contemporaneous-lehman-e-mails-describe&h=impacting%20our%20leverage%20ratios.%22%20|Lehman's%20Global%20Financial%20Controller%20confirmed%20that%20%22the%20only%20purpose%20or%20motive%20for%20%5BRepo%20105%5D%20transactions%20was%20reduction%20in%20the%20balance%20sheet%22%20and%20that%20%22there%20was%20no%20substance%20to%20the%20transactions.%22|&src=bsky
     card: assets/cards/us-lehman-examiner/q-9d42ec2b.png
     scheduled: 2026-11-30
     posted_url: null
-    needs_hook: true
   - id: uk-post-office-horizon-inquiry:1-4-although-many-individuals:74f48eb8
+    hook: Post Offices ran Horizon from 1999. Some Fujitsu staff knew before
+      roll-out it could show false losses.
     report: uk-post-office-horizon-inquiry
     paragraph: 1-4-although-many-individuals
     quote: Yet, for all practical purposes, throughout the lifetime of Legacy
       Horizon, the Post Office maintained the fiction that its data was always
       accurate.
     text: >-
-      “Yet, for all practical purposes, throughout the lifetime of Legacy
-      Horizon, the Post Office maintained the fiction that its data was always
-      accurate.”
+      Post Offices ran Horizon from 1999. Some Fujitsu staff knew before
+      roll-out it could show false losses.
 
 
       — Post Office Horizon IT Inquiry Report, Volume 1, p. 6
@@ -707,8 +714,11 @@ items:
     card: assets/cards/uk-post-office-horizon-inquiry/q-a8810e8c.png
     scheduled: 2026-12-01
     posted_url: null
-    needs_hook: true
   - id: uk-leveson-inquiry:2-16-remains-worthwhile-underline:44a0416a
+    hook: On 4 July 2011 the Guardian reported that News of the World journalists
+      had hacked a missing schoolgirl's voicemail in 2002. It later corrected
+      one claim in the story. Lord Justice Leveson's inquiry into the press
+      ruled on the rest.
     report: uk-leveson-inquiry
     paragraph: 2-16-remains-worthwhile-underline
     quote: the essential gravamen of the Guardian's original story of 4 July 2011,
@@ -716,31 +726,33 @@ items:
       journalists employed by the NoTW, was correct, and is now the subject of
       criminal charges.
     text: >-
-      “the essential gravamen of the Guardian's original story of 4 July 2011,
-      namely that Milly Dowler's phone was hacked by or on the instructions of
-      journalists employed by the NoTW, was correct, and is now the subject of
-      criminal charges.”
+      On 4 July 2011 the Guardian reported that News of the World journalists
+      had hacked a missing schoolgirl's voicemail in 2002. It later corrected
+      one claim in the story. Lord Justice Leveson's inquiry into the press
+      ruled on the rest.
 
 
-      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 546
+      — Leveson Report, p. 546
     link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=2-16-remains-worthwhile-underline&h=worthwhile%20to%20underline%20that%20|the%20essential%20gravamen%20of%20the%20Guardian's%20original%20story%20of%204%20July%202011%2C%20namely%20that%20Milly%20Dowler's%20phone%20was%20hacked%20by%20or%20on%20the%20instructions%20of%20journalists%20employed%20by%20the%20NoTW%2C%20was%20correct%2C%20and%20is%20now%20the%20subject%20of%20criminal%20charges.|&src=bsky
     card: assets/cards/uk-leveson-inquiry/q-df718d8f.png
     scheduled: 2026-12-02
     posted_url: null
-    needs_hook: true
   - id: uk-grenfell-tower-inquiry:2-19-one-very-significant:b8bd0ba7
+    hook: Grenfell Tower was refurbished from 2012 to 2016, with new cladding and
+      insulation on its outside walls. Phase 2 of the inquiry asked how it came
+      to be in that condition.
     report: uk-grenfell-tower-inquiry
     paragraph: 2-19-one-very-significant
     quote: One very significant reason why Grenfell Tower came to be clad in
       combustible materials was systematic dishonesty on the part of those who
       made and sold the rainscreen cladding panels and insulation products.
     text: >-
-      “One very significant reason why Grenfell Tower came to be clad in
-      combustible materials was systematic dishonesty on the part of those who
-      made and sold the rainscreen cladding panels and insulation products.”
+      Grenfell Tower was refurbished from 2012 to 2016, with new cladding and
+      insulation on its outside walls. Phase 2 of the inquiry asked how it came
+      to be in that condition.
 
 
-      — Grenfell Tower Inquiry: Phase 2 Report, Volume 1, p. 12
+      — Grenfell Tower Inquiry Phase 2 Report, Volume 1, p. 12
 
 
       Grenfell Tower Inquiry Phase 2, Volume 1 of 7. 72 people died.
@@ -748,8 +760,11 @@ items:
     card: assets/cards/uk-grenfell-tower-inquiry/q-f60c81ce.png
     scheduled: 2026-12-03
     posted_url: null
-    needs_hook: true
   - id: us-lehman-examiner:lehman-dramatically-ramped-up-its:7ec184a3
+    hook: Repo 105 was Lehman Brothers' way of moving assets off its balance sheet
+      for about a week at quarter-end. In late March 2008 Bart McDade, its head
+      of equities, asked for a cap on it. A week later a colleague e-mailed to
+      ask if he knew of it.
     report: us-lehman-examiner
     paragraph: lehman-dramatically-ramped-up-its
     quote: "In an April 2008 e‐mail asking if he was familiar with the use of Repo
@@ -758,47 +773,49 @@ items:
       (June–September 2008), replied: \"I am very aware . . . it is another drug
       we r on.\""
     text: >-
-      “In an April 2008 e‐mail asking if he was familiar with the use of Repo
-      105 transactions to reduce net balance sheet, Bart McDade, Lehman's former
-      Head of Equities (2005–2008) and President and Chief Operating Officer
-      (June–September 2008), replied: ‘I am very aware . . . it is another drug
-      we r on.’”
+      Repo 105 was Lehman Brothers' way of moving assets off its balance sheet
+      for about a week at quarter-end. In late March 2008 Bart McDade, its head
+      of equities, asked for a cap on it. A week later a colleague e-mailed to
+      ask if he knew of it.
 
 
-      — Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings
-      Inc., et al. — Volumes 1 and 3, p. 742
+      — Valukas Report (Lehman Brothers Examiner), p. 742
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=lehman-dramatically-ramped-up-its&h=Lehman%20officers%20and%20personnel.%20|In%20an%20April%202008%20e%E2%80%90mail%20asking%20if%20he%20was%20familiar%20with%20the%20use%20of%20Repo%20105%20transactions%20to%20reduce%20net%20balance%20sheet%2C%20Bart%20McDade%2C%20Lehman's%20former%20Head%20of%20Equities%20(2005%E2%80%932008)%20and%20President%20and%20Chief%20Operating%20Officer%20(June%E2%80%93September%202008)%2C%20replied%3A%20%22I%20am%20very%20aware%20.%20.%20.%20it%20is%20another%20drug%20we%20r%20on.%22|%20A%20week%20earlier%2C%20McDade&src=bsky
     card: assets/cards/us-lehman-examiner/q-f329dfde.png
     scheduled: 2026-12-04
     posted_url: null
-    needs_hook: true
   - id: us-lehman-examiner:lehman-s-reliance-upon-repo:cacd3982
+    hook: Ten days before its quarter closed in May 2008, Lehman Brothers' fixed
+      income division was working to a balance sheet target set by senior
+      management. The bankruptcy examiner quotes an e-mail exchange from that
+      day.
     report: us-lehman-examiner
     paragraph: lehman-s-reliance-upon-repo
     quote: "In another May 21, 2008 e‐mail, the head of Liquid Markets asked: \"Are
       we going to make the FID Europe [balance sheet] target,\" which elicited
       the response: \"V close . . . anything that moves is getting 105'd.\""
     text: >-
-      “In another May 21, 2008 e‐mail, the head of Liquid Markets asked: ‘Are we
-      going to make the FID Europe [balance sheet] target,’ which elicited the
-      response: ‘V close . . . anything that moves is getting 105'd.’”
+      Ten days before its quarter closed in May 2008, Lehman Brothers' fixed
+      income division was working to a balance sheet target set by senior
+      management. The bankruptcy examiner quotes an e-mail exchange from that
+      day.
 
 
-      — Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings
-      Inc., et al. — Volumes 1 and 3, p. 745
+      — Valukas Report (Lehman Brothers Examiner), p. 745
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=lehman-s-reliance-upon-repo&h=flexible%20beyond%20%243bn%20in%20105%3F%22%20|In%20another%20May%2021%2C%202008%20e%E2%80%90mail%2C%20the%20head%20of%20Liquid%20Markets%20asked%3A%20%22Are%20we%20going%20to%20make%20the%20FID%20Europe%20%5Bbalance%20sheet%5D%20target%2C%22%20which%20elicited%20the%20response%3A%20%22V%20close%20.%20.%20.%20anything%20that%20moves%20is%20getting%20105'd.%22|&src=bsky
     card: assets/cards/us-lehman-examiner/q-d82eb4df.png
     scheduled: 2026-12-05
     posted_url: null
-    needs_hook: true
   - id: uk-post-office-horizon-inquiry:6-205-summary-delivery-financial:9790ca48
+    hook: About 188 claims in GLOS, the redress scheme for those who sued the Post
+      Office, were still unresolved.
     report: uk-post-office-horizon-inquiry
     paragraph: 6-205-summary-delivery-financial
     quote: In summary, delivery of financial redress to many claimants who have
       opted for assessment has not been prompt.
     text: >-
-      “In summary, delivery of financial redress to many claimants who have
-      opted for assessment has not been prompt.”
+      About 188 claims in GLOS, the redress scheme for those who sued the Post
+      Office, were still unresolved.
 
 
       — Post Office Horizon IT Inquiry Report, Volume 1, p. 158
@@ -810,4 +827,3 @@ items:
     card: assets/cards/uk-post-office-horizon-inquiry/q-4c378e9c.png
     scheduled: 2026-12-15
     posted_url: null
-    needs_hook: true
