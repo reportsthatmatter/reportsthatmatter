@@ -648,10 +648,10 @@ items:
     scheduled: 2026-11-28
     posted_url: null
   - id: uk-leveson-inquiry:4-21-jefferies-victim-very:d968b696
-    hook: On 30 December 2010 Avon and Somerset police arrested a landlord over the
-      murder of his tenant. He was released on bail three days later; another
-      man was convicted. Lord Justice Leveson's press inquiry went through what
-      the papers printed in those three days.
+    hook: A landlord was arrested on 30 December 2010 over the murder of his tenant
+      in Bristol, held for three days and released on bail; another man was
+      later convicted. Eight of the articles printed while he was held were put
+      before the Leveson inquiry into the press.
     report: uk-leveson-inquiry
     paragraph: 4-21-jefferies-victim-very
     quote: Mr Jefferies was the victim of a very serious injustice perpetrated by a
@@ -659,10 +659,10 @@ items:
       accept that he would have found it necessary to change his appearance and
       effectively lodge with friends for approximately three months.
     text: >-
-      On 30 December 2010 Avon and Somerset police arrested a landlord over the
-      murder of his tenant. He was released on bail three days later; another
-      man was convicted. Lord Justice Leveson's press inquiry went through what
-      the papers printed in those three days.
+      A landlord was arrested on 30 December 2010 over the murder of his tenant
+      in Bristol, held for three days and released on bail; another man was
+      later convicted. Eight of the articles printed while he was held were put
+      before the Leveson inquiry into the press.
 
 
       — Leveson Report, p. 564
@@ -761,10 +761,10 @@ items:
     scheduled: 2026-12-03
     posted_url: null
   - id: us-lehman-examiner:lehman-dramatically-ramped-up-its:7ec184a3
-    hook: In April 2008 a colleague e-mailed Bart McDade, then Lehman Brothers' head
-      of equities, about Repo 105, a way of shrinking the balance sheet at
-      quarter-end. A week earlier he had proposed a cap on it. The bankruptcy
-      examiner quotes his reply.
+    hook: Repo 105 was Lehman Brothers' way of moving assets off its balance sheet
+      for about a week at quarter-end. In late March 2008 Bart McDade, its head
+      of equities, asked for a cap on it. A week later a colleague e-mailed to
+      ask if he knew of it.
     report: us-lehman-examiner
     paragraph: lehman-dramatically-ramped-up-its
     quote: "In an April 2008 e‐mail asking if he was familiar with the use of Repo
@@ -773,10 +773,10 @@ items:
       (June–September 2008), replied: \"I am very aware . . . it is another drug
       we r on.\""
     text: >-
-      In April 2008 a colleague e-mailed Bart McDade, then Lehman Brothers' head
-      of equities, about Repo 105, a way of shrinking the balance sheet at
-      quarter-end. A week earlier he had proposed a cap on it. The bankruptcy
-      examiner quotes his reply.
+      Repo 105 was Lehman Brothers' way of moving assets off its balance sheet
+      for about a week at quarter-end. In late March 2008 Bart McDade, its head
+      of equities, asked for a cap on it. A week later a colleague e-mailed to
+      ask if he knew of it.
 
 
       — Valukas Report (Lehman Brothers Examiner), p. 742
