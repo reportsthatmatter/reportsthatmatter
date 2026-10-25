@@ -67,11 +67,9 @@ HC 601
 
 1.11 Sir Duncan Nichol CBE, former Chief Executive of the NHS, was Chair of the Foundation Trust Board. There were five other Non-Executive Directors, of whom two were chartered accountants, one had a background in retail and business, another came from a local authority, and one was a former nurse and midwife who joined the Board in 2016.
 
-1.12 Until 2009, paediatrics and maternity services formed the Women and Children's Division. That division was abolished in 2009, along with the role of Clinical Director for the division. Maternity services and obstetrics were separated from paediatrics.
+1.12 Until 2009, paediatrics and maternity services formed the Women and Children's Division. That division was abolished in 2009, along with the role of Clinical Director for the division. Maternity services and obstetrics were separated from paediatrics. Paediatrics (including neonatology) was moved into the Urgent Care Division with the very much larger Accident and Emergency Department. Maternity services and obstetrics became part of the Planned Care Division.
 
 %%page 3%%
-
-Paediatrics (including neonatology) was moved into the Urgent Care Division with the very much larger Accident and Emergency Department. Maternity services and obstetrics became part of the Planned Care Division.
 
 1.13 As a result of the reorganisation, the profile of paediatrics (including neonatology) was diminished. Its voice was not heard on the Board. Instead of a Clinical Director, there was a Lead Clinician for children's services (Dr Ravi Jayaram, a consultant paediatrician), who had no regular meetings with the Medical Director.
 
@@ -193,11 +191,9 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.27 Mother D attended the maternity unit at the Countess at 11:30 on 18 June 2015 after her waters broke. At 37 weeks and 1 day's gestation, her pregnancy was close to full term. She was advised to go home until her contractions started. She returned the next day because she was concerned that there was a risk of infection since it was now 30 hours since her waters had broken. She was admitted and the following day was started on intravenous induction. Labour did not progress. She was anxious about her baby and repeatedly asked for a caesarean section. She felt her concerns were dismissed and she was not listened to. Her daughter, Baby D, was delivered by emergency caesarean section just after 4pm. Baby D was born in good condition, with Apgar scores of 8 after one minute and 9 after five minutes, and weighed 3.13 kilograms. However, her mother noticed she was beginning to grunt and seemed floppy. After a prolonged period of observation, she was transferred to Nursery 1 in the neonatal unit, where she was given antibiotics and light therapy for a period.
 
-2.28 Dr Andrew Brunton, a paediatric registrar, reviewed Baby D at the start of the night shift. He had no concerns. He told Mother D: "[E]verything's fine, she's much better.
+2.28 Dr Andrew Brunton, a paediatric registrar, reviewed Baby D at the start of the night shift. He had no concerns. He told Mother D: "[E]verything's fine, she's much better. She's come off the light therapy. She's picking up. She seems to be more lively." Mother D could see her daughter looked better and so went back to bed. Letby was on shift in the neonatal unit.
 
 %%page 10%%
-
-She's come off the light therapy. She's picking up. She seems to be more lively." Mother D could see her daughter looked better and so went back to bed. Letby was on shift in the neonatal unit.
 
 ### Skin changes
 
@@ -801,11 +797,9 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.93 The review team decided Letby should be interviewed for reasons of fairness. No thought seems to have been given to the risks of doing this. In the event, she was not asked about her care of the babies on the unit but only about general matters on the neonatal unit. She told Dr U by text that Ms Hayley Cooper (her Royal College of Nursing (RCN) representative) thought they should look at taking out a grievance. She said the interviewers (Ms Mancini and Ms McLaughlan), who were nice, had told her "off the record" that they thought an investigation into the deaths would be recommended and that she needed to prepare herself as she would play a big part in that. Ms McLaughlan and Ms Mancini could not remember an "off the record" conversation with Letby. However, what she said was accurate. Off the record or not, they told her what they were going to recommend. They were supportive of her. The review team also noted: "Suspect there will be a grievance. If nothing happens good case for constructive dismissal. She knows it'll be horrid."
 
-3.94 On 2 September 2016, the RCPCH review team discussed their findings with the Countess executives. Police involvement was discussed but the review team did not say, as they should have, that the police should be contacted to investigate. It seems they asked Mr Harvey whether he thought the police should be involved. Mr Harvey's response was that he preferred to handle the issue internally for the time being.
+3.94 On 2 September 2016, the RCPCH review team discussed their findings with the Countess executives. Police involvement was discussed but the review team did not say, as they should have, that the police should be contacted to investigate. It seems they asked Mr Harvey whether he thought the police should be involved. Mr Harvey's response was that he preferred to handle the issue internally for the time being. The RCPCH should not have accepted that without question. They knew from early in their visit that Mr Harvey considered the police the 'nuclear option'. They should, as the RCPCH acknowledged at the Inquiry, have advised him that the police should be called. The failure to do so, in light of Mr Harvey's attitude to the police, meant that more delay occurred.
 
 %%page 44%%
-
-The RCPCH should not have accepted that without question. They knew from early in their visit that Mr Harvey considered the police the 'nuclear option'. They should, as the RCPCH acknowledged at the Inquiry, have advised him that the police should be called. The failure to do so, in light of Mr Harvey's attitude to the police, meant that more delay occurred.
 
 3.95 After the interview with Letby had taken place, Mr Tony Millea, Regional Officer for the RCN, emailed Ms Rees saying he believed Letby had grounds for a grievance. He pointed out that the Terms of Reference for the investigation did not "seem to address the … concerns … in relation to the unacceptable high mortality rate on the NNU [neonatal unit] and our [member's] involvement". He noted that the review appeared to be around general matters, such as procedure, culture and staffing levels, and therefore it would "not solve the issues for Lucy personally". This foreshadowed the grievance and the outcome of the RCPCH review. If Mr Millea had immediately identified what the review was directed to (and what it would not do), it is particularly surprising that this was not obvious to the Medical Director.
 
@@ -1043,11 +1037,9 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 3.187 By 13 March 2017, in response to the pressure he was under, Dr Jayaram asked for a meeting with Ms Hodkinson, which took place two days later. Dr Jayaram disclosed his recollection of three occasions about which he had specific concerns. Ms Hodkinson said in evidence that the police should have been contacted at this point. She did not do so. It is likely that this was because she did not quite believe what she had been told and wanted to see if there was any support for his account.
 
-3.188 The executives met the following day. They discussed what Dr Jayaram had said and his suggestion for a meeting. Ms Hodkinson raised with her colleagues the fact that Dr Jayaram felt bullied. She suggested the relationship between the consultants and executives had broken down. What followed in the meeting was good evidence of that.
+3.188 The executives met the following day. They discussed what Dr Jayaram had said and his suggestion for a meeting. Ms Hodkinson raised with her colleagues the fact that Dr Jayaram felt bullied. She suggested the relationship between the consultants and executives had broken down. What followed in the meeting was good evidence of that. The minutes contain the first record of Mr Chambers raising the possibility of contacting the GMC. Ms Kelly's reaction to Dr Jayaram's disclosure was one of disbelief. In the meeting, she proposed that Letby should go back to the neonatal unit.
 
 %%page 59%%
-
-The minutes contain the first record of Mr Chambers raising the possibility of contacting the GMC. Ms Kelly's reaction to Dr Jayaram's disclosure was one of disbelief. In the meeting, she proposed that Letby should go back to the neonatal unit.
 
 3.189 Mr Chambers, Mr Harvey and Ms Hodkinson met Dr Brearey and Dr Jayaram on 27 March 2017. Also present were Ms McCabe and Dr Subhedar. By this point, having lost faith in the executives, Dr Jayaram had decided to be explicit. An email from Dr Michael McGuigan was read out. He was a consultant paediatrician who had joined the Trust at the start of 2017 and had no involvement in any of the deaths or collapses. He expressed the view that the only proper investigation would be one led by the police. Dr Brearey said that in this meeting he and Dr Jayaram had asked or told Mr Chambers to contact the police. Mr Chambers' reaction was to point out that the doctors should call the police. This was a misguided approach by a Chief Executive. He was in charge. Nevertheless, by the end of the meeting, as all participants understood, and Mr Chambers agreed in evidence, it had been decided that the police would be contacted.
 
