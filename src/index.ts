@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import { isPreviewAgent, FULL_PREVIEW_THRESHOLD_BYTES } from "./lib/preview-agents";
 import { resolveParagraph, resolveSection } from "./lib/aliases";
 import { loadRegistry } from "./lib/registry";
 import { loadChangelog, loadPostFiles } from "./lib/source";
@@ -7,7 +8,7 @@ import { parseSubscription, recordSubscription, isSameSite, MAX_BODY_BYTES } fro
 import { renderNewsletterPage, signupMessage, type SignupOutcome } from "./templates/newsletter";
 import { renderBlogIndex, renderPostPage, renderAtomFeed } from "./templates/blog";
 import { renderIndex, renderReportsIndex } from "./templates/index";
-import { renderReport, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
+import { renderReport, renderReportPreviewOnly, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
 import { renderProcessing } from "./templates/processing";
 import { renderPress } from "./templates/press";
@@ -381,6 +382,12 @@ async function sitemapSectionUrls(
   return response ? response.json() : [];
 }
 
+/** Report id -> YYYY-MM-DD its text or introduction last changed, computed by `pnpm prerender` (n5p8). */
+async function sitemapLastmod(assets: AssetsBinding | undefined): Promise<Record<string, string>> {
+  const response = await openGenerated(assets, "sitemap-lastmod.json");
+  return response ? response.json() : {};
+}
+
 // Not wrapped in `cached()`: that wrapper stores in `caches.default` for a day
 // and does not invalidate on deploy, so a report added today would not appear
 // in the sitemap until tomorrow (exactly what happened shipping the 2026-09-03
@@ -392,7 +399,8 @@ app.get("/sitemap.xml", async (c) => {
   const registry = await loadRegistry(sourceMode);
   const origin = new URL(c.req.url).origin;
 
-  const urls: Array<{ loc: string; priority: string }> = [
+  const lastmod = await sitemapLastmod(c.env?.ASSETS);
+  const urls: Array<{ loc: string; priority: string; lastmod?: string }> = [
     { loc: "/", priority: "1.0" },
     { loc: "/reports", priority: "0.9" },
     { loc: "/about", priority: "0.7" },
@@ -409,10 +417,10 @@ app.get("/sitemap.xml", async (c) => {
   }
 
   for (const report of registry.reports) {
-    urls.push({ loc: `/reports/${report.id}`, priority: "0.9" });
+    urls.push({ loc: `/reports/${report.id}`, priority: "0.9", lastmod: lastmod[report.id] });
   }
   for (const entry of await sitemapSectionUrls(c.env?.ASSETS)) {
-    urls.push({ loc: `/reports/${entry.report}/${entry.slug}`, priority: "0.8" });
+    urls.push({ loc: `/reports/${entry.report}/${entry.slug}`, priority: "0.8", lastmod: lastmod[entry.report] });
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
@@ -420,13 +428,47 @@ app.get("/sitemap.xml", async (c) => {
 ${urls
   .map(
     (entry) =>
-      `  <url><loc>${origin}${entry.loc}</loc><priority>${entry.priority}</priority></url>`
+      `  <url><loc>${origin}${entry.loc}</loc>${entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ""}<priority>${entry.priority}</priority></url>`
   )
   .join("\n")}
 </urlset>`;
 
   return c.body(body, 200, {
     "content-type": "application/xml; charset=utf-8",
+    "cache-control": "public, max-age=3600",
+  });
+});
+
+/**
+ * /llms.txt (llmstxt.org): a plain-text map of the archive for AI search, generated from the registry
+ * so a new report appears with no hand edit. Same cheapness as the sitemap: the registry, no database.
+ */
+app.get("/llms.txt", async (c) => {
+  const registry = await loadRegistry(c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE);
+  const origin = new URL(c.req.url).origin;
+  const lines = [
+    "# Reports that Matter",
+    "",
+    "> Reports that Matter turns hard-to-access public reports (inquiries, commissions, investigations) into searchable, readable web pages where every paragraph has its own link, so it can be read, searched and cited exactly.",
+    "",
+    "Each report has a landing page (an introduction and reading guide), section pages, and the whole text on one page. Cite a paragraph by its link (?p=<paragraph id>).",
+    "",
+    "## Reports",
+    "",
+    ...registry.reports.map((r: { id: string; title: string; issued_by?: string; published_at?: string }) => {
+      const detail = [r.issued_by, r.published_at].filter(Boolean).join(", ");
+      return `- [${r.title}](${origin}/reports/${r.id}): ${detail ? `${detail}. ` : ""}Full text: ${origin}/reports/${r.id}/full`;
+    }),
+    "",
+    "## Optional",
+    "",
+    `- [All reports](${origin}/reports)`,
+    `- [About](${origin}/about)`,
+    `- [Sitemap](${origin}/sitemap.xml)`,
+    "",
+  ];
+  return c.body(lines.join("\n"), 200, {
+    "content-type": "text/plain; charset=utf-8",
     "cache-control": "public, max-age=3600",
   });
 });
@@ -704,8 +746,14 @@ app.get("/reports/:id", async (c) => {
       // or a shared quote arrives as a plain paragraph link.
       const quote = c.req.query("h");
       const anchor = quote ? `&h=${encodeURIComponent(quote)}` : "";
+      // Any other parameter (src=bsky, utm_*) survives too, so the visit is still attributed
+      // to where the link was shared (reportsthatmatter-xq4i).
+      const rest = new URLSearchParams(new URL(c.req.url).search);
+      rest.delete("p");
+      rest.delete("h");
+      const others = rest.toString() ? `&${rest.toString()}` : "";
       return c.redirect(
-        `/reports/${reportId}/${target.slug}?p=${encodeURIComponent(target.id)}${anchor}#${target.id}`,
+        `/reports/${reportId}/${target.slug}?p=${encodeURIComponent(target.id)}${anchor}${others}#${target.id}`,
         302
       );
     }
@@ -818,10 +866,13 @@ app.get("/reports/:id/full", async (c) => {
   const reportId = c.req.param("id");
   const p = c.req.query("p");
   const h = c.req.query("h");
+  // Decision 0019 (B): the page differs by agent for a very large /full, so say so to caches.
+  const previewAgent = isPreviewAgent(c.req.header("user-agent"));
 
-  return maybeCached(c, Boolean(p || h), async () => {
+  return maybeCached(c, Boolean(p || h) && !previewAgent, async () => {
     const loaded = await loadReportEntry(c, reportId);
     if (!loaded) return c.html(renderNotFound(false), 404);
+    c.header("Vary", "User-Agent");
 
     const moved = p ? resolveParagraph(loaded.meta, p) : null;
     if (moved && moved.id !== p) {
@@ -833,6 +884,18 @@ app.get("/reports/:id/full", async (c) => {
 
     const body = await loadFullBody(loaded.content);
     if (body === null) return c.html(renderNotFound(false), 404);
+
+    if (previewAgent && body.length > FULL_PREVIEW_THRESHOLD_BYTES) {
+      // The quoted words come from the one section holding the paragraph, never the whole body.
+      let quoted: string | null = null;
+      const slug = p ? loaded.meta.paragraphToSection[p] : undefined;
+      const fragment = slug ? await loadFragment(loaded.content, slug) : null;
+      if (p && fragment) quoted = quotedPassage(fragment, p, h);
+      const editorial = EDITORIAL[reportId];
+      const summary = editorial?.status === "approved" ? editorial.whyItMatters : `${loaded.report.title}. Read the full text with linkable paragraphs.`;
+      c.header("x-rtm-content-version", loaded.content.version);
+      return c.html(renderReportPreviewOnly(loaded.report, summary, quoted, p, h));
+    }
 
     const processingNotes = (await loadProcessingNotes(c.env?.ASSETS, reportId)) !== null;
     c.header("x-rtm-content-version", loaded.content.version);

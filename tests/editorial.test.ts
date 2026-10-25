@@ -44,6 +44,20 @@ function source(overrides: Partial<EditorialSource> = {}): EditorialSource {
   };
 }
 
+describe("description", () => {
+  it("is carried through when set and at most 200 characters", () => {
+    const { editorial, problems } = resolveEditorial(source({ description: "A short summary." }), HTML, STRUCTURE);
+    expect(problems).toEqual([]);
+    expect(editorial.description).toBe("A short summary.");
+    expect(resolveEditorial(source(), HTML, STRUCTURE).editorial.description).toBeUndefined();
+  });
+
+  it("is a problem over 200 characters", () => {
+    const { problems } = resolveEditorial(source({ description: "x".repeat(201) }), HTML, STRUCTURE);
+    expect(problems.join("\n")).toContain("description: must be 1-200 characters");
+  });
+});
+
 describe("placing a quote", () => {
   it("finds words in the paragraph itself, ignoring its sidenotes", () => {
     const placed = placeQuote(HTML, "so-what", 'replied "So what?" The riot continued.');

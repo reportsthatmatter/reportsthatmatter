@@ -305,6 +305,30 @@ describe("sitemap and robots", () => {
     for (const r of registry) expect(locs).toContain(`http://localhost/reports/${r.id}`);
   });
 
+  it("carry a <lastmod> date on every report landing page and section, from build-time data", async () => {
+    const sitemap = await (await app.request("http://localhost/sitemap.xml")).text();
+    const entries = [...sitemap.matchAll(/<url><loc>([^<]+)<\/loc>(?:<lastmod>([^<]+)<\/lastmod>)?/g)].map((m) => ({ loc: m[1], lastmod: m[2] }));
+    const reportEntries = entries.filter((e) => /\/reports\/[^/]+(\/|$)/.test(e.loc) && !/\/reports$/.test(e.loc));
+    expect(reportEntries.length).toBeGreaterThan(registry.length);
+    for (const e of reportEntries) expect(e.lastmod, e.loc).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    // One date per report: its landing page and its sections agree.
+    const landing = entries.find((e) => e.loc === `http://localhost/reports/${registry[0].id}`)!;
+    const section = entries.find((e) => e.loc.startsWith(`http://localhost/reports/${registry[0].id}/`))!;
+    expect(section.lastmod).toBe(landing.lastmod);
+  });
+
+  it("/llms.txt maps the archive: every registry report, landing and /full, in llmstxt.org form", async () => {
+    const res = await app.request("http://localhost/llms.txt");
+    expect(res.status).toBe(200);
+    expect(res.headers.get("content-type")).toContain("text/plain");
+    const text = await res.text();
+    expect(text.startsWith("# Reports that Matter\n\n> ")).toBe(true);
+    for (const r of registry) {
+      expect(text, r.id).toContain(`[${r.title}](http://localhost/reports/${r.id})`);
+      expect(text, r.id).toContain(`http://localhost/reports/${r.id}/full`);
+    }
+  });
+
   it("robots.txt allows crawling and names the sitemap", async () => {
     const robots = await (await app.request("http://localhost/robots.txt")).text();
     expect(robots).toContain("User-agent: *\nAllow: /");

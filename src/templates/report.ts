@@ -87,6 +87,27 @@ export function truncate(text: string, limit: number): string {
   return `${cut.slice(0, lastSpace > limit * 0.6 ? lastSpace : limit)}…`;
 }
 
+/** The longest meta / og:description we write: link cards cut around 100-200, search results near 160 (reportsthatmatter-ntjx). */
+export const MAX_DESCRIPTION = 200;
+
+/** A description no longer than MAX_DESCRIPTION, cut at a word boundary with an ellipsis. */
+export function capDescription(text: string): string {
+  return truncate(text, MAX_DESCRIPTION - 1);
+}
+
+/** The first sentence of a paragraph, capped at MAX_DESCRIPTION. */
+export function firstSentence(text: string): string {
+  const flat = text.replace(/\s+/g, " ").trim();
+  const end = flat.search(/[.!?](?=\s|$)/);
+  return capDescription(end === -1 ? flat : flat.slice(0, end + 1));
+}
+
+/** `“quote” — Title`, with the quote cut so the whole fits in MAX_DESCRIPTION. */
+export function quoteDescription(quoted: string, title: string): string {
+  const room = Math.max(40, MAX_DESCRIPTION - title.length - 5);
+  return capDescription(`“${truncate(quoted, room)}” — ${title}`);
+}
+
 /**
  * Only advertise a card that exists — an og:image pointing at a 404 is worse
  * than no image at all.
@@ -153,8 +174,8 @@ export function reportPreview(
   return {
     title: fullTextTitle(meta),
     description: quoted
-      ? `“${truncate(quoted, 280)}” — ${meta.title}`
-      : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
+      ? quoteDescription(quoted, meta.title)
+      : capDescription(`${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`),
     image: shareImage(meta, highlighted, anchor),
     imageAlt: shareImageAlt(meta, quoted),
   };
@@ -184,6 +205,46 @@ export function frontispiece(id: string | undefined): string {
   if (!id || !mark) return "";
   const scale = Math.min(FRONTISPIECE.width / mark.width, FRONTISPIECE.height / mark.height);
   return `<div class="frontispiece" aria-hidden="true"><img src="/assets/marks/${escapeHtml(id)}.webp" alt="" width="${Math.round(mark.width * scale)}" height="${Math.round(mark.height * scale)}" decoding="async" /></div>`;
+}
+
+/**
+ * `/full` for a link-preview fetcher when the real page is too big for it to read (decision 0019):
+ * the same head as `renderReport` (title, description, card, canonical), a one-paragraph summary
+ * and a link to the contents page. Never served to anyone else.
+ */
+export function renderReportPreviewOnly(
+  meta: ReportMeta,
+  summary: string,
+  quoted: string | null,
+  highlighted?: string,
+  anchor?: string
+): string {
+  const byline = [meta.authors, meta.published_at].filter(Boolean).join(" · ");
+  const { title, description, image, imageAlt } = reportPreview(meta, quoted, highlighted, anchor);
+  const id = escapeHtml(meta.id ?? "");
+  const body = `
+<main>
+  <article>
+    <header class="report-header wrap">
+      <div class="measure">
+        <p class="kicker mono">Report</p>
+        <h1>${escapeHtml(meta.title)}</h1>
+        ${byline ? `<p class="byline mono">${escapeHtml(byline)}</p>` : ""}
+        ${quoted ? `<blockquote class="serif">“${escapeHtml(truncate(quoted, 400))}”</blockquote>` : ""}
+        <p>${escapeHtml(summary)}</p>
+        <p class="mono"><a href="/reports/${id}">Read ${escapeHtml(meta.title)}: contents and linkable paragraphs →</a></p>
+      </div>
+    </header>
+  </article>
+</main>`;
+  return renderLayout(title, body, {
+    description,
+    image,
+    imageAlt,
+    url: sharedUrl(`/reports/${meta.id ?? ""}/full`, highlighted, anchor),
+    canonical: `${SITE_ORIGIN}/reports/${meta.id ?? ""}/full`,
+    extraMeta: citationMeta(meta),
+  });
 }
 
 export function renderReport(

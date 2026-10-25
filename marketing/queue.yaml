@@ -585,3 +585,65 @@ items:
     card: assets/cards/us-ica-2017-russia-elections/q-40d4bcd3.png
     scheduled: 2026-11-25
     posted_url: null
+  - id: uk-covid-inquiry-module-2:2-206-four-governments-knew:3778c1f7
+    hook: By mid-February 2020 Covid-19 was likely spreading in the UK. Scotland
+      could carry out 350 tests a day; Northern Ireland, on 10 February, 40.
+    report: uk-covid-inquiry-module-2
+    paragraph: 2-206-four-governments-knew
+    quote: The four governments knew enough to spur them into action.
+    text: >-
+      By mid-February 2020 Covid-19 was likely spreading in the UK. Scotland
+      could carry out 350 tests a day; Northern Ireland, on 10 February, 40.
+
+
+      — Covid Inquiry Module 2 Report, Volume I, p. 91
+
+
+      UK Covid-19 Inquiry (2025): the four UK governments' decisions, 2020 to
+      2022.
+    link: https://reportsthatmatter.org/reports/uk-covid-inquiry-module-2?p=2-206-four-governments-knew&h=2.206.%20|The%20four%20governments%20knew%20enough%20to%20spur%20them%20into%20action.|%20Accordingly%2C%20the%20Inquiry&src=bsky
+    card: assets/cards/uk-covid-inquiry-module-2/q-65a0fe6b.png
+    scheduled: 2026-11-26
+    posted_url: null
+  - id: uk-covid-inquiry-module-2:4-231-through-their-own:9f5acb31
+    hook: The Inquiry rejects the view that the lockdown of 23 March 2020 was wrong
+      in principle. Then it asks how it became necessary.
+    report: uk-covid-inquiry-module-2
+    paragraph: 4-231-through-their-own
+    quote: Through their own acts and omissions, the four governments had made
+      lockdown inevitable.
+    text: >-
+      The Inquiry rejects the view that the lockdown of 23 March 2020 was wrong
+      in principle. Then it asks how it became necessary.
+
+
+      — Covid Inquiry Module 2 Report, Volume I, p. 213
+
+
+      UK Covid-19 Inquiry (2025): the four UK governments' decisions, 2020 to
+      2022.
+    link: https://reportsthatmatter.org/reports/uk-covid-inquiry-module-2?p=4-231-through-their-own&h=4.231.%20|Through%20their%20own%20acts%20and%20omissions%2C%20the%20four%20governments%20had%20made%20lockdown%20inevitable.|&src=bsky
+    card: assets/cards/uk-covid-inquiry-module-2/q-1c3d0212.png
+    scheduled: 2026-11-27
+    posted_url: null
+  - id: uk-covid-inquiry-module-2:cobr-designed-deal-acute-emergencies:40cae6d7
+    hook: COBR, the government's crisis committee, did not meet during the February
+      2020 half-term. After May 2020 its meetings were largely discontinued.
+    report: uk-covid-inquiry-module-2
+    paragraph: cobr-designed-deal-acute-emergencies
+    quote: COBR is designed to deal with acute emergencies and proved inadequate for
+      responding to a prolonged pandemic.
+    text: >-
+      COBR, the government's crisis committee, did not meet during the February
+      2020 half-term. After May 2020 its meetings were largely discontinued.
+
+
+      — Covid Inquiry Module 2 Report, Volume I, p. 10
+
+
+      UK Covid-19 Inquiry (2025): the four UK governments' decisions, 2020 to
+      2022.
+    link: https://reportsthatmatter.org/reports/uk-covid-inquiry-module-2?p=cobr-designed-deal-acute-emergencies&h=|COBR%20is%20designed%20to%20deal%20with%20acute%20emergencies%20and%20proved%20inadequate%20for%20responding%20to%20a%20prolonged%20pandemic.|%20While%20the%20COBR%20mechanism&src=bsky
+    card: assets/cards/uk-covid-inquiry-module-2/q-cc8a4bbd.png
+    scheduled: 2026-11-28
+    posted_url: null

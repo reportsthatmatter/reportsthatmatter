@@ -386,6 +386,8 @@ describe("headline scores (38s.6)", () => {
     const v = parseVerify(out);
     expect(v.reports["jack-smith-vol1"]).toEqual({ oracle: { "headings-missed": 96, "quotes-missed": 53 }, golden: { match: 3, total: 8, known: 5 } });
     expect(v.oracleVsGolden["headings-missed"]).toEqual({ tp: 23, fp: 24, fn: 19 });
+    const per = parseVerify("us-x\n  · layout oracle (1.0s) — headings-missed 4\n      oracle on golden pages: headings-missed tp0/fp4/fn1, paragraphs-oversplit tp1/fp6/fn1\n");
+    expect(per.reports["us-x"].goldenOracle).toEqual({ "headings-missed": { tp: 0, fp: 4, fn: 1 }, "paragraphs-oversplit": { tp: 1, fp: 6, fn: 1 } });
     const base = { ...v, reports: { "jack-smith-vol1": { oracle: { "headings-missed": 90, "quotes-missed": 53 }, golden: { match: 4, total: 8, known: 4 } } } };
     expect(oracleTable(v, base)).toContain("96 (+6) ▲");
     expect(goldenTable(v, base)).toContain("3 (-1) ▼");

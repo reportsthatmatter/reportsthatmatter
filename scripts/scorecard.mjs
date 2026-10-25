@@ -8,6 +8,7 @@
  *   3. the golden-page table, and the oracle's precision against the golden pages
  *   4. docs/scores.json against its copy at <ref>    boundary P/R/F1, page-break join accuracy, marker P/R, WER, the
  *                                                    reference's error rate; development and held-out sets separately
+ *   4b. the grades (`pnpm grade`, 38s.19) against reports/grades.json at <ref>: letter and per-dimension moves
  *   5. the discipline checklist (dev / held-out, reading the diff, beads for regressions)
  * `pnpm score` is re-run first and rewrites docs/scores.json (--no-score to use the file as it is) and `pnpm ingest verify`
  * is run (35 s; --verify-log <file> reads a saved run, --no-verify leaves the oracle and golden tables out).
@@ -20,6 +21,9 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { goldenTable, oracleTable, parseVerify, precisionTable } from "../src/lib/score/scorecard.ts";
 import { baselines, headlineTable, regressed, HEADLINE_COLUMNS } from "../src/lib/score/headline.ts";
+import { gradeDiff, gradeReport } from "../src/lib/grade/grade.ts";
+import { readInputs } from "../src/lib/grade/inputs.ts";
+import { reportDirFor } from "./lib/report-dirs.ts";
 
 const root = join(import.meta.dirname, "..");
 const args = process.argv.slice(2);
@@ -50,10 +54,12 @@ out.push("### Defect counts (`pnpm quality report --diff " + base + "`)", "", "A
 out.push(strip(run("pnpm", ["--silent", "quality", "report", "--diff", base]).stdout), "");
 
 // 2, 3. oracle and golden pages
+let verifyNow = null;
 if (!flag("--no-verify")) {
   const log = opt("--verify-log", null);
   const text = log ? readFileSync(log, "utf8") : run("pnpm", ["--silent", "ingest", "verify"]).stdout;
   const now = parseVerify(text);
+  verifyNow = Object.keys(now.reports).length ? now : null;
   const was = show("reports/verify-last.json");
   const prev = was ? JSON.parse(was) : null;
   if (!Object.keys(now.reports).length) out.push("### Layout oracle and golden pages", "", "`pnpm ingest verify` printed no reports (source PDFs missing?); tables left out.", "");
@@ -95,6 +101,14 @@ else {
   out.push("'ours wrong / judged' is on the adjudicated page breaks (`reference/adjudicated.yaml`); join accuracy is the share of page breaks the reference covers where our split-or-join agrees with it, over all rows and over the high-confidence rows. A reference whose error plus no-answer share is over the ceiling is flagged by `pnpm score` and says little about that report.", "");
 }
 
+// 4b. grades (38s.16, 38s.19): this run's oracle counts (else reports/verify-last.json) with the committed records
+{
+  const { inputs, ingest } = readInputs(root, { ...(verifyNow ? { verify: verifyNow } : {}), reportDir: (id) => reportDirFor(root, id).dir });
+  const now = { ingest, site: sha, recorded: "", reports: Object.fromEntries(inputs.map((i) => [i.id, gradeReport(i)])) };
+  const was = show("reports/grades.json");
+  out.push("### Grades (`pnpm grade`: errors a reader meets per 10 pages; decision 0030)", "", was ? `Against reports/grades.json at ${base}.` : `No reports/grades.json at ${base}: every report is new.`, "", gradeDiff(now, was ? JSON.parse(was) : null), "");
+}
+
 // 5. checklist
 out.push(
   "### Checklist",
@@ -103,7 +117,7 @@ out.push(
   "- [ ] No pass in this release was tuned on a held-out report (`reports/score-sets.yaml`): its examples came from the development set, and the held-out rows above did not fall. If one fell, say why it is not overfitting.",
   "- [ ] The adjudicated 'ours wrong / judged' did not rise on any report (a rise is a regression even where F1 is flat).",
   "- [ ] Each lesson this release taught us is a file in `docs/design/lessons/` (`pnpm lessons new <slug> --theme \"<theme>\"`).",
-  "- [ ] After shipping: `pnpm quality ratchet --record`, `pnpm scorecard --record --no-score`, `pnpm score`, and commit `reports/quality-last.json`, `reports/verify-last.json` and `docs/scores.json`.",
+  "- [ ] After shipping: `pnpm quality ratchet --record`, `pnpm scorecard --record --no-score`, `pnpm score`, `pnpm grade --record`, and commit `reports/quality-last.json`, `reports/verify-last.json`, `docs/scores.json`, `reports/grades.json`, `reports/grades.md` and `reports/grades-history.jsonl`.",
   "",
 );
 const md = out.join("\n").replace(/\n{3,}/g, "\n\n");

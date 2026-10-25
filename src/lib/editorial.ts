@@ -58,6 +58,8 @@ export type EditorialSource = {
   status: "draft" | "approved";
   /** One or two sentences: the standfirst, and the page's meta description. */
   why_it_matters: string;
+  /** Optional meta / og:description, at most 200 characters; without it the first sentence of why_it_matters is used. */
+  description?: string;
   /** What the report was about, what happened, and why it still matters. Paragraphs split on blank lines. */
   background?: string;
   findings: Array<{ text: string; cites: string[]; excerpt?: QuoteSource }>;
@@ -85,6 +87,8 @@ export type Quotation = { quote: string; cite: Citation };
 export type Editorial = {
   status: "draft" | "approved";
   whyItMatters: string;
+  /** The editor's own meta description, when the file has one (<= 200 characters). */
+  description?: string;
   background: string[];
   findings: Array<{ text: string; cites: Citation[]; excerpt?: Quotation }>;
   readingGuide: Array<{ slug: string; title: string; page: string | null; why: string; excerpt?: Quotation }>;
@@ -206,6 +210,9 @@ export function resolveEditorial(
 
   if (source.status !== "draft" && source.status !== "approved") at("status", `must be draft or approved, not "${source.status}"`);
   if (!source.why_it_matters?.trim()) at("why_it_matters", "missing");
+  if (source.description !== undefined && (!source.description.trim() || source.description.trim().length > 200)) {
+    at("description", `must be 1-200 characters, not ${source.description.trim().length}`);
+  }
 
   const cite = (id: string): Citation => ({ id, page: pageOf(html, id), href: citationHref(source.report, id) });
 
@@ -280,6 +287,7 @@ export function resolveEditorial(
     editorial: {
       status: source.status,
       whyItMatters: source.why_it_matters?.trim() ?? "",
+      ...(source.description?.trim() ? { description: source.description.trim() } : {}),
       background,
       findings,
       readingGuide,

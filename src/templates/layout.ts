@@ -144,7 +144,7 @@ ${body}
       <a href="${CONTACT_PATH}">Contact</a>
     </nav>
   </div>
-  ${follow ? `<p class="site-footer-follow"><a href="${BLUESKY_PROFILE_URL}" rel="me noopener">Follow on Bluesky</a></p>\n  ` : ""}<p class="site-footer-credit">A sensemaking project built with ❤️ by <a href="https://rufuspollock.com">Rufus Pollock</a> and <a href="https://datopian.com">Datopian</a> since 2015.</p>
+  ${follow ? `<p class="site-footer-follow"><a href="${BLUESKY_PROFILE_URL}" rel="me noopener">Follow on Bluesky</a></p>\n  ` : ""}<p class="site-footer-credit">A sensemaking project built with ❤️ by <a href="https://rufuspollock.com">Rufus Pollock</a> and <a href="https://datopian.com">Datopian</a>, who have worked on open data since 2015.</p>
 </footer>
 ${scripts
   // Modules, so that the browser and the Worker can import one shared anchor

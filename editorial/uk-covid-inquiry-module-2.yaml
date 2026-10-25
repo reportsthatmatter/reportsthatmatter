@@ -1,0 +1,247 @@
+# Our layer on this report: its landing page. See editorial/jack-smith-vol1.yaml
+# for the fields and docs/report-introductions.md for the rules. Every quote is
+# verbatim from the rendered report and is checked by `pnpm editorial`; every id
+# must resolve.
+#
+# Written 2026-10-25 (reportsthatmatter-gqsy.14.1) by editorial-1025.
+#
+# Scope: the site holds Volume I (HC 1436-I, the text with the Inquiry's
+# post-publication corrections of 16 January 2026): the Chair's introduction, the
+# executive summary, the key themes, the recommendations in summary, and the
+# chronological account in Chapters 1 to 8. Volume II (themes, lessons and the full
+# list of recommendations, Appendix 3) is not on the site (reportsthatmatter-nshl).
+#
+# Tone: this report concerns more than 230,000 deaths and the people left bereaved.
+# Our words stay plain and attributed; the report's own words carry its conclusions.
+# The "Voices" testimonies of bereaved people that follow the Chair's introduction
+# are never quoted, highlighted or carded here; their names are in private_people
+# so that `pnpm editorial` warns if one ever reaches a card. Death counts and
+# estimates (the 23,000 figure) appear in findings only, never as cards (decision
+# 0026, Tier C). Cards are Tier A only: an institution as subject, standing alone.
+#
+# Background facts not stated in Volume I, checked 2026-10-25:
+#   - The Inquiry was established in June 2022: UK Government Response to the
+#     Covid-19 Inquiry Module 2 Report (CP 1534, March 2026), Introduction,
+#     https://assets.publishing.service.gov.uk/media/69c3d6bd4a06660f08544159/UK_Government_Response_to_the_Covid-19_Inquiry_Module_2_Report.pdf
+#   - Module 2 is "the second of its 10 investigations"; "Nine weeks of public
+#     hearings featuring 80 witnesses were held in London in autumn and winter
+#     2023. A further 90 witnesses gave evidence in public hearings in Edinburgh,
+#     Cardiff and Belfast in the first half of 2024"; "19 key recommendations":
+#     the Inquiry's news release of 20 November 2025,
+#     https://covid19.public-inquiry.uk/news/inquiry-publishes-second-report-and-19-recommendations-examining-core-uk-decision-making-and-political-governance/
+#   - Module 1 report published 18 July 2024: the Inquiry's Module 1 report page,
+#     https://www.covid19.public-inquiry.uk/documents/module-1-full-report/
+#   - UK government response, March 2026: "the government broadly agrees with the
+#     Chair's recommendations and sets out actions to address all of them" (CP 1534,
+#     Introduction, as above). Responses by the devolved governments were not
+#     checked, so the background names only the UK government's.
+#   From the report itself: over 230,000 deaths and the 69 days of hearings, 166
+#   witnesses, 53 Core Participants (Chair's introduction); England's third lockdown
+#   from 4 January 2021 (7.82); restrictions ended 30 May 2022 (8.198); Mr Johnson's
+#   view on earlier restrictions (4.187); 20 November 2025 and
+#   Volume II (the executive summary and key themes).
+
+report: uk-covid-inquiry-module-2
+status: approved
+
+hero:
+  src: /assets/heroes/uk-covid-inquiry-module-2.webp
+  alt: >-
+    The concourse of Liverpool Street Station in London on a weekday afternoon
+    in May 2020, during the first lockdown, almost empty: a few travellers
+    cross the tiled floor beneath the departure boards, and banners along the
+    left read "Thank you" to the NHS and key workers.
+  credit: "Liverpool Street Station, London, 21 May 2020 · Photo: Kwh1050, CC BY-SA 4.0"
+  source: "https://commons.wikimedia.org/wiki/File:Liverpool_Street_Station_London_UK_-_empty_during_COVID_lockdown.jpg"
+  licence: CC BY-SA 4.0
+  focus: "50% 35%"
+
+private_people:
+  - Fiona Humphries
+  - Amanda Provis
+  - Joanna Goodman
+
+description: >-
+  The UK Covid-19 Inquiry's second report, on how the four UK governments made their decisions from January 2020 to May 2022. Volume I: its summary, key themes and month-by-month account.
+
+why_it_matters: >-
+  The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett,
+  on how the UK government and the governments of Scotland, Wales and Northern
+  Ireland made their decisions from the first reports of the virus in January
+  2020 to the end of restrictions in May 2022. This first volume holds the
+  Inquiry's summary, its key themes and its account, month by month, of the
+  lockdowns and what led to them.
+
+background: |
+  Covid-19 reached the UK in early 2020. Over the next two and a half years the four governments of the UK closed schools and businesses, and ordered people to stay at home; England had three national lockdowns. The last restrictions in the UK ended on 30 May 2022. The Chair's introduction records that Covid-19 is mentioned on the death certificates of more than 230,000 people in the UK.
+
+  The UK Covid-19 Inquiry was established in June 2022 under the Inquiries Act 2005, chaired by Baroness Hallett. It works through ten modules. Its first report, on the UK's resilience and preparedness (Module 1), was published on 18 July 2024 and found the UK ill prepared. This second report covers core political and administrative decision-making: Module 2 for the UK government, and Modules 2A, 2B and 2C for Scotland, Wales and Northern Ireland. The Inquiry gathered more than 2 million potentially relevant documents and heard 166 witnesses over 69 days, in 2023 and 2024. The report was published on 20 November 2025. Its Volume II, with the lessons and the full list of recommendations (19 key recommendations, in the Inquiry's words), is not yet on this site.
+
+  A public inquiry establishes facts and makes recommendations; it does not decide civil or criminal liability. The Chair writes that politicians "were faced with unenviable choices" and that she has asked whether their decisions were reasonable in light of what was known, or ought to have been known, at the time. Where witnesses disagreed with the Inquiry's view, the report sets out their evidence, including Boris Johnson's view that earlier restrictions were unlikely to have avoided the first lockdown. In March 2026 the UK government published its response, saying it broadly agrees with the recommendations and setting out actions on each.
+
+findings:
+  - text: The Inquiry finds that the response of the four governments repeatedly amounted to "too little, too late", and that while the lockdowns of 2020 and 2021 saved lives, they became inevitable only because of the governments' own acts and omissions.
+    cites: [inquiry-finds-response-four-governments, 4-231-through-their-own]
+    excerpt:
+      paragraph: inquiry-finds-response-four-governments
+      quote: >-
+        The Inquiry finds that the response of the four governments repeatedly
+        amounted to a case of 'too little, too late'. The failure to appreciate
+        the scale of the threat, or the urgency of response it demanded, meant
+        that – by the time the possibility of a mandatory lockdown was first
+        considered – it was already too late and a lockdown had become
+        unavoidable.
+
+  - text: The report finds that by mid-February 2020 the four governments knew enough to act, and that their lack of urgency, including during the half-term holidays, and their failure to make adequate preparations were inexplicable. It calls February 2020 "a lost month".
+    cites: [2-206-four-governments-knew, 2-207-independent-panel-pandemic, spread-virus-globally-particular-escalating]
+    excerpt:
+      paragraph: 2-206-four-governments-knew
+      quote: >-
+        The four governments knew enough to spur them into action. Accordingly,
+        the Inquiry finds that the lack of urgency (particularly during the
+        mid-February school half-term holidays) and the failure of the four
+        governments to take a grip of the situation and make adequate
+        preparations are inexplicable.
+
+  - text: The Inquiry accepts the consensus of the evidence that the first mandatory lockdown should have been imposed a week earlier, and reports modelling that doing so would have meant about 23,000 fewer deaths in England in the first wave. It rejects the criticism that the governments were wrong in principle to impose a lockdown.
+    cites: [inquiry-recognises-lockdown-decision-difficult, however-inquiry-rejects-criticism-four, 4-227-however-inquiry-rejects]
+    excerpt:
+      paragraph: however-inquiry-rejects-criticism-four
+      quote: >-
+        However, the Inquiry rejects the criticism that the four governments
+        were wrong, in principle, to impose a lockdown. In any event, the UK
+        government and the devolved administrations had received clear and
+        compelling advice by this time that the exponential growth in
+        transmission would, in the absence of a mandatory lockdown, likely lead
+        to loss of life on a scale that was unconscionable and unacceptable.
+
+  - text: The report finds that none of the four governments had planned for a lockdown or for how to leave one, and that the initial plan, based in part on the 2011 strategy for pandemic influenza, aimed only to slow the spread of the virus.
+    cites: [4-167-decision-impose-uk-wide, 4-168-initial-plan-respond, 4-180-absence-planning-further]
+
+  - text: The report finds that the UK government, the Welsh Government and the Northern Ireland Executive failed to learn from the first lockdown in the autumn of 2020. It concludes that Mr Johnson should have ordered a circuit breaker lockdown in late September or early October 2020, describes decision-making in Northern Ireland as "chaotic", and finds that Scotland's stringent local measures avoided a second national lockdown that autumn.
+    cites: [autumn-2020-infection-rates-varied, johnson-should-have-ordered-imposition, notwithstanding-imposition-circuit-breaker-restrictions, number-cases-scotland-autumn-2020]
+
+  - text: The report describes the vaccine rollout from December 2020 as a remarkable achievement, and finds that in 2021 the four governments led their plans by data rather than dates and in that respect had learned from earlier lockdowns.
+    cites: [december-2020-uk-first-country, development-enabled-four-governments-take, 7-118-inquiry-accepts-restrictions]
+
+  - text: Among its key themes, the Inquiry finds that the UK Cabinet was largely sidelined; that decision-making was affected by cultural problems in the UK government and the Northern Ireland Executive, including a "toxic and chaotic culture" at the centre of the UK government; that instances of ministers and advisers appearing to break the rules caused huge distress; and that ministers in all four nations made far-reaching laws with little or no parliamentary oversight.
+    cites: [uk-cabinet-largely-sidelined-decision-making, decision-making-particularly-affected-cultural-problems, pandemic-response-also-exposed-wider, ministers-relied-secondary-legislation-implement]
+    excerpt:
+      paragraph: ministers-relied-secondary-legislation-implement
+      quote: >-
+        Ministers relied on secondary legislation to implement many of the most
+        far-reaching restrictions in modern UK history, with little or no
+        parliamentary oversight.
+
+  - text: The report finds that the impact of the pandemic was not shared equally, that older people, disabled people and some ethnic minority groups faced a higher risk of dying, and that the harm restrictions would do to vulnerable groups, including children, was foreseeable but had not been adequately considered.
+    cites: [although-pandemic-affected-everyone-uk, vulnerable-groups-also-affected-restrictions, despite-harm-being-foreseeable-impact]
+
+reading_guide:
+  - section: executive-summary
+    why: The Inquiry's own summary of the whole period, from January 2020 to the end of restrictions in May 2022; the place to start.
+
+  - section: key-themes
+    why: What the Inquiry concludes about scientific advice, the impact on vulnerable groups, how each government made decisions, communication with the public, the law and relations between the four nations.
+    excerpt:
+      paragraph: time-again-public-messaging-failed
+      quote: >-
+        Time and again, public messaging failed to reflect the actual laws in
+        place. Ministers made statements suggesting legal obligations where none
+        existed, or vice versa.
+
+  - section: lost-time
+    why: The Inquiry's conclusions on January and February 2020, and why it does not accept that uncertainty about the virus justified the lack of action.
+
+  - section: decision-making-leading-to-the-lockdown-decision
+    why: The Inquiry's analysis of the decision of 23 March 2020, why it came when it did, and why it was imposed without a plan for leaving it.
+    excerpt:
+      paragraph: 4-165-lockdown-decision-23
+      quote: >-
+        The lockdown decision of 23 March 2020 was as difficult a decision as
+        any UK government or devolved administration has ever had to make.
+
+  - section: a-second-lockdown-in-england
+    why: The autumn of 2020 in England, the advice for a circuit breaker, and the evidence of those who disagreed with it.
+    excerpt:
+      paragraph: 6-236-inquiry-accepts-second
+      quote: >-
+        The Inquiry accepts that a second lockdown was to be avoided at all
+        costs. Unfortunately, the failure to take timely action had made one
+        inevitable.
+
+  - section: a-new-normal
+    why: The Inquiry's conclusions on the vaccine period, the Omicron wave and the end of restrictions in 2022.
+
+highlights:
+  - paragraph: inquiry-finds-response-four-governments
+    quote: >-
+      The Inquiry finds that the response of the four governments repeatedly
+      amounted to a case of 'too little, too late'.
+  - paragraph: 2-206-four-governments-knew
+    quote: >-
+      The four governments knew enough to spur them into action.
+    card: true
+    tier: A
+  - paragraph: 4-231-through-their-own
+    quote: >-
+      Through their own acts and omissions, the four governments had made
+      lockdown inevitable.
+    card: true
+    tier: A
+  - paragraph: 4-167-decision-impose-uk-wide
+    quote: >-
+      The decision to impose a UK-wide lockdown was remarkable for the failure
+      on the part of the four governments to anticipate and plan effectively for
+      the possible need for a mandatory lockdown or to engage in any kind of
+      anticipatory debate over the merits and consequences of such a
+      restriction.
+  - paragraph: ministers-relied-secondary-legislation-implement
+    quote: >-
+      Ministers relied on secondary legislation to implement many of the most
+      far-reaching restrictions in modern UK history, with little or no
+      parliamentary oversight.
+  - paragraph: time-again-public-messaging-failed
+    quote: >-
+      Time and again, public messaging failed to reflect the actual laws in
+      place.
+  - paragraph: vulnerable-groups-also-affected-restrictions
+    quote: >-
+      No government in the UK was adequately prepared for the sudden and
+      enormous task of educating most children in their homes and failed
+      sufficiently to consider the consequences of school closures for
+      children's education and physical and mental health.
+  - paragraph: cobr-designed-deal-acute-emergencies
+    quote: >-
+      COBR is designed to deal with acute emergencies and proved inadequate for
+      responding to a prolonged pandemic.
+    card: true
+    tier: A
+  - paragraph: 4-165-lockdown-decision-23
+    quote: >-
+      The lockdown decision of 23 March 2020 was as difficult a decision as any
+      UK government or devolved administration has ever had to make.
+  - paragraph: however-inquiry-rejects-criticism-four
+    quote: >-
+      However, the Inquiry rejects the criticism that the four governments were
+      wrong, in principle, to impose a lockdown.
+  - paragraph: stage-scientific-advisory-group-emergencies
+    quote: >-
+      This concept of 'behavioural fatigue' had no grounding in behavioural
+      science and proved damaging, given the imperative to act more decisively
+      and sooner.
+  - paragraph: pandemic-response-also-exposed-wider
+    quote: >-
+      The very least the public should be entitled to expect is that those
+      making the rules will abide by them.
+  - paragraph: although-not-formally-identified-until
+    quote: >-
+      The emergence of a more transmissible variant was entirely foreseeable,
+      but all four governments failed to take decisive action in response.
+  - paragraph: 7-121-compounded-their-failure
+    quote: >-
+      All four governments bear responsibility for the hurried and chaotic
+      descent into further and immensely damaging lockdowns.
+  - paragraph: december-2020-uk-first-country
+    quote: >-
+      In December 2020, the UK was the first country in the world to approve a
+      vaccine and commence a vaccination programme for Covid-19.

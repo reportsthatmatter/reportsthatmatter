@@ -44,11 +44,12 @@
  * likewise layout-free. It is not part of the published (R2) content, so it
  * moves with a deploy, not with `pnpm publish-report`.
  *
- * Plus sitemap-urls.json, the section-level entries /sitemap.xml no longer
+ * Plus sitemap-lastmod.json (report id -> date its text or introduction last changed) and sitemap-urls.json, the section-level entries /sitemap.xml no longer
  * has to render all four reports to produce.
  */
 import "./lib/help.mjs";
 import { mkdirSync, writeFileSync, readFileSync, rmSync, existsSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts, renderMarkdown } from "@rtm/ingest";
@@ -74,6 +75,22 @@ const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8")
 rmSync(join(outDir, "reports"), { recursive: true, force: true });
 
 const sitemapEntries = [];
+// <lastmod> per report (reportsthatmatter-n5p8): the date its text or its introduction last changed in git, as YYYY-MM-DD.
+// Computed here so /sitemap.xml reads no database per request. Absent (no <lastmod>) when git has no history for the files.
+const lastmod = {};
+function lastChanged(...paths) {
+  let latest = "";
+  for (const path of paths) {
+    if (!existsSync(join(root, path))) continue;
+    try {
+      const date = execFileSync("git", ["log", "-1", "--format=%cs", "--", path], { cwd: root, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim();
+      if (date > latest) latest = date;
+    } catch {
+      // not a git checkout: leave it out
+    }
+  }
+  return latest || null;
+}
 
 for (const report of registry.reports) {
   const markdown = readFileSync(join(root, report.source_path), "utf8");
@@ -92,6 +109,9 @@ for (const report of registry.reports) {
     if (Object.keys(paragraphAliases).length) meta.paragraphAliases = paragraphAliases;
     if (Object.keys(sectionAliases).length) meta.sectionAliases = sectionAliases;
   }
+
+  const changed = lastChanged(report.source_path, `editorial/${report.id}.yaml`);
+  if (changed) lastmod[report.id] = changed;
 
   writeJSON(join(outDir, `reports/${report.id}/meta.json`), meta);
   writeText(join(outDir, `reports/${report.id}/full-body.html`), fullBody);
@@ -118,6 +138,7 @@ for (const report of registry.reports) {
 }
 
 writeJSON(join(outDir, "sitemap-urls.json"), sitemapEntries);
+writeJSON(join(outDir, "sitemap-lastmod.json"), lastmod);
 writeStamp();
 
 console.log(`\nPre-rendered ${registry.reports.length} report(s) to assets/generated/`);
