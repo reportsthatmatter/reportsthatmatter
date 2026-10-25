@@ -222,3 +222,10 @@ units:
       evaluate.adjudicated: reportsthatmatter-cj3h
     evidence: "source stack in gqsy.13 notes; report repo reportsthatmatter/us-ica-2017-russia-elections (first-ingest-1024); cleanEdition over Wikisource's validated transcription; golden 7/7; plate (CIA/FBI/NSA seals), default and 5 quote cards; editorial approved (Fable-critiqued); ingest PR #82 (optional: clears Annex B's review rows)"
     notes: "Target: live before the US midterms, 3 Nov 2026. Hero: gqsy.13.1. Annex B section page: 4kxk. Annex B review rows: l40o (ingest #82)."
+  - id: uk-thirlwall-inquiry
+    scope: "Summary report (HC 601, 15 September 2026)"
+    bead: reportsthatmatter-gqsy.16
+    reached: ingest
+    state: active
+    evidence: "source stack in gqsy.16 notes; report repo reportsthatmatter/uk-thirlwall-inquiry (branch summary-1024); site branch thirlwall-summary-1024 (registry, manifest, budgets, reference entry); PDF pipeline, 433/433 numbered paragraphs in sequence; golden 3/8 + 5 xfail (e9im, hy63, b1za); tag census 50 H3 + 15 H4 vs 62 sub-headings served"
+    notes: "Decision 0026 applies (affected_community: true). Known defects: stacked same-face headings (e9im), chapter 4 banner level (hy63), 15 block quotations unread (vsd2), one asterisk footnote unlinked (b1za). Volumes I-III are later units of the same id."

@@ -189,6 +189,18 @@ REFERENCES = {
             "The Inquiry's own HTML edition of Volume I (reference/raw/volume-1.html) is cached as a second reference: amended text, numbered paragraphs, h2-h5 headings and per-chapter linked notes, but no page anchors. The Inquiry's site refuses this script's User-Agent (403), so fetch it with --cache from a browser-UA download.",
         ],
     },
+    "uk-thirlwall-inquiry": {
+        "set": "held-out",
+        "adapter": "tagged",
+        "edition": "The Summary report's PDF's own structure tree (tagged PDF, InDesign: H1-H4, P, LI/Lbl, role-mapped), accessible edition of 15 September 2026",
+        "licence": CROWN,
+        "numbered": True,
+        "files": [],
+        "caveats": [
+            "A new publisher family (the Thirlwall Inquiry), so held out: score it, do not tune passes on it.",
+            "The Inquiry's own HTML edition of the summary (thirlwall.public-inquiry.uk/summary-chapter/summary-report/) has about 60 words broken by stray spaces inside them and no paragraph numbers, so it is not cached; the tags are the reference.",
+        ],
+    },
     "us-duelfer-report": {
         "set": "held-out",
         "adapter": "duelfer",

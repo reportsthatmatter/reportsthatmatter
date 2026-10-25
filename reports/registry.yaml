@@ -289,3 +289,18 @@ reports:
     source_path: reports/us-ica-2017-russia-elections/full.md
     source_url: "https://www.dni.gov/files/documents/ICA_2017_01.pdf"
     ingested: true
+
+  - id: uk-thirlwall-inquiry
+    title: "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Summary report"
+    authors: "The Rt Hon. Lady Justice Thirlwall DBE (Chair)"
+    published_at: "15 September 2026"
+    common_name: "Thirlwall Inquiry"
+    also_known_as: ["Thirlwall Inquiry report", "Thirlwall Inquiry summary report", "Countess of Chester Hospital Inquiry report", "Lucy Letby inquiry report", "HC 601"]
+    issued_by: "Thirlwall Inquiry"
+    date_published: "2026-09-15"
+    repo: uk-thirlwall-inquiry
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    source_path: reports/uk-thirlwall-inquiry/full.md
+    source_url: "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
+    ingested: true
+    affected_community: true
