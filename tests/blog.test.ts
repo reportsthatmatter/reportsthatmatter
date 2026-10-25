@@ -93,8 +93,9 @@ describe("blog routes with only drafts", () => {
     expect(body).toContain("draft-banner");
     expect(body).toContain('<meta name="robots" content="noindex" />');
     expect(body).toContain("AI coding agents");
-    // The flagged sentence stays in the post and is flagged in the preview's decision list.
-    expect(body).toContain("DECISION: the sentence beginning");
+    // The post's review list (its open decisions) is shown in the preview. Match the marker, not one
+    // decision's wording, so rewriting the draft's review notes does not break the test.
+    expect(body).toContain("DECISION:");
     expect(body).toContain("For the editor to decide");
   });
 
