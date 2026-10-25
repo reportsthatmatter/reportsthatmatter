@@ -118,15 +118,15 @@ reports:
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-reference-sequence: 0
-    note-text-in-body: 56
+    note-text-in-body: 67  # why: reportsthatmatter-men (Appendix 7's notices' numbered paragraphs "1 This Restriction Notice…", glued behind their section titles until those became headings: +11; the notices' paragraph numbers are 2nx)
     note-citation-vocabulary: 0
-    furniture-paragraph: 16  # why: reportsthatmatter-y0w9, reportsthatmatter-uren (the same Appendix 7 'Amendments to this Restriction Notice' lines, now in the body: +4)
-    contents-entry-without-heading: 77
-    heading-density: 0
-    heading-repeated: 0
+    furniture-paragraph: 12
+    contents-entry-without-heading: 75
+    heading-density: 1  # why: reportsthatmatter-men (the printed topics under each chapter are headings now: 229 over 329 pages, as printed)
+    heading-repeated: 4  # why: reportsthatmatter-8rv, reportsthatmatter-men ("Chapter 1: Introduction" opens five Parts, and each Restriction Notice repeats its section titles, as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 2
+    heading-long: 6  # why: reportsthatmatter-men (the Restriction Notices' 109-character section title, as printed: +4)
     printed-page-reversal: 0
     rendered-h1: 0
     chapter-intro-misfiled: 0

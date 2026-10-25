@@ -22,6 +22,8 @@ export type Rendered = {
   sections: { slug: string }[];
   /** The slug of each heading that sits inside a section's fragment, to that section: where a folded section's heading lives now (3ak7). */
   headings?: Record<string, string>;
+  /** Each heading's text (normalised) with the id of the first citable passage after it, in reading order: where a paragraph that became a heading went. */
+  headingTexts?: { text: string; next: string }[];
 };
 
 /**
@@ -79,15 +81,23 @@ export function render(markdown: string, ingest: Ingest = pinned): Rendered {
   const { meta, fragments } = renderArtifacts(markdown);
   const passages: Passage[] = [];
   const headings: Record<string, string> = {};
+  const headingTexts: { text: string; next: string }[] = [];
   for (const section of meta.sections) {
     for (const h of fragments[section.slug].matchAll(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/g)) {
       const slug = plain(h[1]).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
       if (slug && !(slug in headings)) headings[slug] = section.slug;
     }
     const blocks = introducedBlocks(fragments[section.slug]);
-    for (const p of extractPassages(fragments[section.slug])) passages.push({ id: p.paragraphId, text: p.text, section: section.slug, block: blocks.get(p.paragraphId) });
+    const found = extractPassages(fragments[section.slug]);
+    for (const p of found) passages.push({ id: p.paragraphId, text: p.text, section: section.slug, block: blocks.get(p.paragraphId) });
+    const ids = new Set(found.map((p) => p.paragraphId));
+    const units = [...fragments[section.slug].matchAll(UNIT_START)].filter((m) => ids.has(m[2]));
+    for (const h of fragments[section.slug].matchAll(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/g)) {
+      const next = units.find((m) => (m.index ?? 0) > (h.index ?? 0));
+      if (next) headingTexts.push({ text: norm(plain(h[1])), next: next[2] });
+    }
   }
-  return { passages, sections: meta.sections.map((s: { slug: string }) => ({ slug: s.slug })), headings };
+  return { passages, sections: meta.sections.map((s: { slug: string }) => ({ slug: s.slug })), headings, headingTexts };
 }
 
 const norm = (t: string) => t.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
@@ -146,6 +156,26 @@ function locator(after: Rendered) {
 export function computeMoves(before: Rendered, after: Rendered) {
   const live = new Map(after.passages.map((p) => [p.id, p]));
   const locate = locator(after);
+  // A short paragraph that is now a heading, whole or its opening line (a sub-heading the old text read as body,
+  // reportsthatmatter-men): it goes to the first paragraph under that heading, which the reader then sees it above.
+  // One heading matching is enough. A text printed more than once ("Conclusion" closing two chapters, each Restriction
+  // Notice's section titles) pairs in reading order, but only when the old text had exactly as many such paragraphs
+  // gone as there are headings now; otherwise it is left to the containment probe.
+  const gone = new Map<string, string[]>();
+  for (const old of before.passages) {
+    if (live.has(old.id)) continue;
+    const t = norm(old.text);
+    gone.set(t, [...(gone.get(t) ?? []), old.id]);
+  }
+  const becameHeading = (id: string, text: string): string | null => {
+    const t = norm(text);
+    const n = t.split(" ").length;
+    if (!t || n > 20) return null;
+    const hits = (after.headingTexts ?? []).filter((h) => h.text === t || (n >= 2 && h.text.startsWith(`${t} `)));
+    if (hits.length === 1) return hits[0].next;
+    const same = gone.get(t) ?? [];
+    return hits.length > 1 && same.length === hits.length ? hits[same.indexOf(id)].next : null;
+  };
   const moved: Record<string, string> = {};
   const lost: string[] = [];
   let kept = 0;
@@ -154,7 +184,7 @@ export function computeMoves(before: Rendered, after: Rendered) {
       kept++;
       continue;
     }
-    const to = locate(old.text);
+    const to = becameHeading(old.id, old.text) ?? locate(old.text);
     if (to) moved[old.id] = to;
     else lost.push(old.id);
   }
