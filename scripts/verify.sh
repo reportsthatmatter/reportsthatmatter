@@ -390,6 +390,9 @@ check_contains "/reports/challenger-accident" "Where to start reading"
 check_absent  /reports/jack-smith-vol1 "About this edition"
 check_status /sitemap.xml 200
 check_contains /sitemap.xml "/reports/jack-smith-vol1/the-law"
+check_status /llms.txt 200
+check_contains /llms.txt "/reports/jack-smith-vol1"
+check_contains /sitemap.xml "<lastmod>"
 check_status /robots.txt 200
 check_contains /robots.txt "Sitemap:"
 

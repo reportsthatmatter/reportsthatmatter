@@ -381,6 +381,12 @@ async function sitemapSectionUrls(
   return response ? response.json() : [];
 }
 
+/** Report id -> YYYY-MM-DD its text or introduction last changed, computed by `pnpm prerender` (n5p8). */
+async function sitemapLastmod(assets: AssetsBinding | undefined): Promise<Record<string, string>> {
+  const response = await openGenerated(assets, "sitemap-lastmod.json");
+  return response ? response.json() : {};
+}
+
 // Not wrapped in `cached()`: that wrapper stores in `caches.default` for a day
 // and does not invalidate on deploy, so a report added today would not appear
 // in the sitemap until tomorrow (exactly what happened shipping the 2026-09-03
@@ -392,7 +398,8 @@ app.get("/sitemap.xml", async (c) => {
   const registry = await loadRegistry(sourceMode);
   const origin = new URL(c.req.url).origin;
 
-  const urls: Array<{ loc: string; priority: string }> = [
+  const lastmod = await sitemapLastmod(c.env?.ASSETS);
+  const urls: Array<{ loc: string; priority: string; lastmod?: string }> = [
     { loc: "/", priority: "1.0" },
     { loc: "/reports", priority: "0.9" },
     { loc: "/about", priority: "0.7" },
@@ -409,10 +416,10 @@ app.get("/sitemap.xml", async (c) => {
   }
 
   for (const report of registry.reports) {
-    urls.push({ loc: `/reports/${report.id}`, priority: "0.9" });
+    urls.push({ loc: `/reports/${report.id}`, priority: "0.9", lastmod: lastmod[report.id] });
   }
   for (const entry of await sitemapSectionUrls(c.env?.ASSETS)) {
-    urls.push({ loc: `/reports/${entry.report}/${entry.slug}`, priority: "0.8" });
+    urls.push({ loc: `/reports/${entry.report}/${entry.slug}`, priority: "0.8", lastmod: lastmod[entry.report] });
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
@@ -420,13 +427,47 @@ app.get("/sitemap.xml", async (c) => {
 ${urls
   .map(
     (entry) =>
-      `  <url><loc>${origin}${entry.loc}</loc><priority>${entry.priority}</priority></url>`
+      `  <url><loc>${origin}${entry.loc}</loc>${entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ""}<priority>${entry.priority}</priority></url>`
   )
   .join("\n")}
 </urlset>`;
 
   return c.body(body, 200, {
     "content-type": "application/xml; charset=utf-8",
+    "cache-control": "public, max-age=3600",
+  });
+});
+
+/**
+ * /llms.txt (llmstxt.org): a plain-text map of the archive for AI search, generated from the registry
+ * so a new report appears with no hand edit. Same cheapness as the sitemap: the registry, no database.
+ */
+app.get("/llms.txt", async (c) => {
+  const registry = await loadRegistry(c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE);
+  const origin = new URL(c.req.url).origin;
+  const lines = [
+    "# Reports that Matter",
+    "",
+    "> Reports that Matter turns hard-to-access public reports (inquiries, commissions, investigations) into searchable, readable web pages where every paragraph has its own link, so it can be read, searched and cited exactly.",
+    "",
+    "Each report has a landing page (an introduction and reading guide), section pages, and the whole text on one page. Cite a paragraph by its link (?p=<paragraph id>).",
+    "",
+    "## Reports",
+    "",
+    ...registry.reports.map((r: { id: string; title: string; issued_by?: string; published_at?: string }) => {
+      const detail = [r.issued_by, r.published_at].filter(Boolean).join(", ");
+      return `- [${r.title}](${origin}/reports/${r.id}): ${detail ? `${detail}. ` : ""}Full text: ${origin}/reports/${r.id}/full`;
+    }),
+    "",
+    "## Optional",
+    "",
+    `- [All reports](${origin}/reports)`,
+    `- [About](${origin}/about)`,
+    `- [Sitemap](${origin}/sitemap.xml)`,
+    "",
+  ];
+  return c.body(lines.join("\n"), 200, {
+    "content-type": "text/plain; charset=utf-8",
     "cache-control": "public, max-age=3600",
   });
 });
