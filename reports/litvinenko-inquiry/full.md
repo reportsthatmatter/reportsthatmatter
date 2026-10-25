@@ -5588,7 +5588,7 @@ out of the Inquiry, or otherwise.
 
 %%page 306%%
 
-RESTRICTION NOTICE No. 4
+### RESTRICTION NOTICE No. 4
 
 1 This Restriction Notice is made under section 19 of the Inquiries Act 2005 ("the Act").
 

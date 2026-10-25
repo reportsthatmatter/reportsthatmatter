@@ -67,6 +67,7 @@ part-9-who-directed-the-killing
 public-access-to-hearings
 restriction-notice-no-2
 restriction-notice-no-3
+restriction-notice-no-4
 restriction-order
 risc
 the-inquest-proceedings

@@ -49,6 +49,10 @@ aliases:
   alexander-litvinenko-s-death: 3-146-tuesday-21-november
   alexander-litvinenko-s-death-3: 3-146-tuesday-21-november
   alexander-volkov-zakayev-added-when: 3-33-time-litvinenko-s
+  amendments-restriction-notice: 15-letter-chairman-under-paragraph
+  amendments-restriction-notice-2: 15-letter-chairman-under-paragraph-2
+  amendments-restriction-notice-3: 15-letter-chairman-under-paragraph-3
+  amendments-restriction-notice-4: 15-letter-chairman-under-paragraph-4
   amount-polonium-210-used: 9-93-professor-dombey-estimated
   amount-polonium-210-used-9: 9-93-professor-dombey-estimated
   analytical-documents-inq017934-radiation-schedules: inq017934-radiation-schedules-inq017809-telephone
@@ -154,6 +158,10 @@ aliases:
   closed-evidence-restriction-notices-69: 69-31-july-2014-i
   closed-hearings: 118-27-january-2015-when
   commissioner-police-metropolis-counsel-richard: counsel-richard-horwell-qc-saba
+  conclusion: 8-58-reasons-set-out
+  conclusion-2: 9-111-my-conclusion-reasons
+  conclusion-8-58-reasons-set: 8-58-reasons-set-out
+  conclusion-9-111-my-conclusion: 9-111-my-conclusion-reasons
   conclusions: part-10-summary-conclusions-245
   conclusions-regarding-russian-state-responsibility: chapter-11-conclusions-regarding-russian
   conservative-estimate-allow-extra-polonium: 9-93-professor-dombey-estimated
@@ -440,6 +448,7 @@ aliases:
   reilly-s-plan-erinys-boardroom68: reilly-s-plan-erinys-boardroom
   reilly-said-meeting-took-less: 5-90-reilly-said-idea
   remove-polonium-210-has-been: 9-52-put-shortly-target
+  restriction-notice-no-4: 1-restriction-notice-made-under-4
   return-moscow: 6-183-lugovoy-rose-early
   return-moscow-6-183-lugovoy: 6-183-lugovoy-rose-early
   risc: 4-108-risc-management-limited
@@ -596,14 +605,10 @@ unmatched:
   - always-very-modest-only-had
   - amendment-did-however-have-political
   - amendment-mere-listing-categories-rather
-  - amendments-restriction-notice
   - amendments-restriction-notice-15-letter
   - amendments-restriction-notice-15-letter-2
   - amendments-restriction-notice-15-letter-3
   - amendments-restriction-notice-15-letter-4
-  - amendments-restriction-notice-2
-  - amendments-restriction-notice-3
-  - amendments-restriction-notice-4
   - andrey-lugovoy
   - andrey-lugovoy-4-141-lugovoy
   - anonymity-restriction-orders-73-course
@@ -683,10 +688,6 @@ unmatched:
   - commission-2003-consultant-conduct-investigations
   - commission-litvinenko-agreed76-f-litvinenko
   - company-provides-consulting-services-development
-  - conclusion
-  - conclusion-2
-  - conclusion-8-58-reasons-set
-  - conclusion-9-111-my-conclusion
   - confirmation-alleged-activity-if-government
   - connection-i-would-like-tell
   - contents-introductory

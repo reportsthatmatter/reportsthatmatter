@@ -1,6 +1,6 @@
 {
-  "words": 134900,
-  "paragraphs": 2000,
+  "words": 134899,
+  "paragraphs": 1999,
   "sections": [
     {
       "slug": "contents",
@@ -353,8 +353,14 @@
     {
       "slug": "restriction-notice-no-3",
       "title": "RESTRICTION NOTICE No. 3",
-      "paragraphs": 91,
-      "ids": "c59bab97be36"
+      "paragraphs": 28,
+      "ids": "f6a88d9459e8"
+    },
+    {
+      "slug": "restriction-notice-no-4",
+      "title": "RESTRICTION NOTICE No. 4",
+      "paragraphs": 62,
+      "ids": "a0f882d92178"
     },
     {
       "slug": "appendix-8-key-documents",

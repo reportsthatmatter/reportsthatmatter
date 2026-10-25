@@ -158,13 +158,23 @@ export function computeMoves(before: Rendered, after: Rendered) {
   const locate = locator(after);
   // A short paragraph that is now a heading, whole or its opening line (a sub-heading the old text read as body,
   // reportsthatmatter-men): it goes to the first paragraph under that heading, which the reader then sees it above.
-  // Only where one heading matches: "Conclusion" twice is left to the containment probe.
-  const becameHeading = (text: string): string | null => {
+  // One heading matching is enough. A text printed more than once ("Conclusion" closing two chapters, each Restriction
+  // Notice's section titles) pairs in reading order, but only when the old text had exactly as many such paragraphs
+  // gone as there are headings now; otherwise it is left to the containment probe.
+  const gone = new Map<string, string[]>();
+  for (const old of before.passages) {
+    if (live.has(old.id)) continue;
+    const t = norm(old.text);
+    gone.set(t, [...(gone.get(t) ?? []), old.id]);
+  }
+  const becameHeading = (id: string, text: string): string | null => {
     const t = norm(text);
     const n = t.split(" ").length;
     if (!t || n > 20) return null;
     const hits = (after.headingTexts ?? []).filter((h) => h.text === t || (n >= 2 && h.text.startsWith(`${t} `)));
-    return hits.length === 1 ? hits[0].next : null;
+    if (hits.length === 1) return hits[0].next;
+    const same = gone.get(t) ?? [];
+    return hits.length > 1 && same.length === hits.length ? hits[same.indexOf(id)].next : null;
   };
   const moved: Record<string, string> = {};
   const lost: string[] = [];
@@ -174,7 +184,7 @@ export function computeMoves(before: Rendered, after: Rendered) {
       kept++;
       continue;
     }
-    const to = becameHeading(old.text) ?? locate(old.text);
+    const to = becameHeading(old.id, old.text) ?? locate(old.text);
     if (to) moved[old.id] = to;
     else lost.push(old.id);
   }

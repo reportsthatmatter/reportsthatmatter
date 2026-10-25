@@ -52,6 +52,21 @@ describe("alias generation", () => {
     expect(lost).toEqual([]);
   });
 
+  it("pairs a sub-heading printed more than once with its headings in reading order (men)", () => {
+    // before: "Conclusion" closed two chapters as one-line paragraphs; after: two headings
+    const old = render(doc({ One: [A, "Conclusion", B], Two: [B.replace("night", "day"), "Conclusion", C] }));
+    const now = render(doc({ One: [A, "#### Conclusion", B], Two: [B.replace("night", "day"), "#### Conclusion", C] }));
+    const ids = old.passages.filter((p) => p.text === "Conclusion").map((p) => p.id);
+    expect(ids).toHaveLength(2);
+    const { moved, lost } = computeMoves(old, now);
+    expect(moved[ids[0]]).toBe(now.passages.find((p) => p.text === B)!.id);
+    expect(moved[ids[1]]).toBe(now.passages.find((p) => p.text === C)!.id);
+    expect(lost).toEqual([]);
+    // three headings now for two paragraphs gone: no pairing, left to the containment probe (which finds nothing)
+    const three = render(doc({ One: [A, "#### Conclusion", B], Two: [B.replace("night", "day"), "#### Conclusion", C, "#### Conclusion", A.replace("committee", "panel")] }));
+    expect(computeMoves(old, three).lost.sort()).toEqual([...ids].sort());
+  });
+
   it("reports an id whose text is gone as lost, and unmatched in the file", () => {
     const after = render(doc({ "The decision": [A, B] }));
     const file = fold(emptyAliases(), before, after);
