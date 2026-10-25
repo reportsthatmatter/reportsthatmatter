@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-25 — The Thirlwall Inquiry's summary report
+
+[The Thirlwall Inquiry's summary report](/reports/uk-thirlwall-inquiry) (September 2026), on events at the Countess of Chester Hospital from 2015 to 2018, is on the site: 76 pages, 433 numbered paragraphs, each with its own link, rebuilt from the Inquiry's accessible PDF. It opens with our introduction: what the Inquiry covered and what it did not, eight of its findings with the paragraphs behind them, and where to start reading. The three full volumes, with the 17 recommendations, come later.
+
+---
+
 ## 2026-10-25 — The Litvinenko Inquiry's sub-headings are headings
 
 In [the Litvinenko Inquiry's report](/reports/litvinenko-inquiry), about 180 printed sub-headings ("Treatment in Barnet Hospital", "The Pine Bar") read as one-line paragraphs, Part 5 sat inside Part 4, and five chapter openings had been deleted as page furniture. They are headings again, read from the report's own typography, so each Part and chapter is where the print puts it. Links to a sub-heading's old address lead to the paragraph under it.
