@@ -181,27 +181,22 @@
     "headings-spurious": 2,
     "markers-unlinked": 17,
     "markers-spurious": 3,
-    "paragraphs-oversplit": 2091,
-    "paragraphs-merged": 2524,
-    "quotes-spurious": 319,
-    "quotes-missed": 1242,
+    "paragraphs-oversplit": 267,
+    "paragraphs-merged": 2489,
+    "quotes-spurious": 256,
+    "quotes-missed": 657,
     "note-off-page": 1
    },
    "golden": {
-    "match": 1,
-    "total": 7,
+    "match": 2,
+    "total": 8,
     "known": 6
    },
    "goldenOracle": {
     "headings-missed": {
-     "tp": 9,
+     "tp": 10,
      "fp": 0,
      "fn": 0
-    },
-    "paragraphs-oversplit": {
-     "tp": 5,
-     "fp": 0,
-     "fn": 1
     },
     "paragraphs-merged": {
      "tp": 0,
@@ -209,7 +204,7 @@
      "fn": 0
     },
     "quotes-spurious": {
-     "tp": 1,
+     "tp": 0,
      "fp": 2,
      "fn": 0
     }
@@ -818,7 +813,7 @@
  },
  "oracleVsGolden": {
   "headings-missed": {
-   "tp": 16,
+   "tp": 17,
    "fp": 30,
    "fn": 4
   },
@@ -838,9 +833,9 @@
    "fn": 1
   },
   "paragraphs-oversplit": {
-   "tp": 13,
+   "tp": 8,
    "fp": 18,
-   "fn": 28
+   "fn": 27
   },
   "paragraphs-merged": {
    "tp": 5,
@@ -848,7 +843,7 @@
    "fn": 1
   },
   "quotes-spurious": {
-   "tp": 3,
+   "tp": 2,
    "fp": 12,
    "fn": 9
   },

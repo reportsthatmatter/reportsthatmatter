@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-25 — Leveson's paragraphs are whole again
+
+In [the Leveson Inquiry's report](/reports/uk-leveson-inquiry), about 2,000 paragraphs were cut into fragments: the text on facing pages sits at different distances from the edge, and on one side of every spread each line that began with a capital started a new paragraph ("…I selected" / "Robert Jay QC to be Counsel to the Inquiry…"). Each page is now measured against its own side of the spread, so those paragraphs read and cite as one, and 11 chapters that had lost their opening are now sections of their own. Links to a fragment that is now part of a paragraph lead to that paragraph.
+
+---
+
 ## 2026-10-25 — An introduction to the Covid Inquiry's Module 2 report
 
 [The UK Covid-19 Inquiry's report on core decision-making](/reports/uk-covid-inquiry-module-2) (Volume I, November 2025) now opens with our introduction: what the report covers, how the Inquiry worked, eight of its findings with the paragraphs behind them, and six sections to read first. The landing page shows Liverpool Street Station almost empty on 21 May 2020. [The 2017 Intelligence Community Assessment](/reports/us-ica-2017-russia-elections) gains a photograph of the CIA's original headquarters.
