@@ -42,7 +42,7 @@ import { SITE_HEADLINE, SITE_STANDFIRST } from "../src/templates/site.ts";
 import { renderMarkdown } from "@rtm/ingest";
 import { extractParagraph } from "../src/templates/report.ts";
 import { findText } from "../assets/anchor.js";
-import { quoteCardId } from "../src/lib/card-key.ts";
+import { quoteCardId, CARD_QUOTE_LIMIT } from "../src/lib/card-key.ts";
 import { orphanCards } from "../src/lib/card-plan.ts";
 import { statSync, readdirSync, rmSync } from "node:fs";
 import UPNG from "upng-js";
@@ -148,7 +148,7 @@ function quoteFor(reportId, paragraphId, match) {
 }
 
 /** A card has one screenful; trim to a sentence boundary rather than mid-word. */
-function fitToCard(text, limit = 420) {
+function fitToCard(text, limit = CARD_QUOTE_LIMIT) {
   if (text.length <= limit) return text;
   const cut = text.slice(0, limit);
   const sentence = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("? "), cut.lastIndexOf("! "));

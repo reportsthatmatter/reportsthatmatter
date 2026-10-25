@@ -9,6 +9,7 @@ import {
   graphemeLength,
   isBlackout,
   isoDate,
+  needsHookViolations,
   posterEligibility,
   queueViolations,
   reportPolicies,
@@ -20,7 +21,7 @@ import {
   type QueueItem,
   type ResolvedPost,
 } from "../src/lib/posts";
-import { quoteCardId } from "../src/lib/card-key";
+import { quoteCardId, CARD_QUOTE_LIMIT } from "../src/lib/card-key";
 
 const HTML = `
 <p id="so-what" data-page="30"><a class="permalink" href="#so-what">¶</a>When an advisor rushed to tell Mr. Trump, he replied "So what?"<label class="sidenote-toggle">1</label><span class="sidenote">See ECF No. 252 at 142.</span> The riot continued.</p>
@@ -146,6 +147,62 @@ describe("resolveCandidate", () => {
     expect(result.ok).toBe(false);
     if (result.ok) return;
     expect(result.problem).toMatch(/over Bluesky's 300 limit/);
+  });
+
+  describe("a quote too long for the quote form (f9we)", () => {
+    const long = "A sentence that runs on. ".repeat(12).trim(); // 299 characters: with the source line, over 300
+    const longHtml = `<p id="long" data-page="7">${long}</p>`;
+    const cardId = quoteCardId("long", long);
+
+    it("is queued as needing a hook when a quote card carries the whole quote", () => {
+      const result = resolveCandidate(candidate({ paragraph: "long", quote: long, origin: "editorial" }), longHtml, new Set(["demo/default", `demo/${cardId}`]), "https://example.org");
+      expect(result.ok).toBe(true);
+      if (!result.ok) return;
+      expect(result.item.needsHook).toBe(true);
+      expect(result.item.cardIsDefault).toBe(false);
+      expect(graphemeLength(result.item.text)).toBeGreaterThan(BLUESKY_GRAPHEME_LIMIT);
+      expect(result.item.text).toContain(long);
+    });
+
+    it("is still skipped when only the default card exists (no card would show the quote)", () => {
+      const result = resolveCandidate(candidate({ paragraph: "long", quote: long, origin: "editorial" }), longHtml, new Set(["demo/default"]), "https://example.org");
+      expect(result.ok).toBe(false);
+      if (result.ok) return;
+      expect(result.problem).toMatch(/over Bluesky's 300 limit/);
+      expect(result.problem).toMatch(/no quote card/);
+    });
+
+    it("is still skipped when the card would cut the quote", () => {
+      const huge = "A sentence that runs on. ".repeat(20).trim();
+      expect(huge.length).toBeGreaterThan(CARD_QUOTE_LIMIT);
+      const result = resolveCandidate(
+        candidate({ paragraph: "huge", quote: huge, origin: "editorial" }),
+        `<p id="huge" data-page="7">${huge}</p>`,
+        new Set(["demo/default", `demo/${quoteCardId("huge", huge)}`]),
+        "https://example.org"
+      );
+      expect(result.ok).toBe(false);
+      if (result.ok) return;
+      expect(result.problem).toMatch(/card would be cut/);
+    });
+
+    it("is refused when its ?h= link would not read back as the card's words (a % in the quote)", () => {
+      const pct = "Goldman took 100% of the short side of the CDO, betting against it, and sold it on to investors without saying so. ".repeat(2).trim();
+      const result = resolveCandidate(
+        candidate({ paragraph: "pct", quote: pct, origin: "editorial" }),
+        `<p id="pct" data-page="7">${pct}</p>`,
+        new Set(["demo/default", `demo/${quoteCardId("pct", pct)}`]),
+        "https://example.org"
+      );
+      expect(result.ok).toBe(false);
+      if (result.ok) return;
+      expect(result.problem).toMatch(/does not read back/);
+    });
+
+    it("a short quote is not flagged", () => {
+      const result = resolveCandidate(candidate(), HTML, CARDS, "https://example.org");
+      expect(result.ok && result.item.needsHook).toBeFalsy();
+    });
   });
 
   it("falls back to the report's default card for an editorial-origin candidate, never a share-quotes card it wasn't rendered from", () => {
@@ -399,6 +456,44 @@ describe("hooks (post-writing skill)", () => {
     expect(queue[0].text).toBe('"So what?"\n\n— The Demo Report, p. 30');
   });
 
+  describe("needs_hook (f9we)", () => {
+    const longText = `"${"x".repeat(310)}"\n\n— The Demo Report, p. 30`;
+    const needing = () => hooked({ needsHook: true, text: longText, cardIsDefault: false, card: "assets/cards/demo/q-1.png" });
+    const first = () => buildQueue({ resolved: [needing()], existing: [], today: "2026-09-27", reportOrder: ["demo"] });
+
+    it("queues the item flagged, with the over-length text, and keeps the flag across runs", () => {
+      const { queue } = first();
+      expect(queue).toHaveLength(1);
+      expect(queue[0].needs_hook).toBe(true);
+      expect(queue[0].text).toBe(longText);
+      const again = buildQueue({ resolved: [needing()], existing: queue, today: "2026-09-28", reportOrder: ["demo"] });
+      expect(again.queue).toEqual(queue);
+    });
+
+    it("builds the text from the hook and clears the flag once a hook is written", () => {
+      const written = first().queue.map((i) => ({ ...i, hook: "In 1986 a shuttle broke apart." }));
+      const { queue } = buildQueue({ resolved: [needing()], existing: written, today: "2026-09-28", reportOrder: ["demo"] });
+      expect(queue[0].needs_hook).toBeUndefined();
+      expect("needs_hook" in queue[0]).toBe(false);
+      expect(queue[0].text).toBe("In 1986 a shuttle broke apart.\n\n— Demo Report, p. 30");
+    });
+
+    it("fails the check only once the date arrives with no hook", () => {
+      const { queue } = first(); // scheduled 2026-09-28
+      expect(needsHookViolations(queue, "2026-09-27")).toMatchObject({ due: [] });
+      expect(needsHookViolations(queue, "2026-09-27").waiting).toHaveLength(1);
+      expect(needsHookViolations(queue, "2026-09-28").due).toHaveLength(1);
+      expect(needsHookViolations(queue.map((i) => ({ ...i, hook: "A hook." })), "2026-09-28")).toEqual({ waiting: [], due: [] });
+      expect(needsHookViolations(queue.map((i) => ({ ...i, posted_url: "https://bsky.app/x" })), "2026-10-01")).toEqual({ waiting: [], due: [] });
+    });
+
+    it("a hook that is itself too long is still reported", () => {
+      const written = first().queue.map((i) => ({ ...i, hook: "x".repeat(BLUESKY_GRAPHEME_LIMIT) }));
+      const { overLength } = buildQueue({ resolved: [needing()], existing: written, today: "2026-09-28", reportOrder: ["demo"] });
+      expect(overLength).toHaveLength(1);
+    });
+  });
+
   it("never rewrites a posted item's text, hook or not", () => {
     const first = buildQueue({ resolved: [hooked()], existing: [], today: "2026-09-27", reportOrder: ["demo"] });
     const posted = first.queue.map((i) => ({ ...i, hook: "A later hook.", posted_url: "https://bsky.app/x" }));
@@ -572,7 +667,8 @@ describe("who may reach the queue (63cd, 80qf)", () => {
     const ok = resolveCandidate(candidate({ contextLine: context }), HTML, CARDS, "https://x.org");
     expect(ok.ok && ok.item.text.endsWith(`\n\n${context}`)).toBe(true);
     const long = candidate({ quote: "x".repeat(0) + 'When an advisor rushed to tell Mr. Trump, he replied "So what?"', contextLine: "c".repeat(300) });
-    expect(resolveCandidate(long, HTML, CARDS, "https://x.org")).toMatchObject({ ok: false });
+    // With a card for these words the quote form could be a hooked post, but a 300-character context line leaves no room for a hook.
+    expect(resolveCandidate(long, HTML, CARDS, "https://x.org")).toMatchObject({ ok: false, problem: expect.stringContaining("for a hook") });
   });
 
   it("never schedules a news-day-only item on an ordinary day: new ones are held, queued unposted ones leave, posted ones stay", () => {
