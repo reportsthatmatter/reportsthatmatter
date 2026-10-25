@@ -304,3 +304,4 @@ reports:
     source_url: "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
     ingested: true
     affected_community: true
+    context_line: "Thirlwall Inquiry summary report (2026): events at the Countess of Chester Hospital, 2015 to 2018."

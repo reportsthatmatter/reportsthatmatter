@@ -2871,6 +2871,285 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 45%"
     }
   },
+  "uk-thirlwall-inquiry": {
+    "status": "approved",
+    "whyItMatters": "The summary report of the Thirlwall Inquiry, the public inquiry chaired by Lady Justice Thirlwall into events at the Countess of Chester Hospital from 2015 to 2018. Its subject is not the criminal case, which the Chair writes was not her focus, but what the hospital's managers, the NHS and its regulators did when doctors raised concerns, and what the Inquiry says must change.",
+    "description": "The summary report of the Thirlwall Inquiry (2026) into events at the Countess of Chester Hospital from 2015 to 2018: what the hospital, the NHS and its regulators did when doctors raised concerns.",
+    "background": [
+      "In 2015 eight babies died on the neonatal unit of the Countess of Chester Hospital, against one to three a year from 2010 to 2014; five more died in the first half of 2016. Consultant paediatricians raised concerns about the deaths and unexpected collapses and their association with one nurse, Lucy Letby. She was moved off the unit in July 2016. The police opened an investigation in May 2017 and arrested her in July 2018. In August 2023 she was convicted of murdering seven babies and attempting to murder others, and in July 2024, at a retrial, of one further attempted murder; the Court of Appeal refused her permission to appeal.",
+      "The government announced the Inquiry on 4 September 2023; it was established under the Inquiries Act 2005 on 19 October 2023 and held public hearings, mostly in Liverpool, from September 2024 to early 2025. The report was published on 15 September 2026: this summary and three volumes, with 17 recommendations in Chapter 45. Only the summary is on this site so far. On the day of publication the Health and Social Care Secretary apologised on behalf of the government and the health service and said a full response would follow.",
+      "A public inquiry is not a court. The Chair makes findings on the balance of probabilities, and writes that her focus was not on Ms Letby's guilt or her convictions. She sets out how she approached the senior managers' submission that she should avoid hindsight; in March 2025 she refused an application by four former senior managers to pause the Inquiry. The Criminal Cases Review Commission received an application on Ms Letby's behalf in February 2025 and said on 13 February 2026 that a review of her convictions is underway; it had announced no decision by 25 October 2026."
+    ],
+    "findings": [
+      {
+        "text": "The Inquiry finds that no one at the hospital understood that a concern about a nurse possibly harming babies was a safeguarding issue, and that no safeguarding referral was made until March 2018. Safeguarding requires action on suspicion, the Chair writes, and those who raised concerns did not have to be sure; but staff training had not covered the possibility of a staff member harming children, and the senior managers who knew of the concerns did not apply the guidance.",
+        "cites": [
+          {
+            "id": "3-45-there-safeguarding-team",
+            "page": 35,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-45-there-safeguarding-team"
+          },
+          {
+            "id": "3-40-dr-brearey-emailed",
+            "page": 34,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-40-dr-brearey-emailed"
+          },
+          {
+            "id": "3-46-kelly-did-not",
+            "page": 35,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-46-kelly-did-not"
+          }
+        ],
+        "excerpt": {
+          "quote": "Throughout the evidence there was a real sense that people were reticent about saying anything for fear of being wrong. It seems to prevail over the fear of being right. That is why safeguarding legislation requires action on suspicion or concern rather than leaving it to the choice of the person who is concerned.",
+          "cite": {
+            "id": "3-45-there-safeguarding-team",
+            "page": 35,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-45-there-safeguarding-team&h=require%20safeguarding%20measures.%20|Throughout%20the%20evidence%20there%20was%20a%20real%20sense%20that%20people%20were%20reticent%20about%20saying%20anything%20for%20fear%20of%20being%20wrong.%20%E2%8B%AFlegislation%20requires%20action%20on%20suspicion%20or%20concern%20rather%20than%20leaving%20it%20to%20the%20choice%20of%20the%20person%20who%20is%20concerned.|%20It%20is%20not%20for%20that"
+          }
+        }
+      },
+      {
+        "text": "The report finds that the hospital's Board received no reports on the deaths of babies and children at any point in the period, which it calls \"a serious failure of governance\", and that the hospital's risk systems failed to protect the babies on the unit.",
+        "cites": [
+          {
+            "id": "3-9-meeting-board-directors",
+            "page": 28,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-9-meeting-board-directors"
+          },
+          {
+            "id": "3-70-risk-patient-safety",
+            "page": 40,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-70-risk-patient-safety"
+          },
+          {
+            "id": "3-74-risk-systems-processes",
+            "page": 40,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-74-risk-systems-processes"
+          }
+        ]
+      },
+      {
+        "text": "The report finds that when consultants raised their concerns in 2016 the hospital's executives chose to wait and see, then shut the consultants out of the hospital's own investigations and treated them as the problem. A grievance process required two consultants to apologise to the nurse and to take part in mediation, on pain of disciplinary action; the Inquiry calls the way the grievance was handled \"deplorable\".",
+        "cites": [
+          {
+            "id": "3-39-outcome-meeting-decision",
+            "page": 34,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-39-outcome-meeting-decision"
+          },
+          {
+            "id": "3-55-baby-p-died",
+            "page": 37,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-55-baby-p-died"
+          },
+          {
+            "id": "3-133-finally-weatherley-held",
+            "page": 50,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-133-finally-weatherley-held"
+          },
+          {
+            "id": "3-134-weatherley-read-papers",
+            "page": 50,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-134-weatherley-read-papers"
+          }
+        ]
+      },
+      {
+        "text": "The Inquiry finds that the reviews the hospital commissioned could not answer the doctors' concern. The Royal College of Paediatrics and Child Health's then head of invited reviews accepted in evidence that its review should not have gone ahead, and the College's advice to hold an HR investigation was, in the Chair's words, \"a serious misjudgement\"; none of the reviews excluded deliberate harm.",
+        "cites": [
+          {
+            "id": "3-81-eardley-acknowledged-evidence",
+            "page": 41,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-81-eardley-acknowledged-evidence"
+          },
+          {
+            "id": "3-97-recommend-hr-investigation",
+            "page": 44,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-97-recommend-hr-investigation"
+          },
+          {
+            "id": "3-111-late-2016-early",
+            "page": 47,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-111-late-2016-early"
+          }
+        ],
+        "excerpt": {
+          "quote": "To recommend an HR investigation when concerns had been expressed about the deliberate harm and killing of babies was a serious misjudgement. What was needed was a police investigation, with police powers to search, seize phones, interview and so on.",
+          "cite": {
+            "id": "3-97-recommend-hr-investigation",
+            "page": 44,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-97-recommend-hr-investigation&h=3.97%20|To%20recommend%20an%20HR%20investigation%20when%20concerns%20had%20been%20expressed%20about%20the%20deliberate%20harm%20and%20killing%20of%20babies%20was%20a%20serious%20misjudgement.%20What%20was%20needed%20was%20a%20police%20investigation%2C%20with%20police%20powers%20to%20search%2C%20seize%20phones%2C%20interview%20and%20so%20on.|%20In%20fact%2C%20no%20HR"
+          }
+        }
+      },
+      {
+        "text": "The report finds that the police should have been told earlier than they were, and that the then Chief Executive's intention throughout was \"to stall or obstruct a police investigation\", which he did for almost a year, until May 2017.",
+        "cites": [
+          {
+            "id": "3-204-police-should-have",
+            "page": 61,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-204-police-should-have"
+          },
+          {
+            "id": "3-203-15-may-2017",
+            "page": 61,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-203-15-may-2017"
+          }
+        ]
+      },
+      {
+        "text": "The Inquiry heard from parents who were told nothing of the concerns until the police contacted them in July 2018; it finds that the hospital should have told them as soon as the police were notified, and that it shared their babies' medical records with reviewers without their consent.",
+        "cites": [
+          {
+            "id": "3-206-inquiry-heard-evidence",
+            "page": 61,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-206-inquiry-heard-evidence"
+          },
+          {
+            "id": "3-83-eardley-asked-harvey",
+            "page": 42,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-83-eardley-asked-harvey"
+          },
+          {
+            "id": "3-101-before-commencing-her",
+            "page": 45,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-101-before-commencing-her"
+          }
+        ],
+        "excerpt": {
+          "quote": "To the extent the executives thought about the parents at all, they considered it better to say nothing in the belief that the police investigation would lead nowhere. The parents should have been informed by the hospital as soon as the police were notified. They had a right to know.",
+          "cite": {
+            "id": "3-206-inquiry-heard-evidence",
+            "page": 61,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-206-inquiry-heard-evidence&h=this%20was%20allowed%20to%20happen.%20|To%20the%20extent%20the%20executives%20thought%20about%20the%20parents%20at%20all%2C%20they%20considered%20it%20better%20to%20say%20nothing%20in%20the%20belief%20that%20the%20police%20investigation%20would%20lead%20nowhere.%20The%20parents%20should%20have%20been%20informed%20by%20the%20hospital%20as%20soon%20as%20the%20police%20were%20notified.%20They%20had%20a%20right%20to%20know.|"
+          }
+        }
+      },
+      {
+        "text": "The report also finds failings outside the hospital. The Care Quality Commission's inspectors did not see the data on neonatal deaths it held, the coroner's office did not have the hospital's own review of the deaths before it at an inquest, and NHS England's staff were too ready to accept the hospital's assurances, though the Inquiry places the principal responsibility for NHS England not knowing of the possibility of deliberate harm on the hospital's Chief Executive, Medical Director and Director of Nursing.",
+        "cites": [
+          {
+            "id": "3-25-report-did-not",
+            "page": 31,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-25-report-did-not"
+          },
+          {
+            "id": "3-144-rheinberg-thought-thematic",
+            "page": 52,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-144-rheinberg-thought-thematic"
+          },
+          {
+            "id": "3-181-overall-witnesses-from",
+            "page": 58,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-181-overall-witnesses-from"
+          }
+        ]
+      },
+      {
+        "text": "In Part Two the Chair looks beyond the Countess. The Inquiry's review of 30 years of NHS inquiries finds that most of their recommendations have not been implemented, and she recommends that the National Audit Office audit them. She recommends in-cot cameras in every neonatal unit, a duty of candour for NHS managers, a barring system for managers that moves towards full regulation, and a protocol for suspicion of deliberate harm in every Trust, and finds that the NHS's move to a 'no blame' culture was a mistake.",
+        "cites": [
+          {
+            "id": "4-2-first-detailed-work",
+            "page": 63,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-2-first-detailed-work"
+          },
+          {
+            "id": "4-5-within-government-there",
+            "page": 63,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-5-within-government-there"
+          },
+          {
+            "id": "4-9-from-outset-inquiry",
+            "page": 64,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-9-from-outset-inquiry"
+          },
+          {
+            "id": "4-24-government-s-response",
+            "page": 67,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-24-government-s-response"
+          },
+          {
+            "id": "4-22-more-fundamentally-fact",
+            "page": 66,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-22-more-fundamentally-fact"
+          },
+          {
+            "id": "4-34-inquiry-heard-evidence",
+            "page": 69,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-34-inquiry-heard-evidence"
+          },
+          {
+            "id": "4-26-move-towards-no",
+            "page": 67,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-26-move-towards-no"
+          }
+        ],
+        "excerpt": {
+          "quote": "The review shows that, whilst some significant changes have been introduced in response to inquiry recommendations over the last 30 years, most have not been implemented.",
+          "cite": {
+            "id": "4-2-first-detailed-work",
+            "page": 63,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-2-first-detailed-work&h=NHS%20in%20the%20last%2030%20years.%20|The%20review%20shows%20that%2C%20whilst%20some%20significant%20changes%20have%20been%20introduced%20in%20response%20to%20inquiry%20recommendations%20over%20the%20last%2030%20years%2C%20most%20have%20not%20been%20implemented.|"
+          }
+        }
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "contents",
+        "title": "1. Introduction",
+        "page": "iii",
+        "why": "The Chair on what the report is and is not, the hospital and its neonatal unit, and the number of deaths on the unit year by year. (The section opens with the report's cover and contents.)"
+      },
+      {
+        "slug": "2-the-babies",
+        "title": "2. The babies",
+        "page": "6",
+        "why": "The account the Chair puts first, of the babies on the indictment and what happened to them, drawn from the medical records and the evidence of their parents."
+      },
+      {
+        "slug": "3-concerns-reviews-errors",
+        "title": "3. Concerns, reviews, errors",
+        "page": "27",
+        "why": "The core of the Inquiry's findings, month by month from June 2015 to the arrest in July 2018 and the Inquiry that followed, on what the doctors raised, how the executives, reviewers, coroner, regulator and NHS England responded, and how long it took to call the police.",
+        "excerpt": {
+          "quote": "All the safeguarding guidance in the world makes no difference to the safety of babies if those to whom concerns are expressed do nothing.",
+          "cite": {
+            "id": "3-47-all-safeguarding-guidance",
+            "page": 35,
+            "href": "/reports/uk-thirlwall-inquiry?p=3-47-all-safeguarding-guidance&h=3.47%20|All%20the%20safeguarding%20guidance%20in%20the%20world%20makes%20no%20difference%20to%20the%20safety%20of%20babies%20if%20those%20to%20whom%20concerns%20are%20expressed%20do%20nothing.|"
+          }
+        }
+      },
+      {
+        "slug": "part-two",
+        "title": "Part Two",
+        "page": "63",
+        "why": "The Chair's summary of each chapter of Part Two, from medical examiners and insulin to the regulation of managers, the duty of candour and the Care Quality Commission, and what she recommends.",
+        "excerpt": {
+          "quote": "If suspicions of murder have been raised in a hospital, the police must also be called.",
+          "cite": {
+            "id": "4-32-if-suspicions-murder",
+            "page": 68,
+            "href": "/reports/uk-thirlwall-inquiry?p=4-32-if-suspicions-murder&h=4.32%20|If%20suspicions%20of%20murder%20have%20been%20raised%20in%20a%20hospital%2C%20the%20police%20must%20also%20be%20called.|%20Where%20there%20is"
+          }
+        }
+      }
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-thirlwall-inquiry.webp",
+      "width": 2400,
+      "height": 1821,
+      "small": {
+        "src": "/assets/heroes/uk-thirlwall-inquiry-1200.webp",
+        "width": 1200
+      },
+      "credit": "Liverpool Town Hall, High Street, where the Inquiry's proceedings were held · Photo: Rodhullandemu, CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Liverpool_Town_Hall_front_2018.jpg",
+      "alt": "The front of Liverpool Town Hall: a stone portico with six columns above three arched entrances, seen from the street in grey light.",
+      "focus": "50% 90%"
+    }
+  },
   "us-911-commission": {
     "status": "approved",
     "whyItMatters": "The bipartisan Commission's account of how nineteen al Qaeda hijackers killed 2,973 people on 11 September 2001, and of the failures across the government that let them succeed. Congress created it to find out what happened and why; it interviewed more than 1,200 people and reported without dissent within two years. A quarter-century on, its central recommendations — a National Counterterrorism Center and a Director of National Intelligence — still shape how the United States organises against terrorism today.",
