@@ -2871,6 +2871,264 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 45%"
     }
   },
+  "uk-southport-inquiry": {
+    "status": "approved",
+    "whyItMatters": "The first report of the Southport Inquiry, chaired by Sir Adrian Fulford, into how the agencies that had dealt with the perpetrator of the attack on a children's dance class in Southport on 29 July 2024, in which three young girls were murdered, understood and managed the risk he posed. This first volume holds the Chair's account of five fundamental problems, a chronology of the agencies' contacts with him from 2019, the attack and the response to it, and chapters on weapons and on online harms.",
+    "description": "The Southport Inquiry's Phase 1 report, Volume 1 (April 2026): how the agencies that dealt with the perpetrator of the attack of 29 July 2024 understood and managed the risk he posed.",
+    "background": [
+      "On 29 July 2024 a 17-year-old attacked a children's dance and yoga class in Southport, Merseyside. Three young girls, Alice, Bebe and Elsie, were murdered, and many other children and adults were harmed. In January 2025 he pleaded guilty to three counts of murder and ten of attempted murder, and to producing ricin and possessing an al-Qaeda training manual; the minimum term of his sentence is 52 years. The report does not use his name: it calls him the perpetrator, or AR, as the Inquiry did to limit the risk of retraumatising the child survivors. So does this page.",
+      "The Inquiry was set up by the Home Secretary under the Inquiries Act 2005 and began formally on 7 April 2025, with Sir Adrian Fulford as its Chair. Its Phase 1 hearings, at Liverpool Town Hall from September 2025, heard impact statements and commemorative portraits from the bereaved families and survivors, then evidence from the agencies that had dealt with AR in the years before the attack. The report was presented to Parliament on 13 April 2026 in two volumes. This first volume includes a chapter the Inquiry dedicates to the victims and the impact of the attack. Volume 2, on the roles and actions of the individual agencies, is not yet on this site.",
+      "A public inquiry establishes facts and makes recommendations; it does not determine criminal or civil liability. The Chair writes that the perpetrator's responsibility is absolute, and that the individual workers who dealt with AR acted in good faith. On 2 July 2026 the UK government published its response, agreeing with all 67 of the report's recommendations across both volumes and accepting those for central government to deliver. Phase 2 of the Inquiry, on managing the risk from individuals fixated on violence, opened in July 2026."
+    ],
+    "findings": [
+      {
+        "text": "The report finds that no organisation or multi-agency arrangement took ownership of the risk AR posed to others, which fell between the remits of Prevent, child protection and early help, and that his case was passed from agency to agency through referrals and case closures. Prevent declined three times to refer him to a Channel panel. The report calls ending this culture the single most important conclusion of Phase 1.",
+        "cites": [
+          {
+            "id": "5-there-fundamental-failure-any",
+            "page": 5,
+            "href": "/reports/uk-southport-inquiry?p=5-there-fundamental-failure-any"
+          },
+          {
+            "id": "15-while-prevent-nature-cases",
+            "page": 8,
+            "href": "/reports/uk-southport-inquiry?p=15-while-prevent-nature-cases"
+          },
+          {
+            "id": "19-agencies-repeatedly-passing-risk",
+            "page": 9,
+            "href": "/reports/uk-southport-inquiry?p=19-agencies-repeatedly-passing-risk"
+          }
+        ],
+        "excerpt": {
+          "quote": "Agencies repeatedly passing the risk to others and closing/downgrading their own involvement is not effective – or responsible – risk management. If, as a society, we are to avoid repetition of what happened in AR’s case, this culture has to end. This is the single most important conclusion of Phase 1 of this report.",
+          "cite": {
+            "id": "19-agencies-repeatedly-passing-risk",
+            "page": 9,
+            "href": "/reports/uk-southport-inquiry?p=19-agencies-repeatedly-passing-risk&h=19.%20|Agencies%20repeatedly%20passing%20the%20risk%20to%20others%20and%20closing%2Fdowngrading%20their%20own%20involvement%20is%20not%20effective%20%E2%80%93%20or%20respo%E2%8B%AF%20happened%20in%20AR%E2%80%99s%20case%2C%20this%20culture%20has%20to%20end.%20This%20is%20the%20single%20most%20important%20conclusion%20of%20Phase%201%20of%20this%20report.|%20This%20failure%20lies%20at%20the"
+          }
+        }
+      },
+      {
+        "text": "The report finds that information about AR's risk was not adequately shared between agencies and was lost or diluted over time, and that when he was found with a knife on a bus in March 2022, agencies with an adequate understanding of his history would have arrested him and, in all probability, searched his home.",
+        "cites": [
+          {
+            "id": "20-information-management-information-sharing",
+            "page": 9,
+            "href": "/reports/uk-southport-inquiry?p=20-information-management-information-sharing"
+          },
+          {
+            "id": "22-most-marked-example-consequences",
+            "page": 11,
+            "href": "/reports/uk-southport-inquiry?p=22-most-marked-example-consequences"
+          }
+        ]
+      },
+      {
+        "text": "The report finds that agencies repeatedly excused AR's behaviour, including his violence, on the basis of his perceived or diagnosed autism, rather than recognising that in his individual case it increased the risk he posed. The Chair states that it would be entirely wrong to make a general association between autism and violence.",
+        "cites": [
+          {
+            "id": "23-there-repeated-tendency-part",
+            "page": 11,
+            "href": "/reports/uk-southport-inquiry?p=23-there-repeated-tendency-part"
+          },
+          {
+            "id": "24-i-make-clear-from",
+            "page": 11,
+            "href": "/reports/uk-southport-inquiry?p=24-i-make-clear-from"
+          },
+          {
+            "id": "26-far-from-recognising-ar",
+            "page": 11,
+            "href": "/reports/uk-southport-inquiry?p=26-far-from-recognising-ar"
+          }
+        ],
+        "excerpt": {
+          "quote": "I make clear from the outset that it would be entirely wrong to make a general association between autism and an increased risk of violent harm to others.",
+          "cite": {
+            "id": "24-i-make-clear-from",
+            "page": 11,
+            "href": "/reports/uk-southport-inquiry?p=24-i-make-clear-from&h=24.%20|I%20make%20clear%20from%20the%20outset%20that%20it%20would%20be%20entirely%20wrong%20to%20make%20a%20general%20association%20between%20autism%20and%20an%20increased%20risk%20of%20violent%20harm%20to%20others.|"
+          }
+        }
+      },
+      {
+        "text": "The report finds that agencies did not explore AR's online life, although concerns about it had been raised from 2019, and that the absence of any parental controls at his home from 2019 to 2024 went unnoticed, or at least unchallenged, by every agency.",
+        "cites": [
+          {
+            "id": "32-although-there-no-evidence",
+            "page": 13,
+            "href": "/reports/uk-southport-inquiry?p=32-although-there-no-evidence"
+          },
+          {
+            "id": "36-although-there-are-difficulties",
+            "page": 14,
+            "href": "/reports/uk-southport-inquiry?p=36-although-there-are-difficulties"
+          },
+          {
+            "id": "38-lack-exploration-engagement-ar",
+            "page": 14,
+            "href": "/reports/uk-southport-inquiry?p=38-lack-exploration-engagement-ar"
+          }
+        ],
+        "excerpt": {
+          "quote": "The lack of exploration of, or engagement with, AR’s online life was a significant failing that hampered agencies from identifying and addressing the risk AR posed to others.",
+          "cite": {
+            "id": "38-lack-exploration-engagement-ar",
+            "page": 14,
+            "href": "/reports/uk-southport-inquiry?p=38-lack-exploration-engagement-ar&h=38.%20|The%20lack%20of%20exploration%20of%2C%20or%20engagement%20with%2C%20AR%E2%80%99s%20online%20life%20was%20a%20significant%20failing%20that%20hampered%20agencies%20from%20identifying%20and%20addressing%20the%20risk%20AR%20posed%20to%20others.|%20In%20the%20digital%20online"
+          }
+        }
+      },
+      {
+        "text": "The report finds that AR's parents, whose role it calls complex and whose challenges it records, obstructed the agencies' work with him and, in the week before the attack, did not alert any agency to the full extent of what they had learned about the weapons he was gathering; it concludes that had they done so, he would have been arrested and the attack would not have occurred.",
+        "cites": [
+          {
+            "id": "40-role-ar-s-parents",
+            "page": 15,
+            "href": "/reports/uk-southport-inquiry?p=40-role-ar-s-parents"
+          },
+          {
+            "id": "48-ar-s-parents-irresponsible",
+            "page": 16,
+            "href": "/reports/uk-southport-inquiry?p=48-ar-s-parents-irresponsible"
+          },
+          {
+            "id": "b-if-ar-s-parents",
+            "page": 17,
+            "href": "/reports/uk-southport-inquiry?p=b-if-ar-s-parents"
+          }
+        ]
+      },
+      {
+        "text": "The report treats 11 December 2019, when AR took weapons to his former school and assaulted a pupil, as a watershed that should have led every agency to see him as a high risk to others. It concludes that if appropriate arrangements and resources had been in place from then, the attack would very likely not have happened, and in its findings on each of the three deaths it records that the attack was preventable.",
+        "cites": [
+          {
+            "id": "51-incident-11-december-2019",
+            "page": 17,
+            "href": "/reports/uk-southport-inquiry?p=51-incident-11-december-2019"
+          },
+          {
+            "id": "53-wholly-separately-therefore-from",
+            "page": 18,
+            "href": "/reports/uk-southport-inquiry?p=53-wholly-separately-therefore-from"
+          },
+          {
+            "id": "while-sole-immediate-cause-alice",
+            "page": 161,
+            "href": "/reports/uk-southport-inquiry?p=while-sole-immediate-cause-alice"
+          }
+        ],
+        "excerpt": {
+          "quote": "Wholly separately, therefore, from my view that the attack would not have occurred had AR’s parents reported what they knew in late July 2024, if appropriate arrangements and reasonable resources had been in place to address the risk that AR posed to others from December 2019 onwards, it is highly likely that the tragedy of 29 July 2024 would not have occurred.",
+          "cite": {
+            "id": "53-wholly-separately-therefore-from",
+            "page": 18,
+            "href": "/reports/uk-southport-inquiry?p=53-wholly-separately-therefore-from&h=53.%20|Wholly%20separately%2C%20therefore%2C%20from%20my%20view%20that%20the%20attack%20would%20not%20have%20occurred%20had%20AR%E2%80%99s%20parents%20reported%20what%20they%20k%E2%8B%AFosed%20to%20others%20from%20December%202019%20onwards%2C%20it%20is%20highly%20likely%20that%20the%20tragedy%20of%2029%20July%202024%20would%20not%20have%20occurred.|"
+          }
+        }
+      },
+      {
+        "text": "On the day itself, the report finds no shortcomings in the organisation of the class or the security of the venue on the part of the organisers, the leaseholder or the landlord, and calls the attack wholly unpredictable. Some families asked for secured entrances at such venues, questions the Chair calls necessary; after deliberation he declines to recommend that every community class be held behind a locked door, and makes a more limited recommendation on the guidance for out-of-school settings.",
+        "cites": [
+          {
+            "id": "227-i-readily-understand-why",
+            "page": 168,
+            "href": "/reports/uk-southport-inquiry?p=227-i-readily-understand-why"
+          },
+          {
+            "id": "229-level-risk-protections-need",
+            "page": 169,
+            "href": "/reports/uk-southport-inquiry?p=229-level-risk-protections-need"
+          },
+          {
+            "id": "230-i-have-considered-whether",
+            "page": 169,
+            "href": "/reports/uk-southport-inquiry?p=230-i-have-considered-whether"
+          }
+        ]
+      },
+      {
+        "text": "Volume 1 makes 24 recommendations. The first three ask Phase 2 to consider a single agency or structure responsible for children and young people who present a high risk of serious harm, a shared risk-assessment tool, and powers to restrict or monitor such a child's internet use. Others cover taxi drivers' duty to report crime, the police and ambulance response, guidance for out-of-school settings, the online sale of castor beans, bows, crossbows and knives, all of which AR bought or tried to buy online, and children's access to violent content online.",
+        "cites": [
+          {
+            "id": "55-i-therefore-make-following",
+            "page": 18,
+            "href": "/reports/uk-southport-inquiry?p=55-i-therefore-make-following"
+          },
+          {
+            "id": "204-accordingly-appropriate-me-draw",
+            "page": 232,
+            "href": "/reports/uk-southport-inquiry?p=204-accordingly-appropriate-me-draw"
+          },
+          {
+            "id": "180-although-set-out-below",
+            "page": 227,
+            "href": "/reports/uk-southport-inquiry?p=180-although-set-out-below"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "chapter-1-fundamental-problems",
+        "title": "Chapter 1: Fundamental problems",
+        "page": "4",
+        "why": "The Chair's own summary, and the place to start; everything after it, he writes, should be read with these five problems in mind.",
+        "excerpt": {
+          "quote": "This chapter addresses the five fundamental problems in how AR’s risk was understood and managed. These five problems were overlapping: each of them reinforced and exacerbated the others.",
+          "cite": {
+            "id": "3-chapter-addresses-five-fundamental",
+            "page": 5,
+            "href": "/reports/uk-southport-inquiry?p=3-chapter-addresses-five-fundamental&h=3.%20|This%20chapter%20addresses%20the%20five%20fundamental%20problems%20in%20how%20AR%E2%80%99s%20risk%20was%20understood%20and%20managed.%20These%20five%20problems%20were%20overlapping%3A%20each%20of%20them%20reinforced%20and%20exacerbated%20the%20others.|"
+          }
+        }
+      },
+      {
+        "slug": "consequences",
+        "title": "Consequences",
+        "page": "17",
+        "why": "What the Chair concludes followed from the five problems, from December 2019 to July 2024."
+      },
+      {
+        "slug": "recommendations",
+        "title": "Chapter 1: Recommendations",
+        "page": "18",
+        "why": "The three recommendations about how the risk from such a young person should be owned, assessed and overseen, which Phase 2 is to consider."
+      },
+      {
+        "slug": "chapter-2-overview-chronology",
+        "title": "Chapter 2: Overview chronology",
+        "page": "22",
+        "why": "The agencies' contacts with AR from 2019 to 2024, row by row, each with the Inquiry's evidence reference."
+      },
+      {
+        "slug": "recommendations-2",
+        "title": "Chapter 5: Recommendations on weapons and poisons",
+        "page": "232",
+        "why": "The Chair's recommendations on castor beans, bows, crossbows and the online sale of knives."
+      },
+      {
+        "slug": "recommendations-3",
+        "title": "Chapter 6: Recommendations on online harms",
+        "page": "258",
+        "why": "The recommendations on school internet filtering, access to perpetrators' social media accounts and the use of VPNs to avoid age checks."
+      }
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-southport-inquiry.webp",
+      "width": 2400,
+      "height": 1800,
+      "small": {
+        "src": "/assets/heroes/uk-southport-inquiry-1200.webp",
+        "width": 1200
+      },
+      "credit": "Liverpool Town Hall, where the Inquiry's Phase 1 hearings sat (photographed 18 September 2016) · Photo: Superchilum, CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Town_Hall,_Liverpool.jpg",
+      "alt": "The front of Liverpool Town Hall in daylight under a blue sky: a columned portico above three arched entrances, with a clock and domed cupola behind, and a few pedestrians small in the street.",
+      "focus": "50% 65%"
+    }
+  },
   "uk-thirlwall-inquiry": {
     "status": "approved",
     "whyItMatters": "The summary report of the Thirlwall Inquiry, the public inquiry chaired by Lady Justice Thirlwall into events at the Countess of Chester Hospital from 2015 to 2018. Its subject is not the criminal case, which the Chair writes was not her focus, but what the hospital's managers, the NHS and its regulators did when doctors raised concerns, and what the Inquiry says must change.",

@@ -60,6 +60,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "uk-post-office-horizon-inquiry/q-a8810e8c",
   "uk-saville-inquiry/default",
   "uk-saville-inquiry/q-d69d5303",
+  "uk-southport-inquiry/default",
   "uk-thirlwall-inquiry/default",
   "us-911-commission/default",
   "us-911-commission/q-09fa1d31",

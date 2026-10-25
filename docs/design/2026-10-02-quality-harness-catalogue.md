@@ -107,6 +107,9 @@ Precision: Jack Smith 5 of 5 genuine; Columbia 5 of 5; Litvinenko's 84 are mostl
 
 Leveson's gutter (reportsthatmatter-fkx, 2026-10-25): odd PDF pages set text four columns further in than even ones, so against one margin per volume every line of the other side opened a paragraph and only the lower-case lines rejoined, `…I selected` / `Robert Jay QC to be Counsel to the Inquiry…` (vol i p.21). The capital-opening cuts are invisible to the lower-case signal above. Caught by the layout oracle's `paragraphs-oversplit` (2,091, 25 of 25 sampled real) and golden vol i p.19; fixed by `facingPageMargins()` (2,091 → 267).
 
+
+Southport's HTML edition (reportsthatmatter-gqsy.15.3, 2026-10-25): GOV.UK's accessible HTML starts a new `<p>` at a forced line break inside a PDF paragraph, 107 times in Volume 1, ten of them mid-sentence (`…would, therefore,` / `not have been visible to users…`, PDF p.121). `severed-paragraph` saw the four lower-case ones; the 97 capital-opening ones (`…manufacture ricin.` / `He also ordered…`, PDF p.186) were invisible to every signal and only the oracle's ungated `paragraphs-oversplit` moved. Fixed from the PDF's tags (govuk-html.ts joinByTags); signal bead reportsthatmatter-x6gu.
+
 ### D. Body text set as block quotation wholesale
 
 Not a sentence here and there but whole pages: a geometric misread of the page's left margin. Everything on the page loses its paragraph id.

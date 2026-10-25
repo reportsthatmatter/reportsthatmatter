@@ -136,10 +136,12 @@ units:
   - id: uk-southport-inquiry
     scope: "Volume 1 (HC 1768-I, Foreword and Chapters 1-6)"
     bead: reportsthatmatter-gqsy.15
-    reached: ingest
+    reached: editorial
     state: active
-    evidence: "report repo PR vol1-1024 (cleanEdition from the GOV.UK HTML, 99.0% of edition words aligned, 641/641 notes); stage 4 not started"
-    notes: "Affected community (decision 0026). govuk-html.ts is the reusable GOV.UK adapter (reportsthatmatter-pbou). Registry entry, introduction and plate are stage 4."
+    waive:
+      editorial.card-highlights: reportsthatmatter-6j4h
+    evidence: "report repo reportsthatmatter/uk-southport-inquiry PR #1 (cleanEdition from the GOV.UK HTML via govuk-html.ts; 99.0% of edition words aligned; 641/641 notes; paragraphs the HTML splits rejoined from the PDF's tags, 107); golden 7/7; adjudicated.yaml 30 breaks (ours wrong 2/30, reference 12/30); held-out score boundary F1 86.7%; site branch southport-vol1-1024 (registry, budgets, plate, hero, introduction)"
+    notes: "Affected community (decision 0026): no cards until 6j4h. govuk-html.ts is the reusable GOV.UK adapter (reportsthatmatter-pbou). Known: chronology anchors (mws2), p.236 order (k2ro). Volume 2 is a later unit of the same id."
   - id: us-duelfer-report
     scope: "Volume I"
     bead: reportsthatmatter-9br
