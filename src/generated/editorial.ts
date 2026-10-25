@@ -2882,7 +2882,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ],
     "findings": [
       {
-        "text": "The Inquiry finds that no one at the hospital understood that a concern about a nurse possibly harming babies was a safeguarding issue, and that no safeguarding referral was made until March 2018. Safeguarding requires action on suspicion, the Chair writes, and those who raised concerns did not have to be sure; but staff training had not covered the possibility of a staff member harming children, and the senior managers who knew of the concerns did not apply the guidance.",
+        "text": "The Inquiry finds that no one at the hospital seemed to understand that a concern about a nurse possibly harming babies was a safeguarding issue, and that the head of its safeguarding team made no safeguarding referral until March 2018. Safeguarding requires action on suspicion, the Chair writes, and those who raised concerns did not have to be sure; but staff training had not covered the possibility of a staff member harming children, and the senior managers who knew of the concerns did not apply the guidance.",
         "cites": [
           {
             "id": "3-45-there-safeguarding-team",
