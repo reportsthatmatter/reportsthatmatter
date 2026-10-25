@@ -37,7 +37,7 @@ HC 601
 
 ## 1. Introduction
 
-### The Report
+#### The Report
 
 1.1 This Summary report is an introduction to the main themes and findings of the Inquiry. It will be understood by reading the Report in full, which contains references to supporting material.
 
@@ -45,7 +45,7 @@ HC 601
 
 1.3 My focus has been on the questions asked in the Terms of Reference, not on the guilt of Lucy Letby or on her convictions. My starting point was the experiences of the parents. I have divided this Report into three parts: Part One (in Volumes I and II) deals with Parts A and B of the Terms of Reference since those two parts combine to give an account of events at the Countess. Part Two (in Volume III) responds to Part C of the Terms of Reference. Part Three (in Volume III) contains the recommendations and appendices.
 
-### Hindsight
+#### Hindsight
 
 1.4 No one expects people who are giving evidence about events that happened 10 or 11 years ago to give a perfect account of what precisely they knew and when precisely they knew it. During the hearings, I was reminded by Counsel for the senior managers not to use hindsight and to avoid hindsight bias when approaching the facts. There are two points to make about that. The first is that, inevitably, anyone looking back at events between 2015 and 2018 does so knowing what happened in 2023, and what came before and after 2023. That cannot be avoided. It is the case whenever a witness gives evidence in any proceedings. I have approached the evidence of the witnesses with that in mind and acknowledging that, in the main, witnesses were doing their best to help the Inquiry. Whenever there is a difference of recollection between witnesses, or where the position is not clear from the oral evidence, I have looked at what the other evidence shows they knew or should have known at the time of the events or decisions about which they were giving evidence. Where there is documentary evidence that assists, I have referred to it. Some witnesses remembered nothing at all about an issue or topic unless it was set out in a document, and even then a document did not always prompt recollection. Second, when assessing the evidence, particularly about decisions made many years ago, I have reminded myself to consider the position of the witness acting at that time, knowing what they knew at that time, not what I or they have learnt since, in order to make a finding about the quality of a decision.
 
@@ -57,7 +57,7 @@ HC 601
 
 1.7 The Report sets out a dispiriting and at times shocking account of multiple and repeated mistakes and failings by organisations and individuals. In the time that has passed since these events, some of the people involved have reflected long and hard on their actions and, in particular, what they could and should have done differently. Many have apologised unconditionally to the parents of the babies for the mistakes they made.
 
-### Context The Countess
+#### Context The Countess
 
 1.8 In 2015, the Countess of Chester Hospital was a 600-bed district general hospital with about 4,000 staff. Part of an NHS Foundation Trust, the Countess had a good reputation with NHS England and with the regulator, the Care Quality Commission (CQC).
 
@@ -73,7 +73,7 @@ HC 601
 
 1.13 As a result of the reorganisation, the profile of paediatrics (including neonatology) was diminished. Its voice was not heard on the Board. Instead of a Clinical Director, there was a Lead Clinician for children's services (Dr Ravi Jayaram, a consultant paediatrician), who had no regular meetings with the Medical Director.
 
-### The neonatal unit
+#### The neonatal unit
 
 1.14 Until July 2016, the neonatal unit was a Level 2 local neonatal unit, caring for babies born at or after 27 weeks' gestation and weighing 800 grams or more. It was equipped to provide intensive care for up to 48 hours, with babies requiring longer-term or complex care transferred to the Level 3 units at Alder Hey Children's Hospital (Alder Hey) or Liverpool Women's University Hospital (Liverpool Women's). Level 1 units provide special care for babies born after 32 weeks' gestation.
 
@@ -95,7 +95,7 @@ HC 601
 
 1.22 The unit received very few visits from senior managers. Other nurses considered neonatal nursing very niche and tended not to come to the unit. However, the atmosphere on the unit was positive and mutually supportive. The nurses were a cohesive group and were respected by the doctors (consultants and juniors) who, in turn, were respected by the nurses. The junior doctors were well supported by consultants. There was strong team working. Relationships frayed in 2016 when suspicions were expressed about Letby.
 
-### Deaths on the neonatal unit
+#### Deaths on the neonatal unit
 
 1.23 In the years preceding 2015, the number of deaths on the neonatal unit at the Countess was consistently low. The number of deaths against the number of admissions each year was:
 
@@ -119,7 +119,7 @@ HC 601
 
 ## 2. The babies
 
-### Baby A
+#### Baby A
 
 2.1 Baby A was born, with twin Baby B, at the Countess. Baby A and Baby B were delivered at 31 weeks and 2 days' gestation by caesarean section. They were taken to the neonatal unit shortly after their birth. Baby A weighed slightly over 1.66 kilograms and was described to Mother A and B by the hospital staff as "in one of the best conditions that they'd ever seen" for a pre-term baby.
 
@@ -129,7 +129,7 @@ HC 601
 
 2.4 Baby A's sudden collapse and death were unexpected and unexplained. Nurses and doctors were shocked. The speed and severity of the collapse were exceptional in their experience. The nurse in charge of the shift remarked in evidence that, "in what's now 25 years of neonatal nursing experience, I have never witnessed a deterioration in that manner that fast".
 
-### Skin changes
+#### Skin changes
 
 2.5 Before Baby A died, a number of people noticed an unusual rash across Baby A's body. It was a "blotchy pattern of well perfused pink skin … coupled with patches of white and blue skin". The rash disappeared and reappeared. It was not static. The rash was not properly recorded by Dr Jayaram, and Baby A's parents were not told about it.
 
@@ -139,7 +139,7 @@ HC 601
 
 2.7 Letby was convicted of the murder of Baby A.
 
-### Baby B
+#### Baby B
 
 2.8 Baby B was a similar weight at birth to Baby A, at a little over 1.66 kilograms. After the collapse and death of Baby A, Parents A and B were "riddled with fear for our baby". On the night shift that followed the death of Baby A, Baby B also collapsed and required resuscitation. Baby B survived.
 
@@ -159,7 +159,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.14 Letby was convicted of the attempted murder of Baby B.
 
-### Baby C
+#### Baby C
 
 2.15 Baby C weighed 800 grams when he was born by caesarean section at 30 weeks and 1 day's gestation. His growth in the womb had been slow, hence his relatively low weight. However, Baby C was in good condition. No resuscitation was required; on the neonatal unit he was ventilated for a short period and then began breathing by himself.
 
@@ -187,7 +187,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.26 Mother C told the Inquiry that the "events of that night and everything that has happened since have left an indelible mark".
 
-### Baby D
+#### Baby D
 
 2.27 Mother D attended the maternity unit at the Countess at 11:30 on 18 June 2015 after her waters broke. At 37 weeks and 1 day's gestation, her pregnancy was close to full term. She was advised to go home until her contractions started. She returned the next day because she was concerned that there was a risk of infection since it was now 30 hours since her waters had broken. She was admitted and the following day was started on intravenous induction. Labour did not progress. She was anxious about her baby and repeatedly asked for a caesarean section. She felt her concerns were dismissed and she was not listened to. Her daughter, Baby D, was delivered by emergency caesarean section just after 4pm. Baby D was born in good condition, with Apgar scores of 8 after one minute and 9 after five minutes, and weighed 3.13 kilograms. However, her mother noticed she was beginning to grunt and seemed floppy. After a prolonged period of observation, she was transferred to Nursery 1 in the neonatal unit, where she was given antibiotics and light therapy for a period.
 
@@ -195,7 +195,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 %%page 10%%
 
-### Skin changes
+#### Skin changes
 
 2.29 At 01:30, Baby D collapsed. Dr Brunton attended quickly. He noted that there were areas of "light brown/dark brown and black lesions tracking across the trunk" and that she needed extra support with her breathing. Dr Brunton contacted Dr Elizabeth Newby, the consultant paediatrician on call. An attending nurse noted that the rash was similar to the others seen on the unit at that time. Dr Emily Thomas, then a junior doctor and now a consultant paediatrician, said in evidence that she had never seen anything like the rash and has not seen such a rash since. Mother D recalled that "they told me clearly they don't understand, they've never seen this, they don't know what's going on".
 
@@ -213,7 +213,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 %%page 11%%
 
-### Baby E
+#### Baby E
 
 2.36 Baby E, and his identical twin Baby F, were born by caesarean section at 29 weeks and 5 days' gestation. Baby E was born in good condition, at 1.327 kilograms. Mother E and F said that she and her husband considered having twins to be "a miracle". They were told repeatedly how well the twins were doing. They were doing better than could be expected for babies born at their gestation. Baby E was breathing for himself.
 
@@ -241,7 +241,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.47 Letby was convicted of Baby E's murder.
 
-### Baby F
+#### Baby F
 
 2.48 Baby F was 1.434 kilograms at birth, slightly heavier than his brother. When he was admitted to the neonatal unit, he had a low blood glucose of 1.9 millimoles per litre. This rose dramatically the following day to a very high level of 15.1 millimoles per litre. At 03:40 on 31 July 2015, manufactured insulin was administered. Baby F responded well to this, and his blood glucose level dropped to 8.7 millimoles per litre. No more manufactured insulin was prescribed or administered to him.
 
@@ -259,7 +259,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.54 Letby was found guilty of the attempted murder of Baby F.
 
-### Baby G
+#### Baby G
 
 2.55 Baby G was born in Arrowe Park Hospital at 23 weeks and 6 days' gestation. She weighed 535 grams. After 11 weeks, she was transferred to the Countess in a stable condition. Throughout this time, at both hospitals, Baby G continued to improve. She was, in her mother's words, "our little miracle, a gift from God". As she neared 100 days of life, the nurses at the Countess prepared balloons and a banner. Parents G were told that they would soon be able to take her home. She was reviewed by Dr Brearey on 6 September 2015. He confirmed that she was stable and improving. Preparations for her discharge continued.
 
@@ -279,7 +279,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 %%page 15%%
 
-### Baby H
+#### Baby H
 
 2.62 Baby H was born at 34 weeks and 4 days' gestation. She weighed 2.33 kilograms. She suffered a number of collapses between 24 and 27 September 2015. During her time at the Countess, Baby H had a recurring pneumothorax and three chest drain procedures.
 
@@ -303,7 +303,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.70 Letby was charged with two counts of the attempted murder of Baby H: the first relating to the collapse in the early hours of 26 September; the second in the early hours of 27 September. Letby was found not guilty of the first count, and the jury could not agree a verdict on the second.
 
-### Baby I
+#### Baby I
 
 2.71 Baby I was born at Liverpool Women's at 27 weeks' gestation. She weighed 970 grams. She was transferred to the Countess on 18 August 2015. When she arrived, she was placed in Nursery 1. After a period of deterioration, Baby I returned to Liverpool Women's. She was cared for on the Level 3 neonatal unit between 6 and 13 September, before being transferred back to the Countess.
 
@@ -333,7 +333,7 @@ I had never really seen her smiling before."
 
 2.80 Mother I reflected that, at the time of the Inquiry, Baby I would have turned nine years old. She said: "We should have been watching her grow and play with her siblings and friends. However, we have to somehow try to live with the fact all this has been taken away from her and us in the cruellest way possible."
 
-### Baby J
+#### Baby J
 
 2.81 Baby J was born by caesarean section at the Countess at 32 weeks and 2 days' gestation. She weighed 1.709 kilograms. She was initially transferred to Alder Hey for an operation, before being returned to the Countess on 10 November 2015. She progressed well and was eventually moved to Nursery 4.
 
@@ -357,7 +357,7 @@ I had never really seen her smiling before."
 
 2.88 Letby was charged with the attempted murder of Baby J. The jury were unable to reach a verdict.
 
-### Baby K
+#### Baby K
 
 2.89 Baby K was born at the Countess at 25 weeks' gestation. She weighed 692 grams. She was taken to the neonatal unit. She was small, and Parents K knew that she was poorly, but they were told by Ms Joanne Williams, a neonatal nurse (band 6), that "Child K was stable, Child K was fine".
 
@@ -375,7 +375,7 @@ I had never really seen her smiling before."
 
 2.95 Letby was tried for the attempted murder of Baby K. The jury were unable to reach a verdict. The case was re-tried. Letby was convicted.
 
-### Baby L
+#### Baby L
 
 2.96 Baby L and his twin brother Baby M were born at 33 weeks and 2 days' gestation. Baby L weighed 1.465 kilograms. In Father L and M's words, "they both seemed fine". It was his understanding that, whilst they were small and needed extra care, he and his wife would be able to take them home within a few weeks. Baby L's parents did not know at the time that Baby L was experiencing periods of low blood sugar levels.
 
@@ -397,7 +397,7 @@ I had never really seen her smiling before."
 
 2.104 In evidence, Mr Harvey said that the blood test results of Baby L should have been cross-referenced with those of Baby F. He said: "I think if this had been identified and reported, it would have influenced our decision to go to the police." Had the results been put together, the police should have been contacted. That did not happen.
 
-### Baby M
+#### Baby M
 
 2.105 Baby L's twin brother, Baby M, weighed slightly more than Baby L at 1.705 kilograms. Like his brother, he was doing well.
 
@@ -417,7 +417,7 @@ I had never really seen her smiling before."
 
 2.112 Letby was convicted of the attempted murder of Baby M.
 
-### Baby N
+#### Baby N
 
 2.113 Baby N was born at 34 weeks and 4 days' gestation. He weighed 1.67 kilograms. On the night of 2/3 June 2016, Baby N was in Nursery 1. His designated nurse was Mr Christopher Booth, a senior neonatal practitioner (band 6). Letby was on shift that night, despite a decision having been taken in May to leave her on day shifts for another two months.
 
@@ -441,11 +441,11 @@ I had never really seen her smiling before."
 
 2.122 Letby was convicted of attempted murder in relation to the collapse on 3 June. The jury could not agree a verdict on either of the two counts of attempted murder relating to the collapses on 15 June.
 
-### Babies O, P and R
+#### Babies O, P and R
 
 2.123 Babies O, P and R were triplet boys. Their father described the prospect of their birth as "a once in a lifetime opportunity to welcome three children at once. I felt really blessed."
 
-### Baby O
+#### Baby O
 
 2.124 Baby O was born by caesarean section at the Countess alongside his brothers, Baby P and Baby R. They were born at 33 weeks and 2 days' gestation. Baby O weighed 2.020 kilograms. Mother O, P and R had received her antenatal care from Dr Jim McCormack, a consultant obstetrician and gynaecologist at the Countess. He was on leave when the babies were delivered, but reported to the Inquiry that all three were born "in excellent condition". Mother O, P and R said that they were "reassured that their weights were better than expected and that they had been born healthy".
 
@@ -467,7 +467,7 @@ I had never really seen her smiling before."
 
 2.132 Letby was convicted of Baby O's murder.
 
-### Baby P
+#### Baby P
 
 2.133 At birth, Baby P weighed 2.066 kilograms. Like his brothers, he was born in good condition.
 
@@ -491,7 +491,7 @@ I had never really seen her smiling before."
 
 %%page 25%%
 
-### Baby R
+#### Baby R
 
 2.142 Baby R weighed 1.865 kilograms at birth. Like his brothers, he was in good condition.
 
@@ -507,7 +507,7 @@ I had never really seen her smiling before."
 
 2.146 During the Inquiry, at the close of Dr Rackham's evidence, Parents O, P and R expressed their view that Dr Rackham had saved Baby R's life. They expressed their "profound gratitude" to him.
 
-### Baby Q
+#### Baby Q
 
 2.147 Baby Q was born at 31 weeks and 3 days' gestation. He weighed 2.076 kilograms.
 
@@ -529,7 +529,7 @@ I had never really seen her smiling before."
 
 ## 3. Concerns, reviews, errors
 
-### Initial concerns June to July 2015
+#### Initial concerns June to July 2015
 
 3.1 For any family the death of a baby is a catastrophe. For the nurses and doctors caring for that baby it is hugely distressing and, at the Countess, three deaths so close together in June 2015 was outside their experience. It was shocking. It occurred to no one that the deaths were the result of anything other than natural causes.
 
@@ -541,7 +541,7 @@ I had never really seen her smiling before."
 
 3.5 With his report for the meeting, Dr Brearey included a list of the number of deaths annually on the neonatal unit since 2008. He did so to inform Ms Kelly that three in such a short period was unusual. He raised the point with her and they agreed to keep an eye on mortality.
 
-### August 2015
+#### August 2015
 
 3.6 Dr ZA advised the parents of Baby E that a post-mortem would not add anything to what was known. She told the Inquiry that she did not want to cause Baby E's family even more distress. Mother E and F made the important point that decisions such as whether to have a post-mortem are very difficult to make at the moment that a parent has just witnessed the death of their baby.
 
@@ -551,7 +551,7 @@ I had never really seen her smiling before."
 
 3.8 The insulin poisoning of Baby E's twin brother Baby F did not come to light until 2017, after the police had started investigating. Dr ZA remembered the results of Baby F's blood tests for insulin. The police were informed and the results were found in Baby F's notes. Those for Baby L were also retrieved.
 
-### September to December 2015
+#### September to December 2015
 
 3.9 At a meeting of the Board of Directors on 1 September 2015, Mr Harvey gave a report on mortality within the hospital. The minutes record that: "Mr Harvey now personally reviews every death in the Trust and then refers cases for further review where appropriate." When giving evidence in November 2024, Mr Harvey said that this statement (which had been in the minutes for years) was incorrect. He did not review all deaths, only adult deaths. In fact, the Board did not receive any reports about the deaths of babies and children at any stage during the period I am considering. This was a serious failure of governance, which no one on the Board seems to have noticed. This is further evidence of the inadequacy of the structure, which removed the voice of children and babies from the Board, and the lack of profile of paediatrics and neonatology. At the meeting of 1 September 2015, the adult deaths having been considered, neither Ms Kelly nor Mr Harvey drew attention to the increase in deaths on the neonatal unit. That was not done for well over a year.
 
@@ -599,7 +599,7 @@ Some of the babies suddenly and unexpectedly deteriorated and there was no clear
 
 Action: SB [Dr Brearey] and EP [Ms Powell] to review all these cases focusing on nursing observations in the 4 hours before the arrests. Aim to identify if unwell babies could have been identified earlier. Identify any medical or nursing staff association with these cases."
 
-### CQC
+#### CQC
 
 3.21 CQC is the independent regulator of healthcare in England. Its responsibilities include the inspection and regulation of NHS Trusts. It conducted a routine inspection of the Countess in February 2016 about which CQC witnesses gave evidence. Ms Ann Ford (Head of Hospitals Inspections, CQC (North West)) and Mr Chris Dzikiti (Interim Chief Inspector of Healthcare, on behalf of CQC) apologised for CQC's widespread failings in providing documents to the Inquiry.
 
@@ -625,7 +625,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.29 Mr Harvey insisted in evidence that the Thematic Review had been provided to CQC. CQC denied this. Persuasively, Ms Millward, whose responsibility it was to prepare for the inspection, said that the report was not provided because it was still in draft. She is likely to be correct about that. Even had it been provided, it is likely that CQC would have asked whether there was a process for following it up and been satisfied with the answer that is likely to have been given – that there was.
 
-### March to May 2016
+#### March to May 2016
 
 3.30 The final version of the Thematic Review was circulated widely among the paediatricians and obstetricians, and among the senior nurses, including Ms Powell and Ms Karen Rees (Head of Nursing), as well as to Mr Harvey and Ms Kelly. Mr Harvey and Ms Kelly were to say in evidence that the Thematic Review had identified wider concerns about the quality of care on the neonatal unit. They did not mention this at the time and it is likely that this was because, as Mr Andrew Kennedy KC said in closing submissions on behalf of the Countess, the Thematic Review made it clear that neither delayed cord clamping or hypothermia, ranitidine use or placement of umbilical venous catheters provided an explanation for the increased mortality. It did highlight that some of the deaths followed sudden and unexpected deteriorations and that no clear cause of death had been identified at post-mortem.
 
@@ -643,7 +643,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.36 The next day (Ms Rees having received the email on 4 May), the senior nurses met to discuss the neonatal unit. Ms Powell produced a document with the title 'Neonatal Unit Review 2015-16', which would feature at a significant meeting on 11 May. Ms Powell's Neonatal Unit Review dated 5 May 2016 began: "There is no evidence whatsoever against LL other than coincidence. LL works full time and has the Qualification in [Specialty] (QIS). She is therefore more likely to be looking after the sickest infant[s] on the unit. LL also avails herself to work overtime when the acuity or unit is over capacity." She then set out her views, a number of which were on medical areas outside the scope of her expertise. It is a great pity that she did not discuss the content with any of the consultants at any point. It is also regrettable that she did not include in her document any reference to any of the incidents that she was aware of when Letby's behaviour was unacceptable (for example, her determination to be involved with Baby C when allocated to another baby, and her resistance to being taken away from sicker babies and required to look after special care babies, a task she considered boring).
 
-### Meeting, 11 May 2016
+#### Meeting, 11 May 2016
 
 3.37 Ms Powell had sought a meeting with Ms Kelly, while Dr Brearey wanted a meeting with Mr Harvey and wanted to discuss Letby with Ms Powell. A meeting took place on 11 May 2016. Present were Mr Harvey and Ms Kelly, Ms Powell and Ms Anne Murphy (Lead Nurse for Children's Services) and Dr Brearey. As Ms Kelly accepted, in this meeting Dr Brearey raised concerns that the increase in neonatal mortality may be attributable to Letby. He did not say that he had concerns about deliberate harm but, as Ms Kelly accepted, his concerns amounted to one of two things: incompetence or deliberate harm. She knew that Dr Brearey thought there was a possibility that it was deliberate.
 
@@ -655,7 +655,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.40 Dr Brearey emailed his colleagues to the effect that the meeting had been "helpful", even though it had been nothing of the sort. He was worried and concerned by the outcome of the meeting but in agreeing with the outcome he gave the impression that he was content. He confided in Dr Gibbs that it had been a disappointing meeting and he explained to the Inquiry that he had wanted it to lead to "something significant in terms of sort of escalation and assurance of safety". Nothing like that had even been discussed. The forceful views of the nurses and the absence of any support for his concerns seems to have undermined his confidence in his own views. Even at this stage, he was not sure about Letby. He did not have to be sure. To take safeguarding steps (as everyone in the meeting should have known), suspicion was enough. But no one was thinking of safeguarding.
 
-### Safeguarding
+#### Safeguarding
 
 3.41 Keeping children safe is everyone's responsibility. The legal framework is to be found in the Children Act 2004, which amended the Children Act 1989. It applies in NHS hospitals (and to NHS England and Integrated Care Boards). Statutory guidance under the heading Working Together to Safeguard Children was first published in 1999 and amended. The version published in 2015 was in force at the time of the events described in this Report.
 
@@ -681,7 +681,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.49 When the police investigate crime, they have access to powers that a hospital does not. In this case, for example, searches of Letby's home brought to light the 241 handover sheets that she had taken from the neonatal unit, searches of her phone brought to light thousands of text and WhatsApp messages, and interviews of hundreds of witnesses brought to light incidents about which managers were unaware. Had the managers acted as and when they should have, the police would have been involved much earlier.
 
-### SUDIC protocol
+#### SUDIC protocol
 
 3.50 The SUDIC (Sudden Unexpected Death in Infancy and Childhood) protocol is a multi- agency/joint agency response to a sudden and unexpected child death. The SUDIC guidelines apply wherever a child dies, including in hospital. None of the deaths of the babies at the Countess in 2015 and 2016 were considered under this protocol. The evidence to the Inquiry made it plain that no one at the Countess understood that the SUDIC protocol applied even where a baby died in hospital without ever having left hospital.
 
@@ -695,7 +695,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.54 DHSC have confirmed to the Inquiry that, as of May 2026, they are updating the Child Death Review guidelines, including a review of the SUDIC guidelines. Funding has been applied for in 2026/27 and work to review the guidelines is expected to begin in early autumn 2026 following internal approvals. This has been long delayed. I hope this work will start as this Report is published, with appropriate input from the RCPCH and, importantly, from Dr Garstang.
 
-### Events at the end of June 2016
+#### Events at the end of June 2016
 
 3.55 Baby P died on Friday 24 June 2016. By Monday 27 June 2016, the 'wait and see/ monitor and alert' policy had ended. A series of meetings took place. Mr Harvey and Ms Kelly met and discussed Letby. As they were meeting so too, separately, were the senior paediatricians. From the outset there was no unified approach, notwithstanding repeated requests from Dr Brearey for meetings with the executives. Nearly a year after the deaths of Baby O and Baby P, the barrister brought in to advise on bringing in the police was to recommend that the executives work with the consultants. That never happened. On the contrary, they were shut out of investigations and were increasingly treated as the problem, rather than as professionals expressing their concerns about deaths on the neonatal unit.
 
@@ -709,7 +709,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.59 By 30 June 2016, following further meetings, a course had been set where the unit was to be downgraded and a review by the RCPCH commissioned. Contacting the police was not part of the plan. It should have been. No steps were taken to protect babies.
 
-### July 2016
+#### July 2016
 
 3.60 Ms Kelly sought advice from the Nursing and Midwifery Council (NMC) by phone on 6 July 2016. The adviser (who was very recently in post) recorded being told that there had been an increase in mortality, clinical reviews had produced no evidence of lack of competence by individuals or the team, one registrant had been present at nearly all these incidents, and some clinicians were concerned that the registrant "may present a serious risk to public safety although no evidence is available at this time". Ms Kelly also informed the adviser that the Executive Team were to meet that day to decide whether to report the registrant to the police. After a discussion, Ms Kelly was advised that the local investigation should continue. On 14 September 2017, the NMC revalidated Letby's registration. For reasons set out in detail at Chapter 18 of the Report, the NMC first took steps in respect of Letby's registration after her conviction in August 2023.
 
@@ -737,7 +737,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 %%page 40%%
 
-### Risk
+#### Risk
 
 3.70 The Risk and Patient Safety Department failed in its fundamental task to enhance patient safety, here the safety of babies on the neonatal unit. The first time entries were made on any risk register in respect of deaths on the neonatal unit was on 11 July 2016, by which stage there had been eight deaths in 2015 and five more deaths by the end of June 2016.
 
@@ -749,7 +749,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.74 The risk systems and processes failed in their principal purpose of protecting patients, here the babies on the neonatal unit.
 
-### RCPCH
+#### RCPCH
 
 3.75 Since 2012, the RCPCH, the representative body for paediatricians, has offered an Invited Review Service. For a fee, a team visits a paediatric service, conducts interviews and reviews documents and the environment of the service and assesses whether the service complies with accepted standards. Dr McCormack (a consultant obstetrician) and Dr Brearey (a consultant paediatrician) both pointed out in meetings with the executives at the end of June that such a review would not deal with whether or not someone was harming babies on the unit. They would be proved right. On behalf of the RCPCH, Ms Scolding KC made the position plain.
 
@@ -757,7 +757,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 %%page 41%%
 
-### The review
+#### The review
 
 3.77 On 28 June 2016, Mr Harvey inquired of the RCPCH by email whether they provided an independent review service "for individuals practice or for departments where there are concerns". Ms Sue Eardley, at that time Head of Invited Reviews, suggested a confidential telephone conversation. In her note of the call the same day, she summarised the key issue as: "Outlier for neonatal deaths over last 12-18 months. Done a thematic review and nothing highlighted – no pattern. Neonatologists say they were not expected (although some might have been)." In a further conversation, Mr Harvey told her about the doctors' suspicions of deliberate harm and the correlation with a nurse being "on shift at the same time as some of those deaths had occurred". She described it as a "passing remark". It was her impression that Mr Harvey did not consider the concerns significant. Ironically, she said: "I think if he had thought it was a serious allegation he would have called the police sooner." Mr Harvey said: "I would have said that the paediatricians had raised concerns about an association of one member of staff. But that there was no other supportive evidence to go with that; that her managers and colleagues felt that it was related to her increased level of duty and that she was qualified in specialty. I probably wouldn't have been any more specific than that." He did not mention that most deaths were at night, nor that, once the staff member was moved to day shifts only, there were no further deaths at night. Had he mentioned in those conversations that he and the Director of Nursing believed, as of 29 June, that the police should be contacted, that may have conveyed the seriousness of the situation.
 
@@ -813,7 +813,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 %%page 45%%
 
-### Further reports Dr Hawdon
+#### Further reports Dr Hawdon
 
 3.100 On 8 September 2016, Mr Harvey asked Dr Hawdon, a London-based consultant neonatologist, to conduct a detailed case note review of 13 recent deaths and 4 near misses on the neonatal unit. Mr Harvey did not tell Dr Hawdon that behind the request lay concerns by consultant paediatricians about a nurse deliberately harming babies. It was an unfair way to approach a colleague, particularly when the issue behind the request was so serious.
 
@@ -835,7 +835,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 %%page 47%%
 
-### Dr McPartland
+#### Dr McPartland
 
 3.108 On 6 December 2016, Mr Harvey, having received Dr Hawdon's report on 29 October 2016 and discussed the matter at an Executive Team meeting, contacted Dr McPartland. He informed her about "a spate of neonatal deaths" and explained that an independent expert, Dr Hawdon, had "suggested that in 4 of the PMs, it might be worth a follow up discussion with the pathologists to see if further light can be shed on the issues". Significantly, and characteristically, Mr Harvey did not mention to Dr McPartland the fact that clinicians had concerns about a member of staff.
 
@@ -847,7 +847,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.112 It is notable that, throughout this period, the RCPCH report, which was published in February 2017, was not shared with the parents. In April 2017, six months after it had been completed, excerpts of Dr Hawdon's report were sent to some of the parents under cover of a letter from Mr Harvey. Dr Hawdon considered the families were given insufficient covering information when they received excerpts of her report, a view endorsed in the evidence of the parents. As Mr Harvey accepted when giving evidence, "the communication was both crass and inappropriate … It was done in completely the wrong way. It was unthinking and insensitive." It was.
 
-### The grievance
+#### The grievance
 
 3.113 On 7 September 2016, Letby sent a letter setting out her grievance on the grounds of victimisation and discrimination. She was supported in her claim by representatives of the RCN.
 
@@ -913,7 +913,7 @@ c. The RCPCH reviewers had interviewed her and made no mention of any wrongdoing
 
 3.137 Notes of this meeting, and the fact it even occurred, demonstrate how far adrift the hospital had come from the correct course of a responsible and prompt response to serious concerns raised by consultants about patient safety.
 
-### The coroners
+#### The coroners
 
 3.138 The Senior Coroner for Cheshire, Mr Rheinberg, was aware of the increase in the number of deaths on the neonatal unit in 2015 and 2016 because all the deaths were referred to his office. There was no post-mortem for Baby E. The inquest into the death of Baby C was closed once the post-mortem report was received. Baby D's inquest was adjourned in 2017 and was reopened in February 2026 and adjourned again. Inquests were opened and adjourned for each of Baby I, Baby O and Baby P. They too have been reopened and adjourned again.
 
@@ -975,7 +975,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 %%page 55%%
 
-### NHS England and the Countess
+#### NHS England and the Countess
 
 3.162 NHS Improvement (and its predecessor, Monitor) considered the Countess a high- performing organisation. That is because the Countess's self-reported performance to Monitor did not suggest it was an outlier, and NHS Improvement's primary focus was on financial management. It relied on CQC and NHS England commissioners to assess quality and safety.
 
@@ -1023,7 +1023,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 3.181 Overall, witnesses from NHS England were highly critical of the approach by the Trust to providing information. Mr Chambers was equivocal about whether more information should have been provided. Whilst employees of NHS England should not have agreed to repeated delays and were too ready to accept assurances, the principal responsibility for the failure to ensure that NHS England knew about the possibility of deliberate harm being caused to babies lies with Mr Chambers, Mr Harvey and Ms Kelly.
 
-### Contacting the police
+#### Contacting the police
 
 3.182 Over the course of late February and early March 2017, the consultants, principally through Dr Brearey, continued to raise their concerns. At a meeting on 28 February, attended by Mr Harvey, Dr Brearey, Dr Jayaram, Dr Gibbs and Dr Subhedar (from the Neonatal Network), the paediatricians told Mr Harvey that the increase in neonatal deaths could not be explained by the factors mentioned in the Silver Command review in July 2016. Dr Subhedar pointed out that other Level 2 units had similar issues.
 
@@ -1089,7 +1089,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 3.209 At about the same time, the Medical Staff Committee of the hospital were seeking a vote of no confidence in Mr Chambers. Mr Chambers was looking to move from the Countess and wished to avoid a vote of no confidence. In his appraisal with Sir Duncan, he had agreed that "he would be looking for … a new job, the best years possibly behind him". He was given assistance in seeking a new role by the Executive Regional Managing Director (North) at NHS Improvement, Ms Lyn Simpson. In the event, Mr Chambers found an alternative role without her help. His new employers received from the Countess full funding of his salary package for a period of nine months. Mr Chambers and Sir Duncan drafted an announcement, which was published on 19 September. It included the following passage: "Tony's stepping down as CEO at the Countess is as a result of extraordinary circumstances and is not a judgment on his ability as a CEO but more a reflection of his integrity as a leader." This was another exercise in spin. He was stepping down to avoid a vote of no confidence and so preserve his career.
 
-### The Inquiry
+#### The Inquiry
 
 3.210 The Inquiry was announced in Parliament by the then Secretary of State for Health and Social Care, the Rt Hon. Steve Barclay MP, on 4 September 2023. The Terms of Reference were set by the Secretary of State, after consultation with me and with the parents of the babies who died or were injured and with other Core Participants. The Inquiry was formally established on 19 October 2023. The Terms of Reference are on the Inquiry's website and in Appendix 1.
 
@@ -1099,7 +1099,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 4.1 The following brief summaries of each chapter in Part Two set out the principal issues. Further reading of the chapters is necessary to understand the detail.
 
-### Chapter 31: Implementation of recommendations of inquiries
+#### Chapter 31: Implementation of recommendations of inquiries
 
 4.2 The first detailed work carried out by this Inquiry was a review of all recommendations made in all inquiries into the NHS in the last 30 years. The review shows that, whilst some significant changes have been introduced in response to inquiry recommendations over the last 30 years, most have not been implemented.
 
@@ -1109,7 +1109,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 4.5 Within government, there is a need for effective independent monitoring of the implementation of recommendations from statutory inquiries. I recommend that responsibility for auditing the implementation of the recommendations of statutory inquiries into NHS bodies should be given to the National Audit Office.
 
-### Chapter 32: Medical examiners
+#### Chapter 32: Medical examiners
 
 4.6 In July 2003, Dame Janet Smith DBE, in her third report of the Shipman Inquiry, recommended a system whereby there would be an effective cross-check on the account given by a doctor in respect of the death of a patient. The government of the day proposed a system of medical examiners and the proposal stood still. In February 2013, Sir Robert Francis KC expressed his support for a system of medical examiners. The statutory system of medical examiners came into effect on 9 September 2024. It should have been introduced a decade earlier, by mid-2014 at latest, ten years after it had been agreed.
 
@@ -1119,11 +1119,11 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 4.8 The Rt Hon. Jeremy Hunt MP, former Secretary of State for Health, was of the opinion that the medical examiner system would have prevented a number of the deaths at the Countess. The deaths of Baby A, Baby C, Baby D and Baby I were reported to the coroner and post-mortems were ordered and received, so the medical examiner would probably not have been involved. However, it may well be that the medical examiner would have been informed of, or otherwise become aware of, the unusual rise in the number of neonatal deaths. The system would also have allowed the clinicians to talk about their concerns with someone external to the Trust. Such discussions would probably have led to action to protect babies by May 2016.
 
-### Chapter 33: CCTV and monitoring
+#### Chapter 33: CCTV and monitoring
 
 4.9 From the outset of the Inquiry, Core Participants and witnesses were asked for their view on whether the Inquiry should make recommendations about CCTV monitoring of neonatal units. I summarise some of the responses provided in Chapter 33. The parents were firmly of the view that CCTV would protect babies on the neonatal unit. I agree. Parents of very young babies will find this reassuring. It will also deter those rare people who seek to harm babies. I am not persuaded that the cost, training and 'workload' implications outweigh those benefits, if those implications are of any real weight at all. I am sure that all cots and incubators in all neonatal units should be fitted with in-cot cameras with live streaming video, so that parents may observe the baby remotely at any time. The modest funding required for this should be centrally managed and ring-fenced.
 
-### Chapter 34: Insulin
+#### Chapter 34: Insulin
 
 4.10 Letby poisoned Baby F and Baby L by administration of insulin. Insulin poisoning is a method of deliberate harming and killing of people in hospital. The cases of Beverly Allitt, Victorino Chua and Colin Norris are some more examples in the UK. It was one of the methods of killing discussed by the RCPCH review team in September 2016.
 
@@ -1137,19 +1137,19 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 4.14 I welcome the October 2025 publication of the Getting It Right First Time laboratory handling guidance for high insulin low C-peptide results. The guidance directs that local protocols be set up for when high insulin low C-peptide is found. I suggest that serious consideration be given to producing a single step-by-step template protocol. The protocol should explicitly mandate immediate discussion between laboratory and treating clinicians and between the laboratory head and the medical director of the hospital. Senior managers must inform NHS England and CQC and, in the absence of a complete explanation for the finding, the police must be contacted.
 
-### Chapter 35: Data – reading the signals
+#### Chapter 35: Data – reading the signals
 
 4.15 The increase in the number of neonatal deaths at the Countess in 2015 was significant data. It was sufficient to generate an alert signal. The alert signal is clearly found in the crude and stabilised and adjusted mortality rates for babies born at the Countess in 2015, as recorded in MBRRACE-UK (Mothers and Babies: Reducing Risk through Audits and Confidential Enquiries) surveillance data. However, the MBRRACE-UK data analysis for 2015 was not reported until June 2017, by which time the police had been contacted. The figures for 2016 were reported in June 2018. The utility of the alert signal provided by the data was lost to time.
 
 4.16 When it comes to the early detection of a member of staff causing deliberate harm, it is real-time monitoring or continuous monitoring that will be of most value. In 2019, MBRRACE-UK provided all NHS Trusts with access to a real-time or continuous data viewer, enabling more immediate and ongoing monitoring of the stillbirths and neonatal deaths reported to it. The multiplicity of electronic systems within the NHS, many of which do not talk to each other, continues to complicate real-time data reporting. I recommend that NHS England and/or DHSC undertake to provide, by 31 March 2027, a clear and timed route to ensuring that computer systems are harmonised across the NHS, so that by December 2028 data relating to babies and neonates in hospital may be entered and reviewed in a timely manner and on a continuous monitoring basis.
 
-### Chapter 36: The NHS
+#### Chapter 36: The NHS
 
 4.17 The NHS is a large, complex constellation of organisations, which together provide a national healthcare service. It has undergone successive reorganisation, with all the attendant upheaval. Countless resources have been expended on tasks and documents that ultimately make no difference to the quality of patient care. Time (managerial, medical, nursing or other) and money should not be devoted to any task that does not improve patient care, or at least maintain it to a good standard. That is true of administrative reform (which should not be pursued for its own sake), targets mandated (which are too many in number) and documents circulated (which people spend too much time producing and reading). The practical abolition of NHS England should also include a significant reduction in the number of regulatory bodies. An informed analysis of what they all do should be prepared and reviewed. Decisions should be taken about which bodies are necessary, which can be amalgamated and which can be abolished so that those working in them may be directed to those parts of the NHS that need their skills to improve patient care.
 
 %%page 66%%
 
-### Chapter 37: Training and regulation of managers
+#### Chapter 37: Training and regulation of managers
 
 4.18 The core purpose of a hospital is to diagnose accurately and treat effectively patients with illnesses, conditions and diseases, and to care for those patients with kindness and respect. The role of senior managers in a hospital is to make sure the core purpose of the hospital is achieved. Managers need to understand what people working in the hospital actually do, and collaborate with them to make sure the hospital is fit to meet its core purpose. Recruitment and training of managers must reflect this. At present there are too many managers who do not meet the standards that should be expected of them. The need to improve the quality of people recruited and to retain excellent managers is urgent.
 
@@ -1163,13 +1163,13 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 %%page 67%%
 
-### Chapter 38: Duty of candour
+#### Chapter 38: Duty of candour
 
 4.23 All NHS organisations owe a statutory duty of candour. The statutory duty does not apply to individuals, although organisations inevitably discharge their duty through the actions of their staff and directors. Clinical staff who are registered healthcare professionals have a professional duty of candour, overseen by their respective professional regulators, such as the GMC, the Nursing and Midwifery Council and the General Dental Council. Non-clinically qualified managers owe no equivalent duty.
 
 4.24 The government's response to the consultation on proposals to regulate managers failed to deal with the question of introducing a professional duty of candour for NHS managers. So does the NHS Leadership and Management Framework Code, published in July 2026. I am in no doubt that non-clinical managers should be subject to a duty of candour. Hospital managers control all the resources and make decisions that affect all aspects of the running of the hospital and patient care. An individual duty should be imposed on managers, mirroring the duty on nurses, doctors and other healthcare professionals.
 
-### Chapter 39: Culture of the NHS
+#### Chapter 39: Culture of the NHS
 
 4.25 Culture has been a repeat theme of inquiries into the NHS in the last two and a half decades. A heavy focus has been placed on improvement in NHS culture. Despite this, patients have still suffered avoidable harm through the actions of NHS staff and shortages of resources.
 
@@ -1177,7 +1177,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 4.27 Fundamentally, the concept of 'culture' is limited. It is behaviours that need to change. The starting point for everyone must be patient safety. It must be the top priority for all managers. Managers looking to drive up standards must be guided by the fundamental principle that patients are at the centre of all that is done in a hospital.
 
-### Chapter 40: Freedom to Speak Up Guardians
+#### Chapter 40: Freedom to Speak Up Guardians
 
 4.28 Freedom to Speak Up (FTSU) Guardians work alongside Trust leadership teams to ensure staff have the capability to speak up effectively and are supported appropriately. They became part of the standard NHS contract in 2017, following Sir Robert Francis's 2015 Freedom to Speak Up Review. The National Guardian's Office (NGO) came into being in 2016. It provided mandatory training, offered support calls to Guardians and collected anonymised data. It was a small organisation, with limited resources and powers. The NGO was abolished at the end of June 2026 and its functions transferred to NHS England.
 
@@ -1185,7 +1185,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 %%page 68%%
 
-### Chapter 41: Patient safety, safeguarding and employment law
+#### Chapter 41: Patient safety, safeguarding and employment law
 
 4.30 In the Countess in 2016, patient safety and safeguarding concerns were relegated below a flawed HR investigation of Letby's grievance. This was wrong. Where safeguarding or other concerns about patient safety are raised in good faith, the balance to be struck by a responsible NHS employer, between the risk of an employment claim and the risk to patient safety, comes down firmly in favour of protecting the patient.
 
@@ -1206,7 +1206,7 @@ Where necessary, a small team (always including clinicians from the relevant spe
 
 4.34 The Inquiry heard evidence about the lack of clarity in employment policies for handling serious concerns. All employment policies should include a clearly stated overriding objective, which is the safety of patients. Trusts should be required to embed the Suspicion of Deliberate Harm Protocol and guidance (see Recommendation 9 in Chapter 45). No member of staff, clinical or managerial, should be in any doubt about what to do when suspicions are raised that a member of staff (or any other person) has caused harm to a child.
 
-### Chapter 42: Care Quality Commission
+#### Chapter 42: Care Quality Commission
 
 4.35 CQC's purpose is to ensure that health and care services provided are safe, effective, compassionate and of a high quality. This includes a duty to conduct inspections of health and social care service providers and publish a report of their findings.
 
@@ -1216,7 +1216,7 @@ Where necessary, a small team (always including clinicians from the relevant spe
 
 4.38 CQC has not often achieved its purpose since it was set up in 2009. It now needs to focus on its core purpose and develop teams who work to achieve that purpose. The new Chief Executive must be an exceptional leader and manager, who is supported by an outstanding team. CQC must not be allowed to fail again.
 
-### Chapter 43: The Health Services Safety Investigations Body
+#### Chapter 43: The Health Services Safety Investigations Body
 
 4.39 The Health Services Safety Investigations Body (HSSIB) was established under the Health and Care Act 2022. Their role is to carry out independent investigations that identify risks to patients and facilitate the improvement of systems and safety practices in the provision of healthcare services in England. Investigations are focused on patient safety issues that occur in multiple places across the country, and on issues where HSSIB consider they can add value and address inequalities. Learning lessons about safety is prioritised over individual accountability.
 
@@ -1224,7 +1224,7 @@ Where necessary, a small team (always including clinicians from the relevant spe
 
 %%page 70%%
 
-### Chapter 44: Memorandum of Understanding
+#### Chapter 44: Memorandum of Understanding
 
 4.41 A Memorandum of Understanding (MoU) is meant to establish a formal framework for effective cooperation and communication between public agencies. An MoU entitled 'Investigating patient safety incidents involving unexpected death or serious untoward harm: a protocol for liaison and effective communication between the National Health Service, Association of Chief Police Officers and Health & Safety Executive' was published in February 2006. It appears to have fallen out of use at about the time the Association of Chief Police Officers was replaced by the National Police Chiefs' Council in 2015.
 
