@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-10-25 — The Southport Inquiry's Phase 1 report, Volume 1
+
+[The Southport Inquiry's Phase 1 report, Volume 1](/reports/uk-southport-inquiry) (HC 1768-I, April 2026), on the murder of three children at a dance class in Southport on 29 July 2024 and the events leading to it, is on the site: 260 printed pages, 696 numbered paragraphs and 641 notes, each linked, rebuilt from the Inquiry's accessible edition and checked against its PDF. It opens with our introduction: what Volume 1 covers, eight of its findings with the paragraphs behind them, and where to start reading. The photograph on the landing page is Liverpool Town Hall. The report anonymises child survivors under a Restriction Order, and nothing here adds to what it prints. Volume 2, on the roles of the agencies, comes later.
+
+---
+
 ## 2026-10-25 — The Thirlwall Inquiry's summary report
 
 [The Thirlwall Inquiry's summary report](/reports/uk-thirlwall-inquiry) (September 2026), on events at the Countess of Chester Hospital from 2015 to 2018, is on the site: 76 pages, 433 numbered paragraphs, each with its own link, rebuilt from the Inquiry's accessible PDF. It opens with our introduction: what the Inquiry covered and what it did not, eight of its findings with the paragraphs behind them, and where to start reading. The three full volumes, with the 17 recommendations, come later.

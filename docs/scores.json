@@ -387,6 +387,58 @@
     "previous": null
    }
   },
+  "uk-southport-inquiry": {
+   "set": "held-out",
+   "ingest": "v0.33.0",
+   "metrics": {
+    "boundary_p": 0.747870528109029,
+    "boundary_r": 0.3475851148060174,
+    "boundary_f1": 0.4745945945945946,
+    "join_all": 0.8571428571428571,
+    "join_all_n": 182,
+    "join_high": 0.8607594936708861,
+    "join_high_n": 158,
+    "join_adj_ours_wrong": 2,
+    "join_adj_judged": 30,
+    "marker_p": 0.29411764705882354,
+    "marker_r": 0.0078003120124804995,
+    "wer": 0.025713619558338608,
+    "wer_ref_coverage": 0.9989242064636338,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": null,
+    "ref_no_answer_rate": null,
+    "ref_unusable_rate": null
+   },
+   "previous": null,
+   "adapter": {
+    "metrics": {
+     "boundary_p": 0.7933491686460807,
+     "boundary_r": 0.9561068702290076,
+     "boundary_f1": 0.8671570748593682,
+     "join_all": 0.8571428571428571,
+     "join_all_n": 238,
+     "join_high": 0.9533678756476683,
+     "join_high_n": 193,
+     "join_adj_ours_wrong": 2,
+     "join_adj_judged": 30,
+     "marker_p": 0.7222222222222222,
+     "marker_r": 0.10140405616224649,
+     "wer": 0.012769630925153595,
+     "wer_ref_coverage": 0.9998654829163304,
+     "wer_pages": null,
+     "wer_pages_n": null,
+     "page_marker_p": null,
+     "page_marker_r": null,
+     "ref_error_rate": 0.4,
+     "ref_no_answer_rate": 0,
+     "ref_unusable_rate": 0.4
+    },
+    "previous": null
+   }
+  },
   "uk-thirlwall-inquiry": {
    "set": "held-out",
    "ingest": "v0.33.0",
