@@ -87,6 +87,27 @@ export function truncate(text: string, limit: number): string {
   return `${cut.slice(0, lastSpace > limit * 0.6 ? lastSpace : limit)}…`;
 }
 
+/** The longest meta / og:description we write: link cards cut around 100-200, search results near 160 (reportsthatmatter-ntjx). */
+export const MAX_DESCRIPTION = 200;
+
+/** A description no longer than MAX_DESCRIPTION, cut at a word boundary with an ellipsis. */
+export function capDescription(text: string): string {
+  return truncate(text, MAX_DESCRIPTION - 1);
+}
+
+/** The first sentence of a paragraph, capped at MAX_DESCRIPTION. */
+export function firstSentence(text: string): string {
+  const flat = text.replace(/\s+/g, " ").trim();
+  const end = flat.search(/[.!?](?=\s|$)/);
+  return capDescription(end === -1 ? flat : flat.slice(0, end + 1));
+}
+
+/** `“quote” — Title`, with the quote cut so the whole fits in MAX_DESCRIPTION. */
+export function quoteDescription(quoted: string, title: string): string {
+  const room = Math.max(40, MAX_DESCRIPTION - title.length - 5);
+  return capDescription(`“${truncate(quoted, room)}” — ${title}`);
+}
+
 /**
  * Only advertise a card that exists — an og:image pointing at a 404 is worse
  * than no image at all.
@@ -153,8 +174,8 @@ export function reportPreview(
   return {
     title: fullTextTitle(meta),
     description: quoted
-      ? `“${truncate(quoted, 280)}” — ${meta.title}`
-      : `${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`,
+      ? quoteDescription(quoted, meta.title)
+      : capDescription(`${meta.title}${byline ? ` — ${byline}` : ""}. Read the full text with linkable paragraphs.`),
     image: shareImage(meta, highlighted, anchor),
     imageAlt: shareImageAlt(meta, quoted),
   };
