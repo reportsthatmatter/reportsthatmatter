@@ -70,6 +70,13 @@ describe("quality bar grade (38s.16, decision 0030)", () => {
     expect(t).toContain("| – |");
   });
 
+  it("does not grade a report with no page markers", () => {
+    const g = gradeReport(base({ pages: 0 }));
+    expect(g.unmeasured).toBe(true);
+    expect(g.publishable).toBe(false);
+    expect(gradeTable([g])).toContain("no (no page markers)");
+  });
+
   it("diffs letters and dimension moves against a previous record", () => {
     const now: GradeRecord = { ingest: "v2", site: "b", recorded: "d", reports: { r: gradeReport(base({ oracle: { ...base().oracle!, "markers-unlinked": 5 } })) } };
     const was: GradeRecord = { ingest: "v1", site: "a", recorded: "d", reports: { r: gradeReport(base({ oracle: { ...base().oracle!, "markers-unlinked": 50 } })) } };

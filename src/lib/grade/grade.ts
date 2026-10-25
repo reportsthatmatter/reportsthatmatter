@@ -87,6 +87,8 @@ export type ReportGrade = {
   /** graded dimensions below C */
   below: DimensionKey[];
   dimensions: Record<DimensionKey, DimensionGrade>;
+  /** no page markers: not graded, never publishable */
+  unmeasured?: true;
 };
 
 export function letterFor(per10: number): Letter {
@@ -106,7 +108,7 @@ export function precisionOf(signal: string, own: Record<string, OracleScore> | u
 }
 
 const sum = (terms: Term[]) => terms.reduce((a, t) => a + t.errors, 0);
-const exact = (from: string) => /^(report golden|adjudicated|exact)/.test(from);
+const exact = (from: string) => /^(report golden|adjudicated random|exact)/.test(from);
 
 function dimension(key: DimensionKey, pages: number, terms: Term[] | null, opts: { graded?: boolean; basis?: Basis; errors?: number; note?: string } = {}): DimensionGrade {
   if (!terms) return { key, basis: "unmeasured", graded: false, errors: null, per10: null, letter: null, terms: [], ...(opts.note ? { note: opts.note } : {}) };
@@ -195,6 +197,10 @@ export function gradeReport(input: GradeInput): ReportGrade {
     dims.ids = d;
   }
 
+  if (!pages) {
+    // nothing to divide by: no page markers in the served text
+    return { id: input.id, pages, per10: NaN, letter: "F", publishable: false, below: [], dimensions: dims, unmeasured: true };
+  }
   const graded = Object.values(dims).filter((d) => d.graded && d.per10 !== null);
   const per10 = graded.reduce((a, d) => a + (d.per10 ?? 0), 0);
   const letter = letterFor(per10);
@@ -202,12 +208,13 @@ export function gradeReport(input: GradeInput): ReportGrade {
   return { id: input.id, pages, per10, letter, publishable: PUBLISHABLE.includes(letter) && below.length === 0, below, dimensions: dims };
 }
 
-const f1 = (n: number | null) => (n === null ? "–" : n.toFixed(1));
+const f1 = (n: number | null) => (n === null || Number.isNaN(n) ? "–" : n.toFixed(1));
+const f2 = (n: number) => (Number.isNaN(n) ? "–" : n.toFixed(2));
 
 /** The grade table, one row per report, best first: per dimension errors per 10 pages (`~` estimated, `?` indicative, `–` unmeasured). */
 export function gradeTable(grades: ReportGrade[]): string {
   const head = ["report", "pages", ...DIMENSIONS.map((d) => `${d.short} ${d.label}`), "per 10 pp", "grade", "publishable"];
-  const rows = [...grades].sort((a, b) => a.per10 - b.per10).map((g) => {
+  const rows = [...grades].sort((a, b) => (Number.isNaN(a.per10) ? 1 : 0) - (Number.isNaN(b.per10) ? 1 : 0) || a.per10 - b.per10).map((g) => {
     const cells = DIMENSIONS.map(({ key }) => {
       const d = g.dimensions[key];
       if (d.per10 === null) return "–";
@@ -215,7 +222,8 @@ export function gradeTable(grades: ReportGrade[]): string {
       const extra = d.unmatched?.count ? ` (?${f1(d.unmatched.per10)} unmatched)` : "";
       return `${mark}${f1(d.per10)}${d.graded ? ` ${d.letter}` : ""}${extra}`;
     });
-    return [g.id, String(g.pages), ...cells, f1(g.per10), g.letter, g.publishable ? "yes" : g.below.length ? `no (${g.below.join(", ")} below C)` : "no"];
+    if (g.unmeasured) return [g.id, String(g.pages), ...cells, "–", "–", "no (no page markers)"];
+    return [g.id, String(g.pages), ...cells, f2(g.per10), g.letter, g.publishable ? "yes" : g.below.length ? `no (${g.below.join(", ")} below C)` : "no"];
   });
   return [`| ${head.join(" | ")} |`, `|${head.map((_, i) => (i === 0 ? "---" : "---:")).join("|")}|`, ...rows.map((r) => `| ${r.join(" | ")} |`)].join("\n");
 }

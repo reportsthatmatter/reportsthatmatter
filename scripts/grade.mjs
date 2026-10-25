@@ -51,8 +51,10 @@ if (flag("--record-referee")) {
   }
   const quality = JSON.parse(readFileSync(join(root, "reports/quality-last.json"), "utf8"));
   const rec = summariseReferee(readFileSync(out, "utf8"), quality.ingest ?? null, today);
-  writeFileSync(join(root, "reports/referee-last.json"), JSON.stringify(rec, null, 1) + "\n");
-  console.error(`wrote reports/referee-last.json (${Object.keys(rec.reports).length} reports)`);
+  if (write) {
+    writeFileSync(join(root, "reports/referee-last.json"), JSON.stringify(rec, null, 1) + "\n");
+    console.error(`wrote reports/referee-last.json (${Object.keys(rec.reports).length} reports)`);
+  } else console.log(JSON.stringify(rec, null, 1));
 }
 
 const log = opt("--verify-log");
@@ -78,7 +80,7 @@ for (const id of ids) {
     console.error(`${id}: not in reports/registry.yaml`);
     continue;
   }
-  console.log(`\n${id}: ${g.letter} (${g.per10.toFixed(1)} per 10 pages, ${g.pages} pages)`);
+  console.log(`\n${id}: ${g.unmeasured ? "ungraded" : g.letter} (${g.per10.toFixed(2)} per 10 pages, ${g.pages} pages)`);
   for (const { key, label } of DIMENSIONS) {
     const d = g.dimensions[key];
     console.log(`  ${label}: ${d.per10 === null ? "unmeasured" : `${d.per10.toFixed(2)} per 10 pp, ${d.errors.toFixed(1)} errors, ${d.basis}${d.graded ? `, ${d.letter}` : ", not graded"}`}${d.note ? ` (${d.note})` : ""}`);

@@ -59,6 +59,7 @@ export function readInputs(root: string, opts: { verify?: any; reportDir?: (id: 
     const aliasPath = join(root, "reports", id, "aliases.yaml");
     const al = existsSync(aliasPath) ? ((parse(readFileSync(aliasPath, "utf8")) ?? {}) as any) : null;
     const ingestTs = join(dirOf(id), "ingest.ts");
+    if (!existsSync(ingestTs)) console.error(`grade: ${id}: no ${ingestTs}; cleanEdition taken as false (clone the report repo, or set RTM_REPORT_DIRS)`);
     const cleanEdition = existsSync(ingestTs) && /\bcleanEdition\s*\(/.test(readFileSync(ingestTs, "utf8"));
     const m = scores?.reports?.[id]?.metrics;
     const v = verify.reports?.[id];
