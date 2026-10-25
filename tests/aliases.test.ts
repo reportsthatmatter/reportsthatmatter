@@ -27,6 +27,18 @@ describe("alias generation", () => {
     expect(lost).toEqual([]);
   });
 
+  it("maps a paragraph that became a quotation to the citable paragraph before it (xmgr)", () => {
+    const Q = "The evidence shows that people very close to the prime minister repeatedly asserted that the relationship was entirely proper in every respect.";
+    const lead = "Several witnesses told the inquiry about the matter and said that";
+    const old = render(`## S\n\n${lead}\n\n${Q}\n\nA closing paragraph that is long enough to stand alone as a unit.\n`);
+    const now = render(`## S\n\n${lead}\n\n> ${Q}\n\nA closing paragraph that is long enough to stand alone as a unit.\n`);
+    const quoted = old.passages.find((p) => p.text.startsWith("The evidence"))!.id;
+    expect(now.passages.some((p) => p.id === quoted)).toBe(false);
+    const { moved, lost } = computeMoves(old, now);
+    expect(lost).toEqual([]);
+    expect(moved[quoted]).toBe(now.passages.find((p) => p.text.startsWith("Several witnesses"))!.id);
+  });
+
   it("finds a paragraph the old text ran a heading into by its printed number (a8l)", () => {
     // before: the PDF reading's "Initial response 2.4.42 By this time…" was one paragraph; after: a heading and the paragraph.
     // The heading's words and the label are a four-word probe that also reads across the end of another paragraph and the next one's number.
