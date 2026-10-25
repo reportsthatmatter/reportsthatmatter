@@ -1,0 +1,3148 @@
+{
+ "ingest": "v0.29.0",
+ "site": "c084a388",
+ "recorded": "2026-10-25",
+ "reports": {
+  "jack-smith-vol1": {
+   "id": "jack-smith-vol1",
+   "pages": 159,
+   "per10": 7.290898880038577,
+   "letter": "C",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 69.60645161290323,
+     "per10": 4.377764252383851,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 145,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 60.80645161290323
+      },
+      {
+       "source": "page breaks (mini-reference, random) 1/14 wrong x 159 pages",
+       "count": 159,
+       "precision": 0.07142857142857142,
+       "precisionFrom": "adjudicated random stratum",
+       "errors": 11.357142857142856
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 44,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 8.8
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 13.818840579710145,
+     "per10": 0.8691094704220216,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 22,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 7.6521739130434785
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 37,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 6.166666666666666
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 32.5,
+     "per10": 2.0440251572327046,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 30,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 27
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 38,
+       "precision": 0,
+       "precisionFrom": "report golden 0/8",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 11,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 5.5
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 82,
+      "per10": 5.1572327044025155
+     }
+    }
+   }
+  },
+  "us-psi-financial-crisis": {
+   "id": "us-psi-financial-crisis",
+   "pages": 641,
+   "per10": 1.7491267953663447,
+   "letter": "B",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 79.71612903225807,
+     "per10": 1.2436213577575361,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 99,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 41.516129032258064
+      },
+      {
+       "source": "page breaks (mini-reference, random) 0/15 wrong x 641 pages",
+       "count": 641,
+       "precision": 0,
+       "precisionFrom": "adjudicated random stratum",
+       "errors": 0
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 191,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 38.2
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 14.202898550724639,
+     "per10": 0.22157408035451853,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 37,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 12.869565217391305
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 8,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 1.3333333333333333
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 16.2,
+     "per10": 0.25273010920436817,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 18,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 16.2
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 7,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 2,
+     "per10": 0.031201248049921998,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 1,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 1
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 1,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 1
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 235,
+      "per10": 3.666146645865835
+     }
+    }
+   }
+  },
+  "challenger-accident": {
+   "id": "challenger-accident",
+   "pages": 421,
+   "per10": 10.04709284312713,
+   "letter": "D",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 233,
+     "per10": 5.5344418052256525,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 372,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 156
+      },
+      {
+       "source": "page breaks (mini-reference, random) 3/14 wrong x 421 pages",
+       "count": 421,
+       "precision": 0.21428571428571427,
+       "precisionFrom": "adjudicated random stratum",
+       "errors": 90.21428571428571
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 385,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 77
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 75.78260869565217,
+     "per10": 1.8000619642672724,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 169,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 58.78260869565217
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 102,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 17
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 73.2,
+     "per10": 1.7387173396674585,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 38,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 34.2
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 143,
+       "precision": 0,
+       "precisionFrom": "report golden 0/5",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 78,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 39
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 41,
+     "per10": 0.9738717339667459,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 6,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 6
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 35,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 35
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 589,
+      "per10": 13.990498812351543
+     }
+    }
+   }
+  },
+  "litvinenko-inquiry": {
+   "id": "litvinenko-inquiry",
+   "pages": 313,
+   "per10": 11.51891167680099,
+   "letter": "D",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 139.541935483871,
+     "per10": 4.4582088014016295,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 245,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 102.74193548387098
+      },
+      {
+       "source": "page breaks (mini-reference, random) 0/13 wrong x 313 pages",
+       "count": 313,
+       "precision": 0,
+       "precisionFrom": "adjudicated random stratum",
+       "errors": 0
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 184,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 36.800000000000004
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 220,
+     "per10": 7.0287539936102235,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 220,
+       "precision": 1,
+       "precisionFrom": "report golden 5/5",
+       "errors": 220
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 0,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 0,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 0
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 11,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 1,
+     "per10": 0.03194888178913738,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 1,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 1
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 749,
+      "per10": 23.929712460063897
+     }
+    }
+   }
+  },
+  "uk-leveson-inquiry": {
+   "id": "uk-leveson-inquiry",
+   "pages": 1952,
+   "per10": 18.058060109289617,
+   "letter": "D",
+   "publishable": false,
+   "below": [
+    "paragraphs"
+   ],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 2154.8,
+     "per10": 11.03893442622951,
+     "letter": "D",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 2091,
+       "precision": 1,
+       "precisionFrom": "report golden 5/5",
+       "errors": 2091
+      },
+      {
+       "source": "page breaks (mini-reference, random) 0/15 wrong x 1952 pages",
+       "count": 1952,
+       "precision": 0,
+       "precisionFrom": "adjudicated random stratum",
+       "errors": 0
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 319,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 63.800000000000004
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 1350.3333333333333,
+     "per10": 6.917691256830601,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 1350,
+       "precision": 1,
+       "precisionFrom": "report golden 9/9",
+       "errors": 1350
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 2,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0.3333333333333333
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 15.8,
+     "per10": 0.08094262295081966,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 17,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 15.3
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 3,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 1,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0.5
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 3,
+     "per10": 0.015368852459016393,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 3,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 3
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 1,
+     "per10": 0.005122950819672132,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 1,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 1
+      }
+     ],
+     "unmatched": {
+      "count": 2390,
+      "per10": 12.243852459016393
+     }
+    }
+   }
+  },
+  "columbia-accident": {
+   "id": "columbia-accident",
+   "pages": 240,
+   "per10": 8.246261882499612,
+   "letter": "C",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 158.78709677419357,
+     "per10": 6.6161290322580655,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 268,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 112.38709677419355
+      },
+      {
+       "source": "page breaks (reference, all) 5/29 wrong x 240 pages",
+       "count": 240,
+       "precision": 0.1724137931034483,
+       "precisionFrom": "adjudicated, all strata (biased up)",
+       "errors": 41.37931034482759
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 232,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 46.400000000000006
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 32.6231884057971,
+     "per10": 1.3592995169082125,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 89,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 30.956521739130434
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 10,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 1.6666666666666665
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 4.5,
+     "per10": 0.1875,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 5,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 4.5
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 1,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 2,
+     "per10": 0.08333333333333333,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 2,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 2
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 885,
+      "per10": 36.875
+     }
+    }
+   }
+  },
+  "us-911-commission": {
+   "id": "us-911-commission",
+   "pages": 450,
+   "per10": 0.7931400966183574,
+   "letter": "A",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "indicative",
+     "graded": false,
+     "errors": 2637.339487400644,
+     "per10": 58.60754416445875,
+     "letter": "F",
+     "terms": [
+      {
+       "source": "page-level WER over 299 pages",
+       "count": 2637,
+       "precision": 1,
+       "precisionFrom": "unknown",
+       "errors": 2637.339487400644
+      }
+     ],
+     "note": "WER x words per page; shown, not graded (precision as reader errors unmeasured)"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 20.4,
+     "per10": 0.4533333333333333,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 140,
+       "precision": 0.14285714285714285,
+       "precisionFrom": "report golden 1/7",
+       "errors": 20
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 2,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 0.4
+      }
+     ],
+     "note": "served from a clean edition: page breaks taken as whole"
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 9.891304347826086,
+     "per10": 0.21980676328502413,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 27,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 9.391304347826086
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 3,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0.5
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 5.4,
+     "per10": 0.12,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 6,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 5.4
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 6,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 395,
+      "per10": 8.777777777777779
+     }
+    }
+   }
+  },
+  "us-deepwater-horizon": {
+   "id": "us-deepwater-horizon",
+   "pages": 334,
+   "per10": 4.656037154302895,
+   "letter": "C",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 38.929032258064524,
+     "per10": 1.1655398879660037,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 79,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 33.12903225806452
+      },
+      {
+       "source": "page breaks (mini-reference, random) 0/13 wrong x 334 pages",
+       "count": 334,
+       "precision": 0,
+       "precisionFrom": "adjudicated random stratum",
+       "errors": 0
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 29,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 5.800000000000001
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 114.78260869565217,
+     "per10": 3.436605050768029,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 330,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 114.78260869565217
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 0,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 1.8,
+     "per10": 0.05389221556886228,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 2,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 1.8
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 29,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 555,
+      "per10": 16.61676646706587
+     }
+    }
+   }
+  },
+  "us-v-philip-morris": {
+   "id": "us-v-philip-morris",
+   "pages": 1682,
+   "per10": 2.733170956234897,
+   "letter": "B",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 442.4193548387097,
+     "per10": 2.6303172106938746,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 931,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 390.4193548387097
+      },
+      {
+       "source": "page breaks (reference, all) 0/30 wrong x 1682 pages",
+       "count": 1682,
+       "precision": 0,
+       "precisionFrom": "adjudicated, all strata (biased up)",
+       "errors": 0
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 260,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 52
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 4.5,
+     "per10": 0.0267538644470868,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 0,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 0
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 27,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 4.5
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 10.8,
+     "per10": 0.06420927467300833,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 12,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 10.8
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 0,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 2,
+     "per10": 0.011890606420927466,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 1,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 1
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 1,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 1
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 168,
+      "per10": 0.9988109393579072
+     }
+    }
+   }
+  },
+  "uk-hillsborough-panel": {
+   "id": "uk-hillsborough-panel",
+   "pages": 371,
+   "per10": 3.907818979824061,
+   "letter": "C",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 6.232258064516129,
+     "per10": 0.16798539257455875,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 12,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 5.032258064516129
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 6,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 1.2000000000000002
+      }
+     ],
+     "note": "served from a clean edition: page breaks taken as whole"
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 24.34782608695652,
+     "per10": 0.6562756357670221,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 70,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 24.34782608695652
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 0,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 1.4,
+     "per10": 0.03773584905660377,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 1,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 0.9
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 7,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 1,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0.5
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 113,
+     "per10": 3.045822102425876,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 15,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 15
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 12,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 12
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 86,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 86
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 853,
+      "per10": 22.99191374663073
+     }
+    }
+   }
+  },
+  "uk-saville-inquiry": {
+   "id": "uk-saville-inquiry",
+   "pages": 472,
+   "per10": 2.6594717949937006,
+   "letter": "B",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 65.30967741935484,
+     "per10": 1.3836796063422634,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 16,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 6.709677419354839
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 293,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 58.6
+      }
+     ],
+     "note": "served from a clean edition: page breaks taken as whole"
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 53.71739130434783,
+     "per10": 1.1380803242446573,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 153,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 53.21739130434783
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 3,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0.5
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 6.5,
+     "per10": 0.13771186440677965,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 0,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 0
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 24,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 13,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 6.5
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 456,
+      "per10": 9.661016949152541
+     }
+    }
+   }
+  },
+  "uk-chilcot-inquiry": {
+   "id": "uk-chilcot-inquiry",
+   "pages": 145,
+   "per10": 0.84910770421241,
+   "letter": "A",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "indicative",
+     "graded": false,
+     "errors": 75.39230075507064,
+     "per10": 5.1994690175910785,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "page-level WER over 142 pages",
+       "count": 75,
+       "precision": 1,
+       "precisionFrom": "unknown",
+       "errors": 75.39230075507064
+      }
+     ],
+     "note": "WER x words per page; shown, not graded (precision as reader errors unmeasured)"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 7.290322580645162,
+     "per10": 0.5027808676307008,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 15,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 6.290322580645162
+      },
+      {
+       "source": "page breaks (reference, all) 1/30 wrong x 145 pages",
+       "count": 145,
+       "precision": 0.03333333333333333,
+       "precisionFrom": "adjudicated, all strata (biased up)",
+       "errors": 4.833333333333333
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 5,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 1
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 5.021739130434782,
+     "per10": 0.3463268365817091,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 13,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 4.521739130434782
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 3,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0.5
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 0,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 0
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 0,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 33,
+      "per10": 2.2758620689655173
+     }
+    }
+   }
+  },
+  "us-lehman-examiner": {
+   "id": "us-lehman-examiner",
+   "pages": 522,
+   "per10": 1.7792197091418451,
+   "letter": "B",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 78.34193548387097,
+     "per10": 1.5008033617599803,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 121,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 50.74193548387097
+      },
+      {
+       "source": "page breaks (mini-reference, random) 0/14 wrong x 522 pages",
+       "count": 522,
+       "precision": 0,
+       "precisionFrom": "adjudicated random stratum",
+       "errors": 0
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 138,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 27.6
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0.8333333333333333,
+     "per10": 0.015964240102171137,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 0,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 0
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 5,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0.8333333333333333
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 11.700000000000001,
+     "per10": 0.2241379310344828,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 13,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 11.700000000000001
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 2,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 2,
+     "per10": 0.038314176245210725,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 2,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 2
+      }
+     ],
+     "unmatched": {
+      "count": 13,
+      "per10": 0.24904214559386972
+     }
+    }
+   }
+  },
+  "uk-post-office-horizon-inquiry": {
+   "id": "uk-post-office-horizon-inquiry",
+   "pages": 164,
+   "per10": 0.7363025804171086,
+   "letter": "A",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 5.466666666666667,
+     "per10": 0.3333333333333333,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 13,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 5.451612903225807
+      },
+      {
+       "source": "page breaks (reference, all) 1/30 wrong x 164 pages",
+       "count": 164,
+       "precision": 0.03333333333333333,
+       "precisionFrom": "adjudicated, all strata (biased up)",
+       "errors": 5.466666666666667
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 17,
+       "precision": 0,
+       "precisionFrom": "report golden 0/8",
+       "errors": 0
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 6.608695652173913,
+     "per10": 0.40296924708377524,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 19,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 6.608695652173913
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 0,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 0,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 0
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 1,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 0,
+      "per10": 0
+     }
+    }
+   }
+  },
+  "us-jan6-committee": {
+   "id": "us-jan6-committee",
+   "pages": 522,
+   "per10": 2.119528945204817,
+   "letter": "B",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 59.174193548387095,
+     "per10": 1.1336052403905574,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 133,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 55.774193548387096
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 17,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 3.4000000000000004
+      }
+     ],
+     "note": "served from a clean edition: page breaks taken as whole"
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 24.065217391304348,
+     "per10": 0.46101949025487254,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 62,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 21.565217391304348
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 15,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 2.5
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 14.4,
+     "per10": 0.27586206896551724,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 16,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 14.4
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 17,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 13,
+     "per10": 0.24904214559386972,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 10,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 10
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 3,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 3
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 0,
+      "per10": 0
+     }
+    }
+   }
+  },
+  "uk-grenfell-tower-inquiry": {
+   "id": "uk-grenfell-tower-inquiry",
+   "pages": 215,
+   "per10": 1.4905965621840243,
+   "letter": "B",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 7.366666666666667,
+     "per10": 0.3426356589147287,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 2,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 0.8387096774193549
+      },
+      {
+       "source": "page breaks (reference, all) 1/30 wrong x 215 pages",
+       "count": 215,
+       "precision": 0.03333333333333333,
+       "precisionFrom": "adjudicated, all strata (biased up)",
+       "errors": 7.166666666666667
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 1,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 0.2
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 24.681159420289852,
+     "per10": 1.1479609032692955,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 70,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 24.34782608695652
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 2,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0.3333333333333333
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 0,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 0
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 1,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "unmatched": {
+      "count": 0,
+      "per10": 0
+     }
+    }
+   }
+  },
+  "us-senate-cia-torture-report": {
+   "id": "us-senate-cia-torture-report",
+   "pages": 709,
+   "per10": 10.941643901194224,
+   "letter": "D",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 73.84516129032258,
+     "per10": 1.0415396514855089,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 116,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 48.645161290322584
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 126,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 25.200000000000003
+      }
+     ],
+     "note": "page breaks unmeasured (no reference, no mini-reference)"
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 44.21739130434783,
+     "per10": 0.6236585515422824,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 107,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 37.21739130434783
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 42,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 7
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 480.7,
+     "per10": 6.7799717912552895,
+     "letter": "C",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 523,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 470.7
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 71,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 20,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 10
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 174,
+     "per10": 2.454160789844852,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 5,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 5
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 22,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 22
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 147,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 147
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 3,
+     "per10": 0.042313117066290554,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 3,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 3
+      }
+     ],
+     "unmatched": {
+      "count": 74,
+      "per10": 1.0437235543018337
+     }
+    }
+   }
+  },
+  "us-mueller-report": {
+   "id": "us-mueller-report",
+   "pages": 389,
+   "per10": 12.27523011858363,
+   "letter": "D",
+   "publishable": false,
+   "below": [
+    "notes"
+   ],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 33.80645161290323,
+     "per10": 0.869060452773862,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 52,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 21.806451612903228
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 60,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 12
+      }
+     ],
+     "note": "page breaks unmeasured (no reference, no mini-reference)"
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 14.5,
+     "per10": 0.37275064267352187,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 455,
+       "precision": 0,
+       "precisionFrom": "report golden 0/5",
+       "errors": 0
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 87,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 14.5
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 421.2,
+     "per10": 10.827763496143959,
+     "letter": "D",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 468,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 421.2
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 31,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 8,
+     "per10": 0.2056555269922879,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 5,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 5
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 3,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 3
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "note": "no aliases.yaml: no id has been lost or moved since first publication",
+     "unmatched": {
+      "count": 0,
+      "per10": 0
+     }
+    }
+   }
+  },
+  "uk-covid-inquiry-module-2": {
+   "id": "uk-covid-inquiry-module-2",
+   "pages": 451,
+   "per10": 3.3515215784568912,
+   "letter": "C",
+   "publishable": false,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 114.03333333333333,
+     "per10": 2.528455284552846,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 102,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 42.774193548387096
+      },
+      {
+       "source": "page breaks (reference, all) 7/30 wrong x 451 pages",
+       "count": 451,
+       "precision": 0.23333333333333334,
+       "precisionFrom": "adjudicated, all strata (biased up)",
+       "errors": 105.23333333333333
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 44,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 8.8
+      }
+     ]
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 18.92028985507246,
+     "per10": 0.41951862206369095,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 52,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 18.08695652173913
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 5,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0.8333333333333333
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 7.2,
+     "per10": 0.15964523281596452,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 8,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 7.2
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 42,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 11,
+     "per10": 0.24390243902439024,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 6,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 6
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 5,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 5
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "note": "no aliases.yaml: no id has been lost or moved since first publication",
+     "unmatched": {
+      "count": 0,
+      "per10": 0
+     }
+    }
+   }
+  },
+  "us-ica-2017-russia-elections": {
+   "id": "us-ica-2017-russia-elections",
+   "pages": 18,
+   "per10": 2.5572697522206638,
+   "letter": "B",
+   "publishable": true,
+   "below": [],
+   "dimensions": {
+    "words": {
+     "key": "words",
+     "basis": "unmeasured",
+     "graded": false,
+     "errors": null,
+     "per10": null,
+     "letter": null,
+     "terms": [],
+     "note": "no page-level reference"
+    },
+    "paragraphs": {
+     "key": "paragraphs",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 2.5161290322580645,
+     "per10": 1.3978494623655913,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle paragraphs-oversplit",
+       "count": 6,
+       "precision": 0.41935483870967744,
+       "precisionFrom": "pooled golden 13/31",
+       "errors": 2.5161290322580645
+      },
+      {
+       "source": "oracle quotes-spurious",
+       "count": 0,
+       "precision": 0.2,
+       "precisionFrom": "pooled golden 3/15",
+       "errors": 0
+      }
+     ],
+     "note": "served from a clean edition: page breaks taken as whole"
+    },
+    "headings": {
+     "key": "headings",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 2.0869565217391304,
+     "per10": 1.1594202898550725,
+     "letter": "B",
+     "terms": [
+      {
+       "source": "oracle headings-missed",
+       "count": 6,
+       "precision": 0.34782608695652173,
+       "precisionFrom": "pooled golden 16/46",
+       "errors": 2.0869565217391304
+      },
+      {
+       "source": "oracle headings-spurious",
+       "count": 0,
+       "precision": 0.16666666666666666,
+       "precisionFrom": "prior (0+1)/(4+2)",
+       "errors": 0
+      }
+     ]
+    },
+    "notes": {
+     "key": "notes",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "oracle markers-unlinked",
+       "count": 0,
+       "precision": 0.9,
+       "precisionFrom": "pooled golden 9/10",
+       "errors": 0
+      },
+      {
+       "source": "oracle markers-spurious",
+       "count": 0,
+       "precision": 0,
+       "precisionFrom": "pooled golden 0/14",
+       "errors": 0
+      },
+      {
+       "source": "oracle note-off-page",
+       "count": 0,
+       "precision": 0.5,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "pages": {
+     "key": "pages",
+     "basis": "estimated",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "anchors markers-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors pages-unmarked (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      },
+      {
+       "source": "anchors blocks-wrong (budget)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "assumed",
+       "errors": 0
+      }
+     ]
+    },
+    "ids": {
+     "key": "ids",
+     "basis": "measured",
+     "graded": true,
+     "errors": 0,
+     "per10": 0,
+     "letter": "A",
+     "terms": [
+      {
+       "source": "aliases reused (old ?p= link lands on other text)",
+       "count": 0,
+       "precision": 1,
+       "precisionFrom": "exact",
+       "errors": 0
+      }
+     ],
+     "note": "no aliases.yaml: no id has been lost or moved since first publication",
+     "unmatched": {
+      "count": 0,
+      "per10": 0
+     }
+    }
+   }
+  }
+ }
+}

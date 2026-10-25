@@ -16,6 +16,38 @@
     "match": 5,
     "total": 8,
     "known": 3
+   },
+   "goldenOracle": {
+    "headings-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "markers-unlinked": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 0
+    },
+    "markers-spurious": {
+     "tp": 0,
+     "fp": 8,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 10,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    }
    }
   },
   "us-psi-financial-crisis": {
@@ -34,6 +66,23 @@
     "match": 6,
     "total": 7,
     "known": 1
+   },
+   "goldenOracle": {
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 13,
+     "fn": 0
+    },
+    "quotes-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    }
    }
   },
   "challenger-accident": {
@@ -52,6 +101,38 @@
     "match": 3,
     "total": 7,
     "known": 4
+   },
+   "goldenOracle": {
+    "headings-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "markers-unlinked": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 3
+    },
+    "markers-spurious": {
+     "tp": 0,
+     "fp": 5,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 10
+    },
+    "paragraphs-merged": {
+     "tp": 3,
+     "fp": 36,
+     "fn": 0
+    },
+    "quotes-spurious": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 6
+    }
    }
   },
   "litvinenko-inquiry": {
@@ -70,6 +151,28 @@
     "match": 2,
     "total": 8,
     "known": 6
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 5,
+     "fp": 0,
+     "fn": 2
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 3
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 1
+    },
+    "quotes-spurious": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0
+    }
    }
   },
   "uk-leveson-inquiry": {
@@ -88,6 +191,28 @@
     "match": 1,
     "total": 7,
     "known": 6
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 9,
+     "fp": 0,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 5,
+     "fp": 0,
+     "fn": 1
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 4,
+     "fn": 0
+    },
+    "quotes-spurious": {
+     "tp": 1,
+     "fp": 2,
+     "fn": 0
+    }
    }
   },
   "columbia-accident": {
@@ -106,6 +231,28 @@
     "match": 4,
     "total": 6,
     "known": 2
+   },
+   "goldenOracle": {
+    "markers-unlinked": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 3,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 30,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 7,
+     "fn": 0
+    }
    }
   },
   "us-911-commission": {
@@ -124,6 +271,28 @@
     "match": 5,
     "total": 6,
     "known": 1
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 4,
+     "fn": 1
+    },
+    "paragraphs-oversplit": {
+     "tp": 1,
+     "fp": 6,
+     "fn": 1
+    },
+    "paragraphs-merged": {
+     "tp": 1,
+     "fp": 6,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 1,
+     "fp": 6,
+     "fn": 0
+    }
    }
   },
   "us-deepwater-horizon": {
@@ -142,6 +311,28 @@
     "match": 3,
     "total": 6,
     "known": 3
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 4,
+     "fn": 0
+    },
+    "markers-spurious": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 4
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 12,
+     "fn": 0
+    }
    }
   },
   "us-v-philip-morris": {
@@ -160,6 +351,38 @@
     "match": 1,
     "total": 5,
     "known": 4
+   },
+   "goldenOracle": {
+    "headings-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "markers-unlinked": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 4
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 7,
+     "fn": 0
+    },
+    "quotes-spurious": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 3
+    },
+    "quotes-missed": {
+     "tp": 1,
+     "fp": 2,
+     "fn": 0
+    }
    }
   },
   "uk-hillsborough-panel": {
@@ -178,6 +401,18 @@
     "match": 7,
     "total": 7,
     "known": 0
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 6,
+     "fn": 0
+    }
    }
   },
   "uk-saville-inquiry": {
@@ -196,6 +431,28 @@
     "match": 5,
     "total": 5,
     "known": 0
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 4,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 27,
+     "fn": 0
+    },
+    "quotes-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 0
+    }
    }
   },
   "uk-chilcot-inquiry": {
@@ -214,6 +471,23 @@
     "match": 4,
     "total": 5,
     "known": 1
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 6,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    }
    }
   },
   "us-lehman-examiner": {
@@ -232,6 +506,13 @@
     "match": 4,
     "total": 5,
     "known": 1
+   },
+   "goldenOracle": {
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    }
    }
   },
   "uk-post-office-horizon-inquiry": {
@@ -250,6 +531,38 @@
     "match": 4,
     "total": 5,
     "known": 1
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "markers-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 1
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 8,
+     "fn": 0
+    },
+    "quotes-spurious": {
+     "tp": 0,
+     "fp": 8,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    }
    }
   },
   "us-jan6-committee": {
@@ -268,6 +581,28 @@
     "match": 5,
     "total": 5,
     "known": 0
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 11,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 0
+    }
    }
   },
   "uk-grenfell-tower-inquiry": {
@@ -286,6 +621,18 @@
     "match": 7,
     "total": 7,
     "known": 0
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 4,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 3,
+     "fn": 0
+    }
    }
   },
   "us-senate-cia-torture-report": {
@@ -304,6 +651,38 @@
     "match": 6,
     "total": 10,
     "known": 4
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "headings-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "markers-unlinked": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 2
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 13,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    }
    }
   },
   "us-mueller-report": {
@@ -322,6 +701,33 @@
     "match": 4,
     "total": 6,
     "known": 2
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 5,
+     "fn": 0
+    },
+    "markers-unlinked": {
+     "tp": 4,
+     "fp": 0,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 1
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 13,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 5,
+     "fn": 0
+    }
    }
   },
   "uk-covid-inquiry-module-2": {
@@ -340,6 +746,28 @@
     "match": 4,
     "total": 6,
     "known": 2
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 3,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2
+    },
+    "paragraphs-merged": {
+     "tp": 1,
+     "fp": 11,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 0
+    }
    }
   },
   "us-ica-2017-russia-elections": {
@@ -358,6 +786,28 @@
     "match": 7,
     "total": 7,
     "known": 0
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 3,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 31,
+     "fn": 0
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 9,
+     "fn": 0
+    }
    }
   }
  },

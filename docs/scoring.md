@@ -23,6 +23,35 @@
 
 **The release scorecard.** `pnpm scorecard` assembles `pnpm quality report --diff`, the layout-oracle counts per report, the golden-page table and the oracle's precision against it (from `pnpm ingest verify`; `reports/verify-last.json` is the recorded base), and the `scores.json` diff against `origin/main`, with a checklist, for the PR body of every ingest release (steps in [`scripts/ingest/README.md`](../scripts/ingest/README.md)). Lessons from each release go in [`design/lessons/`](design/lessons/README.md).
 
+## The quality bar: one grade per report
+
+One number per report: the errors a reader meets per 10 pages, over six reader-facing dimensions, each built from a measurement we already record (reportsthatmatter-38s.16; `pnpm grade`, 38s.19). The table is [`reports/grades.md`](../reports/grades.md) (generated; `reports/grades.json` has every term, `reports/grades-history.jsonl` one line per recorded run).
+
+**Thresholds and the bar (decision [0030](decisions/0030-publishable-grade-bar.md), Rufus, 2026-10-16).** Errors per 10 pages, per dimension and summed: **A <= 1, B <= 3, C <= 10, D <= 30, F above.** **B or better, with no graded dimension below C, is the publishable bar.** Grades are **not shown on the site**: they stay in the repo (`pnpm grade`), not on `/reports/<id>/processing`, until a later decision says otherwise.
+
+**From counts to errors.** A check's count times its measured precision is an estimated error count; divided by the report's pages (`%%page` markers in the served `full.md`) and times 10, errors per 10 pages. Precision is the oracle's against the golden pages: the report's own when it has at least 5 counted findings there, else pooled over every golden page, else a Laplace prior on the pooled counts, `(tp+1)/(n+2)` (per-report counts are `goldenOracle` in `reports/verify-last.json`, pooled `oracleVsGolden`). Each cell says how it was got: measured (exact counts or the report's own precision), `~` estimated (a pooled, prior or assumed precision in it), `?` indicative (shown, not graded), `–` unmeasured.
+
+| dimension | what counts | precision | unmeasured where |
+|---|---|---|---|
+| W words right | page-level WER x words per page (`wer_pages` in `scores.json`) | unknown: **shown, not graded** (decision 0035) | every report but 9/11 and Chilcot; b78.6 (sampled LLM review) and 38s.3 (vision gold) would measure it |
+| P paragraphs right | the larger of oracle `paragraphs-oversplit` and page-break errors (the two overlap), plus oracle `quotes-spurious` | golden pages; page breaks: the adjudicated error rate (mini-reference random stratum from `reports/referee-last.json`, else "ours wrong / judged" in `scores.json`) x pages | page breaks on Mueller and the Senate CIA report (no reference, no mini-reference: 38s.15); mid-page merges (`paragraphs-merged` counts conventions: 2% precision); a `cleanEdition` report's page breaks are taken as whole |
+| H headings and structure | oracle `headings-missed` + `headings-spurious` | golden pages | heading levels |
+| N notes linked correctly | oracle `markers-unlinked` + `markers-spurious` + `note-off-page` | golden pages; `note-off-page` assumed 50% | a marker linked to the wrong note |
+| G page citations right | page anchors `markers-wrong` + `pages-unmarked` + `blocks-wrong` (`reports/anchor-budget.yaml`: the ratcheted budget, an upper bound) | assumed 100% | `markers-stacked` (a block over several pages cited with its first page: a convention) |
+| I ids citable and stable | `reused` ids in `reports/<id>/aliases.yaml` (an old `?p=` link that lands on other text); `unmatched` (one that finds nothing) is **shown, not graded** (decision 0035) | exact | links made to an id; no `aliases.yaml` means no id has been lost |
+
+Not double counted: a page-break error is also an oversplit or a merge, so P takes the larger. Not counted at all: `paragraphs-merged` and `quotes-missed` (they count the pipeline's conventions, docs/quality-harness.md), and anything no check sees. Recall is ignored, so every grade is a floor on the errors, not an estimate of all of them: the oracle's recall on the hard golden pages is 35% for oversplits.
+
+```bash
+pnpm grade                     # the table; writes reports/grades.json and reports/grades.md
+pnpm grade <id>                # also each term: count x precision [where the precision came from] = errors
+pnpm grade --diff [<ref>]      # letter and dimension moves against reports/grades.json at <ref> (default origin/main)
+pnpm grade --record            # also append to reports/grades-history.jsonl (the release's record step runs this)
+pnpm grade --record-referee    # re-run referee eval on the mini-references first; rewrites reports/referee-last.json
+```
+
+`pnpm scorecard` carries the grade moves against the base, using its own verify run's oracle counts. The four choices above that are not settled by data (unmatched ids, words, the assumed precisions, the biased reference page-break rate) are proposed in decision [0035](decisions/0035-grade-method.md).
+
 ## Commands
 
 ```bash
