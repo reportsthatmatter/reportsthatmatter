@@ -570,3 +570,40 @@ marks:
       Body text is thin line work, so at 92px the row reads as a block of
       grey lines rather than legible words; it is the shape of a document, as
       with Jack Smith's page. If it reads as noise, raise black.
+
+  - id: thirlwall
+    set: plate
+    report: uk-thirlwall-inquiry
+    pdf: archive/thirlwall-inquiry-summary-report-hc601.pdf
+    page: 40
+    dpi: 300
+    # Text ink measured on the 300dpi page (pdftoppm -gray, pixels below 200):
+    # the paragraph, number included, spans x 237-2193, y 2552-2656. The
+    # neighbouring paragraphs end at y 2492 and start at y 2716, so the box
+    # takes about 30px of margin top and bottom and about 20px at the sides,
+    # and carries no running head, folio or other paragraph.
+    crop: [215, 2520, 2000, 168]
+    subject: >-
+      Typographic: paragraph 3.47 of the Inquiry's summary report, PDF p.40
+      (printed p.35), in full: "All the safeguarding guidance in the world makes
+      no difference to the safety of babies if those to whom concerns are
+      expressed do nothing." The exhibit is the finding the chapter turns on,
+      in the report's own words. The PDF has no images at all (pdfimages lists
+      none; Volume I has none either), so this is a typographic plate, as for
+      the ICA 2017 assessment. Avoided on purpose: any image of babies, cots,
+      incubators, the hospital, any person, memorials or flowers (the harm
+      falls on a living community of bereaved families), and any inquiry logo.
+      No baby, family or individual is named.
+    rights: >-
+      Crown copyright, reproduced under the Open Government Licence v3.0, as
+      printed on the title verso of the report (HC 601). The plate is the plain
+      text of the report's own page, with no logo or insignia.
+    treat: { black: 0.30, white: 0.90, grain: 40, cut: none }
+    caveat: >-
+      One sentence set as two long lines, so the crop is about 12:1 and the
+      plate is a thin strip: at 92px it is a hair-thin band of grey, not
+      legible words, and at 300px the type is still small. A shape of a
+      document, not a picture. If a later editorial pass wants more mass,
+      crop a taller box that includes 3.46 or 3.48, but that is no longer the
+      one-sentence paragraph. Re-check against the printed page if the PDF is
+      reissued.
