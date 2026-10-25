@@ -80,7 +80,11 @@ export type Selection =
  * The next item: the first unposted one in `scheduled` order (queue order
  * breaks ties) whose date has arrived. Past-due items are not skipped, so a
  * missed day is made up one post at a time, never in a burst. At most one
- * item is posted per UTC day.
+ * item is posted per UTC day. An item still waiting for its hook
+ * (`needs_hook`, no `hook`) is skipped, not posted and not a stop: its text
+ * is the over-length quote form, which `validateItem` refuses, and one such
+ * item must not halt every later post (reportsthatmatter-irro). Once its hook
+ * is written it is the oldest due item again and posts next.
  */
 export function selectNext(items: readonly PosterItem[], today: string): Selection {
   const postedToday = items.find((i) => i.posted_url && utcDay(i.posted_at) === today);
@@ -90,12 +94,19 @@ export function selectNext(items: readonly PosterItem[], today: string): Selecti
 
   const due = items
     .map((item, index) => ({ item, index }))
-    .filter(({ item }) => !item.posted_url && item.scheduled <= today)
+    .filter(({ item }) => !item.posted_url && item.scheduled <= today && !awaitsHook(item))
     .sort((a, b) => (a.item.scheduled < b.item.scheduled ? -1 : a.item.scheduled > b.item.scheduled ? 1 : a.index - b.index));
   if (due.length) return { kind: "item", item: due[0].item };
 
-  const waiting = items.filter((i) => !i.posted_url).map((i) => i.scheduled).sort()[0];
-  return { kind: "none", reason: waiting ? `nothing due until ${waiting}` : "the queue is empty or fully posted" };
+  const skipped = items.filter((i) => !i.posted_url && i.scheduled <= today && awaitsHook(i)).map((i) => i.id);
+  const waiting = items.filter((i) => !i.posted_url && !awaitsHook(i)).map((i) => i.scheduled).sort()[0];
+  const why = waiting ? `nothing due until ${waiting}` : "the queue is empty or fully posted";
+  return { kind: "none", reason: skipped.length ? `${why} (skipped, waiting for a hook: ${skipped.join(", ")})` : why };
+}
+
+/** Queued only to carry a hook (its quote form is over the limit) and none is written yet: not postable (f9we, irro). */
+export function awaitsHook(item: Pick<PosterItem, "needs_hook" | "hook">): boolean {
+  return item.needs_hook === true && !item.hook?.trim();
 }
 
 /** Which of the account's recent posts is this item, if any: same deep link in its card, or the exact same text. */
