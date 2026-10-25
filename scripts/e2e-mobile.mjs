@@ -349,6 +349,26 @@ for (const profile of profiles) {
   await page.goto(base + `/reports/${REPORT}/full`, { waitUntil: "networkidle" });
   check((await page.locator(".site-footer-follow").count()) === 0, `${tag} reading pages carry no follow line`);
 
+  // ---------- footnotes open and close by touch (3rj) ----------
+
+  {
+    const note = page.locator(".sidenote-checkbox:has(+ .sidenote.long) + .sidenote.long").first();
+    const marker = page.locator(".sidenote-checkbox:has(+ .sidenote.long)").first().locator("xpath=preceding-sibling::label[1]");
+    const shown = () => note.evaluate((el) => getComputedStyle(el).display !== "none");
+    check(!(await shown()), `${tag} a footnote is closed until its marker is tapped`);
+    await marker.scrollIntoViewIfNeeded();
+    await marker.click();
+    const open = await shown();
+    const less = await note.locator(".sidenote-expand").evaluate((el) => ({
+      visible: el.getBoundingClientRect().height > 0,
+      text: getComputedStyle(el, "::after").content,
+      tall: el.getBoundingClientRect().height,
+    }));
+    check(open && less.visible && /Show less/.test(less.text), `${tag} an open footnote offers Show less`, JSON.stringify(less));
+    await note.locator(".sidenote-expand").click();
+    check(!(await shown()), `${tag} Show less closes the footnote`);
+  }
+
   // ---------- /highlights and /highlights/yours on a phone (bght.10.3, .4) ----------
 
   for (const path of ["/highlights", "/highlights/yours"]) {

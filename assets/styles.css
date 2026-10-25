@@ -1031,6 +1031,38 @@ hr {
   display: none;
 }
 
+/* The checkbox is the note's state. Where a note can be toggled it is visually
+ * hidden rather than display: none, so keyboard users can reach it (Space
+ * toggles; the focus ring is drawn on the note, below). That is long notes on
+ * wide screens and every note on phones. */
+@media (min-width: 68rem) {
+  .sidenote-checkbox:has(+ .sidenote.long) {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 67.99rem) {
+  .sidenote-checkbox {
+    display: inline-block;
+  }
+}
+
+.sidenote-checkbox {
+  /* (display is set above; this is only what "visually hidden" means) */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.sidenote-checkbox:focus-visible + .sidenote:not(.long) {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
 .sidenote {
   font-family: var(--sans);
   font-size: 0.78rem;
@@ -1100,42 +1132,67 @@ hr {
     pointer-events: none;
   }
 
+  /* Expanded: the label stays, now reading "Show less", at the foot of the
+   * note (padding keeps the note's last line clear of it). */
   .sidenote-checkbox:checked + .sidenote.long {
     max-height: none;
-    padding-bottom: 0;
+    padding-bottom: 1.5rem;
   }
 
   .sidenote-checkbox:checked + .sidenote.long::after {
     content: none;
   }
+}
 
+/* The control's words come from CSS so one label can say both things; the
+ * markup's own "Show full note" is hidden by font-size and is not prose (see
+ * NOT_PROSE in dom-text.js). */
+.sidenote-expand {
+  font-size: 0;
+  cursor: pointer;
+}
+
+.sidenote-expand::after {
+  content: "Show full note";
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.sidenote-expand:hover::after {
+  text-decoration: underline;
+}
+
+.sidenote-checkbox:checked + .sidenote .sidenote-expand::after {
+  content: "Show less";
+}
+
+.sidenote-checkbox:focus-visible + .sidenote .sidenote-expand::after {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+@media (min-width: 68rem) {
   .sidenote-expand {
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: 1;
-    cursor: pointer;
-    font-family: var(--mono);
-    font-size: 0.62rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--ink);
-  }
-
-  .sidenote-expand:hover {
-    text-decoration: underline;
-  }
-
-  .sidenote-checkbox:checked + .sidenote.long .sidenote-expand {
-    display: none;
   }
 }
 
 @media (max-width: 67.99rem) {
-  /* Mobile already collapses every note regardless of length — a note that
-   * is open is shown in full, so there is nothing for a second toggle to do. */
+  /* A closed note is not shown, so neither is its control; an open one ends in
+   * the same "Show less" label (long notes), as well as the marker toggle. */
   .sidenote-expand {
     display: none;
+  }
+
+  .sidenote-checkbox:checked + .sidenote .sidenote-expand {
+    display: block;
+    margin-top: 0.6rem;
   }
 }
 
