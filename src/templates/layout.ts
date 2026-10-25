@@ -65,7 +65,9 @@ export function renderHead(title: string, options: HeadOptions = {}): string {
   // reportsthatmatter-obw. A page with something more specific (a report's
   // own card, a curated quote) passes it; this is the floor everything else
   // lands on, rather than a bare-text preview.
-  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, imageAlt, structuredData, noindex, ogType = "website", url, publishedTime, feed } = options;
+  const { description = DEFAULT_DESCRIPTION, image = `${SITE_ORIGIN}${SITE_CARD_PATH}`, imageAlt, structuredData, noindex, ogType = "website", url, publishedTime } = options;
+  // Every page advertises the blog feed, so a reader or a feed reader can find it from anywhere.
+  const feed = options.feed ?? { href: "/blog/feed.xml", title: "Reports that Matter — Blog" };
   const canonical = options.canonical ?? url;
 
   const extraMeta = (options.extraMeta ?? [])

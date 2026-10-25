@@ -415,7 +415,7 @@ app.get("/sitemap.xml", async (c) => {
     { loc: "/newsletter", priority: "0.4" },
   ];
   // Drafts are never in the sitemap.
-  for (const post of parsePosts(await loadPostFiles(sourceMode)).filter(isPublished)) {
+  for (const post of parsePosts(await loadPostFiles(sourceMode)).filter((post) => isPublished(post))) {
     urls.push({ loc: `/blog/${post.slug}`, priority: "0.5" });
   }
 
@@ -487,7 +487,7 @@ app.get("/robots.txt", (c) => {
 
 app.get("/changelog", async (c) => {
   const sourceMode = c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE;
-  const published = parsePosts(await loadPostFiles(sourceMode)).filter(isPublished);
+  const published = parsePosts(await loadPostFiles(sourceMode)).filter((post) => isPublished(post));
   return c.html(
     renderChangelog(await loadChangelog(sourceMode), new Set(published.map((post) => post.slug)))
   );

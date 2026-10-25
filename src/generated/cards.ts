@@ -3,6 +3,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "blog/from-the-archives-1",
   "blog/getting-the-text-right",
   "blog/one-file-per-report",
+  "blog/public-reports-link-to-the-sentence",
   "blog/where-better-source-texts-come-from",
   "challenger-accident/default",
   "challenger-accident/q-39e8d7ee",
