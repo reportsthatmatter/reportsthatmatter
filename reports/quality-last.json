@@ -1,5 +1,5 @@
 {
-  "ingest": "v0.32.0",
+  "ingest": "v0.33.0",
   "recorded": "2026-10-25",
   "reports": {
     "challenger-accident": {
@@ -89,7 +89,7 @@
     "litvinenko-inquiry": {
       "severed-into-quote": 67,
       "severed-paragraph": 6,
-      "severed-paragraph-capital": 41,
+      "severed-paragraph-capital": 35,
       "numbered-paragraph-glued": 0,
       "unnumbered-page-opening": 2,
       "bare-footnote-marker": 0,
@@ -97,15 +97,15 @@
       "note-marker-wrong-note": 0,
       "note-marker-unpaired": 0,
       "note-reference-sequence": 0,
-      "note-text-in-body": 56,
+      "note-text-in-body": 67,
       "note-citation-vocabulary": 0,
-      "furniture-paragraph": 16,
-      "contents-entry-without-heading": 77,
-      "heading-density": 0,
-      "heading-repeated": 0,
+      "furniture-paragraph": 12,
+      "contents-entry-without-heading": 75,
+      "heading-density": 1,
+      "heading-repeated": 4,
       "heading-function-word": 0,
       "heading-marker": 0,
-      "heading-long": 2,
+      "heading-long": 6,
       "printed-page-reversal": 0,
       "rendered-h1": 0,
       "chapter-intro-misfiled": 0,

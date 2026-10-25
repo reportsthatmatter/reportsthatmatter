@@ -137,24 +137,24 @@
   },
   "litvinenko-inquiry": {
    "oracle": {
-    "headings-missed": 220,
-    "headings-spurious": 0,
+    "headings-missed": 51,
+    "headings-spurious": 1,
     "markers-unlinked": 0,
     "markers-spurious": 11,
-    "paragraphs-oversplit": 245,
-    "paragraphs-merged": 1246,
-    "quotes-spurious": 184,
+    "paragraphs-oversplit": 246,
+    "paragraphs-merged": 1227,
+    "quotes-spurious": 183,
     "quotes-missed": 46,
     "note-off-page": 0
    },
    "golden": {
-    "match": 2,
+    "match": 5,
     "total": 8,
-    "known": 6
+    "known": 3
    },
    "goldenOracle": {
     "headings-missed": {
-     "tp": 5,
+     "tp": 0,
      "fp": 0,
      "fn": 2
     },
@@ -813,7 +813,7 @@
  },
  "oracleVsGolden": {
   "headings-missed": {
-   "tp": 17,
+   "tp": 12,
    "fp": 30,
    "fn": 4
   },
