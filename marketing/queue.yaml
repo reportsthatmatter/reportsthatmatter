@@ -83,7 +83,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=fourth-if-we-had-confidence&h=criminal%20conduct%20occurred.%20|Accordingly%2C%20while%20this%20report%20does%20not%20conclude%20that%20the%20President%20committed%20a%20crime%2C%20it%20also%20does%20not%20exonerate%20him.|&src=bsky
     card: assets/cards/us-mueller-report/q-fd5a5b56.png
     scheduled: 2026-10-27
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3myuesf4yc42v
+    posted_at: 2026-10-27T13:47:40.757Z
   - id: us-ica-2017-russia-elections:high-confidence-generally-indicates-judgments:ac3746f2
     report: us-ica-2017-russia-elections
     paragraph: high-confidence-generally-indicates-judgments
