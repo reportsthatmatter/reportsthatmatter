@@ -105,7 +105,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=high-confidence-generally-indicates-judgments&h=information%20from%20multiple%20sources.%20|High%20confidence%20in%20a%20judgment%20does%20not%20imply%20that%20the%20assessment%20is%20a%20fact%20or%20a%20certainty%3B%20such%20judgments%20might%20be%20wrong.|&src=bsky
     card: assets/cards/us-ica-2017-russia-elections/q-21d254b4.png
     scheduled: 2026-10-28
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mywvbdqdyh2w
+    posted_at: 2026-10-28T13:47:41.938Z
   - id: us-psi-financial-crisis:one-point-lippmann-asked-buy:9b909e46
     report: us-psi-financial-crisis
     paragraph: one-point-lippmann-asked-buy
