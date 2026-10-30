@@ -147,7 +147,8 @@ items:
     link: https://reportsthatmatter.org/reports/challenger-accident?p=committee-found-nasa-s-drive&h=|The%20Committee%20found%20that%20NASA's%20drive%20to%20achieve%20a%20launch%20schedule%20of%2024%20flights%20per%20year%20created%20pressure%20throughout%20the%20agency%20that%20directly%20contributed%20to%20unsafe%20launch%20operations.|%20The%20Committee%20believes&src=bsky
     card: assets/cards/challenger-accident/q-7b861b87.png
     scheduled: 2026-10-30
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mz3w74r5zi22
+    posted_at: 2026-10-30T13:47:39.580Z
   - id: us-mueller-report:ira-later-used-social-media:ae66fa60
     report: us-mueller-report
     paragraph: ira-later-used-social-media
