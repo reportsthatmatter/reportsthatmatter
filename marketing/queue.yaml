@@ -168,7 +168,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-mueller-report?p=ira-later-used-social-media&h=|The%20IRA%20later%20used%20social%20media%20accounts%20and%20interest%20groups%20to%20sow%20discord%20in%20the%20U.S.%20political%20system%20through%20what%20it%20termed%20%22information%20warfare.%22|%20The%20campaign%20evolved&src=bsky
     card: assets/cards/us-mueller-report/q-9c2db7b6.png
     scheduled: 2026-10-31
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mz6gnz454o24
+    posted_at: 2026-10-31T13:47:38.821Z
   - id: us-mueller-report:june-14-2017-media-reported:e8497ae0
     report: us-mueller-report
     paragraph: june-14-2017-media-reported
