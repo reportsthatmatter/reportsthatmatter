@@ -250,7 +250,8 @@ items:
     link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=1-2-follows-from-criticisms&h=industry%20has%20with%20the%20PCC.%20|Although%20the%20system%20as%20constituted%20in%20this%20manner%20unravelled%2C%20in%20spectacular%20fashion%2C%20in%20July%202011%2C%20the%20inherent%20weakness%20was%20there%20for%20all%20to%20see%20almost%20from%20the%20very%20start.|&src=bsky
     card: assets/cards/uk-leveson-inquiry/q-ba3f5072.png
     scheduled: 2026-11-04
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mziijpbq4f2n
+    posted_at: 2026-11-04T13:47:39.111Z
   - id: us-v-philip-morris:paramount-significance-defendants-internal-documents:ef5dcf30
     report: us-v-philip-morris
     paragraph: paramount-significance-defendants-internal-documents
