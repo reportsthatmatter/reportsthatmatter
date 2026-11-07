@@ -204,6 +204,8 @@ highlights:
       crew members had dubbed it "the well from hell."
   - paragraph: april-20-bp-macondo-well
     quote: As of April 20, BP and the Macondo well were almost six weeks behind schedule and more than $58 million over budget.
+    card: true
+    tier: A
   - paragraph: ezell-do-you-need-any
     quote: 'Anderson: "No, man. . . . I''ve got this. . . . Go to bed. I''ve got it."'
   - paragraph: if-bp-s-response-capacity

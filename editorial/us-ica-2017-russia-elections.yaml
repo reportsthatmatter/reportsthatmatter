@@ -209,6 +209,7 @@ highlights:
   - paragraph: we-assess-high-confidence-gru
     quote: >-
       Disclosures through WikiLeaks did not contain any evident forgeries.
+    card: true
   - paragraph: russia-collected-some-republican-affiliated-targets
     quote: >-
       Russia collected on some Republican-affiliated targets but did not
@@ -241,3 +242,4 @@ highlights:
       It is important to have a channel that people get used to, and then,
       when needed, you show them what you need to show.
     context: RT's editor in chief, Margarita Simonyan, quoted in Annex A (2012).
+    card: true

@@ -295,14 +295,17 @@ highlights:
     quote: >-
       I simply do not accept that these provisions will have a chilling
       effect on free speech or press freedom.
+    card: true
 
   - paragraph: 1-1-press-complaints-commission
     quote: >-
       The Press Complaints Commission (PCC) has always been a voluntary
       system based on a network of implied contracts.
+    card: true
 
   - paragraph: 3-23-another-revealing-answer
     quote: >-
       This was another revealing answer, since by it Mr Desmond revealed
       what I consider to be a very disturbing philosophical approach to the
       concepts of free speech and a free press.
+    card: true
