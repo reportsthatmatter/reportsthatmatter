@@ -128,17 +128,20 @@ highlights:
     card: true
   - paragraph: throughout-2007-goldman-sold-rmbs
     quote: Throughout 2007, Goldman sold RMBS and CDO securities to its clients without disclosing its own net short position against the subprime market or its purchase of CDS contracts to gain from the loss in value of some of the very securities it was selling to its clients.
+    card: true
   - paragraph: one-point-lippmann-asked-buy
     quote: At one point, Mr. Lippmann was asked to buy a specific CDO security and responded that it "rarely trades," but he "would take it and try to dupe someone" into buying it.
     card: true
   - paragraph: december-2006-email-lippmann-wrote
     quote: '"[W]ho owns the cdos…insurance company and german and asian banks…and high grade cdos (can you say ponzi scheme)[?]"'
+    card: true
   - paragraph: times-some-cra-analysts-openly
     quote: >-
       One analyst wrote: "Rating agencies continue to create and [sic] even bigger monster – the CDO market. Let's hope we are all wealthy and retired by the time this house of cards falters."
     card: true
   - paragraph: result-wamu-particularly-its-long
     quote: Inside the bank, WaMu's President Steve Rotella described Long Beach as "terrible" and "a mess," with default rates that were "ugly."
+    card: true
   - paragraph: result-wamu-particularly-its-long
     quote: Internal reviews of two high volume WaMu loan centers, for example, described "extensive fraud" by employees who "willfully" circumvented bank policies.
   - paragraph: case-study-focuses-how-one
@@ -149,3 +152,4 @@ highlights:
     quote: Analysts have determined that over 90% of the AAA ratings given to subprime RMBS securities originated in 2006 and 2007 were later downgraded by the credit rating agencies to junk status.
   - paragraph: first-chapter-focuses-how-high
     quote: Had the sale not gone through, WaMu's failure might have exhausted the entire $45 billion Deposit Insurance Fund.
+    card: true

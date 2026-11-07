@@ -198,6 +198,7 @@ highlights:
     card: true
   - paragraph: what-sad-disquieting-chapter-history
     quote: What a sad and disquieting chapter in the history of an honorable and often courageous profession.
+    card: true
   - paragraph: defendants-fraudulent-statements-stem-from
     quote: >-
       "Today's teenager is tomorrow's potential regular customer, and the
@@ -211,6 +212,7 @@ highlights:
       during live testimony in January 2005, more than forty years after the
       1964 Surgeon General's Report, Reynolds American Executive Chairman
       Andrew Schindler refused to admit that smoking causes disease.
+    card: true
   - paragraph: defendants-internal-research-reflects-their
     quote: Defendants' internal research reflects their understanding that nicotine is the most important chemical delivered by cigarettes because it is what compels smokers to smoke.
   - paragraph: defendants-spent-many-millions-dollars
@@ -218,6 +220,7 @@ highlights:
       Defendants spent many millions of dollars and thousands of scientist
       hours over decades to ensure that smokers of all brands consumed
       sufficient nicotine to establish and maintain addiction.
+    card: true
   - paragraph: despite-their-internal-acknowledgment-hazards
     quote: >-
       "In fact, there is little evidence -- and certainly nothing which proves

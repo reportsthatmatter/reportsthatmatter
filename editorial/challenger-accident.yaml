@@ -221,6 +221,8 @@ highlights:
     card: true
   - paragraph: information-flaws-joint-design-problems
     quote: NASA chose to continue to fly with a flawed design and to follow a measured, 27-month, corrective program.
+    card: true
+    tier: A
   - paragraph: information-flaws-joint-design-problems
     quote: No one suggested grounding the fleet, nor did NASA embark on a concerted effort to remedy the deficiencies in O-ring performance.
   - paragraph: committee-concurs-dr-feynman-s
@@ -241,5 +243,7 @@ highlights:
     quote: We are equally convinced, however, that the resulting decision to launch was arrived at as a logical conclusion of faulty premises, coupled with a failure to recognize the effect of temperature on the design.
   - paragraph: nasa-s-management-waived-its
     quote: NASA's management waived its own launch commit criteria on January 28, 1986, without a valid technical reason for doing so.
+    card: true
+    tier: A
   - paragraph: committee-has-long-been-proud
     quote: However, all of us-NASA, the Committee, the Congress and the Nation-have learned from the Challenger tragedy that it is wisdom to do so, and it is a reflection of respect for the human fallibility that we all possess.

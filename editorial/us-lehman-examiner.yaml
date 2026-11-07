@@ -153,8 +153,10 @@ highlights:
     quote: Lehman did not disclose its use – or the significant magnitude of its use – of Repo 105 to the Government, to the rating agencies, to its investors, or to its own Board of Directors.
   - paragraph: may-2008-lehman-senior-vice
     quote: Ernst & Young took no steps to question or challenge the non‐disclosure by Lehman of its use of $50 billion of temporary, off‐balance sheet transactions.
+    card: true
   - paragraph: lehman-did-not-publicly-disclose
     quote: By September 12, two days after it publicly reported a $41 billion liquidity pool, the pool actually contained less than $2 billion of readily monetizable assets.
+    card: true
   - paragraph: nagioff-also-had-broader-concerns
     quote: '"every one saw the train wreck coming. 64k question is why didn''t anyone get out of the way???"'
     card: true
@@ -164,6 +166,7 @@ highlights:
     quote: Experimental stress tests conducted in 2008 showed that a large proportion of Lehman's tail risk – perhaps even a large majority of its overall tail risk – lay with the businesses that were previously excluded from the stress testing.
   - paragraph: gelband-removed-from-position-several
     quote: Gelband was removed from the position for several reasons, including that he was not aggressive enough in growing the business in accordance with Fuld's longterm revenue targets.
+    card: true
   - paragraph: lehman-s-business-model-not
     quote: It is no coincidence that no major investment bank still exists with that model.
   - paragraph: lehman-dramatically-ramped-up-its

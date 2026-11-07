@@ -841,3 +841,415 @@ items:
     card: assets/cards/uk-post-office-horizon-inquiry/q-4c378e9c.png
     scheduled: 2026-12-15
     posted_url: null
+  - id: us-psi-financial-crisis:throughout-2007-goldman-sold-rmbs:0b970be7
+    report: us-psi-financial-crisis
+    paragraph: throughout-2007-goldman-sold-rmbs
+    quote: Throughout 2007, Goldman sold RMBS and CDO securities to its clients
+      without disclosing its own net short position against the subprime market
+      or its purchase of CDS contracts to gain from the loss in value of some of
+      the very securities it was selling to its clients.
+    hook: Goldman Sachs designed and underwrote about $100 billion of mortgage
+      securities in 2006 and 2007. In 2007 its bets on a falling market peaked
+      at $13.9 billion. The Senate report turns to its clients.
+    text: >-
+      Goldman Sachs designed and underwrote about $100 billion of mortgage
+      securities in 2006 and 2007. In 2007 its bets on a falling market peaked
+      at $13.9 billion. The Senate report turns to its clients.
+
+
+      — Levin–Coburn Financial Crisis Report, p. 9
+    link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=throughout-2007-goldman-sold-rmbs&h=|Throughout%202007%2C%20Goldman%20sold%20RMBS%20and%20CDO%20securities%20to%20its%20clients%20without%20disclosing%20its%20own%20net%20short%20position%20against%20the%20subprime%20market%20or%20its%20purchase%20of%20CDS%20contracts%20to%20gain%20from%20the%20loss%20in%20value%20of%20some%20of%20the%20very%20securities%20it%20was%20selling%20to%20its%20clients.|&src=bsky
+    card: assets/cards/us-psi-financial-crisis/q-0b165aff.png
+    scheduled: 2026-12-08
+    posted_url: null
+  - id: challenger-accident:information-flaws-joint-design-problems:a39bc67e
+    report: challenger-accident
+    paragraph: information-flaws-joint-design-problems
+    quote: NASA chose to continue to fly with a flawed design and to follow a
+      measured, 27-month, corrective program.
+    hook: Challenger was lost at launch on 28 January 1986, killing its 7 crew.
+      Problems with its booster joints had been briefed at NASA Headquarters,
+      the House Science Committee found. Its report records what NASA did about
+      them.
+    text: >-
+      Challenger was lost at launch on 28 January 1986, killing its 7 crew.
+      Problems with its booster joints had been briefed at NASA Headquarters,
+      the House Science Committee found. Its report records what NASA did about
+      them.
+
+
+      — Challenger Accident Report (House Science Committee), p. 5
+    link: https://reportsthatmatter.org/reports/challenger-accident?p=information-flaws-joint-design-problems&h=O-ring%20performance.%20Rather%2C%20|NASA%20chose%20to%20continue%20to%20fly%20with%20a%20flawed%20design%20and%20to%20follow%20a%20measured%2C%2027-month%2C%20corrective%20program.|&src=bsky
+    card: assets/cards/challenger-accident/q-42516539.png
+    scheduled: 2026-12-07
+    posted_url: null
+  - id: uk-leveson-inquiry:7-8-challenge-goes-too:1c7abcbf
+    report: uk-leveson-inquiry
+    paragraph: 7-8-challenge-goes-too
+    quote: I simply do not accept that these provisions will have a chilling effect
+      on free speech or press freedom.
+    hook: Lord Justice Leveson said that even if every major publisher joined an
+      independent regulator the industry set up itself, he would still recommend
+      a statute behind it. Some said that went too far.
+    text: >-
+      Lord Justice Leveson said that even if every major publisher joined an
+      independent regulator the industry set up itself, he would still recommend
+      a statute behind it. Some said that went too far.
+
+
+      — Leveson Report, p. 1782
+    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=7-8-challenge-goes-too&h=challenge%20that%20this%20goes%20too%20far%2C%20|I%20simply%20do%20not%20accept%20that%20these%20provisions%20will%20have%20a%20chilling%20effect%20on%20free%20speech%20or%20press%20freedom.|%20Neither%20do%20I%20accept%20that&src=bsky
+    card: assets/cards/uk-leveson-inquiry/q-bb4dbf6b.png
+    scheduled: 2027-01-04
+    posted_url: null
+  - id: us-deepwater-horizon:april-20-bp-macondo-well:3376ff93
+    report: us-deepwater-horizon
+    paragraph: april-20-bp-macondo-well
+    quote: As of April 20, BP and the Macondo well were almost six weeks behind
+      schedule and more than $58 million over budget.
+    hook: Six days before the Macondo well blew out under the Deepwater Horizon,
+      killing 11 workers, a BP engineer who helped design it called it a
+      "nightmare well" in an email. BP and its partners had budgeted $96.2
+      million and 51 days.
+    text: >-
+      Six days before the Macondo well blew out under the Deepwater Horizon,
+      killing 11 workers, a BP engineer who helped design it called it a
+      "nightmare well" in an email. BP and its partners had budgeted $96.2
+      million and 51 days.
+
+
+      — Deepwater Horizon Oil Spill Commission Report, p. 2
+    link: https://reportsthatmatter.org/reports/us-deepwater-horizon?p=april-20-bp-macondo-well&h=|As%20of%20April%2020%2C%20BP%20and%20the%20Macondo%20well%20were%20almost%20six%20weeks%20behind%20schedule%20and%20more%20than%20%2458%20million%20over%20budget.|%20The%20Deepwater%20Horizon&src=bsky
+    card: assets/cards/us-deepwater-horizon/q-261b9656.png
+    scheduled: 2026-12-11
+    posted_url: null
+  - id: us-v-philip-morris:what-sad-disquieting-chapter-history:38d352ab
+    report: us-v-philip-morris
+    paragraph: what-sad-disquieting-chapter-history
+    quote: What a sad and disquieting chapter in the history of an honorable and
+      often courageous profession.
+    hook: Judge Gladys Kessler's 2006 ruling against the cigarette companies turns
+      to their lawyers, who, she found, told scientists what research to do and
+      devised policies for destroying documents. Her next sentence is about the
+      legal profession.
+    text: >-
+      Judge Gladys Kessler's 2006 ruling against the cigarette companies turns
+      to their lawyers, who, she found, told scientists what research to do and
+      devised policies for destroying documents. Her next sentence is about the
+      legal profession.
+
+
+      — United States v. Philip Morris (Kessler Opinion), p. 35
+    link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=what-sad-disquieting-chapter-history&h=|What%20a%20sad%20and%20disquieting%20chapter%20in%20the%20history%20of%20an%20honorable%20and%20often%20courageous%20profession.|&src=bsky
+    card: assets/cards/us-v-philip-morris/q-9605123b.png
+    scheduled: 2026-12-13
+    posted_url: null
+  - id: us-mueller-report:president-s-efforts-influence-investigation:ca168ed1
+    report: us-mueller-report
+    paragraph: president-s-efforts-influence-investigation
+    quote: The President's efforts to influence the investigation were mostly
+      unsuccessful, but that is largely because the persons who surrounded the
+      President declined to carry out orders or accede to his requests.
+    hook: On 19 June 2017 the President dictated a message for Attorney General
+      Sessions to his former campaign manager, Corey Lewandowski, who wrote it
+      down as fast as possible. The message was not delivered.
+    text: >-
+      On 19 June 2017 the President dictated a message for Attorney General
+      Sessions to his former campaign manager, Corey Lewandowski, who wrote it
+      down as fast as possible. The message was not delivered.
+
+
+      — Mueller Report, p. 158
+    link: https://reportsthatmatter.org/reports/us-mueller-report?p=president-s-efforts-influence-investigation&h=|The%20President's%20efforts%20to%20influence%20the%20investigation%20were%20mostly%20unsuccessful%2C%20but%20that%20is%20largely%20because%20the%20persons%20who%20surrounded%20the%20President%20declined%20to%20carry%20out%20orders%20or%20accede%20to%20his%20requests.|%20Comey%20did%20not%20end%20the&src=bsky
+    card: assets/cards/us-mueller-report/q-a8365728.png
+    scheduled: 2027-01-13
+    posted_url: null
+  - id: us-ica-2017-russia-elections:we-assess-high-confidence-gru:aed765f5
+    report: us-ica-2017-russia-elections
+    paragraph: we-assess-high-confidence-gru
+    quote: Disclosures through WikiLeaks did not contain any evident forgeries.
+    hook: Putin said publicly it was important the DNC data was exposed to
+      WikiLeaks, while denying Russian "state-level" involvement. The 2017 US
+      intelligence assessment says Russian military intelligence relayed it, and
+      adds one sentence on the releases.
+    text: >-
+      Putin said publicly it was important the DNC data was exposed to
+      WikiLeaks, while denying Russian "state-level" involvement. The 2017 US
+      intelligence assessment says Russian military intelligence relayed it, and
+      adds one sentence on the releases.
+
+
+      — 2017 Intelligence Community Assessment, p. 3
+    link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=we-assess-high-confidence-gru&h=reputation%20for%20authenticity.%20|Disclosures%20through%20WikiLeaks%20did%20not%20contain%20any%20evident%20forgeries.|&src=bsky
+    card: assets/cards/us-ica-2017-russia-elections/q-6aa0d8c7.png
+    scheduled: 2026-12-10
+    posted_url: null
+  - id: us-psi-financial-crisis:december-2006-email-lippmann-wrote:6f138fd7
+    report: us-psi-financial-crisis
+    paragraph: december-2006-email-lippmann-wrote
+    quote: '"[W]ho owns the cdos…insurance company and german and asian banks…and
+      high grade cdos (can you say ponzi scheme)[?]"'
+    hook: Greg Lippmann, who ran CDO trading at Deutsche Bank, expected the
+      securities to lose value. He considered it "shady" when, in 2006,
+      hard-to-sell CDO slices began going into new CDOs. In December 2006 he
+      emailed about where the CDOs were ending up.
+    text: >-
+      Greg Lippmann, who ran CDO trading at Deutsche Bank, expected the
+      securities to lose value. He considered it "shady" when, in 2006,
+      hard-to-sell CDO slices began going into new CDOs. In December 2006 he
+      emailed about where the CDOs were ending up.
+
+
+      — Levin–Coburn Financial Crisis Report, p. 349
+    link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=december-2006-email-lippmann-wrote&h=Lippmann%20wrote%20to%20a%20client%3A%20|%22%5BW%5Dho%20owns%20the%20cdos%E2%80%A6insurance%20company%20and%20german%20and%20asian%20banks%E2%80%A6and%20high%20grade%20cdos%20(can%20you%20say%20ponzi%20scheme)%5B%3F%5D%22|%20In%20early%202007%2C%20he%20wrote%3A&src=bsky
+    card: assets/cards/us-psi-financial-crisis/q-3bbf2749.png
+    scheduled: 2026-12-17
+    posted_url: null
+  - id: challenger-accident:nasa-s-management-waived-its:fb0432fd
+    report: challenger-accident
+    paragraph: nasa-s-management-waived-its
+    quote: NASA's management waived its own launch commit criteria on January 28,
+      1986, without a valid technical reason for doing so.
+    hook: The launch team's intercom was recorded during Challenger's last
+      countdown. The shuttle was lost at launch in January 1986; its 7 crew
+      died. A House committee later went through the tapes and transcripts.
+    text: >-
+      The launch team's intercom was recorded during Challenger's last
+      countdown. The shuttle was lost at launch in January 1986; its 7 crew
+      died. A House committee later went through the tapes and transcripts.
+
+
+      — Challenger Accident Report (House Science Committee), p. 11
+    link: https://reportsthatmatter.org/reports/challenger-accident?p=nasa-s-management-waived-its&h=|NASA's%20management%20waived%20its%20own%20launch%20commit%20criteria%20on%20January%2028%2C%201986%2C%20without%20a%20valid%20technical%20reason%20for%20doing%20so.|&src=bsky
+    card: assets/cards/challenger-accident/q-577dd086.png
+    scheduled: 2026-12-14
+    posted_url: null
+  - id: us-v-philip-morris:defendants-senior-executives-took-witness:da1da514
+    report: us-v-philip-morris
+    paragraph: defendants-senior-executives-took-witness
+    quote: during live testimony in January 2005, more than forty years after the
+      1964 Surgeon General's Report, Reynolds American Executive Chairman Andrew
+      Schindler refused to admit that smoking causes disease.
+    hook: In a post-trial filing the cigarette companies told the court that
+      "Reynolds Concedes That Cigarette Smoking Causes Disease." The judge set
+      that claim against what was said on the witness stand.
+    text: >-
+      In a post-trial filing the cigarette companies told the court that
+      "Reynolds Concedes That Cigarette Smoking Causes Disease." The judge set
+      that claim against what was said on the witness stand.
+
+
+      — United States v. Philip Morris (Kessler Opinion), p. 1634
+    link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=defendants-senior-executives-took-witness&h=institutional%20change.%20For%20example%2C%20|during%20live%20testimony%20in%20January%202005%2C%20more%20than%20forty%20years%20after%20the%201964%20Surgeon%20General's%20Report%2C%20Reynolds%20American%20Executive%20Chairman%20Andrew%20Schindler%20refused%20to%20admit%20that%20smoking%20causes%20disease.|%20Schindler%20TT%2C%201%2F24%2F05%2C&src=bsky
+    card: assets/cards/us-v-philip-morris/q-7345bc94.png
+    scheduled: 2026-12-06
+    posted_url: null
+  - id: us-lehman-examiner:may-2008-lehman-senior-vice:ca959034
+    report: us-lehman-examiner
+    paragraph: may-2008-lehman-senior-vice
+    quote: Ernst & Young took no steps to question or challenge the non‐disclosure
+      by Lehman of its use of $50 billion of temporary, off‐balance sheet
+      transactions.
+    hook: Matthew Lee, a Lehman Brothers senior vice president, alleged accounting
+      improprieties in a May 2008 letter to management. On 12 June he told the
+      auditors, Ernst & Young, about Repo 105. Their response is in the
+      examiner's report.
+    text: >-
+      Matthew Lee, a Lehman Brothers senior vice president, alleged accounting
+      improprieties in a May 2008 letter to management. On 12 June he told the
+      auditors, Ernst & Young, about Repo 105. Their response is in the
+      examiner's report.
+
+
+      — Valukas Report (Lehman Brothers Examiner), p. 21
+    link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=may-2008-lehman-senior-vice&h=the%20Repo%20105%20allegations.%20|Ernst%20%26%20Young%20took%20no%20steps%20to%20question%20or%20challenge%20the%20non%E2%80%90disclosure%20by%20Lehman%20of%20its%20use%20of%20%2450%20billion%20of%20temporary%2C%20off%E2%80%90balance%20sheet%20transactions.|%20Colorable%20claims%20exist&src=bsky
+    card: assets/cards/us-lehman-examiner/q-ec158ce7.png
+    scheduled: 2027-01-19
+    posted_url: null
+  - id: us-mueller-report:march-2016-gru-began-hacking:9a52bcde
+    report: us-mueller-report
+    paragraph: march-2016-gru-began-hacking
+    quote: In March 2016, the GRU began hacking the email accounts of Clinton
+      Campaign volunteers and employees, including campaign chairman John
+      Podesta.
+    hook: The Mueller report says the GRU, the Russian Army's intelligence service,
+      stole hundreds of thousands of documents in 2016. Its summary names the
+      first targets.
+    text: >-
+      The Mueller report says the GRU, the Russian Army's intelligence service,
+      stole hundreds of thousands of documents in 2016. Its summary names the
+      first targets.
+
+
+      — Mueller Report, p. 4
+    link: https://reportsthatmatter.org/reports/us-mueller-report?p=march-2016-gru-began-hacking&h=|In%20March%202016%2C%20the%20GRU%20began%20hacking%20the%20email%20accounts%20of%20Clinton%20Campaign%20volunteers%20and%20employees%2C%20including%20campaign%20chairman%20John%20Podesta.|%20In%20April%202016%2C%20the%20GRU&src=bsky
+    card: assets/cards/us-mueller-report/q-70ae2c48.png
+    scheduled: 2026-12-16
+    posted_url: null
+  - id: us-ica-2017-russia-elections:simonyan-claimed-popular-arts-magazine:0c0a6cbf
+    report: us-ica-2017-russia-elections
+    paragraph: simonyan-claimed-popular-arts-magazine
+    quote: It is important to have a channel that people get used to, and then, when
+      needed, you show them what you need to show.
+    hook: The Kremlin spends $190 million a year distributing RT, says a December
+      2012 analysis reprinted in the 2017 US intelligence assessment. It quotes
+      RT's editor-in-chief, Margarita Simonyan, on what a channel abroad is for.
+    text: >-
+      The Kremlin spends $190 million a year distributing RT, says a December
+      2012 analysis reprinted in the 2017 US intelligence assessment. It quotes
+      RT's editor-in-chief, Margarita Simonyan, on what a channel abroad is for.
+
+
+      — 2017 Intelligence Community Assessment, p. 8
+    link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=simonyan-claimed-popular-arts-magazine&h=magazine%20Afisha%20on%203%20October%3A%20%22|It%20is%20important%20to%20have%20a%20channel%20that%20people%20get%20used%20to%2C%20and%20then%2C%20when%20needed%2C%20you%20show%20them%20what%20you%20need%20to%20show.|%20In%20some%20sense%2C%20not&src=bsky
+    card: assets/cards/us-ica-2017-russia-elections/q-be9093b5.png
+    scheduled: 2027-01-11
+    posted_url: null
+  - id: us-psi-financial-crisis:result-wamu-particularly-its-long:7111c02b
+    report: us-psi-financial-crisis
+    paragraph: result-wamu-particularly-its-long
+    quote: Inside the bank, WaMu's President Steve Rotella described Long Beach as
+      "terrible" and "a mess," with default rates that were "ugly."
+    hook: In 2003 Washington Mutual's CEO, Kerry Killinger, compared his ambitions
+      for the bank to Wal-Mart's. Its subprime securitisations, mostly through
+      its Long Beach arm, grew sixfold by 2006. Its president had words for Long
+      Beach.
+    text: >-
+      In 2003 Washington Mutual's CEO, Kerry Killinger, compared his ambitions
+      for the bank to Wal-Mart's. Its subprime securitisations, mostly through
+      its Long Beach arm, grew sixfold by 2006. Its president had words for Long
+      Beach.
+
+
+      — Levin–Coburn Financial Crisis Report, p. 3
+    link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=result-wamu-particularly-its-long&h=performing%20in%20the%20marketplace.%20|Inside%20the%20bank%2C%20WaMu's%20President%20Steve%20Rotella%20described%20Long%20Beach%20as%20%22terrible%22%20and%20%22a%20mess%2C%22%20with%20default%20rates%20that%20were%20%22ugly.%22|%20WaMu's%20high%20risk%20lending&src=bsky
+    card: assets/cards/us-psi-financial-crisis/q-3ef2db23.png
+    scheduled: 2027-01-07
+    posted_url: null
+  - id: uk-leveson-inquiry:3-23-another-revealing-answer:3df218e2
+    report: uk-leveson-inquiry
+    paragraph: 3-23-another-revealing-answer
+    quote: This was another revealing answer, since by it Mr Desmond revealed what I
+      consider to be a very disturbing philosophical approach to the concepts of
+      free speech and a free press.
+    hook: Asked about his company's coverage of one story, Richard Desmond,
+      proprietor of Express Newspapers, told the Leveson inquiry "we did do
+      wrong" and apologised. Then he talked about regulation. The judge gave his
+      view of that answer.
+    text: >-
+      Asked about his company's coverage of one story, Richard Desmond,
+      proprietor of Express Newspapers, told the Leveson inquiry "we did do
+      wrong" and apologised. Then he talked about regulation. The judge gave his
+      view of that answer.
+
+
+      — Leveson Report, p. 552
+    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=3-23-another-revealing-answer&h=3.23%20|This%20was%20another%20revealing%20answer%2C%20since%20by%20it%20Mr%20Desmond%20revealed%20what%20I%20consider%20to%20be%20a%20very%20disturbing%20philosophical%20approach%20to%20the%20concepts%20of%20free%20speech%20and%20a%20free%20press.|%20For%20him%2C%20at%20the%20end%20of&src=bsky
+    card: assets/cards/uk-leveson-inquiry/q-055fe691.png
+    scheduled: 2027-01-15
+    posted_url: null
+  - id: us-v-philip-morris:defendants-spent-many-millions-dollars:4843a30b
+    report: us-v-philip-morris
+    paragraph: defendants-spent-many-millions-dollars
+    quote: Defendants spent many millions of dollars and thousands of scientist
+      hours over decades to ensure that smokers of all brands consumed
+      sufficient nicotine to establish and maintain addiction.
+    hook: "The tobacco blend, the paper, the filter, the additives: cigarette makers
+      studied how each one affects the nicotine a cigarette delivers. In 2006 a
+      federal judge set out what that work had cost them."
+    text: >-
+      The tobacco blend, the paper, the filter, the additives: cigarette makers
+      studied how each one affects the nicotine a cigarette delivers. In 2006 a
+      federal judge set out what that work had cost them.
+
+
+      — United States v. Philip Morris (Kessler Opinion), p. 1543
+    link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=defendants-spent-many-millions-dollars&h=|Defendants%20spent%20many%20millions%20of%20dollars%20and%20thousands%20of%20scientist%20hours%20over%20decades%20to%20ensure%20that%20smokers%20of%20all%20brands%20consumed%20sufficient%20nicotine%20to%20establish%20and%20maintain%20addiction.|%20Defendants'%20own%20internal&src=bsky
+    card: assets/cards/us-v-philip-morris/q-1875587b.png
+    scheduled: 2027-01-05
+    posted_url: null
+  - id: us-lehman-examiner:lehman-did-not-publicly-disclose:f32051f5
+    report: us-lehman-examiner
+    paragraph: lehman-did-not-publicly-disclose
+    quote: By September 12, two days after it publicly reported a $41 billion
+      liquidity pool, the pool actually contained less than $2 billion of
+      readily monetizable assets.
+    hook: In March 2008 US regulators posted monitors inside Lehman Brothers to
+      watch its liquidity. All year Lehman said its reserves could weather any
+      foreseeable downturn. Three days before its bankruptcy, its own table
+      counted them.
+    text: >-
+      In March 2008 US regulators posted monitors inside Lehman Brothers to
+      watch its liquidity. All year Lehman said its reserves could weather any
+      foreseeable downturn. Three days before its bankruptcy, its own table
+      counted them.
+
+
+      — Valukas Report (Lehman Brothers Examiner), p. 9
+    link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=lehman-did-not-publicly-disclose&h=had%20become%20actual%20pledges.%20|By%20September%2012%2C%20two%20days%20after%20it%20publicly%20reported%20a%20%2441%20billion%20liquidity%20pool%2C%20the%20pool%20actually%20contained%20less%20than%20%242%20billion%20of%20readily%20monetizable%20assets.|&src=bsky
+    card: assets/cards/us-lehman-examiner/q-db7cd6c9.png
+    scheduled: 2027-01-03
+    posted_url: null
+  - id: us-mueller-report:second-while-investigation-identified-numerous:976cdd52
+    report: us-mueller-report
+    paragraph: second-while-investigation-identified-numerous
+    quote: Further, the evidence was not sufficient to charge that any member of the
+      Trump Campaign conspired with representatives of the Russian government to
+      interfere in the 2016 election.
+    hook: "Volume I of the Mueller report sums up its charging decisions in three
+      parts. The first: Russia's two principal interference operations violated
+      US criminal law. The second concerned the Trump Campaign."
+    text: >-
+      Volume I of the Mueller report sums up its charging decisions in three
+      parts. The first: Russia's two principal interference operations violated
+      US criminal law. The second concerned the Trump Campaign.
+
+
+      — Mueller Report, p. 9
+    link: https://reportsthatmatter.org/reports/us-mueller-report?p=second-while-investigation-identified-numerous&h=campaign-finance%20violation.%20|Further%2C%20the%20evidence%20was%20not%20sufficient%20to%20charge%20that%20any%20member%20of%20the%20Trump%20Campaign%20conspired%20with%20representatives%20of%20the%20Russian%20government%20to%20interfere%20in%20the%202016%20election.|&src=bsky
+    card: assets/cards/us-mueller-report/q-5cf8c0f9.png
+    scheduled: 2027-01-22
+    posted_url: null
+  - id: us-psi-financial-crisis:first-chapter-focuses-how-high:5ef18bea
+    report: us-psi-financial-crisis
+    paragraph: first-chapter-focuses-how-high
+    quote: Had the sale not gone through, WaMu's failure might have exhausted the
+      entire $45 billion Deposit Insurance Fund.
+    hook: Washington Mutual was seized on 25 September 2008, 119 years to the day
+      after its founding, and sold to JPMorgan Chase for $1.9 billion. Nearly
+      $17 billion in deposits had left in 8 days. A Senate subcommittee says
+      what rode on the sale.
+    text: >-
+      Washington Mutual was seized on 25 September 2008, 119 years to the day
+      after its founding, and sold to JPMorgan Chase for $1.9 billion. Nearly
+      $17 billion in deposits had left in 8 days. A Senate subcommittee says
+      what rode on the sale.
+
+
+      — Levin–Coburn Financial Crisis Report, p. 2
+    link: https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=first-chapter-focuses-how-high&h=JPMorgan%20Chase%20for%20%241.9%20billion.%20|Had%20the%20sale%20not%20gone%20through%2C%20WaMu's%20failure%20might%20have%20exhausted%20the%20entire%20%2445%20billion%20Deposit%20Insurance%20Fund.|&src=bsky
+    card: assets/cards/us-psi-financial-crisis/q-1d8875db.png
+    scheduled: 2027-01-17
+    posted_url: null
+  - id: us-lehman-examiner:gelband-removed-from-position-several:f0ed1e86
+    report: us-lehman-examiner
+    paragraph: gelband-removed-from-position-several
+    quote: Gelband was removed from the position for several reasons, including that
+      he was not aggressive enough in growing the business in accordance with
+      Fuld's longterm revenue targets.
+    hook: In March 2007 Michael Gelband, head of Lehman Brothers' fixed income
+      division, emailed chief executive Richard Fuld that he was trying to cut
+      illiquid risk. In May Lehman said he had "decided to leave". The examiner
+      gives other reasons.
+    text: >-
+      In March 2007 Michael Gelband, head of Lehman Brothers' fixed income
+      division, emailed chief executive Richard Fuld that he was trying to cut
+      illiquid risk. In May Lehman said he had "decided to leave". The examiner
+      gives other reasons.
+
+
+      — Valukas Report (Lehman Brothers Examiner), p. 114
+    link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=gelband-removed-from-position-several&h=|Gelband%20was%20removed%20from%20the%20position%20for%20several%20reasons%2C%20including%20that%20he%20was%20not%20aggressive%20enough%20in%20growing%20the%20business%20in%20accordance%20with%20Fuld's%20longterm%20revenue%20targets.|%20Fuld%20and%20Gregory%20also&src=bsky
+    card: assets/cards/us-lehman-examiner/q-5081de94.png
+    scheduled: 2026-12-12
+    posted_url: null

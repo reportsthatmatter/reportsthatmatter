@@ -153,6 +153,7 @@ highlights:
     card: true
   - paragraph: president-s-efforts-influence-investigation
     quote: The President's efforts to influence the investigation were mostly unsuccessful, but that is largely because the persons who surrounded the President declined to carry out orders or accede to his requests.
+    card: true
   - paragraph: third-investigation-established-several-individuals
     quote: Those lies materially impaired the investigation of Russian election interference.
   - paragraph: ira-later-used-social-media
@@ -160,6 +161,7 @@ highlights:
     card: true
   - paragraph: march-2016-gru-began-hacking
     quote: In March 2016, the GRU began hacking the email accounts of Clinton Campaign volunteers and employees, including campaign chairman John Podesta.
+    card: true
   - paragraph: later-afternoon-president-cleared-oval
     quote: I hope you can let this go.
   - paragraph: june-14-2017-media-reported
@@ -171,3 +173,4 @@ highlights:
     quote: This is the end of my Presidency.
   - paragraph: second-while-investigation-identified-numerous
     quote: Further, the evidence was not sufficient to charge that any member of the Trump Campaign conspired with representatives of the Russian government to interfere in the 2016 election.
+    card: true
