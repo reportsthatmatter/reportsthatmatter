@@ -923,24 +923,6 @@ items:
     card: assets/cards/us-v-philip-morris/q-9605123b.png
     scheduled: 2026-12-13
     posted_url: null
-  - id: us-lehman-examiner:lehman-did-not-disclose-its:41d871d5
-    report: us-lehman-examiner
-    paragraph: lehman-did-not-disclose-its
-    quote: Lehman did not disclose its use – or the significant magnitude of its use
-      – of Repo 105 to the Government, to the rating agencies, to its investors,
-      or to its own Board of Directors.
-    text: >-
-      “Lehman did not disclose its use – or the significant magnitude of its use
-      – of Repo 105 to the Government, to the rating agencies, to its investors,
-      or to its own Board of Directors.”
-
-
-      — Report of Anton R. Valukas, Examiner, In re Lehman Brothers Holdings
-      Inc., et al. — Volumes 1 and 3, p. 7
-    link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=lehman-did-not-disclose-its&h=|Lehman%20did%20not%20disclose%20its%20use%20%E2%80%93%20or%20the%20significant%20magnitude%20of%20its%20use%20%E2%80%93%20of%20Repo%20105%20to%20the%20Government%2C%20to%20the%20rating%20agencies%2C%20to%20its%20investors%2C%20or%20to%20its%20own%20Board%20of%20Directors.|%20Lehman's%20auditors%2C%20Ernst&src=bsky
-    card: assets/cards/us-lehman-examiner/q-d3f2d18b.png
-    scheduled: 2026-12-12
-    posted_url: null
   - id: us-mueller-report:president-s-efforts-influence-investigation:ca168ed1
     report: us-mueller-report
     paragraph: president-s-efforts-influence-investigation
@@ -1003,21 +985,6 @@ items:
     card: assets/cards/challenger-accident/q-577dd086.png
     scheduled: 2026-12-14
     posted_url: null
-  - id: uk-leveson-inquiry:1-1-press-complaints-commission:c827f121
-    report: uk-leveson-inquiry
-    paragraph: 1-1-press-complaints-commission
-    quote: The Press Complaints Commission (PCC) has always been a voluntary system
-      based on a network of implied contracts.
-    text: >-
-      “The Press Complaints Commission (PCC) has always been a voluntary system
-      based on a network of implied contracts.”
-
-
-      — An Inquiry into the Culture, Practices and Ethics of the Press, p. 1515
-    link: https://reportsthatmatter.org/reports/uk-leveson-inquiry?p=1-1-press-complaints-commission&h=1.1%20|The%20Press%20Complaints%20Commission%20(PCC)%20has%20always%20been%20a%20voluntary%20system%20based%20on%20a%20network%20of%20implied%20contracts.|%20Accordingly%2C&src=bsky
-    card: assets/cards/uk-leveson-inquiry/q-53c56cdd.png
-    scheduled: 2026-12-09
-    posted_url: null
   - id: us-v-philip-morris:defendants-senior-executives-took-witness:da1da514
     report: us-v-philip-morris
     paragraph: defendants-senior-executives-took-witness
@@ -1051,7 +1018,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 21
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=may-2008-lehman-senior-vice&h=the%20Repo%20105%20allegations.%20|Ernst%20%26%20Young%20took%20no%20steps%20to%20question%20or%20challenge%20the%20non%E2%80%90disclosure%20by%20Lehman%20of%20its%20use%20of%20%2450%20billion%20of%20temporary%2C%20off%E2%80%90balance%20sheet%20transactions.|%20Colorable%20claims%20exist&src=bsky
     card: assets/cards/us-lehman-examiner/q-ec158ce7.png
-    scheduled: 2027-01-03
+    scheduled: 2027-01-19
     posted_url: null
   - id: us-mueller-report:march-2016-gru-began-hacking:9a52bcde
     report: us-mueller-report
@@ -1152,7 +1119,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 9
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=lehman-did-not-publicly-disclose&h=had%20become%20actual%20pledges.%20|By%20September%2012%2C%20two%20days%20after%20it%20publicly%20reported%20a%20%2441%20billion%20liquidity%20pool%2C%20the%20pool%20actually%20contained%20less%20than%20%242%20billion%20of%20readily%20monetizable%20assets.|&src=bsky
     card: assets/cards/us-lehman-examiner/q-db7cd6c9.png
-    scheduled: 2027-01-09
+    scheduled: 2027-01-03
     posted_url: null
   - id: us-mueller-report:second-while-investigation-identified-numerous:976cdd52
     report: us-mueller-report
@@ -1204,5 +1171,5 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 114
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=gelband-removed-from-position-several&h=|Gelband%20was%20removed%20from%20the%20position%20for%20several%20reasons%2C%20including%20that%20he%20was%20not%20aggressive%20enough%20in%20growing%20the%20business%20in%20accordance%20with%20Fuld's%20longterm%20revenue%20targets.|%20Fuld%20and%20Gregory%20also&src=bsky
     card: assets/cards/us-lehman-examiner/q-5081de94.png
-    scheduled: 2027-01-19
+    scheduled: 2026-12-12
     posted_url: null
