@@ -315,7 +315,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-911-commission?p=summary-neads-received-notice-hijacking&h=|In%20summary%2C%20NEADS%20received%20notice%20of%20the%20hijacking%20nine%20minutes%20before%20it%20struck%20the%20North%20Tower.%20That%20nine%20minutes'%20notice%20before%20impact%20was%20the%20most%20the%20military%20would%20receive%20of%20any%20of%20the%20four%20hijackings.|121&src=bsky
     card: assets/cards/us-911-commission/q-09fa1d31.png
     scheduled: 2026-11-07
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mzpzwho5es24
+    posted_at: 2026-11-07T13:47:39.117Z
   - id: us-v-philip-morris:paramount-significance-defendants-internal-documents:3f90176c
     report: us-v-philip-morris
     paragraph: paramount-significance-defendants-internal-documents
