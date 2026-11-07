@@ -1,4 +1,19 @@
 reports:
+  - id: challenger-accident
+    title: "Investigation of the Challenger Accident"
+    authors: "Committee on Science and Technology, U.S. House of Representatives"
+    published_at: "October 1986"
+    common_name: "Challenger Accident Report (House Science Committee)"
+    also_known_as: ["House report on the Challenger accident"]
+    issued_by: "Committee on Science and Technology, U.S. House of Representatives"
+    date_published: "1986-10"
+    repo: challenger-accident
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    source_path: reports/challenger-accident/full.md
+    source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
+    ingested: true
+    affected_community: true
+
   - id: jack-smith-vol1
     title: "Report of Special Counsel Jack Smith, Volume One: The Election Case"
     authors: "Jack Smith, Special Counsel, U.S. Department of Justice"
@@ -27,21 +42,6 @@ reports:
     source_path: reports/us-psi-financial-crisis/full.md
     source_url: "https://www.hsgac.senate.gov/subcommittees/investigations/reports?c=112"
     ingested: true
-
-  - id: challenger-accident
-    title: "Investigation of the Challenger Accident"
-    authors: "Committee on Science and Technology, U.S. House of Representatives"
-    published_at: "October 1986"
-    common_name: "Challenger Accident Report (House Science Committee)"
-    also_known_as: ["House report on the Challenger accident"]
-    issued_by: "Committee on Science and Technology, U.S. House of Representatives"
-    date_published: "1986-10"
-    repo: challenger-accident
-    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
-    source_path: reports/challenger-accident/full.md
-    source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
-    ingested: true
-    affected_community: true
 
   - id: litvinenko-inquiry
     title: "The Litvinenko Inquiry"
