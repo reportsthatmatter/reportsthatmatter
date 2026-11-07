@@ -1,5 +1,55 @@
 {
  "reports": {
+  "challenger-accident": {
+   "oracle": {
+    "headings-missed": 169,
+    "headings-spurious": 102,
+    "markers-unlinked": 38,
+    "markers-spurious": 143,
+    "paragraphs-oversplit": 372,
+    "paragraphs-merged": 1925,
+    "quotes-spurious": 385,
+    "quotes-missed": 208,
+    "note-off-page": 78
+   },
+   "golden": {
+    "match": 3,
+    "total": 7,
+    "known": 4
+   },
+   "goldenOracle": {
+    "headings-spurious": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "markers-unlinked": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 3
+    },
+    "markers-spurious": {
+     "tp": 0,
+     "fp": 5,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 10
+    },
+    "paragraphs-merged": {
+     "tp": 3,
+     "fp": 36,
+     "fn": 0
+    },
+    "quotes-spurious": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 6
+    }
+   }
+  },
   "jack-smith-vol1": {
    "oracle": {
     "headings-missed": 22,
@@ -82,56 +132,6 @@
      "tp": 0,
      "fp": 1,
      "fn": 0
-    }
-   }
-  },
-  "challenger-accident": {
-   "oracle": {
-    "headings-missed": 169,
-    "headings-spurious": 102,
-    "markers-unlinked": 38,
-    "markers-spurious": 143,
-    "paragraphs-oversplit": 372,
-    "paragraphs-merged": 1925,
-    "quotes-spurious": 385,
-    "quotes-missed": 208,
-    "note-off-page": 78
-   },
-   "golden": {
-    "match": 3,
-    "total": 7,
-    "known": 4
-   },
-   "goldenOracle": {
-    "headings-spurious": {
-     "tp": 0,
-     "fp": 1,
-     "fn": 0
-    },
-    "markers-unlinked": {
-     "tp": 0,
-     "fp": 0,
-     "fn": 3
-    },
-    "markers-spurious": {
-     "tp": 0,
-     "fp": 5,
-     "fn": 0
-    },
-    "paragraphs-oversplit": {
-     "tp": 2,
-     "fp": 0,
-     "fn": 10
-    },
-    "paragraphs-merged": {
-     "tp": 3,
-     "fp": 36,
-     "fn": 0
-    },
-    "quotes-spurious": {
-     "tp": 0,
-     "fp": 0,
-     "fn": 6
     }
    }
   },
@@ -847,41 +847,41 @@
   },
   "uk-thirlwall-inquiry": {
    "oracle": {
-    "headings-missed": 31,
-    "headings-spurious": 1,
+    "headings-missed": 30,
+    "headings-spurious": 0,
     "markers-unlinked": 0,
-    "markers-spurious": 0,
+    "markers-spurious": 1,
     "paragraphs-oversplit": 3,
     "paragraphs-merged": 139,
-    "quotes-spurious": 0,
-    "quotes-missed": 5,
+    "quotes-spurious": 2,
+    "quotes-missed": 2,
     "note-off-page": 0
    },
    "golden": {
-    "match": 0,
-    "total": 8,
-    "known": 8
+    "match": 2,
+    "total": 9,
+    "known": 7
    },
    "goldenOracle": {
     "headings-missed": {
      "tp": 1,
-     "fp": 1,
+     "fp": 0,
      "fn": 3
     },
-    "paragraphs-oversplit": {
+    "markers-spurious": {
      "tp": 0,
-     "fp": 0,
-     "fn": 4
+     "fp": 1,
+     "fn": 0
     },
     "paragraphs-merged": {
      "tp": 0,
-     "fp": 6,
+     "fp": 9,
      "fn": 0
     },
-    "quotes-missed": {
+    "quotes-spurious": {
      "tp": 0,
-     "fp": 0,
-     "fn": 1
+     "fp": 1,
+     "fn": 0
     }
    }
   }
@@ -889,7 +889,7 @@
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 13,
-   "fp": 31,
+   "fp": 30,
    "fn": 7
   },
   "headings-spurious": {
@@ -904,28 +904,28 @@
   },
   "markers-spurious": {
    "tp": 0,
-   "fp": 15,
+   "fp": 16,
    "fn": 1
   },
   "paragraphs-oversplit": {
    "tp": 8,
    "fp": 19,
-   "fn": 31
+   "fn": 27
   },
   "paragraphs-merged": {
    "tp": 5,
-   "fp": 273,
+   "fp": 276,
    "fn": 1
   },
   "quotes-spurious": {
    "tp": 2,
-   "fp": 12,
+   "fp": 13,
    "fn": 9
   },
   "quotes-missed": {
    "tp": 3,
    "fp": 43,
-   "fn": 1
+   "fn": 0
   }
  }
 }

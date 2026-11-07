@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-07 — Thirlwall's quotations, its footnote and Chapter 4
+
+In [the Thirlwall Inquiry's summary report](/reports/uk-thirlwall-inquiry), the 15 quotations the report sets inset in italic (parents' evidence, the Thematic Review's findings) were plain paragraphs; they are quotations now. The report's one footnote, an asterisk on printed page 39, is a linked note rather than a stray paragraph, and Chapter 4, "Part Two", is a chapter like the other three. Links to the old paragraphs lead to the paragraph that introduces each quotation.
+
+---
+
 ## 2026-10-25 — The Southport Inquiry's Phase 1 report, Volume 1
 
 [The Southport Inquiry's Phase 1 report, Volume 1](/reports/uk-southport-inquiry) (HC 1768-I, April 2026), on the murder of three children at a dance class in Southport on 29 July 2024 and the events leading to it, is on the site: 260 printed pages, 696 numbered paragraphs and 641 notes, each linked, rebuilt from the Inquiry's accessible edition and checked against its PDF. It opens with our introduction: what Volume 1 covers, eight of its findings with the paragraphs behind them, and where to start reading. The photograph on the landing page is Liverpool Town Hall. The report anonymises child survivors under a Restriction Order, and nothing here adds to what it prints. Volume 2, on the roles of the agencies, comes later.
