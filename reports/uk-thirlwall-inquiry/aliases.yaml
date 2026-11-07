@@ -5,10 +5,27 @@
 # reused: an id that now names a different paragraph than it did (movedTo: where the old text went); pending until accepted (hxo4, rf4c).
 # moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).
 aliases:
+  --if-review-outside-remit: 3-148-under-heading-dr
+  6-babies-from-9-deaths: 3-20-final-version-thematic
+  action-sb-dr-brearey-ep: 3-20-final-version-thematic
+  all-concerns-raised-staff-about: 3-43-under-subheading-speak
+  don-t-say-anything-unless: 3-148-under-heading-dr
+  dr-gibbs-had-said-investigating: 2-86-some-time-after
+  epileptic-seizure-sleep-apnoea-even: 2-86-some-time-after
+  father-o-p-r-begged: 2-143-after-deaths-baby
+  father-o-p-r-i: 2-143-after-deaths-baby
+  i-asked-doctor-what-going: 2-63-24-september-mother
+  i-had-never-really-seen: 2-78-hudson-worried-about
+  letby-smiling-kept-going-about: 2-78-hudson-worried-about
+  lucy-would-just-stop-talking: 2-78-hudson-worried-about
   minutes-contain-first-record-chambers: 3-188-executives-met-following
   paediatrics-including-neonatology-moved-into: 1-12-until-2009-paediatrics
   rcpch-should-not-have-accepted: 3-94-2-september-2016
+  role-inspection-not-look-specific: 3-26-cain-said-answer
   s-come-off-light-therapy: 2-28-dr-andrew-brunton
+  so-individual-examples-incidents-would: 3-26-cain-said-answer
+  some-babies-suddenly-unexpectedly-deteriorated: 3-20-final-version-thematic
+  there-no-common-theme-identified: 3-20-final-version-thematic
 sections:
   baby-b: 2-the-babies
   baby-c: 2-the-babies
@@ -23,7 +40,7 @@ sections:
   baby-n: 2-the-babies
   baby-o: 2-the-babies
   baby-p: 2-the-babies
-  chapter-41-patient-safety-safeguarding-and-employment-law: part-two
+  chapter-41-patient-safety-safeguarding-and-employment-law: 4-part-two
   contacting-the-police: 3-concerns-reviews-errors
   cqc: 3-concerns-reviews-errors
   dr-mcpartland: 3-concerns-reviews-errors
@@ -33,6 +50,7 @@ sections:
   march-to-may-2016: 3-concerns-reviews-errors
   meeting-11-may-2016: 3-concerns-reviews-errors
   nhs-england-and-the-countess: 3-concerns-reviews-errors
+  part-two: 4-part-two
   safeguarding: 3-concerns-reviews-errors
   september-to-december-2015: 3-concerns-reviews-errors
   skin-changes: 2-the-babies
@@ -41,6 +59,8 @@ sections:
   the-grievance: 3-concerns-reviews-errors
   the-neonatal-unit: contents
   the-review: 3-concerns-reviews-errors
-unmatched: []
+unmatched:
+  - beverly-allitt-nurse-convicted-four
+  - para
 moved_out:
   2-153-parents-worst-imaginable: crown-copyright-2026-publication-licensed

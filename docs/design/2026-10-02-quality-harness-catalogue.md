@@ -126,6 +126,8 @@ Signal: share of blocks that are quotations, overall and split by printed-page p
 | even pages, % | 14.4 | 20.4 | 28.6 | 18.3 | 14.8 | 11.7 | 3.8 | 4.4 | 23.4 | 2.1 | 24.4 | 17.8 | 13.8 |
 | odd pages, % | 15.3 | 19.8 | 27.2 | 18.2 | 13.8 | 12.2 | 3.3 | 3.0 | 24.3 | 0.1 | 23.1 | 16.7 | 13.3 |
 
+The opposite failure, quotations served as paragraphs, has no signal: Thirlwall's 15 inset italic quotations (PDF pp.20-57, inset 1.4 em against a 3.8 em hanging number) were all plain paragraphs and quote-share-parity read 0 (reportsthatmatter-vsd2, fixed 2026-11-07 by a report body pass reading italic inset lines from the layout). A signal would set the quotation share against the PDF's tag tree or the layout oracle's quote runs.
+
 Today's corpus is flat by parity (eyc is fixed). PSI's 27.7% and Philip Morris's 23.9% are high and deserve a read: Philip Morris has 700 quote blocks of more than 40 words with no quotation mark anywhere in them.
 
 ### E. Footnote text printed in the body
@@ -141,6 +143,8 @@ Found by: reader via landing-page links (g1f, Rufus), agent sweeping with a repo
 | paragraph opens `N Capital…` (note-number shape) | 3 | 11 | 5 | 45 | 8 | 7 | 0 | 22 | 1 | 0 | 16 | 0 | 3 | 121 |
 | paragraph opens `Ibid.`/`Id.`/`See`/`Testimony of`/`Interview with` | 2 | 0 | 1 | 6 | 0 | 21 | 0 | 6 | 44 | 0 | 0 | 0 | 0 | 80 |
 | short paragraph containing `ibid`/`supra` | 0 | 0 | 0 | 44 | 4 | 17 | 0 | 12 | 14 | 0 | 0 | 0 | 0 | 91 |
+
+A symbol note is a further case: Thirlwall's one footnote, an asterisk at the foot of printed p.39, stood as a paragraph "* Beverly Allitt was a nurse…" with its marker bare after "'Beverly Allitt'." (reportsthatmatter-b1za, fixed 2026-11-07 as note 1). No signal saw it: the note-number shape and bare-marker signals look for digits only; a paragraph opening `*`, `†` or `‡` and a gap is the shape to add.
 
 Precision: the note-number shape is genuine in Jack Smith (3/3), Deepwater (4/4: endnote text as paragraphs), Lehman (3/3), Litvinenko (4/4); false in Saville (glossary: `1 PARA 1st Battalion…`) and PSI (chart labels). Philip Morris's 44 `Id.` paragraphs are record citations the opinion prints as body lines, a different but related nuisance (9ek).
 
@@ -234,6 +238,8 @@ A declassified scan adds two kinds (us-senate-cia-torture-report, gqsy.6, 2026-1
 ### L. Contents pages rendered as body, headings or lists
 
 The report's own table of contents becomes h2 headings (`## 8. "THE SYSTEM WAS BLINKING RED"`, 9/11, 5fn in progress), run-together quote blocks, merged list items (Columbia), or, in Lehman, 1,900 of 4,000 lines of the whole work's master contents as bullets with a `## VOLUME` heading missing its number and a roman folio `xi` as its own line (b7z). Chilcot's contents list carries a `[^47]` link where a page number was (ixe). Saville's `Outline Table of Contents` splices into body text.
+
+Thirlwall's contents (leaders set as U+FFFD, so not read as contents entries) gave a heading "Part Two" from its fourth entry, "4. Part Two ... 63", read as a numbered heading with its number dropped; the same rule made the chapter 4 banner a level-3 "Part Two" (reportsthatmatter-hy63, fixed 2026-11-07 with `numberedHeadings(false)`). Signal: a heading in the contents section.
 
 Found by: agent reading output (b7z, 5fn), reader of the contents page. Signals: words inside lists in the first 5% of the report; list items ending in a page number (2,884 today, mostly legitimately parsed contents); a heading ending in a page number or containing dot leaders.
 

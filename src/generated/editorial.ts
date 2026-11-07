@@ -3380,8 +3380,8 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "part-two",
-        "title": "Part Two",
+        "slug": "4-part-two",
+        "title": "4. Part Two",
         "page": "63",
         "why": "The Chair's summary of each chapter of Part Two, from medical examiners and insulin to the regulation of managers, the duty of candour and the Care Quality Commission, and what she recommends.",
         "excerpt": {
