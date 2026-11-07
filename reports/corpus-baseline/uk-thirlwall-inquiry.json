@@ -1,6 +1,6 @@
 {
-  "words": 38710,
-  "paragraphs": 470,
+  "words": 38697,
+  "paragraphs": 451,
   "sections": [
     {
       "slug": "contents",
@@ -11,18 +11,18 @@
     {
       "slug": "2-the-babies",
       "title": "2. The babies",
-      "paragraphs": 162,
-      "ids": "8dc68d44998b"
+      "paragraphs": 154,
+      "ids": "7acd8a0f4157"
     },
     {
       "slug": "3-concerns-reviews-errors",
       "title": "3. Concerns, reviews, errors",
-      "paragraphs": 225,
-      "ids": "ae7a803098f8"
+      "paragraphs": 214,
+      "ids": "684f32f01ccf"
     },
     {
-      "slug": "part-two",
-      "title": "Part Two",
+      "slug": "4-part-two",
+      "title": "4. Part Two",
       "paragraphs": 46,
       "ids": "96d803ee63a1"
     }

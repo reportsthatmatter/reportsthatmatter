@@ -4,7 +4,7 @@ authors: "The Rt Hon. Lady Justice Thirlwall DBE (Chair)"
 published_at: "15 September 2026"
 source_url: "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
 pages: 75
-footnotes: 0
+footnotes: 1
 ---
 
 Thirlwall Inquiry
@@ -29,9 +29,7 @@ HC 601
 
 ## Contents
 
-1. Introduction 1 2. The babies 6 3. Concerns, reviews, errors 27
-
-### Part Two
+1. Introduction 1 2. The babies 6 3. Concerns, reviews, errors 27 4. Part Two 63
 
 %%page 1%%
 
@@ -285,7 +283,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.63 On 24 September, Mother H was in a wheelchair, and waited for Father H to take her downstairs to see their daughter in the neonatal unit. Mother H noticed that Baby H had deteriorated since the previous evening. She was now ventilated. No one had informed anyone in the family about this change. Mother H told the Inquiry:
 
-"I asked the doctor what was going on and I was told that she had been put on a ventilator. I really couldn't understand why I'd not been informed of this earlier because we were told that she was okay. You know, I'd always check and would always ask how she was, and we were told that she was okay, you know, that she was okay. I was only upstairs."
+> "I asked the doctor what was going on and I was told that she had been put on a ventilator. I really couldn't understand why I'd not been informed of this earlier because we were told that she was okay. You know, I'd always check and would always ask how she was, and we were told that she was okay, you know, that she was okay. I was only upstairs."
 
 2.64 Mother H made a complaint about the lack of communication. An apology was offered by Dr Gibbs. However, in an internal email, Ms Powell's first response was to criticise Mother H. She asked: "[W]hy had it taken [Mother H] so long to come to the unit when she was aware how poorly her baby is." Ms Powell's loyalty was to the nurse. It led to unjustified criticism of a mother who had proper cause to complain. Mother H described feeling "deeply offended" by the comments.
 
@@ -323,11 +321,7 @@ This was not true. In Mother A and B's view, these messages were "attention seek
 
 2.78 Ms Hudson was worried about Baby I's aftercare. She asked for help. Letby volunteered. Mother I recalled:
 
-"She [Letby] was smiling and kept going on about how she was present at our baby's first bath and how much our baby had loved it. I remember thinking at the time, 'What are you going on about, she's only ever had one bath and my husband never got to bath her'. I just felt so sorry for him because he hasn't got that memory and I wished
-
-Lucy would just stop talking. I remember thinking 'Will you just go away'. I was really uncomfortable and I just wanted her to leave. It was also weird that she kept smiling.
-
-I had never really seen her smiling before."
+> "She [Letby] was smiling and kept going on about how she was present at our baby's first bath and how much our baby had loved it. I remember thinking at the time, 'What are you going on about, she's only ever had one bath and my husband never got to bath her'. I just felt so sorry for him because he hasn't got that memory and I wished Lucy would just stop talking. I remember thinking 'Will you just go away'. I was really uncomfortable and I just wanted her to leave. It was also weird that she kept smiling. I had never really seen her smiling before."
 
 2.79 Letby was convicted of the murder of Baby I.
 
@@ -349,9 +343,7 @@ I had never really seen her smiling before."
 
 2.86 Some time after these collapses, Parents J spoke to Dr Gibbs. Father J relayed that:
 
-"[Dr Gibbs] had said that they were investigating the possibility that it could be sepsis
-
-… epileptic seizure … sleep apnoea … Even by his own admission later on when we had contact with him he was never able to explain the collapse to us and his -- the subsequent investigations had ruled out pretty much all the things that he suggested it could be."
+> "[Dr Gibbs] had said that they were investigating the possibility that it could be sepsis … epileptic seizure … sleep apnoea … Even by his own admission later on when we had contact with him he was never able to explain the collapse to us and his -- the subsequent investigations had ruled out pretty much all the things that he suggested it could be."
 
 2.87 Speaking about the impact of Baby J's collapses, the lack of information from the Countess and the criminal trial, Mother J said in evidence: "I cannot emphasise enough the impact of this on our whole family. Who we are as people, parents, work life, spouses, children … [it] has cast a shadow of sadness over every part of our lives."
 
@@ -497,9 +489,7 @@ I had never really seen her smiling before."
 
 2.143 After the deaths of Baby O and Baby P, Parents O, P and R were extremely concerned for Baby R. Mother O, P and R recalled that:
 
-"Father O, P and R begged Dr Rackham to take Child R to Liverpool Women's Hospital
-
-… Father O, P and R and I did not know what was wrong at this point but I just knew we needed to get Child R out of the Countess of Chester Hospital. I didn't think anything malicious had happened at the time, but I did feel that something had gone wrong in the Unit."
+> "Father O, P and R begged Dr Rackham to take Child R to Liverpool Women's Hospital … Father O, P and R and I did not know what was wrong at this point but I just knew we needed to get Child R out of the Countess of Chester Hospital. I didn't think anything malicious had happened at the time, but I did feel that something had gone wrong in the Unit."
 
 2.144 This fear for Baby R was shared by some of the clinical staff. After helping to care for Baby P, Dr V recalled "begging in my head" for Dr Rackham to take Baby R, because she feared that he would die next.
 
@@ -583,21 +573,11 @@ I had never really seen her smiling before."
 
 3.20 The final version of the Thematic Review was produced in March 2016. In respect of Baby A, Baby C, Baby D, Baby E and Baby I, the review team raised real uncertainty about the reasons for the collapses and deteriorations and doubts about some of the earlier conclusions about the cause of death in light of subsequent information. Under the heading 'Themes identified during discussions of all cases', the following appears:
 
-"There was no common theme identified in all cases
-
-…
-
-1. Sudden deterioration
-
-Some of the babies suddenly and unexpectedly deteriorated and there was no clear cause for the deterioration/death identified at PM [post-mortem].
+> "There was no common theme identified in all cases … 1. Sudden deterioration Some of the babies suddenly and unexpectedly deteriorated and there was no clear cause for the deterioration/death identified at PM [post-mortem].
 
 %%page 31%%
 
-2. Timing of arrests
-
-6 babies (from 9 deaths reviewed) had arrests between 0000 – 0400.
-
-Action: SB [Dr Brearey] and EP [Ms Powell] to review all these cases focusing on nursing observations in the 4 hours before the arrests. Aim to identify if unwell babies could have been identified earlier. Identify any medical or nursing staff association with these cases."
+> 2. Timing of arrests 6 babies (from 9 deaths reviewed) had arrests between 0000 – 0400. Action: SB [Dr Brearey] and EP [Ms Powell] to review all these cases focusing on nursing observations in the 4 hours before the arrests. Aim to identify if unwell babies could have been identified earlier. Identify any medical or nursing staff association with these cases."
 
 #### CQC
 
@@ -613,11 +593,11 @@ Action: SB [Dr Brearey] and EP [Ms Powell] to review all these cases focusing on
 
 3.26 Ms Cain said, in answer to a question about detailed data about individual deaths, which she had seen but, I find, had not been provided to the specialist adviser:
 
-"The role of the inspection is not to look at specific -- specific incidents. It's to ensure that there is from a regulatory perspective, there is a process in place to ensure incidents like this are identified, reported, identified, investigated and lessons learnt.
+> "The role of the inspection is not to look at specific -- specific incidents. It's to ensure that there is from a regulatory perspective, there is a process in place to ensure incidents like this are identified, reported, identified, investigated and lessons learnt.
 
 %%page 32%%
 
-So individual examples of incidents would not be pursued. But, however as part of the inspection, evidence would be requested to ensure that that mortality and morbidity process was being followed."
+> So individual examples of incidents would not be pursued. But, however as part of the inspection, evidence would be requested to ensure that that mortality and morbidity process was being followed."
 
 3.27 Whatever questions were asked here, none was asked about the number of deaths on the neonatal unit. It is not easy to see how a regulator can be satisfied about the process in place where, as here, CQC did not know and did not ask about the number of deaths and how they had been investigated and lessons learnt.
 
@@ -663,7 +643,7 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.43 Under the subheading 'Speak Out Safely (Raising Concerns about Patient Care) and Whistle Blowing Policy', the following appears:
 
-"All concerns raised by staff about patient care will be dealt with seriously, promptly, and be subject to a thorough and impartial investigation where necessary. Managers have a particular responsibility to protect patients, and to handle concerns about their care in a way that will encourage the voicing of genuine misgivings, while at the same time protecting staff against unfounded allegations. No recriminations will follow reports which are made in good faith about low standards of care or possible abuses."
+> "All concerns raised by staff about patient care will be dealt with seriously, promptly, and be subject to a thorough and impartial investigation where necessary. Managers have a particular responsibility to protect patients, and to handle concerns about their care in a way that will encourage the voicing of genuine misgivings, while at the same time protecting staff against unfounded allegations. No recriminations will follow reports which are made in good faith about low standards of care or possible abuses."
 
 %%page 35%%
 
@@ -727,13 +707,11 @@ So individual examples of incidents would not be pursued. But, however as part o
 
 3.66 The day after the Board meeting, one of the Non-Executive Directors, Mr James Wilkie, remained concerned that Letby would be permitted to return to work on the neonatal unit. He went to see Ms Kelly and reiterated his concerns. It had also become apparent that there was, in any event, insufficient staffing to supervise Letby, making this plan unworkable as well as flawed in principle. On 18 July, Ms Rees wrote to Letby informing her that, due to staffing constraints, she could not be clinically supervised on the unit and would instead be seconded to the Risk and Patient Safety Department.
 
-3.67 The issue of Letby's redeployment prompted the hospital to seek legal advice, both on the issue of redeployment and on whether the police should be contacted. Ms Dee Appleton-Cairns, Deputy Director of People and Organisational Development (HR), first contacted DAC Beachcroft on 5 July and spoke to Mr Ian Pace, Associate, Employment and Pensions. She did not give a complete picture of the concerns. She did, however, inform Mr Pace that there had been a breakdown in relationships and a consultant had referred to a nurse at the hospital as 'Beverly Allitt'.* She told Mr Pace that she was satisfied there were no malicious issues. At that point, she wanted to know what the risk would be of moving a nurse to a non-clinical role, given that she was backed by her union.
+3.67 The issue of Letby's redeployment prompted the hospital to seek legal advice, both on the issue of redeployment and on whether the police should be contacted. Ms Dee Appleton-Cairns, Deputy Director of People and Organisational Development (HR), first contacted DAC Beachcroft on 5 July and spoke to Mr Ian Pace, Associate, Employment and Pensions. She did not give a complete picture of the concerns. She did, however, inform Mr Pace that there had been a breakdown in relationships and a consultant had referred to a nurse at the hospital as 'Beverly Allitt'.[^1] She told Mr Pace that she was satisfied there were no malicious issues. At that point, she wanted to know what the risk would be of moving a nurse to a non-clinical role, given that she was backed by her union.
 
 3.68 When she was giving evidence about this call, Ms Appleton-Cairns was asked about a "large number of unexplained and unexpected deaths on the neonatal unit". Her reply was: "At that point … it wasn't that many." At that point, there had been 13 deaths on the unit since June 2015, of which 7 were unexpected and unexplained. Ms Appleton- Cairns said she did not know that. She said she had not read the Thematic Review. She had seen the spreadsheet, which she asserted showed no commonality. This was very surprising, since it did. She added: "The only Consultant that I knew of that was expressing any kind of concern for a long, long time was Dr Brearey." She then said: "So for me there was -- there was nothing here other than Dr Brearey saying he had some concerns about a nurse, a specific nurse." This was a breathtaking set of answers given without embarrassment by a senior person in the HR department tasked with seeking advice about what the hospital should do about moving Letby. Fortunately, Mr Pace realised the potential seriousness of what she had revealed, pointed out that concerns about relationships paled into insignificance against concerns about patient safety and advised accordingly.
 
 3.69 In a later conversation with Ms Corinne Slingo, Head of Healthcare Regulatory at the same firm, Ms Hodkinson did not give a complete picture, so that Ms Slingo did not understand that there was concern that a nurse was harming babies. When asked about this, Ms Hodkinson said Ms Slingo "should have asked me more questions". This too was an unfortunate remark. In any event, and no doubt partly in consequence of the partial picture that was presented, the legal advice from Ms Slingo was that it was not necessary to alert the police.
-
-* Beverly Allitt was a nurse convicted of four murders, three attempted murders and causing grievous bodily harm to six children at Grantham and Kesteven General Hospital in 1993.
 
 %%page 40%%
 
@@ -939,9 +917,7 @@ c. The RCPCH reviewers had interviewed her and made no mention of any wrongdoing
 
 3.148 Under the heading 'Dr Saladi', the note records:
 
-"- If review is outside the remit of your knowledge, then say so.
-
-Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
+> "- If review is outside the remit of your knowledge, then say so. Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 3.149 Mr Browne KC could not understand why no one at the hospital told him that the consultants were concerned that Letby had killed Baby A. He said he would also have wished to have known about the discolouration on the baby's body.
 
@@ -1095,7 +1071,7 @@ Don't say anything unless you know. REVIEW IS ONGOING [capitals in original]."
 
 %%page 63%%
 
-### Part Two
+## 4. Part Two
 
 4.1 The following brief summaries of each chapter in Part Two set out the principal issues. Further reading of the chapters is necessary to understand the detail.
 
@@ -1233,3 +1209,7 @@ Where necessary, a small team (always including clinicians from the relevant spe
 4.43 The current MoU reflects no input in respect of safeguarding but I understand that is to be remedied. Nor does it contain explicit advice that it is best practice to make early contact with the police. This too should be remedied. I also consider an accompanying, shorter document is essential to guide those faced with one of the situations identified in the MoU.
 
 E03297534 978-1-5286-6790-6
+
+## Notes
+
+[^1]: Beverly Allitt was a nurse convicted of four murders, three attempted murders and causing grievous bodily harm to six children at Grantham and Kesteven General Hospital in 1993.

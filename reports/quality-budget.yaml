@@ -349,7 +349,7 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 0
+    quote-share-parity: 1  # why: reportsthatmatter-vsd2 (the 15 inset quotations are quote blocks now, where there were none: 2.2% of blocks on even pages and 2.2% on odd, a gap under a point, which the metric rounds up to 1)
   us-911-commission:
     severed-into-quote: 0
     severed-paragraph: 0
