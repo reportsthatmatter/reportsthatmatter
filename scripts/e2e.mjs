@@ -20,11 +20,11 @@ const check = (cond, name, detail = "") => {
   else failures.push(`${name}${detail ? ` — ${detail}` : ""}`);
 };
 
-const firstReportId = (() => {
-  const yaml = readFileSync(new URL("../reports/registry.yaml", import.meta.url), "utf8");
-  const match = yaml.match(/^\s+- id:\s*(\S+)/m);
-  return match ? match[1] : null;
-})();
+// The fixture report the checks read. A constant, not the registry's first entry:
+// the registry order is editorial (the homepage leads with Challenger, decision
+// 0027) and must be free to change without moving what these checks measure.
+// Challenger itself still carries positional ids (a text finding, not an e2e one).
+const firstReportId = "jack-smith-vol1";
 
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
