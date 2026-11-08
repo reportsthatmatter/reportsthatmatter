@@ -312,6 +312,23 @@ export function fold(prev: AliasFile, before: Rendered, after: Rendered): AliasF
   return { aliases: sorted(aliases), sections: sorted(sections), unmatched: [...unmatched].sort(), unmatchedSections: [...unmatchedSections].sort(), reused: sorted(reused), movedOut: sorted(movedOut) };
 }
 
+/**
+ * The base for a generate run: what --old-ref published plus what is committed at HEAD (p4lp), so an alias line
+ * added by hand or by an earlier release line is never dropped. Where both name the same key, HEAD's target wins
+ * (a hand correction). `fold` still re-resolves any line whose target the new text no longer has.
+ */
+export function mergeAliases(base: AliasFile, head: AliasFile): AliasFile {
+  const uniq = (a: string[], b: string[]) => [...new Set([...a, ...b])];
+  return {
+    aliases: { ...base.aliases, ...head.aliases },
+    sections: { ...base.sections, ...head.sections },
+    unmatched: uniq(base.unmatched, head.unmatched),
+    unmatchedSections: uniq(base.unmatchedSections, head.unmatchedSections),
+    reused: { ...base.reused, ...head.reused },
+    movedOut: { ...base.movedOut, ...head.movedOut },
+  };
+}
+
 export const idsOf = (r: Rendered) => r.passages.map((p) => p.id);
 export const slugsOf = (r: Rendered) => r.sections.map((s) => s.slug);
 

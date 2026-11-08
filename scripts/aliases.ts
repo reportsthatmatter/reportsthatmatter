@@ -7,6 +7,9 @@
  *       on every re-ingest, then `pnpm prerender`. Both files start from their --old-ref versions, not the
  *       working tree's, so running it against an intermediate re-ingest and again against the final text
  *       records only what --old-ref published plus the final text (with --old, the working tree's files).
+ *       aliases.yaml is the exception (p4lp): its base is --old-ref's file UNION the committed HEAD file, so a hand
+ *       correction or an earlier release's line is never dropped (HEAD's target wins for the same old id); a line
+ *       whose target the new text lacks is still re-resolved. A report whose text did not move shows no removed lines.
  *       The OLD text is rendered with the @rtm/ingest pinned in package.json at --old-ref (fetched once into
  *       node_modules/.cache/rtm-ingest/; --old-pin github:org/repo#ref overrides), the new text with the
  *       installed one, so a section slug an ingest release renamed is recorded as a section alias (hxo4).
@@ -39,7 +42,7 @@ import { parse, stringify } from "yaml";
 import { extractPassages } from "@rtm/ingest";
 import { followAlias } from "../src/lib/aliases";
 import * as installed from "@rtm/ingest";
-import { acceptReuse, citesId, emptyAliases, fold, formatIds, idsOf, parseIds, render, slugsOf, type AliasFile, type Ingest, type Rendered } from "../src/lib/alias-gen";
+import { acceptReuse, citesId, emptyAliases, fold, formatIds, idsOf, mergeAliases, parseIds, render, slugsOf, type AliasFile, type Ingest, type Rendered } from "../src/lib/alias-gen";
 import { loadIngest, pinOf } from "./lib/old-ingest";
 import { assertFresh } from "./prerender-stamp.mjs";
 
@@ -148,7 +151,9 @@ async function generate() {
     // re-ingest would otherwise leave that text's ids (never published) in published-ids.txt for good (s24x).
     const committed = oldPath ? null : gitShow(ref, `reports/${id}/published-ids.txt`);
     const committedSections = oldPath ? null : gitShow(ref, `reports/${id}/published-sections.txt`);
-    const prev = oldPath ? loadAliases(id) : parseAliases(gitShow(ref, `reports/${id}/aliases.yaml`));
+    // The alias base is --old-ref's file UNION the committed HEAD file (p4lp): HEAD's hand corrections and earlier
+    // release lines survive, HEAD's target wins for the same old id. Only the id record above stays --old-ref's.
+    const prev = oldPath ? loadAliases(id) : mergeAliases(parseAliases(gitShow(ref, `reports/${id}/aliases.yaml`)), parseAliases(gitShow("HEAD", `reports/${id}/aliases.yaml`)));
     const record = new Set([...(committed === null ? loadRecord(id) : parseIds(committed)), ...idsOf(next)]);
     const slugs = new Set([...(committedSections === null ? loadSections(id) : parseIds(committedSections)), ...slugsOf(next)]);
     let file: AliasFile;
