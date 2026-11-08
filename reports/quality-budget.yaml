@@ -46,7 +46,7 @@ reports:
     bare-marker-after-quote: 22  # why: reportsthatmatter-4ofu (as bare-footnote-marker: "configuration."31" p.57 and three more were bare before; their notes are now read)
     note-marker-wrong-note: 0
     note-marker-unpaired: 72  # why: reportsthatmatter-4ofu (more notes defined, labels repeat per chapter; the pipeline's existing links such as "testing. . .[^3] 8" pair differently) + jsqw
-    note-definition-unreferenced: 165  # why: reportsthatmatter-b78.10 baseline
+    note-definition-unreferenced: 309  # why: reportsthatmatter-b78.10 baseline + 4ofu (153 more notes read from their pages; most of their markers are superscripts the OCR dropped, so they were unreferenced before too, as body text)
     note-reference-sequence: 71
     note-text-in-body: 17
     note-citation-vocabulary: 0
