@@ -32,7 +32,11 @@ describe("printed page numbers from the text layer", () => {
     expect(numberCandidates("Chapter 2: Outline of events   49\nbody text\n")).toContain("49");
     expect(numberCandidates("body\n(3)\n")).toContain("3");
     expect(numberCandidates("body\n- 12 -\n")).toContain("12");
-    expect(numberCandidates("body\nPage 7 of 20\n")).toContain("7");
+    expect(numberCandidates("body\nPage 7\n")).toContain("7");
+    // "Page N of M" counts the pages of one enclosed document, not the folio: the Senate CIA study's
+    // foreword runs "Page 2 of 6" above its folio v, its Findings "Page 1 of 19" above x (fgle)
+    expect(numberCandidates("body\nPage 7 of 20\n")).not.toContain("7");
+    expect(numberCandidates("body\n      Page 2 of 6\n    UNCLASSIFIED\n          v\n")).toEqual(["v"]);
     expect(numberCandidates("body\n   xii\n")).toContain("xii");
   });
 
