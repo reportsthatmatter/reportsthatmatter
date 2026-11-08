@@ -129,9 +129,13 @@ export function numberCandidates(layout: string): string[] {
     new RegExp(`^\\s*${N}(?:\\s{2,}|\\s*\\|\\s*)\\S`),
     new RegExp(`\\S(?:\\s{2,}|\\s*\\|\\s*)${N}\\s*$`),
     new RegExp(`^\\s*(?:page|p\\.)\\s*${N}\\b`, "i"),
-    new RegExp(`\\bpage\\s+${N}(?:\\s+of\\s+\\d+)?\\s*$`, "i"),
+    // "Page N" at a line's end, but never "Page N of M": that is a counter within one enclosed document
+    // (the Senate CIA study's foreword runs "Page 1 of 6" over folios iv to ix), not the folio.
+    new RegExp(`\\bpage\\s+${N}\\s*$`, "i"),
   ];
+  const counter = /\bpage\s+\S+\s+of\s+\d+\s*$/i;
   for (const line of edge) {
+    if (counter.test(line)) continue;
     for (const re of patterns) {
       const m = re.exec(line);
       if (!m) continue;

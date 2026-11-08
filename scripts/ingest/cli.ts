@@ -79,6 +79,7 @@ import {
   scoreOracle,
   layoutXml,
   type OracleReport,
+  type LayoutMarkersPass,
   type PageCounts,
 } from "@rtm/ingest";
 import * as ingestLibrary from "@rtm/ingest";
@@ -458,7 +459,12 @@ async function runVerify(args: string[]): Promise<number> {
         const started = Date.now();
         result = await regenerate(target.id);
         if (wantOracle) {
-          report = measureLayout(layoutFor(def), finalBlocks(result), result.footnotes, { relink: !result.linkedText, noteOffPage: hasPageNotes(def.passes) && !notesAtBack.has(target.id) });
+          report = measureLayout(layoutFor(def), finalBlocks(result), result.footnotes, {
+            relink: !result.linkedText,
+            noteOffPage: hasPageNotes(def.passes) && !notesAtBack.has(target.id),
+            // a marker and its note inside one stretch that prints its notes at its end (us-senate-cia-torture-report's Findings)
+            endnoteRanges: def.passes.find((p): p is LayoutMarkersPass => p.name === "layoutMarkers")?.endnoteRanges ?? [],
+          });
           const seconds = ((Date.now() - started) / 1000).toFixed(1);
           console.log(
             `  · layout oracle (${seconds}s) — ` +
