@@ -42,7 +42,7 @@ reports:
   challenger-accident:
     severed-into-quote: 57  # why: reportsthatmatter-4ofu (85 to 57 with that run's joins; +1 is printed p.356, where the Desk Instruction head is kept so its OCR junk line does not run onto the page before: "DI NO. 100-26 Page 30 of 34" then a quoted "ms ..--. = -")
     severed-paragraph: 23
-    bare-footnote-marker: 79  # why: reportsthatmatter-4ofu (141 more notes read from their pages, so the OCR'd markers already bare before them, "incident.2" p.35, "location.16" p.55, now have a note to count against)
+    bare-footnote-marker: 79  # why: reportsthatmatter-4ofu (153 more notes read from their pages, so the OCR'd markers already bare before them, "incident.2" p.35, "location.16" p.55, now have a note to count against)
     bare-marker-after-quote: 22  # why: reportsthatmatter-4ofu (as bare-footnote-marker: "configuration."31" p.57 and three more were bare before; their notes are now read)
     note-marker-wrong-note: 0
     note-marker-unpaired: 72  # why: reportsthatmatter-4ofu (more notes defined, labels repeat per chapter; the pipeline's existing links such as "testing. . .[^3] 8" pair differently) + jsqw
