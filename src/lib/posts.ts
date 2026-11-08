@@ -85,7 +85,7 @@ export type ResolvedPost = {
   /** True when no card was rendered for this exact quote and the report's plain default card is used instead. */
   cardIsDefault: boolean;
   /** What a hooked post's source line is built from (`formatHooked`). */
-  page?: number;
+  page?: number | string;
   sourceTitle?: string;
   contextLine?: string;
   /**
@@ -126,7 +126,7 @@ function nestQuotes(quote: string): string {
  * commentary, ever — that rule is enforced by never taking a "why this
  * matters" field here, only the quote and the citation.
  */
-export function formatPost(quote: string, reportTitle: string, page: number, contextLine?: string): string {
+export function formatPost(quote: string, reportTitle: string, page: number | string, contextLine?: string): string {
   const post = `${nestQuotes(quote.trim())}\n\n— ${reportTitle}, p. ${page}`;
   return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
 }
@@ -136,7 +136,7 @@ export function formatPost(quote: string, reportTitle: string, page: number, con
  * with the report's short name and page, then the context line. The quote is not repeated: the card image under the
  * post carries it. The source line keeps the form `cardMeta` (src/lib/poster.ts) reads the link card's title from.
  */
-export function formatHooked(hook: string, sourceTitle: string, page: number, contextLine?: string): string {
+export function formatHooked(hook: string, sourceTitle: string, page: number | string, contextLine?: string): string {
   const post = `${hook.trim()}\n\n— ${sourceTitle}, p. ${page}`;
   return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
 }
