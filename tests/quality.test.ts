@@ -645,6 +645,10 @@ describe("note-definition-unreferenced (F, reportsthatmatter-b78.10)", () => {
     const md = "%%page 7%%\n\nA.[^1]\n\n## Notes\n\n%%page 8%%\n\n[^1]: cited.\n\n[^2]: uncited.";
     expect(noteDefinitionUnreferenced.run(input(md))[0].page).toBe(8);
   });
+  it("gives no page to collected notes after the last body page marker", () => {
+    const md = "%%page 7%%\n\nA.\n\n## Notes\n\n[^2]: uncited.";
+    expect(noteDefinitionUnreferenced.run(input(md))[0].page).toBeNull();
+  });
   it("gives 0 for restarting labels paired in order", () => {
     const md = "A.[^1] B.[^1]\n\n## Notes\n\n[^1]: one.\n\n[^1]: two.";
     expect(noteDefinitionUnreferenced.run(input(md))).toEqual([]);

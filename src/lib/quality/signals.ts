@@ -660,9 +660,14 @@ function noteDefinitionUse(markdown: string): { label: string; text: string; pag
   });
   // The printed page of each definition: the last page marker above it.
   const pages: (number | null)[] = [];
+  // Collected notes sit under `## Notes` after the last body page: the marker above them is not theirs, so they
+  // have no page until a marker appears inside the notes.
+  let stale = false;
   for (const b of toBlocks(markdown)) {
+    if (/^##\s+Notes\s*$/.test(b.raw)) stale = true;
+    else if (b.kind === "page") stale = false;
     if (b.kind !== "note" && !/^\[\^[^\]]+\]:/m.test(b.raw)) continue;
-    for (const _ of b.raw.matchAll(/^\[\^\d+(?:-\d+)?\]:/gm)) pages.push(b.page);
+    for (const _ of b.raw.matchAll(/^\[\^\d+(?:-\d+)?\]:/gm)) pages.push(stale ? null : b.page);
   }
   return defs.map((d, i) => {
     const k = nth.get(d.label) ?? 0;
@@ -774,7 +779,7 @@ export function headingCensus(input: QualityInput): { served: number; tagged: nu
   const served = proseBlocks(input)
     .filter((b) => b.kind === "heading" && /^#{3,}\s/.test(b.raw))
     .map((b) => b.raw.replace(/^#+\s*/, ""));
-  const tagged = input.reference.headings.filter((h) => h.level >= 2);
+  const tagged = input.reference.headings.filter((h) => h.level >= 2 && headingKey(h.text) !== "");
   // The tag tree sometimes keeps only a heading's first span ("Baby" for "Baby A", "Dr" for "Dr Hawdon"), so a
   // tagged heading left over after the exact pass is matched to an unclaimed served heading that opens with its words.
   const free = served.map(headingKey);
