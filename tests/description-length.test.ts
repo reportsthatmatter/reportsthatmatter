@@ -54,7 +54,7 @@ describe.each(ids)("descriptions of %s", (id) => {
     const full = await check(`/reports/${id}/full`);
     void full;
     const meta = JSON.parse(readFileSync(join(import.meta.dirname, `../assets/generated/reports/${id}/meta.json`), "utf8"));
-    const slug = meta.sections[1].slug;
+    const slug = (meta.sections[1] ?? meta.sections[0]).slug; // a short report may have one section
     const section = await app.request(`http://localhost/reports/${id}/${slug}`);
     const html = await section.text();
     expect(descriptions(html).og!.length).toBeLessThanOrEqual(200);
