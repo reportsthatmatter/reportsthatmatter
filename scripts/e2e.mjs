@@ -23,7 +23,6 @@ const check = (cond, name, detail = "") => {
 // The fixture report the checks read. A constant, not the registry's first entry:
 // the registry order is editorial (the homepage leads with Challenger, decision
 // 0027) and must be free to change without moving what these checks measure.
-// Challenger itself still carries positional ids (a text finding, not an e2e one).
 const firstReportId = "jack-smith-vol1";
 
 const browser = await chromium.launch();
@@ -113,7 +112,9 @@ if (firstReportId) {
     return {
       hasP1: Boolean(p1),
       hasPermalink: Boolean(p1 && p1.querySelector("a.permalink")),
-      positionalIds: document.querySelectorAll('.prose p[id^="p-"]').length,
+      // A positional id is "p-" and a number alone; a word slug may start "p-" too ("p-all-right-gene", from
+      // "P. All right, Gene"), and is text-derived (reportsthatmatter-4ofu).
+      positionalIds: [...document.querySelectorAll('.prose p[id^="p-"]')].filter((p) => /^p-\d+$/.test(p.id)).length,
       sidenotes: notes.length,
       pageMarkers: document.querySelectorAll(".page-marker").length,
       firstId: p1 ? p1.id : "",

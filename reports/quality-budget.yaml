@@ -40,30 +40,30 @@ defaults:
 
 reports:
   challenger-accident:
-    severed-into-quote: 85
-    severed-paragraph: 43  # why: reportsthatmatter-uw50 (parenFolios/foliosInStep re-page p.36's letter; '...the Commission is tasked / with completing its report' was already cut, now counted; read)
-    bare-footnote-marker: 76
-    bare-marker-after-quote: 18
+    severed-into-quote: 57  # why: reportsthatmatter-4ofu (85 to 57 with that run's joins; +1 is printed p.356, where the Desk Instruction head is kept so its OCR junk line does not run onto the page before: "DI NO. 100-26 Page 30 of 34" then a quoted "ms ..--. = -")
+    severed-paragraph: 23
+    bare-footnote-marker: 79  # why: reportsthatmatter-4ofu (153 more notes read from their pages, so the OCR'd markers already bare before them, "incident.2" p.35, "location.16" p.55, now have a note to count against)
+    bare-marker-after-quote: 22  # why: reportsthatmatter-4ofu (as bare-footnote-marker: "configuration."31" p.57 and three more were bare before; their notes are now read)
     note-marker-wrong-note: 0
-    note-marker-unpaired: 66  # why: reportsthatmatter-jsqw (vision hybrid: 264 notes defined instead of 82, so labels repeat and the pairing signal now sees the pipeline's existing spurious links: 50 of the 66 sat in the same place before, e.g. "testing. . .[^3] 8", most of the rest on exhibit pages the pipeline reads)
-    note-definition-unreferenced: 165  # why: reportsthatmatter-b78.10 baseline
+    note-marker-unpaired: 72  # why: reportsthatmatter-4ofu (more notes defined, labels repeat per chapter; the pipeline's existing links such as "testing. . .[^3] 8" pair differently) + jsqw
+    note-definition-unreferenced: 309  # why: reportsthatmatter-b78.10 baseline + 4ofu (153 more notes read from their pages; most of their markers are superscripts the OCR dropped, so they were unreferenced before too, as body text)
     note-reference-sequence: 71
-    note-text-in-body: 48
+    note-text-in-body: 17
     note-citation-vocabulary: 0
-    furniture-paragraph: 116
-    contents-entry-without-heading: 56
+    furniture-paragraph: 99
+    contents-entry-without-heading: 53
     heading-density: 1  # why: reportsthatmatter-jsqw (the report's own Issue / Findings / Discussion / Recommendations labels, now level-4 subheads as golden pages 22 and 29 have them; 139 headings per 100 pages)
-    heading-repeated: 7
-    heading-function-word: 5
+    heading-repeated: 6
+    heading-function-word: 3
     heading-marker: 0
     heading-long: 17
     printed-page-reversal: 0
     rendered-h1: 1
     chapter-intro-misfiled: 1
-    rendered-ol-words-share: 5  # why: reportsthatmatter-jsqw (numbered findings the vision reading splits into paragraphs of their own; 4% to 5% rounded)
+    rendered-ol-words-share: 6  # why: reportsthatmatter-4ofu (26 pages with notes the vision reading missed now keep the pipeline's reading, whose numbered findings render as a list; 5.7%) + jsqw
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: reportsthatmatter-4ofu (the same pages' structure change; gap 1.5 points)
   columbia-accident:
     severed-into-quote: 40
     severed-paragraph: 70

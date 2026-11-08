@@ -36,9 +36,9 @@ reports:
     markers-unlinked: 18  # why: v0.25.0 integration (ingest#74's marker-in-fragment layout fix): the oracle now reads the raised 2 of "CDO²" (PDF pp.400, 486, 548 ...) as a footnote marker. Read on the PDF text layer ("hybrid CDO2 transaction"); it is the squared in the term, not a note. full.md is unchanged (19 CDO^2 and 18 CDO2 before and after), so 2 -> 18 is oracle-side, not a lost link
     note-off-page: 0
   challenger-accident:
-    markers-unlinked: 38  # why: reportsthatmatter-wjbs (ingest#73 reads a raised fragment of numbers in sequence as markers, "tions. 3 4" p.153, "scheduled. 6 7" p.164, "0.038".” 4 5" p.209: +4 real and bare in the text; +2 spurious, p.264 "Air Force Plant 7 8" is Plant 78 set raised in the scan) + n891 (ingest#64: the oracle now reads raised digits on quotation lines too; +5 on pp.60, 64, 67 and two more, text unchanged; 27 before) + jsqw + 4ef1
-    paragraphs-oversplit: 372  # why: reportsthatmatter-jsqw (the glossary, PDF pp. 261-262, read one entry a paragraph, is +89; on the other vision pages over-split falls 111 to 65)
-    note-off-page: 78  # why: reportsthatmatter-uw50 (page markers move with the folio passes; +1)
+    markers-unlinked: 36  # why: reportsthatmatter-wjbs (ingest#73 reads a raised fragment of numbers in sequence as markers, "tions. 3 4" p.153, "scheduled. 6 7" p.164, "0.038".” 4 5" p.209: +4 real and bare in the text; +2 spurious, p.264 "Air Force Plant 7 8" is Plant 78 set raised in the scan) + n891 (ingest#64: the oracle now reads raised digits on quotation lines too; +5 on pp.60, 64, 67 and two more, text unchanged; 27 before) + jsqw + 4ef1
+    paragraphs-oversplit: 307  # why: reportsthatmatter-jsqw (the glossary, PDF pp. 261-262, read one entry a paragraph, is +89; on the other vision pages over-split falls 111 to 65)
+    note-off-page: 81  # why: reportsthatmatter-4ofu (153 more notes read from their pages; markers still link by number document-wide while the report numbers its notes per chapter, so the nearest same-number note moves: 30 findings gone, 33 new) + uw50
   uk-leveson-inquiry:
     headings-missed: 1350
     markers-unlinked: 17

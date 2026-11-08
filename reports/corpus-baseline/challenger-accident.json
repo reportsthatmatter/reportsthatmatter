@@ -1,6 +1,6 @@
 {
-  "words": 152968,
-  "paragraphs": 2799,
+  "words": 151140,
+  "paragraphs": 2586,
   "sections": [
     {
       "slug": "investigation-of-the-challenger-accident",
@@ -11,8 +11,8 @@
     {
       "slug": "introduction",
       "title": "INTRODUCTION",
-      "paragraphs": 10,
-      "ids": "26f2449bfea7"
+      "paragraphs": 9,
+      "ids": "e97591c0eeb1"
     },
     {
       "slug": "conclusions",
@@ -41,14 +41,14 @@
     {
       "slug": "organization-and-policy-management",
       "title": "Organization and Policy Management",
-      "paragraphs": 53,
-      "ids": "5136d6e06b0a"
+      "paragraphs": 50,
+      "ids": "c361d1c82f71"
     },
     {
       "slug": "challenger-investigation-hearings",
       "title": "CHALLENGER INVESTIGATION HEARINGS",
-      "paragraphs": 14,
-      "ids": "b584b84b2187"
+      "paragraphs": 13,
+      "ids": "972b29520b92"
     },
     {
       "slug": "introduction-2",
@@ -77,8 +77,8 @@
     {
       "slug": "test-and-control-features",
       "title": "TEST AND CONTROL FEATURES",
-      "paragraphs": 68,
-      "ids": "a43e05f73981"
+      "paragraphs": 56,
+      "ids": "644b5f582885"
     },
     {
       "slug": "summary-of-significant-observations",
@@ -107,8 +107,8 @@
     {
       "slug": "external",
       "title": "EXTERNAL",
-      "paragraphs": 19,
-      "ids": "3a875dc0e40a"
+      "paragraphs": 16,
+      "ids": "8743685807d2"
     },
     {
       "slug": "crewsurvival",
@@ -119,50 +119,50 @@
     {
       "slug": "additional-of-investigation-avenues",
       "title": "ADDITIONAL OF INVESTIGATION AVENUES",
-      "paragraphs": 11,
-      "ids": "d49b3492667d"
+      "paragraphs": 10,
+      "ids": "8369303a82e7"
     },
     {
       "slug": "hardware-development-and-production-2",
       "title": "HARDWARE DEVELOPMENT AND PRODUCTION",
-      "paragraphs": 190,
-      "ids": "9dc60d10c885"
+      "paragraphs": 179,
+      "ids": "cd71f0fb3092"
     },
     {
       "slug": "2-operations",
       "title": "2 . OPERATIONS",
-      "paragraphs": 175,
-      "ids": "521e5b4c3aae"
+      "paragraphs": 164,
+      "ids": "a2a9ef19305f"
     },
     {
       "slug": "technical-management-2",
       "title": "TECHNICAL MANAGEMENT",
-      "paragraphs": 254,
-      "ids": "d79c5fdd8ebf"
+      "paragraphs": 241,
+      "ids": "63643b8f68e0"
     },
     {
       "slug": "downstream-proper-posit-ion-i-figurevii-1",
       "title": "DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1",
-      "paragraphs": 167,
-      "ids": "0a96f1472c3d"
+      "paragraphs": 134,
+      "ids": "c1e649c91f0c"
     },
     {
       "slug": "the-sts-51-l-launch-decision",
       "title": "THE STS 51-L LAUNCH DECISION",
-      "paragraphs": 116,
-      "ids": "e9b7949f9478"
+      "paragraphs": 93,
+      "ids": "4e309729b6a7"
     },
     {
       "slug": "table-i1-principal-participants-in-the-teleconference",
       "title": "TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE",
-      "paragraphs": 250,
-      "ids": "23d7851230b8"
+      "paragraphs": 240,
+      "ids": "717334638676"
     },
     {
       "slug": "launch-redlines",
       "title": "LAUNCH REDLINES",
-      "paragraphs": 101,
-      "ids": "2b25836b6de0"
+      "paragraphs": 97,
+      "ids": "adb4b75410a4"
     },
     {
       "slug": "ixdefinitions-of-terms-and-acronyms",
@@ -173,26 +173,26 @@
     {
       "slug": "xational-aeronautics-and-space-admiyistratiov",
       "title": "XATIONAL AERONAUTICS AND SPACE ADMIYISTRATIOV",
-      "paragraphs": 16,
-      "ids": "b6b944be7f65"
+      "paragraphs": 15,
+      "ids": "2a63924fa82f"
     },
     {
       "slug": "30-approach",
       "title": "3.0 APPROACH",
-      "paragraphs": 42,
-      "ids": "671899cdb432"
+      "paragraphs": 39,
+      "ids": "98e0e647765b"
     },
     {
       "slug": "i-kdler-1-el2",
       "title": "I?. Kdler 1 El2",
-      "paragraphs": 66,
-      "ids": "6fe15065b122"
+      "paragraphs": 63,
+      "ids": "04ce9aee33d9"
     },
     {
       "slug": "thiokol",
       "title": "THIOKOL",
-      "paragraphs": 11,
-      "ids": "6c421ca0193d"
+      "paragraphs": 10,
+      "ids": "c6935de21f5e"
     },
     {
       "slug": "electrical",
@@ -203,104 +203,92 @@
     {
       "slug": "o-rings-and-putty",
       "title": "O-RINGS AND PUTTY",
-      "paragraphs": 41,
-      "ids": "35574b706533"
+      "paragraphs": 40,
+      "ids": "ede08e7d9695"
     },
     {
       "slug": "terrestrial-environment-climatic-criteria",
       "title": "TERRESTRIAL ENVIRONMENT (CLIMATIC) CRITERIA",
-      "paragraphs": 28,
-      "ids": "d0a816c0c343"
-    },
-    {
-      "slug": "space-shuttle-program-thermal-interfaces-design-data-book",
-      "title": "SPACE SHUTTLE PROGRAM THERMAL INTERFACES DESIGN DATA BOOK",
-      "paragraphs": 19,
-      "ids": "6d8e647ac941"
+      "paragraphs": 49,
+      "ids": "2a8f81d6f51a"
     },
     {
       "slug": "space-shuttle-s-o-l-i-d-rocket-hwor-pnojoct-operational-flight",
       "title": "SPACE SHUTTLE S O L I D ROCKET HWOR PNOJOCT OPERATIONAL FLIGHT",
-      "paragraphs": 37,
-      "ids": "33023945b39d"
+      "paragraphs": 32,
+      "ids": "1d6f2e0d7441"
     },
     {
       "slug": "panel-on-tecbrical-evaluation-of-rasas-ppoposed-bzdesicii",
       "title": "PANEL ON TECBRICAL EVALUATION OF RASA'S PPOPOSED BZDESICII",
-      "paragraphs": 156,
-      "ids": "96ade224be34"
+      "paragraphs": 131,
+      "ids": "5d097ca1fcce"
     },
     {
       "slug": "criticality-potential-effect-of-failure",
       "title": "CRITICALITY POTENTIAL EFFECT OF FAILURE",
-      "paragraphs": 9,
-      "ids": "26af306de841"
+      "paragraphs": 7,
+      "ids": "c4098da62ec5"
     },
     {
       "slug": "33-analysis-reouirements",
       "title": "3.3 ANALYSIS REOUIREMENTS",
-      "paragraphs": 34,
-      "ids": "56cb0b723cb6"
+      "paragraphs": 29,
+      "ids": "8a85016bc4e3"
     },
     {
       "slug": "eclss-subsystem",
       "title": "ECLSS SUBSYSTEM",
-      "paragraphs": 15,
-      "ids": "2f977cd54c15"
+      "paragraphs": 14,
+      "ids": "56622f681c87"
     },
     {
       "slug": "f-a-i-l-s-hid-travel-erroneous-indication-loss-of-or-partial-output-f-a-i-l-s-t-",
       "title": "F A I L S HID-TRAVEL ERRONEOUS INDICATION LOSS OF OR PARTIAL OUTPUT F A I L S T O OPEN/UOSE RESTRICTED FLOU SHORTED",
-      "paragraphs": 9,
-      "ids": "c891370c72ca"
+      "paragraphs": 7,
+      "ids": "524c5de7c9a4"
     },
     {
       "slug": "causes-contamination-temperature-highlou-inadvertent-operationactivation-mechani",
       "title": "CAUSES CONTAMINATION TEMPERATURE (HIGH/LOU) INADVERTENT OPERATION/ACTIVATION MECHANICAL SHOCK THERHAL SHOCK VIBRATION VACUUM PRESSURE (HIGH/LOU) PROCEDURAL ERROR ACOUSTICS IONIZING RADIATION CHEMIUL REACTION OVERLOAD ' ACCELERATION LOSS OF/IMPROPER INPUT",
-      "paragraphs": 19,
-      "ids": "8c691932c8f5"
+      "paragraphs": 13,
+      "ids": "c993e7d32eb5"
     },
     {
       "slug": "42-revisions-submittals",
       "title": "4.2 REVISIONS & SUBMITTALS",
-      "paragraphs": 62,
-      "ids": "16d9e836dc07"
+      "paragraphs": 46,
+      "ids": "73219f84b9a2"
     },
     {
-      "slug": "appendix-8",
-      "title": "APPENDIX 8",
-      "paragraphs": 17,
-      "ids": "65316849e679"
+      "slug": "31-general-ground-rules-and-criteria-311-ground-rules",
+      "title": "3.1 GENERAL GROUND RULES AND CRITERIA 3.1.1 GROUND RULES",
+      "paragraphs": 8,
+      "ids": "add4cac625bb"
     },
     {
       "slug": "rubber-property-compression-set",
       "title": "RUBBER PROPERTY-COMPRESSION SET'",
-      "paragraphs": 42,
-      "ids": "3b37d8d3802f"
+      "paragraphs": 41,
+      "ids": "968864ed36d0"
     },
     {
       "slug": "calculation-12-procedure",
       "title": "Calculation 12. Procedure",
-      "paragraphs": 45,
-      "ids": "4d1f6f4739e7"
-    },
-    {
-      "slug": "0-omrsd",
-      "title": "0 OMRSD",
-      "paragraphs": 17,
-      "ids": "f08f3f083ec1"
+      "paragraphs": 65,
+      "ids": "6865f1801dea"
     },
     {
       "slug": "shuttle-w-0-3-e-c-t-s-frr-requireuents",
       "title": "SHUTTLE W 0 3 E C T S FRR REQUIREUENTS",
-      "paragraphs": 88,
-      "ids": "d0a79c917eed"
+      "paragraphs": 86,
+      "ids": "f98331b58d67"
     },
     {
       "slug": "perfornance-acceptable-no",
       "title": "PERFORNANCE ACCEPTABLE NO",
-      "paragraphs": 55,
-      "ids": "2dae8dd6e87a"
+      "paragraphs": 46,
+      "ids": "f7d0c0c36074"
     },
     {
       "slug": "notes-not-linked-in-the-text",
