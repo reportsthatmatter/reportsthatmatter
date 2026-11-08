@@ -320,3 +320,18 @@ reports:
     ingested: true
     affected_community: true
     context_line: "Thirlwall Inquiry summary report (2026): events at the Countess of Chester Hospital, 2015 to 2018."
+
+  - id: uk-stern-review
+    title: "Stern Review: The Economics of Climate Change: Executive Summary"
+    authors: "Nicholas Stern (HM Treasury)"
+    published_at: "30 October 2006"
+    common_name: "Stern Review"
+    also_known_as: ["Stern Review on the Economics of Climate Change", "The Economics of Climate Change: The Stern Review", "Stern Report", "Stern Review Executive Summary"]
+    issued_by: "HM Treasury"
+    date_published: "2006-10-30"
+    repo: uk-stern-review
+    license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    source_path: reports/uk-stern-review/full.md
+    source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
+    ingested: true
+    context_line: "Stern Review on the Economics of Climate Change (2006), Executive Summary: the costs of climate change and of acting on it."

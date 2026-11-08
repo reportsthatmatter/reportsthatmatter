@@ -1,0 +1,222 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      editor's highlights: seeded into the marks table, not printed here
+#
+# Written 2026-11-08 (reportsthatmatter-gqsy.9), for the Executive Summary only
+# (the unit served so far). Our words neutral and attributed ("the Review
+# estimates"), every judgment in the report's own words and in quotation marks.
+# The Review's figures are estimates made in 2006; the background records the
+# economists' main objection (the discount rate) and Stern's own 2008 revision,
+# as dated facts with their sources.
+#
+# Facts taken from the report itself: commissioned by the Chancellor, reporting
+# to the Chancellor and the Prime Minister (ES p.i); announced in July 2005
+# (Preface, p.i, in the full report's Preface_and_Acknowledgements.pdf); its
+# estimates (5% and 20% of consumption, 1% of GDP, $85 per tonne, 18% from
+# deforestation); its three elements of policy.
+#
+# Sources for the background facts that are not in the report (checked 2026-11-08):
+#   From the full report's Preface (Preface_and_Acknowledgements.pdf, p.i): submissions
+#     invited 10 October 2005 to 15 January 2006; visits to Brazil, Canada, China, the
+#     European Commission, France, Germany, India, Japan, Mexico, Norway, Russia, South
+#     Africa and the USA; "economists, scientists, policy-makers, business and NGOs";
+#     "Wherever possible, we have based our Review on gathering and structuring existing
+#     research material." Chapter 2 (Economics, Ethics and Climate Change) argues the
+#     discounting choice on ethical grounds.
+#   Announced by Chancellor Gordon Brown in July 2005; reported to the Prime
+#     Minister (Tony Blair) and the Chancellor; Stern was Head of the Government
+#     Economic Service; CUP published it as a book in January 2007
+#     (lse.ac.uk/granthaminstitute/explainers/what-is-the-stern-review/).
+#   Stern, World Bank Chief Economist 2000-2003; Baron Stern of Brentford, 2007
+#     (en.wikipedia.org/wiki/Nicholas_Stern,_Baron_Stern_of_Brentford).
+#   The 0.1% pure rate of time preference and Nordhaus's criticism of the low
+#     discount rate: Nordhaus, "A Review of the Stern Review on the Economics of
+#     Climate Change", Journal of Economic Literature 45(3), 2007
+#     (doi.org/10.1257/jel.45.3.686), via en.wikipedia.org/wiki/Stern_Review.
+#   June 2008: Stern raised his estimate of the annual cost of stabilisation to
+#     about 2% of GDP (Guardian, 26 June 2008, as reported by IEMA, 3 July 2008:
+#     iema.net/resources/news/2008/07/03/iema-cost-of-tackling-global-climate-change-has-doubled-warns-stern).
+#   COP31: Antalya, Türkiye, 9-20 November 2026
+#     (unccd.int/index.php/events/other/2026-un-climate-change-conference-cop31;
+#     pm.gov.au/media/cop-be-hosted-turkiye-australia-leading-negotiations).
+# Left out as not verified to a source: any causal link to the Climate Change Act 2008.
+# Fact-check by a subagent, 2026-11-08. "Six parts": HM Treasury's report page lists
+#   Parts I-VI (stern_review_report.htm, Wayback 2009). Critiqued by a Fable reviewer
+#   (2026-11-08, agent protocol 2026-10-24); its points applied.
+
+report: uk-stern-review
+status: approved
+
+why_it_matters: >-
+  Sir Nicholas Stern's review of the economics of climate change, written
+  for the UK Treasury and published in October 2006. It set the costs of
+  climate change against the costs of acting on it, and concluded that the
+  benefits of strong, early action "considerably outweigh the costs".
+  Published here in November 2026, twenty years on and as COP31 meets: its
+  Executive Summary in its own words, with the estimates, the reasoning and
+  the policies it proposed.
+
+description: >-
+  The Stern Review (2006) on the economics of climate change: its Executive
+  Summary, citable paragraph by paragraph.
+
+background: |
+  In July 2005 the Chancellor of the Exchequer, Gordon Brown, asked Sir
+  Nicholas Stern, then Head of the Government Economic Service and a former
+  Chief Economist of the World Bank, to review the economics of climate
+  change. The Review, which describes itself as independent, was based in HM
+  Treasury and reported to the Prime Minister, Tony Blair, and to the
+  Chancellor. It was a review commissioned by government, not a statement
+  of government policy. It invited submissions, met economists, scientists,
+  policy-makers, business and NGOs in a dozen countries, and drew wherever
+  it could on existing research.
+
+  It was published on 30 October 2006, in six parts, with this 27-page
+  Executive Summary stating its argument and conclusions. The summary itself
+  warns that its estimates "should not be endowed with a precision and
+  certainty that is simply impossible to achieve". Cambridge
+  University Press published it as a book in January 2007. The rest of the
+  Review is not yet on this site.
+
+  Its estimates were argued over from the start. Economists, among them
+  William Nordhaus, criticised the low rate at which it discounted harm to
+  future generations, which weighs future losses heavily against costs paid
+  now; the full Review argues for that choice on ethical grounds. In June 2008 Stern
+  said the costs of acting had risen, and put the annual cost of stabilising
+  greenhouse gases at about 2% of GDP, double the Review's estimate. The
+  Executive Summary is published here as the UN climate conference COP31
+  meets in Antalya, Türkiye, from 9 to 20 November 2026.
+
+findings:
+  - text: The Review's central conclusion, reached by three different methods (the physical impacts and the costs of cutting emissions, economic models, and the social cost of carbon against the cost of abatement), is that the benefits of strong, early action outweigh the costs.
+    cites: [from-all-these-perspectives-evidence, review-considers-economic-costs-impacts]
+    excerpt:
+      paragraph: from-all-these-perspectives-evidence
+      quote: >-
+        From all of these perspectives, the evidence gathered by the Review
+        leads to a simple conclusion: the benefits of strong, early action
+        considerably outweigh the costs.
+
+  - text: It estimates that unchecked climate change would cost the equivalent of at least 5% of global consumption per head, "now and forever", and between 5% and 20% once wider risks and impacts are counted, with the upper part of that range the more likely.
+    cites: [using-model-including-those-elements, summary-analyses-take-into-account, putting-these-additional-factors-together]
+    excerpt:
+      paragraph: summary-analyses-take-into-account
+      quote: >-
+        In summary, analyses that take into account the full ranges of both
+        impacts and possible outcomes - that is, that employ the basic economics
+        of risk - suggest that BAU climate change will reduce welfare by an
+        amount equivalent to a reduction in consumption per head of between 5
+        and 20%. Taking account of the increasing scientific evidence of
+        greater risks, of aversion to the possibilities of catastrophe, and of
+        a broader approach to the consequences than implied by narrow output
+        measures, the appropriate estimate is likely to be in the upper part of
+        this range.
+
+  - text: Against that, it estimates the annual cost of stabilising greenhouse gases at 500-550ppm CO2e at around 1% of GDP by 2050, and finds a high price to delay.
+    cites: [achieving-these-deep-cuts-emissions, important-corollary-there-high-price]
+    excerpt:
+      paragraph: achieving-these-deep-cuts-emissions
+      quote: >-
+        Achieving these deep cuts in emissions will have a cost. The Review
+        estimates the annual costs of stabilisation at 500-550ppm CO2e to be
+        around 1% of GDP by 2050 - a level that is significant but manageable.
+
+  - text: It calls climate change "a unique challenge for economics", a market failure that is global, long-term and uncertain.
+    cites: [climate-change-presents-unique-challenge]
+    excerpt:
+      paragraph: climate-change-presents-unique-challenge
+      quote: >-
+        Climate change presents a unique challenge for economics: it is the
+        greatest and widest-ranging market failure ever seen.
+
+  - text: It finds that the poorest countries and people will suffer earliest and most, though they have contributed little to the problem, and that the international community has an obligation to help them adapt.
+    cites: [impacts-climate-change-are-not, climate-change-grave-threat-developing, poorest-developing-countries-will-be]
+
+  - text: It proposes three elements of policy for cutting emissions (a carbon price, technology policy and the removal of barriers to behavioural change), and finds that leaving out any one of them would raise the cost.
+    cites: [three-elements-policy-mitigation-are, putting-appropriate-price-carbon-explicitly]
+
+  - text: It calls for international collective action, through a broadly similar carbon price around the world, carbon finance for developing countries, co-operation on technology, action on deforestation (which it estimates at more than 18% of global emissions) and support for adaptation.
+    cites: [effective-response-climate-change-will, creating-broadly-similar-carbon-price, emissions-from-deforestation-are-very]
+
+reading_guide:
+  - section: executive-summary
+    why: >-
+      The whole summary is one section of 27 pages. Its findings are the
+      sentences in bold italic: read those first for the argument, then the
+      impacts and costs of climate change (pp. iii-x), the costs of action (pp. xi-xvii) and the
+      policies (pp. xviii-xxvii).
+    excerpt:
+      paragraph: evidence-shows-ignoring-climate-change
+      quote: >-
+        Our actions over the coming few decades could create risks of major
+        disruption to economic and social activity, later in this century and
+        in the next, on a scale similar to those associated with the great wars
+        and the economic depression of the first half of the 20th century.
+
+highlights:
+  - paragraph: from-all-these-perspectives-evidence
+    quote: >-
+      the evidence gathered by the Review leads to a simple conclusion: the
+      benefits of strong, early action considerably outweigh the costs.
+    card: true
+  - paragraph: climate-change-presents-unique-challenge
+    quote: >-
+      Climate change presents a unique challenge for economics: it is the
+      greatest and widest-ranging market failure ever seen.
+    card: true
+  - paragraph: achieving-these-deep-cuts-emissions
+    quote: >-
+      The Review estimates the annual costs of stabilisation at 500-550ppm
+      CO2e to be around 1% of GDP by 2050 - a level that is significant but
+      manageable.
+    card: true
+  - paragraph: important-corollary-there-high-price
+    quote: >-
+      An important corollary is that there is a high price to delay.
+    card: true
+  - paragraph: impacts-climate-change-are-not
+    quote: >-
+      The impacts of climate change are not evenly distributed - the poorest
+      countries and people will suffer earliest and most.
+  - paragraph: evidence-shows-ignoring-climate-change
+    quote: >-
+      Tackling climate change is the pro-growth strategy for the longer term,
+      and it can be done in a way that does not cap the aspirations for growth
+      of rich or poor countries.
+  - paragraph: putting-these-additional-factors-together
+    quote: >-
+      Putting these additional factors together would increase the total cost
+      of BAU climate change to the equivalent of around a 20% reduction in
+      consumption per head, now and into the future.
+  - paragraph: three-elements-policy-mitigation-are
+    quote: >-
+      Three elements of policy for mitigation are essential: a carbon price,
+      technology policy, and the removal of barriers to behavioural change.
+  - paragraph: emissions-from-deforestation-are-very
+    quote: >-
+      Emissions from deforestation are very significant – they are estimated
+      to represent more than 18% of global emissions, a share greater than is
+      produced by the global transport sector.
+  - paragraph: poorest-developing-countries-will-be
+    quote: >-
+      The poorest developing countries will be hit earliest and hardest by
+      climate change, even though they have contributed little to causing the
+      problem.
+  - paragraph: there-still-time-avoid-worst
+    quote: >-
+      There is still time to avoid the worst impacts of climate change if
+      strong collective action starts now.
+    card: true
+  - paragraph: evidence-shows-ignoring-climate-change
+    quote: >-
+      Our actions over the coming few decades could create risks of major
+      disruption to economic and social activity, later in this century and in
+      the next, on a scale similar to those associated with the great wars and
+      the economic depression of the first half of the 20th century.
+    card: true
