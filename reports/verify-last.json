@@ -3,14 +3,14 @@
   "challenger-accident": {
    "oracle": {
     "headings-missed": 169,
-    "headings-spurious": 102,
-    "markers-unlinked": 38,
+    "headings-spurious": 95,
+    "markers-unlinked": 36,
     "markers-spurious": 143,
-    "paragraphs-oversplit": 372,
-    "paragraphs-merged": 1925,
-    "quotes-spurious": 385,
-    "quotes-missed": 208,
-    "note-off-page": 78
+    "paragraphs-oversplit": 307,
+    "paragraphs-merged": 1952,
+    "quotes-spurious": 329,
+    "quotes-missed": 210,
+    "note-off-page": 81
    },
    "golden": {
     "match": 3,
@@ -34,7 +34,7 @@
      "fn": 0
     },
     "paragraphs-oversplit": {
-     "tp": 2,
+     "tp": 1,
      "fp": 0,
      "fn": 10
     },
@@ -884,12 +884,57 @@
      "fn": 0
     }
    }
+  },
+  "uk-stern-review": {
+   "oracle": {
+    "headings-missed": 26,
+    "headings-spurious": 0,
+    "markers-unlinked": 25,
+    "markers-spurious": 0,
+    "paragraphs-oversplit": 2,
+    "paragraphs-merged": 2,
+    "quotes-spurious": 0,
+    "quotes-missed": 1,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 6,
+    "total": 8,
+    "known": 2
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 12,
+     "fn": 0
+    },
+    "markers-unlinked": {
+     "tp": 0,
+     "fp": 16,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 2,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 1
+    },
+    "quotes-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    }
+   }
   }
  },
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 13,
-   "fp": 30,
+   "fp": 42,
    "fn": 7
   },
   "headings-spurious": {
@@ -899,7 +944,7 @@
   },
   "markers-unlinked": {
    "tp": 6,
-   "fp": 1,
+   "fp": 17,
    "fn": 6
   },
   "markers-spurious": {
@@ -908,14 +953,14 @@
    "fn": 1
   },
   "paragraphs-oversplit": {
-   "tp": 8,
-   "fp": 19,
+   "tp": 7,
+   "fp": 21,
    "fn": 27
   },
   "paragraphs-merged": {
    "tp": 5,
-   "fp": 276,
-   "fn": 1
+   "fp": 277,
+   "fn": 2
   },
   "quotes-spurious": {
    "tp": 2,
@@ -924,7 +969,7 @@
   },
   "quotes-missed": {
    "tp": 3,
-   "fp": 43,
+   "fp": 44,
    "fn": 0
   }
  }

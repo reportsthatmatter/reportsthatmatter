@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-08 — Challenger's footnotes, appendix noise and split sentences
+
+In [the House Committee's Challenger report](/reports/challenger-accident), 153 footnotes the 1986 scan's OCR had garbled ("bid." for "29 Ibid.") now read as footnotes instead of sitting in the middle of the text: restored one by one from the page images, they leave the paragraphs they used to interrupt whole. 23 sentences the scan had cut in two are one again, and the appendices lose 95 stray "I" paragraphs (table rules) and the running heads of a reprinted NASA desk instruction. Our error estimate for the report falls from 8.1 to 6.6 per 10 pages.
+
+---
+
 ## 2026-11-08 — The Stern Review's Executive Summary
 
 [The Stern Review on the Economics of Climate Change](/reports/uk-stern-review), led by Sir Nicholas Stern for HM Treasury and published on 30 October 2006, is on the site as its 27-page Executive Summary, a day before the COP31 climate conference opens: every paragraph with its own link, its 27 key findings in bold italic as printed, and its 5 footnotes linked, rebuilt from HM Treasury's PDF. It opens with our introduction: what the Review set out to do, seven of its findings with the paragraphs behind them, and the main objection economists raised. The figures are described by their titles and captions but not shown yet, and the full Review's 27 chapters come later.
