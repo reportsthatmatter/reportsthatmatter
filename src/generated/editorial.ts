@@ -3311,7 +3311,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "src": "/assets/heroes/uk-stern-review-1200.webp",
         "width": 1200
       },
-      "credit": "HM Treasury, 1 Horse Guards Road, London, from St James's Park, 2016 · Photo: Dun.can, CC BY 2.0",
+      "credit": "HM Treasury, 1 Horse Guards Road, London, from St James's Park · Photo: Dun.can, CC BY 2.0",
       "source": "https://commons.wikimedia.org/wiki/File:1_Horse_Guards_Road,_Westminster_(22761348308).jpg",
       "alt": "The stone front of HM Treasury on Horse Guards Road in London, seen through plane trees from St James's Park, with a carved doorway at the centre and a police car at the kerb.",
       "focus": "50% 55%"
