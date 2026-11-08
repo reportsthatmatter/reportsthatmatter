@@ -125,3 +125,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
+  uk-stern-review:
+    markers-wrong: 0
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 0

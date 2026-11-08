@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-08 — The Stern Review's Executive Summary
+
+[The Stern Review on the Economics of Climate Change](/reports/uk-stern-review), led by Sir Nicholas Stern for HM Treasury and published on 30 October 2006, is on the site as its 27-page Executive Summary, a day before the COP31 climate conference opens: every paragraph with its own link, its 27 key findings in bold italic as printed, and its 5 footnotes linked, rebuilt from HM Treasury's PDF. It opens with our introduction: what the Review set out to do, seven of its findings with the paragraphs behind them, and the main objection economists raised. The figures are described by their titles and captions but not shown yet, and the full Review's 27 chapters come later.
+
+---
+
 ## 2026-11-07 — Thirlwall's quotations, its footnote and Chapter 4
 
 In [the Thirlwall Inquiry's summary report](/reports/uk-thirlwall-inquiry), the 15 quotations the report sets inset in italic (parents' evidence, the Thematic Review's findings) were plain paragraphs; they are quotations now. The report's one footnote, an asterisk on printed page 39, is a linked note rather than a stray paragraph, and Chapter 4, "Part Two", is a chapter like the other three. Links to the old paragraphs lead to the paragraph that introduces each quotation.

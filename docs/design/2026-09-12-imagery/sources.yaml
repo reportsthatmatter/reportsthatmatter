@@ -632,3 +632,37 @@ marks:
     caveat: >-
       Title text is thin line work, so at 92px the row reads as a few grey lines. It is the shape
       of a title page, as with the Russia elections plate. If it reads as noise, raise black.
+
+  - id: stern
+    set: plate
+    report: uk-stern-review
+    pdf: archive/stern-review-executive-summary.pdf
+    page: 4
+    dpi: 300
+    # The chart inside Figure 1's box, read off the 300dpi page: the pie with
+    # its wedge labels spans about x 520-2090, y 410-1290 (the red "ENERGY
+    # EMISSIONS" label at top left, "Land use (18%)" at the foot). The crop
+    # takes the whole chart with its labels, and leaves out the figure's
+    # title above and the two note lines and Source line below ("Total emissions in 2000: 42 GtCO2e." stays, at the foot).
+    # (A crop to the wedges alone cut the pale wedges and halved the labels.)
+    crop: [500, 390, 1560, 1022]
+    subject: >-
+      Figure 1 of the Executive Summary, "Greenhouse-gas emissions in 2000, by
+      source", PDF p.4 (printed iv): the pie of the world's 42 GtCO2e by sector
+      (power 24%, land use 18%, transport, industry and agriculture 14% each,
+      buildings 8%), the energy and non-energy wedges pulled apart. It is the
+      exhibit the Review's argument starts from: where emissions come from, and
+      so where they must be cut. Avoided: images of floods, droughts, ice or
+      smokestacks (the event, not the exhibit), and any HM Treasury insignia.
+    rights: >-
+      Crown copyright, reused under the Open Government Licence v3.0 (HM
+      Treasury, 2006; see the report repo's LICENSE). The figure's Source line
+      reads "Prepared by Stern Review, from data drawn from World Resources
+      Institute Climate Analysis Indicators Tool (CAIT) on-line database
+      version 3.0": the chart is the Review's own; the data are WRI's.
+    treat: { black: 0.06, white: 0.88, grain: 70, cut: none }
+    caveat: >-
+      A pie's wedges are flat colours, so in greyscale they separate by tone
+      only (yellow and pale green go light, red and dark green dark). The
+      wedge labels sit inside the crop and are small at 300px. If it reads
+      flat, raise black or crop tighter to the wedges.

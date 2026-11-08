@@ -232,7 +232,8 @@ describe.each(registry.map((r) => [r.id, r] as const))("rendered head of %s", (i
 
   it("a section: canonical, breadcrumbs, part of the report; a ?p= link canonicalises to the bare section", async () => {
     const meta = JSON.parse(readFileSync(join(import.meta.dirname, `../assets/generated/reports/${id}/meta.json`), "utf8"));
-    const slug = meta.sections[1].slug;
+    // The second section, or the only one: a short report (the Stern Review's Executive Summary) has a single section.
+    const slug = (meta.sections[1] ?? meta.sections[0]).slug;
     const plain = await get(`/reports/${id}/${slug}`);
     expect(plain.canonical).toEqual([`${reportUrl}/${slug}`]);
     expect(plain.title.endsWith(` — ${r.common_name}`)).toBe(true);

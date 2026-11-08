@@ -53,3 +53,5 @@ reports:
     dir: ../us-ica-2017-russia-elections
   - id: uk-thirlwall-inquiry
     dir: ../uk-thirlwall-inquiry
+  - id: uk-stern-review
+    dir: ../uk-stern-review

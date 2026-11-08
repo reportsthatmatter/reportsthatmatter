@@ -96,3 +96,6 @@ reports:
   us-ica-2017-russia-elections:
     markers-unlinked: 0
     note-off-page: 0
+  uk-stern-review:
+    markers-unlinked: 25  # why: reportsthatmatter-oyr5 (all 25 are the raised subscript 2 of CO2/CO2e/GtCO2e, no note marker: golden pages tp0/fp16)
+    note-off-page: 0

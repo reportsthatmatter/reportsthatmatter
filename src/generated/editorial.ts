@@ -3129,6 +3129,194 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 65%"
     }
   },
+  "uk-stern-review": {
+    "status": "approved",
+    "whyItMatters": "Sir Nicholas Stern's review of the economics of climate change, written for the UK Treasury and published in October 2006. It set the costs of climate change against the costs of acting on it, and concluded that the benefits of strong, early action \"considerably outweigh the costs\". Published here in November 2026, twenty years on and as COP31 meets: its Executive Summary in its own words, with the estimates, the reasoning and the policies it proposed.",
+    "description": "The Stern Review (2006) on the economics of climate change: its Executive Summary, citable paragraph by paragraph.",
+    "background": [
+      "In July 2005 the Chancellor of the Exchequer, Gordon Brown, asked Sir Nicholas Stern, then Head of the Government Economic Service and a former Chief Economist of the World Bank, to review the economics of climate change. The Review, which describes itself as independent, was based in HM Treasury and reported to the Prime Minister, Tony Blair, and to the Chancellor. It was a review commissioned by government, not a statement of government policy. It invited submissions, met economists, scientists, policy-makers, business and NGOs in a dozen countries, and drew wherever it could on existing research.",
+      "It was published on 30 October 2006, in six parts, with this 27-page Executive Summary stating its argument and conclusions. The summary itself warns that its estimates \"should not be endowed with a precision and certainty that is simply impossible to achieve\". Cambridge University Press published it as a book in January 2007. The rest of the Review is not yet on this site.",
+      "Its estimates were argued over from the start. Economists, among them William Nordhaus, criticised the low rate at which it discounted harm to future generations, which weighs future losses heavily against costs paid now; the full Review argues for that choice on ethical grounds. In June 2008 Stern said the costs of acting had risen, and put the annual cost of stabilising greenhouse gases at about 2% of GDP, double the Review's estimate. The Executive Summary is published here as the UN climate conference COP31 meets in Antalya, Türkiye, from 9 to 20 November 2026."
+    ],
+    "findings": [
+      {
+        "text": "The Review's central conclusion, reached by three different methods (the physical impacts and the costs of cutting emissions, economic models, and the social cost of carbon against the cost of abatement), is that the benefits of strong, early action outweigh the costs.",
+        "cites": [
+          {
+            "id": "from-all-these-perspectives-evidence",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=from-all-these-perspectives-evidence"
+          },
+          {
+            "id": "review-considers-economic-costs-impacts",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=review-considers-economic-costs-impacts"
+          }
+        ],
+        "excerpt": {
+          "quote": "From all of these perspectives, the evidence gathered by the Review leads to a simple conclusion: the benefits of strong, early action considerably outweigh the costs.",
+          "cite": {
+            "id": "from-all-these-perspectives-evidence",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=from-all-these-perspectives-evidence&h=|From%20all%20of%20these%20perspectives%2C%20the%20evidence%20gathered%20by%20the%20Review%20leads%20to%20a%20simple%20conclusion%3A%20the%20benefits%20of%20strong%2C%20early%20action%20considerably%20outweigh%20the%20costs.|"
+          }
+        }
+      },
+      {
+        "text": "It estimates that unchecked climate change would cost the equivalent of at least 5% of global consumption per head, \"now and forever\", and between 5% and 20% once wider risks and impacts are counted, with the upper part of that range the more likely.",
+        "cites": [
+          {
+            "id": "using-model-including-those-elements",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=using-model-including-those-elements"
+          },
+          {
+            "id": "summary-analyses-take-into-account",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=summary-analyses-take-into-account"
+          },
+          {
+            "id": "putting-these-additional-factors-together",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=putting-these-additional-factors-together"
+          }
+        ],
+        "excerpt": {
+          "quote": "In summary, analyses that take into account the full ranges of both impacts and possible outcomes - that is, that employ the basic economics of risk - suggest that BAU climate change will reduce welfare by an amount equivalent to a reduction in consumption per head of between 5 and 20%. Taking account of the increasing scientific evidence of greater risks, of aversion to the possibilities of catastrophe, and of a broader approach to the consequences than implied by narrow output measures, the appropriate estimate is likely to be in the upper part of this range.",
+          "cite": {
+            "id": "summary-analyses-take-into-account",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=summary-analyses-take-into-account&h=|In%20summary%2C%20analyses%20that%20take%20into%20account%20the%20full%20ranges%20of%20both%20impacts%20and%20possible%20outcomes%20-%20that%20is%2C%20that%20employ%E2%8B%AFuences%20than%20implied%20by%20narrow%20output%20measures%2C%20the%20appropriate%20estimate%20is%20likely%20to%20be%20in%20the%20upper%20part%20of%20this%20range.|"
+          }
+        }
+      },
+      {
+        "text": "Against that, it estimates the annual cost of stabilising greenhouse gases at 500-550ppm CO2e at around 1% of GDP by 2050, and finds a high price to delay.",
+        "cites": [
+          {
+            "id": "achieving-these-deep-cuts-emissions",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=achieving-these-deep-cuts-emissions"
+          },
+          {
+            "id": "important-corollary-there-high-price",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=important-corollary-there-high-price"
+          }
+        ],
+        "excerpt": {
+          "quote": "Achieving these deep cuts in emissions will have a cost. The Review estimates the annual costs of stabilisation at 500-550ppm CO2e to be around 1% of GDP by 2050 - a level that is significant but manageable.",
+          "cite": {
+            "id": "achieving-these-deep-cuts-emissions",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=achieving-these-deep-cuts-emissions&h=|Achieving%20these%20deep%20cuts%20in%20emissions%20will%20have%20a%20cost.%20The%20Review%20estimates%20the%20annual%20costs%20of%20stabilisation%20at%20500-550ppm%20CO2e%20to%20be%20around%201%25%20of%20GDP%20by%202050%20-%20a%20level%20that%20is%20significant%20but%20manageable.|"
+          }
+        }
+      },
+      {
+        "text": "It calls climate change \"a unique challenge for economics\", a market failure that is global, long-term and uncertain.",
+        "cites": [
+          {
+            "id": "climate-change-presents-unique-challenge",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=climate-change-presents-unique-challenge"
+          }
+        ],
+        "excerpt": {
+          "quote": "Climate change presents a unique challenge for economics: it is the greatest and widest-ranging market failure ever seen.",
+          "cite": {
+            "id": "climate-change-presents-unique-challenge",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=climate-change-presents-unique-challenge&h=|Climate%20change%20presents%20a%20unique%20challenge%20for%20economics%3A%20it%20is%20the%20greatest%20and%20widest-ranging%20market%20failure%20ever%20seen.|%20The%20economic%20analysis"
+          }
+        }
+      },
+      {
+        "text": "It finds that the poorest countries and people will suffer earliest and most, though they have contributed little to the problem, and that the international community has an obligation to help them adapt.",
+        "cites": [
+          {
+            "id": "impacts-climate-change-are-not",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=impacts-climate-change-are-not"
+          },
+          {
+            "id": "climate-change-grave-threat-developing",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=climate-change-grave-threat-developing"
+          },
+          {
+            "id": "poorest-developing-countries-will-be",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=poorest-developing-countries-will-be"
+          }
+        ]
+      },
+      {
+        "text": "It proposes three elements of policy for cutting emissions (a carbon price, technology policy and the removal of barriers to behavioural change), and finds that leaving out any one of them would raise the cost.",
+        "cites": [
+          {
+            "id": "three-elements-policy-mitigation-are",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=three-elements-policy-mitigation-are"
+          },
+          {
+            "id": "putting-appropriate-price-carbon-explicitly",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=putting-appropriate-price-carbon-explicitly"
+          }
+        ]
+      },
+      {
+        "text": "It calls for international collective action, through a broadly similar carbon price around the world, carbon finance for developing countries, co-operation on technology, action on deforestation (which it estimates at more than 18% of global emissions) and support for adaptation.",
+        "cites": [
+          {
+            "id": "effective-response-climate-change-will",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=effective-response-climate-change-will"
+          },
+          {
+            "id": "creating-broadly-similar-carbon-price",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=creating-broadly-similar-carbon-price"
+          },
+          {
+            "id": "emissions-from-deforestation-are-very",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=emissions-from-deforestation-are-very"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "executive-summary",
+        "title": "Executive Summary",
+        "page": "i",
+        "why": "The whole summary is one section of 27 pages. Its findings are the sentences in bold italic: read those first for the argument, then the impacts and costs of climate change (pp. iii-x), the costs of action (pp. xi-xvii) and the policies (pp. xviii-xxvii).",
+        "excerpt": {
+          "quote": "Our actions over the coming few decades could create risks of major disruption to economic and social activity, later in this century and in the next, on a scale similar to those associated with the great wars and the economic depression of the first half of the 20th century.",
+          "cite": {
+            "id": "evidence-shows-ignoring-climate-change",
+            "page": null,
+            "href": "/reports/uk-stern-review?p=evidence-shows-ignoring-climate-change&h=eventually%20damage%20economic%20growth.%20|Our%20actions%20over%20the%20coming%20few%20decades%20could%20create%20risks%20of%20major%20disruption%20to%20economic%20and%20social%20activity%2C%20later%20in%20this%20century%20and%20in%20the%20next%2C%20on%20a%20scale%20similar%20to%20those%20associated%20with%20the%20great%20wars%20and%20the%20economic%20depression%20of%20the%20first%20half%20of%20the%2020th%20century.|%20And%20it%20will%20be%20difficult"
+          }
+        }
+      }
+    ],
+    "hero": {
+      "src": "/assets/heroes/uk-stern-review.webp",
+      "width": 2400,
+      "height": 1507,
+      "small": {
+        "src": "/assets/heroes/uk-stern-review-1200.webp",
+        "width": 1200
+      },
+      "credit": "HM Treasury, 1 Horse Guards Road, London, from St James's Park · Photo: Dun.can, CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1_Horse_Guards_Road,_Westminster_(22761348308).jpg",
+      "alt": "The stone front of HM Treasury on Horse Guards Road in London, seen through plane trees from St James's Park, with a carved doorway at the centre and a police car at the kerb.",
+      "focus": "50% 55%"
+    }
+  },
   "uk-thirlwall-inquiry": {
     "status": "approved",
     "whyItMatters": "The summary report of the Thirlwall Inquiry, the public inquiry chaired by Lady Justice Thirlwall into events at the Countess of Chester Hospital from 2015 to 2018. Its subject is not the criminal case, which the Chair writes was not her focus, but what the hospital's managers, the NHS and its regulators did when doctors raised concerns, and what the Inquiry says must change.",
