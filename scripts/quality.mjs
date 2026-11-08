@@ -39,6 +39,9 @@ import {
   ratchetable,
   serializeBudgetFile,
 } from "../src/lib/quality/budget.ts";
+import { headingCensus } from "../src/lib/quality/signals.ts";
+import { taggedHeadings } from "../src/lib/quality/reference.ts";
+import { resolveReportDir, readManifest } from "./lib/report-dirs.ts";
 import { diffTable, parseRecorded, serializeRecorded, staleRecord } from "../src/lib/quality/diff.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -49,6 +52,20 @@ const budgetPath = join(root, BUDGET_PATH);
 
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const readBudget = () => (existsSync(budgetPath) ? parseBudgetFile(readFileSync(budgetPath, "utf8")) : parseBudgetFile(""));
+
+/** The tagged PDF's heading census from the report's own repo, when it has one (0iof); advisory, so absent is fine. */
+function loadReference(id) {
+  try {
+    const entry = readManifest(root).find((e) => e.id === id) ?? null;
+    const dir = resolveReportDir(root, id, entry).dir;
+    const blocks = join(dir, "reference/blocks.jsonl");
+    const manifest = join(dir, "reference/manifest.json");
+    if (!existsSync(blocks) || !existsSync(manifest)) return undefined;
+    return taggedHeadings(readFileSync(blocks, "utf8"), readFileSync(manifest, "utf8")) ?? undefined;
+  } catch {
+    return undefined;
+  }
+}
 
 function load(report, file) {
   const markdown = readFileSync(join(root, report.source_path), "utf8");
@@ -61,7 +78,7 @@ function load(report, file) {
   } else {
     ({ meta, fullBody: html } = renderArtifacts(markdown));
   }
-  return { markdown, html, meta, citationVocabulary: file.reports[report.id]?.citationVocabulary };
+  return { markdown, html, meta, citationVocabulary: file.reports[report.id]?.citationVocabulary, reference: loadReference(report.id) };
 }
 
 function measureAll(file, only) {
@@ -168,6 +185,21 @@ function cmdReport(args) {
       `| ${id} | ${stats.bareMarkerPercent.toFixed(1)} | ${fmt(stats.contentsEntries)} | ${(stats.contentsMissingRatio * 100).toFixed(1)}% | ${stats.quoteEvenPercent.toFixed(1)} | ${stats.quoteOddPercent.toFixed(1)} |`,
     );
   }
+  printCensus(rows, file);
+}
+
+/** Sub-headings served against the tagged PDF's census, for every report that has a reference (0iof, advisory). */
+function printCensus(rows, file) {
+  const lines = [];
+  for (const { id } of rows) {
+    const report = registry.reports.find((r) => r.id === id);
+    const census = headingCensus(load(report, file));
+    if (census) lines.push(`| ${id} | ${census.served} | ${census.tagged} | ${census.missing.length} |`);
+  }
+  if (!lines.length) return;
+  console.log("\n| report (tagged reference) | sub-headings served | sub-headings tagged | tagged, not served |");
+  console.log("|---|---:|---:|---:|");
+  for (const l of lines) console.log(l);
 }
 
 function cmdRatchet(args) {
