@@ -33,6 +33,7 @@ defaults:
     chapter-intro-misfiled: 0
     numbered-prose-list: 0
     ids-per-1k-words: 0
+    note-definition-unreferenced: 0
   max:
     rendered-ol-words-share: 5
     quote-share-parity: 2
@@ -45,6 +46,7 @@ reports:
     bare-marker-after-quote: 18
     note-marker-wrong-note: 0
     note-marker-unpaired: 66  # why: reportsthatmatter-jsqw (vision hybrid: 264 notes defined instead of 82, so labels repeat and the pairing signal now sees the pipeline's existing spurious links: 50 of the 66 sat in the same place before, e.g. "testing. . .[^3] 8", most of the rest on exhibit pages the pipeline reads)
+    note-definition-unreferenced: 165  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 71
     note-text-in-body: 48
     note-citation-vocabulary: 0
@@ -69,6 +71,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 5  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 7
     note-text-in-body: 7
     note-citation-vocabulary: 0
@@ -93,6 +96,7 @@ reports:
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 10  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 14
     note-text-in-body: 8
     note-citation-vocabulary: 0
@@ -117,6 +121,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 67  # why: reportsthatmatter-men (Appendix 7's notices' numbered paragraphs "1 This Restriction Notice…", glued behind their section titles until those became headings: +11; the notices' paragraph numbers are 2nx)
     note-citation-vocabulary: 0
@@ -141,6 +146,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -165,6 +171,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 2  # why: reportsthatmatter-pxjq
     note-text-in-body: 1  # why: reportsthatmatter-pxjq (Ch6 note 1, p.267)
     note-citation-vocabulary: 0
@@ -189,6 +196,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -213,6 +221,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -237,6 +246,7 @@ reports:
     bare-marker-after-quote: 1
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 16  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 11
     note-text-in-body: 1
     note-citation-vocabulary: 0
@@ -261,6 +271,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -285,6 +296,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0  # why: reportsthatmatter-6hbt (new signal, today's count)
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -309,6 +321,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -333,6 +346,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -357,6 +371,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 4  # why: reportsthatmatter-hcam (decision 0016: page order over note order; the four boxes printed on the page after the paragraph they interrupt follow it, so their notes read after its; smof anchors blocks-wrong 4 -> 0)
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -381,6 +396,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 2
     note-text-in-body: 8
     note-citation-vocabulary: 0
@@ -405,6 +421,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -429,6 +446,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
@@ -453,6 +471,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 3  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 0
     note-text-in-body: 2
     note-citation-vocabulary: 0
@@ -477,6 +496,7 @@ reports:
     bare-marker-after-quote: 5
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 116  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 105
     note-text-in-body: 7
     note-citation-vocabulary: 0
@@ -501,6 +521,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 0
     note-reference-sequence: 0
     note-text-in-body: 5
     note-citation-vocabulary: 0
@@ -525,6 +546,7 @@ reports:
     bare-marker-after-quote: 32  # why: reportsthatmatter-fgle
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 344  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 283  # why: reportsthatmatter-fgle (about 270 notes still merged into a neighbour: notes whose numbers the OCR lost where no box, indent or junk shows a start; 377 to 283)
     note-text-in-body: 49  # why: reportsthatmatter-fgle
     note-citation-vocabulary: 0
@@ -549,6 +571,7 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
+    note-definition-unreferenced: 6  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 12  # why: reportsthatmatter-8non (notes 7-58 of the conclusions are now defined; their markers are not in the layout)
     note-text-in-body: 45
     note-citation-vocabulary: 0

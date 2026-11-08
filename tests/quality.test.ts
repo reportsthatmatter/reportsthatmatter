@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { taggedHeadings } from "../src/lib/quality/reference";
 import {
   bareFootnoteMarker,
   bareMarkerAfterQuote,
@@ -12,7 +13,10 @@ import {
   idsPer1kWords,
   measure,
   SIGNALS,
+  headingCensus,
+  headingCensusShortfall,
   noteCitationVocabulary,
+  noteDefinitionUnreferenced,
   noteMarkerUnpaired,
   noteReferenceSequence,
   noteMarkerWrongNote,
@@ -626,5 +630,96 @@ describe("unnumbered-page-opening (B, reportsthatmatter-sh1b/ni9o)", () => {
   it("stays quiet on a report that does not number most of its paragraphs", () => {
     const prose = Array.from({ length: 60 }, () => "An unnumbered paragraph.").join("\n\n");
     expect(unnumberedPageOpening.run(input(`${prose}\n\n${split}`))).toEqual([]);
+  });
+});
+
+describe("note-definition-unreferenced (F, reportsthatmatter-b78.10)", () => {
+  it("fires once for a definition no reference points at, with its excerpt and printed page", () => {
+    const md = "%%page 7%%\n\nA.[^1] B.[^2]\n\n## Notes\n\n[^1]: first.\n\n[^2]: second.\n\n[^5]: " + "Never cited, a long note. ".repeat(10);
+    const found = noteDefinitionUnreferenced.run(input(md));
+    expect(found).toHaveLength(1);
+    expect(found[0].excerpt).toContain("Never cited");
+    expect(found[0].excerpt.length).toBeLessThanOrEqual(160);
+  });
+  it("takes the page from the marker above the definition", () => {
+    const md = "%%page 7%%\n\nA.[^1]\n\n## Notes\n\n%%page 8%%\n\n[^1]: cited.\n\n[^2]: uncited.";
+    expect(noteDefinitionUnreferenced.run(input(md))[0].page).toBe(8);
+  });
+  it("gives no page to collected notes after the last body page marker", () => {
+    const md = "%%page 7%%\n\nA.\n\n## Notes\n\n[^2]: uncited.";
+    expect(noteDefinitionUnreferenced.run(input(md))[0].page).toBeNull();
+  });
+  it("gives 0 for restarting labels paired in order", () => {
+    const md = "A.[^1] B.[^1]\n\n## Notes\n\n[^1]: one.\n\n[^1]: two.";
+    expect(noteDefinitionUnreferenced.run(input(md))).toEqual([]);
+  });
+  it("counts a restarting label's second definition when only one reference exists", () => {
+    const md = "A.[^1]\n\n## Notes\n\n[^1]: one.\n\n[^1]: two.";
+    expect(noteDefinitionUnreferenced.run(input(md))).toHaveLength(1);
+  });
+  it("gives 0 for a reference with no definition (note-marker-unpaired's job)", () => {
+    expect(noteDefinitionUnreferenced.run(input("A.[^9] B.[^1]\n\n## Notes\n\n[^1]: x."))).toEqual([]);
+    expect(noteDefinitionUnreferenced.run(input("A.[^9]"))).toEqual([]);
+  });
+  it("fires on a broken fixture: deleting the [^5] reference", () => {
+    const ok = "A.[^1] B.[^5]\n\n## Notes\n\n[^1]: one.\n\n[^5]: five.";
+    expect(noteDefinitionUnreferenced.run(input(ok))).toEqual([]);
+    expect(noteDefinitionUnreferenced.run(input(ok.replace("[^5] ", " ").replace("B.[^5]", "B.")))).toHaveLength(1);
+  });
+  it("is registered, a gated count of class F", () => {
+    expect(SIGNALS.map((s) => s.id)).toContain("note-definition-unreferenced");
+    expect(noteDefinitionUnreferenced.cls).toBe("F");
+    expect(noteDefinitionUnreferenced.advisory).toBeUndefined();
+  });
+});
+
+describe("taggedHeadings (0iof)", () => {
+  const rows = [
+    { type: "heading", level: 1, text: "1. Introduction", page: 6, tag: "Heading_1" },
+    { type: "heading", level: 2, text: "Contents", page: 4, tag: "TOC_Head" },
+    { type: "heading", level: 2, text: "Context", page: 7, tag: "Heading_2" },
+    { type: "paragraph", level: null, text: "Body.", page: 7, tag: "P" },
+  ].map((r) => JSON.stringify(r)).join("\n");
+  const tagged = JSON.stringify({ blocks: { normaliser: "reportsthatmatter scripts/score/reference.py, adapter tagged, version 2" } });
+  it("reads headings of a tagged reference, leaving out the contents head", () => {
+    expect(taggedHeadings(rows, tagged)!.headings.map((h) => h.text)).toEqual(["1. Introduction", "Context"]);
+  });
+  it("is null for a version 1 tagged reference (Columbia's heading structure is not comparable)", () => {
+    expect(taggedHeadings(rows, JSON.stringify({ blocks: { normaliser: "reference.py, adapter tagged, version 1" } }))).toBeNull();
+  });
+  it("is null for another adapter or an unreadable manifest", () => {
+    expect(taggedHeadings(rows, JSON.stringify({ blocks: { normaliser: "reference.py, adapter duelfer, version 1" } }))).toBeNull();
+    expect(taggedHeadings(rows, "not json")).toBeNull();
+  });
+});
+
+describe("heading-census-shortfall (H, reportsthatmatter-0iof)", () => {
+  const ref = (...h: [number, string, number?][]) => ({ headings: h.map(([level, text, page]) => ({ level, text, page: page ?? null })) });
+  const md = "## 1. Intro\n\n#### Context\n\nText.\n\n#### The Countess\n\nText.\n\n#### Thematic Review\n\nText.";
+  it("counts sub-headings served and tagged, skipping chapter (level 1) headings", () => {
+    const census = headingCensus(input(md, { reference: ref([1, "1. Intro"], [2, "Context"], [3, "The Countess"], [3, "2016"]) }))!;
+    expect(census).toEqual({ served: 3, tagged: 3, missing: ["2016"] });
+  });
+  it("reports 3 served against 4 tagged, one finding per tagged sub-heading not served", () => {
+    const found = headingCensusShortfall.run(input(md, { reference: ref([2, "Context", 7], [2, "The Countess", 7], [2, "Thematic Review", 35], [3, "2018", 66]) }));
+    expect(found).toHaveLength(1);
+    expect(found[0].excerpt).toContain("2018");
+    expect(found[0].excerpt).toContain("3 served");
+    expect(found[0].excerpt).toContain("4 tagged");
+  });
+  it("sees stacked headings merged into one", () => {
+    const merged = md.replace("#### Context\n\nText.\n\n#### The Countess", "#### Context The Countess");
+    const found = headingCensusShortfall.run(input(merged, { reference: ref([2, "Context"], [2, "The Countess"], [2, "Thematic Review"]) }));
+    expect(found).toHaveLength(1);
+    expect(found[0].excerpt).toContain("The Countess");
+    expect(found[0].excerpt).toContain("2 served, 3 tagged");
+  });
+  it("is silent without a reference, and when every tagged heading is served", () => {
+    expect(headingCensusShortfall.run(input(md))).toEqual([]);
+    expect(headingCensusShortfall.run(input(md, { reference: ref([2, "Context"], [2, "The Countess"]) }))).toEqual([]);
+  });
+  it("is registered and advisory", () => {
+    expect(SIGNALS.map((s) => s.id)).toContain("heading-census-shortfall");
+    expect(headingCensusShortfall.advisory).toBe(true);
   });
 });

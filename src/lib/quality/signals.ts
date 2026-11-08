@@ -25,6 +25,8 @@ export type QualityInput = {
   meta: Meta;
   /** From the budget file: this report's own citation vocabulary (SCO-, Hearing Exhibit ...). */
   citationVocabulary?: string[];
+  /** The tagged PDF's census (reference/blocks.jsonl headings, TOC heads left out), when the report has one (0iof). */
+  reference?: { headings: { level: number; text: string; page: number | null }[] };
 };
 
 export type Finding = {
@@ -640,6 +642,51 @@ export const noteMarkerUnpaired: Signal = {
       .map((p) => ({ signal: "note-marker-unpaired", page: null, excerpt: clip(p.excerpt) })),
 };
 
+/**
+ * Per definition (document order, as `noteDefinitions` lists them), whether a reference pairs with it and the
+ * printed page it sits on. A label defined once is cited by any reference to it; a repeated label (numbering that
+ * restarts per chapter) by the alignment the renderer uses (`pairNoteReferences`).
+ */
+function noteDefinitionUse(markdown: string): { label: string; text: string; page: number | null; referenced: boolean }[] {
+  const defs = noteDefinitions(markdown);
+  const refs = [...bodyOf(markdown).matchAll(REFERENCE)].map((m) => m[1]);
+  const paired = pairNoteReferences(refs, defs.map((d) => d.label));
+  const used = new Set<string>();
+  const nth = new Map<string, number>();
+  const count = new Map<string, number>();
+  for (const d of defs) count.set(d.label, (count.get(d.label) ?? 0) + 1);
+  refs.forEach((label, i) => {
+    if (paired[i] !== null) used.add(`${label}#${paired[i]}`);
+  });
+  // The printed page of each definition: the last page marker above it.
+  const pages: (number | null)[] = [];
+  // Collected notes sit under `## Notes` after the last body page: the marker above them is not theirs, so they
+  // have no page until a marker appears inside the notes.
+  let stale = false;
+  for (const b of toBlocks(markdown)) {
+    if (/^##\s+Notes\s*$/.test(b.raw)) stale = true;
+    else if (b.kind === "page") stale = false;
+    if (b.kind !== "note" && !/^\[\^[^\]]+\]:/m.test(b.raw)) continue;
+    for (const _ of b.raw.matchAll(/^\[\^\d+(?:-\d+)?\]:/gm)) pages.push(stale ? null : b.page);
+  }
+  return defs.map((d, i) => {
+    const k = nth.get(d.label) ?? 0;
+    nth.set(d.label, k + 1);
+    return { ...d, page: pages.length === defs.length ? pages[i] : null, referenced: used.has(`${d.label}#${count.get(d.label)! > 1 ? k : 0}`) };
+  });
+}
+
+export const noteDefinitionUnreferenced: Signal = {
+  id: "note-definition-unreferenced",
+  kind: "count",
+  cls: "F",
+  doc: "A `[^n]:` note definition that no `[^n]` reference in the text pairs with: its markers never became links (Chilcot once linked 3 of 283 notes; 9/11 once had 371 of 1,749 unlinked). Repeated labels (numbering restarting per chapter) are paired by alignment, as note-marker-unpaired does, not by a global count. A reference with no definition is note-marker-unpaired's job, not this one's. One finding per such definition; excerpt is the note's opening, page its printed page (reportsthatmatter-b78.10).",
+  run: (input) =>
+    noteDefinitionUse(input.markdown)
+      .filter((d) => !d.referenced)
+      .map((d) => ({ signal: "note-definition-unreferenced", page: d.page, excerpt: clip(`[^${d.label}]: ${d.text}`) })),
+};
+
 // ---------------------------------------------------------------- glued numbered paragraphs (B)
 
 /** A paragraph's own printed number ("2.86 RBKC's…"), as `numberedParagraphs` reports set it. */
@@ -718,6 +765,52 @@ export const unnumberedPageOpening: Signal = {
   },
 };
 
+// ---------------------------------------------------------------- headings against the tagged PDF's census (0iof)
+
+const headingKey = (text: string) => text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, "");
+
+/**
+ * Sub-headings served (`###` and deeper) against the tag tree's sub-headings (level 2 and deeper; level 1 is a
+ * chapter or title), matched by their words, not their level: tagged H3 and H4 share one face and serve at one level.
+ * `missing` is each tagged sub-heading with no served heading of the same words. Null without a reference.
+ */
+export function headingCensus(input: QualityInput): { served: number; tagged: number; missing: string[] } | null {
+  if (!input.reference) return null;
+  const served = proseBlocks(input)
+    .filter((b) => b.kind === "heading" && /^#{3,}\s/.test(b.raw))
+    .map((b) => b.raw.replace(/^#+\s*/, ""));
+  const tagged = input.reference.headings.filter((h) => h.level >= 2 && headingKey(h.text) !== "");
+  // The tag tree sometimes keeps only a heading's first span ("Baby" for "Baby A", "Dr" for "Dr Hawdon"), so a
+  // tagged heading left over after the exact pass is matched to an unclaimed served heading that opens with its words.
+  const free = served.map(headingKey);
+  const claim = (match: (key: string) => boolean) => {
+    const at = free.findIndex((k) => k !== "" && match(k));
+    if (at >= 0) free[at] = "";
+    return at >= 0;
+  };
+  const left = tagged.filter((h) => !claim((k) => k === headingKey(h.text)));
+  const missing = left.filter((h) => !claim((k) => k.startsWith(headingKey(h.text)))).map((h) => h.text);
+  return { served: served.length, tagged: tagged.length, missing };
+}
+
+export const headingCensusShortfall: Signal = {
+  id: "heading-census-shortfall",
+  kind: "count",
+  cls: "H",
+  advisory: true,
+  doc: "For a report with a tagged-PDF reference (reference/blocks.jsonl): one finding per tag-tree sub-heading (level 2 and deeper) with no served heading of the same words, each naming the served and tagged counts. Stacked or same-face headings merged by a heading pass, and bare-number headings dropped, show here without reading excerpts (Thirlwall: 60 served against 65 tagged, reportsthatmatter-e9im). Advisory until measured on more tagged reports (reportsthatmatter-0iof).",
+  run: (input) => {
+    const census = headingCensus(input);
+    if (!census) return [];
+    const where = new Map(input.reference!.headings.map((h) => [h.text, h.page]));
+    return census.missing.map((text) => ({
+      signal: "heading-census-shortfall",
+      page: null,
+      excerpt: clip(`"${text}" (PDF p.${where.get(text) ?? "?"}) is tagged as a sub-heading but not served as one: ${census.served} served, ${census.tagged} tagged`),
+    }));
+  },
+};
+
 // ---------------------------------------------------------------- registry
 
 export const SIGNALS: Signal[] = [
@@ -730,6 +823,7 @@ export const SIGNALS: Signal[] = [
   bareMarkerAfterQuote,
   noteMarkerWrongNote,
   noteMarkerUnpaired,
+  noteDefinitionUnreferenced,
   noteReferenceSequence,
   noteTextInBody,
   noteCitationVocabulary,
@@ -740,6 +834,7 @@ export const SIGNALS: Signal[] = [
   headingFunctionWord,
   headingMarker,
   headingLong,
+  headingCensusShortfall,
   printedPageReversal,
   renderedH1,
   chapterIntroMisfiled,
