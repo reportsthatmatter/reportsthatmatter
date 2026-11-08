@@ -567,12 +567,12 @@ reports:
   us-senate-cia-torture-report:
     severed-into-quote: 23
     severed-paragraph: 24
-    bare-footnote-marker: 81
-    bare-marker-after-quote: 32  # why: reportsthatmatter-fgle
+    bare-footnote-marker: 69
+    bare-marker-after-quote: 5
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-definition-unreferenced: 344  # why: reportsthatmatter-b78.10 baseline
-    note-reference-sequence: 283  # why: reportsthatmatter-fgle (about 270 notes still merged into a neighbour: notes whose numbers the OCR lost where no box, indent or junk shows a start; 377 to 283)
+    note-reference-sequence: 287  # why: reportsthatmatter-fgle (about 270 notes still merged into a neighbour: notes whose numbers the OCR lost where no box, indent or junk shows a start; 377 to 283); 283 to 287 when the Findings markers were linked (endnoteRanges): the signal now reads that run and names its real gaps, markers 9, 12, 18, 29 the OCR garbled or never raised
     note-text-in-body: 49  # why: reportsthatmatter-fgle
     note-citation-vocabulary: 0
     furniture-paragraph: 36  # why: reportsthatmatter-sz4v (classification-marking garble the redaction pack does not catch: "11 ii 11 ii B j j ^ ^")
