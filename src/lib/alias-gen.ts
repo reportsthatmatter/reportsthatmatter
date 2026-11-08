@@ -315,7 +315,7 @@ export function fold(prev: AliasFile, before: Rendered, after: Rendered): AliasF
 /**
  * The base for a generate run: what --old-ref published plus what is committed at HEAD (p4lp), so an alias line
  * added by hand or by an earlier release line is never dropped. Where both name the same key, HEAD's target wins
- * (a hand correction). `fold` still re-resolves any line whose target the new text no longer has.
+ * (a hand correction). Only aliases, sections and the unmatched lists come from HEAD; reused and moved_out stay --old-ref's. `fold` still re-resolves any line whose target the new text no longer has.
  */
 export function mergeAliases(base: AliasFile, head: AliasFile): AliasFile {
   const uniq = (a: string[], b: string[]) => [...new Set([...a, ...b])];
@@ -324,8 +324,9 @@ export function mergeAliases(base: AliasFile, head: AliasFile): AliasFile {
     sections: { ...base.sections, ...head.sections },
     unmatched: uniq(base.unmatched, head.unmatched),
     unmatchedSections: uniq(base.unmatchedSections, head.unmatchedSections),
-    reused: { ...base.reused, ...head.reused },
-    movedOut: { ...base.movedOut, ...head.movedOut },
+    // reused / movedOut are detections about the --old-ref -> new step: a stale pending one from HEAD must not outlive the re-ingest that removed it.
+    reused: base.reused,
+    movedOut: base.movedOut,
   };
 }
 

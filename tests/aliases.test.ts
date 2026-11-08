@@ -310,4 +310,11 @@ describe("alias base is the union of --old-ref and the committed HEAD file (p4lp
     expect(file.aliases).toEqual({ a: idB });
     expect(file.unmatched).toEqual(["b"]);
   });
+
+  it("does not carry HEAD's pending reuse or moved-out entries into the base", () => {
+    const head = { ...emptyAliases(), reused: { [idB]: { movedTo: null } }, movedOut: { [idC]: null } };
+    const merged = mergeAliases(emptyAliases(), head);
+    expect(merged.reused).toEqual({});
+    expect(merged.movedOut).toEqual({});
+  });
 });
