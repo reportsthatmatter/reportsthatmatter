@@ -243,7 +243,7 @@ units:
   - id: uk-stern-review
     scope: "Executive Summary (full), HM Treasury pre-publication edition, 30 October 2006"
     bead: reportsthatmatter-gqsy.9
-    reached: editorial
-    state: active
-    evidence: "source stack and licence chain (Crown copyright, OGL via UKGWA and Click-Use) in gqsy.9 notes; report repo reportsthatmatter/uk-stern-review (first-ingest-1108, PR #1); PDF pipeline with report-local source passes (figureLabels, figureTitleBreak, noteMarkers) and keyFindings (bold italic); golden 6/8 + 2 xfail (lb9l); grade A 0.2 (scorecard, own golden precision for headings/markers); plate (Figure 1 pie); editorial approved (Fable-critiqued)"
+    reached: publish
+    state: waiting
+    evidence: "source stack and licence chain (Crown copyright, OGL via UKGWA and Click-Use) in gqsy.9 notes; report repo reportsthatmatter/uk-stern-review (first-ingest-1108, PR #1); PDF pipeline with report-local source passes (figureLabels, figureTitleBreak, noteMarkers) and keyFindings (bold italic); golden 6/8 + 2 xfail (lb9l); grade A 0.2 (scorecard, own golden precision for headings/markers); plate (Figure 1 pie); editorial approved (Fable-critiqued); hero (HM Treasury, CC BY 2.0); live 2026-11-08, content 61ca9387971006f1; recorded grade A 0.19"
     notes: "No reference edition exists (no HTML, tags or EPUB): scoring waived. Hook: COP31, 9-20 Nov 2026. Hero: gqsy.9.1. Full report: gqsy.9.2. Oracle false positives (CO2 subscripts, folios): oyr5."
