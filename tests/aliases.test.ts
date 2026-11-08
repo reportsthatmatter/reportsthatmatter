@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { app } from "../src/index";
 import { followAlias, resolveParagraph, resolveSection } from "../src/lib/aliases";
 import { renderArtifacts, extractPassages } from "@rtm/ingest";
-import { acceptReuse, citesId, computeMoves, detectReuse, emptyAliases, fold, formatIds, parseIds, render, type Rendered } from "../src/lib/alias-gen";
+import { acceptReuse, citesId, computeMoves, detectReuse, emptyAliases, fold, formatIds, mergeAliases, parseIds, render, type Rendered } from "../src/lib/alias-gen";
 
 const doc = (sections: Record<string, string[]>) =>
   Object.entries(sections)
@@ -276,5 +276,45 @@ describe("a folded section follows its heading (3ak7)", () => {
     expect(before.sections.map((s) => s.slug)).toContain("endnotes");
     expect(after.sections.map((s) => s.slug)).not.toContain("endnotes");
     expect(fold(emptyAliases(), before, after).sections.endnotes).toBe("two");
+  });
+});
+
+describe("alias base is the union of --old-ref and the committed HEAD file (p4lp)", () => {
+  const text = render(doc({ "The decision": [A, B, C] }));
+  const idB = text.passages.find((p) => p.text.startsWith("Engineers"))!.id;
+  const idC = text.passages.find((p) => p.text.startsWith("Management"))!.id;
+  const slug = text.sections[0].slug;
+
+  it("keeps a hand-added alias, section alias and unmatched entries that --old-ref lacks, text unchanged", () => {
+    const base = emptyAliases();
+    const head = { ...emptyAliases(), aliases: { "old-hand": idB }, sections: { "old-section": slug }, unmatched: ["gone-id"], unmatchedSections: ["gone-section"] };
+    const file = fold(mergeAliases(base, head), text, text);
+    expect(file.aliases).toEqual({ "old-hand": idB });
+    expect(file.sections).toEqual({ "old-section": slug });
+    expect(file.unmatched).toEqual(["gone-id"]);
+    expect(file.unmatchedSections).toEqual(["gone-section"]);
+  });
+
+  it("lets a hand-corrected HEAD target win over the --old-ref one for the same old id", () => {
+    const base = { ...emptyAliases(), aliases: { x: idB } };
+    const head = { ...emptyAliases(), aliases: { x: idC } };
+    expect(fold(mergeAliases(base, head), text, text).aliases).toEqual({ x: idC });
+  });
+
+  it("keeps lines from both sides and still re-resolves a HEAD alias whose target no longer exists", () => {
+    const base = { ...emptyAliases(), aliases: { a: idB } };
+    const head = { ...emptyAliases(), aliases: { b: "no-such-id" } };
+    const merged = mergeAliases(base, head);
+    expect(Object.keys(merged.aliases).sort()).toEqual(["a", "b"]);
+    const file = fold(merged, text, text);
+    expect(file.aliases).toEqual({ a: idB });
+    expect(file.unmatched).toEqual(["b"]);
+  });
+
+  it("does not carry HEAD's pending reuse or moved-out entries into the base", () => {
+    const head = { ...emptyAliases(), reused: { [idB]: { movedTo: null } }, movedOut: { [idC]: null } };
+    const merged = mergeAliases(emptyAliases(), head);
+    expect(merged.reused).toEqual({});
+    expect(merged.movedOut).toEqual({});
   });
 });
