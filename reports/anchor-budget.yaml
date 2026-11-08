@@ -33,8 +33,8 @@ reports:
   challenger-accident:
     markers-wrong: 0
     markers-stacked: 0
-    pages-unmarked: 6
-    blocks-wrong: 32
+    pages-unmarked: 5
+    blocks-wrong: 28
   uk-leveson-inquiry:
     markers-wrong: 0
     markers-stacked: 0
