@@ -369,7 +369,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=smoking-cause-significant-disease-death&h=smokers%20and%20former%20smokers.%20|Cigarette%20smoking%20and%20exposure%20to%20secondhand%20smoke%20kills%20440%2C000%20Americans%20every%20year%2C%20or%20more%20than%201%2C200%20every%20single%20day.|%20The%20annual%20number%20of&src=bsky
     card: assets/cards/us-v-philip-morris/q-db40b6b3.png
     scheduled: 2026-11-10
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3mzxldafhto2w
+    posted_at: 2026-11-10T13:47:39.478Z
   - id: us-v-philip-morris:seven-year-history-extraordinarily-complex-case:36ba2d5d
     report: us-v-philip-morris
     paragraph: seven-year-history-extraordinarily-complex-case
