@@ -54,18 +54,18 @@
    "oracle": {
     "headings-missed": 22,
     "headings-spurious": 37,
-    "markers-unlinked": 30,
-    "markers-spurious": 38,
-    "paragraphs-oversplit": 145,
+    "markers-unlinked": 18,
+    "markers-spurious": 44,
+    "paragraphs-oversplit": 30,
     "paragraphs-merged": 422,
-    "quotes-spurious": 44,
-    "quotes-missed": 53,
+    "quotes-spurious": 7,
+    "quotes-missed": 55,
     "note-off-page": 11
    },
    "golden": {
-    "match": 5,
+    "match": 8,
     "total": 8,
-    "known": 3
+    "known": 0
    },
    "goldenOracle": {
     "headings-spurious": {
@@ -74,8 +74,8 @@
      "fn": 0
     },
     "markers-unlinked": {
-     "tp": 1,
-     "fp": 1,
+     "tp": 0,
+     "fp": 2,
      "fn": 0
     },
     "markers-spurious": {
@@ -213,13 +213,13 @@
   "columbia-accident": {
    "oracle": {
     "headings-missed": 89,
-    "headings-spurious": 10,
+    "headings-spurious": 9,
     "markers-unlinked": 5,
-    "markers-spurious": 1,
-    "paragraphs-oversplit": 268,
-    "paragraphs-merged": 822,
-    "quotes-spurious": 232,
-    "quotes-missed": 224,
+    "markers-spurious": 0,
+    "paragraphs-oversplit": 174,
+    "paragraphs-merged": 842,
+    "quotes-spurious": 57,
+    "quotes-missed": 225,
     "note-off-page": 0
    },
    "golden": {
@@ -943,8 +943,8 @@
    "fn": 0
   },
   "markers-unlinked": {
-   "tp": 4,
-   "fp": 17,
+   "tp": 3,
+   "fp": 18,
    "fn": 7
   },
   "markers-spurious": {
