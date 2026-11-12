@@ -1,0 +1,4 @@
+---
+theme: review
+---
+- **A run of bold-italic lines can hold two findings set one above the other; split a face run on a vertical gap, and grep the rendered HTML for a literal `***`** (2026-11-12, reportsthatmatter-gqsy.9.2, review-stern-full-2026-11-12) Stern Chapter 10 p.247 stacks "Consequently, the average expected cost ..." over "Potential co-benefits need to be considered."; `keyFindings` wrapped both as one run across the paragraph break, so readers saw a stray `***` on each, and no quality signal, oracle count or golden page flagged it. The reviewer found it by grepping `assets/generated/reports/<id>/full-body.html` for `*`. A registry title change also re-renders the report's default card (`pnpm cards --check`), which `verify.sh` does not run. [status: fixed in uk-stern-review#2 (gap > 1.6 line heights starts a new run) and site #433 (default card); a quality signal for literal emphasis markers in rendered HTML is a proposal]

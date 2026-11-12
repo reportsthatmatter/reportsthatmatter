@@ -5,7 +5,7 @@ published_at: "30 October 2006"
 source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
 pages: 149
 footnotes: 156
-corrections: 24
+corrections: 30
 ---
 
 %%page i%%
@@ -547,7 +547,7 @@ We owe thanks to the academics and researchers with whom we have worked closely 
 
 %%page iii#2%%
 
-Throughout our work we have learned greatly from academics and researchers who have advised us, including: Philippe Aghion, Shardul Agrawala, Edward Anderson, Tony Atkinson, Paul Baer, Philip Bagnoli, Hewson Baltzell, Scott Barrett, Marcel Berk, Richard Betts, Ken Binmore, Victor Blinov, Christopher Bliss, Katharine Blundell, Severin Borenstein, Jean-Paul Bouttes, Richard Boyd, Alan Budd, Frances Cairncross, Daniel Cullenward, Larry Dale, Victor Danilov-Daniliyan, Amy Davidsen, Angus Deaton, Richard Eckaus, Jae Edmonds, Jorgen Elmeskov, Michel den Elzen, Paul Epstein, Gunnar Eskeland, Alexander Farrell, Brian Fender, Anthony Fisher, Meredith Fowley, Jeffrey Frankel, Jose Garibaldi, Laila Gohar, Maryanne Grieg-Gran, Bronwyn Hall, Jim Hall, Stephane Hallegate, Kate Hampton, Michael Hanemann, Bill Hare, Geoffrey Heal, Merylyn Hedger, Molly Hellmuth, David Henderson, David Hendry, Marc Henry, Margaret Hiller, Niklas Hoehne, Bjart Holtsmark, Brian Hoskins, Jean-Charles Hourcade, Jo Hossell, Alistair Hunt, Saleem Huq, Mark Jaccard, Sarah Joy, Jiang Kejun, Ian Johnson, Tom Jones, Dale Jorgenson, Paul Joskow, Kassim Kulindwa, Daniel Kammen, Jonathan Köhler, Paul Krugman, Sari Kovats, Klaus Lackner, John Lawton, Tim Lenton, Li Junfeng, Lin Erda, Richard Lindzen, Björn Lomborg, Gordon MacKerron, Joaquim Oliveira Martins, Warwick McKibbin, Malte Meinshausen, Robert Mendelsohn, Evan Mills, Vladimir Milov, James Mirrlees, Richard Morgenstern, Mu Haoming, Robert Muir- Wood, Justin Mundy, Gustavo Nagy, Nebojša Nakicenovic, Karsten Neuhoff, Greg Nimmet, J.C Nkomo, William Nordhaus, David Norse, Anthony Nyong, Pan Jiahua, John Parsons, Cedric Philibert, Robert Pindyck, William Pizer, Oleg Pluzhnikov, Jonathon Porritt, Lant Pritchett, John Reilly, Richard Richels, David Roland-Holst, Cynthia Rosenzweig, Nick Rowley, Joyashree Roy, Jeffrey Sachs, Mark Salmon, Alan Sanstad, Mark Schankerman, John Schellnhueber, Michael Schlesinger, Ken Schomitz, Amartya Sen, Robert Sherman, Keith Shine, P. R. Shukla, Brian Smith, Leonard Smith, Robert Socolow, David Stainforth, Robert Stavins, David Stephenson, Joe Stiglitz, Peter Stone, Roger Street, Josué Tanaka, Evgeniy Sokolov, Robert Solow, James Sweeney, Richard Tol, Asbjorn Torvanger, Laurence Tubiana, David Vaughnan, Vance Wagner, Steven Ward, Paul Watkiss, Jim Watson, Martin Weitzman, Hege Westskog, John Weyant, Tony White, Alex Whitworth, Gary Yohe, Ernesto Zedillo and Zhang Anhua, Zhang Qun, Zhao Xingshu, Zou Ji.
+Throughout our work we have learned greatly from academics and researchers who have advised us, including: Philippe Aghion, Shardul Agrawala, Edward Anderson, Tony Atkinson, Paul Baer, Philip Bagnoli, Hewson Baltzell, Scott Barrett, Marcel Berk, Richard Betts, Ken Binmore, Victor Blinov, Christopher Bliss, Katharine Blundell, Severin Borenstein, Jean-Paul Bouttes, Richard Boyd, Alan Budd, Frances Cairncross, Daniel Cullenward, Larry Dale, Victor Danilov-Daniliyan, Amy Davidsen, Angus Deaton, Richard Eckaus, Jae Edmonds, Jorgen Elmeskov, Michel den Elzen, Paul Epstein, Gunnar Eskeland, Alexander Farrell, Brian Fender, Anthony Fisher, Meredith Fowley, Jeffrey Frankel, Jose Garibaldi, Laila Gohar, Maryanne Grieg-Gran, Bronwyn Hall, Jim Hall, Stephane Hallegate, Kate Hampton, Michael Hanemann, Bill Hare, Geoffrey Heal, Merylyn Hedger, Molly Hellmuth, David Henderson, David Hendry, Marc Henry, Margaret Hiller, Niklas Hoehne, Bjart Holtsmark, Brian Hoskins, Jean-Charles Hourcade, Jo Hossell, Alistair Hunt, Saleem Huq, Mark Jaccard, Sarah Joy, Jiang Kejun, Ian Johnson, Tom Jones, Dale Jorgenson, Paul Joskow, Kassim Kulindwa, Daniel Kammen, Jonathan Köhler, Paul Krugman, Sari Kovats, Klaus Lackner, John Lawton, Tim Lenton, Li Junfeng, Lin Erda, Richard Lindzen, Björn Lomborg, Gordon MacKerron, Joaquim Oliveira Martins, Warwick McKibbin, Malte Meinshausen, Robert Mendelsohn, Evan Mills, Vladimir Milov, James Mirrlees, Richard Morgenstern, Mu Haoming, Robert Muir-Wood, Justin Mundy, Gustavo Nagy, Nebojša Nakicenovic, Karsten Neuhoff, Greg Nimmet, J.C Nkomo, William Nordhaus, David Norse, Anthony Nyong, Pan Jiahua, John Parsons, Cedric Philibert, Robert Pindyck, William Pizer, Oleg Pluzhnikov, Jonathon Porritt, Lant Pritchett, John Reilly, Richard Richels, David Roland-Holst, Cynthia Rosenzweig, Nick Rowley, Joyashree Roy, Jeffrey Sachs, Mark Salmon, Alan Sanstad, Mark Schankerman, John Schellnhueber, Michael Schlesinger, Ken Schomitz, Amartya Sen, Robert Sherman, Keith Shine, P. R. Shukla, Brian Smith, Leonard Smith, Robert Socolow, David Stainforth, Robert Stavins, David Stephenson, Joe Stiglitz, Peter Stone, Roger Street, Josué Tanaka, Evgeniy Sokolov, Robert Solow, James Sweeney, Richard Tol, Asbjorn Torvanger, Laurence Tubiana, David Vaughnan, Vance Wagner, Steven Ward, Paul Watkiss, Jim Watson, Martin Weitzman, Hege Westskog, John Weyant, Tony White, Alex Whitworth, Gary Yohe, Ernesto Zedillo and Zhang Anhua, Zhang Qun, Zhao Xingshu, Zou Ji.
 
 We are grateful to the leaders, officials, academics, NGO staff and business people who assisted us during our visits to: Brazil, Canada, China, the European Commission, France, Germany, Iceland, India, Japan, Mexico, Norway, Russia, South Africa and the USA.
 
@@ -1372,7 +1372,7 @@ Figure 6.5 a. Baseline-climate scenario, with market impacts and the risk of cat
 
 %%page 158%%
 
-***In all scenarios, the highest impacts are in Africa and the Middle East, and India and South- East Asia.***
+***In all scenarios, the highest impacts are in Africa and the Middle East, and India and South-East Asia.***
 
 For example, in the baseline-climate scenario with all three categories of economic impact, the mean cost to India and South-East Asia is around 6% of regional GDP by 2100, compared with a global average of 2.6%.
 
@@ -2185,9 +2185,9 @@ A common feature of the model projections was the presence of increasing margina
 
 The lesson here is to avoid doing too much, too fast, and to pace the flow of mitigation appropriately. For example great uncertainty remains as to the costs of very deep reductions. Digging down to emissions reductions of 60-80% or more relative to baseline will require progress in reducing emissions from industrial processes, aviation, and a number of areas where it is presently hard to envisage cost-effective approaches. Thus a great deal depends on assumptions about technological advance (see Chapters 9, 16 and 24). The IMCP studies of cost impacts to 2050 of aiming for around 500-550ppm CO2e were below 1% of GDP for all but one model (IMACLIM), but they diverged afterwards. By 2100, some fell while others rose sharply, reflecting the greater uncertainty about the costs of seeking out successive new mitigation sources.
 
-***Consequently, the average expected cost is likely to remain around 1% of GDP from mid-century, but the range of uncertainty is likely to grow through time.
+***Consequently, the average expected cost is likely to remain around 1% of GDP from mid-century, but the range of uncertainty is likely to grow through time.***
 
-Potential co-benefits need to be considered.***
+***Potential co-benefits need to be considered.***
 
 The range of possible co-benefits is discussed in detail in Chapter 12. The Barker meta-analysis found that including co-benefits could reduce estimated mitigation costs by 1% of GDP. Such models estimate, for example, the monetary value of improved health due to reduced pollution and the offsetting of allocative efficiency losses through reductions in distortionary taxation. Pearce (1996) highlighted studies from the UK and Norway showing benefits of reduced air pollution that offset the costs of carbon dioxide abatement costs by between 30% and 100%. A more recent review of the literature[^13] came to similar conclusions, noting that developing countries would tend to have higher ancillary benefits from GHG mitigation compared with developed countries, since, in general, they currently incur greater costs from air pollution.
 
@@ -2245,7 +2245,7 @@ Babiker M.H., J. Reilly, J.M. Mayer, et al. (2001): 'The emissions prediction an
 
 Babiker M.H., J. Reilly, J.M. Mayer, et al. (2004): 'Modelling non-CO2 Greenhouse-Gas Abatement', Netherlands Springer pp175-186, October.
 
-Barker T., J. Köhler and M. Villena (2002): 'The costs of greenhouse-gas abatement: A Meta- Analysis of post-SRES mitigation scenarios.' Environmental Economics and Policy Studies 5(2): 135-166
+Barker T., J. Köhler and M. Villena (2002): 'The costs of greenhouse-gas abatement: A Meta-Analysis of post-SRES mitigation scenarios.' Environmental Economics and Policy Studies 5(2): 135-166
 
 Barker, T., M.S. Qureshi and J. Köhler (2006): 'The costs of greenhouse-gas mitigation with induced technological change: A Meta-Analysis of estimates in the literature', 4CMR, Cambridge Centre for Climate Change Mitigation Research, Cambridge: University of Cambridge.
 
@@ -2279,7 +2279,7 @@ Organization for Economic Co-operation and Development, Resources for the Future
 
 Pearce, D.W., W.R. Cline, A. Achanta, et al. (1996): 'The social costs of climate change: greenhouse damage and the benefits of control', in Climate change 1995: economic and social dimensions of climate change, Cambridge: Cambridge University Press, pp. 183-224.
 
-Reilly, J.M., M.C. Sarofim, S. Paltsev and R.G. Prinn (2004): 'The role of non- CO2 greenhouse-gases in climate policy: analysis using the MIT IGSM', MIT Joint Program on the Science and Policy of Global Change, No. 114 (Aug) available from http://hdl.handle.net/1721.1/5543
+Reilly, J.M., M.C. Sarofim, S. Paltsev and R.G. Prinn (2004): 'The role of non-CO2 greenhouse-gases in climate policy: analysis using the MIT IGSM', MIT Joint Program on the Science and Policy of Global Change, No. 114 (Aug) available from http://hdl.handle.net/1721.1/5543
 
 Ricci, F. (2003): 'Channels of transmission of environmental policy to economic growth: a survey of the theory', Thema Universit´e de Cergy-Pontoise, July.
 
@@ -2289,7 +2289,7 @@ Richels, R.G. and A.S. Manne (1998): 'The Kyoto Protocol: A cost-effective strat
 
 Sijm J.P.M. (2004): 'Induced technological change and spillovers in climate policy modeling: an assessment', ECN, December, Petten: ECN Beleidsstudies.
 
-Syri, S., M. Amann, P. Capros, et al., (2001): Low- CO2 energy pathways and regional air pollution in Europe. Energy Policy, 29(11): 871-884
+Syri, S., M. Amann, P. Capros, et al., (2001): Low-CO2 energy pathways and regional air pollution in Europe. Energy Policy, 29(11): 871-884
 
 Weyant, J.P. and J. Hill (1999): 'The costs of the Kyoto protocol: a multi-model evaluation', Energy Journal, Introduction and Overview Pages vii-xliv.
 
@@ -2518,7 +2518,7 @@ Source: adapted from Edenhofer et al. (2006); 'Green Book' is a declining discou
 
 %%page 297%%
 
-It is important to note that these results are tentative, and that there is still much debate about the role of induced technological progress, the focus of the study. Nevertheless, the bottom line in Table 13.3 suggests that the extra mitigation costs from choosing a goal of around 500ppm instead of 550ppm CO2 would be small, ranging from 0.06% to 0.18% of gross world output, depending on how much future costs are discounted. In terms of a CO2e goal, this is similar to going from 600 – 700ppm to 550 – 650ppm, depending on what happens to non- CO2 greenhouse gases (see Chapter 8). The extra costs of choosing a goal of 450ppm CO2 instead of 500ppm CO2 would be higher, ranging from 0.25% to 0.58%; this is similar to going from 550 – 650ppm CO2e to 500 – 550ppm CO2e. None of the discount schemes used are the same as the one used in Chapter 6 of this Review, as the discount rates are not path-dependent. However, as stabilisation reduces the chances of very bad outcomes compared with 'business as usual', the discounting issue is less important than when evaluating potential impacts without mitigation. It is important to note that the studies concerned take the year 2000 as a baseline. Given the probable cumulative emissions since then, the goals would now be more difficult and expensive to hit.
+It is important to note that these results are tentative, and that there is still much debate about the role of induced technological progress, the focus of the study. Nevertheless, the bottom line in Table 13.3 suggests that the extra mitigation costs from choosing a goal of around 500ppm instead of 550ppm CO2 would be small, ranging from 0.06% to 0.18% of gross world output, depending on how much future costs are discounted. In terms of a CO2e goal, this is similar to going from 600 – 700ppm to 550 – 650ppm, depending on what happens to non-CO2 greenhouse gases (see Chapter 8). The extra costs of choosing a goal of 450ppm CO2 instead of 500ppm CO2 would be higher, ranging from 0.25% to 0.58%; this is similar to going from 550 – 650ppm CO2e to 500 – 550ppm CO2e. None of the discount schemes used are the same as the one used in Chapter 6 of this Review, as the discount rates are not path-dependent. However, as stabilisation reduces the chances of very bad outcomes compared with 'business as usual', the discounting issue is less important than when evaluating potential impacts without mitigation. It is important to note that the studies concerned take the year 2000 as a baseline. Given the probable cumulative emissions since then, the goals would now be more difficult and expensive to hit.
 
 The recent US Climate Change Science Program draft report on scenarios of greenhouse gas emissions and atmospheric concentrations also provides useful estimates, reporting for various points in time the percentage change in gross world product expected due to adopting policies to meet four different stabilisation goals[^12]. Again, the studies covered take 2000 as the base year. The implications for incremental costs (as a fraction of gross world output) of adopting successively tougher goals are summarised in Table 13.4 below. These studies were not designed with the objective of this chapter in mind, of course, and the draft is subject to revision, so the estimates should be regarded as suggestive of magnitudes, not definitive.
 
