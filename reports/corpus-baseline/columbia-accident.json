@@ -1,6 +1,6 @@
 {
-  "words": 164376,
-  "paragraphs": 2309,
+  "words": 164419,
+  "paragraphs": 2310,
   "sections": [
     {
       "slug": "in-memoriam",
@@ -228,7 +228,7 @@
       "slug": "63-decision-making-during-the-flight-of-sts-107",
       "title": "6.3 Decision-Making During the Flight of STS-107",
       "paragraphs": 333,
-      "ids": "c9bad2241d9e"
+      "ids": "ac7bdc6db48e"
     },
     {
       "slug": "64-possibility-of-rescue-or-repair",
@@ -269,8 +269,8 @@
     {
       "slug": "75-organizational-causes-impact-of-a-flawed-safety-culture-on-sts-107",
       "title": "7.5 Organizational Causes: Impact of a Flawed Safety Culture on STS-107",
-      "paragraphs": 39,
-      "ids": "310306bbb08d"
+      "paragraphs": 40,
+      "ids": "56bbe339c3f3"
     },
     {
       "slug": "76-findings-and-recommendations",

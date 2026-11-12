@@ -4540,8 +4540,7 @@ SUMMARY: Though this case predicted some higher temperatures at the outer layer 
 
 Note to Don M. and Fred O.: On Friday I believe the MER was thoroughly briefed and it was clear that open work remained (viz., the case summarized above), the message of open work was not clearly given, in my opinion, to Linda Ham at the MMT. I believe we left her the impression that engineering assessments and cases were all finished and we could state with finality no safety of flight issues or questions remaining. This very serious case could not be ruled out and it was a very good thing we carried it through to a finish.
 
-- Division Shuttle Chief Engineer (DCE), ES-Structural Engineering Division
-- Chair, Space Shuttle Loads & Dynamics Panel
+Rodney Rocha (ES2) • Division Shuttle Chief Engineer (DCE), ES-Structural Engineering Division • Chair, Space Shuttle Loads & Dynamics Panel
 
 [MER=Mission Evaluation Room, ES-DCE=Structural Engineering-Division Shuttle Chief Engineer, TPS=Thermal Protection System]
 
@@ -5259,7 +5258,9 @@ Only at the bottom of the slide do engineers state a key piece of information: t
 
 > - The existing SOFI on tile test data used to create Crater was reviewed along with STS-107 Southwest Research data
 
-> – Crater overpredicted penetration of tile coating significantly • Initial penetration to described by normal velocity • Significant energy is required for the softer SOFI particle to penetrate the relatively hard tile coating • Conversely, once tile is penetrated SOFI can cause significant damage – Flight condition is significantly outside of test database • Volume of ramp is 1920cu in vs 3 cu in for test
+> – Crater overpredicted penetration of tile coating significantly • Initial penetration to described by normal velocity Varies with volume/mass of projectile(e.g., 200ft/sec for 3cu. In) • Significant energy is required for the softer SOFI particle to penetrate the relatively hard tile coating Test results do show that it is possible at sufficient mass and velocity • Conversely, once tile is penetrated SOFI can cause significant damage Minor variations in total energy (above penetration level) can cause significant tile damage – Flight condition is significantly outside of test database • Volume of ramp is 1920cu in vs 3 cu in for test
+
+2/21/03
 
 Tufte also criticized the sloppy language on the slide. "The vaguely quantitative words ʻsignificantʼ and ʻsignificantlyʼ are used 5 times on this slide," he notes, "with de facto meanings ranging from ʻdetectable in largely irrelevant calibration case studyʼ to ʻan amount of damage so that everyone diesʼ to ʻa difference of 640-fold.ʼ "[^40-7] Another example of sloppiness is that "cubic inches" is written inconsistently: "3cu. In," "1920cu in," and "3 cu in." While such inconsistencies might seem minor, in highly technical fields like aerospace engineering a misplaced decimal point or mistaken unit of measurement can easily engender inconsistencies and inaccuracies. In another phrase "Test results do show that it is possible at sufficient mass and velocity," the word "it" actually refers to "damage to the protective tiles."
 
@@ -5279,7 +5280,7 @@ As is the case here, such phrases may well be ambiquous.
 
 This vague pronoun reference "it" alludes to damage to the protective tiles,which caused the destruction of the
 
-Columbia. The slide weakens important material with ambiquous language (sentence fragments, passive voice, multiple meanings of "significant"). The 3 reports were created by engineers for high-level NASA officials who were deciding whether the threat of wing damage required further investigation before the Columbia attempted return. The officials were satisfied that the reports indicated that the Columbia was not in danger, and no attempts to further examine the threat were made. The slides were part of an oral presentation and also were circulated as e-mail attachments.
+Columbia. The slide weakens important material with ambiquous language (sentence fragments, passive voice, multiple meanings of "significant"). The 3 reports were created by engineers for high-level NASA officials who were deciding whether the threat of wing damage required further investigation before the Columbia attempted return. The officials were satisfied that the reports indicated that the Columbia was not in danger, and no attempts to further examine the threat were 6 made. The slides were part of an oral presentation and also were circulated as e-mail attachments.
 
 In this slide the same unit of measure for volume
 
