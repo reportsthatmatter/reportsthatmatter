@@ -78,7 +78,7 @@ export type EditorialSource = {
 };
 
 /** A paragraph a finding or passage links to, resolved at build time. */
-export type Citation = { id: string; page: number | null; href: string };
+export type Citation = { id: string; page: number | string | null; href: string };
 
 /** A verified quotation, with its link. */
 export type Quotation = { quote: string; cite: Citation };
@@ -170,10 +170,20 @@ export function placeQuote(
   return { ok: false, reason: `quote not found verbatim in "${id}" or the block quotations after it` };
 }
 
-/** The printed page a paragraph starts on, from the renderer's `data-page`. */
-export function pageOf(html: string, id: string): number | null {
-  const match = html.match(new RegExp(`<p id="${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*data-page="(\\d+)"`));
-  return match ? Number(match[1]) : null;
+/**
+ * The printed page a paragraph starts on, from the renderer's `data-page`: a number for an arabic folio, the
+ * lower-case label for a roman one ("iv": the Stern Review's Executive Summary is folioed i-xxvii throughout,
+ * reportsthatmatter-6j6q). Anything else (a volume-qualified "12#2") is null.
+ */
+export function pageOf(html: string, id: string): number | string | null {
+  const match = html.match(new RegExp(`<p id="${id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*data-page="(\\d+|[ivxlc]+)"`));
+  if (!match) return null;
+  return /^\d+$/.test(match[1]) ? Number(match[1]) : match[1];
+}
+
+/** An arabic page as a number; a roman label or none as null (for stores that hold an INTEGER page). */
+export function numericPage(page: number | string | null): number | null {
+  return typeof page === "number" ? page : null;
 }
 
 /**
@@ -275,7 +285,8 @@ export function resolveEditorial(
       exact: selector.exact,
       prefix: selector.prefix,
       suffix: selector.suffix,
-      page: pageOf(html, h.paragraph),
+      // The marks table stores an INTEGER page: a roman folio is left null here (6j6q).
+      page: numericPage(pageOf(html, h.paragraph)),
       ...(h.card ? { card: true } : {}),
       ...(h.pick ? { pick: true } : {}),
     });

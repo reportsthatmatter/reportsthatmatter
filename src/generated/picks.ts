@@ -82,14 +82,5 @@ export const EDITOR_PICKS: readonly EditorPick[] = [
     "words": "CIA and FBI have high confidence in this judgment; NSA has moderate confidence.",
     "anchor": "agree%20with%20this%20judgment.%20|CIA%20and%20FBI%20have%20high%20confidence%20in%20this%20judgment%3B%20NSA%20has%20moderate%20confidence.|",
     "page": 1
-  },
-  {
-    "report": "uk-stern-review",
-    "slug": "executive-summary",
-    "sectionTitle": "Executive Summary",
-    "paragraph": "from-all-these-perspectives-evidence",
-    "words": "the evidence gathered by the Review leads to a simple conclusion: the benefits of strong, early action considerably outweigh the costs.",
-    "anchor": "all%20of%20these%20perspectives%2C%20|the%20evidence%20gathered%20by%20the%20Review%20leads%20to%20a%20simple%20conclusion%3A%20the%20benefits%20of%20strong%2C%20early%20action%20considerably%20outweigh%20the%20costs.|",
-    "page": null
   }
 ];

@@ -3144,12 +3144,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "from-all-these-perspectives-evidence",
-            "page": null,
+            "page": "ii",
             "href": "/reports/uk-stern-review?p=from-all-these-perspectives-evidence"
           },
           {
             "id": "review-considers-economic-costs-impacts",
-            "page": null,
+            "page": "i",
             "href": "/reports/uk-stern-review?p=review-considers-economic-costs-impacts"
           }
         ],
@@ -3157,7 +3157,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "From all of these perspectives, the evidence gathered by the Review leads to a simple conclusion: the benefits of strong, early action considerably outweigh the costs.",
           "cite": {
             "id": "from-all-these-perspectives-evidence",
-            "page": null,
+            "page": "ii",
             "href": "/reports/uk-stern-review?p=from-all-these-perspectives-evidence&h=|From%20all%20of%20these%20perspectives%2C%20the%20evidence%20gathered%20by%20the%20Review%20leads%20to%20a%20simple%20conclusion%3A%20the%20benefits%20of%20strong%2C%20early%20action%20considerably%20outweigh%20the%20costs.|"
           }
         }
@@ -3167,17 +3167,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "using-model-including-those-elements",
-            "page": null,
+            "page": "x",
             "href": "/reports/uk-stern-review?p=using-model-including-those-elements"
           },
           {
             "id": "summary-analyses-take-into-account",
-            "page": null,
+            "page": "x",
             "href": "/reports/uk-stern-review?p=summary-analyses-take-into-account"
           },
           {
             "id": "putting-these-additional-factors-together",
-            "page": null,
+            "page": "x",
             "href": "/reports/uk-stern-review?p=putting-these-additional-factors-together"
           }
         ],
@@ -3185,7 +3185,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "In summary, analyses that take into account the full ranges of both impacts and possible outcomes - that is, that employ the basic economics of risk - suggest that BAU climate change will reduce welfare by an amount equivalent to a reduction in consumption per head of between 5 and 20%. Taking account of the increasing scientific evidence of greater risks, of aversion to the possibilities of catastrophe, and of a broader approach to the consequences than implied by narrow output measures, the appropriate estimate is likely to be in the upper part of this range.",
           "cite": {
             "id": "summary-analyses-take-into-account",
-            "page": null,
+            "page": "x",
             "href": "/reports/uk-stern-review?p=summary-analyses-take-into-account&h=|In%20summary%2C%20analyses%20that%20take%20into%20account%20the%20full%20ranges%20of%20both%20impacts%20and%20possible%20outcomes%20-%20that%20is%2C%20that%20employ%E2%8B%AFuences%20than%20implied%20by%20narrow%20output%20measures%2C%20the%20appropriate%20estimate%20is%20likely%20to%20be%20in%20the%20upper%20part%20of%20this%20range.|"
           }
         }
@@ -3195,12 +3195,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "achieving-these-deep-cuts-emissions",
-            "page": null,
+            "page": "xii",
             "href": "/reports/uk-stern-review?p=achieving-these-deep-cuts-emissions"
           },
           {
             "id": "important-corollary-there-high-price",
-            "page": null,
+            "page": "xv",
             "href": "/reports/uk-stern-review?p=important-corollary-there-high-price"
           }
         ],
@@ -3208,7 +3208,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "Achieving these deep cuts in emissions will have a cost. The Review estimates the annual costs of stabilisation at 500-550ppm CO2e to be around 1% of GDP by 2050 - a level that is significant but manageable.",
           "cite": {
             "id": "achieving-these-deep-cuts-emissions",
-            "page": null,
+            "page": "xii",
             "href": "/reports/uk-stern-review?p=achieving-these-deep-cuts-emissions&h=|Achieving%20these%20deep%20cuts%20in%20emissions%20will%20have%20a%20cost.%20The%20Review%20estimates%20the%20annual%20costs%20of%20stabilisation%20at%20500-550ppm%20CO2e%20to%20be%20around%201%25%20of%20GDP%20by%202050%20-%20a%20level%20that%20is%20significant%20but%20manageable.|"
           }
         }
@@ -3218,7 +3218,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "climate-change-presents-unique-challenge",
-            "page": null,
+            "page": "i",
             "href": "/reports/uk-stern-review?p=climate-change-presents-unique-challenge"
           }
         ],
@@ -3226,7 +3226,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "Climate change presents a unique challenge for economics: it is the greatest and widest-ranging market failure ever seen.",
           "cite": {
             "id": "climate-change-presents-unique-challenge",
-            "page": null,
+            "page": "i",
             "href": "/reports/uk-stern-review?p=climate-change-presents-unique-challenge&h=|Climate%20change%20presents%20a%20unique%20challenge%20for%20economics%3A%20it%20is%20the%20greatest%20and%20widest-ranging%20market%20failure%20ever%20seen.|%20The%20economic%20analysis"
           }
         }
@@ -3236,17 +3236,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "impacts-climate-change-are-not",
-            "page": null,
+            "page": "vii",
             "href": "/reports/uk-stern-review?p=impacts-climate-change-are-not"
           },
           {
             "id": "climate-change-grave-threat-developing",
-            "page": null,
+            "page": "vii",
             "href": "/reports/uk-stern-review?p=climate-change-grave-threat-developing"
           },
           {
             "id": "poorest-developing-countries-will-be",
-            "page": null,
+            "page": "xxvi",
             "href": "/reports/uk-stern-review?p=poorest-developing-countries-will-be"
           }
         ]
@@ -3256,12 +3256,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "three-elements-policy-mitigation-are",
-            "page": null,
+            "page": "xviii",
             "href": "/reports/uk-stern-review?p=three-elements-policy-mitigation-are"
           },
           {
             "id": "putting-appropriate-price-carbon-explicitly",
-            "page": null,
+            "page": "xviii",
             "href": "/reports/uk-stern-review?p=putting-appropriate-price-carbon-explicitly"
           }
         ]
@@ -3271,17 +3271,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "effective-response-climate-change-will",
-            "page": null,
+            "page": "xxii",
             "href": "/reports/uk-stern-review?p=effective-response-climate-change-will"
           },
           {
             "id": "creating-broadly-similar-carbon-price",
-            "page": null,
+            "page": "xxiii",
             "href": "/reports/uk-stern-review?p=creating-broadly-similar-carbon-price"
           },
           {
             "id": "emissions-from-deforestation-are-very",
-            "page": null,
+            "page": "xxv",
             "href": "/reports/uk-stern-review?p=emissions-from-deforestation-are-very"
           }
         ]
@@ -3297,7 +3297,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "Our actions over the coming few decades could create risks of major disruption to economic and social activity, later in this century and in the next, on a scale similar to those associated with the great wars and the economic depression of the first half of the 20th century.",
           "cite": {
             "id": "evidence-shows-ignoring-climate-change",
-            "page": null,
+            "page": "ii",
             "href": "/reports/uk-stern-review?p=evidence-shows-ignoring-climate-change&h=eventually%20damage%20economic%20growth.%20|Our%20actions%20over%20the%20coming%20few%20decades%20could%20create%20risks%20of%20major%20disruption%20to%20economic%20and%20social%20activity%2C%20later%20in%20this%20century%20and%20in%20the%20next%2C%20on%20a%20scale%20similar%20to%20those%20associated%20with%20the%20great%20wars%20and%20the%20economic%20depression%20of%20the%20first%20half%20of%20the%2020th%20century.|%20And%20it%20will%20be%20difficult"
           }
         }
@@ -3868,7 +3868,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "result-our-investigation-we-conclude",
-            "page": null,
+            "page": "vii",
             "href": "/reports/us-deepwater-horizon?p=result-our-investigation-we-conclude"
           },
           {
@@ -3881,7 +3881,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "The explosive loss of the Macondo well could have been prevented. The immediate causes of the Macondo well blowout can be traced to a series of identifiable mistakes made by BP, Halliburton, and Transocean that reveal such systematic failures in risk management that they place in doubt the safety culture of the entire industry.",
           "cite": {
             "id": "result-our-investigation-we-conclude",
-            "page": null,
+            "page": "vii",
             "href": "/reports/us-deepwater-horizon?p=result-our-investigation-we-conclude"
           }
         }
@@ -3959,7 +3959,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "commission-also-looked-effectiveness-response",
-            "page": null,
+            "page": "ix",
             "href": "/reports/us-deepwater-horizon?p=commission-also-looked-effectiveness-response"
           },
           {
@@ -3977,7 +3977,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "But it is impossible to argue that the industry or the country was prepared for a disaster of the magnitude of the Deepwater Horizon oil spill. Twenty years after the Exxon Valdez spill in Alaska, the same blunt response technologies—booms, dispersants, and skimmers—were used, to limited effect.",
           "cite": {
             "id": "commission-also-looked-effectiveness-response",
-            "page": null,
+            "page": "ix",
             "href": "/reports/us-deepwater-horizon?p=commission-also-looked-effectiveness-response&h=did%20not%20all%20come%20to%20pass.%20|But%20it%20is%20impossible%20to%20argue%20that%20the%20industry%20or%20the%20country%20was%20prepared%20for%20a%20disaster%20of%20the%20magnitude%20of%20the%20Deepwater%20Horizon%20oil%20spill.%20Twenty%20years%20after%20the%20Exxon%20Valdez%20spill%20in%20Alaska%2C%20the%20same%20blunt%20response%20technologies%E2%80%94booms%2C%20dispersants%2C%20and%20skimmers%E2%80%94were%20used%2C%20to%20limited%20effect.|%20On-the-ground"
           }
         }
@@ -4146,7 +4146,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "we-assess-russian-president-vladimir",
-            "page": null,
+            "page": "ii",
             "href": "/reports/us-ica-2017-russia-elections?p=we-assess-russian-president-vladimir"
           },
           {
@@ -4169,7 +4169,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "we-also-assess-putin-russian",
-            "page": null,
+            "page": "ii",
             "href": "/reports/us-ica-2017-russia-elections?p=we-also-assess-putin-russian"
           },
           {
@@ -4230,7 +4230,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           },
           {
             "id": "russian-intelligence-obtained-maintained-access",
-            "page": null,
+            "page": "iii",
             "href": "/reports/us-ica-2017-russia-elections?p=russian-intelligence-obtained-maintained-access"
           }
         ]
@@ -4255,7 +4255,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "we-did-not-make-assessment",
-            "page": null,
+            "page": "i",
             "href": "/reports/us-ica-2017-russia-elections?p=we-did-not-make-assessment"
           }
         ],
@@ -4263,7 +4263,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "We did not make an assessment of the impact that Russian activities had on the outcome of the 2016 election. The US Intelligence Community is charged with monitoring and assessing the intentions, capabilities, and actions of foreign actors; it does not analyze US political processes or US public opinion.",
           "cite": {
             "id": "we-did-not-make-assessment",
-            "page": null,
+            "page": "i",
             "href": "/reports/us-ica-2017-russia-elections?p=we-did-not-make-assessment&h=|We%20did%20not%20make%20an%20assessment%20of%20the%20impact%20that%20Russian%20activities%20had%20on%20the%20outcome%20of%20the%202016%20election.%20The%20US%20Inte%E2%8B%AFntentions%2C%20capabilities%2C%20and%20actions%20of%20foreign%20actors%3B%20it%20does%20not%20analyze%20US%20political%20processes%20or%20US%20public%20opinion.|"
           }
         }
@@ -5248,12 +5248,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "1-cia-s-use-its",
-            "page": null,
+            "page": "xi",
             "href": "/reports/us-senate-cia-torture-report?p=1-cia-s-use-its"
           },
           {
             "id": "committee-finds-based-review-cia",
-            "page": null,
+            "page": "xi",
             "href": "/reports/us-senate-cia-torture-report?p=committee-finds-based-review-cia"
           }
         ],
@@ -5261,7 +5261,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "The Committee finds, based on a review of CIA interrogation records, that the use of the CIA's enhanced interrogation techniques was not an effective means of obtaining accurate information or gaining detainee cooperation.",
           "cite": {
             "id": "committee-finds-based-review-cia",
-            "page": null,
+            "page": "xi",
             "href": "/reports/us-senate-cia-torture-report?p=committee-finds-based-review-cia&h=|The%20Committee%20finds%2C%20based%20on%20a%20review%20of%20CIA%20interrogation%20records%2C%20that%20the%20use%20of%20the%20CIA's%20enhanced%20interrogation%20techniques%20was%20not%20an%20effective%20means%20of%20obtaining%20accurate%20information%20or%20gaining%20detainee%20cooperation.|"
           }
         }
@@ -5271,12 +5271,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "2-cia-s-justification-use",
-            "page": null,
+            "page": "xi",
             "href": "/reports/us-senate-cia-torture-report?p=2-cia-s-justification-use"
           },
           {
             "id": "committee-reviewed-20-most-frequent",
-            "page": null,
+            "page": "xi",
             "href": "/reports/us-senate-cia-torture-report?p=committee-reviewed-20-most-frequent"
           }
         ],
@@ -5284,7 +5284,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "The Committee reviewed 20 of the most frequent and prominent examples of purported counter-terrorism successes that the CIA has attributed to the use of its enhanced interrogation techniques, and found them to be wrong in fundamental respects.",
           "cite": {
             "id": "committee-reviewed-20-most-frequent",
-            "page": null,
+            "page": "xi",
             "href": "/reports/us-senate-cia-torture-report?p=committee-reviewed-20-most-frequent&h=|The%20Committee%20reviewed%2020%20of%20the%20most%20frequent%20and%20prominent%20examples%20of%20purported%20counter-terrorism%20successes%20that%20the%20CIA%20has%20attributed%20to%20the%20use%20of%20its%20enhanced%20interrogation%20techniques%2C%20and%20found%20them%20to%20be%20wrong%20in%20fundamental%20respects.|%20In%20some%20cases%2C%20there%20was"
           }
         }
@@ -5294,17 +5294,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "3-interrogations-cia-detainees-brutal",
-            "page": null,
+            "page": "xii",
             "href": "/reports/us-senate-cia-torture-report?p=3-interrogations-cia-detainees-brutal"
           },
           {
             "id": "waterboarding-technique-physically-harmful-inducing",
-            "page": null,
+            "page": "xii",
             "href": "/reports/us-senate-cia-torture-report?p=waterboarding-technique-physically-harmful-inducing"
           },
           {
             "id": "sleep-deprivation-involved-keeping-detainees",
-            "page": null,
+            "page": "xii",
             "href": "/reports/us-senate-cia-torture-report?p=sleep-deprivation-involved-keeping-detainees"
           }
         ],
@@ -5312,7 +5312,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "Sleep deprivation involved keeping detainees awake for up to 180 hours, usually standing or in stress positions, at times with their hands shackled above their heads.",
           "cite": {
             "id": "sleep-deprivation-involved-keeping-detainees",
-            "page": null,
+            "page": "xii",
             "href": "/reports/us-senate-cia-torture-report?p=sleep-deprivation-involved-keeping-detainees&h=|Sleep%20deprivation%20involved%20keeping%20detainees%20awake%20for%20up%20to%20180%20hours%2C%20usually%20standing%20or%20in%20stress%20positions%2C%20at%20times%20with%20their%20hands%20shackled%20above%20their%20heads.|%20At%20least%20five%20detainees"
           }
         }
@@ -5322,17 +5322,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "5-cia-repeatedly-provided-inaccurate",
-            "page": null,
+            "page": "xiii",
             "href": "/reports/us-senate-cia-torture-report?p=5-cia-repeatedly-provided-inaccurate"
           },
           {
             "id": "cia-provided-extensive-amounts-inaccurate",
-            "page": null,
+            "page": "xv",
             "href": "/reports/us-senate-cia-torture-report?p=cia-provided-extensive-amounts-inaccurate"
           },
           {
             "id": "prior-september-6-2006-cia",
-            "page": null,
+            "page": "xv",
             "href": "/reports/us-senate-cia-torture-report?p=prior-september-6-2006-cia"
           }
         ]
@@ -5342,12 +5342,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "119-known-detainees-least-26",
-            "page": null,
+            "page": "xxi",
             "href": "/reports/us-senate-cia-torture-report?p=119-known-detainees-least-26"
           },
           {
             "id": "cia-never-conducted-comprehensive-audit",
-            "page": null,
+            "page": "xxi",
             "href": "/reports/us-senate-cia-torture-report?p=cia-never-conducted-comprehensive-audit"
           }
         ]
@@ -5357,12 +5357,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "cites": [
           {
             "id": "cia-contracted-two-psychologists-develop",
-            "page": null,
+            "page": "xx",
             "href": "/reports/us-senate-cia-torture-report?p=cia-contracted-two-psychologists-develop"
           },
           {
             "id": "2006-value-cia-s-base",
-            "page": null,
+            "page": "xx",
             "href": "/reports/us-senate-cia-torture-report?p=2006-value-cia-s-base"
           }
         ]
@@ -5402,7 +5402,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
           "quote": "While the Office of Legal Counsel found otherwise between 2002 and 2007, it is my personal conclusion that, under any common meaning of the term, CIA detainees were tortured.",
           "cite": {
             "id": "even-so-existing-u-s",
-            "page": null,
+            "page": "vii",
             "href": "/reports/us-senate-cia-torture-report?p=even-so-existing-u-s&h=made%20during%20this%20program.%20|While%20the%20Office%20of%20Legal%20Counsel%20found%20otherwise%20between%202002%20and%202007%2C%20it%20is%20my%20personal%20conclusion%20that%2C%20under%20any%20common%20meaning%20of%20the%20term%2C%20CIA%20detainees%20were%20tortured.|%20I%20also%20believe%20that%20the"
           }
         }
