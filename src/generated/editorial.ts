@@ -3320,7 +3320,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "2-economics-ethics-and-climate-change",
         "title": "2 Economics, Ethics and Climate Change",
         "page": "23",
-        "why": "Chapter 2 sets out the economic and ethical framework, including the choice the Review's critics argued over most: how far to discount the welfare of future generations.",
+        "why": "Chapter 2 sets out the economic and ethical framework, including how far to discount the welfare of future generations, the choice that critics such as William Nordhaus challenged.",
         "excerpt": {
           "quote": "We take a simple approach in this Review: if a future generation will be present, we suppose that it has the same claim on our ethical attention as the current one.",
           "cite": {
@@ -3334,7 +3334,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "6-economic-modelling-of-climate-change-impacts",
         "title": "6 Economic modelling of climate-change impacts",
         "page": "143",
-        "why": "Chapter 6 is where the \"5 to 20%\" estimate of the cost of climate change is made, from the PAGE2002 model. Its key messages, on the first page, summarise the method and the results; its Table 6.1 is in the PDF only.",
+        "why": "Chapter 6 is where the \"5 to 20%\" estimate of the cost of climate change is made, from the PAGE2002 model: 5% for the model's lower-bound scenario, and around 20% once three further factors are added, as below. Its key messages, on the first page, summarise the method and the results; its Table 6.1 is in the PDF only.",
         "excerpt": {
           "quote": "Putting these three additional factors together would increase the total cost of BAU climate change to the equivalent of around a 20% reduction in current per-capita consumption, now and forever.",
           "cite": {
@@ -3348,7 +3348,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "part-iii-the-economics-of-stabilisation",
         "title": "Part III: The Economics of Stabilisation",
         "page": "168",
-        "why": "Part III's introduction, followed (on the same page here) by Chapter 9, which builds up the cost of cutting emissions technology by technology.",
+        "why": "Part III's introduction, followed in this edition by Chapter 9, which builds up the cost of cutting emissions technology by technology. The estimate below is annual, to 2050; Chapter 10 gives its range.",
         "excerpt": {
           "quote": "Overall costs are estimated at around 1% of GDP for stabilisation levels between 500-550ppm CO2e.",
           "cite": {

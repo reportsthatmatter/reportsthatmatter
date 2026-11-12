@@ -188,9 +188,9 @@ reading_guide:
         and forever.
   - section: 2-economics-ethics-and-climate-change
     why: >-
-      Chapter 2 sets out the economic and ethical framework, including the
-      choice the Review's critics argued over most: how far to discount the
-      welfare of future generations.
+      Chapter 2 sets out the economic and ethical framework, including how far
+      to discount the welfare of future generations, the choice that critics
+      such as William Nordhaus challenged.
     excerpt:
       paragraph: yet-assessing-impacts-over-very
       quote: >-
@@ -200,8 +200,10 @@ reading_guide:
   - section: 6-economic-modelling-of-climate-change-impacts
     why: >-
       Chapter 6 is where the "5 to 20%" estimate of the cost of climate change
-      is made, from the PAGE2002 model. Its key messages, on the first page,
-      summarise the method and the results; its Table 6.1 is in the PDF only.
+      is made, from the PAGE2002 model: 5% for the model's lower-bound
+      scenario, and around 20% once three further factors are added, as below.
+      Its key messages, on the first page, summarise the method and the
+      results; its Table 6.1 is in the PDF only.
     excerpt:
       paragraph: putting-these-three-additional-factors
       quote: >-
@@ -210,8 +212,9 @@ reading_guide:
         reduction in current per-capita consumption, now and forever.
   - section: part-iii-the-economics-of-stabilisation
     why: >-
-      Part III's introduction, followed (on the same page here) by Chapter 9,
-      which builds up the cost of cutting emissions technology by technology.
+      Part III's introduction, followed in this edition by Chapter 9, which
+      builds up the cost of cutting emissions technology by technology. The
+      estimate below is annual, to 2050; Chapter 10 gives its range.
     excerpt:
       paragraph: stabilisation-concentrations-will-require-deep
       quote: >-
