@@ -130,3 +130,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
+  us-duelfer-report:
+    markers-wrong: 37
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 29

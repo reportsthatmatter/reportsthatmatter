@@ -380,6 +380,7 @@ check_contains /reports/us-ica-2017-russia-elections/processing "Annex B (page 1
 check_contains /reports/uk-saville-inquiry "About this edition"
 check_status /reports/jack-smith-vol1/processing 404
 check_contains /reports/uk-covid-inquiry-module-2/processing "post-publication amends"
+check_contains /reports/us-duelfer-report/processing "slightly revised version"
 
 # A report's landing page (g0w.8): our layer, when the report has one.
 check_contains "/reports/jack-smith-vol1" "Where to start reading"

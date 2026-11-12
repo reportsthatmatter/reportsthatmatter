@@ -614,3 +614,28 @@ reports:
     numbered-prose-list: 2
     ids-per-1k-words: 0
     quote-share-parity: 1
+  us-duelfer-report:
+    severed-into-quote: 0
+    severed-paragraph: 0
+    bare-footnote-marker: 1
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-definition-unreferenced: 0
+    note-reference-sequence: 0
+    note-text-in-body: 1
+    note-citation-vocabulary: 0
+    furniture-paragraph: 0
+    contents-entry-without-heading: 0
+    heading-density: 1  # why: reportsthatmatter-ivg.4 (the HTML edition sets every subhead the chapters' own contents list, three levels deep: 442 headings over 451 pages, 98 per 100 against 60)
+    heading-repeated: 1  # why: reportsthatmatter-ivg.4 (each part of the Regime Finance and Procurement chapter opens on its own "Overview", as printed: 7)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 0
+    printed-page-reversal: 6  # why: reportsthatmatter-ivg.4 (the print numbers each part from 1: Acknowledgements, Transmittal Message, Scope Note and each chapter restart, so 1#2 follows 3, 12, 5 …, as printed)
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 0
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 1

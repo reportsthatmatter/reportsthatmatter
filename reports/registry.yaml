@@ -334,3 +334,17 @@ reports:
     source_path: reports/uk-stern-review/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
     ingested: true
+
+  - id: us-duelfer-report
+    title: "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD, Volume I"
+    authors: "Charles Duelfer, Special Advisor to the Director of Central Intelligence"
+    published_at: "30 September 2004"
+    common_name: "Duelfer Report"
+    also_known_as: ["Iraq Survey Group Final Report", "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD", "ISG Report"]
+    issued_by: "Iraq Survey Group (Special Advisor to the Director of Central Intelligence)"
+    date_published: "2004-09-30"
+    repo: us-duelfer-report
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    source_path: reports/us-duelfer-report/full.md
+    source_url: "https://www.govinfo.gov/content/pkg/GPO-DUELFERREPORT/pdf/GPO-DUELFERREPORT-1.pdf"
+    ingested: true
