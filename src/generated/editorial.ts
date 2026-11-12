@@ -1378,7 +1378,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-covid-inquiry-module-2": {
     "status": "approved",
-    "whyItMatters": "The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett, on how the UK government and the governments of Scotland, Wales and Northern Ireland made their decisions from the first reports of the virus in January 2020 to the end of restrictions in May 2022. Volume I holds the Inquiry's summary and its account, month by month, of the lockdowns and what led to them; Volume II its analysis by theme, its lessons for future emergencies and its 19 recommendations.",
+    "whyItMatters": "The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett, on how the UK government and the governments of Scotland, Wales and Northern Ireland made their decisions from January 2020 to the end of restrictions in May 2022. Volume I holds the Inquiry's summary and its account, month by month, of the lockdowns and what led to them; Volume II its analysis by theme, its lessons for future emergencies and its 19 recommendations.",
     "description": "The UK Covid-19 Inquiry's second report, on how the four UK governments made their decisions from January 2020 to May 2022: its findings, its account of events and its 19 recommendations.",
     "background": [
       "Covid-19 reached the UK in early 2020. Over the next two and a half years the four governments of the UK closed schools and businesses, and ordered people to stay at home; England had three national lockdowns. The last restrictions in the UK ended on 30 May 2022. The Chair's introduction records that Covid-19 is mentioned on the death certificates of more than 230,000 people in the UK.",
@@ -1451,14 +1451,14 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-covid-inquiry-module-2?p=however-inquiry-rejects-criticism-four"
           },
           {
-            "id": "4-227-however-inquiry-rejects",
-            "page": 213,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-227-however-inquiry-rejects"
-          },
-          {
             "id": "4-167-decision-impose-uk-wide",
             "page": 200,
             "href": "/reports/uk-covid-inquiry-module-2?p=4-167-decision-impose-uk-wide"
+          },
+          {
+            "id": "4-180-absence-planning-further",
+            "page": 202,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-180-absence-planning-further"
           }
         ],
         "excerpt": {
@@ -1538,15 +1538,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "page": 12,
             "href": "/reports/uk-covid-inquiry-module-2?p=ministers-relied-secondary-legislation-implement"
           }
-        ],
-        "excerpt": {
-          "quote": "Ministers relied on secondary legislation to implement many of the most far-reaching restrictions in modern UK history, with little or no parliamentary oversight.",
-          "cite": {
-            "id": "ministers-relied-secondary-legislation-implement",
-            "page": 12,
-            "href": "/reports/uk-covid-inquiry-module-2?p=ministers-relied-secondary-legislation-implement&h=|Ministers%20relied%20on%20secondary%20legislation%20to%20implement%20many%20of%20the%20most%20far-reaching%20restrictions%20in%20modern%20UK%20history%2C%20with%20little%20or%20no%20parliamentary%20oversight.|%20Across%20all%20four%20nations%2C"
-          }
-        }
+        ]
       },
       {
         "text": "The report finds that the impact of the pandemic was not shared equally, that older people, disabled people and some ethnic minority groups faced a higher risk of dying, and that the harm restrictions would do to vulnerable groups, including children, was foreseeable but had not been adequately considered.",
@@ -1569,7 +1561,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         ]
       },
       {
-        "text": "The report makes 19 recommendations, each set out in the chapter that explains it and together in Appendix 3. Among them, that each government agree a framework identifying the people most at risk in an emergency; that future pandemic strategies set out how decision-making will work, starting from COBR; that emergency powers be made by the draft affirmative procedure as standard, with safeguards such as sunset clauses; and that a four-nations structure attended by all heads of government meet regularly during a pandemic.",
+        "text": "The report makes 19 recommendations, each set out in the chapter that explains it and together in Appendix 3. Among them, that each government agree a framework identifying the people most at risk from a disease and from the measures taken against it; that future pandemic strategies set out how decision-making will work, starting from COBR, the UK government's emergency committee; that emergency powers be made by the draft affirmative procedure as standard, with safeguards such as sunset clauses; and that a four-nations structure attended by all heads of government meet regularly during a pandemic.",
         "cites": [
           {
             "id": "uk-government-scottish-government-welsh",
@@ -1661,13 +1653,13 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "appendix-3-list-of-recommendations",
         "title": "Appendix 3: List of recommendations",
         "page": "314",
-        "why": "The full text of the 19 recommendations, grouped by chapter (Recommendations 9 to 19 continue on the next page); each also appears in its chapter, where the Inquiry explains it.",
+        "why": "The 19 recommendations in full, in the order of the chapters that explain them; the list runs over two pages (Recommendations 9 to 19 on the second). Each also appears in its chapter, where the Inquiry gives its reasons.",
         "excerpt": {
-          "quote": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should each agree a framework that identifies people who would be most at risk of becoming infected by and dying from a disease and those who are most likely to be negatively impacted by any steps taken to respond to a future pandemic.",
+          "quote": "During a whole-system civil emergency, the UK government and devolved administrations should each routinely publish technical advice on scientific, economic and social matters at the earliest opportunity, as well as the minutes of expert advisory groups – except where there are good reasons that prevent publication, such as commercial confidentiality, personal safety or national security, or because legal advice privilege applies.",
           "cite": {
-            "id": "uk-government-scottish-government-welsh-3",
-            "page": 317,
-            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-scottish-government-welsh-3&h=|The%20UK%20government%2C%20Scottish%20Government%2C%20Welsh%20Government%20and%20Northern%20Ireland%20Executive%20should%20each%20agree%20a%20framework%20th%E2%8B%AFom%20a%20disease%20and%20those%20who%20are%20most%20likely%20to%20be%20negatively%20impacted%20by%20any%20steps%20taken%20to%20respond%20to%20a%20future%20pandemic.|%20The%20framework%20should%20set"
+            "id": "during-whole-system-civil-emergency-uk-2",
+            "page": 315,
+            "href": "/reports/uk-covid-inquiry-module-2?p=during-whole-system-civil-emergency-uk-2&h=|During%20a%20whole-system%20civil%20emergency%2C%20the%20UK%20government%20and%20devolved%20administrations%20should%20each%20routinely%20publish%20tech%E2%8B%AFon%2C%20such%20as%20commercial%20confidentiality%2C%20personal%20safety%20or%20national%20security%2C%20or%20because%20legal%20advice%20privilege%20applies.|"
           }
         }
       }

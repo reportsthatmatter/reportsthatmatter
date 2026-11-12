@@ -72,8 +72,8 @@ description: >-
 why_it_matters: >-
   The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett,
   on how the UK government and the governments of Scotland, Wales and Northern
-  Ireland made their decisions from the first reports of the virus in January
-  2020 to the end of restrictions in May 2022. Volume I holds the Inquiry's
+  Ireland made their decisions from January 2020 to the end of restrictions
+  in May 2022. Volume I holds the Inquiry's
   summary and its account, month by month, of the lockdowns and what led to
   them; Volume II its analysis by theme, its lessons for future emergencies
   and its 19 recommendations.
@@ -110,7 +110,7 @@ findings:
         preparations are inexplicable.
 
   - text: The Inquiry accepts the consensus of the evidence that the first mandatory lockdown should have been imposed a week earlier, and reports modelling that doing so would have meant about 23,000 fewer deaths in England in the first wave. It rejects the criticism that the governments were wrong in principle to impose a lockdown, and finds that none of the four governments had planned for a lockdown or for how to leave one.
-    cites: [inquiry-recognises-lockdown-decision-difficult, however-inquiry-rejects-criticism-four, 4-227-however-inquiry-rejects, 4-167-decision-impose-uk-wide]
+    cites: [inquiry-recognises-lockdown-decision-difficult, however-inquiry-rejects-criticism-four, 4-167-decision-impose-uk-wide, 4-180-absence-planning-further]
     excerpt:
       paragraph: however-inquiry-rejects-criticism-four
       quote: >-
@@ -129,17 +129,11 @@ findings:
 
   - text: Among its key themes, the Inquiry finds that the UK Cabinet was largely sidelined; that decision-making was affected by cultural problems in the UK government and the Northern Ireland Executive, including a "toxic and chaotic culture" at the centre of the UK government; that instances of ministers and advisers appearing to break the rules caused huge distress; and that ministers in all four nations made far-reaching laws with little or no parliamentary oversight.
     cites: [uk-cabinet-largely-sidelined-decision-making, decision-making-particularly-affected-cultural-problems, pandemic-response-also-exposed-wider, ministers-relied-secondary-legislation-implement]
-    excerpt:
-      paragraph: ministers-relied-secondary-legislation-implement
-      quote: >-
-        Ministers relied on secondary legislation to implement many of the most
-        far-reaching restrictions in modern UK history, with little or no
-        parliamentary oversight.
 
   - text: The report finds that the impact of the pandemic was not shared equally, that older people, disabled people and some ethnic minority groups faced a higher risk of dying, and that the harm restrictions would do to vulnerable groups, including children, was foreseeable but had not been adequately considered.
     cites: [although-pandemic-affected-everyone-uk, vulnerable-groups-also-affected-restrictions, despite-harm-being-foreseeable-impact]
 
-  - text: The report makes 19 recommendations, each set out in the chapter that explains it and together in Appendix 3. Among them, that each government agree a framework identifying the people most at risk in an emergency; that future pandemic strategies set out how decision-making will work, starting from COBR; that emergency powers be made by the draft affirmative procedure as standard, with safeguards such as sunset clauses; and that a four-nations structure attended by all heads of government meet regularly during a pandemic.
+  - text: The report makes 19 recommendations, each set out in the chapter that explains it and together in Appendix 3. Among them, that each government agree a framework identifying the people most at risk from a disease and from the measures taken against it; that future pandemic strategies set out how decision-making will work, starting from COBR, the UK government's emergency committee; that emergency powers be made by the draft affirmative procedure as standard, with safeguards such as sunset clauses; and that a four-nations structure attended by all heads of government meet regularly during a pandemic.
     cites: [uk-government-scottish-government-welsh, uk-government-devolved-administrations-should, uk-government-devolved-administrations-should-4, while-intergovernmental-relations-should-be]
     excerpt:
       paragraph: uk-government-devolved-administrations-should-4
@@ -186,15 +180,17 @@ reading_guide:
         be better placed to react quickly and decisively.
 
   - section: appendix-3-list-of-recommendations
-    why: The full text of the 19 recommendations, grouped by chapter (Recommendations 9 to 19 continue on the next page); each also appears in its chapter, where the Inquiry explains it.
+    why: The 19 recommendations in full, in the order of the chapters that explain them; the list runs over two pages (Recommendations 9 to 19 on the second). Each also appears in its chapter, where the Inquiry gives its reasons.
     excerpt:
-      paragraph: uk-government-scottish-government-welsh-3
+      paragraph: during-whole-system-civil-emergency-uk-2
       quote: >-
-        The UK government, Scottish Government, Welsh Government and Northern
-        Ireland Executive should each agree a framework that identifies people
-        who would be most at risk of becoming infected by and dying from a
-        disease and those who are most likely to be negatively impacted by any
-        steps taken to respond to a future pandemic.
+        During a whole-system civil emergency, the UK government and devolved
+        administrations should each routinely publish technical advice on
+        scientific, economic and social matters at the earliest opportunity, as
+        well as the minutes of expert advisory groups – except where there are
+        good reasons that prevent publication, such as commercial
+        confidentiality, personal safety or national security, or because legal
+        advice privilege applies.
 
 highlights:
   - paragraph: inquiry-finds-response-four-governments
