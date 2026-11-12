@@ -37,9 +37,9 @@ reports:
     blocks-wrong: 28
   uk-leveson-inquiry:
     markers-wrong: 0
-    markers-stacked: 0
+    markers-stacked: 1  # why: reportsthatmatter-r0w - edgeLetters takes the thumb letter off "H   materialised with the Court of Appeal's judgment" (vol iii PDF p.86, printed 1068), so the page's only text runs on, rightly, as the end of the quotation from p.1067 and its marker sits beside the next page's
     pages-unmarked: 0
-    blocks-wrong: 4  # why: reportsthatmatter-fkx - after facingPageMargins the recommendations box over printed pp.1112-1113 ("…led by a Board of Commissioners" / "Board a Commissioner from the media sector.[^10] I recommend…") opens its page-1113 block under %%page 1112%%; the three from main (pp.56/57, 919/920, 1830/1831) are unchanged
+    blocks-wrong: 3  # why: the three from before fkx (pp.56/57, 919/920, 1830/1831); fkx's recommendations box over printed pp.1112-1113 now opens under its own page (r0w)
   columbia-accident:
     markers-wrong: 0
     markers-stacked: 0

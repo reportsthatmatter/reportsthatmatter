@@ -1,0 +1,4 @@
+---
+theme: ids and aliases
+---
+- **After a re-ingest that restructures a report, check every new alias's target against the old paragraph's words before shipping; `pnpm aliases check` only checks that targets exist** (2026-11-12, reportsthatmatter-r0w, rtm-quality-leveson agent) Leveson's heading re-ingest made 979 new aliases; a 30-line audit (does the target open on words of the old text, or its introduced block?) found 86 pointing at the wrong paragraph: the generator's text stream ran a heading into the paragraph above it ("Arbitration Service 22. The Board…" landed on "(d) a report on…"), and an unanchored probe matched inside a word ("releas|e 5 8 another…"). alias-gen now stops a paragraph's block at a heading, matches whole words and probes a few words in; 8 left were hand-corrected. [status: done in the Leveson headings site PR; a check proposed in reportsthatmatter-4o7v]

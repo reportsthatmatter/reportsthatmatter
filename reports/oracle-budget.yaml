@@ -40,9 +40,9 @@ reports:
     paragraphs-oversplit: 307  # why: reportsthatmatter-jsqw (the glossary, PDF pp. 261-262, read one entry a paragraph, is +89; on the other vision pages over-split falls 111 to 65)
     note-off-page: 81  # why: reportsthatmatter-4ofu (153 more notes read from their pages; markers still link by number document-wide while the report numbers its notes per chapter, so the nearest same-number note moves: 30 findings gone, 33 new) + uw50
   uk-leveson-inquiry:
-    headings-missed: 1350
+    headings-missed: 164
     markers-unlinked: 17
-    paragraphs-oversplit: 2091  # why: reportsthatmatter-qai (thumbLetters takes the stray Part letter off ~60 blocks; the oracle then matches splits that were already there, e.g. "Online models have proved highly successful with buyers and sellers. C" now read without its "C"; 20 such appear, 11 vanish; each of the 20 already opened a block before)
+    paragraphs-oversplit: 245  # why: reportsthatmatter-qai (thumbLetters takes the stray Part letter off ~60 blocks; the oracle then matches splits that were already there, e.g. "Online models have proved highly successful with buyers and sellers. C" now read without its "C"; 20 such appear, 11 vanish; each of the 20 already opened a block before)
     note-off-page: 1
   columbia-accident:
     markers-unlinked: 5  # why: reportsthatmatter-n891 (the oracle now reads raised digits on quotation lines too; +2, read on pp.100 and 124: "its resources.”5" and "other Orbiters.10" are real markers the text leaves bare; reportsthatmatter-pfgn)

@@ -226,6 +226,11 @@ describe("contents-entry-without-heading (I)", () => {
   it("reads dot leaders", () => {
     expect(contentsEntryWithoutHeading.run(input("- Introduction ........ 7\n\nBody."))).toHaveLength(1);
   });
+  it("matches an entry the contents numbers bare to its heading numbered with a full stop (Leveson, r0w)", () => {
+    const md = "- 2 Role of the Assessors — 6\n- 6 a — 9\n\n#### 2. Role of the assessors\n\n#### About the inquiry\n\nBody.";
+    // (a bare number before a stray letter is not a numbered title: "6 a" still has no heading)
+    expect(contentsEntryWithoutHeading.run(input(md)).map((f) => f.excerpt)).toEqual(["6 a"]);
+  });
 });
 
 describe("heading plausibility (H/I)", () => {

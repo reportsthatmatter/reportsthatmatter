@@ -300,6 +300,8 @@ const normalise = (text: string) =>
     .replace(/^(?:chapter|part|section|annex|appendix)?\s*(?:\d+(?:\.\d+)*|[ivxlc]+|[a-z])[.):]\s+/, "")
     .replace(/^\((?:\d+|[a-z]|[ivxlc]+)\)\s*/, "")
     .replace(/^(?:chapter|part|section|annex|appendix)\s+(?:\d+(?:\.\d+)*|[ivxlc]+)\s+/, "")
+    // (a section the contents numbers bare, "1 Introduction", and the body "1. Introduction": Leveson, r0w)
+    .replace(/^\d{1,2}\s+(?=\p{L}{3})/u, "")
     .replace(/[^\p{L}\p{N}\s]/gu, " ")
     .replace(/\s+/g, " ")
     .trim();

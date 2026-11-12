@@ -63,13 +63,20 @@ const plain = (html: string) =>
     .replace(/\s+/g, " ")
     .trim();
 
-/** For each citable id, the text between the end of its element and the next id'd element (an ordered list, a quotation). */
+/**
+ * For each citable id, the text between the end of its element and the next id'd element (an ordered list, a
+ * quotation), up to the next heading: a heading's words are not the paragraph's, and read on into the paragraph
+ * under it they made the paragraph above the match for an old one that opened on that heading ("Arbitration
+ * Service 22. The Board should…" went to the paragraph before the heading, Leveson, reportsthatmatter-r0w).
+ */
 function introducedBlocks(html: string): Map<string, string> {
   const starts = [...html.matchAll(UNIT_START)];
   const out = new Map<string, string>();
   starts.forEach((m, i) => {
     const end = html.indexOf(`</${m[1]}>`, m.index) + m[1].length + 3;
-    const block = plain(html.slice(end, i + 1 < starts.length ? starts[i + 1].index : html.length));
+    const between = html.slice(end, i + 1 < starts.length ? starts[i + 1].index : html.length);
+    const heading = between.search(/<h[1-6]\b/);
+    const block = plain(heading >= 0 ? between.slice(0, heading) : between);
     if (block) out.set(m[2], block);
   });
   return out;
@@ -104,7 +111,8 @@ const norm = (t: string) => t.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p
 
 /** Finds where a piece of old text sits in the new text: the id of the new paragraph holding it, or null. */
 function locator(after: Rendered) {
-  let stream = "";
+  // (a leading space, so every word in the stream has one before it and a probe matches whole words only)
+  let stream = " ";
   const starts: { at: number; id: string }[] = [];
   for (const p of after.passages) {
     starts.push({ at: stream.length, id: p.id });
@@ -121,10 +129,13 @@ function locator(after: Rendered) {
     }
     return starts[lo].id;
   };
+  // Whole words: a probe opening on a stray letter must not match inside a word ("E 5.8 Another…" found "releas|e 5 8
+  // another…" across the end of the paragraph before, Leveson r0w).
   const once = (probe: string) => {
     if (!probe) return -1;
-    const i = stream.indexOf(probe);
-    return i >= 0 && stream.indexOf(probe, i + 1) < 0 ? i : -1;
+    const word = ` ${probe} `;
+    const i = stream.indexOf(word);
+    return i >= 0 && stream.indexOf(word, i + 1) < 0 ? i + 1 : -1;
   };
   return (text: string): string | null => {
     const words = norm(text).split(" ");
@@ -140,11 +151,16 @@ function locator(after: Rendered) {
       }
       if (found >= 0) return idAt(found);
     }
-    for (const k of [12, 8, 6, 4]) {
-      if (words.length < k && k !== 4) continue;
+    for (const k of [12, 8, 6]) {
+      if (words.length < k) continue;
       found = once(words.slice(0, k).join(" "));
       if (found >= 0) break;
     }
+    // A heading or a stray letter the old text ran into the paragraph's opening ("Arbitration Service 22. The Board…",
+    // a thumb-index letter "E 5.8 Another aspect…", Leveson r0w): the paragraph as it opens now, a few words in. Tried
+    // before the four-word probe, which such a letter can match by chance ("i.e." / "E 5.8 Another" reads "i e 5 8 another").
+    for (let j = 1; found < 0 && j <= 4 && words.length - j >= 8; j++) found = once(words.slice(j, j + 8).join(" "));
+    if (found < 0) found = once(words.slice(0, 4).join(" "));
     if (found < 0 && words.length >= 10) {
       const mid = Math.floor(words.length / 2);
       found = once(words.slice(mid, mid + 8).join(" "));

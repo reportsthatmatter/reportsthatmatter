@@ -240,7 +240,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   uk-leveson-inquiry:
-    severed-into-quote: 145
+    severed-into-quote: 30
     severed-paragraph: 14
     bare-footnote-marker: 6
     bare-marker-after-quote: 1
@@ -250,20 +250,20 @@ reports:
     note-reference-sequence: 11
     note-text-in-body: 1
     note-citation-vocabulary: 0
-    furniture-paragraph: 140
-    contents-entry-without-heading: 1287
-    heading-density: 0
-    heading-repeated: 3
-    heading-function-word: 1
-    heading-marker: 1  # why: reportsthatmatter-qai (thumbIndexNotes reads the chapter title's own note: "Chapter 4: The Conservative Revival and the Coalition1" was a bare digit, now [^1], the note the PDF prints on that heading; rendered as a sidenote, read)
-    heading-long: 0
+    furniture-paragraph: 93
+    contents-entry-without-heading: 158
+    heading-density: 1  # why: reportsthatmatter-r0w (headings read off the faces: 1,331 headings over 2,022 pages, 66 per 100; the layout oracle expects 1,354, so the report is that dense: Part, chapter, numbered section and two subhead levels)
+    heading-repeated: 23  # why: reportsthatmatter-r0w (every chapter opens on '1. Introduction' and closes on 'Conclusion'; each newspaper group has its 'History' and 'Governance structures'; each volume's contents heads 'Volume I'-'Volume IV'. Read: all printed so)
+    heading-function-word: 0
+    heading-marker: 3  # why: reportsthatmatter-qai (thumbIndexNotes reads the chapter title's own note: "Chapter 4: The Conservative Revival and the Coalition1" was a bare digit, now [^1], the note the PDF prints on that heading; rendered as a sidenote, read); reportsthatmatter-r0w ("Inquiry Team" note 1 and "Neil Wallis' daughter" note 707 are printed on their headings too, now headings)
+    heading-long: 14  # why: reportsthatmatter-r0w (14 headings over 14 words, read: 12 are printed so, e.g. '3. June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills'; 2 are two stacked subheads in one face welded, beaded)
     printed-page-reversal: 1
     rendered-h1: 0
-    chapter-intro-misfiled: 1
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 1
-    numbered-prose-list: 26  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
+    numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: reportsthatmatter-fkx (facingPageMargins: quotations 20.9% of blocks on even pages, 19.5% on odd, gap 1.4; no side-of-spread defect, which reads ~90 (Deepwater). The share rose on both sides because 2,595 oversplit fragments rejoined and quotations the gutter had made prose are quotations again: oracle quotes-missed 1,242 -> 657, quotes-spurious 319 -> 256)
+    quote-share-parity: 1
   uk-post-office-horizon-inquiry:
     severed-into-quote: 5  # why: reportsthatmatter-gqsy.2 (first ingest; quotations run on from their lead-in)
     severed-paragraph: 0
