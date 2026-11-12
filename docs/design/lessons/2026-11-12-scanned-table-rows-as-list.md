@@ -1,0 +1,4 @@
+---
+theme: ingest
+---
+- **A ruled table in a scan is a report's SourcePass, one list item per row, until the PDF pipeline has a table block** (2026-11-12, reportsthatmatter-05c, rtm-quality-jacksmith) Jack Smith's appendix of filings (PDF pp.146-154) was 115 of its 145 oversplit paragraphs and 39 spurious quotations; a SourcePass that reads each row's description as centred on its number line (as many wrapped lines above as below) and writes "ECF No. 12, 8/5/2023: ..." took the report from C 4.20 to B 2.00. Two traps: on a page the pipeline reads as double-spaced one blank line is only line spacing (`collapseDoubleSpacing`), so items need two; and the oracle does not judge list items for oversplit, so say in the PR that the list is the honest structure, not a way round the check. Proposal: a table block for the PDF pipeline (05c), so such pages render as tables. [status: proposed]
