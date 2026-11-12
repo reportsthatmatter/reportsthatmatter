@@ -82,7 +82,7 @@ reports:
     markers-unlinked: 8  # why: reportsthatmatter-pxjq (the five unlinked notes and their neighbours, pp.257, 267)
     note-off-page: 0
   uk-thirlwall-inquiry:
-    markers-unlinked: 0
+    markers-unlinked: 5  # why: reportsthatmatter-gqsy.16.7 (Volumes I-III: markers beside a symbol footnote marker, reportsthatmatter-c08x)
     note-off-page: 0
   uk-southport-inquiry:
     markers-unlinked: 0

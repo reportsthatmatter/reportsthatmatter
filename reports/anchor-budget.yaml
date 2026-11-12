@@ -121,7 +121,7 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 0
   uk-thirlwall-inquiry:
-    markers-wrong: 0
+    markers-wrong: 44  # why: reportsthatmatter-gqsy.16.7 (the volumes endnotes pages: the notes move to the end, so the page serves only the heading Endnotes and the locator matches the next chapter; the markers are on the right pages)
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
