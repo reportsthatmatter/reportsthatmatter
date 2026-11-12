@@ -1,6 +1,6 @@
 {
-  "words": 62058,
-  "paragraphs": 416,
+  "words": 62102,
+  "paragraphs": 329,
   "sections": [
     {
       "slug": "delivery-by-hand",
@@ -53,8 +53,8 @@
     {
       "slug": "mr-trumps-supporters-attack-the-united-states-capitol",
       "title": "Mr. Trump's Supporters Attack the United States Capitol",
-      "paragraphs": 15,
-      "ids": "1b6790972e83"
+      "paragraphs": 14,
+      "ids": "bda3405ebb59"
     },
     {
       "slug": "the-law",
@@ -155,20 +155,26 @@
     {
       "slug": "appendix-key-filings-in-significant-litigation-district-court-criminal-litigatio",
       "title": "APPENDIX: KEY FILINGS IN SIGNIFICANT LITIGATION DISTRICT COURT CRIMINAL LITIGATION",
-      "paragraphs": 109,
-      "ids": "7e244d63e123"
+      "paragraphs": 17,
+      "ids": "a066c7a9bbe6"
+    },
+    {
+      "slug": "perry-search-warrant-litigation",
+      "title": "PERRY SEARCH WARRANT LITIGATION",
+      "paragraphs": 12,
+      "ids": "49847c0dba3a"
     },
     {
       "slug": "pll-c-todd-blanche",
       "title": "PLL C TODD BLANCHE",
-      "paragraphs": 16,
-      "ids": "88c4f255b959"
+      "paragraphs": 15,
+      "ids": "ae512ca55e67"
     },
     {
       "slug": "preparation-and-release-of-a-report-would-violate-existing-law",
       "title": "Preparation And Release Of A Report Would Violate Existing Law",
-      "paragraphs": 14,
-      "ids": "269c04cef0c5"
+      "paragraphs": 11,
+      "ids": "03a01bcfde64"
     },
     {
       "slug": "smiths-report-violates-the-presumption-of-innocence",
@@ -179,20 +185,14 @@
     {
       "slug": "preparation-and-release-of-a-report-would-serve-no-valid-purpose",
       "title": "Preparation And Release Of A Report Would Serve No Valid Purpose",
-      "paragraphs": 19,
-      "ids": "cb26d7592c84"
+      "paragraphs": 17,
+      "ids": "24b656226c4f"
     },
     {
       "slug": "delivery-by-hand-2",
       "title": "DELIVERY BY HAND",
       "paragraphs": 10,
       "ids": "7c0f6f6d6844"
-    },
-    {
-      "slug": "notes-not-linked-in-the-text",
-      "title": "Notes not linked in the text",
-      "paragraphs": 0,
-      "ids": "e3b0c44298fc"
     }
   ]
 }

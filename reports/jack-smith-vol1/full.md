@@ -4,8 +4,8 @@ authors: "Jack Smith, Special Counsel, U.S. Department of Justice"
 published_at: "January 2025"
 source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
 pages: 169
-footnotes: 293
-corrections: 7
+footnotes: 306
+corrections: 15
 ---
 
 U.S. Department of Justice
@@ -168,7 +168,7 @@ This Volume focuses on the Election Case against Mr. Trump and, consistent with 
 
 %%page 2#2%%
 
-## THE RESULTS OF THE INVESTIGATION
+## THE RESULTS OF THE INVESTIGATION[^1]
 
 In 2020, then-President Donald J. Trump ran for reelection against Joseph R. Biden, Jr. Mr. Trump lost.[^2] As alleged in the original and superseding indictments, substantial evidence demonstrates that Mr. Trump then engaged in an unprecedented criminal effort to overturn the legitimate results of the election in order to retain power.[^3] Although he did so primarily in his private capacity as a candidate, and with the assistance of multiple private co-conspirators, Mr. Trump also attempted to use the power and authority of the United States Government in furtherance of his scheme.
 
@@ -216,7 +216,7 @@ Mr. Trump set the fraudulent elector plan into motion in early December, ensured
 
 %%page 13%%
 
-For the most part, the co-conspirators deceived Mr. Trump's elector nominees in the targeted states by falsely claiming that their electoral votes would be used only if ongoing litigation were resolved in Mr. Trump's favor.[^47] Indeed, the co-conspirators deliberately withheld from the elector nommees information showing otherwise.[^48] This deception was crucial to the conspiracy, as many who participated as fraudulent electors would not have done so had they known the true extent of the co-conspirators' plans.[^49] Not all of Mr. Trump's elector nominees were persuaded, forcing the co-conspirators to recruit substitutes in some of the targeted states.[^50] For example, one Trump elector nominee in Pennsylvania recognized the plan as "illegal" and an attempt "to overthrow the Government," and he declined to participate.[^51] Conversely, a select few of Mr. Trump's agents and elector nominees had insight into the ultimate plan to use the fraudulent elector certificates to disrupt the congressional certification on January 6 and willingly assisted.[^52] On December 9, after a phone call with Co-Conspirator 5, one of the Campaign's agents wrote in an email that Co-Conspirator S's plan for the electors to "send[] in 'fake' electoral votes to Pence" was "[k]ind ofwild/creative."[^53] Two and a half hours later, he replied to his own email and, as cover, wrote that "'alternative' votes is probably a better term than 'fake' votes" and that he agreed with a suggestion "to keep [the plan] under wraps until Congress counts the vote on Jan. 6th."[^54] In each of the targeted states, Mr. Trump and his co-conspirators successfully organized enough elector nominees and substitutes to gather on December 14, cast fraudulent electoral votes on his behalf, and send them to Washington, D.C., for the congressional certification[^55]—a fact that the RNC Chairwoman relayed to Mr. Trump on the evening of December 14.[^56]
+For the most part, the co-conspirators deceived Mr. Trump's elector nominees in the targeted states by falsely claiming that their electoral votes would be used only if ongoing litigation were resolved in Mr. Trump's favor.[^47] Indeed, the co-conspirators deliberately withheld from the elector nominees information showing otherwise.[^48] This deception was crucial to the conspiracy, as many who participated as fraudulent electors would not have done so had they known the true extent of the co-conspirators' plans.[^49] Not all of Mr. Trump's elector nominees were persuaded, forcing the co-conspirators to recruit substitutes in some of the targeted states.[^50] For example, one Trump elector nominee in Pennsylvania recognized the plan as "illegal" and an attempt "to overthrow the Government," and he declined to participate.[^51] Conversely, a select few of Mr. Trump's agents and elector nominees had insight into the ultimate plan to use the fraudulent elector certificates to disrupt the congressional certification on January 6 and willingly assisted.[^52] On December 9, after a phone call with Co-Conspirator 5, one of the Campaign's agents wrote in an email that Co-Conspirator S's plan for the electors to "send[] in 'fake' electoral votes to Pence" was "[k]ind ofwild/creative."[^53] Two and a half hours later, he replied to his own email and, as cover, wrote that "'alternative' votes is probably a better term than 'fake' votes" and that he agreed with a suggestion "to keep [the plan] under wraps until Congress counts the vote on Jan. 6th."[^54] In each of the targeted states, Mr. Trump and his co-conspirators successfully organized enough elector nominees and substitutes to gather on December 14, cast fraudulent electoral votes on his behalf, and send them to Washington, D.C., for the congressional certification[^55]—a fact that the RNC Chairwoman relayed to Mr. Trump on the evening of December 14.[^56]
 
 %%page 14%%
 
@@ -238,7 +238,7 @@ Throughout the post-election period, Justice Department officials reviewed Mr. T
 
 %%page 18%%
 
-On December 28, as his secret communications with Mr. Trump continued, Co-Conspirator 4 emailed the Acting Attorney General and Acting Deputy Attorney General a proposed letter that falsely claimed that the Justice Department had "identified significant concerns that may have impacted the outcome of the election in multiple States" and recommended that those state legislatures convene in special session to reconsider certification of their electoral votes.[^70] Co-Conspirator 4 proposed to "send it to the Governor, Speaker, and President pro temp of each relevant state to indicate that in light of time urgency and sworn evidence of election irregularities presented to courts and to legislative committees, the legislatures thereof should each assemble and make a decision about elector appointment in light of their deliberations." 71 Within about an hour of receiving the draft letter, the Acting Deputy Attorney General pointedly rejected Co-Conspirator 4's proposal, writing, '"I know of nothing that would support the statement, 'we have identified significant concerns that may have impacted the outcome of the election in multiple states. "'[^72] He also observed that the Justice Department had no role in states' administration of their own elections, writing, "I cannot imagine a scenario in which the Department would recommend that a State assemble its legislature to determine whether already-certified election results should somehow be overridden by legislative action."[^73] Nonetheless, Mr. Trump continued to circumvent Justice Department leadership and engage directly with Co-Conspirator 4. With Mr. Trump's intervention, Co-Conspirator 4 obtained a highly classified briefing on foreign interference in the 2020 election on January 2,
+On December 28, as his secret communications with Mr. Trump continued, Co-Conspirator 4 emailed the Acting Attorney General and Acting Deputy Attorney General a proposed letter that falsely claimed that the Justice Department had "identified significant concerns that may have impacted the outcome of the election in multiple States" and recommended that those state legislatures convene in special session to reconsider certification of their electoral votes.[^70] Co-Conspirator 4 proposed to "send it to the Governor, Speaker, and President pro temp of each relevant state to indicate that in light of time urgency and sworn evidence of election irregularities presented to courts and to legislative committees, the legislatures thereof should each assemble and make a decision about elector appointment in light of their deliberations."[^71] Within about an hour of receiving the draft letter, the Acting Deputy Attorney General pointedly rejected Co-Conspirator 4's proposal, writing, '"I know of nothing that would support the statement, 'we have identified significant concerns that may have impacted the outcome of the election in multiple states. "'[^72] He also observed that the Justice Department had no role in states' administration of their own elections, writing, "I cannot imagine a scenario in which the Department would recommend that a State assemble its legislature to determine whether already-certified election results should somehow be overridden by legislative action."[^73] Nonetheless, Mr. Trump continued to circumvent Justice Department leadership and engage directly with Co-Conspirator 4. With Mr. Trump's intervention, Co-Conspirator 4 obtained a highly classified briefing on foreign interference in the 2020 election on January 2,
 
 %%page 19%%
 
@@ -250,7 +250,7 @@ On December 28, as his secret communications with Mr. Trump continued, Co-Conspi
 
 Mr. Trump wanted no one else speaking with Vice President Pence because he and co-conspirators were already implementing a secret plan to use Mr. Pence's ministerial role as President of the Senate to Mr. Trump's advantage. Co-Conspirator 2, with assistance from Co-Conspirators 5 and 6, spearheaded the execution of a strategy-which Co-Conspirator 2 had recently conceded was not supported by the Constitution or federal law[^80]-for Mr. Pence to decline to count the legitimate electoral certificates in the targeted states where Mr. Trump's electors had signed fraudulent ones.[^81] In the weeks before the certification, Mr. Trump began pressuring Mr. Pence to cooperate, both directly and by mobilizing Mr. Trump's supporters.
 
-In repeated conversations, day after day, Mr. Trump pressed Mr. Pence to use his ministerial position as President of the Senate to change the election outcome, often by citing false claims of election fraud as justification; he even falsely told Mr. Pence that the "Justice Department [was] finding major infractions." 82 When Mr. Pence repeatedly refused to act as Mr. Trump wanted,[^83] Mr. Trump told him that "hundreds of thousands" of people would "hate his guts" and think he was "stupid," and that Mr. Pence was "too honest."[^84] Surrounding these communications, Mr. Trump frequently took to Twitter to exhort supporters to travel to Washington for January 6, such as when he tweeted on January 1, "The BIG Protest Rally in Washington, D.C., will take place at 11.00 A.M. on January 6th. Locational details to follow. StopTheSteal!"[^85]
+In repeated conversations, day after day, Mr. Trump pressed Mr. Pence to use his ministerial position as President of the Senate to change the election outcome, often by citing false claims of election fraud as justification; he even falsely told Mr. Pence that the "Justice Department [was] finding major infractions."[^82] When Mr. Pence repeatedly refused to act as Mr. Trump wanted,[^83] Mr. Trump told him that "hundreds of thousands" of people would "hate his guts" and think he was "stupid," and that Mr. Pence was "too honest."[^84] Surrounding these communications, Mr. Trump frequently took to Twitter to exhort supporters to travel to Washington for January 6, such as when he tweeted on January 1, "The BIG Protest Rally in Washington, D.C., will take place at 11.00 A.M. on January 6th. Locational details to follow. StopTheSteal!"[^85]
 
 %%page 21%%
 
@@ -302,13 +302,11 @@ Just before 2:24 p.m., the news channel playing on the television in the dining 
 
 %%page 30%%
 
-The rioters at the Capitol had been motivated and directed by Mr. Trump, and he continued to resist advisors' requests to direct them to leave. Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and other lawmakers, with some chanting, "Hang Mike Pence!"[^128] At 2:38 p.m. and 3:30 p.m., Mr. Trump issued two Tweets falsely suggesting that events at the Capitol were "peaceful" and asking individuals there (whom he termed "WE") to remain that way: "Please support our Capitol Police and Law Enforcement. They are truly on the side of our Country. Stay Peaceful!" and, "I am asking for everyone at the U.S. Capitol to remain peaceful. No violence! Remember, WE are the Party of Law & Order-respect the Law and our great men and women in Blue. Thank you!" 129 At 4:17 p.m., he tweeted a video message in which he for the first time asked his supporters to leave the Capitol-while at the same time falsely claiming that "[w]e had an election that was stolen from us ... a landslide election," and embracing the people who had attacked the Capitol, telling them "we love you, you're very special."[^130] And at 6:01 p.m., he tweeted, "These are the things and events that happen when a sacred landslide election victory is so unceremoniously & viciously stripped away from great patriots who have been badly & unfairly treated for so long. Go home with love & in peace. Remember this day forever!"[^131]
+The rioters at the Capitol had been motivated and directed by Mr. Trump, and he continued to resist advisors' requests to direct them to leave. Throughout the afternoon, crowds at the Capitol hunted for Mr. Pence and other lawmakers, with some chanting, "Hang Mike Pence!"[^128] At 2:38 p.m. and 3:30 p.m., Mr. Trump issued two Tweets falsely suggesting that events at the Capitol were "peaceful" and asking individuals there (whom he termed "WE") to remain that way: "Please support our Capitol Police and Law Enforcement. They are truly on the side of our Country. Stay Peaceful!" and, "I am asking for everyone at the U.S. Capitol to remain peaceful. No violence! Remember, WE are the Party of Law & Order-respect the Law and our great men and women in Blue. Thank you!"[^129] At 4:17 p.m., he tweeted a video message in which he for the first time asked his supporters to leave the Capitol-while at the same time falsely claiming that "[w]e had an election that was stolen from us ... a landslide election," and embracing the people who had attacked the Capitol, telling them "we love you, you're very special."[^130] And at 6:01 p.m., he tweeted, "These are the things and events that happen when a sacred landslide election victory is so unceremoniously & viciously stripped away from great patriots who have been badly & unfairly treated for so long. Go home with love & in peace. Remember this day forever!"[^131]
 
 %%page 31%%
 
 At around the same time as he issued his 6:01 p.m. Tweet, Mr. Trump tried to reach two United States Senators, and he also directed Co-Conspirator 1 to call Members of Congress and attempt to enlist them to further delay the certification.[^132] When Mr. Trump's White House Counsel called him at around 7:00 p.m. and asked him to withdraw any objections to the certification, Mr. Trump refused.[^133] Nonetheless, the certification resumed late in the evening of January 6 and, at 3:41 a.m. on January 7, Mr. Pence announced the certified results of the 2020 presidential election in favor of Mr. Biden.[^134]
-
-119 See ECF No. 252 at 142 & nn.664-665; SCO-00454933, SCO-04963517, SCO-00454932, SCO-04963518 (Donald J. Trump Tweets O1/06/2021).
 
 %%page 32%%
 
@@ -566,7 +564,7 @@ throughout the charged criminal conspiracies, to threats and encouragement of vi
 
 %%page 76%%
 
-Mr. Trump also targeted private citizens who served as election workers. He took particular aim at a mother and daughter who worked at Atlanta's State Farm Arena counting ballots on election day; he and his co-conspirators spread pernicious false claims that these election workers had committed misconduct.[^205] Although the lies were promptly and publicly debunked,[^206] Mr. Trump continued to repeat them,[^207] and the election workers were subjected to vile threats. As one of the women explained, "when someone as powerful as the President of the United States eggs on a mob, that mob will come. They came for us with their cruelty, their threats, their racism, and their hats. They haven't stopped even today."[^208] Mr. Trump persisted in publicly spreading false and harmful social media posts about the same election workers into 2023.[^209] In 2024, Co-Conspirator 1 conceded in a defamation lawsuit filed by the election workers that his statements about them were "defamatory per se" and "false," and a jury awarded them damages of more than $145 million. 210
+Mr. Trump also targeted private citizens who served as election workers. He took particular aim at a mother and daughter who worked at Atlanta's State Farm Arena counting ballots on election day; he and his co-conspirators spread pernicious false claims that these election workers had committed misconduct.[^205] Although the lies were promptly and publicly debunked,[^206] Mr. Trump continued to repeat them,[^207] and the election workers were subjected to vile threats. As one of the women explained, "when someone as powerful as the President of the United States eggs on a mob, that mob will come. They came for us with their cruelty, their threats, their racism, and their hats. They haven't stopped even today."[^208] Mr. Trump persisted in publicly spreading false and harmful social media posts about the same election workers into 2023.[^209] In 2024, Co-Conspirator 1 conceded in a defamation lawsuit filed by the election workers that his statements about them were "defamatory per se" and "false," and a jury awarded them damages of more than $145 million.[^210]
 
 %%page 77%%
 
@@ -574,13 +572,13 @@ Mr. Trump took aim at Mr. Pence when Mr. Pence repeatedly informed Mr. Trump tha
 
 %%page 78%%
 
-In addition to prompting these threats against the targets of Mr. Trump's criticisms, Mr. Trump's words inspired his supporters to commit acts of physical violence. On January 6, Mr. Trump used his Ellipse speech to direct his supporters to "go[] to the Capitol" and "fight like hell."[^213] He explicitly licensed them, not long after Co-Conspirator 1 had exhorted the crowd to engage in "trial by combat," 214 to operate under "very different rules"[^215] because fraud was allegedly involved. And he told them they were "not going to let it happen,"[^216] urging them to stop the election certification proceeding that was about to begin.
+In addition to prompting these threats against the targets of Mr. Trump's criticisms, Mr. Trump's words inspired his supporters to commit acts of physical violence. On January 6, Mr. Trump used his Ellipse speech to direct his supporters to "go[] to the Capitol" and "fight like hell."[^213] He explicitly licensed them, not long after Co-Conspirator 1 had exhorted the crowd to engage in "trial by combat,"[^214] to operate under "very different rules"[^215] because fraud was allegedly involved. And he told them they were "not going to let it happen,"[^216] urging them to stop the election certification proceeding that was about to begin.
 
 The people who took Mr. Trump at his word formed a massive crowd that broke onto restricted Capitol grounds and into the building, violently attacking law enforcement officers protecting the Capitol and those inside. Officers have described being assaulted by rioters wielding bear spray, metal bats and flag poles, and other improvised weapons.[^217] A Metropolitan Police Department (MPD) commander recounted that the scene was "a non-stop barrage of just strikes, with weapons and things being thrown, and pepper spray, and you name it. Everything being hurled at these [officers]. You could hear them yelling. You could hear them, screams and moans, and everything else."[^218] Multiple officers stated that they feared for their lives when among the rioters that day. One MPD officer put that fear at "a hundred percent" from the moment he entered the crowd, and he explained that he thought he might die: "You know, you're getting pushed, kicked, you know, people are throwing metal bats at you and all that stuff. I was like, yeah, this is fucking it."[^219] A U.S. Capitol Police officer similarly recalled thinking, "I think I might die today."[^220] And in one instance, an MPD officer recounted that rioters dragged him into the crowd, where they beat and tased him while yelling things like, "I got one!" and, "Kill him with his gun!"[^221]
 
 %%page 79%%
 
-The January 6 rioters assaulted at least 140 law enforcement officers that day, and at least 123 defendants have been charged with using a deadly or dangerous weapon or causing serious bodily injury to law enforcement.[^222] This violence took a lasting toll. In addition to the significant physical injuries inflicted that day,[^223] officers suffered "unseen injuries," including depression and other forms of psychological trauma. 224
+The January 6 rioters assaulted at least 140 law enforcement officers that day, and at least 123 defendants have been charged with using a deadly or dangerous weapon or causing serious bodily injury to law enforcement.[^222] This violence took a lasting toll. In addition to the significant physical injuries inflicted that day,[^223] officers suffered "unseen injuries," including depression and other forms of psychological trauma.[^224]
 
 %%page 80%%
 
@@ -656,7 +654,7 @@ Mr. Trump was "not being prosecuted for publicly contesting the results of the e
 
 Upon appointing the Special Counsel, the Attorney General explained that the appointment "underscores the Department's commitment to both independence and accountability in particularly sensitive matters. It also allows prosecutors and agents to continue their work expeditiously, and to make decisions indisputably guided only by the facts and the law." See Press Release, Office of Public Affairs, Department of Justice, Appointment of a Special Counsel (Nov. 18, 2022), https://www.justice.gov/opa/pr/appointment-special-counsel-O. The Attorney General also noted that, "[a]lthough the Special Counsel will not be subject to the day-to-day supervision of any official of the Department, he must comply with the regulations, procedures, and policies of the Department." Id. The Office conducted its work accordingly.
 
-### The Investigative Process
+### The Investigative Process[^248]
 
 Employing traditional investigative tools, including voluntary interviews, grand jury subpoenas, and search warrants-and subject to the same legal requirements binding on all federal prosecutors-the Office, spanning the period predating the Special Counsel's appointment to the completion of its work, developed a thorough record of independently verified facts on which it based its prosecutive decisions in the Election Case. The investigative record comprised voluntary witness interviews and grand jury testimony from numerous individuals,[^249] as well as voluminous records such as emails, text messages, encrypted messages, memoranda, and other documents. These records were obtained through both voluntary productions by dozens of witnesses and through compulsory process and court orders, including grand jury subpoenas directed to witnesses and entities, court orders for non-content information (such as sender, recipient, date, and time) from electronic communications accounts, and search warrants to obtain evidence from physical sources and/or locations, electronic devices, and email and iCloud accounts.[^250] The Office also obtained records from other components of the Department of Justice, including the U.S. Attorney's Office for the District of Columbia, and other federal agencies, including the National Archives, Depmiment of Homeland Security, Department of Defense, and Office of the Director of National Intelligence.[^251] Further, the Office collected more than one terabyte of data from publicly available sources such as social media postings and websites. All discoverable material was provided or made available to Mr. Trump in discovery during the prosecution of the Election Case.
 
@@ -960,321 +958,200 @@ The Department's view that the Constitution prohibits the continued indictment a
 
 ## APPENDIX: KEY FILINGS IN SIGNIFICANT LITIGATION DISTRICT COURT CRIMINAL LITIGATION
 
-United States v. Donald J. Trump, Case No. 23-cr-257 (D.D.C.) ECFNo. Date Document Descri:gtion 1 8/1/2023 Indictment 10 8/4/2023 Government's Motion for Protective Order
+United States v. Donald J. Trump, Case No. 23-cr-257 (D.D.C.)
 
-Government's Opposition to Defendant's Motion for Extension of 12 8/5/2023
-
-Time 15 8/7/2023 Government's Reply in Support of Motion for Protective Order 16 8/3/2023 Transcript of Initial Appearance (issued 8/8/2023)
-
-Government's Response to Court's August 3, 2023 Minute Order 23 8/10/2023
-
-> (Proposed Trial Date) Government's Response in Opposition to Defendant's Motion for
-
-26 8/10/2023
-
-> Exclusion of Time Under Speedy Trial Act Court Protective Order Governing Discovery and Authorizing
-
-28 8/11/2023
-
-Disclosure of Grand Jury Testimony 29 8/11/2023 Transcript of Hearing on Protective Order
-
-Government's Reply to Defendant's Response in Opposition to 32 8/21/2023
-
-Government's Proposed Trial Calendar 38 8/28/2023 Transcript of Status Hearing 39 8/28/2023 Court Pretrial Order
-
-Government's Response in Opposition to Defendant's Motion for 54 9/14/2023
-
-> Recusal of District Judge Pursuant to 28 U.S.C. Section 455(a) Government's Opposed Motion to Ensure that Extrajudicial
-
-57 9/15/2023
-
-> Statements Do Not Prejudice These Proceedings Court Memorandum Opinion & Order (Defendant's Motion for
-
-61 9/2712023
-
-> Recusal of District Judge) Government's Reply in Support of Opposed Motion to Ensure that
-
-64 9/29/2023
-
-> Extrajudicial Statements Do Not Prejudice These Proceedings Government's Opposition to Defendant's Motion for Access to CIPA
-
-65 10/2/2023
-
-> Section 4 Filing and an Adjournment of the CIPA Section 5 Deadline Government's Response in Opposition to Defendant's Motion for
-
-66 10/2/2023
-
-> Extension of Time to File Pretrial Motions Court Opinion & Order (Defendant's Motion for Access to CIPA
-
-82 10/6/2023 Section 4 Filing and an Adjournment of the CIPA Section 5
-
-> Deadline) Government's Opposed Motion for Fair and Protective Jury
-
-97 10/10/2023
-
-Procedures
+- ECF No. 1, 8/1/2023: Indictment
+- ECF No. 10, 8/4/2023: Government's Motion for Protective Order
+- ECF No. 12, 8/5/2023: Government's Opposition to Defendant's Motion for Extension of Time
+- ECF No. 15, 8/7/2023: Government's Reply in Support of Motion for Protective Order
+- ECF No. 16, 8/3/2023: Transcript of Initial Appearance (issued 8/8/2023)
+- ECF No. 23, 8/10/2023: Government's Response to Court's August 3, 2023 Minute Order (Proposed Trial Date)
+- ECF No. 26, 8/10/2023: Government's Response in Opposition to Defendant's Motion for Exclusion of Time Under Speedy Trial Act
+- ECF No. 28, 8/11/2023: Court Protective Order Governing Discovery and Authorizing Disclosure of Grand Jury Testimony
+- ECF No. 29, 8/11/2023: Transcript of Hearing on Protective Order
+- ECF No. 32, 8/21/2023: Government's Reply to Defendant's Response in Opposition to Government's Proposed Trial Calendar
+- ECF No. 38, 8/28/2023: Transcript of Status Hearing
+- ECF No. 39, 8/28/2023: Court Pretrial Order
+- ECF No. 54, 9/14/2023: Government's Response in Opposition to Defendant's Motion for Recusal of District Judge Pursuant to 28 U.S.C. Section 455(a)
+- ECF No. 57, 9/15/2023: Government's Opposed Motion to Ensure that Extrajudicial Statements Do Not Prejudice These Proceedings
+- ECF No. 61, 9/27/2023: Court Memorandum Opinion & Order (Defendant's Motion for Recusal of District Judge)
+- ECF No. 64, 9/29/2023: Government's Reply in Support of Opposed Motion to Ensure that Extrajudicial Statements Do Not Prejudice These Proceedings
+- ECF No. 65, 10/2/2023: Government's Opposition to Defendant's Motion for Access to CIPA Section 4 Filing and an Adjournment of the CIPA Section 5 Deadline
+- ECF No. 66, 10/2/2023: Government's Response in Opposition to Defendant's Motion for Extension of Time to File Pretrial Motions
+- ECF No. 82, 10/6/2023: Court Opinion & Order (Defendant's Motion for Access to CIPA Section 4 Filing and an Adjournment of the CIPA Section 5 Deadline)
+- ECF No. 97, 10/10/2023: Government's Opposed Motion for Fair and Protective Jury Procedures
 
 %%page 139%%
 
-United States v. Donald J. Trump, Case No. 23-cr-257 (D.D.C.) ECF No. Date Document DescriQtion
-
-Government's Motion for Formal Pretrial Notice of the Defendant's 98 10/10/2023
-
-> Intent to Rely on Advice-of-Counsel Defense Transcript of Hearing (Government's Motion on Extrajudicial
-
-103 10/16/2023
-
-> Statements) Court Opinion & Order (Government's Motion to Ensure that
-
-105 10/17/2023
-
-> Extrajudicial Statements Do Not Prejudice These Proceedings) Government's Opposition to Second Defense Motion for Access to
-
-108 10/18/2023
-
-> CIPA Section 4 Filing Government's Response in Opposition to Defendant's Motion to
-
-109 10/19/2023
-
-> Dismiss on Presidential Immunity Grounds Government's Reply in Support of Motion for Fair and Protective
-
-117 10/25/2023
-
-> Jury Procedures Government's Reply in Support of Motion for Formal Pretrial
-
-118 10/25/2023 Notice of the Defendant's Intent to Rely on Advice-of-Counsel
-
-> Defense Government's Opposition to Defendant's Motion for Pre-Trial Rule
-
-119 10/25/2023
-
-> 17(c) Subpoenas Government's Response in Opposition to Defendant's Motion to
-
-120 10/25/2023
-
-Stay 124 10/29/2023 Court Opinion & Order (Denying Defendant's Motion to Stay) 126 11/1/2023 Court Opinion & Order (CIPA Section 4 Motions)
-
-Court Order (Government's Motion for Fair and Protective Jury 130 11/2/2023
-
-> Procedures) Government's Opposition to Defendant's Motion for Extension of
-
-137 11/3/2023
-
-> Time to File Pretrial Motions Related to Discovery and Subpoenas Government's Omnibus Opposition to Defendant's Motions to
-
-139 11/6/2023
-
-> Dismiss the Indictment on Statutory and Constitutional Grounds Government's Opposition to Defendant's Motion to Strike
-
-140 11/6/2023
-
-> Inflammatory Allegations from the Indictment Government's Opposition to Defendant's Motion to Dismiss for
-
-141 11/6/2023
-
-> Selective and Vindictive Prosecution Government's Opposition to Defendant's Motion to Stay Case
-
-142 11/6/2023 Pending Resolution of Motion to Dismiss Based on Presidential
-
-> Immunity Court Opinion & Order (Defendant's Motion for Extension of Time
-
-146 11/7/2023
-
-> to File Pretrial Motions Related to Discovery and Subpoenas) Court Opinion & Order (Government's Motion for Formal Pretrial
-
-147 11/8/2023
-
-Notice of Advice of Counsel Defense)
+- ECF No. 98, 10/10/2023: Government's Motion for Formal Pretrial Notice of the Defendant's Intent to Rely on Advice-of-Counsel Defense
+- ECF No. 103, 10/16/2023: Transcript of Hearing (Government's Motion on Extrajudicial Statements)
+- ECF No. 105, 10/17/2023: Court Opinion & Order (Government's Motion to Ensure that Extrajudicial Statements Do Not Prejudice These Proceedings)
+- ECF No. 108, 10/18/2023: Government's Opposition to Second Defense Motion for Access to CIPA Section 4 Filing
+- ECF No. 109, 10/19/2023: Government's Response in Opposition to Defendant's Motion to Dismiss on Presidential Immunity Grounds
+- ECF No. 117, 10/25/2023: Government's Reply in Support of Motion for Fair and Protective Jury Procedures
+- ECF No. 118, 10/25/2023: Government's Reply in Support of Motion for Formal Pretrial Notice of the Defendant's Intent to Rely on Advice-of-Counsel Defense
+- ECF No. 119, 10/25/2023: Government's Opposition to Defendant's Motion for Pre-Trial Rule 17(c) Subpoenas
+- ECF No. 120, 10/25/2023: Government's Response in Opposition to Defendant's Motion to Stay
+- ECF No. 124, 10/29/2023: Court Opinion & Order (Denying Defendant's Motion to Stay)
+- ECF No. 126, 11/1/2023: Court Opinion & Order (CIPA Section 4 Motions)
+- ECF No. 130, 11/2/2023: Court Order (Government's Motion for Fair and Protective Jury Procedures)
+- ECF No. 137, 11/3/2023: Government's Opposition to Defendant's Motion for Extension of Time to File Pretrial Motions Related to Discovery and Subpoenas
+- ECF No. 139, 11/6/2023: Government's Omnibus Opposition to Defendant's Motions to Dismiss the Indictment on Statutory and Constitutional Grounds
+- ECF No. 140, 11/6/2023: Government's Opposition to Defendant's Motion to Strike Inflammatory Allegations from the Indictment
+- ECF No. 141, 11/6/2023: Government's Opposition to Defendant's Motion to Dismiss for Selective and Vindictive Prosecution
+- ECF No. 142, 11/6/2023: Government's Opposition to Defendant's Motion to Stay Case Pending Resolution of Motion to Dismiss Based on Presidential Immunity
+- ECF No. 146, 11/7/2023: Court Opinion & Order (Defendant's Motion for Extension of Time to File Pretrial Motions Related to Discovery and Subpoenas)
+- ECF No. 147, 11/8/2023: Court Opinion & Order (Government's Motion for Formal Pretrial Notice of Advice of Counsel Defense)
 
 %%page 140%%
 
-United States v. Donald J. Trump, Case No. 23-cr-257 (D.D.C.) ECFNo. Date Document DescriQtion
-
-Government's Opposition to Defendant's Motion for Extension of 151 11/13/2023
-
-> Time to File Reply Briefs Court Order (Defendant's Motion for Extension of Time to File
-
-152 11/13/2023
-
-Reply Briefs) 158 11/17/2023 Court Opinion & Order (Defendant's Motion to Strike)
-
-Court Opinion & Order (Defendant's Motion for Pretrial Rule 17(c) 165 11/27/2023
-
-> Subpoenas) Court Memorandum Opinion & Order (Defendant's Motions to
-
-171,172 12/1/2023 Dismiss Based on Presidential Immunity and Constitutional
-
-Grounds) 176 12/5/2023 Government's Notice Pursuant to Federal Rule of Evidence 404(b) 181 12/9/2023 Government's Opposition to Defendant's Discovery Motions
-
-Government's Opposition to Defendant's Motion to Stay 182 12/10/2023
-
-Proceedings Pending Appeal 183 12/11/2023 Government's Summary of Anticipated Expert Testimony
-
-Court Opinion & Order (Defendant's Motion to Stay Proceedings 186 12/13/2023
-
-Pending Appeal) 188 12/18/2023 Government's Notice of Service (Government's Draft Exhibit List) 191 12/27/2023 Government's Motion in Limine
-
-Government's Opposition to Defendant's Motion for Order to Show 193 1/5/2024
-
-Cause 195 1/18/2024 Court Opinion & Order (Defendant's Motion to Show Cause)
-
-Court Memorandum Opinion & Order (Defendant's Motion to 198, 199 8/3/2024
-
-Dismiss for Selective and Vindictive Prosecution) 226 8/27/2024 Superseding Indictment 228 8/27/2024 Government's Notice of Superseding Indictment 229 8/30/2024 Joint Status Report (Pretrial Schedule) 232 9/5/2024 Transcript ofArraignment and Status Conference 2.),.,,.,.) 9/5/2024 Court Order (Pretrial Schedule)
-
-Government's Motion for Leave to File Unredacted Motion Under 246 9/27/2024
-
-Seal, and to File Redacted Motion on Public Docket 249 10/1/2024 Government's Sur-Reply to Defendant's Discovery Motions
-
-Court Opinion & Order (Government's Motion for Leave to File 251 10/2/2024 Unredacted Motion Under Seal, and to File Redacted Motion on
-
-Public Docket) 252 10/2/2024 Government's Motion for Immunity Determinations
+- ECF No. 151, 11/13/2023: Government's Opposition to Defendant's Motion for Extension of Time to File Reply Briefs
+- ECF No. 152, 11/13/2023: Court Order (Defendant's Motion for Extension of Time to File Reply Briefs)
+- ECF No. 158, 11/17/2023: Court Opinion & Order (Defendant's Motion to Strike)
+- ECF No. 165, 11/27/2023: Court Opinion & Order (Defendant's Motion for Pretrial Rule 17(c) Subpoenas)
+- ECF No. 171,172, 12/1/2023: Court Memorandum Opinion & Order (Defendant's Motions to Dismiss Based on Presidential Immunity and Constitutional Grounds)
+- ECF No. 176, 12/5/2023: Government's Notice Pursuant to Federal Rule of Evidence 404(b)
+- ECF No. 181, 12/9/2023: Government's Opposition to Defendant's Discovery Motions
+- ECF No. 182, 12/10/2023: Government's Opposition to Defendant's Motion to Stay Proceedings Pending Appeal
+- ECF No. 183, 12/11/2023: Government's Summary of Anticipated Expert Testimony
+- ECF No. 186, 12/13/2023: Court Opinion & Order (Defendant's Motion to Stay Proceedings Pending Appeal)
+- ECF No. 188, 12/18/2023: Government's Notice of Service (Government's Draft Exhibit List)
+- ECF No. 191, 12/27/2023: Government's Motion in Limine
+- ECF No. 193, 1/5/2024: Government's Opposition to Defendant's Motion for Order to Show Cause
+- ECF No. 195, 1/18/2024: Court Opinion & Order (Defendant's Motion to Show Cause)
+- ECF No. 198, 199, 8/3/2024: Court Memorandum Opinion & Order (Defendant's Motion to Dismiss for Selective and Vindictive Prosecution)
+- ECF No. 226, 8/27/2024: Superseding Indictment
+- ECF No. 228, 8/27/2024: Government's Notice of Superseding Indictment
+- ECF No. 229, 8/30/2024: Joint Status Report (Pretrial Schedule)
+- ECF No. 232, 9/5/2024: Transcript ofArraignment and Status Conference
+- ECF No. 233, 9/5/2024: Court Order (Pretrial Schedule)
+- ECF No. 246, 9/27/2024: Government's Motion for Leave to File Unredacted Motion Under Seal, and to File Redacted Motion on Public Docket
+- ECF No. 249, 10/1/2024: Government's Sur-Reply to Defendant's Discovery Motions
+- ECF No. 251, 10/2/2024: Court Opinion & Order (Government's Motion for Leave to File Unredacted Motion Under Seal, and to File Redacted Motion on Public Docket)
+- ECF No. 252, 10/2/2024: Government's Motion for Immunity Determinations
 
 %%page 141%%
 
-United States v. Donald J. Trump, Case No. 23-cr-257 (D.D.C.)
+- ECF No. 262, 10/16/2024: Government's Response in Opposition to the Defendant's Supplement to His Motion to Dismiss on Statutory Grounds
+- ECF No. 263, 10/16/2024: Court Memorandum Opinion & Order (Defendant's Motions to Compel Discovery and for an Order Regarding the Scope of Prosecution Team)
+- ECF No. 265, 10/17/2024: Court Opinion & Order (Defendant's Motion to Continue Stay of Order)
+- ECF No. 266, 10/18/2024: Government Appendix to Motion for Immunity Determinations
+- ECF No. 277, 10/31/2024: Government's Response in Opposition to the Defendant's Proposed Motion to Dismiss and for Injunctive Relief Based on the Appointments and Appropriations Clauses
+- ECF No. 278, 11/8/2024: Government's Unopposed Motion to Vacate Briefing Schedule
+- ECF No. 281, 11/25/2024: Government's Motion to Dismiss Without Prejudice
+- ECF No. 282,283, 11/25/2024: Court Opinion & Order (Government's Motion to Dismiss Without Prejudice)
 
-ECF No. Date Document Descri:gtion
+PRESIDENTIAL IMMUNITY APPELLATE LITIGATION
 
-Government's Response in Opposition to the Defendant's
+United States v. Trump, No. 23-3228 (D.C. Cir.)
 
-262 10/16/2024
-
-> Supplement to His Motion to Dismiss on Statutory Grounds Court Memorandum Opinion & Order (Defendant's Motions to
-
-263 10/16/2024 Compel Discovery and for an Order Regarding the Scope of
-
-> Prosecution Team) Court Opinion & Order (Defendant's Motion to Continue Stay of
-
-265 10/17/2024
-
-Order)
-
-266 10/18/2024 Government Appendix to Motion for Immunity Determinations
-
-Government's Response in Opposition to the Defendant's Proposed
-
-277 10/31/2024 Motion to Dismiss and for Injunctive Relief Based on the
-
-Appointments and Appropriations Clauses
-
-278 11/8/2024 Government's Unopposed Motion to Vacate Briefing Schedule
-
-281 11/25/2024 Government's Motion to Dismiss Without Prejudice
-
-Court Opinion & Order (Government's Motion to Dismiss Without 282,283 11/25/2024
-
-Prejudice)
-
-PRESIDENTIAL IMlvfUNITY APPELLATE LITIGATION
-
-United States v. Trump, No. 23-3228 (D.C. Cir.) Doc. No. Date Document Descrigtion 2030867 12/11/2023 Government's Opposed Motion for Expedited Appellate Review
-
-Government's Reply in Support of Motion for Expedited Appellate 2031335 12/13/2023
-
-Review 2031419 12/13/2023 Court Order (Expediting Appeal and Setting Briefing Schedule) 2033810 12/30/2023 Government's Answering Brief (Presidential Immunity) 2034942 1/9/2024 Oral Argument[^268] 2038999,
-
-2/6/2024 Court Judgment & Opinion[^269] 2039001
+- Doc. No. 2030867, 12/11/2023: Government's Opposed Motion for Expedited Appellate Review
+- Doc. No. 2031335, 12/13/2023: Government's Reply in Support of Motion for Expedited Appellate Review
+- Doc. No. 2031419, 12/13/2023: Court Order (Expediting Appeal and Setting Briefing Schedule)
+- Doc. No. 2033810, 12/30/2023: Government's Answering Brief (Presidential Immunity)
+- Doc. No. 2034942, 1/9/2024: Oral Argument[^268]
+- Doc. No. 2038999, 2039001, 2/6/2024: Court Judgment & Opinion[^269]
 
 %%page 142%%
 
-United States v. Trump, No. 23-624 (U.S.) Doc. No. Date Document Descri12tion
+United States v. Trump, No. 23-624 (U.S.)
 
-Government's Petition for a Writ of Certiorari Before Judgment 1 12/11/2023
+- Doc. No. 1, 12/11/2023: Government's Petition for a Writ of Certiorari Before Judgment (Presidential Immunity)
+- Doc. No. 2, 12/11/2023: Government's Motion to Expedite Briefing on the Petition for a Writ of Certiorari Before Judgment and for Expedited Merits Briefing If the Court Grants the Petition
+- Doc. No. 3, 12/11/2023: Court Order (Government's Motion to Expedite)
+- Doc. No. 7, 12/21/2023: Government's Reply Brief in Support of Motion to Expedite (Presidential Immunity)
+- Doc. No. 8, 12/22/2023: Court Order (Petition for a Writ of Certiorari Before Judgment)
 
-> (Presidential Immunity) Government's Motion to Expedite Briefing on the Petition for a Writ
+Trump v. United States, No. 23-939 (U.S.)
 
-2 12/11/2023 of Certiorari Before Judgment and for Expedited Merits Briefing If the Court Grants the Petition 3 12/11/2023 Court Order (Government's Motion to Expedite)
-
-Government's Reply Brief in Support of Motion to Expedite 7 12/21/2023
-
-(Presidential Immunity) 8 12/22/2023 Court Order (Petition for a Writ of Certiorari Before Judgment)
-
-Trump v. United States, No. 23-939 (U.S.) Doc. No. Date Document Descri12tion
-
-> Government Response in Opposition to Application for a Stay of the Mandate of the United States Court of Appeals for the District
-
-6 2/14/2024
-
-> of Columbia Circuit (Presidential Immunity) (originally filed in Trump v. United States, No. 23A745 (U.S.)) Court Order (Application for Stay/Petition for Certiorari)
-
-15, 16 2/28/2024
-
-(originally filed in Trump v. United States, No. 23A745 (U.S.)) 47 4/8/2024 Government's Brief (Presidential Immunity) 65 4/25/2024 Oral Argument[^270] 66,67 7/1/2024 Court Opinion & Judgment (Presidential Immunity)[^271]
+- Doc. No. 6, 2/14/2024: Government Response in Opposition to Application for a Stay of the Mandate of the United States Court of Appeals for the District of Columbia Circuit (Presidential Immunity) (originally filed in Trump v. United States, No. 23A745 (U.S.))
+- Doc. No. 15, 16, 2/28/2024: Court Order (Application for Stay/Petition for Certiorari) (originally filed in Trump v. United States, No. 23A745 (U.S.))
+- Doc. No. 47, 4/8/2024: Government's Brief (Presidential Immunity)
+- Doc. No. 65, 4/25/2024: Oral Argument[^270]
+- Doc. No. 66,67, 7/1/2024: Court Opinion & Judgment (Presidential Immunity)[^271]
 
 RULE 57. 7(c) APPELLATE LITIGATION
 
-United States v. Trump, No. 23-3190 (D.C. Cir.) Doc. No. Date Document Descri12tion 2026922 11/14/2023 Government's Answering Brief (Rule 57.7(c)) 2027866 11/20/2023 Oral Argument[^272]
+United States v. Trump, No. 23-3190 (D.C. Cir.)
+
+- Doc. No. 2026922, 11/14/2023: Government's Answering Brief (Rule 57.7(c))
+- Doc. No. 2027866, 11/20/2023: Oral Argument[^272]
 
 %%page 143%%
 
-United States v. Trump, No. 23-3190 (D.C. Cir.) Doc. No. Date Document Descrigtion 2032665 12/20/2023 Court Public Opinion (Rule 57.7(c)) (decided 12/8/2023)[^273] 2033815 12/31/2023 Government's Response in Opposition to Rehearing 2037003 1/23/2024 Court Order (Petition for Rehearing)
+- Doc. No. 2032665, 12/20/2023: Court Public Opinion (Rule 57.7(c)) (decided 12/8/2023)[^273]
+- Doc. No. 2033815, 12/31/2023: Government's Response in Opposition to Rehearing
+- Doc. No. 2037003, 1/23/2024: Court Order (Petition for Rehearing)
 
-## SELECTED GRAND JURY LITIGATION (PARTIALLY UNSEALEDJ
+## SELECTED GRAND JURY LITIGATION (PARTIALLY UNSEALED)[^274]
 
-Case No. Case Name No. 22-gj-25 (D.D.C.) In re Grand Jury Subpoenas No. 22-3073 (D.C. Cir.) In re Sealed Case No. 22-gj-33 (D.D.C.) In re Grand Jury Subpoenas No. 23-3002 (D.C. Cir.) In re Sealed Case No. 22-gj-39 (D.D.C.) In re Grand Jury Subpoena No. 23-3003 (D.C. Cir.) In re Sealed Case No. 23-gj-12 (D.D.C.) In re Grand Jury Subpoenas No. 23-3043 (D.C. Cir.) In re Sealed Case No. 23-gj-13 (D.D.C.) In re Grand Jury Subpoena No. 23-3049 (D.C. Cir.) In re Sealed Case
+- No. 22-gj-25 (D.D.C.): In re Grand Jury Subpoenas
+- No. 22-3073 (D.C. Cir.): In re Sealed Case
+- No. 22-gj-33 (D.D.C.): In re Grand Jury Subpoenas
+- No. 23-3002 (D.C. Cir.): In re Sealed Case
+- No. 22-gj-39 (D.D.C.): In re Grand Jury Subpoena
+- No. 23-3003 (D.C. Cir.): In re Sealed Case
+- No. 23-gj-12 (D.D.C.): In re Grand Jury Subpoenas
+- No. 23-3043 (D.C. Cir.): In re Sealed Case
+- No. 23-gj-13 (D.D.C.): In re Grand Jury Subpoena
+- No. 23-3049 (D.C. Cir.): In re Sealed Case
 
 %%page 144%%
 
 ## PERRY SEARCH WARRANT LITIGATION
 
-> In re Scott Perry Cell Phone Search Warrant, No. 22-sc-2144 (D.D.C.) (Partially Unsealed)[^275]
+In re Scott Perry Cell Phone Search Warrant, No. 22-sc-2144 (D.D.C.) (Partially Unsealed)[^275]
 
-ECFNo. Date Document Descrigtion 41276 Court Memorandum Opinion & Order (Applicability of the Speech
+- ECF No. 41[^276], 11/4/2022: Court Memorandum Opinion & Order (Applicability of the Speech or Debate Clause)
+- ECF No. 42, 43[^277], 12/28/2022: Court Memorandum Opinion & Order (Perry's Motion for Non-Disclosure to the Government)
+- ECF No. 44[^278], 1/4/2023: Court Memorandum Opinion & Order (Perry's Emergency Motion to Stay)
+- ECF No. 45[^279], 2/24/2023: Court Memorandum & Order (Unsealing)
+- Sealed[^280], 12/19/2023: Court Memorandum Opinion & Order (Applicability of the Speech or Debate Clause)
 
-> 11/4/2022 or Debate Clause) Court Memorandum Opinion & Order (Perry's Motion for Non-
+In re Sealed Case, No. 23-3001 (D.C. Cir.)
 
-42 43 277 12/28/2022
-
-' Disclosure to the Government) 44278 Court Memorandum Opinion & Order (Perry's Emergency Motion
-
-> 1/4/2023 to Stay)
-
-45279 2/24/2023 Court Memorandum & Order (Unsealing)
-
-> Court Memorandum Opinion & Order (Applicability of the Speech 12/19/2023
-
-Sealed 280 or Debate Clause)
-
-In re Sealed Case, No. 23-3001 (D.C. Cir.) Doc. No. Date Document Descrigtion 2031508 Government's Opposition to Emergency Motion for Stay
-
-1/9/2023 (Att. 2) Pending Appeal 1983102 1/25/2023 Court Order (Perry's Motion for Stay Pending Appeal) 2/16/2023 Government's Brief (Att. 12) --- 2/23/2023 Oral Argument[^281] 2015233 9/5/2023 Court Judgment 2016705 9/13/2023 Court Opinion (decided 9/5/2023)[^282]
+- Doc. No. 2031508 (Att. 2), 1/9/2023: Government's Opposition to Emergency Motion for Stay Pending Appeal
+- Doc. No. 1983102, 1/25/2023: Court Order (Perry's Motion for Stay Pending Appeal)
 
 %%page 145%%
 
-In re Sealed Case, No. 23-3001 (D.C. Cir.) Doc. No. Date Document DescriQtion 2031508
+- Doc. No. 2031508 (Att. 12), 2/16/2023: Government's Brief
+- 2/23/2023: Oral Argument[^281]
+- Doc. No. 2015233, 9/5/2023: Court Judgment
+- Doc. No. 2016705, 9/13/2023: Court Opinion (decided 9/5/2023)[^282]
 
 ## TWITTER SEARCH WARRANT LITIGATION
 
-In re Twitter Search Warrant, No. 23-sc-31 (D.D.C.) ECFNo. Date Document DescriQtion
+In re Twitter Search Warrant, No. 23-sc-31 (D.D.C.)
 
-Government's Motion for an Order to Show Cause Why Twitter Inc. 5 2/2/2023 Should Not Be Held in Contempt for Failure to Comply with a
-
-> Search Warrant Government's Reply in Further Support of Motion for an Order to
-
-11 2/6/2023 Show Cause Why Twitter Inc. Should Not Be Held in Contempt for
-
-> Failure to Comply with a Search Warrant Transcript of Hearing (Government's Motion for an Order to Show
-
-50 2/7/2023
-
-> Cause) Court Minute Order Granting Government's Motion for Order to
-
---- 2/7/2023
-
-Show Cause and Directing Twitter to Comply 50 2/9/2023 Transcript of Hearing (Twitter's Non-Compliance with Warrant) 19 2/13/2023 Government's Notice Regarding Accrued Sanction
-
-Government's Opposition to Twitter Inc. 's Motion to Vacate or 50 2/16/2023 Modify Non-Disclosure Order and Stay Twitter's Compliance with
-
-> Search Warrant Court Memorandum Opinion & Order (Twitter's Motion to Vacate
-
-29,32 3/3/2023 or Modify and Stay) 36 3/9/2023 Government's Opposition to Motion for Stay Pending Appeal 39 3/10/2023 Court Opinion & Order (Twitter's Motion for a Stay) 50 8/15/2023 Court Order (Unsealing)
+- ECF No. 5, 2/2/2023: Government's Motion for an Order to Show Cause Why Twitter Inc. Should Not Be Held in Contempt for Failure to Comply with a Search Warrant
+- ECF No. 11, 2/6/2023: Government's Reply in Further Support of Motion for an Order to Show Cause Why Twitter Inc. Should Not Be Held in Contempt for Failure to Comply with a Search Warrant
+- ECF No. 50, 2/7/2023: Transcript of Hearing (Government's Motion for an Order to Show Cause)
+- 2/7/2023: Court Minute Order Granting Government's Motion for Order to Show Cause and Directing Twitter to Comply
+- ECF No. 50, 2/9/2023: Transcript of Hearing (Twitter's Non-Compliance with Warrant)
+- ECF No. 19, 2/13/2023: Government's Notice Regarding Accrued Sanction
+- ECF No. 50, 2/16/2023: Government's Opposition to Twitter Inc. 's Motion to Vacate or Modify Non-Disclosure Order and Stay Twitter's Compliance with Search Warrant
+- ECF No. 29,32, 3/3/2023: Court Memorandum Opinion & Order (Twitter's Motion to Vacate or Modify and Stay)
+- ECF No. 36, 3/9/2023: Government's Opposition to Motion for Stay Pending Appeal
+- ECF No. 39, 3/10/2023: Court Opinion & Order (Twitter's Motion for a Stay)
+- ECF No. 50, 8/15/2023: Court Order (Unsealing)
 
 %%page 146%%
 
-In re Sealed Case, No. 23-5044 (D.C. Cir.) Doc. No. Date Document DescriQtion 1989703 3/10/2023 Government's Response in Opposition to Twitter's Motion for Stay 1991524 3/23/2023 Court Order (Twitter's Motion for Stay) 2017103 4/21/2023 Government's Answering Brief (filed with redactions on 9/15/2023) --- 5/19/2023 Oral Argument[^283] 2011549 8/9/2023 Court Amended Redacted Opinion (decided 7/18/2023) 284 2018981 9/26/2023 Government's Response in Opposition to Rehearing En Banc 2035679 1/16/2024 Court Order (Petition for Rehearing)
+In re Sealed Case, No. 23-5044 (D.C. Cir.)
 
-X Corp. v. United States, No. 23-1264 (U.S.) Doc. No. Date Document DescriQtion 5 7/3/2024 Government's Opposition (Petition for Writ of Certiorari) 9 10/7/2024 Court Order (Petition for Writ of Certiorari)[^285]
+- Doc. No. 1989703, 3/10/2023: Government's Response in Opposition to Twitter's Motion for Stay
+- Doc. No. 1991524, 3/23/2023: Court Order (Twitter's Motion for Stay)
+- Doc. No. 2017103, 4/21/2023: Government's Answering Brief (filed with redactions on 9/15/2023)
+- 5/19/2023: Oral Argument[^283]
+- Doc. No. 2011549, 8/9/2023: Court Amended Redacted Opinion (decided 7/18/2023)[^284]
+- Doc. No. 2018981, 9/26/2023: Government's Response in Opposition to Rehearing En Banc
+- Doc. No. 2035679, 1/16/2024: Court Order (Petition for Rehearing)
+
+X Corp. v. United States, No. 23-1264 (U.S.)
+
+- Doc. No. 5, 7/3/2024: Government's Opposition (Petition for Writ of Certiorari)
+- Doc. No. 9, 10/7/2024: Court Order (Petition for Writ of Certiorari)[^285]
 
 ·, I
 
@@ -1294,15 +1171,13 @@ Re: Draft "Final Report" By Jack Smith
 
 Dear Attorney General Garland:
 
-We write on behalf of President Trump to demand that Smith terminate all efforts toward the preparation and release of this report (the "Draft Report") . 1
+We write on behalf of President Trump to demand that Smith terminate all efforts toward the preparation and release of this report (the "Draft Report").[^1]
 
 As you know, Courts in Florida and the District of Columbia have now dismissed both of Jack Smith' s failed cases against President Trump. Rather than acknowledging, as he must, President Trump ' s complete exoneration, Smith now seeks to disseminate an extrajudicial "Final Report" to perpetuate his false and discredited accusations. Consistent with the bad-faith crusade that Smith executed on behalf of the Biden-Harris Administration from the moment he was appointed, we were only permitted to review the Draft Report in person in the District of Columbia, including prohibitions on the use of any outside electronic devices in the room where the Draft Report was made available. Smith's team likewise demanded, in advance of any review, that we delete prior discovery productions, preventing us from reviewing any of those underlying documents cited in the Draft Report. Nevertheless, it is clear, as has been the case with so many of the other actions of Smith and his staff, that the Draft Repo11 merely continues Smith' s politically-motivated attack, and that his continued preparation of the Report and efforts to release it would be both imprudent and unlawful.
 
 First, Smith lacks authority under our Constitution to issue a report because he was not validly appointed, and the plain terms of the permanent indefinite appropriation that he has pillaged for more than $20 million clearly do not apply to his politically-motivated work. The preparation and release of a report, therefore, would extend and perpetuate Smith' s violations of the Appointments Clause and the Appropriations Clause.
 
 Second, the Draft Repo11 violates fundamental norms regarding the presumption of innocence, including with respect to third parties unnecessarily impugned by Smith' s false claims. Releasing the report to the public without significant redactions (that would render its release meaningless) would violate prohibitions on extrajudicial statements by prosecutors and Rule 6(e). This is particularly problematic with respect to ongoing proceedings relating to Waltine Nauta and Carlos De Oliveira, as well as others who Smith and his staff falsely characterize as co-conspirators in the Draft Report.
-
-1 Should these demands be improperly rejected, contrary to law, we respectfully request that this letter be appended to and addressed in any report by Smith that is issued to the public.
 
 %%page 2#3%%
 
@@ -1332,17 +1207,13 @@ Preparation and release of a report would also be improper under the Special Cou
 
 %%page 4#3%%
 
-Smith's representations in the District of Columbia regarding his dismissed prosecution of President Trump reinforce these points and make clear that no "Closing documentation" is warranted. 28 C.F.R. § 600.8(c). Smith wrongly relied on the claim that Presidential immunity is "temporary," which is not the case, to ask that the charges against President Trump only be dismissed "without prejudice."2 The plain implication of Smith's position, which Judge Chutkan adopted, is that he does not believe his work targeting President Trump has reached its "conclusion." 28 C.F.R. § 600.8(c). Thus, taking a contrary position in order to justify preparation of one last long-winded, inaccurate, and unlawful smear of the President-elect and others would violate the Special Counsel Regulations.
+Smith's representations in the District of Columbia regarding his dismissed prosecution of President Trump reinforce these points and make clear that no "Closing documentation" is warranted. 28 C.F.R. § 600.8(c). Smith wrongly relied on the claim that Presidential immunity is "temporary," which is not the case, to ask that the charges against President Trump only be dismissed "without prejudice."[^2] The plain implication of Smith's position, which Judge Chutkan adopted, is that he does not believe his work targeting President Trump has reached its "conclusion." 28 C.F.R. § 600.8(c). Thus, taking a contrary position in order to justify preparation of one last long-winded, inaccurate, and unlawful smear of the President-elect and others would violate the Special Counsel Regulations.
 
-Public release of a report by Smith would also disrupt the ongoing transition process and violate the Presidential Transition Act. "[T]he orderly transfer of the executive power is one of the most important public objectives in a democratic society. The transition period insures that the candidate will be able to perform effectively the important functions of his or her new office as expeditiously as possible." Memorandum from Randolph D. Moss, Assistant Attorney General, OLC, Definition of "Candidate" Under 18 USC. §207(;), 2000 WL 33716979, at *4 (Nov. 6, 2000) (cleaned up). "One of the top priorities of any presidential administration is to protect the country from foreign and domestic threats. While a challenge at all times, the country is especially vulnerable during the time of presidential transitions ...." 3 Thus, the transition process is "an integral part of the presidential administration," in the "national interest," and part of President Trump's "public function," as he prepares to govern. Memorandum from Randolph D. Moss, Assistant Attorney General, OLC, Reimbursing Transition-Related Expenses Incurred Before The Administrator Of General Services Ascertained Who Were The Apparent Successfitl Candidates For The Office OfPresident And Vice President, 2001 WL 34058234, at *3 (Jan. 17, 2001).
+Public release of a report by Smith would also disrupt the ongoing transition process and violate the Presidential Transition Act. "[T]he orderly transfer of the executive power is one of the most important public objectives in a democratic society. The transition period insures that the candidate will be able to perform effectively the important functions of his or her new office as expeditiously as possible." Memorandum from Randolph D. Moss, Assistant Attorney General, OLC, Definition of "Candidate" Under 18 USC. §207(;), 2000 WL 33716979, at *4 (Nov. 6, 2000) (cleaned up). "One of the top priorities of any presidential administration is to protect the country from foreign and domestic threats. While a challenge at all times, the country is especially vulnerable during the time of presidential transitions ...."[^3] Thus, the transition process is "an integral part of the presidential administration," in the "national interest," and part of President Trump's "public function," as he prepares to govern. Memorandum from Randolph D. Moss, Assistant Attorney General, OLC, Reimbursing Transition-Related Expenses Incurred Before The Administrator Of General Services Ascertained Who Were The Apparent Successfitl Candidates For The Office OfPresident And Vice President, 2001 WL 34058234, at *3 (Jan. 17, 2001).
 
 Congress passed the Presidential Transition Act to protect these critical functions. The purpose of the Act is "to promote the orderly transfer of the executive power in connection with the expiration of the term of office of a President and the inauguration of a new President." 3 U.S.C. § 102 note, § 2. "Any disruption" of the transition "could produce results detrimental to the safety and well-being of the United States and its people." Id Consequently, under the Act, "all officers of the Government"-including the Attorney General and, according to his claims, Smith-are required to "conduct the affairs of the Government for which they exercise responsibility and authority" in a manner that "promote[s] orderly transitions in the office of President." Id. This includes, inter alia, "tak[ing] appropriate lawful steps to avoid or minimize disruptions that might be occasioned by the transfer of the executive power." Id
 
 Creating and releasing a prejudicial report to the public would violate these commands by giving rise to a media storm of false and unfair criticism that President Trump would be required to address while preparing to assume his Article II responsibilities. Equally problematic and inappropriate are the draft's baseless attacks on other anticipated members of President Trump's incoming administration, which are an obvious effort to interfere with upcoming confirmation hearings, and Smith's pathetically transparent tirade about good-faith efforts by X to protect civil liberties, which in a myriad other contexts you have claimed are paramount.
-
-2 ECF No. 281 at 6, United States v. Trump, No. 23 Cr. 257 (D.D.C. Nov. 25, 2024).
-
-3 Center for Presidential Transition, Presidential Transitions are a Perilous Moment for National Security (Aug. 16, 2023 ), https ://presidential transi tion.org/reports-publications/presidential-transi tions-are-a­ perilous-moment-for-national-security.
 
 %%page 5#2%%
 
@@ -1350,11 +1221,9 @@ A one-sided, improper report by Smith, particularly if publicly released, would 
 
 Presidential immunity principles that Smith has conceded foreclose him from proceeding against President
 
-Trump. Indeed, footnote 1 of "Volume 1" of the Draft Report concedes that Smith has brazenly included "conduct for which the Supreme Court later held [President] Trump to be immune from prosecution," and subsequently further highlights the incredible hubris that has clouded the judgment of Smith and his staff from the outset by falsely claiming that the Supreme Court's decision is ambiguous with respect to holdings and reasoning that Smith simply does not like. Based on guidance from OLC-which Smith's staff subsequently informed us that the Office improperly failed to document in any way, in violation of, inter alia, DOJ policy regarding the handling of exculpatory information-Smith has acknowledged that Presidential immunity is "categorical," and that it applies while President Trump is the President-elect prior to his inauguration. 4 A public report by Smith would unnecessarily and unjustly add to the inappropriate "peculiar public opprobrium" that has resulted from Smith's unlawful activities thus far. Trump v. United States, 603 U.S. 593, 613 (2024). OLC explained previously that such "public stigma and opprobrium" could "compromise the President's ability to fulfill his constitutionally contemplated leadership role with respect to foreign and domestic affairs." Memorandum from Randolph D. Moss, Assistant Attorney General, OLC, A Sitting President's Amenability to Indictment and Criminal Prosecution, 2000 WL 33711291, at *19 (Oct. 16, 2000). "[T]he stigma arising ... from the need to respond to such charges through the judicial process would seriously interfere with [the President's] ability to carry out his constitutionally assigned functions." Id. at *22. The release of a report would also pose an unconstitutional risk of diverting President Trump's "personal time and energy, and [would] inevitably entail a considerable if not overwhelming degree of mental preoccupation." Id. at *25 (emphasis in original). A "single prosecutor" such as Smith should not, and must not, be afforded "the practical power to interfere with the ability of a popularly elected President to carry out his constitutional functions." Id. at *19. "The Framers' design of the Presidency did not envision such counterproductive burdens on the vigor and energy of the Executive." Trump, 603 U.S. at 614 (cleaned up).
+Trump. Indeed, footnote 1 of "Volume 1" of the Draft Report concedes that Smith has brazenly included "conduct for which the Supreme Court later held [President] Trump to be immune from prosecution," and subsequently further highlights the incredible hubris that has clouded the judgment of Smith and his staff from the outset by falsely claiming that the Supreme Court's decision is ambiguous with respect to holdings and reasoning that Smith simply does not like. Based on guidance from OLC-which Smith's staff subsequently informed us that the Office improperly failed to document in any way, in violation of, inter alia, DOJ policy regarding the handling of exculpatory information-Smith has acknowledged that Presidential immunity is "categorical," and that it applies while President Trump is the President-elect prior to his inauguration.[^4] A public report by Smith would unnecessarily and unjustly add to the inappropriate "peculiar public opprobrium" that has resulted from Smith's unlawful activities thus far. Trump v. United States, 603 U.S. 593, 613 (2024). OLC explained previously that such "public stigma and opprobrium" could "compromise the President's ability to fulfill his constitutionally contemplated leadership role with respect to foreign and domestic affairs." Memorandum from Randolph D. Moss, Assistant Attorney General, OLC, A Sitting President's Amenability to Indictment and Criminal Prosecution, 2000 WL 33711291, at *19 (Oct. 16, 2000). "[T]he stigma arising ... from the need to respond to such charges through the judicial process would seriously interfere with [the President's] ability to carry out his constitutionally assigned functions." Id. at *22. The release of a report would also pose an unconstitutional risk of diverting President Trump's "personal time and energy, and [would] inevitably entail a considerable if not overwhelming degree of mental preoccupation." Id. at *25 (emphasis in original). A "single prosecutor" such as Smith should not, and must not, be afforded "the practical power to interfere with the ability of a popularly elected President to carry out his constitutional functions." Id. at *19. "The Framers' design of the Presidency did not envision such counterproductive burdens on the vigor and energy of the Executive." Trump, 603 U.S. at 614 (cleaned up).
 
 In sum, the same legal principles and logic that required Smith to dismiss his prosecutions of President Trump require that his activities be terminated without further action. Preparation and release of "Closing documentation" would violate the Constitution and existing law, harm the activities of the transition, and weaken the federal government that you have sworn an oath to support. The collective application of these circumstances make this situation entirely unlike any prior Special Counsel report. Preparation and release of a report is therefore not "in the public interest." 28 C.F.R. § 600.9(c). To the contrary, the course of action Smith proposes would further solidify the well-founded perception of partisanship created by Smith's violation of DOJ policies in connection with decisions based on his ultimately failed attempt to influence the outcome of the 2024 Presidential election. For all of these reasons, you must countermand Smith's proposed course of action, remove him, and stop the preparation and/or dissemination of the Draft Report.
-
-4 ECF No. 281 at 6, United States v. Trump, No. 23 Cr. 257 (D.D.C. Nov. 25, 2024) ("[T]he Department's position is that the Constitution requires that this case be dismissed before the defendant is inaugurated.").
 
 %%page 6#2%%
 
@@ -1390,17 +1259,13 @@ There are many practical and prudential reasons to obey the law here. Preparatio
 
 In 2023, Smith and his Office levied extremely serious, and entirely false, allegations against President Trump in two separate cases. Smith has now been forced by the rule of law to dismiss both of those cases. It would be highly improper and contrary to the public interest-as well as inconsistent with the reconciliation and public healing process that is necessary following divisive and unconstitutional actions by Smith-to allow him to create and disseminate yet another document recycling politically motived and inaccurate claims that the law has forced him to abandon. Indeed, "no legitimate governmental interest is served by an official public smear of an individual when that individual has not been provided a forum in which to vindicate his rights." In re Smith, 656 F .2d 1101, 1106 (5th Cir. 1981 ). Smith lacks the credibility that is necessary for such a report to be reliable or valuable to anyone, as his biased and unlawful approach to these cases has been widely-criticized and discredited from the outset.[^5] Quite appropriately, he is the subject of an ongoing investigation by the Office of Professional Responsibility, further diminishing any value from a report.[^6] Smith's unlawful plan would reinforce the "likely prospect of an Executive Branch that cannibalizes itself, with each successive President free to prosecute his predecessors, yet unable to boldly and fearlessly carry out his duties for fear that he may be next." Trump, 603 U.S. at 640. "The enfeebling of the Presidency and our Government that would result from such a cycle of factional strife is exactly what the Framers intended to avoid." Id.
 
-At 1999 hearings relating to the Independent Counsel Act, Ted Olson argued that "the final report ... has turned into an excuse to file long exhaustive expositions which rationalize the investigation," as well as "offer opinions regarding and/or pronounce judgments on the individuals investigated, and generally make the Independent Counsel look good."[^7] Attorney General Janet Reno pointed out, more succinctly, that "the price of the final report is often too high."[^8] Deputy Attorney General Eric Holder added: "the reporting requirement goes directly against most traditions and practices of law enforcement and American ideals. " 9 Based on this feedback, Congress permitted the Independent Counsel Act to expire, and DOJ promulgated a reporting regulation that was much more restrictive than its statutory predecessor. 10
+At 1999 hearings relating to the Independent Counsel Act, Ted Olson argued that "the final report ... has turned into an excuse to file long exhaustive expositions which rationalize the investigation," as well as "offer opinions regarding and/or pronounce judgments on the individuals investigated, and generally make the Independent Counsel look good."[^7] Attorney General Janet Reno pointed out, more succinctly, that "the price of the final report is often too high."[^8] Deputy Attorney General Eric Holder added: "the reporting requirement goes directly against most traditions and practices of law enforcement and American ideals. "[^9] Based on this feedback, Congress permitted the Independent Counsel Act to expire, and DOJ promulgated a reporting regulation that was much more restrictive than its statutory predecessor.[^10]
 
 %%page 9#2%%
 
 For the quarter century that DOJ has operated under these Regulations, DOJ has not released a single Special Counsel report concerning any individual who has mounted a successful defense in court, as President Trump has done with respect to Presidential immunity. For good reason: the Special Counsel Regulations state that the purpose of a report is to "explain[] the prosecution or declination decisions." 28 C.F.R. § 600.8(c). When filing and resolving a case in Court, that information, together with the defense's responses, becomes part of the public record. An additional, one-sided report, would only sow confusion and undermine the judicial process.
 
 Here, Smith has explained himself, and sought unsuccessfully to justify his actions, ad nauseum. This has included routinely leaking sensitive details regarding the actions of Smith's Office to the media in violation of DOJ policy. In October 2024, it was leaked that Smith planned to "pursue his two cases against Mr. Trump for as long as he has the legal authority to do so-including during the period between Election Day and the inauguration, when Mr. Trump, if he prevails, would be president-elect."[^11] A similar July 2024 report cited "a person familiar with Mr. Smith's thinking."[^12] As another example, we first learned from the media, rather than Smith's Office, that they were considering dismissing the prosecutions of President Trump.[^13] And we learned for the first time via private outreach from media sources, rather than Smith's Office, that Smith is working on a report.
-
-9 Reauthorization of the Independent Counsel Statute, Part I: Hearings Before the H Comm. on the Judiciary, l 06th Cong. 86 (1999) (prepared statement of Deputy Attorney General Eric Holder)
-
-1° Compare 28 U.S.C. § 594(h)(l)(B) (calling for a "final report ... setting forth fully and completely a description of the work of the independent counsel, including the disposition of all cases brought"), with 28 C.F.R. § 600.8(c) (calling for "a confidential report explaining the prosecution or declination decisions reached by the Special Counsel").
 
 %%page 10#2%%
 
@@ -1604,7 +1469,9 @@ Sincerely yours,
 
 [^69]: SCO-02270007 (Email from Co-Conspirator 4 12/22/2020) (coordinating arrival); SCO-04957448 at 84-86 (SJC Tr.); SCO-12420899, SCO-12420900 (Email with attachment 11/11/2020) (memo regarding White House communications); SCO-00827266 at 54-58 (HSC Tr.); SCO-12941569 (Signal messages between Co-Conspirator 4 and Member of Congress 12/21/20); SCO-12947964 (Signal messages between Co-Conspirator 4 and Member of Congress 12/22/20); SCO-12947874, SCO-12947878 (Signal messages between Co-Conspirator 4 and Member of Congress, with attachment 12/21/20).
 
-[^70]: SCO-12481890, SCO-12481891 (Email from Co-Conspirator 4, with attachment 12/28/2020). 11 Id.
+[^70]: SCO-12481890, SCO-12481891 (Email from Co-Conspirator 4, with attachment 12/28/2020).
+
+[^71]: Id.
 
 [^72]: SCO-12392895 (Email to Co-Conspirator 4 12/28/2020).
 
@@ -1624,7 +1491,9 @@ Sincerely yours,
 
 [^80]: See ECF No. 252 at 61 & n.324; SCO-01576281 at 2, SCO-01576283 at 2 (Email from Co-Conspirator 2, with attachment l 0/16/2020); SCO-1298630 I.
 
-[^81]: See ECF No. 252 at 65 & n.352; SCO-12184337, SCO-12184338 (Email and memo from Co-Conspirator 2 to Co-Conspirator 5 and Co-Conspirator 6 12/23/2020); SCO-12101300, SCO-12101301 (Email and memo from Co-Conspirator 2 to Co-Conspirator 6 01/03/2021). See, e.g., ECF No. 1 at~ 90; see ECF No. 252 at 62-74; see, e.g., SCO-00014655 at 157-182; SCO-00014442 at 29-43 (Pence, So Help Me God pp. 441-455); SCO-04982306 (Handwritten notes 12/25/2020); SCO-04982309 (Handwritten notes 12/29/2020); SCO-049823 13 (Handwritten notes 0 l /02/2021 ); SCO-04982315 (Handwritten notes 01/03/2021); SCO-04982330 (Handwritten notes 01/04/2021).
+[^81]: See ECF No. 252 at 65 & n.352; SCO-12184337, SCO-12184338 (Email and memo from Co-Conspirator 2 to Co-Conspirator 5 and Co-Conspirator 6 12/23/2020); SCO-12101300, SCO-12101301 (Email and memo from Co-Conspirator 2 to Co-Conspirator 6 01/03/2021).
+
+[^82]: See, e.g., ECF No. 1 at~ 90; see ECF No. 252 at 62-74; see, e.g., SCO-00014655 at 157-182; SCO-00014442 at 29-43 (Pence, So Help Me God pp. 441-455); SCO-04982306 (Handwritten notes 12/25/2020); SCO-04982309 (Handwritten notes 12/29/2020); SCO-049823 13 (Handwritten notes 0 l /02/2021 ); SCO-04982315 (Handwritten notes 01/03/2021); SCO-04982330 (Handwritten notes 01/04/2021).
 
 [^83]: See,e.g., ECF No. 252 at 62 & nn.332-333, 63 & n.338, 65 & nn.349-350, 71 & nn.394-395; SCO-00014655 at 157-182; SCO-00014442 at 29-43 (Pence, So Help Me God pp. 441-455); SCO-04982330 (Handwritten notes 01/04/2021); SCO-04982320 at 2 (Handwritten notes 01/06/2021) (noting "I don't have the authority").
 
@@ -1717,6 +1586,8 @@ Sincerely yours,
 [^127]: See ECF No. 252 at 142 & n.662; SCO-00009250 at 214-220.
 
 [^128]: See ECF No. 252 at 81 & n.466; SCO-12876211, SCO-12738313, SCO-12738317, SCO-12738306, SCO-12738312 at 00:59-01:40 (Videos of Capitol Riot 01/06/2021).
+
+[^129]: See ECF No. 252 at 142 & nn.664-665; SCO-00454933, SCO-04963517, SCO-00454932, SCO-04963518 (Donald J. Trump Tweets O1/06/2021).
 
 [^130]: See ECF No. 252 at 143 & n.666; SCO-00456473 (Video of Rose Garden Speech 01/06/2021); SCO-12876968 (Draft Tr. of Rose Garden Speech O1/06/2021).
 
@@ -1876,13 +1747,17 @@ Sincerely yours,
 
 [^208]: See ECF No. 252 at 25-26 & n. 121; SCO-00783640 at 8 (HSC Tr.).
 
-[^209]: See ECF No. 252 at 26 & n.122; SCO-04963742 (Donald J. Trump Truth Social Post 01/02/2023); SCO-04963743 (Donald J. Trump Truth Social Post 01/03/2023). 21 ° Freeman v. Giuliani, No. 21-cv-3354, ECF No. 90 at 1-2 (D.D.C. Aug. 8, 2023) (Def. Stipulation), ECF No. 142 (D.D.C. Dec. 18, 2023) (Final Judgment).
+[^209]: See ECF No. 252 at 26 & n.122; SCO-04963742 (Donald J. Trump Truth Social Post 01/02/2023); SCO-04963743 (Donald J. Trump Truth Social Post 01/03/2023).
+
+[^210]: Freeman v. Giuliani, No. 21-cv-3354, ECF No. 90 at 1-2 (D.D.C. Aug. 8, 2023) (Def. Stipulation), ECF No. 142 (D.D.C. Dec. 18, 2023) (Final Judgment).
 
 [^211]: See ECF No. 1 at ,r 113; see ECF No. 252 at 81 & n.467; SCO-12738318 (Video of Capitol Riot 01/06/2021).
 
 [^212]: See ECF No. 1 at if 113; see ECF No. 252 at 81 & n.466; SCO-12876211 (Video of Capitol Riot 01/06/2021).
 
-[^213]: See ECF No. 252 at 77 & nn.437, 440; SCO-02244118 at 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021). rn SCO-04949418 at 02:22:07 (Video of Save America Rally O1/06/2021).
+[^213]: See ECF No. 252 at 77 & nn.437, 440; SCO-02244118 at 22 (Remarks by Mr. Trump at Save America Rally 01/06/2021).
+
+[^214]: SCO-04949418 at 02:22:07 (Video of Save America Rally O1/06/2021).
 
 [^215]: SCO-02244118 at 20 (Remarks by Mr. Trump at Save America Rally Ol /06/2021 ).
 
@@ -1900,7 +1775,9 @@ Sincerely yours,
 
 [^222]: Press Release, U.S. Attorney's Office for the District of Columbia, Three Years Since the Jan. 6 Attack on the Capitol (Jan. 5, 2024), https://www.justice.gov/usao-dc/36-months-jan-6-attack-capitol-O.
 
-[^223]: SCO-1 l 506096 at 96-99, 134-135 (Int. Tr.) (MPD officer recounting knee injury and concussion from defending against rioters on January 6); SCO-12875808 at 228-230 ( United States v. McCaughey, No. 2 l-cr-40, Trial Day l Tr. 08/29/2022) (MPD sergeant describing being "bruised, abrased," and "covered in chemical munitions" from January 6); id. at 229 (50 percent of sergeant's 30-person platoon injured); SCO-12997205 at l 0 l ( United States v. Sparks, No. 2 l-cr-87, Trial Tr. 02/29/2024) (Capitol Police officer describing concern on January 6 for fellow officers he saw "still irritated from the tear gas, people still coughing, people limping, battered, bruised, bloody," and learning that a fellow officer "had passed away"); SCO-12997436 at 63-64 ( United States v. Irwin & Richter, No. 2 l-cr-589, Trial Day 1 Tr. 01/22/2024) (Capitol Police Deputy Chief listing officers' injuries from rioters, including a "serious concussion" and a "near-career-ending leg injury"); SCO-12807683 at 124-125 (Int. Tr.) (Capitol Police officer describing jaw injury and concussion from rioter assault); id. at 135 (Capitol Police officer detailing lingering effects of Capitol siege injuries, including persistent migraines, fainting, and imbalance). m SCO-12876218 at 08:53-09:45 (Video of Impact Statement) (MPD officer recounting that "there [were] a lot of unseen injuries," that MPD "has put a lot of effort and resources into getting these officers the help that they need for some of these emotional injuries," and that the events of January 6 had "definitely taken a toll on a lot of the officers over there that day"); SCO-11529214 at 116 (Int. Tr.) (MPD officer stating there were "some people that went through, like, you know, some depression and, like, really some soul-searching"); SCO-12807683 at 16 (Int. Tr.) (Capitol Police officer describing "survivor's guilt" and engaging in officer peer support program); id. at 143 (describing officer reactions to January 6, including "shell-shock" and inability to move on from that day); SCO-12919375 at 01:28:00-01:28:20 (Video of MPD Officer's Interview from HBO's Four Hours at the Capitol, 10/20/2021) (MPD officer describing that he had a mild heart attack and traumatic brain injury from rioter assaults on January 6, but what he "most struggle[s] with is, you know, kind of, some of the emotional after-effects, or psychological trauma" of that day).
+[^223]: SCO-1 l 506096 at 96-99, 134-135 (Int. Tr.) (MPD officer recounting knee injury and concussion from defending against rioters on January 6); SCO-12875808 at 228-230 ( United States v. McCaughey, No. 2 l-cr-40, Trial Day l Tr. 08/29/2022) (MPD sergeant describing being "bruised, abrased," and "covered in chemical munitions" from January 6); id. at 229 (50 percent of sergeant's 30-person platoon injured); SCO-12997205 at l 0 l ( United States v. Sparks, No. 2 l-cr-87, Trial Tr. 02/29/2024) (Capitol Police officer describing concern on January 6 for fellow officers he saw "still irritated from the tear gas, people still coughing, people limping, battered, bruised, bloody," and learning that a fellow officer "had passed away"); SCO-12997436 at 63-64 ( United States v. Irwin & Richter, No. 2 l-cr-589, Trial Day 1 Tr. 01/22/2024) (Capitol Police Deputy Chief listing officers' injuries from rioters, including a "serious concussion" and a "near-career-ending leg injury"); SCO-12807683 at 124-125 (Int. Tr.) (Capitol Police officer describing jaw injury and concussion from rioter assault); id. at 135 (Capitol Police officer detailing lingering effects of Capitol siege injuries, including persistent migraines, fainting, and imbalance).
+
+[^224]: SCO-12876218 at 08:53-09:45 (Video of Impact Statement) (MPD officer recounting that "there [were] a lot of unseen injuries," that MPD "has put a lot of effort and resources into getting these officers the help that they need for some of these emotional injuries," and that the events of January 6 had "definitely taken a toll on a lot of the officers over there that day"); SCO-11529214 at 116 (Int. Tr.) (MPD officer stating there were "some people that went through, like, you know, some depression and, like, really some soul-searching"); SCO-12807683 at 16 (Int. Tr.) (Capitol Police officer describing "survivor's guilt" and engaging in officer peer support program); id. at 143 (describing officer reactions to January 6, including "shell-shock" and inability to move on from that day); SCO-12919375 at 01:28:00-01:28:20 (Video of MPD Officer's Interview from HBO's Four Hours at the Capitol, 10/20/2021) (MPD officer describing that he had a mild heart attack and traumatic brain injury from rioter assaults on January 6, but what he "most struggle[s] with is, you know, kind of, some of the emotional after-effects, or psychological trauma" of that day).
 
 [^225]: SCO-11506096 at l 07-108 (Int. Tr.) (MPD officer describing effort to keep rioters from entering the Capitol because, for staff inside, that would mean "possible death. People are getting killed, maimed," and adding that while officers "have gear on" and weapons, "someone who just showed up this morning to go to work, who was like a clerk or something, walked in their office ... they're not ready for that, you know? And if one of these [rioters] get their hands on them, it's over with."); SCO-11529214 at 78-80 (Int. Tr.) (MPD officer describing seeing rioters "trying to beat [officers] up with such ferocity," and wondering, "What are they going to do to somebody else that's in here, that's maybe a staff or a congressman or somebody with the press? How are-what are they going to do to them? You know, like, we can take the beating. And I don't know if these other people can take the beating, too.''); SCO-11544684 at 7 (Int. Rep.) (Capitol Police officer recalling that the rioters turned on Vice President Pence and being concerned for Pence's safety inside the Capitol if rioters breached the police line); see also SCO-12738295 (Video of Capitol Riot 01/06/2021) (rioters inside the Capitol yelling, "Where are the fucking traitors? Drag 'em out by their fucking hair!" and "Who's first?"); SCO-12738313 (Video of Capitol Riot 01/06/2021) (rioter yelling, "Bring Mitch out! Bring Pelosi out! Bring Schumer out!"); SCO-127383 I 7 (Video of Capitol Riot O1/06/2021) (rioters chanting, "Pence is a traitor!" and, "Traitor Pence! Traitor Pence!"); SCO-12738306 (Video of Capitol Riot 01/06/2021) (rioter yelling, "We're coming for you, Nancy!"); SCO-12738312 at 00:59-0 I :40 (Video of Capitol Riot 01/06/2021) (rioter inside the Capitol yelling, "Nancy Pelosi! Where you at, Nancy?" and, "Nancy! Where are you, Nancy? We're looking for you!").
 
@@ -2018,9 +1895,19 @@ Sincerely yours,
 
 [^282]: See In re Sealed Case, 80 F.4th 355 (D.C. Cir. 2023).
 
-[^283]: Oral Argument Recordings Archive, United States Court of Appeals for the District of Columbia Circuit (May 19, 2023 ), https://med ia.cadc. uscourts.gov /recordings/bydate/2023/5 [https://penna. cc/S R2Z-G L5 B]. 28 -1 See In re Sealed Case, 77F.4th815, 830 (D.C. Cir. 2023).
+[^283]: Oral Argument Recordings Archive, United States Court of Appeals for the District of Columbia Circuit (May 19, 2023 ), https://med ia.cadc. uscourts.gov /recordings/bydate/2023/5 [https://penna. cc/S R2Z-G L5 B].
+
+[^284]: See In re Sealed Case, 77F.4th815, 830 (D.C. Cir. 2023).
 
 [^285]: See X Corp. v. United States, 2024 WL 4426628 (U.S. Oct. 7, 2024).
+
+[^1]: Should these demands be improperly rejected, contrary to law, we respectfully request that this letter be appended to and addressed in any report by Smith that is issued to the public.
+
+[^2]: ECF No. 281 at 6, United States v. Trump, No. 23 Cr. 257 (D.D.C. Nov. 25, 2024).
+
+[^3]: Center for Presidential Transition, Presidential Transitions are a Perilous Moment for National Security (Aug. 16, 2023 ), https ://presidential transi tion.org/reports-publications/presidential-transi tions-are-a­ perilous-moment-for-national-security.
+
+[^4]: ECF No. 281 at 6, United States v. Trump, No. 23 Cr. 257 (D.D.C. Nov. 25, 2024) ("[T]he Department's position is that the Constitution requires that this case be dismissed before the defendant is inaugurated.").
 
 [^5]: WSJ Editorial Board, Jack Smith Loses in the People's Court, WSJ (Nov. 7, 2024, 5:52 PM), https://vvww.wsj.com/opinion/donald-trump-prosecutions-jack-smith-fani-willis-alvin-bragg-juan­ merchan-lc68f640; Jonathan Turley, Opinion: Donald Trump just won the greatest jury verdict in American history, The Hill (Nov. 6, 2024, 10:56 AM), https://thehill.com/opinion/campaign/4976533- trump-prosecutions-lawfare-end; Elie Honig, So What Happens With All the Cases Against Trump Now?, N.Y. Mag. (Nov. 8, 2024), https://nymag.com/intelligencer/aiiicle/what-will-happen-with-the-charges­ against-trump.html.
 
@@ -2029,6 +1916,10 @@ Sincerely yours,
 [^7]: The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs, 106th Cong. 231 (1999) (prepared statement of Theodore B. Olson).
 
 [^8]: The Future of the Independent Counsel Act: Hearings before the S. Comm. on Governmental Affairs, 106th Cong. 252 (1999) (prepared statement of Attorney General Janet Reno).
+
+[^9]: Reauthorization of the Independent Counsel Statute, Part I: Hearings Before the H Comm. on the Judiciary, l 06th Cong. 86 (1999) (prepared statement of Deputy Attorney General Eric Holder)
+
+[^10]: Compare 28 U.S.C. § 594(h)(l)(B) (calling for a "final report ... setting forth fully and completely a description of the work of the independent counsel, including the disposition of all cases brought"), with 28 C.F.R. § 600.8(c) (calling for "a confidential report explaining the prosecution or declination decisions reached by the Special Counsel").
 
 [^11]: Maggie Haberman et al., Trump Says He'll Fire Jack Smith, Special Counsel Who Indicted Him, ifHe Wins Again, N.Y. Times (Oct. 24, 2024), https://www.nytimes.com/2024/10/24/us/politics/trump-jack­ smith.html.
 

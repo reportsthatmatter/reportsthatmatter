@@ -1,0 +1,4 @@
+---
+theme: ingest
+---
+- **On a two-column report, count the paragraphs that open in lower case before tuning anything else: `columns()` puts a hard break at the gutter, so every paragraph that runs from the foot of the left column to the head of the right is cut in two** (2026-11-12, reportsthatmatter-wck, rtm-quality-columbia agent) Columbia had 115 lower-case paragraph openings ("…during launch and" / "ascent. Therefore…", p.52); a report-local body pass that removes the break when the right column's head is in the foot's face at the column's edge, and the foot stops mid-sentence or runs full to the measure, plus passes for a figure's rows and a sidebar between, took the oracle's oversplits from 268 to 174 and severed-paragraph from 70 to 13. The same break likely cuts other two-column reports (Challenger, 9/11). [status: done in us-columbia-shuttle-accident#11; corpus pass proposed in a follow-up bead]

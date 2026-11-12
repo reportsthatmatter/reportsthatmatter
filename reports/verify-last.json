@@ -387,7 +387,7 @@
     "markers-unlinked": 1,
     "markers-spurious": 7,
     "paragraphs-oversplit": 12,
-    "paragraphs-merged": 337,
+    "paragraphs-merged": 283,
     "quotes-spurious": 6,
     "quotes-missed": 29,
     "note-off-page": 1
@@ -634,7 +634,7 @@
    "oracle": {
     "headings-missed": 107,
     "headings-spurious": 42,
-    "markers-unlinked": 520,
+    "markers-unlinked": 445,
     "markers-spurious": 71,
     "paragraphs-oversplit": 116,
     "paragraphs-merged": 2285,
@@ -659,9 +659,9 @@
      "fn": 0
     },
     "markers-unlinked": {
-     "tp": 2,
+     "tp": 0,
      "fp": 0,
-     "fn": 2
+     "fn": 3
     },
     "paragraphs-oversplit": {
      "tp": 0,
@@ -943,9 +943,9 @@
    "fn": 0
   },
   "markers-unlinked": {
-   "tp": 6,
+   "tp": 4,
    "fp": 17,
-   "fn": 6
+   "fn": 7
   },
   "markers-spurious": {
    "tp": 0,

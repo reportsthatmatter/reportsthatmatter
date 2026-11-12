@@ -65,18 +65,18 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: reportsthatmatter-4ofu (the same pages' structure change; gap 1.5 points)
   columbia-accident:
-    severed-into-quote: 40
-    severed-paragraph: 70
+    severed-into-quote: 29
+    severed-paragraph: 13
     bare-footnote-marker: 2
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-definition-unreferenced: 5  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 7
-    note-text-in-body: 7
+    note-text-in-body: 2
     note-citation-vocabulary: 0
     furniture-paragraph: 11
-    contents-entry-without-heading: 67
+    contents-entry-without-heading: 45
     heading-density: 1
     heading-repeated: 3  # why: reportsthatmatter-wck (typographicHeadings: the subhead "Conclusion" now stands as a heading in three chapters; each is real, +1)
     heading-function-word: 2
@@ -88,32 +88,32 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 5  # why: reportsthatmatter-98u (speakerTurns joins the wrapped transcript lines to their turns, so the transcript turns leave their quotation blocks (severed-into-quote 54 to 40), there are fewer blocks and the share on both sides rises: 10.0% even, 14.0% odd, gap 4.0; no quotation added) and reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
+    quote-share-parity: 2
   jack-smith-vol1:
-    severed-into-quote: 2
+    severed-into-quote: 0
     severed-paragraph: 5
     bare-footnote-marker: 0
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 10  # why: reportsthatmatter-b78.10 baseline
-    note-reference-sequence: 14
-    note-text-in-body: 8
+    note-definition-unreferenced: 2
+    note-reference-sequence: 4
+    note-text-in-body: 2
     note-citation-vocabulary: 0
     furniture-paragraph: 0
     contents-entry-without-heading: 9
     heading-density: 0
     heading-repeated: 0
     heading-function-word: 0
-    heading-marker: 0
+    heading-marker: 3  # why: reportsthatmatter-pq0, -npg3 (the PDF prints notes 1, 248 and 274 on three headings, 'I. THE RESULTS OF THE INVESTIGATION1'; the markers were dropped and the notes orphaned, now linked by corrections c-0008..c-0010, rendered as sidenotes)
     heading-long: 1
     printed-page-reversal: 2
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 2
+    rendered-ol-words-share: 1
     numbered-prose-list: 1
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: reportsthatmatter-ssfk (the letter's pages are numbered from their own heads now, so its quotations change page parity: 14.4% even vs 16.4% odd; no quotation added or lost)
+    quote-share-parity: 3  # why: reportsthatmatter-05c (the appendix tables' wrapped descriptions were 39 spurious quotations; with them gone as list rows, quotations are 8.7% of blocks on even pages, 6.7% on odd; no real quotation added or lost) and reportsthatmatter-ssfk (the letter's pages numbered from their own heads)
   litvinenko-inquiry:
     severed-into-quote: 67
     severed-paragraph: 6

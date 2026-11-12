@@ -224,7 +224,16 @@ district-court-issued-order-setting
 district-court-reasoned-prospect-federal
 district-court-ultimately-held-ndo
 divided-decision-supreme-court-vacated
+doc-no-1-12-11
+doc-no-1989703-3-10
+doc-no-2026922-11-14
+doc-no-2030867-12-11
+doc-no-2031508-att-12
+doc-no-2031508-att-2
 doc-no-2031508-attachment-10
+doc-no-2032665-12-20
+doc-no-5-7-3
+doc-no-6-2-14
 doc-no-date-document-descriqtion
 draft-report-violates-every-one
 during-his-speech-ellipse-99
@@ -234,9 +243,15 @@ during-pretrial-litigation-trump-contended
 during-siege-trump-s-supporters
 during-trump-s-impeachment-trial
 during-week-december-9-2024
+ecf-no-1-8-1
+ecf-no-151-11-13
 ecf-no-251-7
 ecf-no-252-48-49-nn
+ecf-no-262-10-16
+ecf-no-41-11-4
+ecf-no-5-2-2
 ecf-no-7
+ecf-no-98-10-10
 ecf-no-date-document-descri
 ecfno-date-document-descrigtion-41276
 election-year-sensitivities-policy-included
@@ -374,6 +389,7 @@ narrowly-tailored-possible-court-vacated
 neither-constitution-nor-applicable-regulations
 next-consideration-under-principles-federal
 night-trump-used-speech-dalton
+no-22-gj-25-d-d-c
 nonetheless-trump-continued-circumvent-justice
 not-only-are-impeachment-prosecution
 notice-advice-counsel-defense
@@ -437,6 +453,7 @@ presidential-communications-privilege-covers-evidence-reflec
 presidential-imlvfunity-appellate-litigation
 presidential-immunity-12-22-2023
 presidential-immunity-8-12-22
+presidential-immunity-appellate-litigation
 presidential-immunity-principles-smith-has
 presumption-innocence-undoubted-law-axiomatic
 presumption-serves-reminder-jury-prosecution
@@ -457,6 +474,7 @@ rather-presidential-immunity-based-national
 re-draft-final-report-jack
 re-final-report-special-counsel
 re-letter-from-counsel-donald
+re-scott-perry-cell-phone
 re-sealed-case-no-23-3001
 re-sealed-case-no-23-3001-2
 re-sealed-case-no-23-5044
