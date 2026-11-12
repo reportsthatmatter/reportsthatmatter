@@ -3319,12 +3319,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-thirlwall-inquiry": {
     "status": "approved",
-    "whyItMatters": "The summary report of the Thirlwall Inquiry, the public inquiry chaired by Lady Justice Thirlwall into events at the Countess of Chester Hospital from 2015 to 2018. Its subject is not the criminal case, which the Chair writes was not her focus, but what the hospital's managers, the NHS and its regulators did when doctors raised concerns, and what the Inquiry says must change.",
-    "description": "The summary report of the Thirlwall Inquiry (2026) into events at the Countess of Chester Hospital from 2015 to 2018: what the hospital, the NHS and its regulators did when doctors raised concerns.",
+    "whyItMatters": "The report of the Thirlwall Inquiry, the public inquiry chaired by Lady Justice Thirlwall into events at the Countess of Chester Hospital from 2015 to 2018: a summary and three volumes. Its subject is not the criminal case, which the Chair writes was not her focus, but what the hospital's managers, the NHS and its regulators did when doctors raised concerns, and the 17 changes the Inquiry recommends.",
+    "description": "The Thirlwall Inquiry's report (2026), summary and three volumes: the Countess of Chester Hospital, 2015 to 2018, and what managers, the NHS and regulators did when doctors raised concerns.",
     "background": [
-      "In 2015 eight babies died on the neonatal unit of the Countess of Chester Hospital, against one to three a year from 2010 to 2014; five more died in the first half of 2016. Consultant paediatricians raised concerns about the deaths and unexpected collapses and their association with one nurse, Lucy Letby. She was moved off the unit in July 2016. The police opened an investigation in May 2017 and arrested her in July 2018. In August 2023 she was convicted of murdering seven babies and attempting to murder others, and in July 2024, at a retrial, of one further attempted murder; the Court of Appeal refused her permission to appeal.",
-      "The government announced the Inquiry on 4 September 2023; it was established under the Inquiries Act 2005 on 19 October 2023 and held public hearings, mostly in Liverpool, from September 2024 to early 2025. The report was published on 15 September 2026: this summary and three volumes, with 17 recommendations in Chapter 45. Only the summary is on this site so far. On the day of publication the Health and Social Care Secretary apologised on behalf of the government and the health service and said a full response would follow.",
-      "A public inquiry is not a court. The Chair makes findings on the balance of probabilities, and writes that her focus was not on Ms Letby's guilt or her convictions. She sets out how she approached the senior managers' submission that she should avoid hindsight; in March 2025 she refused an application by four former senior managers to pause the Inquiry. The Criminal Cases Review Commission received an application on Ms Letby's behalf in February 2025 and said on 13 February 2026 that a review of her convictions is underway; it had announced no decision by 25 October 2026."
+      "In 2015 eight babies died on the neonatal unit of the Countess of Chester Hospital, against one to three a year from 2010 to 2014; five more died in the first half of 2016. Consultant paediatricians raised concerns about the deaths and collapses and their association with one nurse, Lucy Letby. She was moved off the unit in July 2016. The police opened an investigation in May 2017 and arrested her in July 2018. In August 2023 she was convicted of murdering seven babies and attempting to murder others, and in July 2024, at a retrial, of one further attempted murder; the Court of Appeal refused her permission to appeal.",
+      "Announced on 4 September 2023 and established on 19 October 2023, the Inquiry held public hearings from September 2024 to early 2025. The report was published on 15 September 2026 as four documents, all here: a summary report, Volumes I and II (Part One, the events at the hospital) and Volume III (Part Two, the wider NHS; Part Three, the 17 recommendations and the appendices). The summary numbers its chapters 1 to 4; the volumes' chapters run from 1 to 45. That day the Health and Social Care Secretary apologised on behalf of the government and the health service and said a full response would follow.",
+      "A public inquiry is not a court. The Chair makes findings on the balance of probabilities, and writes that her focus was not on Ms Letby's guilt or her convictions. She addresses the senior managers' submission that she should avoid hindsight, and in March 2025 refused four former senior managers' application to pause the Inquiry. The Criminal Cases Review Commission received an application on Ms Letby's behalf in February 2025 and said on 13 February 2026 that a review of her convictions is underway; it had announced no decision by 12 November 2026."
     ],
     "findings": [
       {
@@ -3528,6 +3528,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "4-26-move-towards-no",
             "page": 67,
             "href": "/reports/uk-thirlwall-inquiry?p=4-26-move-towards-no"
+          },
+          {
+            "id": "cctv-monitoring-recommendation-1-all",
+            "page": 141,
+            "href": "/reports/uk-thirlwall-inquiry?p=cctv-monitoring-recommendation-1-all"
           }
         ],
         "excerpt": {
@@ -3580,6 +3585,26 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-thirlwall-inquiry?p=4-32-if-suspicions-murder&h=4.32%20|If%20suspicions%20of%20murder%20have%20been%20raised%20in%20a%20hospital%2C%20the%20police%20must%20also%20be%20called.|%20Where%20there%20is"
           }
         }
+      },
+      {
+        "slug": "chapter-13-why-was-action-not-taken-sooner",
+        "title": "Chapter 13. Why was action not taken sooner?",
+        "page": "234",
+        "why": "In Volume I, the Chair's own answer to the question in its title, from mid-June 2015 to mid-June 2016, on what the doctors, the senior nurses and the executives did with what they knew.",
+        "excerpt": {
+          "quote": "Because it is too hard to accept, declaring something unthinkable avoids having to confront it.",
+          "cite": {
+            "id": "13-4-because-too-hard",
+            "page": 234,
+            "href": "/reports/uk-thirlwall-inquiry?p=13-4-because-too-hard&h=13.4%20|Because%20it%20is%20too%20hard%20to%20accept%2C%20declaring%20something%20unthinkable%20avoids%20having%20to%20confront%20it.|%20We%20know%20that%20sometimes%2C"
+          }
+        }
+      },
+      {
+        "slug": "chapter-45-recommendations",
+        "title": "Chapter 45. Recommendations",
+        "page": "141",
+        "why": "In Volume III, the 17 recommendations themselves, most with a deadline and each pointing to the chapter that gives the reasons, from in-cot cameras and insulin storage to a protocol for suspicions of deliberate harm."
       }
     ],
     "hero": {
