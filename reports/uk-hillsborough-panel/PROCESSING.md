@@ -11,14 +11,14 @@ How the text on Reports that Matter was made, and where it still falls short of 
 - **Page numbers and checking:** HC 581 as published on [GOV.UK](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf), 12 September 2012 (389 PDF pages, SHA-256 `8dbea5f6…0d8e`), also kept in the repository. The PDF stays the canonical citation target: page numbers on this site are its printed page numbers.
 - **Licence:** not under an open licence that we can find. The PDF's imprint says "© Hillsborough Independent Panel 2012" and reserves the rights, and the Panel's website terms say the same of "the Panel's Report" while offering the Open Government Licence only for the site's Crown copyright material; the website's footer says "© Crown Copyright 2012" and GOV.UK's site-wide footer offers the Open Government Licence v3.0 "except where otherwise stated". Served as a public-interest document with its source named; see `LICENSE` in the repository.
 - **Covers:** the whole report: the Foreword, the Report summary, Part 1, Part 2 (chapters 1 to 12), Part 3 and Appendices 1 to 5.
-- **Size:** about 200,000 words, 1,015 notes, 371 printed pages marked.
+- **Size:** about 200,000 words, 1,015 notes, 383 printed pages marked.
 - **Corrections applied:** none.
 
 ## How the text was made
 
 Earlier versions of this page read the text out of the PDF, which lost most of the report's structure: its subsection headings ran into the paragraph after them, and its page-foot notes were read as paragraphs of the text, with every note number in the text left bare. The website has the same words with that structure marked: headings, paragraphs, quotations, lists, and each page's notes linked to their markers. So the text now comes from the website, and the PDF is used for what only it has, and for what the website lacks.
 
-- **Printed pages.** Every word of the website is matched to the same word in the PDF, in order (99.5% of them find their place), and each block is given the printed page its first word sits on. A page that begins in the middle of a paragraph is marked after that paragraph.
+- **Printed pages.** Every word of the website is matched to the same word in the PDF, in order (99.5% of them find their place), and each block is given the printed page its first word sits on. A page that begins in the middle of a paragraph is marked after that paragraph. The pages that open a Part, a chapter or an appendix print their number at the end of a footer naming the division ("Part 2 Hillsborough: ‘what is added to public understanding’ 59"), and it is read there.
 - **Filling the missing pages.** Where a web page is missing, the text between the last word the website has before it and the first word after it is taken from the PDF, block by block, each block keeping the PDF page it came from. Its notes come with it, read from the foot of each PDF page. Running heads, stray page numbers and phrases the website already has next to the gap are left out. The headings of those stretches are read from the PDF's typography: the report sets its subsection headings in maroon sans-serif at two sizes, larger than the body, and each such line is a heading, at the level its size says, as on the website's pages. Those stretches keep the PDF reading's other limits (below).
 - **Checking the words.** All of the website's words but 36 occur in the PDF. Every stretch where they disagree is listed for review in `fidelity.md`: 23 short stretches of the website not in the PDF (figure captions, which the PDF sets as part of the picture, and the Panel members' names in Appendix 2, which the PDF sets in a table), 20 notes whose text the PDF sets differently or the PDF reading did not find, and 2 stretches of PDF text the website lacks.
 - **Notes.** The website numbers the notes through each chapter, as the printed report does, and links each to its marker; the PDF prints them at the foot of each page, numbered "104." with a full stop. Each note is kept on the page it is printed on.
@@ -27,7 +27,7 @@ Earlier versions of this page read the text out of the PDF, which lost most of t
 
 ## Known limitations
 
-- **In the stretches taken from the PDF** (most of chapters 4, 7 and 9, and the others listed in `fidelity.md`), 13 note numbers are left bare where the PDF reading did not find the note, and in a few places a run of numbered paragraphs is one block (a paragraph label after a full stop is not always a paragraph start in the PDF's text).
+- **In the stretches taken from the PDF** (most of chapters 4, 7 and 9, and the others listed in `fidelity.md`), 13 note numbers are left bare where the PDF reading did not find the note; one numbered paragraph runs on into the next (2.4.133 into 2.4.134), and two lines that open on a time ("3.30 pm", "3.15 pm" in Chapter 10) are set as paragraphs of their own.
 - **Photographs, maps and figures are not shown.** Their captions are kept where the website gives them.
 - **The website's own slips are kept** where the PDF cannot settle them ("spokeperson", "situaton").
 
