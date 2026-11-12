@@ -1259,18 +1259,18 @@ items:
     posted_url: null
   - id: uk-stern-review:from-all-these-perspectives-evidence:22fe444b
     report: uk-stern-review
-    hook: The Stern Review put the yearly cost of holding greenhouse gases at
-      500-550ppm CO2e at around 1% of GDP by 2050. Unchecked climate change, it
-      estimated, would cut welfare by the equivalent of 5% to 20% of consumption
-      per head. It weighed the two in 3 different ways.
+    hook: The Stern Review put the cost of holding greenhouse gases at around 550
+      parts per million, double the pre-industrial level, at about 1% of world
+      GDP a year by 2050. It set that against the damage of doing nothing in 3
+      separate ways. Page ii says what the comparison came to.
     paragraph: from-all-these-perspectives-evidence
     quote: "the evidence gathered by the Review leads to a simple conclusion: the
       benefits of strong, early action considerably outweigh the costs."
     text: >-
-      The Stern Review put the yearly cost of holding greenhouse gases at
-      500-550ppm CO2e at around 1% of GDP by 2050. Unchecked climate change, it
-      estimated, would cut welfare by the equivalent of 5% to 20% of consumption
-      per head. It weighed the two in 3 different ways.
+      The Stern Review put the cost of holding greenhouse gases at around 550
+      parts per million, double the pre-industrial level, at about 1% of world
+      GDP a year by 2050. It set that against the damage of doing nothing in 3
+      separate ways. Page ii says what the comparison came to.
 
 
       — Stern Review, p. ii
@@ -1280,18 +1280,18 @@ items:
     posted_url: null
   - id: uk-stern-review:climate-change-presents-unique-challenge:8b7b5d6c
     report: uk-stern-review
-    hook: In July 2005 the Chancellor, Gordon Brown, asked Nicholas Stern, head of
+    hook: In July 2005 Gordon Brown, then Chancellor, asked Nicholas Stern, head of
       the Government Economic Service, to review the economics of climate
-      change. On the first page of its summary, published in October 2006, the
-      Review says what kind of economic problem it is.
+      change. The first page of his summary says what kind of economic problem
+      he found.
     paragraph: climate-change-presents-unique-challenge
     quote: "Climate change presents a unique challenge for economics: it is the
       greatest and widest-ranging market failure ever seen."
     text: >-
-      In July 2005 the Chancellor, Gordon Brown, asked Nicholas Stern, head of
+      In July 2005 Gordon Brown, then Chancellor, asked Nicholas Stern, head of
       the Government Economic Service, to review the economics of climate
-      change. On the first page of its summary, published in October 2006, the
-      Review says what kind of economic problem it is.
+      change. The first page of his summary says what kind of economic problem
+      he found.
 
 
       — Stern Review, p. i
@@ -1299,40 +1299,20 @@ items:
     card: assets/cards/uk-stern-review/q-e329014f.png
     scheduled: 2026-11-14
     posted_url: null
-  - id: uk-stern-review:important-corollary-there-high-price:5d9bc8b7
-    report: uk-stern-review
-    hook: 'Holding greenhouse gases at 450ppm CO2e was "already almost out of
-      reach", the Stern Review judged in 2006: the world was likely to hit that
-      level within 10 years, and cutting emissions fast would be very costly.
-      The next paragraph draws the lesson.'
-    paragraph: important-corollary-there-high-price
-    quote: An important corollary is that there is a high price to delay.
-    text: >-
-      Holding greenhouse gases at 450ppm CO2e was "already almost out of reach",
-      the Stern Review judged in 2006: the world was likely to hit that level
-      within 10 years, and cutting emissions fast would be very costly. The next
-      paragraph draws the lesson.
-
-
-      — Stern Review, p. xv
-    link: https://reportsthatmatter.org/reports/uk-stern-review?p=important-corollary-there-high-price&h=|An%20important%20corollary%20is%20that%20there%20is%20a%20high%20price%20to%20delay.|%20Delay%20in%20taking%20action&src=bsky
-    card: assets/cards/uk-stern-review/q-ba64969a.png
-    scheduled: 2026-11-18
-    posted_url: null
   - id: uk-stern-review:impacts-climate-change-are-not:42f41207
     report: uk-stern-review
-    hook: A 1m rise in sea level could put more than a fifth of Bangladesh under
-      water, the Stern Review noted in 2006. The poorest countries, it said,
-      depend heavily on agriculture, the most climate-sensitive sector. Its
-      summary sets out how the harm would fall.
+    hook: "Canada, Russia and Scandinavia might gain from 2 or 3°C of warming, the
+      Review said: higher crop yields, fewer winter deaths. In southern Europe,
+      water and crop yields were expected to fall by 20% at 2°C. One bold line
+      names who is hit first."
     paragraph: impacts-climate-change-are-not
     quote: The impacts of climate change are not evenly distributed - the poorest
       countries and people will suffer earliest and most.
     text: >-
-      A 1m rise in sea level could put more than a fifth of Bangladesh under
-      water, the Stern Review noted in 2006. The poorest countries, it said,
-      depend heavily on agriculture, the most climate-sensitive sector. Its
-      summary sets out how the harm would fall.
+      Canada, Russia and Scandinavia might gain from 2 or 3°C of warming, the
+      Review said: higher crop yields, fewer winter deaths. In southern Europe,
+      water and crop yields were expected to fall by 20% at 2°C. One bold line
+      names who is hit first.
 
 
       — Stern Review, p. vii
@@ -1342,22 +1322,43 @@ items:
     posted_url: null
   - id: uk-stern-review:there-still-time-avoid-worst:f6545091
     report: uk-stern-review
-    hook: COP31 in Antalya is due to close today. Twenty years ago the Stern Review
-      ended its summary by calling the economic risks of inaction "very severe"
-      and saying the policy tools to change course already existed. Its final
-      section opens with one sentence in bold.
+    hook: Published 20 years ago this autumn, the Stern Review closed its summary
+      saying the economic risks of inaction were "very severe" and that the
+      policy tools to change course already existed. Its last sentence in bold
+      is a conditional.
     paragraph: there-still-time-avoid-worst
     quote: There is still time to avoid the worst impacts of climate change if
       strong collective action starts now.
     text: >-
-      COP31 in Antalya is due to close today. Twenty years ago the Stern Review
-      ended its summary by calling the economic risks of inaction "very severe"
-      and saying the policy tools to change course already existed. Its final
-      section opens with one sentence in bold.
+      Published 20 years ago this autumn, the Stern Review closed its summary
+      saying the economic risks of inaction were "very severe" and that the
+      policy tools to change course already existed. Its last sentence in bold
+      is a conditional.
 
 
       — Stern Review, p. xxvii
     link: https://reportsthatmatter.org/reports/uk-stern-review?p=there-still-time-avoid-worst&h=|There%20is%20still%20time%20to%20avoid%20the%20worst%20impacts%20of%20climate%20change%20if%20strong%20collective%20action%20starts%20now.|&src=bsky
     card: assets/cards/uk-stern-review/q-345967f7.png
     scheduled: 2026-11-20
+    posted_url: null
+  - id: uk-stern-review:important-corollary-there-high-price:c5f035f4
+    report: uk-stern-review
+    hook: 'Greenhouse gases stood at around 430ppm of CO2-equivalent in 2006, the
+      Review said. Holding them at 450ppm was "already almost out of reach": the
+      world was likely to get there within 10 years, and fast cuts would be very
+      costly. Then it looked at the next target up.'
+    paragraph: important-corollary-there-high-price
+    quote: Weak action in the next 10-20 years would put stabilisation even at
+      550ppm CO2e beyond reach
+    text: >-
+      Greenhouse gases stood at around 430ppm of CO2-equivalent in 2006, the
+      Review said. Holding them at 450ppm was "already almost out of reach": the
+      world was likely to get there within 10 years, and fast cuts would be very
+      costly. Then it looked at the next target up.
+
+
+      — Stern Review, p. xv
+    link: https://reportsthatmatter.org/reports/uk-stern-review?p=important-corollary-there-high-price&h=higher%20mitigation%20costs.%20|Weak%20action%20in%20the%20next%2010-20%20years%20would%20put%20stabilisation%20even%20at%20550ppm%20CO2e%20beyond%20reach|%20%E2%80%93%20and%20this%20level%20is&src=bsky
+    card: assets/cards/uk-stern-review/q-429c259d.png
+    scheduled: 2026-11-18
     posted_url: null
