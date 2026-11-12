@@ -1378,11 +1378,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-covid-inquiry-module-2": {
     "status": "approved",
-    "whyItMatters": "The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett, on how the UK government and the governments of Scotland, Wales and Northern Ireland made their decisions from the first reports of the virus in January 2020 to the end of restrictions in May 2022. This first volume holds the Inquiry's summary, its key themes and its account, month by month, of the lockdowns and what led to them.",
-    "description": "The UK Covid-19 Inquiry's second report, on how the four UK governments made their decisions from January 2020 to May 2022. Volume I: its summary, key themes and month-by-month account.",
+    "whyItMatters": "The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett, on how the UK government and the governments of Scotland, Wales and Northern Ireland made their decisions from the first reports of the virus in January 2020 to the end of restrictions in May 2022. Volume I holds the Inquiry's summary and its account, month by month, of the lockdowns and what led to them; Volume II its analysis by theme, its lessons for future emergencies and its 19 recommendations.",
+    "description": "The UK Covid-19 Inquiry's second report, on how the four UK governments made their decisions from January 2020 to May 2022: its findings, its account of events and its 19 recommendations.",
     "background": [
       "Covid-19 reached the UK in early 2020. Over the next two and a half years the four governments of the UK closed schools and businesses, and ordered people to stay at home; England had three national lockdowns. The last restrictions in the UK ended on 30 May 2022. The Chair's introduction records that Covid-19 is mentioned on the death certificates of more than 230,000 people in the UK.",
-      "The UK Covid-19 Inquiry was established in June 2022 under the Inquiries Act 2005, chaired by Baroness Hallett. It works through ten modules. Its first report, on the UK's resilience and preparedness (Module 1), was published on 18 July 2024 and found the UK ill prepared. This second report covers core political and administrative decision-making: Module 2 for the UK government, and Modules 2A, 2B and 2C for Scotland, Wales and Northern Ireland. The Inquiry gathered more than 2 million potentially relevant documents and heard 166 witnesses over 69 days, in 2023 and 2024. The report was published on 20 November 2025. Its Volume II, with the lessons and the full list of recommendations (19 key recommendations, in the Inquiry's words), is not yet on this site.",
+      "The UK Covid-19 Inquiry was established in June 2022 under the Inquiries Act 2005, chaired by Baroness Hallett. It works through ten modules. Its first report, on the UK's resilience and preparedness (Module 1), was published on 18 July 2024 and found the UK ill prepared. This second report covers core political and administrative decision-making: Module 2 for the UK government, and Modules 2A, 2B and 2C for Scotland, Wales and Northern Ireland. The Inquiry gathered more than 2 million potentially relevant documents and heard 166 witnesses over 69 days, in 2023 and 2024. The report was published on 20 November 2025 in two volumes: the first holds the Chair's introduction, the executive summary and the account of events; the second the Inquiry's analysis by theme (scientific advice, vulnerable groups, decision-making, communications, the law and relations between the four nations), its lessons for future emergencies and the full text of its 19 recommendations.",
       "A public inquiry establishes facts and makes recommendations; it does not decide civil or criminal liability. The Chair writes that politicians \"were faced with unenviable choices\" and that she has asked whether their decisions were reasonable in light of what was known, or ought to have been known, at the time. Where witnesses disagreed with the Inquiry's view, the report sets out their evidence, including Boris Johnson's view that earlier restrictions were unlikely to have avoided the first lockdown. In March 2026 the UK government published its response, saying it broadly agrees with the recommendations and setting out actions on each."
     ],
     "findings": [
@@ -1438,7 +1438,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "The Inquiry accepts the consensus of the evidence that the first mandatory lockdown should have been imposed a week earlier, and reports modelling that doing so would have meant about 23,000 fewer deaths in England in the first wave. It rejects the criticism that the governments were wrong in principle to impose a lockdown.",
+        "text": "The Inquiry accepts the consensus of the evidence that the first mandatory lockdown should have been imposed a week earlier, and reports modelling that doing so would have meant about 23,000 fewer deaths in England in the first wave. It rejects the criticism that the governments were wrong in principle to impose a lockdown, and finds that none of the four governments had planned for a lockdown or for how to leave one.",
         "cites": [
           {
             "id": "inquiry-recognises-lockdown-decision-difficult",
@@ -1454,6 +1454,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "4-227-however-inquiry-rejects",
             "page": 213,
             "href": "/reports/uk-covid-inquiry-module-2?p=4-227-however-inquiry-rejects"
+          },
+          {
+            "id": "4-167-decision-impose-uk-wide",
+            "page": 200,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-167-decision-impose-uk-wide"
           }
         ],
         "excerpt": {
@@ -1464,26 +1469,6 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-covid-inquiry-module-2?p=however-inquiry-rejects-criticism-four&h=|However%2C%20the%20Inquiry%20rejects%20the%20criticism%20that%20the%20four%20governments%20were%20wrong%2C%20in%20principle%2C%20to%20impose%20a%20lockdown.%20In%20%E2%8B%AFin%20the%20absence%20of%20a%20mandatory%20lockdown%2C%20likely%20lead%20to%20loss%20of%20life%20on%20a%20scale%20that%20was%20unconscionable%20and%20unacceptable.|%20No%20government%2C%20acting%20in"
           }
         }
-      },
-      {
-        "text": "The report finds that none of the four governments had planned for a lockdown or for how to leave one, and that the initial plan, based in part on the 2011 strategy for pandemic influenza, aimed only to slow the spread of the virus.",
-        "cites": [
-          {
-            "id": "4-167-decision-impose-uk-wide",
-            "page": 200,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-167-decision-impose-uk-wide"
-          },
-          {
-            "id": "4-168-initial-plan-respond",
-            "page": 200,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-168-initial-plan-respond"
-          },
-          {
-            "id": "4-180-absence-planning-further",
-            "page": 202,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-180-absence-planning-further"
-          }
-        ]
       },
       {
         "text": "The report finds that the UK government, the Welsh Government and the Northern Ireland Executive failed to learn from the first lockdown in the autumn of 2020. It concludes that Mr Johnson should have ordered a circuit breaker lockdown in late September or early October 2020, describes decision-making in Northern Ireland as \"chaotic\", and finds that Scotland's stringent local measures avoided a second national lockdown that autumn.",
@@ -1582,6 +1567,39 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-covid-inquiry-module-2?p=despite-harm-being-foreseeable-impact"
           }
         ]
+      },
+      {
+        "text": "The report makes 19 recommendations, each set out in the chapter that explains it and together in Appendix 3. Among them, that each government agree a framework identifying the people most at risk in an emergency; that future pandemic strategies set out how decision-making will work, starting from COBR; that emergency powers be made by the draft affirmative procedure as standard, with safeguards such as sunset clauses; and that a four-nations structure attended by all heads of government meet regularly during a pandemic.",
+        "cites": [
+          {
+            "id": "uk-government-scottish-government-welsh",
+            "page": 96,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-scottish-government-welsh"
+          },
+          {
+            "id": "uk-government-devolved-administrations-should",
+            "page": 121,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-devolved-administrations-should"
+          },
+          {
+            "id": "uk-government-devolved-administrations-should-4",
+            "page": 207,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-devolved-administrations-should-4"
+          },
+          {
+            "id": "while-intergovernmental-relations-should-be",
+            "page": 260,
+            "href": "/reports/uk-covid-inquiry-module-2?p=while-intergovernmental-relations-should-be"
+          }
+        ],
+        "excerpt": {
+          "quote": "The UK government and devolved administrations should ensure that the draft affirmative procedure is the standard process for enacting substantial and wide-ranging powers in a civil emergency, such as a pandemic, under primary public health legislation. Any departure from this procedure should be the exception, with clear criteria and safeguards in place to prevent the bypassing of parliamentary scrutiny.",
+          "cite": {
+            "id": "uk-government-devolved-administrations-should-4",
+            "page": 207,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-devolved-administrations-should-4&h=|The%20UK%20government%20and%20devolved%20administrations%20should%20ensure%20that%20the%20draft%20affirmative%20procedure%20is%20the%20standard%20proces%E2%8B%AFshould%20be%20the%20exception%2C%20with%20clear%20criteria%20and%20safeguards%20in%20place%20to%20prevent%20the%20bypassing%20of%20parliamentary%20scrutiny.|%20These%20safeguards%20should"
+          }
+        }
       }
     ],
     "readingGuide": [
@@ -1626,24 +1644,32 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "a-second-lockdown-in-england",
-        "title": "A second lockdown in England",
-        "page": "319",
-        "why": "The autumn of 2020 in England, the advice for a circuit breaker, and the evidence of those who disagreed with it.",
+        "slug": "chapter-15-key-lessons-for-future-emergencies",
+        "title": "Chapter 15: Key lessons for future emergencies",
+        "page": "261",
+        "why": "Volume II's closing chapter, the lessons the Inquiry draws for the next pandemic or civil emergency, on planning, strategy, acting quickly, working together and data.",
         "excerpt": {
-          "quote": "The Inquiry accepts that a second lockdown was to be avoided at all costs. Unfortunately, the failure to take timely action had made one inevitable.",
+          "quote": "No plan entirely survives contact with reality, but the more scenarios that are considered and the more responses tested, the greater the likelihood that those making difficult – even impossible – choices will be better placed to react quickly and decisively.",
           "cite": {
-            "id": "6-236-inquiry-accepts-second",
-            "page": 329,
-            "href": "/reports/uk-covid-inquiry-module-2?p=6-236-inquiry-accepts-second&h=6.236.%20|The%20Inquiry%20accepts%20that%20a%20second%20lockdown%20was%20to%20be%20avoided%20at%20all%20costs.%20Unfortunately%2C%20the%20failure%20to%20take%20timely%20action%20had%20made%20one%20inevitable.|%20Once%20the%20second%20lockdown"
+            "id": "15-6-no-plan-entirely",
+            "page": 263,
+            "href": "/reports/uk-covid-inquiry-module-2?p=15-6-no-plan-entirely&h=15.6.%20|No%20plan%20entirely%20survives%20contact%20with%20reality%2C%20but%20the%20more%20scenarios%20that%20are%20considered%20and%20the%20more%20responses%20tested%2C%20the%20greater%20the%20likelihood%20that%20those%20making%20difficult%20%E2%80%93%20even%20impossible%20%E2%80%93%20choices%20will%20be%20better%20placed%20to%20react%20quickly%20and%20decisively.|"
           }
         }
       },
       {
-        "slug": "a-new-normal",
-        "title": "A new normal",
-        "page": "438",
-        "why": "The Inquiry's conclusions on the vaccine period, the Omicron wave and the end of restrictions in 2022."
+        "slug": "appendix-3-list-of-recommendations",
+        "title": "Appendix 3: List of recommendations",
+        "page": "314",
+        "why": "The full text of the 19 recommendations, grouped by chapter (Recommendations 9 to 19 continue on the next page); each also appears in its chapter, where the Inquiry explains it.",
+        "excerpt": {
+          "quote": "The UK government, Scottish Government, Welsh Government and Northern Ireland Executive should each agree a framework that identifies people who would be most at risk of becoming infected by and dying from a disease and those who are most likely to be negatively impacted by any steps taken to respond to a future pandemic.",
+          "cite": {
+            "id": "uk-government-scottish-government-welsh-3",
+            "page": 317,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-scottish-government-welsh-3&h=|The%20UK%20government%2C%20Scottish%20Government%2C%20Welsh%20Government%20and%20Northern%20Ireland%20Executive%20should%20each%20agree%20a%20framework%20th%E2%8B%AFom%20a%20disease%20and%20those%20who%20are%20most%20likely%20to%20be%20negatively%20impacted%20by%20any%20steps%20taken%20to%20respond%20to%20a%20future%20pandemic.|%20The%20framework%20should%20set"
+          }
+        }
       }
     ],
     "hero": {
