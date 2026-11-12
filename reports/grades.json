@@ -1,6 +1,6 @@
 {
  "ingest": "v0.34.0",
- "site": "9cf58b62",
+ "site": "b10b7f18",
  "recorded": "2026-11-12",
  "reports": {
   "challenger-accident": {
@@ -1429,10 +1429,10 @@
   },
   "uk-hillsborough-panel": {
    "id": "uk-hillsborough-panel",
-   "pages": 371,
-   "per10": 3.6128283217232005,
-   "letter": "C",
-   "publishable": false,
+   "pages": 383,
+   "per10": 1.1236535440190794,
+   "letter": "B",
+   "publishable": true,
    "below": [],
    "dimensions": {
     "words": {
@@ -1450,7 +1450,7 @@
      "basis": "estimated",
      "graded": true,
      "errors": 3.8,
-     "per10": 0.10242587601078168,
+     "per10": 0.09921671018276762,
      "letter": "A",
      "terms": [
       {
@@ -1475,7 +1475,7 @@
      "basis": "estimated",
      "graded": true,
      "errors": 16.545454545454547,
-     "per10": 0.44596912521440824,
+     "per10": 0.4319962022311892,
      "letter": "A",
      "terms": [
       {
@@ -1499,7 +1499,7 @@
      "basis": "estimated",
      "graded": true,
      "errors": 0.6904761904761905,
-     "per10": 0.018611218072134512,
+     "per10": 0.01802809896804675,
      "letter": "A",
      "terms": [
       {
@@ -1529,9 +1529,9 @@
      "key": "pages",
      "basis": "estimated",
      "graded": true,
-     "errors": 113,
-     "per10": 3.045822102425876,
-     "letter": "C",
+     "errors": 22,
+     "per10": 0.5744125326370757,
+     "letter": "A",
      "terms": [
       {
        "source": "anchors markers-wrong (budget)",
@@ -1542,17 +1542,17 @@
       },
       {
        "source": "anchors pages-unmarked (budget)",
-       "count": 12,
+       "count": 0,
        "precision": 1,
        "precisionFrom": "assumed",
-       "errors": 12
+       "errors": 0
       },
       {
        "source": "anchors blocks-wrong (budget)",
-       "count": 86,
+       "count": 7,
        "precision": 1,
        "precisionFrom": "assumed",
-       "errors": 86
+       "errors": 7
       }
      ]
     },
@@ -1574,7 +1574,7 @@
      ],
      "unmatched": {
       "count": 853,
-      "per10": 22.99191374663073
+      "per10": 22.271540469973893
      }
     }
    }
