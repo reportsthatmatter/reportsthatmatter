@@ -1989,9 +1989,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The major incident procedure was never activated at Ground Control, Force Control or Ambulance Control, even after staff there had begun describing the situation as a \"major incident\".",
         "cites": [
           {
-            "id": "2-4-53-meanwhile-3",
+            "id": "2-4-56-3-20pm",
             "page": 137,
-            "href": "/reports/uk-hillsborough-panel?p=2-4-53-meanwhile-3"
+            "href": "/reports/uk-hillsborough-panel?p=2-4-56-3-20pm"
           }
         ]
       },
@@ -2127,14 +2127,14 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
         "title": "The day itself, and the emergency response",
-        "page": "129",
+        "page": "131",
         "why": "The Panel's detailed reconstruction of the day and of the emergency response that followed it, drawing on control-room tapes and radio transcripts not previously made public.",
         "excerpt": {
           "quote": "Yet the documents confirm that no-one at these locations activated the major incident procedure, not even in response to SO Eason's 3.21pm call.",
           "cite": {
-            "id": "2-4-53-meanwhile-3",
+            "id": "2-4-56-3-20pm",
             "page": 137,
-            "href": "/reports/uk-hillsborough-panel?p=2-4-53-meanwhile-3&h=telephone%20communications.%20|Yet%20the%20documents%20confirm%20that%20no-one%20at%20these%20locations%20activated%20the%20major%20incident%20procedure%2C%20not%20even%20in%20response%20to%20SO%20Eason's%203.21pm%20call.|%20Documents%20disclosed%20to"
+            "href": "/reports/uk-hillsborough-panel?p=2-4-56-3-20pm&h=telephone%20communications.%20|Yet%20the%20documents%20confirm%20that%20no-one%20at%20these%20locations%20activated%20the%20major%20incident%20procedure%2C%20not%20even%20in%20response%20to%20SO%20Eason's%203.21pm%20call.|%20Documents%20disclosed%20to"
           }
         }
       },
@@ -2155,7 +2155,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       {
         "slug": "chapter-11-review-and-alteration-of-statements",
         "title": "The altered statements, and 'The Truth'",
-        "page": "313",
+        "page": "315",
         "why": "How SYP officers' statements were reviewed and amended before the Taylor Inquiry, and how allegations against Liverpool fans reached The Sun's front page four days after the disaster.",
         "excerpt": {
           "quote": "A total of 164 statements were marked for amendments more substantial than simple corrections. Of these, 22 were amended to remove coarse or informal language.",
