@@ -53,6 +53,28 @@ describe("alias generation", () => {
     expect(lost).toEqual([]);
   });
 
+  it("finds a paragraph the old text ran a heading into, not the paragraph above the heading (Leveson, r0w)", () => {
+    // before: "Arbitration Service 22. The Board…" was one paragraph; after: a heading and "22. The Board…". The heading's words
+    // must not read on from the paragraph above into the one below, or the probe lands on the paragraph above.
+    const D = "(d) a report on the adequacy and effectiveness of compliance processes and procedures adopted by subscribers; and";
+    const T = "The Board should provide an arbitral process in relation to civil legal claims against subscribers, drawing on independent legal experts.";
+    const old = render(doc({ Summary: [D, `Arbitration Service 22\\. ${T}`, A] }));
+    const now = render(doc({ Summary: [D, `###### Arbitration Service`, `22\\. ${T}`, A] }));
+    const fused = old.passages.find((p) => p.text.startsWith("Arbitration Service"))!.id;
+    const { moved } = computeMoves(old, now);
+    expect(moved[fused]).toBe(now.passages.find((p) => p.text.startsWith("22"))!.id);
+  });
+
+  it("matches whole words only, so a stray letter the old text opened on does not match the end of the paragraph before (Leveson, r0w)", () => {
+    const R = "All were confident that they had not willingly supplied the information nor consented to its release.";
+    const S = "Another aspect of the transactions that was analysed in the report was the issue of cost, that is to say how much was paid.";
+    const old = render(doc({ Chapter: [`5.7 ${R}`, `E 5.8 ${S}`, A] }));
+    const now = render(doc({ Chapter: [`5.7 ${R}`, `5.8 ${S}`, A] }));
+    const stray = old.passages.find((p) => p.text.startsWith("E 5.8"))!.id;
+    const { moved } = computeMoves(old, now);
+    expect(moved[stray]).toBe(now.passages.find((p) => p.text.startsWith("5.8"))!.id);
+  });
+
   it("sends a paragraph that became a heading to the first paragraph under it (men)", () => {
     // before: the sub-heading "Treatment in Barnet Hospital" read as a one-line paragraph; after: a heading
     const old = render(doc({ Chapter: [A, "Treatment in Barnet Hospital", B, "Chapter 5: Mario Scaramella, Chechen groups,", C] }));

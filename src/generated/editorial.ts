@@ -2250,9 +2250,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "text": "The News of the World hacked Milly Dowler's phone in April 2002, as it later admitted to Surrey Police. The report finds, on the balance of probabilities, that this hacking was not the cause of the \"false hope moment\" widely blamed on it - the voicemail system's own automatic deletion of messages accounts for that - but confirms the phone was indeed hacked.",
         "cites": [
           {
-            "id": "f-2-19-last-assertion",
+            "id": "2-19-last-assertion-course",
             "page": 546,
-            "href": "/reports/uk-leveson-inquiry?p=f-2-19-last-assertion"
+            "href": "/reports/uk-leveson-inquiry?p=2-19-last-assertion-course"
           },
           {
             "id": "2-15-would-be-otiose",
@@ -2330,8 +2330,8 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ],
     "readingGuide": [
       {
-        "slug": "chapter-7",
-        "title": "Chapter 7: Conclusions and recommendations for future regulation",
+        "slug": "chapter-7-conclusions-and-recommendations-for-future-regulation-of-the-press",
+        "title": "Chapter 7: Conclusions and recommendations for future regulation of the press",
         "page": "1748",
         "why": "Leveson's own summary of what he recommends and why - an independent regulator, backed by law only to recognise it, which he insists is not regulation of the press.",
         "excerpt": {
@@ -2351,9 +2351,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "excerpt": {
           "quote": "The Board should provide an arbitral process in relation to civil legal claims against subscribers, drawing on independent legal experts of high reputation and ability on a cost-only basis to the subscribing member. The process should be fair, quick and inexpensive, inquisitorial and free for complainants to use (save for a power to make an adverse order for the costs of the arbitrator if proceedings are frivolous or vexatious). The arbitrator must have the power to hold hearings where necessary but, equally, to dispense with them where it is not necessary.",
           "cite": {
-            "id": "arbitration-service-22-board-should",
+            "id": "22-board-should-provide-arbitral",
             "page": 1806,
-            "href": "/reports/uk-leveson-inquiry?p=arbitration-service-22-board-should&h=Arbitration%20Service%2022.%20|The%20Board%20should%20provide%20an%20arbitral%20process%20in%20relation%20to%20civil%20legal%20claims%20against%20subscribers%2C%20drawing%20on%20independe%E2%8B%AFator%20must%20have%20the%20power%20to%20hold%20hearings%20where%20necessary%20but%2C%20equally%2C%20to%20dispense%20with%20them%20where%20it%20is%20not%20necessary.|%20The%20process%20must%20have%20a"
+            "href": "/reports/uk-leveson-inquiry?p=22-board-should-provide-arbitral&h=22.%20|The%20Board%20should%20provide%20an%20arbitral%20process%20in%20relation%20to%20civil%20legal%20claims%20against%20subscribers%2C%20drawing%20on%20independe%E2%8B%AFator%20must%20have%20the%20power%20to%20hold%20hearings%20where%20necessary%20but%2C%20equally%2C%20to%20dispense%20with%20them%20where%20it%20is%20not%20necessary.|%20The%20process%20must%20have%20a"
           }
         }
       },
@@ -2372,9 +2372,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "the-dowlers",
-        "title": "The Dowlers",
-        "page": "542",
+        "slug": "chapter-5-some-case-studies",
+        "title": "The Dowlers (Part F, Chapter 5: Some case studies)",
+        "page": "539",
         "why": "The phone-hacking case that brought down the News of the World and led to the Inquiry, including the Inquiry's own correction of one widely-reported detail about it.",
         "excerpt": {
           "quote": "The fact remains that the NoTW hacked the phone of a dead schoolgirl called Milly Dowler. The revelation of that story rightly shocked the public conscience in a way that other stories of phone hacking may not have, but it also gave momentum to growing calls for light to be shed on an unethical and unlawful practice of which there were literally thousands of victims.",
