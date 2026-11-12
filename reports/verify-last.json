@@ -177,25 +177,25 @@
   },
   "uk-leveson-inquiry": {
    "oracle": {
-    "headings-missed": 1350,
-    "headings-spurious": 2,
+    "headings-missed": 164,
+    "headings-spurious": 13,
     "markers-unlinked": 17,
-    "markers-spurious": 3,
-    "paragraphs-oversplit": 267,
-    "paragraphs-merged": 2489,
-    "quotes-spurious": 256,
-    "quotes-missed": 657,
+    "markers-spurious": 1,
+    "paragraphs-oversplit": 245,
+    "paragraphs-merged": 2375,
+    "quotes-spurious": 245,
+    "quotes-missed": 610,
     "note-off-page": 1
    },
    "golden": {
-    "match": 2,
+    "match": 8,
     "total": 8,
-    "known": 6
+    "known": 0
    },
    "goldenOracle": {
     "headings-missed": {
-     "tp": 10,
-     "fp": 0,
+     "tp": 0,
+     "fp": 2,
      "fn": 0
     },
     "paragraphs-merged": {
@@ -933,8 +933,8 @@
  },
  "oracleVsGolden": {
   "headings-missed": {
-   "tp": 13,
-   "fp": 42,
+   "tp": 3,
+   "fp": 44,
    "fn": 7
   },
   "headings-spurious": {
