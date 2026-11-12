@@ -96,10 +96,10 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 0
   uk-covid-inquiry-module-2:
-    markers-wrong: 6  # why: reportsthatmatter-gqsy.14 (each chapter's "Introduction" heading after a title page, and the front matter; 98.6% of located markers right)
+    markers-wrong: 35  # why: reportsthatmatter-gqsy.14 (each chapter's "Introduction" heading after a title page, and the front matter) + reportsthatmatter-nshl (the same in Volume II, whose contents also match Volume I's identical listing of them; 95.4% of 766 located markers right)
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 5  # why: reportsthatmatter-gqsy.14 (5 of 2,728 blocks, the same chapter openings)
+    blocks-wrong: 7  # why: reportsthatmatter-gqsy.14 (7 of 4,464 blocks, the same chapter openings, both volumes)
   uk-southport-inquiry:
     markers-wrong: 7  # why: reportsthatmatter-gqsy.15.3 (each chapter's first page: the marker follows the chapter and "Introduction" headings, 1-9 words in; 97.1% of located markers right)
     markers-stacked: 0

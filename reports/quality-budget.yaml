@@ -165,30 +165,30 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-covid-inquiry-module-2:
-    severed-into-quote: 72  # why: reportsthatmatter-jz19 (quotations split at a page turn; first ingest)
-    severed-paragraph: 6  # why: reportsthatmatter-jz19 (message figures and quotations over a page)
+    severed-into-quote: 135  # why: reportsthatmatter-jz19 (Vol I's 72, quotations split at a page turn; first ingest) + reportsthatmatter-nlv7 (Vol II's 63 after quoteInset(4, {volumes:[2]}); nshl)
+    severed-paragraph: 7  # why: reportsthatmatter-jz19 (message figures and quotations over a page) + reportsthatmatter-zbrr (Vol II, 1)
     bare-footnote-marker: 3  # why: reportsthatmatter-pxjq (Ch5 notes 371-374, p.257)
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 0
-    note-reference-sequence: 2  # why: reportsthatmatter-pxjq
-    note-text-in-body: 1  # why: reportsthatmatter-pxjq (Ch6 note 1, p.267)
+    note-definition-unreferenced: 3  # why: reportsthatmatter-zbrr (Vol II Ch11 notes 64-65, Ch13 note 59)
+    note-reference-sequence: 4  # why: reportsthatmatter-pxjq (2) + reportsthatmatter-zbrr (Vol II, 2)
+    note-text-in-body: 2  # why: reportsthatmatter-pxjq (Ch6 note 1, p.267) + reportsthatmatter-zbrr (Vol II 13.16, printed 196)
     note-citation-vocabulary: 0
     furniture-paragraph: 9  # why: reportsthatmatter-gqsy.14 (the same chart "Source: UK Health Security Agency …" line under nine figures, as printed)
     contents-entry-without-heading: 124  # why: reportsthatmatter-nqc4 (the contents also lists Volume II and the figures, which are not headings in this volume)
     heading-density: 0
-    heading-repeated: 2  # why: reportsthatmatter-nqc4 ("Introduction" opens each chapter, as printed; the volume title in the front matter)
+    heading-repeated: 5  # why: reportsthatmatter-nqc4 ("Introduction" opens each chapter, as printed; the volume title in the front matter) + nshl ("Wales" as a sub-heading in three chapters, as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 0
-    printed-page-reversal: 0
+    heading-long: 2  # why: reportsthatmatter-nshl (Recommendation 16's title as printed, 102 characters, in Chapter 13 and Appendix 3)
+    printed-page-reversal: 1  # why: reportsthatmatter-nshl (the volume boundary: Volume I ends at p.439, Volume II's body starts again at 1)
     rendered-h1: 0
     chapter-intro-misfiled: 1  # why: reportsthatmatter-nqc4
     rendered-ol-words-share: 1
     numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: reportsthatmatter-nlv7 (19.0% of blocks on even pages, 20.1% on odd: a gap of 1.0 point)
   uk-grenfell-tower-inquiry:
     severed-into-quote: 2
     severed-paragraph: 0

@@ -186,6 +186,13 @@ units:
     state: ongoing
     evidence: "ingest PR #83 (labelWraps, note-restart scan, label guard); report repo PR #1 (branch vol1-1024); site branch covid-m2-vol1-1024 (registry, manifest, budgets, reference entry); golden 4/6 + 2 xfail (r41s, jz19); adjudicated.yaml (30 breaks; reference wrong 3/30, ours 7/30); held-out score boundary F1 91.0%"
     notes: "Live 2026-10-25 on ingest v0.29.0 (content 74edcb53cb7a5754). Numbered paragraphs 1,422/1,422; notes 3,236/3,241 (pxjq). Introduction, hero and 3 Tier A cards 2026-10-25 (gqsy.14.1, gqsy.14.2); queued 26-28 Nov, after the decision-0026 emails (6j4h). Volume II: nshl."
+  - id: uk-covid-inquiry-module-2
+    scope: "Volume II (HC 1436-II, Key themes, lessons and recommendations, Nov 2025)"
+    bead: reportsthatmatter-nshl
+    reached: evaluate
+    state: active
+    evidence: "ingest PR #90 (typographicHeadings faceText, divisionCrossReferences); report repo PR #2 (branch vol2-1112); site branch covid-m2-vol2-1112"
+    notes: "Numbered paragraphs 1,004/1,004 once each in order (= the Inquiry's HTML); notes 1,791 = tag census; 19 recommendations headed in the chapters and Appendix 3."
   - id: uk-post-office-horizon-inquiry
     scope: "Volume 1"
     bead: reportsthatmatter-gqsy.2

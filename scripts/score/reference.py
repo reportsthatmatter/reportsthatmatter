@@ -180,13 +180,16 @@ REFERENCES = {
     "uk-covid-inquiry-module-2": {
         "set": "held-out",
         "adapter": "tagged",
-        "edition": "Volume I's PDF's own structure tree (tagged PDF, InDesign: H1-H5, P, Note, LI/Lbl, role-mapped), February 2026 issue with post-publication amends",
+        "edition": "Volumes I and II's PDFs' own structure trees (tagged PDF, InDesign: H1-H5, P, Note, LI/Lbl, role-mapped); Volume I the February 2026 issue with post-publication amends, Volume II the November 2025 issue",
         "licence": CROWN,
         "numbered": True,
-        "files": [("https://covid19.public-inquiry.uk/documents/reports/modules-2-2a-2b-2c-core-decision-making-and-political-governance-volume-i", "volume-1.html")],
+        "files": [
+            ("https://covid19.public-inquiry.uk/documents/reports/modules-2-2a-2b-2c-core-decision-making-and-political-governance-volume-i", "volume-1.html"),
+            ("https://covid19.public-inquiry.uk/documents/reports/modules-2-2a-2b-2c-core-decision-making-and-political-governance-volume-ii", "volume-2.html"),
+        ],
         "caveats": [
             "A new publisher family (the UK Covid-19 Inquiry), so held out: score it, do not tune passes on it.",
-            "The Inquiry's own HTML edition of Volume I (reference/raw/volume-1.html) is cached as a second reference: amended text, numbered paragraphs, h2-h5 headings and per-chapter linked notes, but no page anchors. The Inquiry's site refuses this script's User-Agent (403), so fetch it with --cache from a browser-UA download.",
+            "The Inquiry's own HTML editions of both volumes (reference/raw/volume-1.html, volume-2.html) are cached as a second reference: numbered paragraphs, h2-h5 headings and per-chapter linked notes, but no page anchors (Volume II's omits 18 of the PDF's 1,791 note markers). The Inquiry's site refuses this script's User-Agent (403), so fetch them with --cache from a browser-UA download.",
         ],
     },
     "uk-thirlwall-inquiry": {
