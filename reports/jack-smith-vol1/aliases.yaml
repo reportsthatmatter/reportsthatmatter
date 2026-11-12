@@ -115,12 +115,15 @@ aliases:
   georgia-143-when-trump-raised: core-trump-s-obstructive-scheme
   georgia-election-sco-12998394-tr-georgia: trump-s-false-claims-included
   getting-pushed-kicked-you-know: people-who-took-trump-his
+  government-s-motion-formal-pretrial: ecf-no-98-10-10
   government-s-motion-order-show: ecf-no-5-2-2
+  government-s-opposition-defendant-s-4: ecf-no-151-11-13
   government-s-opposition-twitter-inc: ecf-no-5-2-2
   government-s-petition-writ-certiorari: doc-no-1-12-11
   government-s-proposed-trial-calendar: ecf-no-1-8-1
   government-s-reply-brief-support: doc-no-1-12-11
   government-s-reply-defendant-s: ecf-no-1-8-1
+  government-s-reply-support-motion: doc-no-2030867-12-11
   government-s-response-court-s: ecf-no-1-8-1
   government-s-response-opposition-defendant-3: ecf-no-262-10-16
   government-s-response-opposition-defendant-4: ecf-no-262-10-16
@@ -286,13 +289,10 @@ unmatched:
   - ecf-no-252-48-49-nn
   - ecf-no-date-document-descri
   - ecfno-date-document-descrigtion-41276
-  - government-s-motion-formal-pretrial
   - government-s-motion-leave-file
   - government-s-opposition-defendant-s
   - government-s-opposition-defendant-s-2
   - government-s-opposition-defendant-s-3
-  - government-s-opposition-defendant-s-4
-  - government-s-reply-support-motion
   - government-s-response-opposition-defendant
   - government-s-response-opposition-defendant-2
   - hsc-hearing
