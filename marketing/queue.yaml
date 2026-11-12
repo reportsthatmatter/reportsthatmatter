@@ -437,7 +437,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 5
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=buy-itself-more-time-maintain&h=|But%20to%20buy%20itself%20more%20time%2C%20to%20maintain%20that%20critical%20confidence%2C%20Lehman%20painted%20a%20misleading%20picture%20of%20its%20financial%20condition.|&src=bsky
     card: assets/cards/us-lehman-examiner/q-0c457e99.png
-    scheduled: 2026-11-14
+    scheduled: 2027-01-23
     posted_url: null
   - id: us-lehman-examiner:2006-lehman-made-deliberate-decision:e5c2f57b
     report: us-lehman-examiner
@@ -453,7 +453,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 4
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=2006-lehman-made-deliberate-decision&h=and%20other%20business%20lines.%20|Rather%20than%20pull%20back%2C%20Lehman%20made%20the%20conscious%20decision%20to%20%22double%20down%2C%22%20hoping%20to%20profit%20from%20a%20counter%E2%80%90cyclical%20strategy.|%20As%20it%20did%20so%2C%20Lehman&src=bsky
     card: assets/cards/us-lehman-examiner/q-c756f8f7.png
-    scheduled: 2026-11-15
+    scheduled: 2027-01-24
     posted_url: null
   - id: us-lehman-examiner:nagioff-also-had-broader-concerns:aa90336b
     report: us-lehman-examiner
@@ -469,7 +469,7 @@ items:
       Inc., et al. — Volumes 1 and 3, p. 120
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=nagioff-also-had-broader-concerns&h=markets%20were%20in%20trouble%3A%20|%22every%20one%20saw%20the%20train%20wreck%20coming.%2064k%20question%20is%20why%20didn't%20anyone%20get%20out%20of%20the%20way%3F%3F%3F%22|&src=bsky
     card: assets/cards/us-lehman-examiner/q-acf28452.png
-    scheduled: 2026-11-16
+    scheduled: 2027-01-25
     posted_url: null
   - id: uk-hillsborough-panel:24-opening-gate-c-there:f3cb9a3b
     report: uk-hillsborough-panel
@@ -504,7 +504,7 @@ items:
       Interrogation Program, p. 14
     link: https://reportsthatmatter.org/reports/us-senate-cia-torture-report?p=while-cia-has-represented-public&h=detainees%20was%20at%20least%20119.%20|Internal%20CIA%20documents%20indicate%20that%20inadequate%20record%20keeping%20made%20it%20impossible%20for%20the%20CIA%20to%20determine%20how%20many%20individuals%20it%20had%20detained.|%20In%20December%202003%2C%20a%20CIA&src=bsky
     card: assets/cards/us-senate-cia-torture-report/q-1993ad2f.png
-    scheduled: 2026-11-18
+    scheduled: 2027-01-26
     posted_url: null
   - id: uk-grenfell-tower-inquiry:2-103-first-week-after:ddb845cd
     report: uk-grenfell-tower-inquiry
@@ -537,7 +537,7 @@ items:
       — Columbia Accident Investigation Board Report, Volume I, p. 203
     link: https://reportsthatmatter.org/reports/columbia-accident?p=strategies-must-increase-clarity-strength&h=challenge%20assumptions%20about%20risk.%20|Twice%20in%20NASA%20history%2C%20the%20agency%20embarked%20on%20a%20slippery%20slope%20that%20resulted%20in%20catastrophe.|%20Each%20decision%2C%20taken%20by&src=bsky
     card: assets/cards/columbia-accident/q-4b46b1d0.png
-    scheduled: 2026-11-20
+    scheduled: 2027-01-27
     posted_url: null
   - id: us-ica-2017-russia-elections:we-also-assess-putin-russian-2:3131a1b5
     report: us-ica-2017-russia-elections
@@ -1256,4 +1256,108 @@ items:
     link: https://reportsthatmatter.org/reports/us-lehman-examiner?p=gelband-removed-from-position-several&h=|Gelband%20was%20removed%20from%20the%20position%20for%20several%20reasons%2C%20including%20that%20he%20was%20not%20aggressive%20enough%20in%20growing%20the%20business%20in%20accordance%20with%20Fuld's%20longterm%20revenue%20targets.|%20Fuld%20and%20Gregory%20also&src=bsky
     card: assets/cards/us-lehman-examiner/q-5081de94.png
     scheduled: 2026-12-12
+    posted_url: null
+  - id: uk-stern-review:from-all-these-perspectives-evidence:22fe444b
+    report: uk-stern-review
+    hook: The Stern Review put the yearly cost of holding greenhouse gases at
+      500-550ppm CO2e at around 1% of GDP by 2050. Unchecked climate change, it
+      estimated, would cut welfare by the equivalent of 5% to 20% of consumption
+      per head. It weighed the two in 3 different ways.
+    paragraph: from-all-these-perspectives-evidence
+    quote: "the evidence gathered by the Review leads to a simple conclusion: the
+      benefits of strong, early action considerably outweigh the costs."
+    text: >-
+      The Stern Review put the yearly cost of holding greenhouse gases at
+      500-550ppm CO2e at around 1% of GDP by 2050. Unchecked climate change, it
+      estimated, would cut welfare by the equivalent of 5% to 20% of consumption
+      per head. It weighed the two in 3 different ways.
+
+
+      — Stern Review, p. ii
+    link: https://reportsthatmatter.org/reports/uk-stern-review?p=from-all-these-perspectives-evidence&h=all%20of%20these%20perspectives%2C%20|the%20evidence%20gathered%20by%20the%20Review%20leads%20to%20a%20simple%20conclusion%3A%20the%20benefits%20of%20strong%2C%20early%20action%20considerably%20outweigh%20the%20costs.|&src=bsky
+    card: assets/cards/uk-stern-review/q-efe00b69.png
+    scheduled: 2026-11-15
+    posted_url: null
+  - id: uk-stern-review:climate-change-presents-unique-challenge:8b7b5d6c
+    report: uk-stern-review
+    hook: In July 2005 the Chancellor, Gordon Brown, asked Nicholas Stern, head of
+      the Government Economic Service, to review the economics of climate
+      change. On the first page of its summary, published in October 2006, the
+      Review says what kind of economic problem it is.
+    paragraph: climate-change-presents-unique-challenge
+    quote: "Climate change presents a unique challenge for economics: it is the
+      greatest and widest-ranging market failure ever seen."
+    text: >-
+      In July 2005 the Chancellor, Gordon Brown, asked Nicholas Stern, head of
+      the Government Economic Service, to review the economics of climate
+      change. On the first page of its summary, published in October 2006, the
+      Review says what kind of economic problem it is.
+
+
+      — Stern Review, p. i
+    link: https://reportsthatmatter.org/reports/uk-stern-review?p=climate-change-presents-unique-challenge&h=|Climate%20change%20presents%20a%20unique%20challenge%20for%20economics%3A%20it%20is%20the%20greatest%20and%20widest-ranging%20market%20failure%20ever%20seen.|%20The%20economic%20analysis&src=bsky
+    card: assets/cards/uk-stern-review/q-e329014f.png
+    scheduled: 2026-11-14
+    posted_url: null
+  - id: uk-stern-review:important-corollary-there-high-price:5d9bc8b7
+    report: uk-stern-review
+    hook: 'Holding greenhouse gases at 450ppm CO2e was "already almost out of
+      reach", the Stern Review judged in 2006: the world was likely to hit that
+      level within 10 years, and cutting emissions fast would be very costly.
+      The next paragraph draws the lesson.'
+    paragraph: important-corollary-there-high-price
+    quote: An important corollary is that there is a high price to delay.
+    text: >-
+      Holding greenhouse gases at 450ppm CO2e was "already almost out of reach",
+      the Stern Review judged in 2006: the world was likely to hit that level
+      within 10 years, and cutting emissions fast would be very costly. The next
+      paragraph draws the lesson.
+
+
+      — Stern Review, p. xv
+    link: https://reportsthatmatter.org/reports/uk-stern-review?p=important-corollary-there-high-price&h=|An%20important%20corollary%20is%20that%20there%20is%20a%20high%20price%20to%20delay.|%20Delay%20in%20taking%20action&src=bsky
+    card: assets/cards/uk-stern-review/q-ba64969a.png
+    scheduled: 2026-11-18
+    posted_url: null
+  - id: uk-stern-review:impacts-climate-change-are-not:42f41207
+    report: uk-stern-review
+    hook: A 1m rise in sea level could put more than a fifth of Bangladesh under
+      water, the Stern Review noted in 2006. The poorest countries, it said,
+      depend heavily on agriculture, the most climate-sensitive sector. Its
+      summary sets out how the harm would fall.
+    paragraph: impacts-climate-change-are-not
+    quote: The impacts of climate change are not evenly distributed - the poorest
+      countries and people will suffer earliest and most.
+    text: >-
+      A 1m rise in sea level could put more than a fifth of Bangladesh under
+      water, the Stern Review noted in 2006. The poorest countries, it said,
+      depend heavily on agriculture, the most climate-sensitive sector. Its
+      summary sets out how the harm would fall.
+
+
+      — Stern Review, p. vii
+    link: https://reportsthatmatter.org/reports/uk-stern-review?p=impacts-climate-change-are-not&h=|The%20impacts%20of%20climate%20change%20are%20not%20evenly%20distributed%20-%20the%20poorest%20countries%20and%20people%20will%20suffer%20earliest%20and%20most.|%20And%20if%20and%20when%20the&src=bsky
+    card: assets/cards/uk-stern-review/q-a685c9b5.png
+    scheduled: 2026-11-16
+    posted_url: null
+  - id: uk-stern-review:there-still-time-avoid-worst:f6545091
+    report: uk-stern-review
+    hook: COP31 in Antalya is due to close today. Twenty years ago the Stern Review
+      ended its summary by calling the economic risks of inaction "very severe"
+      and saying the policy tools to change course already existed. Its final
+      section opens with one sentence in bold.
+    paragraph: there-still-time-avoid-worst
+    quote: There is still time to avoid the worst impacts of climate change if
+      strong collective action starts now.
+    text: >-
+      COP31 in Antalya is due to close today. Twenty years ago the Stern Review
+      ended its summary by calling the economic risks of inaction "very severe"
+      and saying the policy tools to change course already existed. Its final
+      section opens with one sentence in bold.
+
+
+      — Stern Review, p. xxvii
+    link: https://reportsthatmatter.org/reports/uk-stern-review?p=there-still-time-avoid-worst&h=|There%20is%20still%20time%20to%20avoid%20the%20worst%20impacts%20of%20climate%20change%20if%20strong%20collective%20action%20starts%20now.|&src=bsky
+    card: assets/cards/uk-stern-review/q-345967f7.png
+    scheduled: 2026-11-20
     posted_url: null

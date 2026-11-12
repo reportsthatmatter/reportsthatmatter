@@ -175,10 +175,12 @@ highlights:
     quote: >-
       the evidence gathered by the Review leads to a simple conclusion: the
       benefits of strong, early action considerably outweigh the costs.
+    card: true
   - paragraph: climate-change-presents-unique-challenge
     quote: >-
       Climate change presents a unique challenge for economics: it is the
       greatest and widest-ranging market failure ever seen.
+    card: true
   - paragraph: achieving-these-deep-cuts-emissions
     quote: >-
       The Review estimates the annual costs of stabilisation at 500-550ppm
@@ -187,10 +189,12 @@ highlights:
   - paragraph: important-corollary-there-high-price
     quote: >-
       An important corollary is that there is a high price to delay.
+    card: true
   - paragraph: impacts-climate-change-are-not
     quote: >-
       The impacts of climate change are not evenly distributed - the poorest
       countries and people will suffer earliest and most.
+    card: true
   - paragraph: evidence-shows-ignoring-climate-change
     quote: >-
       Tackling climate change is the pro-growth strategy for the longer term,
@@ -219,6 +223,7 @@ highlights:
     quote: >-
       There is still time to avoid the worst impacts of climate change if
       strong collective action starts now.
+    card: true
   - paragraph: evidence-shows-ignoring-climate-change
     quote: >-
       Our actions over the coming few decades could create risks of major
