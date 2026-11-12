@@ -1,6 +1,6 @@
 {
-  "words": 164419,
-  "paragraphs": 2310,
+  "words": 164220,
+  "paragraphs": 2274,
   "sections": [
     {
       "slug": "in-memoriam",
@@ -113,8 +113,8 @@
     {
       "slug": "33-wing-leading-edge-structural-subsystem",
       "title": "3.3 WING LEADING EDGE STRUCTURAL SUBSYSTEM",
-      "paragraphs": 52,
-      "ids": "6c262eae4b93"
+      "paragraphs": 49,
+      "ids": "da03dc0aee31"
     },
     {
       "slug": "34-image-and-transport-analyses",
@@ -131,20 +131,20 @@
     {
       "slug": "36-de-orbitre-entry",
       "title": "3.6 De-Orbit/Re-Entry",
-      "paragraphs": 108,
-      "ids": "36e38392d40b"
+      "paragraphs": 98,
+      "ids": "04fddd048a7b"
     },
     {
       "slug": "37-debris-analysis",
       "title": "3.7 Debris Analysis",
       "paragraphs": 46,
-      "ids": "cfcac8fbe600"
+      "ids": "43414cf98583"
     },
     {
       "slug": "38-impact-analysis-and-testing",
       "title": "3.8 Impact Analysis and Testing",
-      "paragraphs": 65,
-      "ids": "23390bf65299"
+      "paragraphs": 64,
+      "ids": "055a8b4cd17d"
     },
     {
       "slug": "41-fault-tree",
@@ -179,20 +179,20 @@
     {
       "slug": "53-an-agency-trying-to-do-too-much-with-too-little",
       "title": "5.3 An Agency Trying to Do Too Much With Too Little",
-      "paragraphs": 74,
-      "ids": "200453614a43"
+      "paragraphs": 73,
+      "ids": "b5fac229225c"
     },
     {
       "slug": "54-turbulence-in-nasa-hits-the-space-shuttle-program",
       "title": "5.4 Turbulence in NASA Hits the Space Shuttle Program",
-      "paragraphs": 86,
-      "ids": "98875b6f998c"
+      "paragraphs": 91,
+      "ids": "4e8ce44a415a"
     },
     {
       "slug": "55-when-to-replace-the-space-shuttle",
       "title": "5.5 When to Replace the Space Shuttle?",
-      "paragraphs": 48,
-      "ids": "35acca1e9796"
+      "paragraphs": 51,
+      "ids": "ea0c3b39d44b"
     },
     {
       "slug": "56-a-change-in-nasa-leadership",
@@ -221,14 +221,14 @@
     {
       "slug": "62-schedule-pressure",
       "title": "6.2 Schedule Pressure",
-      "paragraphs": 85,
-      "ids": "dc062ff1fbca"
+      "paragraphs": 77,
+      "ids": "46ad1f4b7f00"
     },
     {
       "slug": "63-decision-making-during-the-flight-of-sts-107",
       "title": "6.3 Decision-Making During the Flight of STS-107",
-      "paragraphs": 333,
-      "ids": "ac7bdc6db48e"
+      "paragraphs": 335,
+      "ids": "fbb97b47a418"
     },
     {
       "slug": "64-possibility-of-rescue-or-repair",
@@ -251,32 +251,32 @@
     {
       "slug": "72-organizational-causes-insights-from-theory",
       "title": "7.2 Organizational Causes: Insights from Theory",
-      "paragraphs": 17,
-      "ids": "192ed59b4020"
+      "paragraphs": 11,
+      "ids": "51a901f65cd5"
     },
     {
       "slug": "73-organizational-causes-evaluating-best-safety-practices",
       "title": "7.3 Organizational Causes: Evaluating Best Safety Practices",
-      "paragraphs": 22,
-      "ids": "bcd7eb5b674e"
+      "paragraphs": 21,
+      "ids": "30109bf1ad59"
     },
     {
       "slug": "74-organizational-causes-a-broken-safety-culture",
       "title": "7.4 Organizational Causes: A Broken Safety Culture",
-      "paragraphs": 65,
-      "ids": "2d3fa90fea55"
+      "paragraphs": 58,
+      "ids": "9c4b127ed53b"
     },
     {
       "slug": "75-organizational-causes-impact-of-a-flawed-safety-culture-on-sts-107",
       "title": "7.5 Organizational Causes: Impact of a Flawed Safety Culture on STS-107",
-      "paragraphs": 40,
-      "ids": "56bbe339c3f3"
+      "paragraphs": 41,
+      "ids": "29e320d4cc3a"
     },
     {
       "slug": "76-findings-and-recommendations",
       "title": "7.6 Findings and Recommendations",
-      "paragraphs": 23,
-      "ids": "f0557bd4779b"
+      "paragraphs": 22,
+      "ids": "52396d17f95d"
     },
     {
       "slug": "81-echoes-of-challenger",
@@ -347,8 +347,8 @@
     {
       "slug": "102-crew-escape-and-survival",
       "title": "10.2 Crew Escape and Survival",
-      "paragraphs": 40,
-      "ids": "05aa8c9b5db1"
+      "paragraphs": 41,
+      "ids": "1d7f7d0382aa"
     },
     {
       "slug": "104-industrial-safety-and-quality-assurance",
@@ -383,8 +383,8 @@
     {
       "slug": "chapter-11-recommendations",
       "title": "Chapter 11: Recommendations",
-      "paragraphs": 52,
-      "ids": "22d74d0049c0"
+      "paragraphs": 42,
+      "ids": "c3dda8520e5d"
     },
     {
       "slug": "a1-activation-of-the-columbia-accident-investigation-board",

@@ -5,27 +5,19 @@
 # reused: an id that now names a different paragraph than it did (movedTo: where the old text went); pending until accepted (hxo4, rf4c).
 # moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).
 aliases:
-  "-1000": 400-500-600-700-800
   -21-10: 7-4-organizational-causes-broken
   0-026-inch-deep-dimple-january-2000: since-1997-inspections-have-revealed
-  0-100-200-300-400: 400-500-600-700-800
-  0-100-200-300-400-2: 400-500-600-700-800
-  0-100-200-300-400-3: 400-500-600-700-800
-  0-100-200-300-400-4: 400-500-600-700-800
   0-2-seconds-shuttle-struck: variety-computer-models-used-estimate
   0-52-00-0-53: 49-00-0-50-00
-  09-02-12-02-management: 06-02-09-02-12
+  00-16-00-31-00: gesting-breach-rcc-through-panel
   1-3-shuttle-development-testing: volume-i-memoriam-3
   1-40: no-one-injured-little-property
   1-5: illusion-space-shuttle-operational-system
   10-8-brittle-fracture-a-286: 7-4-organizational-causes-broken
   11-13-03: iss-ssp-program-managers-have
-  12-01-03-02-06: 12-01-03-02
   12-inch-piece-left-bipod-ramp: first-known-bipod-ramp-foam
   14-7-details-test-instrumentation: five-engineering-tests-fiberglass-panels
   143-351-gallons-liquid-oxygen: external-tank-largest-element-space
-  16-17-18-19-20: 16-17-18-19-21
-  17-2-6-19-10: 9-17-2-6
   1993-1994-1995-1996-1997: 1993-1994-1995-1996
   1993-1994-1995-1996-1997-2: 1993-1994-1995-1996
   2-5: done-after-every-launch-within
@@ -49,16 +41,16 @@ aliases:
   50-percent-over-fy-2001: pressure-nasaʼs-budget-has-come
   5700-wires-had-be-close: ing-burn-throughs-had-occur-area
   59-09-leakage-sneak-flow: series-thermal-analyses-performed-different
-  59-09-some-150-wires: some-150-wires-ran-along
+  59-09-some-150-wires: fourteen-seconds-after-loss-first
   6-3-decision-making-during-flight: volume-i-memoriam-3
   6-8-36-41-35: 65-63-69-74-75
+  6-p-b-trend: 6-p-b
   65-68-63-71-69: 65-63-69-74-75
   7-4-13-there-are-conflicting: f7-4-13-there-are-conflicting
   7-4-organizational-causes: 7-4-organizational-causes-broken
   8-4-organization-culture: 7-4-organizational-causes-broken
-  8-6-8-8-4: operating-plan-actuals-fiscal-year
   8-angle-incidence-between-10: image-analysis-determined-foam-moving
-  9-17-2-6-19: 9-17-2-6
+  9-panel: location-debris-ground-also-provided
   abort-shall-be-made-based: 2-6-4-determinations-regarding
   accident-ing-space-vehicle-will: rockets-their-very-nature-are
   accordingly-2002-nasa-decided-reorient: recent-years-there-has-been
@@ -131,7 +123,8 @@ aliases:
   commission-fcc-02-80-federal-register: history-u-s-space-flight
   commission-future-u-s-aerospace: second-reality-following-from-lack
   commissionʼs-report-issued-june-6: february-3-1986-president-reagan
-  complex-39-a-july-1994-confirmed: samples-from-rotating-support-structure
+  communicate-potential-problems-throughout-organization: f7-4-12-dependence-safety-reliability
+  complex-39-a-july-1994-confirmed: october-1993-panel-12-right-removed
   complexity-political-mandates-surrounding-international: first-glance-core-complete-configuration
   concentrating-rebuilding-repair-safety-takes: changes-organizational-structure-should-be
   congress-added-25-million-shuttle: fiscal-year-2002-congress-added
@@ -146,10 +139,10 @@ aliases:
   current-safety-system-structure-leaves: boardʼs-view-shared-previous-assessments
   current-system-does-not-allow: f10-3-3-nasa-normally-uses
   cylinder-dimensions-3-8-dia: test-parameter-test-value-sts-107
-  damage-rcc-assemblies-challenge-17: impacts-representative-those-occurred-during
+  damage-rcc-assemblies-challenge-17: f3-8-2-wing-leading-edge
   daniel-b-leiser-et-al: nasa-also-evaluated-possibility-increasing
   date-eleventh-progress-have-varied: ten-orbiter-major-modifications-have
-  debris-7-trend---13: 6-p-b-trend
+  debris-7-trend---13: 6-p-b
   debris-notice-proposed-rulemaking-federal: history-u-s-space-flight
   debris-search-recovery: sunday-board-members-flew-government
   debris-search-recovery-naled-breakup: morning-february-1-crackling-boom
@@ -165,7 +158,6 @@ aliases:
   dimensions-aerodynamic-characteristics-conditions-impact: nasa-others-have-developed-sophisticated
   discussed-chapter-6-hazard-report: worth-noting-shuttleʼs-thermal-protection
   discussions-how-frames-cultural-beliefs: both-situations-all-new-information
-  division-shuttle-chief-engineer-dce: rodney-rocha-es2-division-shuttle
   documents-actions-requested-from-nasa: close-coordination-nasa-investigation-team
   doesnʼt-make-sense-me-why: i-guess-my-frustration-i
   dollars-space-activities-u-s: during-past-decade-neither-white
@@ -217,7 +209,6 @@ aliases:
   figure-3-6-11-computational-fluid: later-computational-fluid-dynamics-analysis
   financial-independence: ensure-boardʼs-financial-independence-nasa
   findings-caib-nait-working-scenario: complete-compilation-all-re-entry-data
-  fiscal-year-1999: june-1997-flight-assignment-working
   fiscal-year-2002-earmarks-represented: pressure-nasaʼs-budget-has-come
   fiscal-years-1965-2002-real-constant: during-past-decade-neither-white
   flawed-safety-culture-sts-107: 7-4-organizational-causes-broken
@@ -231,7 +222,7 @@ aliases:
   flight-okay-flight-fdo-when: inco-flight-inco-spc-stored
   flight-okay-i-got-you: flight-mmacs-tell-me-again
   flight-okay-mmacs-flight-mmacs: flight-gnc-flight-gnc-flight
-  flight-rate-7-8-6: operating-plan-actuals-fiscal-year
+  flight-rate-7-8-6: 8-6-8-8-4
   flight-sts-7-sts-32r-sts-50-sts-52: flight-sts-7-sts-32r-sts-50
   fluent-6-1-2d-coupled: later-computational-fluid-dynamics-analysis
   flying-shuttle-known-problem-violated: shedding-external-tank-foam-physical
@@ -254,11 +245,12 @@ aliases:
   generally-higher-information-transmitted-hierar: generally-higher-information-transmitted-hierarchy
   gnc-flight-gnc-flight-everything: flight-gnc-flight-gnc-flight
   hallenger-columbia-operate-space-shuttle: space-shuttle-program-has-been
-  hazard-analysis-fundamental-element-system: board-found-similar-problems-integrated
+  hazard-analysis-which-merely-lists: hazard-analysis-fundamental-element-system
   headquarters-contingency-action-team-quickly: senior-members-nasa-leadership-met
   headquarters-office-safety-reliability-quality: july-1986-nasa-administrator-james
   heppenheimer-development-space-shuttle-p: origins-space-shuttle-program-date
   heuristics-biases-cambridge-cambridge-university: both-situations-all-new-information
+  high-risk-enterprise-have-fallen-victim: importance-communication-every-juncture-sts-107
   high-temperatures-long-period-spheroids: layered-deposits-panel-8-also
   hit-them-arc-jet-testing: ing-burn-throughs-had-occur-area
   house-senate-versions-nasa-appropriations: pressure-nasaʼs-budget-has-come
@@ -272,6 +264,7 @@ aliases:
   igure-3-3-5-rcc-panel: figure-3-3-5-rcc-panel
   igure-5-4-2-downsizing-overall: figure-5-4-2-downsizing-overall
   impact-created-hole-roughly-16: f3-8-3-impact-created-hole
+  impacts-representative-those-occurred-during: f3-8-2-wing-leading-edge
   in-flight-anomaly-incident-later-described: discovery-launched-sts-42-january-22
   inco-correct-flight-all-looked: flight-inco-we-rolled-left
   inco-thatʼs-correct-flight-i: flight-inco-we-rolled-left
@@ -296,10 +289,12 @@ aliases:
   launch-date-mission-sts-107-since: based-anticipated-launch-date-sts-107
   launch-sts-107-has-been-repeatedly: nearly-everyone-interviewed-kennedy-indicated
   learnedʼ-17: these-definitions-are-inconsistent-those
+  left-right-vehicle-processing-margin: figure-6-2-5-shows-margin
   left-wing-leading-edge-spar-2: left-wing-leading-edge-spar
   lems-affected-fact-engineers-evaluating: from-beginning-nasaʼs-belief-about
   length-up-1-inch-20: test-parameter-test-value-sts-107
   ling-temco-vought-now-lockheed-martin-missiles: development-reinforced-carbon-carbon-rcc-part
+  list-process-designed-bottom-up-analysis: united-space-alliance-which-responsible
   long-term-corrosion-detection: o10-7-2-long-term-corrosion-detection
   long-term-future-human-space-flight: chapter-9-discusses-near-term-mid-term
   look-ahead-long-term-future-human: chapter-9-discusses-near-term-mid-term
@@ -313,10 +308,12 @@ aliases:
   mary-m-d-from-eastern: david-m-brown-mission-specialist
   ment-experience-during-re-entry-phase: orbiter-tps-thermal-protection-system
   mer-manager-told-bob-no: bob-page-told-mer-ksc
+  methodology-conduct-space-shuttle-program: hazard-analysis-fundamental-element-system
   micrometeoroids-orbital-debris-risks: despite-high-level-concern-after
   minimum-maximum-best-estimated-minimum: d-minimum-maximum-best-estimated
   misperceive-risk-social-problems-public: both-situations-all-new-information
   missile-range-nm-88002-5110-june: history-u-s-space-flight
+  mission-assurance-personnel-have-been: importance-communication-every-juncture-sts-107
   mission-control-noted-maintenance-mechanical: rise-hydraulic-line-temperatures-inside
   mission-start-science-research-aboard: june-1997-flight-assignment-working
   mmacs-all-four-them-are: flight-gnc-flight-gnc-flight
@@ -324,7 +321,7 @@ aliases:
   mmacs-no-sir-thereʼs-not: flight-mmacs-flight-mmacs-flight
   most-westerly-piece-debris-has: around-8-58-00-m
   nal-tank-are-machine-sprayed-one: prevent-from-happening-large-areas
-  nasa-actually-allocates-its-appropriated: operating-plan-actuals-fiscal-year
+  nasa-actually-allocates-its-appropriated: 8-6-8-8-4
   nasa-agencyʼs-notable-achievements-since: connecting-parts-nasaʼs-organizational-system
   nasa-ames-research-center-access: investigation-organizer-web-based-pre-decisional-management
   nasa-developed-procedures-ensure-its: after-united-space-alliance-became
@@ -345,6 +342,7 @@ aliases:
   nic-devices-additionally-telemetry-other: debris-from-columbia-examined-traces
   no-attempts-further-examine-threat: columbia-slide-weakens-important-material
   no-dramatic-increase-internal-temperature: board-explored-whether-pressurized-spacehab
+  node-2-launch-prescribed-date: figure-6-2-1-one-charts
   noted-total-number-house-senate: pressure-nasaʼs-budget-has-come
   noteworthy-occurred-only-area-not: severe-damage-lower-carrier-panel
   notice-how-make-sense-executive: both-situations-all-new-information
@@ -359,10 +357,12 @@ aliases:
   once-sts-107-delayed-et-93-had: based-anticipated-launch-date-sts-107
   one-fewer-organization-science-2: changes-organizational-structure-should-be
   operate-space-shuttle-while-would: space-shuttle-program-has-been
-  operating-plan-actuals: operating-plan-actuals-fiscal-year
+  operating-plan-actuals: 8-6-8-8-4
+  operating-plan-actuals-fiscal-year: kraft-report-space-flight-space
   orbiter-challenger-columbia-columbia-columbia: orbiter-challenger-columbia-columbia
   orbiter-cockpit-avionics-upgrades-space: planned-shuttle-safety-upgrades-included
   orbiter-did-not-so-orbiter: just-prior-separating-from-external
+  orbiter-integration-shuttle-safety-reliability: united-space-alliance-which-responsible
   orbiter-major-modifications-example-analysis: typical-wiring-bundle-shown-figure
   orbitersʼ-lower-surfaces-have-average: despite-high-level-concern-after
   organizational-amplification-risks-risk-issues: changes-organizational-structure-should-be
@@ -372,6 +372,7 @@ aliases:
   outside-wing-leading-edge-spar: ei-270-modular-auxiliary-data
   ov-099-flight-6: when-atlantis-landed-engineers-surprised
   oxygen-hydrogen-liquid-state-maintain: external-tank-coated-two-materials
+  panel-88: panel-98
   part-three-recommendation-recertifying-shuttle: chapter-9-discusses-near-term-mid-term
   passed-congress-nasa-further-reduced: kraft-report-space-flight-space
   passenger-return-shall-address-all: 2-5-4-2-cumulative
@@ -391,6 +392,8 @@ aliases:
   processes-outcomes-prentice-hall-1998-pp: changes-organizational-structure-should-be
   program-direction-like-debris-assessment: nevertheless-evident-position-one-occupies
   program-not-effective-voice-discussing: board-believes-safety-organization-due
+  program-now-decides-its-own: importance-communication-every-juncture-sts-107
+  program-shifted-from-comprehensive-oversight: importance-communication-every-juncture-sts-107
   projectile-block-dimensions-3-x: test-parameter-test-value-sts-107
   projectile-shape-cylinder-block-outside: test-parameter-test-value-sts-107
   property-damage: no-one-injured-little-property
@@ -398,6 +401,7 @@ aliases:
   protective-tiles-which-caused-destruction: tufte-also-criticized-sloppy-language
   public-inputs: sheer-volume-documentation-research-generated
   qualification-had-been-installed-nasa: space-shuttle-subjected-variety-tests
+  quality-assurance-delegates-hazard-analysis: united-space-alliance-which-responsible
   quality-planning-requirements-document-which: nearly-everyone-interviewed-kennedy-indicated
   quarters-decentralized-execution-safety-programs: nasaʼs-current-philosophy-safety-mission
   quent-reorganizations-drive-become-more: despite-periodic-attempts-emphasize-safety
@@ -414,6 +418,8 @@ aliases:
   re-entry-water-filled-bag-had-turned: repair-option-see-figure-6
   recommendations-figure-4-2-5-left: figure-4-2-5-left-wing
   reconnaissance-office-nro-crossroads-november: challenger-accident-had-profound-effects
+  records-any-non-conformances-instances-which: problem-reporting-corrective-action-problem
+  refurbishment-performed-three-orbiter-processing: lack-housing-orbiters-becoming-factor
   region-ahead-wing-making-triangulation: transport-analysis-team-screened-several
   remains-just-slightly-above-temperature: no-evidence-suggests-defects-cryo-effects
   report-advisory-committee-future-u: 1969-president-richard-nixon-rejected
@@ -421,8 +427,9 @@ aliases:
   report-advisory-committee-future-u-3: 1969-president-richard-nixon-rejected
   report-national-commission-review-national: challenger-accident-had-profound-effects
   represented-number-critical-items-list: although-shuttle-program-has-undoubtedly
-  requirements-ownership-technical-authority: separate-compliance-verification-organization-independently
+  requirements-ownership-technical-authority: subsafe-requirements-are-clearly-documented
   research-laboratory-final-summary-report: advanced-compact-range-air-force
+  responsibility-safety-mission-assurance: mission-operations-including-flight-directors
   review-on-board-accelerometer-data-rules: micrometeoroids-space-debris-often-called
   rial-substance-work-area-should: any-material-product-substance-tool
   richard-truly-commented-we-will: took-nasa-32-months-after
@@ -434,25 +441,28 @@ aliases:
   river-west-may-11-1792: columbia-named-after-boston-based-sloop
   rocket-booster-de-mate-mate-operations: based-anticipated-launch-date-sts-107
   rocket-boosters-bipod-struts-also: based-anticipated-launch-date-sts-107
-  rodney-rocha-es2: rodney-rocha-es2-division-shuttle
+  rodney-rocha-es2-division-shuttle: rodney-rocha-es2
   roses-rice-flowers-experiments-combustion: crew-members-conducted-missionʼs-longest
   routine-system-over-past-22: commitments-nasa-made-during-policy
   safely-launch-people-into-space: external-criticism-doubt-rather-than
   safety-3-1-1992-pp: changes-organizational-structure-should-be
   safety-policy: section-board-examines-nasaʼs-safety
-  safeʼs-compliance-critical-design-process: separate-compliance-verification-organization-independently
+  safeʼs-compliance-critical-design-process: subsafe-requirements-are-clearly-documented
+  samples-from-rotating-support-structure: october-1993-panel-12-right-removed
   searchers-found-tile-field-littlefield: around-8-58-00-m
   section-based-information-from-following: advanced-compact-range-air-force
   see-caib-nait-joint-working: complete-compilation-all-re-entry-data
   see-dennis-r-jenkins-space: origins-space-shuttle-program-date
   see-dennis-r-jenkins-space-2: origins-space-shuttle-program-date
   sensor-loss-onset-unusual-aerodynamic: fourteen-seconds-after-loss-first
+  separate-compliance-verification-organization-independently: subsafe-requirements-are-clearly-documented
   shape-teardrop-intersected-perpendicular-upper: instead-loud-explosion-we-heard
   should-need-no-adjustment-mindset: nearly-everyone-interviewed-kennedy-indicated
   shuttle-accidents-although-nasa-leaders: constraints-under-which-agency-has
   shuttle-based-technology-developed-x-33: figure-5-5-2-venturestar-intended
   shuttle-components-these-faults-fall: some-fault-trees-are-very
   shuttle-could-be-readied-launch: after-challenger-accident-shuttle-no
+  shuttle-hazards-which-4-222: critical-item-list-cil-tracks
   shuttle-main-engine-solid-rocket: planned-shuttle-safety-upgrades-included
   shuttle-main-engines-external-administrator: shuttle-main-engines-external-space
   shuttle-majority-contractor-personnel-assigned: kennedy-space-center-created-launch
@@ -464,6 +474,7 @@ aliases:
   solid-rocket-booster: fault-tree-review-brought-light
   solid-rocket-booster-summa-bolt: every-bolt-catcher-must-be
   solid-rocket-motor-propellant-grain: planned-shuttle-safety-upgrades-included
+  some-150-wires-ran-along: fourteen-seconds-after-loss-first
   sometimes-competing-requirements-resulted-compromise-vehicle: chapter-1-relates-history-space
   space-activities-u-s-government: during-past-decade-neither-white
   space-allianceʼs-clean-you-go: because-debris-any-kind-has
@@ -484,6 +495,7 @@ aliases:
   specialty-press-2001-pp-421-424: challenger-accident-had-profound-effects
   speed-about-545-mph-800: team-identified-relatively-narrow-range
   stacy-l-walpole-administrative-support: charles-babish-investigator-col-timothy
+  standardization-9000-9001-protocol-commonly: importance-communication-every-juncture-sts-107
   starbuck-frances-milliken-executive-perceptual: both-situations-all-new-information
   stars-are-families-who-say: when-itʼs-dark-stars-come
   station-flight-sometime-after-sts-107: columbia-had-been-manufactured-early
@@ -501,7 +513,7 @@ aliases:
   sts-52-sts-62-sts-107: flight-sts-7-sts-32r-sts-50
   studies-convinced-nasa-leaders-workforce: end-decade-nasa-realized-staff
   subject-sts-107-wing-debris-impact-2: from-rocha-alan-r-rodney
-  subsafe-program-implementing-organization-are: separate-compliance-verification-organization-independently
+  subsafe-program-implementing-organization-are: subsafe-requirements-are-clearly-documented
   subsafe-significant-differences-exist-between: board-observed-following-during-its
   suggested-decade-downsizing-budget-tightening: examination-shuttle-programʼs-history-from
   summary: management-decisions-made-during-columbiaʼs
@@ -526,9 +538,11 @@ aliases:
   there-are-however-cases-where: because-pressure-fault-intersects-perpendicular
   there-no-mention-processing-debris: these-definitions-are-inconsistent-those
   therefore-indicates-either-inadequate-documentation: 141-127-inspections-subject-rejection
+  therefore-not-surprising-hazard-analysis: hazard-analysis-fundamental-element-system
   these-categories-are-particular-concern: process-review-teamʼs-sampling-plan
   these-i-loads-are-initializing-data: launch-day-general-purpose-computers-orbiter
   these-searchers-drawn-from-across: within-two-weeks-number-ground
+  third-shuttle-systems-checks-see: importance-communication-every-juncture-sts-107
   tile-locations: no-the-amount-damage-et-foam
   tile-material-li-900-acreage-tile: test-parameter-test-value-sts-107
   time-min-sec-substantial-leading: ei-555-columbia-crossed-california
@@ -650,6 +664,7 @@ unmatched:
   - -1-0-3
   - "-100"
   - -100-2
+  - "-1000"
   - -14-7-5-moved-ov-104
   - -2-0
   - -2-1-2
@@ -668,6 +683,10 @@ unmatched:
   - 0-0020-delta-cll-aero
   - 0-0025
   - 0-100-200-300
+  - 0-100-200-300-400
+  - 0-100-200-300-400-2
+  - 0-100-200-300-400-3
+  - 0-100-200-300-400-4
   - 0-100-200-300-400-5
   - 0-5
   - 0-5-1-1-5
@@ -679,7 +698,9 @@ unmatched:
   - 00-20-6-650
   - 002-millions-shuttle-developmental-vehicle
   - 01-11-9
+  - 06-02-09-02-12
   - 073-dropped-off-scale-low-reading
+  - 09-02-12-02-management
   - 1-0
   - 1-0-22-5-days
   - 1-2-3
@@ -693,8 +714,12 @@ unmatched:
   - 10-2-03-2-19
   - 10-5
   - 10-hole-sneak-flow-osh
+  - 100-200-300
   - 1000-sts---107
   - 105-483-ft-300-2
+  - 11-2002-12-1-2
+  - 12-01-03-02
+  - 12-01-03-02-06
   - 12-inches
   - 12-inches-igure-3-2-3
   - 12a
@@ -708,13 +733,18 @@ unmatched:
   - 13-55-36-42-pressure
   - 13-56-24
   - 13-56-24-vis-left
+  - 13-57-19-29
   - 138-690-ft
   - 14-000
   - 14-18-2-moved-node2
   - 148-800-ft-7-7
+  - 150-200-250-300-350
   - 150-59-32-unknown-450
   - 16-000
   - 16-17
+  - 16-17-18-19-20
+  - 16-17-18-19-21
+  - 17-2-6-19-10
   - 17-2003
   - 18-000
   - 18-2-moved-node2-ov-105
@@ -749,6 +779,7 @@ unmatched:
   - 2002-14-868-14-868
   - 2003-15-335-na
   - 2003-caib-document-ctf036-02000200
+  - 21-22
   - 24-2002
   - "25"
   - 25-25
@@ -777,6 +808,7 @@ unmatched:
   - 40-million-fund-mars-initiative
   - 40-purchasing-power-45-purchasing
   - 400-138-690-ft
+  - 400-500-600-700-800
   - 400-ei-522
   - 400-t
   - 44-09-time-seconds-from
@@ -811,7 +843,12 @@ unmatched:
   - 8-9-26-3
   - 8-power-00-18-19
   - 80-9-9
+  - 800-900
   - 9-000
+  - 9-10-11-12-1
+  - 9-17-2-6
+  - 9-17-2-6-19
+  - 9-panel-panel
   - 900-1000
   - accident-analysis
   - accident-washington-government-printing-office
@@ -848,6 +885,7 @@ unmatched:
   - analysis
   - appendices
   - appendix-e-2-copy-report
+  - approve-provisions-recertifica
   - april-23-2003-houston-texas
   - april-7-2003-caib-document
   - april-8-2003-houston-texas
@@ -865,6 +903,7 @@ unmatched:
   - ballistic-flight--assumed-forward-9
   - ballistic-number-psf
   - baseline-smooth
+  - be-sole-waiver-granting-authority-all
   - bending-manipulation-damage
   - bipod-fitting
   - bipod-ramp-feedline-y-left
@@ -908,6 +947,7 @@ unmatched:
   - caib-document-ctf017-03960413
   - caib-document-ctf017-03960413-introduced-late
   - called-these-failures-foresight-barry
+  - carbon-taking-advantage-additional-capabilities
   - cases-these-reductions-have-been
   - chair-space-shuttle-loads-dynamics
   - challenger-launch-decision-p-178
@@ -941,6 +981,8 @@ unmatched:
   - conclusion-3
   - conclusions
   - concordance
+  - conduct-integrated-hazard-analysis
+  - conduct-trend-risk-analysis-subsystem
   - congress-1st-sess-november-2001
   - congress-reduced-shuttle-budget-50
   - congressional-budget-office-nasaʼs-space
@@ -950,6 +992,7 @@ unmatched:
   - continuing-foam-loss
   - contract-nas9-2000
   - contractors-july-29-2003
+  - converting-all-drawings-computeraided-drafting
   - cost-evaluation-imce-task-force
   - countdown-space-station-core-complete
   - crew-escape-system-shall-be
@@ -987,6 +1030,7 @@ unmatched:
   - debris-assessment-team-shortcomings
   - debris-strike
   - december-20-2002-caib-document
+  - decide-what-not-anomalous-event
   - decision-making
   - decision-pursue-safety-investigation
   - decision-risky-technology-culture-deviance
@@ -1000,6 +1044,7 @@ unmatched:
   - deputy-aa
   - deteriorating-shuttle-infrastructure
   - determine-before-flight-day-seven
+  - develop-maintain-technical-standards
   - developing-new-space-transportation-system
   - diane-vaughan-challenger-launch-decision
   - diane-vaughan-challenger-launch-decision-2
@@ -1101,10 +1146,6 @@ unmatched:
   - findings-9
   - firm-vice-presidential-memoir-new-york
   - first-debris-assessment-team-meeting
-  - fiscal-year-1998
-  - fiscal-year-2000
-  - fiscal-year-2001
-  - fiscal-year-2002
   - fl-specialty-press-2001-pp
   - flat-portion-3-bundles
   - flawed-analysis
@@ -1148,6 +1189,7 @@ unmatched:
   - ft-worth-dallas
   - funding-via-integrated-task-agreements
   - fuselage-separation
+  - fy-2001-fy-2002
   - gao-report-survey-nasa-lessons
   - general-accounting-office-review-1990
   - general-manager-launch-verification-division
@@ -1208,6 +1250,8 @@ unmatched:
   - importance-debris
   - improve-maintenance-launch-pad-structures
   - inco-commander-roger-cut-off
+  - incorporating-engineering-changes
+  - independently-verify-launch-readiness
   - industrial-safety
   - industry-mission-assurance-forum-aerospace
   - information-section-derived-from-briefing
@@ -1404,14 +1448,13 @@ unmatched:
   - ov-105-0-0
   - ov-105-0-0-0-0
   - oversight-board-activities
+  - own-failure-mode-effects-analysis
   - p-b-debris-8
+  - panel
   - panel-10-panel-9
   - panel-10-panel-9-2
   - panel-t-seal-assembly
   - panels-8-22
-  - para-2
-  - para-3
-  - para-4
   - para-5
   - para-6
   - para-7
@@ -1792,13 +1835,9 @@ unmatched:
   - worth-texas
 moved_out:
   0-000: null
-  06-02-09-02-12: null
-  11-2002-12-1-2: null
   2-5-4-crew-survival: 2-5-4-1-part
   2-6-abort-crew-escape: 2-6-1-capability-rapid
   450-500: null
-  9-10-11-12-1: null
-  9-panel: null
   after-canceling-department-defense-imagery: -----original-message----from-ham-linda
   btu-ft-2-sec: null
   calvin: i-wouldn-t-think-we
@@ -1816,13 +1855,14 @@ moved_out:
   fyi-your-information-tps-thermal: shuttle-program-managers-regarded-schomburg
   ham-alright-i-know-you: mccormack-yeah-everybody-knows-we
   i-have-think-subconsciously-even: from-thomas-dawn-jsc-oc-nasa
-  irony-space-shuttle-safety-upgrade: shuttle-hazards-which-4-222
+  irony-space-shuttle-safety-upgrade: null
   leading-edge-structural-subsystem-test: null
   mcc-pocc-mission-control-center: e-mail-followed-another-crew-attachment
   mccormack-okay: after-meeting-rationale-continuing-fly
   mer-mission-evaluation-room-es-dce: response-e-mail-don-mccormack-told
-  problem-reporting-corrective-action-problem: records-any-non-conformances-instances-which
+  problem-reporting-corrective-action-problem: null
   program-requirements-control-board-meeting: january-1996-goldin-appointed-johnsonʼs
+  r10-3-2-provide-adequate-resources: null
   r10-3-2-provide-adequate-resources-2: r10-3-2-provide-adequate-resources
   r6-4-1-missions-international-space-2: null
   r7-5-1-establish-independent-technical: null
@@ -1831,6 +1871,7 @@ moved_out:
   reviews-flight-deck-footage-confirm-flight: flight-director-steve-stich-discussed
   separation-crew-module-forward-fuselage: null
   soon-intercenter-working-group-report: null
+  station-iss: fiscal-year-1998
   sts-107-delta-rolling-yawing: null
   subsequent-printing-distribution-national-aeronautics: null
   two-45-left-wing-strain: null

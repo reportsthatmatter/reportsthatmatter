@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-13 — Columbia's bulleted points and findings
+
+More of [the Columbia Accident Investigation Board's report](/reports/columbia-accident) reads as it was printed: bulleted points that run from one column to the next stay whole, a bullet no longer runs into the sentence before it, the paragraphs set under a bullet ("United Space Alliance, which is responsible for both…") are no longer cut into a paragraph a line, and finding F7.4-13 is whole again. The leftover numbers from chart axes ("400 500 600 700 800 900 1000") are gone from between paragraphs.
+
+---
+
 ## 2026-11-13 — Leveson's Parts, chapters and sections have headings
 
 [The Leveson Inquiry's report](/reports/uk-leveson-inquiry) had 100 headings over its 2,000 pages, many attached to the wrong text, and most of its Parts and chapters had none: their titles are set in small capitals that the text layer garbles ("ChapTer 2 / The approaCh"). Headings are now read off the typefaces the report prints them in, so every Part, chapter and numbered section has one ("Part K: Regulatory Models for the Future", "Chapter 7: Conclusions and recommendations for future regulation of the press"), 1,331 in all, and the contents follows the report's own structure. The Part letters printed at the page edge no longer leak into the text ("I 2.36 Before Mr Coulson…"). Old links to paragraphs and sections still land where they did.

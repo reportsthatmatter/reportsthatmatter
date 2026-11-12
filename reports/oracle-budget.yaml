@@ -46,7 +46,7 @@ reports:
     note-off-page: 1
   columbia-accident:
     markers-unlinked: 5  # why: reportsthatmatter-n891 (the oracle now reads raised digits on quotation lines too; +2, read on pp.100 and 124: "its resources.”5" and "other Orbiters.10" are real markers the text leaves bare; reportsthatmatter-pfgn)
-    paragraphs-oversplit: 174
+    paragraphs-oversplit: 149
     quotes-spurious: 57
   us-911-commission:
     markers-unlinked: 6
