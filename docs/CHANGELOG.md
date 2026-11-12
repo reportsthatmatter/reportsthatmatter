@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-12 — Hillsborough's page numbers and numbered paragraphs
+
+In [the Hillsborough Independent Panel's report](/reports/uk-hillsborough-panel), the twelve pages that open a Part, a chapter or an appendix had no page number of their own, because the report prints it at the end of a footer naming the division; their text was cited with the page before. They now have their numbers, and 79 paragraphs that were cited with the wrong page are cited with the right one. In the stretches taken from the PDF, 55 numbered paragraphs that had run into the one before ("2.4.53 … 2.4.54 …") are paragraphs of their own, each with its own link. Our error estimate for the report falls from 3.6 to 1.1 per 10 pages.
+
+---
+
 ## 2026-11-08 — Challenger's footnotes, appendix noise and split sentences
 
 In [the House Committee's Challenger report](/reports/challenger-accident), 153 footnotes the 1986 scan's OCR had garbled ("bid." for "29 Ibid.") now read as footnotes instead of sitting in the middle of the text: restored one by one from the page images, they leave the paragraphs they used to interrupt whole. 23 sentences the scan had cut in two are one again, and the appendices lose 95 stray "I" paragraphs (table rules) and the running heads of a reprinted NASA desk instruction. Our error estimate for the report falls from 8.1 to 6.6 per 10 pages.
