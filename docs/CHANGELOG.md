@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-13 — Leveson's Parts, chapters and sections have headings
+
+[The Leveson Inquiry's report](/reports/uk-leveson-inquiry) had 100 headings over its 2,000 pages, many attached to the wrong text, and most of its Parts and chapters had none: their titles are set in small capitals that the text layer garbles ("ChapTer 2 / The approaCh"). Headings are now read off the typefaces the report prints them in, so every Part, chapter and numbered section has one ("Part K: Regulatory Models for the Future", "Chapter 7: Conclusions and recommendations for future regulation of the press"), 1,331 in all, and the contents follows the report's own structure. The Part letters printed at the page edge no longer leak into the text ("I 2.36 Before Mr Coulson…"). Old links to paragraphs and sections still land where they did.
+
+---
+
 ## 2026-11-12 — Columbia's paragraphs put back together
 
 In [the Columbia Accident Investigation Board's report](/reports/columbia-accident), paragraphs that run from one column to the next, or round a figure or a sidebar, now read as one paragraph instead of two: "…the External Tank experiences during launch and" no longer stops there with "ascent." opening the next. Paragraphs cut in two fell from about 70 to 13. The words drawn inside figures and slides ("Bipod Ramp", "Liquid Hydrogen Tank") no longer stand in the text as paragraphs, chapter 6's narrative is no longer set as a run of quotations, and three findings that had run into the one before each have their own paragraph again. Old paragraph links redirect.

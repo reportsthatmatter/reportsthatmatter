@@ -1,5 +1,5 @@
 {
-  "ingest": "v0.34.0",
+  "ingest": "v0.35.0",
   "recorded": "2026-11-12",
   "reports": {
     "challenger-accident": {
@@ -243,11 +243,11 @@
       "quote-share-parity": 1
     },
     "uk-leveson-inquiry": {
-      "severed-into-quote": 145,
+      "severed-into-quote": 30,
       "severed-paragraph": 14,
-      "severed-paragraph-capital": 104,
+      "severed-paragraph-capital": 76,
       "numbered-paragraph-glued": 0,
-      "unnumbered-page-opening": 29,
+      "unnumbered-page-opening": 11,
       "bare-footnote-marker": 6,
       "bare-marker-after-quote": 1,
       "note-marker-wrong-note": 0,
@@ -256,21 +256,21 @@
       "note-reference-sequence": 11,
       "note-text-in-body": 1,
       "note-citation-vocabulary": 0,
-      "furniture-paragraph": 140,
-      "contents-entry-without-heading": 1287,
-      "heading-density": 0,
-      "heading-repeated": 3,
-      "heading-function-word": 1,
-      "heading-marker": 1,
-      "heading-long": 0,
+      "furniture-paragraph": 93,
+      "contents-entry-without-heading": 158,
+      "heading-density": 1,
+      "heading-repeated": 23,
+      "heading-function-word": 0,
+      "heading-marker": 3,
+      "heading-long": 14,
       "heading-census-shortfall": 0,
       "printed-page-reversal": 1,
       "rendered-h1": 0,
-      "chapter-intro-misfiled": 1,
+      "chapter-intro-misfiled": 0,
       "rendered-ol-words-share": 1,
-      "numbered-prose-list": 26,
+      "numbered-prose-list": 0,
       "ids-per-1k-words": 0,
-      "quote-share-parity": 2
+      "quote-share-parity": 1
     },
     "uk-post-office-horizon-inquiry": {
       "severed-into-quote": 5,
