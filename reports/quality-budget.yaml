@@ -190,9 +190,9 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   uk-grenfell-tower-inquiry:
-    severed-into-quote: 2
+    severed-into-quote: 37  # why: reportsthatmatter-bdc8 (Volumes 2-7, added gqsy.4.2: 35 list-item and page run-on ends read as quotations; Volume 1's 2 as before)
     severed-paragraph: 0
-    bare-footnote-marker: 0
+    bare-footnote-marker: 1  # why: reportsthatmatter-gqsy.4.2 ("No.10 Press Office", Vol 7: Number 10, not a note)
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
@@ -200,14 +200,14 @@ reports:
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
-    furniture-paragraph: 0
+    furniture-paragraph: 4  # why: reportsthatmatter-gqsy.4.2 (Vol 6 prints "Cause of death: Inhalation of asphyxiant gases." in the facts of several of those who died; real text)
     contents-entry-without-heading: 0
     heading-density: 1  # why: reportsthatmatter-gqsy.4 (real headings: 204 over 232 pages; every body heading is also a heading in the Inquiry's own HTML edition, which has 17 figure captions besides)
-    heading-repeated: 1  # why: reportsthatmatter-gqsy.4 ("Introduction" opens six chapters, as printed)
+    heading-repeated: 18  # why: reportsthatmatter-gqsy.4.2 ("Introduction" opens 31 chapters across the seven volumes; Vol 6 repeats its headings for each person, "Vulnerability", "Events of 14 June 2017", as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 3  # why: reportsthatmatter-gqsy.4 (real headings, as printed: "The development of the BS 8414 test series and the second edition of BR 135" and two more)
-    printed-page-reversal: 0
+    heading-long: 4  # why: reportsthatmatter-gqsy.4 (real headings, as printed: "The development of the BS 8414 test series and the second edition of BR 135" and two more)
+    printed-page-reversal: 6  # why: reportsthatmatter-gqsy.4.2 (each of the seven volumes numbers its pages from 1)
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 0

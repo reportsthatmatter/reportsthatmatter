@@ -76,7 +76,7 @@ reports:
     markers-unlinked: 16  # why: reportsthatmatter-gqsy.3 (markers are linked; the oracle reads them on the page a long list or table row starts on, e.g. 356-359 on p.331 against p.329; its golden-page precision is 0 for every other signal here, so only these two are budgeted)
     note-off-page: 0
   uk-grenfell-tower-inquiry:
-    markers-unlinked: 0
+    markers-unlinked: 35  # why: reportsthatmatter-tyfz (unit superscripts m2, m3/s, W/m2K in Vols 2, 4 and 7, and one linked marker; not notes)
     note-off-page: 0
   uk-covid-inquiry-module-2:
     markers-unlinked: 8  # why: reportsthatmatter-pxjq (the five unlinked notes and their neighbours, pp.257, 267)
