@@ -254,3 +254,10 @@ units:
     state: waiting
     evidence: "report repo reportsthatmatter/uk-stern-review (PR #2, e294e0c); site #433 (c552deb7); live 2026-11-13, content 2c2d8ddff67cd59c; review factory/reviews/review-stern-full-2026-11-12.md; site branch stern-full-1112; HMT January 2007 reissues where they exist (README Versions); report-local passes (runningTitle, partTitles, bodyFaceFigures, chartsAndTables, chemicalSubscripts, chapterHeadingFaces, marginBullets, carriedItems, noteTail, ordinalNote) plus layoutMarkers, footnoteRestarts, layoutPageJoins; golden 14/16 + 2 xfail (lb9l, unit 1); recorded grade A 0.23 (149 pp); ES ids unchanged (aliases 0)"
     notes: "Tables and Box 6.3 equations not served: 6uqx. Lists over page breaks: 95vk. Next batches: remaining chapters in ToC order, Postscript, annexes (gqsy.9.2)."
+  - id: uk-stern-review
+    scope: "Full report, batch 2a: Chapters 1, 3, 4, 5, 7 (with Annex 7A), 8; Chapter 9 its own section (owre, ingest v0.36.0)"
+    bead: reportsthatmatter-gqsy.9.2
+    reached: publish
+    state: waiting
+    evidence: "uk-stern-review#3 (8906b21); ingest#95 released v0.36.0; site #446 (e712c3c7); review factory/reviews/review-stern-b2a-2026-11-13.md; live 2026-11-13, content 71a81fd5b81c61a6; recorded grade A 0.37 (299 pp)"
+    notes: "16 duplicate-text ids moved chapter (accepted; efso to stop it before Ch 11-12). Chapter 5 printed folios 1-21 (6u5h). Tables: 6uqx. Bullets: 95vk, 3nbi. z4dy, c99s."
