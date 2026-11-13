@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-13 — The Stern Review's policy chapters
+
+[The Stern Review](/reports/uk-stern-review) now runs to 425 pages. Chapters 11 and 12 finish Part III on the costs of cutting emissions, and all of Part IV is here: its introduction and chapters 14 to 17 on carbon pricing in theory and in practice, putting a price on carbon through taxes and trading, and the policies for low-carbon technology and for removing barriers to action. Every link already published to the Review still lands on the same paragraph.
+
+---
+
 ## 2026-11-13 — Six more Stern Review chapters; Parts that open with their own introduction
 
 [The Stern Review](/reports/uk-stern-review) now runs to 299 pages: chapter 1 on the science, chapters 3 to 5 on how warming affects growth, people and the environment in rich and poor countries, chapter 7 on emissions to date (with its annex) and chapter 8 on the challenge of stabilisation. Chapter 9 now has its own place in the contents instead of sitting under Part III's introduction. The same fix gives chapters their own pages in four other reports where a Part opened with an introduction: Litvinenko, Deepwater Horizon, Hillsborough and Grenfell. No text moved and old links still land.

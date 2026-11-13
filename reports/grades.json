@@ -1,6 +1,6 @@
 {
  "ingest": "v0.37.0",
- "site": "a2bbe748",
+ "site": "04b61285",
  "recorded": "2026-11-13",
  "reports": {
   "challenger-accident": {
@@ -3452,8 +3452,8 @@
   },
   "uk-stern-review": {
    "id": "uk-stern-review",
-   "pages": 299,
-   "per10": 0.3712374581939799,
+   "pages": 425,
+   "per10": 0.3341176470588235,
    "letter": "A",
    "publishable": true,
    "below": [],
@@ -3472,16 +3472,16 @@
      "key": "paragraphs",
      "basis": "estimated",
      "graded": true,
-     "errors": 9.1,
-     "per10": 0.3043478260869565,
+     "errors": 11.2,
+     "per10": 0.26352941176470585,
      "letter": "A",
      "terms": [
       {
        "source": "oracle paragraphs-oversplit",
-       "count": 39,
+       "count": 48,
        "precision": 0.23333333333333334,
        "precisionFrom": "pooled golden 7/30",
-       "errors": 9.1
+       "errors": 11.2
       },
       {
        "source": "oracle quotes-spurious",
@@ -3503,7 +3503,7 @@
      "terms": [
       {
        "source": "oracle headings-missed",
-       "count": 111,
+       "count": 162,
        "precision": 0,
        "precisionFrom": "report golden 0/13",
        "errors": 0
@@ -3527,14 +3527,14 @@
      "terms": [
       {
        "source": "oracle markers-unlinked",
-       "count": 472,
+       "count": 514,
        "precision": 0,
        "precisionFrom": "report golden 0/32",
        "errors": 0
       },
       {
        "source": "oracle markers-spurious",
-       "count": 9,
+       "count": 12,
        "precision": 0,
        "precisionFrom": "pooled golden 0/18",
        "errors": 0
@@ -3552,16 +3552,16 @@
      "key": "pages",
      "basis": "estimated",
      "graded": true,
-     "errors": 2,
-     "per10": 0.06688963210702341,
+     "errors": 3,
+     "per10": 0.07058823529411765,
      "letter": "A",
      "terms": [
       {
        "source": "anchors markers-wrong (budget)",
-       "count": 1,
+       "count": 2,
        "precision": 1,
        "precisionFrom": "assumed",
-       "errors": 1
+       "errors": 2
       },
       {
        "source": "anchors pages-unmarked (budget)",
