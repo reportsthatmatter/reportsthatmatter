@@ -3297,7 +3297,7 @@ first-half-review-has-considered 94de59b0 946f7919
 part-iv-structured-follows 62704506 52df4b64
 policies-remove-barriers-behavioural-change 98ca1add 41ad69da
 presence-range-other-market-failures 79d0ddc2 98ca1add
-## 2026-11-13T11:19:10Z 18-understanding-the-economics-of-adaptation
+## 2026-11-13T11:29:34Z 18-understanding-the-economics-of-adaptation
 adaptation-can-mute-impacts-cannot 502dee70 f7f3b4bb
 adaptation-can-operate-two-broad f28debb4 e323a15c
 adaptation-complex-many-constraints-have b9e1f936 cf529c10
@@ -3395,7 +3395,7 @@ where-cost-planning-climate-change f0a47246 597c491d
 willows-r-i-r-k 151294d1 5852accb
 without-strong-early-mitigation-physical 2d259da2 dd3ab5f3
 world-bank-2006-clean-energy 5852accb f184b330
-## 2026-11-13T11:19:10Z 19-adaptation-in-the-developed-world
+## 2026-11-13T11:29:34Z 19-adaptation-in-the-developed-world
 acclimatise-2005-climate-change-risks b5ff833e cf6ad2f8
 acclimatise-2006-review-adaptation-climate cf6ad2f8 c0ed3fc6
 adaptation-could-reduce-costs-climate 4ccc6d89 b9511743
@@ -3505,7 +3505,7 @@ while-those-developing-countries-will aa98d0f9 5525d640
 willows-r-i-r-k-2 4f924fa5 f184b330
 winter-roads-manitoba-canada 39bda63e 325f74e9
 world-identical-individuals-where-everyone f2831814 67b5b161
-## 2026-11-13T11:19:10Z 20-adaptation-in-the-developing-world
+## 2026-11-13T11:29:34Z 20-adaptation-in-the-developing-world
 2001 d12e9f04 dfdbabf7
 acclimatise-2006-review-adaptation-climate-2 779a8051 bb6899b7
 adaptation-actions-should-be-integrated 0aa88bc3 2a645954
@@ -3671,7 +3671,7 @@ world-bank-2005b-natural-disaster 666a866c 6e0f6540
 world-bank-2006a-clean-energy 6e0f6540 b5fb43e2
 world-bank-2006b-not-if b5fb43e2 6ad468c7
 world-food-programme-2006-progress 02863c1a d2c239a8
-## 2026-11-13T11:19:10Z 21-framework-for-understanding-international-collective-action-for-climate-chang
+## 2026-11-13T11:29:34Z 21-framework-for-understanding-international-collective-action-for-climate-chang
 2002-avis-europe-introduced-scheme 9c2dd685 6bee1e78
 addition-formal-multilateral-arrangements-international 52d3b453 3ed83daf
 adger-w-n-2001-social d0ee9450 22933604
@@ -3810,7 +3810,7 @@ where-governments-have-set-up 4ac3fbf3 d0543ab9
 wicksell-k-1896-finanztheoretische-untersuchungen 223cda4e f184b330
 widespread-public-understanding-climate-change 0fbe36fe f4a5562a
 would-be-important-these-rules 92f13fd6 14580943
-## 2026-11-13T11:19:10Z 22-creating-a-global-price-for-carbon
+## 2026-11-13T11:29:34Z 22-creating-a-global-price-for-carbon
 31-july-2006-uk-california 1661a21c 7059cccd
 adjustments-take-account-carbon-price a50fdb98 41a25e63
 allowance-holdings-transactions-are-monitored e17ee324 300f8479
@@ -3976,7 +3976,7 @@ we-set-out-chapter-14 062680b6 c523944e
 we-suggested-some-important-caveats 184b2100 84c77b48
 winkler-h-r-spalding-fecher-s 65a978de b0feb6ba
 world-bank-international-emissions-trading b0feb6ba f184b330
-## 2026-11-13T11:19:10Z 23-supporting-the-transition-to-a-low-carbon-global-economy
+## 2026-11-13T11:29:34Z 23-supporting-the-transition-to-a-low-carbon-global-economy
 acquatella-j-barcenas-2005-eds 48c54881 afb58b1a
 acting-now-ensure-current-wave 044b7ec4 8c717b3c
 action-scale-requires-appropriate-incentives afb21b28 ebecdd6e
@@ -4160,7 +4160,7 @@ world-bank-2004-options-designing 0df8c1b0 d5b698c1
 world-bank-2006a-investment-framework d5b698c1 d88645e3
 world-bank-2006b-investment-framework d88645e3 f184b330
 world-bank-has-recently-suggested eac120c8 9cc9f5da
-## 2026-11-13T11:19:10Z 24-promoting-effective-international-technology-co-operation
+## 2026-11-13T11:29:34Z 24-promoting-effective-international-technology-co-operation
 1950s-1960s-major-concern-how 5c860fce 76740dec
 7th-programme-s-energy-environmental 02f80852 21ee25ba
 aim-project-increase-production-biofuels 660107ad f2304f90
@@ -4331,7 +4331,7 @@ traditionally-oecd-nations-have-been 4232836b 0c0e2a63
 us-futuregen-project-which-linked 6b85b905 bc1a4a8a
 various-arrangements-can-help-promote 8ea65e21 4a429d5f
 where-first-mover-advantage-exists-more 17f787f3 837f5ccc
-## 2026-11-13T11:19:10Z 25-reversing-emissions-from-land-use-change
+## 2026-11-13T11:29:34Z 25-reversing-emissions-from-land-use-change
 action-preserve-remaining-areas-natural-2 36fab4f9 f23cd789
 action-prevent-deforestation-set-out 2f399fd5 3694cf9d
 advantage-specialised-funds-can-be 4b6be593 85c1a34f
@@ -4476,8 +4476,7 @@ while-planting-new-trees-excellent a95032dd 8022a347
 world-bank-2006-loggerheads-agricultural 14056346 f184b330
 world-bank-study-cites-several c48c33b2 488c59b0
 would-be-voluntary-arrangement-context 79c1bad0 c5487879
-## 2026-11-13T11:19:10Z 26-international-support-for-adaptation
-26-5-risk-management-risk 5d20b97c a6635e7a
+## 2026-11-13T11:29:34Z 26-international-support-for-adaptation
 adaptation-different-from-mitigation-two fe750e50 09530353
 adaptation-efforts-developing-countries-must-2 58a283c9 165f32c1
 adaptation-fund-entry-into-force e0242cdf 26caf519
@@ -4510,7 +4509,7 @@ developing-countries-especially-poorest-developing 1d2e8ad8 0a1dce9f
 disaster-relief-fund-administered-un 27a2f988 37a0ac96
 disaster-risk-reduction-drr-includes 4cb40aad 05042b7d
 donors-should-mainstream-adaptation-across eb534a94 49a4bef7
-effectiveness-efficiency-suggests-approach-choice a40b5fc9 5d20b97c
+effectiveness-efficiency-suggests-approach-choice a40b5fc9 a6635e7a
 ensuring-global-public-goods-gpgs 153a7467 d19d9fef
 environmental-resources-management-2006-natural-2 589d6276 536e885f
 even-strong-rapid-action-manage e32a5e64 26a78113
@@ -4608,7 +4607,7 @@ world-bank-2006a-investment-framework-2 cf92569a 698f5b7f
 world-bank-2006b-global-development 698f5b7f f4ad5c2e
 world-bank-2006c-world-development f4ad5c2e 95eb7bd8
 world-food-programme-executive-board b0f43478 f184b330
-## 2026-11-13T11:19:10Z 27-conclusions-building-and-sustaining-international-co-operation-on-climate-cha
+## 2026-11-13T11:29:34Z 27-conclusions-building-and-sustaining-international-co-operation-on-climate-cha
 above-all-reducing-risks-climate-2 3aabfa81 -
 both-multilateral-co-ordinated-action-could 0a7cc34d 8f1a8f1e
 challenges-mitigation-adaptation-are-becoming 8f1a8f1e fe09c6fd
@@ -4641,13 +4640,13 @@ transformation-flows-carbon-finance-linked a4ddfd90 0a7cc34d
 very-strong-reductions-carbon-emissions c40e61f3 78040c27
 voluntary-nature-collective-action-means f20be6ee 25bc190c
 what-happens-next-10-20 3b644acb 8c8cdf8a
-## 2026-11-13T11:19:10Z part-v-policy-responses-for-adaptation
+## 2026-11-13T11:29:34Z part-v-policy-responses-for-adaptation
 adaptation-will-be-crucial-reducing d9a7a597 626ec09d
 chapter-18-outlines-key-adaptation aac0dd09 f184b330
 climate-pervasive-factor-social-economic c3af8568 d9a7a597
 part-v-review-analyses-adaptation 350ba0db c3af8568
 part-v-structured-follows 626ec09d aac0dd09
-## 2026-11-13T11:19:10Z part-vi-international-collective-action
+## 2026-11-13T11:29:34Z part-vi-international-collective-action
 chapter-21-provides-framework-understanding 2c03525d f184b330
 considers-various-dimensions-action-will f30e195c 8add8a4e
 part-vi-review-considers-challenges 6ad468c7 f30e195c

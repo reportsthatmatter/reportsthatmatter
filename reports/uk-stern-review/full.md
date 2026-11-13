@@ -11126,7 +11126,7 @@ Experience suggests that such dedicated funds can play a useful role where insuf
 
 Effectiveness and efficiency suggests that the approach of choice should be built on existing mechanisms (such as the GEF). There are risks associated with a proliferation of vertical funds – in particular they can complicate efforts to co-ordinate aid and gain the full support of national governments.
 
-26.5 Risk management and risk preparedness: responding to disasters and resettling refugees.
+#### 26.5 Risk management and risk preparedness: responding to disasters and resettling refugees
 
 ***More investment is required to manage and reduce the consequences of climate change.***
 
