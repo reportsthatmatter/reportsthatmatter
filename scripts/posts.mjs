@@ -72,6 +72,8 @@ if (startIdx >= 0 && !/^\d{4}-\d{2}-\d{2}$/.test(flagStart ?? "")) {
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8"));
 const titleOf = Object.fromEntries(registry.reports.map((r) => [r.id, r.title]));
 const shortTitleOf = Object.fromEntries(registry.reports.map((r) => [r.id, r.common_name ?? r.title]));
+// A report whose folios restart in each volume: its source lines name the volume (s5jm).
+const volumesOf = Object.fromEntries(registry.reports.filter((r) => r.volumes).map((r) => [r.id, r.volumes]));
 const reportOrder = registry.reports.map((r) => r.id);
 const policies = reportPolicies(registry);
 const newsDayOnly = registry.reports.filter((r) => r.news_day_only === true).map((r) => r.id);
@@ -98,6 +100,7 @@ for (const name of editorialFiles) {
       report: source.report,
       reportTitle: titleOf[source.report],
       sourceTitle: shortTitleOf[source.report],
+      volumes: volumesOf[source.report],
       paragraph: h.paragraph,
       quote: h.quote,
       tier: h.tier,
@@ -118,6 +121,7 @@ if (existsSync(shareQuotesPath)) {
       report: q.report,
       reportTitle: titleOf[q.report],
       sourceTitle: shortTitleOf[q.report],
+      volumes: volumesOf[q.report],
       paragraph: q.paragraph,
       quote: q.quote,
       origin: "share-quotes",

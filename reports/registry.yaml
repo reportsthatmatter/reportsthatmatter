@@ -231,6 +231,7 @@ reports:
     source_path: reports/uk-grenfell-tower-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
     ingested: true
+    volumes: {count: 7, numerals: arabic}
     affected_community: true
     context_line: "Grenfell Tower Inquiry Phase 2, Volume 1 of 7. 72 people died."
 
@@ -259,6 +260,7 @@ reports:
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-mueller-report/full.md
     source_url: "https://www.justice.gov/storage/report_volume1.pdf"
+    volumes: {count: 2, numerals: roman}
     ingested: true
 
   - id: uk-covid-inquiry-module-2
@@ -274,6 +276,7 @@ reports:
     source_path: reports/uk-covid-inquiry-module-2/full.md
     source_url: "https://covid19.public-inquiry.uk/wp-content/uploads/2026/02/12093057/M2-Volume-1-with-post-publication-amends-Feb-2026.pdf"
     ingested: true
+    volumes: {count: 2, numerals: roman}
     affected_community: true
     context_line: "UK Covid-19 Inquiry (2025): the four UK governments' decisions, 2020 to 2022."
   - id: uk-southport-inquiry
