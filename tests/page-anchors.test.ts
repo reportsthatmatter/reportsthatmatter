@@ -80,11 +80,21 @@ describe("checkAnchors", () => {
   });
 
   it("numbers a volume that prints no folios by its PDF pages when the report says so", () => {
-    const { paras, pages } = book(1, 3);
-    // no folio printed, but a note number at each page foot, which would read as folios 12-14
-    pages.forEach((p, i) => (p.layout = p.layout.replace(/\s+\d+\n$/, `\n12${i}\n${12 + i}\n`)));
-    const md = [`%%page 1%%`, paras[0], paras[1], `%%page 2%%`, paras[2], paras[3], `%%page 3%%`, paras[4], paras[5]].join("\n\n");
-    expect(checkAnchors(md, pages, new Set([1])).verdicts.map((v) => v.verdict)).toEqual(["exact", "exact", "exact"]);
+    // volume 1 prints folios 10-12; volume 2 prints none, but a note number at each page foot that would read as
+    // folios 12-14, and the report numbers its pages by PDF page, 1-3 (Stern's Postscript, gqsy.9.2)
+    const one = book(10, 3);
+    const two = book(1, 3);
+    const pages = [
+      ...one.pages,
+      ...two.pages.map((p, i) => ({ ...p, volume: 2, layout: p.layout.replace(/\s+\d+\n$/, `\n12${i}\n${12 + i}\n`) })),
+    ];
+    const md = [
+      ...[1, 2, 3].flatMap((n) => [`%%page ${9 + n}%%`, one.paras[2 * n - 2], one.paras[2 * n - 1]]),
+      ...[1, 2, 3].flatMap((n) => [`%%page ${n}%%`, two.paras[2 * n - 2], two.paras[2 * n - 1]]),
+    ].join("\n\n");
+    expect(checkAnchors(md, pages, new Set([2])).verdicts.every((v) => v.verdict === "exact")).toBe(true);
+    // without the declaration the note numbers are read as folios, and volume 2's markers fail
+    expect(checkAnchors(md, pages).verdicts.every((v) => v.verdict === "exact")).toBe(false);
   });
 
   it("fails a marker a paragraph late, and the paragraph it leaves under the wrong page", () => {
