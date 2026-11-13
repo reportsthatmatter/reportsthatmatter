@@ -423,7 +423,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-v-philip-morris?p=defendants-fraudulent-statements-stem-from&h=Demographic%20Trends%2C%22%20stated%20that%20|%22Today's%20teenager%20is%20tomorrow's%20potential%20regular%20customer%2C%20and%20the%20overwhelming%20majority%20of%20smokers%20first%20begin%20to%20smoke%20while%20still%20in%20their%20teens.|%20.%20.%20.%20The&src=bsky
     card: assets/cards/us-v-philip-morris/q-bd7a4c4a.png
     scheduled: 2026-11-13
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n274pyadrk2k
+    posted_at: 2026-11-13T13:47:38.980Z
   - id: us-lehman-examiner:buy-itself-more-time-maintain:290a1bda
     report: us-lehman-examiner
     paragraph: buy-itself-more-time-maintain
