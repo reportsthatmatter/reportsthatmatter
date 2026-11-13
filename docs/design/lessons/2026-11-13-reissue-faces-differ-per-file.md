@@ -1,0 +1,4 @@
+---
+theme: ingest
+---
+- **In a multi-file report, census each new file's heading faces before reading its output; a chapter missing from the contents is the sign one was missed** (2026-11-13, reportsthatmatter-gqsy.9.2, Stern batch 3a) HM Treasury's Stern files were made by two Distiller versions and two print runs: Chapter 20 (Distiller 7) sets its title and sections in a lighter navy at the body size (`Arial|15|#33339a|b`), Chapter 26 (October 2006) sets one section in the page foot's navy and its References in black, and Chapter 24's reissue draws a key finding's first letter apart ("G" / "overnments"), which made the bold-italic pass throw. Each was found by reading the heading list after the first render (Chapter 20 had no heading at all) and fixed by naming the face or the file in `ingest.ts`. Proposal: `pnpm ingest outline` could print each volume's heading faces in a column, so a new face shows before the run. [status: proposed]
