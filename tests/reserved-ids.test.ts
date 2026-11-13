@@ -26,6 +26,11 @@ describe("reserved-ids.txt", () => {
     expect(list[0]).toEqual({ id: "km", section: "ch2", fingerprint: "aaaaaaaa", next: "bbbbbbbb" });
   });
 
+  it("orders a family whose text ends in a number by suffix, not by that number (three identical paragraphs keep their ids)", () => {
+    const list = toReserved([e("order-section-19-2", "s"), e("order-section-19", "s"), e("order-section-19-10", "s"), e("order-section-19-3", "s")]);
+    expect(list.map((r) => r.id)).toEqual(["order-section-19", "order-section-19-2", "order-section-19-3", "order-section-19-10"]);
+  });
+
   it("records each passage's next passage", () => {
     const r: Rendered = { passages: [{ id: "x", text: "One", section: "s" }, { id: "y", text: "Two", section: "s" }], sections: [{ slug: "s" }] };
     const got = reservedOf(r, "T", (t) => `fp(${t})`);

@@ -67,15 +67,20 @@ export function addReserved(base: Iterable<ReservedEntry>, more: Iterable<Reserv
   return [...byId.values()];
 }
 
-const suffixOf = (id: string) => Number(id.match(/-(\d+)$/)?.[1] ?? 1);
+/**
+ * Within one family the de-duplicator hands out `base`, `base-2`, … `base-10` in reading order, so the shorter id, then
+ * the lower one, came first. Not the trailing number: a text that itself ends in a number (`…-section-19`,
+ * `…-offense-i-5`, `…-may-2022`) would sort after its own `-2` and swap two identical paragraphs (review 2026-11-13).
+ */
+const familyOrder = (a: string, b: string) => a.length - b.length || (a < b ? -1 : a > b ? 1 : 0);
 
 /**
  * The renderer's list: oldest first (the meaning a link was made with wins a contested paragraph), then the lower
- * suffix, then the id. A section slug a later render renamed is followed through `aliases.yaml`'s `sections`.
+ * suffix (`familyOrder`). A section slug a later render renamed is followed through `aliases.yaml`'s `sections`.
  */
 export function toReserved(entries: readonly ReservedEntry[], sectionAliases: Record<string, string> = {}): Reserved[] {
   return [...entries]
-    .sort((a, b) => (a.since !== b.since ? (a.since < b.since ? -1 : 1) : suffixOf(a.id) - suffixOf(b.id) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)))
+    .sort((a, b) => (a.since !== b.since ? (a.since < b.since ? -1 : 1) : familyOrder(a.id, b.id)))
     .map((e) => ({
       id: e.id,
       section: Object.hasOwn(sectionAliases, e.section) ? (followAlias(sectionAliases, e.section, (s) => !Object.hasOwn(sectionAliases, s)) ?? e.section) : e.section,
