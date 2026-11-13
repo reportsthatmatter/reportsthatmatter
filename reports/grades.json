@@ -1,6 +1,6 @@
 {
- "ingest": "v0.36.0",
- "site": "e712c3c7",
+ "ingest": "v0.37.0",
+ "site": "a2bbe748",
  "recorded": "2026-11-13",
  "reports": {
   "challenger-accident": {
@@ -3595,7 +3595,6 @@
        "errors": 0
       }
      ],
-     "note": "no aliases.yaml: no id has been lost or moved since first publication",
      "unmatched": {
       "count": 0,
       "per10": 0
