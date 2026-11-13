@@ -5,7 +5,7 @@ published_at: "30 October 2006"
 source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
 pages: 425
 footnotes: 857
-corrections: 49
+corrections: 50
 ---
 
 %%page i%%
@@ -5031,8 +5031,6 @@ The forgoing analysis offers an indication of the distribution of static costs a
 
 The dynamic impacts from a transition to a low-GHG economy should be small. The change in relative prices that is likely to result from adopting the social cost of carbon into production activities is well within the 'normal' range of variation in prices experienced in an open economy. Input cost variations from recent fluctuations in the exchange rate and the world oil price, for example, are likely to far exceed the short-run primary energy cost increases from a carbon tax required to reflect the damage from emissions (see Box 11.2).
 
-rough magnitude of this higher order indirect impact. Because data disaggregated to a level commodity output per unit of domestically met final demand has not been published in the UK since 1993, the study has not adopted this approach and has not been able to follow the impact through the entire supply-chain. However, extending the analysis to include more multipliers seems to make little difference to the results, suggesting the numbers presented here are a close approximation to the price impacts that would be derived using an up-to-date inverse Leontief.
-
 %%page 5#3%%
 
 Box 11.2 Vulnerability to energy shocks: lessons from oil and gas prices
@@ -5243,7 +5241,7 @@ Annex table 11A.1 Key statistics for 123 UK production sectors (ranked by carbon
 
 %%page 16#3%%
 
-Meat processing 0.70 1.80 21.72 4.83 0.34 Bread, biscuits etc 0.70 1.60 14.22 2.72 0.32 Mechanical power equipment 0.71 1.51 79.07 41.72 0.26 Knitted goods 0.72 1.48 74.07 40.57 0.04 Domestic appliances nec 0.73 1.76 34.84 13.75 0.11 Alcoholic beverages 0.73 1.71 29.24 13.36 0.29 Paints, varnishes, printing ink etc 0.74 1.67 29.78 8.75 0.12 Rubber products 0.76 1.70 52.40 17.45 0.16 Wood and wood products 0.77 1.95 32.75 10.07 0.28 Sports goods and toys 0.78 1.94 20.48 12.46 0.05 Water supply 0.80 1.56 0.42 0.21 0.30 Pesticides 0.80 1.83 77.22 30.00 0.05 Grain milling and starch 0.81 2.01 22.74 5.38 0.10 Metal boilers and radiators 0.81 1.78 31.36 7.21 0.07 Wholesale distribution 0.82 2.48 - - 4.41 Textile fibres 0.87 1.68 41.41 18.12 0.03 Other metal products 0.88 2.03 42.92 18.03 0.24 Plastic products 0.90 1.99 33.69 11.10 0.63 Dairy products 0.91 2.56 21.26 3.66 0.14 Other textiles 0.93 1.85 55.12 19.46 0.05 Other chemical products 0.96 2.22 84.83 34.01 0.17 Carpets and rugs 0.97 2.23 19.26 4.09 0.03 Miscellaneous manufacturing nec & recy 0.97 2.39 22.33 13.03 0.20 Animal feed 0.99 2.34 14.74 3.35 0.07 Fish and fruit processing 0.99 2.56 29.87 12.38 0.20 Metal forging, pressing, etc 1.03 2.46 0.00 0.00 0.46 Textile weaving 1.04 1.78 77.76 36.85 0.03 Shipbuilding and repair 1.05 2.36 44.94 28.82 0.10 Ceramic goods 1.08 2.42 42.51 18.75 0.08 Structural metal products 1.09 2.47 13.27 4.56 0.30 Paper and paperboard products 1.17 2.02 15.19 3.99 0.28 Coal extraction 1.22 7.24 33.24 24.76 0.05 Non-ferrous metals 1.32 2.36 73.75 36.90 0.10 Agriculture 1.37 3.96 27.99 11.34 0.96 Metal castings 1.40 2.84 0.00 0.00 0.07 Forestry 1.44 4.18 21.64 6.90 0.03 Glass and glass products 1.53 3.44 33.62 9.55 0.14 Water transport 1.65 5.26 81.65 28.76 0.24 Articles of concrete, stone etc 1.73 2.96 15.97 4.67 0.25 Plastics & synthetic resins etc 1.85 4.57 62.56 15.31 0.12 Oil and gas extraction 1.89 5.73 53.30 30.28 2.06 Textile finishing 1.95 3.34 1.76 0.80 0.03 Other mining and quarrying 2.03 4.64 88.90 61.53 0.16 Industrial gases and dyes 2.03 4.31 49.69 20.32 0.09 Man-made fibres 2.21 4.60 88.19 24.96 0.02 Other land transport 2.21 7.04 7.74 2.33 1.94 Sugar 2.37 3.20 28.83 22.36 0.04 Organic chemicals 2.38 6.27 86.31 31.19 0.17 Air transport 2.39 7.64 53.03 23.82 0.55 Pulp, paper and paperboard 2.42 4.23 66.07 16.52 0.10 Inorganic chemicals 2.58 5.64 34.51 11.75 0.06 Iron and steel 2.69 7.02 55.40 18.32 0.12 Structural clay products 2.73 6.61 3.78 0.63 0.04 Oils and fats 2.86 5.87 38.48 14.49 0.02 Fishing 4.28 12.78 40.35 14.74 0.04 Fertilisers 4.61 13.31 25.69 9.54 0.02 Cement, lime and plaster 9.00 5.00 8.11 1.20 0.05 Electricity production and distribution 16.07 26.70 1.35 0.11 1.08 Refined petroleum 23.44 72.83 25.66 11.75 0.27 Gas distribution 25.36 42.90 0.32 0.18 0.36 *Trade intensity defined as total and non-EU exports of goods and services as a percentage of total supply of goods and services, plus total and non-EU imports of goods and services as a percentage of total demand for goods and services. Output is defined as gross, so the maximum value attainable is 200.
+*Trade intensity defined as total and non-EU exports of goods and services as a percentage of total supply of goods and services, plus total and non-EU imports of goods and services as a percentage of total demand for goods and services. Output is defined as gross, so the maximum value attainable is 200.
 
 %%page 269%%
 
@@ -9066,7 +9064,7 @@ Yunus, M., (1999): 'Banker to the poor: micro-lending and the battle against wor
 
 [^4]: Full industry listings for all 123 Standard Industrial Classification (SIC) sectors are given in annex table 11A.1.
 
-[^5]: It is in theory possible to use older full supply-use Input-Output tables and the inverse Leontief matrix to gauge the
+[^5]: It is in theory possible to use older full supply-use Input-Output tables and the inverse Leontief matrix to gauge the rough magnitude of this higher order indirect impact. Because data disaggregated to a level commodity output per unit of domestically met final demand has not been published in the UK since 1993, the study has not adopted this approach and has not been able to follow the impact through the entire supply-chain. However, extending the analysis to include more multipliers seems to make little difference to the results, suggesting the numbers presented here are a close approximation to the price impacts that would be derived using an up-to-date inverse Leontief.
 
 [^6]: The exercise assumes that gas prices change in full proportion with oil prices, but that coal prices remain unchanged. In reality oil and gas prices tend to co-move as they are partial substitutes within a fossil fuel energy market and are linked contractually.
 
