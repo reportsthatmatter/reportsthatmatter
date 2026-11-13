@@ -97,5 +97,5 @@ reports:
     markers-unlinked: 0
     note-off-page: 0
   uk-stern-review:
-    markers-unlinked: 472  # why: reportsthatmatter-oyr5 (checked against the layout: 438 are the raised subscript of a formula, CO2/CO2e/GtCO2e/CH4/N2O; 20 are superscript units and exponents, km2, m3, 10^6, x2, x3; 6 are batch 1's known glued runs and table note; 8 more formula subscripts after a digit, "42GtCO2e"; no note marker left unlinked. Chapters 1, 3-5, 7, 8 added, gqsy.9.2)
+    markers-unlinked: 514  # why: reportsthatmatter-oyr5 (checked against the layout: 438 are the raised subscript of a formula, CO2/CO2e/GtCO2e/CH4/N2O; 20 are superscript units and exponents, km2, m3, 10^6, x2, x3; 6 are batch 1's known glued runs and table note; 8 more formula subscripts after a digit, "42GtCO2e"; no note marker left unlinked. Chapters 1, 3-5, 7, 8 added, gqsy.9.2. Chapters 11, 12, 14-17 add 42, read on the page: 40 formula subscripts (CO2, GtCO2, MtCO2); "255" in Chapter 15 p.342, a subscript 2 run into note 55, served "CO2[^55]"; a raised 0 set for a degree sign, "2⁰C", Chapter 12 p.276, corrected to 2°C, c-0049)
     note-off-page: 0

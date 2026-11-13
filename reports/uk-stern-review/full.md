@@ -3,9 +3,9 @@ title: "Stern Review: The Economics of Climate Change"
 authors: "Nicholas Stern (HM Treasury)"
 published_at: "30 October 2006"
 source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
-pages: 299
-footnotes: 553
-corrections: 47
+pages: 425
+footnotes: 857
+corrections: 49
 ---
 
 %%page i%%
@@ -4945,6 +4945,641 @@ Weyant, J.P. and J. Hill (1999): 'The costs of the Kyoto protocol: a multi-model
 
 Weyant, J.P. (ed.). (2004): 'EMF introduction and overview. Alternative technology strategies for climate change policy', Energy Economics Special Issue, 26: 501-755 van Vuuren, D.P., J. Cofala, H.E. Eerens, et al. (2006): 'Exploring the ancillary benefits of the Kyoto Protocol for air pollution in Europe', Energy Policy, 34: 444–460 van Vuuren, D.P., J.P. Weyant and F. de la Chesnaye (2006): 'Multi-gas scenarios to stabilize radiative forcing', Energy Economics, 28(1): 102-120, January.
 
+%%page 1#3%%
+
+### 11 Structural Change and Competitiveness
+
+Key Messages
+
+The costs of mitigation will not be felt uniformly across countries and sectors. Greenhouse-gas-intensive sectors, and countries, will require the most structural adjustment, and the timing of action by different countries will affect the balance of costs and benefits.
+
+If some countries move more quickly than others in implementing carbon reduction policies, there are concerns that carbon-intensive industries will locate in countries without such policies in place. A relatively small number of carbon-intensive industries could suffer significant impacts as an inevitable consequence of properly pricing the cost of greenhouse-gas (GHG) emissions.
+
+The empirical evidence on trade and location decisions, however, suggests that only a small number of the worst affected sectors have internationally mobile plant and processes. Moreover, to the extent that these firms are open to competition this tends to come predominately from countries within regional trading blocs. This suggests that action at this regional level will contain the competitiveness impact.
+
+Trade diversion and relocation are less likely, the stronger the expectation of eventual global action as firms take long-term decisions when investing in plant and equipment that will produce for decades.
+
+International sectoral agreements for GHG-intensive industries could play an important role in promoting international action for keeping down competitiveness impacts for individual countries.
+
+Even where industries are internationally mobile, environmental policies are only one determinant of plant and production location decisions. Other factors such as the quality of the capital stock and workforce, access to technologies, infrastructure and proximity to markets are usually more important determinants of industrial location and trade than pollution restrictions.
+
+#### 11.1 Introduction
+
+All economies undergo continuous structural change through time. Indeed, the most successful economies are those that have the flexibility and dynamism to cope with and embrace change. Action to address climate change will require policies that deter greenhouse gas emitting activities, and stimulate a further phase of structural change.
+
+One concern is that under different speeds of action, policies might be disproportionately costly to countries or companies that act faster, as they might lose energy-intensive production and exports to those who act more slowly. This could lead to relocation that simply transfers, rather than reduces, global emissions, making the costs borne by more active countries self-defeating.
+
+Even where action is taken on a more uniform collective basis, concern remains that different countries will be affected differently. Some countries have developed comparative advantages in GHG-intensive sectors and would be hit hardest by attempts to rein-in emissions and shift activity away from such production.
+
+The "competitiveness" of a firm or country is defined in terms of relative performance. An uncompetitive firm risks losing market share and going out of business. On the other hand, a country cannot "close", but low competitiveness means the economy is likely to grow more slowly with lower real wage growth and enjoy fewer opportunities than more competitive economies. At the national level, promoting competitiveness means applying policies and re- vamping institutions to enable the economy to adapt more flexibly to new markets and opportunities, and facilitate the changes needed to raise productivity. Carefully designed, flexible policies to encourage GHG mitigation and stimulate innovation need not be inconsistent with enhancing national competitiveness. On the contrary, the innovation associated with tackling climate change could trigger a new wave of growth and creativity in the global economy. It is up to individuals, countries, governments and companies to tailor their policies and actions to seize the opportunities.
+
+%%page 2#3%%
+
+Section 11.2 looks at the likely distribution of carbon costs across industrial sectors and assesses their exposure to international competition. Section 11.3 examines evidence behind firms' location decisions and the degree to which environmental regulations influence trade patterns. Climate change policies may also help meet other goals, such as enhanced energy security, reduced local pollution and energy market reform and these issues are addressed in detail in the next chapter.
+
+#### 11.2 Distribution of costs and implications for competitiveness
+
+To assess the likely impact of carbon costing, a disaggregated assessment of fossil fuel inputs into various production processes is required. For many countries, this can be by analysing whole economy disaggregated Input-Output tables. Using the UK as a detailed case study, direct and indirect carbon costs can be applied to various fossil fuel inputs, and traced through the production process, to final goods prices (see Box 11.1). This reveals the carbon intensity of production. It also gives a crude estimate of the final impact on total consumer prices, and so reflects the reduction in consumer purchasing power[^1].
+
+***The impacts of action to tackle climate change are unevenly distributed between sectors***
+
+Input-Output tables can be used to look at the distribution of carbon costs across sectors of the economy. For illustrative purposes, the UK, with energy intensity close to the OECD average, is used as a case study of disaggregated cost impacts. However, the lessons drawn for the UK need not be applicable to all countries, even within the OECD.
+
+An illustrative carbon price of £70/tC ($30/tCO2)[^2] can be traced through the economy's disaggregated production process, to final consumer prices. Adding the carbon price raises the cost of fossil fuel energy in proportion to carbon intensity of each fossil fuel input (oil, gas and coal) see Box 11.1.
+
+The overall impact is to raise consumer prices by just over one per cent on the assumption of a full cost pass-through. However, the impact on costs and prices in the most carbon-intensive industries, either directly or indirectly through, say, their consumption of electricity, is considerably higher. In the UK, six industries out of 123 would face an increase in variable costs of 5% or more as a result of the impact of carbon pricing on higher energy costs (see table 11A.1 at end). In these industries prices would have to rise by the following amounts for profits to remain unchanged:
+
+- gas supply and distribution (25%);
+- refined petroleum (24%);
+- electricity production and distribution (16%);
+- cement (9%);
+- fertilisers (5%);
+
+%%page 3#3%%
+
+- fishing (5%)
+
+Although this analysis is restricted to the UK, it is these same industries, together with metals, chemicals, paper/pulp, and transport that dominate global carbon emissions from fossil fuels the world over. The competitiveness impacts in these sectors will be reduced to the extent that they are not highly traded. In the UK, combined export and import intensity for these sectors is below 50% (see Box 11.3)[^3].
+
+Box 11.1 Potential costs to firms and consumers; UK Input-Output study
+
+The primary users of fossil fuels (oil, gas and coal) as direct inputs include refined petrol, electricity, gas distribution, the fossil fuel extraction industries and fertiliser production. Figure A shows the share of oil & gas and coal in variable cost for these primary users.
+
+Input-Output analysis can trace the impact of carbon pricing on secondary users of oil, gas and coal - defined as those industries that use inputs from the primary oil, gas and coal users such as electricity. Outputs from these sectors are then fed in as inputs to other sectors, and so on. For illustrative purposes, Figure B shows the impact of a carbon price of £70/tC, but the effects are linear with respect to price and so different impacts for different prices can be assessed using the appropriate multiple. Chapter 9 showed that although the average abatement cost may fall as new technologies arise, the marginal abatement cost is likely to rise with time, reflecting the rising social cost of carbon as the atmospheric carbon stock increases. As industry becomes decarbonised, the whole-economy impact is likely to begin to fall. But going the other way will be the rising social cost of carbon and the corresponding marginal abatement cost (this is illustrated in Box 9.6). This will have an increasing impact on costs in remaining carbon-intensive sectors.
+
+Figure A Share of oil & gas and coal extraction in variable costs, percent
+
+Figure B Product price increases from £70/tC pricing (full pass-through), percent
+
+The largest users of petroleum-products include agriculture, forestry and fishing, chemicals and the transportation sectors. The main users of coal are electricity and cement. The main users of electricity include the electricity sector itself, a number of manufacturing industries and the utilities supplying gas and water.
+
+Total fossil fuel energy costs account for 3% of variable costs in UK production. When the illustrative carbon price of £70/tC ($30/tCO2) is applied, whole economy production costs might be expected to rise by just over 1%. Only 19 out of 123 sectors, accounting for less than 5% of total
+
+UK output, would see variable costs increase of more than 2% and only six would undergo an increase of 5% or more[^4].
+
+Mapping costs through to final consumer goods prices, the aggregate impact on consumer prices of a £70/tC would be of the order of a 1.0% one-off increase in costs, with oil's contribution accounting for just under half and the remainder split between gas and coal[^5].
+
+%%page 4#3%%
+
+Electricity and gas distribution for example are almost entirely domestic, and to the extent energy intensive industries do trade, this is mostly within the EU. Trade intensity falls by a factor of two to seven for the key energy-intensive industries when measured in terms of non- EU trade only. See Annex table 11A.1 for details of trade intensity among carbon-intensive activities. Nevertheless:
+
+- The magnitude of the impact on a small number of sectors is such that it could provide incentives for import substitution and incentives to relocate to countries with more relaxed mitigation regimes, even though these sectors are not currently characterised by high trade intensity. Further, many industries suffering smaller price increases are more open to trade: these include oil and gas extraction or air transport. The competitiveness impacts will be reduced if climate change action is coordinated globally.
+- It is likely that some sectors (for example steel and cement or even electricity for a more inter-connected country) may be more vulnerable in countries bordering more relaxed mitigation regimes. Such countries should conduct similar Input-Output exercises to assess the vulnerability of their tradable sectors.
+- In addition, there is a problem of aggregation. Aluminium smelting for example is among the most heavily energy-intensive industrial processes. Yet the upstream process is classed under broader 'non-ferrous metals' (of which aluminium accounts for around half). Hence although it is correct to conclude that overall value-added is not at much as risk, to infer that aluminium production is not at risk would be wrong. In general, upstream metal production tends to be both the most energy-intensive and tradable component, something that analysis at broad level of aggregation may not reveal.
+
+The forgoing analysis offers an indication of the distribution of static costs among various sectors from pricing-in the cost of GHG emissions. However, there is a risk that action to reduce GHG emissions could generate dynamic costs, for example, scrapping capital prematurely and de-skilling workers might retard the economy's ability to grow. Before assessing these costs, it is important to re-emphasise that under 'business as usual' policies, dynamic costs relating to early capital scrapping and adjustment are liable to be even larger in the medium term. Timely investment will reduce the impact of climate change. Chapter 8 showed that a smooth transition to a low GHG environment with early action to reduce emissions is likely to limit adjustment costs.
+
+The dynamic impacts from a transition to a low-GHG economy should be small. The change in relative prices that is likely to result from adopting the social cost of carbon into production activities is well within the 'normal' range of variation in prices experienced in an open economy. Input cost variations from recent fluctuations in the exchange rate and the world oil price, for example, are likely to far exceed the short-run primary energy cost increases from a carbon tax required to reflect the damage from emissions (see Box 11.2).
+
+rough magnitude of this higher order indirect impact. Because data disaggregated to a level commodity output per unit of domestically met final demand has not been published in the UK since 1993, the study has not adopted this approach and has not been able to follow the impact through the entire supply-chain. However, extending the analysis to include more multipliers seems to make little difference to the results, suggesting the numbers presented here are a close approximation to the price impacts that would be derived using an up-to-date inverse Leontief.
+
+%%page 5#3%%
+
+Box 11.2 Vulnerability to energy shocks: lessons from oil and gas prices
+
+Past energy price movements can be used to illustrate the likely economic impact of carbon pricing. Energy costs constitute a small part of total gross output costs, in most developed economies under 5%, in contrast to, say, labour costs, which account for up to a third of total gross output costs. Nevertheless, past movements in energy costs can offer a guide to the potential impact of carbon proving.
+
+UK I-O tables show that oil and gas together account for more than ninety percent of UK fossil fuel energy consumption, but only three-quarters of fossil fuel emissions, as coal is more carbon-intensive. The I-O data reveal that a £10/tC ($4/tCO2) carbon price would have a similar impact on producer prices as a $1.6/bl rise in oil prices with a proportionate gas price increase.
+
+To put this in context, the sterling oil price has risen 240% in real terms from its level over most of the period 1986-1997($18/bl) to around $69/bl (as of May 2006), and by 150% in real terms since 2003 (average), when the price of Brent crude hovered at around $26/bl for most of the year. On this basis, the change in the real oil price since 2003, assuming a proportionate changes in gas prices, is likely to have had a similar impact on the economy as unchanged oil and gas prices and the imposition of a £260/tC ($132/tCO2) carbon price[^6]. Or, alternatively, a £70/tC ($30/tCO2) carbon resource cost is likely to have a similar impact as a $11/bl real oil price increase (at 2003 prices), according to I-O tables.
+
+Gross estimate of impact on UK consumer prices and GDP* *Uses 2003 prices and Input-output tables; assumes no substitution in producer processes or consumption patterns and assumes all revenues are lost to economy. Source: Stern using 2003 UK Input-Output tables, Carbon Trust carbon intensity and UK DTI energy price statistics.
+
+In practice, the overall impact on GDP from oil and gas price rises is likely to have been far smaller than suggested here at the national and global level. This is because the rise in the oil price in part reflects a transfer of rent to low marginal cost oil exporters, who in turn will spend more on imported goods and services from oil-importers. The presence of rent in the oil price means the impact on GDP is likely to be over-estimated even for oil importers. Furthermore, to the extent that carbon taxes generate transfers within the economy, the impact on GDP will also be exaggerated. Finally, the use of fixed Input-Output tables assume consumer and producer behaviour is static.
+
+In practice, costs will be lowered as firms and consumers switch out of more expensive carbon-intensive activities. Consequently, the total impact of both carbon pricing and oil price changes on GDP will be lower than the numbers presented here, which should be regarded as an illustrative upper-end estimate of the costs of mitigation in the energy sector for applying any given carbon price.
+
+%%page 6#3%%
+
+The recent rise in the Brent spot price, US $ per barrel (2003 prices)
+
+Source: Ecowin, Stern
+
+The economic literature investigating the impact of energy cost changes focuses disproportionately on resource, capital and energy-intensive sectors and firms. While this is understandable from a policy perspective, since regulation is likely to disproportionately affect these sectors, it also indicates a significant gap in data on other sectors in particular services, which constitute up to three quarters of some developed economies output.
+
+The analysis also assumes that carbon costs are fully passed through to final prices. In practice this need not be the case, especially for tradable sectors that face sensitive demand and are likely to "price-to-markets" to avoid a loss of market share. In addition, the presence of competing inputs, and the opportunity to change processes and reduce emissions, also serve to limit the impact on both profits and prices. However, this analysis still gives an indication of which sectors are most vulnerable to a profit squeeze if carbon pricing is applied to emissions.
+
+The nature of the policy instrument and the framework under which it is applied will also lead to sectoral distributions of costs. For example:
+
+- Who bears the costs/gains from emissions trading depends on whether the allowances are auctioned or given out for free.
+- The scope of trading schemes also matters. The EU ETS, for example, extends to primary carbon-intensive sectors, but does not allocate permits to secondary users, such as the aluminium sector, which relies heavily on electricity inputs[^7].
+- The structure of the electricity market also helps determine outcomes. In highly regulated or nationalised electricity markets, for example, carbon costs are not necessarily passed through, in which case the impact would be felt through the public finances. With regulation limiting cost pass-through in a private sector industry, there will be a squeeze on profits with impacts felt by shareholders. Different impacts will be felt across the globe, but the analysis here gives an indication of the sectors likely to be directly affected.
+
+%%page 7#3%%
+
+International sectoral agreements for such industries could play an important role in both promoting international action and keeping down competitiveness impacts for individual countries. Chapter 22 shows how emissions intensities within sectors often vary greatly across the world, so a focus on transferring and deploying technology through sectoral approaches could reduce intensities relatively quickly. Global coverage of particular sectors that are internationally exposed to competition and produce relatively homogenous products can reduce the impact of mitigation policy on competitiveness. A sectoral approach may also make it easier to fund the gap between technologies in developed and developing countries.
+
+***Countries most reliant on energy-intensive goods and services may be hardest hit.***
+
+The question of the distribution of additional costs applies to countries also. Some small agricultural or commodity-based economies rely heavily on long-distance transport to deliver products to markets while some newly-industrialising countries are particularly energy-intensive. Primary energy consumption as a percent of GDP is generally three or four times higher in the developing world than in the OECD[^8], though in rapidly growing sectors and countries such as China and India, primary energy consumption per unit output has fallen sharply as new efficient infrastructure is installed (see Section 7.3). Some of these countries may benefit from energy efficiency improvements and energy market reforms that could lower real costs, but the distribution of costs raises issues relating to design of policies and different speeds of action required to help with the transition in certain countries and sectors (see Part VI).
+
+The impact on oil and fossil fuel producers will depend on the future energy market and the rate of economic diversification in the relevant economies during the transition, which will open up new opportunities for exploiting and exporting renewable energy and new technologies such as carbon capture and storage. Producers of less carbon-intensive fossil fuels, such as gas, will tend to benefit relative to coal or lignite producers.
+
+Where transfers are involved, the extra burden on rich countries need not be significant given the disparities in global income. For illustration, assume GHG stabilisation requires a commitment of 1% of world GDP annually to tackle climate change. If, in the initial decades, the richest 20% of the world's population, which produce 80% of the world's output and income, agreed to pay 20% more - or 1.2% of GDP, this would allow the poorer 80% of the worlds population to shoulder costs equivalent to only 0.2% of GDP[^9]. Similarly, transfers to compensate countries facing disproportionately large and costly adjustments to the structure of their economies could also be borne at relatively small cost, if distributed evenly at a global level. Questions of how the costs of mitigation should be borne internationally are discussed in Part VI of this report.
+
+#### 11.3 Carbon mitigation policies and industrial location
+
+***The impact on industrial location if countries move at different speeds is likely to be limited***
+
+The transitional costs associated with implementing GHG reduction policies faster in one country than in another were outlined in the previous section. In the long run, however, (when by definition, resources are fully employed and the impact for any single country is limited to the relocation of production and employment between industries), openness to trade allows for cheap imports to substitute domestic production in polluting sectors subject to GHG pricing. This is likely to reduce the long-run costs of GHG mitigation to consumers, while some domestic GHG-intensive firms that are relatively open to trade lose market share.
+
+%%page 8#3%%
+
+A reduction in GHG-intensive activities is the ultimate goal of policies designed to reduce emissions. However, this aim is most efficiently achieved in an environment of global collective action (see Part VI). This is because if some countries move faster than others, the possible relocation of firms to areas with weaker GHG policies could reduce output in countries implementing active climate change policies by more than the desired amount (that is, the amount that would prevail in the case where all countries adopted efficient GHG policies). At the same time, global emissions would fall by less than the desired amount if polluters simply re-locate to jurisdictions with less active climate change policies[^10].
+
+This risk should not be exaggerated. To the extent that energy-intensive industry is open to trade, the bulk of this tends to be limited to within regional trading blocks. UK Input-Output tables, for example, suggest trade diversion is likely to be reduced where action is taken at an EU level (see Box 11.3). However, several sectors are open to trade outside the EU. To the extent that variations in the climate change policy regime between countries result in trade diversion in these sectors the impact on GHG emissions will be reduced.
+
+Box 11.3 The risk of trade diversion and firm relocation – a UK Input-Output case- study
+
+By changing relative prices, GHG abatement will reduce demand for GHG-intensive products. Sectors open to competition from countries not enforcing abatement policies will not be able to pass on costs to consumers without risking market share. The short-run response to such elastic demand is likely to be lower profits. In the long run, with capital being mobile, firms are likely to make location decisions on the basis of changing comparative advantages.
+
+I-O analysis helps identify which industries are likely to suffer trade diversion and consider relocation: in general the list is short. Continuing with the £70/tC ($30/tCO2) carbon price example, the figure below maps likely output price changes against exposure to foreign trade[^11]. With the exception of refined petrol and coal, fuel costs are not particularly exposed to foreign trade. Under carbon pricing, the price of electricity and gas distribution is set to rise by more than 15%, but output is destined almost exclusively for domestic markets. In all other cases, price increases are limited to below - mostly well below - 10%.
+
+Vulnerable industries: price sensitivity and trade exposure, percent
+
+The bulk of the economy is not vulnerable to foreign competition as a result of energy price rises. However, a few sectors are. Apart from refined petrol, these include fishing, coal, paper and pulp, iron and steel, fertilisers, air and water transport, chemicals, plastics, fibres and non-ferrous metals, of which aluminium accounts for approximately half of value added. In addition, the level of aggregation used in I-O analysis masks the likelihood that certain processes and facilities within sectors will be both highly energy-intensive and exposed to global competition.
+
+%%page 9#3%%
+
+The impact on competitiveness will depend not only on the strength of international competition in the markets concerned, but also the geographical origin of that competition. Many of the proposed carbon abatement measures (such as the EU ETS) are likely to take place at an EU level and energy-intensive sectors tend to trade very little outside the EU.
+
+Trade intensity falls seven-fold in the cement industry when restricted to non-EU countries, as cement is bulky and hard to transport over long distances. Trade in fresh agricultural produce drops by a factor of 5 when restricted only to non-EU countries. The next largest drop in trade occurs in pulp and paper, plastics and fibres. Here trade intensity is quartered at the non-EU level. Trade intensity in plastics and iron and steel and land-transport as well as fishing and fertilisers drop by two-thirds. Trade intensity for air transport and refinery products halves in line with the average for all sectors (complete non-EU trade intensities are listed in Annex table 11A.1). All of these sectors are fossil fuel-intensive; suggesting that restrictions applied at the EU level would greatly diminish the competitiveness impact of carbon restrictions.
+
+Trade diversion and relocation are also less likely, the stronger the expectation of eventual global action. Firms need to take long-term decisions when investing in plant and equipment intended for decades of production. One illustration of this effect is the growing aluminium sector in Iceland. Iceland has attracted aluminium producers from Europe and the US partly because a far greater reliance on renewable electricity generation has reduced its exposure to prices increases, as a result of the move to GHG regulations (see Box 11.4).
+
+Box 11.4 Aluminium production in Iceland
+
+Over the last six years, Iceland has become the largest producer of primary aluminium in the world on a per capita basis. The growth in aluminium production is the result both of expansion of an existing smelter originally built in 1969 and construction of a new green-field smelter owned by an American concern and operated since 1998. The near-future looks set to see a continuing sharp increase in aluminium production in Iceland. Both existing plants have plans for large expansions in the near future. These projects are forecast to boost aluminium production in Iceland to about one million tonnes a year, making Iceland the largest aluminium producer in western Europe.
+
+Power-intensive operations like aluminium smelters are run by large and relatively footloose international companies. Iceland has access to both the European and US aluminium market, but its main advantage is the availability of water and emission-free, renewable energy. Emissions of CO2 from electricity production per capita in Iceland is the lowest in the OECD: 70% of its primary energy consumption is met by domestic, sustainable energy resources. Iceland is also taking action to reduce emissions of fluorinated compounds associated with aluminium smelting. Expectations of future globalisation action to mitigate GHG emissions is already acting as a key driver in attracting investment of energy-intensive sectors away from high GHG energy suppliers and towards countries with renewable energy sources.
+
+The impact on location and trade is likely to be more substantial for mitigating countries bordering large trade-partners with more relaxed regimes, such as Canada which borders the US, and Spain which is close to North Africa. For example, Canada's most important trading partner, the United States, has not signed the Kyoto Protocol, raising concerns of a negative competitive impact on Canada's energy-intensive industry.[^12] However, even for open markets such as Canada and the US, or states within the EU, firms tend to be reluctant to relocate or trade across borders, when they have markets in the home nation. This so-called "home-bias" effect is surprisingly powerful and the consequent necessity for firms to locate within borders to access local markets limits the degree to which they are footloose in their ability to relocate when faced with carbon pricing[^13].
+
+%%page 10#3%%
+
+Theory suggests that country-specific factors, such as the size and quality of the capital stock and workforce, access to technologies and infrastructure, proximity to large consumer markets and trading partners, and other factor endowments are likely to be the most important determinants of location and trade. In addition, the business tax and regulatory environment, agglomeration economies, employment law and sunk capital costs are also key determinants. These factors are unlikely to be much affected by GHG mitigation policies. Overall, empirical evidence supports the theory, and suggests environmental policies do affect pollution-intensive trade and production on the margin, but there is little evidence of major relocations[^14][^15].
+
+***Environmental policies are only one determinant of plant and production location decisions. Costs imposed by tighter pollution regulation are not a major determinant of trade and location patterns, even for those sectors most likely to be affected by such regulation.***
+
+The bulk of the world's polluting industries remain located in OECD countries despite tighter emissions standards[^16]. By the same token, 2003 UK Input-Output tables show that around 75% of UK trade in the output of carbon-intensive industries is with EU countries with broadly similar environmental standards, with little tendency for such products to be imported from less stringent environmental jurisdictions.
+
+One way of assessing the impact of environmental regulations is to see if greater trade openness has led to a relocation of polluting industries to poorer countries, which have not tightened environmental standards. Antweiler, Copeland and Taylor (2001) calculated country-specific elasticities of pollution concentrations with respect to an increase in openness over the latter part of the twentieth century (Figure 11.1). A positive value for a country implies that trade liberalisation shifts pollution-intensive production towards that country, in effect signalling that it has a comparative advantage in such production.
+
+%%page 11#3%%
+
+Figure 11.1 Trade liberalisation reveals 'comparative advantages' in pollution
+
+Source: Anweiler etal.
+
+Perhaps surprisingly, the study found that rich countries have tended to have unexploited comparative advantages in pollution-intensive production and tend to have positive values for the elasticity while poorer countries tend to have negative values. This indicates that opening up trade will on average shift polluting production towards richer countries. The authors offer this as support for the view that factor endowments such as capital intensity, availability of technology and skilled labour, and access to markets and technologies are the key determinants of environmentally sensitive firms' location decisions. Such factors outweigh rich countries' tendency to apply tighter environmental restrictions in determining firms' location decisions.
+
+#### 11.4 Conclusion
+
+The competitiveness threat arising if some countries move quicker than others in mitigating GHGs is, for most countries, not a macro-economic one, but certain processes and facilities could be exposed in the transition to a low-emissions environment, with new plant diverted to countries or regions with less active climate change policies.
+
+However, if early and gradual action is taken regionally, such impacts are likely to apply to only a very narrow subset of production in a few states with little impact on the economy as a whole. There is likely to be a differentiation in a country's attractiveness as an investment location towards less carbon-intensive activities, but with well-designed policies and flexible institutions there will also be new opportunities in innovative sectors.
+
+Environmental policies are only one determinant of plant and production location decisions. Even for those sectors most likely to be affected by such regulation, factors such as the quality of the capital stock and workforce, access to technologies and infrastructure and the efficiency of the tax and regulation system are more significant. Proximity to markets and suppliers is another important determinant of location and trade. These fundamental factors will always be the key drivers of overall national competitiveness and dynamic economic performance.
+
+Focusing on the costs of mitigation is not the whole story: there are a number of non-climate change related benefits that countries which take action to mitigate GHGs will benefit from; these are outlined in the next chapter.
+
+%%page 12#3%%
+
+#### References
+
+General discussions defining competitiveness are few and far between, reflecting the fact that the definition varies depending on the context. An entertaining account of the problems associated with defining "competitiveness" and the limitations to the notion when applied at a national level can be found in Krugman (1994) and at a more applied level in Azar (2005). There are a number of very thorough and well-researched sectoral analyses of the competitiveness impact of climate change policies; particularly informative are Demailly and Quirion's (2006) study of competitiveness in the European cement industry and Berman and Bui's account of location decisions in the fossil fuel price sensitive refinery sector. There are also a host of in-depth studies of specific regional policies, in particular the competitiveness impact of the EU ETS. Among the many notable reports listed below are: Frontier Economics (2006); Oxera (2006); Grubb Neuhoff (2006), and Reinaud (2004).
+
+Perhaps the most authoritative and comprehensive account of the evolving literature on firms' location decisions in the presence of differential national environmental policies can be found in Copeland and Taylor (2004). Smita et al. (2004) and Lowe and Yeats also undertake in-depth analyses of the degree to which environmental regulations influence trade patters. McCallum (1995) and Nitsch and Berger (2005) provide illustrations of the impact of country borders in containing trade, even where borders are open and goods are highly tradable.
+
+Antweiler, W., B.R. Copeland and M.S. Taylor, (2001): 'Is free trade good for the environment?' American Economic Review 91(4): 877–908
+
+Azar, C. (2005): 'Post-Kyoto climate policy targets: costs and competitiveness implications', Climate Policy journal 309-328
+
+Berman, E. and L. Bui (1999): 'Environmental regulation and productivity: evidence from oil refineries' Review of Economics and Statistics 2001 83(3): 498-510, available from http://www.mitpressjournals.org/doi/abs/10.1162/00346530152480144
+
+Brunnermeier, S.B. and Cohen M. (2003): 'Determinants of environmental innovation in U.S. manufacturing industries', Journal of Environmental Economics & Management, 45(2): 278- 293
+
+Burtraw, D. (1996) "Trading emissions to clean the air: exchanges few but savings many," Resources, 122 (Winter): 3-6
+
+The Carbon Trust (2004): 'The European Emissions Trading Scheme: implications for industrial competitiveness', London: The Carbon Trust.
+
+The Carbon Trust (2005): 'The UK climate change programme: potential evolution of business and the public sector', London: The Carbon Trust.
+
+Cole, M.A. and R.J.R. Elliott (2003): 'Do environmental regulations influence trade patterns? Testing old and new trade theories' The World Economy 26 (8):1163-1186
+
+Copeland, B.R. and S. Taylor (2004): 'Trade, growth and the environment', Journal of Economic Literature, XLII: 7–71
+
+Department for Environment, Food and Rural Affairs (2006): 'Synthesis of climate change policy evaluations' April. London: Defra.
+
+Demailly, D. and P. Quirion (2006): 'CO2 abatement, competitiveness and leakage in the European cement industry under the EU ETS: grandfathering versus output-based allocation' April, CESifo, Venice: Venice International University.
+
+Ederington, J. and J. Minier (2000): 'Environmental regulation and trade flows', Journal of Economic Literature, Jan 19 2001, available from http://fmwww.bc.edu/RePEc/es2000/1507.pdf
+
+%%page 13#3%%
+
+Ederington, J. and J. Minier (2003): 'Is environmental policy a secondary trade barrier? An empirical analysis'. Canadian Journal of Economics, 36(1): 137-154
+
+Frontier Economics (2006): 'Competitiveness impacts of the EU ETS'.
+
+Greenstone, M. (2002): 'The Impacts of environmental regulations on industrial activity: evidence from the 1970 and 1977 Clean Air Act Amendments and the Census of Manufactures', Journal of Political Economy, 110: 1175–1219
+
+Grubb, M. (2004): Implications of EU ETS for competitiveness of energy-intensive industry. Presentation at IEA/IETA/EPRI workshop on Greenhouse-Gas Emissions Trading, Paris, 4-5 October 2004.
+
+Grubb, M., and K. Neuhoff (2006): 'Allocation and competitiveness in the EU emissions trading scheme: policy overview', Climate Policy 6: 7–30
+
+Henderson, D.J. and D.L. Millimet (2001): 'Pollution abatement costs and foreign direct investment inflows to U.S. states: a nonparametric reassessment' Review of Economics and Statistics Vol. 84(4): 691-703
+
+Helliwell, J.F. (1998): 'How much do national borders matter?' Washington, DC: Brookings Institution Press.
+
+IEA (2005) 'CO2 Emissions from fuel combustion 1971-2003', OECD/IEA, Paris
+
+Jeppesen, T., J.A. List and H. Folmer (2002): 'Environmental regulations and new plant location decisions: evidence from a Meta-Analysis' Journal of Regional Science 42:19 - February 2002
+
+Klepper, G. and S. Peterson (2004): 'The EU emissions trading scheme allowance prices, trade flows and competitiveness effects' European Environment, 14(4), 2004. Pages 201-218 Kiel Institute for World Economics, Germany.
+
+Krugman, P. (1994): 'Competitiveness: a dangerous obsession', Foreign Affairs, March.
+
+Levinson, A. and S. Taylor (2003): 'Trade and the environment: unmasking the pollution haven hypothesis' Georgetown University Working Paper Washington, DC: Georgetown University.
+
+Low, P. and A. Yeats (1992): 'Do 'dirty' industries migrate?', in P. Low (ed.), International trade and the environment, Washington, DC: World Bank Discussion Paper 159 pp. 89–104
+
+Mani M, and D. Wheeler (1997): 'In search of pollution havens? Dirty industry migration in the world economy', World Bank working paper #16. Washington, DC: World Bank.
+
+McCallum, J. (1995): 'National borders matter: Canada-U.S. regional trade patterns', American Economic Review, American Economic Association, vol. 85(3): 615-23, June.
+
+Newbery, D.M. (2003): 'Sectoral dimensions of sustainable development: energy and transport', available from http://www.unece.org/ead/sem/sem2003/papers/newbery.pdf
+
+Neuhoff ,K., J. Barquin, M. Boots, et al. (2004): 'Network constrained models of liberalized electricity markets: the devil is in the details. Internal report', Energy research Centre of the Netherlands (ECN), Amsterdam: Petten.
+
+Neuhoff, K. (2006): 'The EU ETS: allocation, competitiveness and longer term design options', submission to Stern Review.
+
+%%page 14#3%%
+
+Nitsch, V. and H. Berger (2005): 'Zooming out: the trade effect of the euro in historical perspective'. CESifo Working Paper Series No. 1435.
+
+Oxera (2004): 'CO2 Emissions Trading: How will it affect UK Industry?' Report prepared for The Carbon Trust, Oxford: Oxera.
+
+Oxera (2006): 'Modelling the competitiveness impact of policy proposals arsing from the Energy Review?' Report prepared for the Department of Trade and Industry, Oxford: Oxera.
+
+Oates, W., Palmer and Portney (1995): 'Tightening environmental standards: the benefit-cost or the no-cost paradigm?' Journal of Economic Perspectives 9(4), Autumn: 119-132
+
+Reinaud, J. (2004): 'Industrial competitiveness under the European Union Emissions Trading Scheme', Paris: IEA.
+
+Sijm, J.P.M., S.J.A. Bakker, Y.H.W. Chen Harmsen and W. Lise (2005): 'CO2 price dynamics: The implications of EU emissions trading for the price of electricity', Energy research Centre of the Netherlands (ECN), Amsterdam: Petten.
+
+Smita, B., S.B. Brunnermeier and A. Levinson (2004): 'Examining the evidence on environmental regulations and industry' Location Journal of Environment & Development, 13(1): 6-41 March
+
+Trefler, D. (1993): 'Trade liberalization and the theory of endogenous protection: an econometric study of US import policy', Journal of Political Economy. 101(1): 138–60
+
+Williams, E., K. Macdonald and V. Kind (2002): 'Unravelling the competitiveness debate', European Environment 12(5): 284 - 290 in Special Issue: Environmental Policy in Europe: Assessing the Costs of Compliance Williams E (ed.).
+
+United Nations Development Programme (2005): 'International co-operation behind national borders: an inventory of domestic policy measures aimed at internalising cross-border spillovers adversely affecting the global environment', UNDP Office of Development Studies, New York June 28, available from http://www.thenewpublicfinance.org/background/domestic_spillovers.pdf
+
+Xing, Y. and C.D. Kolstad (2002): 'Do lax environmental regulations attract foreign investment?' Environmental & Resource Economics, 21(1): 1-2
+
+%%page 15#3%%
+
+Annex table 11A.1 Key statistics for 123 UK production sectors (ranked by carbon intensity).[^17] …/(continued) key statistics for 123 production sectors.
+
+%%page 16#3%%
+
+Meat processing 0.70 1.80 21.72 4.83 0.34 Bread, biscuits etc 0.70 1.60 14.22 2.72 0.32 Mechanical power equipment 0.71 1.51 79.07 41.72 0.26 Knitted goods 0.72 1.48 74.07 40.57 0.04 Domestic appliances nec 0.73 1.76 34.84 13.75 0.11 Alcoholic beverages 0.73 1.71 29.24 13.36 0.29 Paints, varnishes, printing ink etc 0.74 1.67 29.78 8.75 0.12 Rubber products 0.76 1.70 52.40 17.45 0.16 Wood and wood products 0.77 1.95 32.75 10.07 0.28 Sports goods and toys 0.78 1.94 20.48 12.46 0.05 Water supply 0.80 1.56 0.42 0.21 0.30 Pesticides 0.80 1.83 77.22 30.00 0.05 Grain milling and starch 0.81 2.01 22.74 5.38 0.10 Metal boilers and radiators 0.81 1.78 31.36 7.21 0.07 Wholesale distribution 0.82 2.48 - - 4.41 Textile fibres 0.87 1.68 41.41 18.12 0.03 Other metal products 0.88 2.03 42.92 18.03 0.24 Plastic products 0.90 1.99 33.69 11.10 0.63 Dairy products 0.91 2.56 21.26 3.66 0.14 Other textiles 0.93 1.85 55.12 19.46 0.05 Other chemical products 0.96 2.22 84.83 34.01 0.17 Carpets and rugs 0.97 2.23 19.26 4.09 0.03 Miscellaneous manufacturing nec & recy 0.97 2.39 22.33 13.03 0.20 Animal feed 0.99 2.34 14.74 3.35 0.07 Fish and fruit processing 0.99 2.56 29.87 12.38 0.20 Metal forging, pressing, etc 1.03 2.46 0.00 0.00 0.46 Textile weaving 1.04 1.78 77.76 36.85 0.03 Shipbuilding and repair 1.05 2.36 44.94 28.82 0.10 Ceramic goods 1.08 2.42 42.51 18.75 0.08 Structural metal products 1.09 2.47 13.27 4.56 0.30 Paper and paperboard products 1.17 2.02 15.19 3.99 0.28 Coal extraction 1.22 7.24 33.24 24.76 0.05 Non-ferrous metals 1.32 2.36 73.75 36.90 0.10 Agriculture 1.37 3.96 27.99 11.34 0.96 Metal castings 1.40 2.84 0.00 0.00 0.07 Forestry 1.44 4.18 21.64 6.90 0.03 Glass and glass products 1.53 3.44 33.62 9.55 0.14 Water transport 1.65 5.26 81.65 28.76 0.24 Articles of concrete, stone etc 1.73 2.96 15.97 4.67 0.25 Plastics & synthetic resins etc 1.85 4.57 62.56 15.31 0.12 Oil and gas extraction 1.89 5.73 53.30 30.28 2.06 Textile finishing 1.95 3.34 1.76 0.80 0.03 Other mining and quarrying 2.03 4.64 88.90 61.53 0.16 Industrial gases and dyes 2.03 4.31 49.69 20.32 0.09 Man-made fibres 2.21 4.60 88.19 24.96 0.02 Other land transport 2.21 7.04 7.74 2.33 1.94 Sugar 2.37 3.20 28.83 22.36 0.04 Organic chemicals 2.38 6.27 86.31 31.19 0.17 Air transport 2.39 7.64 53.03 23.82 0.55 Pulp, paper and paperboard 2.42 4.23 66.07 16.52 0.10 Inorganic chemicals 2.58 5.64 34.51 11.75 0.06 Iron and steel 2.69 7.02 55.40 18.32 0.12 Structural clay products 2.73 6.61 3.78 0.63 0.04 Oils and fats 2.86 5.87 38.48 14.49 0.02 Fishing 4.28 12.78 40.35 14.74 0.04 Fertilisers 4.61 13.31 25.69 9.54 0.02 Cement, lime and plaster 9.00 5.00 8.11 1.20 0.05 Electricity production and distribution 16.07 26.70 1.35 0.11 1.08 Refined petroleum 23.44 72.83 25.66 11.75 0.27 Gas distribution 25.36 42.90 0.32 0.18 0.36 *Trade intensity defined as total and non-EU exports of goods and services as a percentage of total supply of goods and services, plus total and non-EU imports of goods and services as a percentage of total demand for goods and services. Output is defined as gross, so the maximum value attainable is 200.
+
+%%page 269%%
+
+### 12 Opportunities and Wider Benefits from Climate Policies
+
+Key Messages
+
+The transition to a low-emissions global economy will open many new opportunities across a wide range of industries and services. Markets for low carbon energy products are likely to be worth at least $500bn per year by 2050, and perhaps much more. Individual companies and countries should position themselves to take advantage of these opportunities.
+
+Financial markets also face big opportunities to develop new trading and financial instruments across a broad range including carbon trading, financing clean energy, greater energy efficiency, and insurance.
+
+Climate change policy can help to root out existing inefficiencies. At the company level, implementing climate policies can draw attention to money-saving opportunities. At the economy-wide level, climate change policy can be a lever for reforming inefficient energy systems and removing distorting energy subsidies on which governments spend around $250bn a year.
+
+Policies on climate change can also help to achieve other objectives, including enhanced energy security and environmental protection. These co-benefits can significantly reduce the overall cost to the economy of reducing greenhouse gas emissions. There may be tensions between climate change mitigation and other objectives, which need to be handled carefully, but as long as policies are well designed, the co-benefits will be more significant than the conflicts.
+
+#### 12.1 Introduction
+
+Climate change policies will lead to structural shifts in energy production and use, and in other emissions-intensive activities. Whilst the previous chapters focused on the resource costs and competitiveness implications of this change, this chapter considers the opportunities that this shift will create. This is discussed in Section 12.2.
+
+In addition, climate change policies may have wider benefits, which narrow cost estimates will often fail to take into account. Section 12.3 looks at the ways in which climate change policies have wider benefits through helping to root out existing inefficiencies at the company or country level.
+
+Section 12.4 considers how climate policies can contribute to other energy policy goals, such as enhanced energy security and lower air pollution. Conversely, policies aimed at other objectives can be tailored to help to make climate change policies more effective. Energy market reform aimed at eliminating energy subsidies and other distortions is an important example, and is considered in Section 12.5.
+
+In other areas, there may be tensions. The use of coal in certain major energy-using countries, for instance, presents challenges for climate change mitigation – although the use of carbon capture and storage can sustain opportunities for coal. Climate change mitigation policies also have important overlaps with broader environmental protection policies, which are discussed in Section 12.6.
+
+Thinking about these issues in an integrated way is important in understanding the costs and benefits of action on climate change. Policymakers can then design policy in a way that avoids conflicts, and takes full advantage of the significant co-benefits that are available.
+
+%%page 270%%
+
+#### 12.2 Opportunities from growing markets
+
+***Markets for low-carbon energy sources are growing rapidly***
+
+Whilst some carbon-intensive activities will be challenged by the shift to a low-carbon economy, others will gain. Enormous investment will be required in alternative technologies and processes. Supplying these will create fast-growing new markets, which are potential sources of growth for companies, sectors and countries.
+
+The current size of the market for renewable energy generation products alone is estimated at $38 billion, providing employment opportunities for around 1.7 million people. It is a rapidly growing market, driven by a combination of high fossil fuel prices, and strong government policies on climate change and renewable energy. Growth of the sector in 2005 was 25%[^1].
+
+Within this overall total, some markets are growing at an even more rapid rate. The total global installed capacity of solar PV rose by 55% in 2005, driven by strong policy incentives in Germany, Japan and elsewhere[^2], and the market for wind power by nearly 50%[^3]. The market capitalisation of solar companies grew thirty-eightfold to $27 billion in the 12 months to August 2006, according to Credit Suisse[^4]. Growth in biofuels uptake was not quite as rapid, but there was still a 15% rise to 2005, making the total market over $15 billion.
+
+***Growth rates in these markets will continue to be strong, creating opportunities for business and for employment opportunities.***
+
+Looking forward, whilst some of these very rapid rates may not be sustained, policies to tackle climate change will be a driver for a prolonged period of strong growth in the markets for low-carbon energy technology, equipment and construction. The fact that governments in many countries are also promoting these new industries for energy security purposes (Section 12.5) will only strengthen this effect.
+
+One estimate of the future market for low-carbon energy technologies can be derived from the IEA's Energy Technology Perspectives report. This estimates the total investment required in low-carbon power generation technologies in a scenario where total energy emissions are brought back down to today's levels by 2050[^5]. It finds that cumulative investment in these technologies by 2050 would be over $13 trillion, accounting for over 60% of all power generation by this date. The annual market for low-carbon technologies would then be over $500bn per year. Other estimates are still higher: recent research commissioned by Shell Springboard suggests that the global market for emissions reductions could be worth $1 trillion cumulatively over the next five years, and over $2 trillion per year by 2050.[^6]
+
+The massive shift towards low-carbon technologies will be accompanied by a shift in employment patterns. If it is assumed that jobs rise from the current level of 1.7 million in line with the scale of investment, over 25 million people will be working in these sectors worldwide by 2050.
+
+***Climate change also presents opportunities for financial markets***
+
+Capital markets, banks and other financial institutions will have a vital role in raising and allocating the trillions of dollars needed to finance investment in low-carbon technology and the companies producing the new technologies. The power companies will also require access to large, long-term funds to finance the adoption of new technology and methods, both to conform to new low-carbon legislation and to satisfy rising global power demand from growing populations enjoying higher living standards.
+
+%%page 271%%
+
+The new industries will create new opportunities for start-up, small and medium enterprises[^7] as well as large multinationals. Linked to this, specialist funds focusing on clean energy start- ups and other specialist engineering, research and marketing companies are emerging. Clean technology investment has already moved from being a niche investment activity into the mainstream; clean technology was the third largest category of venture capital investment in the US in the second quarter of 2006[^8].
+
+The insurance sector will face both higher risks and broader opportunities, but will require much greater access to long-term capital funding to be able to underwrite the increased risks and costs of extreme weather events[^9]. Higher risks will demand higher premiums and will require insurance companies to look hard at their pricing; of what is expected to become a wider range of weather and climate-related insurance products[^10].
+
+The development of carbon trading markets also presents an important opportunity to the financial sector. Trading on global carbon markets is now worth over $10bn annually with the EU ETS accounting for over $8bn of this[^11]. Expansions of the EU ETS to new sectors, and the likely establishment of trading schemes in other countries and regions is expected to lead to a big growth in this market. Calculations by the Stern Review as a hypothetical exercise show that if developed countries all had carbon markets covering all fossil fuels, the overall market size would grow 200%, and if markets were established in all the top 20 emitting countries, it would grow 400% (the analysis behind these numbers can be found in Chapter 22).
+
+This large and growing market will need intermediaries. Some key players are set out in Box 12.1. The City of London, as one of the world's leading financial centres, is well positioned to take advantage of the opportunities; the most actively traded emissions exchange, ECX, is located and cleared in London, dealing in more than twice the volume of its nearest competitor[^12].
+
+%%page 272%%
+
+Box 12.1 Financial intermediaries and climate change
+
+The transition involved in moving to a low-carbon economy creates opportunities and new markets for financial intermediaries. Emissions trading schemes in particular require a number of key financial, legal, technical and professional intermediaries to underpin and facilitate a liquid trading market. These include:
+
+Corporate and project finance: trillions of dollars will be required over the coming decades to finance investments in developing and installing new technologies. Creative new financing methods will be needed to finance emission reduction projects in the developing world. And emissions trading will require the development of services needed to manage compliance and spread best practice.
+
+MRV services (monitoring, reporting and verification): these are the key features for measuring and auditing emissions. MRV services are required to ensure that one tonne of carbon emitted or reduced in one place is equivalent to one tonne of carbon emitted or reduced elsewhere.
+
+Brokers: are needed to facilitate trading between individual firms or groups within a scheme, as well as offering services to firms not covered by the scheme who can sell emission reductions from their projects.
+
+Carbon asset management and strategy: reducing carbon can imply complex and inter- related processes and ways of working at a company level. New opportunities will arise for consultancy services to help companies manage these processes.
+
+Registry services: these are needed to manage access to and use of the registry accounts that hold allowances necessary for surrender to the regulator.
+
+Legal services: these will be needed to manage the contractual relationships involved in trading and other schemes.
+
+Trading services: the transition to a low carbon economy offers growing opportunities for trading activities of all kinds, including futures trading and the development of new derivates markets.
+
+***Companies and countries should position themselves now to take advantage of these opportunities***
+
+There are numerous examples of forward-looking companies which are now positioning themselves to take advantage of these growth markets, ranging from innovative high- technology start-up firms to some of the world's largest companies.
+
+Likewise, governments can seek to position their economy to take advantage of the opportunities. Countries with sound macroeconomic management, flexible markets, and attractive conditions for inward investment can hope to win strong shares of the growing clean energy market. But particular countries may also find that for historical or geographical reasons, or because of their endowment of scientific or technical expertise, they have advantages in the development of particular technologies. There may be grounds for government intervention to support their development, particularly if promising technologies are far from market and needs to be scaled up to realise their full potential – Chapter 16 discusses how market failures and uncertainties over future policy justify action in this area.
+
+Implementing ambitious climate change goals and policies may also help to create a fertile climate for clean energy companies. Hanemann et. al. (2006) analysed the economic impact of California taking the lead in adopting policies to reduce GHG emissions. They concluded that, if it acts now, California can gain a competitive advantage, by becoming a leader in the new technologies and industries that will develop globally as international action to curb GHG emissions strengthens. They estimate that this could increase gross state product by $60 billion, and create 20,000 new jobs, by 2020.
+
+%%page 273%%
+
+#### 12.3 Climate change policy as a spur to efficiency and productivity
+
+***Climate change policies can be a general spur to greater efficiency, cost reduction and innovation for the private sector***
+
+Predictions of the costs of environmental regulations often turn out to be overestimates. Hodges (1997) compared all cases of emission reduction regulations for which successive cost estimates were available, a dozen in total. He found that in all cases except one (CFCs where costs were only 30% below expectations due to the accelerated timetable for phase- out of the chemical), the early estimates were at least double the later ones, and often much greater.
+
+One example is the elimination of CFCs in car air conditioners. Early industry estimates suggested this would increase the price of a new car by between $650 and $1200. By 1997, the cost was $40 to $400[^13].
+
+When such numbers come to light, companies are often accused of inflating initial cost estimates to support their lobbying efforts. But there is a more positive side to the story. The dramatic reduction in costs is often a result of the process of innovation, particularly when a regulatory change results in a significant increase in the scale of production.
+
+And the process of complying with new policies may reveal hidden inefficiencies which firms can root out, saving money in the process (Box 12.2).
+
+Box 12.2 Reducing Business Costs Through Tackling Climate Change
+
+An increasing number of private and public sector organisations are discovering the potential to reduce the cost of goods and services they supply to the market. A study of 74 companies drawn from 18 sectors in 11 countries including North America, Europe, Asia, and Australasia revealed gross savings of $11.6 billion, including[^14]:
+
+- BASF, the multi-national conglomerate and chemical producer, has reduced GHG emissions by 38% between 1990 and 2002 through a series of process changes and efficiency measures which cut annual costs by 500 million euros at one site alone;
+- BP established a target to reduce GHG emissions by 10% on 1990 levels by 2010, which it achieved nine years ahead of schedule, while delivering around $650 million in net present value savings through increased operational efficiency and improved energy management. Between 2001 and 2004, the organisation contributed a further 4MtC of emission reductions through energy and flare reduction projects. $350 million investment in energy efficiency is planned over 5 years from 2004.
+- Kodak began tracking its greenhouse gas emissions in the 1990s, and set five-year goals for emissions reductions. To help to achieve this, the company performed short, focused energy assessments – "Energy Kaizens" – across different areas of its business, aimed at reducing waste. Between 1999 and 2003, this and other initiatives resulted in overall savings of $10 million.
+
+Tackling climate change may also have more far-reaching effects on the efficiency and productivity of economies. Schumpeter (1942)[^15] developed the concept of "creative destruction" to describe how breakthrough innovations could sweep aside the established economic status quo, and unleash a burst of creativity, investment and economic growth which ushers in a new socio-economic era. Historical examples of this include the introduction of the railways, the invention of electricity, and more recently, the IT revolution. Dealing with climate change will also involve fundamental changes worldwide, particularly to energy systems.
+
+%%page 274%%
+
+In particular, the shift to low-carbon energy technologies will result in a transformation of energy systems; the implications of this are explored in the following sections.
+
+#### 12.4 The links between climate change policy and other energy policy goals
+
+Climate change policies cannot be disconnected from policies in other areas, particularly energy policy. Where such synergies can be found, they can reduce the effective cost of emissions reductions considerably. There may also be tensions in some areas, if climate change policies undermine other policy goals. But as long as policies are well designed, the co-benefits should outweigh the conflicts.
+
+***Climate change and energy security drivers will often work in the same direction, although there are important exceptions***
+
+Energy security is a key policy goal for many developed and developing countries alike. Although often understood as referring mainly to the geopolitical risks of physical interruption of supply, a broader definition would encompass other risks to secure, reliable and competitive energy, including problems with domestic energy infrastructure.
+
+Energy efficiency is one way to meet climate change and energy security objectives at the same time. Policies to promote efficiency have an immediate impact on emissions. More efficient use of energy reduces energy demand and puts less pressure on generation and distribution networks and lowers the need to import energy or fuels. For developing countries in particular, who often have relatively low energy efficiency, this is an attractive option. Indirectly, they also help with local air pollution, by limiting the growth in generation.
+
+Improving efficiency within the power sector itself has similar effects. Box 12.3 gives an example of the scale of the potential to reduce emissions from making fossil fuel production processes more efficient.
+
+%%page 275%%
+
+Box 12.3 Economic opportunities from reducing gas-flaring in Russia
+
+In total, leaks from the fossil fuel extraction and distribution account for around 4% of global greenhouse gas emissions. Within this, gas flaring – the burning of waste gas from oil fields, refineries and industrial plants – accounts for 0.4% of global emissions. Increasingly, there has been a move to capture these gases, driven by economic as much as environmental reasons. This is by no means universal, and in some countries the potential for emissions savings in this area remains significant.
+
+The post-Soviet collapse of Russia's energy-intensive economy cut carbon emissions and left it with a surplus of transferable emission quotas under the Kyoto protocol. Decades of under-investment, however, mean that current 6-7 per cent GDP growth, spurred by higher energy and commodity prices, is both raising emissions and putting pressure on the infrastructure. Sustaining growth requires very large energy and related infrastructure investment. In June 2006 the government approved a $90bn investment programme to replace ageing coal and nuclear generating plants, increase generating capacity and strengthen the grid system.
+
+A recent IEA report[^16] on Russian gas flaring, however, indicates that without accompanying price and structural reforms, especially in the gas sector, investment alone is unlikely to deliver the full potential for efficiency gains or reductions in GHGs.
+
+The report indicates that low prices for domestic gas, coupled with Gazprom's monopoly over access to both domestic and export gas pipelines and the high levels of waste and inefficient technology, restrict its ability to satisfy rising export and domestic demand, and to reduce both gas losses and GHG emissions.
+
+In 2004 Gazprom lost nearly 70 billion cubic metres (bcm) of the nearly 700bcm of natural gas which flowed through its network because of leaks and high wastage from inefficient compressors. Gas related emissions amounted to nearly 300 MtCO2e of GHG, including 43 MtCO2e from the 15bcm of gas flared off, mainly by oil companies unable to gain access to Gazprom's pipes. On this basis, Russia accounted for around ten per cent of natural gas flared off globally every year. However, an independent study conducted by the IEA and the US National Oceanic and Atmospheric administration, calibrated from satellite images of flares in the main west Siberian oilfields, indicated however that up to 60bcm of gas may be lost through flaring – over a third of the estimated global total[^17].
+
+Gas flaring represents a clear illustration of the potential efficiency gains from new technology linked to more rational pricing policies and other structural reforms. These would also yield significant climate change mitigation benefits.
+
+A more diverse energy mix can be an effective hedge against problems in the supply of any single fuel. As climate change policy tends to encourage a more diverse energy mix, it is generally good for energy security. And conversely, policies carried out for energy security reasons may have benefits for climate change. The expansion of a range of sources of renewable power and, where appropriate, of nuclear energy can reduce the exposure of economies to fluctuations in fossil fuel prices, as well as reducing import dependence.
+
+Coal is an important exception to this rule. Coal is much more carbon intensive than other fossil fuels: coal combustion emits almost twice as much carbon dioxide per unit of energy as does the combustion of natural gas (the amount from crude oil combustion falls between coal and natural gas[^18]). Many major energy-using countries have abundant domestic coal supplies, and hence see coal as having an important role in enhancing energy security. China, in particular, is already the world's largest coal producer; its consumption of coal is likely to double over the 20 years between 2000 and 2020[^19].
+
+%%page 276%%
+
+As well as using coal directly for energy production, coal-producing countries including the US, Australia, China and South Africa are investing in coal-to-liquids technology, which would allow them to reduce their dependence on imported oil and use domestic coal to meet some of the demand for transport fuel. But it has been estimated that "well-to-wheel" (full lifecycle) emissions from the production and use of coal-to-liquids in road transport are almost double those from using crude oil[^20].
+
+However, extensive deployment of carbon capture and storage (as discussed in Chapter 9), can reconcile the use of coal with the emissions reductions necessary for stabilising greenhouse gases in the atmosphere.
+
+Supporting sufficient investment in generation and distribution capacity also requires a sound framework capable of bringing forward required investment. Clear, long-term credible signals about climate policy are a critical part of this. If there is uncertainty about the future direction of climate change policy, energy companies may delay investment, with serious consequences for security of supply. This is discussed in more detail in Chapter 15.
+
+***Access to energy is a priority for economic development***
+
+There are currently 1.6 billion people in the world without access to modern energy services[^21]. This restricts both their quality of life, and their ability to be economically productive. Providing poor people with access to energy is a very high priority for many developing countries, and can have significant co-benefits in reducing local pollution, as the next section discusses.
+
+Increasing the number of energy consumers, by providing access to energy, would tend to push emissions upwards. But well-designed policies present opportunities for meeting several objectives at once. New renewable technologies, developed with climate change objectives in mind, can help to overcome barriers to access to energy. Microgeneration technologies (see Box 17.3 in Chapter 17) such as small-scale solar and hydropower, in particular, remove the need to be connected to the grid, and so help raise availability and reduce the cost of electrification in rural areas. And as discussed below, the replacement of low-quality biomass energy with modern energy can cut emissions and pollution.
+
+As well as access, affordability is a key issue in both developed and developing countries. Poverty is determined by people's capacity to earn in relation to prices. Energy prices are one significant aspect, along with food and other essentials.
+
+But it is inappropriate to deal with poverty by distorting the price of energy. Addressing income distribution issues directly is more effective. There are a number of ways to achieve this. One is indexing social transfers to a price index, taking account of different consumption patterns of poorer groups in the relevant price index for those groups. Other more direct means include making special transfers to those with special energy needs such as the elderly, and the use of "lifeline tariffs", whereby people using a minimal amount of power pay a sharply reduced tariff for a fixed maximum number of units.
+
+***Climate change policies can help to reduce local air pollution, with important benefits for health***
+
+Measures to reduce energy use, and to reduce the carbon intensity of energy generation, can have benefits for local air quality. Most obviously, switching from fossil fuels to renewables, or from coal to gas, can significantly the levels of air pollution resulting from fossil fuel burning.
+
+A recent study by the European Environment Agency[^22] showed that the additional benefits of an emissions scenario aimed at limiting global mean temperature increase to 2°C would lead to savings on the implementation of existing air pollution control measures of €10 billion per year in Europe, and additional avoided health costs of between €16-46 billion per year.
+
+%%page 277%%
+
+Local air pollution has a serious impact on public health and the quality of life. These impacts are particularly severe in developing countries, where only malnutrition, unsafe sex and lack of clean water and adequate sanitation are greater health threats than indoor air pollution[^23]. In China, a recent study[^24] showed that for CO2 reductions up to 10-20%, air pollution and other benefits more than offset the costs of action.
+
+Forthcoming analysis from the IEA (Box 12.4) shows that combustion of traditional biomass for cooking and heating in developing countries is associated with high GHG emissions and adverse indoor air quality and health impacts, which switching to a cleaner fuel could reduce.
+
+Box 12.4 Use of traditional biomass in developing countries
+
+In developing countries, 2.5 bn people depend on traditional biomass such as fuel wood and charcoal as their primary fuel for cooking and heating because it is a cheap source of fuel. The emissions associated with this biomass are relatively high because it is not combusted completely or efficiently. Aside from the climate change impact, combustion of biomass is associated with a range of detrimental effects on health, poverty and local environment including:-
+
+- Smoke from biomass from cooking and heating was estimated to cause 1.3 m premature deaths in 2002. Women and children are most severely affected because they spend most time in the home doing domestic tasks. More than half the deaths are children because their immune systems are poorly equipped to deal with the local air pollution.
+- Time spent collecting the biomass is time that could otherwise be spent by women or children in education or other productive work. The collection of biomass may also involve hard physical labour that deteriorates the health of the women and children doing it.
+- Collection of biomass causes localised deforestation and land degradation. If animal dung is used as a fuel rather than a fertiliser then soil fertility suffers. The widespread use of fuel wood and charcoal can mean local resources getting used up so people have to travel further to collect it.
+
+Switching away from traditional biomass towards modern, cleaner cooking fuels can save GHG emissions and reduce the health, poverty and local environment concerns outlined above. The UN Millennium Project has adopted a target of reducing by 50% the number of households using traditional biomass as their primary fuel by 2015; this means giving an extra 1.3 bn people access to clean fuels by this date. If this were achieved by switching these users to liquid petroleum gas, it would cost $1.5 bn per year for new stoves and canisters, increase global demand for oil by just 0.7% in 2015, and result in a small reduction in GHG emissions.
+
+Source: IEA (in press).
+
+Sometimes climate change objectives will conflict with local air quality aims. This is a particular issue in transport. In road transport, switching from petrol to diesel reduces CO2 emissions, but increases local air pollution (PM10 and NOx emissions). High blends of biodiesel can also emit slightly more NOx than conventional diesel. The US and EU are in the process of implementing stronger policies to reduce CO2 emissions from diesel vehicles, although this will take time to have an effect.
+
+In the case of aviation, there are multiple links between objectives[^25]. One of the ways of achieving CO2 improvements in aircraft is to increase combustion temperatures in engines. However, this increases levels of NOx, an important local air pollutant. Other measures to improve fuel efficiency and CO2 performance, such as reducing aircraft weight, have benefits for local air pollution. And there are complex relationships between gases emitted at altitude – there are suggestions, for instance, that more modern engines have a greater tendency to produce condensation trails, which intensify warming effects (see Box 15.6, Chapter 15). Further technological advances in aircraft construction will be important in meeting both climate change and air pollution objectives simultaneously.
+
+%%page 278%%
+
+Policies to meet air pollution and climate change goals are not always compatible. But if governments wish to meet both objectives together, then there can be considerable cost savings compared to pursuing both separately.
+
+#### 12.5 The role of pricing and regulatory reforms in the energy markets
+
+***Pricing and regulatory reforms in the energy markets are important both for effective climate change policy, and for long-term productivity and efficiency***
+
+Many countries have a long history of subsidising particular fuels: coal, oil, nuclear power, electricity for rural areas, and more recently renewable energy. With the important exceptions of support mechanisms for R&D and innovation (see Chapter 16), these are a source of economic distortion and loss. Furthermore there has been a strong historical bias toward the more polluting fuels. The liberalisation of energy markets that began to take place in many countries in the late 1980s and early 1990s was seen as a means of reducing these subsidies, which in some cases had reached extraordinary proportions. By 1998 they had declined worldwide, but still amounted to nearly $250 billion per year, of which over $80 billion were in the OECD countries and over $160 billion in developing countries (see Table 12.1). These transfers are on broadly the same scale as the average incremental costs of an investment programme required for the world to embark on a substantial policy of climate change mitigation over the next twenty years (see Chapter 9). The IEA estimate that world energy subsidies were still $250 billion in 2005, of which subsidies to oil products amounted to $90 billion[^26].
+
+Table 12.1 Energy Subsidies by Source $ billion (data for 1995-1998 period)
+
+Source: de Moor (2001) and van Beers and de Moor (2001). Another perspective on subsidies is provided by Myers, N. and J. Kent (1998) 'Perverse Subsidies: Tax $s Undercutting our Economies and Environment Alike', Winnipeg, IISD.
+
+Applied in the form of tax credits and incentives for innovation, subsidies can and do serve an economic purpose. However, the prevailing subsidies are for the most part not applied to this end. The inefficiencies associated with subsidies have been reviewed by economists many times over the past decades, and can be simply stated:
+
+- subsidies stimulate unnecessary consumption and waste, and more generally are a source of economic inefficiency in that the low price is associated with low benefits on the margin relative to the cost of production;
+
+%%page 279%%
+
+- tend to benefit the middle and higher income groups, so impacting income distribution in a negative way, particularly in developing countries where poor people lack access to energy;
+- by undermining the capacity of the industry to earn returns directly on the basis of cost-reflecting prices, subsidies undermine the managerial (or 'X') efficiency of the industry, and also its capacity to finance its expansion;
+- lead to wasteful lobbying and rent-seeking by groups trying to maintain or increase subsidies;
+- when applied to fossil fuels, subsidies discourage the development of and investment in low carbon alternatives, including investment in carbon capture and storage.
+
+To the extent that climate change policy triggers wider energy reform, it would have great supplementary benefits, as long as the transition is well managed. And for carbon price signals to work well, it is essential that the energy market also works well.
+
+An example of the costs of energy market inefficiencies, and the way in which reforms can deliver environmental and other goals, is given in Box 12.5 for India.
+
+Box 12.5 Fuelling India's growth and development
+
+India's economic growth is constrained by an inadequate power supply that results in frequent blackouts and poor reliability. Subsidised tariffs to residential and agricultural consumers,[^27] low investment in transmission and distribution systems, inadequate maintenance, and high levels of distribution losses, theft and uncollected bills place the State Electricity Boards (SEBs, which form the basis of India's power system) under severe financial difficulties.[^28] These losses and subsidies are a significant drain on budgets and can result in public spending on vital areas such as health and education being crowded out. Annual power sector losses associated with inefficiencies and theft are estimated at over $5 billion – more than it would cost to support India's primary health care system.[^29]
+
+The demand shortages facing India – 56% of Indian households have no electricity supply - create incentives for getting generation plants on line as rapidly as possible. These priorities in turn favour reliable, conventional, coal-fired units.[^30] The use of coal for the bulk of electricity generation presents particular challenges. Coal mining is dangerous, and its transportation creates environmental problems of its own. Coal also produces pollutants such as sulphur dioxide that damage local air quality, causing further problems for human health and the environment. These issues are exacerbated by the low energy efficiency of India's coal-fired power plants, combined with India's policies of high import tariffs on high-quality coal and subsidies on low-quality domestic coal. The use of CCS technology will be an important way to reconcile the cost and convenience advantages of coal with environmental goals.
+
+The Government of India has set out an energy policy to help address these constraints and concerns. The broad objective of this policy is to reliably meet the demand for energy services of all sectors at competitive prices, through "safe, clean and convenient forms of energy at the least-cost in a technically efficient, economically viable and environmentally sustainable manner".[^31] With sufficient effort made in improving energy efficiency and conservation, for example, the Government of India has stated that it would be possible to reduce the country's energy intensity by up to 25% from current levels.[^32] Progress in achieving the goals and objectives of their energy policy, ranging from improving energy efficiency to promoting the use of renewables, will also make a significant contribution to reducing future GHG emissions from India.
+
+%%page 280%%
+
+#### 12.6 Climate change mitigation and environmental protection
+
+This section looks at the links between climate change and broader environmental protection goals. One area where these links are particularly strong is deforestation. Policies that prevent deforestation can have significant benefits for communities dependant on forests, for water management and biodiversity. Some of these are set out in Box 12.6.
+
+Box 12.6 Co-benefits of ending deforestation
+
+Protection/Preservation of biodiversity: Tropical forests house 70% of the Earth's plants and animals. Without forest conservation, many of the world's plant and animal species face extinction this century. Essential natural resources are found in frontier forests that cannot be recreated.
+
+Research and development: Frontier forests in Brazil, Colombia and Indonesia are home to the greatest plant biodiversity in the world. Destroying these forests destroys the source of essential pharmaceutical ingredients; 40-50% of drugs in the market have an origin in natural products[^33], with 42% of the sales of the top 25 selling drugs worldwide either biologicals, natural products, or derived from natural products[^34].
+
+Indigenous peoples and sustainability: About 50 million people are believed to be living in tropical forests, with the Amazonian forests home to around 1 million people of 400 different indigenous groups. Forest conservation affects people beyond those who inhabit them. Over 90% of the 1.2 billion people living in extreme poverty depend on forests for some part of their livelihoods[^35].
+
+Tourism: Forests provide opportunities for recreation for an increasingly wealthy and urbanised population. Brazil had a five-fold increase in tourists between 1991 and 1999, with 3.5m people visiting Brazil's 150 Conservation Areas.
+
+Consequences for vulnerability to extreme weather events: Forests systems can play an important role in watersheds, and their loss can lead to an increase in flooding. In November 2005 a flash flood occurred in Langkat, Indonesia that killed 103 people with hundreds more missing. The Mount Leuser National Park had lost up to 22% of its forest cover due to logging and, combined with high rainfall, had caused a landslide to occur[^36].
+
+In 2004, 3000 people died in Haiti after a tropical storm, while only 18 people across the border in the Dominican Republic died. The difference has been linked to extensive deforestation in Haiti where political turmoil and poverty have lead to the destruction of 98% of original forest cover[^37]. Mangrove forests, depleted by 35% (see Millennium Ecosystem Assessment 2005) play an important role in coastal defence, as well as providing important nursery grounds for fish stocks. Areas with healthy mangrove or tree cover were significantly less likely to have experienced major damage in the 2004 tsunami[^38].
+
+Reducing GHG emissions from agriculture could also have benefits for local environment and health. For example, in China, nitrous oxide emissions associated with overuse of fertiliser contributes to acid rain, causes severe eutrophication of the China Sea and damage to health through contamination of drinking water. Cutting these emissions could help to reduce these effects[^39].
+
+%%page 281%%
+
+However, climate change mitigation may, if poorly implemented, undermine sustainable development. Chapter 9 discussed the technical potential of biomass to save emissions in the power, transport, industry and buildings sectors. But if the crops are grown at very large scale through intensive, large-scale monoculture, then this has the potential to cause serious environmental impacts. These may include the increased use of pesticides; a loss of biodiversity and natural habitats[^40]; and social problems and displacement of indigenous peoples.
+
+Mitigation policies can also sometimes be designed in a way that helps countries cope with existing climate variability and adapt to future climate change. Better design of building stock, for instance, can both reduce the demand for space heating and cooling and provide greater resilience to a changing climate.
+
+While there are important links between mitigation and development, it is important to assess policy development against the full range of opportunities to meet climate goals and the full range of options to achieve the Millennium Development Goals (see Michaelowa 2005). As with other co-benefits, the key is that well designed policy can realise the synergies between different goals, as well as the limits to this. For example, to improve education levels in developing countries, schools could be supplied with low emission energy supplies, or more trained teachers. Both interventions will be associated with a wide range of different costs and benefits, which should be weighed up when considering which option is preferred.
+
+#### 12.7 Conclusion
+
+Whilst climate change presents clear challenges and costs to the global economy, it also presents opportunities. Markets for clean energy technologies are set for a prolonged period of rapid growth, and will be worth hundreds of billions of dollars a year in a few decades' time. Companies and countries should position themselves to take advantage of these growth markets.
+
+It is also important to consider the wider impacts of climate change policy. As well as helping to root out existing inefficiencies, climate change policy can also help to achieve other policies and goals, particularly around energy policy and sustainable development.
+
+A full understanding of these interlinkeages is key to designing policy in a way that minimises the areas of conflict between goals, and to reap the benefits of the opportunities and synergies that exist.
+
+%%page 282%%
+
+#### References
+
+Aghion, P. and P. Howitt (1999): 'On the macroeconomic consequences of major technological change', in General Purpose Technologies and Economic Growth, ed. E. Helpman, Cambridge, MA: MIT Press.
+
+Aunan et al. (2006): 'Benefits and costs to China of a climate policy', Environment and Development Economics, accepted for publication
+
+Confederation of British Industry (2005): 'EU market survey natural ingredients for pharmaceuticals' Rotterdam: CBI.
+
+CEAC (2006): "Emissions trading and the City of London", report to the City of London, September 2006.
+
+Ceres (2006): 'From Risk to Opportunity: How insurers can proactively and profitably manage climate change', Ceres, August 2006
+
+Chinese Academy of Social Sciences (2006): available from http://www.hm- treasury.gov.uk/media/5FB/FE/Climate_Change_CASS_final_report.pdf
+
+Clean Edge (2006): 'Clean Energy Trends', San Francisco, Clean Edge Inc., available from http://www.cleanedge.com/reports/trends2006.pdf
+
+Cleantech Venture Network (2006): 'Cleantech Becomes Third Largest Venture Capital Investment Category with $843 Million Invested in Q2 2006', Press release August 10 2006
+
+Energy Information Administration (1993): 'Emissions of greenhouse gases in the United States 1985-1990', DOE/EIA-0573, Washington, DC: EIA, p. 16.
+
+European Commission (2005): 'Giving Wings to Emissions Trading: Inclusion of aviation into the European Emissions Trading System - design and impacts', European Commission, report reference ENV.C.2/ETU/2004/0074r
+
+European Environmental Bureau (2006): 'Fuelling extinction? Unsustainable biofuels threaten the environment', Brussels: EEB, BirdLife International and European Federation for Transport and the Environment.
+
+Government of India, Planning Commission (2006): 'Integrated Energy Policy: Report of the Expert Committee'. New Delhi: Government of India, Planning Commission, August 2006.
+
+Hanemann M.W. and A.E. Farrell (2006): 'Managing greenhouse gas emissions in California', California: The California Climate Change Center at UC Berkeley.
+
+Hodges, H. (1997): 'Falling prices, cost of complying with environmental regulations almost always less than advertised.' Washington, DC: Economic Policy Institute, available from http://www.epinet.org/briefingpapers/bp69.pdf
+
+International Energy Agency (2006): 'Optimising Russian natural gas', Paris: OECD/IEA
+
+International Energy Agency (in press): 'World Energy Outlook 2006', Paris: OECD/IEA.
+
+%%page 283%%
+
+Natural Resources Defence Council (2006): Testimony of David G. Hawkins to the Committee on Energy and Natural Resources, 24 April 2006.
+
+Norse D. (2006): 'Key trends in emissions from agriculture and use of policy instruments', available from www.sternreview.org.uk
+
+REN21 (2006): 'Renewables Global Status Report 2006 Update', Washington, DC: REN21 Secretariat and Washington DC: Worldwatch Institute.
+
+Salmon, M. and Weston, S. (2006): 'Open letter to the Stern Review on the economics of climate change', available from www.sternreview.org.uk
+
+Schumpeter, J. (1942): 'Capitalism, Socialism and Democracy', New York: Harper.
+
+Secretariat of the Convention on Biological Diversity (2006): 'Global Biodiversity Outlook 2'. Montreal: CBD available from http://www.biodiv.org
+
+Shell Springboard (2006): 'The Business Opportunities for SMEs in tackling the causes of climate change', report by Vivid Economics for Shell Springboard, October 2006.
+
+Swart, R., M. Amann, F. Raes and W. Tuinstra (2004): 'A good climate for clean air: linkages between climate change and air pollution, an editorial essay', Climatic Change Journal, 66(3): 263-269
+
+The Climate Group (2005), 'Carbon down profits up – Second Edition 2005'.
+
+World Bank (2006a): 'State and Trends of the Carbon Market', Washington, DC: World Bank.
+
+World Bank (2006b): Clean energy and development: towards an investment framework. Washington, DC: World Bank.
+
+World Bank (2001): Fuelling India's Growth and development: World Bank support for India's Energy Sector. Washington, DC: World Bank.
+
+World Health Organisation (2006): 'Fuel for Life', Geneva: WHO.
+
+World Resources Institute (2005): 'Growing in the greenhouse: protecting the climate by putting development first' [R. Bradley and K.A. Baumert], Washington, DC: WRI.
+
 %%page 284%%
 
 ### 13 Towards a Goal for Climate-Change Policy
@@ -5383,6 +6018,1989 @@ Tol, R.S.J. (1997), 'On the optimal control of carbon dioxide emissions: an appl
 %%page 308%%
 
 Tol, R.S.J. (2005): 'The marginal damage costs of carbon dioxide emissions: an assessment of the uncertainties', Energy Policy, 33: 2064-2074 US CCSP Synthesis and Assessment Product 2.1, Part A: 'Scenarios of greenhouse gas emissions and atmospheric concentrations', Draft for public comment, June 26, 2006. Watkiss, P. et al. (2005): 'The social cost of carbon', London: DEFRA, December.
+
+%%page 308#2%%
+
+## Part IV: Policy Responses for Mitigation
+
+The first half of this Review has considered the evidence on the economic impacts of climate change itself, and the economics of stabilising greenhouses in the atmosphere. Parts IV, V and VI now look at the policy response.
+
+The first essential element of climate change policy is carbon pricing. Greenhouse gases are, in economic terms, an externality: those who produce greenhouse gas do not face the full consequences of the costs of their actions themselves. Putting an appropriate price on carbon, through taxes, trading or regulation, means that people pay the full social cost of their actions. This will lead individuals and businesses to switch away from high-carbon goods and services, and to invest in low-carbon alternatives.
+
+But the presence of a range of other market failures and barriers mean that carbon pricing alone is not sufficient. Technology policy, the second element of a climate change strategy, is vital to bring forward the range of low-carbon and high-efficiency technologies that will be needed to make deep emissions cuts. Research and development, demonstration, and market support policies can all help to drive innovation, and motivate a response by the private sector.
+
+Policies to remove the barriers to behavioural change are a third critical element. Opportunities for cost-effective mitigation options are not always taken up, because of a lack of information, the complexity of the choices available, or the upfront cost. Policies on regulation, information and financing are therefore important. And a shared understanding of the nature of climate change and its consequences should be fostered through evidence, education, persuasion and discussion.
+
+The credibility of policies is key; this will need to be built over time. In the transitional period, it is important for governments to consider how to avoid the risks that long-lived investments may be made in high-carbon infrastructure.
+
+Part IV is structured as follows:
+
+- Chapter 14 looks at the principles of carbon pricing policies, focusing particularly on the difference between taxation and trading approaches.
+- Chapter 15 considers the practical application of carbon pricing, including the importance of credibility and good policy design, and the applicability of policies to different sectors.
+- Chapter 16 discusses the motivation for, and design of, technology policies.
+- Chapter 17 looks at policies aimed at removing barriers to action, particularly in relation to the take-up of opportunities for energy efficiency, and at how policies can help to change preferences and behaviour.
+
+%%page 309%%
+
+### 14 Harnessing Markets for Mitigation – the role of taxation and trading
+
+Key Messages
+
+- Agreeing a quantitative global stabilisation target range for the stock of greenhouse gases (GHGs) in the atmosphere is an important and useful foundation for overall policy. It is an efficient way to control the risk of catastrophic climate change in the long term. Short term policies to achieve emissions reductions will need to be consistent with this long-term stabilisation goal.
+- In the short term, using price-driven instruments (through tax or trading) will allow flexibility in how, where and when emission reductions are made, providing opportunities and incentives to keep down the cost of mitigation. The price signal should reflect the marginal damage caused by emissions, and rise over time to reflect the increasing damages as the stock of GHGs grows. For efficiency, it should be common across sectors and countries.
+- In theory, taxes or tradable quotas could establish this common price signal across countries and sectors. There can also be a role for regulation in setting an implicit price where market-based mechanisms alone prove ineffective. In practice, tradable quota systems – such as the EU's emissions-trading scheme – may be the most straightforward way of establishing a common price signal across countries. To promote cost-effectiveness, they also need flexibility in the timing of emissions reductions.
+- Both taxes and tradable quotas have the potential to raise public revenues. In the case of tradable quotas, this will occur only if some firms pay for allowances (through an auction or sale). Over time, there are good economic reasons for moving towards greater use of auctioning, though the transition must be carefully managed to ensure a robust revenue base.
+- The global distributional impact of climate-change policy is also critical. Issues of equity are likely to be central to securing agreement on the way forward. Under the existing Kyoto protocol, participating developed countries have agreed binding commitments to reduce emissions. Within such a system, company-level trading schemes such as the EU ETS, which allow emission reductions to be made in the most cost-effective location – either within the EU, or elsewhere – can then drive financial flows between countries and promote, in an equitable way, accelerated mitigation in developing countries.
+- At the national – or regional – level, governments will want to choose a policy framework that is suited to their specific circumstances. Tax policy, tradable quotas and regulation can all play a role. In practice, some administrations are likely to place greater emphasis on trading, others on taxation and possibly some on regulation.
+
+#### 14.1 Introduction
+
+***This chapter focuses on the first and key element of a mitigation strategy – how best to ensure GHG emissions are priced to reflect the damage they cause.***
+
+This chapter focuses on the principles of policy and, in particular, on the efficiency, equity and public finance implications of tax and tradable quotas. Chapter 15 follows with a detailed discussion of the practical issues associated with the implementation of tax and trading schemes.
+
+Section 14.2 begins by setting out the basic theory of externalities as this applies to climate change. Based on this, Section 14.3 sets out two overarching principles for reducing GHG emissions efficiently. First, abatement should occur just up to the point where the costs of going any further would outweigh the extra benefits. Second, a common price signal is needed across countries and sectors to ensure that emission reductions are delivered in the most cost-effective way.
+
+%%page 310%%
+
+Section 14.4 explores the policy implications of the significant risks and uncertainties surrounding both the impacts of climate change, and the costs of abatement. It concludes that a long-term quantity ceiling – or stabilisation target – should be used to limit the total stock of GHGs in the atmosphere. In the short term, to keep down the costs of mitigation, the amount of abatement should be driven by a common price signal across countries and sectors, and there should be flexibility in how, where and when reductions are made. Over time, the price signal should trend upwards, as the social cost of carbon is likely to increase as concentrations rise towards the long-term stabilisation goal.
+
+These sections conclude that both taxes and tradable quotas have the potential to deliver emission reductions efficiently. The other key dimensions of climate change policy – tackling market failures that limit the development low carbon technologies, and removing barriers to behavioural change are discussed in are discussed in Chapter 16 and Chapter 17 respectively.
+
+The penultimate section of the chapter considers the public-finance aspects of taxes and tradable quotas. Finally, Section 14.8 briefly considers the international dimension of carbon-pricing policy. These international issues are treated in greater depth in Part VI of this Review – in particular, the challenge of how national action can be co-ordinated and linked at the international level to support the achievement of a long-run stabilisation goal is considered in Chapter 22.
+
+#### 14.2 Designing policy to reduce the impact of the greenhouse-gas externality
+
+***As described in Chapter 2, the climate change problem is an international and intergenerational issue.***
+
+Climate change is a far more complicated negative externality than, for example, pollution (such as smog) or congestion (such as traffic jams). Key features of the greenhouse-gas externality are:
+
+- it is a global externality, as the damage from emissions is broadly the same regardless of where they are emitted, but the impacts are likely to fall very unevenly around the world;
+- its impacts are not immediately tangible, but are likely to be felt some way into the future. There are significant differences in the short-run and long-run implications of greenhouse-gas emissions. It is the stock of carbon in the atmosphere that drives climate change, rather than the annual flow of emissions. Once released, carbon dioxide remains in the atmosphere for up to 100 years;
+- there is uncertainty around the scale and timing of the impacts and about when irreversible damage from emission concentrations will occur;
+- the effects are potentially on a massive scale.
+
+These characteristics have implications for the most appropriate policy response to climate change. In the standard theory of externalities[^1], there are four ways in which negative externalities can be approached:
+
+- a tax can be introduced so that emitters face the full social cost of their emissions[^2] ie. a carbon price can be established that reflects the damage caused by emissions;
+- quantity restrictions can limit the volume of emissions, using a 'command and control' approach;
+
+%%page 311%%
+
+- a full set of property rights can be allocated among those causing the externality and / or those are affected (in this case including future generations), which can underpin bargaining or trading[^3];
+- a single organisation can be created which brings those causing the externality together with all those affected[^4].
+
+In practice, cap-and-trade systems tend to combine aspects of the second and third approach above. They control the overall quantity of emissions, by establishing binding emissions commitments. Within this quantity ceiling, entities covered by the scheme – such as firms, countries or individuals – are then free to choose how best – and where – to deliver emission reductions within the scheme. The largest example of a cap-and-trade scheme for GHG emissions is the EU's Emissions Trading Scheme, and there are a range of other national or regional emissions trading schemes, including the US Regional Greenhouse Gas Initiative and the Chicago Climate Exchange.
+
+The Kyoto Protocol established intergovernmental emissions trading for those countries that took quantified commitments to reduce GHG emissions, as well as other mechanisms to increase the flexibility of trading across all Parties to the Protocol. The Kyoto Protocol and its flexible mechanisms are discussed in detail in Chapter 22.
+
+Whatever approach is taken, the key aim of climate-change policy should be to ensure that those generating GHGs, wherever they may be, face a marginal cost of emissions that reflects the damage they cause. This encourages emitters to invest in alternative, low-carbon technologies, and consumers of GHG-intensive goods and services to change their spending patterns in response to the increase in relative prices.
+
+#### 14.3 Delivering carbon reductions efficiently
+
+Where markets are well functioning, two conditions must hold to reduce GHG emissions efficiently[^5]:
+
+- Abatement should take place up to the point where the benefits of further emission reductions are just balanced by the costs. Or – put another way – abatement should occur up to the point where the marginal social cost of carbon is equal to the marginal cost of abatement. This is a necessary condition for choosing the appropriate level of emissions, and hence setting a long-term stabilisation target (and is explained fully in Chapter 13).
+- To deliver reductions at least cost, a common price signal is required across countries and different sectors of their economies at a given point in time. For example, if the marginal cost of reduction is lower in country A than in country B, then abatement costs could be reduced by doing a little more reduction in country A, and a little less in country B.
+
+In ideal conditions – perfectly competitive markets, perfect information and certainty, and no transaction costs – both taxes and quantity controls, if correctly designed, can meet these criteria, and be used to establish a common price signal across countries and sectors. Taxes can set the global price of greenhouse gases, and emitters can then choose how much to emit. Alternatively, a total quota (or ceiling) for global emissions can be set and tradable quotas can then determine market prices.[^6]
+
+Without market imperfections and uncertainty, and with an appropriate specification of taxes and quotas (entailing an allocation of property rights), both approaches would produce the same price level and quantity of emissions[^7]. The remainder of this chapter, and Chapter 15, consider how the considerable uncertainties and imperfections that exist in the real world affect the choice and design of policy.
+
+%%page 312%%
+
+#### 14.4 Efficiency under uncertainty – the implications for climate-change policy
+
+***Substantial uncertainty exists around the timing and scale of impacts, as well as the costs of abatement. In such circumstances, prices and quantity controls are no longer equivalent and policy instruments will need to be chosen with care to reduce GHG emissions efficiently.***
+
+Weitzman (1974) examined how price (here tax) and quota or quantity-control instruments compare where there is uncertainty about the costs and benefits of action, and how this affects the comparative efficiency of the two instruments[^8]. A price instrument sets a price for a required service or good and lets markets determine its supply. In contrast, a quota instrument specifies a particular level of supply. Applying the Weitzman analysis to pollution:
+
+- Prices are preferable where the benefits of making further reductions in pollution change less with the level of pollution than do the costs of delivering these reductions i.e. when the marginal damage curve – or the marginal social cost of carbon - is relatively flat, compared with the marginal abatement cost curve, as pollution rises.
+- Quantity controls are preferable where the benefits of further reductions increase more with the level of pollution than do the costs of delivering these reductions i.e. there are potentially large and sharply rising costs associated with exceeding a given level of pollution.
+
+Box 14.1 sets out these economic arguments in detail[^9].
+
+Box 14.1 Prices versus quantities in the short term and long term.
+
+Figure (A) illustrates how Weitzman's analysis is applied in the climate-change case. If the emissions reductions are measured over a short period, say a year, the expected marginal benefits of abatement are flat or gently decreasing as the quantity of emission reduction increases (from left to right). This reflects the fact that variations in emissions in any single year are unlikely to have a significant effect on the ultimate stock of greenhouse gases. The expected marginal costs of abatement (MACE), however, are steeply increasing as abatement activity intensifies; firms find it progressively more difficult to reduce emissions, unless they can adjust their capital stock and choice of technology (assumed by definition to be impossible in the short term).
+
+If it were known with certainty that the marginal costs of abatement were given by the schedule MACE, the policy-maker should set the rate of the emission tax to equal TE, given by the intersection of the schedule with the marginal benefits of abatement, also assumed to be known. The optimal quantity of emission quotas or allowances allocated (QE) would also be given by this intersection, giving rise to an equilibrium price in a perfectly competitive allowance market of PE. The choice of quota or tax would not matter in this case.
+
+However, following the exposition in Hepburn (2006), suppose that the real marginal costs of abatement in the period are not known with certainty in advance and turn out to be higher at every point, as represented by the curve MACREAL, and that the policy-maker cannot adjust the policy instrument in anticipation. In this case, the optimal quantity of allowances to be allocated would in fact turn out to have been QREAL. In Figure 14.1, the efficiency loss caused by issuing QE instead of QREAL allowances is given by the large blue triangle. If instead a tax had been set at TE, the efficiency loss resulting from having set a slightly lower tax rate than turns out to have been warranted is given by the small red triangle. Thus it is often argued that a tax is superior to a quota as an instrument of climate-change policy[^10] in the short run. As Chapter 2 explains, however, diagrams like that in Figure (A) need to be interpreted with great care, as the positions of both the curves may depend on policy settings in earlier and later periods.
+
+%%page 313%%
+
+(A)
+
+The efficiency of taxes and tradable allowances in climate-change mitigation in the short term.
+
+Figure (B) illustrates the situation in the long term, with the cumulative emissions reductions required to reach the ultimate stabilisation target on the x-axis now, instead of annual emissions reductions as in Figure (A). The curve representing the marginal benefits of abatement is steeply decreasing, as more and more abatement effort is put in (put another way, the costs of the impacts of climate change increase steeply as cumulative emissions increase). But the marginal costs of abatement are only gently increasing as a function of abatement effort, since in the long run there is more flexibility. In the certainty case with MACE as the true cost of abatement curve, QE is the appropriate cumulative quota, while TE is the equivalent tax[^11]. But if MACE represents the expected costs of abatement and MACREAL the higher ex post actual costs, the efficiency loss implied by setting the tax at TE (the blue triangle) is now much larger than that implied by setting the quantity of tradable allowances at QE. Of course, if the policy-maker is able to revise the tax or quota schedule as information comes in about the marginal abatement costs function, s/he can do better than keeping either schedule fixed.
+
+%%page 314%%
+
+(B)
+
+The efficiency of taxes and tradable allowances in climate-change mitigation in the long term.
+
+This contrast between short-term and long-term marginal cost and marginal benefit curves gives rise to the problem of how to combine a tax-like regime in the short term with a quantitative constraint in the long term. A rule is needed for updating the tax in the light of new information about costs over the long term and the ex post quantity of emissions.
+
+In the case of climate change, these arguments indicate that the most efficient instrument – over a particular time horizon – will depend on:
+
+- how the total costs of abatement change with the level of emissions;
+- how the total benefits of abatement change with the level of emissions;
+- the degree of uncertainty about both costs and benefits of abatement.
+
+Chapter 8 explains that it is the total stock of GHGs in the atmosphere that drives the damage from climate change. In economic terms, this means that the marginal damage associated with emitting one more unit of carbon is likely to be more or less constant over short periods of time. Thus, in the short-term, the marginal damage curve is likely to be fairly flat. But over the long term, as the stock of GHGs grows, marginal damages are likely to rise and – as the stock reaches critical levels – marginal damages may rise sharply. In other words, the damage function is likely to be strongly convex (as discussed in Part Two and Chapter 13)[^12].
+
+On the other side of the equation, many uncertainties remain about the marginal costs of abatement. Many new technologies that could be used to reduce carbon emissions are not yet in widespread use. Trying to abate rapidly in the short term – when the capital in industries emitting greenhouse gases is fixed and technologies are given – can quickly become costly for firms, as the marginal cost of abatement is likely to rise sharply[^13]. In particular, if the costs of abatement prove to be unexpectedly high, then setting a fixed quantity target in the short term could prove unexpectedly costly. Over the long term – as the capital stock is replaced and new lower-carbon technologies become available – the marginal costs of abating in the long term are likely to be broadly flat, or, put another way, bounded relative to incomes. The implications are explained more fully in Box 14.1.
+
+%%page 315%%
+
+These characteristics of the costs and benefits of abatement and damage from emissions suggest three things:
+
+- Policy instruments should distinguish between the short term and long term, ensuring that short-term policy outcomes are consistent with achieving long-term goals[^14];
+- The policy-maker should have a clear long-term goal for stabilising concentrations of greenhouse gases in the atmosphere. This reflects, first, the likelihood that marginal damages (relative to incomes) will accelerate as cumulative emissions rise and, second, that the marginal costs of abatement (relative to incomes) are likely to be relatively flat in the long term once new technologies are available.
+- In the short term, the policy-maker will want to choose a flexible approach[^15] to achieving this long-term goal, reflecting the likelihood that marginal damages will be more or less constant, and there will be risks of sharply rising costs from forcing abatement too rapidly.
+
+In practical terms, this means that a long-term stabilisation target should be used to establish a quantity ceiling to limit the total stock of carbon over time. Short-term policies (based on tax, trading or in some circumstances regulation) will then need to be consistent with this long-term stabilisation goal. In the short term, the amount of abatement should be driven by a common price signal across countries and sectors, and should not be rigidly fixed[^16].
+
+This common price signal could – in principle – be delivered through taxation or tradable quotas. A country can levy taxes without consultation with another, but harmonisation requires agreement. In practice, therefore, it may prove difficult to use taxes to deliver a common price signal in the absence of political commitment to move towards a harmonised carbon tax across different countries. In contrast, to the extent that a tradable quota scheme embraces both different countries and sectors, it may be an effective way of delivering a consistent price signal across a wide area – though this, of course, requires agreement on the mechanics of the scheme. International co-ordination issues are fully discussed in Chapter 22 – here it is sufficient to note that building consensus on the best way forward will be critical to achieving a long-run stabilisation goal.
+
+#### 14.5 Setting short term policies to meet the long term goal
+
+***The key question that arises from the previous section is how to combine a price instrument that allows flexibility about where, when and what emissions are reduced in the short term, with a long-term quantity constraint. In particular, the challenge is how to ensure that the short-term policy framework remains on track to deliver the long-term stabilisation goal.***
+
+There are two important aspects to this:
+
+- having established the long-term stabilisation goal, the price of carbon is likely to rise over time, because the damage caused by further emissions at the margin-the social cost of carbon- is likely to increase as concentrations rise towards this agreed long-term quantity constraint;
+- short-term tax or trading policies will then need to be consistent with delivering this long-term quantitative goal.
+
+In the short-term, applying these principles to tax and trading, this means that:
+
+%%page 316%%
+
+- In a tax-based regime, the tax should be set to reflect the marginal damage caused by emissions. Abatement should then occur up to the point where the marginal cost of abatement is equal to this tax. See Box 14.2.
+- In a tradable-quota scheme, the parameters of the scheme – notably the total quota allocation – should be set with a view to generating a market price that is consistent with the social cost of carbon (SCC). In practice – and within the time period between allocations in a tradable-quota system – the market price may be higher or lower than the SCC. This is because the actual market price will reflect both the quota-driven demand for carbon reductions and the marginal cost of delivering reductions in the most cost-effective location. Ex-post, the trading period will therefore deliver abatement up to where the marginal abatement cost equals the actual market price.
+
+In the case of either tax or trading, clear revision rules are therefore necessary to ensure that short-term policies remain on track to meet the long-term stabilisation goal. In particular, the short-term policy framework should be able to take systematic account of the latest scientific information on climate change, as well as improved understanding of abatement costs.
+
+The framework within which any principles for revisions apply must be clear, credible, predictable and set over long time horizons, say 20 years, with regular points, say every five years, to review new evidence, analysis and information[^17]. Chapter 22 discusses the challenge of achieving this at an international level.
+
+Box 14.2: The social cost of carbon and the carbon price
+
+Up to the long-term stabilisation goal, the social cost of carbon will rise over time, because marginal damage costs also rise. This is because atmospheric concentrations are expected to rise, so that temperatures are likely to rise; marginal damage costs are expected to rise with temperature. These effects are assumed to outweigh the declining marginal impact of the stock of gases on global temperature at higher temperatures.
+
+As GHG concentrations move towards the stabilisation goal, the price of carbon should reflect the social cost of carbon. In any given year, abatement should then occur up to where the marginal cost is equal to this price, as set out in the right-hand part of the diagram above. If, over time, technical progress reduces the marginal cost of abatement, then at any given price level there should be more emission reductions.
+
+Revision rules for climate-change policies can be compared to setting interest rates within a well-specified inflation-targeting regime[^18]. The stabilisation target is analogous to the inflation target. In the UK, the Monetary Policy Committee each month sets a short-term policy instrument, the interest rate on central-bank money, until their next meeting, in order to keep inflation on track to hit its target. The analogy with climate-change policy would be the setting of a tax rate or an emissions trading quota for, say, a five year period, with firms and households making their own decisions about emissions reductions subject to that carbon- price path and their expectations about policy-makers' commitment to the long-term stabilisation goal.
+
+%%page 317%%
+
+The analogy is not, however, exact.First, there is widespread agreement about the appropriate long-term goal for monetary policy – price stability, whichcorresponds to a small positive measured inflation rate. In the climate-change case, there is not yet agreement about the stabilisation level at which that stability should be achieved, Second, the stabilisation objective is likely to have to be revised intermittently – possibly by a large amount – to reflect improved scientific and economic understanding of the climate-change problem, whereas the definition of price stability in terms of a specific inflation measure is less problematic.And third, the locus of decision-making in monetary policy clearly lies with the monetary authority of the country for which the inflation rate is measured, whereas climate change requires international collective action.
+
+Nevertheless, the comparison with an inflation-targeting regime draws attention to the importance of building the credibility of policy-makers. This requires clarity about the ultimate objective of policy and giving policy-makers control over an instrument that can change private-sector behaviour. It also means announcing the principles governing changes in the policy instrument in advance, giving policy-makers incentives to keep aiming at the ultimate target, and holding policy-makers accountable for their actions.
+
+#### 14.6 The interaction between carbon pricing and fossil fuel markets
+
+***Imperfections in the markets for exhaustible resources and energy could have important interactions with carbon-pricing policy that should also be considered.***
+
+Carbon emissions come from energy production and use across various sectors (see Chapter 7). Much of this energy is generated using exhaustible resources such as oil. In the face of climate change policy, the owners of the natural resource may be willing to reduce producer prices substantially in order to sell off the commodity before it becomes obsolete or of a much lower value. Thus any carbon-pricing policy would need to be carefully designed to ensure it does not accelerate the pace with which carbon-intensive exhaustible resources are used up. The policy implications of this – as well as market imperfections more generally – are explored in Box 14.3.
+
+%%page 318%%
+
+Box 14.3 Efficiency market structure and exhaustible resources
+
+Energy and related markets have pervasive market imperfections that will affect the efficiency of a given policy instrument[^19]. For example, the collusive behaviour of the OPEC cartel can make it difficult to predict what the final impact on market prices will be from either a tax or a quota-driven carbon price. Thus, on the one hand, OPEC might respond to a carbon tax by further restricting supply, pushing up producer prices and retaining most of their rents. On the other hand, they may choose to retain market share and extract a lower rent[^20] with little change in carbon emissions[^21].
+
+Where the input prices concerned relate to fossil fuels, the policy must also take account of the fact that such fuels are exhaustible natural resources. Prices to consumers will reflect both the marginal costs of extraction and a scarcity rent (which reflects the stock of the natural resource relative to the expected demand schedule over time). In these circumstances, attempts to reduce carbon emissions through tax measures (imposing the social cost on polluters) may simply lead to a fall in producer prices, with little change in consumption and therefore carbon emissions. In some models, the incidence of the tax would fall wholly on the resource owner's rent. For the same reason, the introduction of new renewable-energy technologies may simply accelerate the use of carbon-intensive energy sources[^22] – as the owners of the natural resource try to sell them off before they become obsolete or fall sharply in value. In these circumstances – for some market structures, and in the absence of carbon capture and storage – optimal tax theory can suggest that a declining ad valorem[^23] tax rate over time may eventually be desirable, to delay fossil-fuel consumption and push back in time the impacts of climate change[^24]. In this case, the tax rate through time reflects more than the social cost of carbon, as it is also takes account of these other market dynamics. The key point here is that there are many complexities that should be considered.[^25]
+
+Under a tradable quota system, the price associated with an emissions quota may be much higher than expected if exhaustible-resource pricing is ignored. In effect, rent may be transferred from the owners of fossil fuels to the owners of the allowances (or issuers, if allowances are auctioned). More generally, if trading creates rents, it may undermine the acceptability of policy and lead to gaming, wasted resources in rent-seeking, and possibly corruption. Where incumbent firms enjoy rents, they may also discourage competition and new entry.
+
+#### 14.7 Public finance issues
+
+***Both taxes and tradable quotas can be used to raise public funds. Carbon taxes automatically raise public revenues, but tradable-quota systems only have the potential to raise public revenue if firms have to purchase the quotas from government through a sale or auction.***
+
+Carbon taxes automatically transfer funds from emitting industries to the public revenue. This transfer may be used to:
+
+- enhance the revenue base[^26];
+- limit the overall tax burden on the industry affected through revenue recycling[^27];
+
+%%page 319%%
+
+- reduce taxes elsewhere in the economy;
+
+Revenue recycling to the industry can encourage emitters to reduce GHG emissions, without increasing their overall tax burden relative to other parts of the economy[^28]. The advantage of this approach is that it can ease the initial impact of the scheme for those industries facing the greatest increase in costs, and therefore ease the transition where carbon taxes are introduced. As the introduction of carbon pricing through taxation is a change to the rules of the game (which will affect shareholders in the short run), there is a case for some transitional arrangements. Over time, however, recycling may discourage or slow the necessary exit of firms from the polluting sectors. Monitoring and protecting the position of incumbents in this way could also reduce competition.
+
+Alternatively, revenue from carbon taxes can be used to reduce taxes elsewhere in the economy. In such circumstances, the revenue from the carbon tax is sometimes argued to generate a so-called 'double dividend' by allowing other distortionary taxes to be reduced.
+
+But this argument needs some care. There is no doubt that environmental taxes have the special virtue of reducing 'public bads', at the same time as they generate revenue. Reducing the 'bad' is indeed central to any assessment of this type of tax. But arguments invoking the so-called 'double dividend' as sometimes advanced in general terms (i.e. that there is always a double dividend), can be incorrect. Putting the reduced public bad to one side for a moment, there is a 'dead-weight' loss to the economy from raising any tax on the margin. Whether it is greater or less with goods associated with carbon (compared with other goods or services) is unclear and depends on the circumstances. For example, where energy is subsidised, reducing the subsidy (equivalent to raising the tax) will probably be a gain in terms of reducing deadweight losses. Note, however, that where other taxes have been optimally set - and abstracting from the externality – then the deadweight loss on the margin from increasing any one tax will be exactly the same as on another and there will clearly be no 'double dividend' in this context.
+
+This is not an argument against raising revenue through pricing GHG emissions. On the contrary: there are strong benefits from ensuring that GHG emissions are properly priced to reflect the damage they cause. Thus GHG taxes have the clear additional benefit relative to other ways of raising revenue of reducing a 'bad'. Where that benefit has not been adequately recognised, they will be underused relative to other forms of taxation.
+
+In contrast, a quota-based system will not automatically raise revenue unless firms must initially purchase some or all quotas from the government in either an auction or a direct sale. In constrast, if quotas are allocated for free, then the asset is passed to the private sector and the benefits ultimately accrue to the owners and shareholders of the firms involved[^29]. In the short term, there may be reasons for introducing auctioning slowly – to ease the transition to a new policy environment. Equally, finance ministries will want to ensure that the overall tax revenue base is reliable and predictable: revenues from auctioning may be less predictable than those from taxation. In the long term, however, there is little economic justification for such transfers from the public sector to individual firms and their shareholders[^30].
+
+Free allocation of quotas to business also has a number of other potential drawbacks. These are discussed in more detail in the next chapter, which focuses on practical issues associated with the implementation of tax and trading schemes.
+
+In summary, a tax-based approach will automatically generate public revenues, whereas a tradable-quota approach will only generate revenues if quotas are sold. Requiring firms to pay for the right to pollute is consistent with a move to raise revenue via the taxation of 'bads' rather than 'goods'[^31]. In the case of climate change, where understanding of the potential damage caused by emissions continues to improve, there is a strong argument for shifting the balance of taxation. In the case of tradable quotas, there are good economic reasons for moving towards greater use of auctioning over time, though the transition will need to be carefully managed – in particular, to ensure a robust revenue base.
+
+%%page 320%%
+
+#### 14.8 Co-ordinating action across countries
+
+***The mitigation of climate change requires co-ordinated action across different countries. In thinking about the differences between tax and tradable quotas, it is therefore important to recognise the different implications they have for market-driven financial flows between countries.***
+
+Chapter 22 will explore the challenges in building up broadly similar price signals for carbon around the world. Issues of equity – as discussed in Chapter 2 – are likely to be central to creating frameworks that support this goal. It is therefore important to consider how taxes and tradable quota systems may differ in the relative ease with which they can drive financial flows between countries.
+
+In theory, either a tax or a tradable quota system could drive financial flows from the developed to developing countries. Under a tax-based system, revenues raised will in the first instance flow to national governments. An additional mechanism would need to be put in place to transfer resources to developing countries.
+
+Under a tradable-quota system, there are a number of ways that governments in rich countries can drive flows, either through direct purchase of quotas allocated to developing countries or through the creation of company-level trading where companies have access to credits for emissions reductions created in developing countries. In this case, financial flows between sectors and/or countries can occur automatically as carbon emitters search for the most cost-effective way of reducing emissions. The opportunities and challenges in these areas are discussed in detail in Chapters 22 and 23.
+
+In summary, financial flows from developed to developing countries can occur under either a tax or tradable-quota system. However, market-driven financial flows will only occur automatically under the latter route, and only at sufficient scale if national quotas are set appropriately.
+
+#### 14.9 The performance of taxation and trading against principles of efficiency, equity and public finance considerations
+
+In terms of the criteria discussed above – efficiency, equity and public finance – carbon taxes perform well against the efficiency and public finance criteria, as they:
+
+- can contribute to establishing a consistent price signal across regions and sectors. However, this may prove difficult if a country perceives that it is acting in isolation, and – as discussed in chapter 22 – there are many reasons why achieving a common price signal through harmonising taxes across countries is likely to be difficult to achieve;
+- raise public revenues;
+- can be kept stable, and thus do not risk fluctuations in the marginal costs that could increase the total costs of mitigation policy.
+
+%%page 321%%
+
+However,
+
+- they do not automatically generate financial flows to developing countries in search of the most effective carbon reductions.
+
+In terms of the criteria discussed above – efficiency, equity and the impact on public finances – the strengths of a tradable quota scheme are:
+
+- to the extent that the scheme embraces different sectors and countries, it will establish a common price signal and therefore have the potential to drive carbon reductions efficiently;
+- to the extent that inter-country trading is allowed, it will ensure carbon reductions are made in the most cost-effective location, and automatically drive private-sector financial flows between regions;
+- if allowances are sold or auctioned, then the scheme also has the potential to generate public revenues.
+
+Some countries may make substantial use of tax measures to reduce GHG emissions. Others may place greater emphasis on participation in emissions trading schemes or, indeed, regulation. Some countries may choose a mix of all three depending on the sector, other policies, market structures, and political and constitutional opportunities and constraints.
+
+The effectiveness of any tax or emissions trading scheme depends on its credibility and on good design. Investors need a credible and predictable policy framework on which to base their investment decisions; and good design is important to ensure effectiveness and efficiency. This is discussed in detail in the next chapter.
+
+Carbon-pricing policy is only one element of a policy response to climate change. There are a range of other market failures and barriers to action which must be tackled. For this reason, carbon pricing policy should sit alongside technology policies, and policies to remove the behavioural barriers to action. These two further objectives are discussed in Chapter 16 and Chapter 17 respectively.
+
+#### 14.10 Conclusion – building policies for the future
+
+A shared understanding of the long-term goals for stabilisation is a crucial guide to climate change policy-making: it narrows down strongly the range of acceptable emissions paths, and establishes a long-term goal for policy. But, from year to year, flexibility in when, where and how reductions are made will reduce the costs of meeting these goals. Policies should adapt to changing circumstances as the costs and benefits of climate change become clearer over time. This means that short-term policy may be revised periodically to take account of information, as and when it comes, so as to keep on track towards meeting a long-term goal.
+
+This need for both a long-term goal, and consistent short-term policy to meet this, should guide action at the international and national level to price carbon.
+
+At the international level, this means that the key policy objectives for tackling climate change should include:
+
+- Choosing a policy regime that: i. in the long term, will stabilise the concentration of greenhouse gases in the atmosphere, and establish a long-term quantity goal to limit the risk of catastrophic damage; ii. in the short term, uses a price signal (tax or trading) to drive emission reductions, thus avoiding unexpectedly high abatement costs by setting short-term quantity constraints that are too rigid.
+
+%%page 322%%
+
+- Establishing a consistent price signal across countries and sectors to reduce GHG emissions. This price signal should reflect the damage caused by carbon emissions.
+
+In theory, either taxes or tradable quotas – and in specific circumstances regulation – can play a role in establishing a common price signal. Chapter 22 discusses the potential difficulties of co-ordinating national policies to achieve this.
+
+Both taxes and tradable quotas can contribute to raising public revenues. Under a tradable quota scheme, this depends on using a degree of auctioning and, over time, there are sound economic reasons for doing so. However, this would need to be well managed, understanding fully the implications for governments' revenue flows, and ensuring that these remain predictable and reliable.
+
+Taxes and tradable quotas can both support the financing of carbon reductions across different countries. However, only a tradable-quota system will do this automatically, provided there is an appropriate initial distribution of quotas and structure of rules.
+
+At the national – or regional level – governments will want to tailor a package of measures that suits their specific circumstances, including the existing tax and governance system, participation in regional initiatives to reduce emissions (eg. via trading schemes), and the structure of the economy and characteristics of specific sectors.
+
+Some may choose to focus on regional trading initiatives, others on taxation and others may make greater use of regulation. The factors influencing this choice are discussed in the following chapter.
+
+%%page 323%%
+
+#### References
+
+Useful background reading that summarises the debate on the use of price or quantity instruments are included in the list below. The seminal article by Weitzman (1974) is a technical exposition of the arguments. Pizer (2002) is good outline of the debate in terms of international climate change policy. Hepburn (2006) outlines a clear application of the Weitzman analysis to climate change policy, including the trade-off between credible commitments and flexibility.
+
+Blyth, W. & K. Hamilton (2006): 'Aligning Climate and Energy Policy: Creating incentives to invest in low carbon technologies in the context of linked markets for fossil fuel, electricity and carbon', Energy, Environment and Development Programme, Royal Institute of International Affairs, April 21 2006, London
+
+Coase, R.H. (1960): 'The problem of social cost', Journal of Law & Economics, 3 (1): 1-44
+
+Dasgupta, P. and G. Heal (1979): 'Economic theory and exhaustible resources', Cambridge: Cambridge University Press
+
+Helm, D., Hepburn, C., and Mash, R. (2005), 'Credible carbon policy', in Helm, D. (ed), Climate Change policy, Oxford, UK: Oxford University Press, chapter 14. (Also available as Helm, D., Hepburn, C., & Mash, R. (2003), 'Credible carbon policy', Oxford Review of Economic Policy).
+
+Hepburn, C. (2006): 'Regulating by prices, quantities or both: an update and an overview', Oxford Review of Economic Policy, 22(2): 226-247
+
+Hotelling, H (1931): 'The economics of exhaustible resources', Journal of Political Economy, 39: 137-175
+
+Lydon, P., (2002): 'Greenhouse warming and efficient climate protection policy, with discussion of regulation by ''price'' or by ''quantity'', Working Paper 2002-5, Berkeley, CA: Institute of Governmental Studies.
+
+Meade, J.E. (1951): 'External economies and diseconomies in a competitive situation', Economic Journal, Vol. 62, No. 245, 54-67
+
+Newberry, D. (2005): 'Why tax energy? Towards a more rational policy', Energy Journal, 26(3): 1-40
+
+Newell, R., Pizer, W. and Zhang, J (2005): 'Managing permit markets to stabilise prices', Journal of Environmental and Resource Economics, 31(2): 133-157
+
+Pigou, A.C. (1920): 'The economics of welfare', Macmillan, London.
+
+Pizer, W.A (2002): 'Combining price and quantity controls to mitigate global climate change', Journal of Public Economics, 85: 409- 534
+
+Sinclair, P.J.N (1994): 'On the optimum trend of fossil fuel taxation', Oxford Economic Papers, 46, 869-877
+
+Ulph, A and Ulph, D (1994): 'The optimal time path of a carbon tax', Oxford Economic Papers, 46, 857-868
+
+Weitzman, M.L (1974): ' Prices versus quantities', Review of Economic Studies, 41 (4):477- 491
+
+%%page 324%%
+
+### 15 Carbon Pricing and Emissions Markets in Practice
+
+Key Messages
+
+Both tax and trading can be used to create an explicit price for carbon; and regulation can create an implicit price.
+
+For all these instruments, credibility, flexibility and predictability are vital to effective policy design.
+
+A lack of credible policy may undermine the effectiveness of carbon pricing, as well as creating uncertainties for firms considering large, long-term investments.
+
+To establish the credibility of carbon pricing globally will take time. During the transition period, governments should consider how to deal with investments in long-lived assets which risk locking economies into a high-carbon trajectory.
+
+To reap the benefits of emissions trading, deep and liquid markets and well designed rules are important. Broadening the scope of schemes will tend to lower costs and reduce volatility. Increasing the use of auctioning is likely to have benefits for efficiency, distribution and potentially the public finances.
+
+Decisions made now on the third phase of the EU Emissions Trading Scheme pose an opportunity for the scheme to influence, and be the nucleus of, future global carbon markets.
+
+The establishment of common incentives across different sectors is important for efficiency. The overall structure of incentives, however, will reflect other market failures and complexities within the sectors concerned, as well as the climate change externality.
+
+The characteristics of different sectors will influence the design and choice of policy tool. Transaction costs of a trading scheme, for instance, will tend to be higher in sectors where there are many emission sources. The existing framework of national policies in these sectors will be an important influence on policy choice.
+
+#### 15.1 Introduction
+
+This chapter considers how markets for emission reductions can be built on the principles considered in Chapter 14. The application of these principles requires careful analysis of the context of specific economies and institutional structures– at the national, international, regional or sectoral levels.
+
+Section 15.2 discusses the importance of designing policies in a way which creates confidence in the future existence of a robust carbon price, so that businesses and individuals can plan their investment decisions accordingly. The current use of emissions trading schemes is discussed in Section 15.3, and 15.4 focuses particularly on the issues around creating a credible carbon price in emissions trading schemes.
+
+The choice and design of such policy instruments also depends on the specific sectoral context. Policies which work for one sector may be inappropriate for another, although a common price is still needed across sectors for efficiency in the costs of mitigation. The relationship between climate change policy and other objectives, such as energy security and local air pollution, is also important. These issues are discussed in 15.5.
+
+Carbon pricing is only one part of a strategy to tackle climate change. It must be complemented by measures to support the development of technologies, and to remove the barriers to behavioural change, particularly around take-up of energy efficiency. These two elements are discussed in Chapters 16 and 17.
+
+%%page 325%%
+
+#### 15.2 Carbon pricing and investment decisions
+
+***Investors need a predictable carbon policy***
+
+Businesses always have to take uncertainties into account when making investment decisions. Factors such as the future oil price, changes in consumer demand, and even the weather can affect the future profitability of an investment. Business decision-makers make judgements on how these factors are likely to evolve over time.
+
+But unlike many other uncertainties that firms face, climate change policy is created solely by governments. To be successful, a carbon pricing policy must therefore be based on a framework that enables investors to have confidence that carbon policy will be maintained over sequential periods into the future.
+
+Serious doubt over the future viability of a policy, or its stringency, risks imposing costs without having a significant impact on behaviour, so increasing the cost of mitigation. Creating an expectation that a policy is very likely to be sustained over a long period is critical to its effectiveness.
+
+***Credibility, flexibility and predictability are key to effective policy***
+
+Three essential elements for an effective policy framework are credibility (belief that the policy will endure, and be enforced); flexibility (the ability to change the policy in response to new information and changing circumstances); and predictability (setting out the circumstances and procedures under which the policy will change). These apply to any type of policy, including the technology and regulatory measures set out in the following chapters, but are particularly pertinent to carbon pricing.
+
+A key issue for credibility is whether the policy commands support from a range of interest groups. Public opinion is particularly important: sustained pressure from the public for action on climate change gives politicians the confidence to take measures which they might otherwise deem too risky or unpopular. It must also make sense within an international context: if there are good prospects for a robust international framework, this will greatly enhance the credibility of national goals for emissions reductions.
+
+As Chapter 14 has discussed, the flexibility to adjust policy in the short term is an important principle for efficient pricing under conditions of uncertainty. Policy must be robust to changing circumstances and changing knowledge. If policy is seen to be excessively rigid, its credibility may suffer, as people perceive a risk that it will be dropped altogether if circumstances change.
+
+Building in predictable and transparent revision rules from the start is the best way to maintain confidence in the policy, whilst also allowing flexibility in its application.
+
+***Issues of credibility are particularly important for investments in long-lived capital stock***
+
+Taking a long-term view on the carbon price is particularly important for businesses investing in long-lived assets[^1]. Assets such as power stations, industrial plant and buildings last for many decades, and businesses making investment decisions on these assets often have longer time horizons than many governments.
+
+If businesses believe that carbon prices will rise in the long run to match the damage costs of emissions over time, this should lead them to invest in low-carbon rather than high-carbon assets. But in the transitional period, where the credibility of carbon pricing is being established worldwide, there is a risk that future carbon prices are not properly factored into business decision-making, and investments may be made in long-lived, high-carbon assets.
+
+%%page 326%%
+
+This could lock economies into a high-carbon trajectory, making future mitigation efforts more expensive. Governments should take careful account of this: as well as providing as much clarity as possible about future carbon pricing policies, they should also consider whether any additional measures may be justified to reduce the risks[^2].
+
+Uncertainty about the long-term future framework for carbon pricing is also a reason why additional measures to encourage the development of low-carbon technologies are important. This is discussed in Chapter 16.
+
+***Policy uncertainty not only undermines climate change policy – it can also undermine security of supply, by creating an incentive to delay investment decisions.***
+
+Uncertainty about the future existence or overall direction of policy creates difficulties for how businesses respond. There is a risk that businesses will adopt a 'wait and see' attitude, delaying their investment decisions until the policy direction becomes clearer.
+
+Blyth and Yang (2006) look at the incentives for a company faced with a decision on whether to invest in high-carbon or low-carbon infrastructure. If a decision is expected at some point in the future about whether or not a new climate change policy will be introduced, a company which makes its investment decision now, risks a loss later if it makes the wrong call on policy. If it waits until the policy is agreed, it can make a more informed choice. Given this uncertainty, a much higher expected profit level would be required to trigger the investment now[^3].
+
+In the energy sector, such delays in investment could create serious problems for a country's security of supply. Modelling work by Blyth and Yang (2006) indicates that an increase in the period of relative carbon price stability from 5 to 10 years (which could equate to increasing the length of an allocation period in a trading scheme) could reduce the size of the investment thresholds arising from uncertainty by a factor of 2 or more[^4].
+
+***Credibility may also vary between policy instruments***
+
+Credibility may vary between different types of policy instrument. For instance, taxation provides governments with a revenue stream, and there tends to be an expectation that it will not be in a government's interests to abolish it. Regulation may be more effective in countries with a culture of using command and control methods, or where there are political or administrative problems with raising taxes or with tax collection. Specific national circumstances, including constitutional structures, the stability of political institutions and the quality of legal infrastructures and enforcement, play a key role in determining what credible policy is.
+
+Another important element is the level at which policy takes place. Regulation or trading schemes which are agreed at the EU level, for instance, are difficult to reverse, and hence may be seen as more credible than some national policies.
+
+The issues surrounding credibility in trading schemes are discussed in detail in the following section.
+
+#### 15.3 Experience in emissions trading
+
+As outlined in Chapter 14, emissions trading has several benefits. Emissions trading schemes can deliver least-cost emission reductions by allowing reductions to occur wherever they are cheapest. A key corollary benefit to this is that it generates automatic transfers between countries, while delivering the least-cost reductions. In many instances, introducing trading schemes is also an easier mechanism through which to achieve a common carbon price across countries than attempts to harmonise taxes. As such, trading schemes can be used to introduce carbon pricing, without risking carbon leakage and competitiveness implications between participating countries. Emissions trading is therefore a very powerful tool in the framework for addressing climate change at an international level.
+
+%%page 327%%
+
+Emissions trading is not new to environmental policy. Trading in emissions has been used to reduce sulphur dioxide and nitrous oxide emissions that cause acid rain in the US since 1995[^5]. The experience of this scheme increased interest in the potential use of emissions trading to tackle climate change – particularly due to its potential cost effectiveness compared to the use of regulation. Burtaw (1996) estimated that emissions trading under the US Acid Rain Program saved 50% of the costs compared to command and control.
+
+***The use of carbon trading schemes is expanding***
+
+During the 1990s, as experience of emissions trading for air pollution grew in the US, the EU began to consider the potential of using trading to help meet its Kyoto target emission reduction obligations. The European Commission presented a 'Green Paper' in 2000 that proposed the use of emissions trading. It showed that a comprehensive trading scheme could reduce compliance costs of meeting Kyoto by a third, compared to a scenario with no trading instrument[^6].
+
+The EU has since gone on to implement a trading scheme in major energy intensive and energy generation sectors, and in so doing, established the world's largest greenhouse gas emissions market. Launched in January 2005, the EU emissions trading scheme (EU ETS) is still in its infancy. The scheme will enter a second, longer phase in 2008, with a major review on the scheme's design from 2013 to be launched in 2007. Box 15.1 describes how the EU ETS works, and discusses the experience of the scheme to date.
+
+Box 15.1 The European Union Emissions Trading Scheme (EU ETS)
+
+The EU ETS is the first international emissions trading scheme.It established a uniform price of carbon for greenhouse gas emissions from specific heavy industry activities in the 25 EU member states. Phase One of the scheme was launched on 1 January 2005 and runs to the end of 2007. Phase Two runs from 2008-12, and the scheme will continue with further phases beyond 2012. Participation is mandatory for emissions from industrial sectors specified in the scheme. These currently include energy generation, metal production, cement, bricks, and pulp and paper[^7].
+
+Member states decide, through their National Allocation Plans (NAPs), on the quota or total allocation of allowances for each phase within their country, and on how these are distributed between companies. The plans are subject to approval by the European Commission. They must demonstrate that allocation levels will not exceed expected emission levels in sectors, and are in line with broader plans to make reductions to meet Kyoto targets[^8]. Allowances are then issued to all firms on the basis of the NAP. Firms in the scheme must provide an annual report on their emissions, which is audited by a third party.
+
+In Phase One, the scheme covers less than 40% of all EU25 GHG emissions[^9], with the permit market over the three-year period worth around US $115 billion[^10]. The majority of permits are currently allocated for free to installations included in the scheme (only 0.2% of all allowances will be auctioned in Phase One[^11]), and most member states have prevented the banking of allowances between the two phases. An allowance market has developed through trade exchanges and brokers, with the City of London emerging as an important location for trading. Traded volumes have grown steadily (see below). The price of allowances has been in the range of €10 to €25 per tonne of CO2 for most of the period, with a steep price drop in April 2006.
+
+%%page 328%%
+
+The market for EU allowances (EUAs) –prices and volumes
+
+Source: Data taken from Point Carbon, www.pointcarbon.com
+
+Early experience in the scheme has highlighted a number of important issues:
+
+- The potential for emissions trading schemes to generate demand for emissions reductions in developing countries: the Linking Directive has enabled EU-based industry to purchase carbon reductions from the cheapest source, including projects and programmes being implemented in the developing world through the use of the Clean Development Mechanism[^12]. This has driven growing interest of EU firms in the CDM market, particularly as CDM credits can be used in either phase of the scheme. The CDM market volume grew threefold between 2005 and 2006, to 374 million tonnes (CO2e), much of this driven by demand from the EU ETS[^13].
+- The importance of long term confidence in the future of the scheme: the EU ETS will continue with a third phase beyond 2012. But companies would like greater clarity over what the EU ETS will look like in Phase III and beyond in order to help judge the impact on their investment decisions. A survey to discover the issues that need to be considered in the review of the EU ETS put the need for certainty on future design issues in the scheme as a top priority[^14]. The majority of those surveyed also stated they would prefer allocation decisions to be made a few years in advance of trading periods, and trading periods be lengthened to around 10 years.
+
+%%page 329%%
+
+- The impact of imperfect information on prices: at the start of trading in January 2005, traders had limited information on supply and demand for emission allowances. In particular, the NAPs did not contain clear data on the assumptions lying behind the projections of emissions used as the basis for allocations. The release of the first data on actual emissions from the scheme's participants in April 2006 led to a sharp downward correction in prices (see figure above), as the data showed that the initial NAP allocations exceeded emissions in most sectors of the scheme[^15]. The volatility that this caused demonstrates the importance of transparency in initial allocation plans.
+- The difficulties of ensuring scarcity in the market: overall allocation in the EU ETS market is not set centrally. Rather, it is the sum of 25 individual member state decisions, subject to approval by the Commission. As such, total EU allocation is an outcome of many decisions at various levels, with a risk of gaming on allocation levels between member states if they make their decisions expecting allocation levels will be higher elsewhere in Europe. It has therefore been difficult to ensure scarcity in the EU ETS market. As a result, the total EU wide allocation in Phase One is estimated to be only 1% below projected "business as usual" emissions[^16],[^17]. This underlines the need for stringent criteria on allocation levels for member states, and robust decisions by the European Commission on NAPs to ensure scarcity in the scheme.
+- The need for robust administrative systems: the methods used to determine allocations placed considerable demands on companies to collect, verify and submit historical data on emissions.In addition, to ensure confidence in compliance standards across the EU on measuring emissions[^18], companies had to set up monitoring, reporting and verification systems in line with EU guidelines[^19]. Costs were high for small firms that had low annual emissions included in the EU ETS; requests to reconsider the minimum size of plants included in the scheme have subsequently been made by both member states and business.[^20]
+
+The growing importance of the use of emissions trading markets to price carbon is also illustrated by the scope of trading schemes planned or already operating across the world. Norway introduced emissions trading in January 2005 for major energy plants and heavy industry. New South Wales (Australia) already operates a mandatory baseline-and-credit scheme for electricity retailers. Japan and South Korea are also running pilot programmes for a limited number of companies.
+
+Elsewhere, the biggest plans for new emissions trading markets are in the USA, through the Regional Greenhouse Gas Initiative (RGGI) from January 2009[^21], and California's plans for using a cap and trade scheme from 2008[^22]. Switzerland and Canada also plan to implement trading schemes as part of their programmes to meet Kyoto commitments.The voluntary market for carbon reductions is also growing, driven by demand from both companies and individuals looking to reduce or offset their emissions[^23]. The CCX (Chicago Climate Exchange) is an example of a voluntary carbon market. Since December 2003, US based companies that take on voluntary targets to reduce GHG emissions have used this market to achieve their targets.
+
+The following section outlines the design issues that impact on trading scheme efficiency and market effectiveness.
+
+%%page 330%%
+
+#### 15.4 Designing efficient and well-functioning emissions trading schemes
+
+***To reap the benefits of emissions trading, deep and liquid markets and well-designed rules are important.***
+
+Emissions trading schemes will, necessarily, deliver carbon prices that vary over time. But a degree of price stability through the emergence of a predictable average price within the emissions trading mechanism is important, particularly for businesses planning long-term investments. And the efficient operation of the scheme, including its impact on incentives, is important to achieve least-cost reductions.
+
+One option to limit the bounds of price movements is to supplement the market instrument itself with price controls, such as formal price caps and price floors[^24]. Although this approach has some attractions in principle, there are significant problems with its practical implementation and effectiveness, including the implications for the feasibility of linking with other schemes. These are set out in Box 15.2.
+
+Box 15.2 Price caps and floors in emission trading schemes
+
+As explained in Hepburn et al (2006), a hybrid instrument can in principle be tailored to ensure that in the long term, an overall quantity ceiling is achieved, but that in the short term there is sufficient flexibility to avoid temporarily very high marginal abatement costs. This would help to achieve the balance of long-term certainty and short-term flexibility discussed in Chapter 14.
+
+Price caps (or 'safety valves')[^25] supply allowances on demand if the agreed ceiling price is hit, and would eliminate the risk of price spikes. Price floors would stop the carbon price from falling below a minimum level. They can be implemented in a number of ways, including through a levy that only becomes operational once the floor is breached, or by guaranteeing a minimum future quota price to emitters, by entering a contract to buy permits (which the government can then sell back to the market)[^26] – although the risks to the public finances from this latter route should be taken seriously.
+
+However, people would still have to believe that the caps and floors themselves will not be changed. There are also risks that the imposition of a cap alone would damage incentives for investing in low carbon technologies as it sets an upper limit on the future expected price, lowering potential returns to low carbon technology[^27].
+
+Importantly, the use of different price caps and floors in different schemes would compromise the efficiency of regional trading schemes- there are risks of carbon leakage and unintended transfers across jusrisdictions with different carbon price ranges. As such, to operate efficiently, price caps and floors would need to be the same across all participating countries. Agreeing a common price cap or floor across countries is likely to suffer from the same difficulties as any attempt to harmonise carbon taxes more generally. Even if countries within a single scheme could agree a cap or floor, this would present an obstacle to linking to other schemes with different rules. This is a drawback to the practical applicability of these methods.
+
+Fundamentally, to ensure confidence in a stable long-term carbon price, and to realise the full efficiency benefits of any trading scheme, the creation of deep, liquid and efficient markets is essential. Several factors can facilitate this:
+
+%%page 331%%
+
+- Broadening the scope of the scheme, to include more gases, more countries, and international credits;
+- Ensuring appropriate scarcity in the system;
+- Lengthening the trading periods, to provide longer-term confidence;
+- Designing appropriate allocation schemes; and
+- Promoting transparency.
+
+The following sections discuss these in more detail.
+
+***Broadening the scope of the scheme will tend to lower costs and reduce volatility***
+
+In general, the deeper and more liquid a market, the harder it is for any individual trade to affect the overall price level, and hence the less volatile the market will tend to be. Introducing different economic sectors or countries to a market can also reduce the impact of a shock in any one sector on the scheme as a whole. In addition, the greater the degree of flexibility about what type of emissions reductions are made and where they are made, the lower the cost will be.
+
+There are a number of ways to widen the scope of trading schemes. One is to widen the number of sectors and activities covered by an individual scheme. Some of the practical issues associated with this are discussed in Section 15.5 below.
+
+Another is to offer access to flexible mechanisms such as Joint Implementation (JI) or the Clean Development Mechanism (CDM)[^28]. This expands the options for generating credits for emissions reductions to most parts of the world, maximising the opportunities for efficiency. The environmental benefits of using these credits will depend on the credits representing a real reduction on what emission levels would otherwise have been (the 'business as usual' level of emissions). Countries that can generate CDM credits do not have binding caps on emissions, and are often fast changing economies; as such, establishing a credible estimate of what a business as usual baseline is, and whether reductions would have taken place in the absence of the CDM project, can be complex[^29]. Chapter 23 examines this in more detail.
+
+Linking different national or regional cap and trade schemes is also desirable on efficiency grounds, but, to reap the efficiency benefits, the schemes should be broadly similar in design. The practical issues of linking are discussed in Chapter 22.
+
+The introduction of new sectors, and linking to new regions, can cause some short-term price instability, as there is uncertainty over the net impacts of newly included sectors and their response to the scheme. But the impact on long-term stability should still be positive.
+
+As well as bringing extra depth and liquidity into markets, commonality or linking of schemes avoids the leakage, confusion and inefficiency of parallel schemes with different carbon prices. In any one area or country, a single or unified scheme is better than a proliferation of schemes.
+
+***The degree of scarcity in the market is important in determining prices***
+
+To facilitate more stable carbon markets, allocation levels should be consistent with overall national, regional or multilateral emissions reductions targets, and be clearly below expected 'business as usual' (BAU) emissions. This is complicated by the uncertainties in predicting future emissions over an entire trading period.
+
+The first phase of the EU ETS illustrates this. Allocation decisions were based on projections of BAU emissions of the sectors in the scheme, many of which appear to have been overestimated, meaning that total EU allocation was just 1% under projections of BAU of the whole EU ETS. In contrast, earlier emissions trading schemes such as the US Sulphur Dioxide trading programme, had allocation levels at around 50% below baseline emissions[^30].
+
+%%page 332%%
+
+The degree of scarcity in a scheme depends not just on the cap which is set for the scheme itself, but also on whether or not companies are permitted to use credits for emission reductions that are generated in areas without a cap, such as those from the CDM. As long as these credits represent real emission reductions, there is little reason to limit their use, as cost-efficiency demands that emissions reductions are made wherever this is cheapest.
+
+If allowing the use of mechanisms such as the CDM turns out to deliver large quantities of low-cost reductions into a trading scheme, then, at the time when allocations for subsequent periods for the scheme are set, the cap may need to be tightened to ensure that the carbon price continues to reflect the social cost of carbon, and is consistent with the achievement of the long-term goal for stabilisation. The impact of CDM credits on the price should be considered alongside other emerging information on the costs and benefits, as part of the revision process for allocations.
+
+***Greater certainty on the evolution of prices over future trading periods, and banking and borrowing between periods, can help to smooth compliance over time and investment cycles***
+
+Longer trading periods in trading schemes can help to smooth compliance over time and investment cycles, as they allow the private sector to have greater control over the timing of the response to carbon policy. They also reduce policy risk to the extent that they suggest a deeper commitment to carbon policy. However, excessively long commitment periods limit policymakers' flexibility in responding to changing information and circumstances.As the previous chapter discussed, this is important in order to keep down the overall costs of carbon pricing to the economy[^31], and to readjust targets as more information on climate change itself is gathered.
+
+The key issues for investor confidence are a commitment to the long-term future of the scheme and predictability in its overall shape and rules. This predictabilty can be achieved through establishing revision rules for future allocation periods. For instance, governments may announce that future allocations will be contingent on factors such as the price of permits in the preceding period. They could also announce a target range for prices[^32] (which should be in line with the expected trajectory for the social cost of carbon – see Chapter 13). Setting out expectations on issues such as expansion to new sectors, or the use of CDM, could also be important. These principles could be set over a very long time period of perhaps 10 to 20 years, with allocations made at more regular intervals.
+
+Within this framework, banking, and possibly borrowing, can be used to create links between different phases of a trading scheme. Banking is the ability to carry over unused quotas from one period to another, and borrowing the ability to use or purchase quotas from a future period in the current period. This allows trading to take place across commitment periods, as well as across sectors and countries. This can improve flexibility, as well as reducing the risk of price spikes or crashes at the end of trading periods discussed above.
+
+Some existing emission trading schemes already allow banking. Banking should help to encourage early emission reductions where this is more cost effective[^33]. For example, the heavy use of banking in the US Acid Rain Program has been seen by some as a success in terms of delivering early reductions and improving efficiency. Ellerman and Pontero (2005) found that 30% of allowances were banked between 1995-99 (Phase One of the programme). Firms made efficient decisions to make earlier reductions and bank allowances forward, due to the expectation of tighter caps in future phases. As a result, in total, emissions reduced in Phase One were twice that required to the meet the cap.
+
+%%page 333%%
+
+In contrast, very few existing emissions trading schemes have made use of borrowing. The main reason why borrowing has been restricted in existing trading schemes is credibility and compliance, including the risk of borrowing simply being offset by compensating increases in allocations in future periods. In theory, unrestricted borrowing could delay emissions reductions indefinitely, thus raising the risk of 'overshooting' a long run quantity ceiling. A credible enforcement strategy, and long-term principles for allocation, are therefore essential to ensure that reductions borrowed from the future are real and delivered.
+
+Where there are longer periods within which compliance is possible, and a clearer view of the longer term direction of carbon policies, liquid futures markets in carbon are more likely to emerge, and hedging instruments will be developed that allow firms to manage price uncertainty more systematically.
+
+***The choice and design of allocation methodology is an important determinant of both efficiency and distributional impact***
+
+Permits in an emissions trading scheme can be allocated for free, or sold (usually, though not necessarily, through auction[^34]). It is possible to combine these – for instance, the EU ETS allowed for up to 5% of permits to be auctioned in Phase One, and 10% in Phase Two.
+
+In principle and assuming perfect competition, free allocation and auctioning should both be equally efficient. In both cases, businesses face the same marginal costs arising from the emission of an extra tonne of carbon dioxide, and should therefore make the same decision on whether or not to emit in either case.
+
+But this argument is static, ignores the structure of markets and takes no account of distributional or public finance issues. In reality the methods differ in two important respects. First, free allocation methodologies can dampen incentives to incorporate the cost of carbon into decision making consistently, and distort competition. Thus they slow adjustment and potentially raise the overall cost of compliance.
+
+Second, they differ in their distributional impact. Free allocations give companies lump sum transfers in the form of carbon allowances; depending on market structure and demand.Such transfers may result in windfall profits. Not surprisingly, free permits are generally favoured by existing players in an industry. Auctioning leads to financial transfers to governments, which may have benefits for the public finances, depending on whether this is a new revenue flow or a substitute for other sources of finance.
+
+These issues were raised in the preceding chapter, and are explored in the next two sections.
+
+***Free allocations can significantly distort incentives***
+
+There are a number of reasons why emissions trading schemes based on free allocation may distort incentives for emissions reductions:
+
+- If there is an expectation that the baseline year upon which free allocations are based will be updated, participants have incentives to invest in dirty infrastructure and emit more now to get more free allowances in the future[^35]. A one-off allocation based on past emissions (or grandfathering) over all trading periods is one way of avoiding this. However, as a trading scheme matures, the relevance of past emission levels may become a less and less relevant basis for the likely emissions of each plant, say ten or more years later.
+
+%%page 334%%
+
+- Free allocations can act as a disincentive to new entry to a market, restricting competition and reducing efficiency. If incumbents receive free allowances, but new plants must purchase allowances, free allocations directly create barriers to entry, meaning that the provision of free allocations for new plants may be required[^36]. In turn, the rules for free allocations to new plants may indirectly distort incentives: if allocations are given in proportion to the expected emissions from the new plant, they may reward higher-carbon technologies[^37].
+- There may also be disincentives to exit from markets. The existence of 'use it or lose it' closure rules, which mean a plant must be open in order to receive free allowances, may prevent the closure of inefficient plants.This would mean emission levels are higher than if plants could keep allowances if they shut down, or had no free allowances to begin with[^38].
+- Under auctioning, with no lump sum of free allowances, businesses will face upfront costs in buying permits to cover their emissions. This will tend to bring management attention to the importance of making efficient decisions that fully account for the cost of carbon. Free allocations may not have the same behavioural impact, delaying adjustments to making effective decisions on carbon compliance[^39].
+
+Free allocation methodologies can therefore seriously reduce the dynamic efficiency of a trading scheme, making the cost of reductions higher in the longer term than would otherwise be the case.
+
+Benchmarking the emissions needed for efficient low carbon technologies for both existing and new plants is an alternative basis for issuing free allocations. It offers the opportunity to more clearly 'reward' clean technologies, and penalise carbon intensive technology by developing an average 'rate' of emissions for particular fuels, technologies or plant sizes. The more standardised a benchmark is, the more effective benchmarking is likely to be[^40]. Benchmarking can also be used specifically for new entrants, by allocating on the basis of the most efficient technologies available[^41].
+
+Auctioning can avoid many of the incentive problems associated with free allocation, although good design is necessary to avoid introducing new inefficiencies. Small, frequent auctions may be more effective in limiting any market power that may exist in the permit market[^42]. In principle, to ensure an efficient outcome, the auction method should promote competition and participation for small as well as larger emitters. While one auction at the beginning of the permit period may minimise administration costs, it may also carry a risk of larger players buying the majority of permits and extracting oligopoly rents in the secondary permit market. More frequent auctions also allow for all players to adjust bids and learn from experience of early auctions, and may be helpful in promoting price stability[^43]. Given the administrative costs of the data required for free allocation methodologies, auctioning may also offer lower administrative costs to both firms and governments.
+
+%%page 335%%
+
+***Using free allocation has benefits for managing the transition to emissions trading, but risks creating substantial windfall profits***
+
+Free allocations and auctioning have very different distributional impacts. This has led to a debate over whether allocation methods will affect the profitability of firms, as well as the implications for competitiveness. Carbon pricing will most affect the operating costs of energy intensive industries that compete in international markets, such as non-ferrous metals and some chemicals sectors (see Chapter 11). In the first instance, as auctioning and free allocation both impose the same marginal cost on emissions (as the carbon price is the same), the profit maximising quantity and price for any company should be the same in each case, and there should be no impact on the fundamental risks to competitiveness from the choice of allocation method.
+
+There is, however, an important difference in terms of the impact on companies' balance sheet, which may have competitiveness implications[^44]. A firm with free allocations that competes against other firms who face the cost of carbon but do not have free allowances, would be in an advantageous direct position in the sense that it receives a subsidy. It could for example, use this to capture market share by a period of low prices. However, if a firm competes against other firms who do not face a cost of carbon, the 'subsidy' of free allowances may be used to maintain its competitiveness, rather than gain competitive advantage over other firms.
+
+This subsidy effect means that free allocations may have an important role to play in managing the transition to carbon pricing. Full auctioning imposes an immediate hit on companies' balance sheets equivalent to the full cost of all their emissions, whereas free allocation means that companies only have to pay for the cost of any additional permits they need to purchase. This difference in upfront costs may be important, particularly for firms that have significant sunk costs in existing assets and need to invest in lower-carbon assets in response.
+
+In terms of the impact on firms' profits, free or purchased allowances are one factor influencing whether firms face profit or losses from the introduction of a trading scheme. Emissions trading increases the marginal costs of production, but the extent to which firms have to internalise these costs and therefore suffer reduced profits, will depend on:
+
+- whether they can pass on costs to consumers (which depends on market structure and the shape of the demand curve for the good);
+- whether they have ways of reducing emissions themselves which are cheaper than buying allowances (cost effective abatement); and
+- whether they have some free allowances that can compensate for increased marginal costs
+
+A firm that receives free allowances equal to its existing emissions can make the same profits as before from unchanged production activities, provided the market price for its output is unchanged – or do still better by responding to the new price for carbon. What happens to the market price for its product will depend on industrial structure.
+
+If firms are in perfectly competitive markets, the increase in marginal costs from emissions trading will be fully reflected in prices to consumers, and (in the absence of abatement) profits will stay the same as before the scheme's introduction. Any free allowances they receive equate to windfall profits[^45]. But where firms operate in markets where there is international competition and/or very elastic demand and so are unable to pass on costs, free allowances can act to maintain profitability by compensating for the increasing operating costs and reduced revenue that may be necessary to maintain market share[^46].
+
+%%page 336%%
+
+Nevertheless, whatever the market structure, it is important that free allocations are only temporary. They may be necessary to manage a transition, but if permanently used, they would distort competition and emission reductions will be below their efficient levels.
+
+***The creation of robust institutions, and the collection and provision of reliable information, are important for efficiency***
+
+Price stability can also be encouraged by the provision of robust information. In particular, transparent and regular information on actual emissions of scheme participants, as well as on the intial allocations, will help to reveal the basis of market demand and supply.
+
+The importance of information of this kind is illustrated by the experience of the EU ETS when the first verified emissions data of installations included in the scheme were published in March 2006. As Box 15.2 showed, prices dropped sharply in response, as it was clear that, for many firms, actual emissions were well below the number of allowances given to them at the start of the scheme. Revealing information on actual emissions more regularly through the trading period would help limit this volatility. Such requirements for more frequent information releases would, however, impose additional costs on emitters, implying that these requests may need to be limited to the largest emitters.
+
+The quality of monitoring, reporting and verification standards is integral to confidence in a trading scheme. A transparent and well enforced system of measuring and reporting emissions is crucial for securing the environmental credibility of a scheme as well as free trade across plants. Monitoring, reporting and verification (MRV) rules ensure that a tonne of carbon emitted or reduced in one plant is equal to a tonne of carbon emitted or reduced in a different plant[^47].
+
+Just as these issues are important in national and regional emissions trading schemes, the emergence of a liquid and efficient global carbon market has similar requirements. Indeed, to facilitate such a market, the EU and others wanting to develop global emissions trading will need to build on existing institutions to develop trading infrastructure. The World Bank emphasises that this includes ensuring strong legal bases to enforce compliance in the jurisdictions of participating firms and agreeing on minimum standards for monitoring, reporting and verification of emissions. Institutions that can deliver predictable and transparent information for emissions markets will also be vital, as will general oversight on the transparency of financial services that support trading such as securities, derivative products or hedge funds[^48].
+
+***Drawing out implications for the future of the EU emissions trading scheme***
+
+The EU ETS will continue beyond 2012 with a third phase. The details of Phase III have yet to be determined, and will be considered in the European Commission's review of the EU ETS in 2007. The review will propose developments in the scheme, drawing on the experience of the EU ETS to date. In particular, it will consider the expansion of the scheme to other sectors (including transport) and links to other trading schemes.
+
+Decisions made now on the third phase of the scheme that will run post 2012, pose an opportunity for the EU ETS – the most important emissions trading market – to influence other emerging markets, as well as to be the nucleus of future global carbon markets. Based on the analysis in this section, there are certain key principles to consider in taking the EU ETS scheme forward. These are set out in Box 15.3.
+
+%%page 337%%
+
+Box 15.3 Principles for the future design of the EU ETS
+
+A credible signal
+
+- Setting out a credible long-term vision for the overall scheme over the next few decades could boost investor's confidence that carbon pricing will exist in the EU going forward
+- The overall EU limit on emissions should be set at a level that ensures scarcity in the allowance market. Stringent criteria for allocation volumes across all EU sectors are necessary.
+- To realise efficiency in the scheme, and minimise perverse incentives, there should be a move to greater use of auctioning in the longer term, although some free allocation may be important to manage short-term transitional issues[^49].
+- Where free allocation is necessary, standardised benchmarking is a better alternative to grandfathering and updating.
+
+A deep and liquid market
+
+- Clear and frequent information on emissions during the trading period would improve the efficient operation of the market, reducing the risks of unnecessary price spikes.
+- Clear and predictable revision rules for future trading periods, with the possibility of banking between periods, would help smooth prices over time, and improve credibility
+- Broadening participation to other major industrial sectors, and to sectors such as aviation, would help deepen the market[^50].
+- Enabling the EU ETS to link with other emerging trading schemes (including in the USA and Japan) could improve liquidity as well as establish the ETS scheme as the nucleus of a global carbon market.
+- Allowing use of emission reductions from the developing world (such as the CDM or its successor) can continue to benefit both the efficiency of the EU scheme as well as the transfer of low carbon technology to the developing world
+
+#### 15.5 Carbon pricing across sectors of the economy
+
+***Abatement costs are minimised when the carbon price is equalised across sectors***
+
+As discussed in Chapter 9, sectors vary widely in terms of the current availability and average cost of abatement options. The cost of avoiding deforestation, for instance, appears to be relatively low compared with the cost of many low-carbon power generation options; by contrast, in aviation, although there are some opportunities for efficiency gains, options for technology switching are currently very limited.
+
+As discussed in the previous chapter, to minimise the total cost of abatement, the carbon price (whether explicit via a tax or trading instrument, or implicit via regulation) should be equalised across sectors. When the carbon price is applied to sectors with cheap abatement options, initially, emissions will tend to decline more; when applied to sectors with more expensive abatement options, the degree of abatement will be less than in cheaper abatement sectors. At the same time, the price increase for the output of the latter sectors will be, and should be, greater.
+
+This means that from an efficiency perspective, sectors with expensive abatement options should not be excluded from carbon pricing; but neither should they be subject to a different higher carbon price in that sector in order to achieve abatement.
+
+%%page 338%%
+
+As well as carbon pricing, governments should also look at the use of technology policies and efficiency policies across sectors – these are considered in the following two chapters. It is also important to consider climate change policy within the context of meeting other policy objectives within sectors, including its interaction with the treatment of externalities such as local air pollution and congestion.
+
+The overall structure and scale of policy incentives will therefore reflect other market failures and complexities within the sectors concerned, as well as the climate change externality. As economies make the transition to full carbon pricing, they may in practice use a mix of instruments.
+
+***How the characteristics of different sectors affect choice and design of instrument***
+
+The characteristics of sectors may influence the choice and design of the carbon pricing instrument. The underlying economic structures in which the emitters operate in sectors will differ, with implications for the attractiveness of using tax, trade or regulation instruments.
+
+Some of the relevant features of different sectors include:
+
+- Transaction costs: this may be affected by the number and dispersion of emitters, and the institutional arrangements for monitoring and pricing.
+- Carbon leakage: this is the risk that emissions-intensive activity moves to an area not subject to a carbon constraint. The choice and design of an instrument may have implications for carbon leakage and competitiveness.
+- Distributional impacts: depending on the market structure of the sector, the choice of policy instrument may have different implications for who bears the cost.
+- Existing frameworks: policy choices will be influenced by existing national policy frameworks and regulatory structures.
+
+It is also important to consider where in the value chain to price carbon. If "upstream" emissions are priced (for instance, at the power station or oil refinery), it is not necessary to price "downstream" emissions as well (for instance, in domestic buildings or individual vehicles). However, Chapter 17 focuses particularly on policies to enable investments in energy efficiency by the end-user, which are not discussed separately here.
+
+The following sections analyse how these factors influence policy choice in power and heavy industry, road transport and aviation, and agriculture.
+
+Power and heavy industry
+
+At a global level, power and heavy industry (such as iron and steel, cement, aluminium, paper industries and chemical and petrochemicals) are large emitters. Because of their high carbon intensity, these sectors are likely to be very sensitive to carbon pricing. They typically invest in very long-lived capital infrastructure such as power plant or heavy machinery, so a clear indication of the future direction of carbon pricing policy is particularly important to them.
+
+Power markets in particular are characterised by imperfect market structures, including state monopolies, regulatory constraints, and often large-scale subsidies. The interaction of carbon pricing with these imperfections is complex. Other industries such as paper and chemicals are more decentralised and deregulated. But overall, sources of emissions are concentrated amongst a relatively few, large, stationary installations, where emissions can be effectively measured and monitored.
+
+The concentrated nature of emissions from these sources make them, in principle, well suited to emissions trading. As already discussed, the first and second phases of the EU ETS cover emissions from these sectors. Other trading schemes have a similar focus – the Regional Greenhouse Gas Initiative in the north-east of the USA, for instance, will cover only the power sector.
+
+%%page 339%%
+
+However, trading is not the only option. Tax could also be an effective mechanism, and would have the advantage of providing greater price predictability. Examples of countries using taxation to meet climate change goals in these sectors include the UK, which has used the Climate Change Levy, a revenue-neutral mechanism which encourages emissions reductions across sectors including industry; and Norway, which introduced a carbon tax in the early 1990s, covering much of its heavy industry as well as the transport sector (Box 15.4).
+
+Box 15.4 A carbon tax in practice: Norway[^51]
+
+Like other Scandinavian countries, Norway introduced a carbon tax in the early 1990s. The tax was to form part of substantial shift in fiscal policy as Norway aimed to use the revenue generated by environmental taxes to help reduce distorting labour taxes.
+
+The Norwegian carbon tax initially covered 60 percent of all Norwegian energy related CO2 emissions. There are several sectors that were exempted from the tax, including cement, foreign shipping, and fisheries. Natural gas and electricity production are also exempt, although virtually all Norway's electricity production is from carbon-free hydroelectric power. Partial exemptions apply to sectors including domestic aviation and shipping, and pulp and paper.
+
+The tax generates substantial revenues; in 1993 the tax represented 0.7 percent of total revenue, which by 2001 had increased to 1.7 percent. The tax is estimated to have reduced CO2 emissions by approximately 2.3% between 1990 and 1999[^52]. Overall in Norway, between 1990-1999 GDP grew by approximately 23 percent, yet emissions only grew by roughly 4 percent over the same period, indicating a decoupling of emissions growth from economic growth.
+
+There is also some evidence that the tax helped to provide incentives for technological innovation. The Sleipner gas field is one of the largest gas producers in the Norwegian sector of the North Sea. The gas it produces contains a higher CO2 content than is needed for the gas to burn properly. With the imposition of a carbon tax the implied annual tax bill to Statoil, the state oil company, was approximately $50m for releasing the excess CO2. This induced Statoil researchers to investigate the storing of excess carbon dioxide in a nearby geological formation. After several years of study, a commercial plant was installed on the Sleipner platform in time for the start of production in 1996. Experience with this plant has has made an important contribution to the understanding of carbon capture and storage technology.
+
+However, there have been some difficulties in the implementation of the tax:
+
+- The impact of the tax on industry was weakened because of numerous exemptions put in place because of competitiveness concerns. This created a complex scheme, and blunted the incentive for industry to modify or upgrade existing plants.
+- The carbon tax did not reflect the actual level of carbon emitted from fuels. For instance, low and high-emission diesel fuels are taxed at the same level, despite causing different levels of environmental damage.
+- Although Norway, Sweden, Finland and Denmark all put carbon taxes in place in the early 1990s, they have not been able to harmonise their approaches – demonstrating the difficulties of co-ordinating tax policy internationally, even amongst a relatively small group of countries.
+
+Heavy industries compete in international markets, and as Chapter 11 illustrated, there are some risks to competitiveness and of carbon leakage from the use of carbon policy in such sectors. In terms of tax and trading instruments, there may be a difference in impact if taxes cannot be harmonised globally. This is because an international trading scheme imposes a uniform carbon price across countries, minimising competitiveness implications for countries within the scheme, whereas taxes may impose different costs in different countries.
+
+%%page 340%%
+
+Regulatory measures have not played a major role in these sectors, although these have been used for other pollutants in the power sector, the EU's Large Combustion Plants Directive being one example. The concentrated number of companies and sources of emissions may make formal or informal sectoral agreements on best practice an effective complement to carbon pricing – this is discussed in Chapter 22.
+
+***Road transport***
+
+Although the production of fuel for road transport is centralised at oil refineries, most of the emissions from road transport come from a very large number of individual cars and other vehicles. Demand for transport tends to rise with income. There is considerable scope to improve efficiency in the sector, although the responsiveness of demand to price is low, and breakthrough technologies such as hydrogen are still some years away.
+
+Many countries currently levy a road transport fuel tax. Fuel taxes are a close proxy for a carbon tax because fuel consumption closely reflects emissions. They are frequently aimed at other externalities at the same time (discussed further below), and have the advantage of providing a steady revenue stream to the government. Another example is taxes on purchase or annual car taxes, which can be calibrated by the efficiency of the vehicle.
+
+However, it is also possible to use emissions trading in the road transport sector (see Box 15.5). A possible risk of including road transport in an emissions trading scheme is that permit prices and oil prices might move in tandem, thus exacerbating the extent of oil price fluctuations facing the motorist (in contrast to taxes, which are levied as a fixed amount rather than a percentage of fuel price charged, meaning that the fuel price is prone to less variation).
+
+Box 15.5 Ways to include road transport in an emissions trading scheme
+
+There are three main ways in which emissions from road transport could be included in an emissions trading scheme; they differ according to whom the permits are allocated to.
+
+- Motorists. Individual motorists would have to surrender permits whenever they purchased fuel. Quantity instruments might be better than prices at encouraging motorists to reduce their consumption of fuel. However, there would probably be high transaction costs associated with this approach.
+- Refineries. Refineries located in the region of the scheme, would have to buy permits to cover the emissions generated when the fuel that they produce is used in vehicles. It would probably be necessary to couple this approach with border adjustments to the price of imported fuel to avoid carbon leakage. Border adjustments are discussed in detail in Chapter 22.
+- Manufacturers. Vehicle manufacturers would be faced with a target for fuel efficiency of the average vehicle sold and, to the extent that they exceeded this target, they would have to buy permits to cover the excess expected lifetime carbon emissions from fuel inefficient vehicles. However, future emissions from these vehicles would be uncertain, making this hard to reconcile with trading schemes based on actual emissions.
+
+The European Commission is currently reviewing the operation of the EU ETS, including whether it should be extended to include other sectors such as road transport.
+
+The inclusion of aviation, road, rail and maritime could increase the size of the EU ETS by up to 50% (such that the EU ETS would cover around 55% of total EU 25 greenhouse emissions, and a larger proportion of total CO2 emissions), with benefits for liquidity[^53].
+
+%%page 341%%
+
+Regulatory measures play an important role in the transport sectors in many countries. Vehicle standards – which may be mandatory or voluntary – can put an implicit value on carbon, by restricting the availability of less efficient vehicles. These measures are discussed in more detail in Chapter 17.
+
+In practice, a combination of policies may be justified. Existing policy frameworks and institutional structures in countries will be an important determinant of policy choice. Countries with a history of high fuel taxes, for instance, would need to think very carefully about the public finance implications of switching to trading with free allocations; voluntary standards might be very effective in countries with a strong tradition of co-operation between government and business, but much less so in countries with a different culture.
+
+As in other sectors, climate change is not the only market failure in the transport sector and there are important interactions with other policy goals. Congestion, for instance, imposes external costs on other motorists by increasing their journey time. Congestion pricing and carbon pricing are very similar approaches from an economic point of view - they both price for an externality. Congestion charging could have a positive or negative impact on carbon emissions from transport, depending on how the instrument is designed and level at which the charge is set.
+
+***Aviation***
+
+Aviation faces some difficult challenges. Whilst there is potential for incremental improvements in efficiency to continue, more radical options for emissions cuts are very limited. The international nature of aviation also makes the choice of carbon pricing instrument complex. Internationally coordinated taxes are difficult to implement, since it is contrary to International Civil Aviation Organisation (ICAO) rules to levy fuel tax on fuel carried on international services[^54]. The majority of the many bilateral air service agreements that regulate international air services also forbid taxation of fuel taken on board. Partly for this reason, levels of taxation in the aviation sector globally are currently low relative to road transport fuel taxes. This contributes to congestion and capacity limits at airports – a form of rationing, which is an inefficient way of regulating demand.
+
+While either tax or trading would, in principle, be effective ways to price emissions from this sector, the choice of tax, trading or other instruments is likely to be driven as much by political viability as by the economics. Chapter 22 will discuss further the issues of international coordination of policy in this area (as well as in shipping, which faces similar issues). A lack of international co-ordination could lead to serious carbon leakage issues, as aircraft would have incentives to fuel up in countries without a carbon price in place.
+
+The level of the carbon price faced by aviation should reflect the full contribution of emissions from aviation to climate change. As outlined in Box 15.6, the impact of aviation on the global warming (radiatiive forcing) effect is expected to be two to four times higher than the impact of the CO2 emissions alone by 2050. This should be taken into account, either through the design of a tax or trading scheme, through both in tandem, or by using additional complementary measures.
+
+%%page 342%%
+
+Box 15.6 The impact of aviation on climate change
+
+Aviation CO2 emissions currently account for 0.7 Gt CO2[^55] (1.6% of global GHG emissions). However the impact of aviation on climate change is greater than these figures suggest because of other gases released by aircraft and their effects at high altitude. For example, water vapour emitted at high altitude often triggers the formation of condensation trails, which tend to warm the earth's surface. There is also a highly uncertain global warming effect from cirrus clouds (clouds of ice crystals) that can be created by aircraft.
+
+In 2050 under 'business as usual' projections, CO2 emissions from aviation would represent 2.5% of global GHG emissions[^56]. However taking into account the non-CO2 effects of aviation would mean that it would account for around 5% of the total warming effect (radiative forcing) in 2050[^57].
+
+The uncertainties over the overall impact of aviation on climate change mean that there is currently no internationally recognised method of converting CO2 emissions into the full CO2 equivalent quantity.
+
+***Agriculture and land use***
+
+Agricultural emissions come from a large number of small emitters (farms), over three quarters of which are in developing and transition economies. Emissions from agriculture depend on the specific farming practices employed and the local environment conditions. Since the sources tend to be distributed, there would be high transaction costs associated with actual measurement of GHG at the point of emission.
+
+An alternative approach in this sector would be to focus on pricing GHG emission 'proxies'. For example, excessive use of fertiliser or high nutrient livestock feeds is associated with high emissions, but by appropriate pricing, emissions can be reduced. However in practice, in many developing countries fertiliser is actually subsidised, largely to support the incomes of farmers. In many countries it is a somewhat regressive subsidy, as it is the richer farmers or agribusinesses who gain most.
+
+Difficulties associated with measuring emissions are also the reason why it is difficult to incorporate GHG emissions from agriculture into a trading scheme. However there are examples of projects that have overcome these problems and enabled farmers who adopt sustainable agriculture practices, to sell their emission savings on to others via voluntary schemes; this issue is discussed further in Chapter 25.
+
+Inadequate water pricing can intensify the problems of weak fertiliser pricing, since water and fertiliser are complementary inputs – additional fertiliser works much better with stronger irrigation.
+
+Many countries have adopted regulation of agricultural practices. For example, regulations for the use of water in growing rice, the quantity and type of fertiliser used in crop production, or the treatment of manure. Regulations are often location specific, because local conditions influence best practice. However, in developing countries, enforcement of regulations can be difficult because they may not have the institutional structures or resources to allocate to this task. Better pricing of inputs is generally a preferable route: income support to poor farmers or agricultural workers can be organised in much better ways than subsidised inputs.
+
+%%page 343%%
+
+There are complex challenges involved with the inclusion of deforestation, the major cause of land use emissions, in carbon trading schemes. These are discussed in detail in Chapter 25.
+
+#### 15.6 Conclusions
+
+Chapter 14 discussed how, at the global level, policymakers need both a shared understanding of a long-run stabilisation goal, and the flexibility to revise short-run policies over time.
+
+At the national – or regional level – policy makers will want to achieve these goals in a way that builds on existing policies, and creates confidence in the future existence of a carbon price. In particular, they will want to assess how carbon pricing (through either taxation, tradable quotas or regulation) will interact with existing market structures, and existing policies (for instance, to encourage the development of renewable energy or petrol taxes).
+
+Governments will want to tailor a package of measures that suits their specific circumstances. Some may choose to focus on regional trading initiatives, others on taxation and others may make greater use of regulation. The key goal of policy should be to establish common incentives across different sectors, using the most appropriate mechanism for a particular sector. With market failures elsewhere, other objectives, and the costs of adjustment associated with long-lived capital, it will be important to look at both the simple price or tax options as well as quotas and regulation to see what incentives in particular sectors really work.
+
+Carbon pricing is only one element of a policy approach to climate change. The following two chapters discuss the role of technology policy, and policies to influence attitudes and behaviours, particularly in regard to energy efficiency. All three elements are important to achieve lowest cost emissions reductions.
+
+%%page 344%%
+
+#### References
+
+A number of useful background readings on issues covered in this chapter are worth noting. A general approach to uncertainty and investment is covered in 'Investment under uncertainty', by Avinash K. Dixit, A and Robert S. Pindyck, Princeton University Press,1994. A broad discussion of the technical and economic issues of emissions trading and existing schemes is in 'Act Locally, Trade Globally:Emissions Trading for Climate Policy', by Richard Baron and Cedric Philibert, IEA, 2005. Detailed analysis of the EU Emissions Trading Scheme is covered in a special issue on EU ETS in Climate Policy, Volume 6, No.1, 2006. A useful summary of issues for decisions on including economic sectors in an emissions trading scheme is illustrated by presentations at a Stern Review seminar on 'Taxes versus trade in the transport sector', June 2006 (publication forthcoming at www.sternreview.org.uk).
+
+Blyth, W., and M. Yang (2006): 'The effect of price controls on investment incentives', presentation to the Sixth Annual Workshop on Greenhouse Gas Emission Trading, Paris: IEA/IETA /EPRI, September 2006, available from http://www.iea.org/Textbase/work/2006/ghget/Blyth.pdf
+
+Blyth, W. and M. Yang (forthcoming), 'Impact of climate change policy uncertainty on power generation investments', Paris: IEA.
+
+Blyth, W. and R. Sullivan (2006): 'Climate change policy uncertainty and the electricity industry:implications and unintended consequences', Energy, Environment and Development Programme, Briefing Paper 06/02, London: Royal Institute of International Affairs.
+
+Bovenberg, A.L. and L.H. Goulder (2000): 'Neutralizing the adverse impacts of CO2 abatement policies: what does it cost?', Discussion Paper, 00-27, Washington DC: Resources for the Future.
+
+Bruvoll, A. and B. M. Larsen (2002): 'Greenhouse gas emissions in Norway – Do carbon taxes work?', Discussion Paper 337, Norway: Research Department of Statistics.
+
+Burtraw, D. (1996): 'Cost savings sans allowance trades: evaluating the SO2 emissions trading program to date", Washington, DC: Resources for the Future.
+
+Butzengeiger, S., (2005): 'Voluntary compensation of greenhouse gas emissions: selection criteria and implications for the international climate policy system', HWWI Policy Paper, Hamburg: Hamburg Institute of International Economics.
+
+California State Government (2006): ' Governor Schwarzenegger signs landmark legislation to reduce greenhouse gas emissions', Press Release 09/27/2006, GAAS:684:06, , Los Angeles: Office of the Governor of the State of California.
+
+Capoor, K. and P. Ambrosi (2006): 'State and Trends of the Carbon Market 2006', Washington, DC: World Bank.
+
+Department of Trade and Industry (2005): 'EU Emissions Trading Scheme: calculating the free allocation for new entrants', Report produced for the Department of Trade and Industry, AEAT, London: DTI.
+
+EC (2000): 'Green Paper on greenhouse gas emissions trading with the European Union (presented by the Commission), Brussels: EC.
+
+EC (2003): 'Directive 2003/87/EC of the European Parliament and of the Council of 13 October 2003 establishing a scheme for greenhouse gas emission allowance trading within the Community and amending Council Directive 96/61/EC', Official Journal L 275 ,25/10/2003 P. 0032 – 0046
+
+%%page 345%%
+
+EC (2004): 'Commission Decision of 29 January 2004 establishing guidelines for the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council', European Commission, Brussels: EC.
+
+EC (2005): 'Emissions trading: Commission approves last allocation plan ending NAP marathon', Press Release IP/05/762, 20/06/2005, European Commission, Brussels: EC, available from http://europa.eu/rapid/pressReleasesAction.do?reference=IP/05/762&format=HTML&aged=0 &language=EN&guiLanguage=en
+
+Egenhofer, C. and N. Fujiwara (2005): 'Reviewing the EU Emissions Trading Scheme- Priorities for short-term implementation of the second round of allocation: Part 1', Report of a CEPS Task Force, , Brussels, Centre for European Policy Studies.
+
+Ekins, P. and T. Barker (2001): 'Carbon taxes and carbon emissions trading', Journal of Economic Surveys, 2001, 15(3)
+
+Ellerman, A. and J. Pontero (2005): 'The Efficiency and Robustness of Allowance Banking in the US Acid Rain Programme', Working Paper 0505, Centre for Energy and Environmental Policy Research, Massachusetts Institute of Technolgy, Massachusetts
+
+Environment Agency (2006): LETS Update: decision makers summary report, Bristol: Environment Agency.
+
+Grubb, M. (2006): 'Climate change impacts, energy and development: annual bank conference on development economics', Tokyo, 2006.
+
+Grubb, M., T. Chauis and M. Ha-Duong (1995) : 'The economics of changing course: implications of adaptability and inertia for optimal climate policy', Energy Policy 23(4): 1-14
+
+Grubb, M. and K. Neuhoff (2006): 'Allocation and competitiveness in the EU emissions trading scheme: policy overview', Climate Policy 6 (2006): 7-30
+
+Helm, D. and C. Hepburn (2005): 'Carbon contracts and energy policy: an outline proposal', Oxford: Oxford Economic Papers.
+
+Helm, D., C. Hepburn, and R. Mash (2005): 'Credible carbon policy', in Helm, D. (ed), Climate Change policy, Oxford: Oxford University Press, Chapter 14. (Also available as Helm, D., Hepburn, C., and Mash, R. (2003), 'Credible carbon policy', Oxford Review of Economic Policy) .
+
+Hepburn, C., M. Grubb, K. Neuhoff (2006a): 'Auctioning of EUETS Phase II allowances: how and why?', Climate Policy 6 (2006): 135-158
+
+Hepburn, C., J. Quah and R. Ritz (fortcoming 2006b): 'Emissions trading and profit-neutral grandfathering', Oxford University Economics Department, Discussion Paper, Oxford: Oxford University.
+
+International Civil Aviation Authority (2006): 'Convention on International Civil Aviation', Doc 7300/9, Ninth Edition, Montreal: ICAO, 2006.
+
+Intergovernmental Panel on Climate Change (1999): 'Aviation and the global atmosphere - summary for policy makers', available at www.ipcc.ch/pub/av(e).pdf .
+
+Jacoby, H.D. and A.D Ellerman (2004): 'The safety valve and climate policy', Energy Policy, 32 (4) 2004: 481-491
+
+Kruger, J and C. Egenhofer (2005): 'Confidence through compliance in emissions trading markets', Paper prepared for the International Network for Environmental Compliance and Enforcement (INECE) workshop, November 15-18 2005, Washington, DC: INECE.
+
+%%page 346%%
+
+Lecocq F. , J-C.Hourcade, and M.Haduong (1998): 'Decision-making under uncertainty and inertia constraints: implications of the when flexibility', Energy Economics, 20 (1998): 539-555
+
+McKinsey and Ecofys (2005): 'Review of the EU Emissions Trading Scheme:survey highlights', DG Environment, Brussels: European Commission.
+
+Neuhoff, K., K. Keats, and M. Sato (2006): 'Allocation, incentives and distortions: the impact of the EU ETS emissions allowance allocations to the electricity sector', Climate Policy 6 (2006): 71-89
+
+Newell, R., W. Pizer, and J. Zhang, (2005): 'Managing permit markets to stabilize prices', Environmental and Resource Economics, 31: 133-157
+
+Pizer, W.A (2002): 'Combining price and quantity controls to mitigate global climate change', Journal of Public Economics, 85: 409- 534.
+
+Pizer, W.A (2005): 'Climate policy design under uncertainty', Washington, DC: Resources for the Future,
+
+Quirion, P., (2003): 'Allocation of CO2 allowances and competitiveness: A case study on the European iron and steel industry', mimeo
+
+Hepburn, C., Quah, J., & Ritz, R. (forthcoming 2006): 'Emissions trading and profit neutral grandfathering', Oxford University, Economics Department, Discussion Paper, Oxford: Oxford University.
+
+Sausen, R., I. Isaksen, V. Grewe et al. (2005): 'Aviation radiative forcing in 2000: an update on IPCC (1999)', Meteorologische Zeitschrift, 14(4): 555-561
+
+Schleich, J. and R. Betz (2005): 'Incentives for Energy Efficiency and Innovation in the European Emissions Trading System', Stockholm: European Council for an Energy Efficient Economy.
+
+Sijm, J., K. Neuhoff, Y. Chen (2006): 'CO2 cost pass-through and windfall profits in the power sector', Climate Policy 6 (2006): 49–72
+
+Smale, R., M. Hartley, C. Hepburn (2006) : 'The impact of CO2 emissions trading on firm profits and market prices', Climate Policy 6 (2006): 31-48
+
+Taiyab, N., (2006): 'Exploring the market for voluntary carbon offsets', Markets for Environmental Services Series, Number 8, London: IIED.
+
+Tietenberg, T. (1998): 'Tradable Permits and the Control of Air Pollution in the United States' Colby College, Department of Economics, Working Paper.
+
+UK Business Council for Sustainable Energy and The Climate Group (2006): 'Business views on International Climate and Energy Policy, April 2006, London: UKBCSE.
+
+Vollebergh, H. De Vries & Koutstaal, P., (1997): 'Hybrid carbon incentive mechanisms and political acceptability', Environmental and Resource Economics, 9:43-63
+
+World Business Council for Sustainable Development (2004): 'Mobility 2030: Meeting the Challenges to Sustainability', Geneva: WBCSD.
+
+World Resources Institute (2005): 'Navigating the Numbers', Washington DC: WRI.
+
+World Resources Institute (2006): Climate Indicators Tool (CAIT) on-line database, available from the World Resources Insititute: http://cait.wri.org
+
+%%page 347%%
+
+### 16 Accelerating Technological Innovation
+
+Key Messages
+
+Effective action on the scale required to tackle climate change requires a widespread shift to new or improved technology in key sectors such as power generation, transport and energy use. Technological progress can also help reduce emissions from agriculture and other sources and improve adaptation capacity.
+
+The private sector plays the major role in R&D and technology diffusion. But closer collaboration between government and industry will further stimulate the development of a broad portfolio of low carbon technologies and reduce costs. Co-operation can also help overcome longer-term problems, such as the need for energy storage systems, for both stationary applications and transport, to enable the market shares of low-carbon supply technologies to be increased substantially.
+
+Carbon pricing alone will not be sufficient to reduce emissions on the scale and pace required as:
+
+- Future pricing policies of governments and international agreements should be made as credible as possible but cannot be 100% credible.
+- The uncertainties and risks both of climate change, and the development and deployment of the technologies to address it, are of such scale and urgency that the economics of risk points to policies to support the development and use of a portfolio of low-carbon technology options.
+- The positive externalities of efforts to develop them will be appreciable, and the time periods and uncertainties are such that there can be major difficulties in financing through capital markets.
+
+Governments can help foster change in industry and the research community through a range of instruments:
+
+- Carbon pricing, through carbon taxes, tradable carbon permits, carbon contracts and/or implicitly through regulation will itself directly support the research for new ways to reduce emissions;
+- Raising the level of support for R&D and demonstration projects, both in public research institutions and the private sector;
+- Support for early stage commercialisation investments in some sectors.
+
+Such policies should be complemented by tackling institutional and other non-market barriers to the deployment of new technologies.
+
+These issues will vary across sectors with some, such as electricity generation and transport, requiring more attention than others.
+
+Governments are already using a combination of market-based incentives, regulations and standards to develop new technologies. These efforts should increase in the coming decades.
+
+Our modelling suggests that, in addition to a carbon price, deployment incentives for low-emission technologies should increase two to five times globally from current levels of around $33billion.
+
+Global public energy R&D funding should double, to around $20 billion, for the development of a diverse portfolio of technologies.
+
+#### 16.1 Introduction
+
+Stabilisation of greenhouse gases in the atmosphere will require the deployment of low-carbon and high-efficiency technologies on a large scale. A range of technologies is already available, but most have higher costs than existing fossil-fuel-based options. Others are yet to be developed. Bringing forward a range of technologies that are competitive enough, with a carbon price, for firms to adopt is an urgent priority.
+
+%%page 348%%
+
+In the absence of any other market failures, introducing a fully credible carbon price path for applying over the whole time horizon relevant for investment would theoretically be enough to encourage suitable technologies to develop. Profit-maximising firms would respond to the creation of the path of carbon prices by adjusting their research and development efforts in order to reap returns in the future. This chapter sets out why this is unlikely to be sufficient in practice, why other supporting measures will be required, and what form they could take.
+
+This chapter starts by examining the process of innovation and how it relates to the challenge of climate change mitigation, exploring how market failures may lead to innovation being under-delivered in the economy as a whole. Section 16.3 looks more closely at the drivers for technology development in key sectors related to climate change. It finds that clean energy technologies face particularly strong barriers – which, combined with the urgency of the challenge, supports the case for governments to set a strong technology policy framework that drives action by the private sector.
+
+Section 16.4 outlines the policy framework required to encourage climate related technologies. Section 16.5 discusses one element of this framework – policies to encourage research, development and demonstration. Such policies are often funded directly by government, but it is critical that they leverage in private sector expertise and funding.
+
+Investment in Research and Development (R&D) should be complemented by policies to create markets and drive deployment, which is discussed in Section 16.6. A wide range of policies already exist in this area; this section draws together evidence on what works best in delivering a response from business.
+
+A range of complementary policies, including patenting, regulatory measures and network issues are also important; these issues are examined in Section 16.7. Regulation is discussed in the context of mitigation more generally, and in particular in relation to energy efficiency in Chapter 17.
+
+Overall, an ambitious and sustained increase in the global scale of effort on technology development is required if technologies are to be delivered within the timescales required. The decline in global public and private sector R&D spending should be reversed. And deployment incentives will have to increase two to five-fold worldwide in order to support the scale of uptake required to drive cost reductions in technologies and, with the carbon price, make them competitive with existing fossil fuel options. In Chapter 24, we return to the issue of technological development, considering what forms of international co-operation can help to reduce the costs and accelerate the process of innovation.
+
+#### 16.2 The innovation process
+
+Innovation is crucial in reducing costs of technologies. A better understanding of this complex process is required to work out what policies may be required to encourage firms to deliver the low-emission technologies of the future.
+
+***Defining innovation***
+
+Innovation is the successful exploitation of new ideas[^1] . Freeman identified four types of innovation in relation to technological change[^2] :
+
+- Incremental innovations represent the continuous improvements of existing products through improved quality, design and performance, as has occurred with car engines;
+- Radical innovations are new inventions that lead to a significant departure from previous production methods, such as hybrid cars;
+- Changes in the technological systems occur at the system level when a cluster of radical innovations impact on several branches of the economy, as would take place in a shift to a low-emission economy;
+- Changes of techno-economic paradigm occur when technology change impacts on every other branch of the economy, the internet is an example.
+
+%%page 349%%
+
+Many of the incentives and barriers to progress for these different types of technological change are very different from each other.
+
+***Innovation is about much more than invention: it is a process over time***
+
+Joseph Schumpeter identified three stages of the innovation process: invention as the first practical demonstration of an idea; innovation as the first commercial application; and diffusion as the spreading of the technology or process throughout the market. The traditional representation of the diffusion process is by an S-shaped curve, in which the take-up of the new technology begins slowly, then 'takes off' and achieves a period of rapid diffusion, before gradually slowing down as saturation levels are reached. He proposed the idea of 'creative destruction' to describe the process of replacement of old firms and old products by innovative new firms and products.
+
+There is an opportunity for significant profits for firms as the new product takes off and this drives investment in the earlier stages. High profits, coupled with the risk of being left behind, can drive several other firms to invest through a competitive process of keeping up. As incumbent firms have an incentive to innovate in order to gain a competitive advantage, and recognising that innovation is typically a cumulative process that builds on existing progress, market competition can stimulate innovation[^3] . As competition increases, and more firms move closer to the existing technological frontier of incumbents, the expected future profits of the incumbents are diminished unless they innovate further. Such models imply a hump-shaped relationship between the degree of product market competition and innovation, as originally suggested by Schumpeter.
+
+An expanded version of this 'stages' model of innovation that broadens the invention stage into basic R&D, applied R&D and demonstration is shown in the subsequent figure. In this chapter the term R&D will be used but this will also cover the demonstration stage[^4] . The commercialisation and market accumulation phases represent early deployment in the market place, where high initial cost or other factors may mean quite low levels of uptake.
+
+Figure 16.1 The main steps in the innovation chain[^5]
+
+This model is useful for characterising stages of development, but it fails to capture many complexities of the innovation process, so it should be recognised as a useful simplification. A more detailed characterisation of innovation in each market can be applied to particular markets using a systems approach[^6] . The transition between the stages is not automatic; many products fail at each stage of development. There are also further linkages between stages, with further progress in basic and applied R&D affecting products already in the market and learning also having an impact on R&D. ***Experience curves can lead to lock-in to existing technologies***
+
+%%page 350%%
+
+As outlined in Section 9.7 dynamic increasing returns, such as economies of scale and learning effects, can arise during production and lead to costs falling as production increases. These vary by sector with some, such as pharmaceuticals, experiencing minimal cost reductions while others fall by several orders of magnitude. These benefits lead to experience curves as shown in Box 9.4.
+
+Experience curves illustrate that new technologies may not become cost effective until significant investment has been made and experience developed. Significant learning effects may reduce the incentive to invest in innovation, if companies wait until the innovator has already proven a market for a new cost effective technology. This is an industry version of a collective action problem with its associated free-rider issues.
+
+Figure 16.2 Illustrative experience curve for a new technology
+
+Dynamic increasing returns can also lead to path dependency and 'lock-in' of established technologies. In this diagram, the market dominant technology (turquoise line) has already been through a process of learning. The red line represents a new technology, which has the potential to compete. As production increases the cost of the new technology falls because of dynamic increasing returns, shown by the red line above. In this case, the price of the new technology does ultimately fall below the level of the dominant technology. Some technological progress can also be expected for incumbent dominant technologies but existing deployment will have realised much of the learning[^7] .
+
+The learning cost of the new technology is how much more the new technology costs than the existing technology; shown by the dotted area where the red line is above the blue. During this period, the incumbent technology remains cheaper, and the company either has to sell at a loss, or find consumers willing to pay a premium price for its new product. So, for products such as new consumer electronics, niche markets of "early adopters" exist. These consumers are willing to pay the higher price as they place a high value on the function or image of the product.
+
+The learning cost must be borne upfront; the benefits are uncertain, because of uncertainty about future product prices and technological development, and come only after point A when, in this case, the technology becomes cheaper than the old alternative. If, as is the case in some sectors, the time before the technology becomes competitive might span decades and the learning costs are high, private sector firms and capital markets may be unwilling to take the risk and the technology will not be developed, especially if there is a potential free-rider problem.
+
+%%page 351%%
+
+***Innovation produces benefits above and beyond those enjoyed by the individual firm ('knowledge spillovers'); this means that it will be undersupplied***
+
+Information is a public good. Once new information has been created, it is virtually costless to pass on. This means that an individual company may be unable to capture the full economic benefit of its investment in innovation. These knowledge externalities (or spillovers) from technological development will tend to limit innovation.
+
+There are two types of policy response to spillovers. The first is the enforcement of private property rights through patenting and other forms of protection for the innovator. This is likely to be more useful for individual products than for breakthroughs in processes or know-how, or in basic science. The disadvantage of rigid patent protection is that it may slow the process of innovation, by preventing competing firms from building on each others' progress. Designing intellectual property systems becomes especially difficult in fields where the research process is cumulative, as in information technology[^8] . Innovation often builds on a number of existing ideas. Strong protection for the innovators of first generation products can easily be counterproductive if it limits access to necessary knowledge or research tools for follow-on innovators, or allows patenting to be used as a strategic barrier to potential competitors. Transaction costs, the equity implications of giving firms monopoly rights (and profits) and further barriers such as regulation may prevent the use of property rights as the sole incentive to innovate. Also much of value may be in tacit knowledge ('know-how' and 'gardeners' craft') rather than patentable ideas and techniques.
+
+Another broad category of support is direct government funding of innovation, particularly at the level of basic science. This can take many forms, such as funding university research, tax breaks and ensuring a supply of trained scientists.
+
+Significant cross-border spillovers and a globalised market for most technologies offer an incentive for countries to free-ride on others who incur the learning cost and then simply import the technology at a later date[^9] . The basic scientific and technical knowledge created by a public R&D programme in one country can spillover to other countries with the capacity to utilise this progress. While some of the leaning by doing will be captured in local skills and within local firms, this may not be enough to justify the learning costs incurred nationally.
+
+International patent arrangements, such as the Trade Related International Property Rights agreement (TRIPs[^10] ), provides some protection, but intellectual property rights can be hard to enforce internationally. Knowledge is cheap to copy if not embodied in human capital, physical capital or networks, so R&D spillovers are potentially large. A country that introduces a deployment support mechanism and successfully reduces the cost of that technology also delivers benefits to other countries. Intellectual property right issues are discussed in more detail in Section 23.4.
+
+International co-operation can also help to address this by supporting formal or informal reciprocity between RD&D programmes. This is explored in Chapter 24.
+
+***Where there are long-term social returns from innovation, it may also be undersupplied***
+
+Government intervention is justified when there is a departure between social and private cost, for example, when private firms do not consider an environmental externality in their investment decisions, or when the benefits are very long-term (as with climate change mitigation) and outside the planning horizons of private investments. Private firms focus on private costs and benefits and private discount rates to satisfy their shareholders. But this can lead to a greater emphasis on short-term profit and reduce the emphasis on innovations and other low-carbon investments that would lead to long-term environmental improvements.
+
+%%page 352%%
+
+#### 16.3 Innovation for low-emission technologies
+
+The factors described above are common to innovation in any sector of the economy. The key question is whether there are reasons to expect the barriers to innovation in low-emission technologies to be higher than other sectors, justifying more active policies. This section discusses factors specific to environmental innovation and in particular two key climate change sectors – power generation and transport.
+
+***Lack of certainty over the future pricing of the carbon externality will reduce the incentive to innovate***
+
+Environmental innovation can be defined[^11] as innovation that occurs in environmental technologies or processes that either control pollutant emissions or alter the production processes to reduce or prevent emissions. These technologies are distinguished by their vital role in maintaining the 'public good' of a clean environment. Failure to take account of an environmental externality ensures that there will be under-provision or slower innovation[^12] .
+
+In the case of climate change, a robust expectation of a carbon price in the long term is required to encourage investments in developing low-carbon technologies. As the preceding two chapters have discussed, carbon pricing is only in its infancy, and even where implemented, uncertainties remain over the durability of the signal over the long term. The next chapter outlines instances in which regulation may be an appropriate response to lack of certainty. This means there will tend to be under-investment in low-carbon technologies. The urgency of the problem (as outlined in Chapter 13) means that technology development may not be able to wait for robust global carbon pricing. Without appropriate incentives private firms and capital markets are less likely to invest in developing low-emission technologies.
+
+***There are additional market failures and barriers to innovation in the power generation sector***
+
+Innovation in the power generation sector is key to decarbonising the global economy. As shown in Chapter 10, the power sector will need to be at least 60% decarbonised by 2050[^13] to keep on track for greenhouse gas stabilisation trajectories at or below 550ppm CO2e.
+
+For reasons that this section will explore the sector is characterised by low levels of research and development expenditure by firms. In the USA, the R&D intensity (R&D as a share of total turnover) of the power sector was 0.5% compared to 3.3% in the car industry, 8% in the electronics industry and 15% in the pharmaceutical sector[^14] . OECD figures for 2002 found an R&D intensity of 0.33% compared to 2.65% for the overall manufacturing sector[^15] . Unlike in many other sectors, public R&D represents a significant proportion, around two thirds of the total R&D investment[^16] .
+
+The available data[^17] on energy R&D expenditure show a downward trend in both the public and private sector, despite the increased prominence of energy security and climate change. Public support for energy R&D has declined despite a rising trend in total public R&D. In the early 1980s, energy R&D budgets were, in real terms, twice as high as now, largely in response to the oil crises of the 1970s.
+
+%%page 353%%
+
+Figure 16.3 Public energy R&D investments as a share of GDP[^18]
+
+Figure 16.4 Public R&D and public energy R&D investments[^19]
+
+Private energy R&D has followed a similar trend and remains below the level of public R&D. The declines in public and private R&D have been attributed to three factors. First, energy R&D budgets had been expanded greatly in the 1970s in response to the oil price shocks in the period , and there was a search for alternatives to imported oil. With the oil price collapse in the 1980s and the generally low energy prices in the 1990s, concerns about energy security diminished, and were mirrored in a relaxation of the R&D effort. Recent rises in oil prices have not, yet, led to a significant increase in energy R&D. Second, following the liberalisation of energy markets in the 1990s, competitive forces shifted the focus from long-term investments such as R&D towards the utilisation of existing plant and deploying well-developed technologies and resources - particularly of natural gas for power and heat, themselves the product of R&D and investment over the previous three decades. Third, there were huge declines in R&D expenditures on nuclear power following the experiences of many countries with cost over-runs, construction delays, and the growth of public concerns about reactor safety, nuclear proliferation and nuclear waste disposal. In 1974, electricity from nuclear fission and fusion accounted for 79% of the public energy R&D budget; it still accounts for 40%. Apart from nuclear technologies, energy R&D budgets decreased across the board (Figure 16.8).
+
+%%page 354%%
+
+Figure 16.5 Trends in private sector energy R&D[^20]
+
+***The sector's characteristics explain the low levels of R&D***
+
+There are a number of ways to interpret these statistics, but they suggest that private returns to R&D are relatively low in the sector. There are four distinct factors which help explain this.
+
+The first factor is the nature of the learning process. Evidence from historical development of energy-related technologies shows that the learning process is particularly important for new power generation technologies, and that it typically takes several decades before they become commercially viable. Box 9.4 shows historical learning curves for energy technologies.
+
+If early-stage technologies could be sold at a high price, companies could recover this learning cost. In some markets, such as IT, there are a significant number of 'early adopters' willing to pay a high price for a new product. These 'niche markets' allow innovating companies to sell new and higher-cost products at an early profit. Later, when economies of scale and learning bring down the cost, the product can be sold to the mass market. Mobile phones are a classic example. The earliest phones cost significantly more but there were people willing to pay this price.
+
+In the absence of niche markets the innovating firm is forced to pay the learning cost, as a new product can be sold only at a price that is competitive with the incumbent. This may mean that firms would initially have to sell their new product at a loss, in the hope that as they scale up, costs will reduce and they can make a profit. If this loss-making period lasts too long, the firm will not survive.
+
+In the power sector, niche markets are very limited in the absence of government policy, because of the homogeneous nature of the end-product (electricity). Only a very small number of consumers have proved willing to pay extra for carbon-free electricity. As cost reductions typically take several decades this leaves a significant financing gap which capital markets are unable to fill. Compounding this, the power generation sector also operates in a highly regulated environment and tends to be risk averse and wary of taking on technologies that may prove costlier or less reliable. Together, these factors mean that energy generation technologies can fall into a 'valley of death', where despite a concept being shown to work and have long-term profit potential they fail to find a market.
+
+%%page 355%%
+
+For energy technologies, R&D is only the beginning of the story. There is continual feedback between learning from experience in the market, and further R&D activity. There is a dependence on tacit knowledge and a series of incremental innovations in which spillovers play an important role and reduce the potential benefits of intellectual property rights. This is in strong contrast with the pharmaceutical sector. For a new drug, the major expense is R&D. Once a drug has been invented and proven, comparatively little further research is required and limited economies of scale and learning effects can be expected.
+
+The second factor is infrastructure. National grids are usually tailored towards the operation of centralised power plants and thus favour their performance. Technologies that do not easily fit into these networks may struggle to enter the market, even if the technology itself is commercially viable. This applies to distributed generation as most grids are not suited to receive electricity from many small sources. Large-scale renewables may also encounter problems if they are sited in areas far from existing grids. Carbon capture and storage also faces a network issue, though a different one; the transport of large quantities of CO2, which will require major new pipeline infrastructures, with significant costs.
+
+The third factor is the presence of significant existing market distortions. In a liberalised energy market, investors, operators and consumers should face the full cost of their decisions. But this is not the case in many economies or energy sectors. Many policies distort the market in favour of existing fossil fuel technologies[^21] , despite the greenhouse gas and other externalities. Direct and indirect subsidies are the most obvious. As discussed in Section 12.5 the estimated subsidy for fossil fuels is between $20-30 billion for OECD countries in 2002 and $150-250 billion per year globally[^22] . The IEA estimate that world energy subsidies were $250 billion in 2005 of which subsidies to oil products amounted to $90 billion[^23] . Such subsidies compound any failure to internalise the environmental externality of greenhouse gases, and affect the incentive to innovate by reducing the expectations of innovators that their products will be able to compete with existing choices.
+
+Finally, the nature of competition within the market may not be conducive to innovation. A limited number of firms, sometimes only one, generally dominate electricity markets, while electricity distribution is a 'natural' monopoly. Both factors will generally lead to low levels of competition, which, as outlined in Section 16.1, will generally lead to less innovation as there is less pressure to stay ahead of competitors. The market is also usually regulated by the government, which reduces the incentive to invest in innovation if there is a risk that the regulator may prevent firms from reaping the full benefits of successful innovative investments.
+
+***These barriers will also affect the deployment of existing technologies***
+
+The nature of competition, existing infrastructure and existing distortions affect not only the process of developing new technologies; these sector-specific factors can also reduce the effectiveness of policies to internalise the carbon externality. They inhibit the power of the market to encourage a shift to low-carbon technologies, even when they are already cost-effective and especially if they are not. The generation sector usually favours more traditional (high-carbon) energy systems because of human, technical and institutional capacity. Historically driven by economies of scale, the electricity system becomes easily locked into a technological trajectory that demonstrates momentum and is thereby resistant to the technical change that will be necessary in a shift to a low-carbon economy[^24] .
+
+%%page 356%%
+
+***Despite advances in the transport sector, radical change may not be delivered by the markets***
+
+Transport currently represents 14% of global emissions, and has been the fastest growing source of emissions because of continued growth of car transport and rapid expansion of air transport. Innovation has been dominated by incremental improvements to existing technologies, which depend on oil. These, however, have been more than offset by the growth in demand and shift towards more powerful and heavier vehicles. The increase in weight is partly due to increased size and partly to additional safety measures. The improvements in the internal combustion engine from a century of learning by doing, the efficiency of fossil fuel as an energy source and the existence of a petrol distribution network lead to some 'lock-in' to existing technologies. Behavioural inertia compounds this 'lock-in' as consumers are also accustomed to existing technologies.
+
+Certain features of road transport suggest further innovative activity could be delivered through market forces. Although there is no explicit carbon price for road fuel, high and stable fuel taxes[^25] in most developed countries provide an incentive for the development of more efficient vehicles. Niche markets also exist which help innovative products in transport markets to attract a premium. These factors together help to explain how hybrid vehicles have been developed and are now starting to penetrate markets, with only very limited government support: some consumers are content to pay a premium for what can be a cleaner and more fuel-efficient product. There is also a small number of large global firms in this sector, each of which have the resources to make significant innovation investments and progress. They can also be less concerned about international spillovers as they operate in several markets.
+
+Incremental energy efficiency improvements are expected to continue in the transport sector. These will be stimulated both by fuel savings and, as they have been in the past, by government regulation. Both the hybrid car, and later, the fuel cell vehicle, are capable of doubling the fuel efficiency of road vehicles, whilst behavioural changes - perhaps encouraged, for example, by congestion pricing or intelligent infrastructure[^26] - could lead to further improvements.
+
+Markets alone, however, may struggle to deliver more radical changes to transport technologies such as plug-in hybrids or other electrical vehicles. Alternative fuels (such as biofuel blends beyond 5-10%, electricity or hydrogen) may require new networks, the cost of which is unlikely to be met without incentives provided by public policy. The environmental benefit of alternative transport fuels will depend on how they are produced. For example, the benefit of electric and hydrogen cars is limited if the electricity and hydrogen is produced from high emission sources. Obstacles to the commercial deployment of hydrogen cell vehicles, such as the cost of hydrogen vehicles and low-carbon hydrogen production, and the requirement to develop hydrogen storage further, ensure it is unlikely that such vehicles will be widely available commercially for at least another 15 to 20 years.
+
+In Brazil policies to encourage biofuels over the past 30 years through regulation, duty incentives and production subsidies have led to biofuels now accounting for 13% of total road fuel consumption, compared with a 3% worldwide average in 2004. Other countries are now introducing policies to increase the level of biofuels in their fuel mix. Box 16.1 shows how some governments are already acting to create conditions for hydrogen technologies to be used. Making hydrogen fuel cell cars commercial is likely to require further breakthroughs in fundamental science, which may be too large to be delivered by a single company, and are likely to be subject to knowledge spillovers.
+
+The development of alternative technologies in the road transport sector will be important for reducing emissions from other transport sectors such as the aviation, rail and maritime sectors. The local nature of bus usage allows the use of a centralised fuel source and this has led to early demonstration use of hydrogen in buses (see Box 16.1). In other sectors, such as aviation where weight and safety are prominent concerns, early commercial development is unlikely to take place and will be dependent on development in other areas first. The capital stock in the aviation, maritime and rail sectors (ships, planes and trains) lasts several times longer than road vehicles so this may result in a slower rate of take-up of alternative technologies. The emissions associated with rail transport can be reduced through decarbonising the fuel mix through biofuels or low carbon electricity generation. In the aviation sector improved air traffic management and reduced weight, through the use of alternative and advanced materials, can add to continued improvements in the efficiency of existing technologies.
+
+%%page 357%%
+
+Box 16.1 Hydrogen for transport
+
+Hydrogen could potentially offer complete diversification away from oil and provide very low carbon transport. Hydrogen would be best suited to road vehicles. The main ways of producing hydrogen are by electrolysis of water, or by reforming hydrocarbons. Once produced, hydrogen can be stored as a liquid, a compressed gas, or chemically (bonded within the chemical structure of advanced materials). Hydrogen could release its energy content for use in powering road vehicles by combustion in a hydrogen internal combustion engine or a fuel cell. Fuel cells convert hydrogen and oxygen into water in a process that generates electricity. They are almost silent in operation, highly efficient, and produce only water as a by-product. Hydrogen can produce as little as 5% of the emissions of conventional fuel if produced by low-emission technologies.[^27]
+
+There are several hydrogen projects around the world including:
+
+- Norway: plans for a 580km hydrogen corridor between Oslo and Stavanger in a joint project between the private sector, local government and non-government organisations. The first hydrogen station opened in August 2006
+- Denmark and Sweden: interested in extending the Norwegian hydrogen corridor
+- Iceland: home to the first hydrogen fuelling station in April 2003 and it is proposed that Iceland could be a hydrogen economy by 2030
+- EU: trial of hydrogen buses
+- China: hydrogen buses to be used at the Beijing Olympics in 2008
+- California: plans to introduce hydrogen in 21 interstate highway filling stations
+
+***Innovation will also play a role by addressing emissions in other sectors, reducing demand and enabling adaptation to climate change.***
+
+Innovation has enabled energy efficiency savings, for example, through compact fluorescent and diode based lights and automated control systems. Furthermore, innovation is likely to continue to increase the potential for energy efficiency savings. Energy efficiency innovation has often been in the form of incremental improvements but there is also a role for more radical progress that may require support. Some markets (such as the cement industry in some developing countries including China and building refurbishment in most countries) are made up of small local firms not large multinationals, which are less likely to undertake research since their resources and potential rewards are smaller. In addition, R&D, for example, in building technologies and urban planning could have a profound impact on the emissions attributed to buildings and increase climate resilience. Chapter 17 discusses energy efficiency in more detail.
+
+%%page 358%%
+
+Box 16.2 The scope for innovation to reduce emissions from agriculture
+
+Research into fertilisers and crop varieties associated with lower GHG emissions could help fight climate change[^28] . In some instances it may be possible to develop crops that both reduce emissions and have higher yields in a world with more climate change (see Box 26.3).
+
+Another important research area in agriculture will be how to enhance carbon storage in soils, complementing the need to understand emissions from soils (see Section 25.4). The economic potential for enhanced storage is estimated at 1 GtCO2e in 2020, but the technical potential is much greater (see Section 9.6).
+
+Research into sustainable farming practices (such as agroforestry) suitable to local conditions could lead to a reduction in GHG emissions and may also improve crop yields. It could reduce GHG emissions directly by reducing the need to use fertilisers, and indirectly by reducing the emissions from industry and transport sectors to produce the fertiliser[^29] .
+
+Research into livestock feeds, breeds and feeding practices could also help reduce methane emissions from livestock.
+
+In addition to using biomass energy (see Box 9.5), agriculture, and associated manufacturing industries, have the potential to displace fossil-based inputs for sectors such as chemicals, pharmaceuticals, manufacturing and buildings using a wide range of products made from renewable sources.
+
+Direct emissions from industrial sectors such as cement, chemical and iron and steel can also benefit from further innovation, whether it is in these sectors or in other lower-carbon products that can be substitutes. Innovation in the agricultural sector, discussed in a mitigation context in Box 16.2 above, can also help improve the capacity to adapt to the impacts of climate change. New crop varieties can improve yield resilience to climate change[^30] . The Consultative Group on International Agricultural Research (CGIAR) will have a role to play in responding to the climate challenge through innovation in the agricultural sector (see Box 24.4). The development and dissemination of other adaptation technologies is examined in Chapter 19.
+
+#### 16.4 Policy implications for climate change technologies
+
+***Policy should be aimed at bringing a portfolio of low-emission technology options to commercial viability***
+
+Innovation is, by its nature, unpredictable. Some technologies will succeed and others will fail. The uncertainty and risks inherent in developing low-emission technologies are ideally suited to a portfolio approach. Experience from other areas of investment decisions under uncertainty[^31] clearly suggests that the most effective response to the uncertainty of returns is to develop a portfolio. While markets will tend to deliver the least-cost short-term option, it is possible they may ignore technologies that could ultimately deliver huge cost savings in the long term.
+
+As Part III set out, a portfolio of technologies will also be needed to reduce emissions in key sectors, because of the constraints acting on individual technologies. These constraints and energy security issues mean that a portfolio will be required to achieve reductions at the scale required. There is an option value to developing alternatives as it enables greater and potentially less costly abatement in the future. The introduction of new options makes the marginal abatement cost curve (see Section 9.3) more elastic. Early development of economically viable alternatives also avoids the problem of 'locking in' high-carbon capital stock for decades, which would also increase future marginal abatement costs. Policies to encourage low-emission technologies can be seen as a hedge against the risk of high abatement costs.
+
+%%page 359%%
+
+There are costs associated with developing a portfolio. Developing options involves paying the learning cost for more technologies. But policymakers should also bear in mind links to other policy objectives. A greater diversity in sources of energy, for instance, will tend to provide benefits to security of supply, as well as climate change. There is thus a type of externality from creating a new option in terms of risk reduction as well as potential cost reduction. Firms by themselves do not have the same perspective and weight on these criteria as broader society. The next section looks at how the development of a suitable portfolio can be encouraged
+
+***Developing a portfolio requires a combination of government interventions including carbon pricing, R&D support and, in some sectors, technology-specific early stage deployment support. These should be complemented by policies to address non-market barriers.***
+
+Alongside carbon pricing and the further factors identified in Chapter 17, supporting the development of low-emission technologies can be seen as an important element of climate policy. The further from market the product, given some reasonable probability of success, the greater the prima facie case for policy intervention. In the area of pure research, spillovers can be very significant and direct funding by government support is often warranted. Closer to the market, the required financing flows are larger, and the private returns to individual companies are potentially greater. The government's role here is to provide a credible and clear policy framework to drive private-sector investment.
+
+The area in the innovation process between pure research and technologies ready for commercialisation is more complex. Different sectors may justify different types of intervention. In the electricity market, in particular, deployment policies are likely to be required to bring technologies up to scale. How this support is delivered is important and raises issues about how technology neutral policy should be, which will be discussed later in this chapter in Section 16.6.
+
+Figure 16.6 Interaction between carbon pricing and deployment support[^32]
+
+This diagram summarises the links between two of the elements of climate policy. The introduction of the carbon price reduces the learning cost since the new technology, for example a renewable, in this illustrative figure becomes cost effective at point B rather than point A, reducing the size of the learning cost represented by the dotted area. Earlier in the learning curve, deployment support is required to reduce the costs of the technology to the point where the market will adopt the technology. It is the earlier stages of innovation, research, development and demonstration which develop the technology to the point that deployment can begin.
+
+%%page 360%%
+
+Across the whole process, non-market barriers need to be identified and, where appropriate, overcome. Without policy incentives when required, support will be unbalanced, and bottlenecks are likely to appear in the innovation process[^33] . This would reduce the cost effectiveness at each other stage of support, by increasing the cost of the technology and delaying or preventing its adoption.
+
+Uncertainties, both with respect to climate change and technology development, argue for investment in technology development. Uncertainties in irreversible investments argue for postponing policies until the uncertainties are reduced. However, uncertainties, especially with respect to technology development, will not be reduced exogenously with the 'passage of time' but endogenously through investment and the feedback and experience it provides.
+
+***Most of the development and deployment of new technologies will be undertaken by the private sector; the role of governments is to provide a stable framework of incentives***
+
+Deployment support is generally funded through passing on increased prices to the consumers. But it should still be viewed, alongside public R&D support, as a subsidy and should thus be subject to close scrutiny and, if possible, time limited. The private sector will be the main driver for these new technologies. Deployment support provides a market to encourage firms to invest and relies on market competition to provide the stimulus for cost reductions. Both public R&D and deployment support are expected to have a positive impact on private R&D. In some sectors the benefits from innovation can be captured by firms without direct support for deployment, other than bringing down institutional barriers and via setting standards. This is particularly so in sectors that rely on incremental innovations to improve efficiency rather than a step change in technology, since the cost gap is unlikely to be so large. In these sectors firms may be comfortable to invest in the learning cost of developing low-emission technologies.
+
+Firms with products that are associated with greenhouse gas emissions are increasingly seeking to diversify in order to ensure their long-run profitability. Oil firms are increasingly investing in low-emission energy sources. General Electric's Ecomagination initiative has seen the sale of energy efficient and environmentally advanced products and services rise to $10.1 billion in 2005, up from $6.2 billion in 2004 - with orders nearly doubling to $17 billion. GE's R&D in cleaner technologies was $700m in 2005 and expected to rise to $1.5 billion per annum by 2010.[^34] Indeed in a number of countries the private sector is running ahead of government policy and taking a view on where such policy is likely to go in the future which is in advance of what the current government is doing.
+
+***R&D and deployment support have been effective in encouraging the development of generation technologies in the past***
+
+Determining the benefits of both R&D and deployment is not easy. Studies have often successfully identified a benefit from R&D but without sufficient accuracy to determine what the appropriate level of R&D should be. Estimating the appropriate level is made more difficult by the broad range of activities that can be classed as R&D. Ultimately the benefits of developing technologies will depend on the amount of abatement that is achieved (and thus the avoided impacts) and the long-term marginal costs of abating across all the other sectors within the economy (linked to the carbon price), both of which are uncertain.
+
+However, some evidence provides indications of the effectiveness of policy in promoting the development of technologies:
+
+- Estimates of R&D benefits. Private returns from economy-wide R&D have been estimated at 20-30% whilst the estimated social rate of return was around 50%[^35] .
+
+%%page 361%%
+
+While it is private-sector not public-sector R&D that has been positively linked with growth, the public-sector R&D can play a vital role in stimulating private spending up to the potential point of crowding out[^36] . It also plays an important role in preserving the 'public good' nature of major scientific advances. Examples of valuable breakthroughs stimulated by public R&D must be weighed up alongside examples of wasteful projects.
+
+- Historical evidence. Examining the history of existing energy technologies and the prominent role that public R&D and initial deployment have played in their development illustrates the potential effectiveness of technology policy. Extensive and prolonged public support and private markets were both instrumental in the development of all generating technologies. Military R&D, the US space programme and learning from other markets have also been crucial to the process of innovation in the energy sector. This highlights the spillovers that occur between sectors and the need to avoid too narrow an R&D focus. This experience has been mirrored in other sectors such as civil aviation and digital technologies where the source has also been military. Perhaps this is related to the fact that US public defence R&D was eight times greater than that for energy R&D in 2006 (US Federal Budget Authority). Historical R&D and deployment support has delivered the technological choices of the present with many R&D investments that may have seemed wasteful in the 1980s, such as investments in renewable energy and synfuels, now bearing fruit. The technological choices of the coming decades are likely to develop from current R&D.
+
+Box 16.3 Development of existing technology options[^37]
+
+Nuclear: From the early stages of the Cold War, the Atomic Energy Commission in the US, created primarily to oversee the development of nuclear weapons, also promoted civilian nuclear power. Alic et al[^38] argue that by exploiting the 'peaceful atom' Washington hoped to demonstrate US technological prowess and perhaps regain moral high ground after the atomic devastation of 1945. The focus on weapons left the non-defence R&D disorganised and starved of funds and failed to address the practical issues and uncertainties of commercial reactor design. The government's monopoly of nuclear information, necessary to prevent the spreading of sensitive information, meant state R&D was crucial to development.
+
+Gas: The basic R&D for gas turbine technology was carried out for military jet engines during World War II. Since then developments in material sciences and turbine design have been crucial to the technological innovation that has made gas turbines the most popular technology for electricity generation in recent years. Cooling technology from the drilling industry and space exploration played an important role. In the 1980s improvements came from untapped innovations in jet engine technology from decades of experience in civil aviation. Competitive costs have also been helped by low capital costs, reliability, modularity and lower pollution levels.
+
+Wind: The first electric windmills were developed in 1888 and reliable wind energy has been available since the 1920s. Stand-alone turbines were popular in the Midwestern USA prior to centrally generated power in the 1940s. Little progress was made until the oil shocks led to further investment and deployment, particularly in Denmark (where a 30% capital tax break (1979-1989) mandated electricity prices (85% of retail) and a 10% target in 1981 led to considerable deployment) and California where public support led to extensive deployment in the 1980s. Recent renewable support programmes and technological progress have encouraged an average annual growth rate of over 28 % over the past ten years[^39] .
+
+Photovoltaics: The first PV cells were designed for the space programme in the late 1950s. They were very expensive and converted less than 2% of the solar energy to electricity. Four decades of steady development, in the early phases stimulated by the space programme, have seen efficiency rise to nearly 25% of the solar energy in laboratories, and costs of commercial cells have fallen by orders of magnitude. The need for storage or ancillary power sources have held the technology back but there have been some niche markets in remote locations and, opportunities to reduce peak demand in locations where solar peaks and demand peaks coincide.
+
+%%page 362%%
+
+Public support has been important. A study by Norberg-Bohm[^40] found that, of 20 key innovations in the past 30 years, only one of the 14 they could source was funded entirely by the private sector and nine were totally public. Recent deployment support led the PV market to grow by 34% in 2005. Nemet[^41] explored in more detail how the innovation process occurred. He found that, of recent cost reductions, 43% were due to economies of scale, 30% to efficiency gains from R&D and learning-by-doing, 12% due to reduced silicon costs (a spillover from the IT industry).
+
+- Learning curve analysis. Learning curves, as shown in Box 9.4 and in other studies[^42] , show that increased deployment is linked with cost reductions suggesting that further deployment will reduce the cost of low-emission technologies. There is a question of causation since cost reductions may lead to greater deployment; so attempts to force the reverse may lead to disappointing learning rates. The data shows technologies starting from different points and achieving very different learning rates. The increasing returns from scale shown in these curves can be used to justify deployment support, but the potential of the technologies must be evaluated and compared with the costs of development.
+
+#### 16.5 Research, development and demonstration policies
+
+***Government has an important role in directly funding skills and basic knowledge creation for science and technology***
+
+At the pure science end of the spectrum, the knowledge created has less direct commercial application and exhibits the characteristics of a 'public good'. At the applied end of R&D, there is likely to be a greater emphasis on private research, though there still may be a role for some public funding.
+
+Governments also fund the education and training of scientists and engineers. Modelling for this review suggests that the output of low-carbon technologies in the energy sector will need to expand nearly 20-fold over the next 40-50 years to stabilise emissions, requiring new generations of engineers and scientists to work on energy-technology development and use. The prominent role of the challenge of climate change may act as an inspiration to a new generation of scientists and spur a wider interest in science.
+
+R&D funding should avoid volatility to enable the research base to thrive. Funding cycles in some countries have exhibited 'roller-coaster' variations between years, which have made it harder for laboratories to attract, develop, and maintain human capital. Such volatility can also reduce investors' confidence in the likely returns of private R&D. Kammen[^43] found levels changed by more than 30% in half the observed years. Similarly it may be difficult to expand research capacity very quickly as the skilled researchers may not be available. Governments should seek to avoid such variability, especially in response to short-term fuel price fluctuations. The allocation of public R&D funds should continue to rely on the valuable peer review process and this should include post-project evaluations and review to maximise the learning from the research. Research with clear objectives but without over-commitment to narrow specifications or performance criteria can eliminate wasteful expenditures[^44] and allow researchers more time to apply to their research interests and be creative.
+
+Governments should seek to ensure that, in broad terms, the priorities of publicly funded institutions reflect those of society. The expertise of the researchers creates an information asymmetry with policymakers facing a challenge in selecting suitable projects. Arms-length organisations and expert panels such as research-funding bodies may be best placed to direct funding to individual projects.
+
+%%page 363%%
+
+Three types of funding are required for university research funding.
+
+- Basic research time and resources for academic staff to pursue research that interests them.
+
+- Research programme funding (such as research councils) that directs funding towards important areas.
+- Funding to encourage the transfer of knowledge outside the institution. The dissemination of information encourages progress to be applied and built on by other researchers and industry and ensures that it not be unnecessarily duplicated elsewhere.
+
+Research should cover a broad base and not just focus on what are currently considered key technologies, including basic science and some funding to research the more innovative ideas[^45] to address climate change. Historical examples of technological progress when the research was not directed towards specific economic applications (such as developments in nanotechnology, lasers and the transistor) highlight the importance of open-ended problem specification. There must be an appropriate balance between basic science and applied research projects[^46] . Increases in energy R&D (as discussed in the final section of this chapter) can be complemented by increased funding for science generally. The potential scale of increase in basic science will vary by country depending on their current level and research capabilities[^47] .
+
+There may also be a case for demonstration funding to prove viability and reduce risk. An example of this is the UK DTI's 'Wave and Tidal Stream Energy Demonstration Scheme' that will support demonstration projects undertaken by private firms. This has many features to encourage the projects and maximise learning through provision of test site and facilities and systematic comparison of competing alternatives. Governments can help such projects through providing infrastructure. Demonstration projects are best conducted or at least managed by the private sector.[^48]
+
+***Energy storage is worthy of particular attention***
+
+Inherent uncertainty on fruitful areas of research ensures governments should be cautious against picking winners. However, some areas of research suggest significant potential through a combination of probability of success, lead-times and global reward for success. Priorities for scientific progress in the energy sector should include PV (silicon and non-silicon based), biofuel conversion technologies, fusion, and material science.
+
+As markets expand, all the key low carbon primary energy sources will run into constraints. Nuclear power will be confined to base-load electricity generation unless energy storage is available to enable its energy to follow loads and contribute to the markets for transport fuels. Intermittent renewable energy forms with backup generation will face the same problem. Electricity generation from fossil fuels with carbon capture and storage will likewise be unable to enter the transport markets unless improved and lower cost forms of hydrogen storage or new battery technology are developed. Solar energy can in theory meet the world's energy needs many times over, but will, like energy from wind, waves and tides, eventually depend on the storage problem being solved.
+
+The analysis of the costs of climate change mitigation in Chapter 9 provides further confirmation of the need for an expansion of RD&D activities in energy storage technologies. A failure to develop such technologies will inevitably increase the costs of mitigation once low-emission options for electricity generation are exploited. In contrast, success in this area will allow low-emission sources to provide energy in other sectors, such as transport. Current R&D and demonstration efforts on hydrogen production and storage along with other promising options for storing energy (such as advanced battery concepts) should be increased. This should include research on devices that convert the stored energy, such as the fuel cell.
+
+%%page 364%%
+
+***In the case of applied energy research, partnership between the public and private sectors is key***
+
+It is important that public R&D leverages private R&D and encourages commercialisation. Ultimately the products will be brought into the market by private firms who have a better knowledge of markets, and, so it is important that public R&D maintains the flow of knowledge by ensuring public R&D complements the efforts of the private sector.
+
+The growth and direction of private R&D efforts will be a product of the incentives for low-emission investments provided by the structure of markets and public policies. Public R&D should aim to complement, not compete, with private R&D, generally by concentrating on more fundamental, longer-term possibilities, and by sharing in the risks of some larger-scale projects such as CCS. In many areas the private sector will make research investments without public support, as has been the case recently on advanced biofuels (see Box 16.4).
+
+Box 16.4 Second generation biofuels
+
+Cellulosic ethanol is a not-yet-commercialized fuel derived from woody biomass. In his 2006 State of the Union address, Bush praised the fuel's potential to curb the nation's "addiction to foreign oil". A joint study by the Departments of Agriculture and Energy[^49] concludes that U.S. biomass feedstocks could produce enough ethanol to displace 30 percent of the nation's gasoline consumption by 2030.
+
+In May 2006, Goldman Sachs & Co became the first major Wall Street firm to invest in the technology. Goldman Sachs & Co invested more than $26 million in Iogen Corp., an Ottawa- based company that operates the world's first and only demonstration facility that converts straw, corn stalks, switchgrass and other agricultural materials to ethanol. Iogen hopes to begin construction on North America's first commercial cellulosic ethanol plant next year.
+
+In September 2006 Richard Branson announced plans to invest $3 billion in mitigating climate change. Some of this will be invested in Virgin Fuels, which will develop biofuels including cellulosic ethanol.
+
+The OECD[^50] found that economic growth was closely linked to general private R&D, not public R&D, but that public R&D plays a vital role in stimulating private spending. There is evidence[^51] from the energy sector that patents do track public R&D closely, which suggests that they successfully spur innovation and private sector innovation. R&D collaboration between the public and private-sector is one way of reducing the cost and risks of R&D. The public sector could fund private sector research through competitive research funding, with private sector companies bidding for public funds as public organisations currently do from research councils. Prizes to reward innovation can be used to encourage breakthroughs. Historically they have proved very successful but defining a suitable prize can be problematic[^52] . An alternative approach, as suggested for the pharmaceutical sector, is to commit to purchase new products to reward those that successfully innovate.[^53]
+
+%%page 365%%
+
+Box 16.5 Public-private research models - UK Energy Technologies Institute[^54]
+
+In 2006, the UK launched the Energy Technologies Institute (ETI). It will be funded on a 50:50 basis between private companies and the public sector with the government prepared to provide £500 million, creating the potential for a £1 billion institute over a minimum lifetime of ten years.
+
+The institute will aim to accelerate the pace and volume of research directed towards the eventual deployment of the most promising research results. ETI will work to existing UK energy policy goals including a 60% reduction in emissions by 2050.
+
+The ETI will select, commission, fund, manage and, where appropriate, undertake research programmes. Most investment will focus on a small number of key technology areas that have greatest promise for deployment and contributing to low-emission secure energy supplies.
+
+#### 16.6 Deployment policy
+
+***A wide range of policies to encourage deployment are already in use.***
+
+In addition to direct emissions pricing through taxes and trading and R&D support, there are strong arguments in favour of supporting deployment in some sectors when spillovers, lock-in to existing technologies, or capital market failures prevent the development of potentially low-cost alternatives. Without support the market may never select those technologies that are further from the market but may nevertheless eventually prove cheapest. Policies to support deployment exist throughout the world including many non-OECD countries[^55] . China and India have both encouraged large-scale renewable deployment in recent years and now have respectively the largest and fifth largest renewable energy capacity worldwide[^56] .
+
+There is some deployment support for clean technologies in most developed countries. The mechanism of support takes many forms though the costs are generally passed onto the consumer. The presence of a carbon price reduces the cost and requirement for deployment support. Deployment support is generally a small component of price when spread across all consumption (see Box 16.7) but does add to the impact of carbon pricing on electricity prices. Policymakers should consider the impact of deployment support on energy prices over time. Consumers will be paying for the development of technologies that benefit consumers in the future.
+
+%%page 366%%
+
+Box 16.6 Examples of existing deployment incentives
+
+- Fiscal incentives: including reduced taxes on biofuels in the UK and the US; investment tax credits.
+- Capital grants for demonstrator projects and programmes: clean coal programmes in the US; PV 'rooftop' programmes in the US, Germany and Japan; investments in marine renewables in the UK and Portugal; and numerous other technologies in their demonstration phase.
+- Feed-in tariffs are a fixed price support mechanism that is usually combined with a regulatory incentive to purchase output: examples include wind and PVs in Germany; biofuels and wind in Austria; wind and solar schemes in Spain, supplemented by 'bonus prices'; wind in Holland.
+- Quota based schemes: the Renewable Portfolio Standards in twenty three US States; the vehicle fleet efficiency standards in California
+- Tradable quotas: the Renewables Obligation and Renewable Transport Fuels Obligation in the UK.
+- Tenders for tranches of output (the former UK Non Fossil Fuel Obligation) with increased output prices subsidised out of the revenues from a general levy on electricity tariffs.
+- Subsidy of the infrastructure costs of connecting new technologies to networks.
+- Procurement policies of public monopolies: This was the approach historically of the public monopolies in electricity for purchase of nuclear power throughout the OECD; it is currently the approach in China. It is often combined with regulatory agreements to permit recovery of costs, soft loans by governments, and, in the case of nuclear waste, government assumption of liabilities.
+- Procurement policies of national and local governments: these include demonstrator projects on public buildings; use of fuel cells and solar technologies by defence and aerospace industries; hydrogen fuel cell buses and taxis in cities; energy efficiency in buildings.
+
+The deployment mechanisms described in Box 16.6 can be characterised as price or quantity support, with some tradable approaches containing elements of both. The costs of these policies are generally passed directly on to consumers though some are financed from general taxation. When quantity deployment instruments are not tradable, the policymaker should consider whether there are sufficient incentives to strive for cost reductions and whether the supplier can profit from passing an excessive cost burden onto the consumer. If the level of a price deployment instrument is too low no deployment will occur, while if it is too high large volumes of deployment will occur with financial rewards for participants which are essentially government created rents. With tradable quantity instruments, the market is left to determine the price, usually with tradable certificates between firms. This does lead to price uncertainty. If the quantity is too high, bottlenecks may lead to a high cost. If the quantity is too low, there may not be sufficient economies of scale to reduce the cost.
+
+Both sets of instruments have proved effective but existing experience favours price-based support mechanisms. Comparisons between deployment support through tradable quotas and feed-in tariff price support suggest that feed-in mechanisms achieve larger deployment at lower costs[^57] . Central to this is the assurance of long-term price guarantees. The German scheme, as described in Box 16.7 below, provides legally guaranteed revenue streams for up to twenty years if the technology remains functional. Whilst recognising the importance of planning regimes for both PV and wind, the levels of deployment are much greater in the German scheme and the prices are lower than comparable tradable support mechanisms (though greater deployment increases the total cost in terms of the premium paid by consumers). Contrary to criticisms of the feed-in tariff, analysis suggests that competition is greater than in the UK Renewable Obligation Certificate scheme. These benefits are logical as the technologies are already prone to considerable price uncertainties and the price uncertainty of tradable deployment support mechanisms amplifies this uncertainty. Uncertainty discourages investment and increases the cost of capital as the risks associated with the uncertain rewards require greater rewards.
+
+%%page 367%%
+
+Box 16.7 Deployment support in Germany
+
+Feed-in tariffs have been introduced in Germany to encourage the deployment of onshore and offshore wind, biomass, hydropower, geothermal and solar PV[^58] . The aim is to meet Germany's renewable energy goals of 12.5% of gross electricity consumption in 2010 and 20% in 2020. The policy also aims to encourage the development of renewable technologies, reduce external costs and increase the security of supply.
+
+Each generation technology is eligible for a different rate. Within technologies the rate varies depending on the size and type. Solar energy receives between €0.457 to 0.624 per kWh while wind receives €0.055 to 0.091per kWh. Once the technology is built the rate is guaranteed for 20 years. The level of support for deployment in subsequent years declines over time by 1% to 6.5% each year with the rate of decline derived from estimated learning curves[^59] .
+
+In 2005 10.2% of electricity came from renewables (70% supported with feed-in tariffs) the Federal Environment Ministry (BMU) estimate that the current act will save 52 million tonnes on CO2 in 2010. The average level of feed-in tariff was €0.0953 per kWh in 2005 (compared to an average cost of displaced energy of €0.047 kWh). The total level of subsidy was €2.4 billion Euro at a cost shared all consumers of €0.0056 per kWh (3% of household electricity costs)[^60] . There are an estimated 170,000 people working in the renewable sector with an industry turnover of €8.7 billion.[^61]
+
+The 43.7 TWh of electricity covered by the feed in tariffs was split mostly between wind (61%), biomass (19%) and hydropower (18%). It has succeeded in supporting several technologies. Solar accounted for 2% (0.2% of total electricity) with an average growth rate of over 90% over the last four years. Despite photovoltaic's low share Germany has a significant proportion of the global market with 58% of the capacity installed globally in 2005 (39% of the total installed capacity) and 23% of global production.[^62]
+
+Regulation can also be used to encourage deployment, for example by reducing uncertainty and accelerating spillover effects, and may be preferable in certain markets (see Chapter 17 for details). Performance standards encourage uptake and innovation in efficient technologies by establishing efficiency requirements for particular goods, in particular encouraging incremental innovation Alternatively, technology specific design standards can be targeted directly at the cleanest technologies by mandating their application or banning alternatives.
+
+There are already considerable sums of money spent on supporting technology deployment. It is estimated that $10 billion[^63] was spent in 2004 on renewable deployment, around $16 billion is spent each year supporting existing nuclear energy and around $6.4billion[^64] is spent each year supporting biofuels. The total support for these low-carbon energy sources is thus $33 billion each year. Such sums are dwarfed by the existing subsidies for fossil fuels worldwide that are estimated at $150 billion to 250 billion each year. All these costs are generally paid by the consumer.
+
+***Technology-neutral incentives should be complemented by focused incentives to bring forward a portfolio of technologies***
+
+Policy frameworks can be designed to treat support to all low-carbon technologies in a 'technology-neutral' way. The dangers of public officials 'picking winners' should point to this as the starting point in most sectors. Markets and profit orientated decisions, where the decision maker is forced to look carefully at cost and risk are better at finding the likely commercial successes. However, the externalities, uncertainties and capital market problems in some sectors combine with the urgency of results and specificity of some of the technological problems that need to be solved when tackling climate change, all point to the necessity to examine the issues around particular technologies and ensure that a portfolio develops.
+
+%%page 368%%
+
+The policy framework of deployment support could differentiate between technologies, offering greater support to those further from commercialisation, or having particular strategic or national importance. This differentiation can be achieved several ways, including technology-specific quotas, or increased levels of price support for certain technologies. Policies to correct the carbon externality (taxes / trading) are, and should continue to be, technology neutral. Technology neutrality is also desirable for deployment support if the aim is to deliver least cost reductions to meet short-term targets, since the market will deliver the least-cost technology.
+
+However, as has already been discussed, the process of learning means that longer- established technologies will tend to have a price advantage over newer technologies, and untargeted support will favour these more developed technologies and bring them still further down the learning curve. This effect can be seen in markets using technology-neutral instruments: in the USA, onshore wind accounts for 92% of new capacity in green power markets[^65] .
+
+This concentration on near-to-market technologies will tend to work to the exclusion of other promising technologies, which means that only a very narrow portfolio of technologies will be supported, rather than the broad range which Part III of this report shows are required. This means technology neutrality may be cost efficient in the short term, but not over time.
+
+Most deployment support in the electricity generation sector has been targeted towards renewable and nuclear technologies. However, significant reductions are also expected from other sources. As highlighted in Box 9.2 carbon capture and storage (CCS) is a technology expected to deliver a significant portion of the emission reductions. The forecast growth in emissions from coal, especially in China and India, means CCS technology has particular importance. Failure to develop viable CCS technology, while traditional fossil fuel generation is deployed across the globe, risks locking-in a high emissions trajectory. The demonstration and deployment of CCS is discussed in more detail in Chapter 24. Stabilising emissions below 550ppm CO2e will require reducing emissions from electricity generation by about 60%[^66] . Without CCS that would require a dramatic shift away from existing fossil-fuel technologies.[^67]
+
+***Policies should have a clear review process and exit strategies, and governments must accept that some technologies will fail.***
+
+Uncertainty over the economies of scale and learning-by-doing means that some technological failures are inevitable. Technological failures can still create valuable knowledge, and the closing of technological avenues narrows the investment options and increases confidence in other technologies (as they face less alternatives). The Arrow-Lind theorem[^68] states that governments are generally large enough to be risk neutral as they are large enough to spread the risk and thus have a role to play in undertaking riskier investments. It is not a mistake per se to buy insurance or a hedge that later is not needed and that is in many ways a suitable analogy for fostering a wider portfolio of viable technologies than the market would do by itself[^69] .
+
+Credibility is also important to policy design. Policies benefit from providing clear, bankable, signals to business. There is a role for monitoring and for a clear exit strategy to prevent excessive costs and signal the ultimate goal of these policies: competition on a level playing field. A good example has been the Japanese rebates in the 'Solar Roofs' programme, which have declined gradually over time, from 50% of installed cost in 1994 to 12% in 2002 when the scheme ended.
+
+%%page 369%%
+
+Alternative approaches can also help spur the deployment of new innovations. For example, extension services, the application of scientific research and new knowledge to agricultural practices through farmer education, had a significant impact on the deployment of new crop varieties during the Green Revolution. Also, organisations such as the Carbon Trust in the UK, Sustainable Development Technologies Canada, established by governments but independent of them to allow the application of business acumen, have proved successful in encouraging investment in the development and demonstration of clean technologies. They can play an important role at each stage of the technology process, from R&D to ensuring their widespread deployment once they have become cost effective. They have proved especially successful in acting as a "stamp of approval" that spurs further venture capital investment. Finding niche markets and building these into large-scale commercialisation opportunities is a key challenge for companies with promising low carbon technologies. These organisations are at the forefront of identifying niche markets for commercialisation of new technologies and promoting public-private investment in deployment.
+
+#### 16.7 Other supporting policies
+
+***Other policies have an important impact on the viability of technologies.***
+
+There are many other policy options available to governments that can affect technology deployment and adoption. Governments set policies such as the planning regime and building standards. How these are set can have an important impact on the adoption of new technologies. They can constrain deployment either directly or indirectly by increasing costs. Regulations can stifle innovation, but if well designed they can drive innovation. Depending how these are set, they can act as a subsidy to low-emission alternative technologies or to traditional fossil fuels. Setting the balance is difficult, since their impacts are hard to value. But they must be considered since they can have an important effect on the outcome.
+
+- The intellectual property regime can act as an incentive to the innovator, but the granting of the property right can also slow the dissemination of technological progress and prohibit others from building on this innovation. Managing this balance is an important challenge for policymakers.
+- Planning and licensing regulations have proven a significant factor for nuclear, wind and micro-generation technologies. Planning can significantly increase costs or, in many cases, prevent investments taking place. Local considerations must be set against wider national or global concerns.
+- It is important how governments treat risks and liabilities such as waste, safety or decommissioning costs for nuclear power or liabilities for CO2 leakage from CCS schemes. Governments can bear some of these costs but, unless suppliers and ultimately consumers are charged for this insurance, it will be a subsidy.
+- Network issues are particularly important for energy and transport technologies. The existing transport network and infrastructure, especially fuel stations, is tailored to fossil fuel technologies.
+- Intermittent technologies such as wind and solar may be charged a premium if they require back-up sources. How this is treated can directly affect economic viability, depending on the extent of the back-up generation required and the premium charged.
+- Micro-generation technologies can sell electricity back to the grid and do not incur the same distribution costs and transmission losses as traditional much larger sources. The terms under which such issues are resolved has an important impact on the economics of these technologies. Commercially proven low-carbon technologies require regulatory frameworks that recognise their value, in terms of flexibility and modularity[^70] , within a distributed energy system. Regulators should innovate in response to the challenge of integrating these technologies to exploit their potential, and unlock the resultant opportunities that arise from shifting the generation mix away from centralised sources.
+
+%%page 370%%
+
+- Capacity constraints may arise because of a shortage in a required resource. For example, there may be a shortage of skilled labour to install a new technology.
+- There are other institutional and even cultural barriers that can be overcome. Public acceptability has proven an issue for both wind and nuclear and this may also be the case for hydrogen vehicles. Consumers may have problems in finding and installing new technologies. Providing information of the risks and justification of particular technologies can help overcome these barriers.
+
+#### 16.8 The scale of action required
+
+***Extending and expanding existing deployment incentives will be key***
+
+Deployment policies encourage the private sector to develop and deploy low-carbon technologies. The resulting cost reductions will help reduce the cost of mitigation in the future (as explained in Chapter 10). Consumers generally pay the cost of deployment support in the form of higher prices. Deployment support represents only a proportion of the cost of the technology as it leverages private funds that pay for the market price element of the final cost.
+
+It is estimated that existing deployment support for renewables, biofuels and nuclear energy is $33 billion each year (see Section 16.6). The IEA's Energy Technology Perspectives[^71] looks at the impact of policies to increase the rate of technological development. It assumes that $720billion of investment in deployment support occurs over the next two to three decades. This estimate is on top of an assumed carbon price (whether through tax, trading or implicitly in regulation) of $25 per tonne of CO2. If the IEA figure is assumed to be additional to the existing effort, it suggests an increase of deployment incentives of between 73% and 109%, depending on whether this increase is spread over two or three decades.
+
+The calculations shown in Section 9.8 include estimates of the level of deployment incentives required to encourage sufficient deployment of new technologies (consistent with a 550ppm CO2e stabilisation level). The central estimates from this work are that the level of support required will have to increase deployment incentives by 176% in 2015 and 393% in 2025[^72] . These estimates are additional to an assumed a carbon price at a level of $25 per tonne of CO2.
+
+At this price the abatement options are forecast to become cost effective by 2075 so the level of support tails off to zero by this time. If policies lead to a price much higher than this before the technologies are cost effective then less support will be required. Conversely if no carbon price exists the level of support required will have to increase (by a limited amount initially but by much larger amounts in the longer term). While most of this cost is expected to be passed on to consumers, firms may be prepared to incur a proportion of this learning cost in order to gain a competitive advantage.
+
+Such levels of support do represent significant sums but are modest when compared with overall levels of investment in energy supply infrastructure ($20 trillion up to 2030[^73] ) or even estimates of current levels of fossil-fuel subsidy as shown in the graph below.[^74]
+
+%%page 371%%
+
+Figure 16.7 Estimated scale of current and necessary global deployment support
+
+The level of support required to develop abatement technologies depends on the carbon price and the rate of technological progress, which are both uncertain. It is clear from these numbers that the level of support should increase in the decades to come, especially in the absence of carbon pricing. Based on the numbers above, an increase of 2-5 times current levels over the next 20 years should help encourage the requisite levels of deployment though this level should be evaluated as these uncertainties are resolved.
+
+The scale is, however, not the only issue. It is important that this support is well structured to encourage innovation at low cost. A diverse portfolio of investments is required as it is uncertain which technologies will prove cheapest and constraints on individual technologies will ensure that a mix is necessary. Those technologies that are likely to be the cheapest warrant more investment and these may not be those that are the currently the lowest cost. This requires a reorientation of public support towards technologies that are further from widespread diffusion.
+
+Some countries are already offering significant support for new technologies but globally this support is patchy. Issues on coordinating deployment support internationally to achieve the required diversity and scale are examined in Chapter 24.
+
+***Global energy R&D funding is at a low level and should rise***
+
+Though benefits of R&D are difficult to evaluate accurately a diverse range of indicators illustrate the benefits of R&D investments. Global public energy R&D support has declined significantly since the 1980s and this trend should reverse to encourage cost reductions in existing low-carbon technologies and the development of new low-carbon technological options. The IEA R&D database shows a decline of 50% in low-emission R&D[^75] between 1980 and 2004. This decline has occurred while overall government R&D has increased significantly[^76] . A recent IEA publication on RD&D priorities[^77] strongly recommends that governments consider restoring their energy RD&D budgets at least to the levels seen, in the early 1980s. This would involve doubling the budget from the current level of around $10 billion[^78] . This is an appropriate first step that would equate to global levels of public energy R&D around $20 billion each year.
+
+%%page 372%%
+
+Figure 16.8 Public energy R&D in IEA countries[^79]
+
+The directions of the effort should also change. A generation ago, the focus was on nuclear power and fossil fuels, including synthetic oil fuels from gas and coal, with comparatively few resources expended on conservation and renewable energy. Now the R&D efforts going into carbon capture and storage, conservation, the full range of renewable energy technologies, hydrogen production and use, fuel cells, and energy storage technologies and systems should all be much larger.
+
+A phased increase in funding, within established frameworks for research priorities, would allow for the expansion in institutional capacity and increased expertise required to use the funding effectively. A proportion of this public money should target be designed to encourage private funds, as is proposed for the UK's Energy Technology Institute (see Box 16.5).
+
+Private R&D should rise in response to market signals. Private energy R&D in OECD countries fell in recent times from around $8.5bn at the end of the 1980s to around $4.5bn in 2003[^80] . Significant increases in public energy R&D and deployment support combined with carbon pricing should all help reverse this trend and encourage an upswing in private R&D levels.
+
+This is not just about the total level of support. How this money is spent is crucial. It is important that the funding is spread across a wide range of ideas. It is also important that it is structured to provide stability to researchers while still providing healthy competition. There should be rigorous assessment of these expenditures to ensure that they maintained at an appropriate level. Approaches to encourage international co-operation to achieve these goals are explored in Chapter 24.
+
+#### 16.9 Conclusions
+
+This chapter explores the process of innovation and discovers that externality from the environmental impact of greenhouse gas emissions exacerbates existing market imperfections, limiting the incentive to develop low-carbon technologies. This provides a strong case for supporting the development of new and existing low-carbon technologies, particularly in a number of key climate change sectors. The power of market forces is the key driver of innovation and technical change but this role should be supplemented with direct public support for R&D and, in some sectors, policies designed to create new markets. Such policies are required to deliver an effective portfolio of low-carbon technologies in the future.
+
+%%page 373%%
+
+%%page 374%%
+
+#### References
+
+For an excellent overview of innovation theory and its application in the case of climate change see Foxon, T J (2003), "Inducing innovation for a low-carbon future: drivers, barriers and policies" (full reference and link below). A good exploration of the barriers within the electricity generation sector can be found in Neuhoff, K. (2005), "Large-Scale Deployment of Renewables for Electricity Generation".
+
+A good overview of innovation in the climate change context and technology policy can be found in Grubb (2004), "Technology Innovation and Climate Change Policy: an overview of issues and options" and a thorough exploration of the market failures and evidence on policy instruments can be found in both Jaffe, Newell and Stavins publications listed below. An excellent review of existing US based R&D policies and their effectiveness is Alic, Mowery and Rubin (2003), "U.S. Technology and Innovation Policies: Lessons for Climate Change". Newell and Chow also provide some valuable insights reviewing the literature on the effectiveness of energy R&D policy.
+
+Aghion, P., N. Bloom, R. Blundell, R. Griffith and P. Howitt (2002). 'Competition and innovation: an inverted U relationship', NBER Working Paper No. 9269, London: UCL.
+
+Alic, J., D. Mowery, and E. Rubin (2003): 'U.S. technology and innovation policies: Lessons for climate change', Virginia: Pew Center on Global Climate Change, available from http://www.pewclimate.org/docUploads/US%20Technology%20%26%20Innovation%20Polici es%20%28pdf%29%2Epdf
+
+Amin, A-L. (2000): 'The power of networks – renewable electricity in India and South Africa', unpublished thesis, SPRU, University of Sussex.
+
+Anderson, D., C. Clark, T. Foxon, et al. (2001): 'Innovation and the environment: challenges and policy options for the UK'. A report for the UK Economic and Social Science Research Council. Imperial College London, Centre for Energy Policy and Technology (ICEPT) and the Fabian Society, London: Imperial College.
+
+Arrow, K. and R. Lind (1970): 'Uncertainty and the evaluation of public investment decisions', American Economic Review, 60: 364-78
+
+Barreto, L. and G. Klaassen (2004): 'Emissions trading and the role of learning-by-doing spillovers in the "bottom-up" energy-systems ERIS model'. International Journal of Energy Technology and Policy (Special Issue on Experience Curves).
+
+Bird, L. and B. Swezey (2005): 'Estimates of new renewable energy capacity serving U.S. green power markets' available from http://www.eere.energy.gov/greenpower/resources/tables/new_gp_cap.shtml
+
+BMU (Germany's Federal Ministry for the Environment, Nature Conservation and Nuclear Safety). (2006a): 'What electricity from renewable energies costs', available from www.bmu.de/files/pdfs/allgemein/application/pdf/electricity_costs.pdf
+
+BMU (2006b): Renewable energy sources in figures – national and international development available from http://www.bmu.de/files/english/renewable_energy/downloads/application/pdf/broschuere_ee _zahlen_en.pdf
+
+Butler, L. and K. Neuhoff (2005): 'Comparison of feed in tariff, quota and auction mechanisms to support wind power development', Cambridge Working Papers in Economics 0503, Faculty of Economics (formerly DAE), Cambridge: University of Cambridge.
+
+Chow, J. and R. Newell (2004): 'A retrospective review of the performance of energy R&D RFF discussion paper' [in draft] available from:
+
+%%page 375%%
+
+http://www.energycommission.org/files/finalReport/VI.1.e%20- %20Retrospective%20of%20Energy%20R&D%20Perf.pdf
+
+Deutch, J. (2005): 'What should the Government do to encourage technical change in the energy sector?', MIT Joint Program on the Science and Policy of Global Change Report No.120. available from http://mit.edu/globalchange/www/MITJPSPGC_Rpt120.pdf
+
+Department of Trade and Industry 2003): 'Innovation report - competing in the global economy: the innovation challenge' available from http://www.dti.gov.uk/files/file12093.pdf
+
+E4tech. (2006): 'UK carbon reduction potential from technologies in the transport sector', prepared for the UK Department for Transport and the Energy Review team, available from http://www.dti.gov.uk/files/file31647.pdf
+
+European Community (2005): 'The support of electricity from renewable energy sources', Communication from the Commission available from http://ec.europa.eu/energy/res/biomass_action_plan/doc/2005_12_07_comm_biomass_electri city_en.pdf
+
+Fouquet D., C. Grotz, J. Sawin and N. Vassilakos (2005): 'Reflections on a possible unified eu financial support scheme for renewable energy systems (res): a comparison of minimum- price and quota systems and an analysis of market conditions'. Brussels and Washington, DC: European Renewable Energies Federation and Worldwatch Institute.
+
+Foxon, T. J. (2003):. 'Inducing innovation for a low-carbon future: drivers, barriers and policies', London: The Carbon Trust, available from http://www.thecarbontrust.co.uk/Publications/publicationdetail.htm?productid=CT-2003-07
+
+Freeman, C. (1992): 'The economics of hope', New York, Pinter Publishers.
+
+Gibbs, W. (2006): 'Plan B for energy', Scientific American, September 2006 issue, New York: Scientific American.
+
+Grubb, M. (2004): 'Technology innovation and climate change policy: an overview of issues and options', Keio Economic Studies. Vol.XLI. no.2. available from http://www.econ.cam.ac.uk/faculty/grubb/publications/J38.pdf
+
+International Energy Agency (2006): 'Energy technology perspectives - scenarios & strategies to 2050', Paris: OECD/IEA.
+
+International Energy Agency (in press): 'World Energy Outlook 2006', Paris: OECD/IEA.
+
+International Rice Research Institute (2006): 'Climate change and rice cropping systems: Potential adaptation and mitigation strategies', available from www.sternreview.org.uk
+
+Jaffe, A., R. Newell and R. Stavins (2004): 'A tale of two market failures', RFF Discussion paper, available from http://www.rff.org/Documents/RFF-DP-04-38.pdf
+
+Jaffe, A., R. Newell and R. Stavins. (2003): 'Technological change and the environment', Handbook of Environmental Economics K. Mäler and J. Vincent (eds.), Amsterdam: North- Holland/Elsevier Science pp. 461-516
+
+Kammen, D.M. and R. Margolis (1999): 'Evidence of under-investment in energy R&D in the United States and the impact of federal policy', Energy Policy, Oxford: Elsevier.
+
+Kammen, D.M. (2004): 'Renewable energy options for the emerging economy: advances, opportunities and obstacles. Background paper for 'The 10-50 Solution: Technologies and Policies for a Low-Carbon Future' Pew Center & NCEP Conference, Washington, D.C., March 25-26, 2004, available from http://rael.berkeley.edu/old-site/kammen.pew.pdf
+
+Kammen, D.M. and G.F. Nemet. (2005): 'Real numbers: reversing the incredible shrinking energy R&D budget', Issues in Science Technology, 22:84 - 88
+
+%%page 376%%
+
+Kremer, M. and R. Glennerster (2004): 'Strong medicine: creating incentives for pharmaceutical research on neglected diseases', Princeton: Princeton University Press.
+
+Nemet, G. F. (in press): 'Beyond the learning curve: factors influencing cost reductions in photovoltaics'. Energy Policy, Oxford: Elsevier.
+
+Neuhoff, K. (2005): 'Large-scale deployment of renewables for electricity generation', Oxford Review of Economic Policy', Oxford University Press, 21(1): 88-110, Spring.
+
+Newell R. C. and N.E Wilson (2005): 'Technology prizes for climate change mitigation, resources for the future discussion paper #05-33', available from http://www.rff.org/rff/Documents/RFF-DP-05-33.pdf
+
+Norberg-Bohm, V. and J. Loiter (1999): 'Public roles in the development of new energy technologies: The case of wind turbines'. Energy Policy, Oxford: Elsevier.
+
+Norberg-Bohm, V. (2000): 'Creating incentives for environmentally enhancing technological change: lessons from 30 years of U.S. energy technology policy'. Technological Forecasting and Social Change 65: 125-148, available from http://bcsia.ksg.harvard.edu/publication.cfm?program=CORE&ctype=article&item_id=222
+
+Norse D. (2006): 'Key trends in emissions from agriculture and use of policy instruments', available from www.sternreview.org.uk
+
+OECD (2005): 'Innovation in the business sector working paper 459' Paris: OECD, available from http://www.olis.oecd.org/olis/2005doc.nsf/43bb6130e5e86e5fc12569fa005d004c/5d1216660b 7d83dcc12570ce00322178/$FILE/JT00195405.PDF
+
+OECD (2006): 'Do we have the right R&D priorities and programmes to support energy technologies of the future'. 18th Round Table on Sustainable Development background paper Paris: OECD, available from http://www.oecd.org/dataoecd/47/9/37047380.pdf
+
+Pindyck, A.K. and R.S. Dixit (1994): 'Investment under uncertainty' Princeton, NJ: University Press.
+
+Ragwitz, M. and C. Huber (2005): 'Feed-in systems in Germany and Spain and a comparison', Germany: Fraunhofer Institut für Systemtechnik und Innovationsforschung.
+
+REN21 Renewable Energy Policy Network, (2005): 'Renewables 2005 Global Status Report'. Washington, DC: Worldwatch, available from http://www.ren21.net/globalstatusreport/RE2005_Global_Status_Report.pdf
+
+REN 21. (2006): 'Renewables Global Status Report: 2006 update', Washington, DC: Worldwatch, available from http://www.ren21.net/globalstatusreport/download/RE_GSR_2006_Update.pdf
+
+Scotchmer, S. (1991):' Standing on the shoulders of giants: cumulative research and the patent law', Journal of Economic Perspectives 5(1): 29-41, Winter. Reprinted in The Economics of Technical Change (1993): Mansfield, E. and E. Mansfield, (eds.), Cheltenham: Edward Elgar Publishing.
+
+Taylor, M., E. Rubin and G. Nemet (2006): 'The role of technological innovation in meeting California's greenhouse gas emissions targets', available from http://calclimate.berkeley.edu/3_Innovation_and_Policy.pdf
+
+US Departments of Agriculture and Energy (2005): 'Biomass as feedstock for a bioenergy and bioproducts industry: the technical feasibility of a billion-ton annual supply', available from http://feedstockreview.ornl.gov/pdf/billion_ton_vision.pdf
+
+%%page 377%%
+
+### 17 Beyond Carbon Markets and Technology
+
+Key Messages
+
+Policies to price greenhouse gases, and support technology development, are fundamental to tackling climate change. However, even if these measures are taken, barriers and market imperfections may still inhibit action, particularly on energy efficiency.
+
+These barriers and failures include hidden and transaction costs such as the cost of the time needed to plan new investments; lack of information about available options; capital constraints; misaligned incentives; as well as behavioural and organisational factors affecting economic rationality in decision-making.
+
+These market imperfections result in significant obstacles to the uptake of cost-effective mitigation, and weakened drivers for innovation, particularly in markets for energy efficiency measures.
+
+Policy responses which can help to overcome these barriers in markets affecting demand for energy include:
+
+- Regulation: Regulation has an important role, for example in product and building markets by: communicating policy intentions to global audiences; reducing uncertainty, complexity and transaction costs; inducing technological innovation; and avoiding technology lock-in, for example where the credibility of carbon markets is still being established.
+- Information: Policies to promote: performance labels, certificates and endorsements; more informative energy bills; wider adoption of energy use displays and meters; the dissemination of best practice; or wider carbon disclosure help consumers and firms make sounder decisions and stimulate more competitive markets for more energy efficient goods and services.
+- Financing: Private investment is key to raising energy efficiency. Generally, policy should seek to tax negative externalities rather than subsidise preferable outcomes, and address the source of market failures and barriers. Investment in public sector energy conservation can reduce emissions, improve public services, fostering innovation and change across the supply chain and set an example to wider society.
+
+Careful appraisal, design, implementation and management helps minimise the cost and increase the effectiveness of regulatory, information and financing measures. Energy contracting can reduce the costs of raising efficiency through economies of scale and specialisation.
+
+Fostering a shared understanding of the nature and consequences of climate change and its solutions is critical both in shaping behaviour and preferences, particularly in relation to their housing, transport and food consumption decisions, and in underpinning national and international political action and commitment.
+
+Governments cannot force this understanding, but can be a catalyst for dialogue through evidence, education, persuasion and discussion. And governments, businesses and individuals can all help to promote action through demonstrating leadership.
+
+#### 17.1 Introduction
+
+Chapters 14, 15 and 16 have outlined the arguments, and appropriate policies, for establishing well-functioning carbon markets and encouraging technological research, development and diffusion. These are necessary to provide incentives and enable mitigation responses by households and firms. However, alone, they are not sufficient to elicit the necessary scale of investment and behavioural responses from households and firms due to the presence of failures and barriers in many relevant markets.
+
+%%page 378%%
+
+These obstacles are outlined in Section 17.2, in particular in relation to actions and investments for energy saving (although the framework is broadly applicable to other aspects of mitigation such as fuel switching). The significant untapped energy efficiency potential which exists, for example, in the buildings, transport, industry, agriculture and power sectors provides evidence of the impact of these failures and barriers.
+
+Sections 17.3 to 17.5 outline the role of regulation, information and financing policies in responding to obstacles to energy efficiency:
+
+- Regulation: such as forward-looking standards stimulate innovation by reducing uncertainty for innovators; encourage investment by increasing the costs and commercial risks of inaction for firms; and reduce technology costs by facilitating scale economies. In some respects regulation involves the creation of an implicit carbon price;
+- Information: encourages efficient consumption and production decisions by raising awareness of the full energy costs and climate impacts; evidence and guidance on how to assess options and reduce energy bills can explicitly shape the direction and priorities for innovation;
+- Financing: can accelerate the uptake of energy efficiency in both private and public sector.
+
+Section 17.6 outlines issues relating to policy delivery. Section 17.7 discusses the role of public policy, information, education and discussion in influencing the perceptions and attitudes of individuals, firms and communities towards both adopting environmentally responsible behaviour and co-operating to reduce the impacts of climate change.
+
+#### 17.2 Market Failures and Responses to Incentives
+
+***Behaviour is driven by a number of factors, not just financial costs and benefits.***
+
+For the most part, investment decisions in energy-using technologies rest on the balance of financial costs and benefits facing an individual or firm: for example, how much additional investment is required, what is the (opportunity) cost of capital and, in comparison, how much energy is the investment expected to save?
+
+However, consumers and firms frequently do not make energy efficiency investments that appear cost-effective.[^1] The IEA estimate that unexploited energy efficiency potential offers the single largest opportunity for emissions reductions, with major potential across all major end uses and in all economies. For example, energy efficiency accounts for between 31% and 53% of CO2 emissions reductions by 2050 under the accelerated technology scenario (see Chapter 9 for a discussion of sources and costs of mitigation).[^2]
+
+It is difficult to explain low take up of energy efficiency as purely a rational response to investment under uncertainty.[^3] This implies the existence of one or more of a potentially wider set of costs, market failures, or 'barriers'[^4] to 'rational' behaviour and motivation. These fall into three main groups:[^5]
+
+%%page 379%%
+
+- Financial and 'hidden' costs and benefits;
+- Multiple objectives, conflicting signals, or, information and other market failures;
+- Behavioural and motivational factors.
+
+These are illustrated in the Figure 17.1 below. Standard economic theory of rational decision-making under uncertainty is important in understanding each. However, moving down this list, systems and behavioural theories of decision-making are progressively more relevant.
+
+Figure 17.1 Barriers to and drivers for energy efficiency uptake[^6]
+
+Note: CSR is Corporate Social Responsibility
+
+***An assessment of the case for action has to take into account the existence of "hidden" costs and benefits***
+
+The primary driver of much investment in energy-using technologies is the balance of financial costs and benefits facing an individual or firm. However, accounting for "hidden" costs, such as those associated with researching different options, taking time off work to wait in for tradesmen, or the opportunity cost of devoting managerial time to efficiency projects is required for an assessment of the full range of costs and benefits.[^7] These hidden costs may be counter-balanced by wider benefits such as reduced risk exposure to energy price volatility, or reputational benefits from demonstrating environmental responsibility.
+
+Hidden or transaction costs are difficult to measure. One study found search and information costs of energy efficiency measures of between 3% and 8% of total investment costs.[^8] Box 17.1 below summarises research highlighting the likelihood of significant transaction costs associated with energy efficiency measures. In general, these wider costs are expected to have most significant impact among small and medium-level energy users such as households, non-energy intensive and particularly small firms, as well as the public sector.
+
+%%page 380%%
+
+Box 17.1 Estimating the Costs of Energy Savings
+
+Joskow and Marron (1992) undertook a study of the costs of information and particularly investment programs undertaken by energy suppliers designed to reduce demand among residential, commercial and industrial customers in the US. The authors identified a tendency for studies to underestimate the costs of actions to save energy,[^9] in particular:
+
+- Supplier transaction costs: full accounting for all administrative costs was likely to increase the cost per kWh saved by 10% to 20%. Supplier administration costs were likely to exceed 30% of the total for commercial and industrial programs;
+- Customer transaction costs and 'free riding': customer transaction costs varied from close to zero to close to 100% of the direct investment costs across the programmes sampled. 'Free riding'[^10] was considered a significant risk particularly among the heaviest energy users within any target group. It was estimated that full accounting of these factors was likely to increase costs of demand side management programmes by about 25% to 50%;
+- Energy saving measurement issues: The study identified significant methodological issues estimating energy savings given diverse, dynamic patterns of customer demand and limited availability of baseline information. In addition, they identified a tendency for widely used ex post engineering based forecasts to significantly overstate economic savings. Overall, accurate measurement of energy savings was considered likely to increase estimated costs by about 50%.
+
+***Individuals and firms are not always aware of the full costs and benefits of energy conservation, are capital constrained, or do not have sufficient incentives to invest.***
+
+Reliable, accessible and easily understandable information is important in making consumers and firms aware of the full lifetime costs and benefits of an economic decision, and hence supporting good decision-making. Whilst there are information difficulties in many or most markets, they may be particularly powerful in relation to energy efficiency measures.
+
+Capital and/ or asset market failures also inhibit action. For example, a lack of available capital prevents people investing in more energy efficient processes which typically have higher upfront costs (but are cheaper overall when evaluated over a longer period). Restricted access to capital is especially common among poor households and small firms, particularly in developing countries.
+
+Incentive failures restrict the effectiveness of price instruments. An example in the buildings sector is the 'landlord-tenant' problem in which landlords do not invest in the energy efficiency of their asset, because tenants benefit from lower energy bills, and more efficient capital typically does not command sufficiently higher rents.
+
+***Individuals and firms are not always able to make effective decisions involving complex and uncertain outcomes. Social and institutional norms and expectations strongly influence decision-making, although these norms are not immutable.***
+
+Some economists have suggested that people use simple decision rules when faced with complexity, uncertainty or risk.[^11] For example, many people are unable to calculate the long-run value of energy savings, or have difficulties determining appropriate responses to risks and uncertainties around future energy costs or the potential impacts of climate change. As a result, individuals and firms commonly make decisions which simply meet their needs, rather than undertaking complex analysis to determine the best possible decision.[^12]
+
+%%page 381%%
+
+Shared social and institutional norms are important determinants of behaviour.[^13] Individuals and firms behave habitually and in response to social customs and expectations. This leads to 'path dependency", which limits their responses to policies designed to raise efficiency (or encourage fuel switching). However, these norms change over time in response to a whole range of factors, including the influence of the media and action by governments. Developing and encouraging a shared concept of what responsible behaviour is, and of the consequences of irresponsible actions, is therefore an important aspect of policy (see Section 17.7).
+
+#### 17.3 Policy responses: Regulation and Standards, Direct Controls
+
+***Regulatory measures are less efficient and flexible than market mechanisms in the context of perfect markets, but can be an efficient response to the challenge of irremovable or unavoidable imperfections.***
+
+This section discusses the economic rationale for different types of regulatory policy instruments. As Chapter 14 discussed, regulatory measures are generally less efficient than market mechanisms when applied to perfect markets. However, the existence of market failures and barriers outlined in the previous section mean that there are circumstances in which standards and regulations have an important role to play.
+
+Regulatory measures may be appropriate either instead of, or complementary to, tax or trading instruments, and can be more effective and efficient in a number of important circumstances, in particular to:
+
+- Reduce the complexity faced by consumers or firms, by restricting or removing the availability of inefficient (or polluting) technologies, for example through banning of Chloroflourocarbons (or CFC's) in cooling systems;
+- Cut the transaction costs associated with investments, through measures, for example by simplifying planning rules relating to the installation of micro-generation technologies;
+- Overcome barriers to the transmission of incentives throughout the supply chain, for example, agreements with cable and satellite television providers have resulted in significant improvements in the efficiency of licensed 'set top' boxes;
+- Stimulate competition and innovation, by signaling policy intentions, reducing uncertainty and increasing scale in markets for outputs of technological innovation;
+- Promote efficiency through strategic coordination of key markets, for example by reducing long-run transport demand through integrated land-use planning and infrastructure development;
+- Overcome practical constraints on policymakers to imposing the appropriate explicit carbon price,[^14] for example where this may be politically difficult to achieve or administratively expensive to implement directly through markets;
+- Avoid capital stock 'lock in', particularly in markets which are subject to lengthy capital replacement cycles, for example buildings and power sectors.[^15] This may be important where the credibility of carbon markets is still being established (issues discussed in Chapter 15).
+
+%%page 382%%
+
+Regulatory approaches, in contrast with market mechanisms, place a value on reducing greenhouse gas emissions implicitly rather than explicitly and can help reduce obstacles associated with information or other market failures. This value can be calculated by dividing the cost of the measure (to firms, consumers and regulators) by the estimated savings in greenhouse gas emissions. From the point of view of maximizing efficiency losses, it is important that the implied value of carbon, at the margin, is broadly the same whether market mechanisms or regulatory measures are used.
+
+***Performance standards help to limit energy demand by removing inefficient products from the market, and promoting mass diffusion of more efficient alternatives.***
+
+Performance standards establish requirements to achieve particular levels of energy efficiency or carbon intensity without prescribing how they are delivered. This can take the form of a minimum standard for a particular type of good, or a requirement on their average performance (commonly known as a 'fleet averages').[^16]
+
+Standards encourage the removal of poorly performing equipment from the market completely, or improve availability and uptake of more efficient alternatives. In addition, by projecting the future levels of performance which will be required, standards have the potential to encourage innovation towards the production of more efficient products: for example, US federal energy efficiency standards on room air conditioner and gas water heaters are estimated to have elicited energy efficiency improvements of approximately 2% per annum.[^17]
+
+The overall costs of regulation depend on the precise policy context. It is likely that performance standards induce the creation and adoption of new technologies although at some real opportunity cost.[^18] Nevertheless, there are opportunities to promote efficiency at very low, or even negative cost, for example in certain product markets. Box 17.2 shows examples of effective performance based regulations. Section 17.6 outlines issues relating to design and implementation of performance standards.
+
+Box 17.2 Successful Performance Standards Programmes
+
+Buildings: Building codes have been applied in many different countries.[^19] In California, they are estimated to have saved approximately 10,000 GWh of electricity roughly equal to 4% of annual electricity use in 2003.[^20] Studies of codes applied in Massachusetts and Colorado in have also demonstrated their potential to deliver energy saving.[^21] In the UK, building regulations are expected to yield a cumulative saving of 1.4 MtC02 per year in 2010.[^22] The EU Commission established a framework to realize an estimated cost-effective savings potential of around 22% of present consumption in buildings across the EU by 2010 as part of the European Energy Performance of Buildings Directive. In China, regulations are estimated to apply to buildings with a floor space of approximately 500 million square meters (among a total of approximately 40 billion nationwide) and have saved 36 MtCO2.[^23]
+
+%%page 383%%
+
+Appliances: Since the introduction of federal standards by the US Department of Energy in 1978, total government programme expenditure is equivalent to US$2 per household. This is estimated to have delivered US$1,270 per household of net-present-value savings to the U.S. economy during the lifetimes of the products affected. Projected annual residential carbon reductions in 2020 due to these appliance standards are approximately 37 MtC02, an amount roughly equal to 9% of projected US residential carbon emissions in 2020.[^24]
+
+China first introduced appliance standards in 1989 and expanded their application rapidly during the 1990's to include, for example: refrigerators, fluorescent ballasts and lamps, and room air-conditioners. By 2010, energy savings are estimated to reach 33.5 TWh, or about 9% of China's residential electricity. This is equivalent to a CO2 emission reduction of 11.3MtC02.[^25] A more recent study highlighted the potential for significant energy savings in the longer term from more stringent performance standards on three major residential end uses: household refrigeration, air-conditioning, and water heating.[^26]
+
+Transport: Japan's Top Runner scheme, a leading programme of fleet averages in which future average performance requirements are based on current best available technologies, applies to a range of energy using products.[^27] It is estimated to have delivered energy savings on diesel passenger vehicles of 15% between 1995 and 2005 (and 7% on diesel freight vehicles). By 2010, it is expected to deliver energy savings on gasoline passenger vehicles of 23% (and 13% on passenger freight vehicles).[^28]
+
+In response to the introduction of Corporate Average Fuel Economy (CAFE) standards in the USA in 1975, the average fuel economy of new cars almost doubled and that of light trucks increased by 55% from 1975 to 1988.[^29] Without these efficiency improvements it is estimated that the US car and light truck fleet would have consumed an additional 2.8 million barrels of gasoline per day in the year 2000 (about 14% of 2002 consumption levels).[^30] However, the average rated fuel economy of new cars and light trucks combined declined from a high of 25.9 miles per gallon in 1987 to 23.9 miles per gallon in 2002, partly because of the shift from cars towards less efficient sport utility vehicles, pick-up trucks and minivans (which were classified as cargo transport under CAFE standards).
+
+***Design standards are inflexible, but can create scale economies for strategically important technologies.***
+
+Design standards mandate, or prohibit, the use of a particular technology. For example, CFC gases were prohibited in refrigerators in favour of alternative coolants, following the Montreal Protocol in 1987 and the establishment of a strong causal link with ozone depletion. Design standards and prohibitions are inflexible measures and, as such, risk being inefficient relative to performance standards or market mechanisms.
+
+However, their application may be appropriate where a particular technological solution is highly preferable (or undesirable in the case of prohibitions) in the short term, where it is considered imperative to accelerate 'pull through' and create scale economies for a particular technology in the medium or longer term, or where alternative measures have proved unsuccessful. The need for medium term 'pull' through, for example, is likely to apply in the context of certain carbon capture and storage technologies since coal is a particularly damaging source of GHG's while it is likely to be widely used in power markets in a number of countries on grounds of cost and energy security (see Chapters 16 and 24 for details).
+
+%%page 384%%
+
+***Urban design and land use planning regulations have the potential to facilitate a less energy intensive society, while balancing a range of wider economic and social objectives.***
+
+Planning rules and regulations balance a complex range of economic, social, and environmental objectives. However, their design and implementation can have important implications for mitigating climate change and also has the potential to influence the resilience to the impacts of climate change, for example, in the management of flood risks or water scarcity (these issues are examined in Part 5 of the report).
+
+Achieving planning permission is often an important transaction cost when installing renewable energy technologies, such as wind turbines or solar panels, or energy conservation measures such as solar water heaters. This applies to both large-scale commercial as well as microgeneration installations (see Box 17.3 below).
+
+Box 17.3 Microgeneration Technologies
+
+Microgeneration technologies produce thermal and/or electrical energy. Examples include small-scale wind, solar, hydro or combined heat and power installations, as well as heat pumps and solar water heaters. According to the Energy Saving Trust, micro-generation could supply 30-40% of UK electricity demand by 2050.[^31]
+
+Deployment of microgeneration capacity has the potential to reduce the carbon intensity of industrial, commercial, public as well as residential buildings and developments. In addition, it can reduce energy wastage compared to centralised systems.[^32] Greater uptake could be driven by: consumers, energy suppliers and firms selling energy services, and the implementation of private wire networks by planners and developers (see Box 17.9 on Woking).
+
+However, many of the technologies are currently expensive relative to the delivered price of conventional energy sources. Enabling investors to sell excess electricity at the real-time market price, and subject to distribution or other charges reflecting limited demand on low voltage networks, is key to their cost effectiveness: the use of smart meters in microgeneration installations is an important enabler.[^33] Appropriate regulatory frameworks for energy markets and distribution networks are also important to achieving a level playing field.
+
+Incentives to consumers and energy suppliers could accelerate the reduction of technology costs and promote diffusion. Finally, relaxation of planning rules also has the potential to reduce transaction costs and promote network effects through heightened awareness of these technologies.
+
+Spacial and strategic planning can affect patterns of energy consumption. Higher-density urban environments, for example, typically consume less energy for transport and in buildings. In addition, land use controls such as restrictions on the availability and pricing of parking spaces, the use of pedestrian zones and parks, and land use zonal strategies (including congestion charging), have the potential to support integrated public transport to reduce the use of private motor vehicles.
+
+%%page 385%%
+
+Higher energy prices and rising congestion require central and municipal planners to develop mass transit systems to cope with inner city and suburban traffic such as: bus rapid transit, urban trams and relatively cheap light railway systems, in addition to subways for larger, higher density metropolitan centres. Such systems lead to large gains in energy efficiency and reduced emissions as passengers transfer from private cars to public transport.
+
+The development of Dongtan in China provides an important example of the potential for sustainable urban development across the rapidly urbanising transition and developing economies of the world (see Box 17.4).
+
+Box 17.4 Dongtan, Eco-City, Shanghai
+
+Dongtan is situated on Chongming Island off the coast of Shanghai. This rural area is undergoing a rapid economic transformation into an 'eco city', facilitated by the construction of the Shanghai Yangtze River Tunnel bridge, which began in 2004, linking this region directly to the Shanghai conurbation.
+
+Project engineers at Arup are working with Shanghai Industrial Investment Company to develop and construct Dongtan, an 86-square kilometer project, into a prosperous city which achieves a stable balance between economy, society and the environment. The city is being developed in phases but is expected to have a population of 25,000 by 2010 and around 80,000 after 2020, growing to a total of several hundred thousands in the longer term.
+
+Dongtan will have highly energy efficient buildings powered by renewable energy sources including wind, solar and biofuels. Its energy intensity will be reduced through the use of passive energy systems: for example by making full use of natural sunlight to light public and private spaces or by varying the heights of buildings to reduce heating and cooling arising from adverse weather conditions. In addition, its waste will be recycled and composted.
+
+Chinese policy makers and planners have been impressive in scaling up best practice to help achieve their objective to reduce the ratio of energy demand to output by 20% over 5 years. In the case of Dongtan, a high-speed rail link to Shanghai is planned, while the city itself is being designed in a compact, inter-linked way, supported by mixed patterns of land use, and a network of pedestrian and cycle routes, in order to reduce the demand for private motorised transport (and associated infrastructure costs).[^34]
+
+#### 17.4 Policy Responses: Information policy
+
+***Information policies can achieve a number of objectives.***
+
+Well-designed information policies can:
+
+- Provide people with a fuller picture of the economic and environmental consequences of their actions;
+- Stimulate and provide the framework for market innovation and competition in environmentally friendly goods and services, for example through performance indicators and labels;
+- Reduce the transaction costs associated with investments, by providing information on the energy use characteristics of different products or processes;
+- Prompt people to take responsible action, by informing them about the wider implications of their choices and by highlighting public policy priorities.
+
+Information policies take a number of forms. This section discusses a few generic types and their potential market applications including: labelling and certification, billing and metering, and policies to disseminate best practice.
+
+%%page 386%%
+
+***Labels, certificates and endorsements raise the visibility of energy costs in investment decisions, promote innovation in product markets, and support procurement initiatives.***
+
+The energy use, costs and environmental consequences of purchasing decisions commonly have low visibility, particularly when compared to the purchase price of a good.[^35] Where such labels do exist, they can have a significant impact on consumer behaviour: organic certification and the FAIRTRADE mark are two examples (see Section 17.7 discussion of preferences for environmentally and socially responsible production and consumption).
+
+In the field of energy efficiency, labels, certificates and endorsements support more rational purchasing decisions, by allowing people to make comparisons between competing goods on the basis of their operating cost and environmental impact. They also make it cheaper and easier for firms or the public sector to implement sustainable procurement policies.
+
+Box 17.5 highlights a number of successful schemes. These vary in design, and include labels giving comparative information on energy use, and endorsements which state that a product meets a particular standard.
+
+There are considerable opportunities for broader or more stringent application of performance and endorsement labels in key product areas such as: domestic lighting, consumer electronics, white goods, electric motors, boilers, air conditioning units, and office equipment.[^36] Biogas is an example of an agricultural product that could have value as a renewable substitute for fossil fuels; establishing product standards supported by labelling can allow consumer demand to help to create this market.
+
+The cost and regulatory burden of such measures should be taken into account when designing them; Section 17.6 outlines key principles for effective design and management. Such measures may be much more powerful if they are applied at an international level. The issues involved in this are discussed in Chapter 24.
+
+%%page 387%%
+
+Box 17.5 Successful Labels, Certificates and Endorsements in the US and EU
+
+USA: The US Energy Star one of the best-known information and endorsement programmes, applying to over 30 products. It is estimated to have delivered annual savings of US$4.9 billion savings in 2002 (an increase of almost 30% over 2001). This is targeted to rise to US$55 billion in 2010 and US$140 billion in 2020.[^37]
+
+EU: The introduction of an EU labelling scheme on refrigerators is estimated to have delivered one-third of the 29% improvement in the energy efficiency of refrigeration products between 1992 and late 1999.[^38] The figure below shows a clear and strong evolution of the market toward higher-efficiency products since the introduction of the EU label (contrasting favourably with the predominantly flat efficiency trends immediately prior to its announcement).
+
+Impact of the EU refrigerator energy label: sales of refrigerators in the EU by energy label class, 1992-2003.
+
+***Regular and accurate energy billing, as well as displays and smart meters have the potential to promote conservation among energy users and reduce the operating costs of utilities.***
+
+Giving individuals and firms accurate and timely information on their energy use can act as a spur to investment in energy efficiency and the adoption of energy saving behaviours. New technologies are now available which have the potential to make this a much more powerful tool.
+
+- Energy bills are most effective when they are regular, accurate, and informative. Bills which reveal historical patterns of energy consumption, and/or details on how consumption levels compare with a similar household or firm, are potentially effective in encouraging a response;[^39] However, many people receive irregular bills, which are often based on estimated levels of consumption.[^40] This problem is most prevalent among those consuming small and moderate quantities of energy such as households, small firms and those in non-energy intensive, service, or public sectors;
+
+%%page 388%%
+
+- Real time electricity displays inform consumers on energy consumption levels (and associated costs) directly and in real time. Estimated to cost in the region of £2-6 annually over 5 years,[^41] they have been successful in encouraging energy conservation behaviours among households resulting in average reductions of 6.5% (net of technology costs).[^42] Further development of a comparable display technology for metered gas supplies might extend these opportunities;
+- Smart meters provide customers with sophisticated energy price and cost information. Those with "time of use" functionality enable flexible energy pricing. This allows suppliers to impose a higher price for peak-time energy, resulting in load shifting and consequently reducing base load capacity needs. Trials in California, for example, indicated reductions in peak period energy use by residential customers of between 8% and 17%;[^43]
+
+Smart meters with an 'export facility' encourage the diffusion of micro-generation capacity by enabling people to be paid at a different rate for the supply of their electricity into the local distribution network - which is critical to the cost effectiveness of these technologies in the medium term. Purchase and installation of smart meters are estimated to cost between £40 and £180 depending on function.[^44] In addition to savings enjoyed by customers able to reduce peak level demand, Californian utilities recovered over 90% of the initial technology cost through savings made in metering, billing and systems.[^45]
+
+***Sharing best practice encourages and enables individuals and firms to increase energy efficiency.***
+
+The energy efficiency of individuals and firms often varies widely within the same market. In transport, for example, particular styles of driving are more efficient than others. An in-car technology known as gear shift indicators which informs motorists when they should change gear in order to maximise fuel efficiency for any given engine speed could improve fuel economy by up to 5%.[^46] In addition, methodologies for identifying best practice, for example through benchmarking, also have the potential to support wider policies on mitigation (see Box 17.3).
+
+In the buildings sector, for example, large numbers of poor quality and inefficient buildings are constructed despite the existence of a range of cost effective technologies and design techniques. Training architects, designers and construction technicians on the principles and application of 'sustainable' design and efficient technologies, and on relevant policy frameworks develops market capacity to supply efficient buildings. However, coordinating different elements of the construction industries is a key barrier.[^47]
+
+The long term cost effective energy efficiency potential of a building is heavily determined by decisions made at the design phase (although there are widespread opportunities to retro fit technologies especially given the lengthy capital replacement cycle of buildings and often low performance of existing stock). As such, polices which target this window of opportunity may have significant potential to reduce emissions from buildings, especially in fast growing construction markets.
+
+In the UK, the Carbon Trust, an independent but largely publicly funded company provides a range of advisory services to business of all sizes as well as the public sector. In 2005/06, the organisation helped its customers save between 1.1 and 1.6 MtC02 and identify potential savings of 3.9 MtC02 annually at an average lifetime programme administration cost of £5- 7/tC02.[^48]
+
+%%page 389%%
+
+Box 17.6 Benchmarking: driving conservation and facilitating mitigation policy
+
+Benchmarking enables sharing of best practice and helps identify and encourage energy conservation opportunities. For example, the G8 communiqué from Gleneagles 2005 called on the IEA to benchmark the most efficient coal fired power stations and to identify ways of sharing best practice globally.[^49] As previously outlined, benchmarking consumption patterns on energy bills has the potential to drive conservation among consumers and firms.
+
+In addition, benchmarking methodologies facilitate the formulation and delivery of mitigation policies. For example, the UK used benchmarking to determine the allocations for new installations in the first phase of the EU ETS, and extended the methodology to incumbent large electricity producers in phase II. Under this approach, plants received emissions rights based on their capacity, output, and the carbon intensity of the particular generating technology. Individual emission rights were then reduced by a common factor calculated to meet the sector-wide cap. This provides an alternative approach to the allocations based on either the historic or projected emissions from individual installations (see Chapter 15 for issues on trading schemes and allocations). In addition, benchmarking can be instrumental in determining a baseline upon which to formulate voluntary agreements (see Box 23.6 on the 1000 enterprises scheme in China), or establish an accreditation process under any technology based application of the CDM (see Box 23.5).
+
+Information provision, in conjunction with policies to deliver appropriate energy pricing, has strong potential to elicit energy savings. However, realising this requires effective intervention targeted across a broad range of sectors and economic activities.
+
+#### 17.5 Policy responses: Financing Mitigation
+
+***Investment by the private sector in efficiency measures is central to raising efficiency; governments have a limited but important role in supporting this.***
+
+Private investment is key to transforming the efficiency of energy-using markets. Generally speaking, if energy efficiency measures have a positive net present value there is little case for governments to intervene directly in their financing. For example, it should be a decision for energy supply companies whether to invest in facilitating demand reductions among customers or additional generating capacity depending on assessments of relative cost effectiveness.
+
+In general, it is preferable to tax negative externalities rather than subsidise preferable outcomes.[^50] Where possible, it is desirable to foster solutions to barriers or market imperfections, such as capital or technology market failures, at source for example, through markets for insurance or microcredit.[^51] However, where such options are not available, carefully targeted provision of direct financial incentives such as loans, subsidies, and tax rebates are appropriate, in particular where:
+
+- Capital market failure: Households or firms face a shortage or lack of access to capital. This may be particularly relevant to poorer households and to firms in developing countries (see Chapter 23 in relation to financing international energy efficiency). Alternatively, larger scale private investment, for example in major infrastructure projects, may be limited due to long return periods or a lack of credibility in carbon markets:
+
+%%page 390%%
+
+- Technology market failure: Support may significantly reduce long run technology costs. For example, direct support for next generation lighting technologies or micorgeneration technologies may increase the overall emissions reduction potential of the buildings sector by promoting economies scale markets and encouraging innovation for these technologies;
+- Delivery of wider policy objectives: Financial support can create opportunities to deliver wider climate-related or social policy objectives. For example, in providing financial incentives, for example on building insulation, it may also be possible deliver information on a wider range of technologies such as advanced window glazing or lighting control systems. Alternatively, revenue from energy taxation or trading schemes may be used to overcome distributional and other perverse effects of policy.
+
+There are examples in which incentives such as loans, subsidies, and tax rebates by public bodies, non-governmental organisation or energy suppliers have delivered significant energy savings: US demand side management programmes (of which the majority are financial incentives), for instance, saved approximately $1.78 billion of energy in 2000. This is at a cost equivalent to 3.4 cents kWh (less than half of the cost of end use consumption).[^52] The Carbon Trust offers interest-free loans to small and medium sized firms in the UK to purchase energy efficient equipment. These realised 25 kT of CO2 reductions in 2005/6 at a lifetime programme cost of £9 t/C02.[^53] Box 17.7 outlines an example in which information provision and financing support can help overcome barriers to reducing emissions from agriculture.
+
+Box 17.7 Support for Deployment of Anaerobic Digesters in US Agriculture
+
+Anaerobic digesters store manure and allow it to decay in the absence of oxygen, producing biogas (a mixture of methane and CO2) which can be captured and combusted as an alternative to fossil fuels. Furthermore, heat generated in the process can be used, for example, to warm water or livestock units. The digestion process may also increase the value of the manure as a fertiliser.
+
+Barriers to the uptake of this technology include upfront investment costs (estimated to be $500-600/cow)[^54]; lack of information about the technology; high transaction costs associated with using the biogas as a power source; and planning regulations on the building of anaerobic digestors.
+
+In the US, the AgSTAR programme encouraged the adoption of this technology by providing information to farmers.[^55] State and federal funding was also made available in the form of interest subsidy payments, tax exemptions and loans.[^56] In the last two years, the number of digesters in the US has more than doubled, reducing emissions by 0.6 MtCO2e annually and generating 120 million kWh of energy.[^57]
+
+Specialist management by energy service companies has the potential to reduce the cost of conserving energy among both private and public sector organisations (compared to a direct delivery mechanism). This is set out in Box 17.8 below.
+
+%%page 391%%
+
+Box 17.8 Energy service contracting
+
+Energy service contracting is a form of financial market transformation in which responsibility for designing, managing, or financing energy-using processes is outsourced to a third party (commonly known as an energy service company). In return, the company receives direct payment or a share of the financial benefits of delivered energy savings.
+
+Energy service contracting can reduce energy costs by employing economies of scale and specialisation to overcome failures and barriers both within, and external to, industrial, commercial, public sector clients and, occasionally, households. Individual contracts vary widely but service companies may undertake audits, invest, install and/or manage energy systems.
+
+Energy service markets are well established in countries such as the US, Germany and Austria. They are difficult to define but it is estimated that the US energy services industry has brought $8-15billion in net benefits.[^58] In London, energy service contracting is at the heart of urban planners strategy to deliver low carbon energy solutions.[^59]
+
+Policy makers create the conditions for these markets to develop by: encouraging efficient energy and carbon markets, enabling service companies to access markets in public sector efficiency and by acting to facilitate local availability of capital (see Chapter 23 in relation to financing international efficiency).
+
+***Public sector investment in energy conservation has the potential to both reduce emissions and save public money***
+
+Public authorities are commonly the largest energy consumers in an economy, typically 10– 20% of gross domestic product in both industrial and developing countries and a similar share of building floor space, energy use, and greenhouse gas emissions.[^60]
+
+There is widespread potential for cost-effective energy conservation across government buildings and state owned industrial facilities. For example, the public sector emits approximately 11% of the UK's total carbon emissions, and it is estimated that over 13% of this could be saved in a cost effective way.[^61]
+
+Raising energy efficiency in the public sector can both save public money and reduce emissions. In addition, there may be indirect benefits through fostering innovation and change across the supply chain, and demonstrating the desirability of, and potential for, action to wider society. Woking is an example of how effective this can be Box 17.9).
+
+%%page 392%%
+
+Box 17.8 Woking Borough Council
+
+Woking Borough Council is at the forefront of local authority efforts to tackle climate change in the UK.[^62] In 2002, the Council adopted a comprehensive Climate Change Strategy designed to reduce greenhouse gas emissions, adapt to climate change, and promote sustainable development.
+
+Between 1991 and March 2005, the Council's policies reduced energy consumption by almost 51% and carbon dioxide emissions by 79% across its own buildings. Between, March 2004 and March 2005, the Council purchased 82% of its electrical and thermal energy requirements from sustainable sources.
+
+In 1999, the Council established an energy services company, Thameswey Energy Ltd., in conjunction with a commercial business partner, to finance sustainable and renewable energy projects. It has been instrumental, for example, in enabling the Council to install the town centre Combined Heat and Power station, which provides electricity, heat and power to the Civic Offices, the Holiday Inn Hotel and a number of other town centre customers. The Council also has a number of PV projects, accounting for approximately 10% of the UK's total installed capacity.
+
+Woking Council is taking a leading role in promoting energy conservation and reducing carbon intensity across the municipality. It sponsors an energy efficiency advice centre, which provides free energy saving advice to residents. Furthermore the Council is currently investigating, in conjunction with Thameswey Ltd., the potential to deliver a number of wind turbines installations together with 1,000 low carbon homes with embedded micro generation across the Borough.
+
+However, many of the barriers outlined in the earlier part of this chapter apply to the public sector, including capital constraints, information failures, landlord-tenant incentive failures, as well as institutional and behavioural barriers. Key issues in raising public sector efficiency include:
+
+- Allocating resources and overcoming capital constraints: Short-term budgeting processes in the public sector may hinder the delivery of energy efficiency. Private sector energy contracting may also be useful in leveraging private investment in the public sector (see Box 17.9 for examples of such partnerships in London and Woking);
+- Establishing targets on energy efficiency: As in the private sector, high-level targets can overcome behavioural and institutional barriers by focusing management attention and establishing accountability for delivery. Grading and comparisons between government departments and public organizations can further promote this competitive dimension;
+- Driving efficiency through public sector reform: Reform of public services and state- owned enterprises, including the closure of inefficient facilities or their merging under more effective management, can directly drive energy efficiency. Examples include industrial restructuring and consolidation in China's iron and steel industry, and the power sector reforms discussed in Chapter 12;
+- Coordinated investment and planning of infrastructure and energy systems: Coordinating systems such as water, waste, transport, and power can achieve energy savings. For example, planners in London are introducing cooling systems onto the underground network using absorption chilling technologies which convert waste heat from the buildings above;
+
+%%page 393%%
+
+- Driving efficiency through procurement: Governments are major procurers of energy using products (the US federal government alone accounts for 10% of the total market for energy using products).[^63] Purchasing life-cycle cost-effective products reduces future public expenditure, as well as fostering innovation and driving the wider market in energy efficient products (see Box 17.10).
+
+Box 17.9 Driving Efficiency through Procurement
+
+Since 1999, US guidelines have been in place requiring federal agencies to purchase Energy Star products over alternatives and, in product categories not covered by the endorsement scheme, only those products in the upper 25% of the distribution of efficiencies in the product class. It is estimated that this commitment will save between $160 and $620 million (or between 3% and 12% of total energy use in federal buildings) by 2010.[^64] The size of the federal market delivers high participation rates among manufacturers: an estimated 95% of monitors, 90% of computers and almost 100% of printers sold are Energy Star compliant.[^65]
+
+Several US state and municipal governments have helped fuel market changes by adopting the federal efficiency criteria for their own purchases. If agencies at all levels of government adopt these same criteria, estimated electricity savings in the US would be 18 TWh/year, allowing government agencies (and taxpayers) to save at least US$1 billion/year on their energy bills.[^66]
+
+The PROST study concluded that, for the EU as a whole, public sector investments of about €80 million/year in program management and incremental purchase costs for buying energy-efficient products could reduce annual government energy costs by up to €12 billion/year.[^67]
+
+#### 17.6 Policy Delivery
+
+***Effective policy appraisal, design, implementation and management is essential in keeping down the costs and maximizing the effectiveness of policies to promote energy efficiency to firms, consumers and governments***
+
+This section outlines general principles of policy delivery which help to reduce the costs to consumers, firms and governments and raise the effectiveness of polices to promote energy efficiency. In particular, it focuses on issues relating to the delivery of energy efficiency labelling, certification and endorsements as well as performance standards. Key principles are:
+
+- Effective policy signalling: Paradoxically, the mark of a low-cost policy action is often the absence of an observable step-change in market behaviour, where planning, investment and market delivery mechanisms are allowed to respond, within normal economic cycles and in advance of the enforcement date. Good policy communication is essential to this process. Evidence of pre-commitment, perhaps in the form of voluntary agreements, throughout the supply chain indicates market preparedness. For example, transparent USA/ EU negotiations to revise Energy Star specifications for information and communication technologies (ICT), supported by a well informed dialogue with industry and experts on the technical potential, is expected to result in a very high level of compliance (with minimal impact on the price of new equipment) in advance of the new standards coming into force in Summer 2007;
+- Policy appraisal and prioritisation: Thorough engineering, market and economic assessments of the likely costs and benefits of individual policy approaches enable strategic decisions on policy priorities.[^68] Many product markets, such as those for appliances or ICT, are extremely dynamic, requiring regular re-appraisal of policy priorities. For example, the EU market for mobile phones has grown from hundreds of thousands to tens of millions in just a few years. Policy makers will need to respond to the challenge of rapid growth in demand for products such as: ICT technologies, power supplies, and digital television reception platforms ('set top boxes');
+
+%%page 394%%
+
+- Monitoring and flexibility: Careful and regular evaluation helps sustain a positive balance of costs and benefits throughout the lifecycle of a policy. As set out in Chapter 15, a degree of flexibility is required at the design stage to allow for a response to changing circumstances; for example, as a result of the success of the EU labelling scheme on refrigerators outlined in Box 17.5, the market is now saturated with 'A' performance graded products requiring the introduction of A+, A++ performance classifications;
+- Verification and reporting: Well-defined testing protocols and procedures are particularly important foundations for the implementation of labels, endorsements and standards. Sound verification processes are essential to maintain policy credibility among producers, intermediaries, consumers and governments. For example, poor compliance is commonly cited as the key barrier increasing energy savings from building regulations, particularly in the developing world and transition economies where supporting institutional frameworks are typically weaker.
+
+Policies can be mandatory, the subject of a voluntary agreement between public authorities and industry, or industry led. None of these approaches is universally preferable or appropriate. Regulatory policies may depend on the tacit agreement of industry and end- users. Voluntary strategies typically depend on implicit of explicit policy commitments to support the desired market transition, for example by regulatory underpinning or other sanctions. The choice of implementing strategy depends on:
+
+- Political culture of the implementing country: public authorities often prefer to mandate policy to increase certainty around policy delivery. However, countries such as Japan have a strong culture of implementing policy based on voluntary consensus, which has been successful in ensuring high compliance with its Top Runner programme (see Box 17.2);
+- Market structure: Voluntary agreements may be more readily achievable where capacity is concentrated among relatively few producers or retailers (and where there is some form of recognition of that commitment by government in its broader policy). For example, an EU voluntary agreement on set top boxes[^69] has been successful in raising energy efficiency of satellite and cable platforms following support from major service providers. However less complete coverage of the more disparate market for freeview platforms, coupled with tough price competition, has resulted in relatively weaker improvements in standby and operating performance;
+- Implementation cost: Regulatory approaches may be expensive to implement in some sectors. In agriculture, for instance, enforcement of regulations could be costly because sources of emissions are diffuse. Developing countries, in particular, may not have resources to establish or strengthen the required institutional structures or allocate appropriate resources more generally. However, the long run costs of inaction are often higher;
+- Timing: Voluntary or industry led agreements may be quicker to implement, which may be useful where product markets are growing quickly or unexpectedly. Regional or international action may take longer to organize than national action, but may be more powerful. Government objectives may be delivered faster and more efficiently by participating in and influencing established co-operative structures (for instance EU adoption of certain Energy Star protocols – see Box 17.4 for an outline of Energy Star and Chapter 24 for details on international policy management);
+
+%%page 395%%
+
+- Delivery risk: Information asymmetries between firms and governments on the costs and potential for innovation mean that voluntary and industry led measures may not achieve the full cost effective energy savings potential.[^70] Investment in data collection help support more ambitious, cost-effective policy.[^71]
+
+The IEA publication on 'Labels and Standards' (2000) provides a useful outline of key principles and steps for developing policy while its report entitled 'Cool Appliances: Policy Strategies for Energy-Efficient Homes' (2003) is an excellent guide to consumer product markets. International aspects of the design, implementation and monitoring of tests and standards are outlined in Chapter 24).
+
+#### 17.7 Building a shared concept of responsible behaviour
+
+***Individual preferences play a key role, both in shaping behaviour, and in underpinning political action***
+
+Most of economics assumes that individuals have fixed preferences and systems of valuations. It then examines policy largely in terms of 'sticks' and 'carrots', with the objective to increase welfare relative to this given set of preferences. This theory is powerful and central to most of the analysis of this Review, however it does not reflect the whole story.
+
+Much of public policy is actually about changing attitudes. In particular, there are two broad areas where policy makers may focus in the context of climate change: seeking to change notions of responsible behaviour, and promoting the willingness to co-operate. Examples of the former in other areas include policies towards pensions, smoking and recycling while those of the latter include neighbourhood watch schemes on crime and community services more generally.
+
+In the case of climate change, individual preferences play a particularly important role. Dangerous climate change cannot be avoided solely through high level international agreements; it will take behavioural change by individuals and communities, particularly in relation to their housing, transport and food consumption decisions.[^72] There is clear evidence of shift towards environmentally and socially responsible consumption and production. For example, global sales of Fairtrade products increased by 37% to €1.1 billion in 2005.[^73]
+
+The actions and attitudes of individuals also matter when it comes to international collective action by governments. The most important force that will generate and sustain this action is domestic political demand in the key countries or regions (see Chapter 21 for discussion of collective action issues). Policies should therefore aim to create a shared understanding of the key issues. This is again an area where "policy" cannot be confined to the sticks/carrots and structural analysis standard in economics, although to emphasise once more that these approaches are absolutely crucial and, indeed, underlie most of the policy analysis of this report.
+
+Refusing to move the argument beyond one of 'sticks' and 'carrots' would miss much that is important to policy formation on climate change. Alongside the influence of preferences in the community, leadership by governments, businesses and individuals is important in demonstrating how change is possible.
+
+%%page 396%%
+
+***Governments can help shape preferences and behaviour through education, persuasion and discussion***
+
+Crude attempts by government to "tell people what's best for them" tend to fail, and in any case raise ethical problems (see Chapter 2). The acceptability of "persuasion" requires public debate.[^74] This dialogue may involve a range of actors, including the public sector, communities and individuals, NGOs, the media, and business. The public authorities can play a key role in helping to bring these elements together. For "government by discussion" as advocated by John Stuart Mill to work well, evidence and balanced argument which cuts through the complexity are crucial.
+
+Polices designed to change preferences raise issues around the moral authority for action. There are examples of unacceptable public actions, such as deliberate misinformation in propaganda campaigns. However, most would view action to promote the understanding of climate change as appropriate – and, in fact, would view a failure to do so as irresponsible. This requires bringing to public attention the interests of those who might be ignored, such as future generations and those in poorer countries, and thinking through consequences of actions, as opposed to advancing the interests of narrow groups or excluding sections of the population.
+
+The way in which issues and responses are communicated is critical. However, evidence suggests that people often see climate change discourse as confusing, contradictory and chaotic:[^75] some approaches are alarmist, emphasising the scale of the problem (often rightly) but failing to acknowledge the potential for real action in response; others cast doubt on the human causes of climate change or optimistically assume that no response is necessary (Box 21.6 outlines public attitudes to climate change internationally.
+
+Effective climate change discourse creates the conditions for positive behaviours by:
+
+- Clear exposition of the existence and causes of the problem;
+- Emphasising the potential for action using simple, positive messages. In particular, by tackling the disparity between the scale of the problem and the potential actions of households and firms so that the necessity of individual responses is broadly understood;
+- Targeting groups which share values (rather than demographics), working with individuals and community leaders to disseminate key messages, and using both evidential and moral arguments to engage people.
+
+Ultimately, climate friendly behaviour will have to become well understood and highly valued (not simply the subject of campaign issues) in order for it to become a mass phenomenon.
+
+Schools have an especially important role. Educating people from an early age about how our actions influence the environment is a vital element in promoting responsible behaviour. Creative and practical ways can be found to help pupils translate the study of climate change into actions in their everyday lives. For instance, practical examples of sustainability, such as installing wind turbines in school grounds, can help to provide pupils both with an understanding of the consequences of their actions and a tangible example of how behaviour, incentives and technologies can provide solutions.
+
+***Responsible behaviour can be encouraged through leadership***
+
+Building a shared understanding of the problem, and of what responsible action means, is a key element in action. Leadership by the public sector, business, investors, communities and individuals can provide reassurance not only that action is possible, but also that it often has wider financial and other benefits.
+
+%%page 397%%
+
+Actions by central, regional and local governments and cities can have important demonstration effects that can be influence wider action, both by other governments and by the general public. Box 17.11 outlines California as an example of an administration which has deliberately positioned itself as a leader, both in order to gain economic advantage through efficiency gains and technology development, and to inspire action both by its citizens and elsewhere.
+
+Box 17.10 California: treating energy efficiency as a resource
+
+California is the sixth largest economy in the world and has a long history of successful energy efficiency and conservation programs including building and appliance standards, and demand side reduction by the state's investor-owned and publicly owned utilities. This has resulted in lower energy intensity compared with other states or the country as a whole. Many of California's policies have been forerunners to federal government interventions establishing, for example, the nation's first standards for residential and non-residential buildings in 1978.
+
+As of 2004, the state's Building and Appliance Standards and energy efficiency incentive and education programs have cumulatively saved more than 40,000 GWh of electricity and 12,000 MW of peak electricity, equivalent to 24 500 MW power plants. This has also increased fuel security, improved the competitiveness of its businesses, and saved consumers money.
+
+In 2004, the California authorities adopted a set of aggressive energy conservation goals designed to help save the equivalent of 30,000 GWh between 2004 and 2013. If achieved, this would meet up to 59% of the investor-owned utilities' additional electricity requirements, and increase natural gas savings by 116% over the period.
+
+To help support the delivery of these goals, the authorities have significantly increased allocations of public funding for cost effective energy efficiency programs to reduce peak electricity demand and increase natural gas efficiency. In addition, new appliance and building standards were introduced in 2005.[^76]
+
+A rapidly growing number of businesses are taking action on climate change policy. As discussed in Chapter 12, many are motivated by the desire to combine environmental responsibility and business profitability by increasing the energy efficiency of their business operations, or entering fast-growing environmental technology markets. The Carbon Disclosure Project provides evidence of a growth in the desire of businesses to report carbon footprints to investors.[^77]
+
+Many are also deliberately positioning themselves as leaders in this area. This may be driven by a desire to demonstrate responsible behaviour to the public and investors and use their leadership position to influence both government policy the conditions in which other businesses operate. For example, the Corporate Leaders Group on Climate Change recently called upon the UK Prime Minister to take bold steps to reduce climate change.[^78]
+
+Investors can also be a powerful voice for responsible action by businesses. The Socially Responsible Investment (SRI) movement grew out of a desire from individuals and organisations such as churches to invest their money in a way compatible with their own beliefs about what responsible behaviour means. Funds managed using some element of SRI principles have grown rapidly, with US assets under management totaling $2.29 trillion, almost 10% of assets under management in that country.[^79]
+
+%%page 398%%
+
+More recently, concerns about how businesses treat social, ethical and environmental issues have become a more mainstream issue for investors, with a growing appreciation that failing to take account of these risks can directly threaten a company's financial health and reputation, for example, California state administration recently filed a law suit against 6 major vehicle manufacturers for alleged contributions to climate change. Organisations such as the Investor Network on Climate Risk in the US, and the Institutional Investor Network on Climate Change, have brought together concerned investors to have a dialogue with businesses on how they are responding to the challenge of climate change, and to encourage those who have neglected the issue so far to give it their active consideration.
+
+#### 17.8 Conclusion
+
+Widespread failures and barriers in many relevant markets result in significant untapped energy efficiency potential in the buildings, transport, industry, agriculture and power sectors. These obstacles mean it is necessary to go beyond policies to establish carbon markets and encourage technological research, development and diffusion.
+
+Regulation can stimulate innovation by reducing uncertainty for innovators; encourage investment by increasing the costs and commercial risks of inaction for firms; reduce technology costs by facilitating scale economies, and influence more efficient outcomes in markets such as buildings, transport and energy using products. Policies to promote information, for example through labels, education programmes or technologies such as smart meters and real time displays, can encourage and develop capacity among households and firms to change their behaviour or make investments in energy savings.
+
+Private investment is key to transforming the efficiency of energy-using markets. Generally, policy should seek to tax negative externalities rather than subsidise preferable outcomes, and address the source of market failures and barriers wherever possible (although there are cases for limited direct financial support to firms and individuals). Investment in public sector energy conservation can reduce emissions, improve public services, foster innovation and change across the supply chain and set an example to wider society.
+
+Individual preferences play a key role, both in shaping behaviour and demand for goods and services affecting the environment, as well as in underpinning political action. Public policy on climate change should seek to change notions of what responsible behaviour means, and promote the willingness to co-operate. Education and promotion of clear discourse on the potential risks, costs and benefits together with leadership by the governments, businesses, investors, communities and individuals on the potential for action is critical.
+
+%%page 399%%
+
+#### References
+
+The general reader seeking an overview of markets for energy efficiency should refer to the IEA's Energy Technology Perspectives 2006, which provides extensive information about failures and barriers, technological solutions, and policy options in sectors such as buildings, transport and industry. The Carbon Trust's publication for the UK Climate Change Programme, The UK Climate Change Programme: Potential Evolution for Business and the Public Sector, also provides a useful framework for understanding energy efficiency in different markets which can be applied more broadly. Chapter 6 of Michael Hanneman's Managing Greenhouse Gas Emissions in California, informs the reader on a range of issues relating to energy efficiency including the debate between economists advocating market failures versus market barriers as a basis for policy intervention. The IEA's publication, the experience of energy saving policies and programmes in IEA countries: learning from the critics, highlights many of the criticisms commonly leveled at policies to promote energy efficiency and provides a useful introduction to more policy focused literature.
+
+Bellas, A. S. (1998): 'Empirical evidence of advances in Scrubber Technology,' Resource and Energy Economics, 20:4 (December): 327-343
+
+Bertoldi, P. (2000): 'European Union efforts to promote more efficient equipment', European Commission, Directorate General for Energy, Brussels: EC.
+
+Blumstein, C., and B. Kreig, L. Schipper, C. York. (1980): 'Overcoming social and institutional barriers to energy efficiency', Energy 5 (4): 355-372
+
+Cadot, O., and B. Sinclair-Desgagne (1996): 'Innovation under the threat of stricter environmental standards', in Environmental Policy and Market Structure, C. Carraro et al. (eds)., Dordrecht: Kluwer Academic Publishers, pp 131–141.
+
+Carbon Trust (2005): 'The UK Climate Change Programme: potential evolution for business and the public sector'. London: The Carbon Trust.
+
+DeCanio, Stephen J. (1998): 'The efficiency paradox: bureaucratic and organizational barriers to profitable energy-saving investments.' Energy Policy 26 (5), April: 441-454
+
+Darby, S. (2000): 'Making it obvious: designing feedback into energy consumption'. Proceedings, 2nd International Conference on Energy Efficiency in Household Appliances and Lighting. Italian Association of Energy Economists/ EC-SAVE programme.
+
+Darby S. (2006): 'The effectiveness of feedback on energy consumption'. A review for Defra of the literature on metering, billing and direct displays, London: Defra.
+
+Dixit, A. K., and R. S. Pindyck (1994): 'investment under uncertainty'. Princeton, New Jersey: Princeton University Press.
+
+Eide, A. and W. Kempton (2000): 'Comparative energy information in the US: lessons learned from a pilot innovative billing program', presented at AIEE 2nd International Conference on Energy Efficiency in Household Appliances and Lighting, Naples, Italy.
+
+Geller, H. and S. Nadel (1994). 'Market transformation strategies to promote end-use efficiency.' Annual Review of Energy and the Environment 19: 301-46
+
+Gillingham, K., R. Newell and K. Palmer (2004): Retrospective examination of demand-side energy efficiency, Washington, DC: Resources for the Future.
+
+Goldman, C., N. Hopper, J. Osborn, and T. Singer (2005): 'Review of U.S. ESCO industry market trends: An Empirical Analysis of Project Data', LBNL-52320. January 2005, Berkeley, CA: Lawrence Berkeley National Laboratory.
+
+Goldstein, D. (2002): 'Theoretical perspectives on strategic environmental management'. Journal of Evolutionary Economics 12: 495-524
+
+%%page 400%%
+
+Gollop, F.M., and M.J. Roberts (1983): 'Environmental regulations and productivity growth: The case of fossil-fueled electric power generation', Journal of Political Economy 91: 654–674
+
+Golove, W.H. and J.H. Eto. (1996): 'Market barriers to energy efficiency: a critical reappraisal of the rationale for public policies to promote energy efficiency'. LBL-38059. Berkeley, CA: Lawrence Berkeley National Laboratory.
+
+Greening, L.A., A.H. Sanstad and J.E. McMahon. (1997): 'Effects of appliance standards on product price and attributes: an hedonic pricing model'. Journal of Regulatory Economics 11: 181- 194
+
+Grubb, M.(1990): 'Energy policies and the Greenhouse Effect, vol.1 Policy Appraisal', Dartmouth: Chatham House.
+
+Hanneman (2005): 'Managing greenhouse gas emissions in California', Berkeley, CA: California Climate Change Center.
+
+Harris, J., et al. (2005): 'Public Sector Leadership: transforming the market for efficient products and services', in Proceedings of the 2005 ECEEE Summer Study: Energy Savings: What Works & Who Delivers? May 30 - 4 June, Mandelieu: ECEEE.
+
+Harris, J., and F. Johnson (2000): 'Potential energy, cost, and C02 savings from energy-efficient government purchasing', in Proceedings of the ACEEE Summer Study on Energy-efficient Buildings, Asilomar, CA: ECEEE.
+
+Harris, J., et al. (2004): 'Energy-efficient purchasing by state and local government: triggering a landslide down the slippery slope to market transformation', in Proceedings of the 2004 ACEEE Summer Study on Energy Efficiency in Buildings, Asilomar, CA: ECEEE.
+
+Harris, J., et al. (2003): Using government purchasing power to reduce equipment standby power. In: Proceedings of the 2003 ECEEE Summer Study, Energy Intelligent Solutions for Climate, Security and Sustainable Development, June 2-7, 2003, St. Raphaël: ECEEE.
+
+Hartman, R.S. and M.J. Doane (1986): 'Household discount rate revisited.' The Energy Journal 7(1): 139-148
+
+Hassett, K.A., and G.E. Metcalf (1995): 'Energy tax credits and residential conservation investment: Evidence form panel data', Journal of Public Economics 57:201–217
+
+Hausman, J. A. (1979): 'Individual discount rates and the purchase and utilization of energy-using durables', The Bell Journal of Economics 10(1): 33-54
+
+Hein, L. and K. Blok (1994): 'Transaction costs of energy efficiency improvement.' Proceedings. European Council for an Energy-Efficient Economy.
+
+International Energy Agency (2000): 'Labels and standards', Paris: OECD/IEA.
+
+International Energy Agency (2002): 'Reducing standby power waste to less than 1 watt: a relevant global strategy that delivers', Paris: OECD/IEA.
+
+International Energy Agency (2003): 'Cool Appliances: Policy Strategies for Energy-Efficient Homes', Paris: OECD/IEA.
+
+International Energy Agency (2005): 'The experience of energy saving policies and programmes in IEA countries: learning from the critics', Paris: OECD/IEA.
+
+International Energy Agency (2006): 'Energy technology perspectives', Paris: OECD/IEA.
+
+%%page 401%%
+
+Jaffe, A.B. and R.N. Stavins (1995): 'Dynamic incentives of environmental regulations: The effects of alternative policy instruments on technology diffusion', Journal of Environmental Economics & Management 29: S43–S63
+
+Joskow, P., and D. Marron (1992) 'What does a negawatt really cost? Evidence from utility conservation programs.' The Energy Journal 13 (4): 41-74 Kahneman, D. and A. Tversky (1992): ' Advances in prospect theory: cumulative representation of uncertainty,' Journal of Risk and Uncertainty, Springer, 5(4): 297-323, October.
+
+Kahneman, D. and A. Tversky (1986) 'Rational choice and the framing of decisions,' Journal of Business, University of Chicago Press, 59(4): S251-78, October
+
+Kahneman, D. and A. Tversky (1979) 'Prospect Theory: An analysis of decision under risk,' Econometrica, Econometric Society, 47(2): 263-91, March.
+
+Lovins, A. (1992): 'Energy-efficient buildings: institutional barriers and opportunities'. Boulder, CO: ESource, Inc. Lin, J. (2006): 'Mitigating carbon emissions: the potential of improving efficiency of household appliances in China', Berkeley, CA: Lawrence Berkeley National Laboratory.
+
+S. Meyers, J. McMahon, M. McNeil and X. Liu (2002): 'Realized and prospective impacts of U.S energy efficiency standards for residential appliances'. p. 42, June.
+
+Magat, W.A. (1979): 'The effects of environmental regulation on innovation', Law and Contemporary Problems 43:3–25
+
+Maloney, M.T., and G.L. Brady (1988): 'Capital turnover and marketable pollution rights', Journal of Law and Economics 31:203–226
+
+McCubbins, M.D., R.G. Noll and B.R. Weingast (1989): 'Structure and process, politics and policy: Administrative arrangements and the political control of agencies', Virginia Law Review 75:431–482
+
+Metcalf, G. E. 1994. 'Economics and rational conservation policy.' Energy Policy 22 (10), 81
+
+Mills, E. (2002), 'Why we're here: the $230-billion global lighting energy bill', Proceedings from the 5th European Conference on Energy Efficient Lighting, held in Nice, France, 29-31 May, pp. 369-395
+
+Nelson, R., T. Tietenberg and M. Donihue (1993): 'Differential environmental regulation: effects on electric utility capital turnover and emissions', Review of Economics and Statistics 75:368–373
+
+Newell R., A.B. Jaffe and R. N. Stavins (1999): 'The induced innovation hypothesis and energy-saving technological change', The Quarterly Journal of Economics, 114(3): 941-975
+
+Palmer, K., W.E. Oates and P.R. Portney (1995): 'Tightening environmental standards: The benefit-cost or the no-cost paradigm?' Journal of Economic Perspectives 9:119–132
+
+Sanstad, A. H. and C. Blumstein, S.E. Stoft (1995): 'How high energy-efficiency investments?' Energy Policy 23 (9): 739-743
+
+Simon, H.A. (1959): 'Theories of decision-making in economics and behavioural science'. American Economic Review XLIX: 253-283
+
+Stewart, R.B. (1981): 'Regulation, innovation, and administrative law: A conceptual framework', California Law Review 69:1256–1270
+
+Train, K. (1985) 'Discount rates in consumers', Energy-Related Decisions: A Review of the Literature.' Energy 10 (12): 1243-1253
+
+%%page 402%%
+
+Webber, C.A., R. E. Brown, and M.McWhinney (2004): '2003 status report savings estimates for the energy star(R) voluntary labeling program' (November 9, 2004). Berkeley, CA: Lawrence Berkeley National Laboratory.
+
+Wilhite H, A., Hoivik and J-G. Olsen (1999): Advances in the use of consumption feedback information in energy billing: the experiences of a Norwegian energy utility. Proceedings, European Council for an Energy-Efficient Economy, 1999.Panel III, 02, Brussels: EC.
+
+Williamson, O. E. (1981) 'The economics of organization: the transaction cost approach.' American Journal of Sociology 87 (3), November: 548-577
+
+Williamson, O. (1985): 'The economic institutions of capitalism'. New York: The Free Press
+
+Yunus, M., (1999): 'Banker to the poor: micro-lending and the battle against world poverty' New York: Public Affairs.
 
 ## Notes
 
@@ -6440,6 +9058,120 @@ Tol, R.S.J. (2005): 'The marginal damage costs of carbon dioxide emissions: an a
 
 [^16]: See, for example, Azar (2002)
 
+[^1]: This assumes no behavioural response and no substitution opportunities and 100% pass through of costs. It is in theory possible to use older full supply-use Input-Output tables and the inverse Leontief matrix to gauge the rough magnitude of higher order indirect impacts. The study has not done this, but extending the analysis to include more multipliers shows the numbers converging to zero quite quickly, suggesting this analysis offers a close approximation.
+
+[^2]: This figure is illustrative, but the impact on prices is linear so the results can be appropriately factored up/down drawn for different carbon costs. Ideally this figure should correspond with the social cost of carbon (see Chapter 13), which to put it into context, is slightly above prices quoted in the European Emissions Trading scheme – ETS – over the much of the past year. It is important to distinguish tonnes of carbon from carbon dioxide as the two measures are used interchangeably. £1/tC = £0.273/tCO2 so £70/tC = £19/tCO2. Exchange rates are calculated at 2003 purchasing power parities.
+
+[^3]: Trade intensity defined as total and exports of goods and services as a percentage of total supply of goods and services, plus imports of goods and services as a percentage of total demand for goods and services. Output is defined as gross, so the maximum value attainable is 200.
+
+[^4]: Full industry listings for all 123 Standard Industrial Classification (SIC) sectors are given in annex table 11A.1.
+
+[^5]: It is in theory possible to use older full supply-use Input-Output tables and the inverse Leontief matrix to gauge the
+
+[^6]: The exercise assumes that gas prices change in full proportion with oil prices, but that coal prices remain unchanged. In reality oil and gas prices tend to co-move as they are partial substitutes within a fossil fuel energy market and are linked contractually.
+
+[^7]: For analysis of the structure and impact of the EU ETS see: Frontier Economics (2006); Carbon Trust (2004); Grubb (2004); Neuhoff (2006); Sijm et al. (2005) OXERA (2004) and Reinaud (2004).
+
+[^8]: International Energy Agency (2005).
+
+[^9]: OECD economies account for 15% of the world's population and just over 75% of world output in terms of GDP at current prices using World Bank Statistics (2004). Use of market prices overstates the real value of output in rich countries relative to poorer countries because equivalent non-tradable output in general tends to be cheaper in poorer countries. However, in terms of ability to transfer income globally at market exchange rates, market prices are the appropriate measure.
+
+[^10]: The 'desired amount' refers to the amount consistent with relative comparative advantages in an 'ideal' world with collective action, where gains form trade are maximised.
+
+[^11]: This is defined as exports of goods and services as a percentage of total supply of goods and services, plus imports of goods and services as a percentage of total demand for goods and services. Output is defined as gross, so the maximum value attainable is 200.
+
+[^12]: For an interesting discussions see the Canadian Government's Industry Canada (2002) report, as well as the representations of the Canadian Plastic Industry Association.
+
+[^13]: This was the finding of McCallum's seminal 1995 paper, further reinforced by subsequent discussions such as Helliwell's assessment of Canadian-US economic relations, and Berger and Nitsch's (2005) gravity model of intra-EU trade, both of which found significant evidence of home-bias where borders inhibit trade despite open markets and short distances.
+
+[^14]: See Copeland and Taylor (2004) for one of the most thorough-going theoretical and empirical investigation into environmental regulations and location decisions. See also Levinson et al (2003), Smita et al. (2004) Greenstone (2002), Cole et al. (2003), Ederington et al (2000, 2003), Jeppesen (2002), Xing et al. (2002), UNDP (2005).
+
+[^15]: The analysis by Smita et al. (2004) confirms that other factors are likely to be more significant determinants of international location and direct investment decisions - factors such as the availability of infrastructure, agglomeration economies and access to large consumer markets. The study of the influence of air pollution regulations carried out by AEA Metroeconomica found that "it is extremely difficult to assess the impact of air pollution on relocation from the other factors that determine location decisions."
+
+[^16]: Low and Yeats (1992) reported that over 90% of all 'dirty-good' production in 1988 was in OECD countries. This fact alone suggests the location of dirty-good production across the globe reflects much more than weak environmental regulations. See also Trefler (1993) and Mani et al (1997).
+
+[^17]: by 123 industry Standard Industrial Classification (SIC) level
+
+[^1]: REN21 (2006).
+
+[^2]: Renewables Global Status Report, 2006 update: REN21.
+
+[^3]: Clean Edge (2006).
+
+[^4]: Quoted in Business Week, "Wall Street's New Love Affair", August 14 2006.
+
+[^5]: This investment excludes the transport sector, but includes nuclear, hydropower, and carbon capture and storage.
+
+[^6]: Shell Springboard (2006). This is an estimate of total expenditure on carbon abatement, and so would include all emission reduction sources. Figures are based on a central scenario.
+
+[^7]: See, for instance, Shell Springboard (2006).
+
+[^8]: Cleantech Venture Network (2006).
+
+[^9]: Salmon and Weston (2006).
+
+[^10]: See Ceres (2006) .
+
+[^11]: World Bank (2006a).
+
+[^12]: CEAC (2006).
+
+[^13]: American Prospect, "Polluted Data", November 1997.
+
+[^14]: The Climate Group (2005).
+
+[^15]: See also Aghion and Howitt (1999).
+
+[^16]: IEA (2006).
+
+[^17]: IEA (2006).
+
+[^18]: Energy Information Administration (1993).
+
+[^19]: Chinese Academy of Social Sciences (2006).
+
+[^20]: Well-to-wheels emissions from fuels such as gasoline are around 27.5 pounds of CO2 per gallon of fuel. This compares with 49.5 pounds per gallon from coal-to-liquids, assuming the CO2 from the refining process is released into the atmosphere. See Natural Resources Defence Council (2006).
+
+[^21]: World Bank, "1.6 billion people still lack access to electricity today", press release, 18 September 2006 .
+
+[^22]: Air Quality and ancillary benefits of climate change, EEA, Copenhagen, 2006
+
+[^23]: WHO (2006).
+
+[^24]: Aunan et al (2006)
+
+[^25]: See European Commission (2005).
+
+[^26]: IEA (in press).
+
+[^27]: The tariff structure, for example, violates the fundamental principle of economics whereby tariffs should reflect the actual cost of service. In practice, industry is charged the highest tariff despite having the least cost of supply, whilst agriculture has the lowest tariff and the highest cost of service.
+
+[^28]: World Bank (2001).
+
+[^29]: World Bank (2006b).
+
+[^30]: World Bank (2006b).
+
+[^31]: Government of India (2006: xiii).
+
+[^32]: Government of India (2006).
+
+[^33]: www.fic.nih.gov/programs/research_grants/icbg/index.htm
+
+[^34]: CBI (2005).
+
+[^35]: World Bank (2006): 'Forests and Forestry' available from http://web.worldbank.org/WBSITE/EXTERNAL/TOPICS/EXTARD/EXTFORESTS/0,,menuPK:985797~pagePK:14901 8~piPK:149093~theSitePK:985785,00.html
+
+[^36]: Jakarta Post (2003): Rampant deforestation blamed for Langkat flash flood. 05/11/2003.
+
+[^37]: Secretariat of the Convention on Biological Diversity (2006).
+
+[^38]: Secretariat of the Convention on Biological Diversity (2006).
+
+[^39]: Norse (2006).
+
+[^40]: See, for instance, European Environmental Bureau (2006).
+
 [^1]: The social cost of carbon and carbon price discussed here are convenient shorthand for the social cost (and corresponding price) for each individual greenhouse gas. Their relative social costs, or 'exchange rate', depend on their relative global warming potential (GWP) over a given period and when that warming potential is effective, as the latter determines the economic valuation of the damage done. Suppose there were a gas with a life in the atmosphere one tenth that of CO2 but with ten times the GWP while it is there. The social cost of that gas today would be less than the social cost of CO2, because it would have its effect on the world while the total stock of greenhouse gases was lower on average, so that its marginal impact would be less in economic terms.
 
 [^2]: Cumulative emissions are closer to the policy-induced emissions reductions that incur the costs of mitigating climate change. The choice between the two goals comes down to how the costs and benefits of missing the goal by some amount differ in the two cases, given uncertainty about the relationship between the two variables due to uncertainty about the functioning of carbon 'sinks', etc. This is related to the issue of whether setting greenhouse-gas prices or quotas is preferable in the face of uncertainty (see Chapter 14); the arguments there imply that, for the long run, a concentration goal is to be preferred).
@@ -6491,3 +9223,497 @@ Tol, R.S.J. (2005): 'The marginal damage costs of carbon dioxide emissions: an a
 [^25]: Hanemann (2000).
 
 [^26]: In particular, Mendelsohn et al. (2000).
+
+[^1]: Developed mainly in the first half of the last century.
+
+[^2]: Pigou (1920) showed how taxes can establish a marginal cost to polluters equal to the marginal damage caused by their pollution.
+
+[^3]: Coase (1960)
+
+[^4]: Meade (1951). This is not discussed further, as it is clearly not a practical option in relation to climate change.
+
+[^5]: These conditions abstract from uncertainty and market imperfections.
+
+[^6]: Continuous trading is necessary to ensure a common price between auctions/ allocations.
+
+[^7]: But it is worth noting that even if these ideal conditions were to hold, the nature of the climate-change problem means there are limitations to the applicability of some of the policy options set out above. In particular, a full set of property rights cannot be allocated, because many of those affected by the impacts of climate change are yet to be born. It is not possible for them to bargain with the current emitters for the impacts they will have to endure.
+
+[^8]: Weitzman (1974)
+
+[^9]: This box draws on the exposition in Hepburn (2006).
+
+[^10]: The direct allocation of non-tradable allowances requires information about relative costs across firms, as well as total costs, and so is likely to be even less efficient, given the uncertainties in the real world, than promoting perfect competition in the market for allowances.
+
+[^11]: Strictly, there is an intertemporal tax schedule that generates cumulative emissions reductions QE
+
+[^12]: To the extent that damages may relate to the rate of climate change, the relationship is more complex, but it remains true that the damage curve is likely to respond most to cumulative emissions over several years or even decades.
+
+[^13]: For a discussion of the relative abatement costs and marginal benefits of climate change see, for example, Lydon (2002) and Pizer (2002). Both conclude that the marginal damage curve is relatively flat – at least in the short term – and, as such, there are strong arguments for flexibility in the quantity of abatement in the short term, subject to a fixed carbon price.
+
+[^14]: The short term is defined as the period during which the capital stock is essentially fixed. This will vary from sector to sector.
+
+[^15]: With respect to the size of emission reductions.
+
+[^16]: One option is to combine price controls within a quota trading system in the short term. This is discussed more in Chapter 15.
+
+[^17]: Newell et al (2005)
+
+[^18]: This analogy has been explored by Helm et al (2005).
+
+[^19]: See Blyth and Hamilton (2006) for background discussion on the nature of electricity markets, interaction with fossil fuel markets and issues to consider for policy approaches to introducing climate policy to electricity systems.
+
+[^20]: This would shift rents from OPEC to Kyoto countries.
+
+[^21]: Hepburn (2006)
+
+[^22]: The economic theory of exhaustible natural resources is exposited in e.g. Hotelling (1931) and Dasgupta & Heal (1979).
+
+[^23]: Ad valorem taxes are based on the value or price of a good or service. The alternative to ad-valorem taxation is a fixed-rate tax, where the tax base is the quantity of something, regardless of its price.
+
+[^24]: There is a debate about whether the tax rate should first rise and then fall. See Ulph & Ulph (1994) and Sinclair (1994).
+
+[^25]: For a more detailed discussion, see Newbery (2005).
+
+[^26]: In practice, the overall impact on the revenue base may be limited, if taxes are reduced elsewhere in the economy.
+
+[^27]: The ultimate incidence of the tax is on the industries' customers and – in the absence of perfect competition – shareholders.
+
+[^28]: Although, as already noted, in a competitive industry the tax will ultimately fall on the consumer.
+
+[^29]: To the extent that firms are able to pass on to consumers the increase in marginal production costs, a system with free quotas may be regressive (because shareholders tend to be wealthier than the general population).
+
+[^30]: Where the ultimate incidence of the tax falls on customers, they pay a price of carbon, but there is no benefit to the wider revenue base.
+
+[^31]: Were auctioning to substitute in whole or in part for taxation, it would be important to manage the revenue base to underpin the sustainability of the public finances.
+
+[^1]: See Helm et al (2005) which argues that credibility problems in recent UK energy and carbon policy have costs for meeting objectives on energy and climate change. The irreversibility of energy investments and the risk of governments reneging on commitments to carbon commitments imply a need for a more consistent policy framework.
+
+[^2]: Grubb et al (1995), Lecocq et al (1998).
+
+[^3]: See Blyth and Sullivan (2006)
+
+[^4]: See Blyth and Yang (2006)
+
+[^5]: See www.epa.gov/airmarkets/arp/index.html for more detail on the US Acid Rain Program.
+
+[^6]: The 2000 Green Paper estimated the cost of meeting Kyoto as €9 billion euros without trading, €7.2 billion with trading amongst energy producers only, €6.9 billion with trading among energy producers and energy intensive industry and €6 billion with trading among all sectors. See EC (2000).
+
+[^7]: The scheme covers emissions from heat and energy use from installations of a particular size in these sectors. See EC (2003) for more detail on the scope of the EU ETS
+
+[^8]: Articles 9 to 11 and Annex III of EU (2003) outline the criteria for allocation in the NAP
+
+[^9]: Based on emission estimates for EU25 countries in WRI (2005)
+
+[^10]: This assumes around 2 billion tonnes of allowances are allocated each year for three years, and that the average allowance price is $19 (€15)
+
+[^11]: Schleich and Betz (2005)
+
+[^12]: The Clean Development Mechanism is one of the flexible mechanisms under the Kyoto Protocol. Its operation is discussed in detail in Chapter 23.
+
+[^13]: Capoor and Ambrosi (2006) state that European and Japanese private entities dominated the buy-side of the CDM market in 2005 and 2006, taking up almost 90% of transacted project emissions credits.
+
+[^14]: See McKinsey et al (2005) for details of the survey of governments, companies and NGO views on issues for the Review of the EU ETS. For UK companies, see also UKBCSE and The Climate Group (2006)
+
+[^15]: Grubb et al (2006)
+
+[^16]: Grubb et al (2006)
+
+[^17]: EC (2005)
+
+[^18]: See Kruger and Egenhofer (2005). Also, some countries such as the UK went further asking firms to provide verification of data submitted by firms on historic emissions which werebaselines for initial allocations.
+
+[^19]: See EC (2004) for details of these guidelines.
+
+[^20]: See Egenhofer and Fujiwara (2005)
+
+[^21]: RGGI covers Connecticut, Delaware, Maine, New Hampshire, New Jersey, New York and Vermont. See www.rggi.org for more details.
+
+[^22]: See announcements by the Governor of the State of Calitornia, www.climatechange.ca.gov
+
+[^23]: See Butzengeiger (2005) and Taiyab (2006) for more on markets for voluntary carbon offsets
+
+[^24]: See, for instance, Pizer (2002) and Pizer (2005)
+
+[^25]: See Jacoby and Ellerman (2004)
+
+[^26]: Helm and Hepburn (2005)
+
+[^27]: Blyth and Yang (2006) modelling shows that in principle, price caps and floors would reduce uncertainty on future prices, but as people need to believe that caps will stay the impact is limited.Stronger effects on reducing uncertainty come from lengthening the period of price stability from 5 to 10 years as discussed above.
+
+[^28]: These mechanisms are discussed fully in Chapter 23.
+
+[^29]: The CDM Executive Board approves methodologies for baseline setting in CDM projects. See Chapter 23.
+
+[^30]: See Grubb and Neuhoff (2006) for a discussion of the use of projections and price volatility in the EU ETS.
+
+[^31]: Helm and Hepburn (2006)
+
+[^32]: See Newell et al (2005) for an example of how such revision rules could work.
+
+[^33]: However, unrestricted banking can also allow emissions to be concentrated in time (Tietenberg,1998) – and such hoards of emissions could have high associated damage costs compared to dispersed emissions.
+
+[^34]: The discussion in this section assumes that the sale of permits to industry would happen through auctioning. Other methods are also possible, such as direct sales; these are not discussed fully here, but would be subject to some of the same arguments.
+
+[^35]: Neuhoff et al (2006) also find that in an international emissions trading scheme, if updating is used in one country but not others, it equates to free riding by the country that uses updating.
+
+[^36]: In an international trading scheme, if one country has free allowances for new plants, there are compeitiveness implications if other countries do not. This logic drove all 25 EU member states chose to set aside of allowances for new entrant plants that total around 5% of all EU allowances.
+
+[^37]: Modelling of the UK electricity sector in Neuhoff et al (2006), demonstrates that free allowances for new plants using high carbon technologies could increase overall emissions. The existence of a 'use it or lose it ' closure rule for EU ETS allocations will reduce plant retirement rates and reduce investment in new plants, causing higher emission levels.
+
+[^38]: In the EU ETS, most member states had 'use it or lose it' closure rules, mainly due to the rules for free allocation to new plants. In Germany, a 'transfer rule' allowed allowances from old plants to be retained if a new plant was built. This still risks new plants receiving higher allocation levels than needed.
+
+[^39]: Hepburn et al (2006a)
+
+[^40]: Neuhoff et al (2006) show that for generation plants in the EU ETS, benchmarks based on plant capcity as opposed to fuel and technology specific benchmarks are the least distorting.
+
+[^41]: The use of benchmarking on the basis of low carbon technology emission rates is an option and has been used in the EU ETS NAPs of some member states. See DTI (2005) for an example of the use of benchmarks for 'new entrant' plants in the UK
+
+[^42]: Hepburn et al (2006a) considers auction design in the EU ETS
+
+[^43]: Hepburn et al (2006a)
+
+[^44]: Smale et al (2006) show that marginal cost increases from the EU ETS most affects the competitiveness of the aluminium sector as it competes in a very global market, and does not get free allowances to compensate-the aluminium sector is currently not directly covered by the scheme, but still faces higher electricity prices.
+
+[^45]: Sijm et al (2006) show that in the EU ETS, free allocation to electricity generation companies has created substantial windfall profits while consumers have faced increased electricity prices to reflect allowance costs.
+
+[^46]: To maintain profits, commentators state various levels of free allocation as necessary, they need not be 100%. See, for instance, work by Bovenberg and Goulder (2001), Smale et al (2006), Vollebergh et al (1997), Quirion (2003) on allocation and profitability. Also Hepburn et al (2006b) provide a generalised theoretical framework, including an analysis of asymmetric market structure and apply this to four EU ETS sectors.
+
+[^47]: Kruger and Egenhofer (2005)
+
+[^48]: Capoor and Ambrosi (2006)
+
+[^49]: See Neuhoff et al (2006) for more on free allocation and perverse incentives in the EU ETS
+
+[^50]: See Environment Agency (2006) for more detail on expansion options in the EU ETS.
+
+[^51]: This draws on Ekins and Barker (2001)
+
+[^52]: Bruvoll and Larsen (2002)
+
+[^53]: Estimates based on emission estimates for EU 25 in 2000 from WRI (2006).
+
+[^54]: Article 24 of Chicago Convention exempts fuel for international services from fuel duty. See ICAO (2006).
+
+[^55]: WRI (2005).
+
+[^56]: Aviation BAU CO2 emissions in 2050 estimated at 2.3 GtCO2, from WBCSD (2004). Total GHG emissions in 2050 estimated at 84 GtCO2e (for discussion of how calculated, see Chapter 7).
+
+[^57]: IPCC (1999). This assumes that the warming effect (radiative forcing) of aviation is 2 to 4 times greater than the effect of the CO2 emissions alone. This could be an overestimate because recent research by Sausen et al (2005) suggests the warming ratio is closer to 2. It could be an underestimate because both estimates exclude the highly uncertain possible warming effects of cirrus clouds.
+
+[^1]: DTI (2003)
+
+[^2]: Freeman (1992)
+
+[^3]: Aghion et al (2002): Monopolists do not have competitive pressures to innovate while intense competition means firms may lack the resource or extra profit for the innovator may be competed away too quickly to be worthwhile.
+
+[^4]: R,D&D (Research, Development and Demonstration) can be used for this but it can lead to confusion over the final D as some of the literature uses deployment or diffusion in the same acronym.
+
+[^5]: Grubb (2004)
+
+[^6]: For an excellent overview of innovation theory see Foxon (2003)
+
+[^7]: The learning rate is the cost reduction for a doubling of production and this requires much more deployment after significant levels of investment.
+
+[^8]: Scotchmer (1991)
+
+[^9]: Barreto and Klaassen (2004)
+
+[^10]: The agreement on Trade Related Intellectual Property Rights (TRIPs) is an international treaty administered by the World Trade Organization which sets down minimum standards for most forms of intellectual property regulation within all WTO member countries.
+
+[^11]: Taylor, Rubin and Nemet (2006)
+
+[^12]: Anderson et al (2001); Jaffe, Newell and Stavins (2004) and (2003)
+
+[^13]: This is consistent with the ACT scenarios p86 IEA, 2006 which would also require eliminating land use change emissions to put us on a path to stabilising at 550ppm CO2e
+
+[^14]: Alic, Mowery and Rubin (2003)
+
+[^15]: Page 35: OECD, (2006)
+
+[^16]: There are doubts as to the accuracy of the data and the IEA's general view is that private energy R&D is considerably higher than public energy R&D (though this still represents a significant share).
+
+[^17]: Page 33-37: OECD (2006)
+
+[^18]: Source: IEA R&D database http://www.iea.org/Textbase/stats/rd.asp Categories covered broken down in IEA total Figure 16.8
+
+[^19]: OECD countries Page 32: OECD (2006)
+
+[^20]: Source Page 35 OECD (2006); For US evidence see Kammen and Nemet (2005)
+
+[^21]: Neuhoff (2005).
+
+[^22]: Source: REN21 (2005) which cites; UNEP & IEA. (2002). Reforming Energy Subsidies. Paris. www.uneptie.org/energy/publications/pdfs/En-SubsidiesReform.pdf Also Johansson, T. & Turkenburg, W. state in (2004). Policies for renewable energy in the European Union and its member states: an overview. Energy for Sustainable Development 8(1): 5-24.that "at present, subsidies to conventional energy are on the order of $250 billion per year" and $244 billion per annum between 1995 and 1998 (34% OECD) in Pershing, J. and Mackenzie (2004) Removing Subsidies.Leveling the Playing Field for Renewable Energy Technologies. Thematic Background Paper. International Conference for Renewable Energies, Bonn (2004)
+
+[^23]: WEO, (in press)
+
+[^24]: Amin (2000)
+
+[^25]: There are exceptions in the case of biofuels with many countries offering incentives through tax incentives.
+
+[^26]: Intelligent infrastructure uses information to encourage efficient use of transport systems. http://www.foresight.gov.uk/Intelligent_Infrastructure_Systems/Index.htm
+
+[^27]: E4tech, (2006)
+
+[^28]: Norse (2006).
+
+[^29]: Box 25.4 provides further examples of sustainable farming practices.
+
+[^30]: IRRI (2006).
+
+[^31]: Pindyck and Dixit (1994)
+
+[^32]: In this figure the policy encourage learning but firms may be prepared to undertake investments in anticipation of technological progress or carbon price incentives.
+
+[^33]: Weak demand-side policies risk wasting R&D investments see Norberg-Bohm and Loiter (1999) and Deutch (2005)
+
+[^34]: Source GE press release May 2006: http://home.businesswire.com/portal/site/ge/index.jsp?ndmViewId=news_view&newsId=20060517005223&newsLang =en&ndmConfigId=1001109&vnsId=681
+
+[^35]: Kammen and Margolis (1999)
+
+[^36]: When public expenditure limits private expenditure by starving it of potential resources such as scientists OECD (2005)
+
+[^37]: Alic, Mowery and Rubin (2003)
+
+[^38]: Alic, Mowery and Rubin (2003)
+
+[^39]: Global Wind Energy Council http://www.gwec.net/index.php?id=13
+
+[^40]: Norberg-Bohm (2000)
+
+[^41]: Source: Nemet, in press
+
+[^42]: For an example Taylor, Rubin and Nemet (2006)
+
+[^43]: Kammen (2004)
+
+[^44]: Newell and Chow (2004)
+
+[^45]: For some examples, see Gibbs (2006)
+
+[^46]: Newell and Chow (2004)
+
+[^47]: In 2004 the UK Government published a ten-year Science and Innovation Investment Framework, which set a challenging ambition for public and private investment in R&D to rise from 1.9% to 2.5% of UK GDP, in partnership with business; as well as the policies to underpin this. An additional £1 billion will be invested in science and innovation between 2005-2008, equivalent to real annual growth of 5.8% and to continue to increase investment in the public science base at least in line with economic growth. http://www.dti.gov.uk/science/science- funding/framework/page9306.html
+
+[^48]: Newell and Chow (2004)
+
+[^49]: US Departments of Agriculture and Energy (2005)
+
+[^50]: OECD (2005)
+
+[^51]: Kammen and Nemet (2005)
+
+[^52]: Newell and Wilson (2005)
+
+[^53]: Kremer and Glennerster (2004)
+
+[^54]: http://www.dti.gov.uk/science/science-funding/eti/page34027.html
+
+[^55]: Page 20 REN 21 Renewables global status report 2005 - See page 20 REN 21 (2005)
+
+[^56]: Figures from 2005 - excluding large scale hydropower. Page 6 REN 21 (2006)
+
+[^57]: Butler and Neuhoff (2005); EC (2005); Ragwitz, and Huber (2005); Fouquet et al (2005)
+
+[^58]: Originally introduced in 1991 with the Electricity Feed Act this was replaced in 2000 with the broader Act on Granting Priority to Renewable Energy Sources (Renewable Energy Sources Act) and amended in 2004 http://www.ipf-renewables2004.de/en/dokumente/RES-Act-Germany_2004.pdf
+
+[^59]: Small hydropower does not decline and is guaranteed for 30 years and large hydropower only 15 years.
+
+[^60]: BMU (2006a)
+
+[^61]: BMU (2006b)
+
+[^62]: http://www.iea-pvps.org/isr/index.htm
+
+[^63]: Deployment share of figure page 16 REN 21, 2005 grossed up to global figure based on IEA deployment figures. Nuclear figure from same source.
+
+[^64]: Based on global production of 40 billion litres and on an average support of £0.1 per litre and a PPP exchange rate of $1.6 to £1
+
+[^65]: Bird and Swezey (2005)
+
+[^66]: This is consistent with the IEA ACT scenarios see Box 9.7
+
+[^67]: For more on CCS see Boxes 9.2 and 24.8 and Section 24.3
+
+[^68]: Arrow and Lind (1970)
+
+[^69]: Deutch (2005)
+
+[^70]: Small-scale permits incremental additions in capacity unlike large technologies such as nuclear generation.
+
+[^71]: Page 58, IEA (2006)
+
+[^72]: See papers by Dennis Anderson available at www.sternreview.org.uk
+
+[^73]: IEA (in press)
+
+[^74]: In this graph mid points in the fossil fuel subsidy range is used in and the IEA increase made over a 20 year period.
+
+[^75]: For countries available includes renewables, conservation and nuclear. The decline is 36% excluding nuclear.
+
+[^76]: OECD R&D database shows total public R&D increasing by nearly 50% between 1988 and 2004 whilst public energy R&D declined by nearly 20% over the same period.
+
+[^77]: Page 19 OECD (2006)
+
+[^78]: 2005 figure Source: IEA R&D database http://www.iea.org/Textbase/stats/rd.asp
+
+[^79]: Source: IEA Energy R&D Statistics
+
+[^80]: Page 35, OECD (2006)
+
+[^1]: Individuals and firms should invest until the expected savings are equal to the opportunity cost of borrowing or saving (assuming risk neutrality). Studies suggest that individuals and firms appear to place a low value on future energy savings. Their decisions expressed in terms of standard methods of appraisal would imply average discount rates of the order of 30% or more. See, for example, analysis of consumer behaviour in markets for room air conditioners and home insulation in the US during the 1970's and 1980's by Hausman (1979) and Hartman and Doane (1986)). Also see Train (1985).
+
+[^2]: IEA (2006)
+
+[^3]: For example, Metcalf (1994) applies portfolio theory to show that investors should observe lower discount rates relative to the opportunity cost of capital, because reduced exposure to energy costs hedges against other risks. Dixit and Pindyck (1994) use 'option value' theory to explain relatively higher discount rates however Sanstad et al. (1995) show empirically, that these are not sufficient to explain the low take up of energy efficiency investment.
+
+[^4]: See for example Blumstein et al. (1980), Grubb (1990). Also, see Mills (2002) for analysis of impacts of barriers on energy demand for lighting.
+
+[^5]: Adapted from the Carbon Trust, The UK Climate Change Programme: Potential Evolution for Business and the Public Sector. London: The Carbon Trust. This framework was originally designed to evaluate markets for energy conservation in the business and public sector. However, it can be applied more broadly to other sectors and to other areas of mitigation such as fuel switching.
+
+[^6]: Framework designed in relation to energy efficiency markets but applicable more generally to mitigation (including fuel switching).
+
+[^7]: Much of this argument relates to issues of transaction costs, see for example Williamson (1981, 1985).
+
+[^8]: Hein and Blok (1994)
+
+[^9]: Study compared costs against results of research by the Electric Power Research Institute and Rocky Mountain Institute (Lovins)
+
+[^10]: An individuals or firm that takes advantage of financial support for a particular energy efficiency measure who would have invested without the additional incentive is a free rider in this context. This differs from the use of the term in the context of international agreements on climate change where non-signatories enjoy the benefits of mitigation but do not incur the costs, see Chapter 21.
+
+[^11]: Kahneman & Tversky (1979, 1986, 1992) developed the idea of 'prospect theory' in which people determine the value of an outcome based on a reference point.
+
+[^12]: See Simon, H.A. (1959) for concept of 'satisficing'. See also transcript of 2005 Bowman Lecture: Energy Demand - Rethinking from Basics, Professor David Fisk submitted to Stern Review Call for Evidence http://www.hm- treasury.gov.uk/media/F7E/46/climatechange-fisk_1.pdf
+
+[^13]: This is commonly known as 'evolutionary' or 'procedural' rationality. See, for example, Goldstein, D. (2002), Decanio (1998)
+
+[^14]: Equal to the expected marginal environmental cost.
+
+[^15]: Note that, in some circumstances, poorly designed and managed regulation can cause technology lock in.
+
+[^16]: Fleet averages, such as Corporate Average Fuel Economy vehicle standards, place average performance requirements on a particular type of good, thereby not mandating the removal of the poorest quality but rather incentivising patterns in the overall distribution of the efficiencies of products sold.
+
+[^17]: Newell et al. (1999) using a model of induced product characteristics. Greening et al (1997) estimated the impacts of 1990 and 1993 national efficiency standards on the refrigerators and freezer units, using hedonic price functions, and found that the quality-adjusted price fell after implementation of standards. See also Magat (1979). However, in other instances, studies found no clear evidence of performance standards impacting on technological innovation. See For example, see Bellas (1998), Jaffe and Stavins (1995).
+
+[^18]: See, for example, Palmer et al. (1995)
+
+[^19]: An OECD study: Environmentally Sustainable Buildings - Challenges and Policies found that 19 out of 20 countries surveyed had legislated mandatory building: http://www1.oecd.org/publications/e- book/9703011E.PDF#search=%22OECD%20study%3A%20Environmentally%20Sustainable%20Buildings%20- %20Challenges%20and%20Policies%20%22
+
+[^20]: California Energy Commission (2005): http://www.energy.ca.gov/2005publications/CEC-400-2005-043/CEC-400- 2005-043.PDF
+
+[^21]: Evaluation of New Home Energy Efficiency: An assessment of the 1996 Fort Collins residential energy code and benchmark study of design, construction and performance for homes built between 1994 and 1999. Summary report June 2002 : http://www.estar.com/publications/Evaluation_of_New_Home_Energy_Efficiency.pdf XENERGY, 2001: Impact analysis of the Massachusetts 1998 residential energy Code revisions: http://www.energycodes.gov/implement/pdfs/Massachusetts_rpt.pdf
+
+[^22]: Regulatory Impact Assessment, 2006 amendment to part L building regulation http://communities.gov.uk/pub/308/RegulatoryImpactAssessmentPartLandApprovedDocumentF2006_id1164308.pdf
+
+[^23]: New Era of China Building Energy Saving, Speech by Mr. Zhang Qingfeng, Chairman of China Council of th Construction Technology, April 10
+
+[^24]: Meyers (2002). Savings evaluated by comparing against base case estimated without policy intervention
+
+[^25]: China Markets Group, Lawrence Berkeley Laboratories: http://china.lbl.gov/china_buildings-asl-standards.html
+
+[^26]: Lin (2006)
+
+[^27]: 'Top Runner' fleet average requirements are agreed on a voluntary basis between the Japanese government and industry. They apply to approximately 18 different groups of energy using technologies in a range of markets including appliances, heaters and vehicles.
+
+[^28]: Top Runner Programme: Developing the World's Best Energy Efficient Appliance, Energy Conservation Centre Japan (2005): http://www.eccj.or.jp/top_runner/index.html
+
+[^29]: Geller & Nadel (1994)
+
+[^30]: National Academy of Sciences (2002) http://newton.nap.edu/books/0309076013/html/111.html
+
+[^31]: Energy Savings Trust, Potential for Microgeneration Study and Analysis (2005) http://www.dti.gov.uk/files/file27558.pdf
+
+[^32]: For example, an estimated 20% of the UK's CO2 emissions result from energy wasted in the combustion, transmission and distribution of energy from centralised fossil fuel power plants. Greenpeace, Decentralising power: an energy revolution for the 21st century generation, transmission and distribution http://www.greenpeace.org.uk/MultimediaFiles/Live/FullReport/7154.pdf#search=%22greenpeace%20%2B%20micro generation%22
+
+[^33]: Unlocking the power house: policy and system change for domestic micro-generation in the UK. http://www.sussex.ac.uk/spru/documents/unlocking_the_power_house_report.pdf
+
+[^34]: Further information is available in the publication: Shanghai Dongtan: An Eco City, published by SIIC Dongtan Investment & Development (Holdings) Co., Ltd. Arup
+
+[^35]: Hassett and Metcalf (1995), for example, showed that consumers were much more responsive to changes in installation cost than change in energy prices. This is also inferred by the findings of Jaffe and Stavins (1995) which showed that consumers were about three times as sensitive to changes in technology costs than changes in energy prices.
+
+[^36]: See for example IEA (2003), Lin (2006)
+
+[^37]: Webber et al. (2004). Figures discounted at 4%. Potential savings of US$160 in 2010 and $US390 in 2020 are projected if 100% of products within particular classes are energy star compliant.
+
+[^38]: Bertoldi (2000)
+
+[^39]: Darby S. (2000) Wilhite, Hoivik and Olsen (1999) Eide and Kempton (2000) A recent survey for Ofgem suggested that consumers in the UK preferred bar charts highlighting consumption levels compared to relevant historical periods. http://www.ofgem.gov.uk/temp/ofgem/cache/cmsattach/8401_consumer_fdbak_pref.pdf
+
+[^40]: For example, the UK Energy Review (2006) estimated that between 25 and 50% of all energy bills from UK energy suppliers were based on estimates.
+
+[^41]: DTI Energy Review Report (2006) http://www.dti.gov.uk/files/file31890.pdf
+
+[^42]: A summary of the various studies can be found in: Darby S. (2006)
+
+[^43]: California Energy Commission (2005) IEA (2006) identifies potential energy savings of 5-15% from 'smart' meters.
+
+[^44]: DTI Energy Review Report (2006)
+
+[^45]: California Energy Commission (2005)
+
+[^46]: Presentation by Toyota as Stern Review Transport Seminar 12 January 2006 http://www.hm- treasury.gov.uk/media/B70/64/stern_transportseminar_toyota.pdf
+
+[^47]: Lovins (1992), Golove and Eto (1996)
+
+[^48]: Caron Trust Annual Report 2005/6: www.carbontrust.co.uk Readers should also note active support for energy efficiency by the Energy Savings Trust. Information available at http://www.est.org.uk/
+
+[^49]: http://www.fco.gov.uk/Files/kfile/PostG8_Gleneagles_Communique,0.pdf
+
+[^50]: The costs of subsidies, for example, may be increased by the tendency for households or firms to take advantage of financial support for a particular energy efficiency measure who would have invested without the additional incentive: see Box 17.1.
+
+[^51]: Microcredit is a form or finance designed to target poor people without sufficient collateral to have access to affordable private capital. See Yunus, M., Banker to the Poor: Micro-Lending and the Battle Against World Poverty
+
+[^52]: Gillingham, Newell and Palmer (2004). Statistic assumes all energy saved is electricity and includes utility costs only.
+
+[^53]: Caron Trust Annual Report 2005/6: www.carbontrust.co.uk
+
+[^54]: Minnesota Project (2002) Final report: Haubenschild Farms Anaerobic Digester: http://www.mnproject.org/pdf/Haubyrptupdated.pdf
+
+[^55]: EPA AgSTAR Program, www.epa.gov/agstar
+
+[^56]: EPA AgSTAR Funding on-farm biogas recovery systems: a guide to federal and state resources: http://www.epa.gov/agstar/pdf/ag_fund_doc.pdf
+
+[^57]: EPA "AgSTAR digest winter 2006" http://www.epa.gov/agstar/pdf/2006digest.pdf
+
+[^58]: Goldman et al (2005). Figure dependent on choice of discount rate.
+
+[^59]: The London Climate Change Agency recently established the London ESCO, a public/private joint venture energy service company, with EDF Energy to deliver a range of planned mitigation projects, including the zero carbon development project recently announced by the Mayor. See: http://www.london.gov.uk/mayor/environment/energy/climate-change/edf-energy.jsp and http://www.lcca.co.uk .
+
+[^60]: Harris et al., (2005, 2004, 2003)
+
+[^61]: Carbon Trust (2005). Figures valid for 2002 based on a discount rate of 15% which is higher than the appropriate discount rates currently identified in the 'Green Book'.
+
+[^62]: See the Councils climate change strategy for further information. http://www.woking.gov.uk/environment/climatechangestrategy/climatechange.pdf
+
+[^63]: Gillingham, Newell and Palmer (2004)
+
+[^64]: Harris and Johnson (2000) Harris et al (2005)
+
+[^65]: Webber et al. (2004)
+
+[^66]: Harris and Johnson, (2000)
+
+[^67]: Harnessing the Power of the Public Purse: Final report from the European PROST study on energy efficiency in the public sector http://195.178.164.205/library_links/downloads/procurement/PROST/PROST-fullreport.pdf
+
+[^68]: Understanding this balance requires consideration of the risk of perverse incentives. For example, regulations which become stricter over time may delay the retirement of inefficient plant by making new installations relatively more expensive. See for example, Maloney and Brady (1988), Nelson et al. (1993), Stewart (1981), Gollop and Roberts (1983), McCubbins et al (1989). However, such secondary barriers may be correctable by, for example, suitable fiscal instruments.
+
+[^69]: The EU Code of Conduct for Digital Television Systems 2003
+
+[^70]: Cadot and Sinclair-Desgagne (1996) developed a game theoretic model solution for setting performance targets given asymmetric information regarding cost of technological advance.
+
+[^71]: IEA/OECD (2003) Estimated data collection costs of approximately $1million to support revision of performance standards per product class.
+
+[^72]: See 'I will if you will: towards sustainable consumption', a report by the Sustainable Development Commission. http://www.sd-commission.org.uk/publications/downloads/I_Will_If_You_Will.pdf
+
+[^73]: Fairtrade Organisation Annual Report 2005: http://www.fairtrade.net/fileadmin/user_upload/content/FLO_Annual_Report_05.pdf
+
+[^74]: See John Stewart Mill, 'On Liberty', where he advocated an approach to democracy based on government by discussion.
+
+[^75]: See report commissioned by the Institute of Public Policy Research entitled, 'Warm Words: How are we telling the climate story and can we tell it better?' http://www.ippr.org.uk/publicationsandreports/publication.asp?id=485
+
+[^76]: Californian Energy Commission (2005)
+
+[^77]: Complete responses of GHG emissions from the world's largest 500 companies were up from 59% in 2005 to 71% in 2006. Carbon Disclosure Report 2006: http://www.cdproject.net/download.asp?file=cdp4_ft500_report.pdf
+
+[^78]: http://www.cpi.cam.ac.uk/bep/clgcc/downloads/pressrelease_2006.pdf
+
+[^79]: Social Investment Forum, January 2006: http://www.socialinvest.org/areas/news/2005Trends.htm. This figure includes funds which involve at least one of the following elements: screening, shareholder engagement, and community investment.
