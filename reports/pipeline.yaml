@@ -145,8 +145,8 @@ units:
   - id: us-duelfer-report
     scope: "Volume I"
     bead: reportsthatmatter-ivg.4
-    reached: evaluate
-    state: active
+    reached: publish
+    state: waiting
     evidence: "report repo branch duelfer-hybrid-1112 (cleanEdition from the CIA HTML via cia-html.ts, words: pdf; 93.6% of edition words aligned; 753 disagreements served in the PDF's words; golden 4/5 + 1 xfail); ingest branch duelfer-hybrid-1112 (words: pdf, unreleased); site branch duelfer-hybrid-1112 (registry, budgets, plate, card)"
     notes: "Needs an ingest release with cleanEdition words: pdf and the pin bump. Known: boxes placed after the page text (ivg.4.3), table page starts (ivg.4.4). Introduction 9br.1 not started."
   - id: us-duelfer-report
@@ -187,8 +187,8 @@ units:
   - id: uk-covid-inquiry-module-2
     scope: "Volume II (HC 1436-II, Key themes, lessons and recommendations, Nov 2025)"
     bead: reportsthatmatter-nshl
-    reached: evaluate
-    state: active
+    reached: publish
+    state: waiting
     evidence: "ingest PR #90 (typographicHeadings faceText, divisionCrossReferences); report repo PR #2 (branch vol2-1112); site branch covid-m2-vol2-1112"
     notes: "Numbered paragraphs 1,004/1,004 once each in order (= the Inquiry's HTML); notes 1,791 = tag census; 19 recommendations headed in the chapters and Appendix 3."
   - id: uk-post-office-horizon-inquiry
@@ -215,7 +215,7 @@ units:
   - id: uk-grenfell-tower-inquiry
     scope: "Phase 2, Volumes 2-7 (Volume 7's appendices a later unit)"
     bead: reportsthatmatter-gqsy.4.2
-    reached: evaluate
+    reached: publish
     state: waiting
     evidence: "ingest branch hyphen-majority (hyphenMajority, numberedInSequence, letteredItems({ fromVolume }), heading closing numbers); report repo branch phase2-vols-2-7; site branch grenfell-vols-2-7 (registry title, aliases: Volume 1 ids unchanged); all 15,340 notes defined and linked; every printed paragraph number once, in order"
     notes: "Waiting on the ingest release, then the report repo pin bump, then the site PR. Introduction revised to cover all seven volumes in the same site PR. Volume 7 appendices (tables): bnqs."
@@ -255,8 +255,8 @@ units:
   - id: uk-thirlwall-inquiry
     scope: "Volumes I-III (HC 597-I to III), as volumes 2-4 after the Summary"
     bead: reportsthatmatter-gqsy.16.7
-    reached: evaluate
-    state: active
+    reached: publish
+    state: waiting
     waive:
       editorial.card-highlights: reportsthatmatter-6j4h
     evidence: "report repo branch thirlwallvols-1112; ingest branch thirlwallvols-1112 (layoutEndnotes options, semicolonWraps); site branch thirlwallvols-1112; 2,730 numbered paragraphs once each in order; 3,842 endnotes, each chapter complete; 3,823 markers linked; golden +5 pages (2 xfail: e9im, c08x); grade B 1.89 (report)"

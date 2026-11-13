@@ -7,6 +7,40 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-13 — The Duelfer Report, Volume I
+
+[The Duelfer Report](/reports/us-duelfer-report), the Iraq Survey Group's 2004 account of Iraq's weapons of mass destruction, is now on the site: Volume I, about 163,000 words, every paragraph citable. It is built from the CIA's web edition, with page numbers from the 2005 printed edition; where the print corrected the text, the print's words are shown (753 places; [about this edition](/reports/us-duelfer-report/about)). Volumes II and III follow.
+
+![The Duelfer Report landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-13-four-report-volumes/4-us-duelfer-report-landing.png)
+
+---
+
+## 2026-11-13 — Grenfell Phase 2: all seven volumes
+
+[The Grenfell Tower Inquiry's Phase 2 report](/reports/uk-grenfell-tower-inquiry) now has all seven volumes, not just the first: about 5,600 more numbered paragraphs, from the testing and marketing of the cladding products, through the refurbishment, the fire brigade's response, the circumstances in which each person died, to the 58 recommendations. The introduction covers the whole report. Volume 7's appendices follow. Every link to Volume 1 still lands where it did.
+
+![The Grenfell Phase 2 landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-13-four-report-volumes/3-uk-grenfell-tower-inquiry-landing.png)
+
+---
+
+## 2026-11-13 — Covid Inquiry Module 2: Volume II and its recommendations
+
+[The Covid Inquiry's Module 2 report](/reports/uk-covid-inquiry-module-2) now includes Volume II, *Key themes, lessons and recommendations*: 1,004 numbered paragraphs and the Inquiry's 19 recommendations, each with its own heading. The introduction and reading guide now point to them. Posts quoting a multi-volume report now name the volume ("Vol. I, p. 91").
+
+![The Covid Inquiry Module 2 landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-13-four-report-volumes/2-uk-covid-inquiry-module-2-landing.png)
+
+---
+
+## 2026-11-13 — The Thirlwall Inquiry: Volumes I to III
+
+[The Thirlwall Inquiry report](/reports/uk-thirlwall-inquiry) is now complete: alongside the summary, its three volumes add 2,730 numbered paragraphs, every one citable, including the chapter of recommendations. The introduction covers the whole report. Links to the summary are unchanged.
+
+![The Thirlwall Inquiry landing page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-13-four-report-volumes/1-uk-thirlwall-inquiry-landing.png)
+
+All four landing pages: [visual changelog](https://github.com/reportsthatmatter/visual-changelog/blob/main/CHANGELOG.md).
+
+---
+
 ## 2026-11-13 — The whole Stern Review
 
 [The Stern Review on the Economics of Climate Change](/reports/uk-stern-review) is now on the site in full: all 655 pages, every paragraph citable. Since yesterday we have added Part V on adaptation (chapters 18 to 20) and Part VI on international collective action (chapters 21 to 27), the technical annex to chapter 2 on ethics and discounting, the Postscript the Review team wrote in the weeks after publication, answering its critics, with its technical annex, and the six annexes to chapter 7 that HM Treasury published only on the web. Tables are not shown yet; their titles and sources are.
