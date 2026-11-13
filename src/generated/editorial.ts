@@ -3135,7 +3135,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     "description": "The Stern Review (2006) on the economics of climate change: its Executive Summary, Summary of Conclusions and key chapters, citable paragraph by paragraph.",
     "background": [
       "In July 2005 the Chancellor of the Exchequer, Gordon Brown, asked Sir Nicholas Stern, then Head of the Government Economic Service and a former Chief Economist of the World Bank, to review the economics of climate change. The Review, which describes itself as independent, was based in HM Treasury and reported to the Prime Minister, Tony Blair, and to the Chancellor. It was a review commissioned by government, not a statement of government policy. It invited submissions, met economists, scientists, policy-makers, business and NGOs in a dozen countries, and drew wherever it could on existing research.",
-      "It was published on 30 October 2006, in six parts, with this 27-page Executive Summary stating its argument and conclusions. The summary itself warns that its estimates \"should not be endowed with a precision and certainty that is simply impossible to achieve\". Cambridge University Press published it as a book in January 2007. This site has the Executive Summary, the Preface, Introduction and Summary of Conclusions, and Chapters 2, 6, 9, 10 and 13; the other chapters are to follow.",
+      "It was published on 30 October 2006, in six parts, with this 27-page Executive Summary stating its argument and conclusions. The summary itself warns that its estimates \"should not be endowed with a precision and certainty that is simply impossible to achieve\". Cambridge University Press published it as a book in January 2007. This site has the Executive Summary, the Preface, Introduction and Summary of Conclusions, and Chapters 1 to 10 and 13; the other chapters are to follow.",
       "Its estimates were argued over from the start. Economists, among them William Nordhaus, criticised the low rate at which it discounted harm to future generations, which weighs future losses heavily against costs paid now; the full Review argues for that choice on ethical grounds. In June 2008 Stern said the costs of acting had risen, and put the annual cost of stabilising greenhouse gases at about 2% of GDP, double the Review's estimate. The Executive Summary is published here as the UN climate conference COP31 meets in Antalya, Türkiye, from 9 to 20 November 2026."
     ],
     "findings": [
@@ -3317,6 +3317,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
+        "slug": "1-the-science-of-climate-change-scale-of-the-environment-challenge",
+        "title": "1 The Science of Climate Change: Scale of the Environment Challenge",
+        "page": "2",
+        "why": "Chapter 1 sets out the science the Review relies on: how greenhouse gases warm the Earth, how much warming different concentrations are likely to bring, and the feedbacks and abrupt changes that could add to it.",
+        "excerpt": {
+          "quote": "Most climate models show that a doubling of pre-industrial levels of greenhouse gases is very likely to commit the Earth to a rise of between 2 – 5°C in global mean temperatures.",
+          "cite": {
+            "id": "most-climate-models-show-doubling",
+            "page": 2,
+            "href": "/reports/uk-stern-review?p=most-climate-models-show-doubling&h=|Most%20climate%20models%20show%20that%20a%20doubling%20of%20pre-industrial%20levels%20of%20greenhouse%20gases%20is%20very%20likely%20to%20commit%20the%20Earth%20to%20a%20rise%20of%20between%202%20%E2%80%93%205%C2%B0C%20in%20global%20mean%20temperatures.|%20This%20level%20of%20greenhouse"
+          }
+        }
+      },
+      {
         "slug": "2-economics-ethics-and-climate-change",
         "title": "2 Economics, Ethics and Climate Change",
         "page": "23",
@@ -3329,6 +3343,32 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-stern-review?p=yet-assessing-impacts-over-very&h=preference%20%E2%80%93%20into%20question.%20|We%20take%20a%20simple%20approach%20in%20this%20Review%3A%20if%20a%20future%20generation%20will%20be%20present%2C%20we%20suppose%20that%20it%20has%20the%20same%20claim%20on%20our%20ethical%20attention%20as%20the%20current%20one.|"
           }
         }
+      },
+      {
+        "slug": "3-how-climate-change-will-affect-people-around-the-world",
+        "title": "3 How Climate Change Will Affect People Around The World",
+        "page": "56",
+        "why": "Chapter 3 goes through the impacts degree by degree: on water, food, health, land and the environment, and the risk of abrupt and large-scale changes. Its Table 3.1, which sets them out by degree of warming, is in the PDF only.",
+        "excerpt": {
+          "quote": "Climate change threatens the basic elements of life for people around the world – access to water, food, health, and use of land and the environment.",
+          "cite": {
+            "id": "climate-change-threatens-basic-elements-2",
+            "page": 56,
+            "href": "/reports/uk-stern-review?p=climate-change-threatens-basic-elements-2&h=|Climate%20change%20threatens%20the%20basic%20elements%20of%20life%20for%20people%20around%20the%20world%20%E2%80%93%20access%20to%20water%2C%20food%2C%20health%2C%20and%20use%20of%20land%20and%20the%20environment.|%20On%20current%20trends%2C"
+          }
+        }
+      },
+      {
+        "slug": "4-implications-of-climate-change-for-development",
+        "title": "4 Implications of Climate Change for Development",
+        "page": "92",
+        "why": "Chapter 4 turns to the developing world, where the Review finds the impacts will fall earliest and hardest, region by region."
+      },
+      {
+        "slug": "5-costs-of-climate-change-in-developed-countries",
+        "title": "5 Costs Of Climate Change In Developed Countries",
+        "page": "1",
+        "why": "Chapter 5 does the same for the developed world: some gains at first in higher latitudes, then growing costs from water stress, extreme weather and the strain on insurance."
       },
       {
         "slug": "6-economic-modelling-of-climate-change-impacts",
@@ -3348,13 +3388,55 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "part-iii-the-economics-of-stabilisation",
         "title": "Part III: The Economics of Stabilisation",
         "page": "168",
-        "why": "Part III's introduction, followed in this edition by Chapter 9, which builds up the cost of cutting emissions technology by technology. The estimate below is annual, to 2050; Chapter 10 gives its range.",
+        "why": "Part III's one-page introduction states the Review's estimate of the cost of action, annual, to 2050; the chapters that follow build it up.",
         "excerpt": {
           "quote": "Overall costs are estimated at around 1% of GDP for stabilisation levels between 500-550ppm CO2e.",
           "cite": {
             "id": "stabilisation-concentrations-will-require-deep",
             "page": 168,
             "href": "/reports/uk-stern-review?p=stabilisation-concentrations-will-require-deep&h=the%20costs%20of%20technologies.%20|Overall%20costs%20are%20estimated%20at%20around%201%25%20of%20GDP%20for%20stabilisation%20levels%20between%20500-550ppm%20CO2e.|"
+          }
+        }
+      },
+      {
+        "slug": "7-projecting-the-growth-of-greenhouse-gas-emissions",
+        "title": "7 Projecting the Growth of Greenhouse-Gas Emissions",
+        "page": "169",
+        "why": "Chapter 7 sets out where emissions are heading if nothing is done, and why scarcer fossil fuels will not stop them in time.",
+        "excerpt": {
+          "quote": "In a plausible 'business as usual' scenario, they will reach 550ppm CO2e by 2035, then increasing at 4½ppm per year and still accelerating.",
+          "cite": {
+            "id": "without-action-combat-climate-change",
+            "page": 169,
+            "href": "/reports/uk-stern-review?p=without-action-combat-climate-change&h=gases%20will%20continue%20to%20rise.%20|In%20a%20plausible%20'business%20as%20usual'%20scenario%2C%20they%20will%20reach%20550ppm%20CO2e%20by%202035%2C%20then%20increasing%20at%204%C2%BDppm%20per%20year%20and%20still%20accelerating.|"
+          }
+        }
+      },
+      {
+        "slug": "8-the-challenge-of-stabilisation",
+        "title": "8 The Challenge of Stabilisation",
+        "page": "193",
+        "why": "Chapter 8 sets out what stabilising greenhouse gases would take: how soon emissions must peak, and how fast they must then fall.",
+        "excerpt": {
+          "quote": "Stabilisation at 550 ppm CO2e requires emissions to peak in the next 10-20 years, and to decline at a substantial rate thereafter.",
+          "cite": {
+            "id": "stabilisation-550-ppm-co2e-requires",
+            "page": 205,
+            "href": "/reports/uk-stern-review?p=stabilisation-550-ppm-co2e-requires&h=|Stabilisation%20at%20550%20ppm%20CO2e%20requires%20emissions%20to%20peak%20in%20the%20next%2010-20%20years%2C%20and%20to%20decline%20at%20a%20substantial%20rate%20thereafter.|%20Stabilisation%20at%20450%20ppm"
+          }
+        }
+      },
+      {
+        "slug": "9-identifying-the-costs-of-mitigation",
+        "title": "9 Identifying the Costs of Mitigation",
+        "page": "211",
+        "why": "Chapter 9 builds up the cost of cutting emissions technology by technology, with the range around it; Chapter 10 compares it with the economic models.",
+        "excerpt": {
+          "quote": "The global cost of reducing total GHG emissions to three quarters of current levels (consistent with 550ppm CO2e stabilisation trajectory) is estimated at around $1 trillion in 2050 or 1% of GDP in that year, with a range of –1.0% to 3.5% depending on the assumptions made.",
+          "cite": {
+            "id": "global-cost-reducing-total-ghg",
+            "page": 232,
+            "href": "/reports/uk-stern-review?p=global-cost-reducing-total-ghg&h=|The%20global%20cost%20of%20reducing%20total%20GHG%20emissions%20to%20three%20quarters%20of%20current%20levels%20(consistent%20with%20550ppm%20CO2e%20stabilisation%20trajectory)%20is%20estimated%20at%20around%20%241%20trillion%20in%202050%20or%201%25%20of%20GDP%20in%20that%20year%2C%20with%20a%20range%20of%20%E2%80%931.0%25%20to%203.5%25%20depending%20on%20the%20assumptions%20made.|"
           }
         }
       },
@@ -4132,9 +4214,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
     ],
     "readingGuide": [
       {
-        "slug": "part-i-the-path-to-tragedy",
-        "title": "Part I and Chapter 1: Sudden Death on the Gulf of Mexico",
-        "page": "xiii",
+        "slug": "chapter-one-everyone-involved-with-the-jobwas-completely-satisfied-the-deepwater",
+        "title": "Chapter 1: Sudden Death on the Gulf of Mexico",
+        "page": "1",
         "why": "An hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.",
         "excerpt": {
           "quote": "Down in Ezell's cabin, he was still watching TV when his phone rang. It was assistant driller Steve Curtis calling, also from the rig floor. \"We have a situation. …The well is blown out. . . . We have mud going to the crown.\"",
@@ -4146,9 +4228,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster",
-        "title": "Part II and Chapter 4: The Macondo Well and the Blowout",
-        "page": "87",
+        "slug": "chapter-four-but-who-cares-its-done-end-of-story-we-will-probably-be-fine-and-we",
+        "title": "Chapter 4: The Macondo Well and the Blowout",
+        "page": "89",
         "why": "The Commission's technical account of why the well failed, from the cement job to the warning signs missed in the last hour.",
         "excerpt": {
           "quote": "It appears instead they started from the assumption that the well could not be flowing, and kept running tests and coming up with various explanations until they had convinced themselves their assumption was correct.",
@@ -4160,9 +4242,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "part-iii-lessons-learned-industry-government-energy-policy",
-        "title": "Part III and Chapter 8: Changing Business as Usual",
-        "page": "215",
+        "slug": "chapter-eight-safety-is-not-proprietary-changing-business-as-usual",
+        "title": "Chapter 8: Changing Business as Usual",
+        "page": "217",
         "why": "The case for the industry to change its own safety culture, and how.",
         "excerpt": {
           "quote": "The Deepwater Horizon blowout, explosion, and oil spill did not have to happen.",

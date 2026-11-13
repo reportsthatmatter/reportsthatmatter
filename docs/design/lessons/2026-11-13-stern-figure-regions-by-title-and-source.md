@@ -1,0 +1,4 @@
+---
+theme: ingest
+---
+- **For a report with dozens of body-face charts and tables, find each region by its own printed lines (a "Figure N.N"/"Table N.N" title with a capital after the number, and the first "Source:"/"Note:" line after it on the page) and keep only the blocks between that read as prose, rather than listing each region's anchors by hand** (2026-11-13, reportsthatmatter-gqsy.9.2 batch 2a, stern-b2-1113 agent) Batch 1 named 17 regions in `ingest.ts`; the generic `figureRegions` pass took Stern Chapters 1, 3-5, 7 and 8 (45 figures and tables) from 29 severed-into-quote and 29 contents-entry signals to 0, with six regions still named by hand (no source line on the page, or a box's untitled table). A log of every dropped line (`FIGURE_REGION_DROPS`) made the drops reviewable: one two-column caption inside a chart (Figure 8.5) is lost and is listed in PROCESSING.md. [status: done in uk-stern-review stern-b2-1113; a shared opt-in pass is a proposal]

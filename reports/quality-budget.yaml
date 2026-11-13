@@ -346,22 +346,22 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 2  # why: reportsthatmatter-6uqx (Ch9 note 25 and Ch10 note 4 are cited only inside a table that is not served)
-    note-reference-sequence: 2  # why: reportsthatmatter-6uqx (the same two notes)
+    note-definition-unreferenced: 4  # why: reportsthatmatter-6uqx (Ch3 notes 9 and 10, Ch9 note 25 and Ch10 note 4 are cited only inside a table that is not served: Box 3.2 p.61, pp.219, 243)
+    note-reference-sequence: 3  # why: reportsthatmatter-6uqx (the same four notes, in three chapters' runs)
     note-text-in-body: 0
     note-citation-vocabulary: 0
-    furniture-paragraph: 5  # why: reportsthatmatter-gqsy.9.2 ("Key Messages", the printed title of the box at the head of each of the five chapters, not furniture)
+    furniture-paragraph: 11  # why: reportsthatmatter-gqsy.9.2 ("Key Messages", the printed title of the box at the head of each of the eleven chapters, not furniture)
     contents-entry-without-heading: 0
     heading-density: 0
     heading-repeated: 1  # why: reportsthatmatter-gqsy.9.2 ("References" closes each chapter, as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 0
-    printed-page-reversal: 0
+    heading-long: 3  # why: reportsthatmatter-gqsy.9.2 (three section headings printed that long, each read against its page: 4.3 p.100, 4.5 p.107, 7.5 p.183)
+    printed-page-reversal: 1  # why: reportsthatmatter-gqsy.9.2 (HM Treasury's reissue of Chapter 5 prints its folios 1-21 after Chapter 4's p.121, where the table of contents sets it at pp.122-142; served as printed)
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 1  # why: reportsthatmatter-6uqx (the two unreferenced notes render as a list; 0.1%)
-    numbered-prose-list: 1  # why: reportsthatmatter-6uqx (the same two notes)
+    numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 0
   uk-thirlwall-inquiry:

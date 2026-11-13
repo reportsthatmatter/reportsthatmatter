@@ -1,0 +1,4 @@
+---
+theme: review
+---
+- **A change to how sections are split moves other reports' reading guides: run `pnpm editorial` against the trial render, not only `pnpm ingest try`** (2026-11-13, reportsthatmatter-owre, stern-b2-1113 agent) `ingest try` reported "rendered text unchanged, no quality signal moved" for the Part-divider fix, yet it gives six reports new chapter sections and three of Deepwater Horizon's reading-guide excerpts left the Part sections they named; `pnpm editorial` (and `pnpm corpus check`) caught it once the ingest was linked. The first cut of the rule also split page-label-only banners and a contents heading, found only by diffing every report's section list (a 20-line script over `splitSections`). [status: Deepwater guide fixed in site stern-b2-1113; proposal: `ingest try` prints section moves and runs `pnpm editorial`]
