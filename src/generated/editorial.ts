@@ -3131,11 +3131,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-stern-review": {
     "status": "approved",
-    "whyItMatters": "Sir Nicholas Stern's review of the economics of climate change, written for the UK Treasury and published in October 2006. It set the costs of climate change against the costs of acting on it, and concluded that the benefits of strong, early action \"considerably outweigh the costs\". Published here in November 2026, twenty years on and as COP31 meets: its Executive Summary in its own words, with the estimates, the reasoning and the policies it proposed.",
-    "description": "The Stern Review (2006) on the economics of climate change: its Executive Summary, citable paragraph by paragraph.",
+    "whyItMatters": "Sir Nicholas Stern's review of the economics of climate change, written for the UK Treasury and published in October 2006. It set the costs of climate change against the costs of acting on it, and concluded that the benefits of strong, early action \"considerably outweigh the costs\". Published here in November 2026, twenty years on and as COP31 meets: its Executive Summary and Summary of Conclusions, and the chapters behind its best-known numbers, in its own words, with the estimates, the reasoning and the policies it proposed.",
+    "description": "The Stern Review (2006) on the economics of climate change: its Executive Summary, Summary of Conclusions and key chapters, citable paragraph by paragraph.",
     "background": [
       "In July 2005 the Chancellor of the Exchequer, Gordon Brown, asked Sir Nicholas Stern, then Head of the Government Economic Service and a former Chief Economist of the World Bank, to review the economics of climate change. The Review, which describes itself as independent, was based in HM Treasury and reported to the Prime Minister, Tony Blair, and to the Chancellor. It was a review commissioned by government, not a statement of government policy. It invited submissions, met economists, scientists, policy-makers, business and NGOs in a dozen countries, and drew wherever it could on existing research.",
-      "It was published on 30 October 2006, in six parts, with this 27-page Executive Summary stating its argument and conclusions. The summary itself warns that its estimates \"should not be endowed with a precision and certainty that is simply impossible to achieve\". Cambridge University Press published it as a book in January 2007. The rest of the Review is not yet on this site.",
+      "It was published on 30 October 2006, in six parts, with this 27-page Executive Summary stating its argument and conclusions. The summary itself warns that its estimates \"should not be endowed with a precision and certainty that is simply impossible to achieve\". Cambridge University Press published it as a book in January 2007. This site has the Executive Summary, the Preface, Introduction and Summary of Conclusions, and Chapters 2, 6, 9, 10 and 13; the other chapters are to follow.",
       "Its estimates were argued over from the start. Economists, among them William Nordhaus, criticised the low rate at which it discounted harm to future generations, which weighs future losses heavily against costs paid now; the full Review argues for that choice on ethical grounds. In June 2008 Stern said the costs of acting had risen, and put the annual cost of stabilising greenhouse gases at about 2% of GDP, double the Review's estimate. The Executive Summary is published here as the UN climate conference COP31 meets in Antalya, Türkiye, from 9 to 20 November 2026."
     ],
     "findings": [
@@ -3292,13 +3292,97 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "executive-summary",
         "title": "Executive Summary",
         "page": "i",
-        "why": "The whole summary is one section of 27 pages. Its findings are the sentences in bold italic: read those first for the argument, then the impacts and costs of climate change (pp. iii-x), the costs of action (pp. xi-xvii) and the policies (pp. xviii-xxvii).",
+        "why": "The Review's own account of its argument, in 27 pages. Its findings are the sentences in bold italic: read those first for the argument, then the impacts and costs of climate change (pp. iii-x), the costs of action (pp. xi-xvii) and the policies (pp. xviii-xxvii).",
         "excerpt": {
           "quote": "Our actions over the coming few decades could create risks of major disruption to economic and social activity, later in this century and in the next, on a scale similar to those associated with the great wars and the economic depression of the first half of the 20th century.",
           "cite": {
             "id": "evidence-shows-ignoring-climate-change",
             "page": "ii",
             "href": "/reports/uk-stern-review?p=evidence-shows-ignoring-climate-change&h=eventually%20damage%20economic%20growth.%20|Our%20actions%20over%20the%20coming%20few%20decades%20could%20create%20risks%20of%20major%20disruption%20to%20economic%20and%20social%20activity%2C%20later%20in%20this%20century%20and%20in%20the%20next%2C%20on%20a%20scale%20similar%20to%20those%20associated%20with%20the%20great%20wars%20and%20the%20economic%20depression%20of%20the%20first%20half%20of%20the%2020th%20century.|%20And%20it%20will%20be%20difficult"
+          }
+        }
+      },
+      {
+        "slug": "summary-of-conclusions",
+        "title": "Summary of Conclusions",
+        "page": "vi",
+        "why": "The shortest statement of the Review's conclusions, four pages headed by six findings in bold italic: the costs of inaction and of action, the price of delay, and what international action should include.",
+        "excerpt": {
+          "quote": "Using the results from formal economic models, the Review estimates that if we don't act, the overall costs and risks of climate change will be equivalent to losing at least 5% of global GDP each year, now and forever.",
+          "cite": {
+            "id": "using-results-from-formal-economic",
+            "page": "vi",
+            "href": "/reports/uk-stern-review?p=using-results-from-formal-economic&h=|Using%20the%20results%20from%20formal%20economic%20models%2C%20the%20Review%20estimates%20that%20if%20we%20don't%20act%2C%20the%20overall%20costs%20and%20risks%20of%20climate%20change%20will%20be%20equivalent%20to%20losing%20at%20least%205%25%20of%20global%20GDP%20each%20year%2C%20now%20and%20forever.|%20If%20a%20wider%20range%20of"
+          }
+        }
+      },
+      {
+        "slug": "2-economics-ethics-and-climate-change",
+        "title": "2 Economics, Ethics and Climate Change",
+        "page": "23",
+        "why": "Chapter 2 sets out the economic and ethical framework, including how far to discount the welfare of future generations, the choice that critics such as William Nordhaus challenged.",
+        "excerpt": {
+          "quote": "We take a simple approach in this Review: if a future generation will be present, we suppose that it has the same claim on our ethical attention as the current one.",
+          "cite": {
+            "id": "yet-assessing-impacts-over-very",
+            "page": 31,
+            "href": "/reports/uk-stern-review?p=yet-assessing-impacts-over-very&h=preference%20%E2%80%93%20into%20question.%20|We%20take%20a%20simple%20approach%20in%20this%20Review%3A%20if%20a%20future%20generation%20will%20be%20present%2C%20we%20suppose%20that%20it%20has%20the%20same%20claim%20on%20our%20ethical%20attention%20as%20the%20current%20one.|"
+          }
+        }
+      },
+      {
+        "slug": "6-economic-modelling-of-climate-change-impacts",
+        "title": "6 Economic modelling of climate-change impacts",
+        "page": "143",
+        "why": "Chapter 6 is where the \"5 to 20%\" estimate of the cost of climate change is made, from the PAGE2002 model: 5% for the model's lower-bound scenario, and around 20% once three further factors are added, as below. Its key messages, on the first page, summarise the method and the results; its Table 6.1 is in the PDF only.",
+        "excerpt": {
+          "quote": "Putting these three additional factors together would increase the total cost of BAU climate change to the equivalent of around a 20% reduction in current per-capita consumption, now and forever.",
+          "cite": {
+            "id": "putting-these-three-additional-factors",
+            "page": 143,
+            "href": "/reports/uk-stern-review?p=putting-these-three-additional-factors&h=|Putting%20these%20three%20additional%20factors%20together%20would%20increase%20the%20total%20cost%20of%20BAU%20climate%20change%20to%20the%20equivalent%20of%20around%20a%2020%25%20reduction%20in%20current%20per-capita%20consumption%2C%20now%20and%20forever.|%20Distributional"
+          }
+        }
+      },
+      {
+        "slug": "part-iii-the-economics-of-stabilisation",
+        "title": "Part III: The Economics of Stabilisation",
+        "page": "168",
+        "why": "Part III's introduction, followed in this edition by Chapter 9, which builds up the cost of cutting emissions technology by technology. The estimate below is annual, to 2050; Chapter 10 gives its range.",
+        "excerpt": {
+          "quote": "Overall costs are estimated at around 1% of GDP for stabilisation levels between 500-550ppm CO2e.",
+          "cite": {
+            "id": "stabilisation-concentrations-will-require-deep",
+            "page": 168,
+            "href": "/reports/uk-stern-review?p=stabilisation-concentrations-will-require-deep&h=the%20costs%20of%20technologies.%20|Overall%20costs%20are%20estimated%20at%20around%201%25%20of%20GDP%20for%20stabilisation%20levels%20between%20500-550ppm%20CO2e.|"
+          }
+        }
+      },
+      {
+        "slug": "10-macroeconomic-models-of-costs",
+        "title": "10 Macroeconomic Models of Costs",
+        "page": "239",
+        "why": "Chapter 10 compares the Review's estimate with the costs found by economic models of the whole economy.",
+        "excerpt": {
+          "quote": "Overall, the expected annual cost of achieving emissions reductions, consistent with an emissions trajectory leading to stabilisation at around 500-550ppm CO2e, is likely to be around 1% of GDP by 2050, with a range of +/- 3%, reflecting uncertainties over the scale of mitigation required, the pace of technological innovation and the degree of policy flexibility.",
+          "cite": {
+            "id": "overall-expected-annual-cost-achieving",
+            "page": 239,
+            "href": "/reports/uk-stern-review?p=overall-expected-annual-cost-achieving&h=|Overall%2C%20the%20expected%20annual%20cost%20of%20achieving%20emissions%20reductions%2C%20consistent%20with%20an%20emissions%20trajectory%20leading%20to%20%E2%8B%AFinties%20over%20the%20scale%20of%20mitigation%20required%2C%20the%20pace%20of%20technological%20innovation%20and%20the%20degree%20of%20policy%20flexibility.|"
+          }
+        }
+      },
+      {
+        "slug": "13-towards-a-goal-for-climate-change-policy",
+        "title": "13 Towards a Goal for Climate-Change Policy",
+        "page": "284",
+        "why": "Chapter 13 sets the costs against the damages to choose a goal for policy, and arrives at the range for stabilisation the Review recommends.",
+        "excerpt": {
+          "quote": "The current evidence suggests aiming for stabilisation somewhere within the range 450 - 550ppm CO2e.",
+          "cite": {
+            "id": "current-evidence-suggests-aiming-stabilisation-2",
+            "page": 284,
+            "href": "/reports/uk-stern-review?p=current-evidence-suggests-aiming-stabilisation-2&h=|The%20current%20evidence%20suggests%20aiming%20for%20stabilisation%20somewhere%20within%20the%20range%20450%20-%20550ppm%20CO2e.|%20Anything%20higher%20would"
           }
         }
       }

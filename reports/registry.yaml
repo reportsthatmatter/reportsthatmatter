@@ -322,7 +322,7 @@ reports:
     context_line: "Thirlwall Inquiry summary report (2026): events at the Countess of Chester Hospital, 2015 to 2018."
 
   - id: uk-stern-review
-    title: "Stern Review: The Economics of Climate Change: Executive Summary"
+    title: "Stern Review: The Economics of Climate Change"
     authors: "Nicholas Stern (HM Treasury)"
     published_at: "30 October 2006"
     common_name: "Stern Review"

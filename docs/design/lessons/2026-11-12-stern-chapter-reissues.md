@@ -1,0 +1,4 @@
+---
+theme: sources
+---
+- **For a report published as many PDFs, list every capture of the publisher's whole file directory (both old and new URL prefixes) and compare digests per file before choosing one; a later reissue can be the corrected edition** (2026-11-12, reportsthatmatter-gqsy.9.2, stern-full-1112 agent) The Executive Summary had one digest from 2006 to 2013, but a CDX listing of HM Treasury's `/media/` prefix showed most Stern chapter PDFs were replaced in January 2007 under `/d/` by corrected, tagged files ("feasibl,e" fixed, "Note: GWP should read GDP" added under Figure 10.1). uk-stern-review uses the reissues and records both digests in its README. [status: done in uk-stern-review#2]

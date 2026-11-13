@@ -1,12 +1,78 @@
 {
-  "words": 12342,
-  "paragraphs": 210,
+  "words": 77010,
+  "paragraphs": 1092,
   "sections": [
     {
       "slug": "executive-summary",
       "title": "Executive Summary",
       "paragraphs": 210,
       "ids": "2895bd661438"
+    },
+    {
+      "slug": "preface",
+      "title": "Preface",
+      "paragraphs": 10,
+      "ids": "c1dbbb45b590"
+    },
+    {
+      "slug": "acknowledgements",
+      "title": "Acknowledgements",
+      "paragraphs": 9,
+      "ids": "8787a32125d4"
+    },
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "paragraphs": 12,
+      "ids": "c6397c099ef6"
+    },
+    {
+      "slug": "summary-of-conclusions",
+      "title": "Summary of Conclusions",
+      "paragraphs": 35,
+      "ids": "825421ec53e8"
+    },
+    {
+      "slug": "part-i-climate-change-our-approach",
+      "title": "Part I: Climate Change – our approach",
+      "paragraphs": 6,
+      "ids": "2b1309f82b3c"
+    },
+    {
+      "slug": "2-economics-ethics-and-climate-change",
+      "title": "2 Economics, Ethics and Climate Change",
+      "paragraphs": 158,
+      "ids": "d016b93bc376"
+    },
+    {
+      "slug": "part-ii-impacts-of-climate-change-on-growth-and-development",
+      "title": "Part II: Impacts of Climate Change on Growth and Development",
+      "paragraphs": 7,
+      "ids": "236589041e75"
+    },
+    {
+      "slug": "6-economic-modelling-of-climate-change-impacts",
+      "title": "6 Economic modelling of climate-change impacts",
+      "paragraphs": 191,
+      "ids": "409a1a504b65"
+    },
+    {
+      "slug": "part-iii-the-economics-of-stabilisation",
+      "title": "Part III: The Economics of Stabilisation",
+      "paragraphs": 178,
+      "ids": "cbea0aad800a"
+    },
+    {
+      "slug": "10-macroeconomic-models-of-costs",
+      "title": "10 Macroeconomic Models of Costs",
+      "paragraphs": 106,
+      "ids": "a038c649e18f"
+    },
+    {
+      "slug": "13-towards-a-goal-for-climate-change-policy",
+      "title": "13 Towards a Goal for Climate-Change Policy",
+      "paragraphs": 170,
+      "ids": "94e5ae8a6944"
     }
   ]
 }
