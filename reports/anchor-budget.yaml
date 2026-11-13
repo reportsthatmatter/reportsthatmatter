@@ -91,7 +91,7 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 3  # why: reportsthatmatter-bqu0 (captions on pages with two photographs: pp.348, 601, 607)
   uk-grenfell-tower-inquiry:
-    markers-wrong: 0
+    markers-wrong: 13  # why: reportsthatmatter-f85g (the Part title pages of Volumes 2-7: each marker sits above its Part heading; the check misplaces the page)
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 0
