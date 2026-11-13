@@ -1,7 +1,7 @@
 {
  "ingest": "v0.35.0",
- "site": "2da8b122",
- "recorded": "2026-11-12",
+ "site": "5f2b4aab",
+ "recorded": "2026-11-13",
  "reports": {
   "challenger-accident": {
    "id": "challenger-accident",
@@ -313,8 +313,8 @@
       }
      ],
      "unmatched": {
-      "count": 111,
-      "per10": 6.981132075471698
+      "count": 108,
+      "per10": 6.792452830188679
      }
     }
    }
@@ -796,7 +796,7 @@
   "columbia-accident": {
    "id": "columbia-accident",
    "pages": 240,
-   "per10": 2.5414640324214792,
+   "per10": 2.2393806990881457,
    "letter": "B",
    "publishable": true,
    "below": [],
@@ -815,16 +815,16 @@
      "key": "paragraphs",
      "basis": "estimated",
      "graded": true,
-     "errors": 51.1,
-     "per10": 2.129166666666667,
+     "errors": 44.85,
+     "per10": 1.8687500000000001,
      "letter": "B",
      "terms": [
       {
        "source": "oracle paragraphs-oversplit",
-       "count": 174,
+       "count": 149,
        "precision": 0.25,
        "precisionFrom": "pooled golden 7/28",
-       "errors": 43.5
+       "errors": 37.25
       },
       {
        "source": "page breaks (reference, all) 4/29 wrong x 240 pages",
@@ -901,8 +901,8 @@
      "key": "pages",
      "basis": "estimated",
      "graded": true,
-     "errors": 2,
-     "per10": 0.08333333333333333,
+     "errors": 1,
+     "per10": 0.041666666666666664,
      "letter": "A",
      "terms": [
       {
@@ -921,10 +921,10 @@
       },
       {
        "source": "anchors blocks-wrong (budget)",
-       "count": 2,
+       "count": 1,
        "precision": 1,
        "precisionFrom": "assumed",
-       "errors": 2
+       "errors": 1
       }
      ]
     },
@@ -945,8 +945,8 @@
       }
      ],
      "unmatched": {
-      "count": 1147,
-      "per10": 47.79166666666667
+      "count": 1176,
+      "per10": 49
      }
     }
    }

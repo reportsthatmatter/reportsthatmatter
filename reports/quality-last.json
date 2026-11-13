@@ -1,6 +1,6 @@
 {
   "ingest": "v0.35.0",
-  "recorded": "2026-11-12",
+  "recorded": "2026-11-13",
   "reports": {
     "challenger-accident": {
       "severed-into-quote": 57,
@@ -33,8 +33,8 @@
       "quote-share-parity": 2
     },
     "columbia-accident": {
-      "severed-into-quote": 29,
-      "severed-paragraph": 13,
+      "severed-into-quote": 26,
+      "severed-paragraph": 11,
       "severed-paragraph-capital": 15,
       "numbered-paragraph-glued": 0,
       "unnumbered-page-opening": 0,
@@ -44,10 +44,10 @@
       "note-marker-unpaired": 0,
       "note-definition-unreferenced": 5,
       "note-reference-sequence": 7,
-      "note-text-in-body": 2,
+      "note-text-in-body": 0,
       "note-citation-vocabulary": 0,
       "furniture-paragraph": 11,
-      "contents-entry-without-heading": 45,
+      "contents-entry-without-heading": 37,
       "heading-density": 1,
       "heading-repeated": 3,
       "heading-function-word": 2,
