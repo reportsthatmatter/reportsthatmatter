@@ -9,7 +9,7 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ## 2026-11-13 — The Stern Review's policy chapters
 
-[The Stern Review](/reports/uk-stern-review) now runs to 425 pages. Chapters 11 and 12 finish Part III on the costs of cutting emissions, and all of Part IV is here: its introduction and chapters 14 to 17 on carbon pricing in theory and in practice, putting a price on carbon through taxes and trading, and the policies for low-carbon technology and for removing barriers to action. Every link already published to the Review still lands on the same paragraph.
+[The Stern Review](/reports/uk-stern-review) now runs to 425 pages. Chapters 11 and 12 finish Part III, on structural change and competitiveness and on the wider benefits of climate policy, and all of Part IV is here: its introduction and chapters 14 to 17 on harnessing markets through taxation and trading, carbon pricing and emissions markets in practice, accelerating technological innovation, and policy beyond carbon markets and technology. Every link already published to the Review still lands on the same paragraph.
 
 ---
 
