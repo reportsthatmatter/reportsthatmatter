@@ -5,7 +5,7 @@ published_at: "30 October 2006"
 source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
 pages: 597
 footnotes: 1237
-corrections: 96
+corrections: 97
 ---
 
 %%page i%%
@@ -10624,7 +10624,7 @@ Action to prevent deforestation, as set out in Chapter 9, offers opportunities t
 
 Figure 25.1 Sources of emissions from global land use change 2000
 
-Source: Reproduced from Baumert et al (2005) use change within the range equivalent to 2.2 to 9.9 GtCO2,, with a central estimate of 6.2 GtCO2. A fuller discussion setting out the range of estimates can be found in Baumert KA et al. (2005).
+Source: Reproduced from Baumert et al (2005)
 
 %%page 539%%
 
@@ -13678,7 +13678,7 @@ Above all, reducing the risks of climate change requires collective action. It r
 
 [^3]: Prentice et al (2001) gives ~4500 GtCO2 in forest ecosystems, compared with ~3000 GtCO2, the level with atmospheric concentration levels of 380ppm.
 
-[^4]: Although all estimates suggest that land use emissions are significant, estimates of the scale of land use emissions vary. The WRI estimates used in this report estimate that emissions from deforestation are about 8 GtCO2 per year (see fig 25.1). This is within the range of the Third Assessment Report of IPCC which estimates emissions from land
+[^4]: Although all estimates suggest that land use emissions are significant, estimates of the scale of land use emissions vary. The WRI estimates used in this report estimate that emissions from deforestation are about 8 GtCO2 per year (see fig 25.1). This is within the range of the Third Assessment Report of IPCC which estimates emissions from land use change within the range equivalent to 2.2 to 9.9 GtCO2,, with a central estimate of 6.2 GtCO2. A fuller discussion setting out the range of estimates can be found in Baumert KA et al. (2005).
 
 [^5]: CAIT, WRI. 2000 figures used.
 
