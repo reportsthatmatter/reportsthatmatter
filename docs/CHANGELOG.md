@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-13 — The Stern Review's key chapters
+
+[The Stern Review](/reports/uk-stern-review) is no longer only its Executive Summary. Eleven more parts are now on the site, in the Review's own order: the Preface, Introduction and Summary of Conclusions, the introductions to Parts I–III, and the five chapters most often cited: chapter 2 on ethics and discounting, chapter 6 on the economic impacts (where the "5 to 20%" estimate comes from), chapters 9 and 10 on the cost of cutting emissions (the "around 1% of GDP"), and chapter 13 on stabilisation targets. That is 149 pages, each paragraph citable. Tables are not shown yet; their titles and sources are. The rest of the Review follows.
+
+---
+
 ## 2026-11-13 — Columbia's bulleted points and findings
 
 More of [the Columbia Accident Investigation Board's report](/reports/columbia-accident) reads as it was printed: bulleted points that run from one column to the next stay whole, a bullet no longer runs into the sentence before it, the paragraphs set under a bullet ("United Space Alliance, which is responsible for both…") are no longer cut into a paragraph a line, and finding F7.4-13 is whole again. The leftover numbers from chart axes ("400 500 600 700 800 900 1000") are gone from between paragraphs.
