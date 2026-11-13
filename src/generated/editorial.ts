@@ -3565,6 +3565,174 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-stern-review?p=policies-price-greenhouse-gases-support&h=|Policies%20to%20price%20greenhouse%20gases%2C%20and%20support%20technology%20development%2C%20are%20fundamental%20to%20tackling%20climate%20change.%20However%2C%20even%20if%20these%20measures%20are%20taken%2C%20barriers%20and%20market%20imperfections%20may%20still%20inhibit%20action%2C%20particularly%20on%20energy%20efficiency.|"
           }
         }
+      },
+      {
+        "slug": "part-v-policy-responses-for-adaptation",
+        "title": "Part V: Policy Responses for Adaptation",
+        "page": "403",
+        "why": "The introduction to Part V sets out why adaptation matters, what it can and cannot do, and the three chapters that follow on its economics and policy in rich and poor countries.",
+        "excerpt": {
+          "quote": "Climate is a pervasive factor in social and economic development – one so universally present and so deeply ingrained that it is barely noticed until things go wrong.",
+          "cite": {
+            "id": "climate-pervasive-factor-social-economic",
+            "page": 403,
+            "href": "/reports/uk-stern-review?p=climate-pervasive-factor-social-economic&h=|Climate%20is%20a%20pervasive%20factor%20in%20social%20and%20economic%20development%20%E2%80%93%20one%20so%20universally%20present%20and%20so%20deeply%20ingrained%20that%20it%20is%20barely%20noticed%20until%20things%20go%20wrong.|%20People%20are%20adapted%20to"
+          }
+        }
+      },
+      {
+        "slug": "18-understanding-the-economics-of-adaptation",
+        "title": "18 Understanding the Economics of Adaptation",
+        "page": "404",
+        "why": "Chapter 18 sets out the economics of adaptation: what individuals and firms will do for themselves, where markets fall short, and why adaptation cannot replace cutting emissions.",
+        "excerpt": {
+          "quote": "Adaptation is crucial to deal with the unavoidable impacts of climate change to which the world is already committed. It will be especially important in developing countries that will be hit hardest and soonest by climate change.",
+          "cite": {
+            "id": "adaptation-crucial-deal-unavoidable-impacts",
+            "page": 404,
+            "href": "/reports/uk-stern-review?p=adaptation-crucial-deal-unavoidable-impacts&h=|Adaptation%20is%20crucial%20to%20deal%20with%20the%20unavoidable%20impacts%20of%20climate%20change%20to%20which%20the%20world%20is%20already%20committed.%20It%20will%20be%20especially%20important%20in%20developing%20countries%20that%20will%20be%20hit%20hardest%20and%20soonest%20by%20climate%20change.|"
+          }
+        }
+      },
+      {
+        "slug": "19-adaptation-in-the-developed-world",
+        "title": "19 Adaptation In The Developed World",
+        "page": "416",
+        "why": "Chapter 19 looks at adaptation policy in rich countries: climate information, land-use planning, standards for long-lived infrastructure and insurance.",
+        "excerpt": {
+          "quote": "In developed countries, adaptation will be required to reduce the costs and disruption caused by climate change, particularly from extreme weather events like storms, floods and heatwaves.",
+          "cite": {
+            "id": "developed-countries-adaptation-will-be",
+            "page": 416,
+            "href": "/reports/uk-stern-review?p=developed-countries-adaptation-will-be&h=|In%20developed%20countries%2C%20adaptation%20will%20be%20required%20to%20reduce%20the%20costs%20and%20disruption%20caused%20by%20climate%20change%2C%20particularly%20from%20extreme%20weather%20events%20like%20storms%2C%20floods%20and%20heatwaves.|%20Adaptation%20will%20also"
+          }
+        }
+      },
+      {
+        "slug": "20-adaptation-in-the-developing-world",
+        "title": "20 Adaptation in the developing world",
+        "page": "430",
+        "why": "Chapter 20 argues that in poor countries adaptation is largely good development, and estimates what it will add to the cost of development.",
+        "excerpt": {
+          "quote": "Adaptation to mute the impact of climate change will be essential in the poorer parts of the world. The poorest countries will be especially hard hit by climate change, with millions potentially pushed deeper into poverty.",
+          "cite": {
+            "id": "adaptation-mute-impact-climate-change",
+            "page": 430,
+            "href": "/reports/uk-stern-review?p=adaptation-mute-impact-climate-change&h=|Adaptation%20to%20mute%20the%20impact%20of%20climate%20change%20will%20be%20essential%20in%20the%20poorer%20parts%20of%20the%20world.%20The%20poorest%20countries%20will%20be%20especially%20hard%20hit%20by%20climate%20change%2C%20with%20millions%20potentially%20pushed%20deeper%20into%20poverty.|"
+          }
+        }
+      },
+      {
+        "slug": "part-vi-international-collective-action",
+        "title": "Part VI: International Collective Action",
+        "page": "449",
+        "why": "The introduction to Part VI sets out the dimensions of international action, on mitigation and on adaptation, that Chapters 21 to 27 take in turn.",
+        "excerpt": {
+          "quote": "Part VI of the Review considers the challenges of building and sustaining frameworks for international collective action on climate change.",
+          "cite": {
+            "id": "part-vi-review-considers-challenges",
+            "page": 449,
+            "href": "/reports/uk-stern-review?p=part-vi-review-considers-challenges&h=|Part%20VI%20of%20the%20Review%20considers%20the%20challenges%20of%20building%20and%20sustaining%20frameworks%20for%20international%20collective%20action%20on%20climate%20change.|"
+          }
+        }
+      },
+      {
+        "slug": "21-framework-for-understanding-international-collective-action-for-climate-chang",
+        "title": "21 Framework for Understanding International Collective Action for Climate Change",
+        "page": "450",
+        "why": "Chapter 21 frames climate change as a global public good and asks what makes international co-operation on it effective, efficient and equitable.",
+        "excerpt": {
+          "quote": "Climate change mitigation raises the classic problem of the provision of a global public good.",
+          "cite": {
+            "id": "climate-change-mitigation-raises-classic",
+            "page": 450,
+            "href": "/reports/uk-stern-review?p=climate-change-mitigation-raises-classic&h=|Climate%20change%20mitigation%20raises%20the%20classic%20problem%20of%20the%20provision%20of%20a%20global%20public%20good.|%20It%20shares%20some%20key"
+          }
+        }
+      },
+      {
+        "slug": "22-creating-a-global-price-for-carbon",
+        "title": "22 Creating a Global Price for Carbon",
+        "page": "468",
+        "why": "Chapter 22 is the Review's case for a common carbon price across countries, the lessons of the Kyoto Protocol, and how carbon markets could be linked and widened.",
+        "excerpt": {
+          "quote": "A broadly similar price of carbon is necessary to keep down the overall costs of making these reductions, and can be created through tax, trading or regulation.",
+          "cite": {
+            "id": "broadly-similar-price-carbon-necessary-2",
+            "page": 468,
+            "href": "/reports/uk-stern-review?p=broadly-similar-price-carbon-necessary-2&h=|A%20broadly%20similar%20price%20of%20carbon%20is%20necessary%20to%20keep%20down%20the%20overall%20costs%20of%20making%20these%20reductions%2C%20and%20can%20be%20created%20through%20tax%2C%20trading%20or%20regulation.|%20Creating%20a%20transparent"
+          }
+        }
+      },
+      {
+        "slug": "23-supporting-the-transition-to-a-low-carbon-global-economy",
+        "title": "23 Supporting the Transition to a Low-Carbon Global Economy",
+        "page": "1",
+        "why": "Chapter 23 looks at the investment developing countries will make in energy over the next two decades, and how finance and technology transfer can steer it towards low carbon.",
+        "excerpt": {
+          "quote": "Demand for energy and transportation is growing rapidly in many developing countries. The investment that takes place in the next 10-20 years could lock in very high emissions for the next half-century, or present an opportunity to move the world onto a more sustainable path.",
+          "cite": {
+            "id": "demand-energy-transportation-growing-rapidly",
+            "page": 1,
+            "href": "/reports/uk-stern-review?p=demand-energy-transportation-growing-rapidly&h=|Demand%20for%20energy%20and%20transportation%20is%20growing%20rapidly%20in%20many%20developing%20countries.%20The%20investment%20that%20takes%20place%20in%20the%20next%2010-20%20years%20could%20lock%20in%20very%20high%20emissions%20for%20the%20next%20half-century%2C%20or%20present%20an%20opportunity%20to%20move%20the%20world%20onto%20a%20more%20sustainable%20path.|%20Investment%20in%20energy"
+          }
+        }
+      },
+      {
+        "slug": "24-promoting-effective-international-technology-co-operation",
+        "title": "24 Promoting Effective International Technology Co-operation",
+        "page": "516",
+        "why": "Chapter 24 sets out where countries gain from working together on low-carbon technology: shared research, co-ordinated deployment support and common product standards.",
+        "excerpt": {
+          "quote": "The private sector is the major driver of innovation and the diffusion of technologies around the world. But governments can help to promote international collaboration to overcome barriers to technology development.",
+          "cite": {
+            "id": "private-sector-major-driver-innovation-2",
+            "page": 516,
+            "href": "/reports/uk-stern-review?p=private-sector-major-driver-innovation-2&h=|The%20private%20sector%20is%20the%20major%20driver%20of%20innovation%20and%20the%20diffusion%20of%20technologies%20around%20the%20world.%20But%20governments%20can%20help%20to%20promote%20international%20collaboration%20to%20overcome%20barriers%20to%20technology%20development.|%20Technology%20co-operation"
+          }
+        }
+      },
+      {
+        "slug": "25-reversing-emissions-from-land-use-change",
+        "title": "25 Reversing Emissions from Land Use Change",
+        "page": "537",
+        "why": "Chapter 25 makes the case that curbing deforestation is among the cheapest ways to cut emissions, and what national policy and international finance it would take.",
+        "excerpt": {
+          "quote": "Curbing deforestation is a highly cost-effective way of reducing greenhouse gas emissions and has the potential to offer significant reductions fairly quickly.",
+          "cite": {
+            "id": "curbing-deforestation-highly-cost-effective-way-2",
+            "page": 537,
+            "href": "/reports/uk-stern-review?p=curbing-deforestation-highly-cost-effective-way-2&h=|Curbing%20deforestation%20is%20a%20highly%20cost-effective%20way%20of%20reducing%20greenhouse%20gas%20emissions%20and%20has%20the%20potential%20to%20offer%20significant%20reductions%20fairly%20quickly.|%20It%20also%20helps%20preserve"
+          }
+        }
+      },
+      {
+        "slug": "26-international-support-for-adaptation",
+        "title": "26 International Support for Adaptation",
+        "page": "554",
+        "why": "Chapter 26 sets out what rich countries should do to help poor ones adapt: more aid, climate risk built into development, and investment in global public goods such as forecasting.",
+        "excerpt": {
+          "quote": "The poorest developing countries will be hit earliest and hardest by climate change, even though they have contributed little to causing the problem. The international community should support them in adapting to climate change.",
+          "cite": {
+            "id": "poorest-developing-countries-will-be-2",
+            "page": 554,
+            "href": "/reports/uk-stern-review?p=poorest-developing-countries-will-be-2&h=|The%20poorest%20developing%20countries%20will%20be%20hit%20earliest%20and%20hardest%20by%20climate%20change%2C%20even%20though%20they%20have%20contributed%20little%20to%20causing%20the%20problem.%20The%20international%20community%20should%20support%20them%20in%20adapting%20to%20climate%20change.|%20Without%20such%20support"
+          }
+        }
+      },
+      {
+        "slug": "27-conclusions-building-and-sustaining-international-co-operation-on-climate-cha",
+        "title": "27 Conclusions: Building and Sustaining International Co-operation on Climate Change",
+        "page": "572",
+        "why": "Chapter 27 draws the Review together: why strong action is warranted now, and the building blocks of international co-operation to deliver it.",
+        "excerpt": {
+          "quote": "Third, prompt and strong action is, therefore, clearly warranted. Because climate change is a global problem, the response to it must be international.",
+          "cite": {
+            "id": "third-prompt-strong-action-therefore",
+            "page": 572,
+            "href": "/reports/uk-stern-review?p=third-prompt-strong-action-therefore&h=|Third%2C%20prompt%20and%20strong%20action%20is%2C%20therefore%2C%20clearly%20warranted.%20Because%20climate%20change%20is%20a%20global%20problem%2C%20the%20response%20to%20it%20must%20be%20international.|%20And%20it%20must%20be%20based%20on"
+          }
+        }
       }
     ],
     "hero": {

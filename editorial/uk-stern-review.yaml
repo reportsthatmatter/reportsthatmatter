@@ -383,6 +383,141 @@ reading_guide:
         development, are fundamental to tackling climate change. However, even
         if these measures are taken, barriers and market imperfections may
         still inhibit action, particularly on energy efficiency.
+  - section: part-v-policy-responses-for-adaptation
+    why: >-
+      The introduction to Part V sets out why adaptation matters, what it can
+      and cannot do, and the three chapters that follow on its economics and
+      policy in rich and poor countries.
+    excerpt:
+      paragraph: climate-pervasive-factor-social-economic
+      quote: >-
+        Climate is a pervasive factor in social and economic development – one
+        so universally present and so deeply ingrained that it is barely
+        noticed until things go wrong.
+  - section: 18-understanding-the-economics-of-adaptation
+    why: >-
+      Chapter 18 sets out the economics of adaptation: what individuals and
+      firms will do for themselves, where markets fall short, and why
+      adaptation cannot replace cutting emissions.
+    excerpt:
+      paragraph: adaptation-crucial-deal-unavoidable-impacts
+      quote: >-
+        Adaptation is crucial to deal with the unavoidable impacts of climate
+        change to which the world is already committed. It will be especially
+        important in developing countries that will be hit hardest and soonest
+        by climate change.
+  - section: 19-adaptation-in-the-developed-world
+    why: >-
+      Chapter 19 looks at adaptation policy in rich countries: climate
+      information, land-use planning, standards for long-lived infrastructure
+      and insurance.
+    excerpt:
+      paragraph: developed-countries-adaptation-will-be
+      quote: >-
+        In developed countries, adaptation will be required to reduce the
+        costs and disruption caused by climate change, particularly from
+        extreme weather events like storms, floods and heatwaves.
+  - section: 20-adaptation-in-the-developing-world
+    why: >-
+      Chapter 20 argues that in poor countries adaptation is largely good
+      development, and estimates what it will add to the cost of development.
+    excerpt:
+      paragraph: adaptation-mute-impact-climate-change
+      quote: >-
+        Adaptation to mute the impact of climate change will be essential in
+        the poorer parts of the world. The poorest countries will be
+        especially hard hit by climate change, with millions potentially
+        pushed deeper into poverty.
+  - section: part-vi-international-collective-action
+    why: >-
+      The introduction to Part VI sets out the dimensions of international
+      action, on mitigation and on adaptation, that Chapters 21 to 27 take in
+      turn.
+    excerpt:
+      paragraph: part-vi-review-considers-challenges
+      quote: >-
+        Part VI of the Review considers the challenges of building and
+        sustaining frameworks for international collective action on climate
+        change.
+  - section: 21-framework-for-understanding-international-collective-action-for-climate-chang
+    why: >-
+      Chapter 21 frames climate change as a global public good and asks what
+      makes international co-operation on it effective, efficient and equitable.
+    excerpt:
+      paragraph: climate-change-mitigation-raises-classic
+      quote: >-
+        Climate change mitigation raises the classic problem of the provision
+        of a global public good.
+  - section: 22-creating-a-global-price-for-carbon
+    why: >-
+      Chapter 22 is the Review's case for a common carbon price across
+      countries, the lessons of the Kyoto Protocol, and how carbon markets
+      could be linked and widened.
+    excerpt:
+      paragraph: broadly-similar-price-carbon-necessary-2
+      quote: >-
+        A broadly similar price of carbon is necessary to keep down the
+        overall costs of making these reductions, and can be created through
+        tax, trading or regulation.
+  - section: 23-supporting-the-transition-to-a-low-carbon-global-economy
+    why: >-
+      Chapter 23 looks at the investment developing countries will make in
+      energy over the next two decades, and how finance and technology
+      transfer can steer it towards low carbon.
+    excerpt:
+      paragraph: demand-energy-transportation-growing-rapidly
+      quote: >-
+        Demand for energy and transportation is growing rapidly in many
+        developing countries. The investment that takes place in the next
+        10-20 years could lock in very high emissions for the next
+        half-century, or present an opportunity to move the world onto a more
+        sustainable path.
+  - section: 24-promoting-effective-international-technology-co-operation
+    why: >-
+      Chapter 24 sets out where countries gain from working together on
+      low-carbon technology: shared research, co-ordinated deployment support
+      and common product standards.
+    excerpt:
+      paragraph: private-sector-major-driver-innovation-2
+      quote: >-
+        The private sector is the major driver of innovation and the diffusion
+        of technologies around the world. But governments can help to promote
+        international collaboration to overcome barriers to technology
+        development.
+  - section: 25-reversing-emissions-from-land-use-change
+    why: >-
+      Chapter 25 makes the case that curbing deforestation is among the
+      cheapest ways to cut emissions, and what national policy and
+      international finance it would take.
+    excerpt:
+      paragraph: curbing-deforestation-highly-cost-effective-way-2
+      quote: >-
+        Curbing deforestation is a highly cost-effective way of reducing
+        greenhouse gas emissions and has the potential to offer significant
+        reductions fairly quickly.
+  - section: 26-international-support-for-adaptation
+    why: >-
+      Chapter 26 sets out what rich countries should do to help poor ones
+      adapt: more aid, climate risk built into development, and investment in
+      global public goods such as forecasting.
+    excerpt:
+      paragraph: poorest-developing-countries-will-be-2
+      quote: >-
+        The poorest developing countries will be hit earliest and hardest by
+        climate change, even though they have contributed little to causing
+        the problem. The international community should support them in
+        adapting to climate change.
+  - section: 27-conclusions-building-and-sustaining-international-co-operation-on-climate-cha
+    why: >-
+      Chapter 27 draws the Review together: why strong action is warranted
+      now, and the building blocks of international co-operation to deliver
+      it.
+    excerpt:
+      paragraph: third-prompt-strong-action-therefore
+      quote: >-
+        Third, prompt and strong action is, therefore, clearly warranted.
+        Because climate change is a global problem, the response to it must be
+        international.
 highlights:
   - paragraph: from-all-these-perspectives-evidence
     quote: >-
