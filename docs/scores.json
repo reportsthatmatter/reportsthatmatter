@@ -1,9 +1,9 @@
 {
- "ingest": "v0.37.0",
+ "ingest": "v0.38.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.9522357723577236,
     "boundary_r": 0.8889943074003795,
@@ -51,7 +51,7 @@
   },
   "uk-chilcot-inquiry": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.9942763695829926,
     "boundary_r": 0.7875647668393783,
@@ -99,8 +99,30 @@
   },
   "uk-covid-inquiry-module-2": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
+    "boundary_p": 0.8630485893416928,
+    "boundary_r": 0.939032189298657,
+    "boundary_f1": 0.8994384890250128,
+    "join_all": null,
+    "join_all_n": 0,
+    "join_high": null,
+    "join_high_n": 0,
+    "join_adj_ours_wrong": 0,
+    "join_adj_judged": 0,
+    "marker_p": 1,
+    "marker_r": 0.6385135135135135,
+    "wer": 0.011876194737056167,
+    "wer_ref_coverage": 0.9975656266482736,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": null,
+    "ref_no_answer_rate": null,
+    "ref_unusable_rate": null
+   },
+   "previous": {
     "boundary_p": 0.8751617076326003,
     "boundary_r": 0.9471473573678684,
     "boundary_f1": 0.9097327281896116,
@@ -121,13 +143,34 @@
     "ref_error_rate": 0.1,
     "ref_no_answer_rate": 0,
     "ref_unusable_rate": 0.1
-   },
-   "previous": null
+   }
   },
   "uk-grenfell-tower-inquiry": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
+    "boundary_p": 0.9896713615023475,
+    "boundary_r": 0.84185303514377,
+    "boundary_f1": 0.9097971514889944,
+    "join_all": null,
+    "join_all_n": 0,
+    "join_high": null,
+    "join_high_n": 0,
+    "join_adj_ours_wrong": 0,
+    "join_adj_judged": 0,
+    "marker_p": 0.49403578528827036,
+    "marker_r": 0.9959919839679359,
+    "wer": 0.02840376328792524,
+    "wer_ref_coverage": 0.9998419921628112,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": null,
+    "ref_no_answer_rate": null,
+    "ref_unusable_rate": null
+   },
+   "previous": {
     "boundary_p": 0.9896907216494846,
     "boundary_r": 0.8414342629482072,
     "boundary_f1": 0.9095607235142119,
@@ -148,33 +191,11 @@
     "ref_error_rate": 0.06666666666666667,
     "ref_no_answer_rate": 0,
     "ref_unusable_rate": 0.06666666666666667
-   },
-   "previous": {
-    "boundary_p": 0.9878391019644528,
-    "boundary_r": 0.8414342629482072,
-    "boundary_f1": 0.9087779690189328,
-    "join_all": 0.9769585253456221,
-    "join_all_n": 217,
-    "join_high": 1,
-    "join_high_n": 186,
-    "join_adj_ours_wrong": 3,
-    "join_adj_judged": 30,
-    "marker_p": 0.49403578528827036,
-    "marker_r": 0.9959919839679359,
-    "wer": 0.028357139847469768,
-    "wer_ref_coverage": 1,
-    "wer_pages": null,
-    "wer_pages_n": null,
-    "page_marker_p": null,
-    "page_marker_r": null,
-    "ref_error_rate": 0.06666666666666667,
-    "ref_no_answer_rate": 0,
-    "ref_unusable_rate": 0.06666666666666667
    }
   },
   "uk-hillsborough-panel": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.9200675485505206,
     "boundary_r": 0.9879117558174675,
@@ -268,7 +289,7 @@
   },
   "uk-post-office-horizon-inquiry": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.9908361970217641,
     "boundary_r": 0.9105263157894737,
@@ -316,7 +337,7 @@
   },
   "uk-saville-inquiry": {
    "set": "development",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.8159908186687069,
     "boundary_r": 0.9920930232558139,
@@ -389,7 +410,7 @@
   },
   "uk-southport-inquiry": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.747870528109029,
     "boundary_r": 0.3475851148060174,
@@ -441,8 +462,30 @@
   },
   "uk-thirlwall-inquiry": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
+    "boundary_p": 0.9830097087378641,
+    "boundary_r": 0.8035714285714286,
+    "boundary_f1": 0.8842794759825326,
+    "join_all": null,
+    "join_all_n": 0,
+    "join_high": null,
+    "join_high_n": 0,
+    "join_adj_ours_wrong": 0,
+    "join_adj_judged": 0,
+    "marker_p": null,
+    "marker_r": null,
+    "wer": 0.3090445668878144,
+    "wer_ref_coverage": 0.9851192674100879,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": null,
+    "ref_no_answer_rate": null,
+    "ref_unusable_rate": null
+   },
+   "previous": {
     "boundary_p": 0.9818181818181818,
     "boundary_r": 0.7636363636363637,
     "boundary_f1": 0.8590909090909091,
@@ -463,33 +506,11 @@
     "ref_error_rate": 0.06666666666666667,
     "ref_no_answer_rate": 0,
     "ref_unusable_rate": 0.06666666666666667
-   },
-   "previous": {
-    "boundary_p": 0.9744245524296675,
-    "boundary_r": 0.771255060728745,
-    "boundary_f1": 0.8610169491525425,
-    "join_all": 0.9117647058823529,
-    "join_all_n": 34,
-    "join_high": 1,
-    "join_high_n": 4,
-    "join_adj_ours_wrong": 1,
-    "join_adj_judged": 30,
-    "marker_p": null,
-    "marker_r": null,
-    "wer": 0.30782472027841185,
-    "wer_ref_coverage": 0.9867439627797061,
-    "wer_pages": null,
-    "wer_pages_n": null,
-    "page_marker_p": null,
-    "page_marker_r": null,
-    "ref_error_rate": 0.06666666666666667,
-    "ref_no_answer_rate": 0,
-    "ref_unusable_rate": 0.06666666666666667
    }
   },
   "us-911-commission": {
    "set": "development",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.9360086767895879,
     "boundary_r": 0.9417970170971263,
@@ -583,34 +604,80 @@
   },
   "us-duelfer-report": {
    "set": "held-out",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
-    "boundary_p": 0.8098833218943033,
-    "boundary_r": 0.677382319173364,
-    "boundary_f1": 0.7377305407939982,
-    "join_all": 0.9152542372881356,
-    "join_all_n": 118,
-    "join_high": 0.9540229885057471,
-    "join_high_n": 87,
+    "boundary_p": 0.6691144708423327,
+    "boundary_r": 0.7174617878647522,
+    "boundary_f1": 0.6924452391595888,
+    "join_all": 0.7429906542056075,
+    "join_all_n": 214,
+    "join_high": 0.9103448275862069,
+    "join_high_n": 145,
     "join_adj_ours_wrong": 5,
     "join_adj_judged": 30,
     "marker_p": null,
     "marker_r": null,
-    "wer": 0.03591500184600238,
-    "wer_ref_coverage": 0.9473602393952937,
+    "wer": 0.033664992577150256,
+    "wer_ref_coverage": 0.9562919108318734,
     "wer_pages": null,
     "wer_pages_n": null,
     "page_marker_p": null,
     "page_marker_r": null,
-    "ref_error_rate": 0.03333333333333333,
-    "ref_no_answer_rate": 0,
-    "ref_unusable_rate": 0.03333333333333333
+    "ref_error_rate": null,
+    "ref_no_answer_rate": null,
+    "ref_unusable_rate": null
    },
-   "previous": null
+   "previous": null,
+   "adapter": {
+    "metrics": {
+     "boundary_p": 0.9185351270553064,
+     "boundary_r": 0.6675719717544812,
+     "boundary_f1": 0.7731991192198804,
+     "join_all": 0.8909090909090909,
+     "join_all_n": 165,
+     "join_high": 0.8914728682170543,
+     "join_high_n": 129,
+     "join_adj_ours_wrong": 4,
+     "join_adj_judged": 30,
+     "marker_p": null,
+     "marker_r": null,
+     "wer": 0.010400116964764365,
+     "wer_ref_coverage": 0.9967840973126324,
+     "wer_pages": null,
+     "wer_pages_n": null,
+     "page_marker_p": null,
+     "page_marker_r": null,
+     "ref_error_rate": 0,
+     "ref_no_answer_rate": 0,
+     "ref_unusable_rate": 0
+    },
+    "previous": {
+     "boundary_p": 0.8098833218943033,
+     "boundary_r": 0.677382319173364,
+     "boundary_f1": 0.7377305407939982,
+     "join_all": 0.9152542372881356,
+     "join_all_n": 118,
+     "join_high": 0.9540229885057471,
+     "join_high_n": 87,
+     "join_adj_ours_wrong": 5,
+     "join_adj_judged": 30,
+     "marker_p": null,
+     "marker_r": null,
+     "wer": 0.03591500184600238,
+     "wer_ref_coverage": 0.9473602393952937,
+     "wer_pages": null,
+     "wer_pages_n": null,
+     "page_marker_p": null,
+     "page_marker_r": null,
+     "ref_error_rate": 0.03333333333333333,
+     "ref_no_answer_rate": 0,
+     "ref_unusable_rate": 0.03333333333333333
+    }
+   }
   },
   "us-v-philip-morris": {
    "set": "development",
-   "ingest": "v0.37.0",
+   "ingest": "v0.38.0",
    "metrics": {
     "boundary_p": 0.986100950987564,
     "boundary_r": 0.9877870053737177,

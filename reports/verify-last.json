@@ -602,30 +602,35 @@
   },
   "uk-grenfell-tower-inquiry": {
    "oracle": {
-    "headings-missed": 70,
-    "headings-spurious": 2,
-    "markers-unlinked": 0,
+    "headings-missed": 197,
+    "headings-spurious": 13,
+    "markers-unlinked": 35,
     "markers-spurious": 1,
-    "paragraphs-oversplit": 2,
-    "paragraphs-merged": 165,
-    "quotes-spurious": 1,
-    "quotes-missed": 20,
+    "paragraphs-oversplit": 106,
+    "paragraphs-merged": 1943,
+    "quotes-spurious": 9,
+    "quotes-missed": 64,
     "note-off-page": 0
    },
    "golden": {
-    "match": 7,
-    "total": 7,
-    "known": 0
+    "match": 9,
+    "total": 10,
+    "known": 1
    },
    "goldenOracle": {
     "headings-missed": {
      "tp": 0,
-     "fp": 4,
+     "fp": 5,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 2,
+     "fp": 0,
      "fn": 0
     },
     "paragraphs-merged": {
      "tp": 0,
-     "fp": 3,
+     "fp": 4,
      "fn": 0
     }
    }
@@ -732,36 +737,41 @@
   },
   "uk-covid-inquiry-module-2": {
    "oracle": {
-    "headings-missed": 52,
-    "headings-spurious": 5,
-    "markers-unlinked": 8,
-    "markers-spurious": 42,
-    "paragraphs-oversplit": 102,
-    "paragraphs-merged": 1189,
-    "quotes-spurious": 44,
-    "quotes-missed": 102,
+    "headings-missed": 252,
+    "headings-spurious": 11,
+    "markers-unlinked": 11,
+    "markers-spurious": 48,
+    "paragraphs-oversplit": 255,
+    "paragraphs-merged": 2143,
+    "quotes-spurious": 131,
+    "quotes-missed": 143,
     "note-off-page": 0
    },
    "golden": {
-    "match": 4,
-    "total": 6,
-    "known": 2
+    "match": 7,
+    "total": 12,
+    "known": 5
    },
    "goldenOracle": {
     "headings-missed": {
      "tp": 0,
-     "fp": 3,
+     "fp": 15,
+     "fn": 1
+    },
+    "markers-unlinked": {
+     "tp": 2,
+     "fp": 0,
      "fn": 0
     },
     "paragraphs-oversplit": {
-     "tp": 1,
-     "fp": 0,
+     "tp": 6,
+     "fp": 2,
      "fn": 2
     },
     "paragraphs-merged": {
-     "tp": 1,
-     "fp": 11,
-     "fn": 0
+     "tp": 2,
+     "fp": 18,
+     "fn": 19
     },
     "quotes-missed": {
      "tp": 0,
@@ -847,35 +857,40 @@
   },
   "uk-thirlwall-inquiry": {
    "oracle": {
-    "headings-missed": 30,
-    "headings-spurious": 0,
-    "markers-unlinked": 0,
+    "headings-missed": 329,
+    "headings-spurious": 11,
+    "markers-unlinked": 5,
     "markers-spurious": 1,
-    "paragraphs-oversplit": 3,
-    "paragraphs-merged": 139,
-    "quotes-spurious": 2,
-    "quotes-missed": 2,
+    "paragraphs-oversplit": 129,
+    "paragraphs-merged": 2189,
+    "quotes-spurious": 71,
+    "quotes-missed": 79,
     "note-off-page": 0
    },
    "golden": {
-    "match": 2,
-    "total": 9,
-    "known": 7
+    "match": 5,
+    "total": 14,
+    "known": 9
    },
    "goldenOracle": {
     "headings-missed": {
      "tp": 1,
-     "fp": 0,
-     "fn": 3
+     "fp": 11,
+     "fn": 4
     },
     "markers-spurious": {
      "tp": 0,
      "fp": 1,
      "fn": 0
     },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 1
+    },
     "paragraphs-merged": {
      "tp": 0,
-     "fp": 9,
+     "fp": 28,
      "fn": 0
     },
     "quotes-spurious": {
@@ -934,13 +949,48 @@
      "fn": 0
     }
    }
+  },
+  "us-duelfer-report": {
+   "oracle": {
+    "headings-missed": 31,
+    "headings-spurious": 9,
+    "markers-unlinked": 0,
+    "markers-spurious": 0,
+    "paragraphs-oversplit": 264,
+    "paragraphs-merged": 2521,
+    "quotes-spurious": 1,
+    "quotes-missed": 113,
+    "note-off-page": 0
+   },
+   "golden": {
+    "match": 4,
+    "total": 5,
+    "known": 1
+   },
+   "goldenOracle": {
+    "headings-missed": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "paragraphs-oversplit": {
+     "tp": 0,
+     "fp": 33,
+     "fn": 0
+    },
+    "paragraphs-merged": {
+     "tp": 1,
+     "fp": 47,
+     "fn": 0
+    }
+   }
   }
  },
  "oracleVsGolden": {
   "headings-missed": {
    "tp": 3,
-   "fp": 45,
-   "fn": 7
+   "fp": 70,
+   "fn": 9
   },
   "headings-spurious": {
    "tp": 0,
@@ -948,7 +998,7 @@
    "fn": 0
   },
   "markers-unlinked": {
-   "tp": 3,
+   "tp": 5,
    "fp": 36,
    "fn": 7
   },
@@ -958,14 +1008,14 @@
    "fn": 1
   },
   "paragraphs-oversplit": {
-   "tp": 7,
-   "fp": 23,
-   "fn": 27
+   "tp": 14,
+   "fp": 59,
+   "fn": 28
   },
   "paragraphs-merged": {
-   "tp": 5,
-   "fp": 305,
-   "fn": 2
+   "tp": 7,
+   "fp": 379,
+   "fn": 21
   },
   "quotes-spurious": {
    "tp": 2,
