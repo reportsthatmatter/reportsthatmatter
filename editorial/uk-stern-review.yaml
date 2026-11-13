@@ -296,6 +296,29 @@ reading_guide:
         a range of +/- 3%, reflecting uncertainties over the scale of
         mitigation required, the pace of technological innovation and the
         degree of policy flexibility.
+  - section: 11-structural-change-and-competitiveness
+    why: >-
+      Chapter 11 asks which industries and countries bear the costs of
+      cutting emissions, and whether carbon-intensive industry would move
+      to countries that act more slowly.
+    excerpt:
+      paragraph: costs-mitigation-will-not-be
+      quote: >-
+        The costs of mitigation will not be felt uniformly across countries
+        and sectors. Greenhouse-gas-intensive sectors, and countries, will
+        require the most structural adjustment, and the timing of action by
+        different countries will affect the balance of costs and benefits.
+  - section: 12-opportunities-and-wider-benefits-from-climate-policies
+    why: >-
+      Chapter 12 turns to the markets the transition opens and the wider
+      benefits of climate policy, for energy security and clean air.
+    excerpt:
+      paragraph: transition-low-emissions-global-economy-will
+      quote: >-
+        The transition to a low-emissions global economy will open many new
+        opportunities across a wide range of industries and services. Markets
+        for low carbon energy products are likely to be worth at least $500bn
+        per year by 2050, and perhaps much more.
   - section: 13-towards-a-goal-for-climate-change-policy
     why: >-
       Chapter 13 sets the costs against the damages to choose a goal for
@@ -306,7 +329,60 @@ reading_guide:
       quote: >-
         The current evidence suggests aiming for stabilisation somewhere within
         the range 450 - 550ppm CO2e.
-
+  - section: part-iv-policy-responses-for-mitigation
+    why: >-
+      The introduction to Part IV sets out the three elements of policy for
+      cutting emissions that Chapters 14 to 17 take in turn: a carbon price,
+      technology policy and the removal of barriers to behavioural change.
+    excerpt:
+      paragraph: first-essential-element-climate-change
+      quote: >-
+        The first essential element of climate change policy is carbon
+        pricing. Greenhouse gases are, in economic terms, an externality:
+        those who produce greenhouse gas do not face the full consequences of
+        the costs of their actions themselves.
+  - section: 14-harnessing-markets-for-mitigation-the-role-of-taxation-and-trading
+    why: >-
+      Chapter 14 sets out the principles of pricing carbon, by tax or by
+      trading, and how a long-term goal should shape the price over time.
+    excerpt:
+      paragraph: section-14-4-explores-policy
+      quote: >-
+        It concludes that a long-term quantity ceiling – or stabilisation
+        target – should be used to limit the total stock of GHGs in the
+        atmosphere.
+  - section: 15-carbon-pricing-and-emissions-markets-in-practice
+    why: >-
+      Chapter 15 looks at carbon pricing in practice, from the credibility
+      investors need to the design of the EU Emissions Trading Scheme.
+    excerpt:
+      paragraph: both-tax-trading-can-be
+      quote: >-
+        Both tax and trading can be used to create an explicit price for
+        carbon; and regulation can create an implicit price.
+  - section: 16-accelerating-technological-innovation
+    why: >-
+      Chapter 16 argues why a carbon price alone will not bring forward the
+      low-carbon technologies needed, and what support for research and
+      deployment should add.
+    excerpt:
+      paragraph: effective-action-scale-required-tackle
+      quote: >-
+        Effective action on the scale required to tackle climate change
+        requires a widespread shift to new or improved technology in key
+        sectors such as power generation, transport and energy use.
+  - section: 17-beyond-carbon-markets-and-technology
+    why: >-
+      Chapter 17 covers the barriers that remain once carbon is priced,
+      especially to energy efficiency, and the regulation, information and
+      financing that can address them.
+    excerpt:
+      paragraph: policies-price-greenhouse-gases-support
+      quote: >-
+        Policies to price greenhouse gases, and support technology
+        development, are fundamental to tackling climate change. However, even
+        if these measures are taken, barriers and market imperfections may
+        still inhibit action, particularly on energy efficiency.
 highlights:
   - paragraph: from-all-these-perspectives-evidence
     quote: >-
