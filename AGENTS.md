@@ -358,6 +358,13 @@ visible outcome). Nothing here is automatic; it is on the agent to do.
 
 - [ ] **`docs/CHANGELOG.md`** — a dated entry added, newest first (weight and
       format rules below).
+- [ ] **An image in every entry** (Rufus, 2026-11-13: entries kept shipping
+      without one). Default to an image whenever at all possible: a new
+      report or volume gets a screenshot of its landing page; a quality fix
+      gets a before/after of the page it changed; a tooling change gets
+      the page or output it improves. Only if nothing visual exists, put
+      `<!-- no-image: <reason> -->` in the entry. `tests/changelog.test.ts`
+      fails an entry dated after 2026-11-13 that has neither.
 - [ ] **Screenshots** — if the change is *visible*: before/after images (or
       just "after", for new content) committed and pushed to
       [`reportsthatmatter/visual-changelog`](https://github.com/reportsthatmatter/visual-changelog),
