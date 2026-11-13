@@ -261,3 +261,10 @@ units:
     state: waiting
     evidence: "uk-stern-review#3 (8906b21); ingest#95 released v0.36.0; site #446 (e712c3c7); review factory/reviews/review-stern-b2a-2026-11-13.md; live 2026-11-13, content 71a81fd5b81c61a6; recorded grade A 0.37 (299 pp)"
     notes: "16 duplicate-text ids moved chapter (accepted; efso to stop it before Ch 11-12). Chapter 5 printed folios 1-21 (6u5h). Tables: 6uqx. Bullets: 95vk, 3nbi. z4dy, c99s."
+  - id: uk-stern-review
+    scope: "Full report, batch 2b: Chapters 11 (with Annex 11A) and 12, the Part IV introduction, Chapters 14-17 (on ingest v0.37.0, reserved ids)"
+    bead: reportsthatmatter-gqsy.9.2
+    reached: evaluate
+    state: active
+    evidence: "report repo reportsthatmatter/uk-stern-review (stern-b2b-1113, PR #4); site branch stern-b2b-1113; 425 pp, 857 notes (each chapter's last note number), 172 headings (every numbered section of the new chapters); golden 18/20 + 2 xfail (lb9l); earlier text unchanged but for one Executive Summary hyphen kept by correction c-0048; 0 new aliases, every published id on its paragraph"
+    notes: "Chapter 11's reissue prints folios 1-16 (6u5h); Part IV introduction shares p.308 with Chapter 13's last page, as printed. Tables: 6uqx. Bullets: 95vk, 3nbi."
