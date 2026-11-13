@@ -28,6 +28,12 @@ export type ReportRegistry = {
     repo?: string;
     /** The report's own licence, only where a repository or processing note records one. */
     license?: { name: string; url: string };
+    /**
+     * A report in several volumes whose printed folios restart in each (Grenfell "p. 28" is in all seven): how many, and
+     * the numerals the report prints them in ("Volume I" roman, "Volume 1" arabic). Post attributions then name the volume
+     * ("Vol. I, p. 91"); `volumeOf` (src/lib/editorial.ts) reads a paragraph's volume from the restarts (reportsthatmatter-s5jm).
+     */
+    volumes?: { count: number; numerals: "roman" | "arabic" };
   }>;
 };
 
