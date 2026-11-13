@@ -1,0 +1,4 @@
+---
+theme: hybrid ingest
+---
+- **When the clean edition is an earlier version than the PDF, measure the word disagreement before choosing whose words to serve, and serve the PDF's in place** (2026-11-12, reportsthatmatter-ivg.4, rtm-reports) The Duelfer web edition (2004) against the 2005 print: 1,864 disagreement stretches, including corrected names, terms and figures ("$990 million" to "$1.5 billion"); serving the edition would have put superseded words under the PDF's page numbers. `cleanEdition({ words: "pdf" })` serves the PDF's words for short in-place disagreements (753) and lists each, with guards for moved boxes, column labels and markup. The losslessCheck also needs the shadow's column-split page text as its source, or two-column line-end hyphens read as invented words. [status: proposed in ingest branch duelfer-hybrid-1112]

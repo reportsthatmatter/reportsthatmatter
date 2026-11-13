@@ -144,13 +144,11 @@ units:
     notes: "Affected community (decision 0026): no cards until 6j4h. govuk-html.ts is the reusable GOV.UK adapter (reportsthatmatter-pbou). Known: chronology anchors (mws2), p.236 order (k2ro). Volume 2 is a later unit of the same id."
   - id: us-duelfer-report
     scope: "Volume I"
-    bead: reportsthatmatter-9br
-    reached: ingest
-    state: parked
-    waive:
-      repo.manifest: reportsthatmatter-9br
-    evidence: "report repo main (layoutPageJoins, reference, adjudicated.yaml); site PR #182 (stale, ingest v0.12.21)"
-    notes: "Stage 4 parked behind the hybrid (ivg.4) and the bleed-margin banner (1l4, ingest PR #22). No golden.yaml or PROCESSING.md yet."
+    bead: reportsthatmatter-ivg.4
+    reached: evaluate
+    state: active
+    evidence: "report repo branch duelfer-hybrid-1112 (cleanEdition from the CIA HTML via cia-html.ts, words: pdf; 93.6% of edition words aligned; 753 disagreements served in the PDF's words; golden 4/5 + 1 xfail); ingest branch duelfer-hybrid-1112 (words: pdf, unreleased); site branch duelfer-hybrid-1112 (registry, budgets, plate, card)"
+    notes: "Needs an ingest release with cleanEdition words: pdf and the pin bump. Known: boxes placed after the page text (ivg.4.3), table page starts (ivg.4.4). Introduction 9br.1 not started."
   - id: us-duelfer-report
     scope: "Volumes II and III, and the Addendums"
     bead: reportsthatmatter-d0h

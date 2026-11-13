@@ -86,6 +86,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "us-deepwater-horizon/q-686c734e",
   "us-deepwater-horizon/q-8e68e8af",
   "us-deepwater-horizon/q-f5a16aa3",
+  "us-duelfer-report/default",
   "us-ica-2017-russia-elections/default",
   "us-ica-2017-russia-elections/q-1d5cdbb3",
   "us-ica-2017-russia-elections/q-21d254b4",

@@ -130,3 +130,8 @@ reports:
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 1  # why: reportsthatmatter-gqsy.9.2 (Ch9 "The technical potential for efficiency improvements" opens with two lines at the foot of p.219, as marked, and runs on to p.220, where most of its words are; read against the page image)
+  us-duelfer-report:
+    markers-wrong: 37
+    markers-stacked: 0
+    pages-unmarked: 0
+    blocks-wrong: 29
