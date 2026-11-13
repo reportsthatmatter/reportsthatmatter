@@ -126,7 +126,7 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 0
   uk-stern-review:
-    markers-wrong: 1  # why: reportsthatmatter-gqsy.9.2 (Part I's p.1 marker, correct: Chapter 5's reissue also prints folio 1, and the check takes that page for it)
+    markers-wrong: 2  # why: reportsthatmatter-gqsy.9.2 (two correct markers on a repeated folio: Part I's p.1, which Chapter 5's and Chapter 11's reissues also print, and Part IV's introduction, printed p.308 like Chapter 13's last page, as the table of contents sets both; the check takes the other page for each)
     markers-stacked: 0
     pages-unmarked: 0
     blocks-wrong: 1  # why: reportsthatmatter-gqsy.9.2 (Ch9 "The technical potential for efficiency improvements" opens with two lines at the foot of p.219, as marked, and runs on to p.220, where most of its words are; read against the page image)

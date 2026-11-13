@@ -1,6 +1,12 @@
 1-the-science-of-climate-change-scale-of-the-environment-challenge
 10-macroeconomic-models-of-costs
+11-structural-change-and-competitiveness
+12-opportunities-and-wider-benefits-from-climate-policies
 13-towards-a-goal-for-climate-change-policy
+14-harnessing-markets-for-mitigation-the-role-of-taxation-and-trading
+15-carbon-pricing-and-emissions-markets-in-practice
+16-accelerating-technological-innovation
+17-beyond-carbon-markets-and-technology
 2-economics-ethics-and-climate-change
 3-how-climate-change-will-affect-people-around-the-world
 4-implications-of-climate-change-for-development
@@ -15,5 +21,6 @@ introduction
 part-i-climate-change-our-approach
 part-ii-impacts-of-climate-change-on-growth-and-development
 part-iii-the-economics-of-stabilisation
+part-iv-policy-responses-for-mitigation
 preface
 summary-of-conclusions

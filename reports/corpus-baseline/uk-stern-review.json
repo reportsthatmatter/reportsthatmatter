@@ -1,6 +1,6 @@
 {
-  "words": 150101,
-  "paragraphs": 2184,
+  "words": 216097,
+  "paragraphs": 3247,
   "sections": [
     {
       "slug": "executive-summary",
@@ -111,10 +111,52 @@
       "ids": "a038c649e18f"
     },
     {
+      "slug": "11-structural-change-and-competitiveness",
+      "title": "11 Structural Change and Competitiveness",
+      "paragraphs": 123,
+      "ids": "5361b110b4be"
+    },
+    {
+      "slug": "12-opportunities-and-wider-benefits-from-climate-policies",
+      "title": "12 Opportunities and Wider Benefits from Climate Policies",
+      "paragraphs": 140,
+      "ids": "f492e940c01a"
+    },
+    {
       "slug": "13-towards-a-goal-for-climate-change-policy",
       "title": "13 Towards a Goal for Climate-Change Policy",
       "paragraphs": 170,
       "ids": "94e5ae8a6944"
+    },
+    {
+      "slug": "part-iv-policy-responses-for-mitigation",
+      "title": "Part IV: Policy Responses for Mitigation",
+      "paragraphs": 7,
+      "ids": "6ddd2576d15e"
+    },
+    {
+      "slug": "14-harnessing-markets-for-mitigation-the-role-of-taxation-and-trading",
+      "title": "14 Harnessing Markets for Mitigation – the role of taxation and trading",
+      "paragraphs": 113,
+      "ids": "8192cb553376"
+    },
+    {
+      "slug": "15-carbon-pricing-and-emissions-markets-in-practice",
+      "title": "15 Carbon Pricing and Emissions Markets in Practice",
+      "paragraphs": 223,
+      "ids": "98fa7112390b"
+    },
+    {
+      "slug": "16-accelerating-technological-innovation",
+      "title": "16 Accelerating Technological Innovation",
+      "paragraphs": 234,
+      "ids": "a84a42837ba5"
+    },
+    {
+      "slug": "17-beyond-carbon-markets-and-technology",
+      "title": "17 Beyond Carbon Markets and Technology",
+      "paragraphs": 223,
+      "ids": "93d8f3d2ec4f"
     }
   ]
 }

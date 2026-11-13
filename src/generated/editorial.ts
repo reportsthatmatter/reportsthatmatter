@@ -3455,6 +3455,34 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
+        "slug": "11-structural-change-and-competitiveness",
+        "title": "11 Structural Change and Competitiveness",
+        "page": "1",
+        "why": "Chapter 11 asks which industries and countries bear the costs of cutting emissions, and whether carbon-intensive industry would move to countries that act more slowly.",
+        "excerpt": {
+          "quote": "The costs of mitigation will not be felt uniformly across countries and sectors. Greenhouse-gas-intensive sectors, and countries, will require the most structural adjustment, and the timing of action by different countries will affect the balance of costs and benefits.",
+          "cite": {
+            "id": "costs-mitigation-will-not-be",
+            "page": 1,
+            "href": "/reports/uk-stern-review?p=costs-mitigation-will-not-be&h=|The%20costs%20of%20mitigation%20will%20not%20be%20felt%20uniformly%20across%20countries%20and%20sectors.%20Greenhouse-gas-intensive%20sectors%2C%20and%20countries%2C%20will%20require%20the%20most%20structural%20adjustment%2C%20and%20the%20timing%20of%20action%20by%20different%20countries%20will%20affect%20the%20balance%20of%20costs%20and%20benefits.|"
+          }
+        }
+      },
+      {
+        "slug": "12-opportunities-and-wider-benefits-from-climate-policies",
+        "title": "12 Opportunities and Wider Benefits from Climate Policies",
+        "page": "269",
+        "why": "Chapter 12 turns to the markets the transition opens and the wider benefits of climate policy, for energy security and clean air.",
+        "excerpt": {
+          "quote": "The transition to a low-emissions global economy will open many new opportunities across a wide range of industries and services. Markets for low carbon energy products are likely to be worth at least $500bn per year by 2050, and perhaps much more.",
+          "cite": {
+            "id": "transition-low-emissions-global-economy-will",
+            "page": 269,
+            "href": "/reports/uk-stern-review?p=transition-low-emissions-global-economy-will&h=|The%20transition%20to%20a%20low-emissions%20global%20economy%20will%20open%20many%20new%20opportunities%20across%20a%20wide%20range%20of%20industries%20and%20services.%20Markets%20for%20low%20carbon%20energy%20products%20are%20likely%20to%20be%20worth%20at%20least%20%24500bn%20per%20year%20by%202050%2C%20and%20perhaps%20much%20more.|%20Individual%20companies%20and"
+          }
+        }
+      },
+      {
         "slug": "13-towards-a-goal-for-climate-change-policy",
         "title": "13 Towards a Goal for Climate-Change Policy",
         "page": "284",
@@ -3465,6 +3493,76 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "current-evidence-suggests-aiming-stabilisation-2",
             "page": 284,
             "href": "/reports/uk-stern-review?p=current-evidence-suggests-aiming-stabilisation-2&h=|The%20current%20evidence%20suggests%20aiming%20for%20stabilisation%20somewhere%20within%20the%20range%20450%20-%20550ppm%20CO2e.|%20Anything%20higher%20would"
+          }
+        }
+      },
+      {
+        "slug": "part-iv-policy-responses-for-mitigation",
+        "title": "Part IV: Policy Responses for Mitigation",
+        "page": "308",
+        "why": "The introduction to Part IV sets out the three elements of policy for cutting emissions that Chapters 14 to 17 take in turn: a carbon price, technology policy and the removal of barriers to behavioural change.",
+        "excerpt": {
+          "quote": "The first essential element of climate change policy is carbon pricing. Greenhouse gases are, in economic terms, an externality: those who produce greenhouse gas do not face the full consequences of the costs of their actions themselves.",
+          "cite": {
+            "id": "first-essential-element-climate-change",
+            "page": 308,
+            "href": "/reports/uk-stern-review?p=first-essential-element-climate-change&h=|The%20first%20essential%20element%20of%20climate%20change%20policy%20is%20carbon%20pricing.%20Greenhouse%20gases%20are%2C%20in%20economic%20terms%2C%20an%20externality%3A%20those%20who%20produce%20greenhouse%20gas%20do%20not%20face%20the%20full%20consequences%20of%20the%20costs%20of%20their%20actions%20themselves.|%20Putting%20an%20appropriate"
+          }
+        }
+      },
+      {
+        "slug": "14-harnessing-markets-for-mitigation-the-role-of-taxation-and-trading",
+        "title": "14 Harnessing Markets for Mitigation – the role of taxation and trading",
+        "page": "309",
+        "why": "Chapter 14 sets out the principles of pricing carbon, by tax or by trading, and how a long-term goal should shape the price over time.",
+        "excerpt": {
+          "quote": "It concludes that a long-term quantity ceiling – or stabilisation target – should be used to limit the total stock of GHGs in the atmosphere.",
+          "cite": {
+            "id": "section-14-4-explores-policy",
+            "page": 310,
+            "href": "/reports/uk-stern-review?p=section-14-4-explores-policy&h=and%20the%20costs%20of%20abatement.%20|It%20concludes%20that%20a%20long-term%20quantity%20ceiling%20%E2%80%93%20or%20stabilisation%20target%20%E2%80%93%20should%20be%20used%20to%20limit%20the%20total%20stock%20of%20GHGs%20in%20the%20atmosphere.|%20In%20the%20short%20term%2C%20to"
+          }
+        }
+      },
+      {
+        "slug": "15-carbon-pricing-and-emissions-markets-in-practice",
+        "title": "15 Carbon Pricing and Emissions Markets in Practice",
+        "page": "324",
+        "why": "Chapter 15 looks at carbon pricing in practice, from the credibility investors need to the design of the EU Emissions Trading Scheme.",
+        "excerpt": {
+          "quote": "Both tax and trading can be used to create an explicit price for carbon; and regulation can create an implicit price.",
+          "cite": {
+            "id": "both-tax-trading-can-be",
+            "page": 324,
+            "href": "/reports/uk-stern-review?p=both-tax-trading-can-be&h=|Both%20tax%20and%20trading%20can%20be%20used%20to%20create%20an%20explicit%20price%20for%20carbon%3B%20and%20regulation%20can%20create%20an%20implicit%20price.|"
+          }
+        }
+      },
+      {
+        "slug": "16-accelerating-technological-innovation",
+        "title": "16 Accelerating Technological Innovation",
+        "page": "347",
+        "why": "Chapter 16 argues why a carbon price alone will not bring forward the low-carbon technologies needed, and what support for research and deployment should add.",
+        "excerpt": {
+          "quote": "Effective action on the scale required to tackle climate change requires a widespread shift to new or improved technology in key sectors such as power generation, transport and energy use.",
+          "cite": {
+            "id": "effective-action-scale-required-tackle",
+            "page": 347,
+            "href": "/reports/uk-stern-review?p=effective-action-scale-required-tackle&h=|Effective%20action%20on%20the%20scale%20required%20to%20tackle%20climate%20change%20requires%20a%20widespread%20shift%20to%20new%20or%20improved%20technology%20in%20key%20sectors%20such%20as%20power%20generation%2C%20transport%20and%20energy%20use.|%20Technological%20progress"
+          }
+        }
+      },
+      {
+        "slug": "17-beyond-carbon-markets-and-technology",
+        "title": "17 Beyond Carbon Markets and Technology",
+        "page": "377",
+        "why": "Chapter 17 covers the barriers that remain once carbon is priced, especially to energy efficiency, and the regulation, information and financing that can address them.",
+        "excerpt": {
+          "quote": "Policies to price greenhouse gases, and support technology development, are fundamental to tackling climate change. However, even if these measures are taken, barriers and market imperfections may still inhibit action, particularly on energy efficiency.",
+          "cite": {
+            "id": "policies-price-greenhouse-gases-support",
+            "page": 377,
+            "href": "/reports/uk-stern-review?p=policies-price-greenhouse-gases-support&h=|Policies%20to%20price%20greenhouse%20gases%2C%20and%20support%20technology%20development%2C%20are%20fundamental%20to%20tackling%20climate%20change.%20However%2C%20even%20if%20these%20measures%20are%20taken%2C%20barriers%20and%20market%20imperfections%20may%20still%20inhibit%20action%2C%20particularly%20on%20energy%20efficiency.|"
           }
         }
       }
