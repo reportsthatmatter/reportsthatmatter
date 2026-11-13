@@ -18,6 +18,7 @@
 25-reversing-emissions-from-land-use-change
 26-international-support-for-adaptation
 27-conclusions-building-and-sustaining-international-co-operation-on-climate-cha
+2a-ethical-frameworks-and-intertemporal-equity
 3-how-climate-change-will-affect-people-around-the-world
 4-implications-of-climate-change-for-development
 5-costs-of-climate-change-in-developed-countries
@@ -26,6 +27,12 @@
 8-the-challenge-of-stabilisation
 9-identifying-the-costs-of-mitigation
 acknowledgements
+annex-7b-emissions-from-the-power-sector
+annex-7c-emissions-from-the-transport-sector
+annex-7d-emissions-from-the-industry-sector
+annex-7e-emissions-from-buildings-sector
+annex-7f-emissions-from-the-land-use-change-and-forestry-sector
+annex-7g-emissions-from-the-agriculture-sector
 executive-summary
 introduction
 part-i-climate-change-our-approach
@@ -34,5 +41,7 @@ part-iii-the-economics-of-stabilisation
 part-iv-policy-responses-for-mitigation
 part-v-policy-responses-for-adaptation
 part-vi-international-collective-action
+postscript
 preface
 summary-of-conclusions
+technical-annex-to-postscript

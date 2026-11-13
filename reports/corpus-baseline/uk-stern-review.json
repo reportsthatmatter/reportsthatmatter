@@ -1,6 +1,6 @@
 {
-  "words": 303075,
-  "paragraphs": 4590,
+  "words": 331307,
+  "paragraphs": 5019,
   "sections": [
     {
       "slug": "executive-summary",
@@ -49,6 +49,12 @@
       "title": "2 Economics, Ethics and Climate Change",
       "paragraphs": 158,
       "ids": "d016b93bc376"
+    },
+    {
+      "slug": "2a-ethical-frameworks-and-intertemporal-equity",
+      "title": "2A Ethical Frameworks and Intertemporal Equity",
+      "paragraphs": 126,
+      "ids": "c7321b0340fd"
     },
     {
       "slug": "part-ii-impacts-of-climate-change-on-growth-and-development",
@@ -229,6 +235,54 @@
       "title": "27 Conclusions: Building and Sustaining International Co-operation on Climate Change",
       "paragraphs": 32,
       "ids": "590e2ab2669b"
+    },
+    {
+      "slug": "postscript",
+      "title": "Postscript",
+      "paragraphs": 44,
+      "ids": "b2c35a685082"
+    },
+    {
+      "slug": "technical-annex-to-postscript",
+      "title": "Technical Annex to Postscript",
+      "paragraphs": 83,
+      "ids": "a14cf25a7bc9"
+    },
+    {
+      "slug": "annex-7b-emissions-from-the-power-sector",
+      "title": "Annex 7.b Emissions from the power sector",
+      "paragraphs": 24,
+      "ids": "ee1df6bc5df6"
+    },
+    {
+      "slug": "annex-7c-emissions-from-the-transport-sector",
+      "title": "Annex 7.c Emissions from the transport sector",
+      "paragraphs": 33,
+      "ids": "37c4f7ea0576"
+    },
+    {
+      "slug": "annex-7d-emissions-from-the-industry-sector",
+      "title": "Annex 7.d Emissions from the industry sector",
+      "paragraphs": 33,
+      "ids": "dad7cbce4cf6"
+    },
+    {
+      "slug": "annex-7e-emissions-from-buildings-sector",
+      "title": "Annex 7.e Emissions from buildings sector",
+      "paragraphs": 22,
+      "ids": "cc2d0412fed5"
+    },
+    {
+      "slug": "annex-7f-emissions-from-the-land-use-change-and-forestry-sector",
+      "title": "Annex 7.f Emissions from the land-use change and forestry sector",
+      "paragraphs": 36,
+      "ids": "6667073c70e3"
+    },
+    {
+      "slug": "annex-7g-emissions-from-the-agriculture-sector",
+      "title": "Annex 7.g Emissions from the agriculture sector",
+      "paragraphs": 28,
+      "ids": "695d010f0db4"
     }
   ]
 }

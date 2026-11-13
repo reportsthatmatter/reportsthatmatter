@@ -3345,6 +3345,20 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
+        "slug": "2a-ethical-frameworks-and-intertemporal-equity",
+        "title": "2A Ethical Frameworks and Intertemporal Equity",
+        "page": "41",
+        "why": "The technical annex to Chapter 2 sets out the ethical frameworks behind the Review's approach and the case for its low pure rate of time preference in discounting.",
+        "excerpt": {
+          "quote": "The 'consequentialist' and 'welfarist' approach, the assessment of a policy in terms of its consequences for individual welfare, that is embodied in standard welfare economics, is highly relevant to the ethics of climate change.",
+          "cite": {
+            "id": "consequentialist-welfarist-approach-assessment-policy",
+            "page": 41,
+            "href": "/reports/uk-stern-review?p=consequentialist-welfarist-approach-assessment-policy&h=|The%20'consequentialist'%20and%20'welfarist'%20approach%2C%20the%20assessment%20of%20a%20policy%20in%20terms%20of%20its%20consequences%20for%20individual%20welfare%2C%20that%20is%20embodied%20in%20standard%20welfare%20economics%2C%20is%20highly%20relevant%20to%20the%20ethics%20of%20climate%20change.|"
+          }
+        }
+      },
+      {
         "slug": "3-how-climate-change-will-affect-people-around-the-world",
         "title": "3 How Climate Change Will Affect People Around The World",
         "page": "56",
@@ -3731,6 +3745,34 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "third-prompt-strong-action-therefore",
             "page": 572,
             "href": "/reports/uk-stern-review?p=third-prompt-strong-action-therefore&h=|Third%2C%20prompt%20and%20strong%20action%20is%2C%20therefore%2C%20clearly%20warranted.%20Because%20climate%20change%20is%20a%20global%20problem%2C%20the%20response%20to%20it%20must%20be%20international.|%20And%20it%20must%20be%20based%20on"
+          }
+        }
+      },
+      {
+        "slug": "postscript",
+        "title": "Postscript",
+        "page": "1",
+        "why": "The Postscript, added after publication, answers the first weeks of debate on the Review: the case for urgent action, discounting and risk, and the policy response.",
+        "excerpt": {
+          "quote": "The broad conclusion of our analysis is that urgent action should be taken to reduce the risk of committing the world to the real possibility of very high temperature increases.",
+          "cite": {
+            "id": "broad-conclusion-our-analysis-urgent",
+            "page": 7,
+            "href": "/reports/uk-stern-review?p=broad-conclusion-our-analysis-urgent&h=|The%20broad%20conclusion%20of%20our%20analysis%20is%20that%20urgent%20action%20should%20be%20taken%20to%20reduce%20the%20risk%20of%20committing%20the%20world%20to%20the%20real%20possibility%20of%20very%20high%20temperature%20increases.|%20The%20next%20few%20years%20will"
+          }
+        }
+      },
+      {
+        "slug": "technical-annex-to-postscript",
+        "title": "Technical Annex to Postscript",
+        "page": "1",
+        "why": "The Technical Annex to the Postscript answers critics of the Review's modelling, and tests how its damage estimates change with the damage function and the ethical parameters.",
+        "excerpt": {
+          "quote": "Our estimates of damage from climate change derived from formal economic modelling are higher than many estimates in the literature, and there has rightly been strong interest in our underlying assumptions.",
+          "cite": {
+            "id": "some-commentators-review-have-focussed",
+            "page": 1,
+            "href": "/reports/uk-stern-review?p=some-commentators-review-have-focussed&h=impacts%20of%20climate%20change.%20|Our%20estimates%20of%20damage%20from%20climate%20change%20derived%20from%20formal%20economic%20modelling%20are%20higher%20than%20many%20estimates%20in%20the%20literature%2C%20and%20there%20has%20rightly%20been%20strong%20interest%20in%20our%20underlying%20assumptions.|%20This%20paper%20responds%20to"
           }
         }
       }
