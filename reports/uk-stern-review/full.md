@@ -5,7 +5,7 @@ published_at: "30 October 2006"
 source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
 pages: 425
 footnotes: 857
-corrections: 50
+corrections: 71
 ---
 
 %%page i%%
@@ -4971,7 +4971,7 @@ One concern is that under different speeds of action, policies might be dispropo
 
 Even where action is taken on a more uniform collective basis, concern remains that different countries will be affected differently. Some countries have developed comparative advantages in GHG-intensive sectors and would be hit hardest by attempts to rein-in emissions and shift activity away from such production.
 
-The "competitiveness" of a firm or country is defined in terms of relative performance. An uncompetitive firm risks losing market share and going out of business. On the other hand, a country cannot "close", but low competitiveness means the economy is likely to grow more slowly with lower real wage growth and enjoy fewer opportunities than more competitive economies. At the national level, promoting competitiveness means applying policies and re- vamping institutions to enable the economy to adapt more flexibly to new markets and opportunities, and facilitate the changes needed to raise productivity. Carefully designed, flexible policies to encourage GHG mitigation and stimulate innovation need not be inconsistent with enhancing national competitiveness. On the contrary, the innovation associated with tackling climate change could trigger a new wave of growth and creativity in the global economy. It is up to individuals, countries, governments and companies to tailor their policies and actions to seize the opportunities.
+The "competitiveness" of a firm or country is defined in terms of relative performance. An uncompetitive firm risks losing market share and going out of business. On the other hand, a country cannot "close", but low competitiveness means the economy is likely to grow more slowly with lower real wage growth and enjoy fewer opportunities than more competitive economies. At the national level, promoting competitiveness means applying policies and re-vamping institutions to enable the economy to adapt more flexibly to new markets and opportunities, and facilitate the changes needed to raise productivity. Carefully designed, flexible policies to encourage GHG mitigation and stimulate innovation need not be inconsistent with enhancing national competitiveness. On the contrary, the innovation associated with tackling climate change could trigger a new wave of growth and creativity in the global economy. It is up to individuals, countries, governments and companies to tailor their policies and actions to seize the opportunities.
 
 %%page 2#3%%
 
@@ -5087,7 +5087,7 @@ A reduction in GHG-intensive activities is the ultimate goal of policies designe
 
 This risk should not be exaggerated. To the extent that energy-intensive industry is open to trade, the bulk of this tends to be limited to within regional trading blocks. UK Input-Output tables, for example, suggest trade diversion is likely to be reduced where action is taken at an EU level (see Box 11.3). However, several sectors are open to trade outside the EU. To the extent that variations in the climate change policy regime between countries result in trade diversion in these sectors the impact on GHG emissions will be reduced.
 
-Box 11.3 The risk of trade diversion and firm relocation – a UK Input-Output case- study
+Box 11.3 The risk of trade diversion and firm relocation – a UK Input-Output case-study
 
 By changing relative prices, GHG abatement will reduce demand for GHG-intensive products. Sectors open to competition from countries not enforcing abatement policies will not be able to pass on costs to consumers without risking market share. The short-run response to such elastic demand is likely to be lower profits. In the long run, with capital being mobile, firms are likely to make location decisions on the basis of changing comparative advantages.
 
@@ -5155,7 +5155,7 @@ Azar, C. (2005): 'Post-Kyoto climate policy targets: costs and competitiveness i
 
 Berman, E. and L. Bui (1999): 'Environmental regulation and productivity: evidence from oil refineries' Review of Economics and Statistics 2001 83(3): 498-510, available from http://www.mitpressjournals.org/doi/abs/10.1162/00346530152480144
 
-Brunnermeier, S.B. and Cohen M. (2003): 'Determinants of environmental innovation in U.S. manufacturing industries', Journal of Environmental Economics & Management, 45(2): 278- 293
+Brunnermeier, S.B. and Cohen M. (2003): 'Determinants of environmental innovation in U.S. manufacturing industries', Journal of Environmental Economics & Management, 45(2): 278-293
 
 Burtraw, D. (1996) "Trading emissions to clean the air: exchanges few but savings many," Resources, 122 (Winter): 3-6
 
@@ -5295,7 +5295,7 @@ Capital markets, banks and other financial institutions will have a vital role i
 
 %%page 271%%
 
-The new industries will create new opportunities for start-up, small and medium enterprises[^7] as well as large multinationals. Linked to this, specialist funds focusing on clean energy start- ups and other specialist engineering, research and marketing companies are emerging. Clean technology investment has already moved from being a niche investment activity into the mainstream; clean technology was the third largest category of venture capital investment in the US in the second quarter of 2006[^8].
+The new industries will create new opportunities for start-up, small and medium enterprises[^7] as well as large multinationals. Linked to this, specialist funds focusing on clean energy start-ups and other specialist engineering, research and marketing companies are emerging. Clean technology investment has already moved from being a niche investment activity into the mainstream; clean technology was the third largest category of venture capital investment in the US in the second quarter of 2006[^8].
 
 The insurance sector will face both higher risks and broader opportunities, but will require much greater access to long-term capital funding to be able to underwrite the increased risks and costs of extreme weather events[^9]. Higher risks will demand higher premiums and will require insurance companies to look hard at their pricing; of what is expected to become a wider range of weather and climate-related insurance products[^10].
 
@@ -5315,7 +5315,7 @@ MRV services (monitoring, reporting and verification): these are the key feature
 
 Brokers: are needed to facilitate trading between individual firms or groups within a scheme, as well as offering services to firms not covered by the scheme who can sell emission reductions from their projects.
 
-Carbon asset management and strategy: reducing carbon can imply complex and inter- related processes and ways of working at a company level. New opportunities will arise for consultancy services to help companies manage these processes.
+Carbon asset management and strategy: reducing carbon can imply complex and inter-related processes and ways of working at a company level. New opportunities will arise for consultancy services to help companies manage these processes.
 
 Registry services: these are needed to manage access to and use of the registry accounts that hold allowances necessary for surrender to the regulator.
 
@@ -5325,7 +5325,7 @@ Trading services: the transition to a low carbon economy offers growing opportun
 
 ***Companies and countries should position themselves now to take advantage of these opportunities***
 
-There are numerous examples of forward-looking companies which are now positioning themselves to take advantage of these growth markets, ranging from innovative high- technology start-up firms to some of the world's largest companies.
+There are numerous examples of forward-looking companies which are now positioning themselves to take advantage of these growth markets, ranging from innovative high-technology start-up firms to some of the world's largest companies.
 
 Likewise, governments can seek to position their economy to take advantage of the opportunities. Countries with sound macroeconomic management, flexible markets, and attractive conditions for inward investment can hope to win strong shares of the growing clean energy market. But particular countries may also find that for historical or geographical reasons, or because of their endowment of scientific or technical expertise, they have advantages in the development of particular technologies. There may be grounds for government intervention to support their development, particularly if promising technologies are far from market and needs to be scaled up to realise their full potential – Chapter 16 discusses how market failures and uncertainties over future policy justify action in this area.
 
@@ -5337,7 +5337,7 @@ Implementing ambitious climate change goals and policies may also help to create
 
 ***Climate change policies can be a general spur to greater efficiency, cost reduction and innovation for the private sector***
 
-Predictions of the costs of environmental regulations often turn out to be overestimates. Hodges (1997) compared all cases of emission reduction regulations for which successive cost estimates were available, a dozen in total. He found that in all cases except one (CFCs where costs were only 30% below expectations due to the accelerated timetable for phase- out of the chemical), the early estimates were at least double the later ones, and often much greater.
+Predictions of the costs of environmental regulations often turn out to be overestimates. Hodges (1997) compared all cases of emission reduction regulations for which successive cost estimates were available, a dozen in total. He found that in all cases except one (CFCs where costs were only 30% below expectations due to the accelerated timetable for phase-out of the chemical), the early estimates were at least double the later ones, and often much greater.
 
 One example is the elimination of CFCs in car air conditioners. Early industry estimates suggested this would increase the price of a new car by between $650 and $1200. By 1997, the cost was $40 to $400[^13].
 
@@ -5526,7 +5526,7 @@ CEAC (2006): "Emissions trading and the City of London", report to the City of L
 
 Ceres (2006): 'From Risk to Opportunity: How insurers can proactively and profitably manage climate change', Ceres, August 2006
 
-Chinese Academy of Social Sciences (2006): available from http://www.hm- treasury.gov.uk/media/5FB/FE/Climate_Change_CASS_final_report.pdf
+Chinese Academy of Social Sciences (2006): available from http://www.hm-treasury.gov.uk/media/5FB/FE/Climate_Change_CASS_final_report.pdf
 
 Clean Edge (2006): 'Clean Energy Trends', San Francisco, Clean Edge Inc., available from http://www.cleanedge.com/reports/trends2006.pdf
 
@@ -6190,7 +6190,7 @@ Up to the long-term stabilisation goal, the social cost of carbon will rise over
 
 As GHG concentrations move towards the stabilisation goal, the price of carbon should reflect the social cost of carbon. In any given year, abatement should then occur up to where the marginal cost is equal to this price, as set out in the right-hand part of the diagram above. If, over time, technical progress reduces the marginal cost of abatement, then at any given price level there should be more emission reductions.
 
-Revision rules for climate-change policies can be compared to setting interest rates within a well-specified inflation-targeting regime[^18]. The stabilisation target is analogous to the inflation target. In the UK, the Monetary Policy Committee each month sets a short-term policy instrument, the interest rate on central-bank money, until their next meeting, in order to keep inflation on track to hit its target. The analogy with climate-change policy would be the setting of a tax rate or an emissions trading quota for, say, a five year period, with firms and households making their own decisions about emissions reductions subject to that carbon- price path and their expectations about policy-makers' commitment to the long-term stabilisation goal.
+Revision rules for climate-change policies can be compared to setting interest rates within a well-specified inflation-targeting regime[^18]. The stabilisation target is analogous to the inflation target. In the UK, the Monetary Policy Committee each month sets a short-term policy instrument, the interest rate on central-bank money, until their next meeting, in order to keep inflation on track to hit its target. The analogy with climate-change policy would be the setting of a tax rate or an emissions trading quota for, say, a five year period, with firms and households making their own decisions about emissions reductions subject to that carbon-price path and their expectations about policy-makers' commitment to the long-term stabilisation goal.
 
 %%page 317%%
 
@@ -6339,7 +6339,7 @@ Sinclair, P.J.N (1994): 'On the optimum trend of fossil fuel taxation', Oxford E
 
 Ulph, A and Ulph, D (1994): 'The optimal time path of a carbon tax', Oxford Economic Papers, 46, 857-868
 
-Weitzman, M.L (1974): ' Prices versus quantities', Review of Economic Studies, 41 (4):477- 491
+Weitzman, M.L (1974): ' Prices versus quantities', Review of Economic Studies, 41 (4):477-491
 
 %%page 324%%
 
@@ -7205,7 +7205,7 @@ Box 16.4 Second generation biofuels
 
 Cellulosic ethanol is a not-yet-commercialized fuel derived from woody biomass. In his 2006 State of the Union address, Bush praised the fuel's potential to curb the nation's "addiction to foreign oil". A joint study by the Departments of Agriculture and Energy[^49] concludes that U.S. biomass feedstocks could produce enough ethanol to displace 30 percent of the nation's gasoline consumption by 2030.
 
-In May 2006, Goldman Sachs & Co became the first major Wall Street firm to invest in the technology. Goldman Sachs & Co invested more than $26 million in Iogen Corp., an Ottawa- based company that operates the world's first and only demonstration facility that converts straw, corn stalks, switchgrass and other agricultural materials to ethanol. Iogen hopes to begin construction on North America's first commercial cellulosic ethanol plant next year.
+In May 2006, Goldman Sachs & Co became the first major Wall Street firm to invest in the technology. Goldman Sachs & Co invested more than $26 million in Iogen Corp., an Ottawa-based company that operates the world's first and only demonstration facility that converts straw, corn stalks, switchgrass and other agricultural materials to ethanol. Iogen hopes to begin construction on North America's first commercial cellulosic ethanol plant next year.
 
 In September 2006 Richard Branson announced plans to invest $3 billion in mitigating climate change. Some of this will be invested in Virgin Fuels, which will develop biofuels including cellulosic ethanol.
 
@@ -7271,7 +7271,7 @@ Policy frameworks can be designed to treat support to all low-carbon technologie
 
 The policy framework of deployment support could differentiate between technologies, offering greater support to those further from commercialisation, or having particular strategic or national importance. This differentiation can be achieved several ways, including technology-specific quotas, or increased levels of price support for certain technologies. Policies to correct the carbon externality (taxes / trading) are, and should continue to be, technology neutral. Technology neutrality is also desirable for deployment support if the aim is to deliver least cost reductions to meet short-term targets, since the market will deliver the least-cost technology.
 
-However, as has already been discussed, the process of learning means that longer- established technologies will tend to have a price advantage over newer technologies, and untargeted support will favour these more developed technologies and bring them still further down the learning curve. This effect can be seen in markets using technology-neutral instruments: in the USA, onshore wind accounts for 92% of new capacity in green power markets[^65] .
+However, as has already been discussed, the process of learning means that longer-established technologies will tend to have a price advantage over newer technologies, and untargeted support will favour these more developed technologies and bring them still further down the learning curve. This effect can be seen in markets using technology-neutral instruments: in the USA, onshore wind accounts for 92% of new capacity in green power markets[^65] .
 
 This concentration on near-to-market technologies will tend to work to the exclusion of other promising technologies, which means that only a very narrow portfolio of technologies will be supported, rather than the broad range which Part III of this report shows are required. This means technology neutrality may be cost efficient in the short term, but not over time.
 
@@ -7393,7 +7393,7 @@ E4tech. (2006): 'UK carbon reduction potential from technologies in the transpor
 
 European Community (2005): 'The support of electricity from renewable energy sources', Communication from the Commission available from http://ec.europa.eu/energy/res/biomass_action_plan/doc/2005_12_07_comm_biomass_electri city_en.pdf
 
-Fouquet D., C. Grotz, J. Sawin and N. Vassilakos (2005): 'Reflections on a possible unified eu financial support scheme for renewable energy systems (res): a comparison of minimum- price and quota systems and an analysis of market conditions'. Brussels and Washington, DC: European Renewable Energies Federation and Worldwatch Institute.
+Fouquet D., C. Grotz, J. Sawin and N. Vassilakos (2005): 'Reflections on a possible unified eu financial support scheme for renewable energy systems (res): a comparison of minimum-price and quota systems and an analysis of market conditions'. Brussels and Washington, DC: European Renewable Energies Federation and Worldwatch Institute.
 
 Foxon, T. J. (2003):. 'Inducing innovation for a low-carbon future: drivers, barriers and policies', London: The Carbon Trust, available from http://www.thecarbontrust.co.uk/Publications/publicationdetail.htm?productid=CT-2003-07
 
@@ -7689,7 +7689,7 @@ In the buildings sector, for example, large numbers of poor quality and ineffici
 
 The long term cost effective energy efficiency potential of a building is heavily determined by decisions made at the design phase (although there are widespread opportunities to retro fit technologies especially given the lengthy capital replacement cycle of buildings and often low performance of existing stock). As such, polices which target this window of opportunity may have significant potential to reduce emissions from buildings, especially in fast growing construction markets.
 
-In the UK, the Carbon Trust, an independent but largely publicly funded company provides a range of advisory services to business of all sizes as well as the public sector. In 2005/06, the organisation helped its customers save between 1.1 and 1.6 MtC02 and identify potential savings of 3.9 MtC02 annually at an average lifetime programme administration cost of £5- 7/tC02.[^48]
+In the UK, the Carbon Trust, an independent but largely publicly funded company provides a range of advisory services to business of all sizes as well as the public sector. In 2005/06, the organisation helped its customers save between 1.1 and 1.6 MtC02 and identify potential savings of 3.9 MtC02 annually at an average lifetime programme administration cost of £5-7/tC02.[^48]
 
 %%page 389%%
 
@@ -7764,7 +7764,7 @@ However, many of the barriers outlined in the earlier part of this chapter apply
 
 - Allocating resources and overcoming capital constraints: Short-term budgeting processes in the public sector may hinder the delivery of energy efficiency. Private sector energy contracting may also be useful in leveraging private investment in the public sector (see Box 17.9 for examples of such partnerships in London and Woking);
 - Establishing targets on energy efficiency: As in the private sector, high-level targets can overcome behavioural and institutional barriers by focusing management attention and establishing accountability for delivery. Grading and comparisons between government departments and public organizations can further promote this competitive dimension;
-- Driving efficiency through public sector reform: Reform of public services and state- owned enterprises, including the closure of inefficient facilities or their merging under more effective management, can directly drive energy efficiency. Examples include industrial restructuring and consolidation in China's iron and steel industry, and the power sector reforms discussed in Chapter 12;
+- Driving efficiency through public sector reform: Reform of public services and state-owned enterprises, including the closure of inefficient facilities or their merging under more effective management, can directly drive energy efficiency. Examples include industrial restructuring and consolidation in China's iron and steel industry, and the power sector reforms discussed in Chapter 12;
 - Coordinated investment and planning of infrastructure and energy systems: Coordinating systems such as water, waste, transport, and power can achieve energy savings. For example, planners in London are introducing cooling systems onto the underground network using absorption chilling technologies which convert waste heat from the buildings above;
 
 %%page 393%%
@@ -7793,7 +7793,7 @@ This section outlines general principles of policy delivery which help to reduce
 - Monitoring and flexibility: Careful and regular evaluation helps sustain a positive balance of costs and benefits throughout the lifecycle of a policy. As set out in Chapter 15, a degree of flexibility is required at the design stage to allow for a response to changing circumstances; for example, as a result of the success of the EU labelling scheme on refrigerators outlined in Box 17.5, the market is now saturated with 'A' performance graded products requiring the introduction of A+, A++ performance classifications;
 - Verification and reporting: Well-defined testing protocols and procedures are particularly important foundations for the implementation of labels, endorsements and standards. Sound verification processes are essential to maintain policy credibility among producers, intermediaries, consumers and governments. For example, poor compliance is commonly cited as the key barrier increasing energy savings from building regulations, particularly in the developing world and transition economies where supporting institutional frameworks are typically weaker.
 
-Policies can be mandatory, the subject of a voluntary agreement between public authorities and industry, or industry led. None of these approaches is universally preferable or appropriate. Regulatory policies may depend on the tacit agreement of industry and end- users. Voluntary strategies typically depend on implicit of explicit policy commitments to support the desired market transition, for example by regulatory underpinning or other sanctions. The choice of implementing strategy depends on:
+Policies can be mandatory, the subject of a voluntary agreement between public authorities and industry, or industry led. None of these approaches is universally preferable or appropriate. Regulatory policies may depend on the tacit agreement of industry and end-users. Voluntary strategies typically depend on implicit of explicit policy commitments to support the desired market transition, for example by regulatory underpinning or other sanctions. The choice of implementing strategy depends on:
 
 - Political culture of the implementing country: public authorities often prefer to mandate policy to increase certainty around policy delivery. However, countries such as Japan have a strong culture of implementing policy based on voluntary consensus, which has been successful in ensuring high compliance with its Top Runner programme (see Box 17.2);
 - Market structure: Voluntary agreements may be more readily achievable where capacity is concentrated among relatively few producers or retailers (and where there is some form of recognition of that commitment by government in its broader policy). For example, an EU voluntary agreement on set top boxes[^69] has been successful in raising energy efficiency of satellite and cable platforms following support from major service providers. However less complete coverage of the more disparate market for freeview platforms, coupled with tough price competition, has resulted in relatively weaker improvements in standby and operating performance;
@@ -9490,7 +9490,7 @@ Yunus, M., (1999): 'Banker to the poor: micro-lending and the battle against wor
 
 [^46]: Newell and Chow (2004)
 
-[^47]: In 2004 the UK Government published a ten-year Science and Innovation Investment Framework, which set a challenging ambition for public and private investment in R&D to rise from 1.9% to 2.5% of UK GDP, in partnership with business; as well as the policies to underpin this. An additional £1 billion will be invested in science and innovation between 2005-2008, equivalent to real annual growth of 5.8% and to continue to increase investment in the public science base at least in line with economic growth. http://www.dti.gov.uk/science/science- funding/framework/page9306.html
+[^47]: In 2004 the UK Government published a ten-year Science and Innovation Investment Framework, which set a challenging ambition for public and private investment in R&D to rise from 1.9% to 2.5% of UK GDP, in partnership with business; as well as the policies to underpin this. An additional £1 billion will be invested in science and innovation between 2005-2008, equivalent to real annual growth of 5.8% and to continue to increase investment in the public science base at least in line with economic growth. http://www.dti.gov.uk/science/science-funding/framework/page9306.html
 
 [^48]: Newell and Chow (2004)
 
@@ -9580,7 +9580,7 @@ Yunus, M., (1999): 'Banker to the poor: micro-lending and the battle against wor
 
 [^11]: Kahneman & Tversky (1979, 1986, 1992) developed the idea of 'prospect theory' in which people determine the value of an outcome based on a reference point.
 
-[^12]: See Simon, H.A. (1959) for concept of 'satisficing'. See also transcript of 2005 Bowman Lecture: Energy Demand - Rethinking from Basics, Professor David Fisk submitted to Stern Review Call for Evidence http://www.hm- treasury.gov.uk/media/F7E/46/climatechange-fisk_1.pdf
+[^12]: See Simon, H.A. (1959) for concept of 'satisficing'. See also transcript of 2005 Bowman Lecture: Energy Demand - Rethinking from Basics, Professor David Fisk submitted to Stern Review Call for Evidence http://www.hm-treasury.gov.uk/media/F7E/46/climatechange-fisk_1.pdf
 
 [^13]: This is commonly known as 'evolutionary' or 'procedural' rationality. See, for example, Goldstein, D. (2002), Decanio (1998)
 
@@ -9594,9 +9594,9 @@ Yunus, M., (1999): 'Banker to the poor: micro-lending and the battle against wor
 
 [^18]: See, for example, Palmer et al. (1995)
 
-[^19]: An OECD study: Environmentally Sustainable Buildings - Challenges and Policies found that 19 out of 20 countries surveyed had legislated mandatory building: http://www1.oecd.org/publications/e- book/9703011E.PDF#search=%22OECD%20study%3A%20Environmentally%20Sustainable%20Buildings%20- %20Challenges%20and%20Policies%20%22
+[^19]: An OECD study: Environmentally Sustainable Buildings - Challenges and Policies found that 19 out of 20 countries surveyed had legislated mandatory building: http://www1.oecd.org/publications/e-book/9703011E.PDF#search=%22OECD%20study%3A%20Environmentally%20Sustainable%20Buildings%20- %20Challenges%20and%20Policies%20%22
 
-[^20]: California Energy Commission (2005): http://www.energy.ca.gov/2005publications/CEC-400-2005-043/CEC-400- 2005-043.PDF
+[^20]: California Energy Commission (2005): http://www.energy.ca.gov/2005publications/CEC-400-2005-043/CEC-400-2005-043.PDF
 
 [^21]: Evaluation of New Home Energy Efficiency: An assessment of the 1996 Fort Collins residential energy code and benchmark study of design, construction and performance for homes built between 1994 and 1999. Summary report June 2002 : http://www.estar.com/publications/Evaluation_of_New_Home_Energy_Efficiency.pdf XENERGY, 2001: Impact analysis of the Massachusetts 1998 residential energy Code revisions: http://www.energycodes.gov/implement/pdfs/Massachusetts_rpt.pdf
 
@@ -9648,7 +9648,7 @@ Yunus, M., (1999): 'Banker to the poor: micro-lending and the battle against wor
 
 [^45]: California Energy Commission (2005)
 
-[^46]: Presentation by Toyota as Stern Review Transport Seminar 12 January 2006 http://www.hm- treasury.gov.uk/media/B70/64/stern_transportseminar_toyota.pdf
+[^46]: Presentation by Toyota as Stern Review Transport Seminar 12 January 2006 http://www.hm-treasury.gov.uk/media/B70/64/stern_transportseminar_toyota.pdf
 
 [^47]: Lovins (1992), Golove and Eto (1996)
 
