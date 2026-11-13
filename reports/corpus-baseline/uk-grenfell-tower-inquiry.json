@@ -1,6 +1,6 @@
 {
-  "words": 116807,
-  "paragraphs": 841,
+  "words": 843056,
+  "paragraphs": 6930,
   "sections": [
     {
       "slug": "phase-2-report",
@@ -91,6 +91,600 @@
       "title": "Chapter 14: The Local Government Association Guide",
       "paragraphs": 19,
       "ids": "27fc4f9321d9"
+    },
+    {
+      "slug": "part-3-the-testing-and-marketing-of-products",
+      "title": "Part 3: The testing and marketing of products",
+      "paragraphs": 7,
+      "ids": "3f4b93b5ae9b"
+    },
+    {
+      "slug": "chapter-16-arconic---evidential-matters",
+      "title": "Chapter 16: Arconic - evidential matters",
+      "paragraphs": 17,
+      "ids": "b3261e08cc1b"
+    },
+    {
+      "slug": "chapter-17-arconics-testing-of-acm-panels-1997-to-2006",
+      "title": "Chapter 17: Arconic's testing of ACM panels 1997 to 2006",
+      "paragraphs": 23,
+      "ids": "6ada2181d582"
+    },
+    {
+      "slug": "chapter-18-obtaining-a-bba-certificate-for-reynobond-55-pe",
+      "title": "Chapter 18: Obtaining a BBA certificate for Reynobond 55 PE",
+      "paragraphs": 26,
+      "ids": "fd9a4f2df973"
+    },
+    {
+      "slug": "chapter-19-the-bba-certificate-for-reynobond-55-pe",
+      "title": "Chapter 19: The BBA certificate for Reynobond 55 PE",
+      "paragraphs": 35,
+      "ids": "5572dada2c58"
+    },
+    {
+      "slug": "chapter-20-subsequent-testing-and-marketing-of-reynobond-55-pe",
+      "title": "Chapter 20: Subsequent testing and marketing of Reynobond 55 PE",
+      "paragraphs": 69,
+      "ids": "db91942989f3"
+    },
+    {
+      "slug": "chapter-21-the-review-of-the-reynobond-certificate",
+      "title": "Chapter 21: The review of the Reynobond certificate",
+      "paragraphs": 55,
+      "ids": "f35f96c21e0f"
+    },
+    {
+      "slug": "chapter-22-kingspan-k15-insulation",
+      "title": "Chapter 22: Kingspan K15 insulation",
+      "paragraphs": 141,
+      "ids": "5ec6da5eca32"
+    },
+    {
+      "slug": "chapter-23-certification-of-kingspan-k15-by-labc",
+      "title": "Chapter 23: Certification of Kingspan K15 by LABC",
+      "paragraphs": 49,
+      "ids": "764673a3f61b"
+    },
+    {
+      "slug": "chapter-24-celotex-rs5000-insulation",
+      "title": "Chapter 24: Celotex RS5000 insulation",
+      "paragraphs": 181,
+      "ids": "426197f1a3c3"
+    },
+    {
+      "slug": "chapter-25-certification-of-celotex-rs5000-by-labc",
+      "title": "Chapter 25: Certification of Celotex RS5000 by LABC",
+      "paragraphs": 27,
+      "ids": "e25cc751020e"
+    },
+    {
+      "slug": "chapter-26-the-national-house-building-council",
+      "title": "Chapter 26: The National House Building Council",
+      "paragraphs": 122,
+      "ids": "06a24b3a7d56"
+    },
+    {
+      "slug": "chapter-27-siderise-cavity-barriers",
+      "title": "Chapter 27: Siderise cavity barriers",
+      "paragraphs": 34,
+      "ids": "adb2e1ad8bbd"
+    },
+    {
+      "slug": "chapter-28-united-kingdom-accreditation-service",
+      "title": "Chapter 28: United Kingdom Accreditation Service",
+      "paragraphs": 48,
+      "ids": "2eeaaa900cf2"
+    },
+    {
+      "slug": "chapter-29-failures-in-the-system",
+      "title": "Chapter 29: Failures in the system",
+      "paragraphs": 59,
+      "ids": "825b4d26c88b"
+    },
+    {
+      "slug": "part-4-the-tenant-management-organisation",
+      "title": "Part 4: The Tenant Management Organisation",
+      "paragraphs": 5,
+      "ids": "b0417e7623c4"
+    },
+    {
+      "slug": "chapter-31-structure-and-governance",
+      "title": "Chapter 31: Structure and governance",
+      "paragraphs": 54,
+      "ids": "3414c20d22bb"
+    },
+    {
+      "slug": "chapter-32-rbkcs-oversight-of-the-tmo",
+      "title": "Chapter 32: RBKC's oversight of the TMO",
+      "paragraphs": 28,
+      "ids": "b2bd968581bd"
+    },
+    {
+      "slug": "chapter-33-the-tmos-relationship-with-its-residents",
+      "title": "Chapter 33: The TMO's relationship with its residents",
+      "paragraphs": 73,
+      "ids": "b215208e3bd2"
+    },
+    {
+      "slug": "part-5-the-management-of-fire-safety-at-grenfell-tower",
+      "title": "Part 5: The management of fire safety at Grenfell Tower",
+      "paragraphs": 7,
+      "ids": "d168a6d4661a"
+    },
+    {
+      "slug": "chapter-35-the-fire-safety-order",
+      "title": "Chapter 35: The Fire Safety Order",
+      "paragraphs": 36,
+      "ids": "75a291385805"
+    },
+    {
+      "slug": "chapter-36-fire-safety-management-at-the-tmo",
+      "title": "Chapter 36: Fire safety management at the TMO",
+      "paragraphs": 12,
+      "ids": "eb04767773ec"
+    },
+    {
+      "slug": "chapter-37-development-of-fire-safety-strategies-and-policies",
+      "title": "Chapter 37: Development of fire safety strategies and policies",
+      "paragraphs": 46,
+      "ids": "87ecd3b7858a"
+    },
+    {
+      "slug": "chapter-38-fire-risk-assessments",
+      "title": "Chapter 38: Fire risk assessments",
+      "paragraphs": 87,
+      "ids": "c53fc8aec477"
+    },
+    {
+      "slug": "chapter-39-response-to-fire-risk-assessments",
+      "title": "Chapter 39: Response to fire risk assessments",
+      "paragraphs": 80,
+      "ids": "a187223c39e8"
+    },
+    {
+      "slug": "chapter-40-the-replacement-of-entrance-doors",
+      "title": "Chapter 40: The replacement of entrance doors",
+      "paragraphs": 21,
+      "ids": "4ec755c6ec45"
+    },
+    {
+      "slug": "chapter-41-inspection-and-maintenance-of-entrance-doors",
+      "title": "Chapter 41: Inspection and maintenance of entrance doors",
+      "paragraphs": 105,
+      "ids": "dba91442b175"
+    },
+    {
+      "slug": "chapter-42-fire-safety-information",
+      "title": "Chapter 42: Fire safety information",
+      "paragraphs": 58,
+      "ids": "bfeb65ca81bd"
+    },
+    {
+      "slug": "chapter-43-the-smoke-ventilation-system",
+      "title": "Chapter 43: The smoke ventilation system",
+      "paragraphs": 83,
+      "ids": "d7e112d329a3"
+    },
+    {
+      "slug": "chapter-44-lifts",
+      "title": "Chapter 44: Lifts",
+      "paragraphs": 61,
+      "ids": "41b92c104930"
+    },
+    {
+      "slug": "chapter-45-emergency-planning",
+      "title": "Chapter 45: Emergency planning",
+      "paragraphs": 25,
+      "ids": "c13eb34a80db"
+    },
+    {
+      "slug": "chapter-46-vulnerable-residents",
+      "title": "Chapter 46: Vulnerable residents",
+      "paragraphs": 90,
+      "ids": "9d32e68c6b17"
+    },
+    {
+      "slug": "part-6-the-refurbishment-of-grenfell-tower",
+      "title": "Part 6: The refurbishment of Grenfell Tower",
+      "paragraphs": 7,
+      "ids": "b154a075e49b"
+    },
+    {
+      "slug": "chapter-48-the-legislative-background",
+      "title": "Chapter 48: The legislative background",
+      "paragraphs": 51,
+      "ids": "22f989b3b4e1"
+    },
+    {
+      "slug": "chapter-49-industry-guidance-on-the-construction-of-external-walls",
+      "title": "Chapter 49: Industry guidance on the construction of external walls",
+      "paragraphs": 20,
+      "ids": "e5d08e6b0b6f"
+    },
+    {
+      "slug": "chapter-50-organisations-involved-in-the-refurbishment",
+      "title": "Chapter 50: Organisations involved in the refurbishment",
+      "paragraphs": 67,
+      "ids": "2dcf16f2db0a"
+    },
+    {
+      "slug": "chapter-51-the-origins-of-the-grenfell-tower-project",
+      "title": "Chapter 51: The origins of the Grenfell Tower Project",
+      "paragraphs": 18,
+      "ids": "0c2367a43f69"
+    },
+    {
+      "slug": "chapter-52-the-appointment-of-studio-e",
+      "title": "Chapter 52: The appointment of Studio E",
+      "paragraphs": 22,
+      "ids": "ab9627f7771d"
+    },
+    {
+      "slug": "chapter-53-planning-the-refurbishment",
+      "title": "Chapter 53: Planning the refurbishment",
+      "paragraphs": 52,
+      "ids": "b9e698582719"
+    },
+    {
+      "slug": "chapter-54-fire-safety-strategies-the-contribution-of-exova",
+      "title": "Chapter 54: Fire safety strategies; the contribution of Exova",
+      "paragraphs": 183,
+      "ids": "e193d1dc095c"
+    },
+    {
+      "slug": "chapter-55-the-choice-of-acm-pe-rainscreen-panels",
+      "title": "Chapter 55: The choice of ACM PE rainscreen panels",
+      "paragraphs": 94,
+      "ids": "0287fe5f8f27"
+    },
+    {
+      "slug": "chapter-56-the-choice-of-insulation",
+      "title": "Chapter 56: The choice of insulation",
+      "paragraphs": 162,
+      "ids": "b2142508b1bb"
+    },
+    {
+      "slug": "chapter-57-cavity-barriers",
+      "title": "Chapter 57: Cavity barriers",
+      "paragraphs": 91,
+      "ids": "08ebae56e193"
+    },
+    {
+      "slug": "chapter-58-window-infill-panels",
+      "title": "Chapter 58: Window infill panels",
+      "paragraphs": 32,
+      "ids": "34ebbaa725c3"
+    },
+    {
+      "slug": "chapter-59-window-reveals",
+      "title": "Chapter 59: Window reveals",
+      "paragraphs": 30,
+      "ids": "0262e5cc85b8"
+    },
+    {
+      "slug": "chapter-60-the-new-smoke-ventilation-system",
+      "title": "Chapter 60: The new smoke ventilation system",
+      "paragraphs": 134,
+      "ids": "d97e2728e850"
+    },
+    {
+      "slug": "chapter-61-the-health-and-safety-file",
+      "title": "Chapter 61: The Health and Safety File",
+      "paragraphs": 16,
+      "ids": "3a85d1ab7336"
+    },
+    {
+      "slug": "chapter-62-building-control",
+      "title": "Chapter 62: Building Control",
+      "paragraphs": 64,
+      "ids": "41d2f6b3c221"
+    },
+    {
+      "slug": "chapter-63-the-contribution-of-studio-e",
+      "title": "Chapter 63: The contribution of Studio E",
+      "paragraphs": 53,
+      "ids": "f8f4454f5dd7"
+    },
+    {
+      "slug": "chapter-64-the-contribution-of-rydon",
+      "title": "Chapter 64: The contribution of Rydon",
+      "paragraphs": 47,
+      "ids": "20c167327359"
+    },
+    {
+      "slug": "chapter-65-the-contribution-of-harley",
+      "title": "Chapter 65: The contribution of Harley",
+      "paragraphs": 90,
+      "ids": "7bfa941bf70d"
+    },
+    {
+      "slug": "chapter-66-the-contribution-of-the-tenant-management-organisation",
+      "title": "Chapter 66: The contribution of the Tenant Management Organisation",
+      "paragraphs": 16,
+      "ids": "5148e8f7985f"
+    },
+    {
+      "slug": "chapter-67-conclusions",
+      "title": "Chapter 67: Conclusions",
+      "paragraphs": 24,
+      "ids": "dec539541321"
+    },
+    {
+      "slug": "part-7-replacement-of-the-gas-riser",
+      "title": "Part 7: Replacement of the gas riser",
+      "paragraphs": 55,
+      "ids": "1f1221ed2fa5"
+    },
+    {
+      "slug": "part-8-the-london-fire-brigade",
+      "title": "Part 8: The London Fire Brigade",
+      "paragraphs": 8,
+      "ids": "49cf78208c69"
+    },
+    {
+      "slug": "chapter-70-organisation",
+      "title": "Chapter 70: Organisation",
+      "paragraphs": 37,
+      "ids": "0c64d357e201"
+    },
+    {
+      "slug": "chapter-71-training",
+      "title": "Chapter 71: Training",
+      "paragraphs": 34,
+      "ids": "66475c38b75f"
+    },
+    {
+      "slug": "chapter-72-incident-command-training",
+      "title": "Chapter 72: Incident command training",
+      "paragraphs": 29,
+      "ids": "f8b781896421"
+    },
+    {
+      "slug": "chapter-73-modern-materials-and-methods-of-construction",
+      "title": "Chapter 73: Modern materials and methods of construction",
+      "paragraphs": 15,
+      "ids": "d21c4f006630"
+    },
+    {
+      "slug": "chapter-74-the-response-to-the-lakanal-house-fire",
+      "title": "Chapter 74: The response to the Lakanal House fire",
+      "paragraphs": 65,
+      "ids": "4f538598f177"
+    },
+    {
+      "slug": "chapter-75-existing-sources-of-information",
+      "title": "Chapter 75: Existing sources of information",
+      "paragraphs": 47,
+      "ids": "b3ce78f8d899"
+    },
+    {
+      "slug": "chapter-76-operational-planning",
+      "title": "Chapter 76: Operational planning",
+      "paragraphs": 46,
+      "ids": "c8898ad26ce3"
+    },
+    {
+      "slug": "chapter-77-high-rise-firefighting-policy-and-guidance",
+      "title": "Chapter 77: High-rise firefighting: policy and guidance",
+      "paragraphs": 26,
+      "ids": "317039040266"
+    },
+    {
+      "slug": "chapter-78-the-control-room",
+      "title": "Chapter 78: The control room",
+      "paragraphs": 133,
+      "ids": "6b4100f7349c"
+    },
+    {
+      "slug": "chapter-79-fire-survival-guidance-training-and-management",
+      "title": "Chapter 79: Fire survival guidance: training and management",
+      "paragraphs": 166,
+      "ids": "62f993d1371e"
+    },
+    {
+      "slug": "chapter-80-communications",
+      "title": "Chapter 80: Communications",
+      "paragraphs": 76,
+      "ids": "0a2fdd37c522"
+    },
+    {
+      "slug": "chapter-81-the-supply-of-water",
+      "title": "Chapter 81: The supply of water",
+      "paragraphs": 42,
+      "ids": "ab9621fe9416"
+    },
+    {
+      "slug": "chapter-82-aspects-of-firefighting-at-grenfell-tower",
+      "title": "Chapter 82: Aspects of firefighting at Grenfell Tower",
+      "paragraphs": 23,
+      "ids": "97d75d2012cb"
+    },
+    {
+      "slug": "chapter-83-conclusions",
+      "title": "Chapter 83: Conclusions",
+      "paragraphs": 13,
+      "ids": "4ee9c4197f98"
+    },
+    {
+      "slug": "part-9-the-deceased",
+      "title": "Part 9: The deceased",
+      "paragraphs": 15,
+      "ids": "71f0ec70160b"
+    },
+    {
+      "slug": "chapter-85-the-expert-evidence",
+      "title": "Chapter 85: The expert evidence",
+      "paragraphs": 55,
+      "ids": "7ee6ea751cf2"
+    },
+    {
+      "slug": "chapter-86-floor-10",
+      "title": "Chapter 86: Floor 10",
+      "paragraphs": 57,
+      "ids": "0e3ad6e9bcd8"
+    },
+    {
+      "slug": "chapter-87-floor-11",
+      "title": "Chapter 87: Floor 11",
+      "paragraphs": 29,
+      "ids": "50781b4ccffb"
+    },
+    {
+      "slug": "chapter-88-floor-14",
+      "title": "Chapter 88: Floor 14",
+      "paragraphs": 130,
+      "ids": "616afc551544"
+    },
+    {
+      "slug": "chapter-89-floor-15",
+      "title": "Chapter 89: Floor 15",
+      "paragraphs": 30,
+      "ids": "82e1d962fa65"
+    },
+    {
+      "slug": "chapter-90-floor-16",
+      "title": "Chapter 90: Floor 16",
+      "paragraphs": 52,
+      "ids": "e7cd9cd0e0e3"
+    },
+    {
+      "slug": "chapter-91-floor-17",
+      "title": "Chapter 91: Floor 17",
+      "paragraphs": 59,
+      "ids": "84c938ed74e9"
+    },
+    {
+      "slug": "chapter-92-floor-18",
+      "title": "Chapter 92: Floor 18",
+      "paragraphs": 43,
+      "ids": "c422313c8742"
+    },
+    {
+      "slug": "chapter-93-floor-19",
+      "title": "Chapter 93: Floor 19",
+      "paragraphs": 19,
+      "ids": "c4b911bfb568"
+    },
+    {
+      "slug": "chapter-94-floor-20",
+      "title": "Chapter 94: Floor 20",
+      "paragraphs": 95,
+      "ids": "f3f9b0cc9170"
+    },
+    {
+      "slug": "chapter-95-floor-21",
+      "title": "Chapter 95: Floor 21",
+      "paragraphs": 81,
+      "ids": "8b46958ecd54"
+    },
+    {
+      "slug": "chapter-96-floor-22",
+      "title": "Chapter 96: Floor 22",
+      "paragraphs": 129,
+      "ids": "815d8eda7d77"
+    },
+    {
+      "slug": "chapter-97-floor-23",
+      "title": "Chapter 97: Floor 23",
+      "paragraphs": 419,
+      "ids": "074f008dcd82"
+    },
+    {
+      "slug": "part-10-response-and-recovery",
+      "title": "Part 10: Response and recovery",
+      "paragraphs": 7,
+      "ids": "197d9c8b1341"
+    },
+    {
+      "slug": "chapter-99-the-legislative-framework",
+      "title": "Chapter 99: The legislative framework",
+      "paragraphs": 31,
+      "ids": "532be3d905f9"
+    },
+    {
+      "slug": "chapter-100-personal-experiences",
+      "title": "Chapter 100: Personal experiences",
+      "paragraphs": 76,
+      "ids": "3c5bec1339c0"
+    },
+    {
+      "slug": "chapter-101-local-government",
+      "title": "Chapter 101: Local government",
+      "paragraphs": 80,
+      "ids": "b13d4ce45078"
+    },
+    {
+      "slug": "chapter-102-the-london-wide-response",
+      "title": "Chapter 102: The London-wide response",
+      "paragraphs": 68,
+      "ids": "f7b01179b073"
+    },
+    {
+      "slug": "chapter-103-the-governments-response",
+      "title": "Chapter 103: The government's response",
+      "paragraphs": 196,
+      "ids": "9ba999ac0035"
+    },
+    {
+      "slug": "chapter-104-the-response-of-rbkc",
+      "title": "Chapter 104: The response of RBKC",
+      "paragraphs": 126,
+      "ids": "4c9261361531"
+    },
+    {
+      "slug": "chapter-105-the-response-of-the-tenant-management-organisation",
+      "title": "Chapter 105: The response of the Tenant Management Organisation",
+      "paragraphs": 96,
+      "ids": "9ecf335cfece"
+    },
+    {
+      "slug": "chapter-106-voluntary-community-and-faith-sectors",
+      "title": "Chapter 106: Voluntary, community and faith sectors",
+      "paragraphs": 28,
+      "ids": "341ed5b51163"
+    },
+    {
+      "slug": "chapter-107-conclusions",
+      "title": "Chapter 107: Conclusions",
+      "paragraphs": 15,
+      "ids": "570519a36221"
+    },
+    {
+      "slug": "part-11-matters-outstanding-from-phase-1",
+      "title": "Part 11: Matters outstanding from Phase 1",
+      "paragraphs": 4,
+      "ids": "7e43d9834204"
+    },
+    {
+      "slug": "chapter-109-testing-the-materials",
+      "title": "Chapter 109: Testing the materials",
+      "paragraphs": 80,
+      "ids": "e864ed01fcb9"
+    },
+    {
+      "slug": "chapter-110-the-escape-of-fire-from-flat-16",
+      "title": "Chapter 110: The escape of fire from Flat 16",
+      "paragraphs": 7,
+      "ids": "d2bcd29d8308"
+    },
+    {
+      "slug": "part-12-the-fire-testing-regime",
+      "title": "Part 12: The fire testing regime",
+      "paragraphs": 72,
+      "ids": "b67859d117ff"
+    },
+    {
+      "slug": "part-13-international-responses",
+      "title": "Part 13: International responses",
+      "paragraphs": 42,
+      "ids": "686379f57b1a"
+    },
+    {
+      "slug": "part-14-recommendations",
+      "title": "Part 14: Recommendations",
+      "paragraphs": 96,
+      "ids": "9516c501c937"
     }
   ]
 }

@@ -165,34 +165,34 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2
   uk-covid-inquiry-module-2:
-    severed-into-quote: 72  # why: reportsthatmatter-jz19 (quotations split at a page turn; first ingest)
-    severed-paragraph: 6  # why: reportsthatmatter-jz19 (message figures and quotations over a page)
+    severed-into-quote: 135  # why: reportsthatmatter-jz19 (Vol I's 72, quotations split at a page turn; first ingest) + reportsthatmatter-nlv7 (Vol II's 63 after quoteInset(4, {volumes:[2]}); nshl)
+    severed-paragraph: 7  # why: reportsthatmatter-jz19 (message figures and quotations over a page) + reportsthatmatter-zbrr (Vol II, 1)
     bare-footnote-marker: 3  # why: reportsthatmatter-pxjq (Ch5 notes 371-374, p.257)
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 0
-    note-reference-sequence: 2  # why: reportsthatmatter-pxjq
-    note-text-in-body: 1  # why: reportsthatmatter-pxjq (Ch6 note 1, p.267)
+    note-definition-unreferenced: 3  # why: reportsthatmatter-zbrr (Vol II Ch11 notes 64-65, Ch13 note 59)
+    note-reference-sequence: 4  # why: reportsthatmatter-pxjq (2) + reportsthatmatter-zbrr (Vol II, 2)
+    note-text-in-body: 2  # why: reportsthatmatter-pxjq (Ch6 note 1, p.267) + reportsthatmatter-zbrr (Vol II 13.16, printed 196)
     note-citation-vocabulary: 0
     furniture-paragraph: 9  # why: reportsthatmatter-gqsy.14 (the same chart "Source: UK Health Security Agency …" line under nine figures, as printed)
-    contents-entry-without-heading: 124  # why: reportsthatmatter-nqc4 (the contents also lists Volume II and the figures, which are not headings in this volume)
+    contents-entry-without-heading: 109
     heading-density: 0
-    heading-repeated: 2  # why: reportsthatmatter-nqc4 ("Introduction" opens each chapter, as printed; the volume title in the front matter)
+    heading-repeated: 5  # why: reportsthatmatter-nqc4 ("Introduction" opens each chapter, as printed; the volume title in the front matter) + nshl ("Wales" as a sub-heading in three chapters, as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 0
-    printed-page-reversal: 0
+    heading-long: 2  # why: reportsthatmatter-nshl (Recommendation 16's title as printed, 102 characters, in Chapter 13 and Appendix 3)
+    printed-page-reversal: 1  # why: reportsthatmatter-nshl (the volume boundary: Volume I ends at p.439, Volume II's body starts again at 1)
     rendered-h1: 0
     chapter-intro-misfiled: 1  # why: reportsthatmatter-nqc4
     rendered-ol-words-share: 1
     numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 1
+    quote-share-parity: 2  # why: reportsthatmatter-nlv7 (19.0% of blocks on even pages, 20.1% on odd: a gap of 1.0 point)
   uk-grenfell-tower-inquiry:
-    severed-into-quote: 2
+    severed-into-quote: 37  # why: reportsthatmatter-bdc8 (Volumes 2-7, added gqsy.4.2: 35 list-item and page run-on ends read as quotations; Volume 1's 2 as before)
     severed-paragraph: 0
-    bare-footnote-marker: 0
+    bare-footnote-marker: 1  # why: reportsthatmatter-gqsy.4.2 ("No.10 Press Office", Vol 7: Number 10, not a note)
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
@@ -200,14 +200,14 @@ reports:
     note-reference-sequence: 0
     note-text-in-body: 0
     note-citation-vocabulary: 0
-    furniture-paragraph: 0
+    furniture-paragraph: 4  # why: reportsthatmatter-gqsy.4.2 (Vol 6 prints "Cause of death: Inhalation of asphyxiant gases." in the facts of several of those who died; real text)
     contents-entry-without-heading: 0
     heading-density: 1  # why: reportsthatmatter-gqsy.4 (real headings: 204 over 232 pages; every body heading is also a heading in the Inquiry's own HTML edition, which has 17 figure captions besides)
-    heading-repeated: 1  # why: reportsthatmatter-gqsy.4 ("Introduction" opens six chapters, as printed)
+    heading-repeated: 18  # why: reportsthatmatter-gqsy.4.2 ("Introduction" opens 31 chapters across the seven volumes; Vol 6 repeats its headings for each person, "Vulnerability", "Events of 14 June 2017", as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 3  # why: reportsthatmatter-gqsy.4 (real headings, as printed: "The development of the BS 8414 test series and the second edition of BR 135" and two more)
-    printed-page-reversal: 0
+    heading-long: 4  # why: reportsthatmatter-gqsy.4 (real headings, as printed: "The development of the BS 8414 test series and the second edition of BR 135" and two more)
+    printed-page-reversal: 6  # why: reportsthatmatter-gqsy.4.2 (each of the seven volumes numbers its pages from 1)
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 0
@@ -365,30 +365,30 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 0
   uk-thirlwall-inquiry:
-    severed-into-quote: 0
-    severed-paragraph: 0
-    bare-footnote-marker: 0
+    severed-into-quote: 29  # why: reportsthatmatter-gqsy.16.7 (Volumes I-III added: quotations of evidence and symbol notes at a page foot, c08x)
+    severed-paragraph: 11  # why: reportsthatmatter-gqsy.16.7 (symbol footnotes at a page foot cut the paragraph that runs over, c08x; table rows, 6gvy)
+    bare-footnote-marker: 9  # why: reportsthatmatter-gqsy.16.7 (symbol markers and numbers in the appendix tables, c08x and 6gvy)
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 0
-    note-reference-sequence: 0
-    note-text-in-body: 0
+    note-definition-unreferenced: 19  # why: reportsthatmatter-gqsy.16.7 (19 notes whose marker sits beside a symbol marker, c08x)
+    note-reference-sequence: 22  # why: reportsthatmatter-gqsy.16.7 (the same markers beside symbol markers, c08x)
+    note-text-in-body: 2  # why: reportsthatmatter-gqsy.16.7 (symbol footnotes served in the body, c08x)
     note-citation-vocabulary: 0
-    furniture-paragraph: 0
-    contents-entry-without-heading: 0
+    furniture-paragraph: 45  # why: reportsthatmatter-gqsy.16.7 (the four volumes title and imprint pages as printed)
+    contents-entry-without-heading: 8  # why: reportsthatmatter-gqsy.16.7 (the risk matrix and figure labels read as contents rows, 6gvy)
     heading-density: 1  # why: reportsthatmatter-gqsy.16 (the report sets 65 sub-headings in 70 pages, as its tag tree has them: 88 per 100 pages against 60)
-    heading-repeated: 0
-    heading-function-word: 1  # why: reportsthatmatter-gqsy.16 (an anonymised name as printed, "Baby A"; read as a heading ending in the article)
+    heading-repeated: 7  # why: reportsthatmatter-gqsy.16.7 (Endnotes after each chapter, Contents x4, Skin changes as printed)
+    heading-function-word: 5  # why: reportsthatmatter-gqsy.16.7 (anonymised names as printed, Baby A)
     heading-marker: 0
-    heading-long: 0
-    printed-page-reversal: 0
+    heading-long: 11  # why: reportsthatmatter-gqsy.16.7 (chapter titles as printed, up to 90 characters)
+    printed-page-reversal: 3  # why: reportsthatmatter-gqsy.16.7 (each volume numbers its pages from 1 again)
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 1
     numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 1  # why: reportsthatmatter-vsd2 (the 15 inset quotations are quote blocks now, where there were none: 2.2% of blocks on even pages and 2.2% on odd, a gap under a point, which the metric rounds up to 1)
+    quote-share-parity: 3  # why: reportsthatmatter-gqsy.16.7 (evidence quoted at length in Volumes I and II)
   us-911-commission:
     severed-into-quote: 0
     severed-paragraph: 0
@@ -433,6 +433,31 @@ reports:
     heading-marker: 0
     heading-long: 9
     printed-page-reversal: 0
+    rendered-h1: 0
+    chapter-intro-misfiled: 0
+    rendered-ol-words-share: 0
+    numbered-prose-list: 0
+    ids-per-1k-words: 0
+    quote-share-parity: 1
+  us-duelfer-report:
+    severed-into-quote: 0
+    severed-paragraph: 0
+    bare-footnote-marker: 1
+    bare-marker-after-quote: 0
+    note-marker-wrong-note: 0
+    note-marker-unpaired: 0
+    note-definition-unreferenced: 0
+    note-reference-sequence: 0
+    note-text-in-body: 1
+    note-citation-vocabulary: 0
+    furniture-paragraph: 0
+    contents-entry-without-heading: 0
+    heading-density: 1  # why: reportsthatmatter-ivg.4 (the HTML edition sets every subhead the chapters' own contents list, three levels deep: 442 headings over 451 pages, 98 per 100 against 60)
+    heading-repeated: 1  # why: reportsthatmatter-ivg.4 (each part of the Regime Finance and Procurement chapter opens on its own "Overview", as printed: 7)
+    heading-function-word: 0
+    heading-marker: 0
+    heading-long: 0
+    printed-page-reversal: 6  # why: reportsthatmatter-ivg.4 (the print numbers each part from 1: Acknowledgements, Transmittal Message, Scope Note and each chapter restart, so 1#2 follows 3, 12, 5 …, as printed)
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 0

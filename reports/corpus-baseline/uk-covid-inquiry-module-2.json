@@ -1,6 +1,6 @@
 {
-  "words": 188046,
-  "paragraphs": 2336,
+  "words": 320299,
+  "paragraphs": 3761,
   "sections": [
     {
       "slug": "volume-i-introduction-and-key-events-from",
@@ -353,8 +353,254 @@
     {
       "slug": "a-new-normal",
       "title": "A new normal",
+      "paragraphs": 10,
+      "ids": "daf91bd6f0d4"
+    },
+    {
+      "slug": "volume-ii-key-themes-lessons-and-recommendations",
+      "title": "Volume II: Key themes, lessons and recommendations",
+      "paragraphs": 3,
+      "ids": "051e2d09c7c8"
+    },
+    {
+      "slug": "volume-ii-key-themes-lessons-and-recommendations-2",
+      "title": "Volume II: Key themes, lessons and recommendations",
+      "paragraphs": 4,
+      "ids": "fcff2eea41d6"
+    },
+    {
+      "slug": "volume-ii-key-themes-lessons-and-recommendations-3",
+      "title": "Volume II: Key themes, lessons and recommendations",
+      "paragraphs": 5,
+      "ids": "a956bdea8c40"
+    },
+    {
+      "slug": "volume-ii-key-themes-lessons-and-recommendations-4",
+      "title": "Volume II: Key themes, lessons and recommendations",
+      "paragraphs": 1,
+      "ids": "32f381166753"
+    },
+    {
+      "slug": "volume-ii-key-themes-lessons-and-recommendations-5",
+      "title": "Volume II: Key themes, lessons and recommendations",
+      "paragraphs": 13,
+      "ids": "b9eb34b1aa65"
+    },
+    {
+      "slug": "chapter-9-scientific-and-technical-advice",
+      "title": "Chapter 9: Scientific and technical advice",
+      "paragraphs": 202,
+      "ids": "aa8248c46b93"
+    },
+    {
+      "slug": "economic-advice",
+      "title": "Economic advice",
+      "paragraphs": 23,
+      "ids": "4c54ba67374e"
+    },
+    {
+      "slug": "support-for-advisers",
+      "title": "Support for advisers",
+      "paragraphs": 28,
+      "ids": "453a8521971e"
+    },
+    {
+      "slug": "chapter-10-vulnerabilities-and-inequalities",
+      "title": "Chapter 10: Vulnerabilities and inequalities",
+      "paragraphs": 4,
+      "ids": "85165505f5e3"
+    },
+    {
+      "slug": "consideration-of-particularly-vulnerable-people",
+      "title": "Consideration of particularly vulnerable people",
+      "paragraphs": 81,
+      "ids": "26f7f35ce3f7"
+    },
+    {
+      "slug": "consideration-of-indirect-harms",
+      "title": "Consideration of indirect harms",
+      "paragraphs": 23,
+      "ids": "132d932c086c"
+    },
+    {
+      "slug": "impact-assessments-including-the-public-sector-equality-duty",
+      "title": "Impact assessments, including the public sector equality duty",
+      "paragraphs": 23,
+      "ids": "0e562b803433"
+    },
+    {
+      "slug": "identification-of-vulnerable-groups",
+      "title": "Identification of vulnerable groups",
+      "paragraphs": 28,
+      "ids": "1f6ea4511f5e"
+    },
+    {
+      "slug": "chapter-11-government-decision-making",
+      "title": "Chapter 11: Government decision-making",
+      "paragraphs": 119,
+      "ids": "6a292fa6dc85"
+    },
+    {
+      "slug": "a-framework-for-emergency-decision-making",
+      "title": "A framework for emergency decision-making",
+      "paragraphs": 65,
+      "ids": "3a8366020280"
+    },
+    {
+      "slug": "the-role-of-leaders",
+      "title": "The role of leaders",
+      "paragraphs": 85,
+      "ids": "2b3c6eb986d1"
+    },
+    {
+      "slug": "chapter-12-public-health-communications",
+      "title": "Chapter 12: Public health communications",
+      "paragraphs": 51,
+      "ids": "5b7a91d10ae3"
+    },
+    {
+      "slug": "complexity-and-change",
+      "title": "Complexity and change",
+      "paragraphs": 19,
+      "ids": "642836386e01"
+    },
+    {
+      "slug": "optimism-versus-caution",
+      "title": "Optimism versus caution",
+      "paragraphs": 19,
+      "ids": "ca756ef0e431"
+    },
+    {
+      "slug": "clarity-of-geographic-scope-in-messaging",
+      "title": "Clarity of geographic scope in messaging",
+      "paragraphs": 9,
+      "ids": "046187ec1585"
+    },
+    {
+      "slug": "delivering-the-message-press-conferences",
+      "title": "Delivering the message: Press conferences",
+      "paragraphs": 20,
+      "ids": "c7f8b1a3562e"
+    },
+    {
+      "slug": "accessibility",
+      "title": "Accessibility",
+      "paragraphs": 24,
+      "ids": "8efe7bc1dabc"
+    },
+    {
+      "slug": "chapter-13-legislation-and-enforcement",
+      "title": "Chapter 13: Legislation and enforcement",
+      "paragraphs": 17,
+      "ids": "2f900afedd0e"
+    },
+    {
+      "slug": "the-legislative-response-to-the-covid-19-pandemic",
+      "title": "The legislative response to the Covid-19 pandemic",
+      "paragraphs": 77,
+      "ids": "8326acb49af0"
+    },
+    {
+      "slug": "the-clarity-of-the-rules",
+      "title": "The clarity of the rules",
+      "paragraphs": 31,
+      "ids": "53fc7a052273"
+    },
+    {
+      "slug": "enforcing-the-law",
+      "title": "Enforcing the law",
+      "paragraphs": 38,
+      "ids": "556fbc00245d"
+    },
+    {
+      "slug": "chapter-14-intergovernmental-working",
+      "title": "Chapter 14: Intergovernmental working",
+      "paragraphs": 3,
+      "ids": "1e1df4e7ff9f"
+    },
+    {
+      "slug": "engagement-with-local-and-regional-authorities",
+      "title": "Engagement with local and regional authorities",
+      "paragraphs": 29,
+      "ids": "b802f5f518b8"
+    },
+    {
+      "slug": "intergovernmental-working-during-covid-19",
+      "title": "Intergovernmental working during Covid-19",
+      "paragraphs": 133,
+      "ids": "7ce2cf1bd07d"
+    },
+    {
+      "slug": "chapter-15-key-lessons-for-future-emergencies",
+      "title": "Chapter 15: Key lessons for future emergencies",
+      "paragraphs": 14,
+      "ids": "8db11b83c5e9"
+    },
+    {
+      "slug": "the-importance-of-an-unambiguous-strategy",
+      "title": "The importance of an unambiguous strategy",
       "paragraphs": 8,
-      "ids": "0376b3e9ce6c"
+      "ids": "3a4da816ccaf"
+    },
+    {
+      "slug": "the-importance-of-acting-quickly",
+      "title": "The importance of acting quickly",
+      "paragraphs": 6,
+      "ids": "705938628f52"
+    },
+    {
+      "slug": "the-importance-of-working-together",
+      "title": "The importance of working together",
+      "paragraphs": 6,
+      "ids": "04a799a242e2"
+    },
+    {
+      "slug": "the-importance-of-data",
+      "title": "The importance of data",
+      "paragraphs": 11,
+      "ids": "6ecd96ccc60a"
+    },
+    {
+      "slug": "appendix-1-the-background-to-this-module-and-the-inquirys-methodology-2",
+      "title": "Appendix 1: The background to this module and the Inquiry's methodology",
+      "paragraphs": 9,
+      "ids": "9b42236b977f"
+    },
+    {
+      "slug": "modules-2-2a-2b-and-2c",
+      "title": "Modules 2, 2A, 2B and 2C",
+      "paragraphs": 68,
+      "ids": "ed3653c577b4"
+    },
+    {
+      "slug": "terminology-and-references",
+      "title": "Terminology and references",
+      "paragraphs": 17,
+      "ids": "fe59d251eccb"
+    },
+    {
+      "slug": "appendix-2-glossary",
+      "title": "Appendix 2: Glossary",
+      "paragraphs": 52,
+      "ids": "171633a43516"
+    },
+    {
+      "slug": "niccma",
+      "title": "(NICCMA)",
+      "paragraphs": 28,
+      "ids": "77d8fcfcf085"
+    },
+    {
+      "slug": "appendix-3-list-of-recommendations",
+      "title": "Appendix 3: List of recommendations",
+      "paragraphs": 9,
+      "ids": "c394df5e522b"
+    },
+    {
+      "slug": "chapter-11-government-decision-making-2",
+      "title": "Chapter 11: Government decision-making",
+      "paragraphs": 18,
+      "ids": "9cb0bfc44468"
     }
   ]
 }

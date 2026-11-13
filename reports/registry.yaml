@@ -219,10 +219,10 @@ reports:
     news_day_only: true
 
   - id: uk-grenfell-tower-inquiry
-    title: "Grenfell Tower Inquiry: Phase 2 Report, Volume 1"
+    title: "Grenfell Tower Inquiry: Phase 2 Report"
     authors: "Sir Martin Moore-Bick (Chairman), Ali Akbor and Thouria Istephan"
     published_at: "4 September 2024"
-    common_name: "Grenfell Tower Inquiry Phase 2 Report, Volume 1"
+    common_name: "Grenfell Tower Inquiry Phase 2 Report"
     also_known_as: ["Grenfell Tower Inquiry report", "Grenfell report", "Report of the Public Inquiry into the Fire at Grenfell Tower on 14 June 2017"]
     issued_by: "Grenfell Tower Inquiry"
     date_published: "2024-09-04"
@@ -231,6 +231,7 @@ reports:
     source_path: reports/uk-grenfell-tower-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
     ingested: true
+    volumes: {count: 7, numerals: arabic}
     affected_community: true
     context_line: "Grenfell Tower Inquiry Phase 2, Volume 1 of 7. 72 people died."
 
@@ -259,14 +260,15 @@ reports:
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
     source_path: reports/us-mueller-report/full.md
     source_url: "https://www.justice.gov/storage/report_volume1.pdf"
+    volumes: {count: 2, numerals: roman}
     ingested: true
 
   - id: uk-covid-inquiry-module-2
-    title: "UK Covid-19 Inquiry, Modules 2, 2A, 2B, 2C: Core decision-making and political governance, Volume I"
+    title: "UK Covid-19 Inquiry, Modules 2, 2A, 2B, 2C: Core decision-making and political governance"
     authors: "The Rt Hon the Baroness Hallett DBE (Chair)"
     published_at: "20 November 2025"
-    common_name: "Covid Inquiry Module 2 Report, Volume I"
-    also_known_as: ["UK Covid-19 Inquiry Module 2 report", "Covid Inquiry report on core decision-making and political governance", "Hallett report on Covid decision-making", "HC 1436"]
+    common_name: "Covid Inquiry Module 2 Report"
+    also_known_as: ["UK Covid-19 Inquiry Module 2 report", "Covid Inquiry report on core decision-making and political governance", "Hallett report on Covid decision-making", "Covid Inquiry Module 2 Report, Volumes I and II", "HC 1436"]
     issued_by: "UK Covid-19 Inquiry"
     date_published: "2025-11-20"
     repo: uk-covid-inquiry-module-2
@@ -274,6 +276,7 @@ reports:
     source_path: reports/uk-covid-inquiry-module-2/full.md
     source_url: "https://covid19.public-inquiry.uk/wp-content/uploads/2026/02/12093057/M2-Volume-1-with-post-publication-amends-Feb-2026.pdf"
     ingested: true
+    volumes: {count: 2, numerals: roman}
     affected_community: true
     context_line: "UK Covid-19 Inquiry (2025): the four UK governments' decisions, 2020 to 2022."
   - id: uk-southport-inquiry
@@ -306,20 +309,20 @@ reports:
     ingested: true
 
   - id: uk-thirlwall-inquiry
-    title: "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018: Summary report"
+    title: "Report of the Public Inquiry into events at the Countess of Chester Hospital, 2015 to 2018"
     authors: "The Rt Hon. Lady Justice Thirlwall DBE (Chair)"
     published_at: "15 September 2026"
     common_name: "Thirlwall Inquiry"
-    also_known_as: ["Thirlwall Inquiry report", "Thirlwall Inquiry summary report", "Countess of Chester Hospital Inquiry report", "Lucy Letby inquiry report", "HC 601"]
+    also_known_as: ["Thirlwall Inquiry report", "Thirlwall Inquiry summary report", "Countess of Chester Hospital Inquiry report", "Lucy Letby inquiry report", "HC 601", "HC 597"]
     issued_by: "Thirlwall Inquiry"
     date_published: "2026-09-15"
     repo: uk-thirlwall-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-thirlwall-inquiry/full.md
-    source_url: "https://thirlwall.public-inquiry.uk/wp-content/uploads/2026/09/Thirlwall-Inquiry_Summary-Report_Accessible.pdf"
+    source_url: "https://thirlwall.public-inquiry.uk/the-report/"
     ingested: true
     affected_community: true
-    context_line: "Thirlwall Inquiry summary report (2026): events at the Countess of Chester Hospital, 2015 to 2018."
+    context_line: "Thirlwall Inquiry report (2026), summary and three volumes: events at the Countess of Chester Hospital, 2015 to 2018."
 
   - id: uk-stern-review
     title: "Stern Review: The Economics of Climate Change"
@@ -333,4 +336,18 @@ reports:
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
     source_path: reports/uk-stern-review/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
+    ingested: true
+
+  - id: us-duelfer-report
+    title: "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD, Volume I"
+    authors: "Charles Duelfer, Special Advisor to the Director of Central Intelligence"
+    published_at: "30 September 2004"
+    common_name: "Duelfer Report"
+    also_known_as: ["Iraq Survey Group Final Report", "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD", "ISG Report"]
+    issued_by: "Iraq Survey Group (Special Advisor to the Director of Central Intelligence)"
+    date_published: "2004-09-30"
+    repo: us-duelfer-report
+    license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    source_path: reports/us-duelfer-report/full.md
+    source_url: "https://www.govinfo.gov/content/pkg/GPO-DUELFERREPORT/pdf/GPO-DUELFERREPORT-1.pdf"
     ingested: true

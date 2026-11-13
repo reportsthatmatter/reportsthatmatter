@@ -1378,11 +1378,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-covid-inquiry-module-2": {
     "status": "approved",
-    "whyItMatters": "The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett, on how the UK government and the governments of Scotland, Wales and Northern Ireland made their decisions from the first reports of the virus in January 2020 to the end of restrictions in May 2022. This first volume holds the Inquiry's summary, its key themes and its account, month by month, of the lockdowns and what led to them.",
-    "description": "The UK Covid-19 Inquiry's second report, on how the four UK governments made their decisions from January 2020 to May 2022. Volume I: its summary, key themes and month-by-month account.",
+    "whyItMatters": "The second report of the UK Covid-19 Inquiry, chaired by Baroness Hallett, on how the UK government and the governments of Scotland, Wales and Northern Ireland made their decisions from January 2020 to the end of restrictions in May 2022. Volume I holds the Inquiry's summary and its account, month by month, of the lockdowns and what led to them; Volume II its analysis by theme, its lessons for future emergencies and its 19 recommendations.",
+    "description": "The UK Covid-19 Inquiry's second report, on how the four UK governments made their decisions from January 2020 to May 2022: its findings, its account of events and its 19 recommendations.",
     "background": [
       "Covid-19 reached the UK in early 2020. Over the next two and a half years the four governments of the UK closed schools and businesses, and ordered people to stay at home; England had three national lockdowns. The last restrictions in the UK ended on 30 May 2022. The Chair's introduction records that Covid-19 is mentioned on the death certificates of more than 230,000 people in the UK.",
-      "The UK Covid-19 Inquiry was established in June 2022 under the Inquiries Act 2005, chaired by Baroness Hallett. It works through ten modules. Its first report, on the UK's resilience and preparedness (Module 1), was published on 18 July 2024 and found the UK ill prepared. This second report covers core political and administrative decision-making: Module 2 for the UK government, and Modules 2A, 2B and 2C for Scotland, Wales and Northern Ireland. The Inquiry gathered more than 2 million potentially relevant documents and heard 166 witnesses over 69 days, in 2023 and 2024. The report was published on 20 November 2025. Its Volume II, with the lessons and the full list of recommendations (19 key recommendations, in the Inquiry's words), is not yet on this site.",
+      "The UK Covid-19 Inquiry was established in June 2022 under the Inquiries Act 2005, chaired by Baroness Hallett. It works through ten modules. Its first report, on the UK's resilience and preparedness (Module 1), was published on 18 July 2024 and found the UK ill prepared. This second report covers core political and administrative decision-making: Module 2 for the UK government, and Modules 2A, 2B and 2C for Scotland, Wales and Northern Ireland. The Inquiry gathered more than 2 million potentially relevant documents and heard 166 witnesses over 69 days, in 2023 and 2024. The report was published on 20 November 2025 in two volumes: the first holds the Chair's introduction, the executive summary and the account of events; the second the Inquiry's analysis by theme (scientific advice, vulnerable groups, decision-making, communications, the law and relations between the four nations), its lessons for future emergencies and the full text of its 19 recommendations.",
       "A public inquiry establishes facts and makes recommendations; it does not decide civil or criminal liability. The Chair writes that politicians \"were faced with unenviable choices\" and that she has asked whether their decisions were reasonable in light of what was known, or ought to have been known, at the time. Where witnesses disagreed with the Inquiry's view, the report sets out their evidence, including Boris Johnson's view that earlier restrictions were unlikely to have avoided the first lockdown. In March 2026 the UK government published its response, saying it broadly agrees with the recommendations and setting out actions on each."
     ],
     "findings": [
@@ -1438,7 +1438,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "The Inquiry accepts the consensus of the evidence that the first mandatory lockdown should have been imposed a week earlier, and reports modelling that doing so would have meant about 23,000 fewer deaths in England in the first wave. It rejects the criticism that the governments were wrong in principle to impose a lockdown.",
+        "text": "The Inquiry accepts the consensus of the evidence that the first mandatory lockdown should have been imposed a week earlier, and reports modelling that doing so would have meant about 23,000 fewer deaths in England in the first wave. It rejects the criticism that the governments were wrong in principle to impose a lockdown, and finds that none of the four governments had planned for a lockdown or for how to leave one.",
         "cites": [
           {
             "id": "inquiry-recognises-lockdown-decision-difficult",
@@ -1451,9 +1451,14 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-covid-inquiry-module-2?p=however-inquiry-rejects-criticism-four"
           },
           {
-            "id": "4-227-however-inquiry-rejects",
-            "page": 213,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-227-however-inquiry-rejects"
+            "id": "4-167-decision-impose-uk-wide",
+            "page": 200,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-167-decision-impose-uk-wide"
+          },
+          {
+            "id": "4-180-absence-planning-further",
+            "page": 202,
+            "href": "/reports/uk-covid-inquiry-module-2?p=4-180-absence-planning-further"
           }
         ],
         "excerpt": {
@@ -1464,26 +1469,6 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-covid-inquiry-module-2?p=however-inquiry-rejects-criticism-four&h=|However%2C%20the%20Inquiry%20rejects%20the%20criticism%20that%20the%20four%20governments%20were%20wrong%2C%20in%20principle%2C%20to%20impose%20a%20lockdown.%20In%20%E2%8B%AFin%20the%20absence%20of%20a%20mandatory%20lockdown%2C%20likely%20lead%20to%20loss%20of%20life%20on%20a%20scale%20that%20was%20unconscionable%20and%20unacceptable.|%20No%20government%2C%20acting%20in"
           }
         }
-      },
-      {
-        "text": "The report finds that none of the four governments had planned for a lockdown or for how to leave one, and that the initial plan, based in part on the 2011 strategy for pandemic influenza, aimed only to slow the spread of the virus.",
-        "cites": [
-          {
-            "id": "4-167-decision-impose-uk-wide",
-            "page": 200,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-167-decision-impose-uk-wide"
-          },
-          {
-            "id": "4-168-initial-plan-respond",
-            "page": 200,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-168-initial-plan-respond"
-          },
-          {
-            "id": "4-180-absence-planning-further",
-            "page": 202,
-            "href": "/reports/uk-covid-inquiry-module-2?p=4-180-absence-planning-further"
-          }
-        ]
       },
       {
         "text": "The report finds that the UK government, the Welsh Government and the Northern Ireland Executive failed to learn from the first lockdown in the autumn of 2020. It concludes that Mr Johnson should have ordered a circuit breaker lockdown in late September or early October 2020, describes decision-making in Northern Ireland as \"chaotic\", and finds that Scotland's stringent local measures avoided a second national lockdown that autumn.",
@@ -1553,15 +1538,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "page": 12,
             "href": "/reports/uk-covid-inquiry-module-2?p=ministers-relied-secondary-legislation-implement"
           }
-        ],
-        "excerpt": {
-          "quote": "Ministers relied on secondary legislation to implement many of the most far-reaching restrictions in modern UK history, with little or no parliamentary oversight.",
-          "cite": {
-            "id": "ministers-relied-secondary-legislation-implement",
-            "page": 12,
-            "href": "/reports/uk-covid-inquiry-module-2?p=ministers-relied-secondary-legislation-implement&h=|Ministers%20relied%20on%20secondary%20legislation%20to%20implement%20many%20of%20the%20most%20far-reaching%20restrictions%20in%20modern%20UK%20history%2C%20with%20little%20or%20no%20parliamentary%20oversight.|%20Across%20all%20four%20nations%2C"
-          }
-        }
+        ]
       },
       {
         "text": "The report finds that the impact of the pandemic was not shared equally, that older people, disabled people and some ethnic minority groups faced a higher risk of dying, and that the harm restrictions would do to vulnerable groups, including children, was foreseeable but had not been adequately considered.",
@@ -1582,6 +1559,39 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-covid-inquiry-module-2?p=despite-harm-being-foreseeable-impact"
           }
         ]
+      },
+      {
+        "text": "The report makes 19 recommendations, each set out in the chapter that explains it and together in Appendix 3. Among them, that each government agree a framework identifying the people most at risk from a disease and from the measures taken against it; that future pandemic strategies set out how decision-making will work, starting from COBR, the UK government's emergency committee; that emergency powers be made by the draft affirmative procedure as standard, with safeguards such as sunset clauses; and that a four-nations structure attended by all heads of government meet regularly during a pandemic.",
+        "cites": [
+          {
+            "id": "uk-government-scottish-government-welsh",
+            "page": 96,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-scottish-government-welsh"
+          },
+          {
+            "id": "uk-government-devolved-administrations-should",
+            "page": 121,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-devolved-administrations-should"
+          },
+          {
+            "id": "uk-government-devolved-administrations-should-4",
+            "page": 207,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-devolved-administrations-should-4"
+          },
+          {
+            "id": "while-intergovernmental-relations-should-be",
+            "page": 260,
+            "href": "/reports/uk-covid-inquiry-module-2?p=while-intergovernmental-relations-should-be"
+          }
+        ],
+        "excerpt": {
+          "quote": "The UK government and devolved administrations should ensure that the draft affirmative procedure is the standard process for enacting substantial and wide-ranging powers in a civil emergency, such as a pandemic, under primary public health legislation. Any departure from this procedure should be the exception, with clear criteria and safeguards in place to prevent the bypassing of parliamentary scrutiny.",
+          "cite": {
+            "id": "uk-government-devolved-administrations-should-4",
+            "page": 207,
+            "href": "/reports/uk-covid-inquiry-module-2?p=uk-government-devolved-administrations-should-4&h=|The%20UK%20government%20and%20devolved%20administrations%20should%20ensure%20that%20the%20draft%20affirmative%20procedure%20is%20the%20standard%20proces%E2%8B%AFshould%20be%20the%20exception%2C%20with%20clear%20criteria%20and%20safeguards%20in%20place%20to%20prevent%20the%20bypassing%20of%20parliamentary%20scrutiny.|%20These%20safeguards%20should"
+          }
+        }
       }
     ],
     "readingGuide": [
@@ -1626,24 +1636,32 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "a-second-lockdown-in-england",
-        "title": "A second lockdown in England",
-        "page": "319",
-        "why": "The autumn of 2020 in England, the advice for a circuit breaker, and the evidence of those who disagreed with it.",
+        "slug": "chapter-15-key-lessons-for-future-emergencies",
+        "title": "Chapter 15: Key lessons for future emergencies",
+        "page": "261",
+        "why": "Volume II's closing chapter, the lessons the Inquiry draws for the next pandemic or civil emergency, on planning, strategy, acting quickly, working together and data.",
         "excerpt": {
-          "quote": "The Inquiry accepts that a second lockdown was to be avoided at all costs. Unfortunately, the failure to take timely action had made one inevitable.",
+          "quote": "No plan entirely survives contact with reality, but the more scenarios that are considered and the more responses tested, the greater the likelihood that those making difficult – even impossible – choices will be better placed to react quickly and decisively.",
           "cite": {
-            "id": "6-236-inquiry-accepts-second",
-            "page": 329,
-            "href": "/reports/uk-covid-inquiry-module-2?p=6-236-inquiry-accepts-second&h=6.236.%20|The%20Inquiry%20accepts%20that%20a%20second%20lockdown%20was%20to%20be%20avoided%20at%20all%20costs.%20Unfortunately%2C%20the%20failure%20to%20take%20timely%20action%20had%20made%20one%20inevitable.|%20Once%20the%20second%20lockdown"
+            "id": "15-6-no-plan-entirely",
+            "page": 263,
+            "href": "/reports/uk-covid-inquiry-module-2?p=15-6-no-plan-entirely&h=15.6.%20|No%20plan%20entirely%20survives%20contact%20with%20reality%2C%20but%20the%20more%20scenarios%20that%20are%20considered%20and%20the%20more%20responses%20tested%2C%20the%20greater%20the%20likelihood%20that%20those%20making%20difficult%20%E2%80%93%20even%20impossible%20%E2%80%93%20choices%20will%20be%20better%20placed%20to%20react%20quickly%20and%20decisively.|"
           }
         }
       },
       {
-        "slug": "a-new-normal",
-        "title": "A new normal",
-        "page": "438",
-        "why": "The Inquiry's conclusions on the vaccine period, the Omicron wave and the end of restrictions in 2022."
+        "slug": "appendix-3-list-of-recommendations",
+        "title": "Appendix 3: List of recommendations",
+        "page": "314",
+        "why": "The 19 recommendations in full, in the order of the chapters that explain them; the list runs over two pages (Recommendations 9 to 19 on the second). Each also appears in its chapter, where the Inquiry gives its reasons.",
+        "excerpt": {
+          "quote": "During a whole-system civil emergency, the UK government and devolved administrations should each routinely publish technical advice on scientific, economic and social matters at the earliest opportunity, as well as the minutes of expert advisory groups – except where there are good reasons that prevent publication, such as commercial confidentiality, personal safety or national security, or because legal advice privilege applies.",
+          "cite": {
+            "id": "during-whole-system-civil-emergency-uk-2",
+            "page": 315,
+            "href": "/reports/uk-covid-inquiry-module-2?p=during-whole-system-civil-emergency-uk-2&h=|During%20a%20whole-system%20civil%20emergency%2C%20the%20UK%20government%20and%20devolved%20administrations%20should%20each%20routinely%20publish%20tech%E2%8B%AFon%2C%20such%20as%20commercial%20confidentiality%2C%20personal%20safety%20or%20national%20security%2C%20or%20because%20legal%20advice%20privilege%20applies.|"
+          }
+        }
       }
     ],
     "hero": {
@@ -1662,11 +1680,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-grenfell-tower-inquiry": {
     "status": "approved",
-    "whyItMatters": "The report of the public inquiry into the fire at Grenfell Tower in west London on 14 June 2017, in which 72 people died. This first of its seven volumes holds the Panel's introduction, its own summary of the whole report, and its account of how central government and the Building Research Establishment dealt with the risks of combustible cladding in the decades before the fire.",
+    "whyItMatters": "The report of the public inquiry into the fire at Grenfell Tower, London, on 14 June 2017, in which 72 people died. Across seven volumes the Panel sets out how the tower came to be clad in materials that let the fire spread, from government and the testing bodies to the firms that made, sold and fitted them. It also covers how the fire brigade and the authorities responded, the circumstances in which each person died, and the Panel's recommendations.",
     "background": [
       "In the early hours of 14 June 2017 a fire broke out in the kitchen of a flat in Grenfell Tower, a high-rise residential block in west London managed for the Royal Borough of Kensington and Chelsea (RBKC) by a tenant management organisation (the TMO). The tower had been refurbished between 2012 and 2016, when new cladding and insulation were fixed to its outside walls. The fire escaped from the flat into the external wall and spread rapidly up the outside of the building, and within a few hours it had engulfed almost all of it. 72 people died, 18 of them children.",
-      "The Grenfell Tower Inquiry was set up in June 2017 under the Inquiries Act 2005, chaired by Sir Martin Moore-Bick. Its Phase 1 report, published on 30 October 2019, set out what happened on the night. Phase 2 asked how the building came to be in a condition that allowed the fire to spread as it did. Its hearings began in January 2020 and ran to 312 days, and before reporting the Panel wrote to 247 individuals and organisations it was minded to criticise. The Phase 2 report was published on 4 September 2024 in seven volumes. A public inquiry may not rule on civil or criminal liability, and the Panel says it has not attempted, with some exceptions, to apportion blame.",
-      "The report notes that the government had already banned metal composite panels with unmodified polyethylene cores on the external walls of buildings of any height and reformed building control while the Inquiry was sitting. On 26 February 2025 the government published its response: 49 of the report's 58 recommendations were accepted in full, by the government and the other organisations responsible, and the other 9, all directed at government, in principle. The government said it fully supports the Metropolitan Police in its investigation. The recommendations are in Volume 7, which is not yet on this site."
+      "The Grenfell Tower Inquiry was set up in June 2017 under the Inquiries Act 2005, chaired by Sir Martin Moore-Bick, who sat for Phase 2 with two panel members, Ali Akbor and Thouria Istephan. Its Phase 1 report, published on 30 October 2019, set out what happened on the night. Phase 2 asked how the building came to be in a condition that allowed the fire to spread as it did. Its hearings began in January 2020 and ran to 312 days. The Phase 2 report was published on 4 September 2024 in seven volumes. A public inquiry may not rule on civil or criminal liability, and the Panel says it has not attempted, with some exceptions, to apportion blame.",
+      "While the Inquiry sat, the report notes, the government banned metal composite panels with unmodified polyethylene cores on external walls and reformed building control. On 26 February 2025 the government published its response: 49 of the report's 58 recommendations were accepted in full, by the government and the other organisations responsible, and the other 9, all directed at government, in principle. The government said it fully supports the Metropolitan Police in its investigation."
     ],
     "findings": [
       {
@@ -1678,9 +1696,9 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-grenfell-tower-inquiry?p=2-4-we-conclude-fire"
           },
           {
-            "id": "3-1-one-primary-purposes",
-            "page": 35,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=3-1-one-primary-purposes"
+            "id": "29-3-our-view-between",
+            "page": 213,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=29-3-our-view-between"
           }
         ],
         "excerpt": {
@@ -1693,7 +1711,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "The report finds that the government department responsible for building regulations was warned about combustible cladding and insulation from 1999 onwards, by a Commons select committee, the coroner at the Lakanal House inquests and an all-party parliamentary group among others, and did not amend or clarify its guidance. The results of a 2001 large-scale test in which aluminium composite panels with polyethylene cores burned violently were never published.",
+        "text": "The report finds that the government department responsible for building regulations was warned about combustible cladding and insulation from 1999 onwards and did not amend or clarify its guidance, never published the results of a 2001 test in which aluminium composite panels with polyethylene cores burned violently, and, after the Lakanal House fire in south London in 2009, in which six people died, let a deregulatory agenda delay matters affecting the safety of life.",
         "cites": [
           {
             "id": "2-5-years-between-fire",
@@ -1706,42 +1724,19 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-grenfell-tower-inquiry?p=2-6-department-also-failed"
           },
           {
-            "id": "2-9-between-2012-2017",
+            "id": "2-7-many-subsequent-occasions",
             "page": 10,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=2-9-between-2012-2017"
-          },
-          {
-            "id": "2-12-department-displayed-complacent",
-            "page": 10,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=2-12-department-displayed-complacent"
-          }
-        ],
-        "excerpt": {
-          "quote": "The department also failed to pay due regard to the striking results of a large-scale test in 2001 involving aluminium composite panels with unmodified polyethylene cores, which burned violently, or to take any steps either to ascertain the extent to which panels of that kind were in use or to warn the construction industry about the risks they posed. It failed even to publish the results of the test.",
-          "cite": {
-            "id": "2-6-department-also-failed",
-            "page": 10,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=2-6-department-also-failed&h=2.6%20|The%20department%20also%20failed%20to%20pay%20due%20regard%20to%20the%20striking%20results%20of%20a%20large-scale%20test%20in%202001%20involving%20aluminium%20c%E2%8B%AF%20use%20or%20to%20warn%20the%20construction%20industry%20about%20the%20risks%20they%20posed.%20It%20failed%20even%20to%20publish%20the%20results%20of%20the%20test.|"
-          }
-        }
-      },
-      {
-        "text": "The Panel finds that the department's deregulatory agenda after the Lakanal House fire in 2009 led it to ignore or delay matters affecting the safety of life, and that a single relatively junior official was left in charge of the guidance without adequate oversight.",
-        "cites": [
-          {
-            "id": "2-10-department-itself-poorly",
-            "page": 10,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=2-10-department-itself-poorly"
-          },
-          {
-            "id": "2-12-department-displayed-complacent",
-            "page": 10,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=2-12-department-displayed-complacent"
+            "href": "/reports/uk-grenfell-tower-inquiry?p=2-7-many-subsequent-occasions"
           },
           {
             "id": "2-13-years-followed-lakanal",
             "page": 11,
             "href": "/reports/uk-grenfell-tower-inquiry?p=2-13-years-followed-lakanal"
+          },
+          {
+            "id": "29-4-period-between-fire",
+            "page": 213,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=29-4-period-between-fire"
           }
         ]
       },
@@ -1766,7 +1761,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         ]
       },
       {
-        "text": "The Panel finds systematic dishonesty by the companies that made and sold the cladding panels and insulation used on the tower, Arconic, Celotex and Kingspan, and that the bodies that certified their products failed to check what they were told. The detail is in Part 3 (Volume 2).",
+        "text": "The Panel finds systematic dishonesty by the companies that made and sold the cladding panels and insulation used on the tower, Arconic, Celotex and Kingspan, and that the bodies that certified their products failed to check what they were told. The detail is in Part 3.",
         "cites": [
           {
             "id": "2-19-one-very-significant",
@@ -1809,12 +1804,17 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "The report finds that the choice of combustible materials for the refurbishment resulted from a series of errors by the organisations and individuals involved, each of whom assumed that someone else was responsible for fire safety; and that RBKC and the TMO showed a persistent indifference to fire safety in the years before the fire. The detail is in Parts 4 to 6 (Volumes 3 and 4).",
+        "text": "The report finds that the choice of combustible materials for the refurbishment resulted from a series of errors by the organisations and individuals involved, each of whom assumed that someone else was responsible for fire safety; and that RBKC and the TMO showed a persistent indifference to fire safety in the years before the fire. The detail is in Parts 4 to 6.",
         "cites": [
           {
             "id": "2-74-choice-combustible-materials",
             "page": 20,
             "href": "/reports/uk-grenfell-tower-inquiry?p=2-74-choice-combustible-materials"
+          },
+          {
+            "id": "67-13-if-construction-industry",
+            "page": 321,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=67-13-if-construction-industry"
           },
           {
             "id": "2-58-rbkc-tmo-jointly",
@@ -1832,12 +1832,45 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "The report finds that in the first week after the fire the response of the government and RBKC was slow and piecemeal, and that the local community and voluntary organisations provided support when the authorities did not.",
+        "text": "The report finds that the London Fire Brigade (LFB) had been forewarned by the Lakanal House fire of the shortcomings that appeared again on the night of the Grenfell Tower fire and had not put them right, and attributes that to its leadership and a culture of complacency; it echoes the Phase 1 finding that the firefighters on the night showed great courage.",
+        "cites": [
+          {
+            "id": "83-3-lfb-s-failure",
+            "page": 207,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=83-3-lfb-s-failure"
+          },
+          {
+            "id": "83-13-tragic-conclusion-lakanal",
+            "page": 210,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=83-13-tragic-conclusion-lakanal"
+          },
+          {
+            "id": "83-1-phase-1-report",
+            "page": 207,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=83-1-phase-1-report"
+          }
+        ],
+        "excerpt": {
+          "quote": "The evidence clearly shows that the LFB's failure was attributable to a chronic lack of effective leadership, combined with an undue emphasis on process and a culture of complacency.",
+          "cite": {
+            "id": "83-3-lfb-s-failure",
+            "page": 207,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=83-3-lfb-s-failure&h=our%20view%2C%20account%20for%20it.%20|The%20evidence%20clearly%20shows%20that%20the%20LFB's%20failure%20was%20attributable%20to%20a%20chronic%20lack%20of%20effective%20leadership%2C%20combined%20with%20an%20undue%20emphasis%20on%20process%20and%20a%20culture%20of%20complacency.|%20Senior%20officers%20appear"
+          }
+        }
+      },
+      {
+        "text": "The report finds that in the first week after the fire the response of the government and RBKC was slow and piecemeal, that many of those who had lost their homes or family members were left feeling abandoned, and that the local community and voluntary organisations provided support when the authorities did not.",
         "cites": [
           {
             "id": "2-103-first-week-after",
             "page": 28,
             "href": "/reports/uk-grenfell-tower-inquiry?p=2-103-first-week-after"
+          },
+          {
+            "id": "107-1-no-response-emergency",
+            "page": 171,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=107-1-no-response-emergency"
           },
           {
             "id": "2-114-those-who-emerge",
@@ -1867,7 +1900,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "chapter-2-executive-summary",
         "title": "Chapter 2: Executive summary",
         "page": "9",
-        "why": "The Panel's own summary of all fourteen Parts of the report, from the regulatory regime to the response after the fire; the place to start.",
+        "why": "The Panel's own summary of all fourteen Parts of the report, from the regulatory regime to the response after the fire; the place to start (Volume 1).",
         "excerpt": {
           "quote": "The purpose of this chapter is to describe in broad terms the contents of the report and the main conclusions we have reached about the events that culminated in the tragedy at Grenfell Tower.",
           "cite": {
@@ -1878,58 +1911,66 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "slug": "part-1-introduction",
-        "title": "Part 1: Introduction",
-        "page": "1",
-        "why": "How Phase 2 was run, what the Inquiry could and could not decide, and the Panel's response to calls to examine race and social background.",
+        "slug": "chapter-67-conclusions",
+        "title": "Chapter 67: Conclusions",
+        "page": "319",
+        "why": "The Panel's conclusions on the refurbishment of 2012 to 2016 and the firms that designed and carried it out (Volume 4).",
         "excerpt": {
-          "quote": "It is not possible to identify any single cause of the tragedy; many different acts and omissions combined to bring about the Grenfell Tower fire, although some were more significant than others.",
+          "quote": "Regrettably, the Grenfell Tower refurbishment was marked by a serious lack of competence on the part of many of those engaged on it and, in the case of some manufacturers of construction products, outright dishonesty.",
           "cite": {
-            "id": "1-16-not-possible-identify",
-            "page": 5,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=1-16-not-possible-identify&h=1.16%20|It%20is%20not%20possible%20to%20identify%20any%20single%20cause%20of%20the%20tragedy%3B%20many%20different%20acts%20and%20omissions%20combined%20to%20bring%20about%20the%20Grenfell%20Tower%20fire%2C%20although%20some%20were%20more%20significant%20than%20others.|%20With%20some%20exceptions%20we"
+            "id": "67-13-if-construction-industry",
+            "page": 321,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=67-13-if-construction-industry&h=skill%20and%20care%20in%20doing%20so.%20|Regrettably%2C%20the%20Grenfell%20Tower%20refurbishment%20was%20marked%20by%20a%20serious%20lack%20of%20competence%20on%20the%20part%20of%20many%20of%20those%20engaged%20on%20it%20and%2C%20in%20the%20case%20of%20some%20manufacturers%20of%20construction%20products%2C%20outright%20dishonesty.|"
           }
         }
       },
       {
-        "slug": "chapter-7-the-government-and-the-building-research-establishment",
-        "title": "Chapter 7: The government and the Building Research Establishment",
-        "page": "81",
-        "why": "The department and BRE from the 1990s on, including the 2001 large-scale test of aluminium composite panels whose results were never published.",
+        "slug": "chapter-83-conclusions",
+        "title": "Chapter 83: Conclusions",
+        "page": "207",
+        "why": "The Panel's conclusions on the London Fire Brigade, its leadership, and what it did with the lessons of the Lakanal House fire (Volume 5)."
+      },
+      {
+        "slug": "part-9-the-deceased",
+        "title": "Part 9: The deceased",
+        "page": "5",
+        "why": "The Panel's findings, floor by floor, on the circumstances in which each person who died lost their life, made to assist the coroner; its introduction explains what is recorded and why (Volume 6).",
         "excerpt": {
-          "quote": "No one was able to explain why the results of the tests had never been made public, even in the wake of the fire at Grenfell Tower, when they would have been highly relevant to the department's investigations into the fire performance of similar products. We think that the explanation lies in the fact that having once been shelved they had subsequently been entirely forgotten.",
+          "quote": "It is of the utmost importance that our description of the circumstances in which people died are placed in the larger context of their lives and the pictures of them painted at the memorial hearings. Only in that way can they be remembered as the people they really were.",
           "cite": {
-            "id": "7-94-no-one-able",
-            "page": 107,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=7-94-no-one-able&h=7.94%20|No%20one%20was%20able%20to%20explain%20why%20the%20results%20of%20the%20tests%20had%20never%20been%20made%20public%2C%20even%20in%20the%20wake%20of%20the%20fire%20at%20Gren%E2%8B%AFthink%20that%20the%20explanation%20lies%20in%20the%20fact%20that%20having%20once%20been%20shelved%20they%20had%20subsequently%20been%20entirely%20forgotten.|"
+            "id": "84-10-inquiry-opened-may",
+            "page": 9,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=84-10-inquiry-opened-may&h=lost%20their%20lives%20that%20night.%20|It%20is%20of%20the%20utmost%20importance%20that%20our%20description%20of%20the%20circumstances%20in%20which%20people%20died%20are%20placed%20in%20the%20larger%20context%20of%20their%20lives%20and%20the%20pictures%20of%20them%20painted%20at%20the%20memorial%20hearings.%20Only%20in%20that%20way%20can%20they%20be%20remembered%20as%20the%20people%20they%20really%20were.|"
           }
         }
       },
       {
-        "slug": "chapter-9-the-governments-response-to-the-lakanal-house-fire",
-        "title": "Chapter 9: The government's response to the Lakanal House fire",
-        "page": "131",
-        "why": "The fire at Lakanal House in 2009, the inquests that followed, and what the department did with the coroner's recommendations.",
+        "slug": "chapter-107-conclusions",
+        "title": "Chapter 107: Conclusions",
+        "page": "171",
+        "why": "The Panel's conclusions on how RBKC, the TMO, London and the government responded in the days after the fire, and on the local community that filled the gap (Volume 7).",
         "excerpt": {
-          "quote": "In our view the department's response to the Lakanal House fire was inadequate.",
+          "quote": "No response to an emergency can be considered effective if it leaves those whom it is supposed to serve feeling abandoned and bereft.",
           "cite": {
-            "id": "9-44-our-view-department",
-            "page": 143,
-            "href": "/reports/uk-grenfell-tower-inquiry?p=9-44-our-view-department&h=9.44%20|In%20our%20view%20the%20department's%20response%20to%20the%20Lakanal%20House%20fire%20was%20inadequate.|%20The%20BRE's%20investigation"
+            "id": "107-1-no-response-emergency",
+            "page": 171,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=107-1-no-response-emergency&h=107.1%20|No%20response%20to%20an%20emergency%20can%20be%20considered%20effective%20if%20it%20leaves%20those%20whom%20it%20is%20supposed%20to%20serve%20feeling%20abandoned%20and%20bereft.|%20Yet%20that%20was%20the"
           }
         }
       },
       {
-        "slug": "chapter-10-the-department-for-communities-and-local-government-20132017",
-        "title": "Chapter 10: The Department for Communities and Local Government 2013–2017",
-        "page": "145",
-        "why": "The department in the four years before the fire, its dealings with the All-Party Parliamentary Group on Fire Safety, and the state of its building regulations team."
-      },
-      {
-        "slug": "chapter-11-combustible-cladding-warnings-to-government",
-        "title": "Chapter 11: Combustible cladding: warnings to government",
-        "page": "173",
-        "why": "The warnings about combustible cladding and insulation that reached the department between 2013 and 2017, and what was done with them."
+        "slug": "part-14-recommendations",
+        "title": "Part 14: Recommendations",
+        "page": "229",
+        "why": "The Panel's 58 recommendations, from a single construction regulator and a review of the statutory guidance to fire safety strategies, the fire service and the response to emergencies (Volume 7).",
+        "excerpt": {
+          "quote": "As appears from the findings in our report, we are satisfied that the system of regulating the construction and refurbishment of high-rise residential buildings that existed at the time of the Grenfell Tower fire was seriously defective in a number of respects.",
+          "cite": {
+            "id": "113-2-appears-from-findings",
+            "page": 231,
+            "href": "/reports/uk-grenfell-tower-inquiry?p=113-2-appears-from-findings&h=113.2%20|As%20appears%20from%20the%20findings%20in%20our%20report%2C%20we%20are%20satisfied%20that%20the%20system%20of%20regulating%20the%20construction%20and%20refurbishment%20of%20high-rise%20residential%20buildings%20that%20existed%20at%20the%20time%20of%20the%20Grenfell%20Tower%20fire%20was%20seriously%20defective%20in%20a%20number%20of%20respects.|%20The%20statutory%20guidance"
+          }
+        }
       }
     ]
   },
@@ -3793,12 +3834,12 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "uk-thirlwall-inquiry": {
     "status": "approved",
-    "whyItMatters": "The summary report of the Thirlwall Inquiry, the public inquiry chaired by Lady Justice Thirlwall into events at the Countess of Chester Hospital from 2015 to 2018. Its subject is not the criminal case, which the Chair writes was not her focus, but what the hospital's managers, the NHS and its regulators did when doctors raised concerns, and what the Inquiry says must change.",
-    "description": "The summary report of the Thirlwall Inquiry (2026) into events at the Countess of Chester Hospital from 2015 to 2018: what the hospital, the NHS and its regulators did when doctors raised concerns.",
+    "whyItMatters": "The report of the Thirlwall Inquiry, the public inquiry chaired by Lady Justice Thirlwall into events at the Countess of Chester Hospital from 2015 to 2018: a summary and three volumes. Its subject is not the criminal case, which the Chair writes was not her focus, but what the hospital's managers, the NHS and its regulators did when doctors raised concerns, and the 17 changes the Inquiry recommends.",
+    "description": "The Thirlwall Inquiry's report (2026), summary and three volumes: the Countess of Chester Hospital, 2015 to 2018, and what managers, the NHS and regulators did when doctors raised concerns.",
     "background": [
-      "In 2015 eight babies died on the neonatal unit of the Countess of Chester Hospital, against one to three a year from 2010 to 2014; five more died in the first half of 2016. Consultant paediatricians raised concerns about the deaths and unexpected collapses and their association with one nurse, Lucy Letby. She was moved off the unit in July 2016. The police opened an investigation in May 2017 and arrested her in July 2018. In August 2023 she was convicted of murdering seven babies and attempting to murder others, and in July 2024, at a retrial, of one further attempted murder; the Court of Appeal refused her permission to appeal.",
-      "The government announced the Inquiry on 4 September 2023; it was established under the Inquiries Act 2005 on 19 October 2023 and held public hearings, mostly in Liverpool, from September 2024 to early 2025. The report was published on 15 September 2026: this summary and three volumes, with 17 recommendations in Chapter 45. Only the summary is on this site so far. On the day of publication the Health and Social Care Secretary apologised on behalf of the government and the health service and said a full response would follow.",
-      "A public inquiry is not a court. The Chair makes findings on the balance of probabilities, and writes that her focus was not on Ms Letby's guilt or her convictions. She sets out how she approached the senior managers' submission that she should avoid hindsight; in March 2025 she refused an application by four former senior managers to pause the Inquiry. The Criminal Cases Review Commission received an application on Ms Letby's behalf in February 2025 and said on 13 February 2026 that a review of her convictions is underway; it had announced no decision by 25 October 2026."
+      "In 2015 eight babies died on the neonatal unit of the Countess of Chester Hospital, against one to three a year from 2010 to 2014; five more died in the first half of 2016. Consultant paediatricians raised concerns about the deaths and collapses and their association with one nurse, Lucy Letby. She was moved off the unit in July 2016. The police opened an investigation in May 2017 and arrested her in July 2018. In August 2023 she was convicted of murdering seven babies and attempting to murder others, and in July 2024, at a retrial, of one further attempted murder; the Court of Appeal refused her permission to appeal.",
+      "Announced on 4 September 2023 and established on 19 October 2023, the Inquiry held public hearings from September 2024 to early 2025. The report was published on 15 September 2026 as four documents, all here: a summary report, Volumes I and II (Part One, the events at the hospital) and Volume III (Part Two, the wider NHS; Part Three, the 17 recommendations and the appendices). The summary numbers its chapters 1 to 4; the volumes' chapters run from 1 to 45. That day the Health and Social Care Secretary apologised on behalf of the government and the health service and said a full response would follow.",
+      "A public inquiry is not a court. The Chair makes findings on the balance of probabilities, and writes that her focus was not on Ms Letby's guilt or her convictions. She addresses the senior managers' submission that she should avoid hindsight, and in March 2025 refused four former senior managers' application to pause the Inquiry. The Criminal Cases Review Commission received an application on Ms Letby's behalf in February 2025 and said on 13 February 2026 that a review of her convictions is underway; it had announced no decision by 12 November 2026."
     ],
     "findings": [
       {
@@ -4002,6 +4043,11 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "id": "4-26-move-towards-no",
             "page": 67,
             "href": "/reports/uk-thirlwall-inquiry?p=4-26-move-towards-no"
+          },
+          {
+            "id": "cctv-monitoring-recommendation-1-all",
+            "page": 141,
+            "href": "/reports/uk-thirlwall-inquiry?p=cctv-monitoring-recommendation-1-all"
           }
         ],
         "excerpt": {
@@ -4054,6 +4100,26 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/uk-thirlwall-inquiry?p=4-32-if-suspicions-murder&h=4.32%20|If%20suspicions%20of%20murder%20have%20been%20raised%20in%20a%20hospital%2C%20the%20police%20must%20also%20be%20called.|%20Where%20there%20is"
           }
         }
+      },
+      {
+        "slug": "chapter-13-why-was-action-not-taken-sooner",
+        "title": "Chapter 13. Why was action not taken sooner?",
+        "page": "234",
+        "why": "In Volume I, the Chair's own answer to the question in its title, from mid-June 2015 to mid-June 2016, on what the doctors, the senior nurses and the executives did with what they knew.",
+        "excerpt": {
+          "quote": "Because it is too hard to accept, declaring something unthinkable avoids having to confront it.",
+          "cite": {
+            "id": "13-4-because-too-hard",
+            "page": 234,
+            "href": "/reports/uk-thirlwall-inquiry?p=13-4-because-too-hard&h=13.4%20|Because%20it%20is%20too%20hard%20to%20accept%2C%20declaring%20something%20unthinkable%20avoids%20having%20to%20confront%20it.|%20We%20know%20that%20sometimes%2C"
+          }
+        }
+      },
+      {
+        "slug": "chapter-45-recommendations",
+        "title": "Chapter 45. Recommendations",
+        "page": "141",
+        "why": "In Volume III, the 17 recommendations themselves, most with a deadline and each pointing to the chapter that gives the reasons, from in-cot cameras and insulin storage to a protocol for suspicions of deliberate harm."
       }
     ],
     "hero": {

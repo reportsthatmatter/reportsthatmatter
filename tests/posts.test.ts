@@ -16,12 +16,14 @@ import {
   tierOf,
   resolveCandidate,
   roundRobin,
+  volumeLabel,
   scheduleItems,
   type PostCandidate,
   type QueueItem,
   type ResolvedPost,
 } from "../src/lib/posts";
 import { quoteCardId, CARD_QUOTE_LIMIT } from "../src/lib/card-key";
+import { volumeOf } from "../src/lib/editorial";
 
 const HTML = `
 <p id="so-what" data-page="30"><a class="permalink" href="#so-what">¶</a>When an advisor rushed to tell Mr. Trump, he replied "So what?"<label class="sidenote-toggle">1</label><span class="sidenote">See ECF No. 252 at 142.</span> The riot continued.</p>
@@ -750,5 +752,79 @@ describe("who may reach the queue (63cd, 80qf)", () => {
       const context = live.get(i.report)?.contextLine;
       if (context) expect(i.text.endsWith(context), i.id).toBe(true);
     }
+  });
+});
+
+describe("multi-volume reports name the volume (s5jm)", () => {
+  const marker = (label: string, n?: number) => {
+    const id = n ? `page-${label}-${n}` : `page-${label}`;
+    return `<a class="page-marker" id="${id}" href="#${id}" aria-label="Printed page ${label}">${label}</a>\n`;
+  };
+  // Volume I: front matter iii, then 1-2; Volume II restarts at iii (occurrence 2), then 1 (occurrence 2) to 9. A third
+  // volume that prints no front matter and starts at 5, first seen there: occurrence would say 1, the folios say 3.
+  const html = [
+    marker("iii"),
+    `<p id="front" data-page="iii">Front matter.</p>`,
+    marker("1"),
+    marker("2"),
+    `<p id="first" data-page="2">The first volume's finding.</p>`,
+    marker("iii", 2),
+    marker("1", 2),
+    `<p id="second" data-page="1">The second volume's finding.</p>`,
+    marker("9"),
+    marker("5"),
+    `<p id="third" data-page="5">The third volume's finding.</p>`,
+  ].join("\n");
+  const multi = (paragraph: string, numerals: "roman" | "arabic" = "roman", count = 3) =>
+    candidate({ paragraph, quote: paragraph === "front" ? "Front matter." : `The ${paragraph} volume's finding.`, volumes: { count, numerals } });
+
+  it("reads the volume from where the folios restart, not from the occurrence suffix", () => {
+    expect(volumeOf(html, "front")).toEqual({ volume: 1, volumes: 3 });
+    expect(volumeOf(html, "first")).toEqual({ volume: 1, volumes: 3 });
+    expect(volumeOf(html, "second")).toEqual({ volume: 2, volumes: 3 });
+    expect(volumeOf(html, "third")).toEqual({ volume: 3, volumes: 3 });
+    expect(volumeOf(html, "missing")).toBeNull();
+  });
+
+  it("labels the volume as the report numbers it", () => {
+    expect(volumeLabel(1, "roman")).toBe("Vol. I");
+    expect(volumeLabel(4, "roman")).toBe("Vol. IV");
+    expect(volumeLabel(7, "arabic")).toBe("Vol. 7");
+  });
+
+  it("puts the volume in the source line of the quote and hooked forms", () => {
+    const second = resolveCandidate(multi("second"), html, CARDS, "https://example.org");
+    expect(second.ok && second.item.text).toBe("“The second volume's finding.”\n\n— The Demo Report, Vol. II, p. 1");
+    expect(second.ok && second.item.volume).toBe("Vol. II");
+    const third = resolveCandidate(multi("third", "arabic"), html, CARDS, "https://example.org");
+    expect(third.ok && third.item.text).toBe("“The third volume's finding.”\n\n— The Demo Report, Vol. 3, p. 5");
+    expect(formatHooked("Hook.", "Demo Report", 28, "Context.", "Vol. 1")).toBe("Hook.\n\n— Demo Report, Vol. 1, p. 28\n\nContext.");
+  });
+
+  it("refuses a post when the restarts do not match the declared volume count", () => {
+    const result = resolveCandidate(multi("second", "roman", 2), html, CARDS, "https://example.org");
+    expect(result.ok).toBe(false);
+    expect(!result.ok && result.problem).toContain("registry says 2 volumes");
+  });
+
+  it("a report without declared volumes keeps the plain source line", () => {
+    const plain = resolveCandidate(candidate({ paragraph: "third", quote: "The third volume's finding." }), html, CARDS, "https://example.org");
+    expect(plain.ok && plain.item.text).toBe("“The third volume's finding.”\n\n— The Demo Report, p. 5");
+    expect(plain.ok && "volume" in plain.item).toBe(false);
+  });
+
+  it("cardMeta keeps the title and moves the volume to the description, past a context line", () => {
+    expect(cardMeta({ text: formatHooked("Hook, with a comma.", "Grenfell Tower Inquiry: Phase 2 Report", 28, "Volume 1 of 7. 72 people died.", "Vol. 1") })).toEqual({
+      title: "Grenfell Tower Inquiry: Phase 2 Report",
+      description: "Vol. 1, page 28. Read the passage in context.",
+    });
+    expect(cardMeta({ text: formatPost("Quote.", "Covid Inquiry Module 2 Report", 91, undefined, "Vol. I") })).toEqual({
+      title: "Covid Inquiry Module 2 Report",
+      description: "Vol. I, page 91. Read the passage in context.",
+    });
+    expect(cardMeta({ text: formatPost("Quote.", "Columbia Accident Investigation Board Report, Volume I", 203, "Seven died.") })).toEqual({
+      title: "Columbia Accident Investigation Board Report, Volume I",
+      description: "Page 203. Read the passage in context.",
+    });
   });
 });

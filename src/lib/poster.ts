@@ -125,12 +125,17 @@ export function validateItem(item: PosterItem, siteOrigin: string): void {
   if (problems.length) throw new Error(`Queue item ${item.id} is not postable: ${problems.join("; ")}`);
 }
 
-/** Title and description for the link card: the report's title and page from the source line, never any commentary. */
+/**
+ * Title and description for the link card: the report's title and page from the source line, never any commentary. A
+ * multi-volume report's source line names the volume ("— Grenfell Tower Inquiry: Phase 2 Report, Vol. 1, p. 28", s5jm):
+ * the volume goes in the description, not the title.
+ */
 export function cardMeta(item: Pick<PosterItem, "text">): { title: string; description: string } {
-  const source = item.text.split("\n").filter(Boolean).pop() ?? "";
-  const m = /^—\s*(.+?),\s*p\.\s*(\d+)\s*$/.exec(source);
+  // The source line, not the last line: an affected-community post ends with its context line after it.
+  const source = item.text.split("\n").reverse().find((line) => line.trim().startsWith("— "))?.trim() ?? "";
+  const m = /^—\s*(.+?),\s*(?:(Vol\.\s*[0-9IVXL]+),\s*)?p\.\s*(\d+)\s*$/.exec(source);
   return m
-    ? { title: m[1], description: `Page ${m[2]}. Read the passage in context.` }
+    ? { title: m[1], description: `${m[2] ? `${m[2]}, page` : "Page"} ${m[3]}. Read the passage in context.` }
     : { title: "Reports that Matter", description: "Read the passage in context." };
 }
 

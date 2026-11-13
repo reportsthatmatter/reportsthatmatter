@@ -12,7 +12,7 @@
  * here re-implements that check, only reuses it.
  */
 import { createHash } from "node:crypto";
-import { comparable, placeQuote, citationHref, pageOf } from "./editorial";
+import { comparable, placeQuote, citationHref, pageOf, volumeOf } from "./editorial";
 import { findText, selectorFor, decodeAnchor } from "../../assets/anchor.js";
 import { quoteCardId, CARD_QUOTE_LIMIT } from "./card-key";
 import { tierCMatch } from "./tier-c";
@@ -68,6 +68,8 @@ export type PostCandidate = {
   origin: "editorial" | "share-quotes";
   /** The report's registry `context_line`, appended to the post (strategy section 8: a context line on every post from an affected-community report). */
   contextLine?: string;
+  /** The registry's `volumes`: set for a report whose folios restart in each volume, so the source line names the volume (s5jm). */
+  volumes?: { count: number; numerals: "roman" | "arabic" };
 };
 
 /** `report/paragraph` (a curated card) or `report/default` — as `src/generated/cards.ts` records them. */
@@ -86,6 +88,8 @@ export type ResolvedPost = {
   cardIsDefault: boolean;
   /** What a hooked post's source line is built from (`formatHooked`). */
   page?: number | string;
+  /** "Vol. I": set only for a report whose folios restart in each volume (s5jm). */
+  volume?: string;
   sourceTitle?: string;
   contextLine?: string;
   /**
@@ -120,14 +124,30 @@ function nestQuotes(quote: string): string {
   return `“${inner}”`;
 }
 
+/** "p. 28", or "Vol. 1, p. 28" in a report whose folios restart in each volume (s5jm). */
+function citePage(page: number | string, volume?: string): string {
+  return volume ? `${volume}, p. ${page}` : `p. ${page}`;
+}
+
+const ROMAN: Array<[number, string]> = [[10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
+
+/** "Vol. II" or "Vol. 2": the volume as the report itself numbers its volumes. */
+export function volumeLabel(volume: number, numerals: "roman" | "arabic"): string {
+  if (numerals === "arabic") return `Vol. ${volume}`;
+  let n = volume;
+  let out = "";
+  for (const [value, glyphs] of ROMAN) while (n >= value) (out += glyphs), (n -= value);
+  return `Vol. ${out}`;
+}
+
 /**
  * Appendix C's excerpt format (`docs/plans/2026-08-02-launch-and-seo.md`):
  * the verbatim quote, then a neutral, always-page-numbered source line. No
  * commentary, ever — that rule is enforced by never taking a "why this
  * matters" field here, only the quote and the citation.
  */
-export function formatPost(quote: string, reportTitle: string, page: number | string, contextLine?: string): string {
-  const post = `${nestQuotes(quote.trim())}\n\n— ${reportTitle}, p. ${page}`;
+export function formatPost(quote: string, reportTitle: string, page: number | string, contextLine?: string, volume?: string): string {
+  const post = `${nestQuotes(quote.trim())}\n\n— ${reportTitle}, ${citePage(page, volume)}`;
   return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
 }
 
@@ -136,8 +156,8 @@ export function formatPost(quote: string, reportTitle: string, page: number | st
  * with the report's short name and page, then the context line. The quote is not repeated: the card image under the
  * post carries it. The source line keeps the form `cardMeta` (src/lib/poster.ts) reads the link card's title from.
  */
-export function formatHooked(hook: string, sourceTitle: string, page: number | string, contextLine?: string): string {
-  const post = `${hook.trim()}\n\n— ${sourceTitle}, p. ${page}`;
+export function formatHooked(hook: string, sourceTitle: string, page: number | string, contextLine?: string, volume?: string): string {
+  const post = `${hook.trim()}\n\n— ${sourceTitle}, ${citePage(page, volume)}`;
   return contextLine?.trim() ? `${post}\n\n${contextLine.trim()}` : post;
 }
 
@@ -163,6 +183,17 @@ export function resolveCandidate(
   const page = pageOf(html, candidate.paragraph);
   if (page === null) {
     return { ok: false, problem: `${where}: no page number on that paragraph — Appendix C requires one` };
+  }
+  let volume: string | undefined;
+  if (candidate.volumes) {
+    const at = volumeOf(html, candidate.paragraph);
+    if (!at || at.volumes !== candidate.volumes.count) {
+      return {
+        ok: false,
+        problem: `${where}: the page markers restart ${at ? at.volumes - 1 : "?"} time(s), but the registry says ${candidate.volumes.count} volumes, so the post cannot name the volume`,
+      };
+    }
+    volume = volumeLabel(at.volume, candidate.volumes.numerals);
   }
 
   const href = placed.inParagraph
@@ -201,7 +232,7 @@ export function resolveCandidate(
   }
   const card = `assets/cards/${candidate.report}/${specific ?? "default"}.png`;
 
-  const text = formatPost(candidate.quote, candidate.reportTitle, page, candidate.contextLine);
+  const text = formatPost(candidate.quote, candidate.reportTitle, page, candidate.contextLine, volume);
   const length = graphemeLength(text);
   // Over the limit in quote form. A hooked post omits the quote, so it can still be queued when the card carries the
   // whole quote: a card rendered for exactly these words (not the plain default) and short enough that cards.mjs does not
@@ -209,7 +240,7 @@ export function resolveCandidate(
   const needsHook = length > BLUESKY_GRAPHEME_LIMIT;
   if (needsHook) {
     // The hooked post keeps the source line and the context line; the hook gets what is left.
-    const fixed = graphemeLength(formatHooked("", candidate.sourceTitle?.trim() || candidate.reportTitle, page, candidate.contextLine));
+    const fixed = graphemeLength(formatHooked("", candidate.sourceTitle?.trim() || candidate.reportTitle, page, candidate.contextLine, volume));
     const why = cardIsDefault
       ? `no quote card for these words, and the default card does not carry the quote — run pnpm cards`
       : graphemeLength(candidate.quote.trim()) > CARD_QUOTE_LIMIT
@@ -239,6 +270,7 @@ export function resolveCandidate(
       card,
       cardIsDefault,
       page,
+      ...(volume ? { volume } : {}),
       sourceTitle: candidate.sourceTitle?.trim() || candidate.reportTitle,
       contextLine: candidate.contextLine?.trim() || undefined,
       ...(needsHook ? { needsHook: true } : {}),
@@ -573,7 +605,7 @@ export function buildQueue(params: {
     if (i.posted_url || !now) return i;
     let text = now.text;
     if (i.hook?.trim() && now.page !== undefined) {
-      const hooked = formatHooked(i.hook, now.sourceTitle ?? "", now.page, now.contextLine);
+      const hooked = formatHooked(i.hook, now.sourceTitle ?? "", now.page, now.contextLine, now.volume);
       if (graphemeLength(hooked) > BLUESKY_GRAPHEME_LIMIT) {
         overLength.push(`${i.id}: hook makes the post ${graphemeLength(hooked)} graphemes, over Bluesky's ${BLUESKY_GRAPHEME_LIMIT}`);
         text = i.text;

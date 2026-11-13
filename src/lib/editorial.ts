@@ -181,6 +181,44 @@ export function pageOf(html: string, id: string): number | string | null {
   return /^\d+$/.test(match[1]) ? Number(match[1]) : match[1];
 }
 
+/** A printed folio's place in a volume's order: roman front matter before arabic body pages. */
+function folioRank(label: string): number {
+  if (/^\d+$/.test(label)) return 100_000 + Number(label);
+  const value: Record<string, number> = { i: 1, v: 5, x: 10, l: 50, c: 100 };
+  let total = 0;
+  for (let k = 0; k < label.length; k++) {
+    const v = value[label[k]];
+    total += k + 1 < label.length && value[label[k + 1]] > v ? -v : v;
+  }
+  return total;
+}
+
+/**
+ * Which volume a paragraph is in, and how many volumes the text has, for a report whose folios restart in each volume
+ * (reportsthatmatter-s5jm). Within a volume the page markers only go forward (roman front matter, then arabic), so a
+ * marker whose folio does not come after the one before it starts the next volume. Read from the markers' printed
+ * labels, not their "#2" occurrence suffix: a volume shorter than the one before, or front matter one volume prints and
+ * another omits, puts a page's occurrence out of step with its volume. Single-volume reports whose folios restart per
+ * part (the Stern Review) also "restart" here, so callers use it only where the registry declares `volumes`, and check
+ * `volumes` against the declared count. Null when the paragraph is not in the html.
+ */
+export function volumeOf(html: string, id: string): { volume: number; volumes: number } | null {
+  const at = html.indexOf(`<p id="${id}"`);
+  if (at < 0) return null;
+  let volume = 1;
+  let volumes = 1;
+  let previous: number | null = null;
+  for (const m of html.matchAll(/<a class="page-marker" id="[^"]*" href="[^"]*" aria-label="Printed page ([0-9]+|[ivxlc]+)">/g)) {
+    const rank = folioRank(m[1]);
+    if (previous !== null && rank <= previous) {
+      volumes += 1;
+      if (m.index! < at) volume = volumes;
+    }
+    previous = rank;
+  }
+  return { volume, volumes };
+}
+
 /** An arabic page as a number; a roman label or none as null (for stores that hold an INTEGER page). */
 export function numericPage(page: number | string | null): number | null {
   return typeof page === "number" ? page : null;

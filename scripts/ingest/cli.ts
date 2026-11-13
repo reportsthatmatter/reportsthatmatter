@@ -433,13 +433,19 @@ async function runVerify(args: string[]): Promise<number> {
       continue;
     }
 
-    const sourceText = def.volumes
-      .map((volume) =>
-        extractPages(resolveVolume(def, volume, reportDir(def.id)))
-          .map((page) => page.lines.join("\n"))
-          .join("\n")
-      )
-      .join("\n");
+    // A clean edition served in the PDF's words (`cleanEdition({ words: "pdf" })`, reportsthatmatter-ivg.4) is checked
+    // against the shadow's page text, as `run` checks it: the raw text runs a two-column page's lines together, so a
+    // word the PDF breaks at a line end has the other column's word after it there.
+    const servesPdfWords = def.passes.some((p) => p.name === "cleanEdition" && (p as { words?: string }).words === "pdf");
+    const sourceText = servesPdfWords
+      ? (await regenerate(target.id)).sourceText
+      : def.volumes
+          .map((volume) =>
+            extractPages(resolveVolume(def, volume, reportDir(def.id)))
+              .map((page) => page.lines.join("\n"))
+              .join("\n")
+          )
+          .join("\n");
 
     allOk =
       reportChecks(
