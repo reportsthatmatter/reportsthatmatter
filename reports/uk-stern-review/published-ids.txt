@@ -582,6 +582,7 @@ environment-agency-2003-deprived-communities
 environment-agency-2006-addressing-environmental
 epa-forthcoming-global-anthropogenic-non-co2
 epa-forthcoming-global-anthropogenic-non-co2-2
+epa-forthcoming-global-anthropogenic-non-co2-3
 epstein-p-r-e-mills
 epstein-p-r-e-mills-2
 erda-l-ji-z-et
@@ -803,6 +804,7 @@ fourth-carrying-out-expected-utility-valuation
 freeman-p-k-l-martin
 friedlingstein-p-p-cox-r
 friedlingstein-p-p-cox-r-2
+friedlingstein-p-p-cox-r-3
 from-all-these-perspectives-evidence
 full-warming-effect-past-emissions
 further-10-year-delay-would-mean
@@ -822,6 +824,7 @@ gardiner-s-2004-ethics-global
 gedney-n-p-m-cox
 gedney-n-p-m-cox-2
 gedney-n-p-m-cox-3
+gedney-n-p-m-cox-4
 gender-equality-gender-inequalities-will
 general-higher-latitudes-continental-regions
 general-model-comparisons-find-cost
@@ -1026,10 +1029,13 @@ intergovernmental-panel-climate-change-1999
 intergovernmental-panel-climate-change-2000
 intergovernmental-panel-climate-change-2000-2
 intergovernmental-panel-climate-change-2000-3
+intergovernmental-panel-climate-change-2000-4
 intergovernmental-panel-climate-change-2001
 intergovernmental-panel-climate-change-2001-2
 intergovernmental-panel-climate-change-2001-3
 intergovernmental-panel-climate-change-2001-4
+intergovernmental-panel-climate-change-2001-5
+intergovernmental-panel-climate-change-2001-6
 intergovernmental-panel-climate-change-2001a
 intergovernmental-panel-climate-change-2001b
 intergovernmental-panel-climate-change-2005
@@ -1043,8 +1049,10 @@ international-energy-agency-2005-world
 international-energy-agency-2006-co2
 international-energy-agency-2006-energy
 international-energy-agency-2006-energy-2
+international-energy-agency-2006-energy-3
 international-energy-agency-press-world
 international-energy-agency-press-world-2
+international-energy-agency-press-world-3
 international-federation-red-cross-red
 international-financial-institutions-have-important
 international-labour-office-2005-global
@@ -1071,6 +1079,7 @@ jorgenson-d-w-1998-growth
 jorgenson-d-w-p-j
 jorgenson-d-w-r-j
 jorgenson-d-w-r-j-2
+jorgenson-d-w-r-j-3
 jorgenson-et-al-2005-used
 kaimowitz-d-2002-forest-rural
 kakwani-n-1993-performance-living
@@ -1081,6 +1090,10 @@ key-elements-future-international-frameworks
 key-messages
 key-messages-10
 key-messages-11
+key-messages-12
+key-messages-13
+key-messages-14
+key-messages-15
 key-messages-2
 key-messages-3
 key-messages-4
@@ -1602,6 +1615,7 @@ schellnhuber-h-j-ed-2006
 schellnhuber-h-j-w-cramer
 schlenker-w-m-j-roberts
 schlenker-w-m-j-roberts-2
+schlenker-w-m-j-roberts-3
 schlenker-w-w-m-hanemann
 schlesinger-m-e-j-yin
 schmalensee-r-t-m-stoker
@@ -1988,6 +2002,7 @@ today-every-15---20
 tol-r-s-j-1997
 tol-r-s-j-2002
 tol-r-s-j-2002-2
+tol-r-s-j-2002-3
 tol-r-s-j-2005
 tol-r-s-j-2005-2
 tol-r-s-j-t

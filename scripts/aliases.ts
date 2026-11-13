@@ -21,6 +21,12 @@
  *   pnpm aliases seed-sections [<id>... | --all] [--ref origin/main]
  *       Only reports/<id>/published-sections.txt: the live slugs, those of the text at --ref (rendered with its
  *       pin) and every slug already aliased. The backfill for a repo that predates the section record.
+ *   pnpm aliases seed-reserved [<id>... | --all] [--ref origin/main] [--history]
+ *       Only reports/<id>/reserved-ids.txt (efso): every id where --ref serves it (rendered with --ref's pin and
+ *       reserved-ids.txt), so the file reserves what is published and moves no id. With --history, every distinct
+ *       version of reports/<id>/full.md up to --ref, oldest first, each id where it was FIRST served: an id a later
+ *       version moved goes back to its first paragraph (a restoration; measure it and check its citers first).
+ *       The backfill; `generate` keeps the file up to date after that.
  *   pnpm aliases check
  *       Every recorded id is either in the current text, an alias of something that is, or named in
  *       `unmatched` (a loss somebody can read). Every alias lands on a current id. Every current id is
@@ -32,6 +38,9 @@
  *   aliases.yaml       {aliases: {old: new}, sections: {old-slug: new-slug}, unmatched: [old]}
  *   published-ids.txt  one id per line, sorted
  *   published-sections.txt  every section slug ever published, one per line, sorted
+ *   reserved-ids.txt   where each id was first published (section + text fingerprint): the renderer keeps it there
+ *                      and suffixes a new paragraph that asks for it (efso, decision 0012; src/lib/reserved-ids.ts).
+ *                      generate renders the new text with --old-ref's list and adds the ids it lacks, dated today.
  * Matching is by text containment; see src/lib/alias-gen.ts.
  */
 import "./lib/help.mjs";
@@ -42,9 +51,10 @@ import { parse, stringify } from "yaml";
 import { extractPassages } from "@rtm/ingest";
 import { followAlias } from "../src/lib/aliases";
 import * as installed from "@rtm/ingest";
-import { acceptReuse, citesId, emptyAliases, fold, formatIds, idsOf, mergeAliases, parseIds, render, slugsOf, type AliasFile, type Ingest, type Rendered } from "../src/lib/alias-gen";
+import { acceptReuse, citesId, emptyAliases, fold, formatIds, idsOf, mergeAliases, parseIds, render, reservedOf, slugsOf, type AliasFile, type Ingest, type Rendered } from "../src/lib/alias-gen";
 import { loadIngest, pinOf } from "./lib/old-ingest";
 import { assertFresh } from "./prerender-stamp.mjs";
+import { addReserved, formatReserved, loadReservedEntries, parseReserved, reservedPath, toReserved, type ReservedEntry } from "../src/lib/reserved-ids";
 
 const root = join(import.meta.dirname, "..");
 const registry = parse(readFileSync(join(root, "reports/registry.yaml"), "utf8")) as { reports: { id: string; source_path: string }[] };
@@ -78,6 +88,19 @@ const HEADER =
   "# unmatched_sections: published section slugs that have no alias and no page; the old URL is a plain miss.\n" +
   "# reused: an id that now names a different paragraph than it did (movedTo: where the old text went); pending until accepted (hxo4, rf4c).\n" +
   "# moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).\n";
+
+/** The installed ingest's text fingerprint (v0.37.0+); the reserved-ids record cannot be written without it. */
+function fingerprintFn(): (text: string) => string {
+  const fp = (installed as { paragraphFingerprint?: (text: string) => string }).paragraphFingerprint;
+  if (typeof fp !== "function") throw new Error("the installed @rtm/ingest has no paragraphFingerprint: reserved ids need ingest >= v0.37.0 (efso)");
+  return fp;
+}
+/** A reservation's "first recorded" stamp: UTC to the second, so two releases on one day keep their order. */
+const stamp = (d: Date) => d.toISOString().replace(/\.\d+Z$/, "Z");
+const now = () => stamp(new Date());
+const sectionAliasesOf = (file: AliasFile) => file.sections;
+/** The renderer's reserved list from reserved-ids.txt text, sections followed through an alias file. */
+const reservedFrom = (text: string | null, file: AliasFile) => toReserved(text === null ? [] : parseReserved(text), sectionAliasesOf(file));
 
 function save(id: string, file: AliasFile, record: Iterable<string>, slugs: Iterable<string>) {
   const { unmatchedSections, movedOut, ...rest } = file;
@@ -145,8 +168,16 @@ async function generate() {
   for (const id of ids) {
     const entry = registry.reports.find((r) => r.id === id);
     if (!entry) throw new Error(`no such report: ${id}`);
-    const next = render(readFileSync(join(root, entry.source_path), "utf8"));
     const oldMd = oldPath ? readFileSync(oldPath, "utf8") : gitShow(ref, entry.source_path);
+    // Reserved ids (efso): the new text is rendered with what --old-ref had reserved (as the old text was served with
+    // it), sections followed through --old-ref's aliases, and the list only grows.
+    const oldAliases = oldPath ? loadAliases(id) : parseAliases(gitShow(ref, `reports/${id}/aliases.yaml`));
+    // --old-ref's file; the working tree's when --old-ref has none (the backfill from `seed-reserved`, before it is published).
+    const workingReserved = existsSync(reservedPath(root, id)) ? readFileSync(reservedPath(root, id), "utf8") : null;
+    const servedReserved = oldPath ? workingReserved : gitShow(ref, `reports/${id}/reserved-ids.txt`);
+    const committedReserved = servedReserved ?? workingReserved;
+    const reserved = reservedFrom(committedReserved, oldAliases);
+    const next = render(readFileSync(join(root, entry.source_path), "utf8"), installed, reserved);
     // The base is what --old-ref published, not the working tree: a generate run against an intermediate
     // re-ingest would otherwise leave that text's ids (never published) in published-ids.txt for good (s24x).
     const committed = oldPath ? null : gitShow(ref, `reports/${id}/published-ids.txt`);
@@ -157,15 +188,22 @@ async function generate() {
     const record = new Set([...(committed === null ? loadRecord(id) : parseIds(committed)), ...idsOf(next)]);
     const slugs = new Set([...(committedSections === null ? loadSections(id) : parseIds(committedSections)), ...slugsOf(next)]);
     let file: AliasFile;
+    const fp = fingerprintFn();
+    let reservedEntries: ReservedEntry[] = committedReserved === null ? [] : parseReserved(committedReserved);
     if (oldMd === null) file = fold(prev, next, next);
     else {
-      const old = render(oldMd, oldIngest);
+      // The old text as it was served: with --old-ref's own reserved list (none before efso), not the backfill.
+      const old = render(oldMd, oldIngest, reservedFrom(servedReserved, oldAliases));
       for (const x of idsOf(old)) record.add(x);
       for (const x of slugsOf(old)) slugs.add(x);
+      // An id --old-ref served but never reserved (a report from before efso): where --old-ref served it.
+      reservedEntries = addReserved(reservedEntries, reservedOf(old, oldPath ? now() : commitDate(ref), fp));
       file = fold(prev, old, next);
     }
+    reservedEntries = addReserved(reservedEntries, reservedOf(next, now(), fp));
     if (rest.includes("--accept-reuse")) file = acceptReuse(file);
     save(id, file, record, slugs);
+    writeFileSync(reservedPath(root, id), formatReserved(reservedEntries));
     summary(id, file, Object.keys(prev.aliases).length, record.size);
   }
 }
@@ -204,6 +242,41 @@ async function seed() {
   }
 }
 
+const commitDate = (ref: string) => stamp(new Date(Number(git("log", "-1", "--format=%ct", ref).trim()) * 1000));
+
+/**
+ * Backfill of reserved-ids.txt (efso): every distinct version of full.md, oldest first, each rendered as it was served
+ * (its commit's pin and reserved-ids.txt), and each id recorded where it first appeared, dated by that commit.
+ */
+async function seedReserved() {
+  const ref = flag("--ref") ?? "origin/main";
+  const fp = fingerprintFn();
+  for (const id of ids) {
+    const entry = registry.reports.find((r) => r.id === id);
+    if (!entry) throw new Error(`no such report: ${id}`);
+    const all = git("log", "--reverse", "--format=%H %ct", ref, "--", entry.source_path).split("\n").filter(Boolean);
+    const commits = rest.includes("--history") ? all : all.slice(-1);
+    const seen = new Set<string>();
+    let entries: ReservedEntry[] = [];
+    for (const line of commits) {
+      const [c, seconds] = line.split(" ");
+      const date = stamp(new Date(Number(seconds) * 1000));
+      let blob: string;
+      try {
+        blob = git("rev-parse", `${c}:${entry.source_path}`).trim();
+      } catch {
+        continue;
+      }
+      if (seen.has(blob)) continue;
+      seen.add(blob);
+      const served = reservedFrom(gitShow(c, `reports/${id}/reserved-ids.txt`), parseAliases(gitShow(c, `reports/${id}/aliases.yaml`)));
+      entries = addReserved(entries, reservedOf(render(git("show", blob), await ingestAt(c), served), date, fp));
+    }
+    writeFileSync(reservedPath(root, id), formatReserved(entries));
+    console.log(`  ${id}: ${entries.length} id(s) reserved from ${seen.size} version(s)`);
+  }
+}
+
 /** Backfill of published-sections.txt only: what is served now, what --ref (default origin/main) served, and every slug already aliased. */
 async function seedSections() {
   const ref = flag("--ref") ?? "origin/main";
@@ -232,6 +305,16 @@ function check() {
     const { aliases, sections, unmatched } = file;
     const problems: string[] = [];
     if (!existsSync(recordPath(id))) problems.push("no published-ids.txt (run pnpm aliases seed)");
+    // Reserved ids (efso): every current id has a first-served record, and every reserved id was published.
+    if (!existsSync(reservedPath(root, id))) problems.push("no reserved-ids.txt (run pnpm aliases seed-reserved)");
+    else {
+      const reserved = new Set(loadReservedEntries(root, id).map((e) => e.id));
+      const unreserved = [...live].filter((x) => !reserved.has(x));
+      if (unreserved.length) problems.push(`${unreserved.length} current id(s) not in reserved-ids.txt, e.g. ${unreserved.slice(0, 3).join(", ")} (run pnpm aliases generate ${id})`);
+      const published = new Set(loadRecord(id));
+      const stray = [...reserved].filter((x) => !published.has(x));
+      if (stray.length) problems.push(`${stray.length} reserved id(s) not in published-ids.txt, e.g. ${stray.slice(0, 3).join(", ")}`);
+    }
     const record = new Set(loadRecord(id));
     const missing = [...live].filter((x) => !record.has(x));
     if (missing.length) problems.push(`${missing.length} current id(s) not recorded, e.g. ${missing.slice(0, 3).join(", ")} (run pnpm aliases generate ${id})`);
@@ -277,8 +360,9 @@ function check() {
 if (cmd === "generate") await generate();
 else if (cmd === "seed") await seed();
 else if (cmd === "seed-sections") await seedSections();
+else if (cmd === "seed-reserved") await seedReserved();
 else if (cmd === "check") check();
 else {
-  console.error("usage: pnpm aliases generate|seed|seed-sections [<id>... | --all] | check");
+  console.error("usage: pnpm aliases generate|seed|seed-sections|seed-reserved [<id>... | --all] | check");
   process.exit(2);
 }

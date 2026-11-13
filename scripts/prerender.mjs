@@ -54,6 +54,7 @@ import { dirname, join } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts, renderMarkdown } from "@rtm/ingest";
 import { writeStamp } from "./prerender-stamp.mjs";
+import { loadReserved } from "../src/lib/reserved-ids";
 
 const root = join(import.meta.dirname, "..");
 const outDir = join(root, "assets/generated");
@@ -94,7 +95,9 @@ function lastChanged(...paths) {
 
 for (const report of registry.reports) {
   const markdown = readFileSync(join(root, report.source_path), "utf8");
-  const { meta, fullBody, fragments } = renderArtifacts(markdown);
+  // Published ids keep their paragraphs; a new paragraph that asks for one is suffixed (efso, decision 0012).
+  const reserved = loadReserved(root, report.id);
+  const { meta, fullBody, fragments } = renderArtifacts(markdown, reserved.length ? { reserved } : undefined);
 
   // Old paragraph ids and section slugs that still resolve (q8c, src/lib/aliases.ts). In meta.json so
   // they publish and roll back with the content whose ids they describe. Only targets that exist.

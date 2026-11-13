@@ -1,0 +1,4 @@
+---
+theme: ids
+---
+- **Reserving a published id needs where it was and what came next, not just the id: section alone breaks when a re-split moves a chapter out of its Part, and text alone cannot tell two "Key Messages" apart; and backfill from what is served now, not from history** (2026-11-13, reportsthatmatter-efso, efso-1113 agent) A first cut matched by section and text: Stern's Chapter 9 ids (served inside Part III before owre) did not come back, and two same-day releases tied on a date stamp, swapping ids. Adding the next passage's fingerprint and second-resolution stamps fixed both. A history-wide backfill moved ids in 12 reports that had been live for weeks, some through artefacts of many re-ingests, so the default backfill reserves only what is served. [status: done in the efso PR]
