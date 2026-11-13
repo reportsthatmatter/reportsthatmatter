@@ -250,7 +250,7 @@ export function d1Fits(writes: number, today: Today | number | null, limit: numb
 export function aliasProblems(rows: Array<[number, number, string]>, moved: Set<string>): Array<{ id: string; file: string; removed: number; moved: boolean; restore: string }> {
   const out = [];
   for (const [, removed, path] of rows) {
-    const m = path.match(/reports\/([^/]+)\/(aliases\.yaml|published-ids\.txt)$/);
+    const m = path.match(/reports\/([^/]+)\/(aliases\.yaml|published-ids\.txt|reserved-ids\.txt)$/);
     if (!m || removed === 0) continue;
     const [, id, file] = m;
     const isMoved = moved.has(id);
@@ -495,7 +495,7 @@ export function buildSteps(): Step[] {
           "pnpm aliases generate prints each report's moves, losses and REUSED ids",
           "REUSED id: nothing in editorial or the queue should cite it; `pnpm marks check <id>` (D1 marks), then `pnpm aliases generate <id> --accept-reuse`",
         ]);
-        const paths = ctx.ids.flatMap((id) => [`reports/${id}/aliases.yaml`, `reports/${id}/published-ids.txt`]);
+        const paths = ctx.ids.flatMap((id) => [`reports/${id}/aliases.yaml`, `reports/${id}/published-ids.txt`, `reports/${id}/reserved-ids.txt`]);
         const problems = aliasProblems(rt.probe.numstat(ctx.root, paths), new Set(rt.state.data.changed ?? []));
         if (problems.length) {
           throw new Stop(

@@ -35,6 +35,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { basename, join, resolve } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts } from "@rtm/ingest";
+import { loadReserved } from "../src/lib/reserved-ids";
 import { reportDirFor } from "./lib/report-dirs.ts";
 import { parseOurs } from "../src/lib/score/ours.ts";
 import { hasReference, loadReference, referenceFromMarkdown } from "../src/lib/score/reference.ts";
@@ -189,7 +190,7 @@ async function scoreReport(id, shadow) {
   if (!shadow && existsSync(join(dirGen, "full-body.html")) && existsSync(join(dirGen, "meta.json"))) {
     html = readFileSync(join(dirGen, "full-body.html"), "utf8");
     meta = JSON.parse(readFileSync(join(dirGen, "meta.json"), "utf8"));
-  } else ({ meta, fullBody: html } = renderArtifacts(markdown));
+  } else ({ meta, fullBody: html } = renderArtifacts(markdown, { reserved: loadReserved(root, id) }));
   const signals = evaluateSignals({ markdown, html, meta }, result);
 
   // decision dataset
