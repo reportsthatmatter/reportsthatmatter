@@ -1,0 +1,4 @@
+---
+theme: review
+---
+- **The id-reuse check passes a reference-list id that now names a different work: inserting earlier chapters shifts every duplicate-text id (`-2`, `-3`) to a new chapter** (2026-11-13, reportsthatmatter-c99s, review of site #446) Stern batch 2a added Chapters 1, 3-5 and 7-8 before chapters already live, so 16 published ids moved chapter; four now name a different reference (`tol-r-s-j-2002` was "part II: dynamic estimates", now "Part I: Benchmark estimates"; three IPCC ids now name other IPCC volumes), yet `pnpm aliases generate --all` reported 0 reused because references share most of their words. Found by diffing `paragraphToSection` in every report's `meta.json`, main against the trial. Proposal: a section change of a published duplicate-text id counts as reuse (c99s); the real fix is reserved ids (efso). [status: proposed]
