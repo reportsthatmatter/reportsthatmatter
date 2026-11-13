@@ -1,6 +1,6 @@
 {
-  "words": 216097,
-  "paragraphs": 3247,
+  "words": 303073,
+  "paragraphs": 4591,
   "sections": [
     {
       "slug": "executive-summary",
@@ -157,6 +157,78 @@
       "title": "17 Beyond Carbon Markets and Technology",
       "paragraphs": 223,
       "ids": "93d8f3d2ec4f"
+    },
+    {
+      "slug": "part-v-policy-responses-for-adaptation",
+      "title": "Part V: Policy Responses for Adaptation",
+      "paragraphs": 5,
+      "ids": "f3860ab059b1"
+    },
+    {
+      "slug": "18-understanding-the-economics-of-adaptation",
+      "title": "18 Understanding the Economics of Adaptation",
+      "paragraphs": 97,
+      "ids": "9a06b04cad5f"
+    },
+    {
+      "slug": "19-adaptation-in-the-developed-world",
+      "title": "19 Adaptation In The Developed World",
+      "paragraphs": 109,
+      "ids": "888babea90fe"
+    },
+    {
+      "slug": "20-adaptation-in-the-developing-world",
+      "title": "20 Adaptation in the developing world",
+      "paragraphs": 165,
+      "ids": "6d165a1c0624"
+    },
+    {
+      "slug": "part-vi-international-collective-action",
+      "title": "Part VI: International Collective Action",
+      "paragraphs": 5,
+      "ids": "c3f7aa936cdd"
+    },
+    {
+      "slug": "21-framework-for-understanding-international-collective-action-for-climate-chang",
+      "title": "21 Framework for Understanding International Collective Action for Climate Change",
+      "paragraphs": 138,
+      "ids": "2839275a4e63"
+    },
+    {
+      "slug": "22-creating-a-global-price-for-carbon",
+      "title": "22 Creating a Global Price for Carbon",
+      "paragraphs": 165,
+      "ids": "edba234264ce"
+    },
+    {
+      "slug": "23-supporting-the-transition-to-a-low-carbon-global-economy",
+      "title": "23 Supporting the Transition to a Low-Carbon Global Economy",
+      "paragraphs": 183,
+      "ids": "4c084198beaa"
+    },
+    {
+      "slug": "24-promoting-effective-international-technology-co-operation",
+      "title": "24 Promoting Effective International Technology Co-operation",
+      "paragraphs": 170,
+      "ids": "0e19e0089027"
+    },
+    {
+      "slug": "25-reversing-emissions-from-land-use-change",
+      "title": "25 Reversing Emissions from Land Use Change",
+      "paragraphs": 144,
+      "ids": "f5f2cea97c92"
+    },
+    {
+      "slug": "26-international-support-for-adaptation",
+      "title": "26 International Support for Adaptation",
+      "paragraphs": 131,
+      "ids": "fddcd136ce75"
+    },
+    {
+      "slug": "27-conclusions-building-and-sustaining-international-co-operation-on-climate-cha",
+      "title": "27 Conclusions: Building and Sustaining International Co-operation on Climate Change",
+      "paragraphs": 32,
+      "ids": "590e2ab2669b"
     }
   ]
 }

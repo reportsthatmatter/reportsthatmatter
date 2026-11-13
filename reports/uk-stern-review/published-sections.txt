@@ -7,7 +7,17 @@
 15-carbon-pricing-and-emissions-markets-in-practice
 16-accelerating-technological-innovation
 17-beyond-carbon-markets-and-technology
+18-understanding-the-economics-of-adaptation
+19-adaptation-in-the-developed-world
 2-economics-ethics-and-climate-change
+20-adaptation-in-the-developing-world
+21-framework-for-understanding-international-collective-action-for-climate-chang
+22-creating-a-global-price-for-carbon
+23-supporting-the-transition-to-a-low-carbon-global-economy
+24-promoting-effective-international-technology-co-operation
+25-reversing-emissions-from-land-use-change
+26-international-support-for-adaptation
+27-conclusions-building-and-sustaining-international-co-operation-on-climate-cha
 3-how-climate-change-will-affect-people-around-the-world
 4-implications-of-climate-change-for-development
 5-costs-of-climate-change-in-developed-countries
@@ -22,5 +32,7 @@ part-i-climate-change-our-approach
 part-ii-impacts-of-climate-change-on-growth-and-development
 part-iii-the-economics-of-stabilisation
 part-iv-policy-responses-for-mitigation
+part-v-policy-responses-for-adaptation
+part-vi-international-collective-action
 preface
 summary-of-conclusions
