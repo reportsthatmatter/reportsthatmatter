@@ -250,7 +250,7 @@ units:
   - id: uk-stern-review
     scope: "Full report, batch 1: Preface and Acknowledgements, Introduction, Summary of Conclusions, Part I-III introductions, Chapters 2, 6, 9, 10, 13 (volumes 2-12, ToC order)"
     bead: reportsthatmatter-gqsy.9.2
-    reached: evaluate
-    state: active
-    evidence: "report repo reportsthatmatter/uk-stern-review branch stern-full-1112 (PR #2); site branch stern-full-1112; HMT January 2007 reissues where they exist (README Versions); report-local passes (runningTitle, partTitles, bodyFaceFigures, chartsAndTables, chemicalSubscripts, chapterHeadingFaces, marginBullets, carriedItems, noteTail, ordinalNote) plus layoutMarkers, footnoteRestarts, layoutPageJoins; golden 14/16 + 2 xfail (lb9l, unit 1); grade A 0.54 (149 pp); ES ids unchanged (aliases 0)"
+    reached: publish
+    state: waiting
+    evidence: "report repo reportsthatmatter/uk-stern-review (PR #2, e294e0c); site #433 (c552deb7); live 2026-11-13, content 2c2d8ddff67cd59c; review factory/reviews/review-stern-full-2026-11-12.md; site branch stern-full-1112; HMT January 2007 reissues where they exist (README Versions); report-local passes (runningTitle, partTitles, bodyFaceFigures, chartsAndTables, chemicalSubscripts, chapterHeadingFaces, marginBullets, carriedItems, noteTail, ordinalNote) plus layoutMarkers, footnoteRestarts, layoutPageJoins; golden 14/16 + 2 xfail (lb9l, unit 1); recorded grade A 0.23 (149 pp); ES ids unchanged (aliases 0)"
     notes: "Tables and Box 6.3 equations not served: 6uqx. Lists over page breaks: 95vk. Next batches: remaining chapters in ToC order, Postscript, annexes (gqsy.9.2)."
