@@ -347,17 +347,17 @@ reports:
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-definition-unreferenced: 4  # why: reportsthatmatter-6uqx (Ch3 notes 9 and 10, Ch9 note 25 and Ch10 note 4 are cited only inside a table that is not served: Box 3.2 p.61, pp.219, 243)
-    note-reference-sequence: 3  # why: reportsthatmatter-6uqx (the same four notes, in three chapters' runs)
+    note-reference-sequence: 4  # why: reportsthatmatter-6uqx (the same four notes, in three chapters' runs; and Chapter 21's run 14 to 16: note 15 is cited inside Table 21.1, p.456, whose rows are not served, and its text is printed on no page of the chapter)
     note-text-in-body: 0
     note-citation-vocabulary: 0
-    furniture-paragraph: 17  # why: reportsthatmatter-gqsy.9.2 ("Key Messages", the printed title of the box at the head of each of the seventeen chapters, not furniture)
+    furniture-paragraph: 27  # why: reportsthatmatter-gqsy.9.2 ("Key Messages", the printed title of the box at the head of each of the twenty-seven chapters, not furniture; Chapters 18-27 add ten, one each, read on each chapter's first page)
     contents-entry-without-heading: 0
     heading-density: 0
     heading-repeated: 1  # why: reportsthatmatter-gqsy.9.2 ("References" closes each chapter, as printed)
     heading-function-word: 0
     heading-marker: 0
     heading-long: 4  # why: reportsthatmatter-gqsy.9.2 (four section headings printed that long, each read against its page: 4.3 p.100, 4.5 p.107, 7.5 p.183, 14.9 p.320)
-    printed-page-reversal: 2  # why: reportsthatmatter-gqsy.9.2 (HM Treasury's reissues of Chapter 5 and Chapter 11 print their folios 1-21 and 1-16, after Chapter 4's p.121 and Chapter 10's p.252, where the table of contents sets them at pp.122-142 and 253-268; served as printed)
+    printed-page-reversal: 3  # why: reportsthatmatter-gqsy.9.2 (HM Treasury's reissues of Chapters 5, 11 and 23 print their folios 1-21, 1-16 and 1-25, after Chapter 4's p.121, Chapter 10's p.252 and Chapter 22's p.490, where the table of contents sets them at pp.122-142, 253-268 and 491-515; served as printed; Chapter 23 read with pdftotext: first page 1, last 25)
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 1  # why: reportsthatmatter-6uqx (the two unreferenced notes render as a list; 0.1%)
