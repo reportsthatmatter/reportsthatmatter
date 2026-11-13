@@ -6,6 +6,7 @@ appendix-2-disclosure-process
 appendix-3-research-process-and-method
 appendix-4-retained-tissue-following-post-mortem-examination
 appendix-5-freedom-of-information-and-parliamentary-debate
+chapter-1-19811989-unheeded-warnings-the-seeds-of-disaster
 chapter-10-the-315pm-cut-off
 chapter-11-review-and-alteration-of-statements
 chapter-12-behind-the-headlines-the-origins-promotion-and-reproduction-of-unsubs
@@ -33,6 +34,7 @@ part-1-hillsborough-what-was-known
 part-2-hillsborough-what-is-added-to-public-understanding
 part-3-the-permanent-archive-for-the-hillsborough-disaster
 private-prosecution
+protocol-on-disclosure-of-information
 public-access
 report-summary
 research-methodology

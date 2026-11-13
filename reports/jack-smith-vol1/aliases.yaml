@@ -5,27 +5,67 @@
 # reused: an id that now names a different paragraph than it did (movedTo: where the old text went); pending until accepted (hxo4, rf4c).
 # moved_out: an id that kept its paragraph but lost the list/quotation it introduced; value is where that content is now (null: nowhere traceable).
 aliases:
-  ----2-23-2023-oral: 1-9-2023-att-2
+  ----2-23-2023-oral: doc-no-2031508-att-2
+  1-9-2023-att-2: doc-no-2031508-att-2
+  103-10-16-2023: ecf-no-98-10-10
+  105-10-17-2023: ecf-no-98-10-10
+  108-10-18-2023: ecf-no-98-10-10
+  109-10-19-2023: ecf-no-98-10-10
+  11-2-6-2023-show: ecf-no-5-2-2
+  117-10-25-2023: ecf-no-98-10-10
+  118-10-25-2023-notice: ecf-no-98-10-10
+  119-10-25-2023: ecf-no-98-10-10
+  120-10-25-2023: ecf-no-98-10-10
+  137-11-3-2023: ecf-no-98-10-10
+  139-11-6-2023: ecf-no-98-10-10
+  140-11-6-2023: ecf-no-98-10-10
+  141-11-6-2023: ecf-no-98-10-10
+  142-11-6-2023-pending: ecf-no-98-10-10
+  146-11-7-2023: ecf-no-98-10-10
+  147-11-8-2023: ecf-no-98-10-10
+  15-16-2-28-2024: doc-no-6-2-14
   15-2-28-2024: addition-leaks-smith-filed-four
+  152-11-13-2023: ecf-no-151-11-13
+  171-172-12-1-2023: ecf-no-151-11-13
   176see-ecf-no-17-nn: trump-s-false-claims-included
   1should-these-demands-be-improperly: second-draft-repo11-violates-fundamental
-  2-16-2023-government-s: 1-9-2023-att-2
-  2015233-9-5-2023-court: 1-9-2023-att-2
+  2-12-11-2023-certiorari: doc-no-1-12-11
+  2-16-2023-government-s: doc-no-2031508-att-2
+  2-6-2024-court-judgment: doc-no-2030867-12-11
+  2015233-9-5-2023-court: doc-no-2031508-att-2
   2023-long-before-election-office: from-outset-throughout-its-work
   2024-court-held-former-president: october-5-2023-trump-filed
+  26-8-10-2023: ecf-no-1-8-1
+  262-10-16-2024: ecf-no-262-10-16
+  263-10-16-2024-compel: ecf-no-262-10-16
+  265-10-17-2024: ecf-no-262-10-16
+  266-10-18-2024-government: ecf-no-262-10-16
   267justice-sotomayor-who-authored-dissenting: divided-decision-supreme-court-vacated
-  282-283-11-25-2024: court-opinion-order-government-s-2
-  3center-presidential-transition-presidential-transitions: 2-ecf-no-281-6
-  50-2-9-2023-transcript: show-cause-directing-twitter-comply
+  277-10-31-2024-motion: ecf-no-262-10-16
+  278-11-8-2024-government: ecf-no-262-10-16
+  28-8-11-2023: ecf-no-1-8-1
+  281-11-25-2024-government: ecf-no-262-10-16
+  282-283-11-25-2024: ecf-no-262-10-16
+  29-32-3-3-2023: ecf-no-5-2-2
+  50-2-7-2023: ecf-no-5-2-2
+  50-2-9-2023-transcript: ecf-no-5-2-2
+  57-9-15-2023: ecf-no-1-8-1
+  6-2-14-2024: doc-no-6-2-14
+  64-9-29-2023: ecf-no-1-8-1
+  65-10-2-2023: ecf-no-1-8-1
+  66-10-2-2023: ecf-no-1-8-1
   78-sco-00709557-159-sjc-tr: repeated-conversations-day-after-day
   80-million-followers-199-inevitably: throughout-charged-criminal-conspiracies-threats
   80-million-followers-inevitably-threats: throughout-charged-criminal-conspiracies-threats
+  82-10-6-2023-section: ecf-no-1-8-1
+  97-10-10-2023: ecf-no-1-8-1
   99-trump-s-speech-ellipse: during-his-speech-ellipse-trump
   acknowledged-sounded-crazy-before-publicly: trump-s-false-claims-included
   application-twitter-constituted-important-potential-evidence: trump-s-public-statements-and-specifically
+  appointments-appropriations-clauses: ecf-no-262-10-16
   appropriate-cases-counsel-former-president: consistent-analysis-former-department-justice
   associate-deputy-attorney-general: via-email-honorable-merrick-garland
-  att-12: 1-9-2023-att-2
+  att-12: doc-no-2031508-att-2
   attorney-general-united-states-c: via-email-honorable-merrick-garland
   b-trump-not-subject-effective: table-contents-volume-one-election
   because-office-reached-no-final: before-department-concluded-case-must
@@ -33,6 +73,8 @@ aliases:
   biden-be-certified-president-day: trump-s-efforts-remain-power
   capitol-building-107-there-pence: trump-s-urging-thousands-his
   capitol-help-prevent-congress-s: his-ellipse-speech-trump-explicitly
+  case-no-case-name-no: no-22-gj-25-d-d-c
+  cause-195-1-18-2024: ecf-no-151-11-13
   certificates-vote-congress-approached-trump-co-conspirators: december-14-the-date-eca-required
   co-conspirator-2-private-attorney-who: set-forth-original-superseding-indictments
   co-conspirator-5-co-conspirator-1-12: trump-set-fraudulent-elector-plan
@@ -44,13 +86,22 @@ aliases:
   contemporaneous-electronic-messages-between-co-conspirator: 2021-a-briefing-yielded-nothing-support
   country-104-also-told-angry: trump-told-crowd-a-crowd-his
   course-prosecutor-may-point-public: finally-noted-court-s-decision
+  court-memorandum-opinion-order-defendant: ecf-no-151-11-13
+  court-opinion-order-defendant-s: ecf-no-151-11-13
+  court-opinion-order-defendant-s-2: ecf-no-151-11-13
+  court-opinion-order-government-s: ecf-no-151-11-13
+  court-opinion-order-government-s-2: ecf-no-262-10-16
+  court-order-government-s-motion: ecf-no-98-10-10
   crimes-least-six-co-conspirators-office: described-factual-recitation-above-trump
   criminal-state-mind-pretrial-litigation: office-also-expected-trump-might
   d-c-circuit-later-found: same-pattern-transpired-after-trump
   debunked-206-trump-continued-repeat: trump-also-targeted-private-citizens
   department-because-its-criminal-investigations: his-efforts-directly-pressure-state
   differently-context-post-indictment-litigation-first: two-components-department-s-election
-  dismiss-selective-vindictive-prosecution-8: dismiss-selective-vindictive-prosecution-226
+  disclosure-government-44278-court-memorandum: ecf-no-41-11-4
+  disclosure-grand-jury-testimony-29: ecf-no-1-8-1
+  dismiss-selective-vindictive-prosecution-226: ecf-no-151-11-13
+  dismiss-selective-vindictive-prosecution-8: ecf-no-151-11-13
   disregard-reckless-deliberate-indifference-has-deep: because-evidence-showed-trump-knew
   doc-no-2031508-attachment-10: chief-judge-united-states-district
   during-his-speech-ellipse-99: during-his-speech-ellipse-trump
@@ -64,9 +115,21 @@ aliases:
   georgia-143-when-trump-raised: core-trump-s-obstructive-scheme
   georgia-election-sco-12998394-tr-georgia: trump-s-false-claims-included
   getting-pushed-kicked-you-know: people-who-took-trump-his
-  government-s-response-opposition-defendant-4: government-s-response-opposition-defendant-3
+  government-s-motion-formal-pretrial: ecf-no-98-10-10
+  government-s-motion-order-show: ecf-no-5-2-2
+  government-s-opposition-defendant-s-4: ecf-no-151-11-13
+  government-s-opposition-twitter-inc: ecf-no-5-2-2
+  government-s-petition-writ-certiorari: doc-no-1-12-11
+  government-s-proposed-trial-calendar: ecf-no-1-8-1
+  government-s-reply-brief-support: doc-no-1-12-11
+  government-s-reply-defendant-s: ecf-no-1-8-1
+  government-s-reply-support-motion: doc-no-2030867-12-11
+  government-s-response-court-s: ecf-no-1-8-1
+  government-s-response-opposition-defendant-3: ecf-no-262-10-16
+  government-s-response-opposition-defendant-4: ecf-no-262-10-16
   grave-threats-integrity-these-proceedings: protect-integrity-proceedings-september-5
-  grounds-12-5-2023-government: grounds-176-12-5-2023
+  grounds-12-5-2023-government: ecf-no-151-11-13
+  grounds-176-12-5-2023: ecf-no-151-11-13
   hale-cusanelli-no-21-cr-37-ecf-no: after-january-6-when-rioters
   handwritten-notes-12-29-2020: trump-wanted-no-one-else
   honorable-merrick-garland: via-email-honorable-merrick-garland
@@ -87,16 +150,19 @@ aliases:
   memorandum-opinion-mar-15-2023: courts-uniformly-rejected-trump-s
   michael-r-pence-act-contravention: set-forth-original-superseding-indictments
   narrowly-tailored-possible-court-vacated: court-appeals-explained-district-court
+  notice-advice-counsel-defense: ecf-no-98-10-10
   office-collected-more-than-one: employing-traditional-investigative-tools-including
   office-could-not-identify-any: given-strong-federal-interests-holding
   officials-ignore-true-vote-counts: set-forth-original-superseding-indictments
   one-campaign-s-agents-wrote: most-part-co-conspirators-deceived-trump
   ongoing-investigation-into-whether-any: november-18-2022-attorney-general
   ongoing-prosecutions-deoliveira-nauta-which: draft-report-violates-every-one
-  order-10-18-2024-government: 266-10-18-2024-government
+  order-10-18-2024-government: ecf-no-262-10-16
+  originally-filed-trump-v-united: doc-no-6-2-14
   other-federal-state-officials-some-appointed: courts-which-trump-brought-numerous
   pence-discard-legitimate-electoral-certificates: trump-co-conspirators-sought-deprive-that-injure
-  pending-appeal-12-18-2023: pending-appeal-188-12-18
+  pending-appeal-12-18-2023: ecf-no-151-11-13
+  pending-appeal-188-12-18: ecf-no-151-11-13
   pennsylvania-despite-having-been-told: first-expected-trump-would-argue
   persons-conspire-defraud-united-states: defraud-clause-general-conspiracy-statute
   philadelphia-201-threats-against-commissioner: throughout-charged-criminal-conspiracies-threats
@@ -104,29 +170,38 @@ aliases:
   pin-example-because-election-case: during-investigation-prosecution-case-office
   potential-charge-18-u-s: office-considered-ultimately-opted-against
   president-about-certification-proceeding-noting: second-court-s-decision-accorded
-  presidential-immunity-12-22-2023: presidential-immunity-8-12-22
+  presidential-immunity-12-22-2023: doc-no-1-12-11
+  presidential-immunity-8-12-22: doc-no-1-12-11
+  proceedings-pending-appeal-183-12: ecf-no-151-11-13
   proposals-violated-eca-untested-when: january-4-two-days-before
   public-docket-10-2-2024: depaiiment-s-policy-regarding-elections
+  public-docket-252-10-2: ecf-no-151-11-13
   publicly-spreading-false-harmful-social: trump-also-targeted-private-citizens
   rather-office-s-m1ss10n-all: two-components-department-s-election
   rather-presidential-immunity-based-national: preparation-release-report-would-also
+  re-sealed-case-no-23-3001-2: re-sealed-case-no-23-3001
   regarding-election-notice-state-federal: trump-s-false-claims-included
-  reply-briefs-11-17-2023: reply-briefs-158-11-17
+  reply-briefs-11-17-2023: ecf-no-151-11-13
+  reply-briefs-158-11-17: ecf-no-151-11-13
   representative-perry-copy-contents-his: chief-judge-united-states-district
   republic-january-5-after-trump: violence-january-6-foreseeable-trump
   responsibility-their-official-acts-no: before-case-no-court-had
+  review-2031419-12-13-2023: doc-no-2030867-12-11
   running-mate-example-trump-s: core-trump-s-obstructive-scheme
   saying-among-other-things-date: his-efforts-directly-pressure-state
+  seal-file-redacted-motion-public: ecf-no-151-11-13
   see-e-g-united-states: courts-have-found-described-attack
   see-ecf-no-19-nn: trump-engaged-these-efforts-even
-  see-ecf-no-252-142: 119-see-ecf-no-252
   senators-representatives-shall-not-be: speech-debate-clause-provides-any
+  show-cause-directing-twitter-comply: ecf-no-5-2-2
   simply-put-politics-must-play: certiorari-before-judgment-united-states
+  stay-124-10-29-2023: ecf-no-98-10-10
   subcommittee-hearing-12-03-2020: office-concluded-if-trump-chose
   subpoenas-search-warrants-and-subject-same: employing-traditional-investigative-tools-including
   sweeping-claim-presidential-immunity-all: october-5-2023-trump-filed
   their-electoral-votes-co-conspirator-4: december-28-his-secret-communications
   threaten-intimidate-any-person-any: section-241-makes-unlawful-two
+  time-15-8-7-2023: ecf-no-1-8-1
   trump-603-u-s-684-685: during-siege-trump-s-supporters
   trump-co-conspirators-could-not-have: trump-s-false-claims-included
   trump-had-made-clear-his: furthermore-trump-could-not-have
@@ -139,6 +214,10 @@ aliases:
   trump-wanted-trump-told-him: trump-s-efforts-remain-power
   u-s-capitol-police-officer: officers-capitol-understood-if-rioters
   united-states-eggs-mob-mob: trump-also-targeted-private-citizens
+  united-states-v-donald-j-2: united-states-v-donald-j
+  united-states-v-donald-j-3: united-states-v-donald-j
+  united-states-v-donald-j-4: united-states-v-donald-j
+  united-states-v-trump-no-4: united-states-v-trump-no-3
   via-email: via-email-honorable-merrick-garland
   vice-president-pence-told-trump: core-trump-s-obstructive-scheme
   violence-further-delay-service-these: set-forth-original-superseding-indictments
@@ -150,6 +229,7 @@ aliases:
 sections:
   defenses: conspiracy-against-rights-18-usc-241
   final-report-on-the-special-counsels-investigations-and-prosecutions-volume-one-: the-certification-of-the-electoral-college-vote
+  notes-not-linked-in-the-text: delivery-by-hand-2
   obstruction-and-conspiracy-to-obstruct-18-usc-1512k-and-c2: conspiracy-to-defraud-the-united-states-18-usc-371
   prosecuting-mr-trump-served-multiple-substantial-federal-interests: the-principles-of-federal-prosecution
   section-4-filing-and-an-adjournment-of-the-cipa-section-5-deadline: appendix-key-filings-in-significant-litigation-district-court-criminal-litigatio
@@ -157,12 +237,16 @@ sections:
   the-twitterx-search-warrant: investigative-challenges-and-litigation-issues
   twitter-search-warrant-litigation: appendix-key-filings-in-significant-litigation-district-court-criminal-litigatio
 unmatched:
+  - ----2-7-2023
   - 01-06-2021-sco-12918852-video
   - 03036930-joint-statement-election-security
+  - 1-compare-28-u-s
+  - 1-should-these-demands-be
   - 104-see-ecf-no-252
   - 104-see-ecf-no-77-78
   - 118-see-ecf-no-252
   - 118-see-ecf-no-79
+  - 119-see-ecf-no-252
   - 11maggie-haberman-et-al-trump
   - 12alan-feuer-special-counsel-said
   - 14-ecf-no-252-united
@@ -172,6 +256,7 @@ unmatched:
   - 199-see-ecf-no-18
   - 199-see-ecf-no-252
   - 2-congressional-record-01-06
+  - 2-ecf-no-281-6
   - 2-ecf-no-6-united
   - "2031508"
   - 206-sco-04952956-tweet-12-04
@@ -184,17 +269,32 @@ unmatched:
   - 213see-ecf-no-252-77
   - 213see-ecf-no-77-nn
   - 228-sco-11520948-150-152-int-tr
+  - 3-center-presidential-transition-presidential
   - 32-33-nn-159-160-nn-189-191
+  - 3center-presidential-transition-presidential-transitions
+  - 4-ecf-no-281-6
+  - 42-43-277-12-28
+  - 45279-2-24-2023-court
   - 4ecf-no-281-6-united
   - 4ecf-no-6-united-states
+  - 61-9-2712023
   - 7the-future-independent-counsel-act
   - 8the-future-independent-counsel-act
+  - 9-reauthorization-independent-counsel-statute
   - additional-filings-matter-have-been
   - capitol-hill-viole-nee-lhe
   - department-justice-employees-are-entrusted
   - department-justice-has-strong-interest
   - doc-no-date-document-descriqtion
   - ecf-no-252-48-49-nn
+  - ecf-no-date-document-descri
+  - ecfno-date-document-descrigtion-41276
+  - government-s-motion-leave-file
+  - government-s-opposition-defendant-s
+  - government-s-opposition-defendant-s-2
+  - government-s-opposition-defendant-s-3
+  - government-s-response-opposition-defendant
+  - government-s-response-opposition-defendant-2
   - hsc-hearing
   - hsc-hearing-204-sco-11507432-46-50
   - if-you-are-faced-question
@@ -212,16 +312,22 @@ unmatched:
   - legislature-determine-whether-already-certified-election
   - making-because-numbers-touted-for-instance
   - nonetheless-trump-continued-circumvent-justice
+  - order
   - page-5-baseless-attacks-other
   - page-9
   - page-9-added-reporting-requirement
   - para
+  - prejudice
+  - presidential-imlvfunity-appellate-litigation
+  - procedures
   - rally-01-06-2021-105see
   - sco-00029113-sco-12738292-sco-12806977-04-30
   - sco-00456209-sco-12987659-donald-j-trump
+  - sealed-280-debate-clause
   - see-ecf-no-142-nn
   - see-ecf-no-15-nn
   - see-ecf-no-25-26-nn
+  - see-ecf-no-252-142
   - see-ecf-no-252-38
   - see-ecf-no-252-43
   - see-ecf-no-252-5
@@ -240,10 +346,9 @@ unmatched:
   - trump-v-eiden-394-wis
   - wsj-editorial-board-jack-smith
 moved_out:
-  3-center-presidential-transition-presidential: null
-  4-ecf-no-281-6: null
   cc-jack-smith-special-counsel: null
   december-11-2024-we-contacted: null
   draft-report-violates-every-one: null
   extent-special-counsel-smith-possesses: null
   preparation-release-report-would-also: null
+  trump-v-united-states-no: doc-no-6-2-14

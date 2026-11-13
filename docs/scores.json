@@ -1,22 +1,22 @@
 {
- "ingest": "v0.33.0",
+ "ingest": "v0.37.0",
  "reports": {
   "columbia-accident": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
-    "boundary_p": 0.8942583732057416,
-    "boundary_r": 0.8866223908918406,
-    "boundary_f1": 0.8904240114340161,
-    "join_all": 0.9541984732824428,
-    "join_all_n": 131,
-    "join_high": 0.978494623655914,
-    "join_high_n": 93,
-    "join_adj_ours_wrong": 5,
+    "boundary_p": 0.9522357723577236,
+    "boundary_r": 0.8889943074003795,
+    "boundary_f1": 0.9195289499509323,
+    "join_all": 0.9485294117647058,
+    "join_all_n": 136,
+    "join_high": 0.9591836734693877,
+    "join_high_n": 98,
+    "join_adj_ours_wrong": 4,
     "join_adj_judged": 29,
     "marker_p": null,
     "marker_r": null,
-    "wer": 0.006618877333420819,
+    "wer": 0.005856107083100948,
     "wer_ref_coverage": 0.7635712317442822,
     "wer_pages": null,
     "wer_pages_n": null,
@@ -27,19 +27,19 @@
     "ref_unusable_rate": 0.034482758620689655
    },
    "previous": {
-    "boundary_p": 0.89375,
-    "boundary_r": 0.8827160493827161,
-    "boundary_f1": 0.8881987577639752,
-    "join_all": 0.9538461538461539,
-    "join_all_n": 130,
-    "join_high": 0.9782608695652174,
-    "join_high_n": 92,
-    "join_adj_ours_wrong": 5,
+    "boundary_p": 0.9424424424424425,
+    "boundary_r": 0.8932637571157496,
+    "boundary_f1": 0.9171943497320995,
+    "join_all": 0.9481481481481482,
+    "join_all_n": 135,
+    "join_high": 0.9587628865979382,
+    "join_high_n": 97,
+    "join_adj_ours_wrong": 4,
     "join_adj_judged": 29,
     "marker_p": null,
     "marker_r": null,
-    "wer": 0.006627948945106146,
-    "wer_ref_coverage": 0.7634710288333876,
+    "wer": 0.00588071257504675,
+    "wer_ref_coverage": 0.7635712317442822,
     "wer_pages": null,
     "wer_pages_n": null,
     "page_marker_p": null,
@@ -51,7 +51,7 @@
   },
   "uk-chilcot-inquiry": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.9942763695829926,
     "boundary_r": 0.7875647668393783,
@@ -99,7 +99,7 @@
   },
   "uk-covid-inquiry-module-2": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.8751617076326003,
     "boundary_r": 0.9471473573678684,
@@ -126,7 +126,7 @@
   },
   "uk-grenfell-tower-inquiry": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.9896907216494846,
     "boundary_r": 0.8414342629482072,
@@ -174,8 +174,30 @@
   },
   "uk-hillsborough-panel": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
+    "boundary_p": 0.9200675485505206,
+    "boundary_r": 0.9879117558174675,
+    "boundary_f1": 0.9527834450597492,
+    "join_all": 0.9389920424403183,
+    "join_all_n": 377,
+    "join_high": 0.963963963963964,
+    "join_high_n": 333,
+    "join_adj_ours_wrong": 0,
+    "join_adj_judged": 30,
+    "marker_p": 0.9990393852065321,
+    "marker_r": 0.994263862332696,
+    "wer": 0.0017050024127392633,
+    "wer_ref_coverage": 0.9993034719245607,
+    "wer_pages": null,
+    "wer_pages_n": null,
+    "page_marker_p": null,
+    "page_marker_r": null,
+    "ref_error_rate": null,
+    "ref_no_answer_rate": null,
+    "ref_unusable_rate": null
+   },
+   "previous": {
     "boundary_p": 0.912,
     "boundary_r": 0.9108789182544561,
     "boundary_f1": 0.9114391143911439,
@@ -197,33 +219,11 @@
     "ref_no_answer_rate": null,
     "ref_unusable_rate": null
    },
-   "previous": {
-    "boundary_p": 0.9114391143911439,
-    "boundary_r": 0.9108789182544561,
-    "boundary_f1": 0.91115893021826,
-    "join_all": 0.9204244031830239,
-    "join_all_n": 377,
-    "join_high": 0.9459459459459459,
-    "join_high_n": 333,
-    "join_adj_ours_wrong": 0,
-    "join_adj_judged": 30,
-    "marker_p": 0.9990393852065321,
-    "marker_r": 0.994263862332696,
-    "wer": 0.0017050024127392633,
-    "wer_ref_coverage": 0.9992499330297347,
-    "wer_pages": null,
-    "wer_pages_n": null,
-    "page_marker_p": null,
-    "page_marker_r": null,
-    "ref_error_rate": null,
-    "ref_no_answer_rate": null,
-    "ref_unusable_rate": null
-   },
    "adapter": {
     "metrics": {
-     "boundary_p": 0.873301737756714,
-     "boundary_r": 0.8979857050032488,
-     "boundary_f1": 0.8854717283357358,
+     "boundary_p": 0.8754658385093168,
+     "boundary_r": 0.9158544509421702,
+     "boundary_f1": 0.8952048269291839,
      "join_all": 0.9378531073446328,
      "join_all_n": 354,
      "join_high": 0.9490445859872612,
@@ -252,9 +252,9 @@
      "join_high_n": 314,
      "join_adj_ours_wrong": 1,
      "join_adj_judged": 30,
-     "marker_p": 0.983273596176822,
-     "marker_r": 0.834685598377282,
-     "wer": 0.0018849672480030955,
+     "marker_p": 0.9800469483568075,
+     "marker_r": 0.8468559837728195,
+     "wer": 0.0017136065890937231,
      "wer_ref_coverage": 0.9773365748244193,
      "wer_pages": null,
      "wer_pages_n": null,
@@ -268,7 +268,7 @@
   },
   "uk-post-office-horizon-inquiry": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.9908361970217641,
     "boundary_r": 0.9105263157894737,
@@ -316,7 +316,7 @@
   },
   "uk-saville-inquiry": {
    "set": "development",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.8159908186687069,
     "boundary_r": 0.9920930232558139,
@@ -389,7 +389,7 @@
   },
   "uk-southport-inquiry": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.747870528109029,
     "boundary_r": 0.3475851148060174,
@@ -441,7 +441,7 @@
   },
   "uk-thirlwall-inquiry": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.9818181818181818,
     "boundary_r": 0.7636363636363637,
@@ -489,7 +489,7 @@
   },
   "us-911-commission": {
    "set": "development",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.9360086767895879,
     "boundary_r": 0.9417970170971263,
@@ -583,7 +583,7 @@
   },
   "us-duelfer-report": {
    "set": "held-out",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.8098833218943033,
     "boundary_r": 0.677382319173364,
@@ -610,7 +610,7 @@
   },
   "us-v-philip-morris": {
    "set": "development",
-   "ingest": "v0.33.0",
+   "ingest": "v0.37.0",
    "metrics": {
     "boundary_p": 0.986100950987564,
     "boundary_r": 0.9877870053737177,

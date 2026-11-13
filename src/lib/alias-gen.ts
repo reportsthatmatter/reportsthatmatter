@@ -11,6 +11,7 @@
  */
 import * as pinned from "@rtm/ingest";
 import { followAlias } from "./aliases";
+import type { Reserved, ReservedEntry } from "./reserved-ids";
 
 /** The two ingest functions the generator needs; the old side of a move is rendered by the OLD pin's copy (hxo4). */
 export type Ingest = Pick<typeof pinned, "renderArtifacts" | "extractPassages">;
@@ -63,22 +64,32 @@ const plain = (html: string) =>
     .replace(/\s+/g, " ")
     .trim();
 
-/** For each citable id, the text between the end of its element and the next id'd element (an ordered list, a quotation). */
+/**
+ * For each citable id, the text between the end of its element and the next id'd element (an ordered list, a
+ * quotation), up to the next heading: a heading's words are not the paragraph's, and read on into the paragraph
+ * under it they made the paragraph above the match for an old one that opened on that heading ("Arbitration
+ * Service 22. The Board should…" went to the paragraph before the heading, Leveson, reportsthatmatter-r0w).
+ */
 function introducedBlocks(html: string): Map<string, string> {
   const starts = [...html.matchAll(UNIT_START)];
   const out = new Map<string, string>();
   starts.forEach((m, i) => {
     const end = html.indexOf(`</${m[1]}>`, m.index) + m[1].length + 3;
-    const block = plain(html.slice(end, i + 1 < starts.length ? starts[i + 1].index : html.length));
+    const between = html.slice(end, i + 1 < starts.length ? starts[i + 1].index : html.length);
+    const heading = between.search(/<h[1-6]\b/);
+    const block = plain(heading >= 0 ? between.slice(0, heading) : between);
     if (block) out.set(m[2], block);
   });
   return out;
 }
 
-/** Every citable passage of a report's markdown, in order, with its section. */
-export function render(markdown: string, ingest: Ingest = pinned): Rendered {
+/**
+ * Every citable passage of a report's markdown, in order, with its section. `reserved` is the report's reserved-ids
+ * list (efso) as of the same text; an ingest older than v0.37.0 ignores it, which is how that text was served.
+ */
+export function render(markdown: string, ingest: Ingest = pinned, reserved: readonly Reserved[] = []): Rendered {
   const { renderArtifacts, extractPassages } = ingest;
-  const { meta, fragments } = renderArtifacts(markdown);
+  const { meta, fragments } = (renderArtifacts as (m: string, o?: { reserved?: readonly Reserved[] }) => ReturnType<typeof renderArtifacts>)(markdown, reserved.length ? { reserved } : undefined);
   const passages: Passage[] = [];
   const headings: Record<string, string> = {};
   const headingTexts: { text: string; next: string }[] = [];
@@ -104,7 +115,8 @@ const norm = (t: string) => t.toLowerCase().normalize("NFKD").replace(/[^\p{L}\p
 
 /** Finds where a piece of old text sits in the new text: the id of the new paragraph holding it, or null. */
 function locator(after: Rendered) {
-  let stream = "";
+  // (a leading space, so every word in the stream has one before it and a probe matches whole words only)
+  let stream = " ";
   const starts: { at: number; id: string }[] = [];
   for (const p of after.passages) {
     starts.push({ at: stream.length, id: p.id });
@@ -121,10 +133,13 @@ function locator(after: Rendered) {
     }
     return starts[lo].id;
   };
+  // Whole words: a probe opening on a stray letter must not match inside a word ("E 5.8 Another…" found "releas|e 5 8
+  // another…" across the end of the paragraph before, Leveson r0w).
   const once = (probe: string) => {
     if (!probe) return -1;
-    const i = stream.indexOf(probe);
-    return i >= 0 && stream.indexOf(probe, i + 1) < 0 ? i : -1;
+    const word = ` ${probe} `;
+    const i = stream.indexOf(word);
+    return i >= 0 && stream.indexOf(word, i + 1) < 0 ? i + 1 : -1;
   };
   return (text: string): string | null => {
     const words = norm(text).split(" ");
@@ -140,11 +155,16 @@ function locator(after: Rendered) {
       }
       if (found >= 0) return idAt(found);
     }
-    for (const k of [12, 8, 6, 4]) {
-      if (words.length < k && k !== 4) continue;
+    for (const k of [12, 8, 6]) {
+      if (words.length < k) continue;
       found = once(words.slice(0, k).join(" "));
       if (found >= 0) break;
     }
+    // A heading or a stray letter the old text ran into the paragraph's opening ("Arbitration Service 22. The Board…",
+    // a thumb-index letter "E 5.8 Another aspect…", Leveson r0w): the paragraph as it opens now, a few words in. Tried
+    // before the four-word probe, which such a letter can match by chance ("i.e." / "E 5.8 Another" reads "i e 5 8 another").
+    for (let j = 1; found < 0 && j <= 4 && words.length - j >= 8; j++) found = once(words.slice(j, j + 8).join(" "));
+    if (found < 0) found = once(words.slice(0, 4).join(" "));
     if (found < 0 && words.length >= 10) {
       const mid = Math.floor(words.length / 2);
       found = once(words.slice(mid, mid + 8).join(" "));
@@ -177,15 +197,30 @@ export function computeMoves(before: Rendered, after: Rendered) {
     const same = gone.get(t) ?? [];
     return hits.length > 1 && same.length === hits.length ? hits[same.indexOf(id)].next : null;
   };
+  // A text printed more than once ("Key Messages" in every chapter, a reference cited in two): the paragraph with the
+  // same text followed by the same passage, else the same text in the same section, when only one has it. This is
+  // where a reserved id that lost its paragraph to an older one went (efso).
+  const byContext = new Map<string, string[]>();
+  after.passages.forEach((p, i) => {
+    for (const key of [`n|${norm(p.text)}|${norm(after.passages[i + 1]?.text ?? "")}`, `s|${norm(p.text)}|${p.section}`]) byContext.set(key, [...(byContext.get(key) ?? []), p.id]);
+  });
+  const inContext = (i: number): string | null => {
+    const old = before.passages[i];
+    for (const key of [`n|${norm(old.text)}|${norm(before.passages[i + 1]?.text ?? "")}`, `s|${norm(old.text)}|${old.section}`]) {
+      const hits = byContext.get(key) ?? [];
+      if (hits.length === 1) return hits[0];
+    }
+    return null;
+  };
   const moved: Record<string, string> = {};
   const lost: string[] = [];
   let kept = 0;
-  for (const old of before.passages) {
+  for (const [i, old] of before.passages.entries()) {
     if (live.has(old.id)) {
       kept++;
       continue;
     }
-    const to = becameHeading(old.id, old.text) ?? locate(old.text);
+    const to = becameHeading(old.id, old.text) ?? locate(old.text) ?? inContext(i);
     if (to) moved[old.id] = to;
     else lost.push(old.id);
   }
@@ -331,6 +366,12 @@ export function mergeAliases(base: AliasFile, head: AliasFile): AliasFile {
 }
 
 export const idsOf = (r: Rendered) => r.passages.map((p) => p.id);
+
+/** What publishing `r` records in reserved-ids.txt (efso): each id's section, its text's fingerprint and the next passage's, first recorded `since`. */
+export function reservedOf(r: Rendered, since: string, fingerprint: (text: string) => string): ReservedEntry[] {
+  const fps = r.passages.map((p) => fingerprint(p.text));
+  return r.passages.map((p, i) => ({ id: p.id, section: p.section, fingerprint: fps[i], next: fps[i + 1] ?? "", since }));
+}
 export const slugsOf = (r: Rendered) => r.sections.map((s) => s.slug);
 
 /** Marks every pending reuse accepted (somebody read the list and fixed what cited those ids). */

@@ -65,18 +65,18 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 2  # why: reportsthatmatter-4ofu (the same pages' structure change; gap 1.5 points)
   columbia-accident:
-    severed-into-quote: 40
-    severed-paragraph: 70
+    severed-into-quote: 26
+    severed-paragraph: 11
     bare-footnote-marker: 2
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
     note-definition-unreferenced: 5  # why: reportsthatmatter-b78.10 baseline
     note-reference-sequence: 7
-    note-text-in-body: 7
+    note-text-in-body: 0
     note-citation-vocabulary: 0
     furniture-paragraph: 11
-    contents-entry-without-heading: 67
+    contents-entry-without-heading: 37
     heading-density: 1
     heading-repeated: 3  # why: reportsthatmatter-wck (typographicHeadings: the subhead "Conclusion" now stands as a heading in three chapters; each is real, +1)
     heading-function-word: 2
@@ -88,32 +88,32 @@ reports:
     rendered-ol-words-share: 1
     numbered-prose-list: 2
     ids-per-1k-words: 0
-    quote-share-parity: 5  # why: reportsthatmatter-98u (speakerTurns joins the wrapped transcript lines to their turns, so the transcript turns leave their quotation blocks (severed-into-quote 54 to 40), there are fewer blocks and the share on both sides rises: 10.0% even, 14.0% odd, gap 4.0; no quotation added) and reportsthatmatter-izw (the ENDNOTES pages' note text left the body, so quotations are 9.6% of blocks on even pages and 13.1% on odd; no quotation was added or lost)
+    quote-share-parity: 2
   jack-smith-vol1:
-    severed-into-quote: 2
+    severed-into-quote: 0
     severed-paragraph: 5
     bare-footnote-marker: 0
     bare-marker-after-quote: 1  # why: reportsthatmatter-4ef1 (new signal, counted at its introduction)
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 10  # why: reportsthatmatter-b78.10 baseline
-    note-reference-sequence: 14
-    note-text-in-body: 8
+    note-definition-unreferenced: 2
+    note-reference-sequence: 4
+    note-text-in-body: 2
     note-citation-vocabulary: 0
     furniture-paragraph: 0
     contents-entry-without-heading: 9
     heading-density: 0
     heading-repeated: 0
     heading-function-word: 0
-    heading-marker: 0
+    heading-marker: 3  # why: reportsthatmatter-pq0, -npg3 (the PDF prints notes 1, 248 and 274 on three headings, 'I. THE RESULTS OF THE INVESTIGATION1'; the markers were dropped and the notes orphaned, now linked by corrections c-0008..c-0010, rendered as sidenotes)
     heading-long: 1
     printed-page-reversal: 2
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 2
+    rendered-ol-words-share: 1
     numbered-prose-list: 1
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: reportsthatmatter-ssfk (the letter's pages are numbered from their own heads now, so its quotations change page parity: 14.4% even vs 16.4% odd; no quotation added or lost)
+    quote-share-parity: 3  # why: reportsthatmatter-05c (the appendix tables' wrapped descriptions were 39 spurious quotations; with them gone as list rows, quotations are 8.7% of blocks on even pages, 6.7% on odd; no real quotation added or lost) and reportsthatmatter-ssfk (the letter's pages numbered from their own heads)
   litvinenko-inquiry:
     severed-into-quote: 67
     severed-paragraph: 6
@@ -240,7 +240,7 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 1
   uk-leveson-inquiry:
-    severed-into-quote: 145
+    severed-into-quote: 30
     severed-paragraph: 14
     bare-footnote-marker: 6
     bare-marker-after-quote: 1
@@ -250,20 +250,20 @@ reports:
     note-reference-sequence: 11
     note-text-in-body: 1
     note-citation-vocabulary: 0
-    furniture-paragraph: 140
-    contents-entry-without-heading: 1287
-    heading-density: 0
-    heading-repeated: 3
-    heading-function-word: 1
-    heading-marker: 1  # why: reportsthatmatter-qai (thumbIndexNotes reads the chapter title's own note: "Chapter 4: The Conservative Revival and the Coalition1" was a bare digit, now [^1], the note the PDF prints on that heading; rendered as a sidenote, read)
-    heading-long: 0
+    furniture-paragraph: 93
+    contents-entry-without-heading: 158
+    heading-density: 1  # why: reportsthatmatter-r0w (headings read off the faces: 1,331 headings over 2,022 pages, 66 per 100; the layout oracle expects 1,354, so the report is that dense: Part, chapter, numbered section and two subhead levels)
+    heading-repeated: 23  # why: reportsthatmatter-r0w (every chapter opens on '1. Introduction' and closes on 'Conclusion'; each newspaper group has its 'History' and 'Governance structures'; each volume's contents heads 'Volume I'-'Volume IV'. Read: all printed so)
+    heading-function-word: 0
+    heading-marker: 3  # why: reportsthatmatter-qai (thumbIndexNotes reads the chapter title's own note: "Chapter 4: The Conservative Revival and the Coalition1" was a bare digit, now [^1], the note the PDF prints on that heading; rendered as a sidenote, read); reportsthatmatter-r0w ("Inquiry Team" note 1 and "Neil Wallis' daughter" note 707 are printed on their headings too, now headings)
+    heading-long: 14  # why: reportsthatmatter-r0w (14 headings over 14 words, read: 12 are printed so, e.g. '3. June 2010 – December 2010: The Rt Hon Dr Vince Cable MP and the Department for Business, Innovation and Skills'; 2 are two stacked subheads in one face welded, beaded)
     printed-page-reversal: 1
     rendered-h1: 0
-    chapter-intro-misfiled: 1
+    chapter-intro-misfiled: 0
     rendered-ol-words-share: 1
-    numbered-prose-list: 26  # why: reportsthatmatter-u00i (footnoteRestarts reads 97 chapter-opening notes out of the body: bare-footnote-marker 101 -> 39, note-text-in-body 13 -> 1; the paragraphs around them regroup, +1 here, excerpts read)
+    numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 2  # why: reportsthatmatter-fkx (facingPageMargins: quotations 20.9% of blocks on even pages, 19.5% on odd, gap 1.4; no side-of-spread defect, which reads ~90 (Deepwater). The share rose on both sides because 2,595 oversplit fragments rejoined and quotations the gutter had made prose are quotations again: oracle quotes-missed 1,242 -> 657, quotes-spurious 319 -> 256)
+    quote-share-parity: 1
   uk-post-office-horizon-inquiry:
     severed-into-quote: 5  # why: reportsthatmatter-gqsy.2 (first ingest; quotations run on from their lead-in)
     severed-paragraph: 0
@@ -346,21 +346,21 @@ reports:
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 0
-    note-reference-sequence: 0
+    note-definition-unreferenced: 4  # why: reportsthatmatter-6uqx (Ch3 notes 9 and 10, Ch9 note 25 and Ch10 note 4 are cited only inside a table that is not served: Box 3.2 p.61, pp.219, 243)
+    note-reference-sequence: 3  # why: reportsthatmatter-6uqx (the same four notes, in three chapters' runs)
     note-text-in-body: 0
     note-citation-vocabulary: 0
-    furniture-paragraph: 0
+    furniture-paragraph: 11  # why: reportsthatmatter-gqsy.9.2 ("Key Messages", the printed title of the box at the head of each of the eleven chapters, not furniture)
     contents-entry-without-heading: 0
     heading-density: 0
-    heading-repeated: 0
+    heading-repeated: 1  # why: reportsthatmatter-gqsy.9.2 ("References" closes each chapter, as printed)
     heading-function-word: 0
     heading-marker: 0
-    heading-long: 0
-    printed-page-reversal: 0
+    heading-long: 3  # why: reportsthatmatter-gqsy.9.2 (three section headings printed that long, each read against its page: 4.3 p.100, 4.5 p.107, 7.5 p.183)
+    printed-page-reversal: 1  # why: reportsthatmatter-gqsy.9.2 (HM Treasury's reissue of Chapter 5 prints its folios 1-21 after Chapter 4's p.121, where the table of contents sets it at pp.122-142; served as printed)
     rendered-h1: 0
     chapter-intro-misfiled: 0
-    rendered-ol-words-share: 0
+    rendered-ol-words-share: 1  # why: reportsthatmatter-6uqx (the two unreferenced notes render as a list; 0.1%)
     numbered-prose-list: 0
     ids-per-1k-words: 0
     quote-share-parity: 0

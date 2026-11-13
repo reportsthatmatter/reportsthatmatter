@@ -25,6 +25,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { renderArtifacts } from "@rtm/ingest";
+import { loadReserved } from "../src/lib/reserved-ids";
 import { assertFresh } from "./prerender-stamp.mjs";
 import { measure } from "../src/lib/quality/index.ts";
 import { SIGNALS } from "../src/lib/quality/signals.ts";
@@ -76,7 +77,7 @@ function load(report, file) {
     html = readFileSync(join(dir, "full-body.html"), "utf8");
     meta = JSON.parse(readFileSync(join(dir, "meta.json"), "utf8"));
   } else {
-    ({ meta, fullBody: html } = renderArtifacts(markdown));
+    ({ meta, fullBody: html } = renderArtifacts(markdown, { reserved: loadReserved(root, report.id) }));
   }
   return { markdown, html, meta, citationVocabulary: file.reports[report.id]?.citationVocabulary, reference: loadReference(report.id) };
 }

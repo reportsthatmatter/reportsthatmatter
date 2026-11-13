@@ -1,6 +1,6 @@
 {
-  "words": 203870,
-  "paragraphs": 2755,
+  "words": 203926,
+  "paragraphs": 2809,
   "sections": [
     {
       "slug": "front-matter",
@@ -95,8 +95,14 @@
     {
       "slug": "part-2-hillsborough-what-is-added-to-public-understanding",
       "title": "Part 2: Hillsborough: 'what is added to public understanding'",
-      "paragraphs": 128,
-      "ids": "588c0e33613a"
+      "paragraphs": 7,
+      "ids": "42a1886fd0ed"
+    },
+    {
+      "slug": "chapter-1-19811989-unheeded-warnings-the-seeds-of-disaster",
+      "title": "Chapter 1: 1981–1989: unheeded warnings, the seeds of disaster",
+      "paragraphs": 120,
+      "ids": "6cfe3425994c"
     },
     {
       "slug": "chapter-2-the-moment-of-1989",
@@ -113,8 +119,8 @@
     {
       "slug": "chapter-4-emergency-response-and-aftermath-routinely-requested-to-attend",
       "title": "Chapter 4: Emergency response and aftermath: 'routinely requested to attend'",
-      "paragraphs": 212,
-      "ids": "7f4729c302ef"
+      "paragraphs": 224,
+      "ids": "a7a8ef83da3a"
     },
     {
       "slug": "chapter-5-medical-evidence-the-testimony-of-the-dead",
@@ -143,14 +149,14 @@
     {
       "slug": "chapter-9-the-generic-hearing-judicial-review-and-continuing-controversies",
       "title": "Chapter 9: The generic hearing, Judicial Review and continuing controversies",
-      "paragraphs": 129,
-      "ids": "d4e619094672"
+      "paragraphs": 154,
+      "ids": "6fbe90658747"
     },
     {
       "slug": "chapter-10-the-315pm-cut-off",
       "title": "Chapter 10: The 3.15pm cut-off",
-      "paragraphs": 144,
-      "ids": "a5775950c7ba"
+      "paragraphs": 161,
+      "ids": "6c37149fbc4d"
     },
     {
       "slug": "chapter-11-review-and-alteration-of-statements",
@@ -161,8 +167,8 @@
     {
       "slug": "chapter-12-behind-the-headlines-the-origins-promotion-and-reproduction-of-unsubs",
       "title": "Chapter 12: Behind the headlines: the origins, promotion and reproduction of unsubstantiated allegations",
-      "paragraphs": 207,
-      "ids": "75c9a7ce054f"
+      "paragraphs": 208,
+      "ids": "5ab96d73299d"
     },
     {
       "slug": "part-3-the-permanent-archive-for-the-hillsborough-disaster",
@@ -191,8 +197,14 @@
     {
       "slug": "appendix-1-hillsborough-independent-panel-terms-of-reference",
       "title": "Appendix 1: Hillsborough Independent Panel terms of reference",
-      "paragraphs": 39,
-      "ids": "f4dc45839f08"
+      "paragraphs": 7,
+      "ids": "1bd35ccfb1ea"
+    },
+    {
+      "slug": "protocol-on-disclosure-of-information",
+      "title": "Protocol on Disclosure of Information",
+      "paragraphs": 32,
+      "ids": "5de065a18a1b"
     },
     {
       "slug": "appendix-2-disclosure-process",

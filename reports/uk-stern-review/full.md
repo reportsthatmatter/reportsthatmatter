@@ -1,11 +1,11 @@
 ---
-title: "Stern Review: The Economics of Climate Change: Executive Summary"
+title: "Stern Review: The Economics of Climate Change"
 authors: "Nicholas Stern (HM Treasury)"
 published_at: "30 October 2006"
 source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
-pages: 27
-footnotes: 5
-corrections: 3
+pages: 299
+footnotes: 553
+corrections: 47
 ---
 
 %%page i%%
@@ -480,7 +480,7 @@ Donors and multilateral development institutions should mainstream and support a
 
 In addition, efforts should be increased to build public-private partnerships for climate-related insurance; and to strengthen mechanisms for improving risk management and preparedness, disaster response and refugee resettlement.
 
-Strong and early mitigation has a key role to play in limiting the long- run costs of adaptation. Without this, the costs of adaptation will rise dramatically.
+Strong and early mitigation has a key role to play in limiting the long-run costs of adaptation. Without this, the costs of adaptation will rise dramatically.
 
 ***Building and sustaining collective action is now an urgent challenge.***
 
@@ -502,6 +502,4888 @@ The policy tools exist to create the incentives required to change investment pa
 
 Above all, reducing the risks of climate change requires collective action. It requires co-operation between countries, through international frameworks that support the achievement of shared goals. It requires a partnership between the public and private sector, working with civil society and with individuals. It is still possible to avoid the worst impacts of climate change; but it requires strong and urgent collective action. Delay would be costly and dangerous.
 
+%%page i#2%%
+
+## Preface
+
+This Review was announced by the Chancellor of the Exchequer in July 2005. The Review set out to provide a report to the Prime Minister and Chancellor by Autumn 2006 assessing:
+
+- the economics of moving to a low-carbon global economy, focusing on the medium to long-term perspective, and drawing implications for the timescales for action, and the choice of policies and institutions;
+- the potential of different approaches for adaptation to changes in the climate; and
+- specific lessons for the UK, in the context of its existing climate change goals.
+
+The terms of reference for the Review included a requirement to consult broadly with stakeholders and to examine the evidence on:
+
+- the implications for energy demand and emissions of the prospects for economic growth over the coming decades, including the composition and energy intensity of growth in developed and developing countries;
+- the economic, social and environmental consequences of climate change in both developed and developing countries, taking into account the risks of increased climate volatility and major irreversible impacts, and the climatic interaction with other air pollutants, as well as possible actions to adapt to the changing climate and the costs associated with them;
+- the costs and benefits of actions to reduce the net global balance of greenhouse gas emissions from energy use and other sources, including the role of land-use changes and forestry, taking into account the potential impact of technological advances on future costs; and
+- the impact and effectiveness of national and international policies and arrangements in reducing net emissions in a cost-effective way and promoting a dynamic, equitable and sustainable global economy, including distributional effects and impacts on incentives for investment in cleaner technologies.
+
+### Overall approach to the Review
+
+We have taken a broad view of the economics required to understand the challenges of climate change. Wherever possible, we have based our Review on gathering and structuring existing research material.
+
+Submissions to the Review were invited from 10 October 2005 to 15 January 2006. Sir Nicholas Stern set out his initial views on the approach to the Review in the Oxonia lecture on 31 January 2006, and invited further responses to this lecture up to 17 March 2006.
+
+During the Review, Sir Nicholas and members of the team visited a number of key countries and institutions, including Brazil, Canada, China, the European Commission, France, Germany, India, Japan, Mexico, Norway, Russia, South Africa and the USA. These visits and work in the UK have included a wide range of interactions, including with economists, scientists, policy-makers, business and NGOs.
+
+%%page ii#2%%
+
+The report also draws on the analysis prepared for the International Energy Agency publications "Energy Technology Perspectives" and "World Energy Outlook 2006".
+
+There is a solid basis in the literature for the principles underlying our analysis. The scientific literature on the impacts of climate change is evolving rapidly, and the economic modelling has yet to reflect the full range of the new evidence.
+
+In some areas, we found that existing literature did not provide answers. In these cases, we have conducted some of our own research, within the constraints allowed by our timetable and resources. We also commissioned some papers and analysis to feed into the Review. A full list of commissioned work and links to the papers are at www.sternreview.org.uk
+
+### Acknowledgements
+
+The team was led by Siobhan Peters. Team members included Vicki Bakhshi, Alex Bowen, Catherine Cameron, Sebastian Catovsky, Di Crane, Sophie Cruickshank, Simon Dietz, Nicola Edmondson, Su-Lin Garbett, Lorraine Hamid, Gideon Hoffman, Daniel Ingram, Ben Jones, Nicola Patmore, Helene Radcliffe, Raj Sathiyarajah, Michelle Stock, Chris Taylor, Tamsin Vernon, Hannah Wanjie, and Dimitri Zenghelis.
+
+We are very grateful to the following organisations for their invaluable contributions throughout the course of the Review: Vicky Pope and all those who have helped us at the Hadley Centre for Climate Prediction; Claude Mandil, Fatih Birol and their team at the International Energy Agency; Francois Bourguignon, Katherine Sierra, Ken Chomitz, Maureen Cropper, Ian Noble and all those who have lent their support at the World Bank; the OECD, EBRD, IADB, and UNEP; Rajendra Pachauri, Bert Metz, Martin Parry and others at the IPCC; Chatham House; as well as Martin Rees and the Royal Society.
+
+Many government departments and public bodies have supported our work, with resources, ideas and expertise. We are indebted to them. They include: HM Treasury, Cabinet Office, Department for Environment Food and Rural Affairs, Department of Trade and Industry, Department for International Development, Department for Transport, Foreign and Commonwealth Office, and the Office of Science and Innovation. We are also grateful for support and assistance from the Bank of England and the Economic and Social Research Council, and for advice from the Environment Agency and Carbon Trust.
+
+We owe thanks to the academics and researchers with whom we have worked closely throughout the Review. A special mention goes to Dennis Anderson who contributed greatly to our understanding of the costs of energy technologies and of technology policy, and has provided invaluable support and advice to the team. Special thanks too to Halsey Rogers and to Tony Robinson who worked with us to edit drafts of the Review. And we are very grateful to: Neil Adger, Sudhir Anand, Nigel Arnell, Terry Barker, John Broome, Andy Challinor, Paul Collier, Sam Fankhauser, Michael Grubb, Roger Guesnerie, Cameron Hepburn, Dieter Helm, Claude Henry, Chris Hope, Paul Johnson, Paul Klemperer, Robert May, David Newbery, Robert Nicholls, Peter Sinclair, Julia Slingo, Max Tse, Rachel Warren and Adrian Wood.
+
+%%page iii#2%%
+
+Throughout our work we have learned greatly from academics and researchers who have advised us, including: Philippe Aghion, Shardul Agrawala, Edward Anderson, Tony Atkinson, Paul Baer, Philip Bagnoli, Hewson Baltzell, Scott Barrett, Marcel Berk, Richard Betts, Ken Binmore, Victor Blinov, Christopher Bliss, Katharine Blundell, Severin Borenstein, Jean-Paul Bouttes, Richard Boyd, Alan Budd, Frances Cairncross, Daniel Cullenward, Larry Dale, Victor Danilov-Daniliyan, Amy Davidsen, Angus Deaton, Richard Eckaus, Jae Edmonds, Jorgen Elmeskov, Michel den Elzen, Paul Epstein, Gunnar Eskeland, Alexander Farrell, Brian Fender, Anthony Fisher, Meredith Fowley, Jeffrey Frankel, Jose Garibaldi, Laila Gohar, Maryanne Grieg-Gran, Bronwyn Hall, Jim Hall, Stephane Hallegate, Kate Hampton, Michael Hanemann, Bill Hare, Geoffrey Heal, Merylyn Hedger, Molly Hellmuth, David Henderson, David Hendry, Marc Henry, Margaret Hiller, Niklas Hoehne, Bjart Holtsmark, Brian Hoskins, Jean-Charles Hourcade, Jo Hossell, Alistair Hunt, Saleem Huq, Mark Jaccard, Sarah Joy, Jiang Kejun, Ian Johnson, Tom Jones, Dale Jorgenson, Paul Joskow, Kassim Kulindwa, Daniel Kammen, Jonathan Köhler, Paul Krugman, Sari Kovats, Klaus Lackner, John Lawton, Tim Lenton, Li Junfeng, Lin Erda, Richard Lindzen, Björn Lomborg, Gordon MacKerron, Joaquim Oliveira Martins, Warwick McKibbin, Malte Meinshausen, Robert Mendelsohn, Evan Mills, Vladimir Milov, James Mirrlees, Richard Morgenstern, Mu Haoming, Robert Muir-Wood, Justin Mundy, Gustavo Nagy, Nebojša Nakicenovic, Karsten Neuhoff, Greg Nimmet, J.C Nkomo, William Nordhaus, David Norse, Anthony Nyong, Pan Jiahua, John Parsons, Cedric Philibert, Robert Pindyck, William Pizer, Oleg Pluzhnikov, Jonathon Porritt, Lant Pritchett, John Reilly, Richard Richels, David Roland-Holst, Cynthia Rosenzweig, Nick Rowley, Joyashree Roy, Jeffrey Sachs, Mark Salmon, Alan Sanstad, Mark Schankerman, John Schellnhueber, Michael Schlesinger, Ken Schomitz, Amartya Sen, Robert Sherman, Keith Shine, P. R. Shukla, Brian Smith, Leonard Smith, Robert Socolow, David Stainforth, Robert Stavins, David Stephenson, Joe Stiglitz, Peter Stone, Roger Street, Josué Tanaka, Evgeniy Sokolov, Robert Solow, James Sweeney, Richard Tol, Asbjorn Torvanger, Laurence Tubiana, David Vaughnan, Vance Wagner, Steven Ward, Paul Watkiss, Jim Watson, Martin Weitzman, Hege Westskog, John Weyant, Tony White, Alex Whitworth, Gary Yohe, Ernesto Zedillo and Zhang Anhua, Zhang Qun, Zhao Xingshu, Zou Ji.
+
+We are grateful to the leaders, officials, academics, NGO staff and business people who assisted us during our visits to: Brazil, Canada, China, the European Commission, France, Germany, Iceland, India, Japan, Mexico, Norway, Russia, South Africa and the USA.
+
+And thanks to the numerous business leaders and representatives who have advised us, including, in particular, John Browne, Paul Golby, Jane Milne, Vincent de Rivaz, James Smith, Adair Turner, and the Corporate Leaders Group.
+
+Also to the NGOs that have offered advice and help including: Christian Aid, The Climate Group, Friends of the Earth, Global Cool, Green Alliance, Greenpeace, IIED, IPPR, New Economics Foundation, Oxfam, Practical Action, RSPB, Stop Climate Chaos, Tearfund, Women's Institute, and WWF UK.
+
+Finally, thanks also go to Australian Antarctic Division for permission to use the picture for the logo and to David Barnett, for designing the logo.
+
+%%page iv#2%%
+
+## Introduction
+
+The economics of climate change is shaped by the science. That is what dictates the structure of the economic analysis and policies; therefore we start with the science.
+
+Human-induced climate change is caused by the emissions of carbon dioxide and other greenhouse gases (GHGs) that have accumulated in the atmosphere mainly over the past 100 years.
+
+The scientific evidence that climate change is a serious and urgent issue is now compelling. It warrants strong action to reduce greenhouse gas emissions around the world to reduce the risk of very damaging and potentially irreversible impacts on ecosystems, societies and economies. With good policies the costs of action need not be prohibitive and would be much smaller than the damage averted.
+
+Reversing the trend to higher global temperatures requires an urgent, world-wide shift towards a low-carbon economy. Delay makes the problem much more difficult and action to deal with it much more costly. Managing that transition effectively and efficiently poses ethical and economic challenges, but also opportunities, which this Review sets out to explore.
+
+Economics has much to say about assessing and managing the risks of climate change, and about how to design national and international responses for both the reduction of emissions and adaptation to the impacts that we can no longer avoid. If economics is used to design cost-effective policies, then taking action to tackle climate change will enable societies' potential for well-being to increase much faster in the long run than without action; we can be 'green' and grow. Indeed, if we are not 'green', we will eventually undermine growth, however measured.
+
+This Review takes an international perspective on the economics of climate change. Climate change is a global issue that requires a global response. The science tells us that emissions have the same effects from wherever they arise. The implication for the economics is that this is clearly and unambiguously an international collective action problem with all the attendant difficulties of generating coherent action and of avoiding free riding. It is a problem requiring international cooperation and leadership.
+
+Our approach emphasises a number of key themes, which will feature throughout.
+
+- We use a consistent approach towards uncertainty. The science of climate change is reliable, and the direction is clear. But we do not know precisely when and where particular impacts will occur. Uncertainty about impacts strengthens the argument for mitigation: this Review is about the economics of the management of very large risks.
+- We focus on a quantitative understanding of risk, assisted by recent advances in the science that have begun to assign probabilities to the relationships between emissions and changes in the climate system, and to those between the climate and the natural environment.
+- We take a systematic approach to the treatment of inter- and intra-generational equity in our analysis, informed by a consideration of what various ethical perspectives imply in the context of climate change. Inaction now risks great damage to the prospects of future generations, and particularly to the poorest amongst them. A coherent economic analysis of policy requires that we be explicit about the effects.
+
+%%page v#2%%
+
+Economists describe human-induced climate change as an 'externality' and the global climate as a 'public good'. Those who create greenhouse gas emissions as they generate electricity, power their factories, flare off gases, cut down forests, fly in planes, heat their homes or drive their cars do not have to pay for the costs of the climate change that results from their contribution to the accumulation of those gases in the atmosphere.
+
+But climate change has a number of features that together distinguish it from other externalities. It is global in its causes and consequences; the impacts of climate change are persistent and develop over the long run; there are uncertainties that prevent precise quantification of the economic impacts; and there is a serious risk of major, irreversible change with non-marginal economic effects.
+
+This analysis leads us to five sets of questions that shape Parts 2 to 6 of the Review.
+
+- What is our understanding of the risks of the impacts of climate change, their costs, and on whom they fall?
+- What are the options for reducing greenhouse-gas emissions, and what do they cost? What does this mean for the economics of the choice of paths to stabilisation for the world? What are the economic opportunities generated by action on reducing emissions and adopting new technologies?
+- For mitigation of climate change, what kind of incentive structures and policies will be most effective, efficient and equitable? What are the implications for the public finances?
+- For adaptation, what approaches are appropriate and how should they be financed?
+- How can approaches to both mitigation and adaptation work at an international level?
+
+%%page vi#2%%
+
+## Summary of Conclusions
+
+***There is still time to avoid the worst impacts of climate change, if we take strong action now.***
+
+The scientific evidence is now overwhelming: climate change is a serious global threat, and it demands an urgent global response.
+
+This Review has assessed a wide range of evidence on the impacts of climate change and on the economic costs, and has used a number of different techniques to assess costs and risks. From all of these perspectives, the evidence gathered by the Review leads to a simple conclusion: the benefits of strong and early action far outweigh the economic costs of not acting.
+
+Climate change will affect the basic elements of life for people around the world – access to water, food production, health, and the environment. Hundreds of millions of people could suffer hunger, water shortages and coastal flooding as the world warms.
+
+Using the results from formal economic models, the Review estimates that if we don't act, the overall costs and risks of climate change will be equivalent to losing at least 5% of global GDP each year, now and forever. If a wider range of risks and impacts is taken into account, the estimates of damage could rise to 20% of GDP or more.
+
+In contrast, the costs of action – reducing greenhouse gas emissions to avoid the worst impacts of climate change – can be limited to around 1% of global GDP each year.
+
+The investment that takes place in the next 10-20 years will have a profound effect on the climate in the second half of this century and in the next. Our actions now and over the coming decades could create risks of major disruption to economic and social activity, on a scale similar to those associated with the great wars and the economic depression of the first half of the 20th century. And it will be difficult or impossible to reverse these changes.
+
+So prompt and strong action is clearly warranted. Because climate change is a global problem, the response to it must be international. It must be based on a shared vision of long-term goals and agreement on frameworks that will accelerate action over the next decade, and it must build on mutually reinforcing approaches at national, regional and international level.
+
+***Climate change could have very serious impacts on growth and development.***
+
+If no action is taken to reduce emissions, the concentration of greenhouse gases in the atmosphere could reach double its pre-industrial level as early as 2035, virtually committing us to a global average temperature rise of over 2°C. In the longer term, there would be more than a 50% chance that the temperature rise would exceed 5°C. This rise would be very dangerous indeed; it is equivalent to the change in average temperatures from the last ice age to today. Such a radical change in the physical geography of the world must lead to major changes in the human geography – where people live and how they live their lives.
+
+Even at more moderate levels of warming, all the evidence – from detailed studies of regional and sectoral impacts of changing weather patterns through to economic models of the global effects – shows that climate change will have serious impacts on world output, on human life and on the environment.
+
+%%page vii#2%%
+
+All countries will be affected. The most vulnerable – the poorest countries and populations – will suffer earliest and most, even though they have contributed least to the causes of climate change. The costs of extreme weather, including floods, droughts and storms, are already rising, including for rich countries.
+
+Adaptation to climate change – that is, taking steps to build resilience and minimise costs – is essential. It is no longer possible to prevent the climate change that will take place over the next two to three decades, but it is still possible to protect our societies and economies from its impacts to some extent – for example, by providing better information, improved planning and more climate-resilient crops and infrastructure. Adaptation will cost tens of billions of dollars a year in developing countries alone, and will put still further pressure on already scarce resources. Adaptation efforts, particularly in developing countries, should be accelerated.
+
+***The costs of stabilising the climate are significant but manageable; delay would be dangerous and much more costly.***
+
+The risks of the worst impacts of climate change can be substantially reduced if greenhouse gas levels in the atmosphere can be stabilised between 450 and 550ppm CO2 equivalent (CO2e). The current level is 430ppm CO2e today, and it is rising at more than 2ppm each year. Stabilisation in this range would require emissions to be at least 25% below current levels by 2050, and perhaps much more.
+
+Ultimately, stabilisation – at whatever level – requires that annual emissions be brought down to more than 80% below current levels.
+
+This is a major challenge, but sustained long-term action can achieve it at costs that are low in comparison to the risks of inaction. Central estimates of the annual costs of achieving stabilisation between 500 and 550ppm CO2e are around 1% of global GDP, if we start to take strong action now.
+
+Costs could be even lower than that if there are major gains in efficiency, or if the strong co-benefits, for example from reduced air pollution, are measured. Costs will be higher if innovation in low-carbon technologies is slower than expected, or if policy-makers fail to make the most of economic instruments that allow emissions to be reduced whenever, wherever and however it is cheapest to do so.
+
+It would already be very difficult and costly to aim to stabilise at 450ppm CO2e. If we delay, the opportunity to stabilise at 500-550ppm CO2e may slip away.
+
+***Action on climate change is required across all countries, and it need not cap the aspirations for growth of rich or poor countries.***
+
+The costs of taking action are not evenly distributed across sectors or around the world. Even if the rich world takes on responsibility for absolute cuts in emissions of 60-80% by 2050, developing countries must take significant action too. But developing countries should not be required to bear the full costs of this action alone, and they will not have to. Carbon markets in rich countries are already beginning to deliver flows of finance to support low-carbon development, including through the Clean Development Mechanism. A transformation of these flows is now required to support action on the scale required.
+
+%%page viii#2%%
+
+Action on climate change will also create significant business opportunities, as new markets are created in low-carbon energy technologies and other low-carbon goods and services. These markets could grow to be worth hundreds of billions of dollars each year, and employment in these sectors will expand accordingly.
+
+The world does not need to choose between averting climate change and promoting growth and development. Changes in energy technologies and in the structure of economies have created opportunities to decouple growth from greenhouse gas emissions. Indeed, ignoring climate change will eventually damage economic growth.
+
+Tackling climate change is the pro-growth strategy for the longer term, and it can be done in a way that does not cap the aspirations for growth of rich or poor countries.
+
+***A range of options exists to cut emissions; strong, deliberate policy action is required to motivate their take-up.***
+
+Emissions can be cut through increased energy efficiency, changes in demand, and through adoption of clean power, heat and transport technologies. The power sector around the world would need to be at least 60% decarbonised by 2050 for atmospheric concentrations to stabilise at or below 550ppm CO2e, and deep emissions cuts will also be required in the transport sector.
+
+Even with very strong expansion of the use of renewable energy and other low-carbon energy sources, fossil fuels could still make up over half of global energy supply in 2050. Coal will continue to be important in the energy mix around the world, including in fast-growing economies. Extensive carbon capture and storage will be necessary to allow the continued use of fossil fuels without damage to the atmosphere.
+
+Cuts in non-energy emissions, such as those resulting from deforestation and from agricultural and industrial processes, are also essential.
+
+With strong, deliberate policy choices, it is possible to reduce emissions in both developed and developing economies on the scale necessary for stabilisation in the required range while continuing to grow.
+
+Climate change is the greatest market failure the world has ever seen, and it interacts with other market imperfections. Three elements of policy are required for an effective global response. The first is the pricing of carbon, implemented through tax, trading or regulation. The second is policy to support innovation and the deployment of low-carbon technologies. And the third is action to remove barriers to energy efficiency, and to inform, educate and persuade individuals about what they can do to respond to climate change.
+
+***Climate change demands an international response, based on a shared understanding of long-term goals and agreement on frameworks for action.***
+
+Many countries and regions are taking action already: the EU, California and China are among those with the most ambitious policies that will reduce greenhouse gas emissions. The UN Framework Convention on Climate Change and the Kyoto Protocol provide a basis for international co-operation, along with a range of partnerships and other approaches. But more ambitious action is now required around the world.
+
+%%page ix#2%%
+
+Countries facing diverse circumstances will use different approaches to make their contribution to tackling climate change. But action by individual countries is not enough. Each country, however large, is just a part of the problem. It is essential to create a shared international vision of long-term goals, and to build the international frameworks that will help each country to play its part in meeting these common goals.
+
+Key elements of future international frameworks should include:
+
+- Emissions trading: Expanding and linking the growing number of emissions trading schemes around the world is a powerful way to promote cost-effective reductions in emissions and to bring forward action in developing countries: strong targets in rich countries could drive flows amounting to tens of billions of dollars each year to support the transition to low-carbon development paths.
+- Technology cooperation: Informal co-ordination as well as formal agreements can boost the effectiveness of investments in innovation around the world. Globally, support for energy R&D should at least double, and support for the deployment of new low-carbon technologies should increase up to five-fold. International cooperation on product standards is a powerful way to boost energy efficiency.
+- Action to reduce deforestation: The loss of natural forests around the world contributes more to global emissions each year than the transport sector. Curbing deforestation is a highly cost-effective way to reduce emissions; large-scale international pilot programmes to explore the best ways to do this could get underway very quickly.
+- Adaptation: The poorest countries are most vulnerable to climate change. It is essential that climate change be fully integrated into development policy, and that rich countries honour their pledges to increase support through overseas development assistance. International funding should also support improved regional information on climate change impacts, and research into new crop varieties that will be more resilient to drought and flood.
+
+%%page 1%%
+
+## Part I: Climate Change – our approach
+
+Part I of the Review considers the nature of the scientific evidence for climate change, and the nature of the economic analysis required by the structure of the problem which follows from the science.
+
+The first half of the Review examines the evidence on the economic impacts of climate change itself, and explores the economics of stabilising greenhouse gas concentrations in the atmosphere. The second half of the Review considers the complex policy challenges involved in managing the transition to a low-carbon economy and in ensuring that societies can adapt to the consequences of climate change that can no longer be avoided.
+
+The Review takes an international perspective. Climate change is global in its causes and consequences, and the response requires international collective action. Working together is essential to respond to the scale of the challenge. An effective, efficient and equitable collective response to climate change will require deeper international co-operation in areas including the creation of price signals and markets for carbon, scientific research, infrastructure investment, and economic development.
+
+Climate change presents a unique challenge for economics: it is the greatest example of market failure we have ever seen. The economic analysis must be global, deal with long time horizons, have the economics of risk and uncertainty at its core, and examine the possibility of major, non-marginal change. Analysing climate change requires ideas and techniques from most of the important areas of economics, including many recent advances.
+
+Part I is structured as follows:
+
+- Chapter 1 examines the latest scientific evidence on climate change. The basic physics and chemistry of the scientific understanding begins in the 19th century when Fourier, Tyndall and Arrhenius laid the foundations. But we must also draw on the very latest science which allows a much more explicit analysis of risk than was possible five years ago.
+- Chapter 2 considers how economic theory can help us analyse the relationship between climate change and the divergent paths for growth and development that will result from 'business as usual' approaches and from strong action to reduce emissions. We look at the range of theories required and explain some of the technical foundations necessary for the economics that the scientific analysis dictates.
+- The technical annex to Chapter 2 addresses the complex issues involved in the comparison of alternative paths and their implications for individuals in different places and generations. Building on Chapter 2, we explore the ethical issues concerning the aggregation of the welfare of individuals across time, place and uncertain outcomes. This annex also provides a technical explanation of the approach to discounting used throughout the Review, and in particular in our own analysis of the costs of climate-change impacts.
+
+%%page 2%%
+
+### 1 The Science of Climate Change: Scale of the Environment Challenge
+
+Key Messages
+
+An overwhelming body of scientific evidence now clearly indicates that climate change is a serious and urgent issue. The Earth's climate is rapidly changing, mainly as a result of increases in greenhouse gases caused by human activities.
+
+Most climate models show that a doubling of pre-industrial levels of greenhouse gases is very likely to commit the Earth to a rise of between 2 – 5°C in global mean temperatures. This level of greenhouse gases will probably be reached between 2030 and 2060. A warming of 5°C on a global scale would be far outside the experience of human civilisation and comparable to the difference between temperatures during the last ice age and today. Several new studies suggest up to a 20% chance that warming could be greater than 5°C. If annual greenhouse gas emissions remained at the current level, concentrations would be more than treble pre-industrial levels by 2100, committing the world to 3 – 10°C warming, based on the latest climate projections.
+
+Some impacts of climate change itself may amplify warming further by triggering the release of additional greenhouse gases. This creates a real risk of even higher temperature changes.
+
+- Higher temperatures cause plants and soils to soak up less carbon from the atmosphere and cause permafrost to thaw, potentially releasing large quantities of methane.
+- Analysis of warming events in the distant past indicates that such feedbacks could amplify warming by an additional 1 – 2°C by the end of the century.
+
+Warming is very likely to intensify the water cycle, reinforcing existing patterns of water scarcity and abundance and increasing the risk of droughts and floods.
+
+Rainfall is likely to increase at high latitudes, while regions with Mediterranean-like climates in both hemispheres will experience significant reductions in rainfall. Preliminary estimates suggest that the fraction of land area in extreme drought at any one time will increase from 1% to 30% by the end of this century. In other regions, warmer air and warmer oceans are likely to drive more intense storms, particularly hurricanes and typhoons.
+
+As the world warms, the risk of abrupt and large-scale changes in the climate system will rise.
+
+- Changes in the distribution of heat around the world are likely to disrupt ocean and atmospheric circulations, leading to large and possibly abrupt shifts in regional weather patterns.
+- If the Greenland or West Antarctic Ice Sheets began to melt irreversibly, the rate of sea level rise could more than double, committing the world to an eventual sea level rise of 5 – 12 m over several centuries.
+
+The body of evidence and the growing quantitative assessment of risks are now sufficient to give clear and strong guidance to economists and policy-makers in shaping a response.
+
+#### 1.1 Introduction
+
+Understanding the scientific evidence for the human influence on climate is an essential starting point for the economics, both for establishing that there is indeed a problem to be tackled and for comprehending its risk and scale. It is the science that dictates the type of economics and where the analyses should focus, for example, on the economics of risk, the nature of public goods or how to deal with externalities, growth and development and intra- and inter-generational equity. The relevance of these concepts, and others, is discussed in Chapter 2.
+
+%%page 3%%
+
+This chapter begins by describing the changes observed in the Earth's system, examining briefly the debate over the attribution of these changes to human activities. It is a debate that, after more than a decade of research and discussion, has reached the conclusion there is no other plausible explanation for the observed warming for at least the past 50 years. The question of precisely how much the world will warm in the future is still an area of active research. The Third Assessment Report (TAR) of the Intergovernmental Panel on Climate Change (IPCC)[^1] in 2001 was the last comprehensive assessment of the state of the science. This chapter uses the 2001 report as a base and builds on it with more recent studies that embody a more explicit treatment of risk. These studies support the broad conclusions of that report, but demonstrate a sizeable probability that the sensitivity of the climate to greenhouse gases is greater than previously thought. Scientists have also begun to quantify the effects of feedbacks with the natural carbon cycle, for example, exploring how warming may affect the rate of absorption of carbon dioxide by forests and soils. These types of feedbacks are predicted to further amplify warming, but are not typically included in climate models to date. The final section of this chapter provides a starting point for Part II, by exploring what basic science reveals about how warming will affect people around the world.
+
+#### 1.2 The Earth's climate is changing
+
+***An overwhelming body of scientific evidence indicates that the Earth's climate is rapidly changing, predominantly as a result of increases in greenhouse gases caused by human activities.***
+
+Human activities are changing the composition of the atmosphere and its properties. Since pre-industrial times (around 1750), carbon dioxide concentrations have increased by just over one third from 280 parts per million (ppm) to 380 ppm today (Figure 1.1), predominantly as a result of burning fossil fuels, deforestation, and other changes in land-use.[^2] This has been accompanied by rising concentrations of other greenhouse gases, particularly methane and nitrous oxide.
+
+There is compelling evidence that the rising levels of greenhouse gases will have a warming effect on the climate through increasing the amount of infrared radiation (heat energy) trapped by the atmosphere: "the greenhouse effect" (Figure 1.2). In total, the warming effect due to all (Kyoto) greenhouse gases emitted by human activities is now equivalent to around 430 ppm of carbon dioxide (hereafter, CO2 equivalent or CO2e)[^3] (Figure 1.1) and rising at around 2.3 ppm per year[^4] . Current levels of greenhouse gases are higher now than at any time in at least the past 650,000 years.[^5]
+
+%%page 4%%
+
+Figure 1.1 Rising levels of greenhouse gases
+
+The figure shows the warming effect of greenhouse gases (the 'radiative forcing') in terms of the equivalent concentration of carbon dioxide (a quantity known as the CO2 equivalent). The blue line shows the value for carbon dioxide only. The red line is the value for the six Kyoto greenhouse gases (carbon dioxide, methane, nitrous oxide, PFCs, HFCs and SF6)[^6] and the grey line includes
+
+CFCs (regulated under the Montreal Protocol). The uncertainty on each of these is up to 10%[^7] .
+
+The rate of annual increase in greenhouse gas levels is variable year-on-year, but is increasing.
+
+Figure 1.2 The Greenhouse Effect
+
+%%page 5%%
+
+As anticipated by scientists, global mean surface temperatures have risen over the past century. The Earth has warmed by 0.7°C since around 1900 (Figure 1.3). Global mean temperature is referred to throughout the Review and is used as a rough index of the scale of climate change. This measure is an average over both space (globally across the land-surface air, up to about 1.5 m above the ground, and sea-surface temperature to around 1 m depth) and time (an annual mean over a defined time period). All temperatures are given relative to pre-industrial, unless otherwise stated. As discussed later in this chapter, this warming does not occur evenly across the planet.
+
+Over the past 30 years, global temperatures have risen rapidly and continuously at around 0.2°C per decade, bringing the global mean temperature to what is probably at or near the warmest level reached in the current interglacial period, which began around 12,000 years ago[^8] . All of the ten warmest years on record have occurred since 1990. The first signs of changes can be seen in many physical and biological systems, for example many species have been moving poleward by 6 km on average each decade for the past 30 – 40 years. Another sign is changing seasonal events, such as flowering and egg laying, which have been occurring 2 – 3 days earlier each decade in many Northern Hemisphere temperate regions.[^9]
+
+Figure 1.3 The Earth has warmed 0.7°C since around 1900.
+
+The figure below shows the change in global average near-surface temperature from 1850 to 2005. The individual annual averages are shown as red bars and the blue line is the smoothed trend. The temperatures are shown relative to the average over 1861 – 1900.
+
+***The IPCC concluded in 2001 that there is new and stronger evidence that most of the warming observed over at least the past 50 years is attributable to human activities.[^10] Their confidence is based on several decades of active debate and effort to scrutinise the detail of the evidence and to investigate a broad range of hypotheses.***
+
+Over the past few decades, there has been considerable debate over whether the trend in global mean temperatures can be attributed to human activities. Attributing trends to a single influence is difficult to establish unequivocally because the climate system can often respond in unexpected ways to external influences and has a strong natural variability. For example, Box 1.1 briefly describes the debate over whether the observed increase in temperatures over the last century is beyond that expected from natural variability alone throughout the last Millennium.
+
+%%page 6%%
+
+Box 1.1 The "Hockey Stick" Debate.
+
+Much discussion has focused on whether the current trend in rising global temperatures is unprecedented or within the range expected from natural variations. This is commonly referred to as the "Hockey Stick" debate as it discusses the validity of figures that show sustained temperatures for around 1000 years and then a sharp increase since around 1800 (for example, Mann et al. 1999, shown as a purple line in the figure below).
+
+Some have interpreted the "Hockey Stick" as definitive proof of the human influence on climate. However, others have suggested that the data and methodologies used to produce this type of figure are questionable (e.g. von Storch et al. 2004), because widespread, accurate temperature records are only available for the past 150 years. Much of the temperature record is recreated from a range of 'proxy' sources such as tree rings, historical records, ice cores, lake sediments and corals.
+
+Climate change arguments do not rest on "proving" that the warming trend is unprecedented over the past Millennium. Whether or not this debate is now settled, this is only one in a number of lines of evidence for human induced climate change. The key conclusion, that the build-up of greenhouse gases in the atmosphere will lead to several degrees of warming, rests on the laws of physics and chemistry and a broad range of evidence beyond one particular graph.
+
+Recent research, for example from the Ad hoc detection and attribution group (IDAG), uses a wider range of proxy data to support the broad conclusion that the rate and scale of 20th century warming is greater than in the past 1000 years (at least for the Northern Hemisphere). Based on this kind of analysis, the US National Research Council (2006)[^11] concluded that there is a high level of confidence that the global mean surface temperature during the past few decades is higher than at any time over the preceding four centuries. But there is less confidence beyond this. However, they state that in some regions the warming is unambiguously shown to be unprecedented over the past millennium.
+
+Much of the debate over the attribution of climate change has now been settled as new evidence has emerged to reconcile outstanding issues. It is now clear that, while natural factors, such as changes in solar intensity and volcanic eruptions, can explain much of the trend in global temperatures in the early nineteenth century, the rising levels of greenhouse gases provide the only plausible explanation for the observed trend for at least the past 50 years. Over this period, the sustained globally averaged warming contrasts strongly with the slight cooling expected from natural factors alone. Recent modelling by the Hadley Centre and other research institutes supports this. These models show that the observed trends in temperatures at the surface and in the oceans[^12] , as well as the spatial distribution of warming[^13] , cannot be replicated without the inclusion of both human and natural effects.
+
+%%page 7%%
+
+Taking into account the rising levels of aerosols, which cool the atmosphere,[^14] and the observed heat uptake by the oceans, the calculated warming effect of greenhouse gases is more than enough to explain the observed temperature rise.
+
+#### 1.3 Linking Greenhouse Gases and Temperature
+
+***The causal link between greenhouse gases concentrations and global temperatures is well established, founded on principles established by scientists in the nineteenth century.***
+
+The greenhouse effect is a natural process that keeps the Earth's surface around 30°C warmer than it would be otherwise. Without this effect, the Earth would be too cold to support life. Current understanding of the greenhouse effect has its roots in the simple calculations laid out in the nineteenth century by scientists such as Fourier, Tyndall and Arrhenius[^15] . Fourier realised in the 1820s that the atmosphere was more permeable to incoming solar radiation than outgoing infrared radiation and therefore trapped heat. Thirty years later, Tyndall identified the types of molecules (known as greenhouse gases), chiefly carbon dioxide and water vapour, which create the heat-trapping effect. Arrhenius took this a step further showing that doubling the concentration of carbon dioxide in the atmosphere would lead to significant changes in surface temperatures.
+
+Since Fourier, Tyndall and Arrhenius made their first estimates, scientists have improved their understanding of how greenhouse gases absorb radiation, allowing them to make more accurate calculations of the links between greenhouse gas concentrations and temperatures. For example, it is now well established that the warming effect of carbon dioxide rises approximately logarithmically with its concentration in the atmosphere[^16] . From simple energy-balance calculations, the direct warming effect of a doubling of carbon dioxide concentrations would lead to an average surface warming of around 1°C. But the atmosphere is much more complicated than these simple models suggest. The resulting warming will in fact be much greater than 1°C because of the interaction between feedbacks in the atmosphere that act to amplify or dampen the direct warming (Figure 1.4). The main positive feedback comes from water vapour, a very powerful greenhouse gas itself. Evidence shows that, as expected from basic physics, a warmer atmosphere holds more water vapour and traps more heat, amplifying the initial warming.[^17]
+
+***Using climate models that follow basic physical laws, scientists can now assess the likely range of warming for a given level of greenhouse gases in the atmosphere.***
+
+It is currently impossible to pinpoint the exact change in temperature that will be associated with a level of greenhouse gases. Nevertheless, increasingly sophisticated climate models are able to capture some of the chaotic nature of the climate, allowing scientists to develop a greater understanding of the many complex interactions within the system and estimate how changing greenhouse gas levels will affect the climate. Climate models use the laws of nature to simulate the radiative balance and flows of energy and materials. These models are vastly different from those generally used in economic analyses, which rely predominantly on curve fitting. Climate models cover multiple dimensions, from temperature at different heights in the atmosphere, to wind speeds and snow cover. Also, climate models are tested for their ability to reproduce past climate variations across several dimensions, and to simulate aspects of present climate that they have not been specifically tuned to fit.
+
+%%page 8%%
+
+Figure 1.4 The link between greenhouse gases and climate change.
+
+The accuracy of climate predictions is limited by computing power. This, for example, restricts the scale of detail of models, meaning that small-scale processes must be included through highly simplified calculations. It is important to continue the active research and development of more powerful climate models to reduce the remaining uncertainties in climate projections.
+
+The sensitivity of mean surface temperatures to greenhouse gas levels is benchmarked against the warming expected for a doubling of carbon dioxide levels from pre-industrial (roughly equivalent to 550 ppm CO2e). This is called the "climate sensitivity" and is an important quantity in accessing the economics of climate change. By comparing predictions of different state-of-the-art climate models, the IPCC TAR concluded that the likely range of climate sensitivity is 1.5° – 4.5°C. This range is much larger than the 1°C direct warming effect expected from a doubling of carbon dioxide concentrations, thus emphasising the importance of feedbacks within the atmosphere. For illustration, using this range of sensitivities, if greenhouse gas levels could be stabilised at today's levels (430 ppm CO2e), global mean temperatures would eventually rise to around 1° - 3°C above pre-industrial (up to 2°C more than today)[^18] . This is not the same as the "warming commitment" today from past emissions, which includes the current levels of aerosols in the atmosphere (discussed later in this chapter).
+
+***Results from new risk based assessments suggest there is a significant chance that the climate system is more sensitive than was originally thought.***
+
+Since 2001, a number of studies have used both observations and modelling to explore the full range of climate sensitivities that appear realistic given current knowledge (Box 1.2). This new evidence is important in two ways: firstly, the conclusions are broadly consistent with the IPCC TAR, but indicate that higher climate sensitivities cannot be excluded; and secondly, it allows a more explicit treatment of risk. For example, eleven recent studies suggest only between a 0% and 2% chance that the climate sensitivity is less than 1°C, but between a 2% and 20% chance that climate sensitivity is greater than 5°C[^19]. These sensitivities imply that there is up to a one-in-five chance that the world would experience a warming in excess of 3°C above pre-industrial even if greenhouse gas concentrations were stabilised at today's level of 430 ppm CO2e.
+
+%%page 9%%
+
+Box 1.2 Recent advances in estimating climate sensitivity
+
+Climate sensitivity remains an area of active research. Recently, new approaches have used climate models and observations to develop a better understanding of climate sensitivity.
+
+- Several studies have estimated climate sensitivity by benchmarking climate models against the observed warming trend of the 20th century, e.g. Forest et al. (2006) and Knutti et al. (2002),
+
+- Building on this work, modellers have systematically varied a range of uncertain parameters in more complex climate models (such as those controlling cloud behaviour) and run ensembles of these models, e.g. Murphy et al. (2004) and Stainforth et al. (2005). The outputs are then checked against observational data, and the more plausible outcomes (judged by their representation of current climate) are weighted more highly in the probability distributions produced.
+- Some studies, e.g. Annan & Hargreaves (2006), have used statistical techniques to estimate climate sensitivity through combining several observational datasets (such as the 20th century warming, cooling following volcanic eruptions, warming after last glacial maximum).
+
+These studies provide an important first attempt to apply a probabilistic framework to climate projections. Their outcome is a series of probability distribution functions (PDFs) that aim to capture some of the uncertainty in current estimates. Meinshausen (2006) brings together the results of eleven recent studies (below). The red and blue lines are probability distributions based on the IPCC TAR (Wigley and Raper (2001)) and recent Hadley Centre ensemble work (Murphy et al. (2004)), respectively. These two distributions lie close to the centre of the results from the eleven studies.
+
+Source: Reproduced from Meinshausen (2006)
+
+The distributions share the characteristic of a long tail that stretches up to high temperatures. This is primarily because of uncertainty over clouds[^20] and the cooling effect of aerosols. For example, if cloud properties are sensitive to climate change, they could create an important addition feedback. Similarly, if the cooling effect of aerosols is large it will have offset a substantial part of past warming due to greenhouse gases, making high climate sensitivity compatible with the observed warming.
+
+%%page 10%%
+
+***In the future, climate change itself could trigger additional increases in greenhouse gases in the atmosphere, further amplifying warming. These potentially powerful feedbacks are less well understood and only beginning to be quantified.***
+
+Climate change projections must also take into account the strong possibility that climate change itself may accelerate future warming by reducing natural absorption and releasing stores of carbon dioxide and methane. These feedbacks are not incorporated into most climate models to date because their effects are only just beginning to be understood and quantified.
+
+Rising temperatures and changes in rainfall patterns are expected to weaken the ability of the Earth's natural sinks to absorb carbon dioxide (Box 1.3), causing a larger fraction of human emissions to accumulate in the atmosphere. While this finding is not new, until recently the effect was not quantified. New models, which explicitly include interactions between carbon sinks and climate, suggest that by 2100, greenhouse gas concentrations will be 20 – 200 ppm higher than they would have otherwise been, amplifying warming by 0.1 – 1.5°C.[^21] Some models predict future reductions in tropical rainforests, particularly the Amazon, also releasing more carbon into the atmosphere[^22] . Chapter 8 discusses the implications of weakened carbon sinks for stabilising greenhouse gas concentrations.
+
+Widespread thawing of permafrost regions is likely to add to the extra warming caused by weakening of carbon sinks. Large quantities of methane (and carbon dioxide) could be released from the thawing of permafrost and frozen peat bogs. One estimate, for example, suggests that if all the carbon accumulated in peat alone since the last ice age were released into the atmosphere, this would raise greenhouse gas levels by 200 ppm CO2e.[^23] Additional emissions may be seen from warming tropical wetlands, but this is more uncertain. Together, wetlands and frozen lands store more carbon than has been released already by human activities since industrialisation began. Substantial thawing of permafrost has already begun in some areas; methane emissions have increased by 60% in northern Siberia since the mid-1970s[^24] . Studies of the overall scale and timing of future releases are scarce, but initial estimates suggest that methane emissions (currently 15% of all emissions in terms of CO2 equivalent[^25] ) may increase by around 50% by 2100 (Box 1.3).
+
+***Preliminary estimates suggest that these "positive feedbacks" could lead to an addition rise in temperatures of 1 - 2°C by 2100.***
+
+Recent studies have used information from past ice ages to estimate how much extra warming would be produced by such feedbacks. Warming following previous ice ages triggered the release of carbon dioxide and methane from the land and oceans, raising temperatures by more than that expected from solar effects alone. If present day climate change triggered feedbacks of a similar size, temperatures in 2100 would be 1 - 2°C higher than expected from the direct warming caused by greenhouse gases.[^26]
+
+There are still many unanswered questions about these positive feedbacks between the atmosphere, land and ocean. The combined effect of high climate sensitivity and carbon cycle feedbacks is only beginning to be explored, but first indications are that this could lead to far higher temperature increases than are currently anticipated (discussed in chapter 6). It remains unclear whether warming could initiate a self-perpetuating effect that would lead to a much larger temperature rise or even runaway warming, or if some unknown feedback could reduce the sensitivity substantially[^27] . Further research is urgently required to quantify the combined effects of these types of feedbacks.
+
+%%page 11%%
+
+Box 1.3 Changes in the earth system that could amplify global warming
+
+Weakening of Natural Land-Carbon Sinks: Initially, higher levels of carbon dioxide in the atmosphere will act as a fertiliser for plants, increasing forest growth and the amount of carbon absorbed by the land. A warmer climate will increasingly offset this effect through an increase in plant and soil respiration (increasing release of carbon from the land). Recent modelling suggests that net absorption may initially increase because of the carbon fertilisation effects (chapter 3). But, by the end of this century it will reduce significantly as a result of increased respiration and limits to plant growth (nutrient and water availability).[^28]
+
+Weakening of Natural Ocean-Carbon Sinks: The amount of carbon dioxide absorbed by the oceans is likely to weaken in the future through a number of chemical, biological and physical changes. For example, chemical uptake processes may be exhausted, warming surface waters will reduce the rate of absorption and CO2 absorbing organisms are likely to be damaged by ocean acidification[^29] . Most carbon cycle models agree that climate change will weaken the ocean sink, but suggest that this would be a smaller effect than the weakening of the land sink[^30] .
+
+Release of Methane from Peat Deposits, Wetlands and Thawing Permafrost: Thawing permafrost and the warming and drying of wetland areas could release methane (and carbon dioxide) to the atmosphere in the future. Models suggest that up to 90% of the upper layer of permafrost will thaw by 2100.[^31] These regions contain a substantial store of carbon. One set of estimates suggests that wetlands store equivalent to around 1600 GtCO2e (where Gt is one billion tonnes) and permafrost soils store a further 1500 GtCO2e[^32] . Together these stores comprise more than double the total cumulative emissions from fossil fuel burning so far. Recent measurements show a 10 – 15% increase in the area of thaw lakes in northern and western Siberia. In northern Siberia, methane emissions from thaw lakes are estimated to have increased by 60% since the mid 1970's[^33] . It remains unclear at what rate methane would be released in the future. Preliminary estimates indicate that, in total, methane emissions each year from thawing permafrost and wetlands could increase by around 4 – 10 GtCO2e, more than 50% of current methane emissions and equivalent to 10 – 25% of current man-made emissions.[^34]
+
+Release of Methane from Hydrate Stores: An immense quantity of methane (equivalent to tens of thousands of GtCO2, twice as much as in coal, oil and gas reserves) may also be trapped under the oceans in the form of gas hydrates. These exist in regions sufficiently cold and under enough high pressures to keep them stable. There is considerable uncertainty whether these deposits will be affected by climate change at all. However, if ocean warming penetrated deeply enough to destabilise even a small amount of this methane and release it to the atmosphere, it would lead to a rapid increase in warming.[^35] Estimates of the size of potential releases are scarce, but are of a similar scale to those from wetlands and permafrost.
+
+#### 1.4 Current Projections
+
+***Additional warming is already in the pipeline due to past and present emissions.***
+
+The full warming effect of past emissions is yet to be realised. Observations show that the oceans have taken up around 84% of the total heating of the Earth's system over the last 40 years[^36] . If global emissions were stopped today, some of this heat would be exchanged with the atmosphere as the system came back into equilibrium, causing an additional warming. Climate models project that the world is committed to a further warming of 0.5° - 1°C over several decades due to past emissions[^37] . This warming is smaller than the warming expected if concentrations were stabilised at 430 ppm CO2e, because atmospheric aerosols mask a proportion of the current warming effect of greenhouse gases. Aerosols remain in the atmosphere for only a few weeks and are not expected to be present in significant levels at stabilisation[^38] .
+
+%%page 12%%
+
+***If annual emissions continued at today's levels, greenhouse gas levels would be close to double pre-industrial levels by the middle of the century. If this concentration were sustained, temperatures are projected to eventually rise by 2 – 5ºC or even higher.***
+
+Projections of future warming depend on projections of global emissions (discussed in chapter 7). If annual emissions were to remain at today's levels, greenhouse gas levels would reach close to 550 ppm CO2e by 2050[^39] . Using the lower and upper 90% confidence bounds based on the IPCC TAR range and recent research from the Hadley Centre, this would commit the world to a warming of around 2 – 5°C (Table 1.1). As demonstrated in Box 1.2, these two climate sensitivity distributions lie close to the centre of recent projections and are used throughout this Review to give illustrative temperature projections. Positive feedbacks, such as methane emissions from permafrost, could drive temperatures even higher.
+
+Near the middle of this range of warming (around 2 – 3°C above today), the Earth would reach a temperature not seen since the middle Pliocene around 3 million years ago[^40] . This level of warming on a global scale is far outside the experience of human civilisation.
+
+Table 1.1 Temperature projections at stabilisation
+
+Meinshausen (2006) used climate sensitivity estimates from eleven recent studies to estimate the range of equilibrium temperature changes expected at stabilisation. The table below gives the equilibrium temperature projections using the 5 – 95% climate sensitivity ranges based on the IPCC TAR (Wigley and Raper (2001)), Hadley Centre (Murphy et al. 2004) and the range over all eleven studies. Note that the temperature changes expected prior to equilibrium, for example in 2100, would be lower.
+
+However, these are conservative estimates of the expected warming, because in the absence of an effective climate policy, changes in land use and the growth in population and energy consumption around the world will drive greenhouse gas emissions far higher than today. This would lead greenhouse gas levels to attain higher levels than suggested above. The IPCC projects that without intervention greenhouse gas levels will rise to 550 – 700 ppm CO2e by 2050 and 650 – 1200 ppm CO2e by 2100[^41] . These projections and others are discussed in Chapter 7, which concludes that, without mitigation, greenhouse gas levels are likely to be towards the upper end of these ranges. If greenhouse gas levels were to reach 1000 ppm, more than treble pre-industrial levels, the Earth would be committed to around a 3 – 10°C of warming or more, even without considering the risk of positive feedbacks (Table 1.1).
+
+%%page 13%%
+
+#### 1.5 Large Scale Changes and Regional Impacts
+
+This chapter has so far considered only the expected changes in global average surface temperatures. However, this can often mask both the variability in temperature changes across the earth's surface and changes in extremes. In addition, the impacts on people will be felt mainly through water, driven by shifts in regional weather patterns, particularly rainfall and extreme events (more detail in Part II).
+
+***In general, higher latitudes and continental regions will experience temperature increases significantly greater than the global average.***
+
+Future warming will occur unevenly and will be superimposed on existing temperature patterns. Today, the tropics are around 15°C warmer than the mid-latitudes and more than 25°C warmer than the high latitudes. In future, the smallest temperature increases will generally occur over the oceans and some tropical coastal regions. The largest temperature increases are expected in the high latitudes (particularly around the poles), where melting snow and sea ice will reduce the reflectivity of the surface, leading to a greater than average warming. For a global average warming of around 4°C, the oceans and coasts generally warm by around 3°C, the mid-latitudes warm by more than 5°C and the poles by around 8°C. The risk of heat waves is expected to increase (Figure 1.5). For example, new modelling work by the Hadley Centre shows that the summer of 2003 was Europe's hottest for 500 years and that human-induced climate change has already more than doubled the chance of a summer as hot as 2003 in Europe occurring.[^42] By 2050, under a relatively high emissions scenario, the temperatures experienced during the heatwave of 2003 could be an average summer. The rise in heatwave frequency will be felt most severely in cities, where temperatures are further amplified by the urban heat island effect.
+
+***Changes in rainfall patterns and extreme weather events will lead to more severe impacts on people than that caused by warming alone.***
+
+Warming will change rainfall patterns, partly because warmer air holds more moisture, and also because the uneven distribution of warming around the world will lead to shifts in large-scale weather regimes. Most climate models predict increases in rainfall at high latitudes, while changes in circulation patterns are expected to cause a drying of the subtropics, with northern Africa and the Mediterranean experiencing significant reductions in rainfall. There is more uncertainty about changes in rainfall in the tropics (Figure 1.6), mainly because of complicated interactions between climate change and natural cycles like the El Niño, which dominate climate in the tropics.[^43] For example, an El Niño event with strong warming in the central Pacific can cause the Indian monsoon to switch into a "dry mode", characterised by significant reductions in rainfall leading to severe droughts. These delicate interactions could cause abrupt shifts in rainfall patterns. This is an area that urgently needs more research because of the potential effect on billions of people, especially in South and East Asia (more detail in Part II).
+
+%%page 14%%
+
+Figure 1.5 Rising probability of heatwaves
+
+There will be more extreme heat days (relative to today) and fewer very cold days, as the distribution of temperatures shifts upwards. The figure below illustrates the change in frequency of a one-in-ten (blue) and one-in-one-hundred (red) year event. The black arrow shows that if the mean temperature increases by one standard deviation (equal to, for example, only 1°C for summer temperatures in parts of Europe), then the probability of today's one-in-one-hundred year event (such as a severe heatwave) will increase ten-fold. This result assumes that the shape of the temperature distribution will remain constant. However, in many areas, the drying of land is expected to skew the distribution towards higher temperatures, further increasing the frequency of temperature extremes[^44] .
+
+Source: Based on Wigley (1985) assuming normally distributed events.
+
+Figure 1.6 Consistency of future rainfall estimates
+
+The figure below indicates the percentage of models (out of a total of 23) that predict that annual rainfall will increase by 2100 (for a warming of around 3.5°C above pre-industrial). Blue shading indicates that most models (>75%) show an increase in annual rainfall, while red shading indicates that most models show a decrease in rainfall. Lightly shaded areas are where models show inconsistent results. The figure shows only the direction of change and gives no information about its scale. In general, there is agreement between most of the models that high latitudes will see increases in rainfall, while much of the subtropics will see reductions in rainfall. Changes in rainfall in the tropics are still uncertain.
+
+Source: Climate Directorate of the National Centre for Atmospheric Science, University of Reading
+
+%%page 15%%
+
+Greater evaporation and more intense rainfall will increase the risk of droughts and flooding in areas already at risk.[^45] It could also increase the size of areas at risk; one recent study, the first of its kind, estimates that the fraction of land area in moderate drought at any one time will increase from 25% at present to 50% by the 2090s, and the fraction in extreme drought from 3% to 30%[^46] .
+
+Hurricanes and other storms are likely to become more intense in a warmer, more energised world, as the water cycle intensifies, but changes to their location and overall numbers[^47] remain less certain. There is growing evidence the expected increases in hurricane severity are already occurring, above and beyond any natural decadal cycles. Recent work suggests that the frequency of very intense hurricanes and typhoons (Category 4 and 5) in the Atlantic Basin has doubled since the 1970s as a result of rising sea-surface temperatures.[^48] This remains an active area of scientific debate[^49] . In higher latitudes, some models show a general shift in winter storm tracks towards the poles.[^50] In Australia, this could lead to water scarcity as the country relies on winter storms to supply water[^51] .
+
+***Climate change could weaken the Atlantic Thermohaline Circulation, partially offsetting warming in both Europe and eastern North America, or in an extreme case causing a significant cooling.***
+
+The warming effect of greenhouse gases has the potential to trigger abrupt, large-scale and irreversible changes in the climate system. One example is a possible collapse of the North Atlantic Thermohaline Circulation (THC). In the North Atlantic, the Gulf Stream and North Atlantic drift (important currents of the North Atlantic THC) have a significant warming effect on the climates of Europe and parts of North America. The THC may be weakened, as the upper ocean warms and/or if more fresh water (from melting glaciers and increased rainfall) is laid over the salty seawater.[^52] No complex climate models currently predict a complete collapse. Instead, these models point towards a weakening of up to half by the end of the century[^53] . Any sustained weakening of the THC is likely to have a cooling effect on the climates of Europe and eastern North America, but this would only offset a portion of the regional warming due to greenhouse gases. A recent study using direct ocean measurements (the first of its kind) suggests that part of the THC may already have weakened by up to 30% in the past few decades, but the significance of this is not yet known.[^54] The potential for abrupt, large-scale changes in climate requires further research.
+
+***Sea levels will continue to rise, with very large increases if the Greenland Ice Sheet starts to melt irreversibly or the West Antarctic Ice Sheet (WAIS) collapses.***
+
+Sea levels will respond more slowly than temperatures to changing greenhouse gas concentrations. Sea levels are currently rising globally at around 3 mm per year and the rise has been accelerating[^55] . According to the IPCC TAR, sea levels are projected to rise by 9 - 88 cm by 2100, mainly due to expansion of the warmer oceans and melting glaciers on land.[^56] However, because warming only penetrates the oceans very slowly, sea levels will continue to rise substantially more over several centuries. On past emissions alone, the world has built up a substantial commitment to sea level rise. One study estimates an existing commitment of between 0.1 and 1.1 metres over 400 years.[^57]
+
+%%page 16%%
+
+Box 1.4 Ice sheets and sea level rise
+
+Melting ice sheets are already contributing a small amount to sea level rise. Most of recent and current global sea level rise results from the thermal expansion of the ocean with a contribution from glacier melt. As global temperatures rise, the likelihood of substantial contributions from melting ice sheets increases, but the scale and timing remain highly uncertain. While some models project that the net contribution from ice sheets will remain close to zero or negative over the coming century, recent observations suggest that the Greenland and West Antarctic ice sheets may be more vulnerable to rising temperatures than is projected by current climate models:
+
+- Greenland Ice Sheet. Measurements of the Greenland ice sheet have shown a slight inland growth,[^58] but significant melting and an acceleration of ice flows near the coast,[^59] greater than predicted by models. Melt water is seeping down through the crevices of the melting ice, lubricating glaciers and accelerating their movement to the ocean. Some models suggest that as local temperatures exceed 3 - 4.5°C (equivalent to a global increase of around 2 - 3°C) above pre-industrial,[^60] the surface temperature of the ice sheet will become too warm to allow recovery from summertime melting and the ice sheet will begin to melt irreversibly. During the last interglacial period, around 125,000 years ago when Greenland temperatures reached around 4 - 5°C above the present[^61] , melting of ice in the Arctic contributed several metres to sea level rise.
+- Collapse of the West Antarctic Ice Sheet:[^62] In 2002, instabilities in the Larsen Ice Shelf led to the collapse of a section of the shelf the size of Rhode Island (Larsen B – over 3200 km2 – and 200 m thick) from the Antarctic Peninsula. The collapse has been associated with a sustained warming and resulting rapid thinning of Larsen B at a rate of just under 20 cm per year[^63] . A similar rapid rate of thinning has now been observed on other parts of the WAIS around Amundsen Bay (this area alone contains enough water to raise sea levels by 1.5 m)[^64] . Rivers of ice on the ice-sheet have been accelerating towards the ocean. It is possible that ocean warming and the acceleration of ice flows will destabilise the ice sheet and cause a runaway discharge into the oceans. Uncertainties over the dynamics of the ice sheet are so great that there are few estimates of critical thresholds for collapse. One study gives temperatures between 2°C and 5°C, but these remain disputed.
+
+As global temperatures continue to rise, so do the risks of additional sea level contributions from large-scale melting or collapse of ice sheets. If the Greenland and West Antarctic ice sheets began to melt irreversibly, the world would be committed to substantial increases in sea level in the range 5 – 12 m over a timescale of centuries to millennia.[^65] The immediate effect would be a potential doubling of the rate of sea level rise: 1 - 3 mm per year from Greenland and as high as 5 mm per year from the WAIS.[^66] For illustration, if these higher rates were reached by the end of this century, the upper range of global sea level rise projections would exceed 1m by 2100. Both of these ice sheets are already showing signs of vulnerability, with ice discharge accelerating over large areas, but the thresholds at which large-scale changes are triggered remain uncertain (Box 1.4).
+
+%%page 17%%
+
+#### 1.6 Conclusions
+
+Climate change is a serious and urgent issue. While climate change and climate modelling are subject to inherent uncertainties, it is clear that human activities have a powerful role in influencing the climate and the risks and scale of impacts in the future. All the science implies a strong likelihood that, if emissions continue unabated, the world will experience a radical transformation of its climate. Part II goes on to discuss the profound implications that this will have for our way of life.
+
+The science provides clear guidance for the analysis of the economics and policy. The following chapter examines the implications of the science for the structuring of the economics.
+
+%%page 18%%
+
+#### References
+
+The Third Assessment Report of the IPCC gives the most comprehensive assessment of the science of climate change up to 2001 (IPCC 2001a,b). The summary for policymakers gives a good introduction to the more in-depth analyses of the three working groups. Maslin (2004) provides a more narrative description of climate change, including an overview of the history. Schellnhuber (2006) gives a good summary of the evolution of the science from early 2001 to 2005, including articles describing temperature projections based on new estimates of climate sensitivity (e.g. Meinshausen (2006)), positive feedbacks in the carbon cycle (e.g. Cox et al. (2006)) and several articles on the impacts of climate change.
+
+Annan, J.D. and J.C. Hargreaves (2006): 'Using multiple observationally-based constraints to estimate climate sensitivity', Geophysical Research Letters 33: L06704
+
+Archer, D. (2005): 'Methane hydrates and anthropogenic climate change', Reviews of Geophysics, submitted, available from http://geosci.uchicago.edu/~archer/reprints/archer.ms.clathrates.pdf
+
+Barnett T.P., D.W. Pierce, K.M. AchutaRao et al. (2005): 'Penetration of human-induced warming into the world's oceans', Science 309: 284 – 287
+
+Bengtsson, L., K. Hodges and E. Roeckner (2006): 'Storm tracks and climate change', Journal of Climate, in press.
+
+Brohan. P., J.J. Kennedy, I. Harris, et al. (2006): 'Uncertainty estimates in regional and global observed temperature changes: a new dataset from 1850'. Journal of Geophysical Research, 111, D12106, doi: 10.1029/2005JD006548
+
+Burke, E.J., S.J. Brown and N. Christidis (2006): 'Modelling the Recent Evolution of Global Drought and Projections for the Twenty-First Century with the Hadley Centre Climate Model', Journal of Hydrometeorology, 7(5):1113–1125
+
+Bryden, H.L., H.R. Longworth and S.A. Cunningham (2005): 'Slowing of the Atlantic meridional overturning circulation at 25°N', Nature 438: 655-657
+
+Church, J.A., and N.J. White (2006): 'A 20th century acceleration in global sea-level rise', Geophysical Research Letters, 33, L01602, doi: 10.1029/2005GL024826.
+
+Collins, M. and the CMIP Modelling Group (2005): 'El Nino – or La Nina-like climate change? Climate Dynamics' 24:89-104
+
+Cox, P.M., R.A. Betts, C.D. Jones, et al. (2000): 'Acceleration of global warming due to carbon-cycle feedbacks in a coupled climate model', Nature 408: 184-187
+
+Cox P.M., C. Huntingford and C.D. Jones (2006): 'Conditions for Sink-to-Source Transitions and Runaway Feedbacks from the Land Carbon Cycle', in Avoiding dangerous climate change, H.J. Schellnhuber et al. (eds.), Cambridge: Cambridge University Press, pp.155 – 163.
+
+Davidson and Janssens (2006): 'Temperature sensitivity of soil carbon decomposition and feedbacks to climate change', Nature 440: 165-173
+
+DEFRA (2005): 'Climate change and the greenhouse effect: a briefing from the Hadley Centre', available from http://www.metoffice.com/research/hadleycentre/pubs/brochures/2005/climate_greenhouse.pdf
+
+Emanuel, K. (2005): 'Increased destructiveness of tropical cyclones over the past 30 years', Nature 436: 686-688 Forest, C.E., P.H. Stone and A.P. Sokolov (2006): 'Estimates PDFs of climate system properties including natural and anthropogenic forcings', Geophysical Research Letters 33: L01705, doi: 10.1029/2005GL023977
+
+%%page 19%%
+
+Friedlingstein, P., P. Cox, R. Betts et al. (2006): 'Climate-carbon cycle feedback analysis: results from C4MIP model intercomparison', Journal of Climate, 19: 3337-3353
+
+Fyfe, J.C. (2003): 'Extratropical southern hemisphere cyclones: Harbingers of climate change?' Journal of Climate 16, 2802-2805
+
+Gedney, N., P.M. Cox and C. Huntingford (2004): 'Climate feedback from wetland methane emissions', Geophysical Research Letters 31 (20): L20503
+
+Geng, Q.Z. and M. Sugi (2003): 'Possible changes in extratropical cyclone activity due to enhanced greenhouse gases and aerosols – Study with a high resolution AGCM'. Journal of Climate 16: 2262-2274.
+
+Gorham, E. (1991): 'Northern Peatlands: Role in the Carbon Cycle and Probable Responses to Climatic Warming', Ecological Applications 1: 182-195, doi: 10.2307/1941811
+
+Gregory, J. and P. Huybrechts (2006): 'Ice sheet contributions to future sea level change', Phil Trans Royal Soc A 364: 1709 – 1731, doi: 10.1098/rsta.2006.1796
+
+Hadley Centre (2005): 'Stabilising climate to avoid dangerous climate change – a summary of relevant research at the Hadley Centre', available from http://www.metoffice.com/research/hadleycentre/pubs/brochures
+
+Hanna, E., P. Huybrechts, and I. Janssens, et al. (2005): 'Runoff and mass balance of the Greenland ice sheet: 1958-2003'. Journal of Geophysical Research 110, D13108, doi: 10.1029/2004JD005641
+
+Hansen, J., M. Sato, R. Ruedy, et al. (2006): 'Global temperature change, Proceedings of the National Academy', 103: 14288-14293
+
+Hope, P.K. (2006): 'Projected future changes in synoptic systems influencing southwest Western Australia. Climate Dynamics' 26: 765-780, doi: 10.1007/s00382-006-0116-x
+
+Huntington, T.G. (2006): 'Evidence for intensification of the global water cycle: review and synthesis', Journal of Hydrology 319: 1 – 13
+
+Huybrechts, P. and J. de Wolde (1999): 'The dynamic response of the Greenland Ice Sheet and Antarctic ice sheets to a multiple century climatic-warming', Journal of Climate 12: 2169-2188
+
+International ad hoc detection group (2005): 'Detecting and attributing external influences on the climate system: a review of recent advances', Journal of Climate 18: 1291-1314
+
+Intergovernmental Panel on Climate Change (2001a): 'Climate change 2001: summary for policymakers, A contribution of Working Groups I, II and III to the Third Assessment Report of the Intergovernmental Panel on Climate Change' [Watson RT, and the Core Writing Team (eds.)], Cambridge: Cambridge University Press.
+
+Intergovernmental Panel on Climate Change (2001b): 'Climate change 2001: the scientific basis. Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change' [Houghton JT, Ding Y, Griggs DJ, et al. (eds.)], Cambridge: Cambridge University Press.
+
+Johannessen, O.M., K. Khvorostovsky, M.W. Miles et al. (2005): 'Recent ice-sheet growth in the interior of Greenland'. Science 310: 1013-1016
+
+%%page 20%%
+
+Knutti, R., T.F. Stocker, F. Joos and G-K Plattner (2002): 'Constraints on radiative forcing and future climate change from observations and climate model ensembles', Nature 416: 719 – 723
+
+Lawrence D.M. and A.G. Slater (2005): 'A projection of severe near-surface permafrost degradation during the 21st century', Geophysical Research Letters 32: L24401
+
+Lambert S.J. and J.C. Fyfe (2006): 'Changes in winter cyclone frequencies and strengths simulated in enhanced greenhouse warming experiments: results from models participating in the IPCC diagnostic exercise', Climate Dynamics 1432, 0894
+
+Landsea, C. (2005): 'Atlantic hurricanes and global warming', Nature 438, E11-E12
+
+Levitus, S.J., J. Antonov and T. Boyer (2005): 'Warming of the world ocean 1955 – 2003', Geophysical Research Letters 32: L02604, doi:10.1029/2004GL021592
+
+Lindzen, R.S., M-D Chou and A.Y. Hou (2001): 'Does the earth have an adaptive infrared iris?' Bulletin of the American Meteorological Society 82: 417-432
+
+Mann, M.E., R.S. Bradley and M.K. Hughes (1999): 'Northern hemisphere temperatures during the past millennium: inferences, uncertainties, and limitations', Geophysical Research Letters, 26, 759-762.
+
+Maslin, M. (2004): 'Global warming: a very short introduction', New York: Oxford University Press, Meehl, G.A., W.M. Washington, W.D. Collins et al. (2005): 'How much more global warming and sea level rise?' Science 307:1769 – 1772
+
+Meinshausen, M. (2006): 'What does a 2°C target mean for greenhouse gas concentrations? A brief analysis based on multi-gas emission pathways and several climate sensitivity uncertainty estimates', Avoiding dangerous climate change, in H.J. Schellnhuber et al. (eds.), Cambridge: Cambridge University Press, pp.265 – 280.
+
+Murphy, J.M., D.M.H. Sexton D.N. Barnett et al. (2004): 'Quantification of modelling uncertainties in a large ensemble of climate change simulations', Nature 430: 768 – 772
+
+National Research Council (2006): 'Surface temperature reconstructions for the past 2,000 years', available from http://www.nap.edu/catalog/11676.html
+
+North Greenland Ice Core Project (2004): 'High-resolution record of Northern Hemisphere climate extending into the last interglacial maximum', Nature 431: 147-151
+
+Orr, J.C., V.J. Fabry, O. Aumont et al. (2005): 'Anthropogenic ocean acidification over the twenty-first century and its impact on calcifying organisms', Nature 437: 681-686
+
+Parmesan, C. and G. Yohe (2003): 'A globally coherent fingerprint of climate change impacts across natural systems', Nature 421: 37 – 42
+
+Pearce, F. (2003): 'Land of the midnight sums', New Scientist 177: 2379
+
+Pierrehumbert, R.T. (2004): 'Warming the world', Nature 432: 677, doi: 10.1038/432677a
+
+Pielke, R. (2005): 'Meteorology: Are there trends in hurricane destruction?' Nature 438: E11
+
+Rapley, C. (2006): 'The Antarctic ice sheet and sea level rise', in Avoiding dangerous climate change, Schellnhuber HJ (ed.), Cambridge: Cambridge University Press, pp. 25 – 28.
+
+Rignot, E. and P. Kanagaratnam (2006): 'Changes in the velocity structure of the Greenland ice sheet. Science' 311: 986-990
+
+%%page 21%%
+
+Root, T.L., D.P. MacMynowski, M.D. Mastrandrea and S.H. Schneider (2005): 'Human-modified temperatures induce species changes: combined attribution', Proceedings of the National Academy of Sciences 102: 7465 – 7469
+
+Schär, C., P.L. Vidale, D. Lüthi, et al. (2004): 'The role of increasing temperature variability in European summer heatwaves', Nature 427: 332-336, doi: 10.1038/nature02300
+
+Scheffer, M., V. Brovkin and P. Cox (2006): 'Positive feedback between global warming and the atmospheric CO2 concentration inferred from past climate change'. Geophysical Research Letters 33, L10702
+
+Schellnhuber, H.J., W. Cramer, N. Nakicenovic et al. (eds.) (2006): 'Avoiding dangerous climate change', Cambridge: Cambridge University Press.
+
+Schlesinger, M.E., J. Yin, G. Yohe, et al. (2006): 'Assessing the risk of a collapse of the Atlantic Thermohaline Circulation', in Avoiding dangerous climate change, H.J. Schellnhuber et al. (eds.) Cambridge: Cambridge University Press, pp. 37 – 47.
+
+Scholze, M., K. Wolfgang, N. Arnell and C. Prentice (2006): 'A climate-change risk analysis for world ecosystems', Proceedings of the National Academy of Sciences 103: 13116 – 13120
+
+Siegenthaler U, Stocker TF, Monnin E, et al. (2005) Stable carbon cycle-climate relationship during the late Pleistocene, Science 310: 1313 – 1317
+
+Shepherd, A., D. Wingham, T. Payne and P. Skvarca (2003): 'Larsen Ice Shelf has progressively thinned', Science 302: pp 856-859, doi: 10.1126/science.1089768
+
+Smith, L.C., Y. Sheng, G.M. MacDonald, et al. (2005): 'Disappearing artic lakes'. Science, 308: 1429
+
+Soden, B.J., D.L. Jackson, V. Ramaswamy, et al. (2005): 'The radiative signature of upper tropospheric moistening', Science, 310: 841-844
+
+Stainforth, D., T. Aina, C. Christensen, et al. (2005): 'Uncertainty in predictions of the climate response to rising levels of greenhouse gases', Nature 433: 403-406
+
+Stott P.A., D.A. Stone and M.R. Allen (2004): 'Human contribution to the European heatwave of 2003', Nature 432: 610 – 614
+
+Torn, M.S and J. Harte (2006): 'Missing feedbacks, asymmetric uncertainties, and underestimation of future warming', Geophysical Research Letters 33: L10703
+
+US Climate Change Programme (2006): 'Temperature trends in the lower atmosphere: steps for understanding and reconciling differences', available from http://www.climatescience.gov/Library/sap/sap1-1/finalreport
+
+Vaughan, D.G. and J.R. Spouge (2002): 'Risk estimation of collapse of the West Antarctic ice sheet', Climatic Change 52:65-91 von Storch, H., E. Zorita, J.M. Jones, et al. (2004): Reconstructing past climate from noisy data, Science 306: 679-682
+
+Walter, K.M., S.A. Zimov, J.P. Chanton, et al. (2006): 'Methane bubbling from Siberian thaw lakes as a positive feedback to climate warming', Nature 443: 71-75
+
+Webster, P.J., G.J. Holland, J.A. Curry and H-R Chang (2005): 'Changes in tropical cyclone number, duration, and intensity in a warming environment', Science 309,1844-1846
+
+%%page 22%%
+
+Wetherald, R.T. and S. Manabe (2002): 'Simulation of hydrologic changes associated with global warming', Journal of Geophysical Research 107: 4379
+
+Wigley, T.M.L. (1985): 'Impact of extreme events', Nature 316: 106 – 107
+
+Wigley, T.M.L. and S.C.B. Raper (2001): 'Interpretation of high projections for global-mean warming', Science 293: 451-454
+
+Wigley, T.M.L. (2005): 'The climate change commitment', Science 307: 1766 – 1769
+
+Wood, R., M. Collins, J. Gregory, et al. (2006): 'Towards a risk assessment for shutdown of the Atlantic Thermohaline Circulation', in Avoiding dangerous climate change, H.J Schellnhuber et al. (eds.), Cambridge: Cambridge University Press, pp. 49 – 54.
+
+Zwally, H.J., M.B. Giovinetto, J. Li, et al. (2006): 'Mass changes of the Greenland and Antarctic ice sheets and shelves and contributions to sea-level rise: 1992–2002', Journal of Glaciology 51: 509–527
+
+%%page 23%%
+
+### 2 Economics, Ethics and Climate Change
+
+Key Messages
+
+Climate change is a result of the externality associated with greenhouse-gas emissions – it entails costs that are not paid for by those who create the emissions.
+
+It has a number of features that together distinguish it from other externalities:
+
+- It is global in its causes and consequences;
+- The impacts of climate change are long-term and persistent;
+- Uncertainties and risks in the economic impacts are pervasive.
+- There is a serious risk of major, irreversible change with non-marginal economic effects.
+
+These features shape the economic analysis: it must be global, deal with long time horizons, have the economics of risk and uncertainty at its core, and examine the possibility of major, non-marginal changes.
+
+The impacts of climate change are very broad ranging and interact with other market failures and economic dynamics, giving rise to many complex policy problems. Ideas and techniques from most of the important areas of economics, including many recent advances, have to be deployed to analyse them.
+
+The breadth, magnitude and nature of impacts imply that several ethical perspectives, such as those focusing on welfare, equity and justice, freedoms and rights, are relevant. Most of these perspectives imply that the outcomes of climate-change policy are to be understood in terms of impacts on consumption, health, education and the environment over time but different ethical perspectives may point to different policy recommendations.
+
+Questions of intra- and inter-generational equity are central. Climate change will have serious impacts within the lifetime of most of those alive today. Future generations will be even more strongly affected, yet they lack representation in present-day decisions.
+
+Standard externality and cost-benefit approaches have their usefulness for analysing climate change, but, as they are methods focused on evaluating marginal changes, and generally abstract from dynamics and risk, they can only be starting points for further work.
+
+Standard treatments of discounting are valuable for analysing marginal projects but are inappropriate for non-marginal comparisons of paths; the approach to discounting must meet the challenge of assessing and comparing paths that have very different trajectories and involve very long-term and large inter-generational impacts. We must go back to the first principles from which the standard marginal results are derived.
+
+The severity of the likely consequences and the application of the above analytical approaches form the basis of powerful arguments, developed in the Review, in favour of strong and urgent global action to reduce greenhouse-gas emissions, and of major action to adapt to the consequences that now cannot be avoided.
+
+#### 2.1 Introduction
+
+The science described in the previous chapter drives the economics that is required for the analysis of policy. This chapter introduces the conceptual frameworks that we will use to examine the economics of climate change. It explores, in Section 2.2, the distinctive features of the externalities associated with greenhouse-gas emissions and draws attention to some of the difficulties associated with a simplistic application of the standard theory of externalities to this problem. Section 2.3 introduces a variety of ethical approaches and relates them to the global and long-term nature of the impacts (the discussion is extended in the appendix to the chapter). Section 2.4 examines some specifics of intertemporal allocation, including discounting (some further technical details are provided in the appendix to the chapter). Sections 2.5 and 2.6 consider how economic analysis can get to grips with a problem that is uncertain and involves a serious risk of large losses of wellbeing, due to deaths, extinctions of species and heavy economic costs, rather than the marginal changes more commonly considered in economics. For most of economic policy, the underlying ethical assumptions are of great importance, and this applies particularly for climate change: that is why they are given special attention in this chapter.
+
+%%page 24%%
+
+The economics introduced in this chapter applies, in principle, to the whole Review but the analysis of Sections 2.2 to 2.6 is of special relevance to Parts II and III, which look at impacts and at the economics of mitigation – assessing how much action is necessary to reduce greenhouse-gas emissions. Parts IV, V, VI of this report are devoted to the analysis of policy to promote mitigation and adaptation. The detailed, and often difficult, economics of public policy and collective action that are involved in these analyses are introduced in the sections themselves and we provided only brief coverage in Sections 2.7 and 2.8. In the former section, we refer briefly to the modern public economics of carbon taxation, trading and regulation and of the promotion of research, development and deployment, including the problems of various forms of market imperfection affecting innovation. It also covers an analysis of the role of 'responsible behaviour' and how public understanding of this notion might be influenced by public policy. Section 2.8 explores some of the difficulties of building and sustaining global collective action in response to the global challenge of climate change.
+
+In these ways, this chapter lays the analytical foundations for much of the economics required by the challenge of climate change and which is put to work in the course of the analysis presented in this Review.
+
+The subject demands analysis across an enormous range of issues and requires all the tools of economics we can muster – and indeed some we wish we had. In setting out some of these tools, some of the economic analysis of this chapter is inevitably technical, even though the more mathematical material has been banished to an appendix. Some readers less interested in the technical underpinnings of the analysis may wish to skim the more formal analytical material. Nevertheless, it is important to set out some of the analytical instruments at the beginning of the Review, since they underpin the analysis of risk, equity and allocation over time that must lie at the heart of a serious analysis of the economics of climate change.
+
+#### 2.2 Understanding the market failures that lead to climate change
+
+***Climate change results from greenhouse-gas emissions associated with economic activities including energy, industry, transport and land use.***
+
+In common with many other environmental problems, human-induced climate change is at its most basic level an externality. Those who produce greenhouse-gas emissions are bringing about climate change, thereby imposing costs on the world and on future generations, but they do not face directly, neither via markets nor in other ways, the full consequences of the costs of their actions.
+
+Much economic activity involves the emission of greenhouse gases (GHGs). As GHGs accumulate in the atmosphere, temperatures increase, and the climatic changes that result impose costs (and some benefits) on society. However, the full costs of GHG emissions, in terms of climate change, are not immediately – indeed they are unlikely ever to be – borne by the emitter, so they face little or no economic incentive to reduce emissions. Similarly, emitters do not have to compensate those who lose out because of climate change.[^1] In this sense, human-induced climate change is an externality, one that is not 'corrected' through any institution or market,[^2] unless policy intervenes.
+
+%%page 25%%
+
+The climate is a public good: those who fail to pay for it cannot be excluded from enjoying its benefits and one person's enjoyment of the climate does not diminish the capacity of others to enjoy it too.[^3] Markets do not automatically provide the right type and quantity of public goods, because in the absence of public policy there are limited or no returns to private investors for doing so: in this case, markets for relevant goods and services (energy, land use, innovation, etc) do not reflect the consequences of different consumption and investment choices for the climate. Thus, climate change is an example of market failure involving externalities and public goods.[^4] Given the magnitude and nature of the effects initially described in the previous chapter and taken forward in Parts II and III, it has profound implications for economic growth and development. All in all, it must be regarded as market failure on the greatest scale the world has seen.
+
+The basic theory of externalities and public goods is the starting point for most economic analyses of climate change and this Review is no exception. The starting point embodies the basic insights of Pigou, Meade, Samuelson and Coase (see Part IV). But the special features of this particular externality demand, as we shall see, that the economic analysis go much further.
+
+***The science of climate change means that this is a very different form of externality from the types commonly analysed.***
+
+Climate change has special features that, together, pose particular challenges for the standard economic theory of externalities. There are four distinct issues that will be considered in turn in the sections below.
+
+- Climate change is an externality that is global in both its causes and consequences. The incremental impact of a tonne of GHG on climate change is independent of where in the world it is emitted (unlike other negative impacts such as air pollution and its cost to public health), because GHGs diffuse in the atmosphere and because local climatic changes depend on the global climate system. While different countries produce different volumes the marginal damage of an extra unit is independent of whether it comes from the UK or Australia.
+- The impacts of climate change are persistent and develop over time. Once in the atmosphere, some GHGs stay there for hundreds of years. Furthermore, the climate system is slow to respond to increases in atmospheric GHG concentrations and there are yet more lags in the environmental, economic and social response to climate change. The effects of GHGs are being experienced now and will continue to work their way through in the very long term.
+- The uncertainties are considerable, both about the potential size, type and timing of impacts and about the costs of combating climate change; hence the framework used must be able to handle risk and uncertainty.
+- The impacts are likely to have a significant effect on the global economy if action is not taken to prevent climate change, so the analysis has to consider potentially non-marginal changes to societies, not merely small changes amenable to ordinary project appraisal.
+
+These features shape much of the detailed economic analysis throughout this Review. We illustrate with just one example, an important one, which shows how the dynamic nature of the accumulation of GHGs over time affects one of the standard analytical workhorses of the economics of externalities and the environment. It is common to present policy towards climate change in terms of the social cost of carbon on the margin (SCC) and the marginal abatement cost (MAC). The former is the total damage from now into the indefinite future of emitting an extra unit of GHGs now – the science says that GHGs (particularly CO2) stay in the atmosphere for a very long time. Thus, in its simplest form, the nature of the problem is that the stock of gases in the atmosphere increases with the net flow of GHG emissions in this period, and thus decreases with abatement. Therefore, on the one hand, the SCC curve slopes downwards with increasing abatement in any given period, assuming that the lower the stock at any point in the future, the less the marginal damage. On the other hand, the MAC curve slopes upwards with increasing abatement, if it is more costly on the margin to do more abatement as abatement increases in the given period. The optimum level of abatement must satisfy the condition that the MAC equals the SCC. If, for example, the SCC were bigger than the MAC, the social gain from one extra unit of abatement would be less than the cost and it would be better to do a little more. We call the optimum level this period x 0 .
+
+%%page 26%%
+
+It should be clear that the SCC curve this period depends on future emissions: if we revised upwards our specified assumptions on future emissions, the whole SCC curve would shift upwards, and so would the optimum abatement level in this period, . Thus, if we are thinking about an optimum path over time, rather than simply an optimum emission for this period, we must recognise that the SCC curve for any given period depends on the future stock and thus on the future path of emissions. We cannot sensibly calculate an SCC without assuming that future emissions and stocks follow some specified path. For different specified paths, the SCC will be different. For example, it will be much higher on a 'business as usual' path (BAU) than it will be on a path that cuts emissions strongly and eventually stabilises concentrations. It is remarkable how often SCC calculations are vague on this crucial point (see Chapter 13 for a further discussion). Thus we must be very careful how we use a diagram that is pervasive in the economics of climate change – see Figure 2.1.
+
+Figure 2.1 The optimum degree of abatement in a given period
+
+In the figure, the SCC and the MAC are drawn as functions of emissions in this period, call it period 0. As drawn, the SCC curve is fairly flat and downward sloping, since extra emissions this period do not affect the total stock very much, but nevertheless extra abatement now implies a slightly lower stock in the future. The MAC curve rises, since we assume that, as abatement increases in this period, the marginal cost goes up. The optimum path for abatement is where x 0 , x1 , x 2 , … xt ,…. are all set optimally for each period 0,1,2, t,…. into the indefinite future, and the SCC curve is drawn for each period on the assumption that all future periods are set optimally.
+
+A number of important points follow from this, in addition to the basic one that an SCC curve cannot be drawn, nor an SCC calculated, without specific assumptions on future paths. First, if the SCC rises over time along the specified path then, for optimality, so too must the MAC. It is very likely that the SCC will rise over time, since stocks of GHGs will rise as further emissions take place, up to the point where stabilisation is reached. Thus the MAC at the optimum rises and the intersection of the MAC and SCC curves will imply successively greater abatement. This is true even though the whole MAC curve is likely to be lower for any particular degree of abatement in the future because learning will have taken place.
+
+%%page 27%%
+
+Figure 2.2 is thus perhaps more helpful than Figure 2.1 in sketching the nature of the solution to the problem. The position of the schedule in the left-hand side panel depends on the stabilisation target chosen for the atmospheric concentration of greenhouse gases, which in turn depends upon how the expected present values (in terms of discounted utility) of costs and benefits of mitigation through time change as the stabilisation level changes. Hence the choice of stabilisation target implies a view about what is likely to happen to abatement costs over time. The right-hand panel shows the shifts in the MAC curve expected at the time the stabilisation target is chosen.
+
+Figure 2.2 How the path for the social cost of carbon drives the extent of abatement
+
+This illustrates how important it is that the dynamics of the problem are considered. The conclusion that the MAC rises along an optimum path does not automatically follow from an analysis that simply shifts the SCC curve upwards over time (with higher stocks) and shifts the MAC down over time (with learning), without linking to the full dynamic optimisation. That optimisation takes account of the known future fall in costs in determining the whole path for the SCC. We are simply assuming that this fall in costs could not be of a magnitude to make it optimum for stocks to fall, that is, for emissions to be less than the Earth system's equilibrium capacity to absorb greenhouse gases from the atmosphere.
+
+This analysis raises the second point, about the role of uncertainty. In the above argument, there is no consideration of uncertainty. If that vital element is now introduced, the argument becomes more complex. It has to be asked whether the resolution of uncertainty in any period would lead to a revision of views about the future probability distributions for abatement costs and climate-change damages. If, for example, there is unexpected good news that abatement is likely to be much cheaper than previously thought, then a lower stabilisation target and more abatement over time than originally planned would become appropriate. This would reduce the SCC from where it would otherwise have been. However, one surprisingly good period for costs does not necessarily imply that future periods will be just as good. In Figure 2.2, persistently faster technical progress than expected (as opposed to random fluctuations of the MAC around its expected value) would lead to a downward revision of the stabilisation target and hence a downward shift in the schedule in the left-hand panel.
+
+Dynamics and uncertainty are explored further in Chapters 13 and 14, while analyses involving risk are taken further in Sections 2.5 and 2.6 and in Chapter 6.
+
+This important example shows how important it is to integrate the scientific features of the externality into the economics and shows further that there are difficult conceptual and technical questions to be tackled. The analysis must cover a very broad range, including the economics of: growth and development; industry; innovation and technological change; institutions; the international economy; demography and migration; public finance; information and uncertainty; and the economics of risk and equity; and environmental and public economics throughout.
+
+%%page 28%%
+
+#### 2.3 Ethics, welfare and economic policy
+
+***The special features of the climate-change externality pose difficult questions for the standard welfare-economic approach to policy.***
+
+Chapter 1 shows that the effects of climate change are global, intertemporal and highly inequitable. The inequity of climate change is examined further in Part II.. Generally, poor countries, and poor people in any given country, suffer the most, notwithstanding that the rich countries are responsible for the bulk of past emissions. These features of climate change, together with the fact that they have an impact on many dimensions of human well-being, force us to look carefully at the underlying ethical judgements and presumptions which underpin, often implicitly, the standard framework of policy analysis. Indeed, it is important to consider a broader range of ethical arguments and frameworks than is standard in economics, both because there are many ways of looking at the ethics of policy towards climate change, and, also, because in so doing we can learn something about how to apply the more standard economic approach. There is a growing literature on the ethics of climate change: analysis of policy cannot avoid grappling directly with the difficult issues that arise. These ethical frameworks are discussed more formally in the technical appendix to this chapter; the discussion here is only summary[^5].
+
+The underlying ethics of basic welfare economics, which underpins much of the standard analysis of public policy, focuses on the consequences of policy for the consumption of goods and services by individuals in a community. These goods and services are generated by labour, past saving, knowledge and natural resources. The perspective sees individuals as having utility, or welfare, arising from this consumption.
+
+In this approach, the objective is to work out the policies that would be set by a decision-maker acting on behalf of the community and whose role it is to improve, or maximise, overall social welfare. This social welfare depends on the welfare of each individual in the community. When goods and services are defined in a broad way, they can include, for example, education, health and goods appearing at different dates and in different circumstances. Thus the theory covers time and uncertainty. And, to the extent that individuals value the environment, that too is part of the analysis. Many goods or services, including education, health and the environment, perform a dual role: individuals directly value them and they are inputs into the use or acquisition of other consumption goods. In the jargon, they are both goals and instruments.
+
+The standard economic theory then focuses on flows of goods or services over time and their distribution across individuals. The list of goods or services should include consumption (usually monetary or the equivalent), education, health and the environment. These are usually the areas focused upon in cross-country comparisons of living standards, such as, for example, in the World Development Indicators of the World Bank, the Human Development Report of the UNDP, and the Millennium Development Goals (MDGs) agreed at the UN at the turn of the millennium. 'Stocks' of wealth, infrastructure, the natural environment and so on enter into the analysis in terms of their influence on flows. Through these choices of data for central attention and through the choice of goals, the international community has identified a strong and shared view on the key dimensions of human well-being.
+
+Those choices of data and goals can be derived from a number of different ethical perspectives (see, for example, Sen (1999)). Most ethical frameworks generally used in the analyses of economic policy have some relevance for the economics of climate change and there are some – for example, those involving stewardship and sustainability – that are particularly focused on environmental issues.
+
+%%page 29%%
+
+The ethical framework of standard welfare economics looks first only at the consequences of actions (an approach often described as 'consequentialism') and then assesses consequences in terms of impacts on 'utility' (an approach often described as 'welfarism', as in Sen (1999), Chapter 3 and the appendix to this chapter). This standard welfare-economic approach has no room, for example, for ethical dimensions concerning the processes by which outcomes are reached. Some different notions of ethics, including those based on concepts of rights, justice and freedoms, do consider process. Others, such as sustainability, and stewardship, emphasise particular aspects of the consequences of decisions for others and for the future, as explained in the technical appendix.
+
+***Nevertheless, the consequences on which most of these notions would focus for each generation often have strong similarities: above all, with respect to the attention they pay to consumption, education, health and the environment.***
+
+And all the perspectives would take into account the distribution of outcomes within and across generations, together with the risks involved in different actions, now and over time. Hence the Review focuses on the implications of action or inaction on climate change for these four dimensions.
+
+How the implications for these four dimensions are assessed, will, of course, vary according to the ethical position adopted. How policy-makers aggregate over consequences (i) within generations, (ii) over time, and (iii) according to risk will be crucial to policy design and choice. Aggregation requires being quantitative in comparing consequences of different kinds and for different people. The Review pays special attention to all three forms of aggregation. In arriving at decisions, or a view, it is not, however, always necessary to derive a single number that gives full quantitative content and appropriate weight to all the dimensions and elements involved (see below).
+
+***Climate change is an externality that is global in both its causes and consequences. Both involve deep inequalities that are relevant for policy.***
+
+The incremental impact of a tonne of GHG is independent of where in the world it is emitted. But the volume of GHGs emitted globally is not uniform. Historically, rich countries have produced the majority of GHG emissions. Though all countries are affected by climate change, they are affected in different ways and to different extents. Developing countries will be particularly badly hit, for three reasons: their geography; their stronger dependence on agriculture; and because with their fewer resources comes greater vulnerability. There is therefore a double inequity in climate change: the rich countries have special responsibility for where the world is now, and thus for the consequences which flow from this difficult starting point, whereas poor countries will be particularly badly hit.
+
+The standard welfare-economics framework has a single criterion, and implicitly, a single governmental decision-maker. It can be useful in providing a benchmark for what a 'good' global policy would look like. But the global nature of climate change implies that the simple economic theory with one jurisdiction, one decision-maker, and one social welfare function cannot be taken literally. Instead, it is necessary to model how different players or countries will interact (see Section 2.8 below and Pt VI) and to ask ethical questions about how people in one country or region should react to the impacts of their actions on those in another. This raises questions of how the welfare of people with very different standards of living should be assessed and combined in forming judgements on policy.
+
+%%page 30%%
+
+***There are particular challenges in valuing social welfare across countries at different stages of development and across different income or consumption levels.***
+
+The ethical question of how consequences for people in very different circumstances should be aggregated must be faced directly. For the sake of simplicity and clarity, we shall adopt the perspective of the 'social welfare function' approach, as explained in Box 2.1.
+
+Box 2.1 The 'social welfare function' approach to 'adding up' the wellbeing of different people.
+
+The stripped-down approach that we shall adopt when we attempt to assess the potential costs of climate change uses the standard framework of welfare economics. The objective of policy is taken to be the maximisation of the sum across individuals of social utilities of consumption. Thus, in this framework, aggregation of impacts across individuals using social value judgements is assumed to be possible. In particular, we consider consumption as involving a broad range of goods and services that includes education, health and the environment. The relationship between the measure of social wellbeing – the sum of social utilities in this argument – and the goods and services consumed by each household, on which it depends, is called the social welfare function.
+
+In drawing up a social welfare function, we have to make explicit value judgements about the distribution of consumption across individuals – how much difference should it make, for example, if a given loss of consumption opportunities affects a rich person rather than a poor person, or someone today rather than in a hundred years' time?[^6] Aggregating social utility across individuals to come up with a measure of social welfare has its problems. Different value judgements can lead to different rankings of possible outcomes, and deciding what values should be applied is difficult in democratic societies[^7]. It is not always consistent with ethical perspectives based on rights and freedoms. But the approach has the virtue of clarity and simplicity, making it easy to test the sensitivity of the policy choice that emerges to the value judgements made. It is fairly standard in the economics of applied policy problems and allows for a consistent treatment of aggregation within and across generations and for uncertainty. The social welfare function's treatment of income differences can be calibrated by simple thought experiments. For example, suppose the decision-maker is considering two possible policy outcomes. In the second outcome, a poor person receives an income $X more than in the first, but a rich person receives $Y less; how much bigger than X would Y have to be for the decision-maker to decide that the second outcome is worse than the first?
+
+Aggregation across education, health, income and environment raises profound difficulties, particularly when comparisons are made across individuals. Some common currency or 'numeraire' is necessary: the most common way of expressing an aggregate measure of wellbeing is in terms of real income. That immediately raises the challenge of expressing health (including mortality) and environmental quality in terms of income. There have been many attempts to do just that. These should not be lightly dismissed, since nations often decide how much to allocate to, for example, accident and emergency services or environmental protection in the knowledge that a little extra money saves lives and improves the environment. Indeed, individuals make similar choices in their own lives.
+
+Nevertheless, there are significant difficulties inherent in the valuation of health and the environment, many of which are magnified across countries where major differences in income affect individuals' willingness and ability to pay for them. For example, a very poor person may not be 'willing-to-pay' very much money to insure her life, whereas a rich person may be prepared to pay a very large sum. Can it be right to conclude that a poor person's life or health is therefore less valuable?[^8] It is surely within the realms of sensible discourse to think of the consequences of different strategies simultaneously in terms of income, lives and the environment: that is the approach we adopt where possible. At some points (such as in Chapter 6), however, we present models from the literature that do embody estimates of the monetary equivalent of the impacts of climate change on broader dimensions of welfare (although generally in these contexts increments in income are valued differently at different levels in income – see Box 2.1). Such exercises should be viewed with some circumspection.
+
+%%page 31%%
+
+#### 2.4 The long-run impacts of climate change: evaluation over time and discounting
+
+***The effects of GHGs emitted today will be felt for a very long time. That makes some form of evaluation or aggregation across generations unavoidable. The ethical decisions on, and approaches to, this issue have major consequences for the assessment of policy.***
+
+The approach we adopt here is similar to that for assessing impacts that fall on different people or nations, and in some respects continues the discussion of ethics in the preceding section. When we do this formally, we work in terms of sums of utilities of consumption. Again there is a problem of calibrating the social welfare function for this purpose but, as with aggregating across people with different incomes at a moment in time, one can use a series of 'thought experiments' to help (see Box 2.1).
+
+Typically, in the application of the theory of welfare economics to project and policy appraisal, an increment in future consumption is held to be worth less than an increment in present consumption, for two reasons. First, if consumption grows, people are better off in the future than they are now and an extra unit of consumption is generally taken to be worth less, the richer people are. Second, it is sometimes suggested that people prefer to have good things earlier rather than later – 'pure time preference' – based presumably in some part on an assessment of the chances of being alive to enjoy consumption later and in some part 'impatience'.
+
+Yet assessing impacts over a very long time period emphasises the problem that future generations are not fully represented in current discussion. Thus we have to ask how they should be represented in the views and decisions of current generations. This throws the second rationale for 'discounting' future consumption mentioned above – pure time preference – into question. We take a simple approach in this Review: if a future generation will be present, we suppose that it has the same claim on our ethical attention as the current one.
+
+Thus, while we do allow, for example, for the possibility that, say, a meteorite might obliterate the world, and for the possibility that future generations might be richer (or poorer), we treat the welfare of future generations on a par with our own. It is, of course, possible that people actually do place less value on the welfare of future generations, simply on the grounds that they are more distant in time. But it is hard to see any ethical justification for this. It raises logical difficulties, too. The discussion of the issue of pure time preference has a long and distinguished history in economics, particularly among those economists with a strong interest and involvement in philosophy[^9]. It has produced some powerful assertions. Ramsey (1928, p.543) described pure time discounting as 'ethically indefensible and [arising] merely from the weakness of the imagination'. Pigou (1932, pp 24-25) referred to it as implying that 'our telescopic faculty is defective'. Harrod (1948, pp 37-40) described it as a 'human infirmity' and 'a polite expression for rapacity and the conquest of reason by passion'. Solow (1974, p.9) said 'we ought to act as if the social rate of time preference were zero (though we would simultaneously discount future consumption if we expected the future to be richer than the present)'. Anand and Sen (2000) take a similar view, as does Cline (1992) in his analysis of the economics of global warming. The appendix to this chapter explores these issues in more technical detail, and includes references to one or two dissenting views.
+
+%%page 32%%
+
+However, we must emphasise that the approach we adopt, aggregating utility of consumption, does take directly into account the possibility that future generations may be richer or poorer, the first rationale for discounting above. Uncertainty about future prospects plays an important role in the analysis of the Review. How well off we may be when a cost or benefit arrives does matter to its evaluation, as does the probability of the occurrence of costs and benefits. Those issues, per se, are not reasons for discounting (other than the case of uncertainty about existence).
+
+A formal discussion of discounting inevitably becomes mathematically technical, as one must be explicit about growth paths and intertemporal allocations. The simple techniques of comparing future incomes or consumption with those occurring now using discount rates (other than for 'pure time preference') is not valid for comparing across paths that are very different. Further, where comparisons are for marginal decisions and the use of discount rates is valid, then, for a number of reasons, particularly uncertainty, discount rates may fall over time. a formal discussion is provided in the appendix to this chapter: the results are summarised in Box 2.2.
+
+Box 2.2 Discounting
+
+Discounting, as generally used in economics, is a technique relevant for marginal perturbations around a given growth path. A discount rate that is common across projects can be used only for assessing projects that involve perturbations around a path and not for comparing across very different paths.
+
+With marginal perturbations, the key concept is the discount factor: the value of an increment in consumption at a time in the future relative to now. The discount factor will generally depend on the consumption level in the future relative to that now, i.e. on growth, and on the social utility or welfare function used to evaluate consumption (see Box 2.1).
+
+The discount rate is the rate of fall of the discount factor. There is no presumption that it is constant over time, as it depends on the way in which consumption grows over time.
+
+- If consumption falls along a path, the discount rate can be negative.
+- If inequality rises over time, this would work to reduce the discount rate, for the social welfare functions typically used.
+- If uncertainty rises as outcomes further into the future are contemplated, this would work to reduce the discount rate, with the welfare functions typically used. Quantification of this effect requires specification of the form of uncertainty, and how it changes, and of the utility function.
+
+With many goods and many households, there will be many discount rates. For example, if conventional consumption is growing but the environment is deteriorating, then the discount rate for consumption would be positive but for the environment it would be negative. Similarly, if the consumption of one group is rising but another is falling, the discount rate would be positive for the former but negative for the latter.
+
+Taking the analysis of this section and that of the appendix to this chapter together with the discussion of ethics earlier in this chapter, it can be seen that the standard welfare framework is highly relevant as a theoretical basis for assessing strategies and projects in the context of climate change. However, the implications of that theory are very different from those of the techniques often used in cost-benefit analysis. For example, a single constant discount rate would generally be unacceptable for dealing with the long-run, global, non-marginal impacts of climate change.
+
+For further discussion of discounting, and references to the relevant literature, see the technical annex to this chapter.
+
+%%page 33%%
+
+This approach to discounting and the ethics from which it is derived is of great importance for the analysis of climate change. That is why we have devoted space to it at the beginning of our Review. If little or no value were placed on prospects for the long-run future, then climate change would be seen as much less of a problem. If, however, one thinks about the ethics in terms of most standard ethical frameworks, there is every reason to take these prospects very seriously.
+
+#### 2.5 Risk and Uncertainty
+
+***The risks and uncertainties around the costs and benefits of climate policy are large; hence the analytical framework should be able to handle risk and uncertainty explicitly.***
+
+For the moment, we do not make a distinction between risk and uncertainty, but the distinction is important and we return to it below. Uncertainty affects every link in the chain from emissions of GHGs through to their impacts. There are uncertainties associated, for example, with future rates of economic growth, with the volume of emissions that will follow, with the increases in temperature resulting from emissions, with the impacts of these temperature increases and so on. Similarly, there are uncertainties associated with the economic response to policy measures, and hence about how much it will cost to reduce GHG emissions.
+
+Our treatment of uncertainty follows a similar approach to that for evaluation or aggregation over space and time. Where we embody uncertainty formally in our models, we add utilities over possible states of the world that might result from climate change, weighting by the probability of those states. This yields what is known as 'expected' utility.
+
+This is essentially the extension of the social utility approach to an uncertain or 'stochastic' environment. As in a certain or 'deterministic' environment, it has its ethical difficulties, but it has the virtues of transparency, clarity, and consistency. Again, it is fairly standard in applied economics.
+
+The basis of such probabilities should be up-to-date knowledge from science and economics. This amounts to a 'subjective' probability approach.[^10] It is a pragmatic response to the fact that many of the 'true' uncertainties around climate-change policy cannot themselves be observed and quantified precisely, as they can be in many engineering problems, for example.
+
+***The standard expected-utility framework involves aversion to risk and, in this narrow sense, a 'precautionary principle'.***
+
+This approach to uncertainty, combined with the assumption that the social marginal utility of income declines as income rises, implies that society will be willing to pay a premium (insurance) to avoid a simple actuarially fair gamble where potential losses and gains are large. As Parts II and III show, potential losses from climate change are large and the costs of avoidance (the insurance premium involved in mitigation), we argue, seem modest by comparison.
+
+The analytical approach incorporates aspects of insurance, caution and precaution directly, and does not therefore require a separate 'precautionary principle' to be imposed as an extra ethical criterion.
+
+***More modern theories embodying a distinction between uncertainty and risk suggest an explicit 'precautionary principle' beyond that following from standard expected-utility theory.***
+
+%%page 34%%
+
+The distinction between uncertainty and risk is an old one, going back at least to Knight (1921) and Keynes (1921). In their analysis, risk applied when one could make some assessment of probabilities and uncertainty when one does not have the ability to assess probabilities. In a fascinating paper, Claude Henry (2006) puts these ideas to work on problems in science and links them to modern theories of behaviour towards risk. He uses two important examples to illustrate the relevance of a precautionary principle in the presence of uncertainty. The first is the link between bovine spongiform encephalopathy (BSE) in cows and Creutzfeld-Jacob Disease (CJD) in humans and the second, the link between asbestos and lung disease.
+
+For the first, UK scientists asserted for some time that there could be no link because of 'a barrier between species'. However in 1991 scientists in Bristol succeeded in inoculating a cat with BSE and the hypothesis of 'a barrier' was destroyed. Around the same time, a scientist, Stanley Prusiner, identified protein mutations that could form the basis of a link. These results did not establish probabilities but they destroyed 'certainty'. By introducing uncertainty, the finding opened up the possibility of applying a precautionary principle.
+
+For the second, a possible link between asbestos and lung disease was suggested as early as 1898 by health inspectors in the UK, and in 1911 on a more scientific basis after experiments on rats. Again the work was not of a kind to establish probabilities but provided grounds for precaution. Unfortunately, industry lobbying prevented a ban on asbestos and the delay of fifty years led to considerable loss of life. Application of the precautionary principle could have saved lives.
+
+Henry refers to recent work by Maccheroni et al (2005) and Klibanoff et al (2005) that formalises this type of argument,[^11] giving, in effect, a formal description of the precautionary principle. In this formalisation, there are a number of possible probability distributions over outcomes that could follow from some action. But the decision-maker, who is trying to choose which action to take, does not know which of these distributions is more or less likely for any given action. It can be shown under formal but reasonable assumptions[^12] that she would act as if she chooses the action that maximises a weighted average of the worst expected utility and the best expected utility, where best and worst are calculated by comparing expected utilities using the different probability distributions. The weight placed on the worst outcome would be influenced by concern of the individual about the magnitude of associated threats, or pessimism, and possibly any hunch about which probability might be more or less plausible. It is an explicit embodiment of 'aversion to uncertainty', sometimes called 'aversion to ambiguity', and is an expression of the 'precautionary principle'. It is different from and additional to the idea of 'aversion to risk' associated with and derived from expected utility.
+
+The ability to work with probability distributions in the analysis of climate change was demonstrated in Chapter 1. But there is genuine uncertainty over which of these distributions should apply. In particular, the science and economics are particularly sparse precisely where the stakes are highest – at the high temperatures we now know may be possible. Uncertainty over probability distributions is precisely the situation we confront in the modelling of Chapter 6. As Claude Henry puts it in the conclusion to his 2006 paper, 'uncertainty should not be inflated and invoked as an alibi for inaction'. We now have a theory that can describe how to act.
+
+#### 2.6 Non-marginal policy decisions
+
+***There is a serious risk that, without action to prevent climate change, its impacts will be large relative to the global economy, much more so than for most other environmental problems.***
+
+%%page 35%%
+
+The impacts of climate change on economies and societies worldwide could be large relative to the global economy. Specifically, it cannot be assumed that the global economy, net of the costs of climate change, will grow at a certain rate in the future, regardless of whether nations follow a 'business as usual' path or choose together to reduce GHG emissions. In this sense, the decision is not a marginal one.
+
+Figure 2.3 Conceptual approach to comparing divergent growth paths over the long term
+
+The issues are represented schematically in Figure 2.4, which compares two paths, one with mitigation and one without. We should note that, in this diagram, there is uncertainty around each path, which should be analysed using the approaches of the preceding section. This is crucial to the analysis in much of the Review. Income on the 'path with mitigation' is below that on the path without ('business as usual') for the earlier time period, because costs of mitigation are incurred. Later, as the damages from climate change accumulate, growth on the 'path without mitigation' will slow and income will fall below the level on the other path. The analysis of Part III attempts to quantify these effects and finds that the 'greener' path (with mitigation) allows growth to continue but, on the path without mitigation, income will suffer. The analysis requires formal comparison between paths and Part III shows that the losses from mitigation in the near future are strongly outweighed by the later gains in averted damage.
+
+#### 2.7 The public policy of promoting mitigation
+
+Having established the importance of strong mitigation in Parts II and III of the Review, Part IV is devoted to policy to bring it about. The basic theory of externalities identifies the source of the economic problem in untaxed or unpriced emissions of GHGs.
+
+The externality requires a price for emissions: that is the first task of mitigation policy.
+
+The first requirement is therefore to introduce taxes or prices for GHGs. The Pigou treatment of externalities points to taxes based on the marginal damages caused by carbon emissions. In the diagram shown in Figure 2.1, the appropriate tax would be equal to the social cost of carbon at the point where it is equal to the marginal abatement cost. Faced with this tax, the emitters would choose the appropriate level of abatement.
+
+However, the modern theory of risk indicates that long-term quantity targets may be the right direction for policy, with trading within those targets or regular revision of taxes to keep on course towards the long-run objective (see Chapter 14). Given the long-run nature of many of the relevant decisions, whichever policies are chosen, credibility and predictability of policy will be crucial to effectiveness.
+
+%%page 36%%
+
+The second task of mitigation policy is to promote research, development and deployment.
+
+However, the inevitable absence of total credibility for GHG pricing policy decades into the future may inhibit investment in emission reduction, particularly the development of new technologies. Action on climate change requires urgency, and there are generally obstacles, due to inadequate property rights, preventing investors reaping the full return to new ideas. Specifically, there are spillovers in learning (another externality), associated with the development and adoption of new low-emission technologies that can affect how much emissions are reduced. Thus the economics of mitigating climate change involves understanding the processes of innovation.
+
+The spillovers occur in a number of ways. A firm is unlikely to be able to appropriate all the benefits, largely because knowledge has some characteristics of a public good. In particular, once new information has been created, it can be virtually costless to copy. This allows a competitor with access to the information to capture the benefits without undertaking the research and development (R&D). Patents are commonly used to reduce this problem. In addition, there are typically 'adoptive externalities' to other firms that arise from the processes whereby technology costs fall as a result of increasing adoption. These spillovers are likely to be particularly important in the case of low-emission technologies that can help to mitigate climate change, as Chapter 16 explains.
+
+Other interacting barriers or problem that are relevant include
+
+- asymmetric and inadequate information – for example, about energy-efficiency measures
+- policy-induced uncertainties – such as uncertainty about the implicit price of carbon in the future
+- moral hazard or 'gaming' – for example firms might rush to make carbon-emitting investments to avoid the possibility of more stringent regulation in the future
+- perverse regulatory incentives – such as the incentive to establish a high baseline of emissions in regimes where carbon quotas are 'grandfathered'
+- the endogenous price dynamics of exhaustible natural resources – and the risk that fossil-fuel prices could fall in response to strong climate-change policy, threatening to undermine it.[^13]
+
+These issues involve many of the most interesting theoretical questions studied by economists in recent years in industrial, regulatory and natural resource economics.
+
+There are important challenges for public policy to promote mitigation beyond the two tasks just described. That is the subject of Chapter 16. These include regulation and standards and deepening public understanding of responsible behaviour.
+
+***Standards and regulation can provide powerful and effective policies to promote action on mitigation.***
+
+The learning process for new technologies is uncertain. There are probably important scale effects in this process due to experience or learning-by-doing and the externalities of learning-by-watching. In these circumstances, standards for emissions, for example, can provide a clear sense of direction and reduced uncertainty for investors, allowing these economies of scale to be realised.
+
+In other circumstances, particularly concerning energy efficiency, there will be market imperfections, for example due to the nature of landlord-tenant relations in property, which may inhibit adaptation of beneficial investments or technologies. In these circumstances, regulation can produce results more efficient than those that are available from other instruments alone.
+
+%%page 37%%
+
+***Information, education and public discussion can play a powerful role in shaping understanding of reasonable behaviour.***
+
+Economists tend to put most of weight in public-policy analyses and recommendations on market instruments to which firms and households respond. And there are excellent reasons for this – firms and households know more about their own circumstances and can respond strongly to incentives. But the standard 'sticks and carrots' of this line of argument do not constitute the whole story.
+
+Chapter 17 argues that changing attitudes is indeed likely to be a crucial part of a policy package. But it raises ethical difficulties: who has the right or authority to attempt to change preferences or attitudes? We shall adopt the approach of John Stuart Mill and others who have emphasised 'government by discussion' as the way in which individuals can come to decisions individually and collectively as to the ethical and other justifications of different approaches to policy.
+
+#### 2.8 International action for mitigation and adaptation
+
+The principles of public policy for mitigation elaborated so far do not take very explicit account of the international nature of the challenge. This is a global problem and mitigation is a global public good. This means that it is, from some perspectives, 'an international game' and the theory of games does indeed provide powerful insights. The challenge is to promote and sustain international collective action in a context where 'free-riding' is a serious problem. Adaptation, like mitigation, raises strong and difficult international issues of responsibility and equity, and also has some elements of the problem of providing public goods.
+
+***Aspects of adaptation to climate change also have some of the characteristics of public goods and require public policy intervention.***
+
+Concerns about the provision of public goods affect policy to guide adaptation to the adverse impacts of climate change. This is the subject of Part V of the Review. Compared with efforts to reduce emissions, adaptation provides immediate, local benefits for which there is some degree of private return. Nevertheless, efficient adaptation to climate change is also hindered by market failures, notably inadequate information on future climate change and positive externalities in the provision of adaptation (where the social return remains higher than the return that will be captured by private investors). These market failures may limit the amount of adaptation undertaken – even where it would be cost-effective.
+
+***The ethics of adaptation imply strong support from the rich countries to the most vulnerable.***
+
+The poorest in society are likely to have the least capacity to adapt, partly because of resource constraints on upfront investment in adaptive capacity. Given that the greatest need for adaptation will be in low-income countries, overcoming financial constraints is also a key objective. This will involve transfers from rich countries to poor countries. The argument is strongly reinforced by the historical responsibility of rich countries for the bulk of accumulated stocks of GHGs. Poor countries are suffering and will suffer from climate change generated in the past by consumption and growth in rich countries.
+
+***Action on climate change that is up to the scale of the challenge requires countries to participate voluntarily in a sustained, coordinated, international effort.***
+
+Climate change shares some characteristics with other environmental challenges linked to the management of common international resources, including the protection of the ozone layer and the depletion of fisheries. Crucially, there is no global single authority with the legal, moral, practical or other capacity to manage the climate resource.
+
+This is particularly challenging, because, as Chapter 8 makes clear, no one country, region or sector alone can achieve the reductions in GHG emissions required to stabilise atmospheric concentrations of GHGs at the necessary level. In addition, there are significant gains to co-operating across borders, for example in undertaking emission reductions in the most cost-effective way. The economics and science point to the need for emitters to face a common price of emissions at the margin. And, although adaptation to climate change will often deliver some local reduction in its impact, those countries most vulnerable to climate change are particularly short of the resources to invest in adaptation. Hence international collective action on both mitigation and adaptation is required, and Part VI of the Review discusses the challenges and options.
+
+%%page 38%%
+
+Economic tools such as game theory, as well as insights from international relations, can aid the understanding of how different countries, with differing incentives, preferences and cost structures, can reach agreement. The problem of free-riding on the actions of others is severe. International collective action on any issue rests on the voluntary co-operation of sovereign states. Economic analysis suggests that multilateral regimes succeed when they are able to define the gain to co-operation, share it equitably and can sustain co-operation in ways that overcome incentives for free-riding.
+
+Our response to climate change as a world is about the choices we make about development, growth, the kind of society we want to live in, and the opportunities it affords this and future generations. The challenge requires focusing on outcomes that promote wealth, consumption, health, reduced mortality and greater social justice.
+
+The empirical analysis of impacts and costs, together with the ethical frameworks we have examined, points to strong action to mitigate GHG emissions. And, given the responsibility of the rich countries for the bulk of the current stock of GHGs, and the poverty and vulnerability of developing countries that would be hardest hit, the analysis suggests that rich countries should bear the major responsibility for providing the resources for adjustment, at least for the next few years. The reasons for strong action by the rich countries are similar to those for aid:
+
+- the moral consequences which flow from a recognition of a common humanity of deep poverty;
+- the desire to build a more collaborative, inclusive and better world;
+- common interest in the climate and in avoiding dislocation;
+- historical responsibility.
+
+#### 2.9 Conclusions
+
+Much of the economics we have begun to describe here and that is put to use in the subsequent parts of this Review is not simple. But the structure of this economics is essentially dictated by the structure of the science. And we have seen that it is not possible to provide a coherent and serious account of the economics of climate change without close attention to the ethics underlying economic policy raised by the challenges of climate change.
+
+The economics of climate change is as broad ranging, deep and complicated as any other area of economics. Indeed, it combines most of the difficulties of other areas of economics. It is unavoidably technical in places. It is the task of this Review to explore the economics of climate change in the depth that is possible given the current state of economic and scientific knowledge. And it should already be clear that much more research is necessary. In many ways, the science has progressed further than the economics.
+
+The scope and depth of the subject require us to put the tools of economics to work across the whole range of the subject. Indeed they point to the importance of tools we wish we had. Nevertheless, the economics can be very powerful in pointing us towards important policy conclusions, as we have already begun to see in this chapter. The urgency of the problems established by the science points to the urgency of translating what we can already show with the economic analysis into concrete policy actions. In doing so, the international dimension must be at centre stage.
+
+%%page 39%%
+
+#### References
+
+This chapter touches on many important topics in ethics, social choice and economic theory. On social choice theory, Sen (1986) is a thorough guide, while Sen (1970) is a classic analysis of collective choice and social welfare. Broome (2004) examines the complexities of assessing inter-generational welfare. Henry (2006) considers the distinction between risk aversion and aversion to ambiguity or Knightian uncertainty. Gollier (2001) also raises many important issues concerning discounting of the future. Dasgupta and Heal (1979) investigate the economics of exhaustible resources and its implications for price theory, many of which are not intuitive.
+
+Anand,S and A.K. Sen (2000): 'Human development and economic sustainability', World Development, 28(12): 2029-2049
+
+Arrow, K. (1951): 'Individual Values and Social Choice', New York: Wiley.
+
+Arrow, K. (1963): 'Individual Values and Social Choice', 2nd edition, New York: Wiley.
+
+Beckerman, W. and J. Pasek (2001): 'Justice, Posterity and the Environment', Oxford: Oxford University Press.
+
+Broome, J. (1992): 'Counting the Cost of Global Warming', Cambridge: The White Horse Press.
+
+Broome, J. (1994): 'Discounting the future', Philosophy and Public Affairs 23: 128–56
+
+Broome, J. (2004): 'Weighing lives', Oxford: Oxford University Press.
+
+Broome, J. (2005): 'Should we value population?', The Journal of Political Philosophy. 13(4): 399-413
+
+Chichilnisky, G. (2000): 'An axiomatic approach to choice under uncertainty with catastrophic risk', Resource and Energy Economics, 22: 221-31
+
+Cline, W.R. (1992): 'The Economics of Global Warming', Washington D.C.: Institute for International Economics.
+
+Dasgupta, P.S. (1974): 'On some alternative criteria for justice between generations', Journal of Public Economics, 3(4): 405-423
+
+Dasgupta, P.S. and G.M. Heal (1979): 'Economic theory and exhaustible resources', Cambridge: Cambridge University Press.
+
+Fankhauser, S. (1998): 'The costs of adapting to climate change', Global Environment Facility Working Paper 16, Washington, DC: Global Environment Facility.
+
+Gardiner, S. (2004): 'Ethics and global climate change', Ethics 114: 555-600
+
+Gollier, C. (2001): 'The Economics of Risk and Time', Cambridge, MA: MIT Press.
+
+Harrod, R.F. (1948): 'Towards a Dynamic Economics', London: Macmillan.
+
+Henry, C. (2006): 'Decision – Making Under Scientific, Political and Economic Uncertainty', Cahier no. DDX-06-12, Chaire Developpement Durable, Paris; Laboratoire d'Econométrie de l'Ecole Polytechnique.
+
+Hills, J. and K. Stewart (2005): 'A More Equal Society: New Labour, Poverty, Inequality and Exclusion', Bristol: Policy Press.
+
+%%page 40%%
+
+Hotelling, H. (1931): 'The economics of exhaustible resources', Journal of Political Economy 39(2): 137-175
+
+Keynes, J.M. (1921): 'A Treatise on Probability', London: Macmillan.
+
+Klibanoff, P., M. Marinacci and S.Mukerji (2005): 'A smooth model of decision-making under ambiguity' Econometrica, 73: 1849-1892
+
+Knight, F. (1921): 'Risk, Uncertainty and Profit', New York: Kelly.
+
+Maccheroni, F., Marinacci and A. Rustichini (2005): 'Ambiguity aversion', robustness and the variational representation of preferences', available from http://web.econ.unito.it/gma/fabio/mmr-r.pdf
+
+Mueller, B. (2006): 'Adaptation Funding and the World Bank Investment Framework Initiative'. Background Report prepared for the Gleneagles Dialogue Government Working Groups Mexico, 7-9 June 2006.
+
+Pigou, A. C. (1912): 'Wealth and Welfare', London: Macmillan.
+
+Pigou, A. C. (1932): 'The Economics of Welfare', (4th ed), London: Macmillan.
+
+Ramsey, F.P. (1928): 'A Mathematical Theory of Saving', Economics Journal, 38 (December): 543-559
+
+Ramsey, F.P. (1931): 'Foundations of Mathematics and Other Logical Essays', New York: Harcourt Brace.
+
+Samuelson, P. (1954): 'The pure theory of public expenditure'. Review of Economics and Statistics 36(4): 387-389
+
+Sen, A.K. (1970): 'Collective Choice and Social Welfare', San Francisco: Holden-Day.
+
+Sen, A.K. (1986): 'Social Choice Theory', Handbook of Mathematical Economics, K.J. Arrow and M. Intriligator, Vol3. Amsterdam: North-Holland.
+
+Sen, A.K. (1999): 'The Possibility of Social Choice', American Economic Review 89(3): 349-378
+
+Sen, A. and B. Williams (eds.) (1982): 'Utilitarianism and Beyond', Cambridge: Cambridge University Press/Maison des Sciences de l'Homme.
+
+Sinclair, P.J.N. (1992): 'High does nothing and rising is worse: carbon taxes should keep declining to cut harmful emissions', The Manchester School of Economic and Social Studies, 60:(1): 41-52
+
+Sinclair, P.J.N. (1994): 'On the optimum trend of fossil fuel taxation'. Oxford Economic Papers 46: 869-877.
+
+Solow, R.M. (1974): 'The economics of resources or the resources of economics'. American Economic Review, 64(2):1-14.
+
+Ulph, A. and D. Ulph (1994). 'The optimal time path of a carbon tax'. Oxford Economic Papers 46: 857-868
+
+%%page 55%%
+
+## Part II: Impacts of Climate Change on Growth and Development
+
+Part II considers how climate change will affect people's lives, the environment and the prospects for growth and development in different parts of the world. All three dimensions are fundamental to understanding how climate change will affect our future.
+
+These effects will not be felt evenly across the globe. Although some parts of the world would benefit from modest rises in temperature, at higher temperature increases, most countries will suffer heavily and global growth will be affected adversely. For some of the poorest countries there is a real risk of being pushed into a downwards spiral of increasing vulnerability and poverty.
+
+Average global temperature increases of only 1-2°C (above pre-industrial levels) could commit 15-40 percent of species to extinction. As temperatures rise above 2-3°C, as will very probably happen in the latter part of this century, so the risk of abrupt and large-scale damage increases, and the costs associated with climate change – across the three dimensions of mortality, ecosystems and income – are likely to rise more steeply. In mathematical terms, the global damage function is convex.
+
+No region would be left untouched by changes of this magnitude, though developing countries would be affected especially adversely. This applies particularly to the poorest people within the large populations of both sub-Saharan Africa, and South Asia. By 2100, in South Asia and Sub Saharan Africa, up to 145 - 220 million additional people could fall below the $2-a-day poverty line, and every year an additional 165,000 - 250,000 children could die compared with a world without climate change.
+
+Modelling work undertaken by the Review suggests that the risks and costs of climate change over the next two centuries could be equivalent to an average reduction in global per capita consumption of at least 5%, now and forever. The estimated damages would be much higher if non-market impacts, the possibility of greater climate sensitivity, and distributional issues were taken into account.
+
+Part II is structured as follows:
+
+- Chapter 3 begins by exploring how climate change will affect people around the world, including the potential implications for access to food, water stress, health and well being, and the environment.
+- Chapter 4 focuses on the implications for developed countries. Some regions will benefit from temperature rises of up to 1 to 2°C, but the balance of impacts will become increasingly negative as temperature rises.
+- Chapter 5 considers the implications of climate change for developing countries. It explains why developing countries are so vulnerable to climate change – a volatile mix of geographic location, existing vulnerability and, linked to this, limited ability to deal with the pressures that climate change will create.
+- Chapter 6 aims to pull together the existing modelling work that has been done to estimate the monetary costs of climate change, and also sets out the detail of modelling work undertaken by the Review.
+
+%%page 56%%
+
+### 3 How Climate Change Will Affect People Around The World
+
+Key Messages
+
+Climate change threatens the basic elements of life for people around the world – access to water, food, health, and use of land and the environment. On current trends, average global temperatures could rise by 2 - 3°C within the next fifty years or so,[^1] leading to many severe impacts, often mediated by water, including more frequent droughts and floods (Table 3.1). • Melting glaciers will increase flood risk during the wet season and strongly reduce dry-season water supplies to one-sixth of the world's population, predominantly in the Indian sub-continent, parts of China, and the Andes in South America. • Declining crop yields, especially in Africa, are likely to leave hundreds of millions without the ability to produce or purchase sufficient food - particularly if the carbon fertilisation effect is weaker than previously thought, as some recent studies suggest. At mid to high latitudes, crop yields may increase for moderate temperature rises (2 – 3°C), but then decline with greater amounts of warming. • Ocean acidification, a direct result of rising carbon dioxide levels, will have major effects on marine ecosystems, with possible adverse consequences on fish stocks. • Rising sea levels will result in tens to hundreds of millions more people flooded each year with a warming of 3 or 4°C. There will be serious risks and increasing pressures for coastal protection in
+
+South East Asia (Bangladesh and Vietnam), small islands in the Caribbean and the Pacific, and large coastal cities, such as Tokyo, Shanghai, Hong Kong, Mumbai, Calcutta, Karachi, Buenos
+
+Aires, St Petersburg, New York, Miami and London. • Climate change will increase worldwide deaths from malnutrition and heat stress. Vector-borne diseases such as malaria and dengue fever could become more widespread if effective control measures are not in place. In higher latitudes, cold-related deaths will decrease. • By the middle of the century, 200 million more people may become permanently displaced due to rising sea levels, heavier floods, and more intense droughts, according to one estimate. • Ecosystems will be particularly vulnerable to climate change, with one study estimating that around 15 – 40% of species face extinction with 2°C of warming. Strong drying over the Amazon, as predicted by some climate models, would result in dieback of the forest with the highest biodiversity on the planet.
+
+The consequences of climate change will become disproportionately more damaging with increased warming. Higher temperatures will increase the chance of triggering abrupt and large-scale changes that lead to regional disruption, migration and conflict. • Warming may induce sudden shifts in regional weather patterns like the monsoons or the El
+
+Niño. Such changes would have severe consequences for water availability and flooding in tropical regions and threaten the livelihoods of billions. • Melting or collapse of ice sheets would raise sea levels and eventually threaten at least 4 million Km2 of land, which today is home to 5% of the world's population.
+
+%%page 57%%
+
+Table 3.1 Highlights of possible climate impacts discussed in this chapter
+
+Note: This table shows illustrative impacts at different degrees of warming. Some of the uncertainty is captured in the ranges shown, but there will be additional uncertainties about the exact size of impacts (more detail in Box 3.2). Temperatures represent increases relative to pre-industrial levels. At each temperature, the impacts are expressed for a 1°C band around the central temperature, e.g. 1°C represents the range 0.5 – 1.5°C etc. Numbers of people affected at different temperatures assume population and GDP scenarios for the 2080s from the Intergovernmental Panel on Climate Change (IPCC). Figures generally assume adaptation at the level of an individual or firm, but not economy-wide adaptations due to policy intervention (covered in Part V).
+
+%%page 58%%
+
+#### 3.1 Introduction
+
+***This chapter examines the increasingly serious impacts on people as the world warms.***
+
+Climate change is a serious and urgent issue. The Earth has already warmed by 0.7°C since around 1900 and is committed to further warming over coming decades simply due to past emissions (Chapter 1). On current trends, average global temperatures could rise by 2 - 3°C within the next fifty years or so, with several degrees more in the pipeline by the end of the century if emissions continue to grow (Figure 3.1; Chapters 7 and 8).
+
+This chapter examines how the physical changes in climate outlined in Chapter 1 affect the essential components of lives and livelihoods of people around the world - water supply, food production, human health, availability of land, and ecosystems. It looks in particular at how these impacts intensify with increasing amounts of warming. The latest science suggests that the Earth's average temperature will rise by even more than 5 or 6°C if feedbacks amplify the warming effect of greenhouse gases through the release of carbon dioxide from soils or methane from permafrost (Chapter 1). Throughout the chapter, changes in global mean temperature are expressed relative to pre-industrial levels (1750 - 1850).
+
+Figure 3.1 Temperature projections for the 21st century
+
+Notes: The graph shows predicted temperature changes through to 2100 relative to pre-industrial levels. Nine illustrative emissions scenarios are shown with the different coloured lines. Blue shading represents uncertainty between the seven different climate models used. Coloured bars show the full range of climate uncertainty in 2100 for each emissions scenario based on the models with highest and lowest climate sensitivity. Updated projections will be available in the Fourth Assessment Report of the Intergovernmental Panel of Climate Change (IPCC) in 2007. These are likely to incorporate some of the newer results that have emerged from probabilistic climate simulations and climate models including carbon cycle feedbacks, such as the Hadley Centre's (more details in Chapter 1).
+
+Source: IPCC (2001)
+
+The chapter builds up a comprehensive picture of impacts by incorporating two effects that are not usually included in existing studies (extreme events and threshold effects at higher temperatures). In general, impact studies have focused predominantly on changes in average conditions and rarely examine the consequences of increased variability and more extreme weather. In addition, almost all impact studies have only considered global temperature rises up to 4 or 5°C and therefore do not take account of threshold effects that could be triggered by temperatures higher than 5 or 6°C (Chapter 1).
+
+%%page 59%%
+
+- Extreme weather events. Climate change is likely to increase the costs imposed by extreme weather, both by shifting the probability distribution upwards (more heatwaves, but fewer cold-snaps) and by intensifying the water cycle, so that severe floods, droughts and storms occur more often (Chapter 1).[^2] Even if the shape of the distribution of temperatures does not change, an upward shift in the distribution as a whole will disproportionately increase the probability of exceeding damaging temperature thresholds.[^3] Changes in the variability of climate in the future are more uncertain, but could have very significant impacts on lives and livelihoods. For example, India's economy and social infrastructure are finely tuned to the remarkable stability of the monsoon, with the result that fluctuations in the strength of the monsoon both year-to-year and within a single season can lead to significant flooding or drought, with significant repercussions for the economy (see Box 3.5 later).[^4]
+- Non-linear changes and threshold effects at higher temperatures (convexity). The impacts of climate change will become increasingly severe at higher temperatures, particularly because of rising risks of triggering abrupt and large-scale changes, such as melting of the Greenland ice sheet or loss of the Amazon forest. Few studies have examined the shape of the damage function at higher temperatures, even though the latest science suggests that temperatures are 5 or 6°C or higher are plausible because of feedbacks that amplify warming (Chapter 1). For some sectors, damages may increase much faster than temperatures rise, so that the damage curve becomes convex - the consequences of moving from 4 to 5°C are much greater than the consequences of moving from 2 to 3°C. For example, hurricane damages increase as a cube (or more) of windspeed, which itself scales closely with sea temperatures (Chapter 1 and Section 3.6). Theory suggests impacts in several key sectors will increase strongly at higher temperatures, although there is not enough direct quantitative evidence on the impacts at higher temperatures (Box 3.1).
+
+The combined effect of impacts across several sectors could be very damaging and further amplify the consequences of climate change. Little work has been done to quantify these interactions, but the potential consequences could be substantial. For example, in some tropical regions, the combined effect of loss of native pollinators, greater risks of pest outbreaks, reduced water supply, and greater incidence of heatwaves could lead to much greater declines in food production than through the individual effects themselves (see Table 3.2 later in chapter).
+
+The consequences of climate change will depend on how the physical impacts interact with socio-economic factors. Population movement and growth will often exacerbate the impacts by increasing society's exposure to environmental stresses (for example, more people living by the coast) and reducing the amount of resource available per person (for example, less food per person and causing greater food shortages).[^5] In contrast, economic growth often reduces vulnerability to climate change (for example, better nutrition or health care; Chapter 4) and increases society's ability to adapt to the impacts (for example, availability of technology to make crops more drought-tolerant; Chapter 20). This chapter focuses on studies that in general calculate impacts by superimposing climate change onto a future world that has developed economically and socially and comparing it to the same future world without climate change (Box 3.2 for further details). Most of the studies generally assume adaptation at the level of an individual or firm, but not economy-wide adaptations due to policy intervention (covered in Part V).
+
+Building on the analyses presented in this chapter, Chapters 4 and 5 trace the physical impacts through to examine the consequences for economic growth and social progress in developing and developed countries. Chapter 6 brings together evidence on the aggregate impacts of climate change, including updated projections from the PAGE2002 model that incorporate the risk of abrupt climate change.
+
+%%page 60%%
+
+The types of relationship between rising damages and sectoral impacts Basic physical and biological principles indicate that impacts in many sectors will become disproportionately more severe with rising temperatures. Some of these effects are summarised below, but are covered in detail in the relevant section of the chapter. Empirical support for these relationships is lacking. Hitz and Smith (2004) reviewed studies that examined the nature of the relationship between the impacts of climate change and increasing global temperatures. They found increasingly adverse impacts for several climate-sensitive sectors but were not able to determine if the increase was linear or exponential (more details in Box 3.1). For other sectors like water and energy where there was a mix of costs and benefits they found no consistent relationship with temperature.
+
+%%page 61%%
+
+Assumptions and scenarios used in impact studies
+
+This chapter bases much of its detailed analysis on a series of papers prepared by Prof. Martin Parry and colleagues ("FastTrack"), one of the few that clearly sets out the assumptions used and explores different sources of uncertainty.[^6]
+
+Climate change scenarios. Climate models produce different regional patterns of temperature and rainfall (especially). The original "FastTrack" studies were based on outputs of the Hadley Centre climate model. However, in some cases the analyses have been updated to examine sensitivity to a range of different climate models.[^7] Other science uncertainties, such as the link between greenhouse gas concentrations and global temperatures, were not directly examined by the work (more detail in Chapter 1).
+
+Socio-economic scenarios. The studies carefully separated out the effects of climate change from socio-economic effects, such as growing wealth or population size. In these studies, population and GDP per capita grew on the basis of four socio-economic pathways, as described by the IPCC (see table below).[^8] The effects of climate change were calculated by comparing a future world with and without climate change (but with socio-economic development in every case). Changing socio-economic factors alongside climate may be crucial because: (1) a growing population will increase society's exposure to stress from malnutrition, water shortages and coastal flooding, while (2) growing wealth will reduce vulnerability to climate change, for example by developing crops that are more drought-tolerant. Other impact studies superimpose climate change in a future world where population and GDP remain constant at today's levels. These studies are perhaps less realistic, but still provide a useful indication of the scale of the impacts and may be easier to interpret.
+
+Summary characteristics of IPCC socio-economic scenarios (numbers in brackets for 2100)
+
+Adaptation assumptions. Clarity over adaptation is critical for work on the impacts of climate change, because large amounts of adaptation would reduce the overall damages caused by climate change (net of costs of adaptation). Within the literature, the picture remains mixed: some studies assume no adaptation, many studies assume individual (or "autonomous") adaptation, while other studies assume an "efficient" adaptation response where the costs of adaptation plus the costs of residual damages are minimised over time.[^11] Unless otherwise stated, the results presented assume adaptation at the level of an individual or firm ("autonomous"), but not economy-wide. Such adaptations are likely to occur gradually as the impacts are felt but that require little policy intervention (more details in Part V). This provides the "policy neutral" baseline for analysing the relative costs and benefits of adaptation and mitigation.
+
+%%page 62%%
+
+#### 3.2 Water
+
+***People will feel the impact of climate change most strongly through changes in the distribution of water around the world and its seasonal and annual variability.***
+
+Water is an essential resource for all life and a requirement for good health and sanitation. It is a critical input for almost all production and essential for sustainable growth and poverty reduction.[^12] The location of water around the world is a critical determinant of livelihoods. Globally, around 70% of all freshwater supply is used for irrigating crops and providing food. 22% is used for manufacturing and energy (cooling power stations and producing hydro-electric power), while only 8% is used directly by households and businesses for drinking, sanitation, and recreation.[^13]
+
+Climate change will alter patterns of water availability by intensifying the water cycle.[^14] Droughts and floods will become more severe in many areas. There will be more rain at high latitudes, less rain in the dry subtropics, and uncertain but probably substantial changes in tropical areas.[^15] Hotter land surface temperatures induce more powerful evaporation and hence more intense rainfall, with increased risk of flash flooding.
+
+Differences in water availability between regions will become increasingly pronounced. Areas that are already relatively dry, such as the Mediterranean basin and parts of Southern Africa and South America, are likely to experience further decreases in water availability, for example several (but not all) climate models predict up to 30% decrease in annual runoff in these regions for a 2°C global temperature rise (Figure 3.2) and 40 – 50% for 4°C.[^16] In contrast, South Asia and parts of Northern Europe and Russia are likely to experience increases in water availability (runoff), for example a 10 – 20% increase for a 2°C temperature rise and slightly greater increases for 4°C, according to several climate models.
+
+These changes in the annual volume of water each region receives mask another critical element of climate change – its impact on year-to-year and seasonal variability. An increase in annual river flows is not necessarily beneficial, particularly in highly seasonal climates, because: (1) there may not be sufficient storage to hold the extra water for use during the dry season,[^17] and (2) rivers may flood more frequently.[^18] In dry regions, where runoff one-year-in-ten can be less than 20% of the average annual amount, understanding the impacts of climate change on variability of water supplies is perhaps even more crucial. One recent study from the Hadley Centre predicts that the proportion of land area experiencing severe droughts at any one time will increase from around 10% today to 40% for a warming of 3 to 4°C, and the proportion of land area experiencing extreme droughts will increase from 3% to 30%.[^19] In Southern Europe, serious droughts may occur every 10 years with a 3°C rise in global temperatures instead of every 100 years if today's climate persisted.[^20]
+
+%%page 63%%
+
+***As the water cycle intensifies, billions of people will lose or gain water. Some risk becoming newly or further water stressed, while others see increases in water availability. Seasonal and annual variability in water supply will determine the consequences for people through floods or droughts.***
+
+Around one-third of today's global population live in countries experiencing moderate to high water stress, and 1.1 billion people lack access to safe water (Box 3.3 for an explanation of water stress). Water stress is a useful indicator of water availability but does not necessarily reflect access to safe water. Even without climate change, population growth by itself may result in several billion more people living in areas of more limited water availability.
+
+The effects of rising temperatures against a background of a growing population are likely to cause changes in the water status of billions of people. According to one study, temperature rises of 2°C will result in 1 – 4 billion people experiencing growing water shortages, predominantly in Africa, the Middle East, Southern Europe, and parts of South and Central America (Figure 3.3).[^21] In these regions, water management is already crucial for their growth and development. Considerably more effort and expense will be required on top of existing practices to meet people's demand for water. At the same time, 1 – 5 billion people, mostly in South and East Asia, may receive more water.[^22] However, much of the extra water will come during the wet season and will only be useful for alleviating shortages in the dry season if storage could be created (at a cost). The additional water could also give rise to more serious flooding during the wet season.
+
+***Melting glaciers and loss of mountain snow will increase flood risk during the wet season and threaten dry-season water supplies to one-sixth of the world's population (over one billion people today).***
+
+Climate change will have serious consequences for people who depend heavily on glacier meltwater to maintain supplies during the dry season, including large parts of the Indian sub-continent, over quarter of a billion people in China, and tens of millions in the Andes.[^23] Initially, water flows may increase in the spring as the glacier melts more rapidly. This may increase the risk of damaging glacial lake outburst floods, especially in the Himalayas,[^24] and also lead to shortages later in the year. In the long run dry-season water will disappear permanently once the glacier has completely melted. Parts of the developed world that rely on mountain snowmelt (Western USA, Canadian prairies, Western Europe) will also have their summer water supply affected, unless storage capacity is increased to capture the "early water".
+
+In the Himalaya-Hindu Kush region, meltwater from glaciers feeds seven of Asia's largest rivers, including 70% of the summer flow in the Ganges, which provides water to around 500 million people. In China, 23% of the population (250 million people) lives in the western region that depends principally on glacier meltwater. Virtually all glaciers are showing substantial melting in China, where spring stream-flows have advanced by nearly one month since records began. In the tropical Andes in South America, the area covered by glaciers has been reduced by nearly one-quarter in the past 30 years. Some small glaciers are likely to disappear completely in the next decade given current trends.[^25] Many large cities such as La Paz, Lima and Quito and up to 40% of agriculture in Andean valleys rely on glacier meltwater supplies. Up to 50 million people in this region will be affected by loss of dry-season water.[^26]
+
+%%page 64%%
+
+Figure 3.2 Changes in runoff with five different climate models
+
+Source: Warren et al. (2006) analysing data from Arnell (2004) and Arnell (2006a) Note: Runoff refers to the amount of water that flows over the land surface. Typically this water flows in channels such as streams and rivers, but may also flow over the land surface directly. It provides a measure of potential water availability (see Box 3.3).
+
+%%page 65%%
+
+Box 3.3 Meaning of water stress metrics
+
+Water is essential for human existence and all other forms of life. Over half of the world's drinking water is taken directly from rivers or reservoirs (natural or man-made), and the rest from groundwater. Water supply is determined by runoff – the amount of water that flows over the land surface. Typically this water flows in channels such as streams and rivers, but may also flow over the land surface directly.
+
+Water stress is a useful indicator of water availability but does not necessarily reflect access to safe water. The availability of water resources in a watershed can be calculated by dividing long-term average annual runoff (or "renewable resource") by the number of people living in the watershed.[^27] A country experiences water scarcity (or "severe water stress") when supply is below 1000 m3 per person per year and absolute scarcity (or "extreme water stress") when supply is below 500m3 per person per year. The thresholds are based loosely on average annual estimates of water requirements in the household, agricultural, industrial and energy sectors, and the needs of the environment.
+
+For comparative purposes, the basic water requirement for personal human needs, excluding that used directly for growing food, is around 50 Litres (L) per person per day or 18.25 m3 per person per year which includes allowances for drinking (2 - 5 L per person per day), sanitation (20 L per person per day), bathing (15 L per person per day), and food preparation (10 L per person per day). This does not include any allowance for growing food, industrial uses or the environment, which constitute the bulk of the use (see next point).[^28]
+
+The threshold for water scarcity is considerably higher than the basic water requirement for three reasons:
+
+- Much of the water available to communities is used for purposes other than direct human consumption. Globally, the largest user of water is irrigated agriculture, representing 70% of present freshwater withdrawals. Industry accounts for 22% through manufacturing and cooling of thermoelectric power generation, although much of this is returned to the water system but at higher temperature. Domestic, municipal and service industry use accounts for just 8% of global water use. The proportions of water used in each sector can vary considerably by country. For example in Europe, water used for domestic, municipal and service industries is a very high proportion of total demand. Agriculture in large parts of Asia and Africa is rain-fed and does not rely on irrigation and storage infrastructure.
+- Not all river flows are available for use (some flows occur during floods, and some is used by ecosystems). On average, approximately 30% of river flows occur as non-captured flood flows, and freshwater ecosystem use ranges between 20 and 50% of average flows. Taken together, 50 - 80% of average flow is unavailable to humans, meaning that a threshold of 1000 m3 per person per year of average flows translates into 200 to 500 m3/person/year available flows.
+- The 1000 m3 per person per year is an annual average and does not reflect year-to-year variability. In dry regions, runoff one-year-in-ten can be less than one-fifth the average, so that less than 200 m3 would be available per person even before other uses are taken into account.
+
+Water availability per person is only one indicator of potential exposure to stress. Some "stressed" watersheds will have effective management systems and water pricing in place to provide adequate supplies (e.g. through storage), while other watersheds with more than 1000 m3 per person per year may experience severe water shortages because of lack of access to water.
+
+Source: Prepared with assistance from Prof Nigel Arnell, Tyndall Centre and University of Southampton
+
+%%page 66%%
+
+Figure 3.3 Changes in millions at risk of water stress with increasing global temperature a) Increased water stress
+
+Source: Warren et al. (2006) analysing data from Arnell (2004) Note: Lines represent different population futures for the 2080s: green – low population (7 billion), blue – medium population (10 billion), red – high population (15 billion). The thick lines show the average based on six climate models, and the thin lines the upper and lower bounds. "Millions at risk of water stress" is defined as a threshold when a population has less than 1000 m3 per person per day (more details in Box 3.3). "Increased stress" includes people becoming water stressed who would not have been and those whose water stress worsens because of climate change. "Decreased stress" includes people who cease to become water stressed because of climate change and those whose water stress situation improves (if not to take them out of water stress completely). These aggregate figures mask the importance of annual and seasonal variability in water supply and the potential role of water management to reduce stress, but often at considerable cost.
+
+%%page 67%%
+
+#### 3.3 Food
+
+***In tropical regions, even small amounts of warming will lead to declines in yield. In higher latitudes, crop yields may increase initially for moderate increases in temperature but then fall. Higher temperatures will lead to substantial declines in cereal production around the world, particularly if the carbon fertilisation effect is smaller than previously thought, as some recent studies suggest.***
+
+Food production will be particularly sensitive to climate change, because crop yields depend in large part on prevailing climate conditions (temperature and rainfall patterns). Agriculture currently accounts for 24% of world output, employs 22% of the global population, and occupies 40% of the land area. 75% of the poorest people in the world (the one billion people who live on less than $1 a day) live in rural areas and rely on agriculture for their livelihood.[^29]
+
+Low levels of warming in mid to high latitudes (US, Europe, Australia, Siberia and some parts of China) may improve the conditions for crop growth by extending the growing season[^30] and/or opening up new areas for agriculture. Further warming will have increasingly negative impacts – the classic "hill function" (refer back to Box 3.1) - as damaging temperature thresholds are reached more often and water shortages limit growth in regions such as Southern Europe and Western USA.[^31] High temperature episodes can reduce yields by up to half if they coincide with a critical phase in the crop cycle like flowering (Figure 3.4).[^32]
+
+The impacts of climate change on agriculture depend crucially on the size of the "carbon fertilisation" effect (Box 3.4). Carbon dioxide is a basic building block for plant growth. Rising concentrations in the atmosphere may enhance the initial benefits of warming and even offset reductions in yield due to heat and water stress. Work based on the original predictions for the carbon fertilisation effect suggests that yields of several cereals (wheat and rice in particular) will increase for 2 or 3°C of warming globally, according to some models, but then start to fall once temperatures reach 3 or 4°C.[^33] Maize shows greater declines in yield with rising temperatures because its different physiology makes it less responsive to the direct effects of rising carbon dioxide. Correspondingly, world cereal production only falls marginally (1 – 2%) for warming up to 4°C (Box 3.4).[^34] But the latest analysis from crops grown in more realistic field conditions suggests that the effect is likely to be no more than half that typically included in crop models.[^35] When a weak carbon fertilisation effect is used, worldwide cereal production declines by 5% for a 2°C rise in temperature and 10% for a 4°C rise. By 4°C, entire regions may be too hot and dry to grow crops, including parts of Australia. Agricultural collapse across large areas of the world is possible at even higher temperatures (5 or 6°C) but clear empirical evidence is still limited.
+
+%%page 68%%
+
+While agriculture in higher-latitude developed countries is likely to benefit from moderate warming (2 – 3°C), even small amounts of climate change in tropical regions will lead to declines in yield. Here crops are already close to critical temperature thresholds[^36] and many countries have limited capacity to make economy-wide adjustments to farming patterns (Figure 3.5). The impacts will be strongest across Africa and Western Asia (including the Middle East), where yields of the predominant regional crops may fall by 25 – 35% (weak carbon fertilisation) or 15 – 20% (strong carbon fertilisation) once temperatures reach 3 or 4°C. Maize-based agriculture in tropical regions, such as parts of Africa and Central America, is likely to suffer substantial declines, because maize has a different physiology to most crops and is less responsive to the direct effects of rising carbon dioxide.[^37]
+
+Many of the effects of climate change on agriculture will depend on the degree of adaptation (see Part V), which itself will be determined by income levels, market structure, and farming type, such as rain-fed or irrigated.[^38] Studies that take a more optimistic view of adaptation and assume that a substantial amount of land at higher latitudes becomes suitable for production find more positive effects of climate change on yield.[^39] But the transition costs are often ignored and the movement of population required to make this form of adaptation a reality could be very disruptive. At the same time, many existing estimates do not include the impacts of short-term weather events, such as floods, droughts and heatwaves. These have only recently been incorporated into crop models, but are likely to have additional negative impacts on crop production (Table 3.2). Expansion of agricultural land at the expense of natural vegetation may itself exert additional effects on local climates with tropical deforestation leading to rainfall reductions because of less moisture being returned to the atmosphere once trees are removed.[^40]
+
+%%page 69%%
+
+Figure 3.4 Yield loss caused by high temperature in a cool-season crop (wheat) and a tropical crop (groundnut)
+
+Source: Wheeler et al. (1996) b) Groundnut in India
+
+Source: Vara Prasad et al. (2001) Notes: Figures show how indicators of crop yield (y-axis) change with increases in daily maximum temperature during flowering (x-axis). In both cases, crops show sharp declines in yield at a threshold maximum temperature.
+
+%%page 70%%
+
+Agriculture and the carbon fertilisation effect
+
+Carbon dioxide is a basic building block for crop growth. Rising concentrations in the atmosphere will have benefits on agriculture – both by stimulating photosynthesis and decreasing water requirements (by adjusting the size of the pores in the leaves). But the extent to which crops respond depends on their physiology and other prevailing conditions (water availability, nutrient availability, pests and diseases).
+
+Until recently, research suggested that the positive benefits of increasing carbon dioxide concentrations might compensate for the negative effects of rising mean temperatures (namely shorter growing season and reduced yields). Most crop models have been based on hundreds of experiments in greenhouses and field-chambers dating back decades, which suggest that crop yields will increase by 20 – 30% at 550 ppm carbon dioxide. Even maize, which uses a different system for photosynthesis and does not respond to the direct effects of carbon dioxide, shows increases of 18 – 25% in greenhouse conditions due to improved efficiency of water use. But new analysis by Long et al. (2006) showed that the high-end estimates were largely based on studies of crops grown in greenhouses or field chambers, whereas analysis of studies of crops grown in near-field conditions suggest that the benefits of carbon dioxide may be significantly less – an 8 – 15% increase in yield for a doubling of carbon dioxide for responsive species (wheat, rice, soybean) and no significant increase for non-responsive species (maize, sorghum).
+
+These new findings may have very significant consequences for current predictions about impacts of climate change on agriculture. Parry et al. (2004) examined the impacts of increasing global temperatures on cereal production and found that significant global declines in productivity could occur if the carbon fertilisation is small (figures below). Regardless of the strength of the carbon fertilisation effect, higher temperatures are likely to become increasingly damaging to crops, as droughts intensify and critical temperature thresholds for crop production are reached more often.
+
+a) Strong carbon fertilisation b) Weak carbon fertilisation
+
+Source: Warren et al. (2006) analysing data from Parry et al. (2004) Note: Percent changes in production are relative to what they would be in a future with no climate change but with socio-economic development. Lines represent different socio-economic scenarios developed by the IPCC. The results are based on crop models driven by monthly data from the Hadley Centre climate model, which shows greater declines in yield than two other climate models (GISS, GFDL) - see comparison in Figure 3.5. The research did not take account of the impacts of extremes, which could be significant (Box 3.5). The work assumed mostly farm-level adaptation in developing countries, but some economy-wide adaptation in developed countries (details in Figure 3.5).
+
+%%page 71%%
+
+Figure 3.5 Change in cereal production in developed and developing countries for a doubling of carbon dioxide levels (equivalent to around 3°C of warming in models used) simulated with three climate models (GISS, GFDL and UKMO Hadley Centre)
+
+Source: Parry et al. (2005) analysing data from Rosenzweig and Parry (1994) Note: Percent changes in production are relative to what they would be in a future with no climate change. Overall changes are relatively robust to different model outputs, but regional patterns differ depending on the model's rainfall patterns – more details in Fischer et al. (2005). The work assumed mostly farm-level adaptation in developing countries but some economy-wide adaptation in developed countries. The work also assumed a strong carbon fertilisation effect - 15 – 25% increase in yield for a doubling of carbon dioxide levels for responsive crops (wheat, rice, soybean) and a 5 – 10% increase for non-responsive crops (maize). These are about twice as high as the latest field-based studies suggest – see Box 3.4 for more detail.
+
+Table 3.2 Climate change will have a wide range of effects on the environment, which could have knock-on consequences for food production. The combined effect of several factors could be very damaging.
+
+%%page 72%%
+
+***Declining crop yields are likely to leave hundreds of millions without the ability to produce or purchase sufficient food, particularly in the poorest parts of the world.***
+
+Around 800 million people are currently at risk of hunger (~ 12% of world's population),[^41] and malnutrition causes around 4 million deaths annually, almost half in Africa.[^42] According to one study, temperature rises of 2 to 3°C will increase the people at risk of hunger, potentially by 30 - 200 million (if the carbon fertilisation effect is small) (Figure 3.6).[^43] Once temperatures increase by 3°C, 250 - 550 million additional people may be at risk – over half in Africa and Western Asia, where (1) the declines in yield are greatest, (2) dependence on agriculture highest, and (3) purchasing power most limited. If crop responses to carbon dioxide are stronger, the effects of warming on risk of hunger will be considerably smaller. But at even higher temperatures, the impacts are likely to be damaging regardless of the carbon fertilisation effect, as large parts of the world become too hot or too dry for agricultural production, such as parts of Africa and even Western Australia.
+
+***Ocean acidification, a direct result of rising carbon dioxide levels, will have major effects on marine ecosystems, with possible adverse consequences on fish stocks.***
+
+For fisheries, information on the likely impacts of climate change is very limited – a major gap in knowledge considering that about one billion people worldwide (one-sixth of the world's population) rely on fish as their primary source of animal protein. While higher ocean temperatures may increase growth rates of some fish, reduced nutrient supplies due to warming may limit growth.
+
+Ocean acidification is likely to be particularly damaging. The oceans have become more acidic in the past 200 years, because of chemical changes caused by increasing amounts of carbon dioxide dissolving in seawater.[^44] If global emissions continue to rise on current trends, ocean acidity is likely to increase further, with pH declining by an additional 0.15 units if carbon dioxide levels double (to 560 ppm) relative to pre-industrial and an additional 0.3 units if carbon dioxide levels treble (to 840 ppm).[^45] Changes on this scale have not been experienced for hundreds of thousands of years and are occurring at an extremely rapid rate. Increasing ocean acidity makes it harder for many ocean creatures to form shells and skeletons from calcium carbonate. These chemical changes have the potential to disrupt marine ecosystems irreversibly - at the very least halting the growth of corals, which provide important nursery grounds for commercial fish, and damaging molluscs and certain types of plankton at the base of the food chain. Plankton and marine snails are critical to sustaining species such as salmon, mackerel and baleen whales, and such changes are expected to have serious but as-yet-unquantified wider impacts.
+
+%%page 73%%
+
+Figure 3.6 Changes in millions at risk of hunger with increasing global temperature a) Strong carbon fertilisation
+
+Source: Warren et al. (2006) analysing data from Parry et al. (2004) Note: Lines represent different socio-economic growth paths and emissions scenarios for the 2080s developed by the IPCC (details in Box 3.2). People at risk of hunger are defined as the population with an income insufficient either to produce or procure their food requirements, estimated by the Food and Agriculture Organisation (FAO) based on energy requirements deduced from an understanding of human physiology (1.2 – 1.4 times basal metabolic rate as minimum maintenance requirement to avoid undernourishment). There are currently around 800 million people malnourished based on this definition. The IIASA Basic Linked System (BLS) world food trade model was used to examine impacts of changes in crop yields on food distribution and hunger around the world, determined both by regional agricultural production and GDP per capita (a measure of purchasing power for any additional food required). The model assumes economic growth in different regions following the IPCC scenarios. "Strong carbon fertilisation" refers to runs where the fertilisation effect was about twice as high as the latest field-based studies suggest (see Box 3.4 and Long et al. 2006), while "weak carbon fertilisation" includes a minimal amount.
+
+%%page 74%%
+
+#### 3.4 Health
+
+***Climate change will increase worldwide deaths from malnutrition and heat stress. Vector-borne diseases such as malaria and dengue fever could become more widespread if effective control measures are not in place. In higher latitudes, cold-related deaths will decrease.***
+
+Climate-sensitive aspects of human health make up a significant proportion of the global disease burden and may grow in importance.[^46] The health of the world's population has improved remarkably over the past 50 years, although striking disparities remain.[^47] Slum populations in urban areas are particularly exposed to disease, suffering from poor air quality and heat stress, and with limited access to clean water.
+
+In some tropical areas, temperatures may already be at the limit of human tolerance. Peak temperatures in the Indo-Gangetic Plain often already exceed 45°C before the arrival of the monsoon.[^48] In contrast, in northern latitudes (Europe, Russia, Canada, United States), global warming may imply fewer deaths overall, because more people are saved from cold-related death in the winter than succumb to heat-related death in the summer (Figure 3.7; more detail in Chapter 5).[^49] In cities heatwaves will become increasingly dangerous, as regional warming together with the urban heat island effect (where cities concentrate and retain heat) leads to extreme temperatures and more dangerous air pollution incidents (see Box 6.4 in Chapter 5).
+
+Figure 3.7 Stylised U-shaped human mortality curves as a function of temperature.
+
+Source: Redrawn from McMichael et al. (2006).
+
+Note: The blue line shows a stylised version of today's distribution of daily temperatures through the year, and the purple line shows a future distribution shifted to the right because of climate change. Deaths increase sharply at both ends of the distribution, because Heatwaves and cold snaps that exceed thresholds for human temperature tolerance become more frequent. With climate change, there will be more heatwaves (in tropical areas or continental cities) but fewer cold snaps (in higher latitudes). The overall shape of the curve is not yet clearly characterised but is crucial because it determines the net effects of decreased deaths from the cold and increased deaths from heatwaves. These costs and benefits will not be evenly distributed around the world.
+
+%%page 75%%
+
+Climate change will amplify health disparities between rich and poor parts of the world. The World Health Organisation (WHO) estimates that climate change since the 1970s is already responsible for over 150,000 deaths each year through increasing incidence of diarrhoea, malaria and malnutrition, predominantly in Africa and other developing regions (Figure 3.8).[^50] Just a 1°C increase in global temperature above pre-industrial could double annual deaths from climate change to at least 300,000 according to the WHO.[^51] These figures do not account for any reductions in cold-related deaths, which could be substantial.[^52] At higher temperatures, death rates will increase sharply, for example millions more people dying from malnutrition each year.[^53] Climate change will also affect health via other diseases not included in the WHO modelling.[^54]
+
+Figure 3.8 WHO estimates of extra deaths (per million people) from climate change in 2000
+
+Source: WHO (2006) based on data from McMichael et al. (2004). The numbers are expected to at least double to 300,000 deaths each year by 2030.
+
+The distribution and abundance of disease vectors are closely linked to temperature and rainfall patterns, and will therefore be very sensitive to changes in regional climate in a warmer world. Changes to mosquito distributions and abundance will have profound impacts on malaria prevalence in affected areas. This will be particularly significant in Africa, where 450 million people are exposed to malaria today, of whom around 1 million die each year. According to one study, a 2°C rise in temperature may lead to 40 – 60 million more people exposed to malaria in Africa (9 – 14% increase on present-day), increasing to 70 – 80 million (16 – 19%) at higher temperatures, assuming no change to malaria control efforts.[^55] Much of the increase will occur in Sub-Saharan Africa, including East Africa. Some studies suggest that malaria will decrease in parts of West Africa, e.g. taking 25 – 50 million people out of an exposed region, because of reductions in rainfall.[^56] Changes in future exposure depend on the success of national and international malaria programmes. Such adaptations are not taken into account in the estimates presented, but the effectiveness of such programmes remains variable.[^57] Climate change will also increase the global population exposed to dengue fever, predominantly in the developing world, e.g. 5 – 6 billion people exposed with a 4°C temperature rise compared with 3.5 billion people exposed with no climate change.[^58]
+
+%%page 76%%
+
+Health will be further affected by changes in the water cycle. Droughts and floods are harbingers of disease, as well as causing death from dehydration or drowning.[^59] Prolonged droughts will fuel forest fires that release respiratory pollutants, while floods foster growth of infectious fungal spores, create new breeding sites for disease vectors such as mosquitoes, and trigger outbreaks of water-borne diseases like cholera. In the aftermath of Hurricane Mitch in 1998, Honduras recorded an additional 30,000 cases of malaria and 1,000 cases of dengue fever. The toxic moulds left in New Orleans in the wake of Hurricane Katrina continue to create health problems for its population, for example the so-called "Katrina cough".
+
+#### 3.5 Land
+
+***Sea level rise will increase coastal flooding, raise costs of coastal protection, lead to loss of wetlands and coastal erosion, and increase saltwater intrusion into surface and groundwater.***
+
+Warming from the last century has already committed the world to rising seas for many centuries to come. Further warming this century will increase this commitment.[^60] Rising sea levels will increase the amount of land lost and people displaced due to permanent inundation, while the costs of sea walls will rise approximately as a square of the required height. Coastal areas are amongst the most densely populated areas in the world and support several important ecosystems on which local communities depend. Critical infrastructure is often concentrated around coastlines, including oil refineries, nuclear power stations, port and industrial facilities.[^61]
+
+Currently, more than 200 million people live in coastal floodplains around the world, with 2 million Km2 of land and $1 trillion worth of assets less than 1-m elevation above current sea level. One-quarter of Bangladesh's population (~35 million people) lives within the coastal floodplain.[^62] Many of the world's major cities (22 of the top 50) are at risk of flooding from coastal surges, including Tokyo, Shanghai, Hong Kong, Mumbai, Calcutta, Karachi, Buenos Aires, St Petersburg, New York, Miami and London.[^63] In almost every case, the city relies on costly flood defences for protection. Even if protected, these cities would lie below sea level with a residual risk of flooding like New Orleans today.
+
+%%page 77%%
+
+***The homes of tens of millions more people are likely to be affected by flooding from coastal storm surges with rising sea levels. People in South and East Asia will be most vulnerable, along with those living on the coast of Africa and on small islands.***
+
+Sea level rises will lead to large increases in the number of people whose homes are flooded (Figure 3.9).[^64] According to one study that assumes protection levels rise in line with GDP per capita, between 7 – 70 million and 20 – 300 million additional people will be flooded each year by 3 to 4°C of warming causing 20 – 80 cm of sea level rise (low and high population growth assumptions respectively).[^65] Upgrading coastal defences further could partially offset these impacts, but would require substantial capital investment and ongoing maintenance. At higher levels of warming and increased rates of sea level rise, the risks will become increasingly serious (more on melting polar ice sheets in Section 3.8).
+
+South and East Asia will be most vulnerable because of their large coastal populations in low-lying areas, such as Vietnam, Bangladesh and parts of China (Shanghai) and India. Millions will also be at risk around the coastline of Africa, particularly in the Nile Delta and along the west coast. Small island states in the Caribbean, and in the Indian and Pacific Oceans (e.g. Micronesia and French Polynesia, the Maldives, Tuvalu) are acutely threatened, because of their high concentrations of development along the coast. In the Caribbean, more than half the population lives within 1.5 Km of the shoreline.
+
+***Some estimates suggest that 150 - 200 million people may become permanently displaced by the middle of the century due to rising sea levels, more frequent floods, and more intense droughts.***
+
+Today, almost as many people are forced to leave their homes because of environmental disasters and natural resource scarcity as flee political oppression, religious persecution and ethnic troubles (25 million compared with 27 million).[^66] Estimates in this area, however, are still problematic. Norman Myers uses conservative assumptions and calculates that climate change could lead to as many as 150 - 200 million environmental refugees by the middle of the century (2% of projected population).[^67] This estimate has not been rigorously tested, but it remains in line with the evidence presented throughout this chapter that climate change will lead to hundreds of millions more people without sufficient water or food to survive or threatened by dangerous floods and increased disease. People may also be driven to migrate within a region - Chapter 5 looks in detail at a possible climate-induced shift in population and economic activity from southern regions to northern regions of Europe and the USA.
+
+%%page 78%%
+
+Figure 3.9 Additional millions at risk from coastal flooding
+
+Source: Warren et al. (2006) analysing data from Nicholls (2004), Nicholls and Tol (2006) and Nicholls and Lowe (2006) Notes: Figure shows increase in number of people flooded by storm surge on average each year in the 2080s for different levels of global temperature rise (relative to pre-industrial levels). Results assume that flood defences are upgraded in phase with GDP per capita, but ignoring sea level rise itself. Lines represent different socio-economic futures for the 2080s based on a range of population and growth paths taken from the IPCC: green – A1/B1 low population (7 billion), red – B2 medium population (10 billion), blue – A2 high population (15 billion) (details of population and GDP per capita for each scenario set out in Box 3.2). A richer more populous country will be able to spend more on flood defences, but will have a greater number of people at risk. The impacts are shown for the "transient sea level rise" associated with reaching a particular level of warming, but do not include the consequences of the additional sea level rise that the world would be committed to for a given level of warming (0 – 15 cm for 1°C, 10 – 30 cm for 2°C, 20 – 50 cm for 3°C, 35 – 80 cm for 4°C; more details in Chapter 1). The ranges cover the uncertainties in climate modelling and how much sea level rises for a given change in temperature (based on IPCC Third Assessment Report data from 2001, which may be revised in the Fourth Assessment due in 2007).
+
+#### 3.6 Infrastructure
+
+***Damage to infrastructure from storms will increase substantially from only small increases in event intensity. Changes in soil conditions (from droughts or permafrost melting) will influence the stability of buildings.***
+
+By increasing the amount of energy available to fuel storms (Chapter 1), climate change is likely to increase the intensity of storms. Infrastructure damage costs will increase substantially from even small increases in sea temperatures because: (1) peak wind speeds of tropical storms are a strongly exponential function of temperature, increasing by about 15 - 20% for a 3°C increase in tropical sea surface temperatures;[^68] and (2) damage costs typically scale as the cube of wind-speed or more (Figure 3.10).[^69] Storms and associated flooding are already the most costly natural disaster today, making up almost 90% of the total losses from natural catastrophes in 2005 ($184 billion from windstorms alone, particularly hurricanes and typhoons).[^70] A large proportion of the financial losses fall in the developed world, because of the high value and large amount of infrastructure at risk (more details in Chapter 5).
+
+%%page 79%%
+
+High latitude regions are already experiencing the effects of warming on previously frozen soil. Thawing weakens soil conditions and causes subsidence of buildings and infrastructure. Climate change is likely to lead to significant damage to buildings and roads in settlements in Canada and parts of Russia currently built on permafrost.[^71] The Quinghai-Tibet Railway, planned to run over 500 Km of permafrost, is designed with a complex and costly insulation and cooling system to prevent thawing of the permafrost layer (more details in Chapter 20). However, most of the existing infrastructure is not so well designed to cope with permafrost thawing and land instability.
+
+Figure 3.10 Damage costs increase disproportionately for small increases in peak wind speed
+
+Source: IAG (2005)
+
+#### 3.7 Environment
+
+***Climate change is likely to occur too rapidly for many species to adapt. One study estimates that around 15 – 40% of species face extinction with 2°C of warming. Strong drying over the Amazon, as predicted by some climate models, would result in dieback of forest with the highest biodiversity on the planet.***
+
+The warming of the 20th century has already directly affected ecosystems. Over the past 40 years, species have been moving polewards by 6 Km on average per decade, and seasonal events, such as flowering or egg-laying, have been occurring several days earlier each decade.[^72] Coral bleaching has become increasingly prevalent since the 1980s. Arctic and mountain ecosystems are acutely vulnerable – polar bears, caribou and white spruce have all experienced recent declines.[^73] Climate change has already contributed to the extinction of over 1% of the world's amphibian species from tropical mountains.[^74]
+
+%%page 80%%
+
+Ecosystems will be highly sensitive to climate change (Table 3.4). For many species, the rate of warming will be too rapid to withstand. Many species will have to migrate across fragmented landscapes to stay within their "climate envelope" (at rates that many will not be able to achieve). Migration becomes more difficult with faster rates of warming. In some cases, the "climate envelope" of a species may move beyond reach, for example moving above the tops of mountains or beyond coastlines. Conservation reserves may find their local climates becoming less amenable to the native species. Other pressures from human activities, including land-use change, harvesting/hunting, pollution and transport of alien species around the world, have already had a dramatic effect on species and will make it even harder for species to cope with further warming. Since 1500, 245 extinctions have been recorded across most major species groups, including mammals, birds, reptiles, amphibians, and trees. A further 800 known species in these groups are threatened with extinction.[^75]
+
+A warming world will accelerate species extinctions and has the potential to lead to the irreversible loss of many species around the world, with most kinds of animals and plants affected (see below). Rising levels of carbon dioxide have some direct impacts on ecosystems and biodiversity,[^76] but increases in temperature and changes in rainfall will have even more profound effects. Vulnerable ecosystems are likely to disappear almost completely at even quite moderate levels of warming.[^77] The Arctic will be particularly hard hit, since many of its species, including polar bears and seals, will be very sensitive to the rapid warming predicted and substantial loss of sea ice (more detail in Chapter 5).[^78]
+
+- 1°C warming. At least 10% of land species could be facing extinction, according to one study.[^79] Coral reef bleaching will become much more frequent, with slow recovery, particularly in the southern Indian Ocean, Great Barrier Reef and the Caribbean.[^80] Tropical mountain habitats are very species rich and are likely to lose many species as suitable habitat disappears.
+- 2°C warming. Around 15 – 40% of land species could be facing extinction, with most major species groups affected, including 25 – 60% of mammals in South Africa and 15 – 25% of butterflies in Australia. Coral reefs are expected to bleach annually in many areas, with most never recovering, affecting tens of millions of people that rely on coral reefs for their livelihood or food supply.[^81] This level of warming is expected to lead to the loss of vast areas of tundra and forest – almost half the low tundra and about one-quarter of the cool conifer forest according to one study.[^82]
+- 3°C warming. Around 20 – 50% of land species could be facing extinction. Thousands of species may be lost in biodiversity hotspots around the world, e.g. over 40% of endemic species in some biodiversity hotspots such as African national parks and Queensland rain forest.[^83] Large areas of coastal wetlands will be permanently lost because of sea level rise (up to one-quarter according to some estimates), with acute risks in the Mediterranean, the USA and South East Asia. Mangroves and coral reefs are at particular risk from rapid sea level rise (more than 5 mm per year) and their loss would remove natural coastal defences in many regions. Strong drying over the Amazon, according to some climate models, would result in dieback of forest with the highest biodiversity on the planet.[^84]
+
+%%page 81%%
+
+Temperatures could rise by more than 4 or 5°C if emissions continue unabated, but the full range of consequences at this level of warming have not been clearly articulated to date. Nevertheless, a basic understanding of ecological processes leads quickly to the conclusion that many of the ecosystem effects will become compounded with increased levels of warming, particularly since small shifts in the composition of ecosystems or the timing of biological events will have knock-on effects through the food-chain (e.g. loss of pollinators or food supply).[^85]
+
+#### 3.8 Non-linear changes and threshold effects
+
+***Warming will increase the chance of triggering abrupt and large-scale changes.***
+
+Human civilisation has lived through a relatively stable climate. But the climate system has behaved erratically in the past.[^86] The chaotic nature of the climate system means that even relatively small amounts of warming can become amplified, leading to major shifts as the system adjusts to balance the new conditions. Abrupt and large-scale changes could potentially destabilise regions and increase regional conflict – for example shutdown of Atlantic Thermohaline Circulation (more details in Chapter 5).[^87] While there is still uncertainty over the possible triggers for such changes, the latest science indicates that the risk is more serious than once thought (Table 3.3).[^88] Some temperature triggers, like 3 or 4°C of warming, could be reached this century if warming occurs quite rapidly.
+
+***Melting/collapse of polar ice sheets would accelerate sea level rise and eventually lead to substantial loss of land, affecting around 5% of the global population.***
+
+The impacts of sea level rise in the long term depend critically on changes in both the Greenland and West Antarctic ice sheets. As temperatures rise, the world risks crossing a threshold level of warming beyond which melting or collapse of these polar ice sheets would be irreversible. This would commit the world to increases in sea level of around 5 to 12-m over coming centuries to millennia, much greater than from thermal expansion alone, and significantly accelerate the rate of increase (Chapter 1). A substantial area of land and a large number of people would be put at risk from permanent inundation and coastal surges. Currently, around 5% of the world's population (around 270 million people) and $2 trillion worth of GDP would be threatened by a 5-m rise (Figure 3.11). The most vulnerable regions are South and East Asia, which could lose 15% of their land area (an area over three times the size of the UK). Many major world cities would likely have to be abandoned unless costly flood defences were constructed.[^89]
+
+%%page 82%%
+
+Table 3.3 Potential temperature triggers for large-scale and abrupt changes in climate system
+
+Source: Adapted from Schneider and Lane (2006)
+
+Figure 3.11 Global flood exposure from major sea level rise (based on present conditions)
+
+Source: Anthoff et al. (2006)
+
+***Warming may induce sudden shifts in regional weather patterns that have severe consequences for water availability in tropical regions.*** The strongly non-linear nature of weather systems, like the Asian and African monsoons, and patterns of variability, such as the El Niño (chapter 1), suggests that they may be particularly vulnerable to abrupt shifts. For example, recent evidence shows that an El Niño with strong warming in the central Pacific can cause the Indian monsoon to switch into a dry state, leading to severe droughts[^90] . Currently, this type of shift is a temporary occurrence, but in the past, there is evidence that climate changes have caused such shifts to persist for many decades. For example, cold periods in the North Atlantic since the last ice age, such as a 2.5°C regional cooling during the Little Ice Age, led to an abrupt weakening of the Asian summer monsoon.[^91] If such abrupt shifts were replicated in the future, they could have a very severe effect on the livelihoods of hundreds of millions of people (Box 3.5). The impacts would be strongest in the tropics, where such weather systems are a key driver of rainfall patterns. However, the confidence in projections of future changes is relatively low. Currently, several climate models predict that in the future average rainfall patterns will look more like an El Niño.[^92] This could mean a significant shift in weather in many parts of the world, with areas that are normally wet perhaps rapidly becoming dryer. In the long term, it may be possible to adapt to such changes, but the short-term impacts would be highly disruptive. For example, the strong El Niño in 1997/98 had severe impacts around the Indian and Pacific oceans, causing flooding and droughts that led to thousands of deaths and several billion dollars of damage.
+
+%%page 83%%
+
+Extreme high temperatures will occur more often, increasing human mortality during the dry pre-monsoon months and damaging crops.[^93] Critical temperatures, above which damage to crops increases rapidly, are likely to be exceeded more frequently. A recent study predicts up to a 70% reduction in crop yields by the end of this century under these conditions, assuming no adaptation.[^94]
+
+Box 3.5 Possible impacts of an abrupt change in Asian monsoon reliability
+
+Any changes in rainfall patterns of the Asian monsoon would severely affects the lives of millions of people across southern Asia. Summer monsoon rains play a crucial role for agricultural and industrial production throughout South and East Asia. In India, for example, summer monsoon rains provide 75 – 90% of the annual rainfall.
+
+Models suggest that climate change will bring a warmer, wetter monsoon by the end of the century.[^95] This could increase water availability for around two billion people in South and East Asia.[^96] However, the increased runoff would probably increase flood risk, particularly because models predict that rain will fall in more intense bursts. Without adaptation this could have devastating impacts. For example, over 1000 people died when Mumbai was devastated by flash floods from extremely heavy rainfall in August 2005.[^97] A record-breaking one-metre of rain fell in just 24 hours and parts of Mumbai were flooded to a depth of 3 metres. Schools, banks, the stock exchange, and the airport all had to be closed. Hundreds of cases of dysentery and cholera were recorded as a result of contaminated water, and medical supplies were limited because of damages to storage warehouses.
+
+But it is changes in the timing and variability of rainfall, both within the wet season and between years that are likely to have the most significant impacts on lives and livelihoods. A year-to-year fluctuation of just 10% in average rainfall can lead to food and water shortages. Confidence in projections of future rainfall variability is relatively low; however, this represents the difference between steady, predictable rainfall and a destructive cycle of flooding and drought. Most models predict a modest increase in year-to-year variability but to differing degrees. At the heart of this are the projections of what will happen to El Niño. Changes in variability within the wet season are more uncertain, but also vital to livelihoods. For example, in 2002, the monsoon rains failed during July, resulting in a seasonal rainfall deficit of 20%. This caused a massive loss of agricultural production, leading to severe hardship for hundreds of millions of people.
+
+%%page 84%%
+
+#### 3.9 Conclusion
+
+***Climate change will have increasingly severe impacts on people around the world, with a growing risk of abrupt and large-scale changes at higher temperatures.***
+
+This chapter has outlined the main mechanisms through which physical changes in climate will affect the lives and livelihoods of people around the world. A warmer world with a more intense water cycle and rising sea levels will influence many key determinants of wealth and wellbeing, including water supply, food production, human health, availability of land, and the environment. While there may be some initial benefits in higher latitudes for moderate levels of warming (1 – 2°C), the impacts will become increasingly severe at higher temperatures (3, 4 or 5°C). While there is some evidence in individual sectors for disproportionate increases in damages with increasing temperatures, such as heat stress (Box 3.1), the most powerful consequences will arise when interactions between sectors magnify the effects of rising temperatures. For example, infrastructure damage will rise sharply in a warmer world, because of the combined effects of increasing potency of storms from warmer ocean waters and the increasing vulnerability of infrastructure to rising windspeeds. At the same time, the science is becoming stronger, suggesting that higher temperatures will bring a growing risk of abrupt and large-scale changes in the climate system, such as melting of the Greenland Ice Sheet or sudden shift in the pattern of monsoon rains. Such changes are still hard to predict, but their consequences could be potentially catastrophic, with the risk of large-scale movement of populations and global insecurity. Chapter 6 brings this disparate material together to examine the full costs in aggregate.
+
+While modelling efforts are still limited, they provide a powerful tool for taking a comprehensive look at the impacts of climate change. At the same time, it is the underlying detail, as described in this and the next two chapters, rather than the aggregate models that should be the primary focus. It is not possible in aggregate models to bring out the key elements of the effects, much is lost in aggregation, and the particular model structure can have their own characteristics. What matters is the magnitude of the risks of different kind for different people and the fact that they rise so sharply as temperatures move upwards.
+
+Chapters 4 and 5 pick up this story. The poorest will be hit earliest and most severely. In many developing countries, even small amounts of warming will lead to declines in agricultural production because crops are already close to critical temperature thresholds. The human consequences will be most serious and widespread in Sub-Saharan Africa, where millions more will die from malnutrition, diarrhoea, malaria and dengue fever, unless effective control measures are in place. There will be acute risks all over the world – from the Inuits in the Arctic to the inhabitants of small islands in the Caribbean and Pacific. Developed countries may experience some initial benefits from warming, such as longer growing seasons for crops, less winter mortality, and reduced heating demands. These are likely to be short-lived and counteracted at higher temperatures by sharp increases in damaging extreme events such as hurricanes, floods, and heatwaves.
+
+%%page 85%%
+
+#### References
+
+Dr Rachel Warren and colleagues from the Tyndall Centre (Warren et al. 2006) have prepared a detailed technical report for the Stern Review that looks at how the impacts of climate change vary with rising temperatures (working paper available from http://www.tyndall.ac.uk). The analysis drew heavily on a series of papers, known as "FastTrack", prepared by Prof. Martin Parry and colleagues in a Special Issue of Global Environmental Change (introduced in Parry 2004). These studies are among the few that use a consistent set of climate and socio-economic scenarios and explore different sources of risks and uncertainty (more details in Box 3.2). The work built on previous analyses by Grassl et al. (2003), Hare (2006) and Warren (2006). Sam Hitz and Joel Smith also analysed the "FastTrack" work, amongst others, in a special report for the OECD, focusing in particular on the functional form of the impacts with rising temperatures (Hitz and Smith 2004). They found increasingly adverse impacts for several climate-sensitive sectors but were not able to determine if the increase was linear or exponential (more details in Box 3.1). Prof. Richard Tol (2002) carried out a detailed study to examine both the costs and the benefits of climate change at different levels of global temperature rise in key economic sectors – agriculture, forestry, natural ecosystems, sea level rise, human mortality, energy consumption, and water resources. He found that some developed countries show net economic benefits for low levels of warming (1 – 2°C) because of reduced winter heating and cold-related deaths, and increased agricultural productivity due to carbon fertilisation. The book "Avoiding dangerous climate change" (edited by Schellnhuber 2006) currently provides the most up-to-date assessment of the full range of impacts of climate change, particularly the risk of abrupt and large-scale changes. The Fourth Assessment Report of the IPCC is expected to be published in 2007 and will provide the most comprehensive picture of the latest science.
+
+Agrawala, S., S. Gigli, V. Raksakulthai et al. (2005): 'Climate change and natural resource management: key themes from case studies', in Bridge over troubled water: linking climate change and development, S. Agrawala (ed.), Paris: OECD, pp. 85 – 131
+
+Ali, A. (2000): 'Vulnerability of Bangladesh coastal region to climate change with adaptation options', Dhaka: Bangladesh Space Research and Remote Sensing Organisation (SPARRSO), available from http://www.survas.mdx.ac.uk/pdfs/3anwaral.pdf
+
+Anthoff, D., R. Nicholls, R.S.J. Tol, and A.T. Vafeidis (2006): 'Global and regional exposure to large rises in sea-level', Research report prepared for the Stern Review, Tyndall Centre Working Paper 96, Norwich: Tyndall Centre, available from http://www.tyndall.ac.uk/publications/working_papers/twp96.pdf
+
+Arctic Climate Impacts Assessment (2004): 'Impacts of a warming Arctic', Cambridge: Cambridge University Press.
+
+Arnell, N.W. (2004): 'Climate change and global water resources: SRES emissions and socio-economic scenarios', Global Environmental Change 14:31 – 52
+
+Arnell, N.W. (2006a): 'Climate change and water resources', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 167 - 176
+
+Arnell, N.W. (2006b): 'Global impacts of abrupt climate change: an initial assessment', Report commissioned by the Stern Review, available from http://www.sternreview.org.uk
+
+Barnett, T.P., J.C, Adam, and D.P. Lettenmaier (2005): 'Potential impacts of a warming climate on water availability in snow-dominated regions', Nature 438: 303-309
+
+Betts, R.A. (2005): 'Integrated approaches to climate-crop modelling: needs and challenges'. Philosophical Transactions of the Royal Society B 360: 2049-2065
+
+Bosello, F., R. Roson, R.S.J. Tol et al. (2006): 'Economy-wide estimates of the implications of climate change: human health', Ecological Economics 58: 579-591
+
+%%page 86%%
+
+Both, C., S.Bouwhius, C.M. Lessells, and M.E. Visser (2006): 'Climate change and population declines in a long-distance migratory bird', Nature 441: 81 – 83
+
+Bruinsma, J. (ed.) (2003): 'World agriculture: towards 2015/2030', FAO, London: Earthscan
+
+Burke, E.J., S.J. Brown, and N. Christidis (2006): 'Modelling the recent evolution of global drought and projections for the twenty-first century with the Hadley Centre climate model', Journal of Hydrometeorology, 7: 1113 – 1125
+
+Challinor, A.J., T.R. Wheeler, et al. (2006a): 'Adaptation of crops to climate change through genotypic responses to mean and extreme temperatures, Agriculture, Ecosystems and Environment', (in press)
+
+Challinor, A.J., J. Slingo, A. Turner, and T. Wheeler (2006b): 'Indian Monsoon, Contribution to Stern Review', available from http://www.sternreview.org.uk
+
+Ciais, P., M. Reichstein, N. Viovy, F et al. (2005): 'Europe-wide reduction in primary productivity caused by the heat and drought in 2003', Nature 437: 529 – 533
+
+Collins, M. and the CMIP Modelling Groups (2005): 'El Niño – or La Niño-like climate change? Climate Dynamics' 24:89-104
+
+Coudrain, A., B. Francou et al. (2005): 'Glacier shrinkage in the Andes and consequences for water resources', Hydrological Sciences Journal 50: 925 – 932
+
+Cox P.M., R.A. Betts, C.D. Jones, et al. (2000): 'Acceleration of global warming due to carbon-cycle feedbacks in a coupled climate model', Nature 408: 184-187
+
+Defra (Department for Environment, Food and Rural Affairs) (2005): 'Investigating the impacts of climate change in India', available from http://www.defra.gov.uk/environment/climatechange.htm
+
+De, U.S., R.K. Dube and G.S. Prakasa Rao (2005): 'Extreme weather events over India in the last 100 years', Journal of the Indian Geophysical Union 9: 173 – 187
+
+Donner, S.D, W.J. Skirving, C.M. Little et al. (2005): 'Global assessment of coral bleaching and required rates of adaptation under climate change', Global Change Biology 11: 2251 – 2265
+
+Emanuel, K.A. (1987): 'The dependence of hurricane intensity on climate', Nature 326: 483 – 485
+
+Epstein, P.R. and E. Mills (2005): 'Climate change futures: health, ecological and economic dimensions', Center for Health and the Global Environment, Harvard Medical School, Cambridge, MA: Harvard University, available from http://www.climatechangefutures.org
+
+Falkenmark, M., J. Lunquist, and C. Widstrand (1989): 'Macro-scale water scarcity requires micro-scale approaches', Natural Resources Forum 13: 258 – 267
+
+Fischer, G., M. Shah, F.N. Tubiello, and H. van Velhuizen (2005): 'Socio-economic and climate change impacts on agriculture', Philosophical Transactions of the Royal Society B 360: 2067 – 2083
+
+Gedney, N., P.M. Cox, R.A. Betts, et al. (2006) 'Detection of a direct carbon dioxide effect in continental river runoff records', Nature 439: 835 – 838
+
+Gleick, P.H. (1996): 'Basic water requirements for human activities: meeting basic needs', Water International 21:83 – 92
+
+%%page 87%%
+
+Grassl, H., J. Kokott, M. Kulessa, et al. (2003): 'Climate protection strategies for the 21st century: Kyoto and beyond', Special Report for German Advisory Council on Global Change (WBGU), Berlin: WBGU, available from http://www.wbgu.de/wbgu_sn2003_voll_engl.html
+
+Grey, D., and C. Sadoff (2006): 'Water for growth and development, in Thematic documents of the IV World Water Forum', Mexico City: Comisíon Nacional del Agua
+
+Gupta, A., D.M. Anderson, and J.T. Overpeck (2003): 'Abrupt changes in the Asian southwest monsoon during the Holocene and their links to the North Atlantic Ocean', Nature 421: 354 – 356
+
+Hales, S., N. de Wet, J. Macdonald, and A. Woodward (2002): 'Potential effect of population and climate changes on global distribution of dengue fever: an empirical model', The Lancet 360: 830 – 834
+
+Hare, B. (2006): 'Relationship between increases in global mean temperature and impacts on ecosystems, food production, water and socio-economic systems', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 177 - 185
+
+Hitz S. and J. Smith (2004): 'Estimating Global Impacts from Climate Change', pp. 31 – 82 in Morlot JC, Agrawala S (eds.), The benefits of climate change policies, Paris: OECD
+
+Hoskins, B.J. (2003): 'Atmospheric processes and observations', Philosophical Transactions of the Royal Society B 361:1945-1960
+
+Insurance Australia Group (2005): 'Evidence to the Stern Review', Insurance Australia Group, Australia, available from http://www.sternreview.org.uk
+
+International Federation of Red Cross and Red Crescent Societies (2001): 'World disasters report 2001', Geneva: International Federation of Red Cross and Red Crescent Societies, available from http://www.ifrc.org/publicat/wdr2001
+
+Intergovernmental Panel on Climate Change (2000:) 'Emissions Scenarios. Special Report of the Intergovernmental Panel on Climate Change', [Nakicenovic N and Swart R (eds.)], Cambridge: Cambridge University Press
+
+Intergovernmental Panel on Climate Change (2001): 'Climate Change 2001: Synthesis Report', Contribution of Working Groups I, II and III to the Third Assessment Report of the Intergovernmental Panel on Climate Change' [Watson R.T. and Core Team (Eds.)], Cambridge: Cambridge University Press
+
+Körner, Ch. (2004): 'Through enhanced tree dynamics carbon dioxide enrichment may cause tropical forests to lose carbon', Philosophical Transactions of the Royal Society London B 359: 493 – 498
+
+Kumar, K.K., B. Rajagopalan, M. Hoerling et al. (2006): 'Unravelling the mystery of indian monsoon failure during the El Niño', Science 314: 115-119, doi: 10.1126/science.1131152
+
+Leemans, R. and B. Eickhout (2004): 'Another reason for concern: regional and global impacts on ecosystems for different levels of climate change', Global and Environmental Change 14: 219 – 228
+
+Lehner B, Henrichs T, Döll P, Alcamo J (2001): 'EuroWasser: Model-Based Assessment of European Water Resources and Hydrology in the Face of Global Change'. World Water Series 5. Centre for Environmental Systems Research, Kassel: University of Kassel, available from http://www.usf.uni-kassel.de/usf/archiv/dokumente/kwws/kwws.5.en.htm
+
+Long, S.P., E.A. Ainsworth, A.D.B. Leakey et al. (2006): 'Food for thought: lower-than-expected crop yield stimulation with rising CO2 concentrations', Science 312: 1918 – 1921
+
+%%page 88%%
+
+Malcolm, J.R., C.R. Liu, R.P, Neilson, et al. (2006): Global warming and extinctions of endemic species from biodiversity hotspots, Conservation Biology 20: 538 – 548
+
+McClean, C.J., J.C. Lovett, W. Kuper, et al. (2005): 'African plant diversity and climate change', Annals of the Missouri Botanical Garden 92: 139 – 152
+
+McMichael, A., D. Campbell-Lendrum, S. Kovats, et al. (2004): 'Global climate change', in M.J. Ezzati, et al. (eds.), Comparative quantification of health risks: global and regional burden of disease due to selected major risk factors, Geneva: World Health Organisation, pp. 1543 - 1649
+
+McMichael, A.J., R.E. Woodruff, and S. Hales (2006): 'Climate change and human health: present and future risks', The Lancet 367: 859-869
+
+Mendelsohn, R., W.D. Nordhaus, and D. Shaw (1994): 'The impact of global warming on agriculture: a Ricardian analysis', American Economic Review 84: 753 – 771
+
+Milly P.C.D., R.T. Wetherald, K.A. Dunne, and T.L. Delworth (2002): 'Increasing risk of great floods in a changing climate', Nature 415: 514-517
+
+Munich Re (2004): 'Annual review: natural catastrophes 2003', Munich Re Group: Munich
+
+Munich Re (2005): 'Megacities – megarisks.' Munich Re Group: Munich
+
+Munich Re (2006): 'Annual review: natural catastrophes 2005', Munich Re Group: Munich
+
+Myers, N., and Kent, J. (1995): 'Environmental exodus: an emergent crisis in the global arena, Washington, DC: The Climate Institute
+
+Nagy, G. et al. (2006): 'Understanding the potential impact of climate change in Latin America and the Caribbean', Report prepared for the Stern Review, available from http://www.sternreview.org.uk
+
+Nelson, F.E. (2003): '(Un)frozen in Time', Science 299: 1673 – 1675
+
+Nicholls R.J. (2004): 'Coastal flooding and wetland loss in the 21st century: changes under the SRES climate and socio-economic scenarios', Global Environmental Change 14:69 – 86
+
+Nicholls R.J., J.A. Lowe (2006): 'Climate stabilisation and impacts of sea-level rise', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 195 – 201
+
+Nicholls, R.J., R.S.J. Tol, and N. Vafeidis (2004): 'Global estimates of the impact of a collapse of the West Antarctic Ice Sheet', Report for the Atlantis project, available from http://www.uni-hamburg.de/Wiss/FB/15/Sustainability/atlantis.htm
+
+Nicholls, R.J. and R.S.J. Tol, (2006): 'Impacts and responses to sea level rise: global analysis of the SRES scenarios over 21st century', Philosophical Transactions of the Royal Society B 364: 1073 – 1095
+
+Nordhaus, W.D. (2006): 'The economics of hurricanes in the United States, Prepared for Snowmass Workshop on Abrupt Climate Change', Snowmass: Annual Meetings of the American Economic Association, available from http://nordhaus.econ.yale.edu/hurricanes.pdf
+
+O'Neill, B.C., and M. Oppenheimer (2002): 'Climate change – dangerous climate impacts and the Kyoto protocol', Science 296: 1971-1972
+
+Oppenheimer, M. (2005): 'Defining dangerous anthropogenic interference: the role of science, the limits of science', Risk Analysis 25: 1399-1408
+
+%%page 89%%
+
+Parmesan, C. and G. Yohe (2003): 'A globally coherent fingerprint of climate change impacts across natural systems', Nature 421: 37 – 42
+
+Parry, M.L. (1978): 'Climatic change, agriculture and settlement', Folkestone, UK: Dawson and Sons
+
+Parry, M.L (2004): 'Global impacts of climate change under the SRES scenarios', Global Environmental Change 14: 1
+
+Parry, M.L, C. Rosenzweig, A. Iglesias et al. (2004): 'Effects of climate change on global food production under SRES emissions and socio-economic scenarios', Global Environmental Change 14:53 – 67
+
+Parry, M.L, C. Rosenzweig, and M. Livermore (2005): 'Climate change, global food supply and risk of hunger', Philosophical Transactions of the Royal Society B 360: 2125 – 2136
+
+Patz, J.A., D. Campbell-Lendrum, T. Holloway, and J.A. Foley (2005): 'Impact of regional climate change on human health', Nature 438: 310 – 317
+
+Pearson, R.G, W. Thuiller, M.B. Araújo, et al. (2006): 'Model-based uncertainty in species' range prediction'. Journal of Biogeography, 33: 1704-1711, doi: 10.1111/j.1365-2699.2006.01460.x
+
+Pearson, R.G., and T.P. Dawson (2003): 'Predicting the impacts of climate change on the distribution of species: are bioclimate envelope models useful?' Global Ecology and Biogeography 12: 361 – 371
+
+Pounds, J.A., M.R. Bustamante, and L.A. Coloma (2006): 'Widespread amphibian extinctions from epidemic disease driven by global warming', Nature 439: 161 – 167
+
+Purse, B.V., P.S. Mellor, D.J. Rogers, et al. (2005): 'Climate change and the recent emergence of bluetongue in Europe', Nature Reviews Microbiology 3: 171-181
+
+Rial, J.A., R.A. Pielke, M. Beniston et al. (2004): 'Non-linearities, feedbacks and critical thresholds within the earth's climate system', Climatic Change 65:11-38
+
+Ricketts, T.H., E. Dinerstein, T. Boucher, et al. (2005): 'Pinpointing and preventing imminent extinctions', Proceedings of the National Academy of Sciences 102: 18497 – 18501
+
+Root, T.L., D.P. MacMynowski, M.D. Mastrandrea, and S.H. Schneider (2005): 'Human-modified temperatures induce species changes', Proceedings of the National Academy of Sciences 102: 7465 – 7469
+
+Rosenzweig, C. and M.L. Parry (1994): 'Potential impacts of climate change on world food supply', Nature 367: 133 – 138
+
+Rosenzweig, C, F.N. Tubiello, R. Goldberg, et al. (2002): 'Increased crop damage in the US from excess precipitation under climate change', Global Environmental Change 12: 197 – 202
+
+Royal Society (2005): 'Ocean acidification due to increasing atmospheric carbon dioxide', London: Royal Society, available from http://www.royalsoc.ac.uk
+
+Schellnhuber, H.J. (ed.) (2006): 'Avoiding dangerous climate change, Cambridge: Cambridge University Press
+
+Schlenker, W. and M.J. Roberts (2006): 'Nonlinear effects of weather on corn yields', Review of Agricultural Economics 28: in press
+
+Schneider, S.H. and J. Lane (2006): 'An overview of 'dangerous' climate change', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 7 – 24
+
+%%page 90%%
+
+Scholze, M., W. Knorr, N.W. Arnell, and I.C. Prentice (2006): 'A climate-change risk analysis for world ecosystems', Proceedings of the National Academy of Sciences, DOI: 10.1073/pnas.0601816103
+
+Schwartz, P. and D. Randall (2004): 'An abrupt climate change scenario and its implications for United States national security', Report prepared by the Global Business Network (GBN) for the Department of Defense, San Francisco: GBN, available from http://www.gbn.com/ArticleDisplayServlet.srv?aid=26231
+
+Slingo, J.M., A.J. Challinor, B.J. Hoskins, and T.R. Wheeler (2005): 'Introduction: food crops in a changing climate', Philosophical Transactions of the Royal Society B 360: 1983 – 1989
+
+Tanser, F.C., B. Sharp, and D. le Seur (2003): 'Potential effect of climate change on malaria transmission in Africa', The Lancet 362: 1792 - 1798
+
+Thomas, C.D., A. Cameron, R.E. Green et al. (2004a): 'Extinction risk from climate change', Nature 427: 145 – 148
+
+Thomas C.D., S.E. Williams, A. Cameron, et al. (2004b): 'Reply (brief communication)', Nature 430: doi:10.1038/nature02719
+
+Thuiller, W., M.B. Araújo, R.G. Pearson, et al. (2004): 'Uncertainty in predictions of extinction risk', Nature 430: doi:10.1038/nature02716
+
+Tol, R.S.J. (2002): 'Estimates of the damage costs of climate change'. Part I: Benchmark estimates, Environmental and Resource Economics 21:47 - 73
+
+Turley, C., J.C. Blackford, S. Widdicombe, et al. (2006): 'Reviewing the impact of increased atmospheric CO2 on oceanic pH and the marine ecosystem', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 65 - 70
+
+Van Lieshout, M., R.S. Kovats, M.T. Livermore, and P. Martens (2004): 'Climate change and malaria: analysis of the SRES climate and socio-economic scenarios', Global Environmental Change 14:87 – 99
+
+Vara Prasad, P.V., P.Q. Craufurd, V.G. Kakani, et al. (2001): 'Influence of high temperature on fruit-set and pollen germination in peanuts', Australian Journal of Plant Physiology 28: 233
+
+Visser, M.E. and C. Both (2005): 'Shifts in phenology due to global climate change: the need for a yardstick', Proceedings of the Royal Society B 272: 2561 - 2569
+
+Warren, R. (2006): 'Impacts of global climate change at different annual mean global temperature increases', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 93 – 131
+
+Warren, R., N. Arnell, R. Nicholls, P. Levy, and J. Price (2006): 'Understanding the regional impacts of climate change', Research report prepared for the Stern Review, Tyndall Centre Working Paper 90, Norwich: Tyndall Centre, available from http://www.tyndall.ac.uk/publications/working_papers/twp90.pdf
+
+Wheeler, T.R., G.R. Batts, R.H. Ellis, et al. (1996): 'Growth and yield of winter wheat (Triticum aestivum) crops in response to CO2 and temperature', Journal of Agricultural Science 127: 37 – 48
+
+World Health Organisation (2005): 'Susceptibility of Plasmodium falciparum to antimalarial drugs – report on global monitoring 1996 – 2004', Geneva: World Health Organisation.
+
+World Health Organisation (2006): WHO/UNEP Health and Environment Linkages Initiative (website), WHO, Geneva, available from http://www.who.int/heli/risks/climate/climatechange
+
+%%page 91%%
+
+Wigley, T.M.L. (1985): 'Impact of extreme events', Nature 316: 106 - 107 World Bank (2004): 'Towards a water-secure Kenya', Water Resources Sector Memorandum, Washington, DC: World Bank World Water Development Report (2006): 'Water: a shared responsibility, World Water Assessment Programme', New York: United Nations, available from http://www.unesco.org/water/wwap
+
+%%page 92%%
+
+### 4 Implications of Climate Change for Development
+
+Key Messages
+
+Climate change poses a real threat to the developing world. Unchecked it will become a major obstacle to continued poverty reduction.
+
+Developing countries are especially vulnerable to climate change because of their geographic exposure, low incomes, and greater reliance on climate sensitive sectors such as agriculture. Ethiopia, for example, already has far greater hydrological variability than North America but less than 1% of the artificial water storage capacity per capita. Together these mean that impacts are proportionally greater and the ability to adapt smaller.
+
+Many developing countries are already struggling to cope with their current climate. For low-income countries, major natural disasters today can cost an average of 5% of GDP.
+
+Health and agricultural incomes will be under particular threat from climate change. For example:
+
+- Falling farm incomes will increase poverty and reduce the ability of households to invest in a better future and force them to use up meagre savings just to survive.
+- Millions of people will potentially be at risk of climate-driven heat stress, flooding, malnutrition, water related disease and vector borne diseases. For example, dengue transmission in South America may increase by 2 to 5 fold by the 2050s.
+- The cost of climate change in India and South East Asia could be as high as a 9-13% loss in GDP by 2100 compared with what could have been achieved in a world without climate change. Up to an additional 145-220 million people could be living on less than $2 a day and there could be an additional 165,000 to 250,000 child deaths per year in South Asia and sub-Saharan Africa by 2100 (due to income losses alone).
+
+Severe deterioration in the local climate could lead, in some parts of the developing world, to mass migration and conflict, especially as another 2-3 billion people are added to the developing world's population in the next few decades:
+
+- Rising sea levels, advancing desertification and other climate-driven changes could drive millions of people to migrate: more than a fifth of Bangladesh could be under water with a 1m rise in sea levels – a possibility by the end of the century.
+- Drought and other climate-related shocks risk sparking conflict and violence, with West Africa and the Nile Basin particularly vulnerable given their high water interdependence.
+
+These risks place an even greater premium on fostering growth and development to reduce the vulnerability of developing countries to climate change.
+
+However, little can now be done to change the likely adverse effects that some developing countries will face in the next few decades, and so some adaptation will be essential. Strong and early mitigation is the only way to avoid some of the more severe impacts that could occur in the second half of this century.
+
+#### 4.1 Introduction
+
+While all regions will eventually feel the effects of climate change, it will have a disproportionately harmful effect on developing countries – and in particular poor communities who are already living at or close to the margins of survival. Changes in the climate will amplify the existing challenges posed by tropical geography, a heavy dependence on agriculture, rapid population growth, poverty, and a limited capacity to cope with an uncertain climate. The world is already likely to fall short of the Millennium Development Goals for 2015 in many regions of the world (see Box 4.1 for the Goals). Climate change threatens the long-term sustainability of development progress.[^1]
+
+%%page 93%%
+
+Box 4.1 Millennium Development Goals
+
+In September 2000, 189 countries signed the United Nations Millennium Declaration. In so doing, they agreed on the fundamental dimensions of development, translated into an international blueprint for poverty reduction. This is encapsulated by the Millennium Development Goals that are focused on a target date of 2015:
+
+- Halve extreme poverty and hunger
+- Achieve universal primary education
+- Empower women and promote equality between women and men
+- Reduce under five mortality by two thirds
+- Reduce maternal mortality by three-quarters
+- Reverse the spread of diseases, especially HIV/AIDS and malaria
+- Ensure environmental sustainability
+- Create a global partnership for development, with targets for aid, trade and debt relief
+
+But it is important to recognise that the scale of future climate impacts will vary between regions, countries and people. The last 30 years or so has already seen strong advances in many developing countries on income, health and education. Those developing countries that continue to experience rapid growth will be much better placed to deal with the consequences of climate change. Other areas, predominantly low-income countries, where growth is stagnating may find their vulnerability increases.
+
+The challenge now is to limit the damage, both by mitigation and adaptation. It is vital therefore to understand just how, and how much, climate change is likely to slow development progress. The chapter begins by examining the processes by which climate change impacts will be felt in developing counties. Section 4.2 considers what it is about the starting position of these countries that makes them vulnerable to the physical changes set out in Chapter 3. Understanding why developing countries are especially vulnerable is critical to understanding how best to improve their ability to deal with climate change (discussed in Chapter 20). Sections 4.3 and 4.4 move on to consider the consequences of a changing climate on health, income and growth. The first part of the analysis draws on evidence from past and current exposure to climate variability to show how vulnerable groups are affected by a hostile climate. The second summarises key regional impacts. Section 4.5 explores the potential effects on future growth and income levels, which in turn affect the numbers of people living below poverty thresholds as well as the child mortality rate. The chapter concludes with Section 4.6 reviewing the possible consequences for migration, displacement and risk of conflict resulting from the socio-economic and environmental pressures of climate change.
+
+#### 4.2 The vulnerability of developing countries to a changing climate
+
+***Developing countries are especially vulnerable to the physical impacts of climate change because of their exposure to an already fragile environment, an economic structure that is highly sensitive to an adverse and changing climate, and low incomes that constrain their ability to adapt.***
+
+The effects of climate change on economies and societies will vary greatly over the world. The circumstances of each country - its initial climate, socio-economic conditions, and growth prospects – will shape the scale of the social, economic and environmental effects of climate change. Vulnerability to climate change can be classified as: exposure to changes in the climate, sensitivity – the degree to which a system is affected by or responsive to climate stimuli,[^2] and adaptive capacity - the ability to prepare for, respond to and tackle the effects of climate change. This is illustrated in Figure 4.1. Developing countries score poorly on all three criteria. This section provides a brief overview of some of the key vulnerabilities facing many developing countries. Unless these vulnerabilities are overcome they are likely to increase the risk and scale of damaging impacts posed by climate change.
+
+%%page 94%%
+
+Figure 4.1 Vulnerability to climate change: the IPCC Third Assessment Report
+
+• Economic Wealth
+
+Source: redrawn from Ionescu et al (2005)
+
+***Exposure: The geography of many developing countries leaves them especially vulnerable to climate change.***
+
+Geographical exposure plays an important role in determining a country's growth and development prospects. Many developing countries are located in tropical areas. As a result, they already endure climate extremes (such as those that accompany the monsoon and El Niño and La Niña cycles), intra and interannual variability in rainfall,[^3] and very high temperatures. India, for example, experienced peak temperatures of between 45°C and 49°C during the pre-monsoon months of 2003.[^4] Geographical conditions have been identified as important contributors to lower levels of growth in developing countries. If rainfall - that arrives only in a single season in many tropical areas - fails for example, a country will be left dry for over a year with powerful implications for their agricultural sector. This occurred in India in 2002 when the monsoon rains failed, resulting in a seasonal rainfall deficit of 19% and causing large losses of agricultural production and a drop of over 3% in India's GDP.[^5] Recent analysis has led Nordhaus to conclude that "tropical geography has a substantial negative impact on output density and output per capita compared to temperate regions".[^6] Sachs, similarly, argues that poor soils, the presence of pests and parasites, higher crop respiration rates due to warmer temperatures, and difficulty in water availability and control explain much of the tropical disadvantage in agriculture.[^7] Climate change is predicted to make these conditions even more challenging, with the range of possible physical impacts set out in Chapter 3. Even slight variations in the climate can have very large costs in developing countries as many places are close to the upper temperature tolerance of activities such as crop production. Put anther way, climate change will have a disproportionately damaging impact on developing countries due, in part at least, to their location in low latitudes, the amount and variability of rainfall they receive, and the fact that they are "already too hot".[^8]
+
+%%page 95%%
+
+***Sensitivity: Developing economies are very sensitive to the direct impacts of climate change given their heavy dependence on agriculture and ecosystems, rapid population growth and concentration of millions of people in slum and squatter settlements, and low health levels.***
+
+Dependence on agriculture: Agriculture and related activities are crucial to many developing countries, in particular for low income or semi-subsistence economies. The rural sector contributes 21% of GDP in India, for example, rising to 39% in a country like Malawi,[^9] whilst 61% and 64% of people in South Asia and sub-Saharan Africa are employed in the rural sector.[^10] This concentration of economic activities in the rural sector – and in some cases around just a few commodities - is associated with low levels of income, as illustrated in Figure 4.2.[^11] The concentration of activities in one sector also limits flexibility to switch to less climate-sensitive activities such as manufacturing and services. The agricultural sector is one of the most at risk to the damaging impacts of climate change – and indeed current extreme climate variability - in developing countries, as discussed in Chapter 3.
+
+Figure 4.2 The share of agriculture in GDP and per capita income in 2004
+
+Source: Updated from an earlier version by Tol et al (2004) using data from World Bank (World Development Indicators for 2004) for all countries for which such data are available. Countries are ranked by per capita income.
+
+Dependence on vulnerable ecosystems: All humans depend on the services provided by natural systems. However, environmental assets and the services they provide are especially important for poor people, ranging from the provision of subsistence products and market income, to food security and health services.[^12] Poor people are consequently highly sensitive to the degradation and destruction of these natural assets and systems by climate change. For example, dieback of large areas of forest – some climate models show strong drying over the Amazon if global temperature increases by more than 2°C, for example – would affect many of the one billion or more people who depend to varying degrees on forests for their livelihoods (Table 4.1).[^13]
+
+%%page 96%%
+
+Table 4.1 Direct roles of forests in household livelihood strategies
+
+Source: Classification based on Arnold (2001), Kaimowitz (2002), Angelsen and Wunder (2003), and Belcher, Ruiz-perez, and Achdiawan (2003)
+
+Population growth and rapid urbanisation: Over the next few decades, another 2-3 billion people will be added to the world's population, virtually all of them in developing countries.[^14] This will add to the existing strain on natural resources - and the social fabric - in many poor countries, and expose a greater number of people to the effects of climate change. Greater effort is required to encourage lower rates of population growth. Development on the MDG dimensions (in particular income, the education of women, and reproductive health) is the most powerful and sustainable way to approach population growth.[^15]
+
+Developing countries are also undergoing rapid urbanisation, and the trend is set to continue as populations grow. The number of people living in cities in developing countries is predicted to rise from 43% in 2005 to 56% by 2030.[^16] In Africa, for example, the 500km coast between Accra and the Niger delta will likely become a continuous urban megalopolis with more than 50 million people by 2020.[^17] It does not follow from this that policies to slow urbanisation are desirable. Urbanisation is closely linked to economic growth and it can provide opportunities for reducing poverty and decreasing vulnerability to climate change.[^18] Nonetheless, many of those migrating to cities live in poor conditions – often on marginal land – and are particularly vulnerable because of their limited access clean water, sanitation, and location in flood-prone areas.[^19] In Latin America, for example, where urbanisation has gone far further than in Africa or Asia, more and more people are likely be forced to locate in cheaper, hazard prone areas such as floodplains or steep slopes.
+
+%%page 97%%
+
+Food insecurity, malnutrition and health: Approximately 40% of the population of sub-Saharan Africa is undernourished, largely because of the poor diet and severe and repeated infections that afflict poor people.[^20] Even if the Millennium Development Goals are met, more than 400 million people could be suffering from chronic hunger in 2015.[^21] Malnutrition is a health outcome in itself, but it also lowers natural resistance to infectious diseases by weakening the immune system. This is a challenge today - malnutrition was associated with 54% of child deaths in developing countries in 2001 (10.8 million children), as illustrated in Figure 4.3. Climate change will potentially exacerbate this vulnerability as a greater number of malaria carrying mosquitoes move into previously uninfected areas. This is likely to generate higher morbidity and mortality rates among people suffering from malnutrition than among food-secure people.
+
+Figure 4.3 Proportional mortality in children younger than five years old in developing countries
+
+Source: WHO (2005) Note: Acute Respiratory Infection (ARI)
+
+***Adaptive capacity: People will adapt to changes in the climate as far as their resources and knowledge allow. But developing countries lack the infrastructure (most notably in the area of water supply and management), financial means, and access to public services that would otherwise help them adapt.***
+
+Poor water-related infrastructure and management: Developing countries are highly dependent on water – the most climate-sensitive economic resource - for their growth and development. Water is a key input to agriculture, industry, energy and transport and is essential for domestic purposes. Irrigation and effective water management will be very important in helping to reduce and manage the effects of climate change on agriculture.[^22] But many developing countries have low investment in irrigation systems, dams, and ground water. For example, Ethiopia has less than 1% of the artificial water storage capacity per capita of North America, despite having to manage far greater hydrological variability.[^23] Many developing countries do not have enough water storage to manage annual water demand based on the current average seasonal rainfall cycle, as illustrated in Table 4.2. This will become an even greater bind with a future, less predictable cycle.
+
+%%page 98%%
+
+Table 4.2 Investment in water storage in developing countries
+
+The seasonal storage index (SSI) indicates the volume of storage needed to satisfy annual water demand based on the average seasonal rainfall cycle (calculated as the volume needed to transfer water from wet months to dry months). The countries listed below need water during dry seasons and have water available to be captured during wet seasons. The 'Hard Water' column represents water storage requirements. Surface water reservoir development or groundwater development could provide additional storage. Some developing countries will also require 'soft water' (with water needs in excess of the volume that can be captured from internal renewable water resources) through increasing the efficiency of water use. However, the average GDP of countries with soft water needs is $8,477 compared to an average GDP of $601 of countries with hard water requirements. South Asia faces problems of seasonal and inter-annual deficits, requiring both seasonal and inter-annual storage, and 'soft' water.[^24]
+
+Source: Brown and Lall (2006)
+
+In addition, inappropriate water pricing and subsidised electricity tariffs that encourage the excessive use of groundwater pumping (for agricultural use, for example) also increase vulnerability to changing climatic conditions. For example, 104 of Mexico's 653 aquifers (that provide half the water consumed in the country) drain faster than they can replenish themselves, with 60% of the withdrawals being for irrigation.[^25] Similarly, water tables are falling in some drought-affected districts of Pakistan by up to 3 meters per year, with water now available only at depths of 200-300 meters.[^26] The consequences of inadequate investment in water-related infrastructure and poor management are important given that most climate change impacts are mediated through water (as discussed in Chapter 3).
+
+%%page 99%%
+
+Low incomes and underdeveloped financial markets: In many developing countries the capacity of poor people to withstand extreme weather events such as a drought is constrained both by low income levels and by limited access to credit, loans or insurance (in terms of access and affordability).[^27] These constraints are likely to become worse as wet and dry seasons become increasingly difficult to predict with climate change.[^28] This is often exacerbated by weak social safety nets that leave the poorest people very vulnerable to climate shocks. At the national level, many low-income countries have limited financial reserves to cushion the economy against natural disasters,[^29] coupled with underdeveloped financial markets and weak links to world financial markets that limit the ability to diversify risk or obtain or reallocate financial resources. Less than 1% of the total losses from natural disasters, for example, were insured in low-income countries during the period 1985 to 1999.[^30]
+
+Poor public services: Inadequate resources and poor governance (including corruption) often result in poor provision of public services. Early warning systems for extreme weather conditions, education programmes raising awareness of climate change, and preventive measures and control programmes for diseases spread by vectors or caused by poor nutrition are examples of public services that would help to manage and cope with the effects of climate change but receive weak support and attention in developing countries.
+
+***Implications for future vulnerability of different growth pathways.***
+
+The following sections assume current levels of vulnerabilities in the developing world. However, some parts of the developing world may look very different by the end of the century. If development progress is strong, then much of Asia and Latin America may be middle income or above, with substantial progress also being made in Africa. Growth and development should equip these countries to better manage climate change, and possibly avoid some of the most adverse impacts. For example, if there are more resources to build protection against rising sea levels, and economies become more diversified. But the extent to which these countries will be able to cope with climate change will depend on the scale of future impacts, and hence the action today to curb greenhouse gas emissions.
+
+Further, the speed of climate change over the next few decades will - in part - determine the ability of developing countries to develop and grow. Climate change is likely to lead to an increase in extreme weather events.[^31] Evidence (discussed below) shows that extreme climate variability can set back growth and development prospects in the poorest countries. If climatic shocks do become more intense and frequent before these countries have been able to reduce their vulnerability, long-term growth potential could be called into question. And some developing countries are already exposed to the damaging impacts of climate change that, in extreme cases such as Tuvalu, have already constrained their long-term development prospects.
+
+%%page 100%%
+
+#### 4.3 Direct implications of climate change for health, livelihoods and growth: what can be learnt from natural disasters?
+
+***The impact of climate change on poor countries is likely to be severe through both the effects of extreme weather events and a longer-term decline in the environment. The impact of previous extreme weather events provides an insight into the potential consequences of climate change.***
+
+Many developing countries are already struggling to cope with their current climate. Both the economic costs of natural disasters and their frequency have increased dramatically in the recent past. Global losses from weather related disasters amounted to a total of around $83 billion during the 1970s, increasing to a total of around $440 billion in the 1990s with the number of 'great natural catastrophe' events increasing from 29 to 74 between those decades.[^32] The financial costs of extreme weather events represent a greater proportion of GDP loss in developing countries, even if the absolute costs are more in developed countries given the higher monetary value of infrastructure.[^33] And over 96% of all disaster related deaths worldwide in recent years have occurred in developing countries. Climatic shocks can - and do - cause setbacks to economic and social development in developing countries. The IMF, for example, estimates costs of over 5% of GDP per large disaster on average in low-income countries between 1997 and 2001.[^34]
+
+Climate change will exacerbate the existing vulnerability of developing countries to an often difficult and changing climate. This section focuses on those aspects that will likely feel the largest impacts: health, livelihoods and growth. The analysis draws on evidence from past and current exposure to climate variability to demonstrate the mechanisms at work.
+
+***Despite some beneficial effects in colder regions, climate change is expected to worsen health outcomes substantially.***
+
+Climate change will alter the distribution and incidence of climate-related health impacts, ranging from a reduction in cold-related deaths to greater mortality and illness associated with heat stress, droughts and floods. Equally the geographic incidence of illnesses such as malaria will change.
+
+As noted in Chapter 3, if there is no change in malaria control efforts, an additional 40 to 60 million people in Africa could be exposed to malaria with a 2°C rise in temperature, increasing to 70 to 80 million at 3 - 4°C.[^35] Though some regions such as parts of West Africa may experience a reduction in exposure to vector borne diseases (see Chapter 3), previously unaffected regions may not have appropriate health systems to cope with and control malaria outbreaks. For poor people in slums, a greater prevalence of malaria – or cholera – may lead to higher mortality rates given poor sanitation and water quality, as well as malnutrition. In Delhi, for example, gastroenteritis cases increased by 25% during a recent heat wave as slum dwellers had to drink contaminated water.[^36]
+
+The additional heath risks will not only cost lives, but also increase poverty. Malnutrition, for example, reduces peoples' capacity to work and affects a child's mental development and educational achievements with life-long effects. The drought in Zimbabwe in 2000, for example, is estimated to have contributed to a loss of 7-12% of lifetime earnings for the children who suffered from malnutrition.[^37] Managing the consequences of these health impacts can in itself lead to further impoverishment. Households face higher personal health expenditures through clinic fees, anti-malarial drugs and burials, for example. This was seen in the case of Vietnam where rising health expenditures were found to have pushed about 3.5% of the population into absolute poverty in both 1993 and 1998.[^38] The effects can be macroeconomic in scale: malaria is estimated to have reduced growth in the most-affected countries by 1.3% per year.[^39]
+
+%%page 101%%
+
+***Falling agricultural output and deteriorating conditions in rural areas caused by climate change will directly increase poverty of households in poor countries.***
+
+Current experience of extreme weather events underlines how devastating droughts and floods can be for household incomes. For example:
+
+- In North-Eastern Ethiopia, drought induced losses in crop and livestock between 1998 – 2000 were estimated at $266 per household – greater than the annual average cash income for more than 75% of households in the study region;[^40]
+- In Ecuador the 1997-98 El Niño contributed to a loss of harvest and rise in unemployment that together increased poverty incidence by 10 percentage points in the affected municipalities.[^41]
+
+These immediate impacts are often compounded by the rising cost of food - following the drought in Zimbabwe in 1991-92, for example, food prices increased by 72%[^42] - and loss of environmental assets and ecosystems that would otherwise provide a safety net for poor people.
+
+These risks and the scale of impacts may increase with climate change if people remain highly exposed to the agricultural sector and have limited resources to invest in water management or crop development. As discussed in Chapter 1, climate change is likely to result in more heatwaves, droughts, and severe floods. In addition to these short-term shocks in output, climate change also risks a long-term decline in agricultural productivity in tropical regions. As Chapter 3 notes, yields of the key crops across Africa and Western Asia may fall by between 15% to 35% or 5% to 20% (assuming a weak or high carbon fertilisation respectively) once temperatures reach 3 or 4°C. Such a decline in productivity would pose a real challenge for the poorest countries, especially those already facing water scarcity. In sub-Saharan Africa, for example, only 4% of arable land is currently irrigated and the effects of climate change may constrain the long-term feasibility of this investment.[^43] Some extreme scenarios suggest that by 2100 the Nile could face a decrease in flow of up to 75%,[^44] with normal irrigation practices having been found to cease when annual flow is reduced by more than 20%.[^45]
+
+***Strategies to manage the risks and impacts of an adverse climate can lock people into long-term poverty traps.***
+
+The survival strategies adopted by poor people to cope with a changing climate may damage their long-term prospects. Equally, if there is a risk of more frequent extreme weather events, then households may also have shorter periods in which to recover, thus increasing the possibility of being pushed into a poverty-trap (as illustrated in Figure 4.4).[^46] There are two aspects to this:
+
+%%page 102%%
+
+- Risk-managing: Poor households may switch to low risk crops. In India, for example, poor households have been found to allocate a larger share of land to safer traditional varieties of rice and castor than to riskier but high-return varieties. This response in itself can reduce the average income of these people. Households in Tanzania that allocated more of their land to sweet potatoes (a low return, low risk crop), for example, were found to have a lower return per adult.[^47]
+
+- Risk-coping: Poor households may also be forced to sell their only assets (such as cattle and land). This can then compromise their long-term prospects as they are unable to educate their children, or raise levels of income over time. Following the 1991-92 droughts in Zimbabwe, many households had to sell their goats that were intended as a form of savings to pay, for example, for secondary education.[^48],[^49] Alternatively, to try and avoid permanent destitution households may decide to reduce their current consumption levels. This strategy can have long-term effects on health and human capital.[^50] Reductions in consumption levels during a drought in Zimbabwe, for example, led to permanent and irreversible growth losses among children - losses that would reduce their future educational and economic achievement.[^51]
+
+Figure 4.4 Impact of a climate shock on asset trajectory and income levels
+
+This diagram illustrates: a) the period of shock itself (e.g. hurricanes or drought), b) the coping period in which households deal with the immediate losses created by the shock, and c) the recovery period where a household will try to rebuild the assets they have lost as a result of the climate shock or through the coping strategy they adopted.
+
+Source: Carter et al (2005)
+
+***Climate change and variability cuts the revenues and increases the spending of nations, worsening their budget situation.***
+
+Dealing with climate change and extreme variability will also place a strain on government budgets, as illustrated in the case of Zimbabwe following the drought of 1991-92 (Box 4.2). The severity of the effect on government revenues will in part depend on the structure of the economy. For example, the drought in southern Africa in 1991-92 resulted in a fall in income of over 8% in Malawi where agriculture contributed 45% of GDP at the time, but only 2% of GDP in South Africa where just 5% of GDP was obtained from agriculture.[^52] Climate change will also necessitate an increase in spending at the national level to deal with the aftermath of extreme weather events and the consequences of a gradual reduction in food and water supplies. For example, the logistical costs of importing cereal into drought affected southern African countries in 1991-92 alone were $500million.[^53] In some cases, the expenditure requirements may be beyond the government's capacity. This was the case following Hurricane Mitch in 1998 where the Honduras government (with a GNP of $850 per capita) faced reconstruction costs equivalent to $1250 per capita.[^54]
+
+%%page 103%%
+
+Box 4.2 Economic Impacts of Drought in Zimbabwe, 1991-92
+
+In late 1991 to early 1992, Zimbabwe was hit by a severe drought. This resulted in a fall in production of maize, cotton and sugarcane by 83%, 72% and 61% respectively; the death/slaughter of more than 23% of the national herd; water shortages that led to the deterioration in quality and price of Zimbabwean tobacco; and reduction in hydro-electricity generation that affected industry and the mineral export sector. The direct impacts of the drought contributed to a doubling of the current account deficit from 6% to 12% of GDP between 1991 and 1992 and an increase in external debt from 36% of GDP in 1991 to 60% in 1992 and 75% by 1995. Government revenues fell in 1992-93 due to drought-induced loss of incomes, slowdown in non-food imports and slow-down in the private sector. Current expenditures increased by 2 percentage points of GDP in 1992-93 due predominantly to drought-related emergency outlays. Government expenditures on health and education were reduced as a share of the budget, in particular for primary education. By the end of 1992, real GDP had fallen by 9% and inflation increased to 46% with food prices having increased by 72%.
+
+At the time of the drought the country was one of the better educated and more functional of states in sub-Saharan Africa. The more recent difficulties with governance, mismanagement and inflation, for example, were not anywhere near as problematic at the time of the drought.
+
+Source: IMF (2003)
+
+When governments face financial constraints, their response to the impacts of climate change and extreme variability – ranging from expenditure switching to additional financing through increasing debt levels - can itself amplify the negative effect on the growth and development of the economy. For example, if key investments to raise economic performance are deferred indefinitely.[^55] In reality Official Development Assistance (ODA) will often step in to help fill this financing gap, as was the case in Honduras following Hurricane Mitch for example. However these emergency funds are rarely additional and often reallocated funds or existing commitments within multi-year country programmes brought forward.
+
+The experience of past extreme weather events and episodes testifies to the damaging effect that an adverse climate can have on social and economic prospects in developing countries. If climate change increases the frequency and severity of these events, as the science suggests, the costs on developing countries will grow significantly unless considerable effort is made today to reduce their vulnerability and exposure. And coupled with this will be a longer-term decline in the environment that will have to be managed. This will exert greater pressure still on resources and declines in the productivity and output of climate sensitive sectors.
+
+%%page 104%%
+
+#### 4.4 What do global climate change models predict for developing countries?
+
+***Climate models predict a range of impacts on developing countries from a decrease in agricultural output and food security to a loss of vital river flows. The impacts are predominantly negative.***
+
+Evidence from the past and current extreme climate variability demonstrates the effect that a hostile climate can have on development. This section summarises some of the key findings from climate change impact studies undertaken by academics from particular developing regions to contribute to the Stern Review. These reports can be found on the Stern Review website (www.sternreview.org.uk). These summaries are not intended to be comprehensive but are rather more to highlight the key areas where climate change will be seen.
+
+***South Asia[^56]***
+
+- India's economy and societal infrastructures are vulnerable to even small changes in monsoon rainfall. Climate change may increase the intensity of heavy rainfall events (the Mumbai floods of 2005 may be an example)[^57] whilst the number of rainy days may decrease. Floods could become more extreme as a result with droughts remaining just as likely. Temperatures will increase for all months. Consequently, during the dry pre-monsoon months of April and May, the incidence of extreme heat is likely to increase, leading to greater mortality.
+- Changes in the intensity of rainfall events, and the active / break cycles of the monsoon – combined with an increased risk of critical temperatures being exceeded more frequently – could significantly change crop yields. For example, mean yields for some crops in northern India could be reduced by up to 70% by 2100.[^58] This is set against a background of a rapidly rising population that will need an additional 5 million tons of food production per year just to keep pace with the predicted increase in population to about 1.5 billion by 2030.
+- Meltwater from Himalayan glaciers and snowfields currently supplies up to 85% of the dry season flow of the great rivers of the Northern Indian Plain. This could be reduced to about 30% of its current contribution over the next 50 years, if forecasts of climate change and glacial retreat are realised. This will have major implications for water management and irrigated crop production, as well as introducing additional hazards to highland communities through increasingly unstable terrain.[^59]
+
+***Sub-Saharan Africa[^60]***
+
+- Africa will be under severe pressure from climate change. Many vulnerable regions, embracing millions of people, are likely to be adversely affected by climate change, including the mixed arid-semiarid systems in the Sahel, arid-semiarid rangeland systems in parts of eastern Africa, the systems in the Great Lakes region of eastern Africa, the coastal regions of eastern Africa, and many of the drier zones of southern Africa (see Thornton et al).[^61]
+- Between 250–550 million additional people may be at risk of hunger with a temperature increase of 3°C, with more than half of these people concentrated in Africa and
+
+%%page 105%%
+
+Western Asia.[^62] And there are risks of higher temperatures still. Climate change is also predicted to decrease - and/or shift - the areas of suitable climate for 81% to 97% of
+
+Africa's plant species. By 2085, 25% - 42% of plant species could find they no longer have any suitable habitat.[^63] • Tens of millions of additional people could be at risk of malaria by the 2080s.[^64] Previously unsuitable areas for malaria in Zimbabwe could become suitable for transmission with slight temperature and precipitations variations, whist in South Africa the area suitable for malaria may double with 7.8 million people at risk by 2100.[^65] • Water pressures may be intensified as rainfall becomes more erratic, glaciers retreat and rivers dry up. While there is much uncertainty about flow of the Nile, several models suggest a decrease in river flow, with nine recent climate scenario impacts ranging from no change to more than 75% reduction in flows by 2100.[^66] This will have a significant impact on the millions of people that have competing claims on its supplies. • Many large cities in Africa that lie on or very close to the coast could suffer severe damages from sea level rise. According to national communications to the UNFCCC, a 1 meter sea-level rise (a possibility by the end of the century) could result in the complete submergence of the capital city of Gambia, and losses of more than $470 million in Kenya for damage to three crops (mangoes, cashew nuts and coconuts).[^67] ***Latin America[^68]*** • Countries in Latin American and the Caribbean are significantly affected by climate variability and extremes, particularly the ENSO events.[^69] The region's economy is strongly dependent on natural resources linked to climate, and patterns of income distribution and poverty exacerbate the impacts of climate change for specific sub- regions, countries and populations. • Living conditions and livelihood opportunities for millions of people may be affected. By 2055 subsistence farmers' maize production (the main source of food security) in the Andean countries and Central America could fall by around 15% on average, for example, based on projections of HadCM2.[^70] The potential die-back, or even collapse, of the Amazon rainforest (discussed in Chapter 3) presents a great threat to the region. The Amazonian forests are home to around 1 million people of 400 different indigenous groups, and provide a source of income and medical and pharmaceutical supplies to millions more. • Climate change could contribute to a 70% rise in the projected number of people with severe difficulties in accessing safe water by 2025. About 40 million people may be at risk of water supply for human consumption, hydro-power and agriculture in 2020, rising to 50 million in 2050 through the predicted melting of tropical Andean glaciers between 2010 and 2050. The cities of Quito, Lima and La Paz are likely to be most affected. Dengue transmission is likely to increase by 2 to 5 fold by the 2050s in most areas of South America and likely that new transmission areas will appear in the southern half of the continent and at higher elevations.
+
+%%page 106%%
+
+***China[^71]***
+
+- There is significant variation in climatic patterns across China's regions including arid, temperate and mountainous regions. The average surface air temperature in China has increased by between 0.5 and 0.8°C over the 20th century with increases more marked in North China and Tibetan Plateau compared to southern regions. Temperature rise will lead to temperate zones in China moving north as well as an extension of arid regions. Cities such as Shangai are expected to experience an increase in the frequency and severity of heat waves causing significant discomfort to fast growing urban populations.
+- Overall water scarcity is a critical problem in China with existing water shortages, particularly in the north (exacerbated by economic and population growth). Climate change is expected to increase water scarcity in northern provinces such as Ningxia, Gansu, Shanxi and Jilin province. An increase in average rainfall in southern provinces such as Fujian, Zhejiang and Jiangxi is anticipated over the next 50 to 100 years leading to more instances of flooding. From 1988 to 2004, China experienced economic losses from drought and flood equating to 1.2% and 0.8% of GDP respectively.
+- Climate change is expected to have mixed effects on agricultural output and productivity across different regions with impacts closely related to changes in water availability. On average, irrigated land productivity is expected to decrease between 1.5% to 7% and rain fed land by between 1.1% to 12.6% under rain-fed conditions from 2020s to 2080s under HadCM2, CGCM1 and ECHAM4 scenarios in China.[^72] Overall a net decrease in agriculture production is anticipated with seven provinces in the north and northwest of China particularly vulnerable (accounting for ¼ of total arable land and 14% of China's total agricultural output by value).[^73]
+
+***Middle East and North Africa***
+
+- The region is already very short of fresh water and faces difficulty meeting the needs of fast-growing populations. Most if not all the region may be adversely affected by changing rainfall patterns as a result of climate change. An additional 155 to 600 million people may be suffering an increase in water stress in North Africa with a 3°C rise in temperature according to one study.[^74] Yemen is particularly at risk given its low income levels, rapidly growing populations and acute water shortages today. Competition for water within the region and across its borders may grow, carrying the risk of conflict.
+- Reduced water availability combined with even modestly higher temperatures will reduce agricultural productivity and in some areas may make crops unsustainable. Maize yields in North Africa, for example, could fall by between 15-25% with a 3°C rise in temperature according to one recent report.[^75]
+- Some parts of the region – notably the Nile Delta and the Gulf coast of the Arabian peninsula - are in addition vulnerable to flooding from rising sea levels which could lead to loss of agricultural land and/or threats to coastal cities. Others are vulnerable to increased desertification.
+
+Climate change poses a wide range of potentially very severe threats to developing countries. Understanding the impact of climate change on developing countries – at both a regional and national level - is essential to get a better understanding of the scale of threat and urgency of mitigation action, but also to help prepare for some of the now inevitable impacts of climate change. To date, however, analysis undertaken in developing countries of potential threats and impacts has been very limited. Many climate changes are on the way and foresight and action will be crucial if damages to development progress are to be managed both by the private and by public sectors. Further work is required on studying the impacts of climate change on developing countries at a national, regional and global level.
+
+%%page 107%%
+
+#### 4.5 Impact of climate change on economic growth prospects and implications for incomes and health
+
+Over time, there is a real risk that climate change will have adverse implications for growth. This section looks at how income levels and growth have been affected by extreme climate variability and then moves on to summarise illustrative modelling work undertaken as part of the review. If climate change results in lower output and growth levels than would otherwise be the case, there will be implications for poverty levels. But income levels also affect health, and mortality rates will rise above what they would otherwise have been, in addition to any immediate health impacts through illnesses such as malaria. The previous section reviewed a range of projected direct climate impacts on factors affecting lives and livelihoods that recent research has highlighted. This section provides an analysis of their possible impacts on income and health.
+
+***Extreme weather events can – and do – affect growth rates in developing countries. Climate change presents a greater threat still.***
+
+The output of an economy in a given year depends on labour, environmental quality and capital available in that year (illustrated, for example, in Box 5.1 of Chapter 5). All three will be affected by climate change – be it through the damaging effects on the health and productivity of the labour force, the loss and damage to agriculture and infrastructure, or lower quality investment and capital. As the output and factors of production of an economy are repeatedly affected, so growth prospects will change. This will be particularly true for poorer economies with a stronger focus on agriculture and with less ability to diversify their economies.[^76]
+
+The effects of current extreme climate variability demonstrate the potential impact a changing climate can have on output and growth. Changes in the hydrological cycle can be especially damaging. Too much rainfall can inundate transport, for example, limiting trade potential and communication. It has been estimated that the 2000 floods in West Bengal destroyed 450km of rail track and 30 bridges and culverts, and adversely affected 1739km of district roads, 1173km of state highways and 328km of national highways.[^77] Too little rainfall will affect crop production but also reduce the flow of surface water that could provide irrigation and hydroelectricity production. The La Niña drought in Kenya, for example, caused damage to the country amounting to 16% of GDP in each of 1998–99 and 1999–2000 financial years, with 26% of these damages due to hydropower losses and 58% due to shortfalls in industrial production.[^78]
+
+Economy-wide, multi-market models that incorporate historical hydrological variability project that hydrological variability may cut average annual GDP growth rates in Ethiopia by up to 38% and increase poverty rates by 25%.[^79] These models capture the impacts of both deficit and excess rainfall on agricultural and non-agricultural sectors. As climate change increases the variability of rainfall, the scale of these growth impacts could rise significantly.
+
+%%page 108%%
+
+***Slower growth could cause an increase in poverty and child mortality relative to a world without climate change, as found by illustrative modelling work undertaken by and for the Stern Review.***
+
+The Stern Review has used the PAGE2002 model (an integrated assessment model that takes account of a wide range of risks and uncertainties) to assess how climate change may affect output and growth in the future.[^80] Integrated assessment models can be useful vehicles for exploring the kinds of costs that might follow from climate change. However, these are highly aggregative and simplified models and, as such, the results should be seen as illustrative only.
+
+By 2100, under a baseline-climate-change scenario,[^81] the mean cost of climate change in India and South East Asia, and in Africa and the Middle East is predicted by PAGE2002[^82] to be equivalent to around a 2.5% and 1.9% loss in GDP respectively, compared with what could have been achieved in a world without climate change. Under a high-climate-change scenario,[^83] the mean cost of climate change is predicted by PAGE2002 to be 3.5% in India and South East Asia, and 2.7% in Africa and the Middle East.
+
+There are good reasons, however, for giving more emphasis to the higher (95th percentile) impacts predicted in these scenarios, as the model is unlikely to capture the full range of costs to developing countries. In particular:
+
+- The poorest people will be hit the hardest by climate change, an effect for which the highly aggregated models do not allow;
+- There are specific effects, such as possible loss of Nile waters and the cumulative effects of extreme weather events (as discussed above), that aggregated global and regional models do not capture;
+- This is a long-term story. If emissions continue unabated, temperatures will rise to much higher levels in the next century, committing these regions to far greater impacts (as discussed in Chapters 3 and 6), including the risks associated with mass migration and conflict discussed in the next section;
+
+At the 95th percentile, and under the baseline-climate-change scenario, the projections rise to a 9% loss in GDP in India and South East Asia, and a 7% loss in Africa and the Middle East by 2100. And, under the high-climate-change scenario, the costs of climate change rise significantly to losses of 13% and 10% in GDP respectively (again at 95th percentile).
+
+Given the strong correlation between growth and poverty reduction (see Box 4.3), a climate-driven reduction in GDP would increase the number of people below the $2 a day poverty line by 2100, and raise the child mortality rate compared with a world without climate change. This is illustrated below by modelling work undertaken for the Stern Review. This analysis assumes reductions in poverty and child mortality are driven primarily by GDP growth.[^84] As with the PAGE2002 model itself, projections that extend so far into the future should be treated with caution, but are useful for illustrative purposes. The projections summarised below focus only on income effects.
+
+%%page 109%%
+
+***Box 4.3 Relationship between growth and development***
+
+Countries with higher overall growth rates tend to have higher growth in incomes of poor people. Poverty is estimated to decline on average by 2% for a 1 percentage point rise in economic growth across countries.[^85] Kraay estimates that, over the short run, growth accounts for about 70% of the variation in poverty (as measured by a $1 a day poverty line). As the time horizon lengthens, that proportion increases to above 95%.[^86] There is a close relationship between growth and many non-income indicators of development, ranging from under-five mortality to educational attainment and peace and security. Income-earning opportunities provide citizens with a vested interest in avoiding conflict, and security allows governments to invest in productive assets and social expenditures, rather than defence. East Asia has grown rapidly (5.8% in the 80s and 6.3% in the 90s) and has seen the fastest fall in poverty in human history. An annual growth of more than 7% will be needed to halve severe poverty in Africa by 2015 (and a 5% annual growth is required just to keep the number of poor people from rising).[^87] zSource: World Bank (2003c)
+
+While growth is clearly an important contributor to poverty reduction, much depends on how the benefits of this growth are distributed and the extent to which the additional resources generated are used to fund public services such as healthcare and education. Poor people benefit the most from economic growth when it occurs in those parts of the economy that offer higher returns for poor people's assets.
+
+Poverty projections By 2100, climate change could cause an additional 145 million people to be living on less than $2 a day in South Asia and sub-Saharan Africa (100 million people and 45 million people respectively) because of GDP losses alone at the 95th percentile of the baseline-climatechange scenario and runs, or 35 million people at the mean of these runs.
+
+Under the high-climate-change scenario at the 95th percentile, up to an additional 220 million people could be living on less than $2 a day in South Asia and sub-Saharan Africa (150 million people and 70 million people respectively), because of GDP losses alone. The effects at the mean of the distribution are smaller but still significant: up to an additional 50 million people living on less than $2 a day per year.
+
+These projections are illustrated in Box 4.4 below. If growth proceeds faster than predicted, then the overall numbers of people living on below $2 per day will be less, while if it is slower, there will be more people pushed into poverty. These calculations should be viewed as indicative of the risks.
+
+%%page 110%%
+
+Box 4.4 Potential impact of climate change on additional people living on less than $2 a day in South Asia and sub-Saharan Africa
+
+These projections are calculated using the formulae for the poverty headcount used in World Bank calculations,[^88] population forecasts, and the assumptions that average household income grows at 0.8 times the rate of GDP per capita[^89] and distribution of income remains constant.
+
+Source: Anderson (2006)
+
+Child mortality projections There is also a well-studied relationship between reduced income and child mortality. Falling income and GDP levels from what could have been achieved in a world without climate change will slow the improvement of child (and adult) health in developing countries.[^90] Lower per capita expenditures are likely on goods that improve health, such as safe water, food and basic sanitation at both a public and private level. Previous econometric studies have reported a range of values for the income elasticity of infant and child mortality, the vast majority falling between –0.3 and –0.7. Taking an elasticity of 0.4, for example, implies that a 5% fall in GDP from what could have been achieved in a world without climate change will lead to a 2% increase in infant mortality.[^91] This analysis uses a value of -0.5 for the elasticity of the child mortality rate (deaths per 1,000 births) with respect to per capita income, the mid-point of this range.[^92]
+
+Using the illustrative output and growth scenarios generated by PAGE2002, climate change could cause an additional 40,000 (mean) to 165,000 (95th percentile) child deaths per year in South Asia and sub-Saharan Africa through GDP losses alone under the baseline-climatechange scenario.
+
+Under the high-climate-change scenario, climate change could cause an additional 60,000 (mean) to 250,000 (95th percentile) child deaths per year by 2100 in South Asia and sub-Saharan Africa through GDP losses alone 2100, and compared with a world without climate change. These projections are illustrated in Box 4.5 below.
+
+%%page 111%%
+
+***Box 4.5 Potential impact of climate change on additional child deaths per year in South Asia and sub-Saharan Africa***
+
+Source: Anderson (2006)
+
+The above projections pick up the pure income effect of climate change on poverty and child mortality through its dampening effect on GDP, and do not include the millions of people that will be exposed to heat stress or malaria, or risk losing their jobs, assets and livelihoods through extreme weather events, for example, as discussed in Section 4.3. This analysis and projections are simply illustrative of possible risks associated with a loss in income through climate change.
+
+#### 4.6 Population movement and risk of conflict
+
+***Greater resource scarcity, desertification, risks of droughts and floods, and rising sea levels could drive many millions of people to migrate – a last-resort adaptation for individuals, but one that could be very costly to them and the world.***
+
+The impacts of climate change, coupled with population growth in developing countries, will exert significant pressure for cross-border and internal population movement. There is already evidence of the pressure that an adverse climate can impose for migration. Approximately 7 million people migrated in order to obtain relief food out of the 80 million considered to be semi-starving in sub-Saharan Africa primarily due to environmental factors.[^93]
+
+Millions of people could be compelled to move between countries and regions, to seek new sources of water and food if these fall below critical thresholds. Rising sea levels may force others to move out of low-lying coastal zones. For example, if sea levels rise by 1 metre (a possible scenario by the end of the century, Chapter 3) and no dyke enforcement measures are taken, more than one-fifth of Bangladesh may be under water for example.[^94] And atolls and small islands are at particular risk of displacement with the added danger of complete abandonment. As one indication of this, the government of Tuvalu have already begun negotiating migration rights to New Zealand in the event of serious climate change impacts.[^95]
+
+The total number of people at risk of displacement or migration in developing countries is very large. This ranges from the millions of people at risk of malnutrition and lack of clean water to those currently living in flood plains. Worldwide, nearly 200 million people today live in coastal flood zones that are at risk; in South Asia alone, the number exceeds 60 million people.[^96] In addition, there are potentially between 30 to 200 million people at risk of hunger with temperature rises of 2 to 3°C – rising to 250 to 550 million people with a 3°C warming;[^97] and between 0.7 to 4.4 billion people who will experience growing water shortages with a temperature rise of 2°C,[^98] as discussed in Chapter 3.
+
+%%page 112%%
+
+The exact number of people who will actually be displaced or forced to migrate will depend on the level of investment, planning and resources at a government's disposal to defend these areas or provide access to public services and food aid. The Thames Barrier, for example, protects large parts of London. In Shanghai and Tokyo, flood defences and pumped drainage prevent flooding of areas lying below normal tides.
+
+Protection is expensive, however, particularly relative to income levels in developing countries. A project to construct 8,000 kilometres of river dykes in Bangladesh – a country with a GNI of $61 billion - is costing $10 billion. These high costs will discourage governments from investing. Defensive investments must be made early to be effective, but they may be politically unpopular if they would divert large amounts of money from programmes with more immediate impact such as infrastructure, health and education.
+
+***Drought and other climate-related shocks may spark conflict and violence, as they have done already in many parts of Africa.***
+
+The effects of climate change - particularly when coupled with rapid population growth, and existing economic, political, ethnic or religious tensions - could be a contributory factor in both national and cross-border conflicts in some developing countries.
+
+- Long-term climate deterioration (such as rising temperatures and sea levels) will exacerbate the competition for resources and may contribute to forced dislocation and migration that can generate destabilising pressures and tensions in neighbouring areas.
+- Increased climate variability (such as periods of intense rain to prolonged dry periods) can result in adverse growth shocks and cause higher risks of conflict as work opportunities are reduced, making recruitment into rebel groups much easier. Support for this relationship has been provided by empirical work in Africa, using rainfall shocks as an instrument for growth shocks.[^99]
+
+Adverse climatic conditions already make societies more prone to violence and conflict across the developing world, both internally and cross-border. Long periods of drought in the 1970s and 1980s in Sudan's Northern Darfur State, for example, resulted in deep, widespread poverty and, along with many other factors such as a breakdown in methods of coping with drought, has been identified by some studies as a contributor to the current crisis there.[^100] Whilst climate change can contribute to the risk of conflict, however, it is very unlikely to be the single driving factor. Empirical evidence shows that a changing and hostile climate has resulted in tension and conflict in some countries but not others. The risk of climate change sparking conflict is far greater if other factors such as poor governance and political instability, ethnic tensions and, in the case of declining water availability, high water interdependence are already present. In light of this, West Africa, the Nile Basin and Central Asia have been identified as regions potentially at risk of future tension and conflict. Box 4.6 indicates areas vulnerable to future tension and past conflicts where an adverse climate has played an important role.
+
+a one in a thousand year chance of occurring. These odds and the numbers explored could be rising rapidly. This has already been demonstrated in the case of heat waves in Southern Europe where the chance of having a summer as hot as in 2003 that in the past would be expected to occur once every 1000 years, will be commonplace by the middle of the century due to climate change, as discussed in Chapter 5.
+
+%%page 113%%
+
+Box 4.6 Future risks and past conflicts
+
+***Future risks*** • West Africa: Whilst there is still much uncertainty surrounding the future changes in rainfall in this part of the world, the region is already exposed to declining average annual rainfall (ranging from 10% in the wet tropical zone to more than 30% in the Sahelian zone since the early 1970s) and falling discharge in major river systems of between 40 to 60% on average. Changes of this magnitude already give some indication of the magnitude of risks in the future given that we have only seen 0.7°C increase and 3°C or 4°C more could be on the way in the next 100 to 150 years. The implications of this are amplified by both the high water interdependence in the region - 17 countries share 25 transboundary watercourses – and plans by many of the countries to invest in large dams that will both increase water withdrawals and change natural water allocation patterns between riparian countries.[^101] The region faces a serious risk of water-related conflict in the future if cooperative mechanisms are not agreed.[^102]
+
+- The Nile: Ten countries share the Nile.[^103] While Egypt is water scarce and almost entirely dependent on water originating from the upstream Nile basin countries, approximately 70% of the Nile's waters flow from the Ethiopian highlands. Climate change threatens an increase in competition for water in the region, compounded by rapid population growth that will increase demand for water. The population of the ten Nile countries is projected to increase from 280 million in 2000 to 860 million by 2050. A recent study by Strzepek et al (2001) found a propensity for lower Nile flows in 8 out of 8 climate scenarios, with impacts ranging from no change to a roughly 40% reduction in flows by 2025 to over 60% by 2050 in 3 of the flow scenarios.[^104] Regional cooperation will be critical to avoid future climate-driven conflict and tension in the region.
+
+***Past conflicts*** • National conflict: Drought in Mali in the 1970s and 1980s damaged the pastoral livelihoods of the semi-nomadic Tuareg. This resulted in many people having to seek refuge in camps or urban areas where they experienced social and economic marginalisation or migrated to other countries. On their return to Mali, these people faced unemployment and marginalisation which, coupled with the lack of social support networks for returning migrants, continuing drought and competition for resources between nomadic and settles peoples (among many other things), helped create the conditions for the 'Second Tuareg Rebellion' in 1990. A similar scenario has played out in the Horn of Africa,[^105] and may now be replicating itself in northern Nigeria, where low rainfall combined with land-use pressures have reduced the productivity of grazing lands, and herders are responding by migrating southward into farm areas.[^106]
+
+- Cross-border conflict: Following repeated droughts in the Senegal River Basin in the 1970s - 80s, the Senegal River Basin Development Authority was created by Mali, Mauritania and Senegal with the mandate of developing and implementing a major water infrastructure programme. Following the commissioning and completion of agreed dams, conflict erupted between Senegal and Mauritania when the river started to recede from adjacent floodplains. The dispute and tension escalated with hundreds of Senegalese residents being killed in Mauritania and a curfew imposed by both Governments such that 75,000 Senegalese and 150,000 Mauritanians were repatriated by June 1989. Diplomatic relationships between the two countries were restored in 1992, but a virtual wall has effectively been erected along the river.[^107] Drought has also caused conflict between
+
+%%page 114%%
+
+Ugandan and Kenyan pastoralists, and has led Ethiopian troops to move up north to stop the Somalis crossing the border in search of pasture and water for their livestock.[^108]
+
+Similarly, extreme weather events in 2000 that affected approximately 3 million people in
+
+Bangladesh resulted in migration and violence as tribal people in North India clashed with emigrating Bangladeshis.[^109]
+
+#### 4.7 Implications of Climate Change on other Aspects of Development
+
+All development aspirations could be affected by climate change. Education and gender goals, for example, will be at risk to the effects of climate change, in turn further amplifying vulnerability to the impacts of climate change (as discussed in Box 4.7). Limited research has been undertaken on the impact of climate change to date on these important aspects of development. This merits much greater attention going forward.
+
+Box 4.7 Impact of Climate change on Education and Gender Equality
+
+***Education*** Climatic disasters can threaten educational infrastructure making it physically impossible for children to attend school. For example in 1998 Hurricane Mitch destroyed 25% of Honduras' schools.[^110] Education levels may also decline through climate-induced changes in income and health conditions. Schooling will become less affordable and accessible, especially for girls, as income, assets and employment opportunities are affected by climate change. Children will need to help more with household tasks or prematurely engage in paid employment leaving less time for schooling. Deteriorating health conditions will also affect both a child's learning abilities and school attendance, and the supply of teachers. Children will be deprived of the long-term benefits of education and be more vulnerable to the effects of climate change. Better-educated farmers, for example, absorb new information quickly, use unfamiliar inputs, and are more willing to innovate. An additional year of education has been associated with an annual increase in farm output of between 2 to 5%.[^111]
+
+***Gender equality*** Gender inequalities will likely worsen with climate change. Workloads and responsibilities such as collecting water, fuel and food will grow and become more time consuming in light of greater resource scarcity. This will allow less time for education or participation in market-based work. A particular burden will be imposed on those households that are short of labour, further exacerbated if the men migrate in times of extreme stress leaving women vulnerable to impoverishment, forced marriage, labour exploitation and trafficking.[^112] Women are 'over-represented' in agriculture and the informal economy, sectors that will be hardest hit by climate change. This exposure is coupled with a low capacity to adapt given their unequal access to resources such as credit and transport. Women are also particularly vulnerable to the effects of natural disasters with women and children accounting for more than 75% of displaced persons following natural disasters.[^113]
+
+#### 4.8 Conclusion
+
+The impacts of climate change will exacerbate poverty – in particular through its effects on health, income and future growth prospects. Equally, poverty makes developing countries more vulnerable to the impacts of climate change. This chapter has discussed some of the specific risks faced by developing countries. However it is the sum of the parts that creates perhaps the greatest concern. Poor households and governments may, for example, face falling food and water supplies that will increase poverty directly, while also facing greater health risks - for example, through malaria or as a result of extreme weather events. These impacts may be compounded if governments' have limited – or reduced - financial resources to manage these impacts, and to invest in building resilience against the future impacts of climate change. An important priority for future research will be to identify the type and scale of climate change impacts on developing countries and to understand more deeply the nature of these compounding, aggregated effects.
+
+%%page 115%%
+
+The threats posed by climate change increase the urgency of promoting growth and development today. This is key to reducing the vulnerability of developing countries to some of the now inevitable impacts of climate change, and enabling them to better manage these impacts. But adaptation can only mute the effects and there are limits to what it can achieve.
+
+Unchecked, climate change could radically alter the prospects for growth and development in some of the poorest countries. This underlines the urgency of strong and early action to reduce greenhouse gas emissions. This is discussed further in part III of the report.
+
+%%page 116%%
+
+#### References
+
+Abramovitz, J. N. (2001): 'Averting unnatural disasters' in State of the World 2001: A Worldwatch Institute Report on Progress Toward a Sustainable Society, Brown L. R., C. Flavin, and H. French, New York: W. W. Norton & Company.
+
+AIACC (2005): 'For Whom the Bell Tolls: Vulnerabilities in a changing climate' Washington, DC: AICC Working Papers.
+
+Alderman, H., J. Hoddinott, and B. Kinsey (2003): 'Long term consequences of early childhood malnutrition' FCND Discussion Paper 168, Washington, DC: International Food Policy Research Institute (IFPRI).
+
+Anderson, E. (2006): Potential impacts of climate change on $2-a-day poverty and child mortality in Sub-Saharan Africa and South Asia. Mimeo, Overseas Development Institute, London.
+
+Angelsen, A. and S. Wunder (2003): Exploring the forest–poverty link: key concepts, issues and research implications. Occasional Paper No. 40. Bogor, Indonesia: Center for International Forestry Research.
+
+Anwar, A. (2000/2001): 'Vulnerability of Bangladesh coastal region to climate change with adaptation options', Bangladesh: SPARRSO.
+
+Arnell, N.W. (2004): 'Climate change and global water resources: SRES emissions and socio-economic scenarios', Global Environmental Change 14:31 – 52
+
+Arnold, J. E. M. (2001): Forestry, poverty and aid. Occasional Paper No 33. Bogor, Indonesia: Center for International Forestry Research.
+
+Auffret, P. (2003), "High consumption volatility: the impact of natural disasters," World Bank Working Paper 2962, Washington, DC: World Bank.
+
+Barnett, J. and W.N. Adger (2003): 'Climate dangers and atoll countries', Climatic Change 61: 321-337
+
+Belcher, B., M. Ruiz-Perez, and R. Achdiawan (2003): "Global Patterns and Trends in Non-Timber Forest Product Use." International Conference on Rural Livelihoods, Forest and Biodiversity. Bonn, Germany, 20–23 May 2003.
+
+Benson, C. and E. Clay (2004): 'understanding the economic and financial impacts of natural disasters', Washington, DC: World Bank.
+
+Birdsall, N. (1992): 'Social development is economic development' Presentation to delegates of Social Committee, United Nations General Assembly, October 19, D3934.
+
+Block, S. and C.P. Timmer (1994): 'Agriculture and economic growth: conceptual issues and the Kenyan experience', Cambridge, MA: Harvard Institute for International Development.
+
+Bourguignon, F. and C. Morrisson (1998): 'Inequality and development: the role of dualism', Journal of Development Economics 57: 233-58
+
+Brown, C. and U. Lall, (2006): 'Water and economic development: the role of interannual variability and a framework for resilience', Working Paper, Columbia University, NY: International Research Institute for Climate Prediction.
+
+Carter, M.R., P.D. Little, T. Mogues and W. Negatu (2005): 'The long-term impacts of short-term shocks: poverty traps and environmental disasters in Ethiopia and Honduras', Wisconsin: BASIS.
+
+%%page 117%%
+
+Carter, M.R., P.D. Little, T. Mogues and W. Negatu (2004): 'Shock, sensitivity and resilience: tracking the economic impacts of environmental disaster on assets in Ethiopia and Honduras'. Wisconsin: BASIS.
+
+CGAP (2004): 'Financial Institutions with a 'double bottom line': implications for the future of microfinance' Occasional Paper No 8.
+
+Challinor, A., J. Slingo, A. Turner, and T. Wheeler (2006): 'Indian monsoon: contribution to chapter 4 of Stern Review', University of Reading.
+
+Chew, L. and K.N. Ramdas (2005): 'Caught in the storm: impact of natural disasters on women'. San Fransisco, CA: Global Fund for Women.
+
+Christian Aid Report (2006): 'The climate of poverty: facts, fears and hope'. May 2006, London: Christian Aid.
+
+Collier, P. and Hoeffler, A. (2001): 'Greed and grievance in civil war'. Washington, DC: World Bank
+
+Collier, P. and A. Hoeffler (2002): 'On the incidence of civil war in Africa'. Journal of Conflict Resolution 46 (1): 13-28
+
+Commission for Africa (2005): 'Our common interest – report of the Commission for Africa', London: Penguin.
+
+Conway, D. (2005): 'From headwater tributaries to international river: Observing and adapting to climate variability and change in the Nile Basin', Global Environmental Change, 2005, 99- 114.
+
+UN (2005): 'The Millennium Development Goals Report'. New York: United Nations Department of Public Information.
+
+Cox, P.M., R.A. Betts, C.D. Jones, et al. (2000): 'Acceleration of global warming due to carbon-cycle feedbacks in a coupled climate model', Nature 408: 184-187
+
+Dasgupta, P. and D. Ray (1986): Inequality as a determinant of malnutrition and unemployment: theory', Economic Journal, 90, December: 1011-34
+
+De, U.S., R.K. Dube and G.S. Prakasa Rao, (2005): 'Extreme weather events over India in the last 100 years' J. Ind Geophys. Union (July 2005) 9 (3): 173-187
+
+Dercon, S. (2003): 'Poverty traps and development: the equity-efficiency trade-off revisited'. Paper prepared for the Conference on Growth, Inequality and Poverty, organised by the Agence francaise de development and the European Development Research Network (EUDN).
+
+Erda, L. and Ji, Z. et al (2006): 'Climate Change Impacts and its Economics in China', Report prepared for the Stern Review, available from http://www.sternreview.org.uk.
+
+Freeman, P. K., L.A. Martin, R. Mechler, et al. (2002): 'Catastrophes and development: integrating natural catastrophes into development planning,' World Bank DMF Paper 1, Washington, DC: World Bank.
+
+Gambia (2003): 'First national communication of the republic of the Gambia to the United Nations Framework Convention on Climate Change'.
+
+Guoping, T., L. Xiubin, G. Fischer, and S. Prieler (2000): Climate change and its impacts on China's agriculture. Acta Geographic Sinica, vol.55 (2), p129-138.
+
+%%page 118%%
+
+Hazell, P. and B. Hojjati (1995): 'Farm–nonfarm linkages in Zambia'. Journal of African Economies 4 (3): 406-435
+
+Hendrix, C. S., and S.M. Glaser (2005): 'Trends and triggers: climate change and civil conflict in sub-Saharan Africa, human security and climate change: an international workshop', 21-23 June 2005.
+
+Hewawasam, I. (2002): 'Managing the marine and coastal environment of sub-Saharan Africa. Strategic directions for sustainable development'. Washington, DC: World Bank.
+
+Hicks, D. (1993): 'an evaluation of the Zimbabwe drought relief programme 1992/93: the roles of household level response and decentralised decision-making', Harare: World Food Programme.
+
+Hoddinott, J. (2004): 'Shocks and their consequences across and within households in rural Zimbabwe', Wisconsin: BASIS CRSP.
+
+Huq, S. and H. Reid (2005): 'Millennium Development Goals' in Tiempo: A bulletin on climate and development, Issue 54, January 2005.
+
+International Labour Office (2005): 'Global Employment Trends Model', Geneva: ILO.
+
+International Monetary Fund (2003): 'Fund assistance for countries facing exogenous shocks'. Prepared by the Policy Development and Review Department (In consultation with the Area, Finance, and Fiscal Affairs Departments), Washington, DC: IMF.
+
+International Commission on Irrigation and Drainage (2005): 'Water policy issues of Mexico', Delhi: ICID.
+
+Ionescu, C., R.J.T. Klein, J. Hinkel, et al. (2005): 'Towards a formal framework of vulnerability to climate change', NeWater Working Paper 2, Osnabrueck: NeWater.
+
+Intergovernmental Panel on Climate Change (2001): 'Climate Change 2001: Synthesis Report', Contribution of Working Groups I, II and III to the Third Assessment Report of the Intergovernmental Panel on Climate Change' [Watson R.T. and Core Team (Eds.)], Cambridge: Cambridge University Press.
+
+Jones P G., and Thornton, P. K. (2003): 'The potential impacts of climate change on maize production in Africa and Latin America in 2055'. Global Environmental Change 13:51-59.
+
+Kaimowitz, D. (2002): Forest and rural livelihoods in developing countries. Bogor, Indonesia: Center for International Forestry Research.
+
+Kakwani, N. (1993): ' Performance in living standards: an international comparison'. Journal of Development Economics 41(2): 307-336
+
+Kraay, A. (2005): 'When is growth pro-poor? Evidence from a Panel of Countries.' Journal of Development Economics, 80, June: 198-227
+
+Levy, M.L., C. Thorkelson, C. Vörösmarty, et al. (2005): 'Freshwater availability anomalies and outbreak of internal war: results from a global spatial time series analysis'. Oslo: Human Security and Climate Change International Workshop.
+
+McClean, C. J., J. C. Lovett, W. Kuper, et al. (2005): 'African plant diversity and climate change', Annals of the Missouri Botanical Garden 92 (2): 139 – 152
+
+Meier, P. and D. Bond (2005): 'The influence of environmental factors on conflict in the horn'. Journal of Political Geography (in review).
+
+%%page 119%%
+
+Mendelsohn, R., A. Dinar, and L. Williams. (2006): 'The distributional impact of climate change on rich and poor countries', Environment and Development Economics 2006 11: 1-20
+
+Miguel, E., S. Satyanath, and E. Sergenti (2004): 'Economic shocks and civil conflict: an instrumental variables approach', Journal of Political Economy 112
+
+Munich Re (2004): 'Topics Geo Annual review: Natural catastrophes' Munich: Munich Re Group.
+
+Myers, N. (2005) Environmental Refugees: An Emergent Security Issue, 13th Economic forum Prague, 23-27 May
+
+Nagy, G. et al. (2006): 'Understanding the potential impact of climate change in Latin America and the Caribbean', Report prepared for the Stern Review, available from http://www.sternreview.org.uk
+
+NBSC (National Bureau of Statistics of China) (2005): 'China Agricultural Yearbook', 2005, Beijing: Statistic Press of China, (in Chinese).
+
+Niasse, M. (2005): 'Climate-induced water conflict risks in West Africa: recognising and coping with increasing climate impacts on shares watercourses' available at http://www.gechs.org/activities/holmen/Niasse.pdf
+
+Nicholls, R.J., (1995): 'Synthesis of vulnerability analysis studies', in Proceedings of the World Coast Conference 1993, P. Beukenkamp et al. (eds.), Noordwijk, The Netherlands,1-5 November 1993, Coastal Zone Management Centre Publication 4, National Institute for Coastal and Marine Management: The Hague: 181-216
+
+Nicholls R.J. (2004): 'Coastal flooding and wetland loss in the 21st century: changes under the SRES climate and socio-economic scenarios', Global Environmental Change 14:69 – 86
+
+Nicholls R.J., J.A. Lowe (2006): 'Climate stabilisation and impacts of sea-level rise', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 195 – 201.
+
+Nicholls, R.J. and R.S.J. Tol, (2006): 'Impacts and responses to sea level rise: global analysis of the SRES scenarios over 21st century', Philosophical Transactions of the Royal Society B 364: 1073 – 1095
+
+Nkomo, J.C., A. Nyong and K. Kulindwa (2006): 'The Impacts of Climate Change in Africa', Report prepared for the Stern Review, available from http://www.sternreview.org.uk
+
+Nordhaus, W. (2006): 'Geography and macroeconomics: New data and new findings', PNAS, 103(10): 3510-3517
+
+NBSC (National Bureau of Statistics of China) (2005): China agricultural Yearbook in Chinese). Beijing: Statistic Press of China.
+
+Overseas Development Institute (2005): 'Aftershocks: Natural Disaster Risk and Economic Development Policy', London: ODI.
+
+Parry, M.L, C. Rosenzweig, A. Iglesias et al. (2004): 'Effects of climate change on global food production under SRES emissions and socio-economic scenarios', Global Environmental Change 14:53 – 67
+
+Population Division of the Department of Economic and Social Affairs of the United Nations Secretariat (2004): 'World Population Prospects: The 2004 Revision'. Washington, DC: World Bank.
+
+%%page 120%%
+
+Pritchett, L. and L.H. Summers, (1993): 'Wealthier is healthier'. World Bank, WPS 1150, Washington, DC: World Bank. . Ravallion, M. (2001): 'Growth, inequality and poverty: looking beyond averages' Working Paper no 2558, Washington, DC: World Bank.
+
+Ravallion, M. (2003): 'Measuring aggregate welfare in developing countries: how well do national accounts and surveys agree?' Review of Economics and Statistics, 85 (3): 645-652
+
+Republic of Kenya (2002): First national communication of the Republic of Kenya to the United Nations Framework Convention on Climate Change, Ministry of Finance and Natural Resources.
+
+Republic of South Africa (2000): South Africa initial national communication to the United Nations Framework Convention on Climate Change. Pretoria.
+
+Roy, J. (2006): 'The economics of climate change: a review of studies in the context of South Asia with a special focus on India', Report prepared for the Stern Review, available from http://www.sternreview.org.uk
+
+Sachs, J. D., and J. L. Gallup, (2001): 'The economic burden of malaria', CMH Working Paper Series paper No WG1: 10: Commission on Macroeconomics and Health, Washington, DC: World Health Organisation.
+
+Sachs, J.D., (2001): 'Tropical Underdevelopment'. Working Paper w8119, Cambridge, MA: National Bureau of Economic Research.
+
+Scholze, M., W. Knorr, N.W. Arnell, I.C. Prentice (2006): 'A climate-change risk analysis for world ecosystems', Proceedings of the National Academy of Sciences, DOI: 10.1073/pnas.0601816103
+
+Stern, N, J-J-. Dethier, and F.H. Rogers (2005): 'Growth and Empowerment – making development happen', Cambridge, MA: MIT Press.
+
+Strzepek, K., D.N. Yates, G. Yohe, et al. (2001): 'Constructing not 'implausible' climate and economic scenarios for Egypt'. Integrated Assessment 2, 139-157
+
+Tanzler, D., A. Carius, and S. Oberthus (2002): 'Climate change and conflict prevention' report on behalf of the German Federal Ministry for the Environment, Nature Conservation and Nuclear Safety.
+
+Thornton, P.K., P.G. Jones, T. Owiyo et al. (2006): 'Mapping climate vulnerability and poverty in Africa.' Report to the Department for International Development, ILRI, PO Box 30709, Nairobi 00100, Kenya. pp 171.
+
+Tol, R.S.J., T.E. Downing, O.J. Kuik and J.B. Smith (2004): 'Distributional Aspects of Climate Change Impacts', Global Environmental Change, 14 (3), 259-272
+
+United Nations (2005): 'The Millennium Development Goals Report 2005' available from http://millenniumindicators.un.org/unsd/mi/pdf/MDG%20Book.pdf
+
+UNEP-WCMC (2006): 'Biodiversity and poverty reduction: the importance of biodiversity for ecosystem services', Cambridge: UNEP.
+
+University for Peace Africa Programme (2005): 'Environmental degradation as a cause of conflict in Darfur', Switzerland: University for Peace.
+
+Vedeld, P., A. Angelsen, E. Sjaasrad and G. Berg (2004):' Counting on the environment: Forest income and the rural poor', Environmental Economics Series No. 98, Washington DC: World Bank.
+
+%%page 121%%
+
+Vincent, K. (2004): 'Creating an index of social vulnerability to climate change for Africa'. Tyndall Centre for Climate Change Research, Working Paper 54, Norwich: Tyndall Centre.
+
+van Lieshout, M., R.S. Kovats, M.T.J. Livermore and P. Martens, (2004): 'Climate change and malaria: analysis of the SRES climate and socio-economic scenarios', Global Environmental Change 14:87–99.
+
+Vos R., M. Velasco, and E. De Labatisda. (1999): 'Economic and social effects of El Niño in Ecuador'. Washington, D.C: Inter-American Development Bank.
+
+Wagstaff, A., and E. van Doorslaer. (2003): 'paying for health care: quantifying fairness, catastrophe, and impoverishment with applications to Vietnam, 1993–98.' Health Economics 12 (11): 921–33
+
+Warren, R., N. Arnell, R. Nicholls, et al. (2006): 'Understanding the regional impacts of climate change', Research report prepared for the Stern Review, Tyndall Centre Working Paper 90, Norwich, UK, available from http://www.tyndall.ac.uk/publications/working_papers/working_papers.shtml
+
+World Health Organisation (2005): 'Malnutrition: Quantifying the health impact at national and local levels'. Environmental burden of diseases series, No. 12, Washington DC: WHO.
+
+World Bank (2000): Can Africa Claim the 21st Century, Washington DC: World Bank
+
+World Bank (2003a): World Development Indicators Washington, DC: World Bank.
+
+World Bank (2003b): World Development Report, Washington, DC: World Bank.
+
+World Bank (2003c): Global Poverty Monitoring Database, Washington, DC: World Bank.
+
+World Bank (2004): World Development Indicators Washington, DC: World Bank.
+
+World Bank (2006a): The Little Data Book, Washington, DC: World Bank.
+
+World Bank (2006b) 'Water for Growth and Development.' D. Grey and C. W. Sadoff in Thematic Documents of the IV World Water Forum. Comision Nacional del Agua: Mexico City. 2006, Washington, DC: World Bank.
+
+World Bank (2006c) 'Managing Water Resources to Maximize Sustainable Growth: A Country Water Resources Assistance Strategy for Ethiopia', Washington, DC: World Bank.
+
+World Bank (2006d) Financing Health in Low-Income Countries
+
+World Urbanization Prospects: 'The 2005 Revision', available from http://esa.un.org/unup.
+
+%%page 1#2%%
+
+### 5 Costs Of Climate Change In Developed Countries
+
+Key Messages
+
+Climate change will have some positive effects for a few developed countries for moderate amounts of warming, but will become very damaging at the higher temperatures that threaten the world in the second half of this century. • In higher latitude regions, such as Canada, Russia and Scandinavia, climate change could bring net benefits up to 2 or 3°C through higher agricultural yields, lower winter mortality, lower heating requirements, and a potential boost to tourism. But these regions will also experience the most rapid rates of warming with serious consequences for biodiversity and local livelihoods. • Developed countries in lower latitudes will be more vulnerable. Regions where water is already scarce will face serious difficulties and rising costs. Recent studies suggest a 2°C rise in global temperatures may lead to a 20% reduction in water availability and crop yields in southern Europe and a more erratic water supply in California, as the mountain snowpack melts by 25 – 40%. • In the USA, one study predicts a mix of costs and benefits initially (± 1% GDP), but then declines in GDP even in the most optimistic scenarios once global temperatures exceed 3°C. • The poorest will be the most vulnerable. People on lower incomes are more likely to live in poorquality housing in higher-risk areas and have fewer financial resources to cope with climate change, including lack of comprehensive insurance cover.
+
+The costs of extreme weather events, such as storms, floods, droughts, and heatwaves, will increase rapidly at higher temperatures, potentially counteracting some of the early benefits of climate change. Costs of extreme weather alone could reach 0.5 - 1% of world GDP by the middle of the century, and will keep rising as the world warms. • Damage from hurricanes and typhoons will increase substantially from even small increases in storm severity, because they scale as the cube of windspeed or more. A 5 – 10% increase in hurricane windspeed is predicted to approximately double annual damages, resulting in total losses of 0.13% of GDP each year on average in the USA alone. • The costs of flooding in Europe are likely to increase, unless flood management is strengthened in line with the rising risk. In the UK, annual flood losses could increase from around 0.1% of GDP today to 0.2 – 0.4% of GDP once global temperature increases reach 3 to 4°C. • Heatwaves like 2003 in Europe, when 35,000 people died and agricultural losses reached $15 billion, will be commonplace by the middle of the century.
+
+At higher temperatures, developed economies face a growing risk of large-scale shocks. • Extreme weather events could affect trade and global financial markets through disruptions to communications and more volatile costs of insurance and capital. • Major areas of the world could be devastated by the social and economic consequences of very high temperatures. As history shows, this could lead to large-scale and disruptive population movement and trigger regional conflict.
+
+#### 5.1 Introduction
+
+***While the most serious impacts of climate change will fall on the poorest countries, the developed world will be far from immune.***
+
+On the whole, developed countries will be less vulnerable to climate change because:[^1] • A smaller proportion of their economy is in sectors such as agriculture that are most sensitive to climate.
+
+%%page 2#2%%
+
+- They are located in cooler higher latitudes and therefore further from critical temperature thresholds for humans and crops. Higher latitudes are expected to warm faster than lower latitudes, but this effect is small compared with the initial difference in temperatures between regions.
+- Adaptive capacity is higher. Richer countries have more resources to invest in adaptation, more flexible economies, and more liquid financial markets to increase resilience to climate change.
+
+Nevertheless, the advances in the science over the last few years have shown that there are now significant risks of temperatures much higher than the 2 or 3°C that were the focus of analytical discourse up to a few years ago. The potential damages with temperature increases of 4 to 5°C and higher are likely to be very severe for all countries, rich and poor.
+
+This chapter examines the potential costs and opportunities of climate change in developed countries, with a particular focus on the consequences for wealth and output. The analysis suggests that, while there may be benefits in some sectors for 1 or 2°C of warming, climate change will have increasingly negative effects on developed countries as the world warms, even under the most optimistic assumptions. In particular, at higher temperatures (4 or 5°C), the impacts will become disproportionately more damaging (Chapter 3). Extreme weather events (storms, floods, droughts and heatwaves) are likely to intensify in many cases. The risks of large-scale and abrupt impacts will increase significantly, such as melting/collapse of ice-sheets or shutdown of the thermohaline circulation (Gulf Stream). Large-scale shocks and financial contagion originating from poorer countries who are more vulnerable to climate change (Chapter 4) will also pose growing risks for rich countries, with increasing pressures for large-scale migration and political instability.
+
+#### 5.2 Impacts on wealth and output
+
+***Climate change will have some positive effects for a few developed countries for moderate amounts of warming, but is likely to be very damaging for the much higher temperature increases that threaten the world in the second half of this century and beyond if emissions continue to grow.***
+
+Climate change will influence economic output in the developed world via several different paths (Box 5.1), including the availability of commodities essential for economic growth, such as water, food and energy. While it will be possible to moderate increased costs through adaptation, this in itself will involve additional expenditure (Part V).
+
+Water: Warming will have strong impacts on water availability in the developed world. Altered patterns of rainfall and snowmelt will affect supply through changes in runoff.[^2] Water availability will generally rise in higher latitude regions where rainfall becomes more intense. But regions with Mediterranean-like climates will have existing pressures on limited water resources exacerbated because of reduced rainfall and loss of snow/glacial meltwater. Population pressures and water-intensive activities, such as irrigation, already strain the water supplies in many of the regions expected to see falling supplies. Based on recent studies:
+
+- In Southern Europe, summer water availability may fall by 20 - 30% due to warming of 2°C globally and 40 - 50% for 4°C.[^3]
+- The West Coast of the USA is likely to experience more erratic water supply as mountain snowpack decreases by 25 – 40% for a 2°C increase in global temperatures and 70 – 90% for 4°C.[^4] The snow will melt several weeks earlier in the spring, but the supply will eventually diminish as glaciers disappear later in the century.
+- In Australia (the world's driest continent) winter rainfall in the southwest and southeast is likely to decrease significantly, as storm tracks shift polewards and away from the continent itself. River flows in New South Wales, including those supplying Sydney, have been predicted to drop by 15% for a 1 – 2°C rise in temperature.[^5]
+
+%%page 3#2%%
+
+Box 5.1 A simple production function with environmental quality
+
+The market impacts of climate change on economic growth can be framed using a simple theoretical structure, beginning with a general production function in which the output of an economy in a given year depends on the stocks (and, implicitly, the marginal productivities) of capital, labour and environmental quality available in that year.
+
+Where Y is the output of the economy in year t and is a function of capital, K, labour, L, and environmental quality, E, which together are the factors of production. In this way, environmental quality is a (natural) capital asset that provides a flow of services on which output depends.
+
+If the net impacts of climate change are negative, then environmental quality E is reduced. This will reduce the output obtainable with a given supply of capital and labour, because output is jointly dependent on all three factors of production. In practice, either the productivity of capital and labour is directly reduced, or a portion of the output produced in a given year is destroyed that same year by climate change, for example by an extreme weather event. The opposite of this story is true if climate change brings with it net benefits, thereby increasing environmental quality.
+
+Adaptation to climate change will be an important economic option (Part V). Adaptation will reduce losses in E and/or enhance gains in E, but it too comes at a cost relative to a world without climate change. In this case, the opportunity cost of adaptation is lost consumption or investment diverted away from adding to K. Food: While agriculture is only a small component of GDP in developed countries (1 – 2% in the USA, for example), it is highly sensitive to climate change and could contribute substantially to economy-wide changes in growth.[^6] In higher latitudes, such as Canada, Russia and Northern Europe, rising temperatures may initially increase production of some crops – but only if the carbon fertilisation effect is strong (still a key area of uncertainty; further details in Chapter 3) (Figure 5.1).[^7] In these regions, any benefits are likely to be short-lived, as conditions begin to exceed the tolerance threshold for crops at higher temperatures. In many lower latitude regions, such as Southern Europe, Western USA, and Western Australia, increasing water shortages in regions where water is already scarce are likely to limit the carbon fertilisation effect and lead to substantial declines in crop yields. This north-south disparity in impacts was observed during the 2003 heatwave when crop yields in southern Europe dropped by 25% while they increased in northern Europe (25% in Ireland and 5% in Scandinavia).[^8]
+
+%%page 4#2%%
+
+Figure 5.1 Changes in wheat yield with increasing global temperatures across North America,
+
+Europe and Australasia
+
+Source: Warren et al. (2006) analysing data from Parry et al. (2004). More details on method in
+
+Chapter 3.
+
+Notes: The strong carbon fertilisation runs assumed a 15 – 25% increase in yield for a doubling of carbon dioxide levels. These are about twice as high as the latest field-based studies suggest. The red line represents the average across different scenario runs developed by the IPCC, while the blue lines show the full range. Yield changes were based on monthly temperature and rainfall data from the
+
+Hadley Centre climate model. Using other climate models produces a greater increase in yield at low levels of warming. The work assumed farm-level adaptation with some economy-wide adaptation.
+
+Much larger declines in yield are expected at higher temperatures (more than 4°C), as critical thresholds for crop growth are reached. Few studies have examined the consequences of higher temperatures.
+
+Energy: In higher latitude regions, climate change will reduce heating demands, while increasing summer cooling demands; the latter effect seems smaller in most cases (Table 5.1).[^9] In lower latitude regions, overall energy use is expected to increase, as incremental air-conditioning demands in the summer outstrip the reduction in heating demands in the winter. In Italy, winter energy use is predicted to fall by 20% for a warming of 3°C globally, while summer energy use rises by 30%.[^10] Climate change could also disrupt energy production. During the 2003 heat wave in Europe, for example, energy production in France's nuclear power stations fell because the river water was too hot to cool the power stations adequately. Similarly, at the height of the 2002 drought, Queensland's power stations had to reduce output considerably. In California, hydropower generation is predicted to fall by 30% for a warming of 4°C globally as storage lakes deplete.[^11]
+
+%%page 5#2%%
+
+Table 5.1 Temperature-driven changes in energy requirements in the developed world
+
+Source: Warren et al. (2006) analysing data from Prof Nigel Arnell, University of Southampton Note: Regions ranked by largest net change in energy demand. Both Heating Degree Days (HDD) and Cooling Degree Days (CDD) are calculated with reference to a base temperature (B), defined as the target "comfort" temperature, and are calculated from daily temperatures Ti, summed over all days (i) in the year. In most global-scale studies, the base temperature is taken as 18oC.
+
+HDD = Σ (B - Ti) where Ti is less than B
+
+CDD = Σ (Ti – B) where Ti is greater than B These changes assume: (1) no change to the target "comfort" base temperature; (2) no effects mediated through humidity; and (3) implicitly no acclimatisation or adaptation, in the sense of accepting warmer temperatures. Comfort temperatures will differ across the world, but using a fixed "base" temperature provides an index of potential changes in heating and cooling requirements in the future.
+
+***The distribution of impacts is likely to follow a strong north-south gradient – with regions such as Canada, Russia and Scandinavia experiencing some net benefits from moderate levels of warming, while low latitude regions will be more vulnerable. At higher temperatures, the risks become severe for all regions of the developed world.***
+
+Climate change will have widespread consequences across the developed world (major impacts set out in Box 5.2). The impacts will become more damaging from north to south. For example, in higher latitudes, where winter death rates are relatively high, more people are likely to be saved from cold-related death than will die from the heat in the summer.[^12] In lower latitude regions, summer deaths could outstrip declines in winter deaths, leading to an overall increase in mortality.[^13] Similarly, tourism may shift northwards, as cooler regions enjoy warmer summers, while warmer regions like southern Europe suffer increased heat wave frequency and reduce water availability. One study projected that Canada and Russia would both see a 30% increase in tourists with only 1°C of warming.[^14] On the other hand, mountain regions such as the Alps or the Rockies that rely on snow for winter recreation (skiing) may experience significant declines in income. Australia's $32 billion tourism industry will suffer from almost complete bleaching of the Great Barrier Reef.[^15]
+
+This broad distribution of impacts across many sectors might stimulate a broad northward shift in economic activity and population in regions such as the North America or Europe, as southern regions begin to suffer disproportionate increases in risks to human health and extreme events, coupled with loss of competitiveness in agriculture and forestry, reduced water availability and rising energy costs.[^16] There could be additional knock-on consequences for long-run growth, as changes in economic output have knock-on effects on growth and investment, capital stock, and labour (more detail in Box 5.2 for the USA and in Chapter 6 more generally).
+
+%%page 6#2%%
+
+Arctic regions will not follow this general north-south trend. Warming will occur most rapidly here - average temperatures have already risen twice as fast as in other parts of the world in recent decades.[^17] For example, in Alaska and western Canada, winter temperatures have already increased by as much as 3 – 4°C in the past 50 years. Over the past 30 years, average sea ice extent has declined by 8% or nearly 1 million Km2, an area larger than all of Norway, Sweden and Denmark combined, and the melting trend is accelerating. Over half of all the ice could have disappeared by 2100. Loss of even a small fraction of sea ice will have devastating consequences for polar bears, seals and walrus, as well as for the livelihoods of Inuits and others who rely on these animals for food. Shrinking arctic tundra will also threaten grazing animals, such as Caribou and Reindeer, and breeding habitats for millions of migratory bird species.
+
+%%page 7#2%%
+
+Box 5.2 Summary of regional impacts of climate change
+
+USA • Climate change impacts in the USA will be unevenly distributed, with potential short-term benefits in the North and extensive damage possible in the South. In the short to medium term, the most costly impacts are expected from coastal flooding and extreme events. More powerful hurricanes raise risks along the eastern seaboard and Gulf of Mexico. Defensive investment could be substantial. • Reduced snowfall and shorter winters will change snowmelt patterns – affecting water supply both along the
+
+Pacific coast and California and the farmlands of the Mississippi basin whose western tributaries are fed by snow melt. • Impacts on overall agricultural yields should be moderate (or even positive with a strong carbon fertilisation effect) up to around 2 - 3ºC given adaptation to shifting crop varieties and planting times. But this depends on sufficient irrigation water particularly in the southeast and Southern Great Plains. Farm production in general is expected to shift northwards. Above 3ºC, total output could fall by 5 – 20% even with effective adaptation because of summer drought and high temperatures. • The north could benefit from lower energy bills and fewer cold-related deaths as winter temperatures rise.
+
+The south will see rising summer energy use for air-conditioning and refrigeration and more heat-related deaths. This rebalance of economic activity could also induce a northward population shift.
+
+Canada • Canada has large areas of permafrost, forest and tundra. Melting permafrost raises the cost of protecting infrastructure and oil and gas installations from summer subsidence. • Reduced sea-ice cover and shorter winters should increase the summer Arctic navigation period offering improved access to oil, gas and mineral resources and to isolated communities. • But warmer summers and smaller ice packs will make life difficult for the polar bear, seal and other Arctic mammals and fish on which indigenous people depend. • A warmer climate and carbon fertilisation could lengthen summer growing seasons and increase agricultural productivity. But thinner winter snow cover risks making winter wheat crops vulnerable.
+
+UK • Infrastructure damage from flooding and storms is expected to increase substantially, especially in coastal regions, although effective flood management policies are likely to keep damage in check. • Water availability will be increasingly constrained, as runoff in summer declines, particularly in the South East where population density is increasing. Serious droughts will occur more regularly. • Milder winters will reduce cold-related mortality rates and energy demand for heating, while heatwaves will increase heat-related mortality. Cities will become more uncomfortable in summer. • Agricultural productivity may initially increase because of longer growing seasons and the carbon fertilisation effect but this depends on adequate water and requires changing crops and sowing times.
+
+Mainland Europe • Europe has large climatic variations from the Baltic to the Mediterranean and the Atlantic to the Black Sea and will be affected in a diverse fashion by climate change. The Mediterranean will see rising water stress, heat waves and forest fires. Spain, Portugal and Italy are likely to be worst affected. This could lead to a general northward shift in summer tourism, agriculture and ecosystems. • Northern Europe could experience rising crop yields (with adaptation) and falling energy use for winter heating. But warmer summers will raise demand for air conditioning. Melting Alpine snow waters and more extreme rainfall patterns could lead to more frequent flooding in major river basins such as the Danube,
+
+Rhine and Rhone. Winter tourism will be severely affected. • Many coastal countries across Europe are also vulnerable to rising sea levels: the Netherlands, where 70% of the population would be threatened by a 1-m sea level rise, is most at risk.
+
+%%page 8#2%%
+
+Russia • A vast swathe of northern Russia is permafrost, apart from a short, hot summer when the surface melts to form marshy lakes. Rising temperatures will push the permafrost boundary further north and deepen the surface melt. This has big implications for future oil, gas and other investment projects. De-stabilised, shifting permafrost conditions release greenhouse gases and could lead to flooding, but also require more expensive underpinning of buildings, refineries and other infrastructure such as the Baikal Amur railway and the planned
+
+East Siberia-Pacific export oil pipeline. • Melting of the Arctic ice cap will prolong both the northern sea and Siberian river navigation seasons but could lead to more extreme weather patterns. At higher global temperatures there is a possibility that Arctic warming could be reversed if the Gulf Stream weakens before it reaches the Barents Sea. • Agriculture, and tree growth in the vast Siberian pine forests, should benefit from a longer, warmer growing season and the carbon fertilisation effect. But the most fertile black earth regions of Southern Russia and
+
+Ukraine could suffer from increased drought. • Warmer winters should reduce domestic heating costs and free energy for export. But higher summer temperatures will raise air conditioning energy use.
+
+Japan • Japan consists of a long chain of narrow, mountainous islands on a seismic fault line, naturally subject to large climatic variations from north to south. Densely urbanised and heavily industrialised, Japan's topography, lack of raw materials, and heavy dependence on international trade, ensure that most people are concentrated in highly industrialised port cities. • Climate change will exacerbate Japan's existing vulnerability to typhoons and coastal storms. Tokyo extends over a flat coastal plain, vulnerable both to typhoons and rising sea levels. Most other major cities are also heavily industrialised ports, with many factories, refineries, gas liquefaction and chemical plants, steel mills, shipyards, oil storage tanks and other vulnerable infrastructure. • Agriculture, especially rice cultivation, is not significant economically but has strong cultural importance.
+
+Higher temperatures will make rice more difficult to grow in the south. Fish are another key part of a national cuisine. Fish are vulnerable to rising ocean temperatures and increased acidity. • Major cities will be increasingly affected by the urban heat island effect. Over 40% of summer power generation is consumed by air conditioning. Rising temperatures will make a fast ageing population more vulnerable both to heat and the spread of infectious diseases such as malaria and dengue fever.
+
+Australia • Australia, as the world's driest continent, is particularly vulnerable to the impact of rising sea temperatures on the major Pacific and Indian Ocean currents. These determine both overall rainfall patterns and unpredictable year-to-year variations. • At the same time the east coast – home to over 70% of the population and location for most major cities – has suffered longer droughts and declining rainfall. The 2002 drought cut farm output by 30% and shaved
+
+1.6% off GDP. Water supply to big cities will become more difficult – Melbourne's could fall by 7 – 35% with only 2°C of warming. At the same time, water flow in the Murray-Darling system, Australia's bread basket, could fall by one quarter[^18]. • Drier and hotter summers threaten the survival of the Queensland rainforest. Warmer winters and reduced snowfall endanger the habitat of mountain top fauna and flora. Rising ocean temperatures threaten the future of Australia's coral reefs and the $32 billion fishing and tourist industries. Over 60% of the Great Barrier Reef suffered coral bleaching in 2002, 10% of it permanent. Studies show ocean warming could be fatal to large tracts of reef within 40 years. Higher inland temperatures are likely to cause more bush fires. • Tropical diseases are spreading southward. The dengue fever transmission zone could reach Brisbane and possibly Sydney with 3°C of warming.
+
+%%page 9#2%%
+
+Box 5.3 Costs of climate change: USA case study on long-run growth impacts
+
+Jorgenson et al. (2005) used a general equilibrium model to estimate the impacts of climate change on investment, the capital stock, labour and consumption in the USA for two scenarios: one "optimistic" (assuming "optimal" adaptation, a strong carbon fertilisation effect and low potential damages) and one "pessimistic" (assuming little adaptation, a weak carbon fertilisation effect and high potential damages). Recent field-based studies suggest that the carbon fertilisation effect may be about half as large as the values used in the "optimistic" case (more details in Chapter 3).
+
+For a warming of 3°C, the study projects a net damage of 1.2% of GDP in the pessimistic case and a benefit of 1% of GDP in the optimistic case. In the optimistic case, the benefits peak at just over 2°C warming and then decline from around 3.5°C. In the pessimistic case, warming causes increasingly negative impacts on GDP. The range of outcomes encompasses other earlier estimates of the costs of climate change for the US economy, such as Mendelsohn (2001).
+
+In both optimistic and pessimistic cases, the change was driven largely by changes in agricultural prices (70 – 80%), with a lesser contribution from changes in energy prices and mortality. In the pessimistic case, productive resources were diverted from more efficient uses to the affected sectors, leading to overall productivity losses. The end effect was a significant reduction in consumption. In the optimistic case, the reverse process occurred.
+
+The study did not take full account of the impacts of extreme weather events, which could be very significant (Section 5.4). Nordhaus (2006) shows that just a small increase in hurricane intensity (5 – 10%), which several models predict will occur 2 – 3°C of warming globally, could alone double costs of storm damage to around 0.13% GDP. The risks of higher temperatures, as the latest science suggests, could bring even greater damage costs, particularly given the very non-linear relationship between temperature and hurricane destructiveness (Chapter 3).
+
+Source: Jorgenson et al. 2005
+
+%%page 10#2%%
+
+#### 5.3 Key vulnerabilities
+
+***The poorest in developed countries will be the most vulnerable to climate change.***
+
+Low-income households will be disproportionately affected by increases in extreme weather events.[^19]
+
+- Those on lower incomes often live in higher-risk areas, marginal lands,[^20] and poor quality housing. In the UK, the Environment Agency found that the most deprived 10% of the population were eight times more likely to be living in the coastal floodplain than those from the least deprived 10%.[^21]
+- Lower-income groups will typically have fewer financial resources to cope with climate change, including lack of comprehensive insurance cover. In New Orleans, disproportionately more people (22%) were below the poverty line in areas flooded by Hurricane Katrina than in non-flooded areas (15%) (Box 5.4a). More than half the people in flooded areas did not own a car compared with one-third in non-flooded areas.[^22]
+- Residents in deprived areas are likely to be less aware and worse prepared for an extreme weather event like a flood. The health impacts will be more severe for those already characterised by poor health. Across Europe, a large majority of the 35,000 people who died during the 2003 heatwave were the elderly and the sick (Box 5.4b). The most deprived proportion of the population are more likely to be employed in outdoor labour and therefore have little relief from the heat at work.
+
+#### 5.4 Impacts of extreme events
+
+***The costs of extreme weather events, such as storms, floods, droughts, and heatwaves, will increase rapidly at higher temperatures, potentially countering some of the early benefits of climate change. Costs of extreme weather alone could reach 0.5 - 1% of world GDP by the middle of the century, and will keep rising as the world continues to warm.***
+
+The consequences of climate change in the developed world are likely to be felt earliest and most strongly through changes in extreme events - storms, floods, droughts, and heatwaves.[^23] This could lead to significant infrastructure damage and faster capital depreciation, as capital-intensive infrastructure has to be replaced, or strengthened, before the end of its expected life. Increases in extreme events will be particularly costly for developed economies, which invest a considerable amount in fixed capital each year (20% of GDP or $5.5 trillion invested in gross fixed capital today). Just over one-quarter of this investment typically goes into construction ($1.5 trillion - mostly for infrastructure and buildings; more detail in Chapter 19). The long-run production losses from extreme weather could significantly amplify the immediate damage costs, particularly when there are constraints to financing reconstruction.[^24]
+
+The costs of extreme weather events are already high and rising, with annual losses of around $60 billion since the 1990s (0.2% of World GDP), and record costs of $200 billion in 2005 (more than 0.5% of World GDP).[^25] New analysis based on insurance industry data has shown that weather-related catastrophe losses have increased by 2% each year since the 1970s over and above changes in wealth, inflation and population growth/movement.[^26] If this trend continued or intensified with rising global temperatures, losses from extreme weather could reach 0.5 - 1% of world GDP by the middle of the century.[^27] If temperatures continued to rise over the second half of the century, costs could reach several percent of GDP each year, particularly because the damages increase disproportionately at higher temperatures (convexity in damage function; Chapter 3).
+
+%%page 11#2%%
+
+Box 5.4 Impacts of recent extreme weather events
+
+Extreme weather events are likely to occur with greater frequency and intensity in the future, particularly at higher temperatures.
+
+(a) Hurricane Katrina (2005) was the costliest weather catastrophe on record, totalling $125 billion in economic losses (~1.2% of US GDP), of which around $45 billion was insured through the private market and $15 billion through the National Flood Insurance Program. More than 1,300 people died as a result of the hurricane and over one million people were displaced from their homes. By the end of August, Katrina had reached a Category 5 status (the most severe) with peak gusts of 340 km per hour, in large part driven by the exceptionally warm waters of the Gulf (1 – 3°C above the long-term average). Katrina maintained its force as it passed over the oilfields off the Louisiana coast, but dropped to a Category 3 hurricane when it hit land. New Orleans was severely damaged when the hurricane-induced 10-metre storm-surge broke through the levees and flooded several quarters (up to 1 Km inland). The Earth Policy Institute estimates that 250,000 former residents have established homes elsewhere and will not return.
+
+Source: Munich Re (2006)
+
+(b) European Heatwave (2003). Over a three-month period in the summer, Europe experienced exceptionally high temperatures, on average 2.3°C hotter than the long-term average. In the past, a summer as hot as 2003 would be expected to occur once every 1000 years, but climate change has already doubled the chance of such a hot summer occurring (now once every 500 years).[^28] By the middle of the century, summers as hot as 2003 will be commonplace. The deaths of around 35,000 people across Europe were brought forward because of the effects of the heat (often through interactions with air pollution). Around 15,000 people died in Paris, where the urban heat island effect sustained nighttime temperatures and reduced people's tolerance for the heat the following day. In France, electricity became scarce because of a lack of water needed to cool nuclear power plants. Farming, livestock and forestry suffered damages of $15 billion from the combined effects of drought, heat stress and fire.
+
+Source: Munich Re (2004)
+
+***Even a small increase in the intensity of hurricanes or coastal surges is likely to increase infrastructure damage substantially.***
+
+Storms are currently the costliest weather catastrophes in the developed world and they are likely to become more powerful in the future as the oceans warm and provide more energy to fuel storms. Many of the world's largest cities are at risk from severe windstorms - Miami alone has $900 billion worth of total capital stock at risk. Two recent studies have found that just a 5 - 10% rise in the intensity of major storms with a 3°C increase in global temperatures could approximately double the damage costs, resulting in total losses of 0.13% of GDP in the USA each year on average or insured losses of $100 – 150 billion in an extreme year (2004 prices).[^29] If temperatures increase by 4 or 5°C, the losses are likely to be substantially greater, because any further increase in storm intensity has an even larger impact on damage costs (convexity highlighted in Chapter 3). This effect will be magnified for the costs of extreme storms, which are expected to increase disproportionately more than the costs of an average storm. For example, Swiss Re recently estimated that in Europe the costs of a 100-year storm event could double by the 2080s with climate change ($50/€40 billion in the future compared with $25/€20 billion today), while average storm losses were estimated to increase by only 16 – 68% over the same period.[^30]
+
+%%page 12#2%%
+
+Rising sea levels will increase the risk of damages to coastal infrastructure and accelerate capital depreciation (Box 5.5). Costs of flood defences on the coast will rise, along with insurance premiums. A Government study calculated that in the UK the average annual costs of flood damage to homes, businesses and infrastructure could increase from around 0.1% of GDP currently to 0.2 – 0.4% of GDP if global temperatures rise by 3 to 4°C.[^31] Greater investment in flood protection is likely to keep damages in check. Similarly, preliminary estimates suggest that annual flood losses in Europe could rise from $10 billion today to $120 – 150 billion (€100 – 120 billion) by the end of the century.[^32] If flood management is strengthened in line with the rising risk, the costs may only increase two-fold. According to one recent report, storm surge heights all along Australia's East Coast from Victoria to Cairns could rise by 25 – 30% with only a 2°C increase in global temperatures.[^33]
+
+***Heatwaves like 2003 in Europe, when 35,000 people died and agricultural losses reached $15 billion, will be commonplace by the middle of the century.***
+
+People living and working in urban areas will be particularly susceptible to increases in heat-related mortality because of the interaction between regional warming, the urban heat island and air pollution (Chapter 3). In California, a warming of around 2°C relative to pre-industrial is expected to extend the heat wave season by 17 – 27 days and cause a 25 - 35% rise in high pollution days, leading to a 2 to 3-fold increase in the number of heat related deaths in urban areas.[^34] In the UK, for a global temperature rise of 3°C, temperatures in London could be up to 7°C warmer than today because of the combined effect of climate change and the urban heat island effect, meaning that comfort levels will be exceeded for people at work for one-quarter of the time on average in the summer.[^35] In years that are warmer than average or at higher temperatures, office buildings could become difficult to work in for large spells during the summer without additional air-conditioning. In already-dry regions, such as parts of the Mediterranean and South East England, hot summers will further increase soil drying and subsidence damage to properties that are not properly underpinned.[^36]
+
+%%page 13#2%%
+
+Box 5.5 Costs of coastal flooding in developed country regions
+
+1-m of sea level rise is plausible by the end of the century under rapid rates of warming (Chapter 1), particularly if one of the polar ice sheets begins to melt significantly (Greenland) or collapses (West Antarctic). This could impose significant costs on developed countries with long, exposed coastlines.
+
+For North America, an area just under half the size of Alaska (640,000 km2) would be lost with 1-m of sea level rise, unless defences are in place to protect the land. Much of this land will in sparsely populated areas, but a significant proportion covers the Gulf Coast and large parts of Florida. These areas will be particularly vulnerable as rising risks of tropical storms combine with rising sea levels to create sharp increases in damages from coastal surges.
+
+In Europe, sea level rise will affect many densely populated areas. An area of 140,000 km2 is currently within 1-m of sea level. Based on today's population and GDP, this would affect over 20 million people and put an estimated $300 billion worth of GDP at risk. The Netherlands is by far the most vulnerable European country to sea level rise, with around 25% of the population potentially flooded each year for a 1-m sea level rise.[^37]
+
+Projected costs of coastal flooding over the period 2080-2089 under two different sea level rise scenarios
+
+Europe North America Australasia
+
+Source: Anthoff et al. (2006) analysing data from Nicholls and Tol (2006)
+
+Note: Costs were calculated as net present value in US $ billion (1995 prices). Damage costs include value of dryland and wetland lost and costs of displaced people (assumed in this study to be three times average per capita income). The protection costs only include costs to protect against permanent inundation. Infrastructure damage from storm surges is not included (see additional costs in text). Discounting with a constant growth rate (2%) and a pure time preference rate of 0.1% per year increases values by around 2.5 fold (more details in Chapter 2 and technical appendix).
+
+%%page 14#2%%
+
+#### 5.5 Large-scale impacts and systemic shocks
+
+***Abrupt shifts in climate and rising costs of extreme weather events will affect global financial markets.***
+
+Well-developed financial markets will help richer countries moderate the impacts of climate change – for example hedging with derivatives to smooth commodity prices. Such markets help to spread the risk across different regional markets and over time, but cannot reduce the risks by themselves. In addition, they are at risk of severe disruption from climate change:
+
+- Physical risks. The world's major financial centres (London, New York and Tokyo) are all located in coastal areas. The insurance industry estimates that in London alone at least $220 billion (£125 billion) of assets lie in the floodplain.[^38]
+- Correlated risks. At higher temperatures, climate change is likely to have severe impacts on many parts of the economy simultaneously. The shock may well exceed the capacity of markets and could potentially destabilise regions.[^39] For example, a collapse of the Atlantic Thermohaline Circulation would have a massive effect on many parts of the economy of the countries around the Northern Atlantic Ocean and polar seas.[^40] A collapse in the next few decades would lead to a decrease in temperatures across much of the northern hemisphere, with a peak cooling of around 2°C in the UK and Scandinavia. Preliminary estimates suggest that this would be accompanied by a reduction in rainfall over much of the northern hemisphere,[^41] reducing agriculture productivity, water supplies and threatening ecosystems.
+- Capital constraints on insurance. Increasing costs of extreme weather will not only raise insurance premiums - they will also increase the amount of capital that insurance companies have to hold to cover extreme losses, such as a hurricane that occurs once every 100 years (Box 5.6). The insurance industry will have to develop new financial products to gain more widespread access to international capital markets.[^42] New opportunities for diversifying risk are already emerging, for example weather derivatives and catastrophe bonds, but in future these will require new risk valuation techniques to deal with the changing profile of extreme weather events. If the insurance industry looks to access additional capital from the securities and bond markets, investors are likely to demand higher rates of return for placing more capital at risk, causing a rise in the cost of capital.
+- Spillover risks to other financial sectors.[^43] Failure to raise sufficient capital could mean restrictions in insurance coverage. After seven costly hurricanes in the past two years, higher reinsurance prices have pushed up the cost of insurance coverage in the USA and contributed to decisions by some insurers to transfer more risk back to the homeowner or business, for example by raising deductibles or cutting back on coverage in riskier areas.[^44] In future, if rising weather risks cause insurance to become even less available in high-risk areas like the coast, this could be severely disruptive for other parts of the economy. Banks, for example, would be unable to offer finance where insurance is required as part of the collateral package for mortgages or loans.
+
+%%page 15#2%%
+
+Lack of insurance could be particularly damaging for small and medium enterprises that will find it harder to access capital to protect against extreme events.[^45]
+
+Box 5.6 Climate change and constraints on insurance capital
+
+The insurance industry requires sufficient capital to bridge the gap between losses in an average year, which are covered by premium income, and those in an "extreme" year.[^46] Today, the insurance industry holds around $120 billion to cover extreme losses from natural weather catastrophes (principally hurricanes, typhoons and winter storms).
+
+Climate change is likely to lead to a shift in the distribution of losses towards higher values, with a greater effect at the tail.[^47] Average annual losses (or expected losses) will increase by a smaller amount than the extreme losses (here shown as a 1 in 250 year event), with the result that the amount of capital that insurers are required to hold to deal with extremes increases.
+
+If storm intensity increases by 6%, as predicted by several climate models for a doubling of carbon dioxide or a 3°C rise in temperature, this could increase insurers' capital requirements by over 90% for US hurricanes and 80% for Japanese typhoons – an additional $76 billion in today's prices.
+
+Source: Association of British Insurers (2005a)
+
+***Major areas of the world could be devastated by the social and economic consequences of very high temperatures. As history shows, this could lead to large-scale and disruptive population movement and trigger regional conflict.***
+
+The impacts of climate change will be more serious for developing countries than developed countries, in part because poorer countries have more existing economic and social vulnerabilities to climate and less access to capital to invest in adaptation (Chapter 4). As the impacts become increasingly damaging at higher temperatures, the effects on the developing world may have knock-on consequences for developed economies, through disruption to global trade and security (Box 5.7), population movement and financial contagion. Climate change will affect the prices and volumes of goods traded between developed and developing countries, particularly raw materials for manufacturing and food products, with wider macroeconomic consequences.
+
+%%page 16#2%%
+
+Climate change is likely to increase migratory pressures on developed countries significantly, although the potential scale and effect are still very uncertain and require considerably more research.
+
+- Income gap. Pressures for long-distance and large-scale migration is likely to grow as climate change raises existing inequalities and the relative income differential between developed and developing countries (Chapter 4). Wage differentials were a strong driver of the mass migration of 50 million people from Europe to the New World in the second half of the 19th century, alongside over-population and the resulting land hunger.[^48]
+- Environmental disasters. As temperatures rise and conditions deteriorate significantly, climate change will test the resilience of many societies around the world. Large numbers of people will be compelled to leave their home when resources drop below a critical threshold. Bangladesh, for example, faces the permanent loss of large areas of coastal land affecting 35 million people, about one-quarter of its population, while one-quarter of China's population (300 million people) could suffer from the wholesale reduction in glacial meltwater. The Irish Potato Famine is an important example from history of how a dramatic loss in basic subsistence triggered large-scale population movement.[^49] The famine took hold in 1845 with the appearance of "the Blight" - a potato fungus that almost instantly destroyed the primary food source for the majority of the population. It led to the death of 1 million people and the emigration of a further 1 million, many of them to the USA.
+
+Developed countries may become drawn into climate-induced conflicts in regions that are hardest hit by the impacts (Chapter 4), particularly as the world becomes increasingly interconnected politically and socially. In the past, climate variability and resource management have both been important contributory factors in conflict.[^50] So-called "water wars" have started because competition over water resources and the displacement of populations as a result of dam building have led to unrest.[^51] Direct conflict between nation states because of water scarcity has been rare in the past, but dam building and water extraction from shared rivers has served to heighten political tensions in several regions, including the Middle East (discussed in detail in Chapter 4).
+
+%%page 17#2%%
+
+Box 5.7 Potential impacts of climate change on trade routes and patterns
+
+Few studies have examined the effects of climate change on global trade patterns, but the consequences could be substantial, particularly for sea-borne trade and linked coastal manufacturing and refining activities.
+
+Rising sea levels will demand heavy investment in flood protection around ports and the export and import related activities concentrated in and around them. Stronger storm surges, winds and heavier rainfall already point to the requirement for stronger ships and sturdier offshore oil, gas and other installations. Multi-billion dollar processing installations such as oil refineries, liquefied natural gas plants and re-gasification facilities may have to be re-located to more protected areas inland.
+
+This would reverse decades of building steel mills, petrochemical plants and other energy-related facilities close to the deepwater ports accommodating bulk cargo vessels, super-tankers and ever larger container ships which have become the key vectors of rising global trade and just-on-time production schedules. Both increased protection and relocation inland would have significant capital and transport costs, and make imports in particular more expensive.
+
+Rapidly rising temperatures in the polar regions will affect trade, transport and energy/resource exploitation patterns. Both Canada's putative North West passage and the Arctic sea-lanes that Russia keeps open with icebreakers could become safer and more reliable alternative transport routes. But melting permafrost risks damaging high latitude oil and gas installations, pipelines and other infrastructure, including railways, such as Russia's Baikal-Amur railway, and will also require expensive remedial investment. Stormier seas could raise the attraction of land routes from Asia to Europe, including the planned new Eurasian railway across Kazakhstan.
+
+Any weakening of the Gulf Stream however would have a dramatic cooling impact on water temperatures in the Arctic region. At present the lingering impact of the Gulf Stream keeps Murmansk open all year as an ice-free port. Russian plans to develop the offshore Shtokman gas field and associated export facilities depend on the waterway remaining navigable. In the Middle East higher temperatures and more severe droughts will cause serious problems to both water supply and agriculture.
+
+#### 5.6 Conclusion
+
+***The costs of climate change for developed countries could reach several percent of GDP as higher temperatures lead to a sharp increase in extreme weather events and large-scale changes.***
+
+The cooler climates of many developed countries mean that small increases in temperature (2 or 3°C) may increase economic output through greater agricultural productivity, reduced winter heating bills and fewer winter deaths. But at the same time, many developed regions have existing water shortages that will be exacerbated by rising temperatures that increase evaporation and dry out land that is already dry (Southern Europe, California, South West Australia). Water shortages will increase the investment required in infrastructure, reduce agricultural output and increase infrastructure damage from subsidence.
+
+As temperatures continue to rise, the costs of damaging storms and floods are likely to increase rapidly. Losses could potentially reach several percent of world GDP if damages increase, as expected, in a highly non-linear manner.[^52] Higher temperatures will increase the risk of triggering abrupt and large-scale changes in the climate system. These could have a direct impact on the economies of developed countries, ranging from several metres of sea level rise following melting of Greenland ice sheet to several degrees of cooling in Northern Europe following collapse of the thermohaline circulation (considered plausible but unlikely this century). Other impacts, such as monsoon failure or loss of glacial meltwater, could have devastating effects in developing countries, particularly on food and water availability, and trigger large-scale population movement and regional conflict. These effects may exacerbate existing political tensions and could drive greater global instability.
+
+%%page 18#2%%
+
+Table 5.2 Summary costs of extreme weather events in developed countries with moderate climate change. Costs at higher temperatures could be substantially higher.
+
+Notes: Numbers in brackets show the costs in 2005. Temperatures are global relative to pre-industrial levels. The costs are likely to rise sharply as higher temperatures lead to even more intense extreme weather events and the risk of triggering abrupt and large-scale changes. Currently, there is little robust quantitative information for the costs at even higher temperatures (4 or 5°C), which are plausible if emissions continue to grow and feedbacks amplify the original warming effect (such as release of carbon dioxide from warming soils or release of methane from thawing permafrost).
+
+%%page 19#2%%
+
+#### References
+
+The study by Jorgenson et al. (2004) for the Pew Center on Global Climate Change is one of the most comprehensive top-down assessments of the market impacts of climate change in a developed country (the USA). In contrast, the recent Metroeconomica (2006) study takes a bottom-up approach to calculating the costs and benefits of climate change for key sectors in the UK. Neither of these studies takes a detailed look at the costs of increased frequency or severity of extreme weather events. A new conference paper by Prof Bill Nordhaus (2006) examines the economics of hurricanes, showing that the costs may well double of the course of the century. This supports earlier work by the Association of British Insurers (2005) looking at the financial risks of climate change from hurricanes, typhoons and winter-storms. Hallegatte et al. (2006) develop these arguments further by setting out the potential long-run effects of changes in extreme weather on economic growth. Recent papers by Dr Evan Mills have examined the financial consequences of such changes in extreme weather for the insurance industry and wider capital markets (Mills 2005, Mills and Lecomte 2006).
+
+Anthoff, D., R. Nicholls, R.S.J. Tol, and A.T. Vafeidis (2006): 'Global and regional exposure to large rises in sea-level: a sensitivity analysis', Research report prepared for the Stern Review, available from http://www.sternreview.org.uk
+
+Arctic Climate Impacts Assessment (2004): 'Impacts of a warming Arctic', Cambridge: Cambridge University Press, available from http://www.acia.uaf.edu
+
+Arnell, W.N. (2004): 'Climate change and global water resources: SRES scenarios and socio-economic scenarios'. Global Environmental Change 14:31-52
+
+Association of British Insurers (2005a): 'Financial risks of climate change', London: Association of British Insurers, available from http://www.abi.org.uk/flooding
+
+Association of British Insurers (2005b): 'Making communities sustainable: managing flood risks in the growth areas', London: Association of British Insurers, available from http://www.abi.org.uk/housing
+
+Benson, K., P. Kocagil and J. Shortle (2000): 'Climate change and health in the Mid-Atlantic Region', Climate Research 14: 245 – 253
+
+Brookings Institution (2005): 'New Orleans after the storm: lessons from the past', Washington, DC: The Brookings Institution, available from http://www.brookings.edu/metro/pubs/20051012_NewOrleans.htm
+
+Brooks, N., J. Gash, M. Hulme, et al. (2005): 'Climate stabilisation and "dangerous" climate change: a review of relevant issues', Scoping Study, London: Defra
+
+Cayan, D., A.L. Luers, M. Hanemann, et al. (2006): 'Scenarios of climate change in California: an overview', California Climate Change Center, available from http://www.climatechange.ca.gov
+
+COPA-COGECA (2003): 'Assessment of the impacts of the heatwave and drought of summer 2003 on agriculture and forestry', available from http://www.copa-cogeca.be
+
+Crichton, D. (2006): 'Climate change and its effects on small businesses in the UK', London, UK: AXA Insurance, available from http://www.axa.co.uk/aboutus/corporate_publications/climate_change.html
+
+Department of Health (2003): 'Health effects of climate change in the UK', The Stationary Office, UK
+
+Dlugolecki, A. (2004): 'A changing climate for insurance', London: Association of British Insurers, available from http://www.abi.org.uk/climatechange
+
+Environment Agency (2003): 'Deprived communities experience disproportionate levels of environmental threat', Bristol: Environment Agency
+
+%%page 20#2%%
+
+Environment Agency (2006): 'Addressing environmental inequalities: flood risk', Bristol: Environment Agency
+
+Epstein, P.R. and E. Mills (2005): 'Climate change futures: health, ecological and economic dimensions', Center for Health and the Global Environment, Harvard Medical School, Cambridge, MA: Harvard University, available from http://www.climatechangefutures.org
+
+Hallegatte, S., J-C- Hourcade and P. Dumas (2006): 'Why economic dynamics matter in assessing climate change damages: illustration on extreme events', Ecological Economics, in press
+
+Hamilton, J.M., D.J. Maddison and R.S.J. Tol (2005): 'Climate change and international tourism: a simulation study', Global Environmental Change 15: 253 – 266
+
+Hatton, T.J.and J.G. Williamson (2002): 'What fundamentals drive world migration?', Working Paper 9159, Cambridge, MA: National Bureau of Economic Research, available from http://ww.nber.org/papers/w9159
+
+Hayhoe, K., P. Frunhoff, S. Schneider, et al. (2006): 'Regional assessment of climate impacts on California under alternative emission scenarios', in Avoiding dangerous climate change, H.J. Schellnhuber (eds.), Cambridge: Cambridge University Press, pp. 227 – 234
+
+Heck, P., D. Bresch and S. Tröber (2006): 'The effects of climate change: storm damage in Europe on the rise', Zurich: Swiss Re
+
+Jorgenson, D.W., R.J. Goettle, B.H. Hurd et al. (2004): 'US market consequences of global climate change', Washington, DC: Pew Center on Global Climate Change, available from http://www.pewclimate.org/global-warming-in-depth/all_reports/marketconsequences
+
+London Climate Change Partnership (2002): 'London's warming', London Climate Change Partnership, available from http://www.london.gov.uk/gla/publications/environment/londons_warming02.pdf
+
+McGregor, G.R., M. Pelling and T. Wolf (2006): 'The social impacts of heat waves', Forthcoming Report to the Environment Agency
+
+Mendelsohn, R., W.D. Nordhaus and D. Shaw (1994): 'The impact of global warming on agriculture: a Ricardian analysis', American Economic Review 84: 753 – 771
+
+Mendelsohn, R.O. (ed.) (2001): 'Global warming and the American economy: a regional assessment of climate change impacts', Cheltenham: Edward Elgar Publishing
+
+Metroeconomica (2006): 'Cross-regional research programme - Quantify the costs of impacts and adaptation' (GA01075), Research report for Defra, London: Defra
+
+MICE [Modelling the Impacts of Climate Extremes] (2005): MICE Summary of Final Report, available from http://www.cru.uea.ac.uk/cru/projects/mice/html/reports.html
+
+Mills, E., (2005): 'Insurance in a climate of change', Science 309: 1040 – 1044
+
+Mills, E. and Lecomte E (2006): 'From risk to opportunity: how insurers can proactively and profitably manage climate change', Boston, MA: Ceres, available from http://www.ceres.org/pub/docs/Ceres_Insurance_Climate_%20Report_082206.pdf
+
+Muir-Wood, R., S. Miller and A. Boissonade (2006): 'The search for trends in a global catalogue of normalized weather-related catastrophe losses', Climate change and disaster losses workshop, Hohenkammer: Munich Re, available from http://w3g.gkss.de/staff/storch/material/060525.hohenkammer.pdf
+
+%%page 21#2%%
+
+Munich Re (2004): 'Annual review: natural catastrophes 2003', Munich: Munich Re Group
+
+Munich Re (2006): 'Annual review: natural catastrophes 2005', Munich: Munich Re Group
+
+Nicholls, R.J., and R.J. Klein (2003): 'Climate change and coastal management on Europe's coast', EVA Working Paper 3, Potsdam: Potsdam Institute for Climate Impact Research
+
+Nicholls, R.J., and R.S.J. Tol (2006): 'Impacts and responses to sea-level rise: a global analysis of the SRES scenarios over 21st century', Philosophical Transactions of the Royal Society A 364: 1073 – 1095
+
+Nordhaus, W.D. (2006): 'The economics of hurricanes in the United States', prepared for the Snowmass Workshop on Abrupt and Catastrophic Climate Change, Snowmass, CO: Annual Meetings of the American Economic Association, available from http://nordhaus.econ.yale.edu/hurricanes.pdf
+
+O'Brien, K., S. Eriksen, L. Sygna and L.O. Naess (2006): 'Questioning complacency: climate change impacts, vulnerability, and adaptation in Norway', Ambio 35:50 –56
+
+Parry, M.L., C. Rosenzweig, A. Iglesias, et al. (2004): 'Effects of climate change on global food production under SRES emissions and socio-economic scenarios', Global Environmental Change 14:53 – 67
+
+Preston, B.L. and R.N. Jones (2006): 'Climate change impacts on Australia and the benefits of early action to reduce global greenhouse gas emissions: a report prepared for the Australian Business Roundtable on Climate Change', Victoria: CSIRO
+
+Salmon, M., and S. Weston (2006): 'Evidence to Stern Review', available from http://www.sternreview.org.uk
+
+Schröter et al. (2005): Ecosystem service supply and vulnerability to global change in Europe, Science 310: 1333:1337
+
+Schlenker, W., W.M. Hanemann and A. Fisher (2005): 'Will US agriculture really benefit from global warming? Accounting for irrigation in the hedonic approach', American Economic Review 95: 395 – 406
+
+Schwartz, P. and D. Randall (2004): 'An abrupt climate change scenario and its implications for United States security', Report prepared by the Global Business Network (GBN) for the Department of Defense, San Francisco, CA: GBN, available from, http://www.gbn.com/ArticleDisplayServlet.srv?aid=26231
+
+Shiva, V. (2002) 'Water wars', Cambridge, MA: South End Press.
+
+Stott, P.A, D.A Stone and M.R. Allen (2004): 'Human contribution to the European heatwave of 2003', Nature 432: 610 - 614
+
+Tol, R.S.J., T.E.Downing, O.J. Kuik and J.B. Smith (2004): 'Distributional aspects of climate change impacts', Global Environmental Change 14: 259 – 272
+
+UK Government Foresight Programme (2004):' Future flooding', London: Office of Science and Technology, available from http://www.foresight.gov.uk/Previous_Projects/Flood_and_Coastal_Defence
+
+Vellinga, M. and R.A. Wood (2002): 'Global climatic impacts of a collapse of the Atlantic thermohaline circulation', Climatic Change 54: 251-267
+
+Warren, R., N. Arnell, R. Nicholls, et al. (2006): 'Understanding the regional impacts of climate change', Research report prepared for the Stern Review, Tyndall Centre Working Paper 90, Norwich: Tyndall Centre, available from http://www.tyndall.ac.uk/publications/working_papers/twp90.pdf
+
+Woodham-Smith, C. (1991): 'The Great Hunger, 1845 – 1849', London: Penguin Books
+
+%%page 143%%
+
+### 6 Economic modelling of climate-change impacts
+
+Key Messages
+
+The monetary cost of climate change is now expected to be higher than many earlier studies suggested, because these studies tended not to include some of the most uncertain but potentially most damaging impacts.
+
+Modelling the overall impact of climate change is a formidable challenge, involving forecasting over a century or more as the effects appear with long lags and are very long-lived. The limitations to our ability to model over such a time scale demand caution in interpreting results, but projections can illustrate the risks involved – and policy here is about the economics of risk and uncertainty.
+
+Most formal modelling has used as a starting point 2 - 3°C warming. In this temperature range, the cost of climate change could be equivalent to around a 0 - 3% loss in global GDP from what could have been achieved in a world without climate change. Poor countries will suffer higher costs.
+
+However, 'business as usual' (BAU) temperature increases may exceed 2 - 3°C by the end of this century. This increases the likelihood of a wider range of impacts than previously considered, more difficult to quantify, such as abrupt and large-scale climate change. With 5 - 6°C warming, models that include the risk of abrupt and large-scale climate change estimate a 5 - 10% loss in global GDP, with poor countries suffering costs in excess of 10%. The risks, however, cover a very broad range and involve the possibility of much higher losses. This underlines the importance of revisiting past estimates.
+
+Modelling over many decades, regions and possible outcomes demands that we make distributional and ethical judgements systematically and explicitly. Attaching little weight to the future, simply because it is in the future ('pure time discounting'), would produce low estimates of cost – but if you care little for the future you will not wish to take action on climate change.
+
+Using an Integrated Assessment Model, and with due caution about the ability to model, we estimate the total cost of BAU climate change to equate to an average reduction in global per-capita consumption of 5%, at a minimum, now and forever.
+
+The cost of BAU would increase still further, were the model to take account of three important factors:
+
+- First, including direct impacts on the environment and human health ('non-market' impacts) increases the total cost of BAU climate change from 5% to 11%, although valuations here raise difficult ethical and measurement issues. But this does not fully include 'socially contingent' impacts such as social and political instability, which are very difficult to measure in monetary terms;
+- Second, some recent scientific evidence indicates that the climate system may be more responsive to greenhouse gas emissions than previously thought, because of the existence of amplifying feedbacks in the climate system. Our estimates indicate that the potential scale of the climate response could increase the cost of BAU climate change from 5% to 7%, or from 11% to 14% if non-market impacts are included. In fact, these may be only modest estimates of the bigger risks – the science here is still developing and broader risks are plausible;
+- Third, a disproportionate burden of climate change impacts fall on poor regions of the world. Based on existing studies, giving this burden stronger relative weight could increase the cost of BAU by more than one quarter.
+
+Putting these three additional factors together would increase the total cost of BAU climate change to the equivalent of around a 20% reduction in current per-capita consumption, now and forever. Distributional judgements, a concern with living standards beyond those elements reflected in GDP, and modern approaches to uncertainty all suggest that the appropriate estimate of damages may well lie in the upper part of the range 5 – 20%. Much, but not all, of that loss could be avoided through a strong mitigation policy. We argue in Part III that this can be achieved at a far lower cost.
+
+%%page 144%%
+
+#### 6.1 Introduction
+
+***The cost of climate change is now expected to be larger than many earlier studies suggested.***
+
+This Chapter brings together estimates from formal models of the monetary cost of climate change, including evidence on how these costs rise with increasing temperatures. It builds on and complements the evidence presented in Chapters 3, 4 and 5, which set out the effects of climate change in detail and separately considered its consequences for key indicators of development: income, health and the environment.
+
+In estimating the costs of climate change, we build on the very valuable first round of integrated climate-change models that have come out over the past fifteen years or so. We use a model that is able to summarise cost simulations across a wide range of possible impacts – taking account of new scientific evidence – based on a theoretical framework that can deal effectively with large and uncertain climate risks many years in the future (see Section 6.4). Thus our focus is firmly on the economics of risk and uncertainty.
+
+Our estimate of the total cost of 'business as usual' (BAU) climate change over the next two centuries equates to an average welfare loss equivalent to at least 5% of the value of global per-capita consumption, now and forever. That is a minimum in the context of this model, and there are a number of omitted features that would add substantially to this estimate. Thus the cost is shown to be higher if recent scientific findings about the responsiveness of the climate system to greenhouse gas (GHG) emissions turn out to be correct and if direct impacts on the environment and human health are taken into account. Were the model also to reflect the importance of the disproportionate burden of climatechange impacts on poor regions of the world, the cost would be higher still. Putting all these together, the cost could be equivalent to up to around 20%, now and forever.
+
+The large uncertainties in this type of modelling and calculation should not be ignored. The model we use, although it is able to build on and go beyond previous models, nonetheless shares most of their limitations. In particular, it must rely on sparse or non-existent observational data at high temperatures and from developing regions. The possibilities of very high temperatures and abrupt and large-scale changes in the climate system are the greatest risks we face in terms of their potential impact, yet these are precisely the areas we know least about, both scientifically and economically – hence the uncertainty about the shape of the probability distributions for temperature and impacts, in particular at their upper end. Also, if the model is to quantify the full range of effects, it must place monetary values on health and the environment, which is conceptually, ethically and empirically very difficult. But, given these caveats, even at the optimistic end of the 5 – 20% range, 'business as usual' climate change implies the equivalent of a permanent reduction in consumption that is strikingly large.
+
+In interpreting these results, economic models that look out over just a few years are insufficient.[^1] The impacts of GHGs emitted today will still be felt well over a century from now. Uncertainty about both scientific and economic possibilities is very large and any model must be seen as illustrative. Nevertheless, getting to grips with the analysis in a serious way does require us to look forward explicitly. These models should be seen as one contribution to that discussion. They should be treated with great circumspection. There is a danger that, because they are quantitative, they will be taken too literally. They should not be. They are only one part of an argument. But they can, and do, help us to gain some understanding of the size of the risks involved, an issue that is at the heart of the economics of climate change.
+
+***Although this Review is based on a multi-dimensional view of economic and social goals, rather than a narrowly monetary one, models that can measure climate-change damage in monetary terms have an important role.***
+
+A multi-dimensional approach to development is crucial, as our discussions in Part II make clear and as is embodied, for example, in the Millennium Development Goals (MDGs). In this Chapter, we focus on three dimensions most affected by climate change: income/consumption, health, and the environment. Chapters 3 to 5 have laid out how these dimensions are affected individually. Here we consider how they might be combined in a single metric of damage[^2].
+
+%%page 145%%
+
+Our preference is to consider the multiple dimensions of the cost of climate change separately, examining each on its own terms. A toll in terms of lives lost gains little in eloquence when it is converted into dollars; but it loses something, from an ethical perspective, by distancing us from the human cost of climate change.
+
+Nevertheless, in this chapter the Review does engage with formal models of the monetary cost of climate change. Such models produce useful insights into the global cost of climate change. In making an analytical assessment in terms of the formal economics of risk and uncertainty, our models incorporate, systematically and transparently, the high risks that climate change is now thought to pose. Estimating those costs is essential for taking action (although we have emphasised strongly the dangers of taking them too literally). Once the aggregate cost of climate change is expressed in monetary terms, it is possible to compare this cost with the anticipated cost of mitigating and adapting to climate change. This is covered in Chapter 13, where the Review also considers other ways, beyond this modelling, of examining the case for action.
+
+#### 6.2 What existing models calculate and include
+
+***Modelling the monetary impacts of climate change globally is very challenging: it requires quantitative analysis of a very broad range of environmental, economic and social issues. Integrated Assessment Models (IAMs), though limited, provide a useful tool.***
+
+IAMs simulate the process of human-induced climate change, from emissions of GHGs to the socio-economic impacts of climate change (Figure 6.1). We focus on the handful of models specially designed to provide monetary estimates of climate impacts. Although the monetary cost of climate change can be presented in a number of ways, the basis is the difference between income growth with and without climate change impacts. To do this, the part of the model that simulates the impacts of climate change is in effect 'switched off' in the 'no climate change' scenario.
+
+Income in the 'no climate change' scenario is conventionally measured in terms of GDP – the value of economic output. The difficulty is that some of the negative effects of climate change will actually lead to increases in expenditure, which increase economic output. Examples are increasing expenditure on air conditioning and flood defences. But it is correct to subtract these from GDP in the 'no climate change' scenario, because such expenditures are a cost of climate change. As a result, the measure of the monetary cost of climate change that we derive is really a measure of income loss, rather than output loss as conventionally measured by GDP.
+
+Making such estimates is a formidable task in many ways (discussed below). It is also a computationally demanding exercise, with the result that such models must make drastic, often heroic, simplifications along all stages of the climate-change chain. What is more, large uncertainties are associated with each element in the cycle. Nevertheless, the IAMs remain the best tool available for estimating aggregate quantitative global costs and risks of climate change.
+
+The initial focus of IAMs is on economic sectors for which prices exist or can be imputed relatively straightforwardly. These 'market' sectors include agriculture, energy use and forestry. But this market-sector approach fails to capture most direct impacts on the environment and human health, because they are not priced in markets. These important impacts – together with some other effects in agriculture and forestry that are not covered by market prices – are often described as 'non-market'.
+
+Economists have developed a range of techniques for calculating prices and costing non-market impacts, but the resulting estimates are problematic in terms of concept, ethical framework, and practicalities. Many would argue that it is better to present costs in human lives and environmental quality side-by-side with income and consumption, rather than trying to summarise them in monetary terms. That is indeed the approach taken across most of the Review. Nevertheless, modellers have tried to do their best to assess the full costs of climate change and the costs of avoiding it on a comparable basis, and thus make their best efforts to include 'non-market' impacts.
+
+%%page 146%%
+
+Figure 6.1 Modelling climate change from emissions to impacts.
+
+This figure describes a simple unidirectional chain. This is a simplification as, in the real climate-human system, there will be feedbacks between many links in the chain.
+
+Source: Hope (2005).
+
+***Estimates from the first round of IAMs laid an important foundation for later work, and their results are still valuable for informing policy. However, they were limited to snapshots of climate change at temperatures now likely to be exceeded by the end of this century.***
+
+The first round of estimates from a wide range of IAMs, presented in the IPCC's 1996 Second Assessment Report,[^3] were based on a snapshot increase in global mean temperature. The models estimated the effects of a doubling of atmospheric CO2 concentrations from pre-industrial levels, which was believed likely to lead to a 2.5°C mean temperature increase from pre-industrial levels. The costs of such an increase were estimated at 1.5 - 2.0% of world GDP, 1.0 - 1.5% of GDP in developed countries, and 2 - 9% in developing countries.
+
+Because they took a snapshot of climate change at 2.5°C warming, these early IAM-based studies did not consider the risks associated with higher temperatures. Since then, a smaller number of models have traced the costs of climate change as temperatures increase, although their parameters are still largely calibrated on estimates of impacts with a doubling of atmospheric CO2. These models have also covered new sectors and have looked more carefully at adaptation to climate change.
+
+%%page 147%%
+
+Figure 6.2 Estimates of the global impacts of climate change, as a function of global mean temperature, considered by the 2001 IPCC Third Assessment Report.
+
+The figure below traces the global monetary cost of climate change with increases in global mean temperature above pre-industrial levels (shown on the x-axis), according to three models: • 'Mendelsohn, output' traces the estimates of Mendelsohn et al. (1998), with regional monetary impact estimates aggregated to world impacts without weighting; • 'Nordhaus, output' traces the estimates of Nordhaus and Boyer (2000), with regional monetary impact estimates aggregated to world impacts without weighting; • 'Nordhaus, population' also traces the estimates of Nordhaus and Boyer (2000), with regional monetary impact estimates aggregated to world impacts based on regional population; • 'Tol, output' traces the estimates of Tol (2002), with regional monetary impact estimates aggregated without weighting; • 'Tol, equity' also traces the estimates of Tol (2002), with regional monetary impacts aggregated to world impacts weighting by the ratio of global average per-capita income to regional average percapita income.
+
+Source: Smith et al. (2001).
+
+Figure 6.2 illustrates the results of three important models (whose assumptions are reported in detail in Warren et al. (2006)) at different global mean temperature rises:
+
+- The 'Mendelsohn' model[^4] estimates impacts only for five 'market' sectors: agriculture, forestry, energy, water and coastal zones. The global impact of climate change is calculated to be very small (virtually indistinguishable from the horizontal axis) and is positive for increases in global mean temperature up to about 4°C above pre-industrial levels.
+- The 'Tol' model[^5] estimates impacts for a wider range of market and non-market sectors: agriculture, forestry, water, energy, coastal zones and ecosystems, as well as mortality from vector-borne diseases, heat stress and cold stress. Costs are weighted either by output or by equity-weighted output (see below). The model estimates that initial increases in global mean temperature would actually yield net global benefits. Since these benefits accrue primarily to rich countries, the method of aggregation across countries matters for the size of the global benefits. According to the output-weighted results, global benefits peak at around 2.5% of global GDP at a warming of 0.5°C above pre-industrial. But, according to the equity-weighted results, global benefits peak at only 0.5% of global GDP (also for a 0.5°C temperature increase). Global impacts become negative beyond 1°C (equity-weighted) or 2 - 2.5°C
+
+%%page 148%%
+
+(output-weighted), and they reach 0.5 - 2% of global GDP for higher increases in global mean temperature.
+
+- The 'Nordhaus' model[^6] includes a range of market and non-market impact sectors: agriculture, forestry, energy, water, construction, fisheries, outdoor recreation, coastal zones, mortality from climate-related diseases and pollution, and ecosystems. It also includes what were at the time pioneering estimates of the economic cost of catastrophic climate impacts (the small probability of losses in GDP running into tens of percentage points – see below). These catastrophic impacts drive much of the larger costs of climate change at high levels of warming. At 6°C warming, the 'Nordhaus' model estimates a global cost of between around 9 - 11% of global GDP, depending on whether regional impacts are aggregated by output (lower) or population (higher). The Nordhaus model also predicts that the cost of climate change will increase faster than global mean temperature, so that the aggregate loss in global GDP almost doubles as global mean temperature increases from 4°C to 6°C above pre-industrial levels. As Section 6.3 explains, this reflects the fact that higher temperatures will increase the chance of triggering abrupt and large-scale changes, such as sudden shifts in regional weather patterns like the monsoons or the El Niño phenomenon (and see Chapter 3 for a discussion of increasing marginal damages).
+
+***Models differ on whether low levels of global warming would have positive or negative global effects. But all agreed that the effects of warming above 2 - 3°C would reduce global welfare, and that even mild warming would harm poor countries.***
+
+These results are quite difficult to compare, because of the many differences between the models and the inputs they use, but some key points can be made:
+
+- Up to around 2 - 3°C warming, there is disagreement about whether the global impact of climate change will be positive or negative. But, even at these levels of warming, it is clear that any benefits are temporary and confined to rich countries, with poor countries suffering significant costs. For example, Tol estimates a cost to Africa of 4.1% of GDP for 2.5°C warming, very close to Nordhaus and Boyer's estimate of 3.9%.
+- For warming beyond 2 - 3°C, the models agree that climate change will reduce global consumption. However, they disagree on the size of this cost, ranging from a very small fraction of global GDP to 10% or more. In this range too, the models agree that poor countries will suffer the highest costs, although in the Nordhaus model the estimated cost to Western Europe of 6°C warming is second only to the cost to Africa.[^7]
+
+***These results depend on key modelling decisions, including how each model values the costs to poor regions and what it assumed about societies' ability to reduce costs by adapting to climate change.***
+
+Each model's results depend heavily on how it aggregates the impacts across regions, and in particular how it values costs in poor regions relative to those in rich ones. The prices of marketed goods and services, as well as the hypothetical values assigned to health and the environment, are typically higher in rich countries than in poor countries. Thus, in these models, a 10% loss in the volume of production of an economic sector is worth more in a rich country than in a poor country. Similarly, a 5% increase in mortality, if 'values of life' are based on willingness to pay, is worth more in purely monetary terms in a rich country than a poor country, because incomes are higher in the former. Many ethical observers would reject both of these statements. Thus some of the authors have used welfare or 'equity' weighting. Explicit functions to capture distributional judgements are also used in this Review – see Chapter 2 and Appendix. In summary, if aggregation is done purely on the basis of adding incomes or GDP, then very large physical impacts in poor countries will tend to be overshadowed by small impacts in rich countries.
+
+%%page 149%%
+
+Nordhaus and Boyer and Tol both adopt equity-weighting approaches, a step which in our view is supported by the type of ethical considerations discussed in Chapter 2 and its Appendix, as well as empirical observations of the attitudes that people actually hold towards inequality in wealth.[^8][^9] Mendelsohn does not use equity weights.
+
+Adaptation to climate change is another important factor in these models, because it has the capacity to reduce the cost of BAU climate change. The key questions are how much adaptation can be assumed without extra stimulus from policy (financial, legal and otherwise), how much will it cost, because the costs of adaptation themselves are part of the cost of climate change, and what would it achieve? Again, it is difficult to compare the models, because each treats adaptation in a different manner. In general, the models do assume that households and businesses do what they can to adapt, without extra stimulus from policy.
+
+The 'Mendelsohn' model is most optimistic about adaptation, and – not coincidentally – it estimates the lowest cost of climate change.[^10] In their method, future responses to climate change are calibrated against the relationship between output and climate that can be seen from region to region today, or that can be determined from laboratory experiments.[^11] The former method models adaptation most completely. In effect, as temperatures increase, and controlling for other climate and non-climate variables, environmental and economic conditions migrate from the equator towards the poles. High-latitude regions climb a hill of rising productivity for a time as temperatures make conditions easier (e.g. for agriculture), while low-latitude regions fall further into more difficult conditions. This method encompasses a variety of ways a region can adapt, because regions can be assumed to be well adapted to their current climates. Its major drawback, however, is that it makes no provision for the costs and difficulties of transition from one climate to another or the potential movement of people. Whether these are small or large, it is, on balance, an underestimate of the cost of climate change.
+
+A final point to keep in mind is that all three models are based on scientific evidence up to the mid- to late 1990s. Since then, new evidence has come to light, most importantly on the possibilities of higher and more rapidly increasing temperatures than envisaged then, as well as possibilities of abrupt and large-scale changes to the climate system. Section 6.3 explores the consequences of these risks at greater length.
+
+#### 6.3 Do the existing models fully capture the likely cost of climate change?
+
+***Existing estimates of the monetary cost of climate change, although very useful, leave many questions unanswered and omit potentially very important impacts. Taking omitted impacts into account will increase cost estimates, and probably strongly.***
+
+Understanding of the science and economics of climate change is constantly improving to overcome substantial gaps, but many remain. This is particularly true of the existing crop of IAMs, due in part to the demands of modelling and in part to their reliance on knowledge from other active areas of research. Indeed, the knowledge base on which the cost of climate change is calibrated – specialised studies of impacts on agriculture, ecosystems and so on – is particularly patchy at high temperatures.[^12] In principle, the gaps that remain may lead to underestimates or overestimates of global impacts. In practice, however, most of the unresolved issues will increase damage estimates.
+
+%%page 150%%
+
+Existing models omit many possible impacts. Watkiss et al.[^13] have developed a 'risk matrix' of uncertainty in projecting climate change and its impacts to illustrate the limitations of existing studies in capturing potentially important effects. Figure 6.3 presents this matrix and locates the existing models on it.
+
+Figure 6.3 Coverage of existing integrated assessment studies.
+
+Source: Watkiss, Downing et al. (2005).
+
+Figure 6.3 summarises which impacts existing estimates of the monetary cost of climate change cover (by reference to the authors of the various studies) and which impacts are omitted.
+
+The vertical axis captures uncertainty in predicting climate change, with uncertainty increasing as we go down. There are three categories:
+
+• Projection – high confidence on the direction of these changes and bounds can be placed around their magnitude (i.e. temperature change and sea-level rise);
+
+• Bounded risks – more uncertainty about the direction and magnitude of these changes, though reasonable bounds can be placed around them (i.e. precipitation, extreme events);
+
+• System change and surprises – large uncertainty about the potential trigger and timing of these changes (e.g. weakening of the thermohaline circulation, collapse of the West Antarctic
+
+Ice Sheet). However, evidence on the risk of such changes is building (see Chapters 1 and 3).
+
+The horizontal axis captures uncertainty in the economic measurement of impacts, with uncertainty increasing as we go from left to right. There are again three categories:
+
+• 'Market' impacts – where prices exist and a valuation can be made relatively easily, such as in agriculture, energy use and forestry;
+
+• 'Non-market' impacts – directly on human health and the environment, where market prices tend not to exist and methods are required to create them;
+
+• 'Socially contingent' responses – large-scale, 'second-round' socio-economic responses to the impacts of climate change, such as conflict, migration and the flight of capital investment.
+
+As the figure shows, most existing studies are confined to the top left part of the matrix and are thus limited to a small subset of the most well understood, but least damaging, impacts (for example, the 'Mendelsohn' model, which is also most optimistic about adaptation: see previous section). By contrast, because the impacts in the bottom right corner of the matrix are surrounded by the greatest scientific uncertainty, they have not been incorporated into IAMs. Yet it is also these paths that have the potential to inflict the greatest damage. ***Extreme weather events are not fully captured in most existing IAMs;[^14] the latest science suggests that extreme events will increase in frequency and severity with climate change.***
+
+%%page 151%%
+
+Chapters 1 and 3 laid out the newer evidence that climate change will spur an increase in extreme weather events – notably floods, droughts, and storms. Experience of weather disasters in many parts of the world demonstrates that the more extreme events can have lasting economic effects, especially when they fall on an economy weakened by previous weather disasters or other shocks, or if they fall on an economy that finds it difficult to adjust quickly.[^15] Thus it is very important to consider the economic impacts of variations in weather around mean trends in climate change.
+
+However, it is at least as important to consider the climatic changes and impacts that will occur if GHG emissions lead to very substantial warming, with global mean temperatures 5 - 6°C above pre-industrial levels or more. High temperatures are likely to generate a hostile and extreme environment for human activity in many parts of the world. Some models capture aspects of this, because costs both in market and non-market sectors accelerate as temperatures increase.[^16] At 5 - 6°C above pre-industrial levels, the cost of climate change on, for example, agriculture can be very high.
+
+Further, Chapter 1 detailed emerging evidence of risks that higher temperatures will trigger massive system 'surprises', such as the melting and collapse of ice sheets and sudden shifts in regional weather patterns like the monsoons. Thus there is a danger that feedbacks could generate abrupt and large-scale changes in the climate and still further losses.
+
+Existing IAMs largely omit these system-change effects; including them is likely to increase cost estimates significantly. Although many factors can produce differences in results from model to model, it is nevertheless intuitive that the Nordhaus estimates[^17], produced by the only model to include catastrophic 'system change/surprise', were the highest among the existing IAMs. For increases in global mean temperature of 5 - 6°C above pre-industrial levels or more, costs were estimated to approach and even exceed 10% of global GDP.
+
+The Nordhaus method is based on polling a number of experts on the probability that a very large loss of 25% of global GDP, roughly equivalent to the effect of the Great Depression, will result from increases in global mean temperature of 3°C by 2090, 6°C by 2175 and 6°C by 2090. Taking account of estimated differences in regional vulnerability to catastrophic climate change, the model uses survey data to estimate people's willingness to pay to avoid the resulting risk. This approach is simple, but it takes us some way towards capturing the economic importance of complex, severe responses of the climate system.
+
+***Most existing IAMs also omit other potentially important factors – such as social and political instability and cross-sectoral impacts. And they have not yet incorporated the newest evidence on damaging warming effects.***
+
+One factor omitted at least in part from most models is 'socially contingent' responses – the possibility that climate change will not only increase the immediate costs of climate change, but also affect investment decisions, labour supply and productivity, and even social and political stability.
+
+On the one hand, these knock-on effects could dampen the negative effect of climate change, if the economic response is to adapt, for example, by shifting production from the most climate-sensitive sectors into less climate-sensitive sectors. As mentioned, recent models have taken adaptation more fully into account.
+
+On the other hand, knock-on effects could amplify the future consequences of today's climate change, for example if they reduce investment. This possibility has yet to be taken fully into account. In some models, baseline income is taken from outside the model, so that the impacts in any one time period do not affect growth in future periods. In other models, such as that employed by Nordhaus and Boyer,[^18] the economy makes investment and saving decisions based on the level of income it starts off with and on expectations of how that income will grow in the future. Climate change reduces investment and saving, as the income available to invest and the returns to saving fall.[^19]
+
+%%page 152%%
+
+How important might these effects be? Fankhauser and Tol[^20] unpack the 'Nordhaus' estimates to show that the knock-on cost of depressed investment on the total, long-run cost of 3°C warming is at least an additional 90% over and above the immediate cost. Furthermore, substituting for a more powerful model of economic growth that is better able to explain past and present growth trends, world GDP losses are almost twice as high as they are for immediate impacts alone. These dynamic effects may be especially strong in some developing regions, where the further effect of climate change may be to precipitate instability, conflict and migration (see Chapters 3 and 4).
+
+A second omitted factor is possible interactions between impacts in one sector and impacts in another, which past IAMs have not generally taken into account. Climate damage in one sector could multiply damage in another – for example, if water-sector impacts amplify the impacts of climate change on agriculture. The reasons for excluding these effects have to do with the modelling approach: in the basic IAM method, impacts are characteristically enumerated on a sector-by-sector basis, and then added up to arrive at the overall economy-wide impact.
+
+Finally, even in market sectors that the IAMs do cover well, the latest specialised impact studies suggest that IAM-based estimates may be too optimistic.[^21] The underlying impacts literature on which the IAMs are based dates primarily from 2000 or earlier. Since then, many of the predictions of this literature have become more pessimistic, for example, on the possible boost from CO2 fertilisation to agriculture (Chapter 3).
+
+The building of the IAMs has been a valuable contribution to our understanding of possible effects. Any model must necessarily leave out much that is important and can use only the information available at the time of construction. The science has moved quickly and the economic analysis and modelling can move with it.
+
+#### 6.4 Calculating the global cost of climate change: an 'expected-utility' analysis
+
+***Modelling the global cost of climate change presents many challenges, including how to take account of risks of very damaging impacts, as well as uncertain changes that occur over very long periods.***
+
+A model of the monetary cost of climate change ideally should provide:
+
+- Cost simulations across the widest range of possible impacts, taking into account the risks of the more damaging impacts that new scientific evidence suggests are possible.
+- A theoretical framework that is fit for the purpose of analysing changes to economies and societies that are large, uncertain, unevenly distributed and that occur over a very long period of time.
+
+This section begins with the first challenge, illustrating the consequences of BAU climate change in a framework that explicitly brings out risk. The second challenge is addressed later in the chapter, allowing consideration of how to value risks with different consequences, particularly the risks, however small, of very severe climate impacts.
+
+%%page 153%%
+
+***The model we use – the PAGE2002 IAM[^22] – can take account of the range of risks by allowing outcomes to vary probabilistically across many model runs, with the probabilities calibrated to the latest scientific quantitative evidence on particular risks.***
+
+The first challenge points strongly to the need for a modelling approach based on probabilities (that is, a 'stochastic' approach). The PAGE2002 (Policy Analysis of the Greenhouse Effect 2002) IAM meets this requirement by producing estimates based on 'Monte Carlo' simulation. This means that it runs each scenario many times (e.g. 1000 times), each time choosing a set of uncertain parameters randomly from pre-determined ranges of possible values. In this way, the model generates a probability distribution of results rather than just a single point estimate. Specifically, it yields a probability distribution of future income under climate change, where climate-driven damage and the cost of adapting to climate change are subtracted from a baseline GDP growth projection[^23].
+
+The parameter ranges used as model inputs are calibrated to the scientific and economic literatures on climate change, so that PAGE2002 in effect summarises the range of underlying research studies. So, for example, the probability distribution for the climate sensitivity parameter – which represents how temperatures will respond in equilibrium to a doubling of atmospheric carbon dioxide concentrations – captures the range of estimates across a number of peer-reviewed scientific studies. Thus, the model has in the past produced mean estimates of the global cost of climate change that are close to the centre of a range of peer-reviewed studies, including other IAMs, while also being capable of incorporating results from a wider range of studies.[^24] This is a very valuable feature of the model and a key reason for its use in this study.
+
+PAGE2002 has a number of further desirable features. It is flexible enough to include market impacts (for example, on agriculture, energy and coastal zones) and non-market impacts (direct impacts on the environment and human mortality), as well as the possibility of catastrophic climate impacts. Catastrophic impacts are modelled in a manner similar to the approach used by Nordhaus and Boyer.[^25] When global mean temperature rises to high levels (an average of 5°C above pre-industrial levels), the chance of large losses in regional GDP in the range of 5 - 20% begins to appear. This chance increases by an average of 10% per ºC rise in global mean temperature beyond 5°C. At the same time, PAGE2002 shares many of the limitations of other formal models. It must rely on sparse or non-existent data and understanding at high temperatures and in developing regions, and it faces difficulties in valuing direct impacts on health and the environment. Moreover, like the models depicted in Figure 6.3, the PAGE2002 model does not fully cover the 'socially contingent' impacts. As a result, the estimates of catastrophic impacts may be conservative, given the damage likely at temperatures as high as 6 - 8°C above pre-industrial levels. Thus the results presented below should be viewed as indicative only and interpreted with great caution. Given what is excluded, they should be regarded as rather conservative estimates of costs, relative to the ability of these models to produce reliable guidance.
+
+***We present results based on different assumptions along two dimensions: first, of how fast global temperatures increase in response to GHG emissions and, second, different categories of economic impact.***
+
+To reflect the considerable uncertainty about likely probability distributions and difficulties in measuring different effects, we examine models that differ along two dimensions:
+
+- Response of the climate to GHG emissions. We run the model under two different assumed levels of climatic response. The 'baseline climate' scenario is designed to give outputs consistent with the IPCC Third Assessment Report (TAR)[^26]. The 'high climate' scenario adds to this a risk of there being amplifying natural feedbacks in the climate system. This is based on recent studies showing that there is a real risk of additional feedbacks, such as weakening carbon sinks and natural methane releases from wetlands and thawing permafrost. This scenario gives a higher probability of larger temperature changes. These scenarios are discussed in more detail in Box 6.1. Both climate scenarios give temperature outputs that are roughly consistent with other studies.
+
+%%page 154%%
+
+Box 6.1 The PAGE2002 climate scenarios.
+
+Baseline Climate: This is designed to give outputs consistent with the range of assumptions presented in the IPCC Third Assessment Report (TAR). The scenario produces a mean warming of 3.9°C relative to pre-industrial in 2100 and a 90% confidence interval of 2.4 – 5.8°C (see figure below) for the A2 emissions scenario used in this exercise. This is in line with the mean projection of 4.1°C given by the IPCC TAR. The IPCC does not give a probability range of temperatures. It does quote a range across several models of 3.0 – 5.3°C. The wider range of temperatures produced by PAGE2002 mainly reflects the wider combinations of parameters explored by the model.
+
+High Climate: This is designed to explore the impacts that may be seen if the level of temperature change is pushed to higher levels through the action of amplifying feedbacks in the climate system. Scientists are only just beginning to quantify these effects, but these preliminary studies suggest that they will form an important part of the climate system's response to GHG emissions. No studies have yet combined ranges of climate sensitivity and feedbacks in this way, so these results should be treated as only indicative of the possible potential scale of response. The scenario includes recent estimates of two types of amplifying feedback: a weakening of natural carbon absorption and increased natural methane releases from, for example, thawing permafrost.
+
+- Weakened carbon sinks: As temperatures increase, plant and soil respiration increases. Recent evidence suggests that these extra natural emissions will offset any increase in natural sink capacity due to carbon fertilisation, so that carbon sinks will be weakened overall (discussed in Chapter 1). Weakening of carbon sinks is modelled as a function of temperature, based on Friedlingstein et al. (2006).
+- Increased natural methane releases: Natural methane currently locked in wetlands and permafrost is released as temperatures rise. This is simulated using a probability distribution based on recent studies (Box 1.3)[^27].
+
+In this exercise, these feedbacks push the mean temperature change up by around 0.4°C and give a higher probability of larger temperature increases. Accordingly, the 90% confidence interval increases to 2.6 - 6.5°C. There is little effect on the lower bound of temperature changes, as, at this level, temperatures are not large enough to initiate a significant feedback effect from the carbon cycle. The increase in the mean and upper bound are consistent with recent studies (chapter 1).
+
+%%page 155%%
+
+- Categories of economic impact. Our analyses also vary in the comprehensiveness with which they measure the impacts of climate change on the economy and on welfare. The first set of estimates includes only the impacts of 'gradual climate change' on market sectors of the economy. In other words, it takes no account of the possibility of catastrophic events that we now know may occur. The second set also includes the risk of catastrophic climate impacts at higher temperatures. Figure 6.3 illustrated that these also fall on market sectors of the economy, but are much more uncertain. Finally, the third set includes market impacts, the risk of catastrophe and direct, non-market impacts on human health and the environment. This chapter shall argue that attention should be focused on the second and third cases here, since there is very good reason to believe that both are relevant.
+
+These dimensions combine to produce a 2x3 matrix of scenarios (Figure 6.4). For example, the lowest cost estimates would be expected to come from the scenario that (i) uses the baseline-climate scenario and (ii) considers only those impacts from gradual climate change on market sectors.
+
+Figure 6.4 A 2x3 matrix of scenarios.
+
+***Preliminary estimates of average losses in global per-capita GDP in 2200 range from 5.3 to 13.8%, depending on the size of climate-system feedbacks and what estimates of 'non-market impacts' are included.***
+
+Estimates of losses in per-capita income over time are benchmarked against projected GDP growth in a world without climate change. The baseline-climate/market-impacts scenario generates the smallest losses, where climate change reduces global per-capita GDP by, on average, 2.2% in 2200. However, as discussed in the previous section, the omission of the very real risk of abrupt and large-scale changes at high temperatures creates an unrealistic negative bias in estimates.
+
+Figure 6.5 shows the results of scenarios including a risk of 'catastrophe'. The lower-bound estimate of the global cost of climate change in Figure 6.5 uses the baseline climate and includes both market impacts and the risk of catastrophic changes to the climate system (Figure 6.5a). In this scenario, the mean loss in global per-capita GDP is 0.2% in 2060. By 2100, it rises to 0.9%, but by 2200 it rises steeply to 5.3%.
+
+There is a substantial dispersion of possible outcomes around the mean and, in particular, a serious risk of very high damage. The grey-shaded areas in Figure 6.5 give the range of estimates in each year taken from the 5th and 95th percentile damage estimates over the 1000 runs of the model. For the lower-bound estimate in 2100, the range is a 0.1 - 3 % loss in global GDP per capita. By 2200, this rises to 0.6 – 13.4%.
+
+%%page 156%%
+
+Figures 6.5b to d demonstrate the loss in global GDP per capita when first, the risk of more feedbacks in the climate system is included (the high-climate scenario), and second, estimates of non-market impacts of climate change are included. In the high-climate scenario, the losses in 2100 and 2200 are increased by around 35%. In 2200, the range of losses is increased to between 0.9% and 17.9%.
+
+The inclusion of non-market impacts increases these estimates further still. In this Review, non-market impacts, on health and the environment, are generally considered separately to market impacts. However, if the goal is to compare the cost of climate change in monetary terms with the equivalent cost of mitigation, then excluding non-market costs is misleading. For the high-climate scenario with non-market impacts (Figure 6.5c), the mean total losses are 2.9% in 2100 and 13.8% in 2200. In 2200, the 5th and 95th percentiles increase significantly, to 2.9% to 35.2%.
+
+These estimates still do not capture the full range of impacts. The costs of climate change could be greater still. For example, recent studies demonstrate that the climate sensitivity could be greater than the range used in the PAGE2002 climate scenarios (Chapter 1). Were this to be the case, costs would rise again. The potential impacts of higher climate sensitivity are explored speculatively in Box 6.2.
+
+Box 6.2 Exploring the consequences of high climate sensitivity.
+
+The climate scenarios described in Box 6.1 are based on a climate sensitivity (the equilibrium temperature increase following a doubling in atmospheric carbon dioxide concentrations) range of 1.5 - 4.5°C, as outlined in the IPCC TAR[^28]. However, studies since the TAR have shown up to a 20% chance that the climate sensitivity could be greater than 5°C. In order to explore the possible consequences of recent scientific evidence on a higher climate sensitivity, we develop a 'high+' climate scenario that combines the amplifying natural feedbacks explained in Box 6.1 with a higher probability distribution for the climate sensitivity parameter. We use the climate sensitivity distribution estimated by Murphy et al. (2004). This is has a 5 - 95% range of 2.4 - 5.4°C, and a mode of 3.5, with a loglogistic distribution (Box 1.2).
+
+This scenario is particularly speculative, but we cannot rule out that this is the direction that further evidence might take us. Combining the high+ scenario with market impacts and the risk of catastrophe, the mean loss in global per-capita GDP is 0.4% in 2060. In 2100, it rises to 2.7%, but by 2200 it rises to 12.9%. Adding non-market impacts, the mean loss is 1.3% in 2060, 5.9% in 2100 and 24.4% in 2200.
+
+In addition, these results reflect the aggregation of costs across the world, but aggregating simply by adding GDP across countries or regions masks the value of impacts in poor regions. A given absolute loss is more damaging for a person on lower incomes. Nordhaus and Boyer[^29] and Tol[^30] demonstrate that giving more weight to impacts in poor regions increases the global cost of climate change. Nordhaus and Boyer estimate that the global cost increases from 6% to 8% of GDP for 5°C warming, one quarter higher. Tol estimates that the global cost is almost twice as high for 5°C warming, if he uses welfare weights (see Section 6.2).
+
+***Only a small portion of the cost of climate change between now and 2050 can be realistically avoided, because of inertia in the climate system.***
+
+Past emissions of GHGs have already committed the world to much of the loss in global GDP per capita over the next few decades. Over this period, market impacts are likely to be relatively small. This is, in large part, because the risk of catastrophic, large-scale changes to the climate system, as well as amplifying natural feedbacks (which boost the temperature response to GHG emissions), become a bigger factor later. Non-market impacts are significant in the period to 2050, reaching around 0.5% of per-capita global GDP in 2050 in both the baseline and high-climate scenarios.
+
+%%page 157%%
+
+Figure 6.5 a. Baseline-climate scenario, with market impacts and the risk of catastrophe. Figure 6.5b. High-climate scenario, with market impacts and the risk of catastrophe. Figure 6.5c. High-climate scenario, with market impacts, the risk of catastrophe and non-market impacts. Figure 6.5d. Combined scenarios. Figure 6.5a-d traces losses in income per capita due to climate change over the next 200 years, according to three of our main scenarios of climate change and economic impacts. The mean loss is shown in a colour matching the scenarios of Figure 6.4. The range of estimates from the 5th to the 95th percentile is shaded grey.
+
+%%page 158%%
+
+***In all scenarios, the highest impacts are in Africa and the Middle East, and India and South-East Asia.***
+
+For example, in the baseline-climate scenario with all three categories of economic impact, the mean cost to India and South-East Asia is around 6% of regional GDP by 2100, compared with a global average of 2.6%.
+
+***In all scenarios, the consequences of climate change will become disproportionately more severe with increased warming.***
+
+Figure 6.6 examines the relationship between mean losses in per-capita GDP and average increases in global mean temperature produced by the baseline and high-climate scenarios. The figure makes two important points graphically:
+
+- The first is that the climatic effects suggested by the newer scientific evidence have the potential to nudge global temperatures, and therefore impacts, to higher levels than those suggested by the IPCC TAR report. In the high scenario, global mean temperature rises to an average of nearly 4.3°C above pre-industrial levels by 2100, compared with an average of 3.9°C above pre-industrial levels in the baseline scenario. The difference between the two scenarios increases beyond 2100, because the effect of the amplifying natural feedbacks becomes more marked at higher temperatures. By 2200, the rise in global mean temperature increases to 8.6°C in the high-climate scenario, while the baseline reaches only 7.4°C. These numbers should be treated as indicative, as climate models have not yet been used to explore the high temperatures that are likely to be realised beyond 2100. They do demonstrate that, if emissions continue unabated, the climate is very likely to enter unknown territory with the potential to cause severe impacts.
+- Second, scenarios that include the risk of catastrophe and non-market impacts project higher costs of climate change at any given temperature. The figure makes an additional point that the incremental cost associated with including these non-market and catastrophic impacts increases as temperatures rise, so that the wedge between the economic scenarios becomes more and more substantial.
+
+***Estimates of income effects and distribution of risks can also be used to calculate the overall welfare cost of climate change.***
+
+Whereas the first part of Section 6.4 estimated how BAU climate change would affect income, the remainder of the section tackles a still more important challenge: estimating the global welfare costs of climate change, taking explicitly into account the risks involved. Because the forecast changes are large, uncertain, and unevenly distributed, and because they occur over a very long period of time, this exercise must take on the problem of aggregating across different possible outcomes (risk), over different points in time (inter-temporal distribution), and over groups with different incomes (intra-temporal distribution). It should carry out these three types of aggregation consistently. At this stage of the analysis, we have not incorporated intra-temporal distribution.
+
+First, the analysis requires evaluation of the significance of severe climate risks that would result in very low levels of global GDP relative to the world without climate change. In the high-climate scenario with market impacts, the risk of catastrophe and non-market impacts, for example, the 95th percentile estimate is a 35.2% loss in global per-capita GDP by 2200. This is not the statistical mean, but it is nevertheless a risk that few would want to ignore. As discussed below, such risks have a disproportionate effect on welfare calculations, because they reduce income to levels where every marginal dollar or pound has greater value. That is indeed how risk is generally treated in economics.
+
+Second, it requires deciding how to express the future costs of BAU climate change in terms that can be compared with current levels of well-being: we have to evaluate costs occurring at different times on a common basis. The process of warming builds over many decades. In the baseline-climate scenario, 5°C warming is not predicted to occur until some time between 2100 and 2150. By then, growth in GDP will have made the world considerably richer than it is now.
+
+%%page 159%%
+
+Figure 6.6 Mean losses in income per capita from four scenarios of climate change and economic impacts, plotted against average increases in global mean temperature (above pre-industrial levels).
+
+This figure traces mean losses in per-capita GDP due to climate change as a function of increasing global mean temperature, according to four of the scenarios of climate change and economic impacts. Losses are compared to baseline growth in per-capita GDP without climate change. Because temperature is one of the probabilistic outputs of the PAGE2002 model, increases in temperature in each scenario are averaged across all 1000 runs.
+
+***To make these calculations, the model uses the standard tools of applied welfare economics, as described in Chapter 2 and its Appendix.***
+
+In these highly aggregated models, the basic approach has to be simple, but it does depend on key assumptions. It is important to lay them out transparently. First, in applying this basic welfare-economics theory to the PAGE2002 model, we follow many other studies in calculating overall social welfare (or global 'utility', to use the standard economic term) as the sum of social utilities of consumption of all individuals in the world. In practice, for this exercise, this means that we convert per-capita global GDP at each point in time into consumption[^31], and then calculate the social utility of per-capita consumption. This is then multiplied by global population (Box 6.3).
+
+An approach that would better reflect the consequences of climate change on different world regions would take regional per-capita utility (e.g. for India and South-East Asia) and multiply by regional population to get 'regional utility'. Global utility would then be the sum of regional utilities[^32]. Doing so was beyond the scope of this exercise, given the limited time available for analysis, but it is possible to provide some assessment of the bias from this omission. Taking this regional approach would increase the climate-change cost estimates, as illustrated in Section 6.2, so our decision to use a simpler global aggregation approach will bias our model toward lower cost estimates.
+
+%%page 160%%
+
+Second, we use the assumption of diminishing marginal utility as we evaluate risks and future welfare. This standard assumption in economics, generally supported by empirical evidence on behaviour and preferences, holds that the extra utility produced by additional consumption falls as the level of consumption rises. That is, an extra dollar or pound is worth more to a poor person than it is to a rich person. This assumption plays an important role in the welfare calculations, in that it places greater weight on:
+
+- Near-term consumption than on consumption in the distant future, because even with climate change, the world will be richer in the future as a result of economic growth; and
+- The most severe climate impacts, because they reduce consumption to such low levels (see Chapter 2 and its Appendix for the underlying welfare economics).
+
+Third, consumption growth is allowed to vary in the future in systematic ways. Traditionally, economic appraisal of projects and policies has taken a simplified approach to this basic welfare-economics framework. Consumption is simply assumed to grow at a certain rate in the future, with uncertainty entering the projection only to the extent that there will be perturbations around this assumed path. In our case, however, climate change could substantially reduce consumption growth in the future, and so two probabilistic model runs with different climate impacts produce different growth rates. So the simplified approach will not work here. Instead, we have to go back to the underlying theory, which implies that consumption paths must be valued separately along each of the model's many (1000, say) runs.
+
+Fourth, in carrying out the expected-utility valuation process, we use a pure rate of time preference (or 'utility discount rate') to weight (or value) the utility of consumption at each point in the future. Thus utility in the future has a different weight simply because it is in the future.[^33] This assumption is difficult to justify on ethical grounds, as discussed in Chapter 2 and its Appendix, except where we take into account the probability that individuals will be alive in the future to enjoy the projected consumption stream. In other words, if we know a future generation will be present (that is, apart from discounting for the small chance of global annihilation), we suppose that it has the same claim on our ethical attention as the current one.
+
+Putting all this together, we can:
+
+- Calculate the aggregate utility of the different paths over the future by adding utilities over time, as described, and then;
+- Average utility across all 1000 runs to calculate the expected utility under each scenario.
+
+Finally, we need to decide in what terms to express the loss in expected future welfare due to climate change. If the result is to guide policy, it must be easily understandable. When we calculate social utility and aggregate over time for risk, the resulting measure might most immediately be expressed in expected 'utils', but this would not be easily understood. Instead, we introduce the idea of a 'Balanced Growth Equivalent' (hereafter BGE)[^34] to calibrate welfare along a path. The BGE essentially measures the utility generated by a consumption path in terms of the consumption now that, if it grew at a constant rate, would generate the same utility.[^35]
+
+Taking the difference between the BGE of a single consumption path with climate damage and a consumption path without it gives the costs of climate change, measured in terms of a permanent loss of consumption, now and forever. One can think of the costs measured in this way as like a tax levied on consumption now and forever, the proceeds of which are simply poured away.
+
+%%page 161%%
+
+Box 6.3 'Expected-utility' analysis of the global cost of climate change.
+
+PAGE2002 takes baseline GDP growth from an exogenous scenario[^36] and produces 1000 runs of global GDP, less the cost of climate change damage and adaptation to climate change, from 2001 to 2200. Thus we obtain a probability distribution of global income pathways net of climate change damage and adaptation costs.
+
+We first transform this probability distribution into GDP per capita, dividing through each run by a population scenario determined exogenously.[^37] Then we transform each run into global consumption per capita, taking an arbitrary, exogenous rate of saving of 20%.
+
+We transform consumption per capita into utility: where U is utility, C is consumption per capita, t is the year[^38] and η is the elasticity of the marginal utility of consumption (see the Appendix to Chapter 2). In our main case, we take η to be 1, in line with recent empirical estimates.[^39] Further work would investigate a broader range of η, including higher values.[^40] Where η is 1, the utility function is a special case:
+
+U (t ) = ln C (t ) (2) Then discounted utility (with constant population) is given by:
+
+W = ∫ U (t )e −δt dt (3) where W is social welfare and δ is the utility discount rate. The value of δ is taken to be 0.1% per annum, so that the probability of surviving beyond time T is described by a Poisson process e-δT, where δ is the annual risk of catastrophe eliminating society, here 0.1%. So the probability of surviving beyond, say, 2106 is e-0.001*100, which is 90.5%. The Appendix to Chapter 2 discusses the implications of this choice in more detail.
+
+Where population varies exogenously over time, we would automatically weight by population. In the case of just one region (i.e. the world), this means that we integrate global utility weighted by global population over time:
+
+W = ∫ N (t )U (t )e −δt dt (4) where N is global population. Where global income data can be disaggregated, regional utility should be evaluated for consistency using similar utility functions to that used in (4).[^41] For endogenous population growth, some difficult ethical issues are involved and we cannot automatically apply this criterion (see Chapter 2 and appendix).
+
+In the PAGE2002 modelling horizon – 2001 to 2200 – we can calculate total discounted utility as the sum of discounted utility in each individual year:
+
+W = ∑ U (t )e −δt (5)
+
+We approximate utility from 2200 to infinity based on an assumed, arbitrary rate of per-capita consumption growth g, which is achieved by all paths, as well as assessing constant population. We use 1.3% per annum, which is the annual average projection from 2001 to 2200 in PAGE2002's baseline world without climate change. In other words, as a simplification, in each run the world instantaneously overcomes the problems of climate change in the year 2200 (zero damages and zero adaptation) and all runs grow at an arbitrary 1.3% into the far-off future. In this sense there is an underestimate of the costs of climate change. Again, a special case arises where the elasticity of the marginal utility of consumption is 1:
+
+%%page 162%%
+
+W = ∑ N (t ) ln C (t )e −δt + ( )e −δT (6)
+
+Expected utility is given by the mean of total discounted utility from 2001 to infinity along all 1000 runs.
+
+Finally, we can find the balanced growth equivalent (BGE) of the discounted consumption path described in 6. This is the current level of consumption per capita (i.e. in 2001), which, growing at a constant rate g set again to 1.3% per annum, delivers the same amount of utility as in (6) for the case of η = 1. (7)
+
+We have to go beyond the simple BGE generated in this way to take account of uncertainty. Thus the BGEs calculated here calibrate the expected utility in a particular scenario (with many possible paths) in terms of the definite or certain consumption that, if it grew at a constant rate, would generate the same expected utility. One can, therefore, think of the BGE measure of climate-change costs not as a tax but as the maximum insurance premium society would be prepared to pay, on a permanent basis, to avoid the risk of climate change (if society shared the policy-maker's ethical judgements). In practice, as we shall see, society will not in fact have to pay as much as this. Thus the BGE here combines the growth idea of Mirrlees and Stern[^42] with the certainty equivalence ideas in, say, Rothschild and Stiglitz[^43]. The next step, if intra-temporal income distribution is taken into account explicitly, would be to combine it with the 'equally distributed equivalent' income of Atkinson[^44]. Box 6.3 outlines our calculations in more detail.
+
+***The welfare costs of BAU climate change are very high. Climate change is projected to reduce average global welfare by an amount equivalent to a permanent cut in per-capita consumption of a minimum of 5%.***
+
+Table 6.1 presents results in terms of Balanced Growth Equivalents (BGEs), based on defensible values for the utility discount rate (0.1% per annum) and for the elasticity of the marginal utility of consumption (1.0) (see Chapter 2 and its Appendix for an explanation and justification). For each of our six scenarios of climate change and economic impacts, we calculate three BGEs:
+
+- For mean total discounted utility;
+- For total discounted utility along the 5th percentile run;
+- For total discounted utility along the 95th percentile run.
+
+Table 6.1 shows the results. In each case, we quote the difference between the BGEs with and without climate change – the cost of climate change – in percentage terms. These are our headline results from the modelling. The numbers express the cost of 'business as usual' (BAU) climate change over the next two centuries in terms of present per-capita consumption for each scenario as a whole and for specific paths with impacts at the low and high end of the underlying probability distributions.
+
+%%page 163%%
+
+Table 6.1 Losses in current per-capita consumption from six scenarios of climate change and economic impacts*.
+
+*Utility discount rate = 0.1% per annum; elasticity of marginal utility of consumption = 1.0.
+
+The results under the different scenarios range greatly, but virtually all project that BAU climate change will have very significant costs. In our lower-bound scenario, comprising the baseline climate scenario and including both market impacts and the risk of catastrophe, the BGE of the mean outcome is 5% below the equivalent BGE without climate change, meaning that the expected welfare cost of BAU climate change between 2001 and 2200 is equivalent to a 5% loss in per-capita consumption, now and forever. The BGE of the 95th percentile run amounts to a 12.3% loss in consumption now and forever, while the BGE of the 5th percentile run amounts to a 0.6% loss.
+
+***Climate change will reduce welfare even more if non-market impacts are included, if the climatic response to rising GHG emissions takes account of feedbacks, and if regional costs are weighted using value judgements consistent with those for risk and time. Putting these three factors together would probably increase the cost of climate change to the equivalent of a 20% cut in per-capita consumption, now and forever.***
+
+- Adding the possibility of the feedbacks involved in the high-climate scenario reduces the BGE of mean total discounted utility to 6.9% below the equivalent BGE without climate change. The BGE of the 95th percentile run is 16.5% below, while the BGE of the 5th percentile run is just 0.9% below.
+- In the high-climate scenario and with all three categories of economic impact (that is, adding the non-market impact), the BGE of the mean outcome is reduced to 14.4% below the equivalent BGE without climate change. The BGE of the 95th percentile run is 32.6% below, while the BGE of the 5th percentile run is 2.7% below. If the possibility of still higher climate sensitivities is taken into account, the incremental cost might be higher still.
+- Calculating the BGE cost of climate change after including value judgements for regional distribution is beyond the scope of this Review, given our limited time. But if we take as an indication of how much estimates might increase the results of Nordhaus and Boyer[^45], then estimates might be one quarter higher. In addition, because their deterministic approach could not take into account the valuation of risk, there is good reason to believe that the weighting would in our model increase estimates still further (see the Appendix to Chapter 2). In total, the global cost of climate change would probably be equivalent to around a 20% reduction in the BGE compared with a world without climate change.
+
+Finally, we should discuss where one might place the evaluation of the losses from climate change between the 5 and 20% figures. There are two types of issue. The first is the inclusion of relevant effects and the second is the presence of different possible probability distributions.
+
+%%page 164%%
+
+On the first, it is reasonable to include what we consider to be relevant effects. This means catastrophic events, non-market effects and distribution of impacts within a generation. We have calculated the first two of these. However, we have conceptual, ethical and practical reservations about how non-market impacts should be included, although there is no doubt they are important. We have yet to calculate the distributional effects – that is for further work – but, based on previous studies, we can hazard a guess.
+
+The second type of issue concerns the fact that we are unsure of which probability distribution to use. This takes us back to the distinction between risk and uncertainty discussed in Chapter 2 and the Appendix. We argued there that we now have some theory to guide us. Essentially, it points to taking a weighted average of the best and worst expected utility.
+
+The first type of issue would take the evaluation towards an overall loss in the region of 13-15% (using the 10.9% figure of Table 6.1 and scaling up by one-quarter or more for distribution). The second type of issue would lead to taking a weighted average somewhere between this figure (13 or 14%) and 20%. The weights would depend on crude judgements about likelihoods of different kinds of probability distributions, on judgements about the severity of losses in this context, and on the basic degree of cautiousness on the part of the policy-maker. Together, they would make up the 'aversion to ambiguity' discussed in Chapter 2 and the Appendix.
+
+This discussion points to areas for further work in the context of this particular model: distribution within a generation and explaining different distributional judgements. Of course, there is much more to do in terms of considering different economic models – we have investigated just one – and exploring different probability distributions.
+
+#### 6.5 Conclusion
+
+This Chapter has presented global cost estimates of the losses from 'business as usual' climate change. They have been expressed in terms of their equivalent permanent percentage loss in consumption. They are averages over time and risk and can be compared with percentage costs, similarly averaged over time, of mitigation – that is the subject of Part III of this Review. In the final chapter of that part, we include a discussion of how much of the losses estimated in this Chapter could be saved by mitigation. The loss estimates of this Chapter should be viewed as complementary to the discussions of the scale of the separate impacts on consumption, health, and environment that were presented in Chapters 3 to 5.
+
+What have we learned from this exercise? Notwithstanding the limitations inherent in formal integrated models, there can be no doubt that the economic risks of a 'business as usual' approach are very severe – and probably more severe than suggested by past models. Relying on the scientific knowledge that informed the IPCC's TAR, the cost of BAU climate change over the next two centuries is equivalent to a loss of at least 5% of global per-capita consumption, now and forever. More worrying still, when the model incorporates non-market impacts and more recent scientific findings on natural feedbacks, this total average cost is pushed to 14.4%.
+
+Cost estimates would increase still further if the model incorporated other important omitted effects. First, the welfare calculations fail to take into account distributional impacts, even though these impacts are potentially very important: poorer countries are likely to suffer the largest impacts. Second, there may be greater risks to the climate from dynamic feedbacks and from heightened climate sensitivity beyond those included here. If these are included, the total cost would be likely to be around 20% of current per-capita consumption, now and forever.
+
+Further, there are potentially worrying 'social contingent' impacts such as migration and conflict, which have not been quantified explicitly here. If the world's physical geography is changed, so too will be its human geography.
+
+Finally, we must close with the warning about over-literal interpretation of these results with which we began this chapter. The estimates have arisen from an attempt to add two things to the previous literature on IAM models. The first is use of recent scientific estimates of probabilities and the second is putting these probabilities to work using the economics of risk and uncertainty. The most worrying possible impacts are also among the most uncertain, given that so little is known about the risks of very high temperatures and potential dynamic instability. The exercise allows us to see what the implications of the risks, as we currently understand them, might be. The answer is that they would imply very large estimates of potential losses from climate change. They give an indication of the stakes involved in making policy on climate change. The analysis of this Chapter shows the inevitable difficulties of all these models in extrapolating over very long periods of time. We therefore urge the reader to avoid an over-literal interpretation of these results. Nevertheless, we think that they illustrate a very important point: the risks involved in a 'business as usual' approach to climate change are very large.
+
+%%page 165%%
+
+%%page 166%%
+
+#### References
+
+Successive IPCC assessments of the IAM literature can be found in Pearce et al. (1996) and Smith et al. (2001). Hitz and Smith (2004) provide a more recent summary, focussing on the nature of the relationship between rising temperatures and the cost of climate change. William Cline's 1992 book The Economics of Global Warming and William Nordhaus and Joseph Boyer's 2000 book Warming the World provide an important and well-structured discussion of the issues, while Hope (2005) explains Integrated Assessment Modelling in detail. Watkiss et al. (2005) is a valuable discussion of the uncertainties around estimating the monetary cost of climate change, while Warren et al. (2006) subject the damage functions in IAMs to critical scrutiny.
+
+Atkinson, A. B. (1970): 'On the measurement of inequality', Journal of Economic Theory, 2(3): 244-263
+
+Cline, W.R. (1992): 'The Economics of Global Warming'. Washington, DC: Institute for International Economics
+
+Fankhauser, S. and R.S.J. Tol (2003): 'On climate change and economic growth', Resource and Energy Economics 27: 1-17
+
+Friedlingstein, P., P. Cox, R. Betts et al. (2006): 'Climate-carbon cycle feedback analysis: results from C4MIP model intercomparison', Journal of Climate, 19: 3337-3353
+
+Gedney, N., P.M. Cox and C. Huntingford (2004): 'Climate feedback from wetland methane emissions', Geophysical Research Letters 31(20): L20503.
+
+Hallegatte, S. and J.-C. Hourcade (2006): 'Why economic dynamics matters in the assessment of climate change damages: illustration on extreme events', Ecological Economics (forthcoming).
+
+Hitz, S. and J.B. Smith (2004): 'Estimating global impacts from climate change', The Benefits of Climate Change Policies, J. -C. Morlot and S. Agrawala. Paris: OECD, pp 31-82.
+
+Hope, C. (2003): 'The marginal impacts of CO2, CH4 and SF6 emissions,' Judge Institute of Management Research Paper No.2003/10, Cambridge, UK, University of Cambridge, Judge Institute of Management.
+
+Hope, C. (2005): 'Integrated assessment models' in Helm, D. (ed.), Climate-change policy, Oxford: Oxford University Press, pp 77-98.
+
+Intergovernmental Panel on Climate Change (2001): Climate Change 2001: The Scientific Basis. Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change [Houghton JT, Ding Y, Griggs DJ, et al. (Eds.)], Cambridge: Cambridge University Press.
+
+Jorgenson, D.W., R.J. Goettle, B.H. Hurd et al. (2004): 'US market consequences of global climate change', Washington, DC: Pew Center on Global Climate Change.
+
+Mendelsohn, R.O., W.N. Morrison, M.E. Schlesinger and N.G. Andronova (1998): 'Country-specific market impacts of climate change', Climatic Change 45(3-4): 553-569
+
+Mirrlees, J.A. and N.H. Stern (1972): 'Fairly good plans', Journal of Economic Theory 4(2): 268-288
+
+Murphy J.M. et al. (2004): 'Quantification of modelling uncertainties in a large ensemble of climate change simulations ', Nature 430: 768 – 772
+
+Nordhaus, W.D. and J.G. Boyer (2000): 'Warming the World: the Economics of the Greenhouse Effect', Cambridge, MA: MIT Press.
+
+%%page 167%%
+
+Pearce, D.W. et al. (1996): 'The social costs of climate change: greenhouse damage and the benefits of control' Climate Change 1995: Economic and Social Dimensions of Climate Change, Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press pp 183-224
+
+Pearce, D.W. and A. Ulph (1999): 'A social discount rate for the United Kingdom' Economics and the Environment: Essays in Ecological Economics and Sustainable Development, D.W. Pearce, Cheltenham: Edward Elgar.
+
+Rothschild, M.D. and J.E. Stiglitz (1970): 'Increasing Risk: I. A Definition', Journal of Economic Theory, September 2, pp255-243.
+
+Smith, J.B. et al. (2001): 'Vulnerability to climate change and reasons for concern: a synthesis' Climate Change 2001: Impacts, Adaptation and Vulnerability, Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press pp 913-967.
+
+Stern, N. (1977): 'The marginal valuation of income', in Artis, M. and R. Nobay (eds.), Studies in Modern Economic Analysis, Oxford: Blackwell.
+
+Tol, R.S.J. (2002): 'Estimates of the damage costs of climate change – part II: dynamic estimates', Environmental and Resource Economics 21: 135-160
+
+Tol, R.S.J. (2005): 'The marginal damage costs of carbon dioxide emissions: an assessment of the uncertainties', Energy Policy 33(16): 2064-2074
+
+Warren, R. et al. (2006): 'Spotlighting Impacts Functions in Integrated Assessment Models', Norwich, Tyndall Centre for Climate Change Research Working Paper 91.
+
+Watkiss, P. et al. (2005): 'Methodological Approaches for Using Social Cost of Carbon Estimates in Policy Assessment, Final Report', Culham: AEA Technology Environment.
+
+%%page 168%%
+
+## Part III: The Economics of Stabilisation
+
+Part III of the Review considers the economic challenges of achieving stabilisation of greenhouse gases in the atmosphere.
+
+'Business as usual' emissions will take greenhouse gas concentrations and global temperatures way beyond the range of human experience. In the absence of action, the stock of greenhouse gases in the atmosphere could more than treble by the end of the century.
+
+Stabilisation of concentrations will require deep emissions cuts of at least 25% by 2050, and ultimately to less than one-fifth of today's levels. The costs of achieving this will depend on a number of factors, particularly progress in bringing down the costs of technologies. Overall costs are estimated at around 1% of GDP for stabilisation levels between 500-550ppm CO2e.
+
+The costs will not be evenly felt – some carbon-intensive sectors will suffer, while for others, climate change policy will create opportunities. Climate change policies may also have wider benefits where they can be designed in a way that also meets other goals.
+
+Comparing the costs and benefits of action clearly shows that the benefits of strong, early action on climate change outweigh the costs. The current evidence suggests aiming for stabilisation somewhere within the range 450-550ppm CO2e. Ignoring climate change will eventually damage economic growth; tackling climate change is the pro-growth strategy.
+
+Part III is structured as follows:
+
+- Chapter 7 discusses the past drivers of global emissions growth, and how these are likely to evolve in the future.
+- Chapter 8 explains what needs to happen to emissions in order to stabilise greenhouse-gas concentrations in the atmosphere, and the range of trajectories available to achieve this.
+- Chapter 9 discusses how to identify the costs of mitigation, and looks at a resource-based approach to calculating global costs.
+- Chapter 10 compares modelling approaches to calculating costs, and looks at how policy choices may influence cost.
+- Chapter 11 considers how climate change policies may affect competitiveness if they are not applied evenly worldwide.
+- Chapter 12 looks at how to take advantage of the opportunities and wider benefits arising from action on climate change.
+- Chapter 13 brings together the analysis of costs and benefits, and looks at how a global long-term goal for climate change policy can be defined.
+
+%%page 169%%
+
+### 7 Projecting the Growth of Greenhouse-Gas Emissions
+
+Key Messages
+
+Greenhouse-gas concentrations in the atmosphere now stand at around 430ppm CO2 equivalent, compared with only 280ppm before the Industrial Revolution. The stock is rising, driven by increasing emissions from human activities, including energy generation and land-use change.
+
+Emissions have been driven by economic development. CO2 emissions per head have been strongly correlated with GDP per head across time and countries. North America and Europe have produced around 70% of CO2 emissions from energy production since 1850, while developing countries – non-Annex 1 parties under the Kyoto Protocol – account for less than one quarter of cumulative emissions.
+
+Annual emissions are still rising. Emissions of carbon dioxide, which accounts for the largest share of greenhouse gases, grew at an average annual rate of around 2½% between 1950 and 2000. In 2000, emissions of all greenhouse gases were around 42GtCO2e, increasing concentrations at a rate of about 2.7ppm CO2e per year.
+
+Without action to combat climate change, atmospheric concentrations of greenhouse gases will continue to rise. In a plausible 'business as usual' scenario, they will reach 550ppm CO2e by 2035, then increasing at 4½ppm per year and still accelerating.
+
+Most future emissions growth will come from today's developing countries, because of more rapid population and GDP growth than developed countries, and an increasing share of energy-intensive industries. The non-Annex 1 parties are likely to account for over three quarters of the increase in energy-related CO2 emissions between 2004 and 2030, according to the International Energy Agency, with China alone accounting for over one third of the increase.
+
+Total emissions are likely to increase more rapidly than emissions per head, as global population growth is likely to remain positive at least to 2050.
+
+The relationship between economic growth and development and CO2 emissions growth is not immutable. There are examples where changes in energy technologies, the structure of economies and the pattern of demand have reduced the responsiveness of emissions to income growth, particularly in the richest countries. Strong, deliberate policy choices will be needed, however, to decarbonise both developed and developing countries on the scale required for climate stabilisation.
+
+Increasing scarcity of fossil fuels alone will not stop emissions growth in time. The stocks of hydrocarbons that are profitable to extract (under current policies) are more than enough to take the world to levels of CO2 concentrations well beyond 750ppm, with very dangerous consequences for climate-change impacts. Indeed, with business as usual, energy users are likely to switch towards more carbon-intensive coal, oil shales and synfuels, tending to increase rates of emissions growth. It is important to redirect energy-sector research, development and investment away from these sources towards low-carbon technologies.
+
+Extensive carbon capture and storage would allow some continued use of fossil fuels, and help guard against the risk of fossil fuel prices falling in response to global climate-change policy, undermining its effectiveness.
+
+#### 7.1 Introduction
+
+Part II showed that continuing climate change will produce harmful and ultimately dangerous impacts on the environment, the global economy and society. This chapter shows that, in the absence of deliberate policy to combat climate change, global greenhouse-gas emissions will continue to increase at a rapid rate.
+
+%%page 170%%
+
+Even if annual greenhouse-gas (GHG) emissions remained at the current level of 42 GtCO2 equivalent[^1] each year[^2], the world would experience major climate change. That rate of emissions would be sufficient to take greenhouse-gas concentrations to over 650ppm CO2 equivalent (CO2e) by the end of this century, likely to result eventually in a rise in the global mean temperature of at least 3°C from its pre-industrial level[^3].
+
+But annual emissions are not standing still – they are rising, at a rapid rate. If they continue to do so, then the outlook is even worse.
+
+This chapter reviews some of the projections of emissions growth in Section 7.2, noting that, despite the uncertainties about the precise pace of increases, there is powerful evidence, robust to plausible variations in the detail of forecasts, that with 'business as usual' emissions will reach levels at which the impacts of climate change are likely to be very dangerous. Sections 7.3 to 7.5 then look behind the headline projections to consider the main drivers of energy-related emissions growth: economic growth, technological choices affecting carbon intensity of energy use and energy intensity of output, and population growth. This is helpful not only in understanding what underlies the projections but also in identifying the channels through which climate-change policy can work. Finally, in Section 7.6, the chapter argues that fossil fuels' increasing scarcity is not going to rein in emissions growth by itself. To the contrary, there will be a problem for climate-change policies if they induce significant falls in fossil-fuel prices. That is one reason why carbon capture and storage technology is so important.
+
+#### 7.2 Past greenhouse-gas emissions and current trends
+
+***57% of emissions are from burning fossil fuels in power, transport, buildings and industry; agriculture and changes in land use (particularly deforestation) produce 41% of emissions.***
+
+Total greenhouse-gas emissions were 42 GtCO2e[^4] in 2000[^5], of which 77% were CO2, 14% methane, 8% nitrous oxide and 1% so-called F-gases such as perfluorocarbon and sulphur hexafluoride. Sources of greenhouse-gas emissions comprise:
+
+- Fossil-fuel combustion for energy purposes in the power, transport, buildings and industry sectors amounted to 26.1 GtCO2 in 2004[^6]. Combustion of coal, oil and gas in electricity and heat plants accounted for most of these emissions, followed by transport (of which three quarters is road transport), manufacturing and construction and buildings.
+- Land-use change such as deforestation releases stores of CO2 into the atmosphere.
+- Methane, nitrous oxide and F-gases are produced by agriculture, waste and industrial processes. Industrial processes such as the production of cement and chemicals involve a chemical reaction that releases CO2 and non-CO2 emissions. Also, the process of extracting fossil fuels and making them ready for use generates CO2 and non-CO2 emissions (so-called fugitive emissions).
+
+%%page 171%%
+
+The shares are summarised in Figure 7.1 below, and emissions sources are analysed further by sector in Box 7.1 and Annexes 7.B to 7.G[^7].
+
+Figure 7.1 GHG emissions in 2000, by source[^8]
+
+Source: WRI (2006)
+
+Box 7.1 Current and projected emissions sources by sector
+
+Power A quarter of all global greenhouse-gas emissions come from the generation of power and heat, which is mostly used in domestic and commercial buildings, and by industry. This was the fastest growing source of emissions worldwide between 1990 and 2002, growing at a rate of 2.2% per year; developing-country emissions grew most rapidly, with emissions from Asia (including China and India), the Middle East and the transition economies doubling between 1990 and 2000.
+
+This sector also includes emissions arising from petroleum refineries, gas works and coal mines in the transformation of fossil fuel into a form that can be used in transport, industry and buildings. Emissions from this source are likely to increase over four-fold between now and 2050 because of increased synfuel production from gas and coal, according to the IEA. Total power-sector emissions are likely to rise more than three-fold over this period. For more detail on power emissions, see Annex 7.B. Land use Changes in land use account for 18% of global emissions. This is driven almost entirely by emissions from deforestation. Deforestation is highly concentrated in a few countries. Currently around 30% of land-use emissions are from Indonesia and a further 20% from Brazil.
+
+Land-use emissions are projected to fall by 2050, because it is assumed that countries stop deforestation after 85% of forest has been cleared. For more detail, see Annex 7.F. Agriculture Non-CO2 emissions from agriculture amount to 14% of total GHG emissions. Of this, fertiliser use and livestock each account for one third of emissions; other sources include rice and manure management. Over half of these emissions are from developing countries. Agricultural practices such as the manner of tillage are also responsible for releasing stores of CO2 from the soil, although there are no global estimates of this effect. Agriculture is also indirectly responsible for emissions from land-use change (agriculture is a key driver of deforestation), industry (in the production of fertiliser), and transport (in the movement of goods). Increasing demand for agricultural products, due to rising population and incomes per head, is expected to lead to continued rises in emissions from this source. For more detail on trends in agriculture emissions, see Annex 7.G. Total non-CO2 emissions are expected to double in the period to 2050[^9].
+
+%%page 172%%
+
+Transport Transport accounts for 14% of global greenhouse-gas emissions, making it the third largest source of emissions jointly with agriculture and industry. Three-quarters of these emissions are from road transport, while aviation accounts for around one eighth and rail and shipping make up the remainder. The efficiency of transport varies widely between countries, with average efficiency in the USA being around two thirds that in Europe and half that in Japan[^10]. Total CO2 emissions from transport are expected to more than double in the period to 2050, making it the second-fastest growing sector after power.
+
+CO2 emissions from aviation are expected to grow by over three-fold in the period to 2050, making it among the fastest growing sectors. After taking account of the additional global warming effects of aviation emissions (discussed in Box 15.8), aviation is expected to account for 5% of the total warming effect (radiative forcing) in 2050[^11]. For more detail on trends in transport emissions, see annex 7.C. Industry Industry accounts for 14% of total direct emissions of GHG (of which 10% are CO2 emissions from combustion of fossil fuels in manufacturing and construction and 3% are CO2 and non-CO2 emissions from industrial processes such as production of cement and chemicals).
+
+Buildings A further 8% of emissions are accounted for by direct combustion of fossil fuels and biomass in commercial and residential buildings, mostly for heating and cooking.
+
+The contribution of the buildings and industry sectors to climate change are greater than these figures suggest, because they are also consumers of the electricity and heat produced by the power sector (as shown in Figure B below). Direct emissions from both industry and buildings are both expected to increase by around two thirds between 2000 and 2050 under BAU conditions. For more detail on industry and buildings emissions, see Annex 7.D and 7.E respectively.
+
+%%page 173%%
+
+Figure A Historical and projected GHG emissions by sector (by source)
+
+Source: WRI (2006), IEA (in press), IEA (2006), EPA (forthcoming), Houghton (2005).
+
+GHG emissions can also be classified according to the activity associated with them. Figure B below shows the relationship between the physical source of emissions and the end use/activity associated with their production. For example, at the left-hand side of the diagram it can be seen that electricity generation leads to production of emissions at the coal, gas or oil plant; the electricity produced is then consumed by residential and commercial buildings and in a range of industries such as chemicals and aluminium.
+
+This analysis is useful for building a detailed understanding of the drivers behind emissions growth and how emissions can be cut. For example, emissions from the power sector can be cut either by improving the efficiency and technology of the power plant, or by reducing the end-use demand for electricity.
+
+Data sources for historical and projected GHG emissions used in this box and throughout the report: Historical data on all GHG emissions (1990-2002) from WRI (2006)[^12]. Fossil-fuel emissions projections (i.e. power, transport, buildings and industry CO2 emissions) from IEA. Data for 2030 taken from IEA (in press) and data for 2050 from IEA (2006). Intermediate years calculated by extrapolation. Land-use emission projections were taken from Houghton (2005). Non-CO2 emission projections to 2020 from EPA (forthcoming). Figures extrapolated to 2050 using IPCC SRES scenarios A1F1 and A2. CO2 industrial-process and CO2 fugitive emissions projections extrapolated at 1.8% pa (the growth rate in fossil fuel emissions anticipated by the IEA).
+
+%%page 174%%
+
+Figure B World Resources Institute mapping from sectors to greenhouse-gas emissions
+
+%%page 175%%
+
+***Annual global greenhouse-gas emissions have been growing.***
+
+Figure 7.2 illustrates the long-run trend of energy-related CO2 emissions[^13], for which reasonable historical data exist. Between 1950 and 2002, emissions rose at an average annual rate of over 3%. Emissions from burning fossil fuels for the power and transport sectors have been increasing since the mid-nineteenth century, with a substantial acceleration in the 1950s.
+
+The rate fell back somewhat in the three decades after 1970, but was still 1.7% on average between 1971 and 2002 (compared with an average rate of increase in energy demand of 2.0% per year). The slowdown appears to have been associated with the temporary real increases in the price of oil in the 1970s and 1980s, the sharp reduction in emissions in Eastern Europe and the former Soviet Union due to the abrupt changes in economic systems in the 1990s, and increases in energy efficiency in China following economic reforms.
+
+The majority of emissions have come from rich countries in the past. North America and Europe have produced around 70% of the CO2 from energy production since 1850, while developing countries – non-Annex 1 parties under the Kyoto Protocol – account for less than one quarter of cumulative emissions.
+
+Figure 7.2 Global CO2 emissions from fossil-fuel burning and cement over the long term
+
+Less is known about historical trends in emissions from agriculture and changes in land use, but emissions due to land-use changes and deforestation are thought to have risen on average by around 1.5% annually between 1950 and 2000, according to the World Resources Institute.
+
+In total, between 1990 and 2000 (the period for which comprehensive data are available), the average annual rate of growth of non-CO2 greenhouse gases, in CO2-equivalent terms, was 0.5% and of all GHGs together 1.2%.
+
+%%page 176%%
+
+***Global emissions are projected to continue to rise in the absence of climate-change policies; 'business as usual' will entail continuing increases in global temperatures well beyond levels previously experienced by humankind.***
+
+Some simple arithmetic can illustrate this. The concentration of greenhouse gases in the atmosphere is currently at around 430ppm CO2e, adding 2-3ppm a year. Emissions are rising. But suppose they continue to add to GHG concentrations by only 3ppm a year. That will be sufficient to take the world to 550ppm in 40 years and well over 700ppm by the end of the century. Yet a stable global climate requires that the stock of greenhouse gases is constant and therefore that emissions are brought down to the level that the Earth system can naturally absorb from the atmosphere annually in the long run.
+
+Formal projections suggest that the situation in the absence of climate-change policies is worse than in this simple example. The reference scenario[^14] in the International Energy Agency (IEA)'s 2006 World Energy Outlook projects an increase of over 50% in annual global fossil fuel CO2 emissions between 2004 and 2030, from 26 GtCO2 to 40 GtCO2, an annual average rate of increase of 1.7%. The reference scenario for the IEA's Energy Technology Perspectives envisages emissions of 58 GtCO2 by 2050.
+
+Developing countries will account for over three-quarters of the increase in fossil-fuel emissions to 2030, according to the World Energy Outlook, thanks to rapid economic growth rates and their growing share of many energy-intensive industries. China may account for over one third of the increase by itself, with Chinese emissions likely to overtake those of the United States by the end of this decade, driven partly by heavy use of coal.
+
+The fastest growing sectors are driven by growth in demand for transport. The second fastest source of emissions is expected to be aviation, expected to rise about three-fold over the same period. Fugitive emissions are expected to increase over four-fold in the period to 2050, because of an increase in production of synfuels from gas and coal, mostly for use in the transport sector.
+
+Other 'business as usual' (BAU) projections show similar patterns. The US Energy Information Administration is currently projecting an increase from 25 GtCO2 in 2003 to 43.7 GtCO2 by 2030, at an annual average rate of increase of 2.1%[^15], as does the POLES model[^16]. The factors responsible for the rise in energy-related missions are considered further in the sections below.
+
+Projections of future emissions from land-use changes remain uncertain. At the current rate of deforestation, most of the top ten deforesting nations would clear their forests before 2100. Based on rates of deforestation over the past two decades, and assuming that countries stop deforestation when 85% of the forests they had in 2000 have been cut down, annual emissions will remain at around 7.5 GtCO2/yr until 2012, falling to 5 GtCO2/yr by 2050 and 2 GtCO2/yr by 2100[^17].
+
+The US Environmental Protection Agency (EPA) projects an increase in agricultural emissions from 5.7 to 7.3 GtCO2e between 2000 and 2020 with business as usual. The key drivers behind agricultural emissions growth are population and income growth. While the share of emissions from the OECD and transition economies is expected to fall, the share from developing countries is expected to increase, especially in Africa and Latin America. The income elasticity of demand for meat is often high in developing countries, which will tend to raise emissions from livestock. Increases in emissions from other sources, including waste and industrial processes, are also expected.
+
+%%page 177%%
+
+Looking at emissions from all sources together, the IPCC Special Report on Emissions Scenarios, published in 2000, considered a wide range of possible future scenarios. Although they differ considerably, all entail substantial increases in emissions for at least the next 25 years and increases in greenhouse-gas concentrations at least until the end of the century. All but one SRES storyline envisage a concentration level well in excess of 650ppm CO2e by then. Academic studies also envisage steady increases. The MIT EPPA model reference projection, for example, envisages an average annual increase in CO2 emissions of 1.26% between 1997 and 2100 (faster in the earlier years). In the rest of this review, for the purposes of illustrating the size of the emission abatement required to achieve various CO2e concentration levels, a BAU trajectory based on IEA, EPA, IPCC and Houghton projections has been used[^18]. This is broadly representative of BAU projections in the literature and results in emissions reaching 84 GtCO2e per year, and a greenhouse-gas level of around 630ppm CO2e, by 2050.
+
+Despite the differences across the emissions scenarios in the literature and the unavoidable uncertainty in making long-run projections, any plausible BAU scenario entails continuing increases in global temperatures, well beyond levels previously experienced by humankind, with the profound physical, social and economic consequences described in Part II of the Review. If, for instance, the average annual increase in greenhouse-gas emissions is 1.5%[^19], concentrations will reach 550ppm CO2e by around 2035, by when they will be increasing at 4½ppm per year and still accelerating.
+
+The rest of this chapter takes a more detailed look at the drivers that lie behind these headline projections.
+
+#### 7.3 The determinants of energy-related CO2 emissions
+
+***The drivers of emissions growth can be broken down into different components.***
+
+The reasons why annual emissions are projected to increase under 'business as usual' can be better understood by focusing on energy-related CO2 emissions from the combustion of fossil fuel, which have been more thoroughly investigated than emissions from land use, agriculture and waste[^20].
+
+The so-called Kaya identity expresses total CO2 emissions in terms of the components of an accounting identity: the level of output (which can be further split into population growth and GDP per head); the energy intensity of that output; and the carbon intensity of energy[^21]:
+
+CO2 emissions from energy ≡
+
+Population x (GDP per head) x (energy use/GDP) x (CO2 emissions/energy use)
+
+Trends in each of these components can then be considered in turn. In particular, it can immediately be seen that increases in world GDP will tend to increase global emissions, unless income growth stimulates an offsetting reduction in the carbon intensity of energy use or the energy intensity of GDP.
+
+Table 7.1 abstracts from the impact of population size and focuses on emissions per head, which are equal to the product of income per head, carbon intensity of energy and energy intensity. These are reported for the world and various countries and groupings within it. The table illustrates the wide variation in emissions per head across countries and regions, and how this variation is driven primarily by variations in income per head and, to a lesser extent, by variations in energy intensity. It also illustrates the similarity in the carbon intensity of energy across countries and regions.
+
+%%page 178%%
+
+Table 7.1 Key ratios for energy-related[^22] CO2 emissions in 2002
+
+Source: WRI (2006).
+
+Some of the factors determining these ratios change only very slowly over time. Geographers have drawn attention to the empirical importance of a country's endowments of fossil fuels and availability of renewable energy sources[^23], which appear to affect both the carbon intensity of energy use and energy use itself. Qatar, a Gulf oil-producing state, for example, has the highest energy use per head and the highest CO2 emissions per head[^24]. China, which uses a greater proportion of coal in its energy mix than the EU, has a relatively high figure for carbon intensity. A country's typical winter climate and population density are also important influences on the energy intensity of GDP.
+
+But some factors are subject to change. Economists have stressed, for example, the role of the prices of different types of energy, the pace and direction of technological progress, and the structure of production in different countries in influencing carbon intensity and energy intensity[^25].
+
+***Falls in the carbon intensity of energy and energy intensity of output have slowed the growth in global emissions, but total emissions have still risen, because of income and population increases.***
+
+In Table 7.2, the Kaya identity is used to break down the total growth rates of energy-related CO2 emissions for various countries and regions over the period 1992 to 2002 into the contributions – in an accounting sense – from population growth, changes in the carbon intensity of energy use, changes in the energy intensity of GDP, and growth of GDP per head. It shows that, in the recent past, income growth per head has tended to raise global emissions (by 1.9% per year) whereas reductions in global carbon and energy intensity have tended to reduce them (by the same amount). Because world population has grown (by 1.4% per year), emissions have gone up.
+
+%%page 179%%
+
+Table 7.2 Annual growth rates in energy-related[^26] CO2 emissions and their components, 1992- 2002 (%)
+
+Source: WRI (2006).
+
+There has been a variety of experience across countries. The EU and the economies in transition were able to reduce carbon intensity considerably during the period, but there was a significant increase in India, from a very low base. Population growth, as well as increases in GDP per head, was particularly important in developing countries. The reductions in the energy intensity of output in China, India and the economies in transition are striking. If energy intensity had fallen in China only at the speed it fell in the OECD, global emissions in 2002 would have been over 10% higher. But Table 7.1 shows that, at least in China and India, energy intensity is now below that of the United States. Economic reforms helped to reduce wasteful use of energy in many countries in the 1990s, but many of the improvements are likely to have reflected catching up with best practice, boosting the level of energy efficiency but not necessarily bringing reductions in its long-run growth rate.
+
+#### 7.4 The role of growth in incomes and population in driving emissions
+
+***In the absence of policies to combat climate change, CO2 emissions are likely to rise as the global economy grows.***
+
+Historically, economic development has been associated with increased energy consumption and hence energy-related CO2 emissions per head. Across 163 countries, from 1960 to 1999, the correlation between CO2 emissions per head and GDP per head (expressed as natural logarithms) was nearly 0.9[^27]. Similarly, one study for the United States estimated that, over the long term, a 1% rise in GDP per head leads to a 0.9% increase in emissions per head, holding other explanatory factors constant[^28].
+
+Consistent with this, emissions per head are highest in developed countries and much lower in developing countries – although developing countries are likely to be closing the gap, because of their more rapid collective growth and their increasing share of more energy-intensive industries, as shown in the example of the projection in Figure 7.3[^29].
+
+%%page 180%%
+
+Figure 7.3 Global emissions per head: history and extrapolations
+
+Source: Holtsmark (2006)
+
+***Structural shifts in economies may change the relationship between income and emissions.***
+
+Structural changes in economies will have a significant impact on their emissions. In some rich countries, the shift towards a service-based economy has helped to slow down, or even reverse, the growth in national emissions. Indeed, emissions per head have fallen in some countries over some periods (e.g. they peaked in the United Kingdom in 1973 and fell around 20% between then and 1984). Holtsmark's extrapolation in Figure 7.3 envisages a decline in emissions per head for the developed world as a whole. And breaks in the relationship between emissions per head and GDP per head have taken place, as seen in Figure 7.4 for the USA, at income levels around $6000 per head, $12000 per head and $22000 per head.
+
+%%page 181%%
+
+Figure 7.4 Annual emissions of CO2 per head vs. GDP per head, USA
+
+Source: Huntington (2005)
+
+If it were true that the relationship between emissions and income growth disappeared at higher income levels, emissions growth would eventually be self-limiting, reducing the need to take action on climate change if this happened fast enough. The observation that, at high incomes, some kinds of pollution start to fall is often explained by invoking the 'environmental Kuznets curve' hypothesis – see Annex 7.A. The increasing importance of the 'weightless economy' in the developed world[^30], with a rising share of spending accounted for by services, shows how patterns of demand, and the resulting energy use, can change.
+
+However, in the case of climate change, the hypothesis is not very convincing, for three reasons. First, at a global level, there has been little evidence of large voluntary reductions in emissions as a result of consumers' desire to reduce emissions as they become richer. That may change as people's understanding of climate-change risks improves, but the global nature of the externality means that the incentive for uncoordinated individual action is very low. Second, the pattern seen in Figure 7.4 partly reflects the relocation of manufacturing activity to developing countries. So, at the global level, the structural shift within richer countries has less impact on total emissions. Third, demand for some carbon-intensive goods and services – such as air transport[^31] – has a high income elasticity, and will continue to grow as incomes rise. Demand for car transport in many developing countries, for example, is likely to continue to increase rapidly. For these reasons, at the global level, in the absence of policy interventions, the long-run positive relationship between income growth and emissions per head is likely to persist. Breaking the link requires significant changes in preferences, relative prices of carbon-intensive goods and services and/or breaks in technological trends. But all of these are possible with appropriate policies, as Part IV of this Review argues.
+
+***Different assumptions about the definition and growth of income produce different projections for emissions, but this does not affect the conclusion that emissions are well above levels consistent with a stable climate and are likely to remain so under 'business as usual'.***
+
+%%page 182%%
+
+Projected trajectories for CO2 are sensitive to long-run growth projections, but the likelihood of economic growth slowing sufficiently to reverse emissions growth by itself is small. Most models assume some decline in world growth rates in the medium to long run, as poorer countries catch up and exhaust the growth possibilities from adopting best practices in production techniques. But some go further and assume that developed-country income growth per head will actually decline. There is no strong empirical basis for this assumption. Neither is the assumption very helpful if one wishes to assess the consequences if developed economies do manage to continue to grow at post-World War II rates.
+
+The choice of method for converting the incomes of different countries into a common currency to allow them to be aggregated also makes some difference – see Box 7.2. But given that the growth rate of global GDP was around 2.9% per year on average between 1900 and 2000, and 3.9% between 1950 and 2000, projecting world growth to continue at between 2 and 3% per year (as in the IPCC SRES scenarios, for example) does not seem unreasonable.
+
+Box 7.2 Using market exchange rates or purchasing power parities in projections
+
+There has been some controversy over how GDPs of different countries and regions should be compared for the purposes of making long-run emissions projections. Some method is required to convert data compiled in national currency terms into a common unit of account. Most emissions scenarios have used market exchange rates (MER), while others have argued for purchasing power parity (PPP) conversions. Castles and Henderson (2003) argue that "the mistaken use of MER-based comparisons, together with questionable assumptions about 'closing the gap' between rich countries and poor, have imparted an upward bias to projections of economic growth in developing countries, and hence to projections of total world emissions."
+
+MER conversions suffer from two main problems. First, although competition tends to equalise the prices of internationally traded goods and services measured in a common currency using MERs, this is not true of non-traded goods and services. As the price of the latter relative to traded goods and services tends to be higher in rich countries than in poor ones, rich countries tend to have higher price levels converted at MERs. This phenomenon arises because the productivity differential between rich and poor countries tends to be larger for traded than non-traded goods and services (the 'Balassa-Samuelson' effect[^32]). In this sense, the ratio of income per head between rich countries and poor countries is exaggerated if the comparison is intended to reflect purchasing power. Thus, the use of MERs will mean that developing countries' current GDP levels per head will be underestimated. If GDP levels per head are assumed to converge over some fixed time horizon, this means that the growth rates of the poor countries while they 'catch up' will be exaggerated. Henderson and Castles were concerned that this would lead to an over-estimate of the growth of emissions as well. Second, MERs can be driven away from the levels that ensure the 'law of one price' for traded goods and services by movements across countries' capital accounts. Different degrees of firms' market power in different countries may also have this effect. Instead of using MERs, one can try to use conversions based on purchasing power parity (PPP). These try to compare real incomes across countries by comparing the ability to purchase a standard basket of goods and services. But PPP exchange rates have their own problems, as explained by McKibbin et al (2004). PPP calculation requires detailed information about the prices in national currencies of many comparable goods and services. The resource costs are heavy. There are different ways of weighting individual countries' prices to obtain 'international prices' and aggregating volumes of output or expenditure. Different PPP conversions are needed for different purposes. For example, different baskets of products and PPP conversion rates are appropriate for comparing the incomes of old people across countries than for comparing the incomes of the young; similarly, different price indices need to be used for comparing industrial outputs. Data are only available for benchmark years, unlike MERs, which for many countries are available at high frequency.
+
+%%page 183%%
+
+But efforts are under way to improve the provision of PPP data. The International Comparison Programme (ICP), launched by the World Bank when Nicholas Stern was Chief Economist, is the world's largest statistical initiative, involving 107 countries and collaboration with the OECD, Eurostat and National Statistical Offices. It produces internationally comparable price levels, economic aggregates in real terms, and Purchasing Power Parity (PPP) estimates that inform users about the relative sizes of markets, the size and structure of economies, and the relative purchasing power of currencies.
+
+In the IPCC SRES scenarios that use MER conversions, it is not clear that the use of MERs biases upwards the projected rates of emissions growth, as the SRES calibration of the past relationship between emissions per head and GDP per head also used GDPs converted at MERs as the metric for economic activity (Holtsmark and Alfsen (2003)). Hence the scenarios are based on a lower estimate of the elasticity of emissions growth per head with respect to (the incorrectly measured) GDP growth per head. As Nakicenovic et al (2003) have argued, the use of MERs in many of the IPCC SRES scenarios is unlikely to have distorted the emissions trajectories much.
+
+Overall, the statement that, under business as usual, global emissions will be sufficient to propel greenhouse-gas concentrations to over 550ppm CO2e by 2050 and over 650-700ppm by the end of this century is robust to a wide range of changes in model assumptions. It is based on a conservative assumption of constant or very slowly rising annual emissions. The proposition does not, for example, rely on convergence of growth rates of GDP per head across countries, an assumption commonly made in global projections. Cross-country growth regressions suggest that on average there has been a general tendency towards convergence of growth rates[^33]. But there has been a wide range of experience over time and regions, and some signs of divergence in the 1990s[^34].
+
+***Total emissions are likely to increase more rapidly than emissions per head.***
+
+The UN projects world population to increase from 6.5 billion in 2005 to 9.1 billion in 2050 in its medium variant and still to be increasing slowly then (at about 0.4% per year), despite projected falls in fertility[^35]. The average annual growth rate from 2005 to 2050 is projected to be 0.75%; the UN's low and high variants give corresponding rates of 0.38% and 1.11%. Population growth rates will be higher among the developing countries, which are also likely in aggregate to have more rapid emissions growth per head. This means that emissions in the developing world will grow significantly faster than in the developed world, requiring a still sharper focus on emissions abatement in the larger economies like China, India and Brazil.
+
+Climate change itself is also likely to have an impact on energy demand and hence emissions, but the direction of the net impact is uncertain. Warmer winters in higher latitudes are likely to reduce energy demand for heating[^36], but the hotter summers likely in most regions are likely to increase the demand for refrigeration and air conditioning[^37].
+
+#### 7.5 The role of technology and efficiency in breaking the link between growth and emissions
+
+***The relationship between economic development and CO2 emissions growth is not immutable.***
+
+Historically, there have been a number of pervasive changes in energy systems, such as the decline in steam power, the spread of the internal combustion engine and electrification. The adoption of successive technologies changed the physical relationship between energy use and emissions. A number of authors have identified in several countries structural breaks in the observed relationship that are likely to have been the result of such switches[^38]. Using US data, Huntington (2005) found that, after allowing for these technology shifts, the positive relationship between emissions per head and income per head has remained unchanged, casting some doubt on the scope for changes in the structure of demand to reduce emissions in the absence of deliberate policy. Also, an MIT study suggests that, since 1980, changes in US industrial structure have had little effect on energy intensity[^39].
+
+%%page 184%%
+
+Shifts usually entailed switching from relatively low-energy-density fuels (e.g. wood, coal) to higher-energy-density ones (e.g. oil), and were driven primarily by technological developments, not income growth (although cause and effect are difficult to disentangle, and changes in the pattern of demand for goods and services may also have played a role). The energy innovations and their diffusion were largely driven by their advantages in terms of costs, convenience and suitability for powering new products (with some local environmental concerns, such as smog in London or Los Angeles, occasionally playing a part). As the discussion of technology below suggests (see Chapter 16), given the current state of knowledge, alternative technologies do not appear, on balance, to have the inherent advantages over fossil-fuel technologies (e.g. in costs, energy density or suitability for use in transport) necessary if decarbonisation were to be brought about purely by private commercial decisions. Strong policy will therefore be needed to provide the necessary incentives.
+
+Technical progress in the energy sector and increased energy efficiency are also likely to moderate emissions growth. Figure 7.5, for instance, illustrates that the efficiency with which energy inputs are converted into useful energy services in the United States has increased seven-fold in the past century. One study has found that innovations embodied in information technology and electrical equipment capital stocks have played a key part in reducing energy intensity over the long term[^40]. But, in the absence of appropriate policy, incremental improvements in efficiency alone will not overwhelm the income effect. For example, a review of projections for China carried out for the Stern Review suggests that energy demand is very likely to increase substantially in 'business as usual' scenarios, despite major reductions in energy intensity[^41]. And in the USA, emissions per head are projected to rise whenever income per head grows at more than 1.8% per year[^42]. But the scale of potential cost-effective energy efficiency improvements, which will be explored elsewhere in this Review, indicates that energy efficiency and reductions in energy intensity constitute an important and powerful part of a wider strategy.
+
+%%page 185%%
+
+Figure 7.5 Energy conversion efficiencies, USA, 1900–1998
+
+Source: Ayres et al (2005) and Ayres and Warr (2005) This graph shows the efficiency with which power from fossil-fuel, hydroelectric and nuclear sources is converted into useful energy services. The percentages reflect the ratio of useful work output to energy input.
+
+Chapter 9 will set out in more detail the potential for improvements in efficiency and technology; Part IV of this report will look at how policy frameworks can be designed to make this happen.
+
+#### 7.6 The impact of fossil-fuel scarcity on emissions growth
+
+This chapter has argued that, without action on climate change, economic growth and development are likely to generate levels of greenhouse-gas emissions that would be very damaging. Development is likely to lead to increasing demand for fossil-fuel energy, and, without appropriate international collective action, producers and consumers will not modify their behaviour to reduce the adverse impacts. But is the increase in energy use implied actually technically feasible? In other words, are the stocks of fossil fuels in the world large enough to satisfy the demand implied by the BAU scenarios? Or will increasing scarcity drive up the relative prices of fossil fuels sufficiently to choke off demand fast enough to provide a 'laissez faire' answer to the climate-change problem?
+
+***There is enough fossil fuel in the ground to meet world consumption demand at reasonable cost until at least 2050.***
+
+To date, about 2.7 trillion barrels of oil equivalent (boe) of oil, gas and coal have been used up[^43]. At least another 40 trillion boe remain in the ground, of which around 7 trillion boe can reasonably be considered economically recoverable[^44]. This is comfortably enough to satisfy the BAU demand for fossil fuels in the period to 2050 (4.7 trillion boe)[^45].
+
+The IEA has looked at where the economically recoverable reserves of oil might come from in the next few decades and the associated extraction costs (see Figure 7.7). Demand for oil in the period to 2050 is expected to be 1.8 trillion boe[^46]; this could be extracted at less than $30/barrel. This alone would be enough to raise the concentration of CO2e in the atmosphere by 50ppm[^47].
+
+%%page 186%%
+
+Figure 7.6 Availability of oil by price[^48]
+
+Source: International Energy Agency
+
+There appears to be no good reason, then, to expect large increases in real fossil-fuel prices to be necessary to bring forth supply. Yet big increases in price would be required to hold energy demand and emissions growth in check if no other method were also available. The IEA emissions projections envisage an average annual rate of increase of 1.7% to 2030. If the price elasticity of energy demand were -0.23, an estimate in the middle of the range in the literature[^49], the prices of fossil fuels would have to increase by over 7% per year in real terms merely to bring the rate of emissions growth back to zero, implying a more-than-six-fold rise in the real price of energy.
+
+***'Carbon capture and storage' technology is important, as it would allow some continued use of fossil fuels and help guard against the risk of fossil-fuel prices falling in response to global climate-change policy, undermining its effectiveness.***
+
+There are three major implications for policy. First, it is important to provide incentives to redirect research, development and investment away from the fossil fuels that are currently more difficult to extract (see Grubb (2001)). The initial costs of development provide a hurdle to the exploitation of some of the more carbon-intensive fuels like oil shales and synfuels. This obstacle can be used to help divert R,D&D efforts towards low-carbon energy resources. Second, the low resource costs of much of the remaining stock of fossil fuels have to be taken into account in climatechange policy[^50]. Third, as there is a significant element of rent in the current prices of exhaustible fossil-fuel resources, particularly those of oil and natural gas, there is a danger that fossil-fuel prices could fall in response to the strengthening of climate-change policy, undermining its effectiveness[^51]. Extensive carbon capture and storage would maintain the viability of fossil fuels for many uses in a manner compatible with deep cuts in emissions, and thereby help guard against this risk.
+
+%%page 187%%
+
+%%page 188%%
+
+#### References
+
+The World Resources Institute (2005) publication "Navigating the Numbers" provides a very good overview of global GHG emissions, by source and country. The WRI also provides a very user-friendly database in its Climate Analysis Indicators Tool. The International Energy Agency's publications provide an excellent source of information about fossil-fuel emissions and analysis of the medium-term outlook for emissions, energy demand and supply. The US Environmental Protection Agency produces estimates of historical and projected non-CO2 emissions. Houghton (2005) is a good source of data and information on emissions due to land-use change.
+
+The IPCC's Special Report on Emission Scenarios considers possible longer-term outlooks for emissions and discusses many of the complex issues that arise with any long-term projections. Its scenarios provide the foundation for many of the benchmark 'business as usual' scenarios used in the literature. Some of the difficult challenges posed by the need to make long-term projections have been pursued in the academic literature, for example, in the two papers co-authored by Warwick McKibbin and referenced here and the paper by Schmalensee et al (1998). There have been lively methodological exchanges, including the debates between Castles and Henderson (2003a,b), Nakicenovic et al (2003) and Holtsmark and Alfsen (2005) on how to aggregate incomes across countries. A good example of the Integrated Assessment Model approach to projections can be found in Paltsev et al (2005). Some of the difficulties of untangling the impacts of income and technology on emissions growth are tackled in Huntington (2005), among others.
+
+The World Energy Council (2000) is a good source of information on availability of fossil fuels. The IEA (1995) have also produced an excellent report on this. The extraction costs of fossil fuels are also considered by Rogner (1997). The issues posed by exhaustible fossil fuels in the context of climate change are analysed in papers referenced in Chapter 2.
+
+An, F. and A. Sauer, (2004): 'Comparison of passenger vehicle fuel economy and GHG emission standards around the world', Prepared for the Pew Centre on Global Climate Change, Virginia: Pew Centre.
+
+Asadoorian, M.O., R.S. Eckaus and C.A. Schlosser (2006): 'Modeling climate feedbacks to energy demand: The case of China' MIT Global Change Joint Program Report 135, June, Cambridge, MA: MIT.
+
+Ayres, R. U., Ayres, L. W. and Pokrovsky, V. (2005): 'On the efficiency of US electricity usage since 1900', Energy, 30(7): 1092-1145
+
+Ayres and Warr (2005): 'Accounting for growth: the role of physical work', Structural Change and Economic Dynamics, 16(2): 181-209
+
+Balassa, B. (1964): 'The purchasing power parity doctrine: a reappraisal', Journal of Political Economy, 72: 584-596
+
+Bosworth, B.P. and S.M. Collins (2003): 'The empirics of growth: an update', Brookings Papers on Economic Activity, No. 2, 2003.
+
+Castles, I. and D. Henderson (2003a): 'The IPCC emissions scenarios: an economic-statistical critique', Energy and Environment,14(2-3) May: 159-185
+
+Castles, I. and D. Henderson (2003b): 'Economics, emissions scenarios and the work of the IPCC', Energy and Environment, 14(4) July: 415-435
+
+Chinese Academy of Social Sciences (2005): 'Understanding China's Energy Policy', Background Paper Prepared for Stern Review on the Economics of Climate Change by the Research Centre for Sustainable Development
+
+%%page 189%%
+
+EPA (forthcoming): 'Global anthropogenic non-CO2 greenhouse-gas emissions: 1990-2020', US Environmental Protection Agency, Washington DC. Figures quoted from draft December 2005 version.
+
+Grubb, M. (2001): 'Who's afraid of atmospheric stabilisation? Making the link between energy resources and climate change', Energy Policy, 29: 837-845
+
+Harbaugh, B., A. Levinson and D. Wilson (2002): 'Reexamining the empirical evidence for an environmental Kuznets Curve,' Review of Economics and Statistics, 84(3) August.
+
+Holtsmark, B.J. (2006): 'Are global per capita CO2 emissions likely to remain stable?', Energy & Environment, 17(2) March.
+
+Holtsmark, B.J. and K.H. Alfsen (2005): 'PPP correction of the IPCC emissions scenarios – does it matter?', Climatic Change, 68(1-2) January: 11-19
+
+Holtz-Eakin, D. and T.M. Selden (1995): 'Stoking the fires? CO2 emissions and economic growth', Journal of Public Economics, 57, May: 85-101
+
+Houghton, R.A. (2005): 'Tropical deforestation as a source of greenhouse-gas emissions', Tropical Deforestation and Climate Change, (eds.) P. Moutinho and S. Schwartzman, Belém: IPAM - Instituto de Pesquisa Ambiental da Amazônia ; Washington DC - USA : Environmental Defense. See: www.environmentaldefense.org/documents/4930_TropicalDeforestation_and_ClimateChange.pdf
+
+Hunt, L.C., G. Judge, and Y. Ninomiya (2003): 'Modelling underlying energy demand trends', Chapter 9 in L.C. Hunt (ed). Energy in a competitive market: essays in honour of Colin Robinson. Cheltenham: Edward Elgar.
+
+Huntington, H.G. (2005): 'US carbon emissions, technological progress and economic growth since 1870', Int. J. Global Energy Issues, 23(4): 292-306
+
+International Energy Agency (2005): 'Resources to reserves: oil and gas technologies for the energy markets of the future', Paris: OECD/IEA.
+
+International Energy Agency (2006): 'Energy technology perspectives - scenarios & strategies to 2050', Paris: OECD/IEA.
+
+International Energy Agency (in press): World Energy Outlook 2006, Paris: OECD/IEA.
+
+Intergovernmental Panel on Climate change (2000): 'Emissions Scenarios', Special Report, [N. Nakicenovic and R. Swart (eds.)], Cambridge: Cambridge University Press.
+
+Kaya, Y. (1990): 'Impact of carbon dioxide emission control on GNP growth: interpretation of proposed scenarios', paper presented to IPCC Energy and Industry Sub-Group, Response Strategies Working Group. Lanne, M. and M. Liski (2004): 'Trends and breaks in per-capita carbon dioxide emissions, 1870- 2028', The Energy Journal, 25(4): 41-65
+
+McKibbin, W., D. Pearce, and A. Stegman (2004): 'Long-run projections for climate-change scenarios', Brookings Discussion Papers in International Economics No 160, April, Washington, DC: The Brookings Institution.
+
+McKibbin, W. and A. Stegman (2005): 'Convergence and per capita carbon emissions', Working Paper in International Economics No 4.05, May, Sydney: Lowy Institute fore International Policy.
+
+%%page 190%%
+
+McKitrick, R. and M., C. Strazicich (2005). 'Stationarity of global per capita carbon dioxide emissions: implications for global warming scenarios', University of Guelph Department of
+
+Economics Discussion Paper 2005-03.
+
+Nakicenovic, N., A. Grübler, S. Gaffin et al. (2003): 'IPCC SRES revisited: a response', Energy & Environment, 14(2-3) May: 187-214
+
+Neumayer, E. (2004): 'National carbon dioxide emissions: geography matters', Area, 36(1): 33-40
+
+Paltsev, S., J.M. Reilly, H.D. Jacoby, et al. (2005): 'The MIT emissions prediction and policy analysis (EPPA) model: version 4', MIT Global Change Joint Program Report No. 125, August, Cambridge, MA: MIT.
+
+Pindyck, R.S. (1999): 'The long-run evolution of energy prices', The Energy Journal, 20(2): 1-27
+
+Population Division of the Department of Economic and Social Affairs of the United Nations Secretariat (2005): 'World population prospects: the 2004 revision highlights' New York: United Nations.
+
+Pritchett, L. (1997): 'Divergence, big time', Journal of Economic Perspectives, 11(3): 3-17
+
+Quah, D. (1996): 'The invisible hand and the weightless economy', London: London School of Economics Centre for Economic Performance.
+
+Rogner, H.H. (1997): 'An assessment of world hydrocarbon resources', Annual Reviews of Energy and the Environment (22): 217-262
+
+Schmalensee, R., T.M. Stoker and R.A. Judson (1998): 'World carbon dioxide emissions: 1950- 2050', Review of Economics and Statistics, 80:15-27
+
+Seldon, T., and D. Song (1994): 'Environmental quality and development: is there a Kuznets curve for air pollution emissions?', Journal of Environmental Economics and Management, 27:7- 162
+
+Sue Wing, I. and R.S. Eckaus (2004): 'Explaining long-run changes in the energy intensity of the US economy', MIT Global Change Joint Program, Report No 116, September, Cambridge, MA: MIT.
+
+World Energy Council (2000): World Energy Assessment: Energy and the challenge of sustainability, New York: United Nations Development Programme.
+
+World Resources Institute (2005): 'Navigating the numbers', World Resources Institute, Washington DC.
+
+World Resources Institute (2006): Climate Analysis Indicators Tool (CAIT) on-line database version 3.0., Washington, DC: World Resources Institute, available at: http://cait.wri.org
+
+%%page 191%%
+
+Annex 7A Climate Change and the Environmental Kuznets Curve
+
+Some evidence indicates that, for local pollutants like oxides of nitrogen, sulphur dioxide and heavy metals, there is an inverted-U shaped relationship between income per head and emissions per head: the so-called 'environmental Kuznets curve', illustrated in Figure 7.7[^52]. The usual rationale for such a curve is that the demand for environmental improvements is income elastic, although explanations based on structural changes in the economy have also been put forward. So the question arises, is there such a relationship for CO2? If so, economic development would ultimately lead to falls in global emissions (although that would be highly unlikely before GHG concentrations had risen to destructive levels).
+
+Figure 7A.1 'A hypothetical environmental Kuznets curve'
+
+In the case of greenhouse gases, this argument is not very convincing. As societies become richer, they may want to improve their own environment, but they can do little about climate change by reducing their own CO2 emissions alone. With CO2, the global nature of the externality means that people in any particular high-income country cannot by themselves significantly affect global emissions and hence their own climate. This contrasts with the situation for the local pollutants for which environmental Kuznets curves have been estimated. It is easier than with greenhouse gases for the people affected to set up abatement incentives and appropriate political and regulatory mechanisms. Second, CO2 had not been identified as a pollutant until around 20 years ago, so an explanation of past data based on the demand for environmental improvements does not convince.
+
+Nevertheless, patterns like the one in Figure 7.4 suggest that further empirical investigation of the relationship between income and emissions is warranted. The relationship could reflect changes in the structure of production as countries become better off, as well as or instead of changes in the pattern of demand for environmental improvements. Several empirical studies[^53] have found that a relationship looking something like the first half of an environmental Kuznets curve exists for CO2 (after allowing for some other explanatory factors in some, but not all, cases). Figure 7.8 illustrates this, using Schmalensee et al's estimates for the United States.
+
+%%page 192%%
+
+Figure 7A. 2 'Income effects from 10-segment CO2 regression, USA, 1990' em
+
+(tonnes)
+
+Source: Schmalensee et al (1998)
+
+Even if this finding were robust, however, it does not imply that the global relationship between GDP per head and CO2 emissions per head is likely to disappear soon. The estimated turning points at which CO2 emissions start to fall are at very high incomes (for example, between $55.000 and $90,000 in Neumayer's cross-country study, in which the maximum income level observed in the data was $41,354). Poor and middle-income countries will have to grow for a long time before they get anywhere near these levels. Schmalensee et al found that, using their estimates – with an implied inverted-U shape – as the basis for a projection of future emissions, emissions growth was likely to be positive up to their forecast horizon of 2050; indeed, they forecast more rapid growth than in nearly all the 1992 IPCC scenarios, using the same assumptions as the IPCC for future population and income growth.
+
+In any case, it is not clear that the link between emissions and income does disappear at high incomes. First, the apparent turning points in some of the studies may simply be statistical artefacts, reflecting the particular functional forms for the relationship assumed by the researchers[^54]. Second, the apparent weakening of the link may result from ignoring the implications of past changes in energy technology; after controlling for the adoption of new technologies that, incidentally, were less carbon-intensive, the link may reappear, as argued by Huntington (2005).
+
+%%page 193%%
+
+### 8 The Challenge of Stabilisation
+
+Key Messages
+
+The world is already irrevocably committed to further climate changes, which will lead to adverse impacts in many areas. Global temperatures, and therefore the severity of impacts, will continue to rise unless the stock of greenhouse gases is stabilised. Urgent action is now required to prevent temperatures rising to even higher levels, lowering the risks of impacts that could otherwise seriously threaten lives and livelihoods worldwide.
+
+Stabilisation – at whatever level – requires that annual emissions be brought down to the level that balances the Earth's natural capacity to remove greenhouse gases from the atmosphere. In the long term, global emissions will need to be reduced to less than 5 GtCO2e, over 80% below current annual emissions, to maintain stabilisation. The longer emissions remain above the level of natural absorption, the higher the final stabilisation level will be.
+
+Stabilisation cannot be achieved without global action to reduce emissions. Early action to stabilise this stock at a relatively low level will avoid the risk and cost of bigger cuts later. The longer action is delayed, the harder it will become.
+
+Stabilising at or below 550 ppm CO2e (around 440 - 500 ppm CO2 only) would require global emissions to peak in the next 10 - 20 years, and then fall at a rate of at least 1 - 3% per year. By 2050, global emissions would need to be around 25% below current levels. These cuts will have to be made in the context of a world economy in 2050 that may be three to four times larger than today – so emissions per unit of GDP would need to be just one quarter of current levels by 2050.
+
+Delaying the peak in global emissions from 2020 to 2030 would almost double the rate of reduction needed to stabilise at 550 ppm CO2e. A further ten-year delay could make stabilisation at 550 ppm CO2e impractical, unless early actions were taken to dramatically slow the growth in emissions prior to the peak.
+
+To stabilise at 450 ppm CO2e, without overshooting, global emissions would need to peak in the next 10 years and then fall at more than 5% per year, reaching 70% below current levels by 2050. This is likely to be unachievable with current and foreseeable technologies.
+
+If carbon absorption were to weaken, future emissions would need to be cut even more rapidly to hit any given stabilisation target for atmospheric concentration.
+
+Overshooting paths involve greater risks to the climate than if the stabilisation level were approached from below, as the world would experience at least a century of temperatures, and therefore impacts, close to those expected for the peak level of emissions. Some of these impacts might be irreversible. In addition, overshooting paths require that emissions be reduced to extremely low levels, below the level of natural absorption, which may not be feasible.
+
+Energy systems are subject to very significant inertia. It is important to avoid getting 'locked into' long-lived high carbon technologies, and to invest early in low carbon alternatives.
+
+#### 8.1 Introduction
+
+The stock of greenhouse gases in the atmosphere is already at 430 ppm CO2e and currently rising at roughly 2.5 ppm every year. The previous chapter presented clear evidence that greenhouse gas emissions will continue to increase over the coming decades, forcing the stock of greenhouse gases upwards at an accelerating pace. Parts I and II demonstrated that, if emissions continue unabated, the world is likely to experience a radical transformation of its climate, with profound implications for our way of life.
+
+%%page 194%%
+
+Global mean temperatures will continue to rise unless the stock of greenhouse gases in the atmosphere is stabilised. This chapter considers the pace, scale and composition of emissions paths associated with stabilisation. This is a crucial foundation for examining the costs of stabilisation; which are discussed in the following two chapters.
+
+The first section of this chapter looks at what different stabilisation levels mean for global temperature rises and presents the science of how to stabilise greenhouse gas levels. The following two sections go on to consider stabilisation of carbon dioxide and other gases in detail. Sections 8.4 and 8.5 use preliminary results from a simple model to examine the emissions cuts required to stabilise the stock of greenhouse gases in the range 450 – 550 ppm CO2e, and the implications of delaying emissions cuts. The final section gives a more general discussion of the scale of the challenge of achieving stabilisation.
+
+The focus on the range 450 – 550 ppm CO2e is based on analyses presented in chapter 13, which conclude that stabilisation at levels below 450 ppm CO2e would require immediate, substantial and rapid cuts in emissions that are likely to be extremely costly, whereas stabilisation above 550 ppm CO2e would imply climatic risks that are very large and likely to be generally viewed as unacceptable.
+
+#### 8.2 Stabilising the stock of greenhouse gases
+
+***The higher the stabilisation level, the higher the ultimate average global temperature increase will be.***
+
+The relationship between stabilisation levels and temperature rise is not known precisely (chapter 1). Box 8.1 summarises recent studies that have tried to establish probability distributions for the ultimate temperature increase associated with given greenhouse gas levels. It shows the warming that is expected when the climate comes into equilibrium with the new level of greenhouse gases; it can be understood as the warming committed to in the long run. In most cases, this would be higher than the temperature change expected in 2100.
+
+Box 8.1 shows, for example, that stabilisation at 450 ppm CO2e would lead to an around 5 – 20% chance of global mean temperatures ultimately exceeding 3°C above pre-industrial (from probabilities based on the IPCC Third Assessment Report (TAR) and recent Hadley Centre work). An increase of more than 3°C would entail very damaging physical, social and economic impacts, and heightened risks of catastrophic changes (chapter 3). For stabilisation at 550 ppm CO2e, the chance of exceeding 3°C rises to 30 – 70%. At 650 ppm CO2e, the chance rises further to 60 – 95%.
+
+***Stabilisation – at whatever level – requires that annual emissions be brought down to the level that balances the Earth's natural capacity to remove greenhouse gases from the atmosphere.***
+
+To stabilise greenhouse gas concentrations, emissions must be reduced to a level where they are equal to the rate of absorption/removal by natural processes. This level is different for different greenhouse gases. The longer global emissions remain above this level, the higher the stabilisation level will be. It is the cumulative emissions of greenhouse gases, less their cumulative removal from the atmosphere, for example by chemical processes or through absorption by the Earth's natural systems, that defines their concentration at stabilisation. The following section examines the stabilisation of carbon dioxide concentrations. The stabilisation of other gases in discussed separately in section 8.4.
+
+%%page 195%%
+
+Box 8.1 Likelihood of exceeding a temperature increase at equilibrium
+
+This table provides an indicative range of likelihoods of exceeding a certain temperature change (at equilibrium) for a given stabilisation level (measured in CO2 equivalent). For example, for a stock of greenhouse gases stabilised at 550 ppm CO2e, recent studies suggest a 63 - 99 % chance of exceeding a warming of 2°C relative to the pre-industrial.
+
+The data shown is based on the analyses presented in Meinshausen (2006), which brings together climate sensitivity distributions from eleven recent studies (chapter 1). Here, the 'maximum' and 'minimum' columns give the maximum and minimum chance of exceeding a level of temperature increase across all eleven recent studies. The 'Hadley Centre' and 'IPCC TAR 2001' columns are based on Murphy et al. (2004) and Wigley and Raper (2001), respectively. These results lie close to the centre of the range of studies (Box 1.2). The 'IPCC TAR 2001' results reflect climate sensitivities of the seven coupled ocean-atmosphere climate models used in the IPCC TAR. The individual values should be treated as approximate.
+
+The red shading indicates a 60 per cent chance of exceeding the temperature level; the amber shading a 40 per cent chance; yellow shading a 10 per cent chance; and the green shading a less than a 10 per cent chance.
+
+Probability of exceeding 2°C (relative to pre-industrial levels)
+
+Probability of exceeding 3°C (relative to pre-industrial levels)
+
+Probability of exceeding 4°C (relative to pre-industrial levels)
+
+Probability of exceeding 5°C (relative to pre-industrial levels)
+
+#### 8.3 Stabilising carbon dioxide concentrations
+
+***Carbon dioxide concentrations have risen by over one third, from 280 ppm pre-industrial to 380 ppm in 2005. The current concentration of carbon dioxide in the atmosphere accounts for around 70% of the total warming effect (the 'radiative forcing') of all Kyoto greenhouse gases[^1] .***
+
+%%page 196%%
+
+Over the past two centuries, around 2000 GtCO2 have been released into the atmosphere through human activities (mainly from burning fossil fuels and land-use changes)[^2] . The Earth's soils, vegetation and oceans have absorbed an estimated 60% of these emissions, leaving 800 GtCO2 to accumulate in the atmosphere. This corresponds to an increase in the concentration of carbon dioxide in the atmosphere of 100 parts per million (ppm), thus an accumulation of around 8 GtCO2 corresponds to a 1 ppm rise in concentration.
+
+Accordingly, a carbon dioxide concentration of 450 ppm, around 70 ppm more than today, would correspond to a further accumulation of around 550 GtCO2 in the atmosphere. However, the cumulative emissions that would be expected to lead to this concentration level would be larger, as natural processes should continue to remove a substantial portion of future carbon dioxide emissions from the atmosphere.
+
+Note that, a carbon dioxide concentration of 450 ppm would be equivalent to a total stock of greenhouse gases of at least 500 ppm CO2e (depending on emissions of non-CO2 gases).
+
+Today, for every 15 - 20 GtCO2 emitted, the concentration of carbon dioxide rises by a further 1 ppm, with natural processes removing the equivalent of roughly half of all emissions. But, the future strength of natural carbon absorption is uncertain. It will depend on a number of factors, including:
+
+- The sensitivity of carbon absorbing systems, such as forests, to future climate changes.
+- Direct human influences, such as clearing forests for agriculture.
+- The sensitivity of natural processes to the rate of increase and level of carbon dioxide in the atmosphere. For example, higher levels of carbon dioxide can stimulate a higher rate of absorption by vegetation (the carbon fertilisation effect – chapter 3).
+
+Assuming that climate does not affect carbon absorption, a recent study projects that stabilising carbon dioxide concentrations at 450 ppm would allow cumulative emissions of close to 2100 GtCO2 between 2000 and 2100 (Figure 8.1)[^3] (equivalent to roughly 60 years of emissions at today's rate). This means that approximately 75% of emissions would have been absorbed. Stabilising at 550 ppm CO2 would allow roughly 3700 GtCO2.
+
+Land use management, such as afforestation and reforestation, can be used to enhance natural absorption, slowing the accumulation of greenhouse gases in the atmosphere and increasing the permissible cumulative level of human emissions at stabilisation. However, this can only be one part of a mitigation strategy; substantial emissions reduction will be required from many sectors to stabilise carbon dioxide concentrations (discussed further in chapter 9).
+
+***There is now strong evidence that natural carbon absorption will weaken as the world warms (chapter 1). This would make stabilisation more difficult to achieve.***
+
+A recent Hadley Centre study shows that if feedbacks between the climate and carbon cycle are included in a climate model, the resulting weakening of natural carbon absorption means that the cumulative emissions at stabilisation are dramatically reduced. Figure 8.1 shows that to stabilise carbon dioxide concentrations at 450 – 750 ppm, cumulative emissions must be 20 – 30% lower than previously estimated. For example, the cumulative emissions allowable to stabilise at 450 ppm CO2 are reduced by 500 GtCO2, or around fifteen years of global emissions at the current rate. This means that emissions would need to peak at a lower level, or be cut more rapidly, to achieve a desired stabilisation goal. The effects are particularly severe at higher stabilisation levels.
+
+%%page 197%%
+
+***The uncertainties over future carbon absorption make a powerful argument for taking an approach that allows for the possibility that levels of effort may have to increase later to reach a given goal.***
+
+Not taking into account the uncertainty in future carbon absorption, including the risk of weakening carbon absorption, could lead the world to overshoot a stabilisation goal. As the scientific understanding of this effect strengthens, adjustments will need to be made to the estimates of trajectories consistent with different levels of stabilisation.
+
+Figure 8.1 Cumulative emissions of carbon dioxide at stabilisation
+
+This figure gives illustrative results from one study that shows the level of cumulative emissions between 2000 and 2300 for a range of stabilisation levels (carbon dioxide only). For the green bars, natural carbon absorption is not affected by the climate. The grey bars include the feedbacks between the climate and the carbon cycle (stabilisation levels labelled as (W)). Comparison of these sets of bars shows that if natural carbon absorption weakens (as predicted by the model used) then the level of cumulative emissions associated with a stabilisation goal reduces. The intervals on the bars show emissions to 2100 and 2200.
+
+Source: based on Jones et al. (2006)
+
+***To stabilise concentrations of carbon dioxide in the long run, emissions will need to be cut by more than 80% from 2000 levels.***
+
+To achieve stabilisation, annual carbon dioxide emissions must be brought down to a level where they equal the rate of natural absorption. After stabilisation, the level of natural absorption will gradually fall as the vegetation sink is exhausted. This means that to maintain stabilisation, emissions would need to fall to the level of ocean uptake alone over a few centuries. This level is not well quantified, but recent work suggests that emissions may need to fall to roughly 5 GtCO2e per year (more than 80% below current levels) by the second half of the next century[^4] . On a timescale of a few hundred years, this could be considered a 'sustainable' rate of emissions[^5] . However, in the long term, the rate of ocean uptake will also weaken, meaning that emissions may eventually need to fall below 1GtCO2e per year to maintain stabilisation.
+
+Reducing annual emissions below the rate of natural absorption would lead to a fall in concentrations. However, such a recovery would be a very slow process; even if very low emissions were achieved, concentrations would only fall by a few parts per million (ppm) per year[^6] . This rate would be further reduced if carbon absorption were to weaken as projected.
+
+%%page 198%%
+
+#### 8.4 Stabilising concentrations of non-CO2 gases
+
+***Non-CO2 gases account for one quarter of the total 'global warming potential' of emissions and therefore, must play an important role in future mitigation strategies.***
+
+Global warming potentials (GWP) provide a way to compare greenhouse gases, which takes into account both the warming affect and lifetime[^7] of different gases. The 100-year GWP is most commonly used; this is equal to the ratio of the warming affect (radiative forcing) from 1kg of a greenhouse gas to 1kg of carbon dioxide over 100 years. Over a hundred year time horizon, methane has a GWP twenty-three times that of carbon dioxide, nitrous oxide nearly 300 times and some fluorinated gases are thousands of times greater (Table 8.1).
+
+This leads to a measure, also known as CO2 equivalent (CO2e), which weights emissions by their global warming potential. This measure is used as an exchange metric to compare the long-term impact of different emissions. Table 8.1 shows the portion of 2000 emissions made up by the different Kyoto greenhouse gases in terms of CO2e. Note that, in this Review, CO2 equivalent emissions are defined differently to CO2 equivalent concentrations, which consider the instantaneous warming effect of the gas in the atmosphere. For example, non-CO2 Kyoto gases make up around one quarter of total emissions in terms of their long term warming potential in 2000 (Table 3.1). However, they account for around 30% of the total warming effect (the radiative forcing) of non-CO2 gases in the atmosphere today.
+
+Table 8.1 Characteristics of Kyoto Greenhouse Gases
+
+Despite the higher GWP of other greenhouse gases over a 100-year time horizon, carbon dioxide constitutes around three-quarters of the total GWP of emissions. This is because the vast majority of emissions, by weight, are carbon dioxide. HFCs and PFCs include many individual gases; the data shown are approximate ranges across these gases.
+
+Source: Ramaswamy et al. (2001)[^8] and emissions data from the WRI CAIT database[^9].
+
+As methane is removed from the atmosphere much more rapidly than carbon dioxide, its short term effect is even greater than is suggested by its 100-year GWP. However, over-reliance on abatement of gases with strong warming effects but short lifetimes could lock in long term impacts from the build up of carbon dioxide. Some gases, like HFCs, PFCs and SF6, have both a stronger warming effect and longer lifetime than CO2, therefore abating their emissions is very important in the long run.
+
+The stock of different greenhouse gases at stabilisation will depend on the exact stabilisation strategy adopted. In the examples used in this chapter, stabilising the stock of all Kyoto greenhouse gases at 450 – 550 ppm CO2e would mean stabilising carbon dioxide concentrations at around 400 – 490 ppm. More intensive carbon dioxide mitigation, relative to other gases, might lead to a lower fraction of carbon dioxide at stabilisation, and vice versa. Two recent cost optimising mitigation studies find that, at stabilisation, non-CO2 Kyoto gases contribute around 10 – 20% of the total warming effect expressed in CO2e[^10]. Therefore, a stabilisation range of 450 – 550 ppm CO2e, could mean carbon dioxide concentrations of 360 – 500 ppm. The cost implications of multi-gas strategies are discussed further in chapter 10.
+
+%%page 199%%
+
+It is the total warming effect (or radiative forcing), expressed as the stock in terms of CO2 equivalent, which is critical in determining the impacts of climate change. For this reason, this Review discusses stabilisation in terms of the total stock of greenhouse gases.
+
+#### 8.5 Pathways to stabilisation
+
+As discussed above, stabilisation at any level ultimately requires a cut in emissions down to less than 20% of current levels. The question then becomes one of how quickly stabilisation can be achieved. If action is slow and emissions stay high for a long time, the ultimate level of stabilisation will be higher than if early and ambitious action is taken.
+
+***The rate of emissions cuts required to meet a stabilisation goal is very sensitive to both the timing of the peak in global emissions, and its height. Delaying action now means more drastic emissions reductions over the coming decades.***
+
+There are a number of possible emissions trajectories that can achieve any given stabilisation goal. For example, emissions can peak early and decline gradually, or peak later and decline more rapidly. This is demonstrated in Figure 8.2, which shows illustrative pathways to stabilisation at 550 ppm CO2e.
+
+Figure 8.2 Illustrative emissions paths to stabilise at 550 ppm CO2e.
+
+The figure below shows six illustrative paths to stabilisation at 550 ppm CO2e. The rates of emissions cuts are given in the legend and are the maximum 10-year average rate (see Table 8.2). The figure shows that delaying emissions cuts (shifting the peak to the right) means that emissions must be reduced more rapidly to achieve the same stabilisation goal. The rate of emissions cuts is also very sensitive to the height of the peak. For example, if emissions peak at 48 GtCO2 rather than 52 GtCO2 in 2020, the rate of cuts is reduced from 2.5%/yr to 1.5%/yr.
+
+Source: Generated with the SiMCaP EQW model (Meinshausen et al. 2006)
+
+%%page 200%%
+
+Table 8.2 Illustrative Emissions Paths to Stabilisation
+
+The table below explores the sensitivity of rates of emissions reductions to the stabilisation level and timing and size of the peak in global emissions. These results were generated using the SiMCaP EQW model, as used in Meinshausen et al. (2006), and should be treated as indicative of the scale of emissions reductions required.
+
+The table covers three stabilisation levels and a range of peak emissions dates from 2010 to 2040. The centre column shows the implied rate of global emissions reductions. The value shown is the maximum 10-year average rate. As shown in Figure 8.2, the rate of emissions reductions accelerates after the peak and then slows in the second half of the century. The maximum 10-year average rate is typically required in the 5 – 10 years following the peak in global emissions. The range of rates shown in each cell is important: the lower bound illustrates the rate for a low peak in global emissions (that is, action is taken to slow the rate of emissions growth prior to the peak) – in this example, these trajectories peak at not more than 10% above current levels; the upper bound assumes no substantial action prior to the peak (note that emissions in this case are still below IEA projections – see Figure 8.4).
+
+The paths use the assumption of a maximum 10%/yr reduction rate. A symbol "-" indicates that stabilisation is not possible given this assumption. Grey italic figures indicate overshooting. The overshoots are numbered in brackets '[ ]' and details given below the table.
+
+Notes: overshoots: [1] to 520 ppm, [2] to 550 ppm, [3] to 600 ppm. 2005 emissions taken as 45 GtCO2e/yr. Source: Generated with the SiMCaP EQW model and averaged over multiple scenarios (Meinshausen et al. 2006)
+
+The height of the peak is also crucial. If early action is taken to substantially slow the growth in emissions prior to the peak, this will significantly reduce the required rate of reductions following the peak. For example, in Figure 8.2, if action is taken to ensure that emissions peak at only 7% higher than current levels, rather than 15% higher in 2020 to achieve stabilisation at 550 ppm CO2e, the rate of reductions required after 2020 is almost halved.
+
+If the required rate of emissions cuts is not achieved, the stock of greenhouse gases will overshoot the target level. Depending on the size of the overshoot, it could take at least a century to reduce concentrations back to a target level (discussed later in Box 8.2).
+
+Table 8.2 gives examples of implied reduction rates for stabilisation levels between 550 ppm and 450 ppm CO2e. A higher stabilisation level would require weaker cuts. For example, to stabilise at 650 ppm CO2e, emissions could be around 20% above current levels by 2050, and 35% below current levels by 2100. As described in section 8.2, this higher stabilisation level would mean a much greater chance of exceeding high levels of warming and therefore, a higher risk of more adverse and unacceptable outcomes. The paths shown in Table 8.2 are based on one model and should be treated as indicative. Despite this, they provide a crucial illustration of the scale of the challenge. Further research is required to explore the uncertainties and inform more detailed strategies on future emissions paths.
+
+%%page 201%%
+
+***To stabilise at 550 ppm CO2e, global emissions would need to peak in the next 10 – 20 years and then fall by around 1 – 3% per year. Depending on the exact trajectory taken, global emissions would need to be around 25% lower than current levels by 2050, or around 30-35 GtCO2.***
+
+If global emissions peak by 2015, then a reduction rate of 1% per year should be sufficient to achieve stabilisation at 550 ppm CO2e (Table 8.2). This would mean immediate, substantial and global action to prepare for this transition. Given the current trajectory of emissions and inertia in the global economy, such an early peak in emissions looks very difficult. But the longer the peak is delayed, the faster emissions will have to fall afterwards. For a delay of 15 years in the peak, the rate of reduction must more than double, from 1% to between 2.5% and 4.0% per year, where the lower value assumes a lower peak in emissions (see Figure 8.2). Given that it is likely to be difficult to reduce emissions faster than around 3% per year (discussed in the following section), this emphasises the importance of urgent action now to slow the growth of global emissions, and therefore lower the peak.
+
+A further 10-year delay would mean a reduction rate of at least 3% per year, assuming that action is taken to substantially slow emissions growth; if emissions growth is not slowed significantly, stabilisation at 550 ppm CO2e may become unattainable without overshooting.
+
+***Stabilising at 450 ppm CO2e or below, without overshooting, is likely to be very costly because it would require around 7% per year emission reductions.***
+
+Table 8.2 illustrates that even if emissions peaked in 2010, they would have to fall by around 7% per year to stabilise at 450 ppm CO2e without overshooting[^11] . This would take annual emissions to 70% below current levels, or around 13 GtCO2 by 2050. This is an extremely rapid rate, which is likely to be very costly. For example, 13GtCO2 is roughly equivalent to the annual emissions from agriculture and transport alone today.
+
+Achieving this could mean, for example, a rapid and complete decarbonisation of non-transport energy emissions, halting deforestation and substantial intensification of sequestration activities. The achievability of stabilisation levels is discussed in more detail in the following sections and in chapter 9.
+
+***Allowing the stock to peak at 500 ppm CO2e before stabilising at 450 ppm (an 'overshooting' path to stabilisation, Box 8.2) would decrease the required annual reduction rate from around 7% to 3%, if emissions were to peak in 2010. However, overshooting paths, in general, involve greater risks.***
+
+An overshooting path to any stabilisation level would lead to greater impacts, as the world would experience a century or more of temperatures close to those expected for the peak level (discussed later in Figure 8.3). Given the large number of unknowns in the climate system, for example, threshold points and irreversible changes, overshooting is potentially high risk. In addition, if natural carbon absorption were to weaken as projected, it might be impossible to reduce concentrations on timescales less than a few centuries.
+
+Given the extreme rates of emissions cuts required to stabilise at 450 ppm CO2e, in this case overshooting may be unavoidable. The risks involved in overshooting can be reduced through minimising the size of the overshoot by taking substantial, early action to cut emissions.
+
+%%page 202%%
+
+Box 8.2 Overshooting paths to stabilisation
+
+The figure below illustrates an overshooting path to stabilisation at 450 ppm CO2e (or 400 ppm CO2 only) – this is characterised by greenhouse gas levels peaking above the stabilisation goal and then reducing over a period of at least a century.
+
+The light blue line shows the level of all Kyoto greenhouse gases in CO2e (the Review definition) and the red line shows the level of carbon dioxide alone. The dark blue line shows a third measure of greenhouse gas level that includes aerosols and tropospheric ozone. This is the measure used in the Meinshausen et al. trajectories shown in this chapter. The gap between the two blue lines in the early period is mainly due to the cooling effect of aerosols. Critically, by 2050 the lines converge as it is assumed that aerosol emissions diminish.
+
+#### 8.6 Timing of Emissions Reductions
+
+***Pathways involving a late peak in emissions may effectively rule out lower stabilisation trajectories and give less margin for error, making the world more vulnerable to unforeseen changes in the Earth's system.***
+
+Early abatement paths offer the option to switch to a lower emissions path if at a later date the world decides this is desirable. This might occur for example, if natural carbon absorption weakened considerably (section 8.3) or the damages associated with a stabilisation goal were found to be greater than originally thought. Similarly, aiming for a lower stabilisation trajectory may be a sensible hedging strategy, as it is easier to adjust upwards to a higher trajectory than downwards to a lower one.
+
+***Late abatement trajectories carry higher risks in terms of climate impacts; overshooting stabilisation paths incur particularly high risks.***
+
+The impacts of climate change are not only dependent on the final stabilisation level, but also the path to stabilisation. Figure 8.3 shows that if emissions are accumulated more rapidly, this will lead to a more rapid rise in global temperatures. Figure 8.3 demonstrates the point made in the last section, that overshooting paths lead to particularly high risks, as temperatures rise more rapidly and to a higher level than if the target were approached from below.
+
+***Early abatement may imply lower long-term costs through limiting the accumulation of carbon-intensive capital stock in the short term.***
+
+Delaying action risks getting 'locked into' long-lived high carbon technologies. It is crucial to invest early in low carbon technologies. Technology policies are discussed in chapter 15.
+
+%%page 203%%
+
+Figure 8.3 Implications of Early versus Late Abatement
+
+The figure below is an illustrative example of the rate of change in (a) the stock of greenhouse gases and (b) global mean temperatures, for a set of slow (SC, black), rapid (RC, blue) and overshooting (OS, red) paths to stabilisation at 500 ppm CO2e.
+
+On the slow paths, emissions cuts begin early and progress at a gradual pace, leading to a gradual increase in greenhouse gas concentrations and therefore, temperatures. On the rapid paths, reductions are delayed, requiring stronger emissions cuts later on. This leads to a more rapid increase in temperature as emissions are accumulated more rapidly early on. The overshooting path has even later action, causing concentrations and temperatures to rise rapidly, as well as peaking at a higher level before falling to the stabilisation level.
+
+The higher rate of temperature rise associated with the delayed action paths (RC and OS) would increase the risk of more severe impacts. Temperatures associated with the overshooting path rise at more than twice the rate of the slow path (more than 0.2°C/decade) for around 80 years and rise to a level around 0.5°C higher. Many systems are sensitive to the rate of temperature increase, most notably ecosystems, which may be unable to adapt to such high rates of temperature change.
+
+***Paths requiring very rapid emissions cuts are unlikely to be economically viable.***
+
+To meet any given stabilisation level, a late peak in emissions implies relatively rapid cuts in annual emissions over a sustained period thereafter. However, there is likely to be a maximum practical rate at which global emissions can be reduced. At the national level, there are examples of sustained emissions cuts of up to 1% per year associated with structural change in energy systems (Box 8.3). One is the UK 'dash for gas'; a second is France, which, by switching to a nuclear power-based economy, saw energy-related emissions fall by almost 1% per year between 1977 and 2003, whilst maintaining strong economic growth.
+
+%%page 204%%
+
+However, cuts in emissions greater than this have historically been associated only with economic recession or upheaval, for example, the emissions reduction of 5.2% per year for a decade associated with the economic transition and strong reduction in output in the former Soviet Union. These magnitudes of cuts suggest it is likely to be very challenging to reduce emissions by more than a few percent per year while maintaining strong economic growth.
+
+Box 8.3 Historical reductions in national emissions
+
+Experience suggests it is difficult to secure emission cuts faster than about 1% per year except in instances of recession. Even when countries have adopted significant emission saving measures, national emissions often rose over the same period.
+
+- Nuclear power in France: In the late 1970s, France invested heavily in nuclear power. Nuclear generation capacity increased 40-fold between 1977 and 2003 and emissions from the electricity and heat sector fell by 6% per year, against a background 125% increase in electricity demand. The reduction in total fossil fuel related emissions over the same period was less significant (0.6% per year) because of growth in other sectors.
+
+- Brazil's biofuels: Brazil scaled up the share of biofuels in total road transport fuel from 1% to 25% from 1975 to 2002. This had the effect of slowing, but not reversing, the growth of road transport emissions, which rose by 2.8% per year with biofuels, but would otherwise have risen at around 3.6% per year. Total fossil fuel related emissions from Brazil rose by 3.1% pa over the same period.
+
+- Forest restoration in China: China embarked on a series of measures to reduce deforestation and increase reforestation from the 1980s, with the aim of restoring forests and the environmental benefits they entail. Between 1990 and 2000 forested land increased by 18m hectares from 16% to 18% of total land area[^12] . Despite cuts in land use emissions of 29% per year between 1990 and 2000[^13] , total GHG emissions rose by 2.2% over the same period.
+
+- UK 'Dash for Gas': An increase in coal prices in the 1990s relative to gas encouraged a switch away from coal towards gas in power generation. Total GHG emissions fell by an average of 1% per year between 1990 and 2000.
+
+- Recession in Former USSR: The economic transition and the associated downturn during the period 1989 to 1998 saw fossil fuel related emissions fall by an average of 5.2% per year.
+
+Source for emission figures: WRI (2006) and IEA (2006).
+
+The key reason for the difficulty in sustaining a rapid rate of annual emissions cuts is inertia in the economy. This has three main sources:
+
+- First, capital stock lasts a number of years and for the duration it is in place, it locks the economy into a particular emissions pathway, as early capital stock retirement is likely to be costly. The extent and impact of this is illustrated in Box 8.3.
+- Second, developing new lower emissions technology tends to be a slow process, because it takes time to learn about and develop new technologies. This is discussed in more detail in Chapter 9.
+
+%%page 205%%
+
+- Third, it takes time to change habits, preferences and institutional structures in favour of low-carbon alternatives. Chapter 15 discusses the importance of policy in shifting these.
+
+These limits to the economically feasible speed of adjustment constrain the range of feasible stabilisation trajectories.
+
+Box 8.4 The implications for mitigation policy of long-lived capital stock
+
+Power generation infrastructure typically has a very long lifespan, as does much energy-using capital stock. Examples are given below.
+
+Source: World Business Council for Sustainable Development (2004) and IPCC (1999).
+
+This means that once an investment is made, it can last for decades. A high-carbon or low-efficiency piece of capital stock will tend to lock the economy into a high emissions pathway. The only options are then early retirement of capital stock, which is usually uneconomic; or "retrofitting" cleaner technologies, which is invariably more expensive than building them in from the start. This highlights the need for policy to recognise the importance of capital stock replacement cycles, particularly at key moments, such as the next two decades when a large volume of the world's energy generation infrastructure is being built or replaced. Missing these opportunities will make future mitigation efforts much more difficult and expensive.
+
+#### 8.7 The Scale of the Challenge
+
+Stabilisation at 550 ppm CO2e requires emissions to peak in the next 10-20 years, and to decline at a substantial rate thereafter. Stabilisation at 450 ppm CO2e requires even more urgent and strong action. But global emissions are currently on a rapidly rising trajectory, and under "business as usual" (BAU) will continue to rise for decades to come. The "mitigation gap" describes the difference between these divergent pathways.
+
+***To achieve stabilisation between 450 and 550 ppm CO2e, the mitigation gap between BAU and the emissions path ranges from around 50 – 70 GtCO2e per year by 2050.***
+
+Figure 8.4 plots expected trends in BAU emissions[^14] against emission pathways for stabilisation levels in the range 450 to 550 ppm CO2e. The exact size of the mitigation gap depends on assumptions on BAU trajectories, and the stabilisation level chosen. In this example, it ranges from around 50 to 70 GtCO2e in 2050 to stabilise at 450 – 550 ppm CO2e. For comparison, total global emissions are currently around 45 GtCO2e per year.
+
+Another way to express the scale of the challenge is to look at how the relationship needs to change between emissions and the GDP and population (two of the key drivers of emissions). To meet a 550 ppm CO2e stabilisation pathway, global average emissions per capita need to fall to half of current levels, and emissions per unit of GDP need to fall to one quarter of current levels by 2050. These are structural shifts on a major scale.
+
+***Stabilising greenhouse gas concentrations in the range 450 – 550 ppm CO2e will require substantial action from both developed and developing regions.***
+
+%%page 206%%
+
+Even if emissions from developed regions (defined in terms of Annex I countries[^15] ) could be reduced to zero in 2050, the rest of the world would still need to cut emissions by 40% from BAU to stabilise at 550 ppm CO2e. For 450 ppm CO2e, this rises to almost 80%. Emissions reductions in developed and developing countries are discussed further in Part VI.
+
+Figure 8.4 BAU emissions and stabilisation trajectories for 450 - 550 ppm CO2e
+
+The figure below shows illustrative pathways to stabilise greenhouse gas levels between 450 ppm and 550 ppm CO2e. The blue line shows a business as usual (BAU) trajectory. The size of the mitigation gap is demonstrated for 2050. To stabilise at 450 ppm CO2e (without overshooting) emissions must be more than 85% below BAU by 2050. Stabilisation at 550 ppm CO2e would require emissions to be reduced by 60 – 65% below BAU. Table 8.2 gives the reductions relative to 2005 levels.
+
+***Stabilisation at 550 ppm CO2e or below is achievable, even with currently available technological options, and is consistent with economic growth.***
+
+An illustration of the extent and nature of technological change needed to make the transition to a low-carbon economy is provided by Socolow and Pacala (2004). They identify a 'menu' of options, each of which can deliver a distinct 'wedge' of savings of 3.7 GtCO2e (1 GtC) in 2055, or a cumulative saving of just over 90 GtCO2e (25 GtC) between 2005 and 2055. Each option involves technologies already commercially deployed somewhere in the world and no major technological breakthroughs are required. Some technologies are capable of delivering several wedges.
+
+In their analysis, Socolow and Pacala only consider what effort is required to maintain carbon dioxide levels below 550 ppm (roughly equivalent to 610 – 690 ppm CO2e when other gases are included) by implementing seven of their wedges. This is demonstrated in Figure 8.5.
+
+While the Socolow and Pacala analysis does not explicitly explore how to stabilise at between 450 and 550 ppm CO2e, it does provide a powerful illustration of the scale of action that would be required. It demonstrates that substantial emissions savings are achievable with currently available technologies and the importance of utilising a mix of options across several sectors. These conclusions are supported by many other studies undertaken by industry, governments and the scientific and engineering research community.
+
+%%page 207%%
+
+Figure 8.5 Socolow and Pacala's "wedges"
+
+***To meet a stabilisation level of 550 ppm CO2e or below, a broad portfolio of measures would be required, with non-energy emissions being a very important part of the story.***
+
+Fossil fuel related emissions from the energy sector in total would need to be reduced to below the current 26 GtCO2 level, implying a very large cut from the BAU trajectory, which sees emissions more than doubling. This implies: • A reduction in demand for emissions-intensive goods and services, with both net reductions in demand, and efficiency improvements in key sectors including transport, industry, buildings, fossil fuel power generation. • The electricity sector would have to be largely decarbonised by 2050, through a mixture of renewables, CCS and nuclear. • The transport sector is still likely to be largely oil based by 2050, but efficiency gains will be needed to keep down growth; biofuels, and possibly some hydrogen or electric vehicles could have some impact. Aviation is unlikely to see technology breakthroughs, but there is potential for efficiency savings. A portfolio of technologies will be required to achieve this. Different studies make different assumptions on what the mix might be. This is discussed further in chapter 9.
+
+Emissions from deforestation are large, but are expected to fall gradually over the next fifty years as forest resources are exhausted (Annex 7.F). With the right policies and enforcement mechanisms in place, the rate of deforestation could be reduced and substantial emissions cuts achieved. Together with policies on afforestation and reforestation, net emissions from land-use changes could be reduced to less than zero – that is, land-use change could strengthen natural carbon dioxide absorption.
+
+%%page 208%%
+
+Emissions from agriculture will rise due to rising population and income, and by 2020 could be almost one third higher than their current levels of 5.7 GtCO2e. The implementation of measures to reduce agricultural emissions is difficult, but there is potential to slow the growth in emissions.
+
+In practice the policy choices involved are complex; some actions are much more expensive than others, and there are also associated environmental and social impacts and constraints.
+
+The following chapters discuss how to achieve cost-effective emissions cuts over the next few decades. These activities must be continued and intensified to maintain stabilisation in the long run. Over the next few centuries, section 8.3 showed that emissions would need to be brought down to approximately the level of agriculture alone today. Given that preliminary analyses indicate that it would be difficult to cut agricultural emissions (Chapter 9 and Annex 7.F), this means that, in the long term, net emissions (which includes sequestration from activities such as planting forests) from all other sectors would need to fall to zero.
+
+#### 8.8 Conclusions
+
+Stabilising the stock of greenhouse gases in the range 450 – 550 ppm CO2e requires urgent, substantial action to reduce emissions, firstly to ensure that emissions peak in the next few decades and secondly, to make the rate of decline in emissions as low as possible. If insufficient action is taken now to reduce emissions, stabilisation will become more difficult in the longer term, in terms of the speed of the transition required and the consequent costs of mitigation.
+
+Stabilising greenhouse gas emissions is achievable through utilising a portfolio options, both technological and otherwise, across multiple sectors. The cost-effectiveness of these measures is discussed in detail in the following chapters.
+
+%%page 209%%
+
+#### References
+
+The analyses of emissions trajectories presented in this chapter are based on those presented in den Elzen and Meinshausen (2005), using the same model (Meinshausen et al. 2006). These papers provide a clear and concise overview of the key issues associated with stabilisation paths. Pacala and Socolow (2004) discuss ways of filling the 'carbon gap' with currently available technologies.
+
+Den Elzen, M. and M. Meinshausen (2005): 'Multi-gas emission pathways for meeting the EU 2°C climate target', in Schellnhuber et al. (eds.), Avoiding Dangerous Climate Change, Cambridge: Cambridge University Press.
+
+Intergovernmental Panel on Climate Change (1999): 'Aviation and the global atmosphere', A Special Report of IPCC Working Groups I and III in collaboration with the Scientific Assessment Panel to the Montreal Protocol on Substances that Deplete the Ozone Layer [J.E. Penner, D.H. Lister, D.J. Griggs et al. (eds.)], Cambridge: Cambridge University Press.
+
+International Energy Agency (2006): 'CO2 emissions from fossil fuel combustion on-line database', version 2005/06, Paris: International Energy Agency, available from http://data.iea.org/stats/eng/main.html
+
+Jacobs, M. (1991): 'The green economy: Environment, sustainable development and the politics of the future, London: Pluto Press.
+
+Jones, C.D., P.M. Cox and C. Huntingford (2006): 'Impact of climate-carbon feedbacks on emissions scenarios to achieve stabilisation', in Avoiding Dangerous Climate Change, Schellnhuber et al. (eds.), Cambridge: Cambridge University Press.
+
+Meinshausen, M. (2006): 'What does a 2°C target mean for greenhouse gas concentrations? A brief analysis based on multi-gas emission pathways and several climate sensitivity uncertainty estimates', pp.265 – 280 in Avoiding dangerous climate change, H.J. Schellnhuber et al. (eds.), Cambridge: Cambridge University Press.
+
+Meinshausen, M., D. van Vuuren, T.M.L. Wigley, et al. (2006): 'Multi-gas emission pathways to meet climate targets', Climatic Change, 75: 151-194
+
+Murphy, J.M., D.M.H. Sexton, D.N. Barnett, et al. (2004): 'Quantification of modelling uncertainties in a large ensemble of climate change simulations', Nature 430: 768 – 772
+
+O'Neill, B. and M. Oppenheimer (2004): 'Climate change impacts are sensitive to the concentration stabilization path'. Proceedings of the National Academy of Sciences 101(47): 16411-16416
+
+Pacala, S. and R. Socolow (2004): 'Stabilization wedges: Solving the climate problem for the next 50 years with current technologies', Science, 305: 968-972
+
+Prentice, I.C., G.D. Farquhar, M.J.R. Fasham, et al. (2001): 'The carbon cycle and atmospheric carbon dioxide', in Climate Change 2001: The Scientific Basis. Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change [J. Houghton et al. (eds.)]. Cambridge: Cambridge University Press.
+
+Ramaswamy, V. et al. (2001): 'Radiative forcing of climate change', in Climate Change 2001: The Scientific Basis. Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change, [J. Houghton et al. (eds.)], Cambridge: Cambridge University Press.
+
+US Climate Change Science Program (2006): 'Scenarios of greenhouse gas emissions and atmospheric concentrations and review of integrated scenario development and application', Public Review Draft of Synthesis and Assessment Product 2.1
+
+%%page 210%%
+
+Wigley, T.M.L. and S.C.B. Raper (2001): 'Interpretation of high projections for global-mean warming', Science 293: 451-454
+
+World Business Council for Sustainable Development (2004): 'Facts and trends to 2050 – energy and climate change', World Business Council for Sustainable Development, Stevenage: Earthprint Ltd., available from www.wbcsd.org
+
+World Resources Institute (2006): Climate Analysis Indicators Tool (CAIT) on-line database version 3.0, Washington, DC: World Resources Institute, 2006, available from http://cait.wri.org
+
+Zhu, C., R. Taylor and G. Feng (2004): 'China's wood market, trade and the environment', available from: http://assets.panda.org/downloads/chinawoodmarkettradeenvironment.pdf
+
+%%page 211%%
+
+### 9 Identifying the Costs of Mitigation
+
+Key Messages
+
+Slowly reducing emissions of greenhouse gasses that cause climate change is likely to entail some costs. Costs include the expense of developing and deploying low-emission and high-efficiency technologies and the cost to consumers of switching spending from emissions-intensive to low-emission goods and services.
+
+Fossil fuel emissions can be cut in several ways: reducing demand for carbon-intensive products, increasing energy efficiency, and switching to low-carbon technologies. Non-fossil fuel emissions are also an important source of emission savings. Costs will differ considerably depending on which methods and techniques are used where.
+
+- Reducing demand for emissions-intensive goods and services is part of the solution. If prices start to reflect the full costs of production, including the greenhouse gas externality, consumers and firms will react by shifting to relatively cheaper low-carbon products. Increasing awareness of climate change is also likely to influence demand. But demand-side factors alone are unlikely to achieve all the emissions reductions required.
+- Efficiency gains offer opportunities both to save money and to reduce emissions, but require the removal of barriers to the uptake of more efficient technologies and methods.
+- A range of low-carbon technologies is already available, although many are currently more expensive than fossil-fuel equivalents. Cleaner and more efficient power, heat and transport technologies are needed to make radical emission cuts in the medium to long term. Their future costs are uncertain, but experience with other technologies has helped to develop an understanding of the key risks. The evidence indicates that efficiency is likely to increase and average costs to fall with scale and experience.
+- Reducing non-fossil fuel emissions will also yield important emission savings. The cost of reducing emissions from deforestation, in particular, may be relatively low, if appropriate institutional and incentive structures are put in place and the countries facing this challenge receive adequate assistance. Emissions cuts will be more challenging to achieve in agriculture, the other main non-energy source.
+
+A portfolio of technologies will be needed. Greenhouse gases are produced by a wide range of activities in many sectors, so it is highly unlikely that any single technology will deliver all the necessary emission savings. It is also uncertain which technologies will turn out to be cheapest, so a portfolio will be required for low-cost abatement.
+
+An estimate of resource costs suggests that the annual cost of cutting total GHG to about three quarters of current levels by 2050, consistent with a 550ppm CO2e stabilisation level, will be in the range –1.0 to +3.5% of GDP, with an average estimate of approximately 1%. This depends on steady reductions in the cost of low-carbon technologies, relative to the cost of the technologies currently deployed, and improvements in energy efficiency. The range is wide because of the uncertainties as to future rates of innovation and fossil-fuel extraction costs. The better the policy, the lower the cost.
+
+Mitigation costs will vary according to how and when emissions are cut. Without early, well-planned action, the costs of mitigating emissions will be greater.
+
+%%page 212%%
+
+#### 9.1 Introduction
+
+***Vigorous action is urgently needed to slow down, halt and reverse the growth in greenhouse-gas (GHG) emissions, as the previous chapters have shown. This chapter considers the types of action necessary and the costs that are likely to be incurred.***
+
+This chapter outlines a conceptual framework for understanding the costs of reducing GHG emissions, and presents some upper estimates of costs to the global economy of reducing total emissions to three quarters of today's levels by 2050 (consistent with a 550ppm CO2e stabilisation trajectory, described in Chapter 8). The costs are worked out by looking at costs of individual emission saving technologies and measures. Chapter 10 looks at what macroeconomic models can say about how much it would cost to reduce emissions by a similar extent, and reaches similar conclusions. Chapter 10 also shows why a 450ppm CO2e target is likely to be unobtainable at reasonable cost.
+
+Section 9.2 explains the nature of the costs involved in reducing emissions. Estimating the resource cost of achieving given reductions by adopting new de-carbonising technologies alone provides a good first approximation of the true cost. The costs of achieving reductions can be brought down, however, by sensible policies that encourage the use of a range of methods, including demand-switching and greater energy efficiency, so this approach to estimation is likely to exaggerate the true costs of mitigation.
+
+Section 9.3 sets out the range of costs associated with different technologies and methods. The following four sections look at the potential and cost of tackling non-fossil fuel emissions (mainly from land-use change) and cutting fossil fuel related emissions (either by reducing demand, raising energy efficiency, or employing low-carbon technologies).
+
+The overall costs to the global economy are estimated in Sections 9.7 and 9.8, using the resource-cost method. They are found to be in the region of –1.0 to 3.5% of GDP, with a central estimate of approximately 1% for mitigation consistent with a 550ppm CO2e stabilisation level. Different modelling approaches to calculating the cost of abatement generate estimates that span a wide range, as Chapter 10 will show. But they do not obscure the central conclusion that climate-change mitigation is technically and economically feasible at a cost of around 1% of GDP.
+
+While these costs are not small, they are also not high enough seriously to compromise the world's future standard of living. A 1% cost increase is like a one-off 1% increase in the price index with nominal income unaffected (see Chapter 10). While that is not insignificant, most would regard it as manageable, and it is consistent with the ambitions of both developed and developing countries for economic growth. On the other hand, climate change, if left unchecked, could pose much greater threats to growth, as demonstrated by Part II of this Review.
+
+#### 9.2 Calculating the costs of cutting GHG emissions
+
+***Any costs to the economy of cutting GHG emissions, like other costs, will ultimately be borne by households.***
+
+Emission-intensive products will either become more expensive or impossible to buy. The costs of adjusting industrial structures will be reflected in pay and profits – with opportunities for new activities and challenges for old. The costs of adjusting industrial structures will be reflected in pay and profits – with opportunities for new activities and challenges for old. More resources will be used, at least for a while, in making currently emissions-intensive products in new ways, so fewer will be available for creating other goods and services. In considering how much mitigation to undertake, these costs should be compared with the future benefits of a better climate, together with the potential co-benefits of mitigation policies, such as greater energy efficiency and less local pollution, discussed in Chapter 12. The comparison is taken further in Chapter 13, where the costs of adaptation and mitigation are weighed up.
+
+%%page 213%%
+
+***A simple first approximation to the cost of reducing emissions can be obtained by considering the probable cost of a simple set of technological and output changes that are likely to achieve those reductions.***
+
+One can measure the extra resources required to meet projected energy demand with known low-carbon technologies and assess a measures of the opportunity costs, for example, from forgone agricultural output in reducing deforestation. This is the approach taken below in Sections 9.7 and 9.8. If the costs were less than the benefits that the emissions reductions bring, it would be better to take the set of mitigation measures considered than do nothing. But there may be still better measures available[^1] .
+
+The formal economics of marginal policy changes or reforms has been studied in a general equilibrium framework that includes market imperfections[^2] . A reform, such as reducing GHG emissions by using extra resources, can be assessed in terms of the direct benefits of a marginal reform on consumers (the emission reduction and the reduced spending on fossil fuels), less the cost at shadow prices[^3] of the extra resources.
+
+The formal economics draws attention to two issues that are important in the case of climatechange policies. First, the policies need to bring about a large, or non-marginal, change. The marginal abatement cost (MAC) – the cost of reducing emissions by one unit – is an appropriate measuring device only in the case of small changes. For big changes, the marginal cost may change substantially with increased scale. Using the MAC that initially applies, when new technologies are first being deployed, would lead to an under-estimate of costs where marginal costs rise rapidly with the scale of emissions. This could happen, for example, if initially cheap supplies of raw materials start to run short. But it may over-estimate costs where abatement leads to reductions in marginal costs – for example, through induced technological improvements[^4] . These issues will be discussed in more detail below, in the context of empirical estimates, where average and total costs of mitigation are examined as well as marginal costs.
+
+It is important to keep the distinction between marginal and average costs in mind throughout, because they are likely to diverge over time. On the one hand, the marginal abatement cost should rise over time to remain equal to the social cost of carbon, which itself rises with the stock of greenhouse gases in the atmosphere (see Chapter 13). On the other hand, the average cost of abatement will be influenced not only by the increasing size of emissions reductions, but also by the pace at which technological progress brings down the total costs of any given level of abatement (see Box 9.6).
+
+Second, as formal economics has shown, shadow prices and the market prices faced by producers are equal in a fairly broad range of circumstances, so market prices can generally be used in the calculations in this chapter. But an important example where they diverge is in the case of fossil fuels. Hydrocarbons are exhaustible natural resources, the supply of which is also affected by the market power of some of their owners, such as OPEC. As a result, the market prices of fossil fuels reflect not only the marginal costs of extracting the fuels from the ground but also elements of scarcity and monopoly rents, which are income transfers, not resource costs to the world as a whole. When calculating the offset to the global costs of climate-change policy from lower spending on fossil fuels, these rents should not be included[^5] .
+
+%%page 214%%
+
+***If there are cheaper ways of reducing carbon emissions than the illustrative set of measures examined in this chapter, and there generally will be cheaper methods than any one particular set chosen by assumption, then the illustration gives an upper bound to total costs.***
+
+An illustration of how emissions can be reduced, and at what cost, by one particular simple set of actions should provide an over-estimate of the costs that will actually be involved in reducing emissions – as long as policies set the right incentives for the most cost-effective methods of mitigation to be used. Policy-makers cannot predict in detail the cheapest ways to achieve emission reductions, but they can encourage individual households and firms to find them. Thus the costs of mitigation will depend on the effectiveness of the policy tools chosen to deliver a reduction in GHG emissions. Possible tools include emission taxes, carbon taxation and tradable carbon quotas. Carbon pricing by means of any of these methods is likely to persuade consumers to reduce their spending on currently emissions-intensive products, a helpful channel of climate-change policy that is ignored in simple technology-based cost illustrations. Induced changes in the pattern of demand can help to bring down the total costs of mitigation, but consumers still suffer some loss of real income. Regulations requiring the use of certain technologies and/or imposing physical limits on emissions constitute another possible tool.
+
+In assessing the impact of possible instruments, key issues include the structure of taxes and associated deadweight losses[^6] , the distribution of costs and benefits and whether or not they disrupt or enhance competitive processes. Some of these issues are tackled in simple ways by the model-based approaches to estimating costs of mitigation considered in Chapter 10. Chapter 14 considers the merits and demerits of different methods in further detail. That discussion also examines the notion of a 'double dividend' from raising taxes on 'public bads'. Chapter 11 uses UK input-output data to illustrate how extra costs proportional to carbon emissions would be distributed through the economy. If, for example, extra costs amounted to around $30/tCO2 (£70/tC), it would result in an overall increase in UK consumer prices of around 1%. The analysis shows how this additional cost would be distributed in different ways across different sectors.
+
+In examining whether mitigation by any particular method should be increased at the margin, and whether policies are cost-effective, the concept of marginal abatement cost (MAC) is central. There are many possible ways to reduce emissions, and many policy tools that could be used to do so. The costs of reductions will depend on the method chosen. One key test of the cost effectiveness of a possible plan of action is whether the MAC for each method is the same, as it should be if total costs are to be kept to a minimum. Otherwise, a saving could be made by switching at the margin from an option with a higher MAC to one with a lower MAC. This principle should be borne in mind in the discussion of different abatement opportunities below.
+
+#### 9.3 The range of abatement opportunities
+
+The previous section set out a conceptual framework for thinking about the costs of reducing GHG emissions. The following sections look in more detail at estimates of the costs of different methods of achieving reductions.
+
+This section sets out four main ways in which greenhouse-gas emissions can be reduced. The first is concerned with abating non-fossil-fuel emissions, and the latter three are about cutting fossil-fuel (energy-related) emissions. These are:
+
+- To reduce non-fossil fuel emissions, particularly land use, agriculture and fugitive emissions
+- To reduce demand for emission-intensive goods and services
+- To improve energy efficiency, by getting the same outputs from fewer inputs
+
+%%page 215%%
+
+- To switch to technologies which produce fewer emissions and lower the carbon intensity of production
+
+Annexes 7.B to 7.G[^7] include some more detail on which technologies can be used to cut emissions in each sector, and the associated costs.
+
+The array of abatement opportunities can be assessed in terms of their cost per unit of GHG reduction ($/tCO2e), both at present and through time. In theory, abatement opportunities can be ranked along a continuum of the kind shown in Figure 9.1. This shows that some measures (such as improving energy efficiency and reducing deforestation) can be very cheap, and may even save money. Other measures, such as introducing hydrogen vehicles, may be a very expensive way to achieve emission reductions in the near term, until experience brings costs down.
+
+The precise ranking of measures differs by country and sector. It may also change over time (represented in Figure 9.1 by arrows going from right to left), for example, research and development of hydrogen technology may bring the costs down in future (illustrated by the downward shift in the abatement curve over time).
+
+Figure 9.1 Illustrative marginal abatement option cost curve
+
+For any single technology, marginal costs are likely to increase with the extent of abatement in the short term, as the types of land, labour and capital most suitable for the specific technology become scarcer. The rate of increase is likely to differ across regions, according to the constraints faced locally.
+
+For these reasons, flexibility in the type, timing and location of emissions reduction is crucial in keeping costs down. The implications for total costs of restricting this flexibility are discussed in more detail in Chapter 10. A test of whether there is enough flexibility is to consider whether the marginal costs of abatement are broadly the same in all sectors and countries; if not, the same amount of reductions could be made at lower cost by doing more where the marginal cost is low, and less where it is high.
+
+%%page 216%%
+
+#### 9.4 Cutting non-fossil-fuel related emissions
+
+***Two-fifths of global emissions are from non-fossil fuel sources; there are opportunities here for low-cost emissions reductions, particularly in avoiding deforestation.***
+
+Non-fossil fuel emissions account for 40% of current global greenhouse-gas emissions, and are an important area of potential emissions savings. Emissions are mainly from non-energy sources, such as land use, agriculture and waste. Chapter 7 contains a full analysis of emission sources.
+
+Almost 20% (8 GtCO2/year) of total greenhouse-gas emissions are currently from deforestation. A study commissioned by the Review looking at 8 countries responsible for 70% of emissions found that, based upon the opportunity costs of the use of the land which would no longer be available for agriculture if deforestation were avoided, emission savings from avoided deforestation could yield reductions in CO2 emissions for under $5/tCO2, possibly for as little as $1/tCO2 (see Box 9.1). In addition, large-scale reductions would require spending on administration and enforcement, as well as institutional and social changes. The transition would need to be carefully managed if it is to be effective.
+
+Planting new forests (afforestation and reforestation) could save at least an additional 1 GtCO2/yr, at a cost estimated at around $5/tCO2 - $15/tCO2[^8] . The full technical potential of forestry related measures would go beyond this. An IPCC report in 2000 estimated a technical potential of 4 - 6 GtCO2/year from the planting of new forests alone between 1995 and 2050, 70% of which would come from tropical countries[^9] . Revised estimates are expected from the Fourth Assessment Report of IPCC.
+
+Changes to agricultural land management, such as changes to tilling practices[^10] , could save a further 1 GtCO2/year at a cost of around $27/tCO2e in 2020[^11] . More recent analysis suggested savings could be as much as 1.8 GtCO2 at $20/tCO2 in 2030[^12] . The production of bioenergy crops would add further savings. In this chapter, this is discussed in the context of its application to emissions savings in other sectors (see Box 9.5). Biogas from animal wastes could also yield further savings.
+
+%%page 217%%
+
+Box 9.1 The costs of reducing emissions by avoiding further deforestation
+
+A substantial body of evidence suggests that action to prevent further deforestation would be relatively cheap compared with other types of mitigation.
+
+Three types of costs arise from curbing deforestation. These are the opportunity cost foregone from preserving forest, the cost of administering and enforcing effective action, and the cost of managing the transition.
+
+The opportunity cost to those who use the land directly can be estimated from the potential revenue per hectare of alternative land uses. These potential returns vary between uses. Oil palm and soya produce much higher returns than pastoral use, with net present values of up to $2000 per hectare compared with as little as $2 per hectare[^13] . Timber is often harvested, particularly in South East Asia, where there is easy access to nearby markets and timber yields higher prices. Timber sales can offset the cost of clearing and converting land.
+
+A study carried out for this Review[^14] estimated opportunity costs on this basis for eight countries[^15] that collectively are responsible for 70% of land-use emissions (responsible for 4.9 GtCO2 today and 3.5 GtCO2 in 2050 under BAU conditions). If all deforestation in these countries were to cease, the opportunity cost would amount to around $5-10 billion annually (approximately $1-2/tCO2 on average). On the one hand, the opportunity cost in terms of national GDP could be higher than this, as the country would also forego added value from related activities, including processing agricultural products and timber. The size of the opportunity cost would then depend on how easily factors of production could be re-allocated to other activities. On the other hand, these estimates may overstate the true opportunity cost, as sustainable forest management could also yield timber and corresponding revenues. Furthermore, reducing emissions arising from accidental fires or unintended damage from logging may be lower than the opportunity costs suggest.
+
+Other studies have estimated the cost of action using different methods, such as land-value studies assuming that the price of a piece of land approximates to the market expectation of the net present value of income from it, and econometric studies that estimate an assumed supply curve. In econometric studies[^16] , marginal costs have been projected as high as $30t/CO2 to eliminate all deforestation. High marginal values for the last pieces of forestland preserved are not inconsistent with a bottom-up approach based on average returns across large areas. These studies also suggest that costs are low for early action on a significant scale.
+
+Action to address deforestation would also incur administrative, monitoring and enforcement costs for the government. But there would be significant economies of scale if action were to take place at a country level rather than on a project basis. Examination of such schemes suggests that the possible costs are likely to be small: perhaps $12m to $93m a year for these eight countries.
+
+The policy challenges involved with avoiding further deforestation are discussed in Chapter 25.
+
+The other main further sources of non-energy-related emissions, with estimates of economic potential for emissions reductions, are:
+
+- Livestock, fertiliser and rice produce methane and nitrous oxide emissions. The IPCC (2001) suggested that around 1 GtCO2e/year could be saved at a cost of up to $27/tCO2e[^17] in 2020. However more recent analysis suggests that just 0.2
+
+%%page 218%%
+
+GtCO2e/year might be saved at $20/tCO2e in 2030[^18] . It is important to investigate ways of cutting this growing source of emissions.
+
+- Wastage in the production of fossil fuels (so-called fugitive emissions) and other energy-related non-CO2 emissions currently amount to around 2 GtCO2e/year[^19] . If fugitive emissions of non-CO2 and CO2 gases could be constrained to current levels, then savings could amount to 2.3 GtCO2e/year and 0.2 GtCO2/year respectively in 2050 on baseline levels[^20] .
+- Waste is currently responsible for 1.4 GtCO2e/year[^21] , of which over half is from landfill sites and most of the remainder from wastewater treatment. Reusing and recycling lead to less resources being required to produce new goods and a reduction in associated emissions. Technologies such as energy-recovering incinerators also help to reduce emissions. The IPCC estimate that 0.7 GtCO2e/year could be saved in 2020, of which three quarters could be achieved at negative cost and one quarter at a cost of $5/tCO2e[^22] .
+- Industrial processes used to make products such as adipic and nitric acid produce non-CO2 emissions; the IPCC estimate that 0.4 GtCO2e/year could be reduced from these sources in 2020 at a cost of less than $3/tCO2e[^23] . The production of products such as aluminium and cement also involve a chemical process that release CO2. Assuming that emissions from this source could be reduced by a similar proportion, savings could amount to 0.5 GtCO2e in 2050[^24] .
+
+Table 9.1 summarises the possible cost-effective non-fossil fuel CO2 emission savings for 2050 described above. These figures are very uncertain but the estimates for waste and industrial processes arguably represent a lower-end estimate because they come from IPCC studies looking at possible emission savings in 2020, and savings by 2050 could be higher. Some of these savings cost $5/tCO2e or less, and it is possible that more could be saved at a slightly higher cost, with the technical potential for land-use changes being particularly significant. Achieving these emission savings would mean non-fossil fuel emissions in 2050 would be almost 11 GtCO2e lower in 2050 than in the baseline case.
+
+%%page 219%%
+
+Table 9.1 Non-fossil-fuel emissions and savings by sector
+
+#### 9.5 Reducing the demand for carbon-intensive goods and services
+
+One way of reducing emissions is to reduce the demand for greenhouse-gas-intensive goods and services like energy. Policies to reduce the amount of energy-intensive activity should include creating price signals that reflect the damage that the production of particular goods and services does to the atmosphere. These signals will encourage firms and households to switch their spending towards other, less emissions-intensive, goods and services.
+
+Regulations, the provision of better information and changing consumer preferences can also help. If people's preferences evolve as a result of greater sensitivity to energy use, for instance to favour smaller, more fuel-efficient vehicles, they may perceive the burden from 'trading down' from a larger vehicle as small or even negative (see Chapter 17). Efforts to reduce the demand for emissions-intensive activities include reducing over-heating of buildings, reducing the use of energy-hungry appliances, and the development and use of more environmentally friendly forms of transport.
+
+In some cases, there may be 'win-win' opportunities (for example, congestion charging may lead to a reduction in GHG emissions and also reduce journey time for motorists and bus users). But some demand-reduction measures may conflict with other policy objectives. For example, raising the cost of private transport could lead to social exclusion, especially in rural areas. Chapter 12 discusses in more detail how climate change policy may fit with other policy objectives. Part IV of the Review includes discussion of how policy can be designed to ensure that the climate change damage associated with emission-intensive goods and services is better reflected in their prices.
+
+#### 9.6 Improving energy efficiency
+
+***Improving efficiency and avoiding waste offer opportunities to save both emissions and resources, though there may be obstacles to the adoption of these opportunities.***
+
+Energy efficiency refers to the proportion of energy within a fuel that is converted into a given final output. Improving efficiency means, for example, using less electricity to heat buildings to a given temperature, or using less petrol to drive a kilometre. The opportunities for reducing carbon emissions through the uptake of low-carbon energy sources, 'fuel switching', are not considered in this section.
+
+The technical potential for efficiency improvements to reduce emissions and costs is substantial. Over the past century, efficiency in energy supply improved ten-fold or more in the industrial countries. Hannah's historical study[^26] of the UK electricity industry, for example, reports that the consumption of coal was 10-25 lbs/kWh in 1891, 5 lbs/kWh in the first decade of the 20th century and 1.5 lbs/kWh by 1947; today it is about 0.7 lbs/kWh[^27] , a roughly 10-fold increase over the century in the efficiency of power generation alone.
+
+%%page 220%%
+
+There have also been impressive gains in the efficiency with which energy is utilised for heating, lighting, refrigeration and motive power for industry and transport, with the invention of the fluorescent light bulb, the substitution of gas for coal for heat, the invention of double glazing, the use of 'natural' systems for lighting, heating and cooling, the development of heat pumps, the use of loft and cavity-wall insulation, and many other innovations.
+
+Furthermore, the possibilities for further gains are far from being exhausted, and are now much sought after by industry and commerce, particularly those engaged in energy-intensive processes. Many of these opportunities are yet to be incorporated fully into the capital stock. For example, the full hybrid car (which may also pave a path for electric and fuel-cell vehicles) offers the prospect of a step change in the fuel efficiency of vehicles, while new diode-based technologies have the potential to deliver marked reductions in the intensity of lighting.
+
+However, the rate of uptake of efficiency measures is often slow, largely because of the existence of market barriers and failures. These include hidden and transaction costs such as the cost of the time needed to plan new investments; a lack of information about the available options; capital constraints; misaligned incentives; together with behavioural and organisational factors affecting economic rationality in decision-making. These are discussed in more detail in Chapter 17.
+
+There is much debate about how big a reduction in emissions efficiency measures could in practice yield. The IEA studies summarised in Section 9.9 find that efficiency in the use of fossil fuels is likely to be the single largest source of fossil fuel-related emission savings in 2050, capable of reducing carbon emissions by up to 16 GtCO2e per year by 2050. While estimates vary between studies, there is general agreement that the possibilities for further gains in efficiency are appreciable at each stage of energy conversion, across all sectors, end uses and economies.
+
+Figure 9.2 provides a graphical representation of the estimated costs and abatement potential by 2020 for a selected sample of energy efficiency technologies across different sectors.
+
+%%page 221%%
+
+Figure 9.2 Aggregate carbon abatement cost curve for the UK – annual carbon savings by 2020[^28]
+
+Source: See notes
+
+#### 9.7 Low-carbon technologies
+
+***Options for low-emission energy technologies are developing rapidly, though many remain more expensive than conventional technologies.***
+
+This section examines the options for emissions reductions in the energy sector, their costs and how they are likely to move over time. The next section illustrates the costs of a set of policies in electricity and transport that could reduce emissions to levels consistent with a stabilisation path at 550ppm CO2e. A range of options is currently available for decarbonising energy use in electricity generation, transport and industry, all of which are amenable to significant further development. These include:-
+
+- On and offshore wind.
+- Wave and tidal energy projects.
+- Solar energy (thermal and photovoltaic).
+- Carbon capture and storage for electricity generation (provided the risk of leakage is minimised) – Box 9.2 sets out the state of this relatively new technology, and what is known about costs.
+- The production of hydrogen for heat and transport fuels.
+- Nuclear power, if the waste disposal and proliferation issues are dealt with. A new generation of reactors is being built in India, Russia and East Asia. Reactors have either been commissioned or are close to being commissioned in France, Finland and the USA.
+- Hydroelectric power, though environmental issues need to be considered and new sites will become increasingly scarce. The power output/storage ratio will also need to increase, to reduce the typical area inundated and increase the capacity of schemes to meet peak loads.
+- Expansion of bioenergy for use in the power, transport, buildings and industry sectors from afforestation, crops, and organic wastes.
+
+%%page 222%%
+
+- Decentralised power generation, including micro-generation, combined heat and power (dCHP) using natural gas or biomass in the first instance, and hydrogen derived from low-carbon sources in the long term.
+- Fuel cells with hydrogen as a fuel for transport (with hydrogen produced by a low-carbon method).
+- Hybrid- and electric-vehicle technology (with electricity generated by a low-carbon method).
+
+Box 9.2 Carbon capture and storage (CCS)
+
+No single technology or process will deliver the emission reductions needed to keep climate change within the targeted limits. But much attention is focused on the potential of Carbon Capture and Storage (CCS). This is the process of removing and storing carbon emissions from the exhaust gases of power stations and other large-scale emitters. If it proved effective, CCS could help reduce emissions from the flood of new coal-fired power stations planned over the next decades, especially in India and China[^29] .
+
+CCS technologies have the significant advantage that their large-scale deployment could reconcile the continued use of fossil fuels over the medium to long term with the need for deep cuts in emissions. Nearly 70% of energy production will still come from fossil fuels by 2050 in the IEA's ACT MAP scenario[^30] . In their base case, energy production doubles by 2050 with fossil fuels accounting for 85% of energy. The growth of coal use in OECD countries, India and China is a particular issue – the IEA forecast that without action a third of energy emissions will come from coal in 2030. Even with strong action to encourage the uptake of renewables and other low-carbon technologies, fossil fuels may still make up to half of all energy supply by 2050. Successfully stabilising emissions without CCS technology would require dramatic growth in other low-carbon technologies.
+
+Once captured, the exhaust gases can be either processed and compressed into liquefied CO2 or chemically changed into solid, inorganic carbonates. Captured CO2 can be transported either through pipelines or by ship. The liquid or solid CO2 can be stored in various ways. As a pressurised liquid, CO2 can also be injected into oil fields to raise well pressure and increase flow rates from depleted wells. Norway's Statoil, for example, captures emissions from on-shore power stations and re-injects the captured CO2 for such 'enhanced oil recovery' from its off-shore Sleipner oil field.
+
+In most cases, the captured gas will be injected and stored in suitable, non-porous underground rock foundations such as depleted oil and gas wells, deep saline formations and old coalmines. Other theoretically possible but as yet largely untested ways of storing the CO2 are to dissolve it deep within the ocean, store as an inorganic carbonate or use the CO2 to produce hydrogen or various carbon-rich chemicals. Careful site evaluation is needed to ensure safe, long-term storage. Estimates of the potential geological storage capacity range from 1,700 to 11,100 GtCO2 equivalent[^31] , or from to 70 to 450 years of the 2003 level of fossil-fuel-related emissions (24.5 GtCO2[^32] /year).
+
+It is technically possible to capture emissions from virtually any source, but the economics of CCS favours capturing emissions from large sources producing concentrated CO2 emissions (such as power stations, cement and petrochemical plants), to capture scale economies, and where it is possible to store the CO2 close to the emission and capture point, to reduce transportation costs.
+
+There are several obstacles to the deployment of CCS, including technological and cost barriers, particularly the need to improve energy efficiency in power stations adopting CCS. Others include regulatory and legal[^33] barriers, such as the legal issues around the ownership of the CO2 over long periods of time, the lack of safety standards and emission-recording guidelines. There are also environmental concerns that the CO2 might leak or that building the necessary infrastructure might damage the local environment. Public opinion needs to be won over.
+
+%%page 223%%
+
+Employing CCS technology adds to the overall costs of power generation. But there is a wide range of estimates, partly reflecting the relatively untried nature of the technology and variety of possible methods and emission sources. The IPCC quotes a full range from zero to $270 per tonne of CO2. A range of central estimates from the IPCC and other sources[^34] show the costs of coal-based CCS employment ranging from $19 to $49 per tonne of CO2, with a range from $22 to $40 per tonne if lower-carbon gas is used. Some studies provide current estimates and some medium-term costs. A range of technologies is also considered, with and without CCS, and some with more basic generation technologies as the baseline[^35] . The assumptions set have an important impact on cost estimates. The range of cost estimates will narrow when CCS technologies have been demonstrated but, until this occurs, the estimates remain speculative.
+
+The IPCC special report on CCS suggested that it could provide between 15% and 55% of the cumulative mitigation effort until 2100. The IEA's Energy Technology Perspectives uses a scenario that keeps emissions to near current levels by 2050, with 14 - 16.2% of electricity generated from coal-fired power stations using CCS. This would deliver from 24.7 - 27.6% of emission reductions[^36] . Sachs and Lackner[^37] calculate that, if all projected fossil-fuel plants were CCS, it could save 17 GtCO2 annually at a cost of 0.1% to 0.3% of GDP[^38] , and reduce global emissions by 2050 from their 554ppm BAU to 508ppm CO2.
+
+IEA modelling shows that, without CCS, marginal abatement costs would rise from $25 to $43 per tonne in Europe, and from $25 to $40 per tonne in China, while global emissions are10% to 14% higher. This highlights the crucial role CCS is expected to play[^39] . For more on international action and policies to encourage the demonstration and adoption of CCS technologies, see Section 24.3 and Box 24.8.
+
+***Most low-carbon technologies are currently more expensive than using fossil fuels.***
+
+Estimates of the costs per unit of energy of substituting low-carbon-emitting energy sources for fossil fuels over the next 10-20 years are presented in Box 9.3; the technologies shown cover electricity supply, the gas markets (mainly for heat) and transport. The costs are expressed as a central estimate, with a range.
+
+%%page 224%%
+
+Box 9.3 Costs of low-carbon technologies relative to fossil-fuel technologies replaced
+
+This figure shows estimates by Anderson[^40] of costs of technologies in 2015, 2025 and 2050 used to constrain fossil fuel emissions in 2050 at today's levels[^41] . For most technologies, the unit cost as a proportion of the fossil-fuel alternative is expected to fall over time, largely because of learning effects (discussed below). But, as a technology comes up against increasing constraints and extends beyond its minimum efficient scale of production, the fall in unit costs may begin to reverse. The ranges quoted reflect judgements about the likely probability distribution for unit costs and allow for the variability of fossil-fuel prices (see text below and Section 9.8 for a further discussion of the treatment of uncertainties). The 0% line indicates that costs are the same as the corresponding fossil-fuel option.
+
+Unit costs of energy technologies expressed as a percentage of the fossil-fuel alternative (in 2015, 2025, 2050)
+
+Even in the near to medium term, the uncertainties are very large. The costs of technologies vary with their stage of development, and on specific regional situations and resource endowments, including the costs and availability of specific types of fossil fuels, the availability of land for bioenergy or sites for wind and nuclear power. Other factors include climatic suitability in the case of solar 'insolation' (incident solar energy) and concentrated emission sources (in the case of CCS). In recent years, oil prices have swung over a range of more than $50 per barrel and industrial gas from $4 to $9/GJ; such swings alone can shift the relative costs of the alternatives to fossil fuels by factors or two or three or more. In principle, estimates of global costs should be based on the extraction costs of fossil fuels, not their market prices, which include a significant but uncertain proportion of rents (see Section 9.2).
+
+%%page 225%%
+
+***The cost of technologies tends to fall over time, because of learning and economies of scale.***
+
+Historical experience shows that technological development does not stand still in the energy or other sectors. There have been major advances in the efficiency of fossil-fuel use; similar progress can also be expected for low-carbon technologies as the state of knowledge progresses.
+
+Box 9.4 shows cost trends for selected low-carbon technologies. Economists have fitted 'learning curves' to such data to estimate how much costs might decline with investment and operating experience, as measured by cumulative investment. 'Learning' is of course an important contributor to cost reductions, but should be seen as one aspect of several factors at work. These include:
+
+- The development of new generations of materials and design concepts through R&D and the insights gained from investment and operating experience—for example, from current efforts to develop thin-film and organic solar cells, or in new materials and catalysts for fuel cells and hydrogen production and use;
+- Opportunities for batch production arising from the modularity of some emerging technologies, such as solar PV. This leads to scale economies in production; to associated technical developments in manufacture; to the reduction of lead times for investments, often to a few months, as compared with three to six years or longer for conventional plant; and to the more rapid feedback of experience;
+- R&D to seek further improvements and solve problems encountered with investments in place;
+- Opportunities for scale economies in the provision of supporting services in installation and use of new technologies, the costs of which are appreciable when markets are small. For example, if specialised barges are required to install and service off-shore wind turbines, the equipment is much more efficiently utilised in a farm of 100 turbines than in one with just ten, and of course if there are many offshore wind farms in the project pipeline.
+
+%%page 226%%
+
+Box 9.4 Evidence on learning rates in energy technologies
+
+A number of key energy technologies in use today have experienced cost reductions consistent with the theories of learning and scale economies. The diagram below shows historical learning rates for a number of technologies. The number in brackets gives an indication of the speed of learning: 97%, for instance, means that unit costs are 97% of their previous level after each doubling of installed capacity (3% cheaper).
+
+Cost evolution and learning rates for selected technologies
+
+Source: IEA (2000) pp21
+
+After early applications in manufacturing and production (1930s) and business management, strategy and organisation studies, the past decade has seen the application of learning curves as an analytical tool for energy technologies (see IEA, 2000). The majority of published learning-rate estimates relevant to climate change relate to electricity-generation technologies. In Figure 9.5 above, estimates of learning rates from different technologies[^42] span a wide range, from around 3% to over 35% cost reductions associated with a doubling of output capacity.
+
+Using evidence on learning to project likely technology-cost changes suffers from selection bias, as technologies that fail to experience cost reductions drop out of the market and are then not included in studies. In order to correct for this, the learning and experience curves used to guide the cost exercise in this chapter take account of the high risks associated with new technologies. Moreover, the projected cost reductions are based on a far broader range of factors than just 'learning', as discussed in the main text.
+
+The effects of the likely fall in costs with R&D and investment are reflected in the estimates for medium-term costs shown in Box 9.3. There is a general shift down in the expected costs of the alternatives to fossil fuels, in some cases to the point where they overlap under combinations of higher fossil-fuel prices and higher rates of technical progress.
+
+In addition, the rankings of the technologies change, with some that are currently more expensive becoming cheaper with investment and innovation. Examples are solar energy in sunny regions and decentralised sources of combined heat and power (see Chapter 25). Nevertheless, most unit energy costs seem likely to remain higher than fossil fuels, and policies over the next 25 years should be based on this assumption. These are, of course, in the main costs borne in the first place by the private sector, although the public power sector is large in many countries. It will be the role of policy to shift the distribution of relative costs faced by investors in the low-carbon options downward relative to those of higher carbon options (see Part IV).
+
+%%page 227%%
+
+***Costs, constraints and energy systems in the longer term***
+
+Moving to the longer term highlights the dangers of thinking in terms of individual technologies instead of energy systems. Most technologies can be expected to progress further and see unit costs reduced. But all will run into limitations that can be addressed only by developments elsewhere in the energy system. For example:
+
+- Energy Storage. With the exception of biofuels, and hydrogen and batteries using low carbon energy sources, all the low carbon technologies are concerned with the instantaneous generation of electricity or heat. A major R&D effort on energy storage and storage systems will be crucial for the achievement of a low-carbon energy system. This is important for progress in transport, and for expanding the use of low-carbon technologies, for reasons discussed below.
+- Decarbonising transport. The transport sector is still likely to remain oil-based for several decades, and efficiency gains will be important for keeping emissions down. Increasing use of biofuels will also be important. In the long term, decarbonising transport will also depend on progress in decarbonising electricity generation and on developments in hydrogen production. The main technological options currently being considered for decarbonising transport (other than the contributions of biofuels and efficiency) are hydrogen and battery-electric vehicles. Much will depend on transport systems too, including road pricing, intelligent infrastructure, public transport and urban design.
+- Nuclear power and base-load electricity generation. A nuclear power plant is cheapest to operate continuously as base-load generation is expensive to shut down. There are possibilities of 'load following' from nuclear power, but this will reduce capacity utilisation and raise costs. Most of the load following (where output of the power plant is varied to meet the changes in the load) will be provided by fossil-fuel plant in the absence of investments in energy-storage systems. In addition, of course, there are issues of waste disposal and proliferation to be addressed
+- Intermittent renewables. Renewables such as solar power and wind power only generate electricity when the natural resource is available. This leads to unpredictable and intermittent supply, creating a need for back-up generation. The cost estimates presented here allow for investment in and the fuel used in doing this, but, for high levels of market penetration, more efficient storage systems will be needed.
+- Bioenergy from crops. Biomass can yield carbon savings in the transport, power generation, industry and building sectors. However exploitation of conventional biomass on a large scale could lead to problems of competition with agriculture for land and water resources, depending on crop practices and policies. This is discussed in Box 9.6.
+- The availability and long-term integrity of sites for carbon capture and storage. This may set limits to the long-term contribution of CCS to a low-carbon economy, depending on whether alternative ways of storing carbon are discovered in time. It nevertheless remains an important option given the continued use of cheap fossil fuels, particularly coal, over the coming decades
+- Electricity and gas infrastructure. Infrastructure services and their management would also change fundamentally with the emergence of small-scale decentralised generation and CHP, and with hydrogen as an energy-carrying and storage medium for the transport and heat markets. There will also be new opportunities for demand management through new metering and information and control technologies.
+
+%%page 228%%
+
+Box 9.5 Biomass: emission saving potential and costs
+
+Biomass, the use of crops to produce energy for use in the power generation, transport, industry and buildings sectors, could yield significant emission savings in the transport, power and industry sectors. When biomass is grown, it absorbs carbon from the atmosphere during the photosynthesis process; when the crop is burnt, the carbon is released again. Biomass is not a zero carbon technology because of the emissions from agriculture and the energy used in conversion. For example, when used in transport, emissions savings from biofuel vary from 10-90% compared to petrol depending on the source of biofuel and production technique used.
+
+Biomass crops include starch and sugar crops such as maize and sugar cane, and oil crops such as sunflower, rapeseed and palm oil. These biocrops are often referred to as first generation biomass because the technologies for converting them into energy are well developed. The highest yielding biocrops tend to be water-intensive and require good quality land, but some other biocrops can be grown on lower quality land with little water.
+
+Research is now focusing on finding ways of converting lignocellulosic materials (such as trees, grasses and waste materials) into energy (so-called second generation technology).
+
+The technical potential of biomass could be very substantial. On optimistic assumptions, the total primary bioenergy potential could reach 4,800-12,000 Mtoe by 2050[^43] (compared with anticipated energy demand under BAU conditions of 22,000 Mtoe in 2050). Half of the primary biomass would come from dedicated cropland and half would be lignocellulosic biomass (residues and waste converted into energy). 125-150 million ha would be required for biomass crops (10% of all arable land worldwide, roughly the size of France and Spain together). However this analysis does not take into account the potentially significant impacts on local environment, water and land resources, discussed in Section 12.6. The extent to which biomass can be produced sustainably and cost effectively will depend on developments in lignocellulosic technology and to what extent marginal and low-quality land is used for growing crops.
+
+The economically viable potential for biomass is somewhat smaller, and has been estimated at up to 2,600 Mtoe, almost a tripling of current biomass use. According to the IEA, this would result in an emission reduction of 2 to 3 GtCO2e/year on baseline levels by 2050 at $25/tCO2 (though the actual estimate can vary widely around this depending on oil prices). If it is assumed that one-third of biomass were used for transport fuels by 2050, for example, it could meet 10% of road transport fuel demand, compared with 1% now. This could grow to 20% under more optimistic assumptions. Biomass costs vary both by crop and by country; current production costs are lowest in parts of Southern and Central Africa and Latin America.
+
+This analysis excludes the possible emission savings from biogas (methane and CO2 collected from decomposing manure). This technology is discussed in Box 17.7.
+
+These limitations mean that all technologies will run into increasing marginal cost as their uptake expands, which will offset to some extent the likely reductions in cost as developments in the technology occur. Some of the constraints might be removed – research is ongoing, for example, on storing carbon in solid form (see Box 9.2). On the other hand, economies of scale and induced innovation will serve to bring down costs. Overall, a phased use of technologies across the board is likely to limit the cost burden of mitigating and sequestering GHGs.
+
+In the current and next generation of investments over the next 20 years, the costs of climate change mitigation will probably be low, as some of the more familiar and easier options are exploited first. But as the scale of mitigation activities expands, at some point the problems posed by storage and the need to develop new systems and infrastructures must be overcome, particularly to meet the needs of transport. This is expected to raise costs (see below).
+
+%%page 229%%
+
+When looking forward over a period of several decades, however, there is also significant scope for surprises and breakthroughs in technology. This is one of the reasons why it is recommended that R&D and demonstration efforts are increased, both nationally and internationally (see discussion in Chapters 16 and 24). Such surprises may take the form of discoveries and innovations not currently factored into mainstream engineering analysis of energy futures[^44] .
+
+The conclusion to be drawn from the analysis of the costs and risks associated with developing the various technologies, from the uncertainties as to their rates of development, and from the known limitations of each, is that no single technology, or even a small subset of technologies, can shoulder the task of climate-change mitigation alone. If carbon emissions are to be reduced on the scale shown to be necessary for stabilisation in Chapter 8, then policies must encourage the development of a portfolio of options; this will act both to reduce risks and improve the chances of success. Chapter 16 of this Review discusses how this can be done.
+
+#### 9.8 A technology-based approach to costing mitigation of fossil fuel emissions
+
+This section presents the results of calculations undertaken for this review by Dennis Anderson[^45] . It illustrates how fossil-fuel (energy) emissions could be cut from 24 GtCO2e/year in 2002 to 18 GtCO2e/year in 2050 and how much this would cost. Together with the non-fossil fuel savings outlined in Table 9.1, this would be consistent with a 550ppm CO2e stabilisation trajectory in 2050 (outlined in Chapter 8).
+
+A key advantage of this exercise is that it is data-driven, transparent, and easy to understand. It builds on the analysis of options in the preceding section. It illustrates one approach and establishes a benchmark. This will lead to an upward bias in the estimated costs, as there are many options, some of which will appear along the way with appropriate R&D, which will be cheaper. Like any such exercise, however, it depends on its assumptions. An independent technology-based study has recently been carried out by the IEA (see Section 9.9), which comes up with rather lower cost estimates. The next chapter reviews studies based on an economy-wide approach that attempt to incorporate some economic responses to policy instruments. These are broadly consistent with the results presented here.
+
+The exercise here assumes that energy-related emissions at first rise and are then reduced to 18 GtCO2/year through a combination of improvements in energy efficiency and switching to less emission-intensive technologies. This calculation looks only at fossil fuel related CO2 emissions, and excludes possible knock-on effects on non-fossil fuel emissions. The precise approach used and assumptions made are detailed in the full paper[^46] .
+
+Figure 9.3 presents the estimated BAU[^47] energy-related CO2 emissions over the period to 2075 and the abatement trajectory associated with reducing emissions to reach current levels by 2050. The abatement trajectory demonstrates a peak in emissions at 29 GtCO2/year in 2025 before falling back to 18 GtCO2/year in 2050, and falling further to reach 7 GtCO2/year in 2075.
+
+%%page 230%%
+
+Figure 9.3 Emissions scenarios
+
+***A combination of technologies, together with advances in efficiency, are needed to meet the stabilisation path.***
+
+For each technology, assumptions are made on plausible rates of uptake over time[^48] . It is assumed, for the purposes of simplification, that as the rate of uptake of individual technologies is modest, they will not run into significant problems of increasing marginal cost (as discussed above in Section 9.7). Assumptions are also made on the potential for energy-efficiency improvements. These assumptions can be used to calculate an average cost of abatement. Estimates of the additional contribution of energy efficiency and technological inputs to abatement are shown in Figure 9.4. The implications for sources of electricity and composition of road transport vehicle fleet are illustrated in the full paper.
+
+Figure 9.4 The distribution of emission savings by technology
+
+An average cost of abatement per tonne of carbon can be constructed by calculating the cost of each technology (as in Box 9.3) weighted by the assumed take-up, and comparing this with the emissions reductions achieved by these technologies against fossil-fuel alternatives. This is shown in Figure 9.5, where upper and lower bounds represent best estimates of 90% confidence intervals.
+
+%%page 231%%
+
+Figure 9.5 Average cost of reducing fossil fuel emissions to 18 GtCO2 in 2050*
+
+*The red lines give uncertainty bounds around the central estimate. These have been calculated using Monte Carlo analysis. For each technology, the full range of possible costs (typically ± 30% for new technologies, ±20% for established ones) is specified. Similarly, future oil prices are specified as probability distributions ranging from $20 to over $80 per barrel, as are gas prices (£2-6/GJ), coal prices and future energy demands (to allow for the uncertain rate of uptake of energy efficiency). This produces a probability distribution that is the basis for the ranges given.
+
+The costs of carbon abatement are expected to decline by half over the next 20 years, because of the factors discussed above, and then by a further third by 2050. But the longer-term estimates of shifting to a low-carbon energy system span a very broad range, as indicated in the figure, and may even be broader than indicated here. This reflects the inescapable uncertainties inherent in forecasting over a long time period, as discussed above. It should be noted that, although average costs may fall, marginal costs are likely to be on a rising trajectory through time, in line with the social cost of carbon; this is explained in Box 9.6.
+
+%%page 232%%
+
+Box 9.6 The relationship between marginal and average costs over time
+
+It is important not to confuse average costs with marginal costs or the prevailing carbon price. The carbon price should reflect the social cost of carbon and be rising with time, because of increased additional damages per unit of GHG at higher concentrations of gases in the atmosphere (see Chapter 13). Rising prices should encourage abatement projects with successively higher marginal costs. This does not necessarily mean that the average costs will rise. Indeed, in this analysis, average costs are assumed to fall, quickly at first and then tending to level off (Figure 9.5). At any time, marginal costs will tend to be above average costs as the most costly projects are undertaken last.
+
+At the same time, however, innovation, learning and experience – driven through innovation policy – will lower the cost of producing any given level of output using any specific technology. This is shown in the figure below, which traces the costs of a specific technology through time.
+
+Despite more extensive use of the technology and rising costs on the margin through time (reflecting the rising carbon price), the average cost of the technology may continue to fall. The key point to note is that marginal costs might be rising even where average costs are falling (or at least rising more slowly), as a growing range of technologies are used more and more intensively.
+
+Illustrative cost per unit of GHG abated for a specific technology
+
+***The global cost of reducing total GHG emissions to three quarters of current levels (consistent with 550ppm CO2e stabilisation trajectory) is estimated at around $1 trillion in 2050 or 1% of GDP in that year, with a range of –1.0% to 3.5% depending on the assumptions made.***
+
+Anderson's central case estimate of the total cost of reducing fossil fuel emissions to around 18 GtCO2e/year (compared to 24 GtCO2/year in 2002) is estimated at $930bn, or less than 1% of GDP in 2050 (see table 9.2). In the analysis by Anderson, this is associated with a saving of 43 GtCO2 of fossil fuel emissions relative to baseline, at an average abatement cost of $22/tCO2/year in 2050. However these costs vary according to the underlying assumptions, so these are explored below.
+
+%%page 233%%
+
+Table 9.2 Annual total costs of reducing fossil fuel emissions to 18 GtCO2 in 2050
+
+The sensitivity of the cost estimates to different assumptions is presented in Table 9.3[^49] ; costs are shown as a percentage of world product. Over the next 20 years, it is virtually certain that the costs of providing energy will rise with the transition to low-carbon fuels, barring shocks in oil and gas supplies. Over the longer term, the estimates are less precise and, as one would expect, are sensitive to the future prices of fossil fuels, to assumptions as to energy efficiency, and indeed to the prices of the low-carbon technologies, such as carbon capture and storage.
+
+Overall, the estimates range from -1.0% (a positive contribution to growth) to around 3.5% of world product by 2050, and are within the range of a large number of other studies discussed below in the next chapter. The estimates fan out in precisely the same way as those for the costs per tonne of carbon abatement shown in Figure 9.5, and for precisely the same reasons[^50] .
+
+Table 9.3 Sensitivity analysis of global costs of cutting fossil fuel emissions to 18 GtCO2 in 2050 (costs expressed as % of world GDP) a
+
+Assumptions as to future oil and gas prices and rates of innovation clearly make a large difference to the estimates. Combinations of a return to low oil and gas prices and low rates of innovation lead to higher costs, while higher oil and gas prices and rates of innovation point to possibly beneficial effects on growth (even ignoring the benefits of climate change mitigation). Another cost, which requires attention, is the incremental cost of hydrogen vehicles (case ix). Costly investment in hydrogen cars would significantly increase the costs associated with this element of mitigation. However, in so far as such costs might induce a switch out of mitigation in the transport sector towards alternatives with lower MACs, these estimates are likely to overstate the true cost impact on the whole economy.
+
+The fossil fuel emission abatement costs outlined in table 9.2 together with the non-fossil fuel emission savings presented in Table 9.1 would be sufficient to bring global GHG emissions to around 34 GtCO2e in 2050, which is consistent with a 550ppm CO2e stabilisation trajectory. The cost of this is estimated at under $1 trillion in 2050 (or 1% of GDP in that year).
+
+%%page 234%%
+
+In absolute terms, the costs are high, but are within the capacity of policies and industry to generate the required financial resources. For the economy as a whole, a 1% extra cost would be like a one-off increase in the price index by one percentage point (with unchanged nominal income profiles), although the impact will be significantly more for energy-intensive sectors (see Chapter 11). Economies have in the past dealt with much more rapid changes in relative prices and shocks from exchange-rate changes of much larger magnitude.
+
+#### 9.9 Other technology-based studies on cost
+
+Other modellers have also taken a technology-based approach to looking at emissions reductions and costs. The IEA, in particular, have done detailed work based on their global energy models on the technological and economic feasibility of cutting emissions below business as usual, while also meeting other energy-policy goals.
+
+The recent Energy Technology Perspectives report (2006) looks at a number of scenarios for reducing energy-related emissions from baseline levels by 2050. Scenarios vary in their assumptions about factors such as rates of efficiency improvements in various technologies. Box 9.7 sets out the scenarios in the report, and compares this with work by the IPCC, as well as the technology-based estimates by Anderson set out in this chapter.
+
+These studies make different assumptions about the quantity of abatement achieved, and the exact mix of technologies and efficiency measures used to achieve this. But all agree on some basic points. These are that energy efficiency will make up a very significant proportion of the total; that a portfolio of low-carbon technologies will be needed; and that CCS will be particularly important, given the continued use in fossil fuels.
+
+The report also looks at the additional costs for the power-generation sector of achieving emissions cuts. It finds that in the main alternative policy scenario ('ACT MAP'), which brings energy-related emissions down to near current levels by 2050, additional investments of $7.9 trillion would be needed over the next 45 years in low-carbon power technologies, compared with the baseline scenario. However, there would be $4.5 trillion less spent on fossil-fuel power plants, in part because of lower electricity demand due to energy-efficiency improvements. In addition, there would be significant savings in transmission and distribution costs, and fuel costs; taking these into account brings the total net cost to only $100bn over 45 years.
+
+%%page 235%%
+
+Box 9.7 Sources of fossil fuel related emission savings in 2050
+
+The bars in the diagram above show the composition of emissions reductions achieved in different models. The IPCC work relates to emissions savings in 2020, while the others relate to emissions savings in 2050. Separately, the IPCC have also estimated plausible emissions savings from non-energy sectors (discussed in Section 9.4).
+
+The IPCC reviewed studies on the extent to which emissions could be cut in the power, manufacturing and construction, transport and buildings sectors. They find that for a cost of less than $25/tCO2e, emissions could be cut by 10.8 - 14.7 GtCO2e in 2020. The savings presented in the diagram are around the mid-point of this range.
+
+The IEA Energy Technology Perspectives report sets out a range of scenarios for reducing energy-related CO2 emissions by 2050, based on a marginal abatement cost of $25/tCO2 in 2050, and investment in research and development of new technologies. The 'ACT MAP' scenario is the central scenario; the others make different assumptions on, for instance, the success of CCS technology and the ability to improve energy efficiency. Total emission savings range from 27 to 37 GtCO2/year. In all scenarios, the IEA find that the CO2 intensity of power generation is half current levels by 2050. However there is much less progress in the transport sector in all scenarios apart from TECH PLUS because further abatement from transport is too expensive. To achieve further emission cuts beyond 2050, transport would have to be decarbonised.
+
+The forthcoming World Energy Outlook (2006) depicts an Alternative Policy Scenario that shows how the global energy market could evolve if countries were to adopt all of the policies they are currently considering related to energy security and energy-related CO2 emissions. This Alternative Policy Scenario cuts fossil fuel emissions by more than 6 GtCO2/year against the Reference Scenario by 2030, and finds that there is little difference in the investment requirements[^51] . The World Energy Outlook (2006) also looks at a more radical path that would bring energy-related CO2 emissions back to current levels by 2030, through more aggressive action on energy efficiency and transport and energy technologies, including the use of second generation biofuels and carbon capture and storage.
+
+%%page 236%%
+
+#### 9.10 Conclusion
+
+The technology-based analysis discussed in this chapter identifies one set of ways in which total GHG emissions could be reduced to three-quarters of current levels by 2050 (consistent with a 550ppm CO2e stabilisation trajectory). The costs of doing so amount to under $1 trillion in 2050, which is relatively modest in relation to the level and expansion of economic output over the next 50 years, which in any scenario of economic success is likely to be over one hundred times this amount. They equate to around 1 ± 2½ % of annual GDP – with the IEA analysis suggesting that the costs could be close to zero. As discussed in the next chapter, this finding is broadly consistent with macroeconomic modelling exercises. Chapter 10 also looks at the possible cost implications of aiming for more restrictive stabilisation targets such as 450ppm CO2e.
+
+This resource-cost analysis suggests that a globally rational world should be able to tackle climate change at low cost. However, the more imperfect, less rational, and less global policy is, the more expensive it will be. This will also be examined further in the next chapter.
+
+%%page 237%%
+
+#### References
+
+Relatively little work has been done looking cost effective emission savings possible from non-fossil fuel sources. The IPCC Working Group III Third Assessment Report (TAR, published in 2001) is the best source of non-fossil fuel emission savings, while work commissioned for the Stern Review by Grieg-Gran covers the latest analysis on tacking deforestation. IPCC has also produced estimates of fossil fuel related emission savings (2001). IPCC emission saving estimates are expected to be updated in the Fourth Assessment Report (to be published 2007). The International Energy Agency has produced a series of publications on how to cut fossil fuel emissions cost effectively; their most up to date estimates of aggregate sector-wide results are presented in the Energy Technology Perspectives (2006) and World Energy Outlook 2006 (in press). Dennis Anderson produced a simple analysis of how fossil fuel emissions can be reduced for the Stern Review, looking forward to 2075 (full paper published on Stern Review web site).
+
+Ahmad, E. and N.H. Stern (1991): 'The theory and practice of tax reform in developing countries', Cambridge: Cambridge University Press.
+
+Anderson, D. (2006) 'Costs and finance of carbon abatement in the energy sector'. Paper for the Stern Review ' available from www.sternreview.org.uk
+
+Atkinson, A.B. and N.H. Stern (1974) 'Pigou, taxation and public goods', Review of Economic Studies, 41(1): 119-128
+
+Benitez, P.C., I. McCallum, M. Obersteiner and Y. Yamagata (2005): 'Global potential for carbon sequestration: Geographical distribution, country risk and policy implications'. Ecological Economics.
+
+Dreze, J. and N.H. Stern (1987): 'The theory of cost-benefit analysis', in Chapter 14, A.J. Auerbach and M. Feldstein (eds.), Handbook of Public Economics volume 2.
+
+Dreze, J. and N.H. Stern (1990): 'Policy reform, shadow prices, and market prices', Journal of Public Economics, Oxford: Elsevier, 42(1): 1-45
+
+EPA (forthcoming): 'Global anthropogenic Non-CO2 greenhouse-gas emissions: 1990-2020', US Environmental Protection Agency, Washington DC. Figures quoted from draft December 2005 version.
+
+Grieg-Gran, M. (2006): 'The Cost of Avoiding Deforestation', Report prepared for the Stern Review, International Institute for Environment and Development.
+
+Hannah, L. (1979): 'Electricity before nationalisation: A study of the development of the electricity supply industry in Britain to 1948', Baltimore and London: The Johns Hopkins University Press.
+
+International Energy Agency (2000): 'Experience curves for energy technology policy', Paris: OECD/IEA.
+
+International Energy Agency (2005): 'World Energy Outlook 2005', Paris: OECD/IEA.
+
+International Energy Agency (2006): 'Energy Technology Perspectives: Scenarios and Strategies to 2050' Paris: OECD/IEA.
+
+International Energy Agency (in press): 'World Energy Outlook 2006' Paris: OECD.
+
+Intergovernmental Panel on Climate Change (2000): 'Land-use, land-use change and forestry', Special Report of the Intergovernmental Panel on Climate Change [Watson RT, Noble IR, Bolin B et al. (eds.)], Cambridge: Cambridge University Press.
+
+%%page 238%%
+
+Intergovernmental Panel on Climate Change (2001): Climate Change 2001: 'Mitigation'. Contribution of Working Group III to the Third Assessment Report of the Intergovernmental Panel on Climate Change [Metz B, Davidson O, Swart R and Pan J (eds.)], Cambridge: Cambridge University Press.
+
+Intergovernmental Panel on Climate Change (2005): "'IPCC Special Report on Carbon Capture and Storage", Cambridge: Cambridge University Press, November, available from http://www.ipcc.ch/activity/ccsspm.pdf
+
+Read, P. (2006): 'Carbon Cycle Management with Biotic Fixation and Long-term Sinks', in Avoiding Dangerous Climate Change, H.J. Schellnhuber et al. (eds.), Cambridge: Cambridge University Press, pp. 373 - 378.
+
+Sachs, J. and K. Lackner (2005): 'A robust strategy for sustainable energy,' Brookings Papers on Economic Activity, Issue 2, Washington, D.C: The Brookings Institution.
+
+Sathaye, J., W. Makundi, L. Dale and P. Chan (2005 in press): 'GHG mitigation potential, costs and benefits in global forests: a dynamic partial equilibrium approach'. Energy Journal.
+
+Smith, P., D. Martino, Z. Cai, et al. (2006 in press): 'Greenhouse-gas mitigation in agriculture', Philosophical Transactions of the Royal Society, B. Sohngen B and R. Mendelsohn (2003): 'An optimal control model of forest carbon sequestration', American Journal of Agricultural Economics 85 (2): 448-457, doi: 10.1111/1467-8276.00133
+
+%%page 239%%
+
+### 10 Macroeconomic Models of Costs
+
+Key Messages
+
+Broader behavioural modelling exercises suggest a wide range of costs of climate-change mitigation and abatement, mostly lying in the range –2 to +5% of annual GDP by 2050 for a variety of stabilisation paths. These capture a range of factors, including the shift away from carbon-intensive goods and services throughout economies as carbon prices rise, but differ widely in their assumptions about technologies and costs.
+
+Overall, the expected annual cost of achieving emissions reductions, consistent with an emissions trajectory leading to stabilisation at around 500-550ppm CO2e, is likely to be around 1% of GDP by 2050, with a range of +/- 3%, reflecting uncertainties over the scale of mitigation required, the pace of technological innovation and the degree of policy flexibility.
+
+Costs are likely to rise significantly as mitigation efforts become more ambitious or sudden, suggesting that efforts to reduce emissions rapidly are likely to be very costly.
+
+The models arriving at the higher cost estimates for a given stabilisation path make assumptions about technological progress that are pessimistic by historical standards and improbable given the cost reductions in low-emissions technologies likely to take place as their use is scaled up.
+
+Flexibility over the sector, technology, location, timing and type of emissions reductions is important in keeping costs down. By focusing mainly on energy and mainly on CO2, many of the model exercises overlook some low-cost abatement opportunities and are likely to over-estimate costs. Spreading the mitigation effort widely across sectors and countries will help to ensure that emissions are reduced where is it cheapest to do so, making policy cost-effective.
+
+While cost estimates in these ranges are not trivial, they are also not high enough seriously to compromise the world's future standard of living – unlike climate change itself, which, if left unchecked, could pose much greater threats to growth (see Chapter 6). An annual cost rising to 1% of GDP by 2050 poses little threat to standards of living, given that economic output in the OECD countries is likely to rise in real terms by over 200% by then, and in developing regions as a whole by 400% or more.
+
+How far costs are kept down will depend on the design and application of policy regimes in allowing for 'what', 'where' and 'when' flexibility in seeking low-cost approaches. Action will be required to bring forward low-GHG technologies, while giving the private sector a clear signal of the long-term policy environment (see Part IV).
+
+Well-formulated policies with global reach and flexibility across sectors will allow strong economic growth to be sustained in both developed and developing countries, while making deep cuts in emissions.
+
+%%page 240%%
+
+#### 10.1 Introduction
+
+The previous chapter calculated the price impact of increasing fossil-fuel costs on the economy and then developed a detailed technology-based estimation approach, in which the costs of a full range of low GHG technologies were compared with fossil fuels for a path with strong carbon emissions abatement. A low-carbon economy with manageable costs is possible, but will require a portfolio of technologies to be developed. Overall, the economy-wide costs were found to be around 1% of GDP, though there remains a wide range reflecting uncertainty over future innovation rates and future fossil-fuel extraction costs and prices.
+
+The focus of this chapter is a comparison of more detailed behavioural modelling exercises, drawing on a comparative analysis of international modelling studies. Different models have been tailored to tackle a range of different questions in estimating the total global costs of moving to a low-GHG economy. Section 10.2 highlights the results from these key models. The models impose a variety of assumptions, which are identified in section 10.3 and reflect uncertainty about the real world and differences of view about the appropriate model structure and, in turn, yield a range of costs estimates. The section investigates the degree to which specific model structures and characteristics affect cost estimates, in order to draw conclusions about which estimates are the most plausible and what factors in the real world are likely to influence them. Section 10.4 puts these estimated costs into a global perspective. There are also important questions about how these costs will be distributed, winners and losers, and the implications of countries moving at different speeds. These are examined further in Chapter 11.
+
+***The inter-model comparison reaffirms the conclusion that climate-change mitigation is technically and economically feasible with mid-century costs most likely to be around 1% of GDP, +/- 3%.***
+
+Nevertheless, the full range of cost estimates in the broader studies is even wider. This reflects the greater number of uncertainties in the more detailed studies, not only over future costs and the treatment of innovation, but also over the behaviour of producers and consumers and the degree of policy flexibility across the globe. Any models that attempt to replicate consumer and producer behaviours over decades must be highly speculative. Particular aspects can drive particular results especially if they are 'run forward' into the distant future. Such are the difficulties of analysing issues that affect millions of people over long time horizons. However, such modelling exercises are essential, and the presence of such a broad and growing range of studies makes it possible to draw judgements on what are the key assumptions.
+
+#### 10.2 Costs of emissions-saving measures: results from other models
+
+***A broader assessment of mitigation costs requires a thorough modelling of consumer and producer behaviour, as well as the cost and choice of low-GHG technologies.***
+
+There have been a number of modelling exercises that attempt to determine equilibrium allocations of energy and non-energy emissions, costs and prices (including carbon prices), consistent with changing behaviour by firms and households. The cost estimates that emerge from these models depend on the assumptions that drive key relationships, such as the assumed ease with which consumers and producers can substitute into low-GHG activities, the degree of foresight in making investment decisions and the role of technology in the evolution of costs.
+
+***To estimate how costs can be kept as low as possible, models should cover a broad range of sectors and gases, as mitigation can take many forms, including land-use and industrial-process emissions.***
+
+Most models, however, are restricted to estimating the cost of altered fossil-fuel combustion applied mostly to carbon, as this reduces model complexity. Although fossil-fuel combustion accounts for more than three-quarters of developed economies' carbon emissions, this simplifying assumption will tend to over-estimate costs, as many low-cost mitigation opportunities in other sectors are left out (for example, energy efficiency, non-CO2 emissions mitigation in general, and reduced emissions from deforestation; see Chapter 9). Some of the most up-to-date and extensive comparisons surveyed in this section include:
+
+%%page 241%%
+
+- Stanford University's Energy Modelling Forum (EMF);
+- the meta-analysis study by Fischer and Morgenstern (Resources For the Future (2005));
+- the International Energy Agency accelerated technology scenarios;
+- the IPCC survey of modelling results;
+- the Innovation Modelling Comparison Project (IMCP);
+- the Meta-Analysis of IMCP model projections by Barker et al (2006);
+- the draft US CCSP Synthesis and Assessment of "Scenarios of Greenhouse-Gas Emissions and Atmospheric Concentrations and Review of Integrated Scenario Development and Application" (June 2006).
+
+***The wide range of model results reflects the design of the models and their choice of assumptions, which itself reflects the uncertainties and differing approaches inherent in projecting the future.***
+
+Figure 10.1 uses Barker's combined three-model dataset to show the reduction in annual CO2 emissions from the baseline and the associated changes in world GDP. Although most of the model estimates for 2050 are clustered in the –2 to 5% of GDP loss in the final-year cost range, these costs depend on a range of assumptions. The full range of estimates drawn from a variety of stabilisation paths and years extends from –4% of GDP (that is, net gains) to +15% of GDP costs. A notable feature, examined in more detail below, is the greater-than-proportionate increase in costs to any rise in the amount of mitigation.
+
+This variation in cost estimates is driven by a diversity of characteristics in individual models. To take two examples, the AIM model shows a marked rise in costs towards 2100, reflecting the use of only one option – energy conservation – being induced by climate policy, so that costs rise substantially as this option becomes exhausted. At the opposite extreme, the E3MG global econometric model assumes market failures due to increasing returns and unemployed resources in the base case. This means that additional energy-sector investment, and associated innovation driven by stabilisation constraints, act to increase world GDP. The fact that there is such a broad range of studies and assumptions is welcome, making it possible to use meta-analysis[^1] to determine what factors drive the results.
+
+%%page 242%%
+
+Figure 10.1 Scatter plot of model cost projections
+
+Costs of CO2 emissions reductions as a fraction of GDP against level of reduction
+
+Source: Barker et al. (2006). Note: GWP should read GDP.
+
+***Model comparison exercises help to identify the reasons why the results vary.***
+
+To make sense of the growing range of estimates generated, model comparison exercises have attempted to synthesise the main findings of these models. This has helped to make more transparent the differences between the assumptions in different models. A meta-analysis of leading model simulations, undertaken for the Stern Review by Terry Barker[^2], shows that some of the higher cost estimates come from models with limited substitution opportunities, little technological learning, and limited flexibility about when and where to cut emissions[^3].
+
+The meta-analysis work essentially treats the output of each model as data, and then quantifies the importance of parameters and assumptions common to the various models in generating results. The analysis generates an overarching model, based on estimates of the impacts of individual model characteristics. This can be used to predict costs as a percentage of world GDP in any year, for any given mitigation strategy. Table 10.1 shows estimated costs in 2030 for stabilisation at 450ppm CO2. This corresponds with approximately 500-550ppm CO2e, assuming adjustments in the emissions of other gases such that, at stabilisation, 10-20% of total CO2e will be composed of non-CO2 gases (see Chapter 8).
+
+A feature of the model is that it can effectively switch on or off the factors identified as being statistically and economically significant in cutting costs. For example, the 'worst case' assumption assumes that all the identified cost-cutting factors are switched off – in this case, costs total 3.4% of GDP. At the other extreme, the 'best case' projection assumes all the identified cost-cutting factors are active, in which case mitigation yields net benefits to the world economy to the tune of 3.9% of GDP. (Table 10.1 lists the individual estimated contributions to costs from the identified assumptions – a positive percentage point contribution represents the average reduction in costs when the parameter is 'switched on').
+
+%%page 243%%
+
+Table 10.1 Meta-analysis estimates, contributions to cost reduction
+
+Average impact of model assumptions on world GDP in 2030 for stabilisation at 450ppm CO2 (approximately 500-550ppm CO2e) (% point levels difference from base model run)
+
+Source: Barker et al. 2006
+
+It is immediately obvious that no model includes all of these assumptions to the extent suggested here. This is because in practice, not all the cost-cutting factors are likely to apply to the extent indicated here, and the impact of each assumption is likely to be exaggerated (for example the active recycling parameter is based on the data from only one model2).
+
+Nevertheless, the exercise suggests that the inclusion in individual models of induced technology, averted non-climate-change damages (such as air pollution) and international emission-trading mechanisms (such as carbon trading and CDM flows), can limit costs substantially.
+
+The time paths of costs also depend crucially on assumptions contained within the modelling exercises. A number of models show costs rising as a proportion of output through to the end of the century, as the rising social cost of carbon requires ever more costly mitigation options to be utilised. Other models show a peak in costs around mid-century, after which point costs fall as a proportion of GDP, reflecting cost reductions resulting from increased innovation (see Section 10.3). In addition, greater disaggregation of regions, sectors and fuel types allow more opportunities for substitution and hence tend to lower the overall costs of GHG mitigation, as does the presence of a 'backstop' technology[^5].
+
+#### 10.3 Key assumptions affecting cost estimates
+
+Other model-comparison exercises, including studies broadening the scope to include non-carbon emissions, draw similar conclusions to the Barker study. A number of key factors emerge that have a strong influence in determining cost estimates. These explain not only the different estimates generated by the models, but also some of the uncertainties surrounding potential costs in the real world. These considerations are central, not only to generating realistic and plausible cost estimates, but also to formulating policies that might keep costs low for any given mitigation scenario. The overarching conclusion of the model studies is that costs can be moderated significantly if many options are pursued in parallel and new technologies are phased in gradually, and if policies designed to induce new technologies start sooner rather than later. The details will be quantified bellow, but the following key features are central to determining cost estimates.
+
+%%page 244%%
+
+***Assumed baseline emissions determine the level of ambition.***
+
+The cost of stabilising GHG emissions depends on the amount of additional mitigation required. This is given by the 'mitigation gap' between the emissions goal and the 'business as usual' (BAU) emissions profile projected in the absence of climate-change policies. Scenarios with larger emissions in the BAU scenario will require greater reductions to reach specific targets, and will tend to be more costly. Large differences in baseline scenarios reflect genuine uncertainty about BAU trends, and different projected paths of global economic development.
+
+The 2004 EMF study found a marked divergence in baseline Annex 1 (rich) country emissions projections from around 2040. Rich-country emissions begin at around 26GtCO2 at the start of the century and then rise to a range of 40-50GtCO2 by mid-century. By 2100, the range of BAU projections fans out dramatically. Some baseline scenarios show emissions dropping back towards levels at the start of the century while others show emissions rising towards 95 GtCO2; there is an even spread between these extremes. These different paths encompass a variety of assumptions about energy efficiency, GHG intensity and output growth, as well as about exogenous technological progress and land-use policies.
+
+***Technological change will determine costs through time.***
+
+Costs vary substantially between studies, depending on the assumed rate of technological learning, the number of learning technologies included in the analysis and the time frame considered[^6]. Many of the higher cost estimates tend to originate from models without a detailed specification of alternative technological options. The Barker study found that the inclusion of induced technical change could lower the estimated costs of stabilisation by one or two percentage points of GDP by 2030 (see table 10.1). All the main studies found that the availability of a non-GHG 'backstop' (see above) lowered predicted costs if the option came into play. Chapter 16 shows that climate policies are necessary to provide the incentive for low-GHG technologies. Without a 'loud, legal and long' carbon price signal, in addition to direct support for R&D, the technologies will not emerge with sufficient impact (see Part IV).
+
+How far costs are kept down will depend on the design and application of policy regimes in allowing for 'what', 'where' and 'when' flexibility in seeking low-cost approaches. Action will be required to bring forward low-GHG technologies, while giving the private sector a clear signal of the long-term policy environment (see Part IV).
+
+***Abatement costs are lower when there is 'what' flexibility: flexibility over how emission savings are achieved, with a wide choice of sectors and technologies and the inclusion of non-CO2 emissions.***
+
+Flexibility between sectors. It will be cheaper, per tonne of GHG, to cut emissions from some sectors rather than others because there will be a larger selection of better-developed technologies in some. For example, the range of emission-saving technologies in the power generation sector is currently better developed than in the transport sector. However, this does not mean that the sectors with a lack of technology options do nothing in the meantime. Indeed, innovation policies will be crucial in bringing forward clean technologies so that they are ready for introduction in the long term. The potential for cost-effective emission saving is also likely to be less in those sectors in which low-cost mitigation options have already been undertaken. Similarly, flexibility to cut emissions from a range of consumption options and economic sectors is also likely to reduce modelled costs. Models that are restricted to a narrow range of sectors with inelastic demand, for example, parts of the transport sector, will tend to estimate very high costs for a given amount of mitigation (see Section 10.2).
+
+%%page 245%%
+
+Flexibility between technologies. Using a portfolio of technologies is cheaper because individual technologies are prone to increasing marginal costs of abatement, making it cheaper to switch to an alternative technology or measure to secure further savings. There is also a lot of uncertainty about which technologies will turn out to be cheapest so it is best to keep a range of technology options open. It is impossible to predict accurately which technologies will experience breakthroughs that cause costs to fall and which will not.
+
+Flexibility between gases. Broadening the scope of mitigation in the cost-modelling exercises to include non-CO2 gases has the potential to lower the costs by opening up additional low-cost abatement opportunities. A model comparison by the Energy Modelling Forum[^7] has shown that including non-carbon greenhouse gases (NCGGs) in mitigation analysis can achieve the same climate goal at considerably lower costs than a CO2-only strategy. The study found that model estimates of costs to attain a given mitigation path fell by about 30–40% relative to a CO2-only approach, with the largest benefits occurring in the first decades of the scenario period, with abatement costs on the margin falling by as much as 80%. It is notable that the impacts on costs are very substantial in comparison to the much smaller contribution of NCGGs to overall emissions, reflecting the low-cost mitigation options and the increase in flexibility of abatement options from incorporating a multi-gas approach[^8][^9].
+
+However, given that climate change is a product of the stock of greenhouse gases in the atmosphere, the lifetime of gases in the atmosphere also has to be taken into account (see Chapter 8). Strategies that focus too much on some of the shorter-lived gases risk locking in to high future stocks of the longer-lived gases, particularly CO2.
+
+***Some countries can cut emissions more cheaply than other countries, so 'where' flexibility is important.***
+
+Flexibility over the distribution of emission-saving efforts across the globe will also help to lower abatement costs, because some countries have cheaper abatement options than others[^10].
+
+- The natural resource endowments of some countries will make some forms of emissions abatement cheaper than in other countries. For example, emission reduction from deforestation will only be possible where there are substantial deforestation emissions. Brazil is well suited to growing sugar, which can be used to produce biofuel cheaply, although, to the extent that biofuels can be transported, other countries are also likely to benefit. Brazil, like many other developing countries, also has a very good wind resource. In addition, the solar resources of developing countries are immense, the incident solar energy per m2 being 2-2.5 times greater than in most of Europe, and it is better distributed throughout the year (see Chapter 9).
+- Countries that have already largely decarbonised their energy sector are likely to find further savings there expensive. They will tend to focus on the scope for emissions cuts elsewhere. Energy-efficiency measures are typically among the cheapest abatement options, and energy efficiency varies hugely by country. For example, unit energy and carbon intensity are particularly low in Switzerland (1.2toe/$GDP and 59tc/$GDP respectively in 2002), reflecting the compositional structure of output and the use of low-carbon energy production. By contrast, Russia and Uzbekistan remain very energy- and carbon-intensive (12.5toe/$GDP and 840tc/$GDP respectively for Uzbekistan in 2002), partly reflecting aging capital stock and price subsidies in the energy market (see, for example, Box 12.3 on gas flaring in Russia).
+
+%%page 246%%
+
+- It will also be cheaper to pursue emission cuts in countries that are in the process of making big capital investments. The timing of emission savings will also differ by country, according to when capital stock is retired and when savings from longer-term investments such as innovation programmes come to fruition. Countries such as India and China are expected to increase their capital infrastructure substantially over coming decades, with China alone accounting for around 15% of total global energy investment. If they use low-emission technologies, emission savings can be 'locked in' for the lifetime of the asset. It is much cheaper to build a new piece of capital equipment using low-emission technology than to retro-fit dirty capital stock.
+
+The Barker study also found that the presence of international mechanisms under the Kyoto Protocol (which include international emissions trading, joint implementation and the Clean Development Mechanism) allow for greater flexibility about where cuts are made across the globe. This has the potential to reduce costs of stabilising atmospheric GHG concentrations at approximately 500-550ppm CO2e by almost a full percentage point of world GDP[^11][^12]. Similarly, Babiker et al. (2001) concluded that limits on 'where' flexibility, through the restriction of trading between sectors of the US economy, can substantially increase costs, by up to 80% by 2030.
+
+***Changes in consumer and producer behaviour through time are uncertain, so 'when' flexibility is desirable.***
+
+The timing of emission cuts can influence total abatement cost and the policy implications. It makes good economic sense to reduce emissions at the time at which it is cheapest to do so. Thus, to the extent that future abatement costs are expected to be lower, the total cost of abatement can be reduced by delaying emission cuts. However, as Chapter 8 set out, limits on the ability to cut emissions rapidly, due to the inertia in the global economy, mean that delays to action can imply very high costs later.
+
+Also, as discussed above, the evolution of energy technologies to date strongly suggests that there is a relationship between policy effort on innovation and technology cost. Early policy action on mitigation can reduce the costs of emission-saving technologies (as discussed in Chapter 15).
+
+Cost-effective planning and substituting activities across time require policy stability, as well as accurate information and well-functioning capital markets. Models that allow for perfect foresight together with endogenous investment possibilities tend to show much reduced costs. Perfect foresight is not an assertion to be taken literally, but it does show the importance of policy being transparent and predictable, so that people can plan ahead efficiently.
+
+%%page 247%%
+
+***The ambition of policy has an impact on estimates of costs.***
+
+A common feature of the model projections was the presence of increasing marginal costs to mitigation. This applies not just to the total mitigation achieved, but also the speed at which it is brought about. This means that each additional unit reduction of GHG becomes more expensive as abatement increases in ambition and also in speed. Chapter 13 discusses findings from model comparisons and shows a non-linear acceleration of costs as more ambitious stabilisation paths are pursued. The relative absence of energy model results for stabilisation concentrations below 500ppm CO2e is explained by the fact that carbon-energy models found very significant costs associated with moving below 450ppm, as the number of affordable mitigation options was quickly exhausted. Some models were unable to converge on a solution at such low stabilisation levels, reflecting the absence of mitigation options and inflexibilities in the diffusion of 'backstop' technologies.
+
+***In general, model comparisons find that the cost of stabilising emissions at 500-550ppm CO2e would be around a third of doing so at 450-500ppm CO2e.***
+
+The lesson here is to avoid doing too much, too fast, and to pace the flow of mitigation appropriately. For example great uncertainty remains as to the costs of very deep reductions. Digging down to emissions reductions of 60-80% or more relative to baseline will require progress in reducing emissions from industrial processes, aviation, and a number of areas where it is presently hard to envisage cost-effective approaches. Thus a great deal depends on assumptions about technological advance (see Chapters 9, 16 and 24). The IMCP studies of cost impacts to 2050 of aiming for around 500-550ppm CO2e were below 1% of GDP for all but one model (IMACLIM), but they diverged afterwards. By 2100, some fell while others rose sharply, reflecting the greater uncertainty about the costs of seeking out successive new mitigation sources.
+
+***Consequently, the average expected cost is likely to remain around 1% of GDP from mid-century, but the range of uncertainty is likely to grow through time.***
+
+***Potential co-benefits need to be considered.***
+
+The range of possible co-benefits is discussed in detail in Chapter 12. The Barker meta-analysis found that including co-benefits could reduce estimated mitigation costs by 1% of GDP. Such models estimate, for example, the monetary value of improved health due to reduced pollution and the offsetting of allocative efficiency losses through reductions in distortionary taxation. Pearce (1996) highlighted studies from the UK and Norway showing benefits of reduced air pollution that offset the costs of carbon dioxide abatement costs by between 30% and 100%. A more recent review of the literature[^13] came to similar conclusions, noting that developing countries would tend to have higher ancillary benefits from GHG mitigation compared with developed countries, since, in general, they currently incur greater costs from air pollution.
+
+Analyses carried out under the Clean Air for Europe programme suggest cost savings as high as 40% of GHG mitigation costs are possible from the co-ordination of climate and air pollution policies[^14]. Mitigation through land-use reform has implications for social welfare (including enhanced food security and improved clean-water access), better environmental services (such as higher water quality and better soil retention), and greater economic welfare through the impact on output prices and production[^15]. These factors are difficult to measure with accuracy, but are potentially important and are discussed further in Chapter 12.
+
+%%page 248%%
+
+Box 10.1 The relationship between marginal and average carbon cost estimates
+
+It is important to distinguish marginal from average carbon costs. In general, the marginal cost of carbon mitigation will rise as mitigation becomes more expensive, as low-cost options are exhausted and diminishing returns to scale are encountered. But the impact on overall costs to the economy is measured by the average cost of mitigation, which will be lower than those on the margin.
+
+In some cases, for example, where energy efficiency increases or where induced technology reduces the costs of mitigation, average costs might not rise and could be zero or negative, even where costs on the margin are positive and rising. The correlation from plotting carbon tax against losses in GDP from the IMCP study is only 0.37; a survey for the US Congress by Lasky (2003) showed that a similar low correlation can be seen from model results on the US costs of Kyoto (2003, p.92).
+
+Changes in the marginal carbon cost are related, but do not correspond one-for-one, to the average cost of mitigation. The social cost of carbon will tend to rise as the stock of atmospheric GHGs, and associated damages, rises. The marginal abatement cost will also rise, reflecting this, but average abatement costs may fall (see Chapter 9). This explains why some of the models with a high social cost of carbon, and corresponding high carbon price, show very low average costs. The high carbon price is assumed to be necessary to induce benefits from energy efficiency, technological innovation and other co-benefits such as lower pollution. In some cases, these result in a reduction in average costs that raise GDP above the baseline when a stabilisation goal is imposed. This also explains why the work by Anderson (Chapter 9) shows a falling average cost of carbon through time consistent with rising costs on the margin.
+
+Most models represent incentives to change emissions trajectories in terms of the marginal carbon price required. This not only changes specific investments according to carbon content, but also triggers technical change through the various mechanisms considered in the models, including through various forms of knowledge investment. The IMCP project (Grubb et al. 2006) charts the evolution of carbon prices required to achieve stabilisation and shows that they span a wide range, both in absolute terms and in the time profile. For stabilisation at 450ppm (around 500-550ppm CO2e), most models show carbon prices start off low and rise to US$360/tCO2 +/- 150% by 2030, and are in the range US$180-900/tCO2 by 2050, as the social cost of carbon increases and more expensive mitigation options need to be encouraged on the margin in order to meet an abatement goal.
+
+After that, they diverge significantly: some increase sharply as the social cost of carbon continues to rise. Others level off as the carbon stock and corresponding social cost of carbon stabilise and a breadth of mitigation options and technologies serve to meet the stabilisation objective. Rising marginal carbon prices need not mean that GDP impacts grow proportionately, as new technologies and improved energy efficiency will reduce the economy's dependence on carbon, narrowing the economic base subject to the higher carbon taxation.
+
+#### 10.4 Understanding the scale of total global costs
+
+Overall, the model simulations demonstrate that costs depend on the design and application of policy, the degree of global policy flexibility, and, whether or not governments send the right signals to markets and get the most efficient mix of investment. If mitigation policy is timed poorly, or if cheap global mitigation options are overlooked, the costs can be high.
+
+To put these costs into perspective, the estimated effects of even ambitious climate change policies on economic output are estimated to be small – around 1% or less of national and world product, averaged across the next 50 to 100 years – provided policy instruments are applied efficiently and flexibly across a range of options around the globe. This will require early action to retard growth in the stock of GHGs, identify low-cost opportunities and prevent locking-in to high GHG infrastructure. The numbers involved in stabilising emissions are potentially large in absolute terms – maybe hundreds of billions of dollars annually (1% of current world GDP equates to approximately $350-400 billion) – but are small in relation to the level and growth of output.
+
+%%page 249%%
+
+For example, if mitigation costs 1% of world GDP by 2100, relative to the hypothetical 'no climate change' baseline, this is equivalent to the growth rate of annual GDP over the period dropping from 2.5% to 2.49%. GDP in 2100 would still be approximately 940% higher than today, as opposed to 950% higher if there were no climate-change to tackle. Alternatively, one can think of annual GDP being 1% lower through time, with the same growth rate, after an initial adjustment. The same level of output is reached around four or five months later than would be the case in the absence of mitigation costs[^16].
+
+The illustration of costs above assumes no change in the baseline growth rate relative to the various mitigation scenarios, that is, it takes no account of climate-change damages. In practice, by 2100, the impacts of climate change make it likely that the 'business as usual' level of world GDP will be lower than the post-mitigation profile (see Chapters 6 and 13). Hence stabilising at levels around 500-550ppm CO2e need not cost more than a year's deferral of economic growth over the century with broad-based, sensible and comprehensive policies. Once damages are accounted for, mitigation clearly protects growth, while failing to mitigate does not.
+
+The mitigation costs modelled in this chapter are unlikely to make the same kind of material difference to household lifestyles and global welfare as those which would arise with the probable impact of dangerous climate change, in the absence of mitigation (see section II). The importance of weighing together the costs, benefits and uncertainties through time is emphasised in Chapter 13.
+
+#### 10.5 Conclusion
+
+This chapter draws on a range of model estimates with a variety of assumptions. A detailed analysis of the key drivers of costs suggests the estimated effects of ambitious policies to stabilise atmospheric GHGs on economic output can be kept small, rising to around 1% of national and world product averaged over the next fifty years.
+
+By 2050, models suggest a plausible range of costs from –2% (net gains) to +5% of GDP, with this range growing towards the end of the century, because of the uncertainties about the required amount of mitigation, the pace of technological innovation and the efficiency with which policy is applied across the globe. Critically, these costs rise sharply as mitigation becomes more ambitious or sudden.
+
+Whether or not the costs are actually minimised will depend on the design and application of policy regimes in allowing for 'what, where and when' flexibility, and taking action to bring forward low-GHG technologies while giving the private sector a clear signal of the long-term policy environment.
+
+These costs, however, will not be evenly distributed. Issues around the likely distribution of costs are explored in the next chapter. Possible opportunities and benefits arising from climate-change policy also need to be taken into account in any serious consideration of what the true costs will be, and of the implications of moving at different speeds. These are examined further in Chapter 12.
+
+%%page 250%%
+
+#### References
+
+Volume 2 of Jorgenson's book "Growth" and also Ricci (2003) provide a rigorous and thorough basis for understanding the theoretical framework against which to assess the costs of environmental regulation and GHG mitigation. The special edition of Energy Economics 2004 is also recommended and includes a crystal-clear introduction to modelling issues by John Weyant. The study by Fischer and Morgenstern (2005) also offers a comprehensive introduction to the key modelling issues, explaining divergent modelling results in terms of modelling assumptions, while highlighting the importance of 'what, where when' flexibility. Van Vuuren et al. (2006) are among those who take this a step further by allowing for multi-gas flexibility in modelling scenarios.
+
+Edenhofer et al. (2006) review the results of ten IMCP energy modelling exercises examining the costs associated with different stabilisation paths, the dynamics of carbon prices and the importance of key assumptions, in particular, induced innovation. Barker et al. (2006) use a more a quantitative approach to synthesise the results of different model projections and examine the importance of induced technological innovation. Using a meta-analysis estimation technique, they attempt to quantify how important various modelling assumptions are in determining cost estimates for different mitigation scenarios.
+
+Azar C. and S.H. Schneider (2002): 'Are the economic costs of stabilising the atmosphere prohibitive?' Ecological Economics 42:(2002) 73–80
+
+Babiker M.H., J. Reilly, J.M. Mayer, et al. (2001): 'The emissions prediction and policy analysis (EPPA) model: revisions, sensitivities and comparisons of results', Cambridge, MA: MIT Press.
+
+Babiker M.H., J. Reilly, J.M. Mayer, et al. (2004): 'Modelling non-CO2 Greenhouse-Gas Abatement', Netherlands Springer pp175-186, October.
+
+Barker T., J. Köhler and M. Villena (2002): 'The costs of greenhouse-gas abatement: A Meta-Analysis of post-SRES mitigation scenarios.' Environmental Economics and Policy Studies 5(2): 135-166
+
+Barker, T., M.S. Qureshi and J. Köhler (2006): 'The costs of greenhouse-gas mitigation with induced technological change: A Meta-Analysis of estimates in the literature', 4CMR, Cambridge Centre for Climate Change Mitigation Research, Cambridge: University of Cambridge.
+
+Barker, T. (2004): 'Economic theory and the transition to sustainability: a comparison of general-equilibrium and space-time-economics approaches', Working Paper 62, November, Norwich: Tyndall Centre for Climate Change Research.
+
+Edenhofer, O., K. Lessmann and M. Grubb (2005): 'Bringing down the costs of climate protection - Lessons from a modelling comparison exercise', Submission to Stern Review on the Economics of Climate Change, December.
+
+Edenhofer, O., M. Grubb, K. C. Kemfert et al. (2006): 'Induced technological change: exploring its implications for the economics of atmospheric stabilization: Synthesis Report from the Innovation Modelling Comparison Project', The Energy Journal, Endogenous Technological Change and the Economics of Atmospheric Stabilisation Special Issue, April, 2006. Fischer, C. and R.D. Morgenstern (2005): 'carbon abatement costs: why the wide range of estimates?' Resources for the Future, September, Discussion Paper 03–42 November.
+
+%%page 251%%
+
+Grubb, M., C. Carraro and J. Schellnhuber (2006): 'Technological change for atmospheric stabilisation: introductory overview to the Innovation Modelling Comparison Project' in The Energy Journal, Endogenous Technological Change and the Economics of Atmospheric Stabilisation Special Issue, April, 2006.
+
+Grubb, M., J. Hourcade, O. Edenhofer and N. Nakicenovic (2005): 'Framing the Economics of Climate Change: an international perspective', Submission to the Stern Review on the Economics of Climate Change, December.
+
+Grübler, A., N. Nakićenović and D.G. Viictor (1999): 'Modelling technological change: implications for the global environment', Annual Review Energy Environ 24: 545–69
+
+Jaffe AB, R.G. Newell and R.N. Stavins, (2003): 'Technological change and the environment' Handbook of Environmental Economics, Maler KG and Vincent JR Ed., 1: 461-516
+
+Jorgenson, D.W. and P.J. Wilcoxen (1990): 'Environmental regulation and U.S. economic growth' Rand Journal of Economics, 21, No. 2, (Summer): 314-340
+
+Jorgenson, D.W. (1998): 'Growth' Vol 2, Energy, the Environment, and Economic Growth. Cambridge, MA: MIT Press.
+
+Köhler, J., M. Grubb, D. Popp and O. Edenhofer (2006): 'The transition to endogenous technical change in climate-economy models: a technical overview to the Innovation Modelling Comparison Project'. Energy Journal, 27:17-55
+
+Lasky, M. (2003): 'The economic costs of reducing emissions of greenhouse gases: a survey of economic models'. CBO Technical Paper No. 2003-03 (May), Washington, DC: CBO.
+
+Nakićenović, N. and A. Gritsevskyi. (2000): 'Modeling uncertainty of induced technological change', Laxenburg: International Institute for Applied Systems Analysis.
+
+Organization for Economic Co-operation and Development, Resources for the Future, Intergovernmental Panel on Climate Change, and World Resources Institute, (2000): 'Ancillary benefits and costs of greenhouse-gas mitigation. Workshop on assessing the ancillary benefits and costs of greenhouse-gas mitigation strategies'. Washington DC, OECD.
+
+Pearce, D.W., W.R. Cline, A. Achanta, et al. (1996): 'The social costs of climate change: greenhouse damage and the benefits of control', in Climate change 1995: economic and social dimensions of climate change, Cambridge: Cambridge University Press, pp. 183-224.
+
+Reilly, J.M., M.C. Sarofim, S. Paltsev and R.G. Prinn (2004): 'The role of non-CO2 greenhouse-gases in climate policy: analysis using the MIT IGSM', MIT Joint Program on the Science and Policy of Global Change, No. 114 (Aug) available from http://hdl.handle.net/1721.1/5543
+
+Ricci, F. (2003): 'Channels of transmission of environmental policy to economic growth: a survey of the theory', Thema Universit´e de Cergy-Pontoise, July.
+
+%%page 252%%
+
+Richels, R.G. and A.S. Manne (1998): 'The Kyoto Protocol: A cost-effective strategy for meeting environmental objectives?' California: EPRI, Stanford University.
+
+Sijm J.P.M. (2004): 'Induced technological change and spillovers in climate policy modeling: an assessment', ECN, December, Petten: ECN Beleidsstudies.
+
+Syri, S., M. Amann, P. Capros, et al., (2001): Low-CO2 energy pathways and regional air pollution in Europe. Energy Policy, 29(11): 871-884
+
+Weyant, J.P. and J. Hill (1999): 'The costs of the Kyoto protocol: a multi-model evaluation', Energy Journal, Introduction and Overview Pages vii-xliv.
+
+Weyant, J.P. (ed.). (2004): 'EMF introduction and overview. Alternative technology strategies for climate change policy', Energy Economics Special Issue, 26: 501-755 van Vuuren, D.P., J. Cofala, H.E. Eerens, et al. (2006): 'Exploring the ancillary benefits of the Kyoto Protocol for air pollution in Europe', Energy Policy, 34: 444–460 van Vuuren, D.P., J.P. Weyant and F. de la Chesnaye (2006): 'Multi-gas scenarios to stabilize radiative forcing', Energy Economics, 28(1): 102-120, January.
+
+%%page 284%%
+
+### 13 Towards a Goal for Climate-Change Policy
+
+Key Messages
+
+Reducing the expected adverse impacts of climate change is both highly desirable and feasible. The need for strong action can be demonstrated in three ways: by comparing disaggregated estimates of the damages from climate change with the costs of specific mitigation strategies, by using models that take some account of interactions in the climate system and the global economy, and by comparing the marginal costs of abatement with the social cost of carbon.
+
+The science and economics both suggest that a shared international understanding of the desired goals of climate-change policy would be a valuable foundation for action. Among these goals, aiming for a particular target range for the ultimate concentration of greenhouse gases (GHGs) in the atmosphere would provide an understandable and useful guide to policy-makers. It would also help policy-makers and interested parties at all levels to monitor the effectiveness of action and, crucially, anchor a global price for carbon. Any long-term goal would need to be kept under review and adjusted as scientific and economic understanding developed.
+
+However, the first key decision, to be taken as soon as possible, is that strong action is indeed necessary and urgent. This does not require immediate agreement on a precise stabilisation goal. But it does require agreement on the importance of starting to take steps in the right direction while the shared understanding is being developed.
+
+Measuring and comparing the expected benefits and costs over time of different potential policy goals can provide guidance to help decide how much to do and how quickly. Given the nature of current uncertainties explored in this Review, and the ethical issues involved, analysis can only suggest a range for action.
+
+The current evidence suggests aiming for stabilisation somewhere within the range 450 - 550ppm CO2e. Anything higher would substantially increase risks of very harmful impacts but would only reduce the expected costs of mitigation by comparatively little. Anything lower would impose very high adjustment costs in the near term for relatively small gains and might not even be feasible, not least because of past delays in taking strong action.
+
+For similar reasons, weak action over the next 20 to 30 years, by which time GHG concentrations could already be around 500ppm CO2e, would make it very costly or even impossible to stabilise at 550ppm CO2e. There is a high price to delay. Delay in taking action on climate change would lead both to more climate change and, ultimately, higher mitigation costs.
+
+Uncertainty is an argument for a more, not less, demanding goal, because of the size of the adverse climate-change impacts in the worse-case scenarios.
+
+Policy should be more ambitious, the more societies dislike bearing risks, the more they are concerned about climate-change impacts hitting poorer people harder, the more optimistic they are about technology opportunities, and the less they discount future generations' welfare purely because they live later. The choice of objective will also depend on judgements about political feasibility. These are decisions with such globally significant implications that they will rightly be the subject of a broad public debate at a national and international level.
+
+The ultimate concentration of greenhouse gases anchors the trajectory for the social cost of carbon. The social cost of carbon is likely to increase steadily over time, in line with the expected rising costs of climate-change-induced damage. Policy should therefore ensure that abatement efforts at the margin also intensify over time. But policy-makers should also spur on the development of technology that can drive down the average costs of abatement. The social cost of carbon will be lower at any given time with sensible climate-change policies and efficient low-carbon technologies than under 'business as usual'.
+
+Even if all emissions stopped tomorrow, the accumulated momentum behind climate change would ensure that global mean temperatures would still continue to rise over the next 30 to 50 years. Thus adaptation is the only means to reduce the now-unavoidable costs of climate change over the next few decades. But adaptation also entails costs, and cannot cancel out all the effects of climate change. Adaptation must go hand in hand with mitigation because, otherwise, the pace and scale of climate change will pose insurmountable barriers to the effectiveness of adaptation.
+
+%%page 285%%
+
+#### 13.1 Introduction
+
+***It is important to use both science and economics to inform policies aimed at slowing and eventually bringing a stop to human-induced climate change.***
+
+Science reveals the nature of the dangers and provides the foundations for the technologies that can enable the world to avoid them. Economics offers a framework that can help policy-makers decide how much action to take, and with what policy instruments. It can also help people understand the issues and form views about both appropriate behaviour and policies. The scientific and economic framework provides a structure for the discussions necessary to get to grips with the global challenge and guidance in setting rational and consistent national and international policies.
+
+***Reducing the expected adverse impacts of climate change is both desirable and feasible.***
+
+Previous chapters argued that, without mitigation efforts, future economic activity would generate rising greenhouse gas emissions that would impose unacceptably high economic and social costs across the entire world. Fortunately, technology and innovation can help rein back emissions over time to bring human-induced climate change to a halt. This chapter first makes the case for strong action now, and then discusses how a shared understanding around the world of the nature of the challenge can guide that action on two fronts: mitigation and adaptation.
+
+#### 13.2 The need for strong and urgent action
+
+***The case for strong action can be examined in three ways: a 'bottom-up' approach, comparing estimates of the damages from unrestrained climate change with the costs of specific mitigation strategies; a 'model-based' approach taking account of interactions in the climate system and the global economy; and a 'price-based' approach, comparing the marginal costs of abatement with the social cost of carbon.***
+
+The 'bottom-up' approach was adopted in Chapters 3, 4 and 5 of this Review for the heterogeneous impacts of climate change, and in Chapters 8 and 9 for the scale and costs of possible mitigation strategies. If global temperatures continue to rise, there will be mounting risks of serious harm to economies, societies and ecosystems, mediated through many and varied changes to local climates. The impacts will be inequitable. It is not necessary to add these up formally into a single monetary aggregate to come to a judgement that human-induced climate change could ultimately be extremely costly. Chapter 7 showed that, without action, greenhouse-gas emissions will continue to grow, so these risks must be taken seriously. But Chapter 9 showed that it is possible to identify technological options for stabilising greenhouse gas concentrations in the atmosphere that would cost of around 1% of world gross world product – moderate in comparison with the high cost of potential impacts. The options considered there are not the only ways of tackling the problem, nor necessarily the best. But they do demonstrate that the problem can be tackled. And there will be valuable co-benefits, such as reductions in local air pollution.
+
+The 'model-based' approach was illustrated in Chapter 6 for the impacts, and Chapter 10 for the costs, of mitigation. Models make it easier to consider the quantitative implications of different degrees of action and can build in some behavioural responses, both to climate change and the policy instruments used to combat it. But they do so at the cost of considerable simplification. They also require explicit decisions about the ethical framework appropriate for aggregating costs and benefits of action. The model results surveyed in this Review point in the same direction as the 'bottom up' evidence: the benefits of strong action clearly outweigh the costs.
+
+***In broad brush terms, spending somewhere in the region of 1% of gross world product on average forever could prevent the world losing the equivalent of 5 - 20% of gross world product for ever, using the approach to discounting explained in Chapters 2 and 6.***
+
+This can be thought of as akin to an investment. Putting together estimates of benefits and costs of mitigation through time, as in Figures 13.1 and 13.2, shows how incurring relatively modest net costs this century (peaking around 2050) can earn a big return later on, because of the size of the damages averted. These charts are quantitative analogues to the schematic diagram in Figure 2.4 comparing a 'business as usual' trajectory with a mitigation path. They are drawn assuming mitigation costs to be a constant 1% (Figure 13.1) and 4% (Figure 13.2) of gross world product and taking a 'business as usual' scenario with baseline climate scenario, some risk of catastrophes and a rough-and-ready estimate of non-market impacts. As explained in Chapter 6, this is now likely to underestimate the sensitivity of the climate to greenhouse gas emissions. Also, the charts focus on impacts measured in terms of how they might affect output, not wellbeing; in other words, they do not reflect the more appropriate approach to dealing with risk, as advocated in Chapter 2. But the range between the 5th and 95th percentiles of the distribution of possible impacts under the specific scenario is shown.
+
+%%page 286%%
+
+Figure 13.1 'Output gap' between the '550ppm C02e and 1% GWP mitigation cost' scenario and BAU scenario, mean and 5th – 95th percentile range
+
+Figure 13.2 'Output gap' between the '550ppm C02e and 4% GWP mitigation cost' scenario and BAU scenario, mean and 5th – 95th percentile range
+
+The 'price-based' approach compares the marginal cost of abatement of emissions with the 'social cost' of greenhouse gases. Consider, for example, the social cost of carbon – that is, the impact of emitting an extra unit of carbon at any particular time on the present value (at that time) of expected wellbeing or utility[^1]. The extra emission adds to the stock of carbon in the atmosphere for the lifetime of the relevant gas, and hence increases radiative forcing for a long time. The size of the impact depends not only on the lifetime of the gas, but also on the size of the stock of greenhouse gases while it is in the atmosphere, and how uncertain climate-change impacts in the future are valued and discounted. The social cost of carbon has to be expressed in terms of a numeraire, such as current consumption, and is a relative price. If this price is higher than the cost, at that time, of stopping the emission of the extra unit of carbon – the marginal abatement cost – then it is worth undertaking the extra abatement, as it will generate a net benefit. In other words, if the marginal cost of abatement is lower than the marginal cost of the long-lasting damage caused by climate change, it is profitable to invest in abatement.
+
+%%page 287%%
+
+The 'price-based' approach points out that estimates of the social cost of carbon along 'business as usual' trajectories are much higher than the marginal abatement cost today. The academic literature provides a wide range of estimates of the social cost of carbon, spanning three orders of magnitude, from less than £0/tC (in year 2000 prices) to over £1000/tC (see Box 13.1), or equivalently from less than $0/tCO2 to over $400/tCO2. This is obviously an extremely broad range and as such makes a policy driven by pricing based on an estimate of the social cost of carbon difficult to apply. The mean value of the estimates in the studies surveyed by Tol was around $29/tCO2 (2000 US$), although he draws attention to many studies with a much lower figure than this.
+
+The modelling approach that was illustrated in Chapter 6 of this Review also indicates the sensitivities of estimates of the social cost of carbon to assumptions about discounting, equity weighting and other aspects of its calculation, as described by Tol, Downing and others. Preliminary analysis of the model used in Chapter 6 points to a number around $85/tCO2 (year 2000 prices) for the central 'business as usual' case, using the PAGE2002 valuation of non-market impacts. It should be remembered that this model is different from its predecessors, in that it incorporates both explicit modelling of the role of risk, using standard approaches to the economics of risk, and makes some allowance for catastrophe risk and non-market costs, albeit in an oversimplified way. In our view, these are very important aspects of the social cost of carbon, which should indeed be included in its calculation even though they are very difficult to assess. We would therefore point to numbers for the 'business as usual' social cost of carbon well above (perhaps a factor of three times) the Tol mean of $29/tCO2 and the 'lower central' estimate of around $13/tCO2 in the recent study for DEFRA (Watkiss et al. (2005)). But they are well below the upper end of the range in the literature (by a factor of four or five). Nevertheless, we are keenly aware of the sensitivity of estimates to the assumptions that are made. Closer examination of this issue – and a narrowing of the range of estimates, if possible – is a high priority for research.
+
+The case for strong action from the perspective of comparing the 'business as usual' social cost of carbon and the marginal abatement cost is powerful, even if one takes Tol's mean or the Watkiss lower benchmark as the value of the former, when one compares it with the opportunities for low-cost reductions in emissions and, indeed, for those that make money (see Chapter 9). It is still more powerful if one takes higher numbers for the social cost of carbon, as we would suggest is appropriate, and also recognises that the SCC will increase over time, because of the current and prospective increases in the stock of greenhouse gases in the atmosphere.
+
+All three of these approaches would lead to exactly the same estimate of the net benefits of climate-change policies and the same extent of action if models were perfect and policy-makers had full information about the world. In practice, these conditions do not hold, so the three perspectives can be used to cross-check the broad conclusions from adopting any one of them.
+
+%%page 288%%
+
+Box 13.1 Estimates of the social cost of carbon
+
+Downing et al (2005), in a study for DEFRA, drew the following conclusions from the review of the range of estimates of the social cost of carbon:
+
+- The estimates span at least three orders of magnitude, from 0 to over £1000/tC (2000 £), reflecting uncertainties in climate and impacts, coverage of sectors and extremes, and choices of decision variables
+- A lower benchmark of £35/tC is reasonable for a global decision context committed to reducing the threat of dangerous climate change. It includes a modest level of aversion to extreme risks, relatively low discount rates and equity weighting
+- An upper benchmark for global policy contexts is more difficult to deduce from the present state of the art, but the risk of higher values for the social cost of carbon is significant.
+
+The Downing study draws on Tol (2005), who gathered 103 estimates from 28 published studies. Tol notes that the range of estimates is strongly right-skewed: the mode was $2/tC (1995 US$), the median was $14/tC, the mean $93/tC and the 95th percentile $350/tC. He also finds that studies that used a lower discount rate, and those that used equity weighting across regions with different average incomes per head generated higher estimates and larger uncertainties. The studies did not use a standard reference scenario, but in general considered 'business as usual' trajectories. (See also Watkiss et al (2005) on the use of the social cost of carbon in policy-making and Clarkson and Deyes (2002) for earlier work on the social cost of carbon in a UK context.)
+
+NB conversion rates: £100/tC (2000 prices) = $116/tC (1995 prices) = $35.70/tCO2 (2000 prices)
+
+#### 13.3 Setting objectives for action
+
+***Having made the case for strong action, there remains the challenge of formulating more specific objectives, so that human-induced climate change is slowed and brought to a halt without unnecessary costs. The science and economics both suggest that a shared international understanding of what the objectives of climate-change policy should be would be a valuable foundation for policy.***
+
+The problem is global. Policy-makers in different countries cannot choose their own global climate. If they differ about what they think the world needs to achieve, not only will many of them be disappointed, the distribution of efforts to reduce emissions will be inefficient and inequitable. The benefits of a shared understanding include creating consensus on the scale of the problem and a common appreciation of the size of the challenge for both mitigation and adaptation. It would provide a foundation for discussion of mutual responsibilities in tackling the challenge. At a national and individual level, it would reduce uncertainty about future policy, facilitating long-term planning and making it more likely that both adaptation and mitigation would be appropriate and cost-effective.
+
+***The ultimate objective of stopping human-induced climate change can be translated into a variety of possible long-term global goals to give guidance about the strength of measures necessary.***
+
+Table 13.1 below summarises five types of goal, each defining key stages along the causal chain from emissions to atmospheric concentrations, to global temperature changes and finally to impacts.
+
+%%page 289%%
+
+Table 13.1 Five types of goal
+
+These different types of goal are not necessarily inconsistent, and some are more suited to particular roles than others. Public concern focuses on impacts to be avoided, and this is indeed the language of the UNFCCC, which defines the ultimate objective of the Convention as "…to achieve…stabilisation of greenhouse gas concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interference with the climate system. Such a level should be achieved within a time-frame sufficient to allow ecosystems to adapt naturally to climate change, to ensure that food production is not threatened and to enable economic development to proceed in a sustainable manner." However, this does not provide a quantitative guide to policy-makers on the action required. The EU has defined a temperature threshold – limiting the global average temperature change to less than 2°C above pre-industrial. This goal allows policy-makers and the public to debate the level of tolerable impacts in relation to one simple index, but it does not provide a transparent link to the level of mitigation action that must be undertaken.
+
+The analysis presented in Chapter 8, linking cumulative emissions first to long-run concentrations in the atmosphere, and then to the probabilities of different ultimate temperature outcomes, provides an alternative basis for long-term goals. It is one that allows the level of and uncertainty about both impacts and the costs of mitigation to be debated together. Once a shared understanding of what the broad objectives of policy should be has been established, it is useful to go further and translate it into terms that can guide the levels at which the instruments of policy should be set.
+
+Any operational goal should be closely related to the ultimate impacts on wellbeing that policy seeks to avoid. But, if it is to guide policy-makers in adjusting policy sensibly over time, progress towards it must also be easy to monitor. The goal therefore should be clear, simple and specific; it must be possible to use new information regularly to assess whether recent observations of the variable targeted are consistent with hitting the goal. Policy-makers must also have some means of adjusting policy settings to alter the trajectory of the variable targeted. Seeing policy-makers adjust policy settings in this way to keep their aim on the goal would also build the credibility of climate-change policies. This is very important, if private individuals and firms are to play their full part in bringing about the necessary changes in behaviour.
+
+%%page 290%%
+
+***A goal for atmospheric concentrations would allow policy-makers to monitor progress in a timely fashion and, if the world were going off course, adjust policy instrument settings to correct the direction of travel.***
+
+The rest of this chapter focuses on the question of what concentration of greenhouse gases in the atmosphere, measured in CO2 equivalent, to aim for. Policy instruments should be set to make the expected long-run outcome for concentration (on the basis of today's knowledge) equal to this level. Atmospheric concentration is closer than cumulative emissions in the causal chain to the impacts with which climate-change policy is ultimately concerned. And, compared with other possible formulations of policy aspirations such as global temperature change, observations of atmospheric concentration allow more rapid feedback to policy settings[^2].
+
+Such a goal is a device to help structure and calibrate climate-change policy. But it is only a means to an end – limiting climate change – and it is useful to keep that ultimate objective in mind. Other intermediate and local goals (for example, national limits for individual countries' annual emissions or effective carbon-tax rates) may also help to move economies towards the long-run objective and to monitor the success of policy, given the long time it will take to achieve stabilisation – as long as they are consistent with, and subsidiary to, the primary goal. They may also be necessary as stepping-stones towards the adoption of a more comprehensive and coherent global objective, given the time it is likely to take to reach a shared understanding of what needs to be done. The danger is that multiple objectives may reduce the efficiency with which the main one is pursued. Part VI of the Review considers some of the problems of turning an international objective into obligations for national governments. This chapter sidesteps those problems in order to focus on what economics suggests might be desirable characteristics of the set of local, national and supranational policies that emerge from the political process.
+
+However, the key decision required now is that strong action is both urgent and necessary. That does not require immediate agreement on a precise stabilisation goal.
+
+It is important to start taking steps in the right direction while the shared understanding is being developed.
+
+#### 13.4 The economics of choosing a goal for global action
+
+***Measuring and comparing the expected benefits and costs over time associated with different stabilisation levels can provide guidance to help decide how much to do and how quickly.***
+
+Estimates need to take account of the great uncertainties about climate-change damages and mitigation costs that remain even when a specific stabilisation goal is being considered. The time dimension is also important. A different stabilisation goal entails a different trajectory of emissions through time, so analysis should not simply compare the costs and benefits of extra emission reductions this year. Instead, one needs to compare incremental changes in the present values of current and future costs and benefits.
+
+The marginal benefits of a lower stabilisation level reflect the expected impact on people's wellbeing of achieving a lower expected ultimate temperature change and a reduced risk of extreme outcomes. Risk will increase along the path towards stabilisation and cannot be accounted for simply by comparing ultimate stabilisation levels. As Chapter 2 showed, this requires judgements about how wellbeing is affected by risk, uncertainty and the distribution of the impacts of climate change across individuals and societies. Subjective assessments have to be made where objective evidence about risks is limited, particularly those associated with more extreme climate change. These assessments should adopt a consistent approach towards risk and uncertainty, reflecting the degree of risk aversion people decide is appropriate in this setting.
+
+%%page 291%%
+
+The marginal costs of aiming for a lower stabilisation level reflect the need to speed up the introduction of mitigation measures, such as development of low-carbon technologies and switching demand away from carbon-intensive goods and services. Stabilisation, however, requires emissions to be cut to below 5 GtCO2e eventually, to the Earth's natural annual absorption limit, whatever the specific GHG stock level chosen (Chapter 8).
+
+Figure 13.3 illustrates the approach sketched here. The figure shows in schematic fashion how the incremental or marginal benefits and costs of a programme of action change through time (in terms of present values) as successively lower goals are considered. As explained in Chapter 2, the benefits (and the costs) of action should be thought of in terms of the expected impacts on wellbeing over time, appropriately discounted, not simply monetary amounts. That allows for risk weighting, risk aversion and considerations of fairness across individuals and generations to be incorporated in the analysis. For simplicity, two 'marginal benefits' curves are drawn to remind the reader of the huge uncertainties. In practice, people differ about the weights they attach to different sorts of climate-change impacts. There is scope for legitimate debate about how they should be aggregated to compare them with the costs of mitigation.
+
+Figure 13.3 Schematic representation of how to select a stabilisation level
+
+The costs of mitigation, too, should be thought of in terms of their impact on broad measures of wellbeing. It matters on whom the costs fall, when they are incurred and what the uncertainties about them are. Figure 13.2 shows two curves, for high and low estimates of the incremental costs of tougher action to curb emissions. They are drawn with the costs rising more sharply as the stabilisation level considered becomes lower and lower. The ideal objective is where the marginal benefits of tougher action equal the marginal costs. Given the uncertainty about both sides of the ledger, this approach cannot pin down a precise number but can, as the chart indicates, suggest a range in which it should lie. The range excludes levels where either the incremental costs of mitigation or the incremental climate-change impacts are rising very rapidly.
+
+***Uncertainty is an argument for setting a more demanding long-term policy, not less, because of the asymmetry between unexpectedly fortunate outcomes and unexpectedly bad ones.***
+
+Suppose there is a probability distribution for the scale of physical impacts associated with a given increase in atmospheric concentrations of greenhouse gases. As one moves up the probability distribution, the consequences for global wellbeing become worse. But, more than that, the consequences are likely to get worse at an accelerating rate, for two reasons. First, the higher the temperature, the more rapidly adverse impacts are likely to increase. Second, the worse the outcome, the lower will be the incomes of people affected by them, so any monetary impact will have a bigger impact on wellbeing[^3].
+
+%%page 292%%
+
+There is a second line of reasoning linking uncertainty with stronger action. There is an asymmetry due to the very great difficulty of reducing the atmospheric concentration of greenhouse gases. Increases are irreversible in the short to medium run (and very difficult even in the ultra-long run, on our current understanding). If new information is collected that implies that climate-change impacts are likely to be worse than we now think, we cannot go back to the concentration level that would have been desirable had we had the new information earlier. But if the improvement in knowledge implies that a less demanding goal is appropriate, it is easy to allow the concentration level to rise faster. In other words, there is an option value to choosing a lower goal than would be picked if no improvements in our understanding of the science and economics were anticipated. The 'option value' argument is not, however, clear-cut[^4]. There is also an option value associated with delaying investment in long-lived structures, plant and equipment for greenhouse gas abatement. Investments in physical capital, like cumulative emissions, are largely irreversible, so there is an option value to deferring them. That argues for a higher level of annual emissions than otherwise desirable.
+
+***Some of the parameters that modellers have treated as uncertain, such as discount factors and equity weights, reflect societies' preferences. In the process of agreeing an international stabilisation objective, or at least narrowing its range, discussions have to resolve, or at least reduce disagreement over, the issues of social choice lying behind these uncertainties.***
+
+As explained in Chapter 2 and its appendix, this Review argues for using a low rate of pure time preference and assuming a declining marginal utility of consumption as consumption increases across time, people and states of nature. However, the magnitude of the risks described in Part II of this Review suggests that a broad range of perspectives on these two issues indicates the need for strong action to mitigate emissions.
+
+Given this framework, the evidence on the costs and benefits of mitigation reviewed in the chapters above can give a good indication of upper and lower limits that might be set for the extent of action, as argued below. The policy debate should seek some indication of where within these limits international collective action should aim[^5]. But it is vital that, while a shared understanding permitting agreement on a common goal is being developed, initial actions to reduce emissions are not delayed.
+
+***There is room for debate about precisely how fast emissions need to be brought down, but not about the direction in which the world now has to move.***
+
+#### 13.5 Climate change impacts and the stabilisation level
+
+***Expected climate-change impacts rise with the atmospheric concentration of greenhouse gases, because the probability distributions for the long-run global temperature move upwards. The evidence strongly suggests that 550ppm CO2e would be a dangerous place to be, with substantial risks of very unpleasant outcomes.***
+
+Figure 13.3 illustrates how the risk of various impacts occurring is associated with different stabilisation levels[^6] (see also Box 8.1 for frequency distributions of the range of temperature increases associated with various stabilisation levels in a selection of climate models). The top section shows the 5 – 95% probability ranges of temperature increases projected at different stabilisation levels; the central marker is the 50th percentile point. The bottom section shows the projected impacts. At some point, the risks of experiencing some extremely damaging phenomena begin to become significant. Such phenomena include:
+
+%%page 293%%
+
+- Irreversible losses of ecosystems and extinction of a significant fraction of species.
+- Deaths of hundreds of millions of people (due to food and water shortages, disease or extreme weather events).
+- Social upheaval, large-scale conflict and population movements, possibly triggered by severe declines in food production and water supplies (globally or over large vulnerable areas), massive coastal inundation (due to collapse of ice sheets) and extreme weather events.
+- Major, irreversible changes to the Earth system, such as collapse of the Atlantic thermohaline circulation and acceleration of climate change due to carbon-cycle feedbacks (such as weakening carbon absorption and higher methane releases) – at high temperatures, stabilisation may prove more difficult, or impossible, because such feedbacks may take the world past irreversible tipping points (chapter 8).
+
+The expected impacts of climate change on well-being in the broadest sense are likely to accelerate as the stock of greenhouse gases increases, as argued in Chapter 3. The expected benefits of extra mitigation will therefore increase with the stabilisation level[^7]. In Figure 13.2, the marginal benefit curve is therefore drawn as rising increasingly steeply with the stabilisation level. There are four main reasons:
+
+- As global mean temperatures increase, several specific climate impacts are likely to increase more and more rapidly: in other words, the relationship is convex. Examples include the relationship between windstorm wind-speed and the value of damage to buildings (IAG (2005)) and new estimates of the relationship between temperature and crop yields (Schlenker and Roberts (2006));
+- Different elements of the climate system may interact in such a way that the combined impacts rise more and more rapidly with temperature;
+- As global mean temperatures increase several degrees above pre-industrial levels, existing stresses would be more and more likely to trigger the most severe impacts of climate change that arise from interactions with societies, namely social upheaval, large-scale conflict and population movements;
+- As global mean temperatures increase, so does the risk that positive feedbacks in the climate system, such as permafrost melting and weakening carbon sinks, kick in.
+
+The uncertainties about impacts make it impossible to quantify exactly where the marginal impacts of climate change will rise more sharply. However, across the current body of evidence, two approximate global turning points appear to exist, at around 2 – 3°C and 4 – 5°C above pre-industrial levels:
+
+- At roughly 2 – 3°C above pre-industrial, a significant fraction of species would exceed their adaptive capacity and, therefore, rates of extinction would rise. This level is associated with a sharp decline in crop yields in developing counties (and possibly developed counties) and some of the first major changes in natural systems, such as some tropical forests becoming unsustainable, irreversible melting of the Greenland ice sheet and significant changes to the global carbon cycle (accelerating the accumulation of greenhouse gases).
+- At around 4 – 5°C above pre-industrial, the risk of major abrupt changes in the climate system would increase markedly. At this level, global food production would be likely to fall significantly (even under optimistic assumptions), as crop yields fell in developed countries.
+
+%%page 294%%
+
+Figure 13.4 Stabilisation levels and probability ranges for temperature increases
+
+The figure below illustrates the types of impacts that could be experienced as the world comes into equilibrium with higher greenhouse gas levels. The top panel shows the range of temperatures projected at stabilisation levels between 400ppm and 750ppm CO2e at equilibrium. The solid horizontal lines indicate the 5 – 95% range based on climate sensitivity estimates from the IPCC TAR 2001 (Wigley and Raper (2001)) and a recent Hadley Centre ensemble study (Murphy et al. (2004)). The vertical line indicates the mean of the 50th percentile point. The dashed lines show the 5 – 95% range based on eleven recent studies (Meinshausen (2006)). The bottom panel illustrates the range of impacts expected at different levels of warming. The relationship between global average temperature changes and regional climate changes is very uncertain, especially with regard to changes in precipitation (see Box 3.2). This figure shows potential changes based on current scientific literature.
+
+Few studies have examined explicitly the benefits of choosing a lower stabilisation level. Generally, those that have done so show that the benefits vary across sectors. For example, in reducing the stabilisation temperature from 3.5°C to 2.5°C, significant benefits to ecosystems and in the number of people exposed to water stress have been estimated[^8]. However, such evidence is strongly model-dependent and, therefore, subject to significant uncertainties.
+
+%%page 295%%
+
+Recent integrated assessment models (discussed in Chapter 6) have attempted to capture some of these uncertainties by representing damage functions stochastically. These cover several dimensions, including the risk of major abrupt changes in the climate systems (they do not, however, generally include estimates of the potential costs of social disruption). They also take account of adaptation to climate change to varying extents. Chapter 6 notes that such models show a steep increase in marginal costs with rising temperature. The PAGE2002 model, used in chapter 6, has the advantage of allowing for the uncertainty in the literature about several dimensions of impacts. It permits a comparison of the probability distribution of projected gross world product net of the cost of climate change with the hypothetical gross world product without climate change, for a given increase in global mean temperature, thus providing an estimate of climate-change costs (see Table 13.2, where estimates include some measure of 'non-market' impacts). The costs of climate change as a proportion of gross world product are modelled as an uncertain function of the increase in temperature, among other factors.
+
+Table 13.2 Estimates of the costs of climate change by temperature increase, as a proportion of gross world product, from PAGE2002
+
+Source: Hope (2003)
+
+Thus, for example, according to PAGE2002, if the temperature increase rises from 2ºC to 3ºC, the mean damage estimate increases from 0.6% to 1.4% of gross world product; but the 'worst case' – the 95th percentile of the probability distribution – goes from 4.0% to 9.1%. These costs fall disproportionately on low-latitude, low-income regions, but there are significant net costs in higher-latitude regions, too.
+
+The estimates of the costs of impacts suggest that the mean expected damages rise significantly if the global temperature change rises from 3ºC to 4ºC and even more from 4ºC to 5ºC. But the damages associated with a 'worst case' scenario – the 95th percentile of the distribution – rise more rapidly still.
+
+***On the basis of current scientific understanding, it is no longer possible to prevent all risk of dangerous climate change.***
+
+Box 8.1 showed how the risk of exceeding these temperature thresholds rises at stabilisation levels of 450, 550, 650, and 750ppm CO2e. This box implies:
+
+- Even if the world were able to stabilise at current concentrations, it is already possible that the ultimate global average temperature increase will exceed 2°C
+- At 450ppm CO2e, there is already a 18% chance of exceeding 3°C, according to the Hadley ensemble reported in the table, but a very high chance of staying below 4°C
+- By 550ppm CO2e, there is a 24% chance that temperatures will exceed 4°C, but less than a 10% chance that temperatures will exceed 5°C.
+
+It can be seen that a move above 550ppm CO2e would entail considerable additional costs of climate change, taking into account the further increases in the risks of extreme outcomes.
+
+Our work with the PAGE model suggests that, allowing for uncertainty, if the world stabilises at 550ppm CO2e, climate change impacts could have an effect equivalent to reducing consumption today and forever by about 1.1%[^9]. As Chapter 6 showed, this compares with around 11% in the corresponding 'business as usual' case – ten times as high. With stabilisation at 450ppm CO2e, the percentage loss would be reduced to 0.6%, so choosing the tougher goal 'buys' about 0.5% of consumption now and forever. Choosing 550ppm instead of 650ppm CO2e 'buys' about 0.6%. As with all models, these numbers reflect heroic assumptions about the valuation of potential impacts, although, as Chapter 6 explains, they reflect an attempt to ensure the model calibration reflects the nature of the problem faced. They also entail explicit judgements about some of the ethical issues involved. In addition, the PAGE2002 model is not ideal for analysing stabilisation trajectories. Nevertheless, all integrated assessment models are sensitive to the assumptions and they should be taken as only indicative of the quantitative impacts, given those assumptions. It should be noted that the results quoted from Chapter 6 leave out much that is important, and the other models referred to there leave out more.
+
+%%page 296%%
+
+#### 13.6 The costs of mitigation and the stabilisation level
+
+***The lower the stabilisation level chosen, the faster the technological changes necessary to bring about a low-carbon society will have to be implemented.***
+
+Stabilising close to the current level of greenhouse gas concentration would require implausibly rapid reductions in emissions, because the technologies currently available to achieve such reductions are still very expensive[^10] and the appropriate structures, plant and equipment are not yet in place. Hitting 450ppm CO2e, for example, appears very difficult to achieve with the current and foreseeable technologies, as suggested in Chapter 8. It would require an early peak in emissions, very rapid emission cuts (more than 5% per year), and reductions by 2030 of around 70%. Even with such cuts, the stock of greenhouse gases covered by the Kyoto Protocol would initially overshoot, their effect temporarily masked by aerosols (so that there would be only a very small overshoot in radiative forcing)[^11]. Costs would start to rise very rapidly if emissions had to be reduced sharply before the existing capital stock in emissions-producing industries would otherwise be replaced and at a speed that made structural adjustments in economies very abrupt and hence expensive. Abrupt changes to economies can themselves trigger wider impacts, such as social instability, that are not covered in economic models of the costs of mitigation.
+
+Technological change eventually has to get annual emissions down to their long-run sustainable levels without having to accelerate sharply the retirement of the existing capital stock, if costs are to be contained. Model-based estimates of the present value of the costs of setting a tougher stabilisation objective are not widely available in the literature. That reflects, among other factors, the unavoidable uncertainties about the pace and costs of future innovation. In principle, such estimates ought to reflect the incidence of the mitigation costs, which ultimately fall on the consumers of currently GHG-intensive goods and services, as well as their monetary value (just as the incidence of climate-change impacts matters as well as their level), but there has been little investigation of this aspect of the problem.
+
+However, there are some estimates to help as a guide. Chapter 9 in effect argued that the extra mitigation costs incurred by stabilising at around 550ppm CO2e instead of allowing business to continue as usual would probably be of the order of 1% of gross world product. Choosing a lower goal would cost more, a higher goal less. Some studies of costs give more of an indication of their sensitivity to the stabilisation objective. For example, the study by Edenhofer et al (2006), averaging over five models, provides the following estimates of cost increases from choosing a lower stabilisation goal:
+
+Table 13.3 Some model-based estimates of the increase in mitigation costs from reducing a stabilisation goal (discounted percentage of gross world output), by discount rate used
+
+Source: adapted from Edenhofer et al. (2006); 'Green Book' is a declining discount rate over time, as in HM Treasury Green Book project-appraisal guidance.
+
+%%page 297%%
+
+It is important to note that these results are tentative, and that there is still much debate about the role of induced technological progress, the focus of the study. Nevertheless, the bottom line in Table 13.3 suggests that the extra mitigation costs from choosing a goal of around 500ppm instead of 550ppm CO2 would be small, ranging from 0.06% to 0.18% of gross world output, depending on how much future costs are discounted. In terms of a CO2e goal, this is similar to going from 600 – 700ppm to 550 – 650ppm, depending on what happens to non-CO2 greenhouse gases (see Chapter 8). The extra costs of choosing a goal of 450ppm CO2 instead of 500ppm CO2 would be higher, ranging from 0.25% to 0.58%; this is similar to going from 550 – 650ppm CO2e to 500 – 550ppm CO2e. None of the discount schemes used are the same as the one used in Chapter 6 of this Review, as the discount rates are not path-dependent. However, as stabilisation reduces the chances of very bad outcomes compared with 'business as usual', the discounting issue is less important than when evaluating potential impacts without mitigation. It is important to note that the studies concerned take the year 2000 as a baseline. Given the probable cumulative emissions since then, the goals would now be more difficult and expensive to hit.
+
+The recent US Climate Change Science Program draft report on scenarios of greenhouse gas emissions and atmospheric concentrations also provides useful estimates, reporting for various points in time the percentage change in gross world product expected due to adopting policies to meet four different stabilisation goals[^12]. Again, the studies covered take 2000 as the base year. The implications for incremental costs (as a fraction of gross world output) of adopting successively tougher goals are summarised in Table 13.4 below. These studies were not designed with the objective of this chapter in mind, of course, and the draft is subject to revision, so the estimates should be regarded as suggestive of magnitudes, not definitive.
+
+Table 13.4 Some model-based estimates of the incremental savings in mitigation costs from relaxing a stabilisation goal (% of gross world output in the relevant year)
+
+Source: Adapted from US CCSP Synthesis and Assessment Product 2.1, Part A: Scenarios of Greenhouse Gas Emissions and Atmospheric Concentrations. Draft for public comment, June 26, 2006[^13]
+
+Table 13.4 shows in the bottom panel that the extra costs incurred by adopting an objective of around 820ppm instead of 970ppm CO2e are very small, and, for two of the three models (MERGE and MiniCAM in the middle panel), aiming for around 670ppm instead of 820ppm CO2e also costs little. According to the same two models, choosing 525ppm instead of 670ppm CO2e increases costs by around 1% of gross world product, the amount varying somewhat over time. The most pessimistic model here generates considerably higher estimates for the total yearly costs of mitigation, reflecting its relatively high trajectory for 'business as usual' emissions and relatively pessimistic assumptions about the likely pace of innovation in low-carbon technologies. The studies suggest that mitigation costs start to rise sharply towards the bottom of the ranges of stabilisation levels considered.
+
+%%page 298%%
+
+***Delay will make it more difficult and more expensive to stabilise at or below 550ppm CO2e.***
+
+All of these studies take as a starting point the year 2000. If it takes 20 years or so before strong policies are put in place globally, it is likely that the world would already be at somewhere around 500ppm CO2e, making it very difficult and expensive then to take action to stabilise at around 550ppm.
+
+#### 13.7 A range for the stabilisation objective
+
+***Integrated assessment models have been used in a number of studies to compare the marginal costs and marginal benefits of climate-change policy over time. But many of the estimates in the literature do not take into account the latest science or treat risk and uncertainty appropriately. Doing so would bring down the stabilisation level desired.***
+
+In some cases, the models have been used to estimate the 'optimal' amount of mitigation that maximises benefits less costs. These studies recommend that greenhouse gas emissions be reduced below business-as-usual forecasts, but the reductions suggested have been modest. For example, on the basis of the climate sensitivities and assessments available at the time the studies were undertaken,
+
+- Nordhaus and Boyer (1999) found that the optimal global mitigation effort reduces atmospheric concentrations of carbon dioxide from 557ppm in 2100 (business-as-usual) to 538ppm. This reduces the global mean temperature from an estimated 2.42°C above 1900 levels to 2.33°C;
+- Tol (1997) found that the optimal mitigation effort reduces the global mean temperature in 2100 from around 4°C above 1990 levels to between around 3.6°C and 3.9°C, depending on whether countries cooperate and on the costs of mitigation;
+- Manne et al. (1995) did not use their model to find the optimal reduction in emissions, but the policy option they explored that delivers the highest net benefits reduces atmospheric concentrations of carbon dioxide from around 800ppm in 2100 to around 750ppm, reducing global mean temperature from around 3.25°C above 1990 levels to around 3°C.
+
+However, the optimal amount of mitigation may in fact be greater than these studies have suggested. Above all, they carry out cost-benefit analysis appropriate for the appraisal of small projects, but we have argued in Chapter 2 that this method is not suitable for the appraisal of global climate change policy, because of the very large uncertainties faced. As a result, these studies underestimate the risks associated with large amounts of warming. Neither does any of these studies place much weight on benefits and costs accruing to future generations, as a consequence of their ethical choices about how to discount future consumption. Manne et al. apply a much higher discount rate to utility than do we in Chapter 6. Nordhaus and Boyer assume relatively low and slowing economic growth in the future, which reduces future warming. Tol estimates relatively modest costs of climate change, even at global mean temperatures 5-6°C above pre-industrial levels. Recent scientific developments have placed more emphasis on the dangers of amplifying feedbacks of global temperature increases and the risks of crossing irreversible tipping points than these models have embodied.
+
+***Given the paucity of estimates of the appropriate stabilisation level and the disadvantages of the ones that exist, this chapter does not propose a specific numerical goal. Instead, it explores how economic analysis can at least help suggest upper and lower limits to the range for an atmospheric concentration goal. Allowing for the current uncertainties, the evidence suggests that the upper limit to the stabilisation range should not be above 550ppm CO2e.***
+
+Putting together our results on the valuation of climate-change impacts with the mitigation-cost studies suggests that the benefits of choosing a lower stabilisation goal clearly outweigh the costs until one reaches 550 – 600ppm CO2e. But around this level the cost-benefit calculus starts to get less clear-cut. The incremental mitigation costs of choosing 500 – 550ppm instead of 550 – 600ppm CO2e are three to four times as much as the incremental costs of choosing 550 – 600ppm instead of 600 – 650ppm CO2e, according to the numbers in Edenhofer et al. The higher mitigation costs incurred if 500 – 550ppm is chosen instead of 550 – 600ppm CO2e might be of similar size to the incremental benefits. They would be bigger if induced technological change were inadequate or 'business as usual' emissions were at the higher end of projections, as in the IGSM projections reported in Table 13.4.
+
+%%page 299%%
+
+As far as the climate-change impacts are concerned, the incremental benefits might be bigger than these calculations allow – for example, if policy-makers are more risk-averse than the PAGE calculations assumed or attach more weight to non-market impacts. Nevertheless, in choosing an upper limit to the stabilisation range, one needs to consider what is appropriate if climate-change impacts turn out to be towards the low end of their probability distribution (for a given atmospheric concentration) and mitigation costs towards the high end of their distribution. Following broadly this approach, but assuming mitigation costs are brought down over time by induced technological change, we suggest an upper limit of 550ppm CO2e.
+
+***The lower limit to the stabilisation range is determined by the level at which further tightening of the goal becomes prohibitively expensive. On the basis of current evidence, stabilisation at 450ppm CO2e or below is likely to be very difficult and costly.***
+
+Cost estimates derived from modelling exercises suggest that costs as a share of gross world product would increase sharply if a very ambitious goal were adopted (see Chapter 10). It is instructive that cost modelling exercises rarely consider stabilisation below 500ppm CO2e. Edenhofer et al point out that some of the models in their study simply cannot find a way of achieving 450ppm CO2e. Even stabilising at 550ppm CO2e would require complete transformation of the power sector. 450ppm CO2e would in addition require very large and early reductions of emissions from transport, for which technologies are further away from deployment. Given that atmospheric greenhouse gas levels are now at 430ppm CO2e, increasing at around 2.5ppm/yr, the feasibility of hitting 450ppm CO2e without overshooting is very much in doubt. And it would be unwise to assume that any overshoot could be clawed back.
+
+***The evidence on the benefits and costs of mitigation at different atmospheric concentrations in our view suggests that the stabilisation goal should lie within the range 450 – 550ppm CO2e.***
+
+The longer action is delayed, the higher will be the lowest stabilisation level achievable. The suggested range reflects in particular the judgements that:
+
+- Any assessment of the costs of climate change must take into account uncertainty about impacts and allow for risk aversion. Because of the risk of very adverse impacts, extreme events and amplifying feedbacks, this implies adopting a tougher goal than if uncertainty were ignored
+- Proper weight should be given to the interests of future generations. Future individuals should be given the same weight in ethical calculations as those currently alive, if it is certain that they will exist. But, as there is uncertainty about the existence of future generations, it is appropriate to apply some rate of discounting over time. That points to the use of a positive, but small, rate of pure time preference (see Chapter 2 and its appendix)
+- Proper attention should be paid to the distribution of climate-change impacts, in particular to the disproportionate impact on poor people
+- Productivity growth in low-greenhouse-gas activities will speed up if there is more output from and investment in these activities
+- The speed of decarbonisation is constrained by the current state of technology and the availability of resources for investment in low-carbon structures, plant, equipment and processes.
+
+It is clear that studies of climate-change impacts and of mitigation costs do not yet establish a narrow range for the level at which the atmospheric concentrations of greenhouse gases should be stabilised. More research is needed to narrow the range further. There will always be disagreements about the size of the risks being run, the appropriate policy stance towards risk, and the valuation of social, economic and ecological impacts into the far future. But the range suggested here provides room for negotiation and debate about these. And we would argue that agreement on the range stated does not require signing up to all of the judgements specified above. In presenting the arguments, for example, we have omitted a number of important factors that are likely to point to still higher costs of climate change and thus still higher benefits of lower emissions and a lower stabilisation goal.
+
+%%page 300%%
+
+In any case, agreement requires discussion and negotiation about the ethical issues involved. Chapter 6 demonstrates that taking proper account of the non-marginal nature of the risks from climate change leads to a higher estimate of risk-adjusted losses of wellbeing than if the larger risks are ignored or submerged in simple averages. Those who weigh more heavily the potential costs of the climate change possible at any given stabilisation level will argue for a goal towards the lower end of the range. Greater risk aversion and more concern for equity across regions and generations will push in the same direction. But those who are pessimistic about the direction and pace of technological developments or who believe emissions under 'business as usual' will grow more rapidly than generally expected will tend to advocate a goal towards the upper limit, other things being equal.
+
+The EU has adopted an objective, endorsed by a large number of NGOs and policy think-tanks, to limit global average temperature change to less than 2°C relative to pre-industrial levels. This goal is based on a precautionary approach. A peak temperature increase of less than 2°C would strongly reduce the risks of climate-change impacts, and might be sufficient to avoid certain thresholds for major irreversible change – including the melting of ice-sheets, the loss of major rainforests, and the point at which the natural vegetation becomes a source of emissions rather than a sink. Some would argue that the implications of exceeding the 2°C limit are sufficiently severe to justify action at any cost. Others have criticised the 2°C limit as arbitrary, and have raised questions about the feasibility of the action that is required to maintain a high degree of confidence of staying below this level. Recent research on the uncertainties surrounding temperature projections suggests that at 450ppm CO2e there would already be a more-than-evens chance of exceeding 2°C (see Chapter 8). This highlights the need for urgent action and the importance of keeping quantitative objectives under review, so that they can be updated to reflect the latest scientific and economic analysis.
+
+Some of the uncertainties will be resolved by continuing progress in the science of climate change, but ethics and social values will always have a crucial part to play in decision-making. The precise choice of policy objective will depend on values, attitudes to risk and judgements about the political feasibility of the objective. It is a decision with significant implications that will rightly be the subject of a broad public and international debate.
+
+#### 13.8 Implications for emissions reductions and atmospheric concentrations
+
+***Stabilisation of atmospheric concentrations implies that annual greenhouse-gas emissions must peak and then fall, eventually reaching the level that the Earth system can absorb annually, which is likely to be below 5 GtCO2e.***
+
+At the moment, annual emissions are over 40 GtCO2e. Chapter 8 showed how, for the range of stabilisation levels considered here, annual emissions should start falling within the next 20 years, if implausibly high reduction rates are to be avoided later on. Global emissions will have to be between 25% and 75% lower than current levels by 2050. That illustrates the fact that, even at the high end of the stabilisation range, major changes in energy systems and land use are required within the next 50 years.
+
+***While annual emissions are likely to rise first and then fall, atmospheric concentrations are likely to continue to rise until the long-term objective is reached.***
+
+For any given stabilisation level, overshooting entails increased risks of climate change, by increasing the chances of triggering extreme events associated with higher concentration levels than the goal, and amplifying feedbacks on concentration levels. The expected impacts on wellbeing associated with any stabilisation level are thus likely to be smaller if overshooting is avoided. As reducing emissions in agriculture appears relatively difficult, and that sector accounts for more than 5 GtCO2e per year by itself already, stabilisation is likely ultimately (well beyond 2050) to require complete decarbonisation of all other activities and some net sequestration of carbon from the atmosphere (e.g. by growing and burning biofuels, and capturing and storing the resultant carbon emissions, or by afforestation). Overshooting and return require that annual emissions can at some stage be reduced for a period below the level consistent with a stable level of the stock of greenhouse gases. On the basis of the current economic and technological outlook, that is likely to be very difficult.
+
+%%page 301%%
+
+Setting up a long-run stabilisation goal does not, however, preclude future revisions to make it more ambitious, if either technological progress is more far-reaching than anticipated or the expected impacts of rises in concentration levels rise. But, equally, unexpected difficulties in driving technical progress or a downward revision in expected impacts of climate change would warrant a less challenging goal. Given the pervasive uncertainties about both costs and benefits of climate-change policies, it is essential that any policy regime incorporate from the outset mechanisms to update the long-run goal in a transparent fashion in response to new developments in the science or economics.
+
+The precise trajectory of annual emissions will depend on, among other factors, how climatechange policy is implemented, the pace of economic growth and the extent of innovation, particularly in the energy sector. Chapter 9 demonstrated that mitigation is more likely to be carried out cost effectively if policy encourages 'what, where and when' flexibility, so setting a precise trajectory as a firm intermediate objective is likely to be unnecessarily costly. Trajectories can nevertheless give a guide as to whether emissions are on course to reach the long-term goal.
+
+#### 13.9 The social cost of carbon
+
+Calculations of the social cost of carbon have commonly been used to show the price that the world has to pay, if no action is taken on climate change, for each tonne of gas emitted – as in Section 13.2. But the concept can also be used to evaluate the damages along a stabilisation trajectory[^14].
+
+***Choosing a concentration level to aim for also anchors a trajectory for the social cost of carbon. Without having a specific stabilisation goal in mind, it is difficult to calibrate what the carbon price should be – or, more generally, how strong action should be. The social cost of carbon will be lower at any given time with sensible climate-change policies than under 'business as usual'.***
+
+The social cost of carbon will be lower, the lower the ultimate stabilisation level. The social cost of carbon depends on the overall strategy for mitigating climate change and can help support that strategy, for instance by helping to evaluate abatement proposals. But it should not be seen as the driver of strategy. If the ultimate stabilisation goal has been chosen sensibly, the social cost of carbon along the stabilisation trajectory should be a good guide to the carbon price needed to help persuade firms to make the carbon-saving investments and undertake the research and development that would help deliver the necessary changes and entice consumers to buy fewer GHG-intensive goods and services. However, as Part IV of this Review argues, carbon pricing is only part of what needs to be done to bring down emissions.
+
+If the concentration of carbon in the atmosphere rises steadily towards its long-run stabilisation level (so there is no overshooting), and expected climate-change damages accelerate with concentrations, the social cost of carbon will rise steadily over time, too[^15]. An extra unit of carbon will do more damage at the margin the later it is emitted, because it will be around in the atmosphere while concentrations are higher, and higher concentrations mean larger climate-change impacts at the margin[^16].
+
+The social cost of carbon will be lower at any given time with sensible climate-change policies than under 'business as usual', because concentrations will be lower at all points in time. Hence, for given assumptions about discounting and the other relevant factors, the social cost of carbon associated with sensible emissions strategies is likely to be considerably lower than estimates reviewed in the recent DEFRA study, which were based on various 'business as usual' scenarios[^17].
+
+%%page 302%%
+
+The social cost of carbon will also be lower if the efficiency of emissions-abatement methods improves rapidly and new low-carbon technologies prove to be cheap and easy to spread around the world. In that case, it would be worthwhile undertaking more mitigation and a lower stabilisation level would be appropriate. The lower stabilisation level and path drive down the SCC – better technology is a means to that end. Policy nevertheless has to be strong enough to bring about the changes in technology and energy demand necessary to stabilise at the chosen level.
+
+Compared with the assumptions lying behind the estimates of the social cost of carbon reported in the DEFRA study, there are a number of aspects of this Review's framework of analysis that tend to push up the implied social cost of carbon. These include:
+
+- The adoption of a full 'expected utility' approach to valuation of impacts, allowing risk aversion to give more weight to the possibility of bad outcomes
+- Greater weight given to 'non-market' outcomes, especially life chances in poor countries[^18]
+- The use of a low pure rate of time preference, reflecting the view that this rate should be based largely on the probability that future generations exist, rather than their having some more lowly ethical status[^19]
+- Equity weighting
+- The weight given to recent work on uncertainty about climate sensitivity
+- The weight given to recent work on amplifying-feedback risks within the climate system to global temperatures and the risks of extreme events
+
+***Policy should ensure that abatement efforts intensify over time. Emissions reductions should be driven to the point where their marginal costs keep pace with the rising social cost of carbon.***
+
+Firms and individuals are likely to undertake abatement activities up to the point where the marginal costs of reducing carbon emissions are equal to the carbon price, given by the social cost of carbon associated with the desired trajectory. Anticipated improvements in the overall efficiency of emissions reductions should be reflected in quantity adjustments – lower emissions – not a fall in the price of carbon. The rising SCC is driven by the rising atmospheric concentration of greenhouse gases and the marginal abatement costs are brought into equality with the SCC by firms' and households' reactions to the carbon price. This is illustrated in Box 13.2.
+
+Marginal abatement costs are a measure of effort. If in any region or sector they fall below the estimated social cost of carbon, not enough is being done – unless emissions have ceased. Over time, it may become much easier to reduce emissions in some sectors. Some models suggest an eventual fall in marginal abatement costs in the energy sector, for example, as a result of technological progress. If that does happen, the sector can become completely decarbonised. But elsewhere, where complete decarbonisation will not have taken place – for example, transport – efforts should increase over time and the marginal abatement cost should continue to rise. But policy-makers should foster the development of technology that can drive down the average costs of abatement over time.
+
+%%page 303%%
+
+Box 13.2 The relationship between the social cost of carbon and emissions reductions
+
+Up to the long-run stabilisation goal, the social cost of carbon will rise over time because marginal damage costs do so. This is because atmospheric concentrations are expected to rise and damage costs are expected to be convex in temperature (i.e. there is increasing marginal damage); these effects are assumed to outweigh the declining marginal impact of the stock of gases on global temperature at higher temperatures.
+
+The price of carbon should reflect the social cost of carbon. In any given year, abatement will then occur up to this price, as set out in the right-hand panel of the diagram above. Over time, technical progress will reduce the total cost of any particular level of abatement, so that at any given price there will be more emission reductions.
+
+The diagram reflects a world of certainty. In practice, neither climate-change damages nor abatement costs can be known with certainty in advance. If the abatement-cost curve illustrated in the right-hand panel were to fall persistently faster than expected, that would warrant revising the stabilisation goal downwards, so that the path for the social cost of carbon in the left-hand panel would shift downwards.
+
+Delay in taking action on climate change will increase total costs and raise the whole trajectory for the social cost of carbon. The difference between the social cost of carbon on the 'business as usual' trajectory and on stabilisation trajectories reflects the fact that a tonne of greenhouse gas emitted is more harmful and more costly, the higher concentration levels are allowed to go. Delay allows excessive accumulation of greenhouse gases, giving decision-makers a worse starting position for implementing policies.
+
+%%page 304%%
+
+Box 13.3 The social cost of carbon and stabilisation
+
+Pearce (2005)[^20] reports a range of estimates of the social cost of carbon on 'optimal' paths towards stabilisation goals. The approach of Nordhaus and Boyer (2000) is perhaps closest in spirit to ours. They derive an estimate of only $2.48/tCO2 (converted to CO2, year 2000 prices) for 2001-2010. But they have a low 'business as usual' scenario, do not apply equity weighting and use a discount rate of 3%, which is a little higher than our approach would usually imply.
+
+Further work on what social cost of carbon corresponds to potential stabilisation levels is needed. Current studies disagree about the values and use different methods to tie down the trajectory through time. The US CCSP review reports values of $20/tCO2, $2/tCO2 and $5/tCO2 in 2020 for a stabilisation level of 550ppm CO2e in the three studies covered. Edenhofer et al. report estimates of the social cost of carbon ranging from 0 to around $12/tCO2 in 2010 for the same stabilisation level (year 2000 prices). Most of the models reviewed envisage the social cost of carbon rising over time, with the level and rate of growth sufficient to pull through the required technologies and reductions in demand for carbon-intensive goods and services.
+
+Preliminary calculations with the model used in Chapter 6 suggest that the current social cost of carbon with business as usual might be around $85/tCO2 (year 2000 prices), taking the baseline climate sensitivity assumption used there, if some account is taken of non-market impacts and the risk of catastrophes, subject to all the important caveats discussed in Chapter 6. But along a trajectory towards 550ppm CO2e, the social cost of carbon would be around $30/tCO2 and along a trajectory to 450ppm CO2e around $25/tCO2e. These numbers indicate roughly where the range for the policy-induced price of emissions should be if the ethical judgements and assumptions about impacts and uncertainty underlying the exercise in Chapter 6 are accepted.
+
+It would only make sense to have chosen a 550ppm CO2e target in the first place if a carbon-price path starting at $30/tCO2 had been judged likely to be sufficient (together with other policies) to pull through over time the deployment of the technological innovations required. Similarly, it would only make sense to have chosen a 450ppm CO2e target if a price path starting at $25/tCO2e had been judged sufficient to bring through the technology needed.
+
+The social cost of carbon[^21] can be used to calculate an estimate of the benefits of climatechange policy. The gross benefits of policy for a particular year can be approximated by
+
+(SCCH x EH) – (SCCS x ES) where SCC denotes the social cost of carbon, E the annual level of emissions, the subscript H the high 'business as usual' trajectory and the subscript S the stabilisation trajectory[^22]. This is the net present value of the flow of damages from emissions on the high path less the net present value of the flow of damages on the lower path. With sensible policies ensuring that marginal abatement costs equal the social cost of carbon along the stabilisation trajectory, and assuming for simplicity's sake that marginal abatement cost is equal to average abatement cost[^23], the annual costs of abatement can be approximated by
+
+SCCS x (EH – ES) Hence benefits less costs are equal to
+
+(SCCH x EH) – (SCCS x ES) – (SCCS x (EH – ES)) = (SCCH – SCCS) x EH
+
+Thus an approximation of the net present value of the benefits of climate-change policy in any given year can be obtained by multiplying 'business as usual' emissions by the difference between the social costs of carbon on the two trajectories. Calculations for this Review suggest that the social cost of carbon on a reasonable stabilisation trajectory may be around one-third the level on the 'business as usual' trajectory, implying that the net present value of applying an appropriate climate-change policy this year might be of the order of $2.3 – 2.5 trillion. This is not an estimate of costs and benefits falling in this year, but of the costs and benefits through time that could flow from decisions this year; many of these costs and benefits will be in the medium- and long-term future. It is very important, however, to stress that such estimates reflect a large number of underlying assumptions, many of which are very tentative or specific to the ethical perspectives adopted.
+
+%%page 305%%
+
+#### 13.10 The role of adaptation
+
+***Adaptation as well as mitigation can reduce the negative impacts of future climate change.***
+
+Adaptation reduces the damage costs of climate change that does occur (and allows beneficial opportunities to be taken), but does nothing direct to prevent climate change and is in itself part of the cost of climate change. Mitigation prevents climate change and the damage costs that follow. Stabilisation at lower levels would entail less spending on adaptation, because the change in climate would be smaller. That needs to be taken into account when considering how total costs change with changes in the ultimate stabilisation level. Similarly, for lower stabilisation levels, a given increase in spending on adaptation is likely to have a bigger effect in lowering the costs of climate change than the same increase at higher concentration levels (because of declining returns to scale for adaptation activities)[^24].
+
+***There are important differences between adaptation and mitigation that differentiate their roles in policy.***
+
+First, while those paying the costs will often capture the benefits of adaptation at the local level, the benefits of mitigation are global and are experienced over the long run. Second, because of inertia in the climate system, past emissions of greenhouse gases will drive increases in global mean temperature for another several decades. Thus mitigation will have a negligible effect in reducing the cost of climate change over the next 30-50 years: adaptation is the only means to do so.
+
+***Adaptation can efficiently reduce the costs of climate change while atmospheric concentrations of greenhouse gases are being stabilised.***
+
+A stabilisation goal facilitates adaptation by allowing a better understanding to develop of what ultimately societies will have to adapt to. Work using Integrated Assessment Models (IAMs, discussed in Chapter 6) has identified significant opportunities to reduce damage costs through adaptation. There are many reasons other than assumptions about adaptation why the predictions of one model differ from another[^25]. It is nevertheless intuitive that those models with the most comprehensive adaptation processes estimate the lowest damage costs and highest adaptation benefits[^26]. Studies at a more local level of the costs and benefits of adaptation usually point to net benefits, so some is likely to take place, although policy measures are often required to overcome barriers (see Part V). Adaptation will have a particular role to play in low-income regions, where vulnerability to climate change is higher. In such regions, there are strong complementarities between development policies in general and adaptation actions in particular.
+
+There are further examples of complementarities:
+
+- Mitigation reduces the likelihood of dangerous climate change, which makes adaptation either infeasible or very costly;
+- Mitigation reduces uncertainty about the range of possible climate outcomes requiring adaptation decisions. Uncertainty is a clear impediment to successful adaptation.
+
+%%page 306%%
+
+***In the longer run, both adaptation and mitigation will be required to reduce climatechange damage in cost-effective and sustainable ways.***
+
+They should not be regarded as alternatives. Part II outlined why the damage costs of climate change are likely to increase more rapidly as global mean temperatures increase. As Part V explains in more detail, attempts at adaptation would not be an adequate response to the pace and magnitude of climate change at high global mean temperatures compared with pre-industrial levels. Ecosystems, for instance, cannot physically keep pace with the shifts in climatic conditions implied. The adaptation that remains viable is likely to be very costly. Without mitigation, little can reduce the underlying acceleration in climate-change impacts as temperatures rise. This is why promoting development in developing economies, while vital in its own right and helpful in building the capacity to adapt, is not an adequate response by itself. Mitigation is the key to reducing the probability of dangerous climate change, given the scale of the challenge. A strategy of mitigation plus adaptation is superior to 'business as usual' plus adaptation, and requires less spending on adaptation.
+
+#### 13.11 Conclusions
+
+This chapter has considered in broad terms what climate-change policy should aim to achieve, given the evidence about the risks of serious damages from climate change and the costs of cutting greenhouse-gas emissions. The first priority is to strengthen global action to slow and stop human-induced climate change and to start undertaking the necessary adaptation to the change that will happen before stability is established. The benefits of doing more clearly outweigh the costs. Delay would entail more climate change and eventually higher costs of tackling the problem. The nature of the uncertainties in the science and economics warrants more action not less.
+
+Once the case for stronger global action is accepted, the question arises, how much? We have argued the merits of organising the discussion of this problem around the idea of a goal for the ultimate concentration of greenhouse gases in the atmosphere. Choosing a specific level or range for such a goal should help to make policies around the world more consistent, coherent and cost-effective. In particular, choosing a goal helps to define and anchor a path for the carbon price, a key tool for implementing climate-change policy. The next part of this Review examines in more detail the types of policy instruments that need to be used to reduce greenhouse-gas emissions cost-effectively and on the scale required.
+
+%%page 307%%
+
+#### References
+
+The issues involved in choosing an optimum level of atmospheric concentrations of greenhouse gases are explored comprehensively in the context of one particular model in Nordhaus and Boyer (1999). Some of the challenges posed by the great uncertainties surrounding climate change are ably surveyed in Ingham and Ulph (2005). The social cost of carbon, in principle and practice, is discussed thoroughly in Downing et al. (2005) and Watkiss et al. (2005).
+
+Arnell, N.W., M.J.L. Livermore, S. Kovats et al. (2004): 'Climate and socio-economic scenarios for global-scale climate change impacts assessments: characterising the SRES storylines', Global Environmental Change 14:3-20
+
+Clarkson, R., and K. Deyes (2002): 'Estimating the social cost of carbon emissions', GES Working Paper 140, London: HM Treasury.
+
+Downing, T.E., D. Anthoff, R. Butterfield et al. (2005): 'Social cost of carbon: a closer look at uncertainty'. London: Department of Environment, Food, and Rural Affairs (DEFRA), available from http://www.DEFRA.gov.uk/ENVIRONMENT/climatechange/carboncost/index.htm
+
+Edenhofer, O., K. Lessmann, C. Kemfert, et al. (2006): 'Induced technological change: exploring its implications for the economics of atmospheric stabilization: synthesis report from the innovation modeling comparison project', The Energy Journal, special issue, April: 57-108
+
+Hanemann, W.M. (2000): 'Adaptation and its measurement' Climatic Change 45 (3-4): 571-581
+
+Hope, C. (2003): 'The marginal impacts of CO2, CH4 and SF6 emissions,' Judge Institute of Management Research Paper No.2003/10, Cambridge, UK, University of Cambridge, Judge Institute of Management.
+
+Ingham, A, and Ulph, A (2005): 'Uncertainty and climate-change policy' in Helm, D (2005): Climate-change policy, Oxford: Oxford University Press.
+
+IAG (2005): 'Evidence to the Stern Review on the economics of climate change', Melbourne: Insurance Australia Group, available from http://www.sternreview.org.uk
+
+Kolstad, C. (1996): 'Fundamental irreversibilities in stock externalities', Journal of Public Economics, 60: 221-233
+
+Mendelsohn, R.O., W.N. Morrison, M.E. Schlesinger and N.G. Andronova (1998): 'Country-specific market impacts of climate change', Climatic Change 45(3-4): 553-569. (change the citation to Mendelsohn et al. (1998).
+
+Nordhaus, W., and J.G. Boyer (1999): 'Roll the DICE Again: Economic Models of Global Warming', Cambridge, MA: MIT Press.
+
+Pindyck, R. (2000): 'Irreversibilities and the timing of environmental policy', Resource and Energy Economics, 22: 233-259
+
+Manne, A. and R. Richels, (1995): The greenhouse debate: economic efficiency, burden sharing and hedging strategies. The Energy Journal, 16(4), 1-37.
+
+Pearce, D. (2005): 'The social cost of carbon' in Helm, D (2005): 'Climate-change policy', Oxford: Oxford University Press.
+
+Schlenker W. and M.J. Roberts (2006): 'Nonlinear effects of weather on corn yields', Review of Agricultural Economics, 28: in press.
+
+Tol, R.S.J. (1997), 'On the optimal control of carbon dioxide emissions: an application of FUND' Environmental Modelling and Assessment, 2, 151-163.
+
+%%page 308%%
+
+Tol, R.S.J. (2005): 'The marginal damage costs of carbon dioxide emissions: an assessment of the uncertainties', Energy Policy, 33: 2064-2074 US CCSP Synthesis and Assessment Product 2.1, Part A: 'Scenarios of greenhouse gas emissions and atmospheric concentrations', Draft for public comment, June 26, 2006. Watkiss, P. et al. (2005): 'The social cost of carbon', London: DEFRA, December.
+
 ## Notes
 
 [^1]: Referred to hereafter as CO2 equivalent, CO2e
@@ -513,3 +5395,1099 @@ Above all, reducing the risks of climate change requires collective action. It r
 [^4]: Meinshausen, M. (2006): 'What does a 2°C target mean for greenhouse gas concentrations? A brief analysis based on multi-gas emission pathways and several climate sensitivity uncertainty estimates', Avoiding dangerous climate change, in H.J. Schellnhuber et al. (eds.), Cambridge: Cambridge University Press, pp.265 - 280.
 
 [^5]: All changes in global mean temperature are expressed relative to pre-industrial levels (1750 - 1850).
+
+[^1]: The fourth assessment is due in 2007. The scientific advances since the TAR are discussed in Schellnhuber et al. (2006)
+
+[^2]: The human origin of the accumulation of carbon dioxide in the atmosphere is demonstrated through, for example, the isotope composition and hemispheric gradient of atmospheric carbon dioxide (IPCC 2001a).
+
+[^3]: In this Review, the total radiative effect of greenhouse gases is quoted in terms of the equivalent concentration (in ppm) of carbon dioxide and will include the six Kyoto greenhouse gases. It will not include other human influences on the radiation budget of the atmosphere, such as ozone, land properties (i.e. albedo), aerosols or the non-greenhouse gas effects of aircraft unless otherwise stated, because the radiative forcing of these substances is less certain, their effects have a shorter timescale and they are unlikely to form a substantial component of the radiative forcing at equilibrium (they will be substantially decreasing over the timescale of stabilisation). The definition excludes greenhouse gases controlled under the Montreal Protocol (e.g. CFCs). Note however, that such effects are included in future temperature projections. The CO2 equivalence here measures only the instantaneous radiative effect of greenhouse gases in the atmosphere and ignores the lifetimes of the gases in the atmosphere (i.e. their future effect).
+
+[^4]: The 1980-2004 average, based on data provided by Prof K Shine and Dr L Gohar, Dept. of Meteorology, University of Reading.
+
+[^5]: Siegenthaler et al. (2005) using data from ice cores. The same research groups recently presented analyses at the 2006 conference of the European Geosciences Union, which suggest that carbon dioxide levels are unprecedented for 800,000 years.
+
+[^6]: Kyoto greenhouse gases are the six main greenhouse gases covered by the targets set out in the Kyoto Protocol.
+
+[^7]: Based on the error on the radiative forcing (in CO2 equivalent) of all long-lived greenhouse gases from Figure 6.6, IPCC (2001b)
+
+[^8]: Hansen et al. (2006)
+
+[^9]: Parmesan and Yohe (2003) and Root et al. (2005) have correlated a shift in timing and distribution of 130 different plant and animal species with observed climate change.
+
+[^10]: IPCC (2001a) - this key conclusion has been supported in the Joint Statement of Science Academies in 2005 and a report from the US Climate Change Science Programme (2006).
+
+[^11]: National Research Council (2006) – a report requested by the US Congress
+
+[^12]: Barnett et al. (2005a)
+
+[^13]: For example, Ad hoc detection and attribution group (2005)
+
+[^14]: Aerosols are tiny particles in the atmosphere also created by human activities (e.g. sulphate aerosol emitted by many industrial processes). They have several effects on the atmosphere, one of which is to reflect solar radiation and therefore, cool the surface. This effect is thought to have offset some of the warming effect of greenhouse gases, but the exact amount is uncertain.
+
+[^15]: For example, Pearce (2003), Pierrehumbert (2004)
+
+[^16]: i.e. the incremental increase in radiative forcing due to an increase in concentration (from pre-industrial) will fall to around half of the initial increase when concentrations reach around 600ppm, a quarter at 1200ppm and an eighth at 2400ppm. Note that other greenhouse gases, such as methane and nitrous oxide, have a linear relationship.
+
+[^17]: It has been suggested that water vapour could act as a negative feedback on warming, on the basis that the upper atmosphere would dry out as it warms (Lindzen 2005). Re-analysis of satellite measurements published last year indicated that in fact the opposite is happening (Soden et al. 2005). Over the past two decades, the air in the upper troposphere has become wetter, not drier, countering Lindzen's theory and confirming that water vapour is having a positive feedback effect on global warming. This positive feedback is a major driver of the indirect warming effects from greenhouse gases.
+
+[^18]: Calculated using method shown in Meinshausen (2006).
+
+[^19]: Meinshausen (2006)
+
+[^20]: An increase in low clouds would have a negative feedback effect, as they have little effect on infrared radiation but block sunlight, causing a local cooling. Conversely, an increase in high clouds would trap more infrared radiation, amplifying warming.
+
+[^21]: Friedlingstein et al. (2006)
+
+[^22]: Cox et al. (2000) with the Hadley Centre model and Scholze et al (2006) with several models.
+
+[^23]: Gorham et al. (1991)
+
+[^24]: Walter et al. (2006)
+
+[^25]: Emissions measured in CO2 equivalent are weighted by their global warming potential (see chapter 8).
+
+[^26]: These estimates come from recent papers by Torn and Harte (2006) and Scheffer et al. (2006), which estimate the scale of positive feedbacks from release of carbon dioxide and methane from past natural climate change episodes, e.g. Little Ice Age and previous inter-glacial period, into current climate models.
+
+[^27]: One study to date has examined this question and suggested that a run away effect is unlikely, at least for the land-carbon sink (Cox et al. 2006). It remains unclear how the risk of run-away climate change would change with the inclusion of other feedbacks.
+
+[^28]: Friedlingstein et al. (2006) found that all eleven climate models that explicitly include carbon cycle feedbacks showed a weakening of carbon sinks.
+
+[^29]: Orr et al. (2005)
+
+[^30]: Friedlingstein et al. (2006)
+
+[^31]: Lawrence and Slater (2005), based on IPCC A2 Scenario
+
+[^32]: Summarised in Davidson and Janssens (2006) (wetlands) and Archer (2005) (permafrost) - CO2 equivalent emissions (chapter 7).
+
+[^33]: Walter et al. (2006) and Smith et al. (2005)
+
+[^34]: Estimates of potential methane emissions from thawing permafrost range around 2 - 4GtCO2/yr. Wetlands emit equivalent to 2 – 6 GtCO2/yr and studies project that this may rise by up to 80%. Davidson & Janssens (2006), Gedney et al. (2004) and Archer (2005).
+
+[^35]: Hadley Centre (2005)
+
+[^36]: Barnett et al. (2005a) and Levitus et al. (2005)
+
+[^37]: Wigley (2005) and Meehl et al. (2005) look at the amount of warming "in the pipeline" using different techniques.
+
+[^38]: In many countries, aerosol levels have already been reduced by regulation because of their negative health effects.
+
+[^39]: For example, 45 years at 2.5 ppm/yr gives 112.5ppm. Added to the current level, this gives 542.5ppm in 2050.
+
+[^40]: Hansen et al. (2006)
+
+[^41]: Based on the IPCC TAR central radiative forcing projections for the six illustrative SRES scenarios (IPCC 2001b).
+
+[^42]: According to Stott et al. (2004), climate change has increased the chance of the 2003 European heatwave occurring by between 2 and 8 times. In 2003, temperatures were 2.3°C warmer than the long-term average.
+
+[^43]: In an El Niño year (around once every 3-7 years), the pattern of tropical sea surface temperatures changes, with the eastern Pacific warming significantly. This radically alters large-scale atmospheric circulations across the globe, and causes rainfall patterns to shift, with some regions experiencing flooding and others severe droughts. As the world warms, many models suggest that the East Pacific may warm more intensely than the West Pacific, mimicking the pattern of an El Niño, although significant uncertainties remain. Models do not yet agree on the nature of changes in the frequency or intensity of the El Niño (Collins and the CMIP Modelling Groups 2005).
+
+[^44]: Schär C et al. (2004)
+
+[^45]: Huntington (2006) reviewed more than 50 peer-reviewed studies and found that many aspects of the global water cycle have intensified in the past 50 years, including rainfall and evaporation. Modelling work by Wetherald & Manabe (2002) confirms that warming will increase rates of both precipitation and evaporation.
+
+[^46]: Burke, Brown and Christidis (2006) using one model under a high emissions scenario. Other climate models are needed to verify these results. The study uses one commonly used drought index: The Palmer Drought Severity Index (PDSI). This uses temperature and rainfall data to formulate a measure of 'dryness'. Other drought indices do not show such large changes.
+
+[^47]: For example, Lambert and Fyfe (2006) and Fyfe (2003)
+
+[^48]: Emanuel (2005); Webster et al. (2005)
+
+[^49]: Pielke (2005); Landsea (2005)
+
+[^50]: For example, Geng and Sugi (2003); Bengtsson, Hodges and Roeckner (2006)
+
+[^51]: Hope (2006)
+
+[^52]: Summarised in Schlesinger et al. (2006)
+
+[^53]: Wood et al. (2006). Complex climate models project a weakening of between 0% and 50% by the end of the century.
+
+[^54]: Bryden et al. (2005). It is unclear whether the weakening is part of a natural cycle or the start of a downward trend.
+
+[^55]: Church and White (2006)
+
+[^56]: IPCC (2001b). This range covers several sources of uncertainty, including emissions, climate sensitivity and ocean responses
+
+[^57]: Wigley (2005). The uncertainty reflects a range of climate sensitivities, aerosol forcings and melt-rates.
+
+[^58]: For example, Zwally et al. 2006 and Johannessen et al. 2005
+
+[^59]: For example, Hanna et al. 2005 and Rignot and Kanagaratnam 2006
+
+[^60]: Lower and higher estimates based on Huybrechts and de Wolde (1999) and Gregory and Huybrechts (2006), respectively.
+
+[^61]: North Greenland Ice Core Project (2004). The warm temperatures in the Northern Hemisphere during the previous interglacial reflected a maximum in the cycle of warming from the Sun due to the orbital position of the Earth. In the future, Greenland is expected to experience some of the largest temperature changes. A 4-5°C greenhouse warming of Greenland would correspond to a global mean temperature rise of around 3°C (Gregory and Huybrechts (2006)).
+
+[^62]: Rapley (2006)
+
+[^63]: Shepherd et al. 2003. The collapse of Larsen B followed the collapse in 1995 of the smaller Larsen A ice shelf.
+
+[^64]: Zwally et al. (2006)
+
+[^65]: Based on 7m and 5m from the Greenland and West Antarctic ice sheets, respectively. Rapley (2006) and Wood et al. (2006)
+
+[^66]: Huybrechts and DeWolde (1999) simulated the melting of the Greenland Ice Sheet for a local temperature rise of 3°C and 5.5°C. These scenarios led to a contribution to sea level rise of 1m and 3m over 1000 years (1mm/yr and 3mm/yr), respectively. Possible contributions from the West Antarctic Ice Sheet (WAIS) remain highly uncertain. In an expert survey reported by Vaughan and Spouge (2002), most glaciologists agree that collapse might be possible on a thousand-year timescale (5mm/yr), but that this contribution is unlikely to be seen in this century. Few scientists considered that collapse might occur on a century timescale.
+
+[^1]: Symmetrically, those who benefit from climate change do not have to reward emitters.
+
+[^2]: Pigou (1912).
+
+[^3]: Samuelson (1954).
+
+[^4]: Formally, in economic theory, public goods are a special case of externalities where the effects of the latter are independent of the identity of the emitters or origin of the externalities.
+
+[^5]: Particularly important contributions on ethics are those of Beckerman and Pasek (2001), Broome (1992, 1994, 2004, 2005), Gardiner (2004) and Müller (2006). We are very grateful to John Broome for his advice and guidance, but he is not responsible for the views expressed here.
+
+[^6]: Effectively, in putting it this way, we resist the interpretation that this is a strict utilitarian sum of 'actual utility'. On some of the difficulties and attractions of consequentialism, welfarism, utilitarianism and other approaches, see e.g. Sen and Williams (1982) and Sen (1999).
+
+[^7]: The difficulties of this type of aggregation using democratic methods have been examined by Kenneth Arrow (1951, 1963) using his famous 'impossibility theorem'. It has been examined in a series of studies by Amartya Sen (see, for example, Sen (1970, 1986 and 1999)).
+
+[^8]: Notice however that if the valuation of life in money terms in country A is twice that of country B, where income in A is twice that in B, we may choose to value increases in income in A half as much as for B (see Box 2.1 and Chapter 6). In that case, extra mortality would be valued in the same way for both countries.
+
+[^9]: See Dasgupta (1974) and Anand and Sen (2000) for a technical discussion of these issues, and further references and quotes beyond those here. And see Broome (1991) and (2004) for an extended discussion. We are grateful to Sudhir Anand and John Broome for discussions of these issues.
+
+[^10]: Often called a 'Bayesian' approach, after Thomas Bayes, the 18th century mathematician. However, the application of Bayes' ideas to a subjective theory of probability was made in the 20th century. See Ramsey (1931).
+
+[^11]: See also Chichilnisky (2000)
+
+[^12]: Essentially the axioms are similar to those of the standard Von Neumann-Morgenstern theorem deriving expected utility except the dependence axiom is relaxed slightly. See Gollier (2001), for example, for a description of the Von Neumann-Morgenstern approach.
+
+[^13]: The economic theory of exhaustible natural resources is expounded by Dasgupta and Heal (1979). A seminal reference is Hotelling (1931). See, also, Ulph and Ulph (1994), Sinclair (1992) and Sinclair (1994).
+
+[^1]: All changes in global mean temperature are expressed relative to pre-industrial levels (1750 - 1850). A temperature rise of 1°C represents the range 0.5 – 1.5°C, a temperature rise of 2°C represents the range 1.5 – 2.5°C etc.
+
+[^2]: "Extreme events" occur when a climate variable (e.g. temperature or rainfall) exceeds a particular threshold, e.g. two standard deviations from the mean.
+
+[^3]: In looking at the effects on crop yields of severe weather during the Little Ice Age, Prof Martin Parry (1978) argued that the frequency of extreme events would change dramatically as a result of even a small change in the mean climate and that the probability of two successive extremes is even more sensitive to small changes in the mean. Often a single extreme event is easy to withstand, but a second in succession could be far more devastating. In a follow-up paper, Tom Wigley (1985) demonstrated these effects on extremes mathematically.
+
+[^4]: Based on a technical paper prepared for the Stern Review by Challinor et al. (2006b)
+
+[^5]: This will also depend on efficiency of use as well.
+
+[^6]: Special Issue of Global Environmental Change, Volume 14, April 2004 - further details on the new analysis are available from Warren et al. (2006). Risk and uncertainty are often used interchangeably, but in a formal sense, risk covers situations when the probabilities are known and uncertainty when the probabilities are not known.
+
+[^7]: See, for example, Arnell (2006a)
+
+[^8]: IPCC (2000)
+
+[^9]: In 1990 US $
+
+[^10]: Problematic as based on Market Exchange Rates
+
+[^11]: For example, many integrated assessment models – details in Chapter 7
+
+[^12]: Grey and Sadoff (2006) make a strong case for water resources being at the heart of economic growth and development. They th th show how in the late 19 and early 20 centuries, industrialised countries invested heavily in water infrastructure and institutions to facilitate strong economic growth. In least developed economies, climate variability and extremes are often quite marked, while the capacity to manage water is generally more limited.
+
+[^13]: World Water Development Report (2006)
+
+[^14]: Further detail in Chapter 1 - rising temperatures increase the water holding capacity of the air, so that more water will evaporate from the land in dry areas of the world. But where it rains, the water will fall in more intense bursts.
+
+[^15]: At the same time, rising carbon dioxide levels will cause plants to use less water (a consequence of the carbon fertilisation effect – see Box 3.4 later) and this could increase water availability in some areas. Gedney et al. (2006) found that suppression of plant transpiration due to the direct effects of carbon dioxide on the closure of plant stomata (the pores on the leaves of plants) could th explain a significant amount of the increase in global continental runoff over the 20 century.
+
+[^16]: From Arnell (2006a); runoff, the amount of water that flows over the land surface, not only represents potential changes in water availability to people, but also provides a useful indication of whether communities will need to invest in infrastructure to help manage patterns of water supply (more details in Box 3.3).
+
+[^17]: Arnell (2006a)
+
+[^18]: Milly et al. (2002)
+
+[^19]: Burke et al. (2006) using the Hadley Centre climate model (HadCM3). Drought was assessed with the Palmer Drought Severity Index (PDSI), with severe and extreme droughts classed as PDSI of less than 3.3 and 4.0, respectively.
+
+[^20]: Lehner et al. (2001)
+
+[^21]: Warren et al. (2006) have prepared these results, based on the original analysis of Arnell (2004) for the 2080s. The results are based on hydrology models driven by monthly data from five different climate models. The results do not include adaptation and thus only represent "potential water stress".
+
+[^22]: The large ranges come about from differences in the predictions of the five different climate models – particularly for tropical areas where the impacts are uncertain due to the dominant influence of the El Niño and the monsoon and the difficulty of predicting interactions with climate change.
+
+[^23]: Barnett et al. (2005) have comprehensively reviewed the glacier/water supply impacts. There are 1 billion people in snowmelt regions today, and potentially 1.5 billion by 2050. In a warmer world, runoff from snowmelt will occur earlier in the spring or winter, leading to reduced flows in the summer and autumn when additional supplies will be most needed.
+
+[^24]: Nepal is particularly vulnerable to glacial lake outburst floods - – catastrophic discharges of large volumes of water following the breach of the natural dams that contain glacial lakes (described in Agrawala et al. 2005). The most significant flood occurred in 1985. A surge of water and debris up to 15 m high flooded down the Bhote Koshi and Dudh Koshi rivers. At its peak the discharge was 3 2000 m /s, up to four times greater than the maximum monsoon flood level. The flood destroyed the almost-completed Namche Small Hydro Project (cost $1 billion), 14 bridges, many major roads and vast tracts of arable land.
+
+[^25]: Reported in Coudrain et al. (2005)
+
+[^26]: Nagy et al. (2006)
+
+[^27]: Based on the work of Falkenmark et al. 1989, water availability per person per year is the most frequently used measure of water resource availability. The UN has widely adopted this measure, for which data are readily available. The next most frequently used measure is the ratio of withdrawals to availability, but this requires reliable estimates of actual and, most crucially, future withdrawals.
+
+[^28]: Based on work of Gleick (1996). Actual usage varies considerably, depending on water availability, price, and cultural preferences (domestic consumption in UK is around 170 L per person per day; in large parts of Africa it is less than 20 L per person per day).
+
+[^29]: FAO World Agriculture report (Bruinsma 2003 ed.)
+
+[^30]: Plants also develop faster at warmer temperatures such that the duration from seedling emergence to crop harvest becomes shorter as temperatures warm, allowing less time for plant growth. This effect varies with both species and cultivar. With appropriate selection of cultivar, effective use of the extended growing season can be made.
+
+[^31]: Previous crop studies use a quadratic functional form, where yields are increasing in temperature up to an "optimal" level when further temperature increases become harmful (for example Mendelsohn et al. 1994). A crucial implicit assumption behind the quadratic functional form is symmetry around the optimum: temperature deviations above and below the "optimal" level give equivalent yield reductions. However, recent studies (e.g. Schlenker and Roberts 2006) have shown that the relationship is highly asymmetric, where temperature increases above the "optimal" level are much more harmful than comparable deviations below it. This has strong implications for climate change, as continued temperature increases can result in accelerating yield reductions.
+
+[^32]: Evidence reviewed in Slingo et al. (2005); Ciais et al. (2005)
+
+[^33]: The impacts depend crucially on the distribution of warming over land (Chapter 1). In general, higher latitudes and continental regions will experience temperature increases significantly greater than the global average. For a global average warming of around 4°C, the oceans and coasts generally warm by around 3°C, the mid-latitudes warm by more than 5°C and the poles by around 8°C.
+
+[^34]: Warren et al. (2006) have prepared this analysis, based on the original work of Parry et al. (2004). More detail on method and assumptions are set out in Box 3.4. Production declines less than yields with increasing temperature because more land area at higher latitudes becomes more suitable for agriculture.
+
+[^35]: New analysis by Long et al. (2006) showed that the high-end estimates (25 – 30%) were largely based on studies of crops grown in greenhouses or field chambers, while analysis of studies of crops grown in near-field conditions suggest that the benefits of carbon dioxide may be significantly less, e.g. no more than half.
+
+[^36]: The optimum temperature for crop growth is typically around 25 - 30°C, while the lethal temperature is usually around 40°C.
+
+[^37]: Other staple crops in Africa (millet and sorghum) are also relatively unresponsive to the carbon fertilisation effect. They all show a small positive response because they require less water to grow.
+
+[^38]: Types of adaptation discussed by Parry et al. (2005)
+
+[^39]: For example Fischer et al. (2005)
+
+[^40]: These effects are not yet routinely considered in climate models or impacts studies (Betts 2005).
+
+[^41]: According to Parry et al. (2004) people at risk of hunger are defined as the population with an income insufficient either to produce or procure their food requirements, estimated by FAO based on energy requirements deduced from an understanding of human physiology (1.2 – 1.4 times basal metabolic rate as minimum maintenance requirement to avoid undernourishment).
+
+[^42]: Links between changes in income and mortality are explored in Chapter 5.
+
+[^43]: Warren et al. (2006) have prepared these results, based on the original analysis of Parry et al. (2004) (more details in Box 3.6). These figures assume future socio-economic development, but no carbon fertilisation effect. There is likely to be some positive effect of rising levels of carbon dioxide (if not as much as assumed by most studies).
+
+[^44]: Turley et al. (2006) - Ocean pH has changed by 0.1 pH unit over the last 200yrs. As pH is on a log scale, this corresponds to a 30% increase in the hydrogen ion concentration, the main component of acidity.
+
+[^45]: Royal Society (2005) – a drop of 0.15 pH units corresponds to a 40% increase in the hydrogen ion concentration, the main component of acidity. A drop of 0.3 pH units corresponds to a doubling of hydrogen ion concentration.
+
+[^46]: Comprehensively reviewed by Patz et al. (2005)
+
+[^47]: Average life expectancy at birth has increased by 20 years since the 1960s. But in parts of Africa life expectancy has fallen in the past 20 years because of the HIV/AIDS pandemic (McMichael et al. 2004).
+
+[^48]: De et al. (2005)
+
+[^49]: See Tol (2002) for indicative figures for different OECD regions
+
+[^50]: Based on detailed analysis by McMichael et al. (2004), using existing quantitative studies of climate-health relationships and the UK Hadley Centre GCM (business as usual emissions) to estimate relative changes in a range of climate-sensitive outcomes, including diarrhoea, malaria, dengue fever and malnutrition. Changes in heat- and cold-related deaths were not included in the aggregate estimates of mortality. Climate change contributes 2% to today's climate disease burden (6.8 million deaths annually) and 0.3% to today's total global disease burden.
+
+[^51]: Projections from Patz et al. (2005)
+
+[^52]: See, for example, Tol (2002) and Bosello et al. (2006)
+
+[^53]: As described earlier, today 800 million people are at risk of hunger and around 4 million of those die from malnutrition each year. Once temperatures increase by 3°C, 200 - 600 million additional people could be at risk (with little carbon fertilisation effect), suggesting 1 – 3 million more dying each year from malnutrition, assuming that the ratio of risk of hunger to mortality from malnutrition remains the same. This ratio will of course change with income status – see Chapter 4 for more detail.
+
+[^54]: The impacts on human development mediated through changes in income are explored in Chapter 4.
+
+[^55]: Calculations from Warren et al. (2006) based on research from Tanser et al. (2003), using one of only two models which has been validated directly to account for the observed effect of climate variables on vector and parasite population biology. They assume no increase in population size in the future or change in vulnerability (through effective treatment/prophylaxis). While this assumption of no change in control efforts is not realistic, the results illustrate the potential scale of the problem. The study used the Hadley Centre climate model to estimate regional temperature and rainfall patterns; other models produce different rainfall patterns and therefore may result in different regional patterns for malaria.
+
+[^56]: Calculations from Warren et al. (2006) based on research from Van Lieshout et al. (2004), who take into account future population projections and used the Hadley Centre climate model. Similar to Tanser et al. (2003), they use the Hadley Centre model and find an increase in malaria exposure in Sub-Saharan Africa, but with slightly fewer people affected (50 million rather than 80 million for a 4°C temperature rise) because of different assumptions about rainfall thresholds.
+
+[^57]: Malaria in Africa is particularly difficult to control because of the large numbers of mosquitoes spreading the disease, their effectiveness as transmitting the disease, and increasing drug resistance problems. Alternatives can be very effective, but are often much more expensive (WHO 2005).
+
+[^58]: Hales et al. (2002) used a vector-specific model coupled to outputs of two climate models. Their estimates take account of projected population growth to the 2080s, but not any control measures.
+
+[^59]: Reviewed in Epstein and Mills (2005)
+
+[^60]: More detail in Chapter 1
+
+[^61]: See Chapter 6 for discussion of implications for global trade
+
+[^62]: Ali (2000)
+
+[^63]: Munich Re (2005)
+
+[^64]: Increased storm intensity could cause similar impacts and will exacerbate the effects of sea level rise – these effects are not included in the impact estimates provided here (see Chapter 6).
+
+[^65]: Warren et al. (2006) have prepared these results, based on the original analysis of Nicholls (2004), Nicholls and Tol (2006) and Nicholls and Lowe (2006) for impacts of sea level rise on populations in 2080s with and without climate change. More details on method are set out in Figure 3.8. "Average annual people flooded" refers to the average annual number of people who experience episodic flooding by storm surge, including the influence of any coastal protection. In some low-lying areas without protection,
+
+[^66]: International Federation of Red Cross and Red Crescent Societies (2001)
+
+[^67]: Myers and Kent (1995)
+
+[^68]: Emanuel (1987)
+
+[^69]: In fact Nordhaus (2006) found that economic damages from hurricanes rise as the ninth power of maximum wind-speed, perhaps as a result of threshold effects, such as water overtopping storm levees.
+
+[^70]: Munich Re (2006)
+
+[^71]: Nelson (2003)
+
+[^72]: Root et al. (2005); Parmesan and Yohe (2003)
+
+[^73]: Arctic Climate Impacts Assessment (2004)
+
+[^74]: Pounds et al. (2006)
+
+[^75]: Ricketts et al. (2005)
+
+[^76]: For example, fast-growing tropical tree species show greater growth enhancements with increased carbon dioxide concentrations than slower-growing species and could gain a dominant competitive advantage in tropical forests in the future (Körner 2004).
+
+[^77]: Reviewed in detail in Hare (2006). These figures are likely to underestimate the impacts of climate change, because many of the most severe effects are likely to come from interactions with factors not taken into account in these calculations, including land use change and habitat fragmentation/loss, spread of invasive species, new pests and diseases, and loss of pollinators. In addition, ecosystem assessments rarely consider the rate of temperature change. It is likely that rates of change exceeding 0.05 – 0.1°C per decade (regional temperature) are more than most ecosystems can withstand, because species cannot migrate polewards fast enough (further details in Warren 2006).
+
+[^78]: According to the Arctic Climate Impacts Assessment (2004), Arctic ecosystems will be strongly affected by climate change as temperatures here are rising at close to double the global average.
+
+[^79]: Thomas et al. (2004a) – these (and subsequent) estimates of extinction risk are based on calculations of decreases in the availability of areas with suitable climate conditions for species into the future. As suitable areas to support a certain level of biodiversity disappear, species become "committed to extinction" when the average rate of recruitment of adults into the population is less than the average rate of adult mortality. There is likely to be a lag in response depending on the life span of the species in question - short-lived species rapidly disappear from an area while long-lived species can survive as adults for several years. There is a great deal of uncertainty inherent in such estimates of extinction risk (Pearson and Dawson 2003) and alternative modelling approaches have been shown to yield different estimates (Thuiller et al. 2004, Pearson et al. 2006). However, other studies looking at climate suitability also predict high levels of extinction, for example McClean et al. (2005) predict that 25 – 40% of African plan species will lose all suitable climate area with 3°C of warming globally.
+
+[^80]: Coral bleaching describes the process that occurs when the tiny brightly coloured organisms that feed the main coral (through photosynthesis) leave the skeleton because they become heat-stressed. Bleached corals have significantly higher rates of mortality.
+
+[^81]: Donner et al. (2005)
+
+[^82]: Leemans and Eichkout (2004)
+
+[^83]: Malcolm et al. (2006)
+
+[^84]: This effect has been found with the Hadley Centre model (Cox et al. 2000) and several other climate models (Scholze et al. 2006).
+
+[^85]: Visser and Both (2005); Both et al. (2006) report declines of 90% in pied flycatcher populations in the Netherlands in areas where caterpillar numbers have been peaking two weeks earlier due to warming, which means there is little food when the flycatcher eggs hatch.
+
+[^86]: For example, Rial et al. (2004)
+
+[^87]: As set out in a Pentagon commissioned report by Schwartz and Randall (2004)
+
+[^88]: Schellnhuber (2006)
+
+[^89]: Nicholls et al. (2004)
+
+[^90]: Kumar et al. (2006)
+
+[^91]: Gupta et al. (2003)
+
+[^92]: Collins and the CMIP Modelling Groups (2005)
+
+[^93]: Defra (2005)
+
+[^94]: Challinor et al. (2006a)
+
+[^95]: Reviewed in detail in a report prepared for the Stern Review by Challinor et al. (2006b)
+
+[^96]: This is a result from Arnell (2006b), who superimposed rainfall and temperature changes from past extreme monsoon years (average over five driest and five wettest years) on today's mean summer climate to understand consequences for water availability.
+
+[^97]: Described in detail in Munich Re (2006)
+
+[^1]: The physical effects of climate change are predicted to become progressively more significant by the 2050s with a 2 to 3°C warming, as explained in Chapter 3.
+
+[^2]: IPCC (2001). The classification of sensitivity is similar to susceptibility to climate change, the degree to which a system is open, liable, or sensitive to climate stimuli.
+
+[^3]: Intra-annual variability refers to rainfall concentrated in a single season, whilst interannual variability refers to large differences in the annual total of rainfall. The latter may be driven by phenomena such as the El Nino/Southern Oscillation (ENSO) or longer-term climate shifts such as those that caused the ongoing drought in the African Sahel. Brown and Lall (2006)
+
+[^4]: De et al (2005)
+
+[^5]: Challinor et al (2006). The scale of losses in the agricultural sector is indicated by the fact that this sector contributed just over one fifth of GDP at the time.
+
+[^6]: Nordhaus (2006). Approximately 20% of the difference in per capita output between tropical Africa and two industrial regions is attributed to geography according to Nordhaus' model and analysis.
+
+[^7]: Sachs (2001a)
+
+[^8]: Mendelsohn et al (2006)
+
+[^9]: World Bank (2006a) using 2004 data
+
+[^10]: ILO (2005). The employment figures are given as a share of total employment, 2005.
+
+[^11]: For example, the Central African Republic derives more than 50% of its export earnings from cotton alone (1997/99). Commission for Africa (2005)
+
+[^12]: Natural medicines, for example, are often the only source of medicine for poor people and can help reduce national costs of supplying medical provisions in developing countries. The ratio of traditional healers to western-trained doctors is approximately 150:1 in some African countries for example. UNEP-WCMC (2006)
+
+[^13]: Vedeld et al (2004). This effect on the Amazon has been found with the Hadley Centre model, as reported in Cox et al. (2000), and several other climate models (Scholze et al. 2006) as discussed in Chapter 3.
+
+[^14]: World Bank (2003b)
+
+[^15]: Stern et al (2005)
+
+[^16]: World Population Prospects (2004); and World Urbanization Prospects (2005).
+
+[^17]: Hewawasam (2002)
+
+[^18]: For example, proximity and economies of scale enable cost-effective and efficient targeting and provision of basic infrastructure and services.
+
+[^19]: Approximately 72% of Africa's urban inhabitants now live in slums and squatter settlements for example (Commission for Africa, 2005)
+
+[^20]: WHO (2005). Poverty impacts a person's standard of living, the environmental conditions in which they live, and their ability to meet basic needs such as food, housing and health care that in turn affects their level of nutrition.
+
+[^21]: One of the MDGs is to halve, between 1990 and 2015, the proportion of people who suffer from hunger. In 2002 there were 815 million hungry people in the developing world, 9 million less than in 1990. (UN, 2005)
+
+[^22]: Irrigation plays an important role in improving returns from land, with studies identifying an increase in cropping intensity of 30% with the use of irrigation (Commission for Africa, 2005). Similarly, effective water management enables water to be stored for multiple uses, increases the reliability of water services, reduces peak flows and increases off-peak flows, and reduces the risk of water-related shocks and damage (World Bank, 2006b).
+
+[^23]: World Bank (2006c)
+
+[^24]: Brown and Lall (2006)
+
+[^25]: International Commission on Irrigation and Drainage (2005)
+
+[^26]: Roy (2006)
+
+[^27]: An estimated 2.5 billion low income people globally do not have access to bank accounts, with less than 20% of people in many African countries having access (compared to 90-95% of people in the developed world) (CGAP, 2004). Poor people are typically constrained by their lack of collateral to offer lenders, unclear property rights, insufficient information to enable lenders to judge credit risk, volatile incomes, and lack of financial literacy, among other things.
+
+[^28]: The incomes of poor people will become less predictable, making them less able to guarantee the returns that are needed to pay back loans, while insurers will face higher risks and losses making them even less willing to cover those most in need.
+
+[^29]: IMF (2003)
+
+[^30]: Freeman et al (2002)
+
+[^31]: For example, a recent study from the Hadley Centre shows that the proportion of land experiencing extreme droughts is predicted to increase from 3% today to 30% for a warming of around 4°C, and severe droughts at any one time will increase from 10% today to 40% (discussed in Chapters 1 and 3).
+
+[^32]: Data extracted from Munich Re (2004). These figures are calculated on the basis of the occurrence and consequences of 'great natural disasters'. This definition is in line with that used by the United Nations and includes those events that over-stretch the ability of the affected regions to help themselves. As a rule, this is the case when there are thousands of fatalities, when hundreds of thousands of people are made homeless or when the overall losses and/or insured losses reach exceptional orders of magnitude. While increases in wealth and population growth account for a proportion of this increase, it cannot explain it all (see Chapter 5 for more details). The losses are given in constant 2003 values.
+
+[^33]: The true cost of disasters for developing countries is often undervalued. Much of the data on the costs of natural disasters is compiled by reinsurance companies and focused on economic losses rather than livelihood losses, and is unlikely to capture the effect of slow-onset and small-scale disasters and the impact these have on households. Furthermore, the assessments typically do not capture the cumulative economic losses as they are based on snapshots in time. Benson and Clay (2004)
+
+[^34]: IMF (2003)
+
+[^35]: Warren et al (2006)
+
+[^36]: Huq and Reid (2005)
+
+[^37]: Alderman et al (2003)
+
+[^38]: Wagstaff and van Doorslaer (2003)
+
+[^39]: These results were estimated after controlling for initial poverty, economic policy, tropical location and life expectancy (using different time frames). Sachs and Gallup (2001)
+
+[^40]: Carter et al (2004)
+
+[^41]: Vos et al (1999)
+
+[^42]: IMF (2003). This was largely due to the higher price of food that had to be imported following a drought induced reduction in agricultural output, as described in Box 4.2, coupled with an increase in inflation to 46%.
+
+[^43]: Commission for Africa (2005)
+
+[^44]: Strzepek et al (2001)
+
+[^45]: Cited in Nkomo et al (2006)
+
+[^46]: This refers to a minimum asset threshold beyond which people are unable to build up their productive assets, educate their children and improve their economic position over time. Carter et al (2005)
+
+[^47]: Dercon (2003). Households with an average livestock holding in Tanzania were found to allocate 20% less of their land to sweet potatoes than a household with no liquid assets, with the return per adult of the wealthiest group being 25% higher for the crop portfolio compared to the poorest quintile.
+
+[^48]: Hicks (1993)
+
+[^49]: A household survey in eight peasant associations in Ethiopia found that distressed sales of livestock following the drought in 1999 sold for less than 50% of the normal price. Carter et al (2004)
+
+[^50]: People can be pushed below a critical nutritional level whereby no productive activity is possible, with little scope for recovery given dependence on their own labour following the loss or depletion of their physical assets. Dasgupta and Ray (1986)
+
+[^51]: Hoddinott (2004)
+
+[^52]: IMF (2003); World Bank (2006a)
+
+[^53]: Benson and Clay (2004). Similarly the climatically less severe 1994/95 drought involved costs of US$1 billion in cereal losses (due to higher prices in a tighter international cereal market).
+
+[^54]: ODI (2005)
+
+[^55]: IMF (2003)
+
+[^56]: Information based largely on Challinor et al (2006). See also Roy (2006)
+
+[^57]: As ever it is difficult to attribute an outside event to climate change but the evidence is strong that the severity of such events is likely to increase.
+
+[^58]: Challinor et al (2006). 70% was the maximum reduction in yield that came from the study, in northern regions. Reductions in the 30-60% range were found over much of India. Strictly speaking these results are for groundnut only, although many annual crops are expected to behave similarly. The study was based on an SRES A2 scenario. The values assume no adaptation.
+
+[^59]: Challinor et al (2006)
+
+[^60]: Information based largely on Nkomo et al (2006)
+
+[^61]: The regions at risk of climate change were identified by looking at the possibility of losses in length of growing period that was used as an integrator of changing temperatures and rainfall to 2050. This was projected by downscaling the outputs from several coupled Atmosphere-Ocean General Circulation Models for four different scenarios of the future using the SRES scenarios of the IPCC. Several different combinations of GCM and scenario were used. The vulnerability indicator was derived from the weighted sum of the following four components: 1) public health expenditure and food security issues; 2) human diseases and governance; 3) Human Poverty Index and internal renewable water resources; and 4) market access and soil degradation. (Thornton et al, 2006)
+
+[^62]: Cited in Warren et al (2006) based on the original analysis of Parry et al. (2004). These figures assume future socio-economic development, but no carbon fertilisation effect, as discussed in Chapter 3.
+
+[^63]: McClean et al (2005). This is estimated using the Hadley Centre third generation coupled ocean-atmosphere General Circulation Model.
+
+[^64]: van Lieshout et al (2004)
+
+[^65]: Republic of South Africa (2000) cited in Nkomo et al (2006)
+
+[^66]: Strzepek et al (2001)
+
+[^67]: Gambia (2003) and Republic of Kenya (2002) cited in Nkomo et al (2006)
+
+[^68]: Information based on Nagy et al (2006)
+
+[^69]: El Nino-Southern Oscillation events (as discussed in Chapter 1).
+
+[^70]: Jones and Thornton (2003), cited in Nagy et al (2006)
+
+[^71]: Information based on Erda and Ji (2006)
+
+[^72]: Tang Guoping et al (2000)
+
+[^73]: NBSC (2005)
+
+[^74]: Warren et al (2006)
+
+[^75]: Warren et al (2006)
+
+[^76]: Increased agricultural productivity has been identified as a key factor in reducing poverty and inequality. This is based on work undertaken by Bourguignon and Morrisson (1998) using data from a broad sample of developing countries in the early 1970s and mid 1980s. Evidence from Zambia, for example, suggests that an extra US$1.5 of income is generated in other businesses for every $1 of farm income. Hazel and Hojjati (1995). Similarly, Block and Timer (1994) estimated an agricultural multiplier in Kenya of 1.64 versus a non-agricultural multiplier of 1.23 in Kenya.
+
+[^77]: Cited in Roy (2006)
+
+[^78]: World Bank (2006c)
+
+[^79]: World Bank (2006c). The model shows growth projections dropping 38% when historical levels of hydrological variability are assumed, relative to the same model's results when average annual rainfall is assumed in all years. Hydrological variability included drought, floods and normal variability of 20% around the mean.
+
+[^80]: This model picks up the aggregate impacts of climate change on a range of market sectors such as agriculture. The estimates used in this analysis are based on the impact of climate change on market sectors. PAGE2002 allows examination of either market impacts only (as used here to ensure no double counting of poverty impacts) or market plus non-market impacts. These estimates and further details on the PAGE2002 model are given in Chapter 6.
+
+[^81]: The baseline-climate-change scenario is based largely on scientific evidence in the Third Assessment Report of the IPCC, in which global mean temperature increases to 3.9°C in 2100 (see Chapter 6 for more detail).
+
+[^82]: Using the IPCC A2 SRES baseline
+
+[^83]: In the high-climate-change scenario, global mean temperature increases to 4.3°C in 2100. The high-climate-scenario is designed to explore the impacts that may be seen if the level of temperature change is pushed to higher levels through positive feedbacks in the climate system, as suggested by recent studies (see Chapter 1 and Chapter 6 for more detail).
+
+[^84]: Other factors – such as changes in income distribution – that may also affect poverty levels or child mortality are assumed to be constant.
+
+[^85]: Ravallion (2001)
+
+[^86]: Kraay (2005)
+
+[^87]: World Bank (2000)
+
+[^88]: The formulae express the level of poverty as a function of the poverty line, average household income and the distribution of income. The $2 poverty line is used throughout.
+
+[^89]: This figure is obtained from a cross-country regression of rates of growth in mean household expenditure per capita on GDP per capita. Ravaillion (2003)
+
+[^90]: It is important to note that income alone does not determine health outcomes, efficient public programmes and access to education for women are also important factors, for example. Furthermore, the way in which GDP per capita changes (for example if there is a change in the distribution of income that coincides with the change in national income) can affect the impact it has on health.
+
+[^91]: Analysis demonstrates the health effects today of slowing or negative per capita growth. For example, in 1990, over 900,000 infant deaths would have been prevented had developing countries been able to maintain the same rate of growth in the 1980s as in the period 1960-80 (assuming an elasticity of -0.4), rather than the slow or negative growth they in fact experienced. The effects were particularly significant in African and Latin America, where growth was lower by 2.5% on average (Pritchett and Summers, 1993).
+
+[^92]: The elasticity is assumed to be a constant across countries and over time, consistent with econometric evidence (such as Kakwani (1993)). However, the average elasticity of child mortality with respect to GDP over a period of time will typically not be the same as the actual elasticity that applies on a year-to-year basis, even if the latter is assumed constant, because of compounding.
+
+[^93]: Myers (2005)
+
+[^94]: Nicholls (1995) and Anwar (2000/2001)
+
+[^95]: Barnett and Adger (2003)
+
+[^96]: Warren et al. (2006) analysing data from Nicholls (2004), Nicholls and Tol (2006) and Nicholls and Lowe (2006). This is calculated on the basis of the number of people that are exposed each year to storm surge elevation that has
+
+[^97]: Warren et al. (2006) based on the original analysis of Parry et al. (2004).
+
+[^98]: Warren et al. (2006) based on the original analysis of Arnell (2004) for the 2080s.
+
+[^99]: Miguel et al (2004), Collier and Hoeffler (2002), Hendrix and Glaser (2005) and Levy et al (2005)
+
+[^100]: University for Peace Africa Programme (2005)
+
+[^101]: For example, there are 20 plans in place to build large dams along the Niger River alone.
+
+[^102]: Niasse (2005)
+
+[^103]: Ethiopia, the Sudan, Egypt, Kenya, Uganda, Burundi, Tanzania, Rwanda, the Democratic Republic of Congo and Eritrea.
+
+[^104]: Strzepek et al (2001). Whilst there is general agreement regarding an increase in temperature with climate change that will lead to greater losses to evaporation, there is more uncertainty regarding the direction and magnitude of future changes in rainfall. This is due to large differences in climate model rainfall predictions.
+
+[^105]: Meier and Bond (2005)
+
+[^106]: AIACC (2005)
+
+[^107]: Niasse (2005)
+
+[^108]: Christian Aid (2006)
+
+[^109]: Tanzler et al (2002)
+
+[^110]: ODI (2005)
+
+[^111]: This takes into account farm size, inputs, hours worked etc. This is drawing on evidence from Malaysia, Ghana and Peru Information drawn from Birdsall (1992)
+
+[^112]: Chew and Ramdas (2005)
+
+[^113]: Chew and Ramdas (2005)
+
+[^1]: Tol et al. (2004) set out these arguments in some detail and with great clarity.
+
+[^2]: Projections for changes in rainfall patterns in developed countries are generally more reliable than those in developing countries (due to their higher latitude location).
+
+[^3]: Schröter et al. (2006) and Arnell (2004)
+
+[^4]: Hayhoe et al. (2006)
+
+[^5]: Preston and Jones (2006)
+
+[^6]: Using a general equilibrium model for the USA, Jorgenson et al. (2005) found that agriculture contributed 70 – 80% of the changes in GDP driven by climate change (more details later in chapter). This work did not include the costs of extreme weather, particularly infrastructure damage from hurricanes and storms.
+
+[^7]: Mendelsohn et al. (1994); see also Schlenker et al. (2005) for a recent critique of this work
+
+[^8]: COPA COGECA (2003)
+
+[^9]: Warren et al. (2006) have prepared these results, based on the original analysis of Prof Nigel Arnell (University of Southampton). Energy requirements are expressed as Heating Degree Days and Cooling Degree Days (more detail in Table 5.1).
+
+[^10]: MICE (2005)
+
+[^11]: Cayan et al. (2006)
+
+[^12]: Department of Health (2003) study for the UK found an increase in heat-related mortality by 2,000 and decrease in cold-related mortality by 20,000 by the 2050s using the Hadley Centre climate model.
+
+[^13]: Benson et al. (2000) report on studies in five US cities in the Mid-Atlantic region (Baltimore, Greensboro, Philadelphia, Pittsburgh and Washington DC) and find a net increase in temperature-related mortality of up to two- to three-fold by 2050 (using outputs from three global climate models). These cities see larger increases in summer heat-related mortality than some other cities in the USA.
+
+[^14]: Hamilton et al. (2005)
+
+[^15]: Preston and Jones (2006)
+
+[^16]: Suggested by Pew Center study by Jorgenson et al. (2005)
+
+[^17]: All impacts in the Arctic are clearly and comprehensively set out in the Arctic Climate Impacts Assessment (2004)
+
+[^18]: Nick Rowley and Josh Dowse of KINESIS Consulting, Sydney, Australia http://www.kinesis.net.au
+
+[^19]: Environment Agency (2006), McGregor et al. (2006)
+
+[^20]: O'Brien et al. (2006)
+
+[^21]: Environment Agency (2003)
+
+[^22]: Brookings Institution (2005)
+
+[^23]: Described by low frequency but high impact events (e.g. more than two standard deviations from the mean)
+
+[^24]: Hallegatte et al. (2006) define the "economic amplification ratio" as the ratio of the overall production losses from the disaster to its direct losses.
+
+[^25]: 2005 prices for total losses (insured and uninsured) - analysis of data from Swiss Re and Munich Re in Mills (2005) and Epstein and Mills (2005); Munich Re (2006)
+
+[^26]: Muir-Wood et al. (2006)
+
+[^27]: Based on simple extrapolation through to the 2050s. The lower bound assumes a constant 2% increase in costs of extreme weather over and above changes in wealth and inflation. The upper band assumes that the rate of increase will increase by 1% each decade, starting at 2% today, 3% in 2015, 4% in 2025, 5% in 2035, and 6% in 2045. These values are likely underestimates: (1) they exclude "small-scale" events which have large aggregate costs, (2) they exclude data for some regions (Africa and South America), (3) they fail to capture many of the indirect economic costs, such as the impacts on oil prices arising from damages to energy infrastructure, and (4) they do not adjust for the reductions in losses that would have otherwise occurred without disaster mitigation efforts that have reduced vulnerability.
+
+[^28]: Stott et al. (2004)
+
+[^29]: Recent papers from Nordhaus (2006) and the Association of British Insurers (2005a) examined consequences of increased hurricane wind-speeds of 6% on loss damages, keeping socio-economic conditions and prices constant. Several climate models predict a 6% increase in storm intensity for a doubling of CO2 concentrations (close to a 3°C temperature rise). The insurance study used existing industry catastrophe loss models validated with historic events to predict future losses. The extreme event costs are defined from an event with a 0.4% chance of occurring (1 in 250 year loss).
+
+[^30]: Heck et al. (2006)
+
+[^31]: UK Government Foresight Programme (2004) calculations for flooding from rivers, the sea and flash-flooding in urban areas. Prof Jim Hall at the University of Newcastle has provided some additional analysis. Assumes no change in flood management policies.
+
+[^32]: Research from the Association of British Insurers (2005a) extrapolated from a UK-based study of flood losses that assumed no change in flood management policies beyond existing programme. Some of the increased cost is driven by economic growth of the century and greater absolute wealth in physical assets.
+
+[^33]: Preston and Jones (2006)
+
+[^34]: Hayhoe et al. (2006)
+
+[^35]: London Climate Change Partnership (2004)
+
+[^36]: Association of British Insurers (2004) estimates that subsidence costs to buildings could double by the middle of the century to £600 million (2004 prices).
+
+[^37]: Nicholls and Klein (2003)
+
+[^38]: Association of British Insurers (2005b)
+
+[^39]: As set out in a Pentagon commissioned report by Schwartz and Randall (2004)
+
+[^40]: A complete collapse of the Thermohaline Circulation is considered to be unlikely (but still plausible) this century (Chapter 1).
+
+[^41]: Vellinga and Wood (2002)
+
+[^42]: Salmon and Weston (2006)
+
+[^43]: Mills (2005)
+
+[^44]: Mills and Lecomte (2006) provide many examples of increasing prices or withdrawing cover in the US. For example, reinsurance prices have increased by 200% in some parts of the US. Commercial customers are also being affected by the availability and affordability of insurance. Allstate insurance dropped 16,000 commercial customers in Florida in 2005, and some commercial businesses in the Gulf of Mexico are unable to find insurance at any price.
+
+[^45]: Crichton (2006) found that today in the UK one-third of small and medium-sized businesses had any form of business interruption cover against extreme weather.
+
+[^46]: "Extreme" is defined by an insurers risk appetite and regulatory requirements.
+
+[^47]: Heck et al. (2006)
+
+[^48]: The fundamental drivers of past, current and future world migration are clearly set out by Hatton and Williamson (2002).
+
+[^49]: See, for example, Woodham-Smith (1991)
+
+[^50]: Brooks et al. (2005)
+
+[^51]: Shiva (2002) describes several examples of conflict within a nation or between nations that has been exacerbated by tensions over construction of dams to manage water availability. Every river in India has become a site of major, irreconcilable water conflicts, including the Sutlej, Yamuna, Ganges, Krishna and Kaveri Rivers. The Tigris and Euphrates Rivers, the major water bodies sustaining agriculture for thousands of years in Turkey, Syria and Iraq have led to several major clashes among the three countries. The Nile, the longest river in the world, is shared by ten African countries and is another complicated site of water conflict, particularly following construction of the Aswan Dam.
+
+[^52]: For example, hurricane damages scale as the cube of windspeed (or more), which itself increases exponentially with ocean temperatures.
+
+[^1]: Cline (1992)
+
+[^2]: Ethical perspectives other than those embodied in the models below – such as the approaches based on rights and liberties, intergenerational responsibilities, and environmental stewardship discussed in Chapter 2 – also point towards focusing on the costs of climate change in terms of income/consumption, health, and environment.
+
+[^3]: Pearce et al. (1996)
+
+[^4]: Mendelsohn et al. (1998)
+
+[^5]: Tol (2002)
+
+[^6]: Nordhaus and Boyer (2000)
+
+[^7]: The European result is driven in large part by Europe's expected willingness to pay to reduce the risk of a catastrophic event such as a significant weakening of the Atlantic thermohaline circulation – part of which keeps Western Europe warmer than its latitude would otherwise imply.
+
+[^8]: Stern (1977), Pearce and Ulph (1999)
+
+[^9]: Equity weights should reflect the choice of social welfare function – sometimes called the 'objective' function. This aggregates the consumption of individuals over space and time, reflecting judgements about the value of consumption enjoyed by individuals in different regions at different times (see the Appendix to Chapter 2). Here we focus on how this weighting should be carried out across regions within the present generation when considering the aggregation of small changes. The first step in calculating a weighted average change is to calculate the proportional impact of climate change on the representative individual in each region. If the utility function for an individual has constant marginal utility, the proportional impacts on per capita consumption can then be aggregated to give the proportional impact on overall social welfare by weighting them by the share of each individual's consumption in total consumption. At the regional level, this means weighting the impact on the representative individual by the region's share in global consumption (i.e. regional per-capita consumption multiplied by regional population, as a share of total global consumption). With a utility function given by the log of individual consumption, the proportional impacts on individuals should simply be added up; thus, at the regional level, the proportional impact on the representative consumer is weighted by the region's population.
+
+[^10]: There are several reasons why the 'Mendelsohn' model estimates the lowest cost of climate change. Adaptation is likely to be one, its omission of non-market impacts and the risk of catastrophe another.
+
+[^11]: That is, they estimate the relationship between production in their five market sectors and climate based on how production varies across current world climates, and control for other important determining factors.
+
+[^12]: See Hitz and Smith (2004)
+
+[^13]: Watkiss et al. (2005)
+
+[^14]: Warren et al. (2006)
+
+[^15]: Hallegatte and Hourcade (2005) and Chapter 4.
+
+[^16]: Although this depends on how rapidly costs increase in proportion to temperature.
+
+[^17]: Nordhaus and Boyer (2000)
+
+[^18]: Nordhaus and Boyer (2000)
+
+[^19]: Because the Nordhaus and Boyer model simplifies the economy to one sector, it ignores the possibility that productivity will increase if production is shifted from low productivity/highly climate-sensitive sectors to high productivity/low sensitivity sectors. But a multi-sector study for the USA (Jorgensen et al., 2005) indicates that such processes are negligible, at least in that region.
+
+[^20]: Fankhauser and Tol (2003)
+
+[^21]: Warren et al. (2006)
+
+[^22]: Hope (2003)
+
+[^23]: We follow PAGE2002 in referring to 'GDP' but, as remarked above, it is preferable to think of a broader income concept in interpreting some of the results.
+
+[^24]: Tol (2005)
+
+[^25]: Nordhaus and Boyer (2000)
+
+[^26]: IPCC (2001)
+
+[^27]: For example, the central value is based on Gedney et al. (2004) assuming 4.5°C temperature rise in 2100
+
+[^28]: IPCC (2001)
+
+[^29]: Nordhaus and Boyer (2000)
+
+[^30]: Tol (2002)
+
+[^31]: In these calculations, we assume that some fixed proportion of income is saved for future consumption. A more sophisticated model would vary the rate of saving as a result of prospects for future consumption, as determined by the model itself.
+
+[^32]: As in Nordhaus and Boyer (2000)
+
+[^33]: We are not considering here the discounting of extra units of consumption in the future because consumption itself may be higher then.
+
+[^34]: Proposed by Mirrlees and Stern (1972)
+
+[^35]: Formally, the change in the BGE is a natural commodity measure of welfare that expresses changes in future consumption due to policy in terms of the percentage increase in consumption (along a steady-state growth path), now and forever, that is equal to the changes that are forecast to follow from the policy change being examined. In a one-sector growth model with natural growth α and consumption C at time t, we want to calibrate welfare from the path [C(t)]. If this is equivalent, in welfare αt terms, to the balanced growth path yielding consumption γe , then γ is the BGE of [C(t)].
+
+[^36]: An extrapolated version of the IPCC's A2 scenario (IPCC, 2000), characterised by annual average GDP growth of about 1.9%.
+
+[^37]: Also extrapolated from the IPCC's A2 scenario. Annual average population growth is about 0.6%.
+
+[^38]: In fact, the model is restricted to a subset of uneven time steps. Thus we interpolate linearly between time steps to produce an annual time series.
+
+[^39]: See Pearce and Ulph (1999).
+
+[^40]: Pearce and Ulph (1999) and Stern (1977).
+
+[^41]: Nordhaus and Boyer (2000).
+
+[^42]: Mirrlees Stern (1972)
+
+[^43]: Rothschild and Stiglitz (1970)
+
+[^44]: Atkinson (1970)
+
+[^45]: Nordhaus and Boyer (2000)
+
+[^1]: Greenhouse gases are converted to a common unit, CO2 equivalent, which measures the amount of carbon dioxide that would produce the same global warming potential (GWP) over a given period as the total amount of the greenhouse gas in question. In 2000, 77% of the 100-year GWP of new emissions was from CO2. See Table 8.1 for conversion factors for different gases. Figures for the stock of greenhouse gases are usually reported in terms of the amount of CO2 that would have the equivalent effect on current radiative forcing, i.e. they focus on the GWP over one year.
+
+[^2]: GHG emissions in 2000 were 42 GtCO2e, WRI (2006). This does not include some emissions for which data are unavailable. For example: CO2 emissions from soil; additional global warming effect of aviation, including the uncertain contrail effect (see Box 15.6); CFCs (for example from refrigerants in developing countries); and aerosols (for example, from the burning of biomass).
+
+[^3]: Chapter 8 examines the relationship between stabilisation levels, temperatures and emissions trajectories.
+
+[^4]: WRI (2006).
+
+[^5]: WRI (2006). Historical emission figures are drawn from the WRI's Climate Analysis Indicators Database (CAIT) http://cait.wri.org. Emission estimates exclude: CO2 emissions from soil; additional global warming effect of aviation, including the uncertain cirrus cloud effect (see Box 15.6); CFCs (for example from refrigerants in developing countries); and aerosols (for example, from the burning of biomass).
+
+[^6]: IEA (in press).
+
+[^7]: For Annexes 7B to 7G, see www.sternreview.org.uk
+
+[^8]: Emissions are presented according to the sector from which they are directly emitted, i.e. emissions are by source, as opposed to end user/activity; the difference between these classifications is discussed below.
+
+[^9]: There are no projections available splitting non-CO2 emission estimates into individual sector sources after 2020.
+
+[^10]: An and Sauer (2004).
+
+[^11]: For explanation of how these percentages are calculated, see Box 15.6. The transport emissions presented in Figure A and B include CO2 emissions from aviation, but exclude the additional global warming effect of these emissions at altitude because there is no internationally agreed consensus on how to include these effects.
+
+[^12]: Note that the estimates of energy-related CO2 emissions in the early 1990s include approximate estimates of emissions from transition economies, which are sometimes excluded from data tables from the WRI (2006).
+
+[^13]: Including emissions from international aviation and shipping and CO2 emissions from the industrial process of making cement.
+
+[^14]: The reference scenario assumes no major changes to existing policies.
+
+[^15]: Different modellers may use slightly different definitions of emissions, depending on their treatment of international marine and aviation fuel bunkers and gas flaring.
+
+[^16]: According to WRI (2006).
+
+[^17]: Houghton (2005)
+
+[^18]: Fossil fuel projections to 2050 are taken from IEA (2006). Non-CO2 emission projections to 2020 are taken from EPA (forthcoming) and extrapolated forward to 2050 in a manner to be consistent with non-CO2 emissions reached by SRES scenarios A1F1 and A2. Land use emissions to 2050 are taken from Houghton (2005). Actual estimates of CO2 emissions from industrial processes and CO2 fugitive emissions were taken from CAIT until 2002; henceforth, they are extrapolated at 1.8% pa (the average growth rate for fossil fuel emissions projected by IEA).
+
+[^19]: This assumes that total emissions of greenhouse gases grow more slowly than emissions of CO2. Their annual growth rate was about 0.5 percentage points lower during 1990 to 2000.
+
+[^20]: Econometric studies of past data have tended to focus on energy-related CO2 emissions, although modellers are increasingly including non-CO2 GHGs in their projections. See, for example, Paltsev et al. (2005).
+
+[^21]: Kaya (1990)
+
+[^22]: Energy-related emissions include all fossil-fuel emissions plus CO2 emissions from industrial processes.
+
+[^23]: E.g. Neumayer (2004)
+
+[^24]: Generous endowments of raw materials are not necessarily reflected in domestic consumption (e.g. South Africa and diamonds), but in the case of energy there does seem to be a significant correlation, perhaps because of the broad-based demand for energy and the tendency for local energy prices to be relatively low in energy-rich countries.
+
+[^25]: E.g. Huntington (2005) and McKibbin and Stegman (2005)
+
+[^26]: Energy-related emissions include all fossil-fuel emissions plus CO2 emissions from industrial processes.
+
+[^27]: See Neumayer, (2004)
+
+[^28]: See Huntington (2005). GDP per head is itself a function of many other variables, and emissions projections should in principle be based upon explicit modelling of the sources of growth; for example, the consequences for emissions will be different if growth is driven by innovations in energy technology rather than capital accumulation.
+
+[^29]: Holtsmark, B (2006). McKitrick and Strazicich (2005) have pointed out that global emissions per head have behaved as a stationary series subject to structural breaks. But this does not preclude increases in global emissions per head in future, either because of structural changes within economies, or changes in the distribution of emissions across fast- and slow-growing economies, leading to further structural breaks.
+
+[^30]: Quah (1996)
+
+[^31]: Air transport is particularly problematic given its impacts on the atmosphere over and above the simple CO2 effect. The additional global warming effect of aviation is discussed in Box 15.8.
+
+[^32]: See, for example, Balassa (1964)
+
+[^33]: Bosworth, B, and Collins, S (2003)
+
+[^34]: See McKibbin and Stegman, op. cit.; Pritchett, L (1997)
+
+[^35]: Population Division of the Department of Economic and Social Affairs of the United Nations Secretariat (2005)
+
+[^36]: See Neumayer, op. cit.
+
+[^37]: Asadoorian et al (2006)
+
+[^38]: See, for example, Lanne and Liski (2004) and Huntington, op. cit. The former study 16 countries but use a very limited set of explanatory variables.
+
+[^39]: Sue Wing and Eckaus (2004)
+
+[^40]: Sue Wing and Eckaus (2004)
+
+[^41]: Understanding China's Energy Policy: Background Paper Prepared for Stern Review on the Economics of Climate Change by the Research Centre for Sustainable Development, Chinese Academy of Social Sciences
+
+[^42]: Huntington, op. cit.
+
+[^43]: World Energy Council (2000)
+
+[^44]: World Energy Council (2000)
+
+[^45]: IEA (2006)
+
+[^46]: IEA (2006)
+
+[^47]: This assumes that half of CO2 emissions are absorbed, as discussed in Chapter 1.
+
+[^48]: IEA (2005)
+
+[^49]: See Hunt et al (2003)
+
+[^50]: In calculating the costs of climate-change mitigation to the world as a whole, fossil-fuel energy should be valued at its marginal resource cost, excluding the scarcity rents, not at its market price. Some estimates of cost savings from introducing alternative energy technologies ignore this point and consequently overestimate the global cost savings.
+
+[^51]: A downward shift in the demand curve for an exhaustible natural resource is likely to lead to a fall in the current and future price of the resource. In the case of resources for which the marginal extraction costs are very low, this fall could continue until the demand for the fossil fuel is restored. Pindyck (1999) found that the behaviour of oil prices has been broadly consistent with the theory of exhaustible natural resource pricing. See also Chapter 2 references on the pricing of exhaustible natural resources.
+
+[^52]: See Seldon and Song (1994) and Harbaugh et al (2002)
+
+[^53]: See, inter alia, Neumayer, op. cit., Holtz-Eakin and Selden (1995) and Schmalensee et al, op. cit.
+
+[^54]: This is not the case with the 'piecewise segments' approach of Schmalensee et al.
+
+[^1]: The conversion to radiative forcing is given in IPCC (2001).
+
+[^2]: Extrapolating to 2005 from Prentice et al. (2001), which gives 1800 GtCO2 total emissions in 2000 and a 90 ppm increase in atmospheric carbon dioxide concentration. The extrapolation assumes 2000 emissions to 2005.
+
+[^3]: Based on Jones et al. 2006, assuming no climate-carbon feedback.
+
+[^4]: The two carbon cycle models used in the IPCC Third Assessment Report project emissions falling to around 3 – 9GtCO2 per year by around 2150 - 2300 (longer for higher stabilisation levels) (Prentice et al. (2001), Figure 3.13).
+
+[^5]: See Jacobs (1991) for discussion of operationalising the concept of sustainability for complex issues.
+
+[^6]: For example, O'Neill and Oppenheimer (2005).
+
+[^7]: The lifetime of a gas is a measure of the average length of time that a molecule of gas remains in the atmosphere before it is removed by chemical or physical processes.
+
+[^8]: These estimates are from the Third Assessment Report of the IPCC (Ramaswamy et al. (2001)). The UNFCCC uses slightly different GWPs based on the Second Assessment Report (http://ghg.unfccc.int/gwp.html).
+
+[^9]: The World Resources Institute (WRI) Climate Analysis Indicators Tool (CAIT): http://cait.wri.org/
+
+[^10]: For example, Meinshausen (2006) and US CCSP (2006)
+
+[^11]: An atmospheric greenhouse gas level of 450 ppm is less than 10 years away, given that concentrations are rising at 2.5 ppm per year (chapter 3). However, in the scenarios outlined in Table 8.1, aerosol cooling temporarily offsets some of the increase in greenhouse gases, giving more time to stabilise. This effect is illustrated in Box 8.2.
+
+[^12]: Zhu, Taylor, Feng (2004)
+
+[^13]: Chapter 25 notes that some of this gain was offset by increased timber imports from outside China.
+
+[^14]: Business as usual (BAU) used in this chapter is described in chapter 7.
+
+[^15]: Annex I includes OECD, Russian Federation and Eastern European countries. This is discussed further in Part IV.
+
+[^1]: A full comparison of the cost estimates used in the Review is given in Annex 9A on www.sternreview.org.uk.
+
+[^2]: See Drèze and Stern (1987 and 1990), Ahmad and Stern (1991) and Atkinson and Stern (1974).
+
+[^3]: Expressed informally, shadow prices are opportunity costs: they can often be determined by 'correcting' market prices for market imperfections. For a formal definition, see Drèze and Stern (1987 and 1990). In the models used there, the extra resources for emissions reductions represent a tightening of the general equilibrium constraint and the shadow prices times the quantities involved represent a summary of the overall general equilibrium repercussions.
+
+[^4]: Similar issues to those arising for marginal changes arise in assessing instruments for reducing GHG emission although in the non-marginal changes, the distributions of costs and benefits can be of special importance.
+
+[^5]: Of course, if the objective is to calculate the costs of climate-change mitigation to energy users rather than to the world as a whole, the rents can be included.
+
+[^6]: The deadweight loss to a tax on a good that raises $1 of revenue arises as follows. Suppose the government has raised $1 in tax revenue, and the consumer has paid this $1 in tax. But, in addition, the individual has reduced consumption in response to changes in prices and the firms producing the goods have lost profits. In the jargon of economics, the sum of the loss of consumer surplus and the loss of producer surplus exceeds the tax revenue.
+
+[^7]: See www.sternreview.org.uk
+
+[^8]: Benitez et al. (2005), using a land-cover database, together with econometric modelling and Sathaye et al. (2005).
+
+[^9]: IPCC (2000) Chapter 3.
+
+[^10]: Conservation tillage describes tillage methods that leave sufficient crop residue in place to reduce exposure of soil carbon to microbial activity and hence, conserve soil carbon stocks (IPCC (2001)).
+
+[^11]: IPCC (2001). Revised estimates are expected from the Fourth Assessment Report of IPCC.
+
+[^12]: Smith et al (2006, forthcoming).
+
+[^13]: These figures are calculated from income over 30 years, using a discount rate of 10%, except for Indonesia, which uses 20%.
+
+[^14]: See Grieg-Gran report prepared for the Stern Review (2006)
+
+[^15]: Cameroon, Democratic Republic of Congo, Ghana, Bolivia, Brazil, Papua New Guinea, Indonesia, Malaysia.
+
+[^16]: See for example Sohngen et al (2006)
+
+[^17]: IPCC (2001). Note this excludes savings from use of biomass and indirect emission reductions from fossil fuels via energy-efficiency measures.
+
+[^18]: Smith et al (2006 forthcoming).
+
+[^19]: EPA (forthcoming).
+
+[^20]: Stern Review estimates. This is consistent with a mitigation scenario in which fossil-fuel use is limited to current levels or below by 2050, as in the work by Dennis Anderson described later in this chapter, and the IEA (2006) analysis discussed in Section 9.9.
+
+[^21]: EPA (forthcoming).
+
+[^22]: IPCC (2001)
+
+[^23]: IPCC (2001)
+
+[^24]: Stern Review estimate.
+
+[^25]: For explanation of how BAU emissions were calculated, see Chapter 7.
+
+[^26]: See Hannah (1979)
+
+[^27]: Assuming 40% thermal efficiency and a c.v. of coal of 8,000kWh/tonne. Pounds (lbs) are a unit of weight: 1 lbs = 0.454 kg.
+
+[^28]: This is intended to provide an indicative representation of average technology costs only (costs of individual technologies will, or course, vary). It draws together work on recent sectoral estimates undertaken by Enviros as part of the Energy Efficiency and Innovation Review (see www.defra.gov.uk/environment/energy/eeir/pdf/enviros-report.pdf) and drawing on data from the BRE and Enusim databases on the service sectors respectively, as well as Defra internal estimates for the domestic sector. The cost information presented here is based on a 3.5% social discount rate.
+
+[^29]: Read (2006) discusses how if CCS technologies were to capture emissions from the use of biofuels this could create negative emissions, that is, sequestering carbon dioxide from the atmosphere.
+
+[^30]: IEA (2006) - ACT MAP is a scenario that includes CCS and where emissions are constrained to near-current levels in 2050 following a technology 'push' for low-carbon technologies.
+
+[^31]: IPCC (2005)
+
+[^32]: Page 93 IEA (2005)
+
+[^33]: At present sub-sea storage of CO2 without enhanced oil recovery would be illegal.
+
+[^34]: Sources include MIT, SPRU, UK CCS, IPCC, UK Energy Review, Sachs and Lackner.
+
+[^35]: Some compare CCGT, IGCC and supercritical/basic pulverised coal with and without CCS while others compare IGCC with CCS to pulverised coal without or an alternative fossil-fuel mix.
+
+[^36]: At a cost of $0.9 trillion around $23 per tonne.
+
+[^37]: Sachs and Lackner, 2005
+
+[^38]: $280 to $840 billion at $19 - $49/tCO2.
+
+[^39]: Page 61 IEA, 2006
+
+[^40]: Paper by Dennis Anderson, "Costs and Finance of Carbon Abatement in the Energy Sector", published on the Stern Review web site.
+
+[^41]: For central electricity generation, the cost ratios reflect the generation costs (including the capital costs of generation capacity), but exclude transmission and distribution. The costs of the latter are, however, included in the estimates for decentralised generation. The average costs of energy from the fossil-fuel technologies are 2.5p/kWh for central generation, 8p/kWh for decentralised generation, £4/GJ for industrial gas, $6/GJ for domestic gas, and 30p/litre (exclusive of excise taxes) for vehicle fuels; all are subject to the range of uncertainties noted in the text.
+
+[^42]: Note different time periods for different technologies.
+
+[^43]: All the emission saving and cost estimates in this box come from IEA analysis. IEA (2006) and IEA (in press).
+
+[^44]: Examples might be polymer-based PVs, with prospects for 'reel-to-reel' or batch processing; the generation of hydrogen directly from the action of sunlight on water in the presence of a catalyst (photo-electrolysis); novel methods and materials for hydrogen storage; small and large-scale energy storage devices more generally, including one known as the regenerable fuel cell; nuclear fusion; and new technologies and practices for improving energy efficiency. In addition, the technologies currently under development will also offer scope for 'learning-by-doing' and scale economies in manufacture and use.
+
+[^45]: Dennis Anderson is Emeritus Professor of Energy and Environmental Studies at Imperial College London, and was formerly the Senior Energy Adviser and an economist at the World Bank, Chief Economist of Shell and an engineer in the electricity supply industry.
+
+[^46]: Paper by Dennis Anderson, published on the Stern Review web site, "Costs and Finance of Carbon Abatement in the Energy Sector."
+
+[^47]: This analysis assumes that fossil fuels emissions reach 61 GtCO2/year in 2050 under BAU conditions. Note this is slightly greater than the BAU projection of fossil fuel emissions used in Chapter 8 and parts of Chapter 7 (of 58 GtCO2/year in 2050).
+
+[^48]: More detail on the assumptions made can be found in Anderson (2006).
+
+[^49]: A full specification of the different cases are set out in the full paper.
+
+[^50]: Rows (ii) and (iii) provide a rough estimate of the confidence intervals associated with the estimates in row (i).
+
+[^51]: The alternative policy scenario entails more investment in energy efficient infrastructure, but less investment in energy production and distribution. These effects broadly cancel one another out so investment requirements are about the same as in the reference case.
+
+[^1]: In statistics, a meta-analysis combines the results of several studies that tackle a set of related research hypotheses. In order to overcome the problem of reduced statistical power in individual studies with small sample sizes, analysing the results from a group of studies can allow more accurate data analysis.
+
+[^2]: Terry Barker is the Director of the Cambridge Centre for Climate Change Mitigation Research (4CMR), Department of Land Economy, University of Cambridge, Leader of the Tyndall Centre's research programme on Integrated Assessment Modelling and Chairman of Cambridge Econometrics. He is a Coordinating Lead Author in the IPCC's Fourth Assessment Report, due 2007, for the chapter covering mitigation from a cross-sectoral perspective.
+
+[^3]: Barker et al. (2006) but see also Barker et al. (2004) and Barker (2006)
+
+[^4]: The parameter can be interpreted as switched 'off' for models where no account is taken of revenues (effectively only the changes in relative prices are modelled) and 'on' for models where the revenues are recycled in some way. Unfortunately, the data underpinning this parameter are thin: among the IMCP models, only E3MG models the use of revenues at all.
+
+[^5]: Under the assumption of a 'backstop' technology, energy becomes elastic in supply and the price of energy is determined independently of the level of demand. Thus, 'backstop' technologies imply lower abatement costs with the introduction of carbon taxes. The 'backstop' price may vary through technical change. For example, wind, solar, tidal and geothermal resources may serve as 'backstop' technologies, whereas nuclear fission is generally not, because of its reliance on a potentially limited supply of uranium. In practice, very few technologies will be entirely elastic in supply: even wind farms may run out of sites, and the best spots for catching and transporting electricity from the sun may be exhausted quickly.
+
+[^6]: Grubb et al. (2006). See also Grubler et al. (1999), Nakićenović (2000), Jaffe et al. (2003) and Köhler (2006)
+
+[^7]: EMF-21; see Weyant et al. (2004), van Vuuren et al. (2006)
+
+[^8]: The EMF found that as much as half of agriculture, waste and other non-CO2 emissions could be cut at relatively low cost. The study looked at how the world might meet a stabilisation objective if it selected the least-cost abatement among energy-related CO2 emissions and non-CO2 emissions (but not land use). Two stabilisation scenarios were compared (aimed at stabilising emissions to 650ppm CO2e): one in which only energy-related CO2 emissions could be cut; and another in which energy-related CO2 emissions and non-CO2 gases could be reduced. In the 'energy-related CO2 emissions only' scenario, CO2 emissions fall by 75% on baseline levels in 2100. Some non-CO2 gases also fall as an indirect consequence. In the multi-gas scenario, CO2 emissions fall by a lesser extent (67% by 2100) and there are significant cuts in the non-CO2 gases (CH4 falling by 52%, N2O by 38%, F-gases by 73%). CO2 remains the major contributor to emission savings, because it represents the biggest share in GHG emissions.
+
+[^9]: Babiker et al. (2004)
+
+[^10]: Discussion of which countries should pay for this abatement effort is a separate question. Part IV looks at how policy should be designed to achieve emissions reductions, while Chapter 11 examines the possible impacts on national competitiveness.
+
+[^11]: Richels et al (1998) found that international co-operation through trade in emission rights is essential to reduce mitigation costs of the Kyoto protocol. The magnitude of the savings would depend on several factors including the number of participating countries and the shape of each country's marginal abatement cost curve. Weyant and Hill (1999) assessed the importance of emissions permits and found that they had the potential to reduce OECD costs by 0.1ppt to 0.9ppt by as early as 2010.
+
+[^12]: For example, Reilly et al. (2004) compare the effectiveness of two GHG abatement regimes: a global regime of non-CO2 gas abatement, and a regime that is globally less comprehensive and mimics the present ratification of the Kyoto Protocol. The study found that, by 2100, the abatement programme that is globally comprehensive, but has limited coverage of gases (non-CO2 only), might be as much as twice as effective at limiting global mean temperature increases and less expensive than the Kyoto framework.
+
+[^13]: OECD et al. 2000
+
+[^14]: Syri et al. 2001
+
+[^15]: A difficulty in evaluating the exact benefits of climate polices to air pollution is the different spatial and temporal scales of the two issues being considered. GHGs are long-lived and hence global in their impact while air pollutants are shorter-lived and tend to be more regional or local in their impacts.
+
+[^16]: See, for example, Azar (2002)
+
+[^1]: The social cost of carbon and carbon price discussed here are convenient shorthand for the social cost (and corresponding price) for each individual greenhouse gas. Their relative social costs, or 'exchange rate', depend on their relative global warming potential (GWP) over a given period and when that warming potential is effective, as the latter determines the economic valuation of the damage done. Suppose there were a gas with a life in the atmosphere one tenth that of CO2 but with ten times the GWP while it is there. The social cost of that gas today would be less than the social cost of CO2, because it would have its effect on the world while the total stock of greenhouse gases was lower on average, so that its marginal impact would be less in economic terms.
+
+[^2]: Cumulative emissions are closer to the policy-induced emissions reductions that incur the costs of mitigating climate change. The choice between the two goals comes down to how the costs and benefits of missing the goal by some amount differ in the two cases, given uncertainty about the relationship between the two variables due to uncertainty about the functioning of carbon 'sinks', etc. This is related to the issue of whether setting greenhouse-gas prices or quotas is preferable in the face of uncertainty (see Chapter 14); the arguments there imply that, for the long run, a concentration goal is to be preferred).
+
+[^3]: More formally, we take impacts to be convex in atmospheric concentration and note that the expected utility of a range of outcomes is lower than the utility of the expected outcome, if marginal utility declines with income. This is discussed further in Chapter 2.
+
+[^4]: See, for example, Kolstad (1996), Pindyck (2000) and Ingham and Ulph (2005)
+
+[^5]: If policy-makers adopt a zone rather than a single number as a goal, recognising that no policy is able to ensure that a point goal can be hit precisely, it should be within these upper and lower limits. It would also be desirable if the zone were considerably narrower than the span of those limits, so as not to weaken substantially the discipline on policy-makers to adjust policy settings if it looks as if the goal is not going to be met. Too wide a target zone also increases the risk of different policy-makers around the world choosing policy settings that are inconsistent with each other.
+
+[^6]: Where the risk is defined using subjective probabilities based on current knowledge of climate sensitivity – the relationship between greenhouse gas concentration and temperatures.
+
+[^7]: There is, however, considerable uncertainty about how climate-change effects will evolve as temperatures rise, as many of the hypothesised effects are expected to take place or intensify outside the temperature range experienced by humankind, and so cannot be verified by empirical observation. One characteristic of the climate physics works in the opposite direction: the expected rise in temperature is a function of the proportional increase in the stock of greenhouse gases, not its absolute increase. As a result, some integrated assessment models, for example Nordhaus' DICE model, have S-shaped functions to represent the costs of climate-change impacts.
+
+[^8]: Arnell et al. (2004)
+
+[^9]: These figures are based on the 'broad impacts, standard climate sensitivity' case among the scenarios considered in Chapter 6. As such, they do not allow for equity weighting; if they did, the estimates in the text would be higher. They would also be higher if higher estimates of climate sensitivity, incorporating more amplifying feedback mechanisms, were used. The valuation of non-market impacts is particularly difficult and dependent on ethical judgements, as explained in Chapter 6.
+
+[^10]: Costs of delivering any particular level of abatement are likely to decline with investment and experience; see Chapters 9 and 16.
+
+[^11]: The world is already at around 430ppm CO2e if only the greenhouse gases covered by the Kyoto Protocol are included; but aerosols reduce current radiative forcing. The projection reported in the text assumes that the aerosol affect diminishes over time, but for a period counteracts a temporary rise in Kyoto greenhouse gases above 450ppm CO2e. As the concentration of greenhouse gases is rising at around 2.5 ppm CO2e per year, and annual emissions are increasing, 450ppm CO2e could be reached in less than ten years.
+
+[^12]: US CCSP Synthesis and Assessment Product 2.1, Part A: Scenarios of Greenhouse Gas Emissions and Atmospheric Concentrations. Draft for public comment, June 26, 2006.
+
+[^13]: The ranges in terms of CO2e are derived from the long-run constraints on total radiative forcing in the modelling exercise.
+
+[^14]: The social cost of carbon is well defined along any specific emissions trajectory, not only stabilisation trajectories, as the usual calculations of 'business as usual' SCCs illustrate.
+
+[^15]: This requires that the convexity of the relationship between expected damages (in terms of broad measures of wellbeing) and global mean temperature increases outweighs the declining marginal impact of increases in concentration on temperature as concentration rises.
+
+[^16]: The social cost of carbon can also be thought of as the shadow price of carbon if there are no other distortions in the economy, apart from the greenhouse-gas externality, affected by emissions. The shadow-price path over time will depend on the precise dynamics of expected growth, climate-change impacts, the rate of removal of CO2 from the atmosphere, discount rates and the marginal utility of income. The social cost of carbon is likely to rise faster, the higher is expected economic growth, the higher the rate at which total impacts rise with concentrations, the higher the decay rate of the greenhouse gases, and the higher the pure rate of time preference.
+
+[^17]: Watkiss et al. (2005)
+
+[^18]: While we have counselled against excessively formal monetary approaches to the value of life, losses of life from climate change nevertheless should weigh heavily in any assessment of damages from climate change.
+
+[^19]: Note that this is not the same as a low discount rate. The higher the growth rate, the higher the discount rate (see Chapter 2 and its appendix).
+
+[^20]: Pearce (2005)
+
+[^21]: The social cost of carbon has to be expressed in terms of some numeraire. Typically the change in consumption that brings about the same impact on the present value of expected utility is used. But that depends on the level of consumption one starts with, so the numeraire differs when comparing significantly different paths. Hence these calculations are strictly valid only if consumption along one or other of the two paths (or some weighted average) is used as numeraire for the calculation of both SCCs.
+
+[^22]: Because the social cost of carbon is a function of the stock of greenhouse gases, not the flow of emissions, it is insensitive to the variation of emissions in a single year.
+
+[^23]: This is equivalent to assuming constant returns to scale in abatement over time. In fact, we would expect the average abatement cost to be lower than the marginal abatement cost, with dynamic returns to scale reducing them over time, so this simplification gives an underestimate of the benefits of climate-change policy.
+
+[^24]: Part V considers adaptation in detail. The key point here is that adaptation is likely to become more expensive and less effective as global temperatures rise further.
+
+[^25]: Hanemann (2000).
+
+[^26]: In particular, Mendelsohn et al. (2000).

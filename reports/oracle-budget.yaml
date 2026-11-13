@@ -40,14 +40,14 @@ reports:
     paragraphs-oversplit: 307  # why: reportsthatmatter-jsqw (the glossary, PDF pp. 261-262, read one entry a paragraph, is +89; on the other vision pages over-split falls 111 to 65)
     note-off-page: 81  # why: reportsthatmatter-4ofu (153 more notes read from their pages; markers still link by number document-wide while the report numbers its notes per chapter, so the nearest same-number note moves: 30 findings gone, 33 new) + uw50
   uk-leveson-inquiry:
-    headings-missed: 1350
+    headings-missed: 164
     markers-unlinked: 17
-    paragraphs-oversplit: 2091  # why: reportsthatmatter-qai (thumbLetters takes the stray Part letter off ~60 blocks; the oracle then matches splits that were already there, e.g. "Online models have proved highly successful with buyers and sellers. C" now read without its "C"; 20 such appear, 11 vanish; each of the 20 already opened a block before)
+    paragraphs-oversplit: 245  # why: reportsthatmatter-qai (thumbLetters takes the stray Part letter off ~60 blocks; the oracle then matches splits that were already there, e.g. "Online models have proved highly successful with buyers and sellers. C" now read without its "C"; 20 such appear, 11 vanish; each of the 20 already opened a block before)
     note-off-page: 1
   columbia-accident:
     markers-unlinked: 5  # why: reportsthatmatter-n891 (the oracle now reads raised digits on quotation lines too; +2, read on pp.100 and 124: "its resources.”5" and "other Orbiters.10" are real markers the text leaves bare; reportsthatmatter-pfgn)
-    paragraphs-oversplit: 268
-    quotes-spurious: 232
+    paragraphs-oversplit: 149
+    quotes-spurious: 57
   us-911-commission:
     markers-unlinked: 6
   us-deepwater-horizon:
@@ -97,5 +97,5 @@ reports:
     markers-unlinked: 0
     note-off-page: 0
   uk-stern-review:
-    markers-unlinked: 25  # why: reportsthatmatter-oyr5 (all 25 are the raised subscript 2 of CO2/CO2e/GtCO2e, no note marker: golden pages tp0/fp16)
+    markers-unlinked: 472  # why: reportsthatmatter-oyr5 (checked against the layout: 438 are the raised subscript of a formula, CO2/CO2e/GtCO2e/CH4/N2O; 20 are superscript units and exponents, km2, m3, 10^6, x2, x3; 6 are batch 1's known glued runs and table note; 8 more formula subscripts after a digit, "42GtCO2e"; no note marker left unlinked. Chapters 1, 3-5, 7, 8 added, gqsy.9.2)
     note-off-page: 0

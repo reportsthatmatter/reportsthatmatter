@@ -405,7 +405,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-911-commission?p=we-believe-9-11-attacks&h=|We%20believe%20the%209%2F11%20attacks%20revealed%20four%20kinds%20of%20failures%3A%20in%20imagination%2C%20policy%2C%20capabilities%2C%20and%20management.|&src=bsky
     card: assets/cards/us-911-commission/q-9c7a039f.png
     scheduled: 2026-11-12
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n24mbgx2ir2a
+    posted_at: 2026-11-12T13:47:51.671Z
   - id: us-v-philip-morris:defendants-fraudulent-statements-stem-from:46699358
     report: us-v-philip-morris
     paragraph: defendants-fraudulent-statements-stem-from

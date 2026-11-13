@@ -39,7 +39,8 @@ import { parse } from "yaml";
 import { renderCard, renderDefaultCard, cardSourceName } from "../src/templates/card.ts";
 import { PLATELESS_CARD_REPORTS } from "../src/lib/card-plates.ts";
 import { SITE_HEADLINE, SITE_STANDFIRST } from "../src/templates/site.ts";
-import { renderMarkdown } from "@rtm/ingest";
+import { renderArtifacts } from "@rtm/ingest";
+import { loadReserved } from "../src/lib/reserved-ids";
 import { extractParagraph } from "../src/templates/report.ts";
 import { findText } from "../assets/anchor.js";
 import { quoteCardId, CARD_QUOTE_LIMIT } from "../src/lib/card-key.ts";
@@ -100,7 +101,9 @@ const rendered = new Map();
 function reportHtml(report) {
   if (!rendered.has(report.id)) {
     const markdown = readFileSync(join(root, report.source_path), "utf8");
-    rendered.set(report.id, renderMarkdown(markdown));
+    // The ids the site serves: rendered with the report's reserved ids (efso), as prerender does.
+    const reserved = loadReserved(root, report.id);
+    rendered.set(report.id, renderArtifacts(markdown, reserved.length ? { reserved } : undefined).fullBody);
   }
   return rendered.get(report.id);
 }

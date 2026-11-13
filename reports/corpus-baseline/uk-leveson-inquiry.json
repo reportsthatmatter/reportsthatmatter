@@ -1,498 +1,402 @@
 {
-  "words": 1081773,
-  "paragraphs": 10095,
+  "words": 1079979,
+  "paragraphs": 9114,
   "sections": [
     {
-      "slug": "practices-and-ethics-of-the-press-report",
-      "title": "PRACTICES AND ETHICS OF THE PRESS REPORT",
-      "paragraphs": 468,
-      "ids": "dfcc8c62f9d0"
+      "slug": "front-matter",
+      "title": "Front matter",
+      "paragraphs": 41,
+      "ids": "3518c8d61d0f"
     },
     {
-      "slug": "news-corporation",
-      "title": "News Corporation",
-      "paragraphs": 348,
-      "ids": "2945962b2a90"
+      "slug": "part-a-the-inquiry",
+      "title": "Part A: The inquiry",
+      "paragraphs": 19,
+      "ids": "459c57985609"
+    },
+    {
+      "slug": "chapter-2-the-approach",
+      "title": "Chapter 2: The approach",
+      "paragraphs": 106,
+      "ids": "c215c299d6ab"
+    },
+    {
+      "slug": "chapter-3-further-issues-of-law",
+      "title": "Chapter 3: Further issues of law",
+      "paragraphs": 44,
+      "ids": "5d73da3a43c0"
+    },
+    {
+      "slug": "chapter-4-the-report",
+      "title": "Chapter 4: The report",
+      "paragraphs": 10,
+      "ids": "ee220e5ec45f"
+    },
+    {
+      "slug": "part-b-the-press-and-the-public-interest",
+      "title": "Part B: The press and the public interest",
+      "paragraphs": 6,
+      "ids": "29f28a966862"
+    },
+    {
+      "slug": "chapter-2-the-freedom-of-the-press-and-democracy",
+      "title": "Chapter 2: The freedom of the press and democracy",
+      "paragraphs": 68,
+      "ids": "ef4696d7eb3a"
+    },
+    {
+      "slug": "chapter-3-competing-public-interests",
+      "title": "Chapter 3: Competing public interests",
+      "paragraphs": 32,
+      "ids": "d36d641c5d1a"
+    },
+    {
+      "slug": "chapter-4-the-responsibilities-of-the-press",
+      "title": "Chapter 4: The responsibilities of the press",
+      "paragraphs": 55,
+      "ids": "bf67cb0bb933"
+    },
+    {
+      "slug": "part-c-the-press",
+      "title": "Part C: The press",
+      "paragraphs": 52,
+      "ids": "53e919ef0638"
+    },
+    {
+      "slug": "chapter-2-the-press-history-governance-structures-and-finances",
+      "title": "Chapter 2: The press: history, governance structures and finances",
+      "paragraphs": 278,
+      "ids": "7c0f7644512e"
     },
     {
       "slug": "chapter-3-alternative-news-providers",
       "title": "Chapter 3: Alternative news providers",
-      "paragraphs": 328,
-      "ids": "3401317cb6dc"
+      "paragraphs": 110,
+      "ids": "2aa23e621be6"
     },
     {
-      "slug": "chapter-2-self-regulation-of-the-press-1-introduction",
-      "title": "Chapter 2: Self-regulation of the preSS 1. introduction",
-      "paragraphs": 192,
-      "ids": "33c3ba300e90"
+      "slug": "chapter-4-plurality",
+      "title": "Chapter 4: Plurality",
+      "paragraphs": 78,
+      "ids": "19e05ca4723d"
     },
     {
-      "slug": "operation-reproof",
-      "title": "Operation Reproof",
-      "paragraphs": 16,
-      "ids": "970ca54a4b3f"
+      "slug": "part-d-standards",
+      "title": "Part D: Standards",
+      "paragraphs": 105,
+      "ids": "4340c263ae07"
     },
     {
-      "slug": "operation-glade",
-      "title": "Operation Glade",
-      "paragraphs": 57,
-      "ids": "bd6423e44e7f"
+      "slug": "chapter-2-self-regulation-of-the-press",
+      "title": "Chapter 2: Self-regulation of the press",
+      "paragraphs": 156,
+      "ids": "372d567ea939"
     },
     {
-      "slug": "publication-of-parliamentary-reports-in",
-      "title": "Publication of Parliamentary Reports in",
-      "paragraphs": 26,
-      "ids": "931af3e5d540"
+      "slug": "part-e-crossing-legal-boundaries-the-criminal-and-civil-law",
+      "title": "Part E: Crossing legal boundaries: the criminal and civil law",
+      "paragraphs": 14,
+      "ids": "168c37a84d6e"
     },
     {
-      "slug": "chapter-4-phone-hacking-the-expanding-impact-of-operation-caryatid-1-introductio",
-      "title": "Chapter 4: Phone hacking: the expanding impact of operation Caryatid 1. Introduction",
-      "paragraphs": 396,
-      "ids": "bd45a80e58dc"
+      "slug": "chapter-2-police-investigations-start",
+      "title": "Chapter 2: Police investigations start",
+      "paragraphs": 34,
+      "ids": "389217c0e687"
     },
     {
-      "slug": "july-2009-the-guardian",
-      "title": "July 2009: The Guardian",
-      "paragraphs": 283,
-      "ids": "a17ccbe4b58d"
-    },
-    {
-      "slug": "september-2010-the-new-york-times",
-      "title": "September 2010: The New York Times",
-      "paragraphs": 119,
-      "ids": "6f279d47ceb2"
-    },
-    {
-      "slug": "police-inquiries-operations-weeting-elveden-and-tuleta",
-      "title": "Police Inquiries: Operations Weeting, Elveden and tuleta",
-      "paragraphs": 20,
-      "ids": "c11e6c9a1216"
-    },
-    {
-      "slug": "the-management-and-standards-committee",
-      "title": "The Management and Standards Committee",
-      "paragraphs": 64,
-      "ids": "736ccaf784e4"
-    },
-    {
-      "slug": "practices-and-ethics-of-the-press",
-      "title": "PRACTICES AND ETHICS OF THE PRESS",
-      "paragraphs": 35,
-      "ids": "34e252267cce"
-    },
-    {
-      "slug": "appendices",
-      "title": "APPENDICES",
-      "paragraphs": 55,
-      "ids": "66a481b2625c"
-    },
-    {
-      "slug": "chapter-2-good-practice-1-the-value-and-virtues-of-the-uk-press-overview",
-      "title": "Chapter 2: Good Practice 1. The value and virtues of the UK press Overview",
-      "paragraphs": 116,
-      "ids": "89a2d6f1cfc7"
-    },
-    {
-      "slug": "chapter-3-complaints-of-an-unethical-press-1-overview",
-      "title": "Chapter 3: Complaints of an Unethical Press 1. Overview",
-      "paragraphs": 107,
-      "ids": "f10936e3ab3a"
-    },
-    {
-      "slug": "chapter-4-some-practices-at-the-news-of-the-world-1-introduction",
-      "title": "Chapter 4: Some practices at the News of the World 1. Introduction",
-      "paragraphs": 241,
-      "ids": "b7230c817385"
-    },
-    {
-      "slug": "chapter-5-some-case-studies-1-introduction",
-      "title": "Chapter 5: Some Case Studies 1. Introduction",
-      "paragraphs": 16,
-      "ids": "49fd9aca3e5a"
-    },
-    {
-      "slug": "the-dowlers",
-      "title": "The Dowlers",
-      "paragraphs": 23,
-      "ids": "b8c582279473"
-    },
-    {
-      "slug": "kate-and-gerry-mccann",
-      "title": "Kate and Gerry McCann",
-      "paragraphs": 54,
-      "ids": "35fa9f1c6e52"
-    },
-    {
-      "slug": "christopher-jefferies",
-      "title": "Christopher Jefferies",
-      "paragraphs": 75,
-      "ids": "b5dd65c7ead4"
-    },
-    {
-      "slug": "sebastian-bowles",
-      "title": "Sebastian Bowles",
-      "paragraphs": 85,
-      "ids": "72cd1264f30e"
-    },
-    {
-      "slug": "chapter-6-criticisms-of-the-culture-practices-and-ethics-of-the-press-1-introduc",
-      "title": "Chapter 6: Criticisms of the culture, practices and ethics of the press 1. Introduction",
-      "paragraphs": 483,
-      "ids": "92f7a2c987c0"
-    },
-    {
-      "slug": "love-celeb-gossip-so-do-we-send-us-your-story",
-      "title": "LOVE CELEB GOSSIP? SO DO WE, SEND US YOUR STORY!",
-      "paragraphs": 95,
-      "ids": "fb4cc560f734"
-    },
-    {
-      "slug": "chapter-7-conclusion-1-introduction",
-      "title": "Chapter 7: Conclusion 1. Introduction",
-      "paragraphs": 112,
-      "ids": "ad0685f562f8"
-    },
-    {
-      "slug": "chapter-1-policing-with-consent-the-role-of-the-press-1-introduction",
-      "title": "Chapter 1: Policing with Consent: The Role of the Press 1. Introduction",
-      "paragraphs": 32,
-      "ids": "d6b8cd30fb23"
-    },
-    {
-      "slug": "metropolitan-police-service-the-commissioners",
-      "title": "Metropolitan Police Service: the Commissioners",
-      "paragraphs": 128,
-      "ids": "b060c4757909"
-    },
-    {
-      "slug": "the-press-and-the-police-the-harm-and-the-response",
-      "title": "THE PRESS AND THE POLICE: THE HARM AND THE RESPONSE",
-      "paragraphs": 733,
-      "ids": "be13e8fbfb15"
-    },
-    {
-      "slug": "independent-police-complaints-commission-ipcc",
-      "title": "Independent Police Complaints Commission (IPCC)",
-      "paragraphs": 90,
-      "ids": "cafcbc231515"
-    },
-    {
-      "slug": "association-of-chief-police-officers-acpo",
-      "title": "Association of Chief Police Officers (ACPO)",
+      "slug": "chapter-3-operation-motorman",
+      "title": "Chapter 3: Operation Motorman",
       "paragraphs": 56,
-      "ids": "20ba1ffcbccf"
+      "ids": "4f1c2b69dcf9"
+    },
+    {
+      "slug": "chapter-4-phone-hacking-the-expanding-impact-of-operation-caryatid",
+      "title": "Chapter 4: Phone hacking: the expanding impact of Operation Caryatid",
+      "paragraphs": 748,
+      "ids": "218b007915fd"
+    },
+    {
+      "slug": "chapter-5-a-new-approach-to-the-allegations",
+      "title": "Chapter 5: A new approach to the allegations",
+      "paragraphs": 110,
+      "ids": "43361e77e3ab"
+    },
+    {
+      "slug": "part-f-the-culture-practices-and-ethics-of-the-press-the-press-and-the-public",
+      "title": "Part F: The Culture, Practices and Ethics of the Press: the Press and the Public",
+      "paragraphs": 50,
+      "ids": "98e101e920d6"
+    },
+    {
+      "slug": "chapter-2-good-practice",
+      "title": "Chapter 2: Good Practice",
+      "paragraphs": 97,
+      "ids": "57d8763da551"
+    },
+    {
+      "slug": "chapter-3-complaints-of-an-unethical-press",
+      "title": "Chapter 3: Complaints of an Unethical Press",
+      "paragraphs": 90,
+      "ids": "a4e4c160fab9"
+    },
+    {
+      "slug": "chapter-4-some-practices-at-the-news-of-the-world",
+      "title": "Chapter 4: Some practices at the News of the World",
+      "paragraphs": 217,
+      "ids": "82aaf826ccfe"
+    },
+    {
+      "slug": "chapter-5-some-case-studies",
+      "title": "Chapter 5: Some Case Studies",
+      "paragraphs": 221,
+      "ids": "9f2e0c199688"
+    },
+    {
+      "slug": "chapter-6-criticisms-of-the-culture-practices-and-ethics-of-the-press",
+      "title": "Chapter 6: Criticisms of the culture, practices and ethics of the press",
+      "paragraphs": 532,
+      "ids": "b1502d0ec991"
+    },
+    {
+      "slug": "chapter-7-conclusion",
+      "title": "Chapter 7: Conclusion",
+      "paragraphs": 104,
+      "ids": "5a8419b790ff"
+    },
+    {
+      "slug": "part-g-the-press-and-the-police-the-relationship",
+      "title": "Part G: The Press and the Police: the Relationship",
+      "paragraphs": 31,
+      "ids": "78a17c9a66b9"
+    },
+    {
+      "slug": "chapter-2-the-history-of-the-relationship-different-approaches",
+      "title": "Chapter 2: The History of the Relationship: Different Approaches",
+      "paragraphs": 111,
+      "ids": "30fce242d469"
+    },
+    {
+      "slug": "chapter-3-the-press-and-the-police-the-harm-and-the-response",
+      "title": "Chapter 3: The press and the police: the harm and the response",
+      "paragraphs": 797,
+      "ids": "ba45e29ea73c"
     },
     {
       "slug": "chapter-4-the-press-and-the-police-conclusions-and-recommendations",
-      "title": "CHAPTER 4 THE PRESS AND THE POLICE: CONCLUSIONS AND RECOMMENDATIONS",
-      "paragraphs": 82,
-      "ids": "a40d503d7bc3"
+      "title": "Chapter 4: The press and the police: conclusions and recommendations",
+      "paragraphs": 118,
+      "ids": "8c593302e31d"
     },
     {
-      "slug": "practices-and-ethics-of-the-press-2",
-      "title": "PRACTICES AND ETHICS OF THE PRESS",
-      "paragraphs": 37,
-      "ids": "1e4c81c41560"
+      "slug": "part-h-the-press-and-data-protection",
+      "title": "Part H: The Press and Data Protection",
+      "paragraphs": 20,
+      "ids": "b89ae5e61290"
     },
     {
-      "slug": "part-h",
-      "title": "PART H",
-      "paragraphs": 21,
-      "ids": "ddeb88fb9a34"
-    },
-    {
-      "slug": "chapter-2-operation-motorman-1-the-investigation",
-      "title": "Chapter 2: Operation Motorman 1. The investigation",
+      "slug": "chapter-2-operation-motorman",
+      "title": "Chapter 2: Operation Motorman",
       "paragraphs": 135,
-      "ids": "3b984786082a"
+      "ids": "4be6a6ab0e5a"
     },
     {
-      "slug": "chapter-3-other-possible-regulatory-options-1-criminal-proceedings-in-respect-of",
-      "title": "Chapter 3: Other Possible Regulatory Options 1. Criminal proceedings in respect of journalists",
-      "paragraphs": 132,
-      "ids": "749a01e6d3c3"
+      "slug": "chapter-3-other-possible-regulatory-options",
+      "title": "Chapter 3: Other Possible Regulatory Options",
+      "paragraphs": 131,
+      "ids": "be60afdb2bc0"
     },
     {
       "slug": "chapter-4-the-ico-and-the-press-today",
       "title": "Chapter 4: The ICO and the Press today",
       "paragraphs": 45,
-      "ids": "6fe14e63187e"
+      "ids": "6ccceb283eb3"
     },
     {
-      "slug": "chapter-5-issues-about-the-legal-framework-1-the-current-views-of-the-ico",
-      "title": "Chapter 5: Issues about the Legal Framework 1. The current views of the ICO",
-      "paragraphs": 176,
-      "ids": "ae86b5a76db5"
+      "slug": "chapter-5-issues-about-the-legal-framework",
+      "title": "Chapter 5: Issues about the Legal Framework",
+      "paragraphs": 159,
+      "ids": "89a0fb3defd7"
     },
     {
-      "slug": "chapter-6-the-relationship-the-ico-and-the-press-1-too-big-for-us",
-      "title": "Chapter 6: The Relationship: the ICO and the Press 1. \"Too big for us?\"",
-      "paragraphs": 77,
-      "ids": "f8503795634e"
+      "slug": "chapter-6-the-relationship-the-ico-and-the-press",
+      "title": "Chapter 6: The Relationship: the ICO and the Press",
+      "paragraphs": 74,
+      "ids": "9d08baef1a2f"
     },
     {
       "slug": "chapter-7-summary-of-recommendations",
       "title": "Chapter 7: Summary of recommendations",
-      "paragraphs": 38,
-      "ids": "301831425886"
+      "paragraphs": 15,
+      "ids": "6677c11ac830"
     },
     {
-      "slug": "prime-minister-thatcher-1979-1990",
-      "title": "Prime Minister Thatcher: 1979-1990",
-      "paragraphs": 25,
-      "ids": "42d312625efa"
+      "slug": "part-i-the-press-and-politicians",
+      "title": "Part I: The Press and politicians",
+      "paragraphs": 22,
+      "ids": "146634378455"
     },
     {
-      "slug": "prime-minister-major-1990-1997",
-      "title": "Prime Minister Major: 1990-1997",
-      "paragraphs": 33,
-      "ids": "9a60c2957c7a"
+      "slug": "chapter-2-the-conservative-years",
+      "title": "Chapter 2: The Conservative Years",
+      "paragraphs": 55,
+      "ids": "8ff8b145c1f6"
     },
     {
-      "slug": "chapter-3-new-labour-1-the-1992-general-election",
-      "title": "Chapter 3: New Labour 1. The 1992 general election",
-      "paragraphs": 46,
-      "ids": "d1074bd5190b"
-    },
-    {
-      "slug": "prime-minister-blair-1997",
-      "title": "Prime Minister Blair: 1997 –",
-      "paragraphs": 31,
-      "ids": "96d0c40fb8d2"
-    },
-    {
-      "slug": "prime-minister-brown-2007",
-      "title": "Prime Minister Brown: 2007 –",
-      "paragraphs": 51,
-      "ids": "14c0a28d90ae"
+      "slug": "chapter-3-new-labour",
+      "title": "Chapter 3: New Labour",
+      "paragraphs": 116,
+      "ids": "47b9b24ac096"
     },
     {
       "slug": "chapter-4-the-conservative-revival-and-the-coalition",
       "title": "Chapter 4: The Conservative Revival and the Coalition",
-      "paragraphs": 206,
-      "ids": "6fceb56b0057"
+      "paragraphs": 276,
+      "ids": "e144d4997bc9"
     },
     {
-      "slug": "prime-minister-cameron-2010-present",
-      "title": "Prime Minister Cameron: 2010-present",
-      "paragraphs": 99,
-      "ids": "a6444c2be13b"
-    },
-    {
-      "slug": "purchase-of-the-times-and-the-sunday-times",
-      "title": "Purchase of The Times and The Sunday Times",
-      "paragraphs": 166,
-      "ids": "a6be6f92b745"
-    },
-    {
-      "slug": "human-rights-act",
-      "title": "Human Rights Act",
-      "paragraphs": 38,
-      "ids": "7682cff57dec"
-    },
-    {
-      "slug": "data-protection-act",
-      "title": "Data Protection Act",
-      "paragraphs": 41,
-      "ids": "34aced34c0e9"
-    },
-    {
-      "slug": "communications-act",
-      "title": "Communications Act",
-      "paragraphs": 41,
-      "ids": "a159a61c1df2"
-    },
-    {
-      "slug": "possible-steps-to-strengthen-regulation-of-content",
-      "title": "POSSIBLE STEPS TO STRENGTHEN REGULATION OF CONTENT",
-      "paragraphs": 45,
-      "ids": "3706b724cd11"
+      "slug": "chapter-5-media-policy-examples-from-recent-history",
+      "title": "Chapter 5: Media policy: examples from recent history",
+      "paragraphs": 282,
+      "ids": "6e805bd51829"
     },
     {
       "slug": "chapter-6-media-policy-the-bskyb-bid",
-      "title": "CHAPTER 6 MEDIA POLICY: THE BSKYB BID",
-      "paragraphs": 44,
-      "ids": "02db56e33122"
-    },
-    {
-      "slug": "june-2010-december-2010-the-rt-hon-dr-vince",
-      "title": "June 2010 – December 2010: The Rt Hon Dr Vince",
-      "paragraphs": 193,
-      "ids": "62e3aca8cd3a"
-    },
-    {
-      "slug": "december-2010-july-2011-the-rt-hon-jeremy-hunt",
-      "title": "December 2010 – July 2011: The Rt Hon Jeremy Hunt",
-      "paragraphs": 237,
-      "ids": "ff3859130bb4"
-    },
-    {
-      "slug": "news-corp-and-the-rt-hon-alex-salmond-msp",
-      "title": "News Corp and the Rt Hon Alex Salmond MSP",
-      "paragraphs": 24,
-      "ids": "f4a80e0f58c4"
+      "title": "Chapter 6: Media policy: the BSkyB bid",
+      "paragraphs": 457,
+      "ids": "8a50d09316ca"
     },
     {
       "slug": "chapter-7-further-political-perspectives-on-relationships-with-the-press",
-      "title": "CHAPTER 7 FURTHER POLITICAL PERSPECTIVES ON RELATIONSHIPS WITH THE PRESS",
-      "paragraphs": 9,
-      "ids": "a30033edbb0f"
-    },
-    {
-      "slug": "the-leader-of-the-opposition-the-rt-hon-ed-miliband",
-      "title": "The Leader of the Opposition, the Rt Hon Ed Miliband",
-      "paragraphs": 7,
-      "ids": "47fa3d666015"
-    },
-    {
-      "slug": "the-first-minister-of-scotland-the-rt-hon-alex",
-      "title": "The First Minister of Scotland, the Rt Hon Alex",
-      "paragraphs": 18,
-      "ids": "e5276797da2b"
-    },
-    {
-      "slug": "the-rt-hon-kenneth-clarke-qc-mp",
-      "title": "The Rt Hon Kenneth Clarke QC MP",
-      "paragraphs": 8,
-      "ids": "726d26095671"
-    },
-    {
-      "slug": "the-rt-hon-michael-gove-mp",
-      "title": "The Rt Hon Michael Gove MP",
-      "paragraphs": 6,
-      "ids": "a29184ab1563"
+      "title": "Chapter 7: Further political perspectives on relationships with the press",
+      "paragraphs": 42,
+      "ids": "a18e37f3ac09"
     },
     {
       "slug": "chapter-8-conclusions-and-recommendations",
       "title": "Chapter 8: Conclusions And Recommendations",
-      "paragraphs": 191,
-      "ids": "3093b1f6d236"
+      "paragraphs": 176,
+      "ids": "561ad773147a"
     },
     {
-      "slug": "chapter-9-plurality-and-media-ownership-conclusions-and-recommendations-1-introd",
-      "title": "Chapter 9: Plurality and Media Ownership: conclusions and recommendations 1. Introduction",
-      "paragraphs": 111,
-      "ids": "7be3f4f7945b"
+      "slug": "chapter-9-plurality-and-media-ownership-conclusions-and-recommendations",
+      "title": "Chapter 9: Plurality and Media Ownership: conclusions and recommendations",
+      "paragraphs": 139,
+      "ids": "fb1f565423eb"
     },
     {
-      "slug": "practices-and-ethics-of-the-press-3",
-      "title": "PRACTICES AND ETHICS OF THE PRESS",
-      "paragraphs": 35,
-      "ids": "f5b6f2e001f4"
+      "slug": "part-j-aspects-of-regulation-the-law-and-the-press-complaints-commission",
+      "title": "Part J: Aspects of regulation: the law and the Press Complaints Commission",
+      "paragraphs": 7,
+      "ids": "8b8a4e75ed62"
     },
     {
-      "slug": "appendices-2",
-      "title": "APPENDICES",
-      "paragraphs": 84,
-      "ids": "3aa8e26d2083"
+      "slug": "chapter-2-the-criminal-law",
+      "title": "Chapter 2: The Criminal Law",
+      "paragraphs": 71,
+      "ids": "b6bbae7c10ed"
     },
     {
       "slug": "chapter-3-the-civil-law",
       "title": "Chapter 3: The Civil Law",
-      "paragraphs": 62,
-      "ids": "201347b49525"
+      "paragraphs": 59,
+      "ids": "ed3249330897"
     },
     {
       "slug": "chapter-4-the-press-complaints-commission-and-its-effectiveness",
-      "title": "CHAPTER 4 THE PRESS COMPLAINTS COMMISSION AND ITS EFFECTIVENESS",
-      "paragraphs": 324,
-      "ids": "f42fc3985623"
+      "title": "Chapter 4: The Press Complaints Commission and its effectiveness",
+      "paragraphs": 289,
+      "ids": "4e75c0d7b1b9"
     },
     {
-      "slug": "chapter-1-criteria-for-a-regulatory-solution",
-      "title": "Chapter 1: Criteria For A Regulatory Solution",
-      "paragraphs": 148,
-      "ids": "a8b4bdfd832c"
+      "slug": "part-k-regulatory-models-for-the-future",
+      "title": "Part K: Regulatory Models for the Future",
+      "paragraphs": 50,
+      "ids": "bcae23e6b06e"
     },
     {
-      "slug": "the-industry-funding-body",
-      "title": "The Industry Funding Body",
-      "paragraphs": 20,
-      "ids": "28b6126ef0a5"
+      "slug": "chapter-2-the-self-regulatory-model-proposed-by-the-pcc-and-pressbof",
+      "title": "Chapter 2: The self regulatory model proposed by the PCC and PressBoF",
+      "paragraphs": 104,
+      "ids": "05d280989b29"
     },
     {
-      "slug": "chapter-3-analysis-of-the-model-proposed-by-the-pcc-and-pressbof-1-introduction",
-      "title": "Chapter 3: Analysis of the Model Proposed by the Pcc and Pressbof 1. Introduction",
-      "paragraphs": 208,
-      "ids": "76e00151ea64"
+      "slug": "chapter-3-analysis-of-the-model-proposed-by-the-pcc-and-pressbof",
+      "title": "Chapter 3: Analysis of the Model Proposed by the PCC and PressBoF",
+      "paragraphs": 166,
+      "ids": "303de6d72da1"
     },
     {
-      "slug": "chapter-4-other-proposals-submitted-to-the-inquiry-1-introduction",
-      "title": "Chapter 4: Other Proposals Submitted to the Inquiry 1. Introduction",
-      "paragraphs": 152,
-      "ids": "88edaaa3aff5"
+      "slug": "chapter-4-other-proposals-submitted-to-the-inquiry",
+      "title": "Chapter 4: Other Proposals Submitted to the Inquiry",
+      "paragraphs": 253,
+      "ids": "316881e2bfc7"
     },
     {
-      "slug": "the-code",
-      "title": "The Code",
-      "paragraphs": 135,
-      "ids": "81e2fcf3a286"
-    },
-    {
-      "slug": "the-press-council-of-ireland-and-the-press",
-      "title": "The Press Council of Ireland and the Press",
-      "paragraphs": 155,
-      "ids": "8a21ddb43a86"
+      "slug": "chapter-5-international-comparators",
+      "title": "Chapter 5: International Comparators",
+      "paragraphs": 122,
+      "ids": "58f39ed7ba7a"
     },
     {
       "slug": "chapter-6-techniques-of-regulation",
       "title": "Chapter 6: Techniques of Regulation",
-      "paragraphs": 90,
-      "ids": "cd30dc624ebe"
+      "paragraphs": 72,
+      "ids": "7346d6efb3a3"
     },
     {
-      "slug": "chapter-7",
-      "title": "CHAPTER 7",
-      "paragraphs": 263,
-      "ids": "37ef232144ef"
+      "slug": "chapter-7-conclusions-and-recommendations-for-future-regulation-of-the-press",
+      "title": "Chapter 7: Conclusions and recommendations for future regulation of the press",
+      "paragraphs": 245,
+      "ids": "a73773d49092"
     },
     {
       "slug": "chapter-8-the-alternatives",
-      "title": "CHAPTER 8 THE ALTERNATIVES",
-      "paragraphs": 80,
-      "ids": "494e8c36fba1"
+      "title": "Chapter 8: The alternatives",
+      "paragraphs": 72,
+      "ids": "b538f14f07b8"
     },
     {
-      "slug": "chapter-9-recommendations-for-a-selfregulatory-body-1-introduction",
-      "title": "Chapter 9: Recommendations for A self‑regulatory body 1. Introduction",
-      "paragraphs": 36,
-      "ids": "2297bb4889d2"
+      "slug": "chapter-9-recommendations-for-a-selfregulatory-body",
+      "title": "Chapter 9: Recommendations for A self‑regulatory body",
+      "paragraphs": 29,
+      "ids": "6745af754e50"
     },
     {
       "slug": "part-l-summary-of-recommendations",
-      "title": "PART L SUMMARY OF RECOMMENDATIONS",
-      "paragraphs": 95,
-      "ids": "feb1cc5fbadb"
+      "title": "Part L: Summary of recommendations",
+      "paragraphs": 157,
+      "ids": "de703e0cb2f1"
     },
     {
-      "slug": "the-report-of-the-law-commission-on-aggravated-exemplary-and-restitutionary-dama",
-      "title": "The Report of the Law Commission on Aggravated, Exemplary and Restitutionary Damages",
-      "paragraphs": 122,
-      "ids": "ebf930c39886"
+      "slug": "appendix-2-submissions-and-correspondence-statistics",
+      "title": "Appendix 2: Submissions and correspondence statistics",
+      "paragraphs": 18,
+      "ids": "5485511022de"
     },
     {
-      "slug": "engage",
-      "title": "ENGAGE",
-      "paragraphs": 133,
-      "ids": "845155ed4ce7"
+      "slug": "appendix-3-witnesses-to-the-inquiry",
+      "title": "Appendix 3: Witnesses to the inquiry",
+      "paragraphs": 73,
+      "ids": "853df326d4b2"
     },
     {
-      "slug": "civil-law",
-      "title": "Civil Law",
-      "paragraphs": 416,
-      "ids": "f1d68588d172"
+      "slug": "appendix-4-legal-materials",
+      "title": "Appendix 4: Legal materials",
+      "paragraphs": 571,
+      "ids": "6121c8910bbe"
     },
     {
-      "slug": "section-55-data-protection-act",
-      "title": "Section 55: Data Protection Act",
-      "paragraphs": 147,
-      "ids": "52f66218476e"
+      "slug": "appendix-5-evidence-relevant-to-the-generic-conclusions-on-the-relationship-betw",
+      "title": "Appendix 5: Evidence relevant to the generic conclusions on the relationship between politicians and the press: Part I Chapter 8",
+      "paragraphs": 114,
+      "ids": "32ebc88b5640"
     },
     {
-      "slug": "part-i-chapter-8",
-      "title": "PART I CHAPTER 8",
-      "paragraphs": 124,
-      "ids": "fbd9726e191f"
+      "slug": "appendix-6-bibliography",
+      "title": "Appendix 6: Bibliography",
+      "paragraphs": 8,
+      "ids": "93c2695152e7"
     },
     {
       "slug": "notes-not-linked-in-the-text",

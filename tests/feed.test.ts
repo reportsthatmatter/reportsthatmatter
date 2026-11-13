@@ -130,11 +130,14 @@ describe("publishMark", () => {
 
   it("(d) a mark made under a moved paragraph id is stored under the id that holds the text now", async () => {
     const meta = JSON.parse(readFileSync(`assets/generated/reports/${REPORT}/meta.json`, "utf8"));
+    const fragmentOf = (id: string) =>
+      readFileSync(`assets/generated/reports/${REPORT}/fragments/${meta.paragraphToSection[id]}.html`, "utf8");
+    // An alias onto a paragraph (not a list, whose words extractParagraph does not read).
     const [oldId, newId] = Object.entries(meta.paragraphAliases as Record<string, string>).find(
-      ([, to]) => meta.paragraphToSection[to]
+      ([, to]) => meta.paragraphToSection[to] && extractParagraph(fragmentOf(to), to)
     )!;
     const slug = meta.paragraphToSection[newId];
-    const html = readFileSync(`assets/generated/reports/${REPORT}/fragments/${slug}.html`, "utf8");
+    const html = fragmentOf(newId);
     const text = extractParagraph(html, newId)!;
     const words = text.split(" ").slice(0, 8).join(" ");
     const db = createSqliteD1();

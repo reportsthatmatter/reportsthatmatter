@@ -37,14 +37,14 @@ reports:
     blocks-wrong: 28
   uk-leveson-inquiry:
     markers-wrong: 0
-    markers-stacked: 0
+    markers-stacked: 1  # why: reportsthatmatter-r0w - edgeLetters takes the thumb letter off "H   materialised with the Court of Appeal's judgment" (vol iii PDF p.86, printed 1068), so the page's only text runs on, rightly, as the end of the quotation from p.1067 and its marker sits beside the next page's
     pages-unmarked: 0
-    blocks-wrong: 4  # why: reportsthatmatter-fkx - after facingPageMargins the recommendations box over printed pp.1112-1113 ("…led by a Board of Commissioners" / "Board a Commissioner from the media sector.[^10] I recommend…") opens its page-1113 block under %%page 1112%%; the three from main (pp.56/57, 919/920, 1830/1831) are unchanged
+    blocks-wrong: 3  # why: the three from before fkx (pp.56/57, 919/920, 1830/1831); fkx's recommendations box over printed pp.1112-1113 now opens under its own page (r0w)
   columbia-accident:
     markers-wrong: 0
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 2
+    blocks-wrong: 1
   us-911-commission:
     markers-wrong: 0
     markers-stacked: 0
@@ -63,8 +63,8 @@ reports:
   uk-hillsborough-panel:
     markers-wrong: 15  # why: ivg.3 - read on the website-edition text: pp.13-25 are the Report summary, which repeats chapter text, so the check finds those paragraphs far away ("66669 words before the start"); pp.33/34/74/107/173 are figure captions the edition prints a page early or late; pp.128/174/316/366 sit 7-86 words into the right PDF page
     markers-stacked: 1  # why: ivg.3 - one marker after a block that runs over several pages (a long table or caption block in the website edition)
-    pages-unmarked: 12
-    blocks-wrong: 86  # why: ivg.3 - 79 of the 86 are on pages no marker names (the Report summary repeats chapter text, so the check places those paragraphs in the chapter) and the rest are the figure captions at pp.32-34, 73, 107, 173
+    pages-unmarked: 0
+    blocks-wrong: 7  # why: ivg.3 - five figure captions the edition prints a page early or late (pp.33, 34, 74, 107, 174), one Coroner paragraph the Report summary repeats (the check finds it at p.20) and one paragraph 86 words into p.316; the 79 on unmarked part and chapter openers went with j8kw
   uk-saville-inquiry:
     markers-wrong: 0
     markers-stacked: 1
@@ -126,7 +126,7 @@ reports:
     pages-unmarked: 0
     blocks-wrong: 0
   uk-stern-review:
-    markers-wrong: 0
+    markers-wrong: 1  # why: reportsthatmatter-gqsy.9.2 (Part I's p.1 marker, correct: Chapter 5's reissue also prints folio 1, and the check takes that page for it)
     markers-stacked: 0
     pages-unmarked: 0
-    blocks-wrong: 0
+    blocks-wrong: 1  # why: reportsthatmatter-gqsy.9.2 (Ch9 "The technical potential for efficiency improvements" opens with two lines at the foot of p.219, as marked, and runs on to p.220, where most of its words are; read against the page image)

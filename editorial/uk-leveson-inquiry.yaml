@@ -35,15 +35,15 @@
 #   matter and Part A Chapter 1 (the Announcement).
 #
 # Ingestion defect found while writing this file (reportsthatmatter-djy):
-# several chapter headings were attached to the wrong body text. Since the
-# 2026-10-02 re-ingest, the wrapped contents entry no longer opens a bogus
-# "Chapter 7" section at the start of Part A, the quoted clause title
-# '"GUARANTEE OF MEDIA FREEDOM' is no longer a heading, and Part K's real
-# Chapter 7 (paras 7.1-7.12 included) is one section, slug `chapter-7`, whose
-# heading reads only "CHAPTER 7" (its small-caps title is not recovered).
-# Part H is split into its chapters. Most Parts and many chapters still have
-# no heading of their own (reportsthatmatter-r0w), so `title` overrides
-# below still correct the reading-guide labels; paragraph ids are unaffected.
+# several chapter headings were attached to the wrong body text, and most Parts
+# and chapters had no heading. Since the 2026-11-12 re-ingest (r0w) every Part,
+# chapter and numbered section has its own heading, read off the PDF's faces
+# ("Part K: Regulatory Models for the Future", "Chapter 7: Conclusions and
+# recommendations for future regulation of the press"), so sections are the
+# Parts and chapters. A numbered section such as "2. The Dowlers" is a heading
+# inside its chapter, not a section: its reading-guide entry points at the
+# chapter. The remaining `title` overrides shorten or re-case a chapter's
+# heading for the guide.
 #
 # status: draft until Rufus approves; only approved files render without ?draft.
 
@@ -134,7 +134,7 @@ findings:
     cites: [7-10-unfortunately-there-may]
 
   - text: The News of the World hacked Milly Dowler's phone in April 2002, as it later admitted to Surrey Police. The report finds, on the balance of probabilities, that this hacking was not the cause of the "false hope moment" widely blamed on it - the voicemail system's own automatic deletion of messages accounts for that - but confirms the phone was indeed hacked.
-    cites: [f-2-19-last-assertion, 2-15-would-be-otiose, 2-16-remains-worthwhile-underline]
+    cites: [2-19-last-assertion-course, 2-15-would-be-otiose, 2-16-remains-worthwhile-underline]
     excerpt:
       paragraph: 2-16-remains-worthwhile-underline
       quote: >-
@@ -159,8 +159,7 @@ findings:
     cites: [1-5-i-will-examine, 1-3-integrity-lies-heart, 1-4-i-mention-mps]
 
 reading_guide:
-  - section: chapter-7
-    title: "Chapter 7: Conclusions and recommendations for future regulation"
+  - section: chapter-7-conclusions-and-recommendations-for-future-regulation-of-the-press
     why: Leveson's own summary of what he recommends and why - an independent regulator, backed by law only to recognise it, which he insists is not regulation of the press.
     excerpt:
       paragraph: 7-2-i-have-therefore
@@ -175,7 +174,7 @@ reading_guide:
     title: "Part L: Summary of recommendations"
     why: The recommendations themselves, numbered and grouped by topic, from the regulator's powers to the criminal law and police conduct.
     excerpt:
-      paragraph: arbitration-service-22-board-should
+      paragraph: 22-board-should-provide-arbitral
       quote: >-
         The Board should provide an arbitral process in relation to civil
         legal claims against subscribers, drawing on independent legal
@@ -202,7 +201,8 @@ reading_guide:
         period and to the extent that they judge that this is in their best
         interests.
 
-  - section: the-dowlers
+  - section: chapter-5-some-case-studies
+    title: "The Dowlers (Part F, Chapter 5: Some case studies)"
     why: The phone-hacking case that brought down the News of the World and led to the Inquiry, including the Inquiry's own correction of one widely-reported detail about it.
     excerpt:
       paragraph: 2-22-guardian-s-error

@@ -1,12 +1,120 @@
 {
-  "words": 12342,
-  "paragraphs": 210,
+  "words": 150101,
+  "paragraphs": 2184,
   "sections": [
     {
       "slug": "executive-summary",
       "title": "Executive Summary",
       "paragraphs": 210,
       "ids": "2895bd661438"
+    },
+    {
+      "slug": "preface",
+      "title": "Preface",
+      "paragraphs": 10,
+      "ids": "c1dbbb45b590"
+    },
+    {
+      "slug": "acknowledgements",
+      "title": "Acknowledgements",
+      "paragraphs": 9,
+      "ids": "8787a32125d4"
+    },
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "paragraphs": 12,
+      "ids": "c6397c099ef6"
+    },
+    {
+      "slug": "summary-of-conclusions",
+      "title": "Summary of Conclusions",
+      "paragraphs": 35,
+      "ids": "825421ec53e8"
+    },
+    {
+      "slug": "part-i-climate-change-our-approach",
+      "title": "Part I: Climate Change – our approach",
+      "paragraphs": 6,
+      "ids": "2b1309f82b3c"
+    },
+    {
+      "slug": "1-the-science-of-climate-change-scale-of-the-environment-challenge",
+      "title": "1 The Science of Climate Change: Scale of the Environment Challenge",
+      "paragraphs": 165,
+      "ids": "7e6c8c26e4cb"
+    },
+    {
+      "slug": "2-economics-ethics-and-climate-change",
+      "title": "2 Economics, Ethics and Climate Change",
+      "paragraphs": 158,
+      "ids": "d016b93bc376"
+    },
+    {
+      "slug": "part-ii-impacts-of-climate-change-on-growth-and-development",
+      "title": "Part II: Impacts of Climate Change on Growth and Development",
+      "paragraphs": 7,
+      "ids": "236589041e75"
+    },
+    {
+      "slug": "3-how-climate-change-will-affect-people-around-the-world",
+      "title": "3 How Climate Change Will Affect People Around The World",
+      "paragraphs": 225,
+      "ids": "59fe1091e8d0"
+    },
+    {
+      "slug": "4-implications-of-climate-change-for-development",
+      "title": "4 Implications of Climate Change for Development",
+      "paragraphs": 241,
+      "ids": "ed3a3fca43ab"
+    },
+    {
+      "slug": "5-costs-of-climate-change-in-developed-countries",
+      "title": "5 Costs Of Climate Change In Developed Countries",
+      "paragraphs": 156,
+      "ids": "8fb3820da52d"
+    },
+    {
+      "slug": "6-economic-modelling-of-climate-change-impacts",
+      "title": "6 Economic modelling of climate-change impacts",
+      "paragraphs": 191,
+      "ids": "409a1a504b65"
+    },
+    {
+      "slug": "part-iii-the-economics-of-stabilisation",
+      "title": "Part III: The Economics of Stabilisation",
+      "paragraphs": 7,
+      "ids": "4a10e622731b"
+    },
+    {
+      "slug": "7-projecting-the-growth-of-greenhouse-gas-emissions",
+      "title": "7 Projecting the Growth of Greenhouse-Gas Emissions",
+      "paragraphs": 161,
+      "ids": "59c4d81574ee"
+    },
+    {
+      "slug": "8-the-challenge-of-stabilisation",
+      "title": "8 The Challenge of Stabilisation",
+      "paragraphs": 144,
+      "ids": "48e8250ba678"
+    },
+    {
+      "slug": "9-identifying-the-costs-of-mitigation",
+      "title": "9 Identifying the Costs of Mitigation",
+      "paragraphs": 171,
+      "ids": "8363481eeee9"
+    },
+    {
+      "slug": "10-macroeconomic-models-of-costs",
+      "title": "10 Macroeconomic Models of Costs",
+      "paragraphs": 106,
+      "ids": "a038c649e18f"
+    },
+    {
+      "slug": "13-towards-a-goal-for-climate-change-policy",
+      "title": "13 Towards a Goal for Climate-Change Policy",
+      "paragraphs": 170,
+      "ids": "94e5ae8a6944"
     }
   ]
 }

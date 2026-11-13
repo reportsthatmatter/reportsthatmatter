@@ -7,6 +7,42 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-13 — Six more Stern Review chapters; Parts that open with their own introduction
+
+[The Stern Review](/reports/uk-stern-review) now runs to 299 pages: chapter 1 on the science, chapters 3 to 5 on how warming affects growth, people and the environment in rich and poor countries, chapter 7 on emissions to date (with its annex) and chapter 8 on the challenge of stabilisation. Chapter 9 now has its own place in the contents instead of sitting under Part III's introduction. The same fix gives chapters their own pages in four other reports where a Part opened with an introduction: Litvinenko, Deepwater Horizon, Hillsborough and Grenfell. No text moved and old links still land.
+
+---
+
+## 2026-11-13 — The Stern Review's key chapters
+
+[The Stern Review](/reports/uk-stern-review) is no longer only its Executive Summary. Eleven more parts are now on the site, in the Review's own order: the Preface, Introduction and Summary of Conclusions, the introductions to Parts I–III, and the five chapters most often cited: chapter 2 on ethics and discounting, chapter 6 on the economic impacts (where the "5 to 20%" estimate comes from), chapters 9 and 10 on the cost of cutting emissions (the "around 1% of GDP"), and chapter 13 on stabilisation targets. That is 149 pages, each paragraph citable. Tables are not shown yet; their titles and sources are. The rest of the Review follows.
+
+---
+
+## 2026-11-13 — Columbia's bulleted points and findings
+
+More of [the Columbia Accident Investigation Board's report](/reports/columbia-accident) reads as it was printed: bulleted points that run from one column to the next stay whole, a bullet no longer runs into the sentence before it, the paragraphs set under a bullet ("United Space Alliance, which is responsible for both…") are no longer cut into a paragraph a line, and finding F7.4-13 is whole again. The leftover numbers from chart axes ("400 500 600 700 800 900 1000") are gone from between paragraphs.
+
+---
+
+## 2026-11-13 — Leveson's Parts, chapters and sections have headings
+
+[The Leveson Inquiry's report](/reports/uk-leveson-inquiry) had 100 headings over its 2,000 pages, many attached to the wrong text, and most of its Parts and chapters had none: their titles are set in small capitals that the text layer garbles ("ChapTer 2 / The approaCh"). Headings are now read off the typefaces the report prints them in, so every Part, chapter and numbered section has one ("Part K: Regulatory Models for the Future", "Chapter 7: Conclusions and recommendations for future regulation of the press"), 1,331 in all, and the contents follows the report's own structure. The Part letters printed at the page edge no longer leak into the text ("I 2.36 Before Mr Coulson…"). Old links to paragraphs and sections still land where they did.
+
+---
+
+## 2026-11-12 — Columbia's paragraphs put back together
+
+In [the Columbia Accident Investigation Board's report](/reports/columbia-accident), paragraphs that run from one column to the next, or round a figure or a sidebar, now read as one paragraph instead of two: "…the External Tank experiences during launch and" no longer stops there with "ascent." opening the next. Paragraphs cut in two fell from about 70 to 13. The words drawn inside figures and slides ("Bipod Ramp", "Liquid Hydrogen Tank") no longer stand in the text as paragraphs, chapter 6's narrative is no longer set as a run of quotations, and three findings that had run into the one before each have their own paragraph again. Old paragraph links redirect.
+
+---
+
+## 2026-11-12 — Hillsborough's page numbers and numbered paragraphs
+
+In [the Hillsborough Independent Panel's report](/reports/uk-hillsborough-panel), the twelve pages that open a Part, a chapter or an appendix had no page number of their own, because the report prints it at the end of a footer naming the division; their text was cited with the page before. They now have their numbers, and 79 paragraphs that were cited with the wrong page are cited with the right one. In the stretches taken from the PDF, 55 numbered paragraphs that had run into the one before ("2.4.53 … 2.4.54 …") are paragraphs of their own, each with its own link. Our error estimate for the report falls from 3.6 to 1.1 per 10 pages.
+
+---
+
 ## 2026-11-08 — Challenger's footnotes, appendix noise and split sentences
 
 In [the House Committee's Challenger report](/reports/challenger-accident), 153 footnotes the 1986 scan's OCR had garbled ("bid." for "29 Ibid.") now read as footnotes instead of sitting in the middle of the text: restored one by one from the page images, they leave the paragraphs they used to interrupt whole. 23 sentences the scan had cut in two are one again, and the appendices lose 95 stray "I" paragraphs (table rules) and the running heads of a reprinted NASA desk instruction. Our error estimate for the report falls from 8.1 to 6.6 per 10 pages.
