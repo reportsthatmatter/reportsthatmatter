@@ -16,6 +16,23 @@ import { join } from "node:path";
 import { checkAnchors, type AnchorReport, type PageText } from "../../src/lib/anchors.ts";
 import { checkOracleBudget, loadOracleBudget, ratchetOracleBudgetFile } from "./oracle-budget.ts";
 
+/**
+ * Volumes that print no page numbers and that their report numbers by PDF page (the pipeline's folio line for them is
+ * the report's own declaration, in its ingest.ts): named by file, so a volume inserted before them moves nothing.
+ */
+export const PDF_NUMBERED_VOLUMES: Record<string, string[]> = {
+  "uk-stern-review": [
+    "stern-review-postscript.pdf",
+    "stern-review-postscript-technical-annex.pdf",
+    "stern-review-annex-7b.pdf",
+    "stern-review-annex-7c.pdf",
+    "stern-review-annex-7d.pdf",
+    "stern-review-annex-7e.pdf",
+    "stern-review-annex-7f.pdf",
+    "stern-review-annex-7g.pdf",
+  ],
+};
+
 /** The counts reports/anchor-budget.yaml holds each report to. */
 export function budgetCounts(r: AnchorReport): Record<string, number> {
   return { "markers-wrong": r.wrong, "markers-stacked": r.stacked, "pages-unmarked": r.unmarked.length, "blocks-wrong": r.blocks.wrong };
@@ -98,8 +115,11 @@ export async function runAnchors(argv: string[], ctx: Ctx): Promise<number> {
       console.error(`${id}: no ${path}`);
       return 1;
     }
-    const pages = await pagesOf(await ctx.volumes(id));
-    const report = checkAnchors(readFileSync(path, "utf8"), pages);
+    const paths = await ctx.volumes(id);
+    const pages = await pagesOf(paths);
+    const named = PDF_NUMBERED_VOLUMES[id] ?? [];
+    const pdfNumbered = new Set(paths.flatMap((p, v) => (named.some((f) => p.endsWith(`/${f}`)) ? [v + 1] : [])));
+    const report = checkAnchors(readFileSync(path, "utf8"), pages, pdfNumbered);
     results[id] = report;
     console.log(details(id, report, targets.length > 1 ? Math.min(limit, 5) : limit));
   }

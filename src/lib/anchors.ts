@@ -426,11 +426,19 @@ function judgeBlocks(served: Served, pages: PageText[], attr: Int32Array, printe
 }
 
 /** The whole check: pages of every volume in reading order, the served markdown. */
-export function checkAnchors(markdown: string, pages: PageText[]): AnchorReport {
+/**
+ * `pdfNumbered`: volumes that print no page numbers, whose pages the report numbers by their place in the volume's
+ * PDF (Stern's Postscript and its web annexes, gqsy.9.2). Their numbers are not read off the page (a note number
+ * or a chart's axis value would be taken for a folio): each page's number is its PDF index.
+ */
+export function checkAnchors(markdown: string, pages: PageText[], pdfNumbered: ReadonlySet<number> = new Set()): AnchorReport {
   const served = parseServed(markdown);
   const printed: PrintedReading[] = [];
   const volumes = [...new Set(pages.map((p) => p.volume))];
-  for (const v of volumes) printed.push(...readPrinted(pages.filter((p) => p.volume === v).map((p) => p.layout)));
+  for (const v of volumes) {
+    const own = pages.filter((p) => p.volume === v);
+    printed.push(...(pdfNumbered.has(v) ? own.map((p) => ({ number: String(p.pdfIndex), inferred: false })) : readPrinted(own.map((p) => p.layout))));
+  }
   const { starts, attr } = locatePages(served.words, pages.map((p) => wordsOf(p.words)), served.boundaries);
   const schemes = {} as Record<Scheme, number>;
   let best: { scheme: Scheme; verdicts: MarkerVerdict[]; ok: number } | null = null;

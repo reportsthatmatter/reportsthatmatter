@@ -275,3 +275,10 @@ units:
     state: active
     evidence: "report repo reportsthatmatter/uk-stern-review (stern-b3-1113, PR #5); site branch stern-b3-1113; 597 pp, 1,237 notes (each chapter's highest note = its last printed note), 255 headings (every numbered section 18.1-27.5); golden 20/22 + 2 known (lb9l; new Ch 20 p.431, Ch 21 p.459); grade A 0.86 per 10 pp; earlier text byte-identical; ledgers add only (+1,343 ids, +12 sections), aliases 0 unmatched; verify.sh (VERIFY_SHARED=1 with RTM_REPORT_DIRS) all checks passed; datapackage hashes for the 12 new files"
     notes: "Chapter 23's reissue prints folios 1-25 (6u5h). Chapter 21 note 15 cited inside Table 21.1, printed on no page. Tables: 6uqx. Bullets: 95vk, 3nbi. Next: batch 3b (Postscript and its technical annex, Chapter 2 technical annex, Annexes 7b-7g)."
+  - id: uk-stern-review
+    scope: "Full report, batch 3b: Chapter 2 technical annex (2A); the Postscript and its Technical Annex; web annexes to Chapter 7, 7.b-7.g (on ingest v0.37.0)"
+    bead: reportsthatmatter-gqsy.9.2
+    reached: evaluate
+    state: active
+    evidence: "report repo reportsthatmatter/uk-stern-review (stern-b3b-1113, PR #6); site branch stern-b3b-1113; 655 pp, 1,355 notes, 304 headings; golden 22/24 + 2 known (new 2A p.41, Postscript p.1); grade A 0.91 per 10 pp; earlier text byte-identical (four 'socio-economic' kept by c-0097..c-0100); ledgers add only (+429 ids, +9 sections; one next-passage fingerprint updated, Ch 2's last paragraph, now followed by 2A); anchors: the eight unfolioed volumes numbered by PDF page (PDF_NUMBERED_VOLUMES), all markers right but the two known; datapackage hashes for the 9 new files"
+    notes: "The Postscript, its Technical Annex and Annexes 7.b-7.g print no folios: numbered by PDF page, shown as 1#5 etc. The Technical Annex's file prints nine notes (1-9) nothing cites. Tables PA.1-PA.3, 2A.1 and equations not served (6uqx). Bullets in Annexes 7.c and 7.g as paragraphs (3nbi). This completes the Review's web edition (gqsy.9.2)."

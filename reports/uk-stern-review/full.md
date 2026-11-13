@@ -3,9 +3,9 @@ title: "Stern Review: The Economics of Climate Change"
 authors: "Nicholas Stern (HM Treasury)"
 published_at: "30 October 2006"
 source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
-pages: 597
-footnotes: 1237
-corrections: 97
+pages: 655
+footnotes: 1355
+corrections: 108
 ---
 
 %%page i%%
@@ -1476,6 +1476,298 @@ Sinclair, P.J.N. (1994): 'On the optimum trend of fossil fuel taxation'. Oxford 
 Solow, R.M. (1974): 'The economics of resources or the resources of economics'. American Economic Review, 64(2):1-14.
 
 Ulph, A. and D. Ulph (1994). 'The optimal time path of a carbon tax'. Oxford Economic Papers 46: 857-868
+
+%%page 41%%
+
+### 2A Ethical Frameworks and Intertemporal Equity
+
+#### 2A.1 Ethical frameworks for climate change
+
+***The 'consequentialist' and 'welfarist' approach, the assessment of a policy in terms of its consequences for individual welfare, that is embodied in standard welfare economics, is highly relevant to the ethics of climate change.***
+
+In Section 2.3 we described the standard approach to ethics in welfare economics i.e. the evaluation of actions in terms of their consequences for consumption by individuals of goods and services. We emphasised that "goods and services" in consumption were multi-dimensional and should be interpreted broadly. In this appendix we examine that approach in a little more detail and compare it with different ethical perspectives of relevance to the economics of climate change.
+
+For many applications of the standard theory, the community is defined as the nation-state and the decision-maker is interpreted as the government. Indeed this is often seen as sufficiently obvious as to go unstated. This is not, of course, intended to deny the complexities and pressures of political systems: the results of this approach should be seen as an ethical benchmark rather than a descriptive model of how political decisions are actually taken.
+
+***Nevertheless, questions such as 'what do individuals value', 'what should be their relation to decisions and decision-making', 'what is the decision-making process' and 'who are the decision-makers' arise immediately and strongly in the ethical analysis of climate change. These questions take us immediately to different perspectives on ethics.***
+
+Economics, together with the other social sciences, has in fact embraced a much broader perspective on the objectives of policy than that of standard welfare-economic analysis. Amartya Sen[^1], for example, has focussed on the capabilities and freedoms of individuals to live a life they have reason to value, rather than narrowly on the bundles of goods and services they consume. His focus is on opportunities and the processes that create them, rather than on outcomes only. Similar emphases come from discussions of equity[^2] (with its focus on opportunity), empowerment[^3], or social inclusion[^4].
+
+Whilst such perspectives are indeed different, in practice many of the indicators arising from them would overlap strongly with the areas of focus in the Millennium Development Goals (MDGs) and other indicators commonly used by international institutions. Indeed, the MDGs were the outcome of analyses and discussions which themselves embraced a range of ethical approaches.
+
+***Impacts of climate change on future generations and other nations raise very firmly questions of rights. Protection from harm done by others lies at the heart of many philosophical approaches to liberty, freedom and justice.[^5]***
+
+Protection from harm is also expressed in many legal structures round the world in terms of legal responsibility for damage to the property or well-being of others. This is often applied whether or not the individual or firm was knowingly doing harm. A clear example is asbestos, whose use was not prohibited[^6] when it was placed in buildings with the worthy purpose of protecting against the spread of fire. Nevertheless insurance companies are still today paying large sums as compensation for its consequences.
+
+%%page 42%%
+
+This is a version of the 'polluter pays' principle that is derived from notions of rights, although, as we saw, for example, in the discussion of Fig. 2.1 above, it also arises from an efficiency perspective within the standard economic framework. If this interpretation of rights were applied to climate change, it would place at least a moral, if not a legal, responsibility on those groups or nations whose past consumption has led to climate change.
+
+Looking at the moral responsibilities of this generation, many would argue that future generations have the right to enjoy a world whose climate has not been transformed in a way that makes human life much more difficult; or that current generations across the world have the right to be protected from environmental damage inflicted by the consumption and production patterns of others.
+
+The notions of the right to climate protection or climate security of future generations and of shared responsibilities in a common world can be combined to assert that, collectively, we have the right only to emit some very small amount of GHGs, equal for all, and that no-one has the right to emit beyond that level without incurring the duty to compensate. We are therefore obliged to pay for the right to emit above that common level. This can be seen as one argument in favour of the 'contract and converge' proposition of Meyer, 1990, whereby 'large emitters' should contract emissions and all individuals in the world should either converge to a common (low) level or pay for the excess (and those below that level could sell rights).[^7]
+
+There are problems with this approach, however. One is that this right, whilst it might seem natural to some, is essentially asserted. It is not clear why a common humanity in a shared world automatically implies that there are equal rights to emit GHGs (however low). Equality of rights, for example to basic education and health, or to common treatment in voting, can be related to notions of capabilities, empowerment, or the ability to participate in a society. Further, they have very powerful consequences in terms of law, policy and structures of society. How does the 'right to emit' stand in relation to these rights? Rights are of great importance in ethics but they should be argued rather than merely asserted. More pragmatically, as we shall examine in Part VI of this report, action on climate change requires international agreement and this is not a proposition likely to gain the approval necessary for it to be widely adopted.
+
+***A concept related to the idea of the rights of future generations is that of sustainable development: future generations should have a right to a standard of living no lower than the current one.***
+
+In other words, the current generation does not have the right to consume or damage the environment and the planet in a way that gives its successor worse life chances than it itself enjoyed. The life chances of the next generation, it is understood here, are assessed assuming that it behaves in a sustainable way, as defined here, in relation to its own successor generation[^8].
+
+Expressed in this form, however, the principle need not imply that the whole natural environment and endowment of resources should be preserved by this generation for the next generation in a form exactly as received from the previous generation. The capital stock passed on to the next generation consists of many things, mostly in the form of stocks covering, for example, education, health, capital equipment, buildings, natural resources, the natural environment etc. The standard of living available to the next generation depends on this whole collection of stocks. A decline in one of them, say copper, might be compensated by another stock, say education or infrastructure, which has increased.
+
+On the other hand, it seems quite clear that, at a basic level, the global environmental and ecological system, which provides us with life support functions such as stable and tolerable climatic conditions, cannot be substituted. The relation between emissions of GHGs and the risks to these functions is examined in detail in the Review, particularly Part II. The commitment of Article 2 of the United Nations Framework Convention on Climate Change (UNFCCC) to 'achieve stabilisation of greenhouse gas concentrations at a level that would prevent dangerous anthropogenic [i.e. human-induced] interference with the climate system' can be interpreted as just such a sustainability rule.
+
+%%page 43%%
+
+***The notion of 'stewardship' can be seen as a special form of sustainability. It points to particular aspects of the world, which should themselves be passed on in a state at least as good as that inherited from the previous generation.***
+
+Examples might be historic buildings, particular pieces of countryside, such as National Parks, or even whole ecosystems such as tracts of primary tropical rainforest. This involves a particular interpretation of the responsibilities of the current generation in terms of a limit on its rights to property. Essentially, in this approach each generation has the responsibility of stewardship. Some would see the climate in this way since it shapes so much of all the natural environment and is not straightforwardly substitutable with other capital. Others[^9] might ask still more basic questions as to how we ought to live, particularly in relation to nature.
+
+***These different notions of ethics emphasise different aspects of the consequences of decisions for others and for the future. Nevertheless, the list of consequences on which they would focus for each generation are similar: above all consumption, education, health and environment.***
+
+And all the perspectives would take into account the distribution of outcomes within and across generations, together with the risks involved in different actions, now and over time. Hence in the Review we shall focus our analysis on the implications of action or inaction on climate change for these four dimensions.
+
+How the implications on these four dimensions are assessed, will, of course, vary according to the ethical position adopted. How and whether, in making assessments, we attempt to aggregate over consequences (i) within generations, (ii) over time, and (iii) according to risk will be crucial to policy design and choice. When we do aggregate explicitly we have to be quantitative in comparing consequences of different kinds and for different people. We shall be paying special attention to all three forms of aggregation. Aggregation across dimensions poses different kinds of questions and problems, as was discussed in Section 2.3 above.
+
+#### 2A.2 Intertemporal appraisals and discounting[^10]
+
+***Introduction: the underlying welfare framework for appraisal and cost-benefit analysis***
+
+Different strategies for climate change will yield different patterns of consumption over time. We assume that a choice between strategies will depend on their consequences for households now and in the future (see Chapter 2 and 2A.1 above, for a brief discussion of 'consequentialism'). The households to be included and examined in this weighting of consequences will depend on the perspective of those making the judgements: we assume here that the assessment is done from the perspective of the world as a whole. Narrower perspectives would include, for example, only those households associated with a particular country or region and would follow similar reasoning except that net benefits would be assessed for a narrower group. If all the perspectives are from narrow groups, one country, or just the next one or two generations, it is likely that little action would be taken on global warming. As is emphasised throughout this Review, this is a global and long-run issue.
+
+An analysis of how to carry out an intertemporal assessment of consequences of strategies or actions is inevitable if somewhat formal: usually there would be first a modelling of the consequences, second an aggregation of the consequences into overall welfare indicators for households, and third an aggregation across households within generations, across generations and across uncertain outcomes. We focus here on the second and third elements, particularly the third.
+
+%%page 44%%
+
+We can compare the consequences of different strategies and actions by thinking of overall welfare, W, calculated across households (and generations) as a function of the welfare of these households, where we write welfare of household h as uh. The joint specification of W and uh constitutes a set of value judgements which will guide the assessment of consequences. We think of h as ranging across households now and in the future and can allow (via specification of W and uh) for the possibility that a household does not live forever. Then, if we are comparing a strategy indexed by the number 1 with that indexed by zero we will prefer strategy 1 if
+
+W1 >W 0 (1) where W1 is evaluated across the path 1 with its consequences for all households now and in the future, and similarly W0 .
+
+In the above, the two strategies can yield very different patterns of outcomes across individuals and over time – they can differ in a non-marginal way. There is, however, a major part of economic theory that works in terms of a marginal change, for example an investment project. Then we can write, where W1 is welfare in the world with the project and W0 is welfare in the world without the project
+
+∂W
+
+ΔW ≡ W 1 − W 0 = ∑ Δu h (2) where ∆uh is the change in household welfare for h as a result of the project. Calculating ∆uh will then depend on the structure of the economic model and the characteristics of the project. This is the theory of cost-benefit analysis set out clearly by James Meade (1955) and explored in some detail by Drèze and Stern (1987) and (1990) for imperfect economies.
+
+As we have argued strategies on climate change cannot be reduced to marginal comparisons so we have to examine W1 and W0 (for different strategies) and for many climate change questions, we must compare the two without using the very special case of marginal comparisons as in equation (2).
+
+Nevertheless there will be investment projects which can be considered as small variations around a particular path e.g. a new technique in electricity generation. In this case marginal analysis can be appropriate. In this context we can think about comparing benefits occurring at different points in time, in terms of how we should value small changes around a particular path. This leads to the subject of discounting and how we value marginal benefits which are similar in nature but which occur at different points in time. We must emphasise very strongly that these valuations occur with respect to variations around a particular path. If the path is shifted so too are the marginal valuations and thus discount factors and rates (see below).
+
+An investment carried out now may yield returns which are dependent on which strategy, and thus which growth paths, might be followed. If we are uncertain about these strategies, for example, we do not know whether the world would follow a strong mitigation strategy or not, then we should evaluate the project for each of the relevant scenarios arising from the strategies. Each of these evaluations would then be relative to a different growth path. The next step would not be straightforward. We could aggregate across the scenarios or growth paths using probabilities and relative values of social marginal utilities relevant for the different paths (i.e. we would have to compare the numeraire used for each path) but only if we are in a position to assign probabilities. Further a related discussion over strategies may be going on at the same time as the projection evaluation.
+
+***Discounting: a very simple case***
+
+%%page 45%%
+
+Discounting and discount rates have been controversial in environmental economics and the economics of climate change, because a high rate of discounting of the future will favour avoiding the costs of reducing emissions now, since the gains from a safer and better climate in the future are a long way off and heavily discounted (and vice versa for low discount rates). Our first and crucial point has been made already: discounting is in general a marginal approach where the evaluation of marginal changes depends on the path under consideration. If the two paths are very different, a marginal/discounting approach for comparing the two is unacceptable in logic – we have to go back to an evaluation of the underlying W for each path.
+
+The discounting approach is, however, relevant for small changes around a given path and, since some of the literature has been somewhat confused on the issue and because it brings out some important issues relevant for this Review, we provide a brief description of the main principles here. To do this we narrow down the relevant determinants of utility to just consumption at each point in time and take a very special additive form of W. Thus we think of the overall objective as the sum (or integral) across all households and all time of the utility of consumption. In order to establish principles as clearly as possible we simplify still further to write
+
+W = ∫ u (c)e −δt dt (3)
+
+We assume here that there is just one individual at each point in time (or a group of identical individuals) and that the utility or valuation function is unchanging over time. We introduce population and its change later in the discussion.
+
+In Chapter 2 we argued, following distinguished economists from Frank Ramsey in the 1920s to Amartya Sen and Robert Solow more recently, the only sound ethical basis for placing less value on the utility (as opposed to consumption) of future generations was the uncertainty over whether or not the world will exist, or whether those generations will all be present. Thus we should interpret the factor e-δt in (3) as the probability that the world exists at that time. In fact this is exactly the probability of survival that would apply if the destruction of the world was the first event in a Poisson process with parameter δ (i.e. the probability of an event occurring in a small time interval ∆t is δ∆t). Of course, there are other possible stochastic processes that could be used to model this probability of survival, in which case the probability would take a different form. The probability reduces at rate δ. With or without the stochastic interpretation here, δ is sometimes called 'the pure time discount rate.' We discuss possible parameter values below.
+
+The key concept for discounting is the marginal valuation of an extra unit of consumption at time t, or discount factor, which we denote by λ. We can normalise utility so that the value of λ at time 0 along the path under consideration is l. We are considering a project which perturbs consumption over time around this particular path. Then, following the basic criterion, equation 2, for marginal changes we have to sum the net incremental benefits accruing at each point in time, weighting those accruing at time t by λ. Thus, from the basic marginal criteria (2), in the special case (3), we accept the project if
+
+ΔW = ∫ λΔcdt > 0 (4) where λ and c are each evaluated at time t, ∆c is the perturbation to consumption at time t arising from the project and λ is the marginal utility of consumption where
+
+λ = u ′(c)e −δt (5)
+
+If, for example, we have to invest to gain benefits then ∆c will be negative for early time periods and positive later.
+
+%%page 46%%
+
+The rate of fall of the discount factor is the discount rate which we denote by ρ. These definitions and the special form of λ as in (5) are in the context of the very strong simplifications used. Under uncertainty or with many goods or with many individuals there will be a number of relevant concepts of discount factors and discount rates.
+
+The discount factors and rates depend on the numeraire that is chosen for the calculation. Here it is consumption and we examine how the present value of a unit of consumption changes over time. If there are many goods, households, or uses of revenue we must be explicit about choice of numeraire. There will, in principle, be different discount factors and rates associated with different choices of numeraire –- see below.
+
+Even in this very special case there is no reason to assume the discount rate is constant. On the contrary it will depend on the underlying pattern of consumption for the path being examined; remember that λ is essentially the discounted marginal utility of consumption along the path.
+
+Let us simplify further and assume the very special 'isoelastic' function for utility u (c ) = (6)
+
+(where, for η=1, u(c) = log c). Then
+
+(7 and the discount rate ρ, defined as − λ&/ λ is given by
+
+ρ =η +δ (8) To work out the discount rate in this very simple formulation we must consider three things. The first is η which is the elasticity of the marginal utility of consumption.[^11] In this context it is essentially a value judgement. If, for example η=1, then we would value an increment in consumption occurring when utility was 2c as half as valuable as if it occurred when consumption was c. The second is ċ/c, the growth rate of consumption along the path: this is a specification of the path itself or the scenario or forecast of the path of consumption as we look to the future. The third is δ, the pure time discount rate, which generates, as discussed, a probability of existence of e-δt at time t (thus δ is the rate of fall of this probability).
+
+The advantage of (8) as an expression for the discount rate is that it is very simple and we can discuss its value in terms of the three elements above. The Treasury's Green Book (2003) focuses on projects or programmes that have only a marginal effect relative to the overall growth path and thus uses the expression (8) for the discount rate. The disadvantage of (8) is that it depends on the very specific assumptions involved in simplifying the social welfare function into the form (3).
+
+There is, however, one aspect of the argument that will be important for us in the analysis that follows in the Review and that is the appropriate pure time discount rate. We have argued that it should be present for a particular reason, i.e. uncertainty about existence of future generations arising from some possible shock which is exogenous to the issues and choices under examination (we used the metaphor of the meteorite).
+
+But what then would be appropriate levels for δ? That is not an easy question but the consequences for the probability for existence of different δs can illuminate – see Table 2A.1
+
+%%page 47%%
+
+Table 2A.1
+
+For δ=0.1 per cent there is an almost 10% chance of extinction by the end of a century. That itself seems high – indeed if this were true, and had been true in the past, it would be remarkable that the human race had lasted this long. Nevertheless that is the case we shall focus on later in the review, arguing that there is a weak case for still higher levels.[^12] Using δ=1.5 per cent, for example, i.e. 0.015, the probability of the human race being extinct by the end of a century would be as high as 78%, indeed there would be a probability of extinction in the next decade of 14%. That seems implausibly, indeed unacceptably, high as a description of the chances of extinction.
+
+However, we should examine other interpretations of 'extinction'. We have expressed survival or extinction of the human race as either one or the other and have used the metaphor of the devastating meteorite. There are also possibilities of partial extinction by some exogenous or man-made force which has little to do with climate change. Nuclear war would be one possibility or a devastating outbreak of some disease which 'took out' a significant fraction of the world's population.
+
+In the context of project uncertainty rather different issues arise. Individual projects can and do collapse for various reasons and in modelling this type of process we might indeed consider values of δ rather higher than shown in this table. This type of issue is relevant for the assessment of public sector projects, see, for example HM Treasury (2003), the Green Book.
+
+A different perspective on the pure time preference rate comes from Arrow (1995). He argues that one problem with the absence of pure time discounting is that it gives an implausibly high optimum savings rate a particular model using for the utility functions as described above, where output is proportional to capital. If δ=0 then one can show that the optimum savings rate in such a model[^13] is 1/η; for η between 1 and 1.5 this looks very high. From a discussion of 'plausible' savings rates he suggests a δ of 1%. The problem with Arrow's argument is first that there are other aspects influencing optimum savings in possible models that could lower the optimum savings rate and second that his way of 'solving' the 'over-saving' complication is very ad hoc. Thus the argument is not convincing.
+
+Arrow does in his article draw the very important distinction between the 'prescriptive' and the 'descriptive' approach to judgements of how to 'weigh the welfare' of future generations. He, like the authors described in Chapter 2 on this issue, is very clear that this should be seen as a prescriptive or ethical issue rather than one which depends on the revealed preference of individuals in allocating their own consumption and wealth (the descriptive approach). The allocation an individual makes in her own lifetime may well reflect the possibility of her death and the probability that she will survive a hundred years may indeed be very small. But this intertemporal allocation by the individual has only limited relevance for the long-run ethical question associated with climate change.
+
+There is nevertheless an interesting question here of combining short-term and long-term discounting. If a project's costs and benefits affect only this generation then it is reasonable to argue that the revealed relative valuations across periods has strong relevance (as it does across goods). On the other hand, as we have emphasised allocation across generations and centuries is an ethical issue for which the arguments for low pure time discount rates are strong.
+
+%%page 48%%
+
+Further, we should emphasise that using a low δ does not imply a low discount rate. From (8) we see, e.g., that if η were, say, 1.5, and c were 2.5% the discount rate would be, for δ= 0, 3.75%. Growing consumption is a reason for discounting. Similarly if consumption were falling the discount rate would negative.
+
+As the table shows the issue of pure time discounting is important. If the ethical judgement is that future generations count very little regardless of their consumption level then investments with mainly long-run pay-offs would not be favoured. In other words, if you care little about future generations you will care little about climate change. As we have argued that is not a position which has much foundation in ethics and which many would find unacceptable.
+
+***Beyond the very simple case***
+
+We examine in summary form the key simplifying assumptions associated with the formulation giving equations (3) and (8) above, and ask how the form and time pattern of the various discount factors and discount rates might change when these assumptions are relaxed.
+
+***Case 1 Changing population***
+
+With population N at time t and total consumption of C we may write the social welfare function to generalise (3) as
+
+W = ∫ Nu (C / N )e −δt dt (9)
+
+In words we add, over time, the utility of consumption per head times the number of people with that consumption: i.e. we simply add across people in this generation just as in (3) we added across time; we abstract here from inequality within the generation (see below). Then the social marginal utility of an increment in total consumption at time t is again given by (5) where c is now C/N consumption per head. Thus the expression (8) for the discount rate is unchanged. We should emphasise here that expression (9) is the appropriate form for the welfare function where population is exogenous. In other words we know that there will be N people at time t. Where population is endogenous some difficult ethical issues arise – see, for example, Dasgupta (2001) and Broome (2004, 2005).
+
+***Case 2 Inequality within generations***
+
+Suppose group i has consumption Ci and population Ni. We write the utility of consumption at time t as
+
+∑ N u(C / N )e δ
+
+(10) and integrate this over time: in the same spirit as for (9) we are adding utility across sub-groups in this generation. Then we have, replacing (5), where ci is consumption per head for group i,
+
+λi = u ′(ci )e −δt (11) as the discount factor for weighting increments of consumption to group i. Note that in principle the probability of extinction could vary across groups, thus making δi dependent on i. An increment in aggregate consumption can be evaluated only if we specify how it is distributed. Let us assume a unit increment is distributed across groups in proportions αi. Then
+
+%%page 49%%
+
+λ = ∑α i u ′(ci )e −δt (12)
+
+For some cases αi may depend on ci, for example, if the increment were distributed just as total consumption, so that αi = Ci/C where C is total consumption. In this case the direction of movement of the discount rate will depend on the form of the utility function. For example, in this last case, if η=1, the discount rate would be unaffected by changing inequality.
+
+If αi = 1/N this is essentially "expected utility" for a "utility function" given by u′( ). Hence the Atkinson theorem (1970) tells us that if {ci} becomes more unequal[^14] then λ will rise and the discount rate will fall if u′ is convex (and vice versa if it is concave). The convexity of u′ ( ) is essentially the condition that the third derivative of u is positive: all the isoelastic utility functions considered here satisfy this condition[^15].
+
+For αi 'tilted' towards the bottom end of the income distribution the rise is reinforced. Conversely, it is muted or reversed if αi is 'tilted' towards the top end of the income distribution. For example, where αi = 1 for the poorest subset of households then λ will rise where rising inequality makes the poorest worse off. But where αN = 1 for the richest household, λ will fall if rising income inequality makes the richest better off. Note that in the above specification the contribution of individual i to overall social welfare depends only on the consumption of that individual. Thus we are assuming away consumption externalities such as envy.
+
+***Case 3 Uncertainty over the growth path***
+
+We cannot forecast, for a given set of policies, future growth with certainty. In this case we have to replace the right-hand side of (5) in the expression for λ by its expectation. This then gives us an expression similar to (12) where we can now interpret αi as the probability of having consumption in period t, denoted as pi in equation (13). We would expect uncertainty to grow over time in the sense that the dispersion would increase. Under the same assumptions, i.e. convexity of u′, as for the increasing inequality case this increasing dispersion would reduce the discount rate over time. Increased uncertainty (see Rothschild and Stiglitz, 1976 and also Gollier, 2001) increases λ if u′ is convex since λ is essentially expected utility with u′ as the utility function.
+
+λ = ∑ pi u ′(ci )e −δt (13)
+
+Figure 2A.1 shows a simple example of how the discount factor falls as consumption increases over time, when the utility function takes the simple form given in equation (6). The chart plots the discount factor along a range of growth paths for consumption; along each path the growth rate of consumption is constant, ranging from 0 per cent to 6 per cent per year. The value of δ is taken to be 0.1 per cent and of η 1.05. The paths with the lowest growth rates of consumption are the ones towards the top of the chart, along which the discount factor declines at the slowest rate. Figure 2A.2 shows the average discount rate over time corresponding to the discount factor given by equation (13), assuming that all the paths are equally likely. This falls over time. For further discussion of declining discount rates, see Hepburn (2006).
+
+%%page 50%%
+
+Figure 2A.1
+
+Figure 2A.2
+
+***Further complications***
+
+The above treatment has kept things very simple and focussed on a case with one consumption good and one type of consumer and says little about markets.
+
+Where there are many goods, and different types of household and market imperfections we have to go back to the basic marginal criterion specified in (2) and evaluate ∆uh for each household taking into account these complications: for a discussion see Drèze and Stern (1990). There will generally be a different discount rate for each good and for each consumer. One can, however, work in terms of a discount rate for aggregate (shadow) public revenue.
+
+%%page 51%%
+
+A case of particular relevance in this context would be where utility depended on both current consumption and the natural environment. Then it is highly likely that the relative 'price' of consumption and the environment (in terms of willingness-to-pay) will change over time. The changing price should be explicit and the discount rate used will differ according to whether consumption or the environment is numeraire (see below on Arrow (1966)).
+
+***Growing benefits in a growing economy: convergence of integrals.***
+
+We examine the special case (4) of the basic marginal criteria (2). The convergence of the integral requires λ to fall faster than the net benefits ∆c are rising. Without convergence it will appear from (4) that the project has infinite value. Suppose consumption grows at rate g and the net benefits at ĝ. From (8) and (4) we have that for convergence we need, in the limit into the distant future,
+
+If, for example, g and ĝ are the same (benefits are proportional to consumption) then for convergence we need, in the limit,
+
+δ > (1 − η ) g (15)
+
+Where η≥1 and δ>0 this will be satisfied. But for η<1 there can be problems. Given that infinite aggregate net benefits are implausible this could be interpreted as an argument for a high η or more precisely a high limiting value of η. We have so far assumed that η is constant (the isoelastic case) but it could, however, in principle be higher for very high c. As we have indicated, arguments for a high δ should be conducted on a separate basis concerning the probability of existence, and we have, in this context argued for a low value of δ.
+
+***Market rates, capital market imperfections and intergenerational welfare***
+
+Some may object that the discount rates which would arise from (8), e.g. 3-4% or lower, may not directly reflect market interest rates[^16]. Further, it may be argued, market interest rates give the terms under which individuals actually do make intertemporal allocations and thus these market rates reflect individual marginal rates of substitution between goods now and in the future. Thus, in this argument, market rates should be used as discount rates.
+
+There are a number of reasons why this argument may be misleading including capital market imperfections and myopia. And the argument begs the question of which of the many different market rates of interest and return might be relevant. In this context, however, we would emphasise as argued in Chapter 2, that the decisions at issue for the long-run analyses concern allocation across generations rather than within. One can confront these only by looking carefully at the ethical issues themselves. The intertemporal valuations of individuals over their own lifetimes, as we have argued, is not the same issue. They do not constitute a market revealed preference of the trade-offs at stake here.
+
+This is not the place for a detailed analysis of market imperfections, "crowding out of investment" and discount rates. The reader may wish to consult Drèze and Stern (1987 and 1990) and some of the references therein, in particular Arrow (1966). An intuitive expression of the Arrow argument is as follows. The issue concerns the relative value of two forms of income, call this relative value μ. These different forms of income can be, e.g. consumption, investment or government income. If μ is constant over time then the discount rates, whether we work in terms of consumption, investment or government income, should be the same. The reason is that the difference between the two discount rates for the two forms of income is simply the rate of change of μ (since μ = λA/ λB where λ are the discount factors for incomes type A and B respectively). The reason that μ is not unity arises from various market imperfections and constraints on the tax system (otherwise the government would shift resources so that λA is equal to λB). And if the intensities of these imperfections and constraints are unchanged over time then μ will be constant and the relevant discount rates will be equal.
+
+%%page 52%%
+
+#### 2A.3 Conclusions
+
+Discounting is a technique relevant for marginal perturbations around a given growth path. Where the strategies being compared involve very different paths, then discounting can be used only for assessing projects which involve perturbations around a path and not for comparing across paths. There will be important decisions for which marginal analysis is appropriate, including, for example, technological choices to sustain given paths of emission reduction. We must emphasise, however, that, as with any marginal analysis, the marginal valuations will depend on the paths under consideration. Which path or paths are relevant will depend on the overall strategies adopted. Within the case of marginal perturbations, the key concept is the discount factor, i.e. the present value of the numeraire good: here the discount factor is the relative value of an increment in consumption at a time in the future relative to now. The discount factor will generally depend on the consumption level in the future relative to that now, i.e. on the growth path, and on the social utility or welfare function used to evaluate consumption. The discount rate is the rate of fall of the discount factor. It depends on the way in which consumption grows over time. If consumption falls along a path then the discount rate can be negative. There is no presumption that it is constant over time.
+
+- If inequality rises over time then this would work to reduce the discount rate, for the welfare functions standardly used.
+- If uncertainty rises as we go into the future this would work to reduce the discount rate, for the welfare functions standardly used. Quantification of this effect requires specification of the form of uncertainty, and how it changes, and of the utility function.
+- With many goods and many households there will be many discount rates. For example if conventional consumption is growing but the environment is deteriorating then the discount rate for consumption would be positive but for the environment it will be negative. Similarly, if the consumption of one group is rising but another is falling then the discount rate would be positive for the former but negative for the latter.
+
+Taken together with our discussion of ethics we see that the standard welfare framework is highly relevant as a theoretical basis for assessing strategies and projects in the context of climate change. However, the implications of that theory are very different from those of the techniques often used in cost-benefit analysis. For example, a single constant discount rate would generally be unacceptable.
+
+Whether we are considering marginal or non-marginal changes or strategies the "pure time discount rate" is of great importance for a long-run challenge such as climate change. The argument in the chapter and in the appendix and that of many other economists and philosophers who have examined these long-run, ethical issues, is that "pure time discounting" is relevant only to account for the exogenous possibility of extinction. From this perspective it should be small. On the other hand, those who would put little weight on the future (regardless of how living standards develop) would similarly show little concern for the problem of climate change.
+
+%%page 53%%
+
+#### References
+
+Anand,S and A.K. Sen (2000). 'Human development and economic sustainability'. World Development, 28(12): 2029-2049
+
+Arrow, K.J. (1966): 'Discounting and public investment criteria', in Water Research, A.V. Kneese and S.C. Smith, (eds.), John Hopkins University Press.
+
+Arrow, K.J. (1995): 'Inter-generational equity and the rate of discount in long-term social investment' paper at IEA World Congress (December), available at www.econ.stanford.adu/faculty/workp/swp97005.htm
+
+Atkinson, A. B. (1970): 'On the measurement of inequality', Journal of Economic Theory, 2(3): 244-263
+
+Atkinson, A.B. and J. Hills (1998): 'Social exclusion, poverty and unemployment', Exclusion, Employment and Opportunity, A.B. Atkinson and J. Hills, London: London School of Economics. CASE Paper 4.
+
+Atkinson, A.B., B. Cantillon, E. Marlier and B.Nolan (2002): 'Social Indicators:The EU and Social Inclusion'. Oxford: Oxford University Press.
+
+Broome, J. (2004): 'Weighing Lives', Oxford: Oxford University Press.
+
+Broome, J. (2005): 'Should we value population', The Journal of Political Philosophy: 13(4): 399-413
+
+Dasgupta, P. (2001):'Human Well-Being and the Natural Environment', Oxford: Oxford University Press.
+
+Drèze, J.P. and N.H. Stern (1987): 'The Theory of Cost-Benefit Analysis' in (ed.) Auerback and Feldstein, Handbook of Public Economics, Vol12, North Holland.
+
+Drèze, J.P. and N.H. Stern (1990): 'Policy reform, Shadow Prices and Market Prices', Journal of Public Economics, 42: 1-45
+
+Gardiner, S. (2004): 'Ethics and global climate change', Ethics 114: 555-600
+
+Gollier, C. (2001):'The Economics of Risk and Time', Cambridge, MA: MIT Press.
+
+Hart, H.L.A. (1968): 'Punishment and Responsibility', Oxford: Oxford University Press.
+
+Hepburn (2006): 'Discounting climate change damages', Overview for the Stern Review, St Hugh's College, Oxford.
+
+Henry, C. (2006): 'Decision – Making Under Scientific, Policitcal and Economic Uncertainty', Cahier no. DDX-06-12, Chaire Developpement Durable, Paris; Laboratoire d'Econométrie de l'Ecole Polytechnique.
+
+Hills, J. and K. Stewart (2005) 'A More Equal Society: New Labour, Poverty, Inequality and Exclusion'. Bristol: Policy Press.
+
+HM Treasury (2003): 'The Green Book – Appraisal and Evaluation in Central Government', HM Treasury, London
+
+Jamieson, D. (1992): 'Ethics, public policy and global warming'. Science, Technology and Human Values 17:139–53. Reprinted in Jamieson, D. (2003), Morality's Progress, Oxford: Oxford University Press.
+
+%%page 54%%
+
+Meade, J.E. (1955): 'Trade and Welfare: A mathematical supplement', Oxford: Oxford University Press.
+
+Pearce, D.W. and A. Ulph (1999): 'A social discount rate for the United Kingdom'. Economics and the Environment: Essays in Ecological Economics and Sustainable Development, D.W. Pearce, Cheltenham: Edward Elgar.
+
+Rothschild, M.D. and J.E. Stiglitz (1970): 'Increasing Risk: I. A Definition', Journal of Economic Theory, September 2 pp. 255-243.
+
+Shue, H. (1999): 'Bequeathing Hazards: Security Rights and Property Rights of Future Humans'. M. Dore and T. Mount. Global Environmental Economics: Equity and the Limits to Markets. Oxford: Blackwell: 38-53.
+
+Sen, A (1999) : 'Development as Freedom', Anchor Books, London
+
+Stern, N.H. (1977): 'Welfare weights and the elasticity of the marginal valuation of income'. Published as Chapter 8 in M. Artis and R. Nobay. Proceedings of the AUTE Edinburgh Meeting of April 1976. Basil Blackwell.
+
+Stern, N.H., J-J Dethier and F.H. Rogers (2005): 'Growth and Empowerment: Making Development Happen'. Munich Lectures in Economics. Massachusetts: MIT Press.
+
+World Development Report (2006) :'Equity and Development', World Bank, Washington DC.
 
 %%page 55%%
 
@@ -11336,6 +11628,801 @@ The policy tools exist to create the incentives required to change investment pa
 
 Above all, reducing the risks of climate change requires collective action. It requires cooperation between countries, through international frameworks that support the achievement of shared goals. It requires a partnership between the public and private sector, working with civil society and with individuals. It is still possible to avoid the worst impacts of climate change, through strong collective action starting from now.
 
+%%page 1#5%%
+
+## Postscript
+
+The Review on the Economics of Climate Change, published on 30th October, has generated substantial interest and debate. We have now had the opportunity to present the Review to a wide range of audiences, including economists, scientists, business leaders and the international community, including the participants in the Nairobi Conference of the Parties to the UNFCCC, and to policy-makers at the European Commission and the African Union.
+
+In this postscript, we offer some reflections in the light of the reactions and comments we have received in the first weeks since publication. In the main text, we have also taken the opportunity to correct any typographical errors found or which have been drawn to our attention. For example, revising the magnitude of hurricane losses in table 5.2. The discussion here follows the structure of the Review. The first issues concern the strength of the evidence base underpinning the recommendation of the Review that all countries should take urgent action to stabilise the concentration of greenhouse gases in the atmosphere at between 450-550ppm CO2e. The second set of issues concern the policy mechanisms that will support an effective, efficient and equitable approach to this action, and the importance of international co-operation to support adaptation to the adverse impacts of climate change.
+
+#### The case for urgent action
+
+Two key conclusions from our analyses of the science and economics of climate change provide important underpinning for the case for urgent action.
+
+First, under a business-as-usual scenario, the stock of greenhouse gases could be more than treble pre-industrial (greater than 850ppm CO2e) by the end of the century. This may be a conservative estimate, for example, some IPCC scenarios suggest that the stock could be more than four times pre-industrial by 2100. Current scientific understanding suggests that a trebling of the stock would give at least a 50% risk of temperatures exceeding 5°C above pre-industrial levels during the following decades (Chapter 1).
+
+In Part II of the report we brought together what can be said about impacts at high temperatures, based on the current state of the underlying science. This analysis has brought us to our second broad conclusion that the impacts of climate change across multiple dimensions are likely to be highly convex, with marginal damages that increase strongly as temperatures rise. Most impacts analyses focus on levels of warming of around 2 – 3°C above pre-industrial. Little is known about how the environment and human society will respond to larger increases in temperature. A warming of 5°C on a global scale would be well outside the experience of human civilisation, and would transform where we live and how we live our lives.
+
+The analyses presented in Chapters 3 - 5 of the report demonstrate the great dangers of allowing temperatures to continue to rise, in terms of the environment, human health, and economic growth and development. Chapter 3 demonstrates that many of the impacts of climate change increase strongly in severity as temperatures rise. For example, the damage caused by hurricanes; the frequency of extreme events; and above a threshold, effects on agricultural production and heat-related mortality. Further, impacts can interact, bringing about rapid increases in damages at high temperatures: rising levels of pests in some areas may aggravate declines in agricultural production caused by heat or changes in water availability. In addition, current understanding suggests that at high levels of warming, the risks of major, irreversible changes to the climate, ecosystems and society are very real indeed. These include physical changes, such as a collapse of ocean currents, and also the risk of major societal changes, such as mass migrations and political instability. Putting all these impacts together builds a strong picture of impacts rapidly rising with temperatures, with increasing damages for each marginal increase in temperature. High temperatures are likely to generate a hostile and extreme environment for human activity in many parts of the world.
+
+%%page 2#5%%
+
+It is the scale of these risks and an appreciation of the types and severity of damages involved that provide the main case for urgent and strong action to stabilize emissions below 550 ppm CO2e, when one considers that the risks can be very substantially reduced by an expenditure of around 1% of GDP per year. Further, the costs of action to stabilize at any given level would rise rapidly if action were delayed.
+
+In Chapter 6, as a complement to the disaggregated analysis, we investigated the role of formal economic modelling in providing an aggregate monetary estimate of the damages of climate change. We were explicit and clear about the severe limitations of such modelling, but we saw it as a perspective, which could provide some support, by adding structure, to an analysis of the case for action based on the disaggregated impacts.
+
+As we made clear, the role of integrated assessment models is to give an illustration of the potential effects of climate change. Modelling of the economic impacts of climate change over very long time horizons cannot give precise results. The value of the approach is that it allows the investigation of the role of different specifications of model structure and ethical assumptions. The ethical judgements that have to be examined include those concerning how society should weight impacts on different generations. The impacts have been expressed in this Review using a technique that allows averaging over time, over risk and over country in a way that permits direct comparison with the costs of mitigation.
+
+Two main modelling issues have been raised with us in discussions since the Review was published: first, concerns that the model we used may under-estimate the level of damages likely to be caused at different temperatures, particularly high temperatures, and second, concerns about the assumptions used in valuing or discounting the damages. The former is captured in the parameters of the function relating damages to temperature and the latter in the shape of the relationship of social utility to consumption and the pure time discount rate (see Chapter 2, its appendix and Chapter 6).
+
+We have subsequently carried out sensitivity analysis on these issues, presented in a technical annex to this postscript. The sensitivity analysis allows us to explore the effect of different assumptions, but it does not change our overall conclusion, that climate change is likely to cause damages which are very severe and of much greater consequence than the costs of greatly reducing risks by strong reduction in emissions. In the report we calculated damages from business-as-usual which were equivalent to at least a 5% loss in consumption, based on a narrow definition of risks and impacts, and up to 20% if a broader range of risks and impacts are considered. The sensitivity analysis marginally reduces the lower end and increases the upper end. The only exception is where we use high pure time discounting rates, which are in our view implausible relative to most positions on ethical values and take a very narrow view of impacts (i.e. excluding environment and health). In other words, unless the interests of future generations are heavily disregarded there is a very powerful case for strong mitigation.
+
+Our estimates of damage from business-as-usual are higher than some previously published for the following sound reasons:
+
+- We treat aversion to risk explicitly – this issue is all about risk and we invoke the economics of risk directly.
+- We use the more recent literature, from the science, on the probabilities. This points to significant risks of temperature increases above 5°C under business-for-usual by the early part of the next century. Previous studies have focused on temperature increases of 2 or 3°C. The damages from 5°C would be very much higher – damages rise much faster than temperature.
+
+%%page 3#5%%
+
+- We adopt lower pure time discount rates than some earlier literature and thus, it was argued in Chapter 2 and its Appendix, the analysis gives future generations appropriate ethical weight. The effects of changing this assumption were set out clearly in Chapter 2 and its appendix, Chapter 6 and are explored in more detail in the Technical Annex to this postscript.
+- We take account of the disproportionate impacts on poor regions, reflecting the fact that those in poverty will feel losses in consumption more keenly.
+
+Few existing studies include all these factors, and as a result their estimates of the damages tend to be lower. One can compare these losses with the size of the losses from a recession, but climate impacts are actually more like an adverse supply-side shock than a large contraction in demand. And they are much more difficult to reverse. Our estimate in terms of per annum consumption losses (averaged over time, possible outcomes and across countries) of the costs of climate change can be interpreted as like a tax being levied each year, with the proceeds of the tax simply being poured down the drain. You could also think of it like an insurance premium – society would be willing to pay up to this amount to avoid the risks of climate change – in fact the actual cost of action to avoid climate change is much less, as Chapters 9 and 10 of the Review show, and as we will discuss again briefly below.
+
+Our analysis leads us to the conclusion that the risks can be substantially reduced, but by no means eliminated, if concentrations of greenhouse gas emissions can be stabilised at 550ppm CO2e or below. The upper limit, 550ppm CO2e, is still a risky place to be. The analysis presented in the Review, based on an average of several models, suggests a 50:50 chance of a temperature increase above or below 3°C, and the Hadley Centre model predicts a 10% chance of exceeding 5°C even at this level (Chapter 8). Whilst the modelling of chapter 6 and part II of the Review in general, brought together in Chapter 13, suggests that the damage from a 550ppm CO2e stabilisation level is far smaller than business as usual, many people have suggested that this limit is too high. There is a strong case to examine whether it is possible to reduce these risks still further by reaching lower levels of stabilisation, and to keep this continually under review as policy-makers gain experience in managing the transition to a low-carbon economy.
+
+The Review finds that the costs of bringing down the risks by stabilising at 500-550ppm CO2e are equivalent to around 1% of GDP by the middle of the century, with a range of +/-3%. This range assumes that sensible policies are put in place and deliver the induced technological progress required. Some people have questioned whether the central estimate of 1% is too low, and others have suggested that while the overall level may be acceptable, the distribution of the costs may give rise to an unacceptable burden on some countries or sectors.
+
+In response to the suggestion that the estimate of 1% is too low, it is worth noting a number of points. The figure of 1% is a central estimate within a range that is consistent with the literature, and that is therefore likely to be consistent with the review of the same literature currently being finalised by the Intergovernmental Panel on Climate Change for its Fourth Assessment Report. Achieving stabilisation at the lower end of the range of costs depends upon good policy frameworks, to bring forward appropriate low-carbon technologies and to provide flexibility in when, where and how emissions are reduced. The cost of 1% of GDP each year is certainly not trivial – in 2050 it would be equivalent to a cost of $1 trillion at market exchange rates (GDP in 2050 is expected to be $100 trillion). But this is manageable without slower growth. An overall cost of around 1% of GDP to achieve stabilisation below 550 ppm CO2e, as suggested here, would have an impact similar to a one-off 1% rise in price or cost indices. However, if investments in the next two or three decades were made in high-carbon infrastructure, it could cost far more than 1% subsequently to reduce the resulting emissions to levels consistent with stabilisation below 550ppm CO2e.
+
+As we made clear in Chapters 11 and 12, the costs of mitigation will not be evenly distributed across industry sectors. Carbon-intensive sectors will face higher costs, and it is right to consider the impacts of these costs on their competitiveness. Similarly, the costs of unabated climate change will fall more heavily on sectors that depend upon environmental resources, such as agriculture and tourism.
+
+%%page 4#5%%
+
+If all countries act in a broadly similar way, the impacts on competitiveness from action to mitigate climate change will be small for all of them. Where different policies are in place in different countries for mitigation, it is important to assess the increased carbon costs in the context of overall conditions for doing business in a particular country or region. For many industries, the impact of any higher energy costs associated with mitigation is very small in relation to the cost differentials of different wage rates between rich and poor countries or to transport costs over long distances. For a small number of internationally traded, carbon-intensive sectors, including aluminium and cement, it may make sense to develop specific sectoral arrangements that provide an international framework to support the efforts of those industries to upgrade their equipment and processes and reduce or offset their emissions. And it is important to recognise that the new technologies and investments will open up new economic opportunities.
+
+While action is delayed, greenhouse gases in the atmosphere continue to accumulate, committing the world to greater impacts in the future or to the higher costs of bringing down flows of emissions more sharply to attain any stabilisation level. This cost of delay is a key element in the argument for urgent action.
+
+Overall, we have heard three main arguments from those who do not support the conclusion that urgent action to reduce the risks of climate change, economically speaking, is a good deal. We suggest that all three are misplaced.
+
+1\) Some still deny the science of climate change.
+
+There are legitimate debates over many particular details of the climate system, but it is no longer credible to doubt the underlying physical mechanisms associated with increases in greenhouse gases in the atmosphere, nor to doubt the importance of the natural carbon cycle and the potential for amplifying feedbacks that would be outside our control.
+
+2\) Some people accept the basic science, but still believe it is preferable to wait and see before taking significant action on mitigation. Some suggest a new technology will come along that will greatly reduce the costs of action, or that the changes will be such that future generations, with a higher capital stock available to them, will be able to adapt.
+
+It is certainly true that for most countries, major transformational damages affecting the whole economy are not likely to be seen for several decades, or even a century or more - but if we wait until they appear and they are as difficult as we have reason to expect then we cannot go into reverse. Stocks of greenhouse gases are extremely difficult to reduce.
+
+The range of human activity that gives rise to emissions is so broad, that there will be no single technology breakthrough that will bring about stabilisation. Further, technology development is not independent of the policy framework that is in place. The range of technologies required can only be brought forward by an appropriate policy framework.
+
+Adaptation is necessary, but it is not the whole answer. The longer stocks of greenhouse gases are allowed to accumulate in the atmosphere, the greater the impacts to which we are committing the world. There are limits to adaptation at higher temperatures. Many of the effects could involve major dislocation, to whole nations and regions, with consequences that would be felt around the world. The only way to prevent very high future damages is to reduce greenhouse gas emissions today.
+
+We should recognise the balance of risks. If the science is wrong and we invest 1% of GDP in reducing emissions for a few decades, then the main outcome is that we will have more technologies with real value for energy security, other types of risk and other types of pollution. However, if we do not invest the 1% and the science is right, then it is likely to be impossible to undo the severe damages that will follow. The argument that we should focus investment on other things, such as human capital, to increase growth and make the world more resilient to climate change is not convincing because of these irreversibilities and the scale and nature of the impacts. Similarly if we wait and see for 30 or 40 years then we are likely to go past the 550ppm (CO2e) that we argued would be a plausible upper limit. We might try to move rapidly from there but one cannot stop emissions in their tracks without great cost and disruption, if indeed it is feasible.
+
+%%page 5#5%%
+
+3\) Some people prefer to place very low value on the future, or to put it another way, to place a very high value on near-term opportunities for consumption. It is a key feature of the challenge of climate change that we must think long-term to understand the issues and to respond to them. It will always be possible to choose a pure time discount rate that makes the benefit of reducing future damages appear trivial.
+
+In the Review, we do discount future damages for the likelihood that future generations will be richer than we are. But we apply only a low discounting to the future simply because it is the future (we account for the possibility of extinction). Choosing a high rate of pure time preference to analyse a long-term issue that affects the global environment is to make a profound ethical choice with, in this case, irreversible effects on future generations. It is as though a grandparent is saying to their grandchild, because you will live your life 50 years after mine, I place far less value on your well-being than I do on myself and my current neighbours, and therefore I am ready to take decisions with severe and irreversible implications for you. Nevertheless ethical choices appear different to different people and that is why in the technical appendix to this postscript we investigate different possible ethical positions concerning inequality and pure time discounting. The conclusion that strong mitigation is warranted is robust except where high pure time discounting is embraced.
+
+An alternative view, associated with Bjorn Lomborg, that it is agreed, places dealing with climate change low on the agenda, arises from comparing it with "other ways" of spending public money and suggests that they have higher social rates of return. There are important deficiencies in this approach. First, correcting an externality is a different policy question from spending public money. Second, the argument as conveniently put takes little account of the severe risks of very high temperature increases from climate change which we now know are possible, or indeed likely, under business as usual, and which cannot be reversed if they start to appear. Third, the costs of action for any given stabilisation level rise rapidly if action is delayed. Thus, this type of argument for low priority or for delay is completely unconvincing.
+
+#### Responding to the challenge
+
+We have also received comments and reactions to the policy issues discussed in the second half of the Review – the policy instruments to promote mitigation, approaches to adaptation, and the international framework.
+
+Many people have welcomed the breadth of discussion on policy instruments, including the emphasis on the importance of all three strands of policy intervention - correcting the market failure on greenhouse gases, technology policy, and complementary measures to remove other barriers and to change perspectives on responsible behaviour. There has also been strong interest in the potential of each of tax, trading and regulation to play a role in the creation of a carbon price. We have been asked several times about the relative importance of each of these three approaches.
+
+The answer to these questions must be guided by the principles of effectiveness (in terms of delivering greenhouse gas emission reductions), efficiency and equity. For different countries and different sectors, different approaches are likely to prove appropriate and effective. Many European countries have high fuel taxes, whereas in the USA regulation of vehicle efficiency standards has historically been more important. In the EU, emissions trading has from the outset taken the form of a mandatory cap and trade scheme, while in Japan and for some businesses in the USA, voluntary approaches are proving helpful in building up experience of using this instrument. For some areas, for example household appliances, labelling and standards are likely to bring about the fastest changes. Efficiency does not require that all these approaches be merged into one single scheme, but it does require that across countries and policies, a broadly similar price of carbon emerges. Otherwise, some sectors will be carrying a greater burden of emissions reductions when there are more cost-effective opportunities elsewhere. Equity does not mean that poorer countries should take no action to reflect the price of carbon in their own economies – otherwise producers and consumers in those countries will not see the signals that are required to support a transition to a low-carbon economy – but it does mean that these countries should be supported by rich countries in the process of managing the adjustments.
+
+%%page 6#5%%
+
+Emissions trading is particularly well suited to addressing both efficiency and equity across borders. If the rich countries set ambitious targets, consistent with the overall objective of achieving stabilisation between 450-550ppm CO2e, emissions trading will allow the private sector in those countries to seek out the most cost-effective opportunities to reduce emissions. Some of these opportunities will be at home – provided the signal is strong, credible and long-term, the carbon price will discourage further investment in high-carbon capital stock in rich countries. But many of the opportunities in the short term will be in developing countries, and trading can create substantial flows of carbon finance that will allow developing countries to avoid locking in new high-carbon infrastructure during the next few years, when substantial growth and investment is likely to take place. These flows must be supported by effective mechanisms, linked to national or sectoral policies and programmes to move away from carbon-intensive investment strategies. Such large-scale flows from the rich countries combined with strategic national or sectoral approaches in developing countries have the potential to transform the carbon intensity of the global economy, without capping national aspirations for growth and development in poor and rich countries. A project-by-project approach to such flows is very unlikely to be able to deliver the results required, either in terms of the effectiveness of emissions reductions or the potential scale of flows from rich to poor countries. Programme or policy-orientated schemes will be necessary to manage flows on a much larger scale.
+
+Large-scale international flows of carbon finance will go a long way to addressing the issues of equity. However, the least developed countries have the fewest opportunities to benefit from private sector investment in emissions reductions. For some people, this suggests that a more equitable international framework would be based on equal per capita rights to emit. This view has some attractions but there are some practical and conceptual problems, which were discussed in Chapter 22. An alternative approach is to consider the challenges for the poorest countries directly. International co-operation can support access to clean, low-carbon energy for poor people, as demonstrated by the initiative of the World Bank and others in creating Clean Energy Investment Frameworks with a specific focus on energy access. The initiative on removing barriers to the use of the CDM in developing countries, launched at the Nairobi Conference of the Parties to the UNFCCC, also has the potential to increase the use of carbon finance in poorer countries. The underlying investment conditions for foreign and domestic private capital are fundamental to the success of such initiatives.
+
+It is of great importance to move quickly on those actions and policies that can be rapidly agreed and implemented and to build the knowledge and trust that could arise from the experience. Fundamental to all of effectiveness, efficiency and equity and particularly to equity is strong ambition from the rich countries in terms of caps implemented and thus level of carbon price and potential financing flows to developing countries. From all three perspectives, implementing caps embodying ambitious reductions should be of high priority in rich countries. And it is crucial that trading schemes such as the EU ETS be long-term, to provide effective private sector signals, and open, so that as many countries as possible can be included, both from the perspective of efficiency and the building of international collaboration.
+
+%%page 7#5%%
+
+Equity also clearly points to support for adaptation to the adverse impacts of climate change. It remains very clear that adaptation to climate change is now both inevitable and very important. For developing countries, good adaptation and good development policy are very strongly intertwined, and it is right that climate change should now become central to national planning processes and to development assistance. International support for adaptation will come in large part through the delivery of the commitments made by rich countries to double aid by 2010 and the commitments made by many countries to meet the target of 0.7% of GNI by 2015. This will deliver an increase of hundreds of billions of dollars.
+
+But there are limits to adaptation. Small island developing states threatened by sea level rise have fewer options to adapt. Sea defences are particularly costly for low-lying islands, and may do little to protect the tourism and fisheries that sustain the local economy. Development and diversification are still important strategies wherever possible, but ultimately the international community will have to find ways to support alternative responses, including the managed resettlement of some people in these states. This will bring many challenges, particularly for those people that must move. There will be much greater pressures if unabated climate change leads to sea level rise that threatens much larger populations in low-lying coastal areas.
+
+Finally, some people have asked if it is really possible to create structures that will sustain cooperation and overcome the incentives for free-riding. Here, it is important to understand that public pressure for an effective response is growing in many countries, as people begin to realise the scale of the risks they and their successors face if no action is taken and as they see the wide range of initiatives by local governments, businesses and community groups that demonstrate that it is possible to do something about the problem. It is now more important than ever to build trust, through transparency and mutual understanding about the actions that different countries are taking, and to look for international mechanisms that build on and support national objectives, including by reducing costs and increasing the prospects for success.
+
+#### Conclusions
+
+Climate change presents a very serious challenge. The most severe damage will be felt in the future, often the far future, but decisions that we take now could lock in those damages.
+
+The broad conclusion of our analysis is that urgent action should be taken to reduce the risk of committing the world to the real possibility of very high temperature increases. The next few years will be critical. Action is required now, if we are to stabilise somewhere in the range from 450-550ppm CO2e. Success will depend on continuity in the process of building carbon markets, and imagination and ambition in scaling up co-operation in areas such as technology and reducing deforestation.
+
+The Review is intended as a contribution to the discussion. We welcome the debate that has been stimulated, and hope that further work will take place on all the issues raised by the Review, including those explored further in this postscript and its technical appendix on aggregate modelling.
+
+%%page 1#6%%
+
+### Technical Annex to Postscript
+
+Some commentators on the Review have focussed on particular technical issues associated with modelling the aggregated impacts of climate change.[^10] Our estimates of damage from climate change derived from formal economic modelling are higher than many estimates in the literature, and there has rightly been strong interest in our underlying assumptions. This paper responds to some of the comments on the modelling we have received in the weeks since the publication of the report.
+
+The questions concern both the model structure and the ethical judgements that are embodied in the evaluations. Investigating these questions allows us to use the models to clarify the roles of the different assumptions in a structured way. We did not present these results as part of Chapter 6, but we have subsequently carried out a sensitivity analysis in this area and the results are presented below. This Technical Annex can be seen, in part, as an annex to Chapter 6.
+
+#### The role of Integrated Assessment Models (IAMs)
+
+Integrated assessment models attempt to summarise the impacts of climate change, usually in terms of aggregate gains or damages in terms of income. These models, on the basis of their assumptions, give an idea of the magnitude of risks, their evolution over time and sensitivity to emissions. As the Review makes clear, the role of IAMs is to give an illustration of the potential effects of climate change. Modelling of the economic impacts of climate change over long time-horizons cannot give precise results and is very sensitive to assumptions. Given the difficulty of modelling so far into the future, the models must be seen as highly speculative, but they do have the advantage of exploring the logic of assumptions.
+
+Our results using IAMs complement our analyses of the overall risks and the disaggregated impacts of climate change. In the Review, we lay stronger emphasis on the disaggregated assessment of impacts, together with overall judgements on the riskiness of very high temperatures and of unknown territory in a context where greenhouse gas (GHG) concentrations and environmental damage are very difficult to reverse. The IAM analysis illustrates these risks but should not be seen as the first or most important argument in coming to an overall judgement concerning the importance of a strong reduction in GHG emissions.
+
+It is important to recognise the limitations of IAMs. Expressing multi-dimensional impacts in terms of aggregated income losses masks the full environmental and human implications, which can be understood only through an analysis across several dimensions. In addition, in attempting to value these impacts in relation to a common income unit, IAMs add a degree of formality and precision, which can, from some perspectives, obscure rather than illuminate an overall assessment of the impacts. Existing IAMs rely heavily on literature that, in many cases, still excludes significant effects that have been explored only in the last few years, in particular the risks at high temperatures. The scientific literature has only recently been able to give probability distributions of temperatures associated with levels of greenhouse gas concentrations in the atmosphere. Crucially, this now allows more explicit analysis of the economics of risk and shows that the probability of temperature increases above 5°C under business-as-usual (BAU) may be high (above 50% in the most recent Hadley Centre estimates for some standard BAU emissions paths[^11] ).
+
+%%page 2#6%%
+
+The Review considers results from a range of IAMs and produces new results from one particular model: PAGE2002. The aim of this analysis was to provide an illustration of the scale of the potential impacts of climate change with an IAM that was updated to reflect recent probability estimates and incorporate the economics of risk (described below). These two features imply higher estimates than some previous literature but both are essential for a serious and up to date study of climate change. The economics is fundamentally about the economics of risk.
+
+In addition we examined carefully the arguments for pure time discounting (see Chapter 2, its appendix, and below) and argued that whilst the growth arguments for discounting were sound (and included in the modelling) in this context, the ethical case for strong pure time discounting was weak. Lowering pure time discount rates raises estimates of losses.
+
+#### Integrated Assessment Modelling in the Stern Review
+
+In this section, we examine what shapes the outputs from the models, what innovations the Stern Review has made and what further innovations should be examined. There are four main elements: (i) the model structure; (ii) the underlying evidence; (iii) the issues being examined – here, particularly, the economics of risk; (iv) ethical judgements. We then provide a sensitivity analysis varying parameters relevant to the model structures and ethical judgements to cover issues raised with us by commentators. Finally we comment on directions for research in this area and the implications of the sensitivity analysis for the overall argument of the Review.
+
+***The model structure***
+
+The PAGE2002 model was chosen for two reasons: (i) it is particularly convenient for examining risk; and (ii) it is designed to span the range of previous models. For example, the standard damage function of the model is designed to cover the range of estimates described in the IPCC Third Assessment Report (TAR, 2001) and the climate sensitivity range is consistent with the likely range given in that report. No changes were made to the core model structure for the Stern Review analyses in Chapter 6 of the report.
+
+***Scientific and other evidence***
+
+Through assessing the full range of possible outcomes based on current scientific evidence, the results in the Review go further than the majority of previous studies in attempting to quantify the impacts of climate change. This allows us to capture more fully the risks associated with higher temperatures. The 'baseline'-climate scenario of the model is designed to be consistent with probability distributions associated with the range of projections given in the IPCC TAR. The Stern Review builds on this by considering more recent scientific evidence pointing to greater risks of high temperatures due to additional feedbacks, such as weakening carbon sinks and increased natural methane releases. This is called the 'high'-climate scenario.
+
+In addition to the more recent estimates of probabilities of different temperatures (used for both baseline and high climate), there is also an issue of how to evaluate consequences of different temperatures. As discussed in Part II, there are uncertainties here that can only be resolved once there are sufficiently good data. The G-ECON database is one project leading the way here (see Nordhaus, 2006a). The damage function of the PAGE2002 model is designed to capture stochastically the findings of other IAMs. For lower temperatures, a wide pool of published literature informs these damage estimates. However, as temperatures rise above around 3 - 4°C above pre-industrial, information becomes scarcer. Detailed empirical assessments of impacts at high temperatures are difficult to do because they take us far outside the range of human experience. Given that under a business-as-usual trajectory there is a significant risk of temperatures exceeding 5°C, more research is required to better understand the consequences of high temperatures.
+
+%%page 3#6%%
+
+In the PAGE2002 model, impacts are represented by a damage function that takes a simple form dependent on regional temperature[^12] increases (TR) and the damage exponent γ.
+
+γ
+
+⎛T ⎞ (1) Damages ∝ ⎜ R ⎟
+
+⎝ 2 .5 ⎠
+
+The damage exponent is critical in determining the scale of the estimated impacts. In the standard model (as used in Chapter 6) this is defined by a triangular probability distribution, with minimum of 1, a mode of 1.3, and a maximum of 3. This range is based on results from several previous studies discussed in the IPCC Third Assessment Report. A value of 1.0 implies that damages are a linear function of global mean temperature. A value of 1.3 implies a weak convexity and 3 implies a stronger convexity. Figure PA.1 below demonstrates the dependence of damages at a given temperature on the damage exponent, relative to the damages at 2.5°C. For comparison, the global damage function from the DICE model is shown[^13] .
+
+Figure PA.1 The dependence of damages on temperature. The lines show the PAGE2002 damages, as defined by the damage function in equation 1, for damage exponents (γ) between 1 and 3.
+
+The disaggregated impacts analysis brought together in Part II suggests that the relationship between temperature and damages will be convex. Further, there are strong reasons to consider that the scale of impacts captured by the damage exponent of 1.3, the mode of the analysis in Chapter 6, does not adequately reflect the degree of convexity of likely damages.
+
+%%page 4#6%%
+
+Damages for many individual impacts rise steeply with temperature (see, for example, Table 3.1 and Box 3.1 in the Review). As well as the strong convexity that arises from individual effects there are also aggregate convexities that arise from their interaction. For example, most previous studies look only at the effects of average climate conditions. However, a 1°C increase in mean temperatures could lead to a ten-fold increase in the frequency of severe heat waves in some regions (Chapter 1). This will have knock-on effects, heightening damages (and strengthening convexities) in areas such as agriculture and health. The convexity of the aggregate damage function is supported by Nordhaus (2006a) using the new G-ECON database. This demonstrates a powerful cross-sectional relationship between temperature and output, as well as specific examples, such as the ninth power relationship between hurricane wind speed and damages (Nordhaus 2006b)[^14] . The damages associated with such interactions between impacts have not been fully incorporated into previous aggregate analyses.
+
+In addition, there is also the risk of major, irreversible changes in the climate, ecosystems and society (Chapter 3). As temperatures rise, these risks increase sharply. Some commentators have suggested to us forcefully that the types of risk associated with high temperatures as discussed in Part 2 of the Review are not well reflected in the formal modelling of Chapter 6. This is, in our view, a suggestion that is well founded.
+
+To test the sensitivity of the results to the damage exponent, the model is rerun with a new mode of 2.25. The lower bound of the range is increased to 1.5 and the upper bound is held constant. The range is chosen in the light of the proposed functional forms of the relationships illustrated in Box 3.1, analyses such as those just quoted, and the powerful reinforcing effect of combinations of these individual effects.
+
+***The economics of risk***
+
+Models and policy analyses are designed to investigate specific questions. In this case we have argued that the analysis of risks is crucial to the problem of climate change. Thus it is important that analyses are built around the economics of risk. For example, in the high-climate scenario with market impacts, risk of catastrophe and non-market impacts (Chapter 6), the 95th percentile estimate is a 35.2% loss in global per-capita GDP by 2200. This is not a statistical mean, but it is nevertheless a risk that few would want to ignore. Such risks can have a strong effect on welfare calculations, because they reduce consumption to levels where every marginal dollar or pound has a much greater value.
+
+The Stern Review has adopted an expected-utility analysis, a standard tool in economics for working with risk. This is based on probability distributions of future outcomes that were not available in most previous analyses.
+
+***Ethical judgements and Discounting***
+
+In Chapter 2 and its appendix we examined a number of different ethical viewpoints. In the forward modelling of Chapter 6, with its very narrow view of outcomes in terms of monetary aggregates, we focused on a simple and standard framework in which discounted utility (as a function of consumption) of a generation is summed over time. We should also draw attention to a broader literature on sustainable development than referenced in Chapter 2 (a helpful analytical introduction and set of references is Dasgupta, 2001, and Arrow et al, 2003). We should also draw attention to an axiomatic approach to inter-temporal evaluations, which can lead to similar formulations, based on the work by Koopmans (1972). Simple aggregative modelling of the type used here usually precludes the relevant subtlety of evaluation.
+
+Estimating the aggregate impacts of climate change requires us to consider the value of damages now compared with those in the future. For an evaluation of a marginal change of one unit at some time in the future, relative to a unit now, this is called the discount factor. Its rate of fall is the discount rate (see chapter 2 of the report and its appendix for a detailed discussion). Discount factors and rates depend on time and the path under examination. Discount factors and rates in the very aggregative models considered in the appendix to Chapter 2 and in Chapter 6 are shaped by two elements or questions:
+
+%%page 5#6%%
+
+1\. How to take into account the fact that people are likely to be richer in the future.
+
+2\. Whether the future should be discounted simply because it is the future.
+
+The first element appears in our modelling in a standard way. This is captured by the product of elasticity of marginal utility of consumption[^15] (η) and the growth rate of consumption (See Chapter 2 and Appendix). Note that η has a dual role as both a parameter of inequality aversion and of relative risk aversion. In Chapter 6, we used an elasticity of marginal utility consumption of 1, in line with some empirical estimates[^16] . For this case, the contribution to the discount rate at any time is equal to the rate of growth in consumption at that time on the path. Some previous studies have assumed that the discount rate at any point in time is independent of the scale of the impacts and of the path followed (the future growth trajectory). However, as climate change implies that strongly divergent paths for future growth are possible, the use of a single set of discount rates (over time) for all paths is inappropriate.
+
+Such a value for the elasticity of marginal utility of consumption might be interpreted as implying a very high savings rate in some simple models (see Arrow, 2005, and related discussion in Section 2A.2 of the Review). However, applying this type of framework to savings rates as a central object of analysis would require more focus on issues related to savings, for example, the lifetime of capital equipment, flexibility, uncertainty, relations and responsibilities within and across generations and so on. Similarly, arguments for high η would imply stronger preference for redistribution than is reflected in policy in many countries. That does not settle any argument about η but it does indicate that application of a simple theory and model structure focused on one issue applied directly to a second issue is likely to miss out much that is important for the second. These arguments about implications for the second, while relevant, have to be handled with care. These ideas are discussed in the Appendix to Chapter 2.
+
+The second component is captured by the pure rate of time preference. This requires a consideration of the ethical issues involved in comparing the incidence of costs and benefits between generations, some of which are very distant in time. We argued in the Review– in line with economists including Ramsey, Pigou, Solow and Sen – that the welfare of future generations should be treated on a par with our own. This means, for example, that we value impacts on our children and our grandchildren, which are a direct consequence of our own actions, as strongly as we value impacts on ourselves.
+
+We argued that the primary justification for a positive rate of pure time preference in assessing the impacts of climate change is the possibility that the human race may be extinguished. As the possibility of this happening appears to be low, we assume a low rate of pure time preference of 0.1%, which corresponds with a 90% probability of humanity surviving a 100-year period, if the 'probability of existence' view of pure time discounting is invoked. Higher probabilities of survival would imply a still lower rate (see Table PA.1below).
+
+%%page 6#6%%
+
+Table PA.1 Implication of pure time discount rate (δ) for probability of existence
+
+Many previous studies have used higher pure rates of time preference. They have used rates similar to those often applied to the evaluation of project-based investments. However, in drawing such analogies much turns on the meaning of the uncertainty covered by the pure time discounting. In this respect, there are important differences between the kind of large-scale disinvestments in the environment involved in climate change and other types of long-term investment, e.g. a railway. In the railway example, we might think of pure time discounting as covering the possibility that the context would change in such a way that the investment would become irrelevant (e.g. the closure of the whole railway system). Or we might interpret pure time discounting as covering the possibility that the particular decision might be reversed in terms of non-renewal of the investment when it reaches the end of its life. These looser[^17] but possible interpretations of pure time discounting in the project appraisal context apply to climate change only in a much weaker form. Climate change is long-term, severe and irreversible. Accumulated stocks of carbon cannot easily be reversed and we cannot opt for another planet. Thus, if these looser forms of interpretation of pure time discounting are introduced they imply stronger pure time discounting for other contexts than for climate change.
+
+The analysis cannot avoid taking on directly the challenge of how to treat unrepresented generations. It is an ethical issue and cannot simply be derived from market behaviour. For example, Arrow (1995) and Samuelson and Nordhaus (2005) (and see references therein and in Dasgupta, 2005), rightly present the issue as 'prescriptive' rather than 'descriptive'. However, Arrow and Nordhaus come to different conclusions from those indicated here about the appropriate rate of pure time discounting. Some of those arguments were covered in the appendix to Chapter 2. See also the important discussion in Cline (1992).
+
+The consequences of choosing a high pure time discount rate for evaluating the impacts of climate change should be very obvious and were emphasised in Chapter 2 of the Review and its appendix. They are clear from Table PA.1. For example, if the pure time discount rate is 1.5%, then benefits 50 years from now, for individuals who have exactly the same consumption, have a weight less than half that of now. In other words, a grandparent would tell a grandchild that simply because the latter's consumption flow came later (e.g. 50 years) in time than his or her own consumption flow it would be correct to assign a value of less than half to it in thinking about the consequences of actions today. In the case of climate change, this would mean that while we know the direct (stochastic) consequences of our actions today and whom they affect, we would nevertheless apply a very low weight to those consequences. Many people would find that ethical position very unattractive. It is hard to see why the logic should be any different from assessing externalities that affect members of the current generation. We must be transparent and clear. If you take little account of the interests of future generations you will care little about climate change. But ethical positions cannot be dictated by policy analysts, and sensitivity analysis of loss estimates to the rate of pure time preference is supplied below.
+
+There are ways of thinking about the relationship between this and future generations in terms of implicit bargains rather than using an aggregate social welfare function as in Chapter 2, its Appendix and Chapter 6. We might think that future generations would willingly accept a lower conventional capital stock (e.g. roads and railways) in exchange for a better climate. In that case the existing generation acting on their behalf would adjust its investment portfolio, without investing more, to invest in a better climate. These kinds of notions come in when we invoke the ideas of sustainable development (and see for example, Arrow, et al. 2003).
+
+%%page 7#6%%
+
+This formal modelling of Chapter 6 does not take into account the distribution of consumption across regions. In similar vein to a lower weighting for marginal increments to richer generations, increments in poorer regions should have a higher weighting than those in richer regions. Making such calculations was beyond the scope of this exercise, given the limited time available for analysis. Taking this regional approach would increase the climate change cost estimates, as illustrated in Section 6.2, so our decision to use a simpler global aggregation approach will bias our model toward lower cost estimates. How we might adjust for this was described in Chapter 6.
+
+***Other factors: growth rate and treatment of long time-scales***
+
+There are other aspects in the models used in the Stern Review that will affect the outcomes of the modelling exercise. We describe two briefly:
+
+1\. The baseline growth rate. A scenario with higher growth would be expected to generate greater emissions, but also have a reduced discount rate. The balance of these effects depends on the convexity of the damages function from emissions stocks and temperature change, and the elasticity of the marginal utility function.
+
+2\. The Stern Review, like other similar studies, is very conservative in its treatment of climate change after 2200. We assume that impacts post-2200 are equal to impacts in 2200. That is, we assume that the problem contains itself after this time. This assumption may lead us to underestimate the impacts of climate change.
+
+#### Sensitivity Analysis
+
+The above discussion and the comments we have received point to the importance of testing the sensitivity of the loss estimates to three key parameter choices in the model: the damage exponent γ, relevant to model structure, and the elasticity of the marginal utility of consumption, η, and the pure time discount rate,δ, relevant to ethical values.
+
+We first consider changes in the damage exponent. Figure PA.2 shows the losses as a percentage of global GDP per capita for the scenarios above, with the standard range for the damage exponent [1, 1.3, 3] and the modified range [1.5, 2.25, 3] – see above. Note that this change to the model structure applies whichever ethical values are introduced.
+
+%%page 8#5%%
+
+Figure PA.2 Percentage losses in GDP per capita.
+
+%%page 9#5%%
+
+Next we consider the effect of changes to the ethical values. The first table looks at the implications of changing the elasticity of the marginal utility of consumption, in combination with changes to the damage exponent.
+
+Table PA.2 presents results for three of the six scenarios originally reported in Chapter 6. They are:
+
+1. Baseline climate; market impacts + risk of catastrophe;
+
+2. Baseline climate; market impacts + risk of catastrophe + non-market impacts;
+
+3. High climate; market impacts + risk of catastrophe + non-market impacts.
+
+Table PA.2. Sensitivity analysis of estimates of the monetary cost of BAU climate change to the damage function exponent and the elasticity of the marginal utility of consumption, ***holding the pure time discount rate at 0.1% (original Review estimate in italics).***
+
+%%page 10#5%%
+
+For a conservative scenario including baseline climate change and excluding non-market impacts on ecosystems and human health, increasing the elasticity of the marginal utility of consumption from 1.0 to 1.5 reduces the present value of the cost of BAU climate change from 5.0% to 2.9%. Using the same scenario, applying a higher probability distribution for the damage function exponent (with η constant at 1) increases the cost of BAU climate change from 5.0% to 6.0%.
+
+We should note that higher values of η imply higher discount rates[^18] via the growth effect. For example, a growth rate of 2% and an η of 1.5 would give a discount rate of 3%. And it should be noted in this modelling that we have not included declining discount rates other than through the growth rate. There is a case for such a decline (see Appendix to Chapter 2 and references therein) and this would increase the loss estimates.
+
+Although in the Review we have argued that it is preferable to value the impacts of climate change on health and the natural environment separately from its impacts on income, a comparison of the cost of mitigating climate change to the cost of BAU climate change, excluding non-market impacts gives a misleading signal. Interpreted literally, this would imply that these impacts have zero value. That would not be a tenable position. Zero is the most implausible of assumptions even though applying specific valuations raises difficult issues. The middle and third scenarios, which include non-market impacts, have a stronger claim on our attention. Increasing the elasticity of the marginal utility of consumption from 1.0 to 1.5 reduces the estimated cost of BAU climate change from 10.9% to 6.5% (4.4 percentage points). On the other hand, applying a higher probability distribution for the damage function exponent increases the cost of BAU climate change from 10.9% to 14.2% (3.3 percentage points).
+
+Substituting the high-climate scenario for the baseline-climate scenario, the probability distribution of the damage function exponent becomes the more important factor. Increasing this raises the cost of BAU climate change from 14.4% to 21.9% (7.5 percentage points). Increasing the elasticity of the marginal utility of consumption from 1.0 to 1.5 reduces the present value of the cost of BAU climate change from 14.4% to 10.2% (4.2 percentage points). We should note here that the elasticity of the marginal utility of consumption here plays a double role as an indication of (relative) risk aversion and of aversion to inequality. The former effect means that a high elasticity would increase damage estimates and the latter decrease them (via a stronger discounting). More sophisticated analysis could separate these effects.
+
+Finally, we examine the sensitivity of loss estimates to the pure time discount rate, δ, presented in Table PA.3. The quantitative weighting following from different discount rates was presented in Table PA.1. The case where δ=0.1% was presented in Chapter 6 and is italicised in Table PA.3. As is intuitively clear, raising the pure time discount rate lowers loss estimates because the future is seen as less important. Nevertheless for all cases, even with the very high δ of 1.5% the loss estimates still exceed 1%, the estimated cost of strong mitigation. However, we would argue that even a pure time discount rate of 0.5% should be regarded as too high in this context, from an ethical or probability of extinction perspective (see Table PA.1 and related discussion).
+
+%%page 11#5%%
+
+Table PA.3 Sensitivity analysis of estimates of the monetary cost of BAU climate change to the damage function and the pure time discount rate, holding the elasticity of the ***marginal utility of consumption at one (original Review estimate in italics).***
+
+Dr Chris Hope, the author of the PAGE2002 model, conducted a similar sensitivity analysis for the pure rate of time preference, which was published in the Financial Times[^19] focusing on the social cost of carbon using the PAGE2002 model (baseline climate scenario with non-market impacts and the standard damage function) and δ = 2. This did not include the expected utility analysis used by the Review, but provides a useful comparison. Hope found that with the higher discount rate, the social cost of carbon is reduced by just over half to $40 (for the business-as-usual path). This is roughly consistent with the reductions outlined in Table PA.3.
+
+Conclusions from Sensitivity Analysis
+
+Where does this sensitivity analysis leave the overall case for strong mitigation as seen from the perspective of Chapter 6? First, let us re-emphasise that our first perspective on this argument was not Chapter 6, but the disaggregated analysis together with an overall assessment of risk. Formal modelling of the very simplistic kind carried out by IAMS should not be the first claim on our attention in formulating policy. But pursuing the Chapter 6 approach, using the sensitivity analysis we can conclude that this perspective does provide a powerful argument for strong mitigation. For an analysis that takes account of non-market impacts all the calculations displayed give a loss estimate above 5% of consumption, except where the pure time discount rate is above 1%.
+
+For the higher exponent on the damage function for temperature we find damages above the upper ranges provided in Chapter 6. Indeed even using the higher exponent on the marginal utility of consumption this statement remains true for the high climate case (for the pure time discount rate of 0.1% - see Table PA.2). We should recognise that the unitary value for the elasticity of the marginal utility of income together with δ=0.1% place stronger emphasis on later costs and benefits[^20] than higher η or higher δ would imply. However, we have seen that provided δ is not extremely high (above 1%) the basic case from this approach for strong mitigation remains convincing, particularly when one takes account of higher damage exponents. And, in our view, the case for higher damage components in the context of the possibility of higher temperatures is convincing.
+
+%%page 12#5%%
+
+Many commentators have pointed to the importance of the pure time discount rate. So did the Review, clearly and strongly, and it marshalled the arguments for the level chosen. On the other hand it is quite wrong, as some have suggested, to argue that high losses from unabated climate change, relative to the costs of abatement, rest solely on this assumption. The sensitivity analysis demonstrates this clearly. Earlier authors who obtain lower damage costs do no take sufficient account of the most recent science linking probabilities of temperature increases to GHG concentration, and take insufficient account of the economics of risk.
+
+The cost estimates presented here would increase still further if the model incorporated other important omitted effects. First, the welfare calculations fail to take into account distributional impacts, even though these impacts are potentially very important: poorer countries are likely to suffer the largest impacts. Second, the estimates here are conservative about damages post - 2200. If they continued to rise after that then cost estimates would increase. Third, there may be greater risks to the climate from dynamic feedbacks and from heightened climate sensitivity beyond those included here. During the course of the Review, we examined the possibility that some of these factors could combine to produce significantly higher probabilities of large increases in temperature. The scientific evidence is not yet available to support any conclusions in this area, and we have not included the results of this work in the conclusions presented in the Review. This is an area where further scientific investigation would be very important as a basis for future economic analysis[^21].
+
+We conclude with some brief remarks on possibilities of further research in this and related areas. We have already indicated our preference for a disaggregated approach to risk assessment in this area. Policy makers would (and probably should be) more convinced by a case which indicates the extent and seriousness of the risks involved in climate change, rather than aggregative results from speculative models that are highly sensitive to the assumptions built into them. Nevertheless these models do have a valuable supplementary role in the argument.
+
+Thus, our first suggestion for further research is deeper investigation on the disaggregated effects of climate change. This should be oriented towards not only the 2-3°C range but also attempt to better understand the risks of 5°C and above, which we now know to be very serious possibilities under business-as-usual. This type of research would be important not only for understanding the case for strong mitigation but also be of great value in understanding what is necessary or advisable for adaptation.
+
+This type of research would depend on high-resolution climate modeling which could provide much more detailed information on local impacts. This could and should be combined with detailed local studies, based on close local knowledge of possible implications of these climate changes.
+
+At the same time, this type of high resolution cum local approach could be used, if sufficiently extensive, to inform global impact modeling. The work of Nordhaus (2006a) charts one very important line of investigation.
+
+A second type of approach, building on the first, would be the development of the integrated assessment models to take more account of risk. Just one model was used here, chosen for convenience of use in stochastic analysis, and because it spanned a range of models. But other models should be used to develop different perspectives and in so doing test the robustness of our results.
+
+%%page 13#5%%
+
+In conclusion we should stress again that the analysis of the Review as a whole was always intended to be one contribution to a discussion. There have been, will be, and should be many more contributions.
+
+#### References
+
+Arrow, K, P. Dasgupta and K-G Maler (2003): 'Evaluating projects and assessing sustainable development in imperfect economics', Environmental & Resource Economics, Vol 26 pp 647-685
+
+Arrow, K.J. (1995): 'Inter-generational equity and the rate of discount in long-term social investment' paper at IEA World Congress (December), available at: www.econ.stanford.adu/faculty/workp/swp97005.htm
+
+Cline, W. R. (1992): 'The Economics of Global Warming' Washington DC: Institute for International Economics.
+
+Dasgupta, P.S. (2001): 'Human Well-Being and the Natural Environment', Oxford University Press.
+
+Dasgupta, P.S (2005): 'Three conceptions of intergenerational justice' in ed Mellor (2005).
+
+Koopmans, T.C. (2972) 'Representation of reference orderings over time' in Maguire and Radner (1972)
+
+McGuire, C, B and R. Radner (eds) (1986) 'Decisions and Organization', North Holland, Amsterdam.
+
+Mellow, H (ed) (2005): 'Ramsey's Legancy', Oxford University Press
+
+Samuelson, P.A., and W.D. Nordhaus (2005): 'Economics', 8th Edition, New York: McGraw Hill.
+
+Nordhaus, W. (2006a): 'Geography and macroeconomics: New data and new findings', PNAS, 103(10): 3510-3517
+
+Nordhaus, W. (2006b): 'The economics of hurricanes in the United States, Prepared for Snowmass Workshop on Abrupt Climate Change', Snowmass: Annual Meetings of the American Economic Association, available from http://nordhaus.econ.yale.edu/hurricanes.pdf
+
+Pearce, D.W. and A. Ulph (1999): 'A social discount rate for the United Kingdom' Economics and the Environment: Essays in Ecological Economics and Sustainable Development, D.W. Pearce, Cheltenham: Edward Elgar.
+
+Stern, N. (1977): 'The marginal valuation of income', in Artis, M. and R. Nobay (eds.), Studies in Modern Economic Analysis, Oxford: Blackwell.
+
+Warren, R. et al. (2006): 'Spotlighting Impacts Functions in Integrated Assessment Models', Norwich, Tyndall Centre for Climate Change Research Working Paper 91.
+
+%%page 1#7%%
+
+## Annex 7.b Emissions from the power sector
+
+This annex outlines sources of emissions from the power sector now, historical and projected business as usual trends, drivers behind growth in emissions, and prospects for emission cuts.
+
+#### Now
+
+Emissions from the power sector[^1] are currently 10.3 GtCO2 (24% of total greenhouse gases)[^2]. Fossil fuels account for three quarters of the fuel used in this sector, of which coal is most dominant (see figure 2). Coal is also responsible for the majority of emissions from this sector (see figure 1).
+
+Under half of the electricity and heat produced is used in buildings (residential and commercial), around one third in industry, just under one tenth in energy production and processing (such as refineries), and the remaining less than one tenth is lost in transmission and distribution.
+
+OECD North America is currently by far the largest single emitter of power sector emissions (3 GtCO2), followed by China (1.7 GtCO2), OECD Europe (1.6 GtCO2) and transition economies (1.4 GtCO2).[^3] OECD North America also has among the highest emissions per capita (7 tCO2/person), more than twice the level of OCED Europe and six times the level of China.
+
+Figure 1 CO2 emissions from the electricity and heat sector gas 27% oil 5% coal 68%
+
+Figure 2 Fuel used by the electricity and heat sector renewables 13% nuclear 12% coal 42% gas 29% oil 4%
+
+%%page 2#7%%
+
+#### Historical and BAU projected trends
+
+Power sector emissions increased by 31% between 1990 and 2002, making it the fastest growing sector over the period. Developing countries were among those to experience the greatest growth in emissions over this period. In particular, emissions from China, India, other Asian countries and the Middle East more than doubled. This compares to an increase of 22% in emissions from OECD countries over the same period.
+
+Figure 2 Power sector CO2 emissions by country 1990-2030[^4]
+
+Under business as usual conditions, total power sector emissions are expected to reach 19 GtCO2 by 2030 and 34 GtCO2 by 2050, a three-fold increase on current levels[^5]. China is expected to overtake OECD North America as the largest emitter of power sector emissions in the next decade or so; however by 2030 China will still have less than half the emissions per head that OECD North America has[^6].
+
+#### Drivers
+
+A key driver of growth in emissions from the power sector is income. As economies become richer, they demand more power. The countries expected to experience the fastest growth in emissions are also those expected to have the most economic growth: about half of the increase in emissions between now and 2030 is from growth in India, China and Africa.
+
+Emissions by country are also affected by choice of fuel. The fuels producing most emissions per unit of energy are coal, followed by oil, then gas[^7]. A country's choice of fuel is largely determined by its natural resource endowments. South Africa, China, India and the US have abundant supplies of coal and use this to supply at least half of their energy.
+
+Fuel choice can also be the result of historic investment in generation capacity. For example, the decision by France to invest in nuclear power decades ago means it now supplies 75% of the country's electricity. Historic investment can also influence efficiency of power generation and subsequent emissions.
+
+%%page 3#7%%
+
+#### Prospects for emission savings
+
+To reach a 550ppm CO2e stabilisation trajectory in a cost effective manner, electricity production is likely to have to be 60% less carbon intensive that it currently is[^8]. There is a range of technologies that can help achieve this.
+
+Carbon capture and storage (CCS), whereby CO2 emissions are captured at source and transported to an underground storage site, is likely to play a particularly important role. Details of CCS are found in chapter 9, box 9.2. CCS is most cost effective when used at efficient fossil fuel power plants. This could save 4 GtCO2 in 2050 at a cost of $25/tCO2[^9].
+
+Renewables (such as biomass, hydropower, geothermal, wind and solar) are likely to be another important source of carbon savings. For example, it could save 3 GtCO2 by 2050 at $25/tCO2[^10]. The choice of renewables will differ by country according to local conditions.
+
+The emissions saved by nuclear power will depend on to what extent costs come down and public acceptance issues are resolved. For this reason, estimates of emission savings from nuclear vary significantly: by 2050, at a cost of $25/tCO2, the IEA find it could save 2 GtCO2 and Dennis Anderson estimates it could save 6 GtCO2[^11].
+
+Fossil fuel power plants could also yield carbon savings. For example, switching from coal to gas can save 50-75% of the emissions per kWh because natural gas has a lower carbon content than coal and also natural gas combined cycle power plants are more efficient than coal ones[^12].
+
+Emissions from the power sector can also be cut if demand from the end-user sectors (mainly buildings and industry) is reduced.
+
+#### References
+
+IEA (2004), World Energy Outlook, OECD/IEA, Paris.
+
+IEA (2006a) Energy Technology Perspectives, OECD/IEA, Paris.
+
+IEA (2006b) World Energy Outlook 2006, OECD/IEA, Paris.
+
+World Resources Institute (2005), Navigating the Numbers: Greenhouse Gas Data and International Climate Policy, World Resources Institute, USA.
+
+World Resources Institute (2006): Climate Analysis Indicators Tool (CAIT) on-line database version 3.0., Washington , DC: World Resources Institute, available at http://cait.wri.org
+
+WBCSD (2004) Mobility 2030: Meeting the Challenges to Sustainability, World Business Council for Sustainable Development. Underlying spreadsheets.
+
+%%page 1#8%%
+
+## Annex 7.c Emissions from the transport sector
+
+This annex outlines sources of emissions from transport today (by mode and country), historical and projected business as usual trends, the drivers behind emissions growth, and the prospects for cutting emissions from this sector.
+
+#### Now
+
+Transport accounts for 14%[^1] of global greenhouse gas (GHG) emissions, behind the power and land use sectors and the same as the agriculture sector. The majority of these emissions are from road transport (76%) and aviation (12%)[^2] (see figure 1 below).
+
+By far the largest source of transport emissions is OECD North America, producing 37% of the total[^3]. This partly reflects the fact that OECD North America has the highest car ownership level in the world (around 0.6 vehicles per person, compared to 0.4 in OECD Europe and 0.01 in China), yet lags behind most nations in terms of fuel efficiency[^4].
+
+Figure 1 Transport CO2 emissions by mode in 2000[^5]
+
+In addition to direct CO2 emissions from road vehicles, aircraft, trains and ships, transport also contributes to climate change in two other ways:• Non-CO2 effects of aviation. The gases emitted from aircraft and their effects at high altitudes mean that the warming effect of aviation is greater than its CO2 emissions alone would suggest (as discussed in chapter 15, box 15.6). There is no internationally agreed methodology for presenting the warming effect of emissions from aviation as CO2e so it is excluded from emission estimates.
+
+• Upstream CO2 emissions. The refineries that produce transport fuel release CO2 emissions.
+
+Also, electricity consumed by electric trains and road vehicles is indirectly associated with CO2 emissions from the power sector.
+
+%%page 2#8%%
+
+#### Historical and projected business as usual trends[^6]
+
+Transport was the fastest growing sector in OECD countries and the second fastest growing sector in non-OECD countries between 1990 and 2002 (emissions increasing by 25% and 36% respectively[^7]).
+
+Under business as usual (BAU) conditions, transport emissions are expected to reach 9 GtCO2e in 2030[^8]. Transport emissions are expected to grow fastest in non-OECD countries, such that their share of global emissions grows from one third to one half by 2030.
+
+Figure 2 Transport emissions by country, 1990-2030[^9]
+
+In 2050, transport emissions are expected to reach 12 GtCO2[^10] (double current levels), however the sector's contribution to climate change is likely to be significantly greater than this because of the use of synfuels. Synfuel is oil produced from coal and gas; it is twice as polluting as conventional oil because of emissions released in the production process[^11]. By 2050, the rising cost of conventional oil could mean that one quarter of transport energy demand would be met by synfuel[^12].
+
+Between 2005 and 2050, emissions are expected to grow fastest from aviation (tripling over the period, compared to a doubling of road transport emissions). Transport's share of total emissions is expected to remain the same as today, at 14%.
+
+%%page 3#8%%
+
+By 2050, CO2 emissions from aviation are expected to account for 2.5% of global GHG emissions. However taking into account the non-CO2 effects of aviation would mean that it would account for around 5% of the total warming effect (radiative forcing) in 2050[^13].
+
+#### Drivers of emissions growth
+
+The demand for transport is a derived demand: it is not demanded for its own sake, but rather for the things it enables people to do (such as get to work, take leisure trips, and move goods from one place to another).
+
+The key driver behind growth in transport emissions is income As people get richer, they tend to want to transport more goods and make longer trips. Associated transport emissions increase both because more travel is being undertaken, and because as people get richer they want to travel using more carbon-intensive modes (switching from bus to train, from train to car, from small car to large car, etc).
+
+Transport emissions are also influenced by the cost: an increase in prices tends to choke off relatively less demand in the transport sector than it does in the buildings and industry sectors[^14]. Other important factors affecting emissions include availability of less carbon intensive modes of transport (the balance between public and private transport for example), social choices (such as willingness to walk or use bicycles), the carbon content of fuel and a large number of technical developments affecting fuel efficiency (for example, factors related to vehicle weight and design).
+
+#### Prospects for cutting emissions
+
+Transport is one of the more expensive sectors to cut emissions from because the low carbon technologies tend to be expensive and the welfare costs of reducing demand for travel are high. Transport is also expected to be one of the fastest growing sectors in the future. For these two reasons, studies tend to find that transport will be among the last sectors to bring its emissions down below current levels[^15].
+
+Cost effective emission savings from transport are initially likely to come from improvements in the fuel efficiency of oil-based transport vehicles, behavioural change, and use of biofuels. There are limits to the role that biofuel could play in transport as land availability and technological constraints could drive up the cost; this is discussed in chapter 9, box 9.5. IEA analysis suggests that efficiency improvements and biofuels could together contribute to 7 GtCO2 savings by 2050 at a cost of $25/tCO2[^16]. Efficiency improvements account for about three quarters of this carbon saving; this could be obtained using measures such as more use of hybrid cars[^17].
+
+If innovation policy is used to bring down the cost of low carbon transport technologies (such as hydrogen or electric powered vehicles), then these will become viable options in the longer term. However the electricity or hydrogen would have to be generated in a low carbon way for these technologies to be truly low carbon. It is very uncertain how quickly the costs of these technologies might come down. A study by the IEA found that hydrogen could fuel up to 30% of road transport vehicles by 2050, but with significant downside potential[^18]. Analysis by Dennis Anderson presented in chapter 9 finds that by 2050 at a cost of $25/tCO2, hydrogen could account fuel 10-20% of road transport vehicles globally.
+
+%%page 4#7%%
+
+Whilst transport is likely to be largely oil-based in 2050, it is important for it to decarbonise in the longer term if stabilisation at 550ppm CO2e is to be achieved. For example, in the period beyond 2100, total GHG emissions will have to be just 20% of current levels (around 5 GtCO2e, which is roughly the same as today's emissions from agriculture). It is impossible to imagine how this can be achieved without a decarbonised transport sector.
+
+Road transport is likely to be decarbonised before aviation. Biofuels and hybrid electric/ICE technologies are already feasible for roll out in road transport vehicles. Lignocellulosic biofuels may be ready for use in aviation in the longer term. Road transport would probably be the first transport mode to adopt hydrogen technology, although as the technology developed it could potentially be ready for use in other modes. Rail could be decarbonised by electrifying the service and generating the electricity in a renewable way.
+
+#### References
+
+An, F and Sauer, A (2004) "Comparison of Passenger Vehicle Fuel Economy and Greenhouse Gas Emission Standards Around the World", prepared for the Pew Centre on Global Climate Change
+
+Commission of the European Communities (2005), Reducing the Climate Change Impact of Aviation, COM(2005) 459 final, Communication from the Commission to the Council, the European Parliament, the European Economic and Social Committee and the Committee of the Regions, Brussels.
+
+IEA (2004) World Energy Outlook 2004, IEA/OECD, Paris.
+
+IEA (2005) Prospects for Hydrogen and Fuel Cells, IEA/OECD, Paris
+
+IEA (2006a) Energy Technology Perspectives: Scenarios and Strategies to 2050, IEA/OECD, Paris.
+
+IEA (2006b) World Energy Outlook 2006, IEA/OECD, Paris.
+
+IPCC (1999) Aviation and the Global Atmosphere - Summary for Policy Makers. www.ipcc.ch/pub/av(e).pdf
+
+Natural Resources Defence Council (2006), Testimony of David G Hawkins to the Committee on Energy and Natural Resources, 24 April 2006
+
+Sausen, R., I. Isaksen, V. Grewe et al (2005): 'Aviation radiative forcing in 2000: an update on IPCC (1999)', Meteorologische Zeitschrift, 14 (4): 555-561
+
+WBCSD (2004) Mobility 2030: Meeting the Challenges to Sustainability, World Business Council for Sustainable Development.
+
+World Resources Institute (2005) Navigating the Numbers – Greenhouse Gas Data and International Climate Policy, World Resources Institute, USA.
+
+World Resources Institute (2006): Climate Analysis Indicators Tool (CAIT) on-line database version 3.0., Washington , DC: World Resources Institute, available at http://cait.wri.org
+
+%%page 1#9%%
+
+## Annex 7.d Emissions from the industry sector
+
+This annex describes emissions from industry now, historical and projected business as usual trends, drivers behind emissions growth, and prospects for emission savings.
+
+#### Now
+
+Industry is directly responsible for 14% of GHG emissions, or 20% if upstream emissions from the power sector are also included. Greenhouse gas (GHG) emissions from industry arise from:- 1. Direct fossil fuel combustion in manufacturing and construction (4.3 GtCO2 in 2000)
+
+2\. Direct emissions of CO2 and non-CO2 emissions from the chemical processes involved in producing various chemicals and metals (1.3 GtCO2e in 2000). Industrial processes emissions are discussed in box A below.
+
+3\. Upstream emissions from the power sector. Industry consumes about one third of electricity and heat produced by the power sector and so is indirectly responsible for 3 - 3.5 GtCO2 in 2000[^1].
+
+4\. Indirect source of emissions from the transport sector, for the movement of goods (manufactured goods account for 75% of all global trade[^2]). There are no available estimates of these indirect emissions.
+
+Of the direct CO2 emissions from manufacturing and construction (#1 in above list), over two thirds were from three sectors: iron and steel, non-metallic minerals and chemicals and petrochemicals (see figure 1).
+
+Figure 1 Direct CO2 emissions from manufacturing and construction[^3]
+
+Direct emissions from industry and upstream emissions from the power sector increased by around 10% between 1990 and 2000. This reflects an increase in upstream emissions via the power sector and direct emissions from industrial processes. Meanwhile, direct CO2 emissions from manufacturing and construction were broadly constant, as growth in emissions from developing countries were counteracted by a reduction in these emissions from OECD countries.
+
+%%page 2#9%%
+
+Direct CO2 emissions from fuel combustion in manufacturing and construction
+
+In the baseline scenario, direct CO2 emissions from manufacturing and construction are expected to reach 5.6 GtCO2 in 2030[^4] and 6.5 GtCO2 in 2050[^5]. Figure 2 illustrates that emissions growth is driven by developing countries (anticipated growth rate of 50% in the period to 2030, relative to 6% growth from OECD countries).
+
+Figure 2 Direct CO2 emissions from manufacturing and construction 1990-2030[^6]
+
+#### Drivers of emissions growth
+
+Economic growth: Rapid urbanisation and infrastructure development is expected to accompany economic growth, particularly among developing and transition economies. As such, industrial energy demand is highly sensitive to growth in these economies over the medium term.
+
+Efficiency: Process and end use efficiency improvements have delivered major energy savings in recent decades, particularly in key energy intensive sub-sectors. For example, increased production efficiency accounted for approximately a 10% reduction in overall industrial energy demand among the IEA –11 group of countries between 1973 and 2000
+
+(despite an 88% increase in manufacturing output).[^7] Greater use of more integrated processes, for example to utilise waste heat, together with the introduction of new technologies particularly in key energy intensive sectors are critical to reducing global growth in emissions.
+
+Carbon intensity: Progressive substitution of gas or renewable sources for coal and oil inputs has contributed to the slight reduction in direct CO2 emissions from manufacturing and construction. For example, the share of coal within the fuel mix of the in Annex II industrial sector fell from 17% to 9% while the share of natural gas rose from 24% to 29% between
+
+1971 and 2003.[^8] Higher energy prices are likely to be a key incentive to achieve the necessary future reductions in industrial carbon intensity.
+
+%%page 3#9%%
+
+#### Prospects for cutting emissions
+
+The industry sector can contribute to emission savings through measures to switch towards lower carbon fuels and technologies, improve efficiency, and reduce upstream emissions via reduced demand for energy. For example, the IEA found that industry could contribute 5 GtCO2 saving at $25/tCO2 by 2050[^9]. Almost half of this is upstream emission savings arising from reduced demand for electricity.
+
+Carbon capture and storage (CCS) is likely to be a particularly important emission saving technology. Many industrial plants will be well suited to CCS because they are large point sources of emissions. In the analysis by the IEA, CCS accounted for around one third of emission savings from the sector.
+
+Box A Industrial Processes: emissions and prospects for savings
+
+CO2 is produced as a direct result of the chemical process involved in producing cement and aluminium. In the cement industry, China is currently by far the greatest emitter (accounting for about 40% of global cement emissions[^10]). Lime manufacture is another important source of CO2 emissions.
+
+Industrial process CO2 emissions could more than double in the period to 2050 under BAU conditions[^11]. If emissions could be kept constant at current levels by 2050 (as some studies suggest fossil fuel emissions could be) then savings would amount to 1 GtCO2 in this year.
+
+Non-CO2 emissions are released during the production of substances such as adipic and nitric acid, aluminium and substitutes for ozone depleting substances (such as refrigerants, aerosol propellants, solvents and fire extinguishing agents).
+
+Industrial process non-CO2 emissions are expected to more than double under BAU conditions between 2000 and 2020[^12]. Analysis by the IPCC[^13] suggests that 0.4 GtCO2e could be saved at a cost of less than $3/tCO2e by 2020.
+
+References
+
+EPA (forthcoming) 'Global anthropogenic non-CO2 greenhouse gas emissions: 1990-2020', US Environmental Protection Agency, Washington DC. Figures quoted from draft December 2005 version.
+
+IEA (2004) World Energy Outlook 2004, OECD/IEA, Paris
+
+IEA (2004) 30 Years of Energy Use in IEA Countries, International Energy Agency.
+
+IEA (2005) CO2 Emissions from Fuel Combustion, OECD/IEA, Paris.
+
+IEA (2006a) Energy Technology Perspectives, OECD/IEA, Paris.
+
+%%page 4#8%%
+
+IEA (2006b) World Energy Outlook 2006, OECD/IEA, Paris.
+
+IPCC (2001) Climate Change 2001: Mitigation. Contribution of Working Group III to the Third Assessment Report of the Intergovernmental Panel on Climate Change, Cambridge University Press, Cambridge.
+
+WRI (2005), Navigating the Numbers: Greenhouse Gas Data and International Climate Policy, World Resources Institute, Washington DC.
+
+WRI (2005) Climate Analysis Indicators Tool (CAIT) on line database version 3.0., Washington, DC: World Resources Institute, available at: http://cait.wri.org
+
+%%page 1#10%%
+
+## Annex 7.e Emissions from buildings sector
+
+This annex outlines sources of emissions from the buildings sector now, historical and projected business as usual trends in emissions, drivers behind emissions growth, and prospects for cutting emissions from this sector.
+
+#### Now
+
+Buildings account for 8% of greenhouse gas emissions, or 20% if upstream emissions associated with electricity and heat are included. Greenhouse gas (GHG) emissions from buildings arise from:- 1. Direct combustion of fossil fuels in residential and commercial buildings, amounting to 3.3 GtCO2[^1]. Almost half of these emissions were from combustion of oil, around 40% from gas, and the remainder from coal[^2].
+
+2\. Upstream (indirect) CO2 emissions from the power sector via demand for electricity and district heat. Buildings consume about half of the electricity and heat produced by the power sector. In this way buildings were indirectly accountable for about 5.4 GtCO2 in 2003[^3].
+
+3\. Combustion of biomass produces small quantities of nitrous oxide and methane.
+
+The dominant sources of energy used in buildings worldwide are traditional biomass (supplying almost one third), natural gas (one fifth) and electricity (almost one quarter). Other energy sources include oil (supplying almost one fifth of energy need), with coal, heat and other renewables supplying the remaining quarter of global energy needs[^4].
+
+However sources of energy used in buildings vary significantly by country (see figure 1). Electricity and natural gas are the dominant inputs in OECD and transition economies. However, renewables and waste constitute almost two-thirds of final energy consumption in developing countries (mainly traditional biomass for heating and cooking). This reflects the low level of electrification in developing countries. District heat includes centrally operated heating (and sometimes cooling) systems that service communities and sometimes entire cities or other large areas. Among transition economies, a relatively large share of energy consumption is district heat.
+
+Figure 1 Share of final energy consumption for residential and commercial buildings by fuel, 2003[^5]
+
+Buildings provide or host a range of different energy services including in particular: heating, appliances and lighting. For example, in residential buildings in IEA-11 countries, space heating is by far the largest accounting for over half of energy use, followed by water heating and appliances at about a fifth each.[^6]
+
+%%page 2#10%%
+
+#### Historical and business as usual projected trends
+
+Between 1990 and 2004, direct and upstream CO2 emissions from buildings increased by less than one fifth[^7]. Direct emissions remained broadly constant over this period, reflecting a switch from coal to gas and a small increase in direct consumption of fossil fuel. Upstream CO2 emissions increased as electricity and heat consumption rose, mainly due to a proliferation of appliances.
+
+Figure 2[^8] Direct and upstream CO2 emissions in 2003 and projected business as usual emissions for 2030 and 2050
+
+On business as usual trends, direct and upstream CO2 emissions from buildings are expected to rise 70% and 140% to 2030 and 2050 respectively (see figure 2). Upstream emissions are expected to grow more rapidly because more buildings are expected to be electrified and the demand for electrical appliances is expected to increase.
+
+#### Drivers of emissions growth
+
+Economic and social development. Economic growth drives demand for commercial and residential floor space. It also drives an increase in the demand for energy to use appliances for heating, lighting, cooking, and various electrical appliances such as computers and televisions. This trend is likely to be particularly marked in transition economies and the developed world where economic growth is likely to be greatest. The climate in different countries will also affect the demand for energy to heat and cool buildings.
+
+Energy Efficiency. Energy demand will be influenced by the energy end-use efficiency. For example, advanced technologies for appliances such as air conditioners use 30-40% less energy than 10 years ago. Energy demand is also affected by the efficiency of the building its self, for example the level of insulation of the building fabric. Construction in the developing world is expected to grow much faster than in OECD countries, so the energy efficiency of new buildings will be an important determinant of future emissions growth (because once a building is built, it lasts a number of decades and is costly to retrofit with efficiency improvements).
+
+%%page 3#10%%
+
+Carbon Intensity. The degree of electrification in a country and the energy source used to generate electricity and heat also influences emissions from the buildings sector. For example, the upstream CO2 emissions from buildings in France are very low because nuclear is the main source of electricity in the country.
+
+#### Prospects for cutting emissions
+
+Energy efficiency measures and changing the fuel mix (from coal to gas, or fossil fuel to renewable) could deliver significant emission savings from the buildings sector. For example, the IEA estimate that the building sector could contribute emission savings of 8 GtCO2 by 2050 at a cost of up to $25/tCO2[^9]. These emission savings include direct emissions and upstream emissions from the power sector. The emission saving potential in the short to medium term is also quite high compared to some other sectors.
+
+Much of the energy efficiency savings could be delivered at low or even negative cost as many of the measures pay for themselves through lower fuel bills in the future. For example, the IEA finds that savings from appliances and lighting are particularly low cost and could yield up to half of the sector's savings by 2050. They estimate that $1 invested in energy efficiency saves more than $2 in avoided investment in generation capacity.
+
+In the longer term, progressively more emissions could be saved by making changes to energy systems in buildings. For example, through innovative building design, lighting systems, and heating and cooling technologies.
+
+#### References
+
+IEA (2004) 30 Years of Energy Use in IEA Countries, International Energy Agency.
+
+IEA (2006a) Energy Technology Perspectives, OECD/IEA, Paris.
+
+IEA (2006b) World Energy Outlook 2005, OECD/IEA, Paris
+
+WRI (2005), Navigating the Numbers: Greenhouse Gas Data and International Climate Policy, World Resources Institute, USA.
+
+WRI (2006) Climate Analysis Indicators Tool (CAIT) on-line database version 3.0., Washington DC: World Resources Institute, available at http://cait.wri.org
+
+%%page 1#11%%
+
+## Annex 7.f Emissions from the land-use change and forestry sector
+
+This annex provides some background on what causes emissions from land-use change, the main sources of emissions from this sector today, historical and projected business-as-usual trends, drivers behind emissions growth, and prospects for emission cuts.
+
+Land-use change accounted for 18% of global greenhouse gas emissions in 2000, making it the second largest source of emissions, after the power sector. These emissions arise from a change in the management of land by humans, such as conversion of forests to pasture land. The following sections will explain the role of the land, that is plants and soils, in the natural carbon cycle, and how changes in the use of land by humans, can lead to such substantial emissions of carbon dioxide.
+
+#### Natural carbon cycle
+
+Carbon (and in its oxidised form, carbon dioxide) is cycled continuously through the Earth's natural systems. Figure 1 is a schematic diagram of the principle flows (see IPCC 2001 for more details). The components of this cycle of relevance here are those relating to the land, predominantly plants and soils. The main natural flows are:
+
+x Carbon released (emitted) to the atmosphere by respiration (the biosphere 'breathing'
+
+- taking in oxygen and releasing carbon dioxide) and the decay of organic matter;
+
+x Carbon sequestered (absorbed) by plants as they grow, through photosynthesis, creating a natural store or stock of carbon in their tissues. Some of this is transferred to the soil through the roots and as leaves and other litter fall. As shown in Figure 1, these natural flows total around 440 GtCO2/yr between the land and the atmosphere and are approximately in balance. A stock equivalent to just over 7,300 GtCO2 is currently stored in plants and soils, more carbon than contained in all remaining oil stocks, and more than double the amount currently in the atmosphere. If these stocks were perturbed, there is potential for sizeable emissions.
+
+Figure 1[^1]: IPCC estimates of main natural flows of carbon (blue) and human perturbation (red) for the 1980s (in GtCO2/yr). Net emissions from land-use change are shown as a solid red arrow. Estimates of stocks of carbon are given for the atmosphere, land and ocean. Half of all human-induced emissions (from land-use change, burning fossil fuels and cement production) are taken up by the land and ocean; half remain in the atmosphere, adding to its stock of carbon. The increased uptake by the land and ocean is shown below; this is a natural response to the rising concentration of carbon dioxide in the atmosphere.
+
+%%page 2#11%%
+
+#### Sources of (man made) land-use change emissions now
+
+Man-made land-use changes alter the local balance between CO2 emissions released into the atmosphere and absorbed by the ecosystem, leading to an accumulation or loss of carbon from the land stock. Measuring these flows accurately is very difficult[^2], but estimates by Houghton (2003) suggest that in 2000, human changes to land led to a loss (release) of around 8 GtCO2. This is clearly a small fraction (less than 2%) of the total flow to the atmosphere from land but can have a significant impact on the climate.
+
+Figure 2 shows that deforestation is the single largest source of land-use change emissions, responsible for over 8 GtCO2/yr in 2000. Deforestation leads to emissions through the following processes:
+
+x The carbon stored within the trees or vegetation is released into the atmosphere as carbon dioxide, either directly if vegetation is burnt (i.e. slash and burn[^3]) or more slowly as the unburned organic matter decays. Between 1850 and 1990, live vegetation is estimated to have seen a net loss of 400 GtCO2 (almost 20% of the total stored in vegetation in 1850)[^4]. Around 20% of this remains stored in forest products
+
+(for example, wood) and slash, but 80% was released into the atmosphere.
+
+x The removal of vegetation and subsequent change in land-use also disturbs the soil, causing it to release some of its stored carbon into the atmosphere[^5]. Between 1850 and 1990, there was a net release of around 130 GtCO2 from soils.
+
+Figure 2[^6] Sources of emissions from global land use change in 2000
+
+%%page 3#11%%
+
+Deforestation also reduces the uptake of carbon dioxide by vegetation, hence leaving more carbon dioxide to accumulate in the atmosphere. However, this effect is typically much smaller than the immediate release of stored carbon, particularly for the case of the removal of older vegetation, which absorb little carbon.
+
+Planting new trees and other vegetation can enhance carbon uptake and thus, increase the amount of carbon stored in land. In 2000, the planting of new forests (afforestation) and re-establishing old forest areas (reforestation) is estimated to have led to an uptake of around 1 GtCO2 (Figure 2). These can be thought of as 'negative' emissions as they offset emissions from other activities. It should be noted that, in terms of emissions, the planting of one tree does not immediately offset the removal of another tree. Trees absorb carbon dioxide very slowly – it could take a century or more for a growing tree to recover all the carbon dioxide that is rapidly released when another tree is cut down. This means that a policy to reduce deforestation would be more productive, in terms of emissions saved, than afforestation and reforestation.
+
+Other contributions to emissions in the land-use sector include forest management and harvest, which contributed net emissions of over 1 GtCO2 and smaller contributions from fire suppression measures and non-forest activities. These smaller contributions may be underestimated because, due to data scarcity, they include only specific regions or types of land-use change. For example, they exclude some CO2 emissions from agricultural soils.
+
+#### Historical emission trends
+
+Emissions from land-use change are different to other sectors in that the majority of emissions originate from tropical (developing) countries. In 2000, 55% of emissions came from tropical Asia, 30% from tropical America and 20% from tropical Africa[^7]. Conversely, United States, Europe and China were each net absorbers in 2000 due to their afforestation and reforestation programmes. However, this absorption was not large enough to negate the large emissions from deforestation in the tropics.
+
+Figure 3 shows a regional breakdown of the net emissions and uptake due to land-use changes between 1850 and 2000. Up until the early 20th century, emissions came predominantly from developed regions. Since then, there has been an explosion in emissions from developing regions. This reflects the fact that land-use change is closely tied to development. As regions develop they tend to clear forestland for expanding agricultural production and habitation. Between 1950 and 2000, emissions from land-use changes more than doubled due strong growth in emissions from tropical regions. Tropical deforestation has a particularly strong effect on emissions because trees in tropical forests typically hold, on average, about 50% more carbon per hectare than trees outside the tropics[^8]. Since about 1995 total annual emissions appear to have stabilised at around 7 - 8 GtCO2/yr.
+
+%%page 4#9%%
+
+Figure 3[^9] Uptake and emissions from land-use changes between 1850 and 2000. The negative emissions (uptake) post-1940 are largely due to increasing forest area in the US (0.4GtCO2/yr in 2000) and Europe (0.07GtCO2/yr in 2000). The peak in 1990 linked to forest fires in Indonesia.
+
+#### Drivers for emissions
+
+As suggested above, the primary driver for land-use changes is the conversion of land from forest to agriculture. What drives the demand for additional agricultural land varies globally. In Africa, it is primarily small-scale subsistence farming. In South America, it is large-scale farming enterprises, producing beef and Soya for export markets. In South Asia, the driver is somewhere between the two, with oil palm, coffee and timber the main products. At a global level demand for agriculture is driven by population and income (see Annex 7.g). At a more local level, agricultural prices (and subsidies), infrastructure, access to markets, and land tenure can drive conversion to agriculture.
+
+Demand for forest products is also a driver of land-use change emissions. Loggers tend to remove the oldest and most valuable trees, releasing their stored carbon, as well as some of that from neighbouring trees damaged in the process. If logging is conducted sustainably, for example, limited to single valuable trees, then forest regrowth can offset emissions over time. For these reasons, logging itself need not be a major driver of deforestation. Also, if the timber is used in long-lived wooden products it actually conserves carbon during the product lifetime. Significant emissions are generated where logging is conducted at an unsustainable rate, for example in regions of South East Asia, where intensive logging is fuelled by the strong demand for timber from fast growing regional economies. The wider impact of logging is that building access roads, to bring in equipment and take out logs, makes forests more vulnerable forest clearing for settlement and agricultural production. New logging roads open up formally closed regions and allow access to markets for agricultural products.
+
+%%page 5#7%%
+
+#### Business-as-usual emission projections
+
+Like all emissions projections, future emissions from land-use changes are uncertain. However, it is clear that at the current rate of deforestation, most of the top ten deforesting nations would completely clear their forests before 2100. The one exception is Brazil, which due to its vast forest area (540mha[^10]) could continue at its current rate of deforestation for over 200 years. If all of Brazil's remaining forests were removed it could lead to emission of over 300 GtCO2. Figure 4 shows six different emissions projections, five of which are IPCC illustrative emissions scenarios.
+
+The IPCC projections cover a wide range of future socioeconomic scenarios, giving divergent projections for future land-use change emissions. In each scenario, deforestation emissions are driven by factors including: population growth, depletion of forest and the demand for agricultural commodities. Those worlds with more focus on environmental sustainability (B1 and B2) have the lowest emissions. Beyond 2020-2030, these socioeconomic scenarios actually have negative emissions due to afforestation and reforestation programmes.
+
+The final scenario shown in Figure 4 is from Houghton (2005). In this scenario, the national emissions are assumed to continue at the historical rate (the rate of deforestation averaged over the past two decades). The only factor that is assumed to effect emissions is the depletion of forest. Houghton makes the arbitrary assumption that countries will halt deforestation when only 15% of their 2000 forest area remains. Due to its simplicity and transparency, this is the scenario used as 'business as usual' in the Review. Under this scenario, emissions are projected to remain at around 7.5 GtCO2/yr until 2012, reducing to 5 GtCO2/yr by 2050 and 2 GtCO2/yr by 2100[^11].
+
+Figure 4[^12] CO2 emissions from land-use changes between 1950 and 2000 against projections of future emissions
+
+Current estimates suggest that the land-use sector offers significant potential for future emissions savings. Chapter 9 (Section 9.4) of the Review suggests a total economic abatement potential of at least 5.5 GtCO2 in 2050. If this could be achieved, net emissions from the sector would be around –0.5 GtCO2 (assuming a business as usual emissions based on Houghton 2005). This includes savings from avoided deforestation, afforestation, reforestation and land management practices (such as agro-forestry measures, as discussed in Chapter 25, Box 25.4). This may be an underestimate as it only includes savings from a limited number of countries and types of abatement (more details in Chapter 9). Most of this saving comes from avoided deforestation, which could be achieved at a cost equivalent to under $5/tCO2, or possibly as little as $1/tCO2.
+
+%%page 6#7%%
+
+In the past, clearing forests for agriculture and habitation has been a standard component of development. However, it does not need to be in the future. Chapter 25 of the Review discusses how deforestation could be avoided by supporting the development process, through for example, poverty reduction and establishing property rights, and implementing sustainable forestry and agricultural techniques.
+
+#### References
+
+Baumert, Herzog and Pershing (2005): 'Navigating the numbers: Greenhouse gas data and international climate policy'. Washington, DC: World Resources Institute.
+
+Houghton and Hackler (2002): 'Carbon Flux to the Atmosphere from Land-Use Changes'. Data stored at the Carbon Dioxide Information Analysis Centre (CDIAC).
+
+Houghton (2003): 'Revised estimates of the annual flux of carbon to the atmosphere from changes in land use and land management 1850-2000', Tellus B, 55: 378-390.
+
+Houghton (2005): 'Tropical deforestation as a source of greenhouse gas emissions', in Tropical Deforestation and Climate Change, Moutinho and Schwartzman [eds.].
+
+Intergovernmental Panel on Climate Change (2000): 'Emissions Scenarios', Special Report, Nakicenovic and Swart [eds.], Cambridge: Cambridge University Press.
+
+Intergovernmental Panel on Climate Change (2001): 'Climate change 2001: the scientific basis. Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change' [Houghton JT, Ding Y, Griggs DJ, et al. (eds.)], Cambridge: Cambridge University Press.
+
+Food and Agriculture Organization of the United Nations (2005): 'State of the world's forests', Washington, DC: United Nations.
+
+Palm, Vosti, Sanchez, Erickson [eds.] (2005): 'Slash-and-burn agriculture. The search for alternatives'. New York: Columbia University Press.
+
+Prentice et al. (2001): 'The carbon cycle and atmospheric CO2', in Climate Change 2001: The Scientific Basis. Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change, Houghton J. et al. [eds.]. Cambridge: Cambridge University Press.
+
+%%page 1#12%%
+
+## Annex 7.g Emissions from the agriculture sector
+
+This annex describes emissions from agriculture now, historical and projected business as usual trends, drivers behind emissions growth, and prospects for emission cuts.
+
+#### Now
+
+Agriculture was responsible for 14% of global greenhouse gas (GHG) emissions in 2000[^1]. Agriculture emissions are from the following sources, as shown in figure 1:
+
+- Fertilisers are the largest single source (38%) of emissions from agriculture. Agricultural soils release nitrous oxide (N2O) during the natural processes of nitrification and denitrification. Fertilisers (both man made and natural) increase the output of nitrous oxide from these processes.
+- Livestock is the second largest source of emissions, accounting for 31% of agriculture emissions. Methane (CH4) is produced as a waste product of digestion by ruminants, particularly cattle, and this process is known as enteric fermentation. Cattle, buffalo, sheep, goats and camels account for the majority of methane emissions produced.
+- Wetland rice cultivation emits 11% of agricultural emissions. The flooded rice fields mean that the organic matter cannot decompose in the presence of oxygen (i.e. anaerobic decomposition takes place) and methane is produced as a result. The level of emissions from rice cultivation is dependent upon the specific water management practices and quantity of organic matter involved.
+- Manure management methods, including the handling, storage and treatment of livestock waste, causes 7% of agricultural emissions. Methane is emitted when the manure is not stored in a sufficiently oxygenated environment, leading to anaerobic decomposition, while the nitrogen in livestock manure and urine encourages nitrification and denitrification, releasing nitrous oxide.
+- Burning of savannah and agricultural residues, and open burning from forest clearing contribute to other non-CO2 emissions from agriculture (accounting for 13% of emissions from the sector).
+
+Figure 1 Sources of non-CO2 emissions from the agriculture sector (2000)[^2]
+
+- Agriculture is a producer of CO2 emissions via soil and biomass management practices that disturb the natural carbon sinks. This effect could be significant, but there are no robust global estimates of it. This effect is considered in annex 7.f: emissions from land use change and forestry sector.
+- The agriculture sector is also indirectly responsible for emissions in other sectors. Agriculture is a key driver for land use change such as deforestation, which generates emissions (as discussed in annex 7.f). Also, production of fertiliser, use of agricultural equipment that requires an energy source, and transportation of agricultural inputs and outputs leads to emissions from the industry, power, and transport sectors respectively. These effects are not included in the emission estimates quoted in this annex.
+
+%%page 2#12%%
+
+Developing countries account for the majority (almost three quarters) of agricultural emissions. In the case of rice, almost 90% of emissions currently come from China and South East Asia. Much of agricultural output is traded, such that agricultural output accounted for 9% of the value of all world trade in 2003 (totalling $674bn)[^3]. Therefore, if the environmental footprint of agriculture emissions was calculated according to consumption, the developed / developing country split would look quite different.
+
+#### Historic and Business as Usual Projected Trends
+
+Agriculture emissions increased 10% between 1990 and 2000, most of which came from increased emissions from other agricultural sources (such as burning agricultural residues)[^4].
+
+Agriculture emissions are expected to rise almost 30% in the period to 2020; almost two thirds of this increase is expected to come from Africa, Latin America and China. Around half of the projected growth in emissions is expected to come from the use of fertiliser on agricultural soils. There are no available estimates of agriculture emissions to 2050. In recent years, developing countries have accounted for an increasingly large share of agricultural emissions: from two thirds in 1990, to three quarters in 2000, to a projected four fifths in 2020.
+
+Figure 2 Agriculture non-CO2 emissions by country (1990-2020)
+
+#### Drivers behind emissions growth
+
+Income and population growth are the key drivers behind growth in agriculture emissions. For example, between 1983-2003, world population rose by 35%, world GDP by 90% and global agricultural output by 52%.[^5] Also, as developing countries become richer, more meat is likely to be demanded to the extent that livestock numbers are expected to double by 2020[^6]; and livestock production is associated with higher emissions than other forms of agriculture. For example, emissions from livestock (enteric fermentation) in China are expected to triple between 1990 and 2020[^7].
+
+%%page 3#12%%
+
+Increased productivity in agriculture is another driver behind emissions growth. In the last 40 years, the area of global agricultural land has grown by 10% but in per capita terms, agricultural land area has been in decline.[^8] This trend is expected to continue because there is only limited additional land available (just 11% of world land can be farmed without improvements such as irrigation[^9]). Also, agriculture will face competition with other potential uses, such as growing of biocrops. This will make it necessary to intensify production by making more use of inputs such as fertilizers. For example, in Asia, synthetic nitrogen fertiliser use increased by a factor of c.19 and nitrous oxide emissions rose around 250%.[^10] Requirements for greater productivity and the increased commercialization of production in Asia and Latin America[^11] make it likely that upstream CO2 emissions from electricity and other energy consumption may increase. Note that it can be possible to increase agricultural productivity and reduce emissions at the same time using sustainable farming practices; this is discussed in chapter 25, box 25.4 and annex 7.f on land use change.
+
+#### Prospects for cutting emissions
+
+Compared to the other sectors, relatively little work has been done on how to cut emissions from the agriculture sector. The IPCC has identified around 1 GtCO2e of non-CO2 emission savings from the sector by 2020 at $25/tCO2e[^12], but more recent work suggests this could be lower, around 0.2 GtCO2e per annum in 2030 at $20/tCO2e[^13]. The means of achieving these non-CO2 emission reductions are discussed below:• Methane emissions from rice can be cut by reducing the levels of decomposition occurring in anaerobic conditions. This can be done using measures such as controlled irrigation and better nutrient management. In the next decade or so exploitation of new, higher yielding, crop varieties could also contribute to methane reductions. The IPCC identified about 0.5 GtCO2e per annum savings from rice by 2020 at $27/tCO2e[^14].
+
+• Nitrous oxide emissions from fertilisers could be reduced by making more efficient use of fertilisers.
+
+• Methane emissions from livestock could be cut using nutritional supplements, preventing overgrazing, different feeding patterns (such as smaller but more frequent feeding), and research into different livestock breeds[^15].
+
+• Methane emissions from manure could be cut by switching to waste management practices that favour aerobic decomposition. Alternatively, capturing methane emissions by storing wastes in an anaerobic environment can be a particularly good way of making emissions savings because the methane (biogas) can be used as an energy source (see chapter 17, box 17.7).[^16]
+
+• Stopping burning of crop residues would reduce methane and nitrous oxide emissions from this practice.
+
+Agricultural land management practices (e.g. crop tilling practices) could be an important source of CO2 emission savings. The IPCC estimate that savings here could amount to 1 to 2 GtCO2 in 2020 at up to $27/tCO2[^17].
+
+The contribution of agriculture to climate change can also be reduced by tackling its indirect effect on emissions from the power, industry and transport sectors. For example, more efficient machinery and more efficient use of fertiliser will reduce upstream emissions from the power and industry sectors.
+
+%%page 4#10%%
+
+Also, giving consumers more information about their food and how far it has travelled to reach them may change their preferences towards buying locally sourced produce, and so reduce upstream transport emissions.
+
+By-products from agriculture can also contribute to emission reductions. For example, biomass can be used directly in agriculture as a fertiliser, or it can be used as a source of energy for the power, buildings, industry or transport sectors (as discussed in chapter 9, box 9.5). Biogas from animal wastes could also be used as an energy source (as discussed in chapter 17, box 17.7). Agricultural by-products could also potentially displace some fossil-fuel based inputs for the chemicals, pharmaceuticals, manufacturing and buildings industries.
+
+#### References
+
+EPA (forthcoming) 'Global Anthropogenic non-CO2 greenhouse gas emissions: 1990-2020', US Environmental Protection Agency, Washington DC. Emissions data obtained from correspondence with EPA team.
+
+Environmental Change Institute (2004), 'Methane UK', Environmental Change Institute: Oxford, United Kingdom. Available at: http://www.eci.ox.ac.uk/research/energy/methaneuk.php
+
+FAO (2003) 'World Agriculture: towards 2015/2030', Earthscan: United Kingdom. Available at: http://www.fao.org/docrep/005/y4252e/y4252e00.htm
+
+FAOSTAT (2006) FAO Statistics on-line database, available at http://faostat.fao.org/site/291/default.aspx
+
+Intergovernmental Panel on Climate Change (2001): Climate Change 2001: 'Mitigation', Contribution of Working Group III to the Third Assessment Report of the Intergovernmental Panel on Climate Change [Metz B, Davidson O, Swart R and Pan J (eds.)], Cambridge: Cambridge University Press
+
+Mosier, A. R. and Zhu, Z. L. (2000) 'Changes in patterns of fertiliser nitrogen use in Asia and its consequences for N2O emissions from agriculture systems', Nutrient Cycling in Agroecosystems, vol 57, no 1, pp107-117.
+
+Smith, P., D. Martino, Z. Cai, et al (2006 in press): 'Greenhouse-gas mitigation in agriculture', Philosophical Transactions of the royal Society, B. WRI (2005) 'Navigating the Numbers', World Resources Institute, Washington DC
+
+WRI (2006) Climate Analysis Indicators Tool (CAIT) on-line database version 3.0., Washington DC: World Resources Institute, available at http://cait.wri.org
+
 ## Notes
 
 [^1]: Referred to hereafter as CO2 equivalent, CO2e
@@ -11505,6 +12592,38 @@ Above all, reducing the risks of climate change requires collective action. It r
 [^12]: Essentially the axioms are similar to those of the standard Von Neumann-Morgenstern theorem deriving expected utility except the dependence axiom is relaxed slightly. See Gollier (2001), for example, for a description of the Von Neumann-Morgenstern approach.
 
 [^13]: The economic theory of exhaustible natural resources is expounded by Dasgupta and Heal (1979). A seminal reference is Hotelling (1931). See, also, Ulph and Ulph (1994), Sinclair (1992) and Sinclair (1994).
+
+[^1]: Sen (1999).
+
+[^2]: e.g. World Development Report 2006.
+
+[^3]: e.g. Stern et. al. (2005).
+
+[^4]: Atkinson and Hills (1998), Atkinson et al. (2002), Hills and Stewart (2005).
+
+[^5]: See, for example, Shue (1999) on the 'no-harm principle' in the context of climate change and Gardiner (2004) for a link with John Rawls theory of justice. From the point of view of jurisprudence, and for a discussion of links with notions of retribution, see Hart (1968).
+
+[^6]: As Henry (2006) argued, the possibility of harmful effects had been discovered around 100 years go but this would not necessarily be generally known by those whose used it.
+
+[^7]: Contraction and Convergence ™ (C&C) is the science-based, global climate policy framework proposed to the UN since 1990 by the Global Commons Institute (GCI). www.gci.org.uk/briefings/ICE.pdf
+
+[^8]: A valuable summary of the analytic background and foundations of sustainability is given by Anand and Sen (2000)
+
+[^9]: Jamieson (1992).
+
+[^10]: This section has benefited from discussions with Cameron Hepburn and Paul Klemperer, although they are not responsible for the views expressed here. See also Hepburn (2006).
+
+[^11]: See e.g. Stern (1977), Pearce and Ulph (1999) or HM Treasury (2003) for a discussion of some of the issues.
+
+[^12]: See also Hepburn (2006)
+
+[^13]: This uses the optimality condition that the discount rate (as in (8)) should be equal to the marginal product of capital.
+
+[^14]: This property can be defined via distribution functions and Lorenz curves. It is also called second-order stochastic domination or Lorenz-dominance: see e.g. Gollier (2001), Atkinson (1970) and Rothschild and Stiglitz (1970).
+
+[^15]: Applying the same theory to the utility function shows that total utility will be lower under greater inequality for a concave utility function.
+
+[^16]: However, these values are not far away from real long-run returns on government bonds or on equities.
 
 [^1]: All changes in global mean temperature are expressed relative to pre-industrial levels (1750 - 1850). A temperature rise of 1°C represents the range 0.5 – 1.5°C, a temperature rise of 2°C represents the range 1.5 – 2.5°C etc.
 
@@ -13811,3 +14930,207 @@ Above all, reducing the risks of climate change requires collective action. It r
 [^33]: For example, in 2006 UNICEF proposes to increase their Emergency Programme Fund ceiling from $25million to $75million per biennium.
 
 [^34]: Commission for Africa (2005); UN Habitat
+
+[^1]: The comments have reached us in various ways – via remarks at seminars, e-mails and press comments. We focus here on the most commonly expressed concerns.
+
+[^2]: Discussed in Section 1.4
+
+[^3]: Note that TR in the model is actually the 'vulnerable' temperature increase, as it is assumed that most regions can adapt to some degree of temperature rise. The regional temperature increase is dependent on the global temperature increase (a linear relationship) and the regional sulphate aerosol concentration.
+
+[^4]: Warren et al. (2006)
+
+[^5]: This is on top of the sharply increasing relationship between sea surface temperature and hurricane wind speed.
+
+[^6]: This measures how fast the value of an increment in consumption falls as consumption rises, for example when it is equal to one, an extra unit to Person A, with three times the consumption of Person B, would have one third the value to that if the extra unit went to Person B. If the elasticity were equal to two, the extra unit would have one ninth of the value.
+
+[^7]: Pearce and Ulph (1999); Stern (1977).
+
+[^8]: It is possible to argue that this type of risk should be embodied in the measurement of costs and benefits but it would play a similar computational role and this type of discounting and pure time preferences seems often to be combined.
+
+[^9]: http://www.ft.com/cms/s/444ff4ae-783c-11db-be09-0000779e2340.html
+
+[^10]: The comments have reached us in various ways – via remarks at seminars, e-mails and press comments. We focus here on the most commonly expressed concerns. We are particularly grateful to Partha Dasgupta and Bill Nordhaus for their comments.
+
+[^11]: Discussed in Section 1.4 of the Review.
+
+[^12]: Note that TR in the model is actually the 'vulnerable' temperature increase, as it is assumed that most regions can adapt to some degree of temperature rise. The regional temperature increase is dependent on the global temperature increase (a linear relationship) and the regional sulphate aerosol concentration.
+
+[^13]: See Warren et al. (2006)
+
+[^14]: This is on top of the sharply increasing relationship between sea surface temperature and hurricane wind speed.
+
+[^15]: This measures how fast the value of an increment in consumption falls as consumption rises, for example when it is equal to one, an extra unit to Person A, with three times the consumption of Person B, would have one third the value to that if the extra unit went to Person B. If the elasticity were equal to two, the extra unit would have one ninth of the value.
+
+[^16]: Pearce and Ulph (1999); Stern (1977).
+
+[^17]: It is possible to argue that this type of risk should be embodied in the measurement of costs and benefits but it would play a similar computational role and this type of discounting and pure time preferences seems often to be combined.
+
+[^18]: ( ) + δ , to be applied to increments of consumption. Note that this is the discount rate, η c&c
+
+[^19]: http://www.ft.com/cms/s/444ff4ae-783c-11db-be09-0000779e2340.html
+
+[^20]: Technically, if consumption per head eventually grows at rate g and population is eventually constant then convergence of the utility integral requires (1-η)g - δ < 0. Thus, for η =1 and δ >0 we have convergence but it is close to the borderline.
+
+[^21]: We note that for these cases increasing η increased the loss estimates, i.e. the risk aversion effect dominated the income distribution effect.
+
+[^1]: This sector includes emissions from electricity and heat plants, Combined Heat and Power plants and plants that produce fuel for their own use (autoproducers). The data presented here is on a by source basis (for discussion of by source estimates, see chapter 7).
+
+[^2]: Source: WRI (2006). The emissions measured here are CO2. Hydroelectric power dams also produce methane emissions; there are no available estimates for this, but it may be significant.
+
+[^3]: Figures for 2002, WRI (2006).
+
+[^4]: Data source: WRI (2006) and WEO (2004). Latest data from WEO (2006b) suggests that power sector emissions are expected to reach 20.1 GtCO2e in 2030 under BAU conditions. The country level breakdown consistent with this new emissions estimate was not available at time of going to print.
+
+[^5]: Projection for 2030 from IEA (2006b). Projection for 2050 from IEA (2006a).
+
+[^6]: WBCSD (2004).
+
+[^7]: WRI (2005). Oil is about three quarters as polluting as coal, and gas is just over half as polluting as coal. The carbon emissions factor for coal is based on anthracite coal.
+
+[^8]: IEA (2006a).
+
+[^9]: IEA (2006a).
+
+[^10]: IEA (2006a).
+
+[^11]: IEA (2006a). Dennis Anderson analysis is presented in chapter 9 of the report.
+
+[^12]: IEA (2006a).
+
+[^1]: Figures for 2000, WRI (2006).
+
+[^2]: Figures for 2000, WBCSD (2004).
+
+[^3]: WRI (2006).
+
+[^4]: Car ownership figures for 2000, WBCSD (2004). Fuel efficiency in the US is about two-thirds the level in the EU (An and Sauer (2004)).
+
+[^5]: Figures for 2000, WBCSD (2004).
+
+[^6]: Note the projected BAU trends already include any incremental improvements in fuel efficiency and switch to biofuel expected to occur in the absence of policy intervention.
+
+[^7]: WRI (2006).
+
+[^8]: Stern Review calculation based on figures from IEA (2006b).
+
+[^9]: Data source: WRI (2006) and IEA (2004). This includes emissions by source, and excludes emissions generated by the production of transport fuel. Figure 3 indicates that total emissions by source will reach 9.3 GtCO2 in 2030, however latest data from IEA (2006b) suggests that transport emissions are expected to reach 8.7 GtCO2e in 2030 under BAU conditions. The country level breakdown consistent with the new emissions estimate was not available at time of going to print.
+
+[^10]: IEA (2006a).
+
+[^11]: Well-to-wheels emissions from fuels such as gasoline are around 27.5 pounds of CO2 per gallon of fuel. This compares with 49.5 pounds per gallon from coal-to-liquids, assuming the CO2 from the refining process is released into the atmosphere. See Natural Resources Defence Council (2006)
+
+[^12]: IEA (2006a). Figure 2 includes direct emissions from transport only, so excludes emissions released during the synfuel production process.
+
+[^13]: IPCC (1999). This assumes that the warming effect (radiative forcing) of aviation is 2 to 4 times grater than the effect of the CO2 emissions alone. This could be an overestimate because recent research by Sausen et al (2005) suggests the warming ratio is closer to 2. It could be an underestimate because both estimates exclude the highly uncertain possible warming effects of cirrus clouds. The non-CO2 effects of aviation are discussed in chapter 15, box 15.6.
+
+[^14]: The International Energy Agency's World Economic Model indicates that price elasticity of demand for transport is lower than for industry and buildings sectors. See: http://www.worldenergyoutlook.org/model.asp
+
+[^15]: Studies producing this result include Dennis Anderson's resource cost analysis, discussed in chapter 9, and the IEA (2006a).
+
+[^16]: IEA (2006a). Note that at the time of going to print there was not a baseline to compare the 7 GtCO2 saving in 2050 against. This is because the BAU transport emissions estimate of 12 GtCO2 described above reflects direct CO2 emissions only, whereas the 7 GtCO2 estimate includes some indirect transport emissions too.
+
+[^17]: Hybrid cars have both a conventional oil-based engine and an electric motor.
+
+[^18]: IEA (2005).
+
+[^1]: Stern Review calculation based on an assumption that industry consumes about one third of the electricity and heat produced by the power sector (see WRI (2005)).
+
+[^2]: This figure includes all manufactured goods, including automobiles. WRI (2005).
+
+[^3]: Source: IEA (2006a). The graph also includes emissions from coke ovens, blast furnaces and process emissions, thus bring total emissions represented here to 5.3 GtCO2.
+
+[^4]: IEA (2004).
+
+[^5]: IEA (2006a).
+
+[^6]: Data source: WRI (2006) and WEO (2004).
+
+[^7]: IEA (2004)
+
+[^8]: IEA (2005)
+
+[^9]: IEA (2006b)
+
+[^10]: WRI (2005).
+
+[^11]: Emission estimates from 1990 to 2002 from WRI CAIT database. There were no available projections for CO2 industrial process emissions so the Stern Review has assumed that emissions grow at the same rate as CO2 fossil fuel related emissions are anticipated to grow in the period to 2050 (at growth rate of 1.8% pa, as used by the IEA (2006a)).
+
+[^12]: EPA (forthcoming)
+
+[^13]: IPCC (2001).
+
+[^1]: IEA (2006a).
+
+[^2]: IEA (2006a).
+
+[^3]: IEA (2006a).
+
+[^4]: IEA (2006b).
+
+[^5]: Adapted from IEA (2006a)
+
+[^6]: Figure for 1998. IEA (2004)
+
+[^7]: Stern Review calculations based on an assumption that the buildings sector consumes almost half the electricity and heat produced by the power sector (see WRI (2005)).
+
+[^8]: Figure adapted from IEA (2006a).
+
+[^9]: IEA (2006a).
+
+[^1]: Source: Adapted from IPCC (2001), Figure 3.1
+
+[^2]: All estimates show that emissions from land-use are significant, but the scale of emissions varies between studies. The WRI estimates (using Houghton and Hackler 2002) here lie in the mid- to upper-range of estimates given by the Third Assessment Report of the IPCC. For a fuller discussion of the range of estimates and uncertainties in measurement, see Houghton (2003).
+
+[^3]: Note that emissions from the combustion of wood and other biomass products are not typically included in land-use change estimates, as these are instead captured by the end-use sector (e.g. heat generation, buildings or industry).
+
+[^4]: Houghton (2005)
+
+[^5]: Deforestation can lead to up to a 40% loss of soil carbon depending on the new use of land. Conversion to crops, pastures and grasslands leads to the largest removal of carbon. Palm et al. (2005)
+
+[^6]: Source: Reproduced from Baumert et al (2005), original data from Houghton (2003). Deforestation and reforestation in tropical countries includes only the net effect of shifting cultivation. For afforestation, areas of plantation forests are not generally reported in developed countries (this estimate includes only China's plantations). Fire suppression is probably an underestimate, as it includes the US only (similar values may apply elsewhere). Non-forests include CO2 sequestered through woody encroachment onto agricultural soils and emissions from soils (only that resulting from cultivation of new lands and not carbon accumulation that may have resulted from recent agricultural practices).
+
+[^7]: Carbon Dioxide Information Analysis Centre (CDIAC) using Houghton and Hackler (2002).
+
+[^8]: Houghton (2005)
+
+[^9]: Source: Carbon Dioxide Information Analysis Centre (CDIAC) using Houghton and Hackler (2002)
+
+[^10]: FAO 2001
+
+[^11]: Houghton 2005, based the FAO 2001
+
+[^12]: Source: Historical emissions from the Carbon Dioxide Information Analysis Centre (CDIAC) using Houghton and Hackler (2002), projections from Houghton (2005) and IPCC (2000). Note that the IPCC SRES projections have been scaled to give consistency with historical estimates.
+
+[^1]: Data for 2000, sources: WRI (2006) and EPA (forthcoming).
+
+[^2]: Data source: EPA (forthcoming).
+
+[^3]: WRI (2005).
+
+[^4]: EPA (forthcoming).
+
+[^5]: FAOSTAT (2006)
+
+[^6]: IPCC (2001)
+
+[^7]: EPA (forthcoming).
+
+[^8]: FAOSTAT (2006)
+
+[^9]: FAO (2003).
+
+[^10]: Mosier and Zhu (2000)
+
+[^11]: EPA (forthcoming)
+
+[^12]: IPCC (2001). As quoted in chapter 9, table 9.1.
+
+[^13]: Smith et al (forthcoming).
+
+[^14]: IPCC (2001).
+
+[^15]: IPCC (2001) and FAO (2003).
+
+[^16]: ECI (2002).
+
+[^17]: IPCC (2001) estimated that 1 GCO2 per annum could be saved from land management practices at $27/tCO2 in 2020. Smith et al (2006, forthcoming) estimated it could save 1.8 GtCO2 per annum at $20/tCO2 in 2030.

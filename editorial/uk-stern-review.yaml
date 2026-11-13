@@ -210,6 +210,18 @@ reading_guide:
         We take a simple approach in this Review: if a future generation will
         be present, we suppose that it has the same claim on our ethical
         attention as the current one.
+  - section: 2a-ethical-frameworks-and-intertemporal-equity
+    why: >-
+      The technical annex to Chapter 2 sets out the ethical frameworks
+      behind the Review's approach and the case for its low pure rate of
+      time preference in discounting.
+    excerpt:
+      paragraph: consequentialist-welfarist-approach-assessment-policy
+      quote: >-
+        The 'consequentialist' and 'welfarist' approach, the assessment of a
+        policy in terms of its consequences for individual welfare, that is
+        embodied in standard welfare economics, is highly relevant to the
+        ethics of climate change.
   - section: 3-how-climate-change-will-affect-people-around-the-world
     why: >-
       Chapter 3 goes through the impacts degree by degree: on water, food,
@@ -518,6 +530,29 @@ reading_guide:
         Third, prompt and strong action is, therefore, clearly warranted.
         Because climate change is a global problem, the response to it must be
         international.
+  - section: postscript
+    why: >-
+      The Postscript, added after publication, answers the first weeks of
+      debate on the Review: the case for urgent action, discounting and
+      risk, and the policy response.
+    excerpt:
+      paragraph: broad-conclusion-our-analysis-urgent
+      quote: >-
+        The broad conclusion of our analysis is that urgent action should be
+        taken to reduce the risk of committing the world to the real
+        possibility of very high temperature increases.
+  - section: technical-annex-to-postscript
+    why: >-
+      The Technical Annex to the Postscript answers critics of the Review's
+      modelling, and tests how its damage estimates change with the damage
+      function and the ethical parameters.
+    excerpt:
+      paragraph: some-commentators-review-have-focussed
+      quote: >-
+        Our estimates of damage from climate change derived from formal
+        economic modelling are higher than many estimates in the literature,
+        and there has rightly been strong interest in our underlying
+        assumptions.
 highlights:
   - paragraph: from-all-these-perspectives-evidence
     quote: >-

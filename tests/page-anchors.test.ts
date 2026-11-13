@@ -79,6 +79,14 @@ describe("checkAnchors", () => {
     expect(r.blocks.wrong).toBe(0);
   });
 
+  it("numbers a volume that prints no folios by its PDF pages when the report says so", () => {
+    const { paras, pages } = book(1, 3);
+    // no folio printed, but a note number at each page foot, which would read as folios 12-14
+    pages.forEach((p, i) => (p.layout = p.layout.replace(/\s+\d+\n$/, `\n12${i}\n${12 + i}\n`)));
+    const md = [`%%page 1%%`, paras[0], paras[1], `%%page 2%%`, paras[2], paras[3], `%%page 3%%`, paras[4], paras[5]].join("\n\n");
+    expect(checkAnchors(md, pages, new Set([1])).verdicts.map((v) => v.verdict)).toEqual(["exact", "exact", "exact"]);
+  });
+
   it("fails a marker a paragraph late, and the paragraph it leaves under the wrong page", () => {
     const { paras, pages } = book(1, 3);
     const md = [`%%page 1%%`, paras[0], paras[1], paras[2], `%%page 2%%`, paras[3], `%%page 3%%`, paras[4], paras[5]].join("\n\n");
