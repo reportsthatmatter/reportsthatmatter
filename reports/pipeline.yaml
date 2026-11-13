@@ -271,7 +271,7 @@ units:
   - id: uk-stern-review
     scope: "Full report, batch 3a: Part V (introduction, Chapters 18-20) and Part VI (introduction, Chapters 21-27), on ingest v0.37.0"
     bead: reportsthatmatter-gqsy.9.2
-    reached: evaluate
-    state: active
-    evidence: "report repo reportsthatmatter/uk-stern-review (stern-b3-1113, PR #5); site branch stern-b3-1113; 597 pp, 1,237 notes (each chapter's highest note = its last printed note), 255 headings (every numbered section 18.1-27.5); golden 20/22 + 2 known (lb9l; new Ch 20 p.431, Ch 21 p.459); grade A 0.86 per 10 pp; earlier text byte-identical; ledgers add only (+1,343 ids, +12 sections), aliases 0 unmatched; verify.sh (VERIFY_SHARED=1 with RTM_REPORT_DIRS) all checks passed; datapackage hashes for the 12 new files"
+    reached: publish
+    state: waiting
+    evidence: "live 2026-11-13, recorded grade A 0.38 (597 pp); uk-stern-review#5, site #454 (40e32f68); review factory/reviews/review-stern-b3a-2026-11-13.md; report repo reportsthatmatter/uk-stern-review (stern-b3-1113, PR #5); site branch stern-b3-1113; 597 pp, 1,237 notes (each chapter's highest note = its last printed note), 255 headings (every numbered section 18.1-27.5); golden 20/22 + 2 known (lb9l; new Ch 20 p.431, Ch 21 p.459); grade A 0.86 per 10 pp; earlier text byte-identical; ledgers add only (+1,343 ids, +12 sections), aliases 0 unmatched; verify.sh (VERIFY_SHARED=1 with RTM_REPORT_DIRS) all checks passed; datapackage hashes for the 12 new files"
     notes: "Chapter 23's reissue prints folios 1-25 (6u5h). Chapter 21 note 15 cited inside Table 21.1, printed on no page. Tables: 6uqx. Bullets: 95vk, 3nbi. Next: batch 3b (Postscript and its technical annex, Chapter 2 technical annex, Annexes 7b-7g)."

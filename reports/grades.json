@@ -1,6 +1,6 @@
 {
  "ingest": "v0.37.0",
- "site": "04b61285",
+ "site": "40e32f68",
  "recorded": "2026-11-13",
  "reports": {
   "challenger-accident": {
@@ -3452,8 +3452,8 @@
   },
   "uk-stern-review": {
    "id": "uk-stern-review",
-   "pages": 425,
-   "per10": 0.3341176470588235,
+   "pages": 597,
+   "per10": 0.3785594639865997,
    "letter": "A",
    "publishable": true,
    "below": [],
@@ -3472,16 +3472,16 @@
      "key": "paragraphs",
      "basis": "estimated",
      "graded": true,
-     "errors": 11.2,
-     "per10": 0.26352941176470585,
+     "errors": 19.6,
+     "per10": 0.32830820770519265,
      "letter": "A",
      "terms": [
       {
        "source": "oracle paragraphs-oversplit",
-       "count": 48,
+       "count": 84,
        "precision": 0.23333333333333334,
        "precisionFrom": "pooled golden 7/30",
-       "errors": 11.2
+       "errors": 19.6
       },
       {
        "source": "oracle quotes-spurious",
@@ -3503,7 +3503,7 @@
      "terms": [
       {
        "source": "oracle headings-missed",
-       "count": 162,
+       "count": 260,
        "precision": 0,
        "precisionFrom": "report golden 0/13",
        "errors": 0
@@ -3527,14 +3527,14 @@
      "terms": [
       {
        "source": "oracle markers-unlinked",
-       "count": 514,
+       "count": 601,
        "precision": 0,
        "precisionFrom": "report golden 0/32",
        "errors": 0
       },
       {
        "source": "oracle markers-spurious",
-       "count": 12,
+       "count": 13,
        "precision": 0,
        "precisionFrom": "pooled golden 0/18",
        "errors": 0
@@ -3553,7 +3553,7 @@
      "basis": "estimated",
      "graded": true,
      "errors": 3,
-     "per10": 0.07058823529411765,
+     "per10": 0.05025125628140704,
      "letter": "A",
      "terms": [
       {
