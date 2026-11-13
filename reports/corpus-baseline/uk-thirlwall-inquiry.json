@@ -1,6 +1,6 @@
 {
-  "words": 38697,
-  "paragraphs": 451,
+  "words": 372765,
+  "paragraphs": 4148,
   "sections": [
     {
       "slug": "contents",
@@ -23,8 +23,338 @@
     {
       "slug": "4-part-two",
       "title": "4. Part Two",
+      "paragraphs": 56,
+      "ids": "5473b0c14b9f"
+    },
+    {
+      "slug": "contents-2",
+      "title": "Contents",
+      "paragraphs": 8,
+      "ids": "9f51557629eb"
+    },
+    {
+      "slug": "chapter-1-background",
+      "title": "Chapter 1. Background",
+      "paragraphs": 37,
+      "ids": "184e0f99c864"
+    },
+    {
+      "slug": "chapter-2-the-neonatal-unit-2015-to-2016",
+      "title": "Chapter 2. The neonatal unit, 2015 to 2016",
+      "paragraphs": 101,
+      "ids": "a22e56bf6558"
+    },
+    {
+      "slug": "chapter-3-june-2015-baby-a-baby-b-baby-c-and-baby-d",
+      "title": "Chapter 3. June 2015: Baby A, Baby B, Baby C and Baby D",
+      "paragraphs": 141,
+      "ids": "d664da47616b"
+    },
+    {
+      "slug": "chapter-4-risk-and-patient-safety-department",
+      "title": "Chapter 4. Risk and Patient Safety Department",
+      "paragraphs": 73,
+      "ids": "0f23c05cb1eb"
+    },
+    {
+      "slug": "chapter-5-august-to-september-2015-baby-e-baby-f-baby-g-and-baby-h",
+      "title": "Chapter 5. August to September 2015: Baby E, Baby F, Baby G and Baby H",
+      "paragraphs": 117,
+      "ids": "6aaf5002fc5c"
+    },
+    {
+      "slug": "chapter-6-august-2015-to-february-2016-baby-i-and-baby-j-concerns-increase-revie",
+      "title": "Chapter 6. August 2015 to February 2016: Baby I and Baby J; concerns increase; reviews",
+      "paragraphs": 121,
+      "ids": "ad3da23ec23e"
+    },
+    {
+      "slug": "chapter-7-care-quality-commission-inspection-february-2016",
+      "title": "Chapter 7. Care Quality Commission inspection, February 2016",
+      "paragraphs": 79,
+      "ids": "7728d7929169"
+    },
+    {
+      "slug": "chapter-8-february-to-april-2016-baby-k-baby-l-and-baby-m",
+      "title": "Chapter 8. February to April 2016: Baby K, Baby L and Baby M",
+      "paragraphs": 71,
+      "ids": "3b8c863b6e5b"
+    },
+    {
+      "slug": "chapter-9-april-to-may-2016-the-executives",
+      "title": "Chapter 9. April to May 2016: The executives",
+      "paragraphs": 66,
+      "ids": "a023e8816987"
+    },
+    {
+      "slug": "chapter-10-june-2016-baby-n-triplets-o-p-and-r",
+      "title": "Chapter 10. June 2016: Baby N, Triplets O, P and R",
+      "paragraphs": 78,
+      "ids": "737f9c653863"
+    },
+    {
+      "slug": "chapter-11-24-and-25-june-2016-exchanges-between-the-doctors-and-managers-baby-q",
+      "title": "Chapter 11. 24 and 25 June 2016: Exchanges between the doctors and managers; Baby Q",
+      "paragraphs": 69,
+      "ids": "0bddce0ca8f1"
+    },
+    {
+      "slug": "chapter-12-safeguarding",
+      "title": "Chapter 12. Safeguarding",
+      "paragraphs": 172,
+      "ids": "ab0626935a11"
+    },
+    {
+      "slug": "chapter-13-why-was-action-not-taken-sooner",
+      "title": "Chapter 13. Why was action not taken sooner?",
+      "paragraphs": 37,
+      "ids": "d4bea539b581"
+    },
+    {
+      "slug": "chapter-14-events-at-the-end-of-june-2016",
+      "title": "Chapter 14. Events at the end of June 2016",
+      "paragraphs": 92,
+      "ids": "0c722de70fdb"
+    },
+    {
+      "slug": "chapter-15-early-july-2016-discussions-downgrade-of-the-neonatal-unit-silver-com",
+      "title": "Chapter 15. Early July 2016: Discussions; downgrade of the neonatal unit; Silver Command; risk and reputation",
+      "paragraphs": 85,
+      "ids": "d64b143d9df3"
+    },
+    {
+      "slug": "chapter-16-meetings-on-13-and-14-july-2016",
+      "title": "Chapter 16. Meetings on 13 and 14 July 2016",
+      "paragraphs": 42,
+      "ids": "840bbca0f52f"
+    },
+    {
+      "slug": "chapter-17-july-2016-redeployment-of-and-support-for-letby",
+      "title": "Chapter 17. July 2016: Redeployment of and support for Letby",
+      "paragraphs": 59,
+      "ids": "2553a6736b15"
+    },
+    {
+      "slug": "chapter-18-nursing-and-midwifery-council",
+      "title": "Chapter 18. Nursing and Midwifery Council",
+      "paragraphs": 63,
+      "ids": "235d3f31be42"
+    },
+    {
+      "slug": "chapter-19-speak-out-safely",
+      "title": "Chapter 19. Speak Out Safely",
+      "paragraphs": 42,
+      "ids": "e60ed666f48f"
+    },
+    {
+      "slug": "chapter-20-the-rcpch-review",
+      "title": "Chapter 20. The RCPCH review",
+      "paragraphs": 176,
+      "ids": "5139e42794c2"
+    },
+    {
+      "slug": "chapter-21-reports-dr-hawdon-and-dr-mcpartland",
+      "title": "Chapter 21. Reports: Dr Hawdon and Dr McPartland",
+      "paragraphs": 104,
+      "ids": "6cccbdca9c14"
+    },
+    {
+      "slug": "chapter-22-september-2016-to-january-2017-the-grievance",
+      "title": "Chapter 22. September 2016 to January 2017: The grievance",
+      "paragraphs": 153,
+      "ids": "4f4cee09312d"
+    },
+    {
+      "slug": "chapter-23-january-to-march-2017",
+      "title": "Chapter 23. January to March 2017",
+      "paragraphs": 96,
+      "ids": "049b499be5ba"
+    },
+    {
+      "slug": "chapter-24-referral-of-deaths-to-the-coroner",
+      "title": "Chapter 24. Referral of deaths to the coroner",
+      "paragraphs": 148,
+      "ids": "44d4128fd8ee"
+    },
+    {
+      "slug": "chapter-25-nhs-england-and-the-countess",
+      "title": "Chapter 25. NHS England and the Countess",
+      "paragraphs": 164,
+      "ids": "03b179e285b1"
+    },
+    {
+      "slug": "chapter-26-contacting-the-police",
+      "title": "Chapter 26. Contacting the police",
+      "paragraphs": 128,
+      "ids": "96f5a0b49761"
+    },
+    {
+      "slug": "chapter-27-events-in-2018-the-inquiry-2023-to-2026",
+      "title": "Chapter 27. Events in 2018; the Inquiry 2023 to 2026",
+      "paragraphs": 64,
+      "ids": "2ea9b966c512"
+    },
+    {
+      "slug": "chapter-28-the-current-position",
+      "title": "Chapter 28. The current position",
+      "paragraphs": 38,
+      "ids": "08f99813bbb6"
+    },
+    {
+      "slug": "chapter-29-bereavement-care",
+      "title": "Chapter 29. Bereavement care",
+      "paragraphs": 13,
+      "ids": "49a3cf36c108"
+    },
+    {
+      "slug": "chapter-30-parents-further-recollections",
+      "title": "Chapter 30. Parents' further recollections",
+      "paragraphs": 40,
+      "ids": "63f821a9020e"
+    },
+    {
+      "slug": "chapter-31-implementation-of-recommendations-of-inquiries",
+      "title": "Chapter 31. Implementation of recommendations of inquiries",
+      "paragraphs": 27,
+      "ids": "d9a68993adfe"
+    },
+    {
+      "slug": "chapter-32-medical-examiners",
+      "title": "Chapter 32. Medical examiners",
+      "paragraphs": 45,
+      "ids": "45ae3ce55719"
+    },
+    {
+      "slug": "chapter-33-cctv-and-monitoring",
+      "title": "Chapter 33. CCTV and monitoring",
+      "paragraphs": 16,
+      "ids": "fc43854b3c60"
+    },
+    {
+      "slug": "chapter-34-insulin",
+      "title": "Chapter 34. Insulin",
+      "paragraphs": 17,
+      "ids": "18fc64078a2e"
+    },
+    {
+      "slug": "chapter-35-data-reading-the-signals",
+      "title": "Chapter 35. Data – reading the signals",
+      "paragraphs": 54,
+      "ids": "45919215d28d"
+    },
+    {
+      "slug": "chapter-36-the-nhs",
+      "title": "Chapter 36. The NHS",
+      "paragraphs": 50,
+      "ids": "8c89c3f16ac7"
+    },
+    {
+      "slug": "chapter-37-training-and-regulation-of-managers",
+      "title": "Chapter 37. Training and regulation of managers",
+      "paragraphs": 131,
+      "ids": "00c9cb9d474e"
+    },
+    {
+      "slug": "chapter-38-duty-of-candour",
+      "title": "Chapter 38. Duty of candour",
+      "paragraphs": 47,
+      "ids": "91d3af783bee"
+    },
+    {
+      "slug": "chapter-39-culture-of-the-nhs",
+      "title": "Chapter 39. Culture of the NHS",
+      "paragraphs": 28,
+      "ids": "298a813ddccc"
+    },
+    {
+      "slug": "chapter-40-freedom-to-speak-up-guardians",
+      "title": "Chapter 40. Freedom to Speak Up Guardians",
       "paragraphs": 46,
-      "ids": "96d803ee63a1"
+      "ids": "e043595f98b1"
+    },
+    {
+      "slug": "chapter-41-patient-safety-safeguarding-and-employment-law",
+      "title": "Chapter 41. Patient safety, safeguarding and employment law",
+      "paragraphs": 20,
+      "ids": "019cfec8404f"
+    },
+    {
+      "slug": "chapter-42-care-quality-commission",
+      "title": "Chapter 42. Care Quality Commission",
+      "paragraphs": 25,
+      "ids": "368ecc48faa6"
+    },
+    {
+      "slug": "chapter-43-the-health-services-safety-investigations-body",
+      "title": "Chapter 43. The Health Services Safety Investigations Body",
+      "paragraphs": 38,
+      "ids": "704bbb7813f6"
+    },
+    {
+      "slug": "chapter-44-memorandum-of-understanding",
+      "title": "Chapter 44. Memorandum of Understanding",
+      "paragraphs": 26,
+      "ids": "bd4e0dbba5d0"
+    },
+    {
+      "slug": "chapter-45-recommendations",
+      "title": "Chapter 45. Recommendations",
+      "paragraphs": 57,
+      "ids": "52a747335f29"
+    },
+    {
+      "slug": "appendix-1-terms-of-reference",
+      "title": "Appendix 1. Terms of Reference",
+      "paragraphs": 43,
+      "ids": "c2324fdc67d4"
+    },
+    {
+      "slug": "appendix-2-summary-of-nuffield-report-on-inquiry-questionnaire",
+      "title": "Appendix 2. Summary of Nuffield report on Inquiry questionnaire",
+      "paragraphs": 84,
+      "ids": "51a3e7d35376"
+    },
+    {
+      "slug": "appendix-3-the-picker-report",
+      "title": "Appendix 3. The Picker report",
+      "paragraphs": 18,
+      "ids": "5d5ee1fb035e"
+    },
+    {
+      "slug": "appendix-4-witnesses-who-gave-oral-evidence",
+      "title": "Appendix 4. Witnesses who gave oral evidence",
+      "paragraphs": 48,
+      "ids": "17528ed6ced6"
+    },
+    {
+      "slug": "appendix-5-chairs-rulings",
+      "title": "Appendix 5. Chair's rulings",
+      "paragraphs": 153,
+      "ids": "425db4b6238a"
+    },
+    {
+      "slug": "appendix-6-inquiry-process",
+      "title": "Appendix 6. Inquiry process",
+      "paragraphs": 19,
+      "ids": "6feac10a9ea4"
+    },
+    {
+      "slug": "appendix-7-inquiry-team",
+      "title": "Appendix 7. Inquiry team",
+      "paragraphs": 3,
+      "ids": "dc908ad3f636"
+    },
+    {
+      "slug": "appendix-8-core-participants-and-legal-representation",
+      "title": "Appendix 8. Core Participants and legal representation",
+      "paragraphs": 12,
+      "ids": "5b37d18e7209"
+    },
+    {
+      "slug": "appendix-9-acronyms",
+      "title": "Appendix 9. Acronyms",
+      "paragraphs": 3,
+      "ids": "17b47c283b85"
     }
   ]
 }

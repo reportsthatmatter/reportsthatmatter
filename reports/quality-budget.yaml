@@ -365,30 +365,30 @@ reports:
     ids-per-1k-words: 0
     quote-share-parity: 0
   uk-thirlwall-inquiry:
-    severed-into-quote: 0
-    severed-paragraph: 0
-    bare-footnote-marker: 0
+    severed-into-quote: 29  # why: reportsthatmatter-gqsy.16.7 (Volumes I-III added: quotations of evidence and symbol notes at a page foot, c08x)
+    severed-paragraph: 11  # why: reportsthatmatter-gqsy.16.7 (symbol footnotes at a page foot cut the paragraph that runs over, c08x; table rows, 6gvy)
+    bare-footnote-marker: 9  # why: reportsthatmatter-gqsy.16.7 (symbol markers and numbers in the appendix tables, c08x and 6gvy)
     bare-marker-after-quote: 0
     note-marker-wrong-note: 0
     note-marker-unpaired: 0
-    note-definition-unreferenced: 0
-    note-reference-sequence: 0
-    note-text-in-body: 0
+    note-definition-unreferenced: 19  # why: reportsthatmatter-gqsy.16.7 (19 notes whose marker sits beside a symbol marker, c08x)
+    note-reference-sequence: 22  # why: reportsthatmatter-gqsy.16.7 (the same markers beside symbol markers, c08x)
+    note-text-in-body: 2  # why: reportsthatmatter-gqsy.16.7 (symbol footnotes served in the body, c08x)
     note-citation-vocabulary: 0
-    furniture-paragraph: 0
-    contents-entry-without-heading: 0
+    furniture-paragraph: 45  # why: reportsthatmatter-gqsy.16.7 (the four volumes title and imprint pages as printed)
+    contents-entry-without-heading: 8  # why: reportsthatmatter-gqsy.16.7 (the risk matrix and figure labels read as contents rows, 6gvy)
     heading-density: 1  # why: reportsthatmatter-gqsy.16 (the report sets 65 sub-headings in 70 pages, as its tag tree has them: 88 per 100 pages against 60)
-    heading-repeated: 0
-    heading-function-word: 1  # why: reportsthatmatter-gqsy.16 (an anonymised name as printed, "Baby A"; read as a heading ending in the article)
+    heading-repeated: 7  # why: reportsthatmatter-gqsy.16.7 (Endnotes after each chapter, Contents x4, Skin changes as printed)
+    heading-function-word: 5  # why: reportsthatmatter-gqsy.16.7 (anonymised names as printed, Baby A)
     heading-marker: 0
-    heading-long: 0
-    printed-page-reversal: 0
+    heading-long: 11  # why: reportsthatmatter-gqsy.16.7 (chapter titles as printed, up to 90 characters)
+    printed-page-reversal: 3  # why: reportsthatmatter-gqsy.16.7 (each volume numbers its pages from 1 again)
     rendered-h1: 0
     chapter-intro-misfiled: 0
     rendered-ol-words-share: 1
     numbered-prose-list: 0
     ids-per-1k-words: 0
-    quote-share-parity: 1  # why: reportsthatmatter-vsd2 (the 15 inset quotations are quote blocks now, where there were none: 2.2% of blocks on even pages and 2.2% on odd, a gap under a point, which the metric rounds up to 1)
+    quote-share-parity: 3  # why: reportsthatmatter-gqsy.16.7 (evidence quoted at length in Volumes I and II)
   us-911-commission:
     severed-into-quote: 0
     severed-paragraph: 0
