@@ -216,10 +216,10 @@
     "headings-spurious": 9,
     "markers-unlinked": 5,
     "markers-spurious": 0,
-    "paragraphs-oversplit": 174,
-    "paragraphs-merged": 842,
+    "paragraphs-oversplit": 149,
+    "paragraphs-merged": 844,
     "quotes-spurious": 57,
-    "quotes-missed": 225,
+    "quotes-missed": 228,
     "note-off-page": 0
    },
    "golden": {
