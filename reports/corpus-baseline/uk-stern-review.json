@@ -1,6 +1,6 @@
 {
-  "words": 77010,
-  "paragraphs": 1092,
+  "words": 150101,
+  "paragraphs": 2184,
   "sections": [
     {
       "slug": "executive-summary",
@@ -39,10 +39,16 @@
       "ids": "2b1309f82b3c"
     },
     {
+      "slug": "1-the-science-of-climate-change-scale-of-the-environment-challenge",
+      "title": "1 The Science of Climate Change: Scale of the Environment Challenge",
+      "paragraphs": 165,
+      "ids": "a51a49c00fb8"
+    },
+    {
       "slug": "2-economics-ethics-and-climate-change",
       "title": "2 Economics, Ethics and Climate Change",
       "paragraphs": 158,
-      "ids": "d016b93bc376"
+      "ids": "54e18bdfb8d2"
     },
     {
       "slug": "part-ii-impacts-of-climate-change-on-growth-and-development",
@@ -51,28 +57,64 @@
       "ids": "236589041e75"
     },
     {
+      "slug": "3-how-climate-change-will-affect-people-around-the-world",
+      "title": "3 How Climate Change Will Affect People Around The World",
+      "paragraphs": 225,
+      "ids": "f6d48e134a5d"
+    },
+    {
+      "slug": "4-implications-of-climate-change-for-development",
+      "title": "4 Implications of Climate Change for Development",
+      "paragraphs": 241,
+      "ids": "b19436aab9ec"
+    },
+    {
+      "slug": "5-costs-of-climate-change-in-developed-countries",
+      "title": "5 Costs Of Climate Change In Developed Countries",
+      "paragraphs": 156,
+      "ids": "fd57629ad2c3"
+    },
+    {
       "slug": "6-economic-modelling-of-climate-change-impacts",
       "title": "6 Economic modelling of climate-change impacts",
       "paragraphs": 191,
-      "ids": "409a1a504b65"
+      "ids": "f4834e916b45"
     },
     {
       "slug": "part-iii-the-economics-of-stabilisation",
       "title": "Part III: The Economics of Stabilisation",
-      "paragraphs": 178,
-      "ids": "cbea0aad800a"
+      "paragraphs": 7,
+      "ids": "4a10e622731b"
+    },
+    {
+      "slug": "7-projecting-the-growth-of-greenhouse-gas-emissions",
+      "title": "7 Projecting the Growth of Greenhouse-Gas Emissions",
+      "paragraphs": 161,
+      "ids": "e39771a27eca"
+    },
+    {
+      "slug": "8-the-challenge-of-stabilisation",
+      "title": "8 The Challenge of Stabilisation",
+      "paragraphs": 144,
+      "ids": "48e8250ba678"
+    },
+    {
+      "slug": "9-identifying-the-costs-of-mitigation",
+      "title": "9 Identifying the Costs of Mitigation",
+      "paragraphs": 171,
+      "ids": "fe46e1d81845"
     },
     {
       "slug": "10-macroeconomic-models-of-costs",
       "title": "10 Macroeconomic Models of Costs",
       "paragraphs": 106,
-      "ids": "a038c649e18f"
+      "ids": "81d6f95999a3"
     },
     {
       "slug": "13-towards-a-goal-for-climate-change-policy",
       "title": "13 Towards a Goal for Climate-Change Policy",
       "paragraphs": 170,
-      "ids": "94e5ae8a6944"
+      "ids": "0a2ab8f7dec3"
     }
   ]
 }

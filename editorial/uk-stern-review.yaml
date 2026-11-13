@@ -10,7 +10,8 @@
 #
 # Written 2026-11-08 (reportsthatmatter-gqsy.9), for the Executive Summary; reading
 # guide extended 2026-11-12 (gqsy.9.2) to the Summary of Conclusions and Chapters
-# 2, 6, 9, 10 and 13. Our words neutral and attributed ("the Review
+# 2, 6, 9, 10 and 13, and 2026-11-13 to Chapters 1, 3-5, 7 and 8 (Chapter 9 now its
+# own section, owre). Our words neutral and attributed ("the Review
 # estimates"), every judgment in the report's own words and in quotation marks.
 # The Review's figures are estimates made in 2006; the background records the
 # economists' main objection (the discount rate) and Stern's own 2008 revision,
@@ -97,7 +98,7 @@ background: |
   certainty that is simply impossible to achieve". Cambridge
   University Press published it as a book in January 2007. This site has
   the Executive Summary, the Preface, Introduction and Summary of
-  Conclusions, and Chapters 2, 6, 9, 10 and 13; the other chapters are to
+  Conclusions, and Chapters 1 to 10 and 13; the other chapters are to
   follow.
 
   Its estimates were argued over from the start. Economists, among them
@@ -186,6 +187,18 @@ reading_guide:
         that if we don't act, the overall costs and risks of climate change
         will be equivalent to losing at least 5% of global GDP each year, now
         and forever.
+  - section: 1-the-science-of-climate-change-scale-of-the-environment-challenge
+    why: >-
+      Chapter 1 sets out the science the Review relies on: how greenhouse
+      gases warm the Earth, how much warming different concentrations are
+      likely to bring, and the feedbacks and abrupt changes that could add to
+      it.
+    excerpt:
+      paragraph: most-climate-models-show-doubling
+      quote: >-
+        Most climate models show that a doubling of pre-industrial levels of
+        greenhouse gases is very likely to commit the Earth to a rise of
+        between 2 – 5°C in global mean temperatures.
   - section: 2-economics-ethics-and-climate-change
     why: >-
       Chapter 2 sets out the economic and ethical framework, including how far
@@ -197,6 +210,27 @@ reading_guide:
         We take a simple approach in this Review: if a future generation will
         be present, we suppose that it has the same claim on our ethical
         attention as the current one.
+  - section: 3-how-climate-change-will-affect-people-around-the-world
+    why: >-
+      Chapter 3 goes through the impacts degree by degree: on water, food,
+      health, land and the environment, and the risk of abrupt and
+      large-scale changes. Its Table 3.1, which sets them out by degree of
+      warming, is in the PDF only.
+    excerpt:
+      paragraph: climate-change-threatens-basic-elements-2
+      quote: >-
+        Climate change threatens the basic elements of life for people around
+        the world – access to water, food, health, and use of land and the
+        environment.
+  - section: 4-implications-of-climate-change-for-development
+    why: >-
+      Chapter 4 turns to the developing world, where the Review finds the
+      impacts will fall earliest and hardest, region by region.
+  - section: 5-costs-of-climate-change-in-developed-countries
+    why: >-
+      Chapter 5 does the same for the developed world: some gains at first
+      in higher latitudes, then growing costs from water stress, extreme
+      weather and the strain on insurance.
   - section: 6-economic-modelling-of-climate-change-impacts
     why: >-
       Chapter 6 is where the "5 to 20%" estimate of the cost of climate change
@@ -212,14 +246,43 @@ reading_guide:
         reduction in current per-capita consumption, now and forever.
   - section: part-iii-the-economics-of-stabilisation
     why: >-
-      Part III's introduction, followed in this edition by Chapter 9, which
-      builds up the cost of cutting emissions technology by technology. The
-      estimate below is annual, to 2050; Chapter 10 gives its range.
+      Part III's one-page introduction states the Review's estimate of the
+      cost of action, annual, to 2050; the chapters that follow build it up.
     excerpt:
       paragraph: stabilisation-concentrations-will-require-deep
       quote: >-
         Overall costs are estimated at around 1% of GDP for stabilisation
         levels between 500-550ppm CO2e.
+  - section: 7-projecting-the-growth-of-greenhouse-gas-emissions
+    why: >-
+      Chapter 7 sets out where emissions are heading if nothing is done, and why scarcer fossil fuels will not stop them in time.
+    excerpt:
+      paragraph: without-action-combat-climate-change
+      quote: >-
+        In a plausible 'business as usual' scenario, they will reach 550ppm
+        CO2e by 2035, then increasing at 4½ppm per year and still
+        accelerating.
+  - section: 8-the-challenge-of-stabilisation
+    why: >-
+      Chapter 8 sets out what stabilising greenhouse gases would take: how
+      soon emissions must peak, and how fast they must then fall.
+    excerpt:
+      paragraph: stabilisation-550-ppm-co2e-requires
+      quote: >-
+        Stabilisation at 550 ppm CO2e requires emissions to peak in the next
+        10-20 years, and to decline at a substantial rate thereafter.
+  - section: 9-identifying-the-costs-of-mitigation
+    why: >-
+      Chapter 9 builds up the cost of cutting emissions technology by
+      technology, with the range around it; Chapter 10 compares it with the
+      economic models.
+    excerpt:
+      paragraph: global-cost-reducing-total-ghg
+      quote: >-
+        The global cost of reducing total GHG emissions to three quarters of
+        current levels (consistent with 550ppm CO2e stabilisation trajectory)
+        is estimated at around $1 trillion in 2050 or 1% of GDP in that year,
+        with a range of –1.0% to 3.5% depending on the assumptions made.
   - section: 10-macroeconomic-models-of-costs
     why: >-
       Chapter 10 compares the Review's estimate with the costs found by

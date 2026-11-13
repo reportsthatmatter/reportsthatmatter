@@ -1,0 +1,4 @@
+---
+theme: ingest
+---
+- **A source pass that joins text lines (list items, wrapped headings) can make whole paragraphs vanish on a page where `figureFaces` runs, because the joined lines no longer match the layout's and the page is re-laid from the layout; compare words per chapter before and after every join** (2026-11-13, reportsthatmatter-gqsy.9.2 batch 2a, stern-b2-1113 agent) Adding `marginBullets` to Stern Chapter 8 p.204 dropped the page's two opening paragraphs and ran Box 8.3 into one line, with no quality signal moving; on four other pages it ran the Key Messages into one paragraph. Caught only by a per-chapter word-count diff of full.md. Those pages use line-level run-on joins (`runOnLines`) or are left as read. A wrapped heading needed its layout lines merged as well as its text lines, for the same reason. [status: done in uk-stern-review stern-b2-1113; proposal: `pnpm ingest run` warns when a volume's word count falls between runs]

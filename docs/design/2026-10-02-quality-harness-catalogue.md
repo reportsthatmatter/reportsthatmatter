@@ -259,6 +259,8 @@ Redaction boxes on a scan are read as garble ("Country |", "H ^ H", "B I H I H")
 
 Small, deterministic, and still shipping: a paragraph opening with a literal `#` renders as `<h1>` (Columbia `# 18-7503-005`, PSI `# # #`; 4 `<h1>` in the corpus today, 6zo open); two sections titled `undefined` (72f); a numbered-paragraph opener `3.77` not starting a paragraph without a blank line (hzf); roman folios doubled in text (cbr); an empty bullet taking a later paragraph's id (ru3); per-chapter footnote numbering colliding (ooj, #121); corrections unable to reach footnote text (3jb). Signals: `<h1>` count in a rendered body (should be 0), section title `undefined` or empty, paragraphs longer than 450 words (23 today: Leveson 8, Hillsborough 8, Deepwater 4, mostly endnote runs and fused numbered paragraphs).
 
+Literal list bullets inside a paragraph (added 2026-11-13, gqsy.9.2 batch 2a): a bulleted list whose bullets sit at the margin is read as one paragraph with the items run together and `•` printed in the text, e.g. Stern Chapter 3 p.56 "...New York, Miami and London. • Climate change will increase worldwide deaths...", Chapter 4's regional boxes pp.104-106 (fixed by `marginBullets` on those pages), Chapters 3 and 5's Key Messages and Boxes 4.6 and 5.2 (still served so), and Chapter 6 pp.147, 150 from batch 1. Found by an agent grepping full.md for `•`; no signal fired. Signal: count of `•` (and `▪`, `◦`, ``) inside rendered `<p>` text, budget 0. The same review found literal `***` from emphasis spanning two findings (Stern Ch10 p.247); both are one signal, "markup or bullet glyphs left as text".
+
 ## 4. Tallies
 
 By class, across the ~50 beads and issues examined (a bead can hold two classes):

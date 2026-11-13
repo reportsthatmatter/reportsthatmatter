@@ -125,8 +125,8 @@ findings:
         including both oil and gas production and renewable energy production.
 
 reading_guide:
-  - section: part-i-the-path-to-tragedy
-    title: "Part I and Chapter 1: Sudden Death on the Gulf of Mexico"
+  - section: chapter-one-everyone-involved-with-the-jobwas-completely-satisfied-the-deepwater
+    title: "Chapter 1: Sudden Death on the Gulf of Mexico"
     why: An hour-by-hour account of 20 April on the rig, from the cement job that morning to the explosion and the evacuation.
     excerpt:
       paragraph: down-ezell-s-cabin-still
@@ -136,8 +136,8 @@ reading_guide:
         floor. "We have a situation. …The well is blown out. . . . We have mud
         going to the crown."
 
-  - section: part-ii-explosion-and-aftermath-the-causes-and-consequences-of-the-disaster
-    title: "Part II and Chapter 4: The Macondo Well and the Blowout"
+  - section: chapter-four-but-who-cares-its-done-end-of-story-we-will-probably-be-fine-and-we
+    title: "Chapter 4: The Macondo Well and the Blowout"
     why: The Commission's technical account of why the well failed, from the cement job to the warning signs missed in the last hour.
     excerpt:
       paragraph: given-risk-factors-surrounding-primary
@@ -147,8 +147,8 @@ reading_guide:
         various explanations until they had convinced themselves their
         assumption was correct.
 
-  - section: part-iii-lessons-learned-industry-government-energy-policy
-    title: "Part III and Chapter 8: Changing Business as Usual"
+  - section: chapter-eight-safety-is-not-proprietary-changing-business-as-usual
+    title: "Chapter 8: Changing Business as Usual"
     why: The case for the industry to change its own safety culture, and how.
     excerpt:
       paragraph: deepwater-horizon-blowout-explosion-oil
