@@ -887,19 +887,19 @@
   },
   "uk-stern-review": {
    "oracle": {
-    "headings-missed": 260,
+    "headings-missed": 272,
     "headings-spurious": 0,
-    "markers-unlinked": 601,
-    "markers-spurious": 13,
-    "paragraphs-oversplit": 84,
-    "paragraphs-merged": 766,
+    "markers-unlinked": 726,
+    "markers-spurious": 20,
+    "paragraphs-oversplit": 93,
+    "paragraphs-merged": 863,
     "quotes-spurious": 0,
-    "quotes-missed": 153,
+    "quotes-missed": 165,
     "note-off-page": 0
    },
    "golden": {
-    "match": 20,
-    "total": 22,
+    "match": 22,
+    "total": 24,
     "known": 2
    },
    "goldenOracle": {
@@ -910,7 +910,7 @@
     },
     "markers-unlinked": {
      "tp": 0,
-     "fp": 32,
+     "fp": 34,
      "fn": 0
     },
     "markers-spurious": {
@@ -949,7 +949,7 @@
   },
   "markers-unlinked": {
    "tp": 3,
-   "fp": 34,
+   "fp": 36,
    "fn": 7
   },
   "markers-spurious": {

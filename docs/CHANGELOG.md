@@ -7,6 +7,12 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-13 — The whole Stern Review
+
+[The Stern Review on the Economics of Climate Change](/reports/uk-stern-review) is now on the site in full: all 655 pages, every paragraph citable. Since yesterday we have added Part V on adaptation (chapters 18 to 20) and Part VI on international collective action (chapters 21 to 27), the technical annex to chapter 2 on ethics and discounting, the Postscript the Review team wrote in the weeks after publication, answering its critics, with its technical annex, and the six annexes to chapter 7 that HM Treasury published only on the web. Tables are not shown yet; their titles and sources are.
+
+---
+
 ## 2026-11-13 — The Stern Review's policy chapters
 
 [The Stern Review](/reports/uk-stern-review) now runs to 425 pages. Chapters 11 and 12 finish Part III, on structural change and competitiveness and on the wider benefits of climate policy, and all of Part IV is here: its introduction and chapters 14 to 17 on harnessing markets through taxation and trading, carbon pricing and emissions markets in practice, accelerating technological innovation, and policy beyond carbon markets and technology. Every link already published to the Review still lands on the same paragraph.
