@@ -1300,7 +1300,8 @@ items:
     link: https://reportsthatmatter.org/reports/uk-stern-review?p=climate-change-presents-unique-challenge&h=|Climate%20change%20presents%20a%20unique%20challenge%20for%20economics%3A%20it%20is%20the%20greatest%20and%20widest-ranging%20market%20failure%20ever%20seen.|%20The%20economic%20analysis&src=bsky
     card: assets/cards/uk-stern-review/q-e329014f.png
     scheduled: 2026-11-14
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n2bn6z5ohv2h
+    posted_at: 2026-11-14T13:47:42.565Z
   - id: uk-stern-review:impacts-climate-change-are-not:42f41207
     report: uk-stern-review
     hook: "Canada, Russia and Scandinavia might gain from 2 or 3°C of warming, the
