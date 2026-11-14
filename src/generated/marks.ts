@@ -68,7 +68,7 @@ export const MARKS: Readonly<Record<string, { width: number; height: number }>> 
   },
   "us-duelfer-report": {
     "width": 660,
-    "height": 562
+    "height": 303
   },
   "us-ica-2017-russia-elections": {
     "width": 660,
