@@ -38,6 +38,11 @@
 #     Community was dead wrong in almost all of its pre-war judgments about Iraq's
 #     weapons of mass destruction"
 #     (georgewbush-whitehouse.archives.gov/wmd/text/transmittal_letter.html)
+#   Issued in three volumes: the report's own "at the conclusion of each volume of text"
+#     (readers-should-also-be-aware) and the GPO edition (GPO-DUELFERREPORT-1..3);
+#     Volumes II-III are reportsthatmatter-d0h.
+# Critic (Fable, 2026-11-14): Kay was Special Advisor, not ISG head; "None were" softened;
+#   closing superlative cut; findings 3, 5, 7 tightened to the report's words.
 
 report: us-duelfer-report
 status: approved
@@ -55,8 +60,8 @@ hero:
 
 why_it_matters: >-
   The final report of the Iraq Survey Group, the team of some 1,750 people sent to
-  find Iraq's weapons of mass destruction after the 2003 invasion. Written by
-  Charles Duelfer and made public in October 2004, it asks what became of the
+  find Iraq's weapons of mass destruction after the 2003 invasion. Delivered by
+  Charles Duelfer, the CIA's Special Advisor on Iraq's weapons, and made public in October 2004, it asks what became of the
   weapons, and why Saddam Husayn let the world believe he still had them. This is
   Volume I: the regime's intentions, and how it paid its way around UN sanctions.
 
@@ -68,11 +73,11 @@ description: >-
 background: |
   In March 2003 the United States, the United Kingdom and their allies invaded
   Iraq. The war's planners, the report records, assumed that chemical and possibly
-  biological weapons were likely to be encountered and perhaps used. None were.
-  In June 2003 the Defense Department set up the Iraq Survey Group, with American,
-  British and Australian staff, to find out what had happened to Iraq's weapons
-  programmes. Its first civilian head, David Kay, left in January 2004 and told the
-  Senate Armed Services Committee: "we were almost all wrong, and I certainly
+  biological weapons were likely to be encountered and perhaps used. None were
+  used, and the search found no significant stocks. In June 2003 the Defense Department set up the Iraq Survey Group to find out what had happened to Iraq's weapons
+  programmes. The CIA's first Special Advisor to the search, David Kay, served in
+  Iraq from June to December 2003, and in January 2004 told the Senate Armed
+  Services Committee: "we were almost all wrong, and I certainly
   include myself here."
 
   His successor, Charles Duelfer, had been deputy head of UNSCOM, the UN weapons
@@ -90,12 +95,11 @@ background: |
   chemical and biological weapons are not yet on this site. In March 2005 the
   presidential commission chaired by Charles Robb and Laurence Silberman concluded
   that the intelligence community had been "dead wrong in almost all of its pre-war
-  judgments about Iraq's weapons of mass destruction". The Duelfer report remains
-  the fullest account of what the regime had, what it intended, and why the world
-  misread it.
+  judgments about Iraq's weapons of mass destruction". Duelfer issued addendums the
+  same month, which he said completed the record.
 
 findings:
-  - text: The report finds that Saddam alone set the regime's strategic intent, deciding policy on weapons of mass destruction by fiat and leaving little in writing. His aim was to end UN sanctions while keeping the ability to rebuild the weapons afterwards.
+  - text: The report finds that Saddam alone set the regime's strategic intent, deciding policy on weapons of mass destruction by fiat and leaving little in writing. The report says his aim was to end UN sanctions while keeping the ability to rebuild the weapons afterwards.
     cites: [saddam-husayn-so-dominated-iraqi, iraq-s-policymaking-national-security]
     excerpt:
       paragraph: saddam-husayn-so-dominated-iraqi
@@ -115,7 +119,7 @@ findings:
         interviews and document exploitation—leaves open the possibility that some
         weapons existed in Iraq although not of a militarily significant capability.
 
-  - text: It finds that Iraq was essentially free of militarily significant stocks by the mid-1990s, but that Saddam kept up an impression of possession, above all to deter Iran, which he saw as Iraq's abiding enemy.
+  - text: It finds that Iraq appears to have been essentially free of militarily significant stocks by the mid-1990s, but that Saddam kept up an impression of possession, above all to deter Iran, which he saw as Iraq's abiding enemy.
     cites: [while-appears-iraq-mid-1990s-essentially, saddam-continued-see-utility-wmd, saddam-believed-wmd-necessary-counter]
     excerpt:
       paragraph: while-appears-iraq-mid-1990s-essentially
@@ -125,10 +129,10 @@ findings:
         about WMD capabilities made it too dangerous to clearly reveal this to the
         international community, especially Iran.
 
-  - text: It finds that Saddam intended to restart the programmes once sanctions were lifted, that those around him did not believe he had given them up for good, and that he told officials to keep Iraq's weapons scientists employed.
+  - text: It finds that Saddam intended to restart the programmes once sanctions were lifted, that those around him did not believe he had given them up for good, and that he told officials to keep Iraq's weapons scientists employed. The report judges that he aspired to a nuclear capability but intended to focus on ballistic missiles and tactical chemical weapons.
     cites: [many-former-iraqi-officials-close, saddam-wanted-recreate-iraq-s, from-evidence-available-through-actions]
 
-  - text: In the run-up to the 2003 war, the report finds, Saddam sent his own commanders mixed messages, first suggesting Iraq could use such weapons, then telling them it had none.
+  - text: In the run-up to the 2003 war, the report finds, Saddam sent his own commanders mixed messages, first suggesting Iraq could use such weapons, then in late 2002 telling them it had none, then in March 2003 hinting at a secret weapon.
     cites: [senior-military-officers-former-regime, president-bush-s-speech-un]
     excerpt:
       paragraph: senior-military-officers-former-regime
@@ -140,9 +144,9 @@ findings:
         have WMD.
 
   - text: It estimates that the regime earned $11.3 billion in illicit hard currency between August 1990 and March 2003, most of it, about $8 billion, through trade protocols with neighbouring states, and that it used secret oil allocations under the UN's Oil-for-Food programme, every name approved by Saddam, to win support against sanctions.
-    cites: [during-un-sanctions-iraq-from, iraq-s-bilateral-trade-protocols, throughout-un-off-program-iraq]
+    cites: [during-un-sanctions-iraq-from, iraq-s-bilateral-trade-protocols, moo-normally-distributed-secret-oil]
 
-  - text: It finds that this revenue funded a rebuilding of Iraq's military from 1997, peaking in 2001, including prohibited goods that crossed the borders with little difficulty.
+  - text: It finds that this income emboldened Saddam to rebuild his military from 1997, peaking in 2001, covering conventional arms, dual-use goods and some WMD-related programmes, with prohibited goods crossing the borders with little difficulty.
     cites: [another-element-strategy-involved-circumventing, prohibited-goods-weapons-being-shipped]
 
   - text: The report leaves some questions open, among them reports that weapons material was moved out of Iraq before the war, and whether a mobile biological weapons capability existed.
@@ -164,7 +168,7 @@ reading_guide:
   - section: desire-dominance-and-deterrence-through-wmd
     why: Why Saddam wanted the weapons, why Iran mattered most, and why he would not admit he no longer had them.
   - section: realizing-saddams-veiled-wmd-intent
-    why: From 1991 to the invasion, ending with the evidence on what Iraq held in 2003 and the debriefings of Saddam's ministers.
+    why: From 1991 to the invasion, ending with what Iraq held in 2003 and the debriefings of Saddam's ministers, among them Huwaysh, who ran military industry.
     excerpt:
       paragraph: president-bush-s-speech-un
       quote: >-
@@ -193,13 +197,14 @@ highlights:
     quote: >-
       Saddam told them, “What can they discover, when we have nothing?” But some
       of the ministers were not as sure.
-    context: Saddam to his ministers, autumn 2002, as recalled by the head of the Military Industrialization Commission.
+    context: Saddam to his ministers about three weeks after President Bush's UN speech of 12 September 2002, as recalled by Huwaysh, head of the Military Industrialization Commission.
     card: true
   - paragraph: regime-s-strategy-successful-point
     quote: >-
       The Regime’s strategy was successful to the point where sitting members of
       the Security Council were actively violating the resolutions passed by the
       Security Council.
+    context: Duelfer's Transmittal Message, on Iraq's campaign to erode UN sanctions through oil allocations and trade.
     card: true
   - paragraph: fourth-hurdle-given-difficult-conditions
     quote: >-

@@ -7,6 +7,14 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-14 — The Duelfer Report: an introduction and a hero image
+
+[The Duelfer Report](/reports/us-duelfer-report) now opens with an introduction: what the Iraq Survey Group was, what its Volume I found about Saddam Husayn's intentions and the money that eroded UN sanctions, eight findings with the report's own words, and six sections to read first. The landing page has a public-domain photograph of a suspected weapons site taken by US Marines in April 2003, and four quote cards are queued for Bluesky between December and January.
+
+![The Duelfer Report landing page with its introduction](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-14-duelfer-intro/us-duelfer-report-landing.png)
+
+---
+
 ## 2026-11-13 — The Duelfer Report, Volume I
 
 [The Duelfer Report](/reports/us-duelfer-report), the Iraq Survey Group's 2004 account of Iraq's weapons of mass destruction, is now on the site: Volume I, about 163,000 words, every paragraph citable. It is built from the CIA's web edition, with page numbers from the 2005 printed edition; where the print corrected the text, the print's words are shown (753 places; [about this edition](/reports/us-duelfer-report/about)). Volumes II and III follow.

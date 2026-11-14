@@ -4674,16 +4674,16 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
   },
   "us-duelfer-report": {
     "status": "approved",
-    "whyItMatters": "The final report of the Iraq Survey Group, the team of some 1,750 people sent to find Iraq's weapons of mass destruction after the 2003 invasion. Written by Charles Duelfer and made public in October 2004, it asks what became of the weapons, and why Saddam Husayn let the world believe he still had them. This is Volume I: the regime's intentions, and how it paid its way around UN sanctions.",
+    "whyItMatters": "The final report of the Iraq Survey Group, the team of some 1,750 people sent to find Iraq's weapons of mass destruction after the 2003 invasion. Delivered by Charles Duelfer, the CIA's Special Advisor on Iraq's weapons, and made public in October 2004, it asks what became of the weapons, and why Saddam Husayn let the world believe he still had them. This is Volume I: the regime's intentions, and how it paid its way around UN sanctions.",
     "description": "The Iraq Survey Group's 2004 report on what became of Iraq's weapons of mass destruction. Volume I: Saddam Husayn's intentions, and the money that eroded UN sanctions.",
     "background": [
-      "In March 2003 the United States, the United Kingdom and their allies invaded Iraq. The war's planners, the report records, assumed that chemical and possibly biological weapons were likely to be encountered and perhaps used. None were. In June 2003 the Defense Department set up the Iraq Survey Group, with American, British and Australian staff, to find out what had happened to Iraq's weapons programmes. Its first civilian head, David Kay, left in January 2004 and told the Senate Armed Services Committee: \"we were almost all wrong, and I certainly include myself here.\"",
+      "In March 2003 the United States, the United Kingdom and their allies invaded Iraq. The war's planners, the report records, assumed that chemical and possibly biological weapons were likely to be encountered and perhaps used. None were used, and the search found no significant stocks. In June 2003 the Defense Department set up the Iraq Survey Group to find out what had happened to Iraq's weapons programmes. The CIA's first Special Advisor to the search, David Kay, served in Iraq from June to December 2003, and in January 2004 told the Senate Armed Services Committee: \"we were almost all wrong, and I certainly include myself here.\"",
       "His successor, Charles Duelfer, had been deputy head of UNSCOM, the UN weapons inspection commission, from 1993 to 2000. His report is dated 30 September 2004 and was made public on 6 October, when he presented it to the same committee. It draws on interviews with detained officials, including months of debriefing of Saddam Husayn himself, and on millions of captured documents. Duelfer calls it \"my independent judgment\", not an intelligence community product, and warns that detainees facing prosecution shaped what they said. The finance chapter names foreign companies and officials from Iraqi records, but says it does not judge them, and that some of the trade was legal under the UN's Oil-for-Food programme.",
-      "The report was issued in three volumes; this is Volume I, on the regime's strategic intent and its finances. The later volumes on missiles and on nuclear, chemical and biological weapons are not yet on this site. In March 2005 the presidential commission chaired by Charles Robb and Laurence Silberman concluded that the intelligence community had been \"dead wrong in almost all of its pre-war judgments about Iraq's weapons of mass destruction\". The Duelfer report remains the fullest account of what the regime had, what it intended, and why the world misread it."
+      "The report was issued in three volumes; this is Volume I, on the regime's strategic intent and its finances. The later volumes on missiles and on nuclear, chemical and biological weapons are not yet on this site. In March 2005 the presidential commission chaired by Charles Robb and Laurence Silberman concluded that the intelligence community had been \"dead wrong in almost all of its pre-war judgments about Iraq's weapons of mass destruction\". Duelfer issued addendums the same month, which he said completed the record."
     ],
     "findings": [
       {
-        "text": "The report finds that Saddam alone set the regime's strategic intent, deciding policy on weapons of mass destruction by fiat and leaving little in writing. His aim was to end UN sanctions while keeping the ability to rebuild the weapons afterwards.",
+        "text": "The report finds that Saddam alone set the regime's strategic intent, deciding policy on weapons of mass destruction by fiat and leaving little in writing. The report says his aim was to end UN sanctions while keeping the ability to rebuild the weapons afterwards.",
         "cites": [
           {
             "id": "saddam-husayn-so-dominated-iraqi",
@@ -4729,7 +4729,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "It finds that Iraq was essentially free of militarily significant stocks by the mid-1990s, but that Saddam kept up an impression of possession, above all to deter Iran, which he saw as Iraq's abiding enemy.",
+        "text": "It finds that Iraq appears to have been essentially free of militarily significant stocks by the mid-1990s, but that Saddam kept up an impression of possession, above all to deter Iran, which he saw as Iraq's abiding enemy.",
         "cites": [
           {
             "id": "while-appears-iraq-mid-1990s-essentially",
@@ -4757,7 +4757,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         }
       },
       {
-        "text": "It finds that Saddam intended to restart the programmes once sanctions were lifted, that those around him did not believe he had given them up for good, and that he told officials to keep Iraq's weapons scientists employed.",
+        "text": "It finds that Saddam intended to restart the programmes once sanctions were lifted, that those around him did not believe he had given them up for good, and that he told officials to keep Iraq's weapons scientists employed. The report judges that he aspired to a nuclear capability but intended to focus on ballistic missiles and tactical chemical weapons.",
         "cites": [
           {
             "id": "many-former-iraqi-officials-close",
@@ -4777,7 +4777,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         ]
       },
       {
-        "text": "In the run-up to the 2003 war, the report finds, Saddam sent his own commanders mixed messages, first suggesting Iraq could use such weapons, then telling them it had none.",
+        "text": "In the run-up to the 2003 war, the report finds, Saddam sent his own commanders mixed messages, first suggesting Iraq could use such weapons, then in late 2002 telling them it had none, then in March 2003 hinting at a secret weapon.",
         "cites": [
           {
             "id": "senior-military-officers-former-regime",
@@ -4813,14 +4813,14 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
             "href": "/reports/us-duelfer-report?p=iraq-s-bilateral-trade-protocols"
           },
           {
-            "id": "throughout-un-off-program-iraq",
-            "page": 28,
-            "href": "/reports/us-duelfer-report?p=throughout-un-off-program-iraq"
+            "id": "moo-normally-distributed-secret-oil",
+            "page": 29,
+            "href": "/reports/us-duelfer-report?p=moo-normally-distributed-secret-oil"
           }
         ]
       },
       {
-        "text": "It finds that this revenue funded a rebuilding of Iraq's military from 1997, peaking in 2001, including prohibited goods that crossed the borders with little difficulty.",
+        "text": "It finds that this income emboldened Saddam to rebuild his military from 1997, peaking in 2001, covering conventional arms, dual-use goods and some WMD-related programmes, with prohibited goods crossing the borders with little difficulty.",
         "cites": [
           {
             "id": "another-element-strategy-involved-circumventing",
@@ -4882,7 +4882,7 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
         "slug": "realizing-saddams-veiled-wmd-intent",
         "title": "Realizing Saddam’s Veiled WMD Intent",
         "page": "41",
-        "why": "From 1991 to the invasion, ending with the evidence on what Iraq held in 2003 and the debriefings of Saddam's ministers.",
+        "why": "From 1991 to the invasion, ending with what Iraq held in 2003 and the debriefings of Saddam's ministers, among them Huwaysh, who ran military industry.",
         "excerpt": {
           "quote": "Huwaysh said he began to wonder whether Saddam had hidden something: “I knew a lot, but wondered why Bush believed that we had these weapons,” he said.",
           "cite": {
