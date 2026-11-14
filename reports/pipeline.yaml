@@ -141,7 +141,7 @@ units:
     waive:
       editorial.card-highlights: reportsthatmatter-6j4h
     evidence: "report repo reportsthatmatter/uk-southport-inquiry PR #1 (cleanEdition from the GOV.UK HTML via govuk-html.ts; 99.0% of edition words aligned; 641/641 notes; paragraphs the HTML splits rejoined from the PDF's tags, 107); golden 7/7; adjudicated.yaml 30 breaks (ours wrong 2/30, reference 12/30); held-out score boundary F1 86.7%; site branch southport-vol1-1024 (registry, budgets, plate, hero, introduction)"
-    notes: "Affected community (decision 0026): no cards until 6j4h. govuk-html.ts is the reusable GOV.UK adapter (reportsthatmatter-pbou). Known: chronology anchors (mws2), p.236 order (k2ro). Volume 2 is a later unit of the same id."
+    notes: "Affected community (decision 0026): no cards yet (emails waived by Rufus 2026-11-14; tier rule applies). govuk-html.ts is the reusable GOV.UK adapter (reportsthatmatter-pbou). Known: chronology anchors (mws2), p.236 order (k2ro). Volume 2 is a later unit of the same id."
   - id: us-duelfer-report
     scope: "Volume I"
     bead: reportsthatmatter-ivg.4
