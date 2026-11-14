@@ -7,6 +7,14 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-14 — Duelfer plate without the emblem; "Saddam Hussein" in our own text
+
+The Duelfer Report's plate was an Iraqi Intelligence Service emblem, which breaks the house rule of no seals, crests or logos. It is now a crop of the report's own text (the Director's closing paragraph, PDF p.5), and the share cards carry it. The introduction and the post hooks now say "Saddam Hussein", with a note that the report spells it Husayn; quotations are unchanged.
+
+![The Duelfer Report share card with the new plate](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-14-duelfer-plate/us-duelfer-report-share-card.png)
+
+---
+
 ## 2026-11-14 — The Duelfer Report: an introduction and a hero image
 
 [The Duelfer Report](/reports/us-duelfer-report) now opens with an introduction: what the Iraq Survey Group was, what its Volume I found about Saddam Husayn's intentions and the money that eroded UN sanctions, eight findings with the report's own words, and six sections to read first. The landing page has a public-domain photograph of a suspected weapons site taken by US Marines in April 2003, and four quote cards are queued for Bluesky between December and January.

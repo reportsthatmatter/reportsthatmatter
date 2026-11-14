@@ -671,35 +671,27 @@ marks:
     set: plate
     report: us-duelfer-report
     pdf: archive/duelfer-report-vol1.pdf
-    page: 105
-    dpi: 220
-    # Seal ink measured on the 220dpi page (2026-09-28) at approximately
-    # x 513-756, y 855-1069; the box below centres it with ~10% margin.
-    # y0 raised from 840 to 850 — the original caught a printed hairline rule
-    # (separating the page's "Overview" text from the seal row) along the top
-    # edge.
-    crop: [495, 850, 270, 230]
+    page: 5
+    dpi: 300
+    # 2026-11-14: replaced the p.105 crop of the Iraqi Intelligence Service
+    # emblem (house rule: no seals, crests or logos). Text box from pdftotext
+    # -bbox: the "Overall, I have confidence..." paragraph starts at x 108pt,
+    # y 263pt; 300dpi = 4.1667 px/pt; box adds a few px margin.
+    crop: [430, 1080, 960, 440]
     subject: >-
-      The Iraqi Intelligence Service emblem, one of three intelligence-service
-      seals reproduced in Annex B, "Iraq's Intelligence Services" (printed
-      p.73), Regime Strategic Intent chapter — the Regime's internal security
-      apparatus that Volume I's finding turns on: multiple, competing services
-      built to conceal WMD activity from both outsiders and each other.
-      Deliberately not a photograph of Saddam, a weapon, or a captured
-      document's dense typed text (illegible as a treated plate) — the seal is
-      the exhibit's own graphic mark, in the second-preference tier of the
-      recipe (an emblem on the source's own page, not a photograph).
+      Typographic: the opening of the Director's closing paragraph in the
+      Scope Note, PDF p.5 (printed p.3): "Overall, I have confidence in the
+      picture of events and programs covered by this report. If there were to
+      be a surprise in the future, it most likely would be in the biological
+      weapons area..." The author's own assessment of how far the report can be
+      trusted. No seal, logo or other insignia appears in the crop. Avoided:
+      the Iraqi intelligence-service emblems in Annex B, portraits of Saddam,
+      and weapons photographs.
     rights: >-
-      Reproduced from a U.S. Government work (public domain). The emblem
-      itself is a foreign (former Iraqi regime) intelligence service's
-      insignia, reproduced here for historical identification, the same way
-      the report itself reproduces it.
-    treat: { black: 0.15, white: 0.90, grain: 70, cut: none }
+      U.S. Government work, public domain. Plain text of the report's own page,
+      with no seal or insignia.
+    treat: { black: 0.30, white: 0.90, grain: 40, cut: none }
     caveat: >-
-      Source is embedded in the PDF at native ~250×220px (poppler reports its
-      placed resolution as 218ppi) — well under this pipeline's 660px target,
-      so the plate is upscaled roughly 2.7x, similar to Leveson's known-soft
-      case. It is bold two-tone line art (a solid globe/crosshair mark, no
-      photographic detail to lose), so it holds up better under upscaling than
-      a soft-edged photograph would; re-check if a larger reproduction of the
-      same emblem turns up.
+      Body text is thin line work, so at 92px the row reads as a block of grey
+      lines rather than legible words; it is the shape of a document, as with
+      the ICA plate.
