@@ -27,6 +27,8 @@ Rufus, 2026-10-17: "go with your recommendations" on three follow-ups.
 2. The Columbia "History is cause" launch card is Tier B: the subject is "History", not an institution. Launch material now uses a Tier A Columbia line instead, "Twice in NASA history, the agency embarked on a slippery slope that resulted in catastrophe." (p. 203), marked `card: true` and `tier: A` in `editorial/columbia-accident.yaml`. "History is cause" keeps `card: true` and stays on the page, but the poster refuses it.
 3. The review emails to campaign groups and the Inquiry courtesy note are drafted for Rufus to send (reportsthatmatter-vx0u): marketing repo, `drafts/2026-10/campaign-group-review-emails.md`, to go out by Mon 2 Nov, before the first queued Hillsborough (12 Nov) and Grenfell (14 Nov) cards.
 
+Rufus, 2026-11-14: no review or courtesy emails will be sent ("i'm not going to send emails so don't pull those reports. they are already public domain"). Promotion of these reports no longer waits on emails: queued posts stay, and highlights may be made cards under the tier rule above, which still applies. Beads vx0u, 6j4h and 626u closed as wontfix.
+
 ## Consequences
 
 Queue rules and re-dating are in progress (another agent). Follow-ups are filed as beads: add the CIA torture report and Litvinenko to the affected list, review emails to campaign groups, the AGENTS.md rule.
