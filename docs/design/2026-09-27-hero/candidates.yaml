@@ -381,3 +381,35 @@ us-lehman-examiner:
     recommended: false
     local_file: null
     note: "Already shipped as the hero for us-psi-financial-crisis (Wall Street/PSI report); reusing it here would duplicate that page's image, which is why Rufus's brief asked for something distinct."
+
+us-duelfer-report:
+  - title: "A captured suspected chemical weapons factory, Ar Rustamiyah, Iraq, 8 April 2003"
+    page_url: "https://commons.wikimedia.org/wiki/File:A_captured_suspected_chemical_weapons_factory_in_Ar_Rustamiyah,_Iraq_during_Operation_IRAQI_FREEDOM_-_DPLA_-_41cce7748352e30fd089ca97da7ef3c4.jpeg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/9/94/A_captured_suspected_chemical_weapons_factory_in_Ar_Rustamiyah%2C_Iraq_during_Operation_IRAQI_FREEDOM_-_DPLA_-_41cce7748352e30fd089ca97da7ef3c4.jpeg"
+    credit: "GYSGT Erik S. Hansen, USMC / US Department of Defense, via National Archives (NAID 6636000)"
+    licence: "Public domain (PD-USGov-Military)"
+    width: 1720
+    height: 1160
+    recommended: true
+    local_file: "us-duelfer-report/factory.jpg"
+    note: "The kind of site the Iraq Survey Group searched: process equipment in a shed, no people, no insignia. Strong tonal separation (orange cabinet, white oven, dark drum) so it survives desaturation. Resolution is below 2000px but above 1600."
+  - title: "Members of a mobile exploitation team examine a suspected mobile biological weapons facility (7 May 2003)"
+    page_url: "https://commons.wikimedia.org/wiki/File:Defense.gov_News_Photo_030507-D-9085M-001.jpg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Defense.gov_News_Photo_030507-D-9085M-001.jpg"
+    credit: "US Department of Defense"
+    licence: "Public domain (US military/DoD work)"
+    width: 720
+    height: 540
+    recommended: false
+    local_file: "us-duelfer-report/trailer.jpg"
+    note: "The best subject (inspectors in gloves and masks at the trailer Powell described), but only 720px wide, far below the minimum. Use only if a larger copy is found (the DoD original may exist at defense.gov / DVIDS)."
+  - title: "Oil refinery site suspected of concealing WMD, Al Samwah, Iraq (19 May 2003)"
+    page_url: "https://commons.wikimedia.org/wiki/File:Destruction_at_an_oil_refinery_site_suspected_of_concealing_weapons_of_mass_destruction,_located_at_Al_Samwah,_Iraq._The_site_was_inspected_and_cleared_by_US_Marine_Corps_(USMC)_Mar_-_DPLA_-_998b014aa90dc99d7afd0d0536762535.jpeg"
+    image_url: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Destruction_at_an_oil_refinery_site_suspected_of_concealing_weapons_of_mass_destruction%2C_located_at_Al_Samwah%2C_Iraq._The_site_was_inspected_and_cleared_by_US_Marine_Corps_%28USMC%29_Mar_-_DPLA_-_998b014aa90dc99d7afd0d0536762535.jpeg"
+    credit: "LCPL Jason L. Andrade, USMC / US Department of Defense, via National Archives"
+    licence: "Public domain (PD-USGov-Military)"
+    width: 3032
+    height: 2008
+    recommended: false
+    local_file: "us-duelfer-report/samwah.jpg"
+    note: "Large and legitimately a suspected-WMD site 'inspected and cleared', but flat, hazy and empty: three tanks and rubble, weak in a wide crop."

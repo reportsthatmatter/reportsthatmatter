@@ -91,5 +91,14 @@ export const EDITOR_PICKS: readonly EditorPick[] = [
     "words": "the evidence gathered by the Review leads to a simple conclusion: the benefits of strong, early action considerably outweigh the costs.",
     "anchor": "all%20of%20these%20perspectives%2C%20|the%20evidence%20gathered%20by%20the%20Review%20leads%20to%20a%20simple%20conclusion%3A%20the%20benefits%20of%20strong%2C%20early%20action%20considerably%20outweigh%20the%20costs.|",
     "page": null
+  },
+  {
+    "report": "us-duelfer-report",
+    "slug": "realizing-saddams-veiled-wmd-intent",
+    "sectionTitle": "Realizing Saddam’s Veiled WMD Intent",
+    "paragraph": "isg-has-not-found-evidence",
+    "words": "ISG has not found evidence that Saddam Husayn possessed WMD stocks in 2003, but the available evidence from its investigation—including detainee interviews and document exploitation—leaves open the possibility that some weapons existed in Iraq although not of a militarily significant capability.",
+    "anchor": "|ISG%20has%20not%20found%20evidence%20that%20Saddam%20Husayn%20possessed%20WMD%20stocks%20in%202003%2C%20but%20the%20available%20evidence%20from%20its%20investigation%E2%80%94including%20detainee%20interviews%20and%20document%20exploitation%E2%80%94leaves%20open%20the%20possibility%20that%20some%20weapons%20existed%20in%20Iraq%20although%20not%20of%20a%20militarily%20significant%20capability.|%20Several%20senior%20officers",
+    "page": 64
   }
 ];
