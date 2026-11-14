@@ -1,0 +1,234 @@
+# Our layer on this report: its landing page. Everything here is ours and is
+# shown labelled as ours. Every quote is verbatim from the rendered report and
+# is checked by `pnpm editorial`; every id must resolve.
+#
+#   why_it_matters  the standfirst, and the page's meta description
+#   background      what happened, and where this report sits in it
+#   findings        what it found; a few carry a key quotation
+#   reading_guide   where to start reading, section by section
+#   highlights      editor's highlights: seeded into the marks table, not printed here
+#
+# Written 2026-11-14 (reportsthatmatter-9br.1) for Volume I only (the Transmittal
+# Message, Scope Note, Regime Strategic Intent, and Regime Finance and Procurement).
+# Volumes II and III (delivery systems, nuclear, chemical, biological) and the 2005
+# Addendums are not on the site yet (reportsthatmatter-d0h), so the findings stay
+# within Volume I. Critiqued by a Fable reviewer before shipping; changes applied.
+#
+# Facts taken from the report itself: ISG created June 2003 by DOD under Maj. Gen.
+# Keith Dayton, with US, UK and Australian staff (Scope Note p.1, Acknowledgements);
+# David Kay Special Advisor June-December 2003 (Scope Note p.2); prewar planning
+# assumed chemical and possibly biological stocks would be encountered (Scope Note
+# p.1); "not an Intelligence Community product" (Acknowledgements p.2); detainee
+# testimony to be weighed cautiously (Scope Note p.2, p.4); dated 30 September 2004
+# (registry; Note for the Comprehensive Report p.1); addendums March 2005 (Note p.3).
+#
+# Sources for the background facts that are not in the report (checked 2026-11-14):
+#   Kay to the Senate Armed Services Committee, 28 January 2004: "Let me begin by
+#     saying we were almost all wrong, and I certainly include myself here."
+#     (S. Hrg. 108-678, govinfo.gov/content/pkg/CHRG-108shrg96675/html/CHRG-108shrg96675.htm)
+#   Duelfer named to succeed Kay on 23 January 2004; Deputy Executive Chairman of
+#     UNSCOM from 1993 until its termination in 2000 (CIA press release, reprinted at
+#     usinfo.org/wf-archive/2004/040123/epf504.htm)
+#   Report made public on Wednesday 6 October 2004, when Duelfer and Brig. Gen. Joseph
+#     McMenamin, the ISG's commander, testified to the Senate Armed Services Committee;
+#     ISG then "approximately 1,750 people" (S. Hrg. 108-855,
+#     govinfo.gov/content/pkg/CHRG-108shrg23081/html/CHRG-108shrg23081.htm;
+#     pbs.org/newshour/nation/military-july-dec04-iraq_report_10-06)
+#   Robb-Silberman Commission transmittal letter, 31 March 2005: "the Intelligence
+#     Community was dead wrong in almost all of its pre-war judgments about Iraq's
+#     weapons of mass destruction"
+#     (georgewbush-whitehouse.archives.gov/wmd/text/transmittal_letter.html)
+
+report: us-duelfer-report
+status: approved
+
+hero:
+  src: /assets/heroes/us-duelfer-report.webp
+  alt: >-
+    Laboratory-scale process equipment in a corrugated-metal shed: a drum
+    mixer on a steel frame, an orange control cabinet, a laboratory oven and
+    a round-doored pressure vessel on a wooden bench, with pumps underneath.
+  credit: "A suspected chemical weapons factory captured by US Marines at Ar Rustamiyah, Iraq, 8 April 2003 · Photo: Gunnery Sgt Erik S. Hansen, USMC, public domain"
+  source: "https://commons.wikimedia.org/wiki/File:A_captured_suspected_chemical_weapons_factory_in_Ar_Rustamiyah,_Iraq_during_Operation_IRAQI_FREEDOM_-_DPLA_-_41cce7748352e30fd089ca97da7ef3c4.jpeg"
+  licence: Public domain (US federal government work)
+  focus: "50% 38%"
+
+why_it_matters: >-
+  The final report of the Iraq Survey Group, the team of some 1,750 people sent to
+  find Iraq's weapons of mass destruction after the 2003 invasion. Written by
+  Charles Duelfer and made public in October 2004, it asks what became of the
+  weapons, and why Saddam Husayn let the world believe he still had them. This is
+  Volume I: the regime's intentions, and how it paid its way around UN sanctions.
+
+description: >-
+  The Iraq Survey Group's 2004 report on what became of Iraq's weapons of mass
+  destruction. Volume I: Saddam Husayn's intentions, and the money that eroded UN
+  sanctions.
+
+background: |
+  In March 2003 the United States, the United Kingdom and their allies invaded
+  Iraq. The war's planners, the report records, assumed that chemical and possibly
+  biological weapons were likely to be encountered and perhaps used. None were.
+  In June 2003 the Defense Department set up the Iraq Survey Group, with American,
+  British and Australian staff, to find out what had happened to Iraq's weapons
+  programmes. Its first civilian head, David Kay, left in January 2004 and told the
+  Senate Armed Services Committee: "we were almost all wrong, and I certainly
+  include myself here."
+
+  His successor, Charles Duelfer, had been deputy head of UNSCOM, the UN weapons
+  inspection commission, from 1993 to 2000. His report is dated 30 September 2004
+  and was made public on 6 October, when he presented it to the same committee. It
+  draws on interviews with detained officials, including months of debriefing of
+  Saddam Husayn himself, and on millions of captured documents. Duelfer calls it
+  "my independent judgment", not an intelligence community product, and warns that
+  detainees facing prosecution shaped what they said. The finance chapter names
+  foreign companies and officials from Iraqi records, but says it does not judge
+  them, and that some of the trade was legal under the UN's Oil-for-Food programme.
+
+  The report was issued in three volumes; this is Volume I, on the regime's
+  strategic intent and its finances. The later volumes on missiles and on nuclear,
+  chemical and biological weapons are not yet on this site. In March 2005 the
+  presidential commission chaired by Charles Robb and Laurence Silberman concluded
+  that the intelligence community had been "dead wrong in almost all of its pre-war
+  judgments about Iraq's weapons of mass destruction". The Duelfer report remains
+  the fullest account of what the regime had, what it intended, and why the world
+  misread it.
+
+findings:
+  - text: The report finds that Saddam alone set the regime's strategic intent, deciding policy on weapons of mass destruction by fiat and leaving little in writing. His aim was to end UN sanctions while keeping the ability to rebuild the weapons afterwards.
+    cites: [saddam-husayn-so-dominated-iraqi, iraq-s-policymaking-national-security]
+    excerpt:
+      paragraph: saddam-husayn-so-dominated-iraqi
+      quote: >-
+        Saddam Husayn so dominated the Iraqi Regime that its strategic intent was
+        his alone. He wanted to end sanctions while preserving the capability to
+        reconstitute his weapons of mass destruction (WMD) when sanctions were
+        lifted.
+
+  - text: The Survey Group found no evidence that Iraq held stocks of such weapons in 2003, while leaving open the possibility that some existed, though not of military significance.
+    cites: [isg-has-not-found-evidence, view-has-been-advanced-widely]
+    excerpt:
+      paragraph: isg-has-not-found-evidence
+      quote: >-
+        ISG has not found evidence that Saddam Husayn possessed WMD stocks in 2003,
+        but the available evidence from its investigation—including detainee
+        interviews and document exploitation—leaves open the possibility that some
+        weapons existed in Iraq although not of a militarily significant capability.
+
+  - text: It finds that Iraq was essentially free of militarily significant stocks by the mid-1990s, but that Saddam kept up an impression of possession, above all to deter Iran, which he saw as Iraq's abiding enemy.
+    cites: [while-appears-iraq-mid-1990s-essentially, saddam-continued-see-utility-wmd, saddam-believed-wmd-necessary-counter]
+    excerpt:
+      paragraph: while-appears-iraq-mid-1990s-essentially
+      quote: >-
+        While it appears that Iraq, by the mid-1990s, was essentially free of
+        militarily significant WMD stocks, Saddam’s perceived requirement to bluff
+        about WMD capabilities made it too dangerous to clearly reveal this to the
+        international community, especially Iran.
+
+  - text: It finds that Saddam intended to restart the programmes once sanctions were lifted, that those around him did not believe he had given them up for good, and that he told officials to keep Iraq's weapons scientists employed.
+    cites: [many-former-iraqi-officials-close, saddam-wanted-recreate-iraq-s, from-evidence-available-through-actions]
+
+  - text: In the run-up to the 2003 war, the report finds, Saddam sent his own commanders mixed messages, first suggesting Iraq could use such weapons, then telling them it had none.
+    cites: [senior-military-officers-former-regime, president-bush-s-speech-un]
+    excerpt:
+      paragraph: senior-military-officers-former-regime
+      quote: >-
+        Early on, Saddam sought to foster the impression with his generals that
+        Iraq could resist a Coalition ground attack using WMD. Then, in a series of
+        meetings in late 2002, Saddam appears to have reversed course and advised
+        various groups of senior officers and officials that Iraq in fact did not
+        have WMD.
+
+  - text: It estimates that the regime earned $11.3 billion in illicit hard currency between August 1990 and March 2003, most of it, about $8 billion, through trade protocols with neighbouring states, and that it used secret oil allocations under the UN's Oil-for-Food programme, every name approved by Saddam, to win support against sanctions.
+    cites: [during-un-sanctions-iraq-from, iraq-s-bilateral-trade-protocols, throughout-un-off-program-iraq]
+
+  - text: It finds that this revenue funded a rebuilding of Iraq's military from 1997, peaking in 2001, including prohibited goods that crossed the borders with little difficulty.
+    cites: [another-element-strategy-involved-circumventing, prohibited-goods-weapons-being-shipped]
+
+  - text: The report leaves some questions open, among them reports that weapons material was moved out of Iraq before the war, and whether a mobile biological weapons capability existed.
+    cites: [while-future-size-direction-iraq]
+
+reading_guide:
+  - section: transmittal-message
+    why: Duelfer's own argument for reading the weapons as part of Saddam's wider ambitions, and from Saddam's point of view.
+    excerpt:
+      paragraph: readers-will-draw-their-own
+      quote: >-
+        The events surrounding Iraqi WMD have caused too much turmoil to be reduced
+        to simple binary discussions of whether weapons existed at one moment in
+        time versus another.
+  - section: scope-note
+    why: How the search was run, and what limited it, from looted sites to wary witnesses.
+  - section: regime-strategic-intent
+    why: The chapter's key judgments in two paragraphs, and how far the testimony of detained officials can be trusted.
+  - section: desire-dominance-and-deterrence-through-wmd
+    why: Why Saddam wanted the weapons, why Iran mattered most, and why he would not admit he no longer had them.
+  - section: realizing-saddams-veiled-wmd-intent
+    why: From 1991 to the invasion, ending with the evidence on what Iraq held in 2003 and the debriefings of Saddam's ministers.
+    excerpt:
+      paragraph: president-bush-s-speech-un
+      quote: >-
+        Huwaysh said he began to wonder whether Saddam had hidden something: “I
+        knew a lot, but wondered why Bush believed that we had these weapons,” he
+        said.
+  - section: regime-finance-and-procurement
+    why: How the regime raised money outside the UN's control and used it to buy goods and influence.
+
+highlights:
+  - paragraph: isg-has-not-found-evidence
+    quote: >-
+      ISG has not found evidence that Saddam Husayn possessed WMD stocks in 2003,
+      but the available evidence from its investigation—including detainee
+      interviews and document exploitation—leaves open the possibility that some
+      weapons existed in Iraq although not of a militarily significant capability.
+    card: true
+  - paragraph: while-appears-iraq-mid-1990s-essentially
+    quote: >-
+      While it appears that Iraq, by the mid-1990s, was essentially free of
+      militarily significant WMD stocks, Saddam’s perceived requirement to bluff
+      about WMD capabilities made it too dangerous to clearly reveal this to the
+      international community, especially Iran.
+    card: true
+  - paragraph: president-bush-s-speech-un
+    quote: >-
+      Saddam told them, “What can they discover, when we have nothing?” But some
+      of the ministers were not as sure.
+    context: Saddam to his ministers, autumn 2002, as recalled by the head of the Military Industrialization Commission.
+    card: true
+  - paragraph: regime-s-strategy-successful-point
+    quote: >-
+      The Regime’s strategy was successful to the point where sitting members of
+      the Security Council were actively violating the resolutions passed by the
+      Security Council.
+    card: true
+  - paragraph: fourth-hurdle-given-difficult-conditions
+    quote: >-
+      The only ISG member who was present from the beginning until the drafting of
+      this report was the ISG Chaplain.
+  - paragraph: evidence-problem-discerning-wmd-iraq
+    quote: >-
+      Often ISG found no evidence of one thing or another. It may be that a more
+      accurate formulation might be we recognized no evidence.
+  - paragraph: growth-culture-lying-superiors-hurt
+    quote: >-
+      The growth of a culture of lying to superiors hurt policymaking more than did
+      the attendant gossip.
+  - paragraph: iraq-s-cooperation-un-inspectors
+    quote: >-
+      Saddam was surprised by the swiftness of Iraq’s defeat.
+  - paragraph: order-preserve-his-dignity-security
+    quote: >-
+      According to a former senior Iraqi official, on one occasion when inspectors
+      arrived at a presidential site, Saddam left through the back gate.
+  - paragraph: we-have-said-certainty-embargo
+    quote: >-
+      We have said with certainty that the embargo will not be lifted by a Security
+      Council resolution, but will corrode by itself.
+    context: Saddam Husayn, January 2000, quoted at the head of the finance chapter.
+  - paragraph: moo-normally-distributed-secret-oil
+    quote: >-
+      Saddam personally approved and removed all names on the voucher recipient
+      lists.
+  - paragraph: readers-will-draw-their-own
+    quote: >-
+      This report will deny the reader any simple answers.

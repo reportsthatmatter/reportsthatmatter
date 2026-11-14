@@ -4672,6 +4672,247 @@ export const EDITORIAL: Readonly<Record<string, Editorial>> = {
       "focus": "50% 25%"
     }
   },
+  "us-duelfer-report": {
+    "status": "approved",
+    "whyItMatters": "The final report of the Iraq Survey Group, the team of some 1,750 people sent to find Iraq's weapons of mass destruction after the 2003 invasion. Written by Charles Duelfer and made public in October 2004, it asks what became of the weapons, and why Saddam Husayn let the world believe he still had them. This is Volume I: the regime's intentions, and how it paid its way around UN sanctions.",
+    "description": "The Iraq Survey Group's 2004 report on what became of Iraq's weapons of mass destruction. Volume I: Saddam Husayn's intentions, and the money that eroded UN sanctions.",
+    "background": [
+      "In March 2003 the United States, the United Kingdom and their allies invaded Iraq. The war's planners, the report records, assumed that chemical and possibly biological weapons were likely to be encountered and perhaps used. None were. In June 2003 the Defense Department set up the Iraq Survey Group, with American, British and Australian staff, to find out what had happened to Iraq's weapons programmes. Its first civilian head, David Kay, left in January 2004 and told the Senate Armed Services Committee: \"we were almost all wrong, and I certainly include myself here.\"",
+      "His successor, Charles Duelfer, had been deputy head of UNSCOM, the UN weapons inspection commission, from 1993 to 2000. His report is dated 30 September 2004 and was made public on 6 October, when he presented it to the same committee. It draws on interviews with detained officials, including months of debriefing of Saddam Husayn himself, and on millions of captured documents. Duelfer calls it \"my independent judgment\", not an intelligence community product, and warns that detainees facing prosecution shaped what they said. The finance chapter names foreign companies and officials from Iraqi records, but says it does not judge them, and that some of the trade was legal under the UN's Oil-for-Food programme.",
+      "The report was issued in three volumes; this is Volume I, on the regime's strategic intent and its finances. The later volumes on missiles and on nuclear, chemical and biological weapons are not yet on this site. In March 2005 the presidential commission chaired by Charles Robb and Laurence Silberman concluded that the intelligence community had been \"dead wrong in almost all of its pre-war judgments about Iraq's weapons of mass destruction\". The Duelfer report remains the fullest account of what the regime had, what it intended, and why the world misread it."
+    ],
+    "findings": [
+      {
+        "text": "The report finds that Saddam alone set the regime's strategic intent, deciding policy on weapons of mass destruction by fiat and leaving little in writing. His aim was to end UN sanctions while keeping the ability to rebuild the weapons afterwards.",
+        "cites": [
+          {
+            "id": "saddam-husayn-so-dominated-iraqi",
+            "page": 1,
+            "href": "/reports/us-duelfer-report?p=saddam-husayn-so-dominated-iraqi"
+          },
+          {
+            "id": "iraq-s-policymaking-national-security",
+            "page": 7,
+            "href": "/reports/us-duelfer-report?p=iraq-s-policymaking-national-security"
+          }
+        ],
+        "excerpt": {
+          "quote": "Saddam Husayn so dominated the Iraqi Regime that its strategic intent was his alone. He wanted to end sanctions while preserving the capability to reconstitute his weapons of mass destruction (WMD) when sanctions were lifted.",
+          "cite": {
+            "id": "saddam-husayn-so-dominated-iraqi",
+            "page": 1,
+            "href": "/reports/us-duelfer-report?p=saddam-husayn-so-dominated-iraqi&h=|Saddam%20Husayn%20so%20dominated%20the%20Iraqi%20Regime%20that%20its%20strategic%20intent%20was%20his%20alone.%20He%20wanted%20to%20end%20sanctions%20while%20preserving%20the%20capability%20to%20reconstitute%20his%20weapons%20of%20mass%20destruction%20(WMD)%20when%20sanctions%20were%20lifted.|"
+          }
+        }
+      },
+      {
+        "text": "The Survey Group found no evidence that Iraq held stocks of such weapons in 2003, while leaving open the possibility that some existed, though not of military significance.",
+        "cites": [
+          {
+            "id": "isg-has-not-found-evidence",
+            "page": 64,
+            "href": "/reports/us-duelfer-report?p=isg-has-not-found-evidence"
+          },
+          {
+            "id": "view-has-been-advanced-widely",
+            "page": 66,
+            "href": "/reports/us-duelfer-report?p=view-has-been-advanced-widely"
+          }
+        ],
+        "excerpt": {
+          "quote": "ISG has not found evidence that Saddam Husayn possessed WMD stocks in 2003, but the available evidence from its investigation—including detainee interviews and document exploitation—leaves open the possibility that some weapons existed in Iraq although not of a militarily significant capability.",
+          "cite": {
+            "id": "isg-has-not-found-evidence",
+            "page": 64,
+            "href": "/reports/us-duelfer-report?p=isg-has-not-found-evidence&h=|ISG%20has%20not%20found%20evidence%20that%20Saddam%20Husayn%20possessed%20WMD%20stocks%20in%202003%2C%20but%20the%20available%20evidence%20from%20its%20investigation%E2%80%94including%20detainee%20interviews%20and%20document%20exploitation%E2%80%94leaves%20open%20the%20possibility%20that%20some%20weapons%20existed%20in%20Iraq%20although%20not%20of%20a%20militarily%20significant%20capability.|%20Several%20senior%20officers"
+          }
+        }
+      },
+      {
+        "text": "It finds that Iraq was essentially free of militarily significant stocks by the mid-1990s, but that Saddam kept up an impression of possession, above all to deter Iran, which he saw as Iraq's abiding enemy.",
+        "cites": [
+          {
+            "id": "while-appears-iraq-mid-1990s-essentially",
+            "page": 34,
+            "href": "/reports/us-duelfer-report?p=while-appears-iraq-mid-1990s-essentially"
+          },
+          {
+            "id": "saddam-continued-see-utility-wmd",
+            "page": 9,
+            "href": "/reports/us-duelfer-report?p=saddam-continued-see-utility-wmd"
+          },
+          {
+            "id": "saddam-believed-wmd-necessary-counter",
+            "page": 29,
+            "href": "/reports/us-duelfer-report?p=saddam-believed-wmd-necessary-counter"
+          }
+        ],
+        "excerpt": {
+          "quote": "While it appears that Iraq, by the mid-1990s, was essentially free of militarily significant WMD stocks, Saddam’s perceived requirement to bluff about WMD capabilities made it too dangerous to clearly reveal this to the international community, especially Iran.",
+          "cite": {
+            "id": "while-appears-iraq-mid-1990s-essentially",
+            "page": 34,
+            "href": "/reports/us-duelfer-report?p=while-appears-iraq-mid-1990s-essentially&h=|While%20it%20appears%20that%20Iraq%2C%20by%20the%20mid-1990s%2C%20was%20essentially%20free%20of%20militarily%20significant%20WMD%20stocks%2C%20Saddam%E2%80%99s%20perceived%20requirement%20to%20bluff%20about%20WMD%20capabilities%20made%20it%20too%20dangerous%20to%20clearly%20reveal%20this%20to%20the%20international%20community%2C%20especially%20Iran.|%20Barring%20a%20direct"
+          }
+        }
+      },
+      {
+        "text": "It finds that Saddam intended to restart the programmes once sanctions were lifted, that those around him did not believe he had given them up for good, and that he told officials to keep Iraq's weapons scientists employed.",
+        "cites": [
+          {
+            "id": "many-former-iraqi-officials-close",
+            "page": 44,
+            "href": "/reports/us-duelfer-report?p=many-former-iraqi-officials-close"
+          },
+          {
+            "id": "saddam-wanted-recreate-iraq-s",
+            "page": 1,
+            "href": "/reports/us-duelfer-report?p=saddam-wanted-recreate-iraq-s"
+          },
+          {
+            "id": "from-evidence-available-through-actions",
+            "page": 9,
+            "href": "/reports/us-duelfer-report?p=from-evidence-available-through-actions"
+          }
+        ]
+      },
+      {
+        "text": "In the run-up to the 2003 war, the report finds, Saddam sent his own commanders mixed messages, first suggesting Iraq could use such weapons, then telling them it had none.",
+        "cites": [
+          {
+            "id": "senior-military-officers-former-regime",
+            "page": 65,
+            "href": "/reports/us-duelfer-report?p=senior-military-officers-former-regime"
+          },
+          {
+            "id": "president-bush-s-speech-un",
+            "page": 62,
+            "href": "/reports/us-duelfer-report?p=president-bush-s-speech-un"
+          }
+        ],
+        "excerpt": {
+          "quote": "Early on, Saddam sought to foster the impression with his generals that Iraq could resist a Coalition ground attack using WMD. Then, in a series of meetings in late 2002, Saddam appears to have reversed course and advised various groups of senior officers and officials that Iraq in fact did not have WMD.",
+          "cite": {
+            "id": "senior-military-officers-former-regime",
+            "page": 65,
+            "href": "/reports/us-duelfer-report?p=senior-military-officers-former-regime&h=Saddam%20sent%20mixed%20messages.%20|Early%20on%2C%20Saddam%20sought%20to%20foster%20the%20impression%20with%20his%20generals%20that%20Iraq%20could%20resist%20a%20Coalition%20ground%20attack%20usin%E2%8B%AF%20to%20have%20reversed%20course%20and%20advised%20various%20groups%20of%20senior%20officers%20and%20officials%20that%20Iraq%20in%20fact%20did%20not%20have%20WMD.|%20His%20admissions%20persuaded"
+          }
+        }
+      },
+      {
+        "text": "It estimates that the regime earned $11.3 billion in illicit hard currency between August 1990 and March 2003, most of it, about $8 billion, through trade protocols with neighbouring states, and that it used secret oil allocations under the UN's Oil-for-Food programme, every name approved by Saddam, to win support against sanctions.",
+        "cites": [
+          {
+            "id": "during-un-sanctions-iraq-from",
+            "page": 22,
+            "href": "/reports/us-duelfer-report?p=during-un-sanctions-iraq-from"
+          },
+          {
+            "id": "iraq-s-bilateral-trade-protocols",
+            "page": 24,
+            "href": "/reports/us-duelfer-report?p=iraq-s-bilateral-trade-protocols"
+          },
+          {
+            "id": "throughout-un-off-program-iraq",
+            "page": 28,
+            "href": "/reports/us-duelfer-report?p=throughout-un-off-program-iraq"
+          }
+        ]
+      },
+      {
+        "text": "It finds that this revenue funded a rebuilding of Iraq's military from 1997, peaking in 2001, including prohibited goods that crossed the borders with little difficulty.",
+        "cites": [
+          {
+            "id": "another-element-strategy-involved-circumventing",
+            "page": 3,
+            "href": "/reports/us-duelfer-report?p=another-element-strategy-involved-circumventing"
+          },
+          {
+            "id": "prohibited-goods-weapons-being-shipped",
+            "page": 11,
+            "href": "/reports/us-duelfer-report?p=prohibited-goods-weapons-being-shipped"
+          }
+        ]
+      },
+      {
+        "text": "The report leaves some questions open, among them reports that weapons material was moved out of Iraq before the war, and whether a mobile biological weapons capability existed.",
+        "cites": [
+          {
+            "id": "while-future-size-direction-iraq",
+            "page": 5,
+            "href": "/reports/us-duelfer-report?p=while-future-size-direction-iraq"
+          }
+        ]
+      }
+    ],
+    "readingGuide": [
+      {
+        "slug": "transmittal-message",
+        "title": "Transmittal Message",
+        "page": "1",
+        "why": "Duelfer's own argument for reading the weapons as part of Saddam's wider ambitions, and from Saddam's point of view.",
+        "excerpt": {
+          "quote": "The events surrounding Iraqi WMD have caused too much turmoil to be reduced to simple binary discussions of whether weapons existed at one moment in time versus another.",
+          "cite": {
+            "id": "readers-will-draw-their-own",
+            "page": 1,
+            "href": "/reports/us-duelfer-report?p=readers-will-draw-their-own&h=WMD%20on%20the%20ground%20in%202003.%20|The%20events%20surrounding%20Iraqi%20WMD%20have%20caused%20too%20much%20turmoil%20to%20be%20reduced%20to%20simple%20binary%20discussions%20of%20whether%20weapons%20existed%20at%20one%20moment%20in%20time%20versus%20another.|%20They%20deserve%20at%20least%20an"
+          }
+        }
+      },
+      {
+        "slug": "scope-note",
+        "title": "Scope Note",
+        "page": "1",
+        "why": "How the search was run, and what limited it, from looted sites to wary witnesses."
+      },
+      {
+        "slug": "regime-strategic-intent",
+        "title": "Regime Strategic Intent",
+        "page": "5",
+        "why": "The chapter's key judgments in two paragraphs, and how far the testimony of detained officials can be trusted."
+      },
+      {
+        "slug": "desire-dominance-and-deterrence-through-wmd",
+        "title": "Desire . . . Dominance and Deterrence Through WMD",
+        "page": "23",
+        "why": "Why Saddam wanted the weapons, why Iran mattered most, and why he would not admit he no longer had them."
+      },
+      {
+        "slug": "realizing-saddams-veiled-wmd-intent",
+        "title": "Realizing Saddam’s Veiled WMD Intent",
+        "page": "41",
+        "why": "From 1991 to the invasion, ending with the evidence on what Iraq held in 2003 and the debriefings of Saddam's ministers.",
+        "excerpt": {
+          "quote": "Huwaysh said he began to wonder whether Saddam had hidden something: “I knew a lot, but wondered why Bush believed that we had these weapons,” he said.",
+          "cite": {
+            "id": "president-bush-s-speech-un",
+            "page": 62,
+            "href": "/reports/us-duelfer-report?p=president-bush-s-speech-un&h=ministers%20were%20not%20as%20sure.%20|Huwaysh%20said%20he%20began%20to%20wonder%20whether%20Saddam%20had%20hidden%20something%3A%20%E2%80%9CI%20knew%20a%20lot%2C%20but%20wondered%20why%20Bush%20believed%20that%20we%20had%20these%20weapons%2C%E2%80%9D%20he%20said.|%20Huwaysh%20could%20not"
+          }
+        }
+      },
+      {
+        "slug": "regime-finance-and-procurement",
+        "title": "Regime Finance and Procurement",
+        "page": "100",
+        "why": "How the regime raised money outside the UN's control and used it to buy goods and influence."
+      }
+    ],
+    "hero": {
+      "src": "/assets/heroes/us-duelfer-report.webp",
+      "width": 1720,
+      "height": 1160,
+      "small": {
+        "src": "/assets/heroes/us-duelfer-report-1200.webp",
+        "width": 1200
+      },
+      "credit": "A suspected chemical weapons factory captured by US Marines at Ar Rustamiyah, Iraq, 8 April 2003 · Photo: Gunnery Sgt Erik S. Hansen, USMC, public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:A_captured_suspected_chemical_weapons_factory_in_Ar_Rustamiyah,_Iraq_during_Operation_IRAQI_FREEDOM_-_DPLA_-_41cce7748352e30fd089ca97da7ef3c4.jpeg",
+      "alt": "Laboratory-scale process equipment in a corrugated-metal shed: a drum mixer on a steel frame, an orange control cabinet, a laboratory oven and a round-doored pressure vessel on a wooden bench, with pumps underneath.",
+      "focus": "50% 38%"
+    }
+  },
   "us-ica-2017-russia-elections": {
     "status": "approved",
     "whyItMatters": "The declassified assessment by the CIA, the FBI and the NSA of Russian activities aimed at the 2016 US presidential election, published on 6 January 2017. It is the source of the judgments still argued over: that Vladimir Putin ordered the campaign, and that Russia preferred and aspired to help Donald Trump. Here are its exact words, including how confident each agency said it was, and the definitions of that language.",
