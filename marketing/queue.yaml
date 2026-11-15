@@ -1279,7 +1279,8 @@ items:
     link: https://reportsthatmatter.org/reports/uk-stern-review?p=from-all-these-perspectives-evidence&h=all%20of%20these%20perspectives%2C%20|the%20evidence%20gathered%20by%20the%20Review%20leads%20to%20a%20simple%20conclusion%3A%20the%20benefits%20of%20strong%2C%20early%20action%20considerably%20outweigh%20the%20costs.|&src=bsky
     card: assets/cards/uk-stern-review/q-efe00b69.png
     scheduled: 2026-11-15
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n2e5nt7lmf2i
+    posted_at: 2026-11-15T13:47:38.972Z
   - id: uk-stern-review:climate-change-presents-unique-challenge:8b7b5d6c
     report: uk-stern-review
     hook: In July 2005 Gordon Brown, then Chancellor, asked Nicholas Stern, head of
