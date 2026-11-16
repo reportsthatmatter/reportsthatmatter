@@ -1323,7 +1323,8 @@ items:
     link: https://reportsthatmatter.org/reports/uk-stern-review?p=impacts-climate-change-are-not&h=|The%20impacts%20of%20climate%20change%20are%20not%20evenly%20distributed%20-%20the%20poorest%20countries%20and%20people%20will%20suffer%20earliest%20and%20most.|%20And%20if%20and%20when%20the&src=bsky
     card: assets/cards/uk-stern-review/q-a685c9b5.png
     scheduled: 2026-11-16
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n2go4pvwxw2i
+    posted_at: 2026-11-16T13:47:38.198Z
   - id: uk-stern-review:there-still-time-avoid-worst:f6545091
     report: uk-stern-review
     hook: Published 20 years ago this autumn, the Stern Review closed its summary
