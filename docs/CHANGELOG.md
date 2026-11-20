@@ -7,6 +7,14 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-20 — Every paragraph as a dataset
+
+The new [/data](/data) page offers one row per paragraph across all 24 reports (64,618 rows) as gzipped CSV and JSONL, about 12 MB each, with a `licences.json` and each report's licence statement on the page. Hillsborough and Lehman are included, with honest statements about their status (no open licence found; copyright not established). A Hugging Face copy, without those two, is to follow.
+
+![The /data page](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-20-data-page/data-page.png)
+
+---
+
 ## 2026-11-14 — Duelfer plate without the emblem; "Saddam Hussein" in our own text
 
 The Duelfer Report's plate was an Iraqi Intelligence Service emblem, which breaks the house rule of no seals, crests or logos. It is now a crop of the report's own text (the Director's closing paragraph, PDF p.5), and the share cards carry it. The introduction and the post hooks now say "Saddam Hussein", with a note that the report spells it Husayn; quotations are unchanged.
