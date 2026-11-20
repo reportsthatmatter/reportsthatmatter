@@ -21,7 +21,7 @@ const sizeCategory = (n: number) =>
 
 const esc = (s: string) => s.replace(/\|/g, "\\|");
 
-export function datasetCard(reports: ReportSummary[], date: string): string {
+export function datasetCard(reports: ReportSummary[], date: string, excluded: ReportSummary[] = []): string {
   const total = reports.reduce((n, r) => n + r.rows, 0);
   const year = date.slice(0, 4);
   const unconfirmed = reports.filter((r) => UNCONFIRMED_KINDS.includes(r.kind));
@@ -77,6 +77,12 @@ ${
     ? `**Not everything here is under an open licence.** ${unconfirmed
         .map((r) => `*${r.title}* (${LICENCE_LABELS[r.kind].toLowerCase()})`)
         .join(" and ")}. We include them as public-interest documents with their sources named, we do not call them public domain or openly licensed, and rights holders can ask us to remove them (contact@reportsthatmatter.org). If you need a dataset that is clean to reuse, filter on \`licence_status\` and leave those out.\n`
+    : ""
+}${
+  excluded.length
+    ? `**Not in this upload:** ${excluded
+        .map((r) => `*${r.title}* (${LICENCE_LABELS[r.kind].toLowerCase()})`)
+        .join(" and ")}. Their text status is not settled, so they are left out here. The site serves them, and the files at <https://reportsthatmatter.org/data> include them with their statements.\n`
     : ""
 }
 | Report | Paragraphs | Licence of the report's text |

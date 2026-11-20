@@ -120,4 +120,14 @@ describe("the Hugging Face card", () => {
     expect(card).toContain("@misc{reportsthatmatter_paragraphs_2026");
     expect(card).toContain("https://reportsthatmatter.org");
   });
+
+  it("names the reports left out of the upload, and does not list them as included", () => {
+    const unsettled = summaries.filter((s) => UNCONFIRMED_KINDS.includes(s.kind));
+    const settled = summaries.filter((s) => !UNCONFIRMED_KINDS.includes(s.kind));
+    const upload = datasetCard(settled, "2026-11-20", unsettled);
+    expect(unsettled.length).toBeGreaterThan(0);
+    expect(upload).toMatch(/Not in this upload/);
+    expect(upload).not.toMatch(/Not everything here is under an open licence/);
+    for (const r of unsettled) expect(upload).not.toContain(`(\`${r.id}\`)`);
+  });
 });

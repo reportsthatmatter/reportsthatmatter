@@ -10,7 +10,8 @@
  *                            (scripts/deploy-cloudflare.sh does). The files are gzipped because a Workers static asset
  *                            may not exceed 25 MiB.
  *   build/dataset/hf/        the folder to upload to Hugging Face: README.md (the dataset card), data/train.jsonl,
- *                            licences.json. Nothing is uploaded here; see docs/dataset.md for the command.
+ *                            licences.json. It leaves out reports whose text status is not settled (UNCONFIRMED_KINDS:
+ *                            Hillsborough, Lehman); /data serves them with their statements. Nothing is uploaded here; see docs/dataset.md for the command.
  *
  * Parquet is not written (no Parquet writer in this repo's dependencies); Hugging Face converts the JSONL itself.
  */
@@ -22,7 +23,7 @@ import { createHash } from "node:crypto";
 import { assertFresh } from "./prerender-stamp.mjs";
 import { csvHeader, csvLine, jsonlLine, liveReports, reportRows } from "./lib/dataset.ts";
 import { datasetCard } from "./lib/dataset-card.ts";
-import { LICENCE_LABELS } from "../src/lib/dataset-licences.ts";
+import { LICENCE_LABELS, UNCONFIRMED_KINDS } from "../src/lib/dataset-licences.ts";
 
 const root = join(import.meta.dirname, "..");
 assertFresh("dataset");
@@ -30,12 +31,15 @@ assertFresh("dataset");
 const reports = liveReports(root);
 let csv = csvHeader();
 let jsonl = "";
+// Hugging Face gets only the reports whose text status is settled; /data keeps all of them, with the statements.
+let hfJsonl = "";
 const summaries = [];
 for (const report of reports) {
   const rows = reportRows(root, report);
   for (const row of rows) {
     csv += csvLine(row);
     jsonl += jsonlLine(row);
+    if (!UNCONFIRMED_KINDS.includes(report.text_status.kind)) hfJsonl += jsonlLine(row);
   }
   summaries.push({
     id: report.id,
@@ -93,10 +97,11 @@ writeFileSync(join(dataDir, "manifest.json"), JSON.stringify(manifest, null, 2) 
 const hfDir = join(root, "build/dataset/hf");
 rmSync(hfDir, { recursive: true, force: true });
 mkdirSync(join(hfDir, "data"), { recursive: true });
-writeFileSync(join(hfDir, "data/train.jsonl"), jsonl);
-writeFileSync(join(hfDir, "licences.json"), licencesJson);
+writeFileSync(join(hfDir, "data/train.jsonl"), hfJsonl);
+const unsettled = (kind) => UNCONFIRMED_KINDS.includes(kind);
+writeFileSync(join(hfDir, "licences.json"), JSON.stringify(licences.filter((l) => !unsettled(l.licence_status)), null, 2) + "\n");
 const date = new Date().toISOString().slice(0, 10);
-writeFileSync(join(hfDir, "README.md"), datasetCard(summaries, date));
+writeFileSync(join(hfDir, "README.md"), datasetCard(summaries.filter((s) => !unsettled(s.kind)), date, summaries.filter((s) => unsettled(s.kind))));
 
 console.log(`${total.toLocaleString()} rows from ${summaries.length} reports`);
 for (const s of summaries) console.log(`  ${s.rows.toString().padStart(7)}  ${s.id}`);
