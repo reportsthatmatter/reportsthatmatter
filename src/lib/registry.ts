@@ -29,6 +29,13 @@ export type ReportRegistry = {
     /** The report's own licence, only where a repository or processing note records one. */
     license?: { name: string; url: string };
     /**
+     * The status of the report's text at source, for the per-paragraph dataset and its download page (decision 0024,
+     * reportsthatmatter-9uog). Required of every report (tests/dataset.test.ts). `kind` picks the one-line label in
+     * `src/lib/dataset-licences.ts`; `statement` is the honest sentence. It never says more than the report repo's LICENSE:
+     * Lehman is `not-established` and Hillsborough `not-open`, and neither is called public domain or openly licensed.
+     */
+    text_status?: { kind: string; statement: string };
+    /**
      * A report in several volumes whose printed folios restart in each (Grenfell "p. 28" is in all seven): how many, and
      * the numerals the report prints them in ("Volume I" roman, "Volume 1" arabic). Post attributions then name the volume
      * ("Vol. I, p. 91"); `volumeOf` (src/lib/editorial.ts) reads a paragraph's volume from the restarts (reportsthatmatter-s5jm).

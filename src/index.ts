@@ -10,6 +10,7 @@ import { renderBlogIndex, renderPostPage, renderAtomFeed } from "./templates/blo
 import { renderIndex, renderReportsIndex } from "./templates/index";
 import { renderReport, renderReportPreviewOnly, extractParagraph, quotedPassage, type ReportMeta } from "./templates/report";
 import { renderAbout } from "./templates/about";
+import { renderData, DATASET_FILES, type DatasetManifest } from "./templates/data";
 import { renderProcessing } from "./templates/processing";
 import { renderPress } from "./templates/press";
 import { renderNotFound } from "./templates/not-found";
@@ -332,6 +333,32 @@ app.get("/about", (c) => c.html(renderAbout()));
 app.get("/press", (c) => c.html(renderPress()));
 
 /**
+ * The per-paragraph dataset (decision 0029, reportsthatmatter-9uog): /data is the one stable download page, and
+ * /data/<file> serves the files `pnpm dataset` writes to assets/generated/data/ (not committed; a deploy runs it).
+ * Only the files the page lists are served.
+ */
+app.get("/data", async (c) => {
+  const registry = await loadRegistry(c.env?.REPORTS_SOURCE ?? process.env.REPORTS_SOURCE);
+  const response = await openGenerated(c.env?.ASSETS, "data/manifest.json");
+  const manifest: DatasetManifest | null = response ? await response.json() : null;
+  return c.html(renderData(registry, manifest));
+});
+app.get("/data/:file", async (c) => {
+  const name = c.req.param("file");
+  if (!DATASET_FILES.some((f) => f.name === name)) return c.notFound();
+  const response = await openGenerated(c.env?.ASSETS, `data/${name}`);
+  if (!response) return c.notFound();
+  const type = name.endsWith(".json") ? "application/json; charset=utf-8" : "application/gzip";
+  return new Response(response.body, {
+    headers: {
+      "content-type": type,
+      "content-disposition": `attachment; filename="${name}"`,
+      "cache-control": "public, max-age=3600",
+    },
+  });
+});
+
+/**
  * What readers are highlighting (decision 0023, bght.10.3): the newest public_marks rows (a bounded rowid read,
  * src/lib/feed.ts) and the Editor's picks (generated, no D1). Edge-cached for 5 minutes, keyed on the deploy, so
  * D1 is read at most once per data centre per 5 minutes. A missing table or a D1 failure renders the picks alone.
@@ -410,6 +437,7 @@ app.get("/sitemap.xml", async (c) => {
     // What readers are highlighting (bght.10.3): public and indexed. /highlights/yours is per-browser and noindex.
     { loc: "/highlights", priority: "0.6" },
     { loc: "/press", priority: "0.3" },
+    { loc: "/data", priority: "0.5" },
     { loc: "/changelog", priority: "0.4" },
     { loc: "/blog", priority: "0.5" },
     { loc: "/newsletter", priority: "0.4" },

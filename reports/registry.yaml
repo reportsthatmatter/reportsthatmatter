@@ -9,6 +9,7 @@ reports:
     date_published: "1986-10"
     repo: challenger-accident
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: a US congressional report (H. Rept. 99-1016) printed by the Government Publishing Office, a work of the US government (17 U.S.C. § 105). One reprinted ASTM table carries its own copyright notice."}
     source_path: reports/challenger-accident/full.md
     source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
     ingested: true
@@ -24,6 +25,7 @@ reports:
     date_published: "2025-01"
     repo: jack-smith-report
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: written and published by the US Department of Justice, a work of the US government (17 U.S.C. § 105). The PDF carries no copyright notice."}
     source_path: reports/jack-smith-vol1/full.md
     source_url: "https://www.justice.gov/storage/Report-of-Special-Counsel-Smith-Volume-1-January-2025.pdf"
     ingested: true
@@ -39,6 +41,7 @@ reports:
     date_published: "2011-04-13"
     repo: us-psi-financial-crisis
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: written by US Senate staff and published by the Senate and the Government Publishing Office, a work of the US government (17 U.S.C. § 105). Third-party material the report reproduces is not covered."}
     source_path: reports/us-psi-financial-crisis/full.md
     source_url: "https://www.hsgac.senate.gov/subcommittees/investigations/reports?c=112"
     ingested: true
@@ -53,6 +56,7 @@ reports:
     date_published: "2016-01-21"
     repo: uk-litvinenko-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright, published under the Open Government Licence v3.0 (the report's imprint: © Crown copyright 2016). Third-party material the report identifies is excluded."}
     source_path: reports/litvinenko-inquiry/full.md
     source_url: "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/493860/The-Litvinenko-Inquiry-H-C-695-web.pdf"
     ingested: true
@@ -68,6 +72,7 @@ reports:
     date_published: "2012-11-29"
     repo: uk-leveson-inquiry
     license: {name: "Open Government Licence", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl-unversioned, statement: "Crown copyright, reusable under the Open Government Licence; the 2012 imprint does not state a version. Third-party copyright information the report identifies is excluded."}
     source_path: reports/uk-leveson-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/20140122145147/http://www.official-documents.gov.uk/document/hc1213/hc07/0780/0780.asp"
     ingested: true
@@ -82,6 +87,7 @@ reports:
     date_published: "2003-08"
     repo: us-columbia-shuttle-accident
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government-assumed, statement: "Treated as a work of the US government (public domain); not confirmed. The report was produced by a board chartered by NASA and carries no copyright notice, but some Board members were not federal employees and no document we found states its status. Third-party photographs and credits are not covered."}
     source_path: reports/columbia-accident/full.md
     source_url: "https://www.nasa.gov/wp-content/uploads/2025/04/caib-report.pdf"
     ingested: true
@@ -97,6 +103,7 @@ reports:
     date_published: "2004-07-22"
     repo: us-911-commission
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government-assumed, statement: "Treated as a work of the US government (public domain); not confirmed. A federal commission created by Act of Congress, printed by the Government Publishing Office, no copyright notice, but no statement of its status in terms. Third-party photographs are not covered."}
     source_path: reports/us-911-commission/full.md
     source_url: "https://www.9-11commission.gov/report/911Report.pdf"
     ingested: true
@@ -112,6 +119,7 @@ reports:
     date_published: "2011-01"
     repo: us-deepwater-horizon
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: public-domain-notice, statement: "Public domain except as noted, by the report's own notice (\"Except as noted herein, materials contained in this report are in the public domain\"). Illustrations, photographs and other information contributed by others may carry their own copyright."}
     source_path: reports/us-deepwater-horizon/full.md
     source_url: "https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf"
     ingested: true
@@ -127,6 +135,7 @@ reports:
     date_published: "2006-08-17"
     repo: us-v-philip-morris
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: the opinion of a federal judge (D.D.C., 2006), a work of the US government (17 U.S.C. § 105); court opinions are in any case not copyrightable. Material it quotes from others is not covered."}
     source_path: reports/us-v-philip-morris/full.md
     source_url: "https://www.justice.gov/sites/default/files/civil/legacy/2014/09/11/amended%20opinion_0.pdf"
     ingested: true
@@ -140,6 +149,7 @@ reports:
     issued_by: "Hillsborough Independent Panel"
     date_published: "2012-09-12"
     repo: uk-hillsborough-panel
+    text_status: {kind: not-open, statement: "Not under an open licence we can find. The report's imprint reserves all intellectual property rights to the Hillsborough Independent Panel, and the Panel's website terms offer the Open Government Licence only for Crown-copyright material. We have not asked for, and do not hold, the permission the imprint asks for (reportsthatmatter-9kn4: a question to the Home Office is pending). Served as a public-interest document with its source named; do not treat as openly licensed. Rights holders can ask for removal."}
     source_path: reports/uk-hillsborough-panel/full.md
     source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
     ingested: true
@@ -156,6 +166,7 @@ reports:
     date_published: "2010-06-15"
     repo: uk-saville-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl-via-govuk, statement: "Crown copyright. The imprint of Volume I allows the original content to be reproduced free of charge in any format or medium provided it is used accurately and not in a misleading context, with the source title and copyright acknowledged; the registry records the Open Government Licence v3.0 as published on GOV.UK. Third-party quotations are not covered."}
     source_path: reports/uk-saville-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/5a7b7c8ced915d131105f8f4/0029_i.pdf"
     ingested: true
@@ -171,6 +182,7 @@ reports:
     date_published: "2016-07-06"
     repo: uk-chilcot-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright, published under the Open Government Licence v3.0 (the report's imprint: © Crown copyright 2016). Third-party material the report identifies is excluded."}
     source_path: reports/uk-chilcot-inquiry/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20171123123237mp_/http://www.iraqinquiry.org.uk/media/246416/the-report-of-the-iraq-inquiry_executive-summary.pdf"
     ingested: true
@@ -185,6 +197,7 @@ reports:
     issued_by: "Anton R. Valukas, Examiner (Jenner & Block LLP), U.S. Bankruptcy Court, S.D.N.Y."
     date_published: "2010-03-11"
     repo: us-lehman-examiner
+    text_status: {kind: not-established, statement: "Copyright not established; not claimed to be public domain. A report filed in a US bankruptcy court by a court-appointed examiner and his law firm (Jenner & Block), who were not federal employees, so it may not be a US government work. It is a public court record that Jenner & Block publishes openly; we took it from there (reportsthatmatter-hx7j is an open question to the firm). Rights holders can ask for removal."}
     source_path: reports/us-lehman-examiner/full.md
     source_url: "https://www.jenner.com/en/news-insights/news/lehman-brothers-holdings-inc-chapter-11-proceedings-examiner-s-report"
     ingested: true
@@ -199,6 +212,7 @@ reports:
     date_published: "2025-07-08"
     repo: uk-post-office-horizon-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright, published under the Open Government Licence v3.0 (the report's imprint: © Crown copyright 2025). Third-party material the report identifies is excluded."}
     source_path: reports/uk-post-office-horizon-inquiry/full.md
     source_url: "https://www.postofficehorizoninquiry.org.uk/sites/default/files/2025-07/Post%20Office%20Horizon%20IT%20Inquiry%20Final%20Report%20Volume%201_0.pdf"
     affected_community: true
@@ -213,6 +227,7 @@ reports:
     date_published: "2022-12-22"
     repo: us-jan6-committee
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: a congressional report (H. Rept. 117-663) printed by the Government Publishing Office, a work of the US government (17 U.S.C. § 105). Third-party photograph credits are not covered (text only is served)."}
     source_path: reports/us-jan6-committee/full.md
     source_url: "https://www.govinfo.gov/app/details/GPO-J6-REPORT"
     ingested: true
@@ -228,6 +243,7 @@ reports:
     date_published: "2024-09-04"
     repo: uk-grenfell-tower-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright, published under the Open Government Licence v3.0 (the report's imprint: © Crown copyright 2024). Third-party material the report identifies is excluded."}
     source_path: reports/uk-grenfell-tower-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/66d817aa701781e1b341dbd3/CCS0923434692-004_GTI_Phase_2_Volume_1_BOOKMARKED.pdf"
     ingested: true
@@ -245,6 +261,7 @@ reports:
     date_published: "2014-12-09"
     repo: us-senate-cia-torture-report
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: a congressional report (S. Rept. 113-288) published by the Government Publishing Office, a work of the US government (17 U.S.C. § 105). Third-party material is not covered."}
     source_path: reports/us-senate-cia-torture-report/full.md
     source_url: "https://www.govinfo.gov/content/pkg/CRPT-113srpt288/pdf/CRPT-113srpt288.pdf"
     affected_community: true
@@ -258,6 +275,7 @@ reports:
     date_published: "2019-03"
     repo: us-mueller-report
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: written and published by the Special Counsel's Office of the US Department of Justice, a work of the US government (17 U.S.C. § 105). Third-party material is not covered."}
     source_path: reports/us-mueller-report/full.md
     source_url: "https://www.justice.gov/storage/report_volume1.pdf"
     volumes: {count: 2, numerals: roman}
@@ -273,6 +291,7 @@ reports:
     date_published: "2025-11-20"
     repo: uk-covid-inquiry-module-2
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright, published under the Open Government Licence v3.0 (the report's imprint: © Crown copyright 2025). Third-party material the report identifies is excluded."}
     source_path: reports/uk-covid-inquiry-module-2/full.md
     source_url: "https://covid19.public-inquiry.uk/wp-content/uploads/2026/02/12093057/M2-Volume-1-with-post-publication-amends-Feb-2026.pdf"
     ingested: true
@@ -289,6 +308,7 @@ reports:
     date_published: "2026-04-13"
     repo: uk-southport-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright, published under the Open Government Licence v3.0 (the report's imprint). Third-party material the report identifies is excluded."}
     source_path: reports/uk-southport-inquiry/full.md
     source_url: "https://assets.publishing.service.gov.uk/media/6a61eef4abcde513b38b6d95/31.236_HO_Southport_Inquiry_Volume1_WEB_v2__1_.pdf"
     ingested: true
@@ -304,6 +324,7 @@ reports:
     date_published: "2017-01-06"
     repo: us-ica-2017-russia-elections
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: an assessment by US intelligence agencies (ODNI, CIA, FBI, NSA), a work of the US government (17 U.S.C. § 105), as recorded in the registry; this report's repository has no LICENSE statement yet. Third-party material is not covered."}
     source_path: reports/us-ica-2017-russia-elections/full.md
     source_url: "https://www.dni.gov/files/documents/ICA_2017_01.pdf"
     ingested: true
@@ -318,6 +339,7 @@ reports:
     date_published: "2026-09-15"
     repo: uk-thirlwall-inquiry
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright, published under the Open Government Licence v3.0 (the report's imprint: © Crown copyright 2026). Third-party material the report identifies is excluded."}
     source_path: reports/uk-thirlwall-inquiry/full.md
     source_url: "https://thirlwall.public-inquiry.uk/the-report/"
     ingested: true
@@ -334,6 +356,7 @@ reports:
     date_published: "2006-10-30"
     repo: uk-stern-review
     license: {name: "Open Government Licence v3.0", url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"}
+    text_status: {kind: ogl, statement: "Crown copyright (HM Treasury, 2006). The PDFs print no copyright line; material available under the old Click-Use licence can now be reused under the Open Government Licence v3.0, per the National Archives. Third-party data and figures are not covered."}
     source_path: reports/uk-stern-review/full.md
     source_url: "https://webarchive.nationalarchives.gov.uk/ukgwa/20100407172811/http://www.hm-treasury.gov.uk/stern_review_report.htm"
     ingested: true
@@ -348,6 +371,7 @@ reports:
     date_published: "2004-09-30"
     repo: us-duelfer-report
     license: {name: "Public domain (US federal government work)", url: "https://creativecommons.org/publicdomain/mark/1.0/"}
+    text_status: {kind: us-government, statement: "Public domain: the Iraq Survey Group's report to the Director of Central Intelligence, published by the Government Publishing Office, a work of the US government (17 U.S.C. § 105), as recorded in the registry; this report's repository has no LICENSE statement yet. Third-party material is not covered."}
     source_path: reports/us-duelfer-report/full.md
     source_url: "https://www.govinfo.gov/content/pkg/GPO-DUELFERREPORT/pdf/GPO-DUELFERREPORT-1.pdf"
     ingested: true

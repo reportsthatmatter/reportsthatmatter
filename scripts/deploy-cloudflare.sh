@@ -33,6 +33,10 @@ fi
 echo "Pre-rendering reports..."
 pnpm prerender
 
+# The per-paragraph dataset /data serves is built from that pre-render, also not committed (9uog).
+echo "Building the per-paragraph dataset..."
+pnpm dataset
+
 echo "Deploying Worker..."
 pnpm wrangler deploy "${ACCOUNT_ARGS[@]}"
 
