@@ -72,6 +72,16 @@ const manifest = {
   reports: summaries.map((s) => ({ id: s.id, rows: s.rows })),
   files: {},
 };
+// Workers refuses a static asset over 25 MiB, which would fail the whole deploy at `wrangler deploy`. Say so here,
+// before the upload, and warn while there is still room to split the files (by report) first.
+const ASSET_LIMIT = 25 * 1024 * 1024;
+for (const [name, buf] of Object.entries(files)) {
+  if (buf.length > ASSET_LIMIT) {
+    console.error(`dataset: ${name} is ${(buf.length / 2 ** 20).toFixed(1)} MiB, over the 25 MiB Workers asset limit; split the files before deploying`);
+    process.exit(1);
+  }
+  if (buf.length > 0.8 * ASSET_LIMIT) console.warn(`dataset: warning: ${name} is ${(buf.length / 2 ** 20).toFixed(1)} MiB, near the 25 MiB Workers asset limit`);
+}
 for (const [name, buf] of Object.entries(files)) {
   writeFileSync(join(dataDir, name), buf);
   manifest.files[name] = { bytes: buf.length, sha256: createHash("sha256").update(buf).digest("hex") };

@@ -29,7 +29,7 @@ export const DATASET_COLUMNS: Array<[string, string]> = [
   ["licence, licence_status", "the status of the report's text, as a label and as a machine-readable kind"],
 ];
 
-const mb = (bytes: number) => `${(bytes / 1e6).toFixed(1)} MB`;
+const mb = (bytes: number) => (bytes < 100_000 ? `${Math.ceil(bytes / 1e3)} KB` : `${(bytes / 1e6).toFixed(1)} MB`);
 
 /**
  * /data: the one stable place to download the per-paragraph dataset (decision 0029, reportsthatmatter-9uog), with the
