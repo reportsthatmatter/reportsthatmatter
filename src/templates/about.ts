@@ -111,7 +111,8 @@ export function renderAbout(): string {
       are neither, or we could not confirm their status, and we say so. Our own markup and editorial writing are
       <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The exact terms, with the evidence
       and anything we could not confirm, are in the LICENSE file of each
-      <a href="https://github.com/reportsthatmatter">report's repository</a>.</p>
+      <a href="https://github.com/reportsthatmatter">report's repository</a>. The <a href="/data">dataset of every paragraph</a> carries the same statement for
+      each report.</p>
     </div>
   </section>
 
