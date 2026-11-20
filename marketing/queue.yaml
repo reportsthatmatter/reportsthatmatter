@@ -1347,7 +1347,8 @@ items:
     link: https://reportsthatmatter.org/reports/uk-stern-review?p=there-still-time-avoid-worst&h=|There%20is%20still%20time%20to%20avoid%20the%20worst%20impacts%20of%20climate%20change%20if%20strong%20collective%20action%20starts%20now.|&src=bsky
     card: assets/cards/uk-stern-review/q-345967f7.png
     scheduled: 2026-11-20
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n2qpygi7l222
+    posted_at: 2026-11-20T13:47:38.746Z
   - id: uk-stern-review:important-corollary-there-high-price:c5f035f4
     report: uk-stern-review
     hook: 'Greenhouse gases stood at around 430ppm of CO2-equivalent in 2006, the
