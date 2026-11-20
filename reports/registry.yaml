@@ -149,7 +149,7 @@ reports:
     issued_by: "Hillsborough Independent Panel"
     date_published: "2012-09-12"
     repo: uk-hillsborough-panel
-    text_status: {kind: not-open, statement: "Not under an open licence we can find. The report's imprint reserves all intellectual property rights to the Hillsborough Independent Panel, and the Panel's website terms offer the Open Government Licence only for Crown-copyright material. We have not asked for, and do not hold, the permission the imprint asks for (reportsthatmatter-9kn4: a question to the Home Office is pending). Served as a public-interest document with its source named; do not treat as openly licensed. Rights holders can ask for removal."}
+    text_status: {kind: not-open, statement: "Not under an open licence we can find. The report's imprint reserves all intellectual property rights to the Hillsborough Independent Panel, and the Panel's website terms offer the Open Government Licence only for Crown-copyright material. We have not asked for, and do not hold, the permission the imprint asks for (reportsthatmatter-9kn4: we decided to keep serving it without asking). Served as a public-interest document with its source named; do not treat as openly licensed. Rights holders can ask for removal."}
     source_path: reports/uk-hillsborough-panel/full.md
     source_url: "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/229038/0581.pdf"
     ingested: true
