@@ -12,7 +12,7 @@ pnpm dataset
 `pnpm dataset` writes, all build output and not committed:
 
 - `assets/generated/data/`: `reportsthatmatter-paragraphs.csv.gz`, `reportsthatmatter-paragraphs.jsonl.gz`, `licences.json`, `manifest.json`. `/data` (the one stable download page) and `/data/<file>` serve them. They are gzipped because a Workers static asset may not exceed 25 MiB. `scripts/deploy-cloudflare.sh` runs it after `pnpm prerender`; a deploy without it leaves the file links on `/data` returning 404.
-- `build/dataset/hf/`: the folder to upload to Hugging Face (`README.md` card, `data/train.jsonl`, `licences.json`).
+- `build/dataset/hf/`: the folder to upload to Hugging Face (`README.md` card, `data/train.jsonl`, `licences.json`). It leaves out the reports whose text status is not settled (Hillsborough, Lehman; decided 2026-11-20); `/data` keeps them with their statements.
 
 `docs/dataset/hf-card.md` is a reviewable snapshot of the card from the PR that added this; the real one is regenerated with the counts each time.
 
