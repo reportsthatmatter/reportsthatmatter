@@ -48,12 +48,16 @@ What changed is that the work a funded team was needed for can now be done by on
 
 ## What is there
 
-There are 24 reports, from the UK and the US, published between 1986 and 2026. In date order: the House Science Committee's Challenger report (1986); the Columbia Accident Investigation Board (2003); the 9/11 Commission (2004); the Duelfer report on Iraq's weapons programmes (2004); *United States v. Philip Morris* (2006); the Stern Review on the economics of climate change (2006); the Lehman Brothers examiner's report (2010); the Saville Inquiry into Bloody Sunday (2010); the Deepwater Horizon commission (2011); the Senate's financial-crisis report (2011); the Hillsborough Independent Panel (2012); Leveson (2012); the Senate torture report (2014); the Litvinenko Inquiry (2016); Chilcot (2016); the 2017 Intelligence Community Assessment of Russian election interference; Mueller (2019); the January 6th Committee (2022); Grenfell Phase 2 (2024); Jack Smith (2025); the Post Office Horizon IT Inquiry (2025); the Covid Inquiry's Module 2 report (2025); the Southport Inquiry's Phase 1 report (2026); and the Thirlwall Inquiry into the Countess of Chester Hospital (2026).
+There are 24 reports so far, from the UK and the US, published between 1986 and 2026, from Challenger to Thirlwall. The full list is at the end, and [all of them are here](/reports).
 
-Some are not whole yet, and each says so at the top. Chilcot is the executive summary; Lehman is Volumes 1 and 3; Saville, Columbia and Duelfer are Volume I; Jack Smith, Southport and the Post Office are Volume 1. The torture report is the declassified summary and findings; the full study of more than 6,700 pages is still classified.
-
-Next are the later volumes of those, and whichever reports people keep asking for. If there is one you need, write to contact@reportsthatmatter.org. The [Bluesky account](https://bsky.app/profile/reportsthatmatter.org) posts one passage a day, verbatim, with its page and its link, and once a month the [newsletter](/newsletter) gathers a few passages from the archive on one subject.
+Next are the later volumes of the reports that are only partly here, and whichever reports people keep asking for. If there is one you need, write to contact@reportsthatmatter.org. The [Bluesky account](https://bsky.app/profile/reportsthatmatter.org) posts one passage a day, verbatim, with its page and its link, and once a month the [newsletter](/newsletter) gathers a few passages from the archive on one subject.
 
 https://reportsthatmatter.org
 
 — Rufus Pollock
+
+## Appendix: the reports
+
+In date order: the House Science Committee's Challenger report (1986); the Columbia Accident Investigation Board (2003); the 9/11 Commission (2004); the Duelfer report on Iraq's weapons programmes (2004); *United States v. Philip Morris* (2006); the Stern Review on the economics of climate change (2006); the Lehman Brothers examiner's report (2010); the Saville Inquiry into Bloody Sunday (2010); the Deepwater Horizon commission (2011); the Senate's financial-crisis report (2011); the Hillsborough Independent Panel (2012); Leveson (2012); the Senate torture report (2014); the Litvinenko Inquiry (2016); Chilcot (2016); the 2017 Intelligence Community Assessment of Russian election interference; Mueller (2019); the January 6th Committee (2022); Grenfell Phase 2 (2024); Jack Smith (2025); the Post Office Horizon IT Inquiry (2025); the Covid Inquiry's Module 2 report (2025); the Southport Inquiry's Phase 1 report (2026); and the Thirlwall Inquiry into the Countess of Chester Hospital (2026).
+
+Some are not whole yet, and each says so at the top. Chilcot is the executive summary; Lehman is Volumes 1 and 3; Saville, Columbia and Duelfer are Volume I; Jack Smith, Southport and the Post Office are Volume 1. The torture report is the declassified summary and findings; the full study of more than 6,700 pages is still classified.
