@@ -4,6 +4,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "blog/getting-the-text-right",
   "blog/one-file-per-report",
   "blog/public-reports-link-to-the-sentence",
+  "blog/reports-that-matter-is-online",
   "blog/where-better-source-texts-come-from",
   "blog/why-reports-that-matter",
   "challenger-accident/default",
