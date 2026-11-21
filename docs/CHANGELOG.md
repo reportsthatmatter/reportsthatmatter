@@ -7,6 +7,14 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-21 — Every report's full text as Markdown, on GitHub
+
+Each report's landing page now links its full text as a single Markdown file on GitHub ("Full text as Markdown (GitHub)"), next to the link to the original document, for anyone who wants to read it raw, copy it or reuse it. The [/data](/data) page links the same file for each report.
+
+![A report landing page with the new link](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-21-markdown-link/leveson-landing.png)
+
+---
+
 ## 2026-11-20 — Every paragraph as a dataset
 
 The new [/data](/data) page offers one row per paragraph across all 24 reports (64,618 rows) as gzipped CSV and JSONL, about 12 MB each, with a `licences.json` and each report's licence statement on the page. Hillsborough and Lehman are included, with honest statements about their status (no open licence found; copyright not established). A Hugging Face copy, without those two, is to follow.

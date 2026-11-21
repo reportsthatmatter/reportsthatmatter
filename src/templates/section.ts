@@ -2,7 +2,7 @@ import { renderLayout, escapeHtml } from "./layout";
 import type { Section } from "@rtm/ingest";
 import type { ReportMeta } from "./report";
 import { HEAVY_FULL_WORDS } from "../lib/preview-agents";
-import { quotedPassage, truncate, capDescription, firstSentence, quoteDescription, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear, sourceAttributes } from "./report";
+import { quotedPassage, truncate, capDescription, firstSentence, quoteDescription, shareImage, shareImageAlt, sharedUrl, frontispiece, publicationYear, sourceAttributes, markdownLink } from "./report";
 import { SITE_ORIGIN } from "./site";
 import { reportJsonLd, sectionJsonLd, citationMeta } from "../lib/structured-data";
 import { reportTitle, sectionTitle } from "../lib/titles";
@@ -130,6 +130,7 @@ export function renderReportOverview(
             ? `<p class="byline mono"><a href="${escapeHtml(meta.source_url)}" rel="nofollow">Original document ↗</a></p>`
             : ""
         }
+        ${markdownLink(meta) ? `<p class="byline mono">${markdownLink(meta)}</p>` : ""}
         ${
           options.processingNotes
             ? `<p class="byline mono"><a href="/reports/${escapeHtml(meta.id ?? "")}/processing">About this edition →</a></p>`
@@ -196,6 +197,7 @@ export function renderReportOverview(
 function sectionSourceLine(meta: ReportMeta, processingNotes = false): string {
   const links = [
     meta.source_url ? `<a href="${escapeHtml(meta.source_url)}" rel="nofollow">Original document ↗</a>` : "",
+    markdownLink(meta),
     processingNotes ? `<a href="/reports/${escapeHtml(meta.id ?? "")}/processing">About this edition →</a>` : "",
   ].filter(Boolean);
   return links.length ? `<p class="byline mono">${links.join(" · ")}</p>` : "";

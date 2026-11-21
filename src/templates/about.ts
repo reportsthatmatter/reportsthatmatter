@@ -112,7 +112,7 @@ export function renderAbout(): string {
       <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The exact terms, with the evidence
       and anything we could not confirm, are in the LICENSE file of each
       <a href="https://github.com/reportsthatmatter">report's repository</a>. The <a href="/data">dataset of every paragraph</a> carries the same statement for
-      each report.</p>
+      each report. Each report's landing page also links its full text as Markdown on GitHub, to read, copy or reuse.</p>
     </div>
   </section>
 

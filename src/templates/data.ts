@@ -1,3 +1,4 @@
+import { markdownUrl } from "./report";
 import { SITE_ORIGIN, CONTACT_EMAIL, TEXT_DEFECT_ISSUE_URL } from "./site";
 import { renderLayout, escapeHtml } from "./layout";
 import type { ReportRegistry } from "../lib/registry";
@@ -52,7 +53,7 @@ export function renderData(registry: ReportRegistry, manifest: DatasetManifest |
       const count = rows.get(r.id);
       return `<li><strong><a href="/reports/${escapeHtml(r.id)}">${escapeHtml(r.title)}</a></strong>${count !== undefined ? ` (${count.toLocaleString("en-GB")} paragraphs)` : ""}<br />
       <span class="mono">${escapeHtml(status ? LICENCE_LABELS[status.kind] ?? status.kind : "Status not recorded")}</span><br />
-      ${escapeHtml(status?.statement ?? "")}${r.source_url ? ` <a href="${escapeHtml(r.source_url)}" rel="nofollow">Official document ↗</a>` : ""}</li>`;
+      ${escapeHtml(status?.statement ?? "")}${r.source_url ? ` <a href="${escapeHtml(r.source_url)}" rel="nofollow">Official document ↗</a>` : ""}${markdownUrl(r) ? ` <a href="${escapeHtml(markdownUrl(r)!)}" rel="nofollow">Full text as Markdown (GitHub) ↗</a>` : ""}</li>`;
     })
     .join("\n");
 
@@ -70,7 +71,7 @@ export function renderData(registry: ReportRegistry, manifest: DatasetManifest |
   </section>
 
   <div class="prose wrap measure">
-    <p>${manifest ? `${manifest.rows.toLocaleString("en-GB")} paragraphs from ${manifest.reports.length} reports` : "One row per paragraph of every report on this site"}, each with its section, printed page, stable paragraph id, a link to the official document and a link to the paragraph here. The text is the text the site serves, so every row can be cited and checked against the source.</p>
+    <p>${manifest ? `${manifest.rows.toLocaleString("en-GB")} paragraphs from ${manifest.reports.length} reports` : "One row per paragraph of every report on this site"}, each with its section, printed page, stable paragraph id, a link to the official document and a link to the paragraph here. Each report's full text is also on GitHub as one Markdown file, linked below. The text is the text the site serves, so every row can be cited and checked against the source.</p>
     <p>This page is the stable address: the files below are rebuilt from the live reports, and the links do not change.</p>
   </div>
 
