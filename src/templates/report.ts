@@ -22,6 +22,24 @@ export type ReportMeta = {
 };
 
 /**
+ * Where a report's full text sits as Markdown, on GitHub (`full.md` at the root of its own repo). The repo
+ * comes from the registry (`repo`), never from the site id: they differ (litvinenko-inquiry is
+ * uk-litvinenko-inquiry). `HEAD` is the repo's default branch, which is `main` in most and `master` in a few.
+ * The github.com blob view, not raw.githubusercontent, so it reads as a page.
+ */
+export function markdownUrl(meta: Pick<ReportMeta, "repo">): string | null {
+  return meta.repo ? `https://github.com/reportsthatmatter/${meta.repo}/blob/HEAD/full.md` : null;
+}
+
+export const MARKDOWN_LINK_TEXT = "Full text as Markdown (GitHub)";
+
+/** The link, as a fragment of a byline line. Empty where the report has no repo. */
+export function markdownLink(meta: Pick<ReportMeta, "repo">): string {
+  const url = markdownUrl(meta);
+  return url ? `<a href="${escapeHtml(url)}" rel="nofollow">${MARKDOWN_LINK_TEXT} ↗</a>` : "";
+}
+
+/**
  * The year a report was published, from its registry date ("13 April 2011",
  * "January 2025"). A reader arriving from a link needs to know at a glance
  * whether they are reading about 1986 or 2025 (reportsthatmatter-wz2).
