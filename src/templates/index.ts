@@ -3,6 +3,8 @@ import { renderLayout, escapeHtml } from "./layout";
 import { SITE_HEADLINE, SITE_STANDFIRST, SITE_ORIGIN } from "./site";
 import { siteJsonLd } from "../lib/structured-data";
 import { MARKS } from "../generated/marks";
+import { EDITORIAL } from "../generated/editorial";
+import { showsEditorial } from "./editorial";
 import { renderSignup, SIGNUP_SCRIPT } from "./newsletter";
 
 /** The archive row's mark slot, in CSS px. Plates of any proportion fit
@@ -31,10 +33,16 @@ export function renderReportList(registry: ReportRegistry): string {
       // Date first: when a report was published is the first thing a reader
       // needs to place it (reportsthatmatter-wz2).
       const meta = [report.published_at, report.authors].filter(Boolean).join(" · ");
+      // What it is and why open it (reportsthatmatter-b7rp): the approved introduction's tagline.
+      const editorial = EDITORIAL[report.id];
+      const tagline = showsEditorial(editorial, false) ? editorial.tagline : undefined;
       return `<li>
         <a href="/reports/${escapeHtml(report.id)}">
           ${rowMark(report.id)}
-          <span class="title serif">${escapeHtml(report.title)}</span>
+          <span class="row-text">
+            <span class="title serif">${escapeHtml(report.title)}</span>
+            ${tagline ? `<span class="tagline">${escapeHtml(tagline)}</span>` : ""}
+          </span>
           <span class="meta mono">${escapeHtml(meta)}</span>
           <span class="cue mono">Read →</span>
         </a>
