@@ -1,5 +1,5 @@
 ---
-title: "The Email He Didn't Send: The Week NASA Asked for Pictures of Columbia's Wing (Columbia Accident Investigation Board, 2003)"
+title: "The email he didn't send: the week NASA asked for pictures of Columbia's wing (Columbia Accident Investigation Board, 2003)"
 date: "2026-12-08"
 author: "Rufus Pollock"
 summary: "In January 2003 NASA's engineers asked for photographs of Columbia's left wing in orbit. The Board's report reprints the emails of the week in which the request was raised and cancelled, with their times. Here they are, in order."
