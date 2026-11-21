@@ -1090,7 +1090,9 @@ hr {
  * room for them. Below that width there is no margin, so a note becomes an
  * inline block the reader opens on tap. */
 
-.prose {
+.prose,
+.report-header {
+  /* The header reads these too, to line up with the shifted prose. */
   --sidenote-width: 15rem;
   --sidenote-gap: 2rem;
 }
@@ -1175,6 +1177,15 @@ hr {
      * contain its floated children without clipping their negative-margin
      * overflow into the right-hand column, unlike overflow: hidden. */
     display: flow-root;
+  }
+
+  /* Keep a page header's text on the same left edge as the shifted prose
+   * below it. The header's .measure sits inside the .wrap padding, so its
+   * 50% is (viewport - 2 * gutter) / 2; adding the gutter back gives the
+   * same offset as .prose's margin above. */
+  .report-header:has(+ .prose) > .measure {
+    margin-left: max(0px, calc(50% + var(--gutter) - (var(--measure) + var(--sidenote-width) + var(--sidenote-gap)) / 2));
+    margin-right: 0;
   }
 
   .sidenote {
