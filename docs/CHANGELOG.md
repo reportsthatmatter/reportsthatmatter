@@ -7,7 +7,7 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
-## 2026-11-21 — New essay: "The evidence, not the verdict"
+## 2026-11-21 — New essay: "A treasure trove of facts that matter: why I built Reports that Matter"
 
 Why Reports that Matter exists, in the words of the inquiries themselves: the Philip Morris memos, the 9/11 air-defence log, the Standard & Poor's emails. Read it at [/blog/why-reports-that-matter](/blog/why-reports-that-matter); the [About](/about) page now links to it. The Grenfell Tower Inquiry's summary line also now says all seven volumes are here, not Volume 1.
 
