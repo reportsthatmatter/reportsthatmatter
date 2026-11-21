@@ -27,6 +27,7 @@ When copy reads as bland, we have usually hedged about access. Being careful abo
 - **Exact.** Every claim can be checked. "p. 146", not "a key passage". "Volume 1 of 7", not "the Grenfell report".
 - **Dry.** We can be wry about PDFs, broken links and small capitals, never about what a report is about.
 - **Unhurried.** No urgency, no countdowns, no "now live". These reports are decades old.
+- **Journalistic, not cautious** (Rufus, 22 Nov 2026). Sober and correct, and also engaging: these reports are gripping and our editorial copy (taglines, introductions, posts) should make a reader want to open them. Write like a good journalist, who is both accurate and interesting: lead with the vivid, true detail (the teapot of polonium, the morning rebuilt minute by minute, the banker's email), not a hedged summary. Accuracy is about substance, not about stripping every phrase down to what a source states word for word. A critique pass checks that nothing is wrong or a verdict of ours; it does not sand the copy flat.
 
 ## Do
 
