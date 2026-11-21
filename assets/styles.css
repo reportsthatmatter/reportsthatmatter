@@ -429,6 +429,19 @@ hr {
   color: var(--ink);
 }
 
+.report-list .row-text {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.report-list .tagline {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: var(--body);
+  max-width: 34em;
+}
+
 .report-list .meta {
   color: var(--muted);
 }
