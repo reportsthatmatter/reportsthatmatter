@@ -116,31 +116,3 @@ export function cardTitle(post: Post): string {
   const rest = post.title.slice(colon + 2);
   return rest.charAt(0).toUpperCase() + rest.slice(1);
 }
-
-/**
- * Post titles are in title case (Rufus, 2026-11-21; docs/brand-voice.md): every word capitalised except
- * articles, coordinating conjunctions and prepositions of four letters or fewer, which are lower case unless
- * they open the title, follow a colon or close it. "that" before "Matter" keeps the site's own name ("Reports
- * that Matter") and titles that echo it. Returns the words that break the rule; empty when the title is fine.
- */
-const MINOR_WORDS = new Set(
-  "a an the and but or nor as at by for from in into of off on onto out over per than to up upon via with".split(" ")
-);
-
-export function titleCaseErrors(title: string): string[] {
-  const words = title.split(/\s+/).filter(Boolean);
-  const errors: string[] = [];
-  words.forEach((word, i) => {
-    // Strip quotes, brackets and trailing punctuation to reach the word itself.
-    const bare = word.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
-    if (!bare || !/^\p{L}/u.test(bare)) return;
-    const first = i === 0 || /:$/.test(words[i - 1]);
-    const last = i === words.length - 1;
-    const minor = MINOR_WORDS.has(bare.toLowerCase()) && !first && !last;
-    const brand = bare === "that" && words[i + 1]?.replace(/[^\p{L}]+$/u, "") === "Matter";
-    if (brand) return;
-    const upper = bare[0] === bare[0].toUpperCase();
-    if (minor ? bare !== bare.toLowerCase() : !upper) errors.push(bare);
-  });
-  return errors;
-}

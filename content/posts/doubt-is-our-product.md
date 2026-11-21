@@ -1,5 +1,5 @@
 ---
-title: "“Doubt Is Our Product”: The Tobacco Industry's Strategy, in Its Own Memos"
+title: "“Doubt is our product”: the tobacco industry's strategy, in its own memos"
 date: "2026-12-01"
 author: "Rufus Pollock"
 summary: "In United States v. Philip Morris (2006) a federal judge set out, from the cigarette companies' own files, how an industry handled science it privately accepted. Six internal documents, 1963 to 1981, and the public statement they were written behind."

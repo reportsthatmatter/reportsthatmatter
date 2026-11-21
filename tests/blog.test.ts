@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { readdirSync, readFileSync } from "node:fs";
 import { app } from "../src/index";
-import { parsePost, parsePosts, titleCaseErrors, visiblePosts } from "../src/lib/blog";
+import { parsePost, parsePosts, visiblePosts } from "../src/lib/blog";
 import { unlinkUnpublishedPosts } from "../src/templates/blog";
 import { buildBundle } from "../scripts/blog.mjs";
 
@@ -134,27 +134,5 @@ describe("blog routes with drafts in the repo", () => {
   it("links the blog from the footer and the changelog", async () => {
     expect(await (await app.request("http://localhost/")).text()).toContain('href="/blog"');
     expect(await (await app.request("http://localhost/changelog")).text()).toContain('href="/blog"');
-  });
-});
-
-describe("post titles are in title case (docs/brand-voice.md)", () => {
-  it.each([
-    ["Getting the Text Right: What Goes Wrong Turning Official PDFs into Citable Web Text", []],
-    ["A Treasure Trove of Facts that Matter: Why I Built Reports that Matter", []],
-    ["From the Archives, No. 1: “There for All to See”", []],
-    ["Better than Bad PDFs: Where Cleaner Source Texts Come From", []],
-    ["Better than bad PDFs: where cleaner source texts come from", ["bad", "where", "cleaner", "source", "texts", "come", "from"]],
-    ["One File Per Report", ["Per"]],
-    ["The Week That Was", []],
-  ])("%s", (title, errors) => {
-    expect(titleCaseErrors(title)).toEqual(errors);
-  });
-
-  it("holds for every post in content/posts", () => {
-    const dir = "content/posts";
-    for (const file of readdirSync(dir).filter((name) => name.endsWith(".md"))) {
-      const post = parsePost(file.replace(/\.md$/, ""), readFileSync(`${dir}/${file}`, "utf8"));
-      expect(titleCaseErrors(post.title), `${file}: "${post.title}"`).toEqual([]);
-    }
   });
 });

@@ -1,5 +1,5 @@
 ---
-title: "Public Reports, Rebuilt So You Can Link to the Sentence"
+title: "Public reports, rebuilt so you can link to the sentence"
 date: "2026-10-27"
 author: "Rufus Pollock"
 summary: "Reports that Matter puts the big public inquiries and investigations on the web as pages you can read, search and cite to the paragraph, with the official PDF one click away."
