@@ -7,6 +7,14 @@ Newest first. Keep entries short and concrete — a number beats an adjective.
 
 ---
 
+## 2026-11-21 — New essay: "The evidence, not the verdict"
+
+Why Reports that Matter exists, in the words of the inquiries themselves: the Philip Morris memos, the 9/11 air-defence log, the Standard & Poor's emails. Read it at [/blog/why-reports-that-matter](/blog/why-reports-that-matter); the [About](/about) page now links to it. The Grenfell Tower Inquiry's summary line also now says all seven volumes are here, not Volume 1.
+
+![The essay's opening](https://raw.githubusercontent.com/reportsthatmatter/visual-changelog/main/2026-11-21-essay-published/essay-post.png)
+
+---
+
 ## 2026-11-21 — Every report's full text as Markdown, on GitHub
 
 Each report's landing page now links its full text as a single Markdown file on GitHub ("Full text as Markdown (GitHub)"), next to the link to the original document, for anyone who wants to read it raw, copy it or reuse it. The [/data](/data) page links the same file for each report.

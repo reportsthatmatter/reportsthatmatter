@@ -249,7 +249,7 @@ reports:
     ingested: true
     volumes: {count: 7, numerals: arabic}
     affected_community: true
-    context_line: "Grenfell Tower Inquiry Phase 2, Volume 1 of 7. 72 people died."
+    context_line: "Grenfell Tower Inquiry Phase 2 Report, all seven volumes. 72 people died."
 
   - id: us-senate-cia-torture-report
     title: "Committee Study of the Central Intelligence Agency's Detention and Interrogation Program"
