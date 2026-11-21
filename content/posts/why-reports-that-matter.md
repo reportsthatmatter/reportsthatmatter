@@ -1,5 +1,5 @@
 ---
-title: "The evidence, not the verdict"
+title: "A treasure trove of facts that matter: why I built Reports that Matter"
 date: "2026-11-21"
 author: "Rufus Pollock"
 summary: "Public inquiries hold the most detailed record we have of what actually happened: the memo, the email, the minute. Almost none of it is read. Why I have spent a decade, on and off, putting these reports back online, and what is there now."
