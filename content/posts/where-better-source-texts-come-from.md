@@ -1,5 +1,5 @@
 ---
-title: "Better than bad PDFs: where cleaner source texts come from"
+title: "Better than Bad PDFs: Where Cleaner Source Texts Come From"
 date: "2026-10-03"
 author: "Reports that Matter"
 summary: "Most of our reports reach us as PDFs, and for most of them the words are already right. What a PDF loses is structure, so we went looking for who still has it: publishers, ebooks, court archives, Wikisource volunteers, and modern extraction tools."

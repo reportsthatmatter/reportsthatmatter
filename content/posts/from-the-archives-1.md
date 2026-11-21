@@ -1,5 +1,5 @@
 ---
-title: "From the archives, No. 1: “There for all to see”"
+title: "From the Archives, No. 1: “There for All to See”"
 date: "2026-11-03"
 author: "Reports that Matter"
 summary: "The first monthly newsletter from Reports that Matter: five passages from five inquiries that found the danger had been visible, written down, sometimes said out loud, long before the collapse."

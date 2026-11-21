@@ -27,7 +27,7 @@ export function renderAbout(): string {
 
     <p>The report's own words, as published. Our introductions and highlights are labelled as ours.</p>
 
-    <p>Why this exists: <a href="/blog/why-reports-that-matter">A treasure trove of facts that matter: why I built Reports that Matter</a>.</p>
+    <p>Why this exists: <a href="/blog/why-reports-that-matter">A Treasure Trove of Facts that Matter: Why I Built Reports that Matter</a>.</p>
   </div>
 
   <section class="section wrap">
