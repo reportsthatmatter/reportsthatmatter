@@ -8,8 +8,16 @@ Every piece of public copy follows this page: posts, threads, the blog, emails, 
 
 **Opinionated about access. Silent about verdicts.**
 
-- **On access we argue, with numbers.** Public inquiries are the most careful fact-finding a country pays for, and they come out as PDFs nobody can link into. That is a fixable failure. Every time we make the argument, we bring one number from our own work: Leveson is 983,000 words and its PDF yielded 74 headings.
-- **On findings we say nothing, and choose carefully.** What we quote is our opinion, so we quote what the report itself calls a finding, conclusion or recommendation, whole, with its page. Never the sentence that merely sounds worst. Then we stop.
+- **On access we argue.** Public inquiries are the most careful fact-finding a country pays for, and after one news day they are lost: a PDF nobody reads past the summary, on a website that closes. That is a fixable failure. A number helps (Leveson is 983,000 words) but the reports themselves make the case better than our method does.
+- **On findings we say nothing, and choose carefully.** What we quote is our opinion, so we quote it whole, with its page, and never the sentence that merely sounds worst. We don't add a verdict.
+
+## What we lead with, and the context it needs
+
+Rufus, 21 Nov 2026. These reports matter less for their analysis (often some version of "someone screwed up") than for the **record**: what actually happened, minute by minute, email by email, document by document, gathered with the power to compel evidence. That is what the news never carried and what readers find gripping.
+
+- **Lead with the record of what happened.** The 9/11 Commission's account of the day; bankers' and rating agencies' own emails in the Senate financial-crisis report; the tobacco companies' internal documents quoted in *United States v. Philip Morris*. Evidence, process and history first. A finding or conclusion is still fine to quote when it is the point, but it is rarely the most interesting sentence.
+- **Give every passage its why-it-matters context**, as the report introductions do. Without it a reader doesn't know why Challenger was a big deal, or what it revealed about how a bureaucracy handles risk. One or two sentences, in our voice: what happened, why it mattered then, what it changed or showed about how institutions work. This is context, not a verdict: we explain why the moment is significant; we don't tell the reader what to conclude about the people in it.
+- **The method is background.** How the text comes off the PDF, defect counts and the code belong in a link or a reply, not a lead. The story is that these reports are remarkable and get lost, and we are putting them online properly. The core narrative is the marketing repo's `strategy/2026-11-21-core-narrative.md`.
 
 When copy reads as bland, we have usually hedged about access. Being careful about findings is what makes the access argument credible, so we don't trade one for the other.
 
@@ -32,7 +40,7 @@ When copy reads as bland, we have usually hedged about access. Being careful abo
 
 - **No adjectives about findings:** damning, shocking, explosive, chilling, bombshell, must-read, devastating.
 - **No hype:** launch, excited, thrilled, game-changer, revolutionary, unlock, empower, AI-powered, finally, introducing.
-- **No interpretation of a passage:** no "this shows", "proof that", "worth remembering". Setup is allowed (what the document is, who wrote it, when, the page). Meaning isn't ours to add.
+- **No verdicts on a passage:** no "this shows", "proof that", "worth remembering". Setup and why-it-matters context are expected (what the document is, who wrote it, when, the page, and why the moment was significant; see above). A verdict on the people in it isn't ours to add.
 - **No partisan pairing:** no quote next to a current politician, a candidate or a claim about an election. A date can be the hook only when it is the report's own: a publication anniversary, a court day about the report itself.
 - **No deaths as hooks:** no anniversary of a death, no court or charging day, no bereaved family or survivor as a target or a tag.
 - **No over-claiming:** not "permanent", "every report", "all checked", "the definitive", or "printed page" where the pages are the PDF's.
