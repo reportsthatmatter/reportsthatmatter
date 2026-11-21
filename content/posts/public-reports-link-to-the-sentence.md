@@ -10,7 +10,7 @@ status: published
 
 https://reportsthatmatter.org/reports/challenger-accident?p=committee-found-nasa-s-drive
 
-Public inquiries and investigations are the most careful fact-finding a country pays for, and they come out as PDFs that almost nobody reads past the summary. I started the Open Knowledge Foundation because public information should be usable, not just available. These reports are the clearest case I know. So I've rebuilt twenty-two of them as web pages. Every paragraph has its own link and its page number. Select any sentence and you get a link to exactly those words. One search runs across all of them. The official PDF is one click from every page.
+Public inquiries and investigations are the most careful fact-finding a country pays for, and they come out as PDFs that almost nobody reads past the summary. I started the Open Knowledge Foundation because public information should be usable, not just available. These reports are the clearest case I know. So I've been rebuilding them as web pages. Every paragraph has its own link and its page number. Select any sentence and you get a link to exactly those words. One search runs across all of them. The official PDF is one click from every page.
 
 ## What's here
 
