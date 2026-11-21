@@ -26,6 +26,8 @@ export function renderAbout(): string {
     at the paragraph level.</p>
 
     <p>The report's own words, as published. Our introductions and highlights are labelled as ours.</p>
+
+    <p>Why this exists: <a href="/blog/why-reports-that-matter">The evidence, not the verdict</a>.</p>
   </div>
 
   <section class="section wrap">
