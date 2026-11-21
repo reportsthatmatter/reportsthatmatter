@@ -49,6 +49,7 @@ When copy reads as bland, we have usually hedged about access. Being careful abo
 ## Titles, numbers, spelling
 
 - **Titles and subject lines** name the report and year, then one thing: a page, or what we did. "Columbia Accident Investigation Board (2003), p. 203." No "reveals", "exposes", "shows"; no question titles.
+- **Blog post titles are in title case** (Rufus, 2026-11-21): capitalise every word except articles, coordinating conjunctions and prepositions of four letters or fewer ("a", "and", "of", "per", "into", "than"), which stay lower case unless they open the title, follow a colon or close it. "Doubt Is Our Product", "Come From", "One File per Report". Our own name keeps its lower-case "that": "Reports that Matter", and titles that echo it ("Facts that Matter"). Headings inside a post stay in sentence case. `titleCaseErrors` in `src/lib/blog.ts` checks it and `tests/blog.test.ts` runs it on every post.
 - **Citations:** "p. 146" for a printed page; "para 2.11.56" where the report numbers its paragraphs (UK inquiries are cited by paragraph, and the paragraph wins); "PDF p. 12" when the number is the file's. Year in brackets on first mention.
 - **Figures** for numbers. **British spelling** in our own text; a report's own spelling inside its quotations.
 

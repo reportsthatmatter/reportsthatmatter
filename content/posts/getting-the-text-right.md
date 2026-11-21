@@ -1,5 +1,5 @@
 ---
-title: "Getting the text right: what goes wrong turning official PDFs into citable web text, and what we are doing about it"
+title: "Getting the Text Right: What Goes Wrong Turning Official PDFs into Citable Web Text, and What We Are Doing About It"
 date: "2026-10-02"
 author: "Reports that Matter"
 summary: "The defects we kept hitting when turning official PDFs into citable web text, why fixing them one at a time stopped working, what we built instead, and what it has achieved so far."

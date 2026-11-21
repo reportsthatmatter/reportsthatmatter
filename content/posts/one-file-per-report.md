@@ -1,5 +1,5 @@
 ---
-title: "One file per report: why we keep public reports as plain text under version control"
+title: "One File per Report: Why We Keep Public Reports as Plain Text Under Version Control"
 date: "2026-10-03"
 author: "Reports that Matter"
 summary: "Every report on this site is one markdown file, full.md, rebuilt from pinned sources and kept in git. Here is why that beats both the official PDF and the web editions some inquiries published, with real examples of corrections, moved links and provenance, and the places where it still falls short."
