@@ -173,22 +173,27 @@ units:
     bead: reportsthatmatter-94u
     reached: candidate
     state: active
+    score: {interest: 3, source: 3, size: 2, licence: 4, hook: 1}
     evidence: "94u notes (zphc): Volume 5 exists redacted and unredacted (docket 8307); born-digital Word PDFs"
-    notes: "Stage 1 must settle which Volume 5 the Jenner site and the Stanford mirror serve."
+    notes: "Rescored 2026-11-22 (project 2602): Completes the Valukas Report around the live Volumes 1 and 3; valuable for finance readers but no news peg and long volumes. First unit: Volume 2 (Section III.A.2 Valuation and III.A.3 Survival, 541 pp); then Volume 5 (683 pp), Volume 4 (493 pp); appendices Vols 6-9 (225, 511, 487, 590 pp) last or never. Stage 1 must settle which Volume 5 the Jenner site and the Stanford mirror serve."
   - id: uk-chilcot-inquiry
     scope: "Volumes I-XII"
     bead: reportsthatmatter-0a7
     reached: candidate
     state: active
+    score: {interest: 3, source: 4, size: 4, licence: 5, hook: 1}
+    hook: "2027-03-20: 24th anniversary of the invasion of Iraq (weak)"
     evidence: "better-source-texts.md §4: the inquiry site's section PDFs are tagged, the gov.uk volumes are not"
-    notes: "Scope decision open (0a7)."
+    notes: "Rescored 2026-11-22 (project 2602): The legal-advice section is the most cited part of Chilcot after the executive summary, and comes as a 170-page tagged PDF. First unit: Section 5, 'Advice on the legal basis for military action, November 2002 to March 2003' (170 pp, tagged section PDF). Scope decision open (0a7)."
   - id: uk-saville-inquiry
     scope: "Volumes II-X"
     bead: reportsthatmatter-wdt
     reached: candidate
     state: active
+    score: {interest: 3, source: 5, size: 2, licence: 5, hook: 3}
+    hook: "2027-01-30: 55th anniversary of Bloody Sunday"
     evidence: "better-source-texts.md §4: the inquiry HTML covers every volume"
-    notes: "Scope decision open (wdt); cheap once the Saville hybrid (ivg.2) works."
+    notes: "Rescored 2026-11-22 (project 2602): Cheap once the Saville HTML path works, and the anniversary falls in the window; detail volumes have narrower readership than Volume I. First unit: Volume II (353 pp), the next chapters of the day's events, through the ivg.2 HTML path. Scope decision open (wdt); cheap once the Saville hybrid (ivg.2) works."
   - id: uk-covid-inquiry-module-2
     scope: "Volume I (HC 1436-I, Introduction and key events, amended Feb 2026)"
     bead: reportsthatmatter-gqsy.14
@@ -307,53 +312,207 @@ units:
     reached: candidate
     state: active
     score: {interest: 4, source: 3, size: 2, licence: 5, hook: 3}
-    hook: "compensation scheme news (not checked)"
+    hook: "2027-03-23: support-scheme payments in England transfer to the Infected Blood Compensation Authority (Wales 15 Jan, Scotland and NI 1 Feb 2027); 20 May 2027 is the 3rd anniversary of the report"
     issue: 91
     evidence: "gqsy.7: gov.uk volumes, born-digital, untagged, no HTML found; OGL v3; Vol 1 PDF SHA-256 recorded in the bead"
+    notes: "Rescored 2026-11-22 (project 2602): The largest treatment disaster in NHS history, with compensation still being paid out and reshaped through 2027. First unit: Volume 1, Overview and Recommendations (295 pp)."
   - id: uk-iicsa-final-report
     title: "Independent Inquiry into Child Sexual Abuse: final report (Oct 2022)"
     reached: candidate
     state: active
-    score: {interest: 4, source: 5, size: 1, licence: 5, hook: 2}
+    score: {interest: 4, source: 5, size: 4, licence: 5, hook: 3}
+    hook: "2027-04-29: earliest commencement of the mandatory reporting duty (Crime and Policing Act 2026, s.85), IICSA's central recommendation; the national grooming gangs inquiry (Baroness Longfield, from spring 2026) also cites IICSA"
     evidence: "gqsy.8"
-    notes: "Affected community: check the open decisions first."
+    notes: "Rescored 2026-11-22 (project 2602): The seven-year national inquiry whose recommendations are now law; clean HTML and a tagged PDF. First unit: Foreword and Executive Summary (printed pp. vii-18, about 25 pp, with the recommendations); the rest of the report next, from the same HTML. Affected community: check the open decisions first."
   - id: uk-mid-staffordshire-inquiry
     title: "Mid Staffordshire NHS Foundation Trust Public Inquiry (Francis Report, Feb 2013)"
     reached: candidate
     state: active
-    score: {interest: 3, source: 3, size: 1, licence: 5, hook: 1}
+    score: {interest: 3, source: 3, size: 4, licence: 5, hook: 2}
+    hook: "2027-02-06: 14th anniversary of the Francis Report (weak); follow-up to the Thirlwall Inquiry report (15 Sept 2026) keeps NHS candour and safety culture in the news"
     issue: 89
     evidence: "gqsy.10; #93 priority 1, 'fastest route to a complete bounded UK inquiry'"
+    notes: "Rescored 2026-11-22 (project 2602): The founding text of NHS duty of candour and patient-safety reform, and its 125-page executive summary is a bounded first unit. First unit: Executive Summary (HC 947, 125 pp, separate PDF 0947.pdf, includes all 290 recommendations)."
   - id: uk-stephen-lawrence-inquiry
     title: "The Stephen Lawrence Inquiry (Macpherson Report, Feb 1999)"
     reached: candidate
     state: active
-    score: {interest: 4, source: null, size: null, licence: null, hook: 1}
-    hook: "2027-02-24: 28th anniversary (weak)"
+    score: {interest: 4, source: 5, size: 2, licence: 5, hook: 3}
+    hook: "2027-04-22: Stephen Lawrence Day (national day of remembrance); 24 Feb 2027 is the 28th anniversary of publication"
     issue: 88
     evidence: "gqsy.11; Cm 4262-I on gov.uk; source and rights not probed"
+    notes: "Rescored 2026-11-22 (project 2602): The report that named institutional racism in the Met; still cited in every policing-race debate, and the source is clean HTML with numbered paragraphs. First unit: Cm 4262-I, the whole report (47 chapters, 70 recommendations); Volume II (Cm 4262-II, appendices, HTML only on UKGWA) a later unit."
   - id: us-katrina-house-committee
     title: "A Failure of Initiative: House select committee on Hurricane Katrina (Feb 2006)"
     reached: candidate
     state: active
-    score: {interest: 3, source: null, size: null, licence: 5, hook: 1}
+    score: {interest: 3, source: 3, size: 2, licence: 5, hook: 2}
+    hook: "2027-06-01: Atlantic hurricane season opens, with FEMA restructuring after the FEMA Review Council's final report (7 May 2026) pending in Congress"
     issue: 86
     evidence: "gqsy.12; public domain; check govinfo for HTML or text first"
+    notes: "Rescored 2026-11-22 (project 2602): The congressional verdict on Katrina ('a failure of initiative'), newly relevant as the administration and Congress debate shrinking FEMA. First unit: H. Rept. 109-377 main report: preface, Executive Summary of Findings and chapters to the Conclusion (printed pp. ix-362, about 375 PDF pages); Appendices 1-9 (incl. McKinney and Melancon/Jefferson supplements) and H. Rept. 109-396 later."
   - id: uk-grenfell-tower-inquiry-phase-1
     title: "Grenfell Tower Inquiry: Phase 1 Report (Oct 2019, 4 volumes)"
     bead: reportsthatmatter-mxkg
     reached: candidate
     state: active
+    score: {interest: 4, source: 5, size: 5, licence: 5, hook: 5}
+    hook: "2027-06-14: 10th anniversary of the Grenfell Tower fire"
     evidence: "mxkg; Phase 2 is live as uk-grenfell-tower-inquiry"
+    notes: "Rescored 2026-11-22 (project 2602): The night-of-the-fire findings (stay-put, the cladding as principal cause) that Phase 2, already live, cites throughout; a strong anniversary and a cheap, tagged source. First unit: Executive Summary (32 pp) with Volume I (HC 49-I, 82 pp: Part I introduction, the building, the refurbishment); Volumes II-IV (240, 194, 340 pp) later."
   - id: us-ccr-voting-rights-2018
     title: "US Commission on Civil Rights: An Assessment of Minority Voting Rights Access (2018)"
     reached: candidate
     state: parked
-    score: {interest: 4, source: 3, size: 2, licence: 5, hook: 4}
-    hook: "Voting Rights Act Section 2 litigation (Louisiana v. Callais)"
+    score: {interest: 4, source: 3, size: 2, licence: 5, hook: 2}
+    hook: "2027-06-25: 14th anniversary of Shelby County v. Holder (weak); Louisiana v. Callais was decided 29 April 2026, so that peg has passed"
     evidence: "gqsy.17 (deferred); 406 PDF pages"
+    notes: "Rescored 2026-11-22 (project 2602): The main federal fact-finding on voting access since Shelby County, now more relevant after Callais narrowed Section 2, but the decision peg is gone. First unit: The whole report (406 pp) less commissioners' statements and rebuttals, which follow as a second unit."
   - id: za-truth-reconciliation-commission
     title: "Truth and Reconciliation Commission of South Africa Report (1998-2003, 7 volumes)"
     reached: candidate
     state: parked
+    score: {interest: 4, source: 3, size: 1, licence: 2, hook: 3}
+    hook: "2026-12-18: Khampepe Commission (into the suppression of TRC prosecutions) final report due; 26 Dec 2026 is the 5th anniversary of Desmond Tutu's death"
     evidence: "gqsy.1 (deferred); no earlier research found in GitHub issues (2026-10-03)"
+    notes: "Rescored 2026-11-22 (project 2602): One of the most important truth-commission reports anywhere, back in the news with the Khampepe Commission, but its rights are unclear. First unit: Volume 1 (512 pp: foreword, historical context, mandate, concepts, methodology); or Volume 5 (findings, recommendations, minority position) if findings matter more."
+
+  # Researched 2026-11-22 (project 2602, projects/2602-report-backlog-research/): the strongest checked candidates.
+  - id: us-dobbs-v-jackson
+    title: "Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (opinion of the Court, concurrences and dissent)"
+    scope: "Syllabus and Alito majority opinion (~80 pp); concurrences and joint dissent as unit 2"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 5, size: 4, licence: 5, hook: 5}
+    hook: "2027-06-24: fifth anniversary of the decision; state ballot measures and mifepristone litigation continue"
+    evidence: "https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf; tagged PDF slip opinion (Tagged: yes); 213 pp; Supreme Court opinions are public domain (government edicts doctrine)"
+    notes: "The ruling that overturned Roe v. Wade; the most-quoted and most-argued opinion of the century so far, with a dissent quoted as much as the majority. Affected community: check the open decisions (0026) first."
+  - id: us-uvalde-critical-incident-review
+    title: "Critical Incident Review: Active Shooter at Robb Elementary School"
+    scope: "Executive summary plus Chapter 1 'Incident Response' (first ~150 pp), or the whole report in two units"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 5, size: 3, licence: 5, hook: 5}
+    hook: "2027-05-24: fifth anniversary of the shooting; ex-chief Pete Arredondo's criminal trial tentatively set for 2027-02-22 (Judge Sid Harle, may slip or move venue)"
+    evidence: "https://portal.cops.usdoj.gov/resourcecenter/content.ashx/cops-r1141-pub.pdf; tagged PDF (born-digital, Tagged: yes); 610 pp; US federal government work, public domain (17 U.S.C. 105)"
+    notes: "DOJ's definitive account of the 77-minute failed police response that killed 19 children and 2 teachers; the reference text for every policing and accountability argument since. Affected community: check the open decisions (0026) first."
+  - id: us-ntsb-dca-midair-collision
+    title: "Aviation Investigation Report AIR-26-02: Midair Collision over the Potomac River, PSA Airlines Flight 5342 and US Army PAT25 (UH-60), near R"
+    scope: "Executive summary, findings, probable cause and recommendations (~40 pp) then factual chapters"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 5, size: 3, licence: 5, hook: 5}
+    hook: "2027-01-29: second anniversary of the 67-death collision; FAA/ROTOR Act and helicopter-route legislation in Congress"
+    evidence: "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2602.pdf; tagged PDF (born-digital, Tagged: yes); 419 pp; US federal government work, public domain (17 U.S.C. 105)"
+    notes: "Deadliest US air crash since 2001; the NTSB found systemic FAA failures in airspace design near DCA, with 50 recommendations. Affected community: check the open decisions (0026) first."
+  - id: uk-manchester-arena-inquiry
+    title: "Manchester Arena Inquiry (Volumes 1-3: security; emergency response; radicalisation and preventability)"
+    scope: "Volume 3: Radicalisation and Preventability (MI5 'significant missed opportunity')"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 3, size: 4, licence: 5, hook: 5}
+    hook: "2027-05-22: tenth anniversary of the attack"
+    evidence: "https://www.gov.uk/government/collections/manchester-arena-inquiry-reports; born-digital PDF on gov.uk (accessible versions exist for Vol 2); about 1,300 in total (Vol 1 about 200; Vol 3 about 200; page counts not checked) pp; UK Crown copyright, OGL v3 via gov.uk"
+    notes: "The definitive account of the 2017 bombing, MI5's missed chance and the failed emergency response; drove Martyn's Law. Affected community: check the open decisions (0026) first."
+  - id: us-fed-svb-review
+    title: "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank (the Barr report)"
+    scope: "Whole report (118 pp incl. appendices)"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 5, size: 5, licence: 5, hook: 3}
+    hook: "2027-03-10: fourth anniversary of SVB's failure; the Fed's 2025-27 rewrite of bank supervision and capital rules under Vice Chair Bowman"
+    evidence: "https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf; tagged PDF (born-digital, Tagged: yes); 118 pp; US federal government work, public domain (17 U.S.C. 105)"
+    notes: "A regulator's unusually candid self-criticism of why supervisors missed the second-largest bank failure in US history; small and clean."
+  - id: us-doj-oig-epstein-mcc
+    title: "Investigation and Review of the Federal Bureau of Prisons' Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan Correctiona"
+    scope: "Whole report"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 4, size: 5, licence: 5, hook: 4}
+    hook: "No fixed date: Epstein files releases under the Epstein Files Transparency Act (Nov 2025) and congressional subpoenas keep the story live through 2027"
+    evidence: "https://oig.justice.gov/sites/default/files/reports/23-085.pdf; born-digital PDF (untagged, clean text); 128 pp; US federal government work, public domain (17 U.S.C. 105)"
+    notes: "The official account of how Epstein died in federal custody, the facts behind the most persistent conspiracy theory in US politics."
+  - id: uk-hillsborough-bishop-report
+    title: "The patronising disposition of unaccountable power: a report to ensure the pain and suffering of the Hillsborough families is not repeated"
+    scope: "Whole report"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 3, size: 5, licence: 5, hook: 4}
+    hook: "Public Office (Accountability) Bill, the 'Hillsborough Law', in the Lords (passed Commons 2026-07-14); Royal Assent or commencement likely in window; 2027-04-15 38th anniversary"
+    evidence: "https://www.gov.uk/government/publications/hillsborough-families-report-patronising-disposition-of-unaccountable-power; born-digital PDF on gov.uk (format not checked); about 120 (not checked) pp; UK Crown copyright, OGL v3"
+    notes: "Coined the phrase behind the Hillsborough Law and the duty of candour; short, quotable, and it complements the live Hillsborough Panel. Affected community: check the open decisions (0026) first."
+  - id: uk-covid-inquiry-module-1
+    title: "UK Covid-19 Inquiry, Module 1 Report: The resilience and preparedness of the United Kingdom"
+    scope: "Whole Module 1 report"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 5, size: 3, licence: 5, hook: 4}
+    hook: "First half of 2027: Modules 8 (children), 9 (economic response) and 10 (impact on society) reports due, the last of the Inquiry"
+    evidence: "https://covid19.public-inquiry.uk/documents/module-1-full-report/; official HTML (the Inquiry replaced PDFs with accessible web versions on 2025-11-10); about 240 (not checked) pp; UK Crown copyright, OGL v3"
+    notes: "The finding that the UK prepared for the wrong pandemic; the foundation for every later module and pairs with the live Module 2."
+  - id: us-camp-fire-butte-da
+    title: "The Camp Fire Public Report: A Summary of the Camp Fire Investigation"
+    scope: "Whole report (92 pp)"
+    reached: candidate
+    state: active
+    issue: 22
+    score: {interest: 4, source: 5, size: 5, licence: 4, hook: 3}
+    hook: "2027-01-07 second anniversary of the LA Eaton Fire, which also involves alleged utility (SCE) equipment; keeps utility-caused wildfire liability in the news"
+    evidence: "https://www.buttecounty.net/Portals/30/CFReport/PGE-THE-CAMP-FIRE-PUBLIC-REPORT.pdf (live site behind Cloudflare; checked via Wayback); tagged PDF (Acrobat PDFMaker for Word), good text layer; 92 pp; A California county government work. California generally treats public records as free to reuse, and the report carries no copyright notice. Low risk, but this is not federal public domain."
+    notes: "Small tagged official report on a fire that killed 85 people, with a criminal finding against PG&E; utility-caused wildfires are still news. Affected community: check the open decisions (0026) first."
+  - id: int-icj-gambia-v-myanmar-judgment
+    title: "Application of the Genocide Convention (The Gambia v. Myanmar): Judgment on the merits"
+    scope: "The Judgment (without separate opinions)"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 4, size: 3, licence: 4, hook: 4}
+    hook: "2026-11-19: delivered three days before this research; UN and state follow-up in the window, and Myanmar's report on reparation due within two years"
+    evidence: "https://www.icj-cij.org/case/178; born-digital PDF (ICJ judgments are usually text PDFs); not checked (judgment plus separate and dissenting opinions) pp; ICJ judgments are official public documents and freely reproduced; no formal licence"
+    notes: "The first time the World Court has found that a state committed genocide (9-6 vote), on the Rohingya. Affected community: check the open decisions (0026) first."
+  - id: uk-casey-grooming-gangs-audit
+    title: "National Audit on Group-based Child Sexual Exploitation and Abuse"
+    scope: "Whole audit"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 4, size: 4, licence: 5, hook: 3}
+    hook: "Independent Inquiry into Grooming Gangs (Baroness Longfield, terms of reference 2026-03-31) begins work; 2027-06-16 second anniversary"
+    evidence: "https://www.gov.uk/government/publications/national-audit-on-group-based-child-sexual-exploitation-and-abuse; gov.uk HTML plus PDF (HTML not checked); about 200 (not checked) pp; UK Crown copyright, OGL v3"
+    notes: "The audit that triggered the national statutory grooming gangs inquiry; among the most argued-over UK reports of the decade. Affected community: check the open decisions (0026) first."
+  - id: us-enron-powers-report
+    title: "Report of Investigation by the Special Investigative Committee of the Board of Directors of Enron Corp. (Powers Report)"
+    scope: "Executive summary and conclusions (about 30 pp)"
+    reached: candidate
+    state: active
+    issue: 63
+    score: {interest: 4, source: 4, size: 3, licence: 3, hook: 4}
+    hook: "2026-12-02 25th anniversary of Enron's Chapter 11 filing; 2027-02-02 25th anniversary of the Powers Report's release"
+    evidence: "https://www.sec.gov/Archives/edgar/data/1024401/000090951802000089/big.txt (Enron 8-K, Exhibit 99.2, filed with the SEC); official plain text on SEC EDGAR (fixed-width with <PAGE> markers), checked; 217 pp; Not a government work: copyright belongs to Enron or the committee. It is public through the SEC filing and the bankruptcy court. Low risk to reproduce, but not public domain."
+    notes: "The defining corporate-fraud report, with clean SEC-hosted text and a 25th-anniversary peg in the window. The PSI Enron reports are an alternative."
+  - id: uk-hutton-inquiry
+    title: "Report of the Inquiry into the Circumstances Surrounding the Death of Dr David Kelly CMG (Hutton Report), HC 247"
+    scope: "Chapter 12, Summary of conclusions (the main report body is 328 pp; appendices take it to about 740)"
+    reached: candidate
+    state: active
+    issue: 61
+    score: {interest: 4, source: 4, size: 3, licence: 5, hook: 2}
+    hook: "2027-01-28 23rd anniversary of publication; the 2025 BBC Panorama editing crisis and the Director-General's resignation revived Hutton comparisons"
+    evidence: "https://webarchive.nationalarchives.gov.uk/ukgwa/*/http://www.the-hutton-inquiry.org.uk/content/report/index.htm (UK Government Web Archive; captcha-gated, checked via Wayback: chapter01-13.htm plus huttonreport.pdf); official HTML (archived inquiry site, one page per chapter) plus PDF; 740 pp; Marked 'Parliamentary Copyright 2004' (HC paper). Reusable under the Open Parliament Licence, so effecti"
+    notes: "A landmark UK inquiry (Iraq dossier, BBC) with official chapter HTML under OGL-type terms; still cited whenever the BBC is in crisis."
+  - id: uk-al-sweady-inquiry
+    title: "The Report of the Al Sweady Inquiry, HC 818"
+    scope: "Executive summary (96 pp, tagged)"
+    reached: candidate
+    state: active
+    issue: 62
+    score: {interest: 3, source: 5, size: 5, licence: 5, hook: 2}
+    evidence: "https://www.gov.uk/government/publications/al-sweady-inquiry-report ; executive summary https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/388321/44542_00_Al_Sweady_Exec_Summ_Accessible.pdf; executive summary: tagged accessible PDF (InDesign); Volume 1: born-digital untagged PDF, 591 pp, text layer good; 96 pp; Crown copyright under OGL v3.0 (stated in "
+    notes: "An official UK inquiry into alleged killing and mistreatment of Iraqi detainees, with a tagged OGL executive summary; small first unit. Affected community: check the open decisions (0026) first."
+  - id: un-hrc-gaza-2014-coi
+    title: "Report of the Independent Commission of Inquiry established pursuant to Human Rights Council resolution S-21/1 (A/HRC/29/52), with detailed "
+    scope: "A/HRC/29/52 main report (35 pp); CRP.4 detailed findings (184 pp) later"
+    reached: candidate
+    state: active
+    issue: 58
+    score: {interest: 4, source: 5, size: 5, licence: 4, hook: 2}
+    evidence: "https://digitallibrary.un.org/record/800768 ; PDF https://documents.un.org/doc/undoc/gen/g15/132/86/pdf/g1513286.pdf ; CRP.4 https://documents.un.org/doc/undoc/gen/g15/132/95/pdf/g1513295.pdf; tagged PDF (Word 2010), good text layer; checked both; 35 pp; UN official documents may be freely reproduced (UN publications policy), but this is not formally public domain or OGL."
+    notes: "Small, tagged UN report on civilian deaths in Gaza; highly cited given the 2023-25 war and the ICJ and ICC proceedings. Affected community: check the open decisions (0026) first."

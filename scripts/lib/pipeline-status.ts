@@ -467,10 +467,14 @@ const fullyScored = (score?: Score) => SCORE_KEYS.every((k) => typeof score?.[k]
 
 /**
  * What to take next: unblocked (active) first; then fully scored before partly scored or unscored (triage is not
- * finished); then the nearest hook date; then the score total.
+ * finished); then the nearest hook date still to come (a past date counts as none); then the score total.
  */
-export function backlogOrder(units: Unit[]): Unit[] {
-  const key = (u: Unit) => [u.state === "active" ? 0 : 1, fullyScored(u.score) ? 0 : 1, hookDate(u.hook) ?? "9999", -(scoreTotal(u.score) ?? -1)] as const;
+export function backlogOrder(units: Unit[], today = new Date().toISOString().slice(0, 10)): Unit[] {
+  const upcoming = (u: Unit) => {
+    const d = hookDate(u.hook);
+    return d && d.padEnd(10, "-31") >= today ? d : "9999";
+  };
+  const key = (u: Unit) => [u.state === "active" ? 0 : 1, fullyScored(u.score) ? 0 : 1, upcoming(u), -(scoreTotal(u.score) ?? -1)] as const;
   return [...units].sort((a, b) => {
     const [ka, kb] = [key(a), key(b)];
     return ka[0] - kb[0] || ka[1] - kb[1] || ka[2].localeCompare(kb[2]) || ka[3] - kb[3];

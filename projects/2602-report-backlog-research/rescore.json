@@ -1,0 +1,126 @@
+[
+  {
+    "id": "uk-stephen-lawrence-inquiry",
+    "official_url": "https://www.gov.uk/government/publications/the-stephen-lawrence-inquiry",
+    "format": "Tagged PDF (Word 2007, made in 2014 from the 1999 HTML; 4262.pdf, 2.4 MB) plus the original official HTML, one page per chapter (archive.official-documents.co.uk/document/cm42/4262/sli-NN.htm), on the UK Government Web Archive",
+    "pages": 389,
+    "first_unit": "Cm 4262-I, the whole report (47 chapters, 70 recommendations); Volume II (Cm 4262-II, appendices, HTML only on UKGWA) a later unit",
+    "score": {"interest": 4, "source": 5, "size": 2, "licence": 5, "hook": 3},
+    "hook": "2027-04-22: Stephen Lawrence Day (national day of remembrance); 24 Feb 2027 is the 28th anniversary of publication",
+    "why": "The report that named institutional racism in the Met; still cited in every policing-race debate, and the source is clean HTML with numbered paragraphs.",
+    "notes": "Checked 2026-11-22: pdftotext on pp. 5, 50, 200 gives clean text (Times New Roman, not embedded, WinAnsi); PDF is Tagged: yes. gov.uk says the PDF is 'a PDF representation of a Parliamentary paper originally published on the web in html format' and pages may be reordered, so the PDF pages are not the 1999 print pagination: cite by paragraph (6.34 etc.) and treat the UKGWA HTML as the primary text. gov.uk page: OGL v3, Crown copyright. Live news in 2026: a sixth suspect named (April), Undercover Policing Inquiry evidence that the Met hid spying on the Lawrence family from Macpherson (August)."
+  },
+  {
+    "id": "us-katrina-house-committee",
+    "official_url": "https://www.govinfo.gov/app/details/CRPT-109hrpt377",
+    "format": "Born-digital untagged PDF (Distiller 6, GPO iText-modified), two-column layout with sidebars and photos; the govinfo HTML is a stub ('TEXT NOT AVAILABLE, REFER TO PDF'); LSU mirrors per-chapter PDFs",
+    "pages": 582,
+    "first_unit": "H. Rept. 109-377 main report: preface, Executive Summary of Findings and chapters to the Conclusion (printed pp. ix-362, about 375 PDF pages); Appendices 1-9 (incl. McKinney and Melancon/Jefferson supplements) and H. Rept. 109-396 later",
+    "score": {"interest": 3, "source": 3, "size": 2, "licence": 5, "hook": 2},
+    "hook": "2027-06-01: Atlantic hurricane season opens, with FEMA restructuring after the FEMA Review Council's final report (7 May 2026) pending in Congress",
+    "why": "The congressional verdict on Katrina ('a failure of initiative'), newly relevant as the administration and Congress debate shrinking FEMA.",
+    "notes": "Checked 2026-11-22: govinfo has no usable HTML or text rendition, so checklist item 7 is answered 'no'. Text layer good (embedded subset fonts with Unicode maps; pp. 20, 150, 400 extract cleanly) but two-column with pull quotes and boxes, so reading order needs the column passes. Public domain (17 U.S.C. 105); photos may be third-party. Cover date 15 Feb 2006; 21st anniversary (Aug 2026) is outside the window."
+  },
+  {
+    "id": "uk-grenfell-tower-inquiry-phase-1",
+    "official_url": "https://www.gov.uk/government/publications/publication-of-the-grenfell-tower-inquiry-phase-2-report",
+    "format": "Tagged PDFs (InDesign 14, Adobe PDF Library 15, Oct 2019), the same publishing pipeline as the Phase 2 volumes already live; no HTML on gov.uk",
+    "pages": 888,
+    "first_unit": "Executive Summary (32 pp) with Volume I (HC 49-I, 82 pp: Part I introduction, the building, the refurbishment); Volumes II-IV (240, 194, 340 pp) later",
+    "score": {"interest": 4, "source": 5, "size": 5, "licence": 5, "hook": 5},
+    "hook": "2027-06-14: 10th anniversary of the Grenfell Tower fire",
+    "why": "The night-of-the-fire findings (stay-put, the cladding as principal cause) that Phase 2, already live, cites throughout; a strong anniversary and a cheap, tagged source.",
+    "notes": "Checked 2026-11-22: Executive Summary and Volume 1 downloaded, both Tagged: yes, clean text (pp. 10, 40 of Vol 1); printed paragraph numbers come out as separate lines (e.g. '1 .10', '6.12'), as in Phase 2. gov.uk page: OGL v3. The inquiry's own site is closed; the gov.uk Phase 2 publication page hosts the Phase 1 PDFs (Executive Summary has no HC number). Decision 0026 (bereaved and survivors) applies: no cards without Tier A. Tower demolition under way (two-year process from 2025-26), which adds to anniversary coverage."
+  },
+  {
+    "id": "us-lehman-examiner",
+    "scope": "Volumes 2, 4, 5 (unredacted) and 6-9",
+    "official_url": "https://web.stanford.edu/~jbulow/Lehmandocs/ (Jenner & Block's jenner.com/lehman returns 403 to scripts)",
+    "format": "Born-digital untagged PDFs (Word via PScript5 and Distiller 7/8; Vol 9 Acrobat 6), exact text layer, per-page footnotes",
+    "pages": 3530,
+    "first_unit": "Volume 2 (Section III.A.2 Valuation and III.A.3 Survival, 541 pp); then Volume 5 (683 pp), Volume 4 (493 pp); appendices Vols 6-9 (225, 511, 487, 590 pp) last or never",
+    "score": {"interest": 3, "source": 3, "size": 2, "licence": 4, "hook": 1},
+    "hook": null,
+    "why": "Completes the Valukas Report around the live Volumes 1 and 3; valuable for finance readers but no news peg and long volumes.",
+    "notes": "Checked 2026-11-22 on the Stanford mirror: Vol 2 541 pp, Vol 4 493, Vol 5 683, Vol 6 225, Vol 7 511, Vol 8 487, Vol 9 590 (3,530 in all). The mirror's Volume 5 (modified 17 Dec 2011) contains no 'redacted' markers and names CME 142 times, so it looks like the unredacted version (docket 8307); stage 1 must still compare it with the docket filing. Vols 7-8 carry many images (exhibits). Licence: a court filing by a court-appointed examiner, a public record but not a US government work; same basis as the live volumes."
+  },
+  {
+    "id": "uk-chilcot-inquiry",
+    "scope": "Volumes I-XII",
+    "official_url": "https://www.gov.uk/government/publications/the-report-of-the-iraq-inquiry (volumes); tagged section PDFs at iraqinquiry.org.uk/the-report/ via Wayback 20170106112536",
+    "format": "Tagged section PDFs (InDesign CC 2014) from the inquiry site, Wayback only; the gov.uk volume PDFs are untagged",
+    "pages": 6328,
+    "first_unit": "Section 5, 'Advice on the legal basis for military action, November 2002 to March 2003' (170 pp, tagged section PDF)",
+    "score": {"interest": 3, "source": 4, "size": 4, "licence": 5, "hook": 1},
+    "hook": "2027-03-20: 24th anniversary of the invasion of Iraq (weak)",
+    "why": "The legal-advice section is the most cited part of Chilcot after the executive summary, and comes as a 170-page tagged PDF.",
+    "notes": "Checked 2026-11-22: the archived report page lists 59 PDFs; Section 5 downloaded from Wayback: 170 pp, Tagged: yes, clean text. Tags drop about 15% of words (38s.1), so the PDF words are needed beside the tags; check section-PDF pagination against the printed Volume V before citing. The 10th anniversary (6 July 2026) has passed. Scope decision still open in 0a7."
+  },
+  {
+    "id": "uk-saville-inquiry",
+    "scope": "Volumes II-X",
+    "official_url": "https://www.gov.uk/government/publications/report-of-the-bloody-sunday-inquiry (PDFs); report.bloody-sunday-inquiry.org HTML on UKGWA/Wayback",
+    "format": "Official HTML for every volume (server-generated, class-annotated, as for Volume I) plus born-digital untagged PDFs",
+    "pages": 4587,
+    "first_unit": "Volume II (353 pp), the next chapters of the day's events, through the ivg.2 HTML path",
+    "score": {"interest": 3, "source": 5, "size": 2, "licence": 5, "hook": 3},
+    "hook": "2027-01-30: 55th anniversary of Bloody Sunday",
+    "why": "Cheap once the Saville HTML path works, and the anniversary falls in the window; detail volumes have narrower readership than Volume I.",
+    "notes": "Page counts from wdt (gov.uk): II 353, III 503, IV 386, V 659, VI 630, VII 661, VIII 591, IX 258, X 546. Not re-fetched this pass (UKGWA blocks scripts; Wayback throttles); source verdict rests on better-source-texts.md section 4. The HTML is split by chapter, so a smaller first unit (e.g. a single sector or soldier's chapters) is possible if size matters. Licence OGL (Crown copyright, gov.uk)."
+  },
+  {
+    "id": "za-truth-reconciliation-commission",
+    "official_url": "https://www.justice.gov.za/trc/report/index.htm",
+    "format": "Born-digital untagged PDFs, one per volume (Vols 6-7 split into sections/parts), from QuarkXPress/Distiller; HTML Summary only; an unofficial HTML rendition of Vols 1-6 at sabctrc.saha.org.za",
+    "pages": 3500,
+    "first_unit": "Volume 1 (512 pp: foreword, historical context, mandate, concepts, methodology); or Volume 5 (findings, recommendations, minority position) if findings matter more",
+    "score": {"interest": 4, "source": 3, "size": 1, "licence": 2, "hook": 3},
+    "hook": "2026-12-18: Khampepe Commission (into the suppression of TRC prosecutions) final report due; 26 Dec 2026 is the 5th anniversary of Desmond Tutu's death",
+    "why": "One of the most important truth-commission reports anywhere, back in the news with the Khampepe Commission, but its rights are unclear.",
+    "notes": "Checked 2026-11-22: Volume 1 PDF (Distiller 4, 2006, 512 pp) extracts cleanly with numbered paragraphs and endnotes; the 'Volume 5.pdf' link is broken (the file is Volume5.pdf). LICENCE PROBLEM: justice.gov.za carries no licence or reuse statement, and the report's own front matter says the volumes 'may not be reproduced, stored in a retrieval system, or transmitted in any form or by any means, without prior permission of the copyright holder' (ISBN 0702158763, distributed by Juta; a Macmillan 1999 edition also exists). South African state copyright applies; the s12(8)(a) official-texts exception is doubtful for a commission report. Needs a permission request (DOJ&CD) before any work. Total page count is an estimate (Vol 1 512; seven volumes). The 28th anniversary of presentation (29 Oct 2026) has passed."
+  },
+  {
+    "id": "uk-infected-blood-inquiry",
+    "official_url": "https://www.gov.uk/government/publications/infected-blood-inquiry-reports",
+    "format": "Born-digital untagged PDFs (Acrobat Pro 24); no HTML found",
+    "pages": 2555,
+    "first_unit": "Volume 1, Overview and Recommendations (295 pp)",
+    "score": {"interest": 4, "source": 3, "size": 2, "licence": 5, "hook": 3},
+    "hook": "2027-03-23: support-scheme payments in England transfer to the Infected Blood Compensation Authority (Wales 15 Jan, Scotland and NI 1 Feb 2027); 20 May 2027 is the 3rd anniversary of the report",
+    "why": "The largest treatment disaster in NHS history, with compensation still being paid out and reshaped through 2027.",
+    "notes": "Hook re-checked 2026-11-22: government response to the scheme-changes consultation and the Technical Expert Group's final advice were published 14 April 2026; fourth compensation regulations in force 24 July 2026 (applied from 1 Oct 2026); IBCA had paid over £2bn by March 2026; interim chair Sir Robert Francis's term ended 22 Nov 2026. No further Inquiry report scheduled. Source and size unchanged from gqsy.7 (not re-fetched)."
+  },
+  {
+    "id": "uk-iicsa-final-report",
+    "official_url": "https://www.gov.uk/government/publications/iicsa-report-of-the-independent-inquiry-into-child-sexual-abuse",
+    "format": "gov.uk accessible HTML in two parts (Section 1 and Section 2 Parts A-J; Part K and annexes) plus a tagged PDF (InDesign 17.4, 468 pp)",
+    "pages": 468,
+    "first_unit": "Foreword and Executive Summary (printed pp. vii-18, about 25 pp, with the recommendations); the rest of the report next, from the same HTML",
+    "score": {"interest": 4, "source": 5, "size": 4, "licence": 5, "hook": 3},
+    "hook": "2027-04-29: earliest commencement of the mandatory reporting duty (Crime and Policing Act 2026, s.85), IICSA's central recommendation; the national grooming gangs inquiry (Baroness Longfield, from spring 2026) also cites IICSA",
+    "why": "The seven-year national inquiry whose recommendations are now law; clean HTML and a tagged PDF.",
+    "notes": "Checked 2026-11-22: no separate executive-summary file on gov.uk, but the Executive Summary is a distinct front section of the report (contents: Foreword vii, Executive Summary 1, Section I Victims and Survivors' Voices 19), so it can be a first unit; size scored 4 rather than 5 because it is a slice of one document whose whole is easy anyway. PDF Tagged: yes, OGL v3 printed on the reverse of the title page. Crime and Policing Act 2026 received Royal Assent 29 April 2026; a 5 June 2026 answer says the duty commences no earlier than 12 months after. Affected community: decision 63cd, no marketing or cards."
+  },
+  {
+    "id": "uk-mid-staffordshire-inquiry",
+    "official_url": "https://www.gov.uk/government/publications/report-of-the-mid-staffordshire-nhs-foundation-trust-public-inquiry",
+    "format": "Born-digital untagged PDFs (InDesign CS5, Adobe PDF Library 9.9); Executive Summary a separate PDF",
+    "pages": 1919,
+    "first_unit": "Executive Summary (HC 947, 125 pp, separate PDF 0947.pdf, includes all 290 recommendations)",
+    "score": {"interest": 3, "source": 3, "size": 4, "licence": 5, "hook": 2},
+    "hook": "2027-02-06: 14th anniversary of the Francis Report (weak); follow-up to the Thirlwall Inquiry report (15 Sept 2026) keeps NHS candour and safety culture in the news",
+    "why": "The founding text of NHS duty of candour and patient-safety reform, and its 125-page executive summary is a bounded first unit.",
+    "notes": "Checked 2026-11-22: Executive Summary downloaded (125 pp, Tagged: no), text clean, paragraph numbers extract as separate lines (e.g. '82', '83'). Size raised from 1 to 4 because the Executive Summary is its own PDF under 150 pages. Hook raised from 1 to 2 for the Thirlwall follow-up (government and NHS actions tracked to 31 Mar 2027 per commentary), no firm date. OGL."
+  },
+  {
+    "id": "us-ccr-voting-rights-2018",
+    "official_url": "https://www.usccr.gov/files/pubs/2018/Minority_Voting_Access_2018.pdf",
+    "format": "Born-digital untagged PDF (Word 2013 via Quartz), per-page footnotes",
+    "pages": 406,
+    "first_unit": "The whole report (406 pp) less commissioners' statements and rebuttals, which follow as a second unit",
+    "score": {"interest": 4, "source": 3, "size": 2, "licence": 5, "hook": 2},
+    "hook": "2027-06-25: 14th anniversary of Shelby County v. Holder (weak); Louisiana v. Callais was decided 29 April 2026, so that peg has passed",
+    "why": "The main federal fact-finding on voting access since Shelby County, now more relevant after Callais narrowed Section 2, but the decision peg is gone.",
+    "notes": "Re-checked 2026-11-22: the Supreme Court decided Louisiana v. Callais on 29 April 2026 (6-3, Louisiana's second majority-Black district struck down; new limits on race in Section 2 cases), and the 2026 midterms (3 Nov) have passed, so the hook drops from 4 to 2. Ongoing mid-decade redistricting fights into 2028 give general relevance but no dated peg in the window. Keep parked unless a VRA bill or a new redistricting ruling lands. Source not re-fetched."
+  }
+]

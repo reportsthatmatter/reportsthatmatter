@@ -249,8 +249,9 @@ describe("backlog keys and the board (project 2601)", () => {
       cand("low", { score: full(2) }),
       cand("high", { score: full(4) }),
       cand("hooked", { score: full(3), hook: "2027-01-10: anniversary" }),
-    ]).map((u) => u.id);
-    expect(order).toEqual(["hooked", "high", "low", "partly", "unscored", "parked"]);
+      cand("past", { score: full(1), hook: "2026-01-01: last year" }),
+    ], "2026-11-22").map((u) => u.id);
+    expect(order).toEqual(["hooked", "high", "low", "past", "partly", "unscored", "parked"]);
   });
 
   it("maps every stage to a label, and keeps the stage ids", () => {
