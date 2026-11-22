@@ -27,7 +27,7 @@ From a terminal in the site repo: `bd q "Report idea: <report name>" -l report-i
 
 ## Triage: idea to backlog
 
-An agent (the `report-pipeline` skill) takes an idea bead, checks the official source, licence and size, and scores it 1 to 5 on each of interest, source, size, licence and hook (out of 25; `null` where unchecked). If it is worth doing, it adds a `reached: candidate` row (`issue:` only for an idea that came from a GitHub issue); either way it closes the idea bead with a pointer to the row or the reason. The board orders the backlog: unblocked first, then fully scored, then the nearest hook date, then the score total.
+An agent (the `report-pipeline` skill) takes an idea bead, checks the official source, licence and size, and scores it 1 to 5 on each of interest, source, size, licence and hook (out of 25; `null` where unchecked). Licence is recorded but is never on its own a reason to park or reject an idea (Rufus, 2026-11-22). If it is worth doing, it adds a `reached: candidate` row (`issue:` only for an idea that came from a GitHub issue); either way it closes the idea bead with a pointer to the row or the reason. The board orders the backlog: unblocked first, then fully scored, then the nearest hook date, then the score total.
 
 ## The eight stages
 

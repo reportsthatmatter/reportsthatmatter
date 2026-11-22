@@ -24,7 +24,7 @@
 #                                    (default: its id and registry title)
 # Backlog keys, for candidate rows (project 2601, projects/2601-report-backlog-and-status/):
 #   title: "..."                     the report's name; required when the id is not in the registry
-#   score: {interest, source, size, licence, hook}   each 1-5, null where unchecked (out of 25)
+#   score: {interest, source, size, licence, hook}   each 1-5, null where unchecked (out of 25); licence is noted, never a reason to park or reject (Rufus, 2026-11-22)
 #   hook: "YYYY-MM-DD: why now"      why now, starting with its date where there is one
 #   issue: N                         the GitHub issue an older idea came from (before 2026-11-22)
 # Ideas not yet triaged are open beads labelled report-idea (bd q "Report idea: <name>" -l report-idea), not rows here. Beads hold work on a
@@ -371,11 +371,11 @@ units:
   - id: za-truth-reconciliation-commission
     title: "Truth and Reconciliation Commission of South Africa Report (1998-2003, 7 volumes)"
     reached: candidate
-    state: parked
+    state: active
     score: {interest: 4, source: 3, size: 1, licence: 2, hook: 3}
     hook: "2026-12-18: Khampepe Commission (into the suppression of TRC prosecutions) final report due; 26 Dec 2026 is the 5th anniversary of Desmond Tutu's death"
     evidence: "gqsy.1 (deferred); no earlier research found in GitHub issues (2026-10-03)"
-    notes: "Rescored 2026-11-22 (project 2602): One of the most important truth-commission reports anywhere, back in the news with the Khampepe Commission, but its rights are unclear. First unit: Volume 1 (512 pp: foreword, historical context, mandate, concepts, methodology); or Volume 5 (findings, recommendations, minority position) if findings matter more."
+    notes: "Rescored 2026-11-22 (project 2602): One of the most important truth-commission reports anywhere, back in the news with the Khampepe Commission, rights unclear (front matter reserves reproduction; no reuse statement). Unparked 2026-11-22: Rufus does not treat licence as a blocker. First unit: Volume 1 (512 pp: foreword, historical context, mandate, concepts, methodology); or Volume 5 (findings, recommendations, minority position) if findings matter more."
 
   # Researched 2026-11-22 (project 2602, projects/2602-report-backlog-research/): the strongest checked candidates.
   - id: us-dobbs-v-jackson
