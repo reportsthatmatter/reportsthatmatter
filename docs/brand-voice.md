@@ -27,7 +27,7 @@ When copy reads as bland, we have usually hedged about access. Being careful abo
 - **Exact.** Every claim can be checked. "p. 146", not "a key passage". "Volume 1 of 7", not "the Grenfell report".
 - **Dry.** We can be wry about PDFs, broken links and small capitals, never about what a report is about.
 - **Unhurried.** No urgency, no countdowns, no "now live". These reports are decades old.
-- **Journalistic, not cautious** (Rufus, 22 Nov 2026). Sober and correct, and also engaging: these reports are gripping and our editorial copy (taglines, introductions, posts) should make a reader want to open them. Write like a good journalist, who is both accurate and interesting: lead with the vivid, true detail (the teapot of polonium, the morning rebuilt minute by minute, the banker's email), not a hedged summary. Accuracy is about substance, not about stripping every phrase down to what a source states word for word. A critique pass checks that nothing is wrong or a verdict of ours; it does not sand the copy flat.
+- **Journalistic, not cautious** (Rufus, 22 Nov 2026). Sober and correct, and also engaging: these reports are gripping and our editorial copy (taglines, introductions, posts) should make a reader want to open them. Write like a good journalist, who is both accurate and interesting: lead with the vivid, true detail (the teapot of polonium, the morning rebuilt minute by minute, the banker's email), not a hedged summary. Accuracy is about substance, not about stripping every phrase down to what a source states word for word. A critique pass checks that nothing is wrong or a verdict of ours; it does not sand the copy flat. Worked examples, before and after, with why: [`brand-voice-examples.md`](brand-voice-examples.md).
 
 ## Do
 
@@ -51,7 +51,8 @@ When copy reads as bland, we have usually hedged about access. Being careful abo
 
 - **Titles and subject lines** name the report and year, then one thing: a page, or what we did. "Columbia Accident Investigation Board (2003), p. 203." No "reveals", "exposes", "shows"; no question titles.
 - **Citations:** "p. 146" for a printed page; "para 2.11.56" where the report numbers its paragraphs (UK inquiries are cited by paragraph, and the paragraph wins); "PDF p. 12" when the number is the file's. Year in brackets on first mention.
-- **Figures** for numbers. **British spelling** in our own text; a report's own spelling inside its quotations.
+- **Figures** for numbers. **US spelling** in our own text (organized, program, toward; Rufus, 22 Nov 2026); a report's own spelling inside its quotations, and its names as it spells them (the Ministry of Defence, the Iraq Inquiry's "programme"). Dates stay day-month-year: "28 January 1986".
+- **Sentence case for titles and headings** (Rufus, 22 Nov 2026): blog post titles, page titles and headings capitalize only the first word, the word after a colon, and proper names. "A treasure trove of facts that matter: why I built Reports that Matter".
 
 ## AI, criticism, removal
 

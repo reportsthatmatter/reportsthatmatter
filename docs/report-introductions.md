@@ -26,7 +26,7 @@ A report without an approved file keeps the plain contents page.
 | `status` | `approved` when it ships (Rufus reviews the live page afterwards); `draft` only for work that needs a second opinion first | |
 | `why_it_matters` | The standfirst under the title. Its first sentence is the page's meta description unless `description` is set | 2–4 sentences, 50–80 words |
 | `description` | Optional. The meta and og:description (what a link card and a search result show), at most 200 characters; checked by `pnpm editorial`. Without it the page uses the first sentence of `why_it_matters`, cut at a word boundary if longer | 1 sentence, under 200 characters |
-| `tagline` | The line under the report's title in the archive list (home page and /reports): what the report is and why it is worth opening, written like a good journalist's standfirst: lead with the vivid, true detail of the record (the emails, the documents, the morning rebuilt minute by minute) so a reader wants to open it (docs/brand-voice.md, "Journalistic, not cautious"). At most 160 characters; checked by `pnpm editorial`; `tests/homepage-order.test.ts` fails if a listed report has none | 1 sentence, 15–25 words |
+| `tagline` | The lines under the report's title in the archive list (home page and /reports). Two moves: open with the story, the event itself, concrete and dated, so it reads like the start of a film; then say what this document is ("This is Congress's own investigation of the disaster…"). Draw the facts from `background` and `why_it_matters`. See `docs/brand-voice-examples.md`. At most 320 characters; checked by `pnpm editorial`; `tests/homepage-order.test.ts` fails if a listed report has none | 2 sentences, 35–50 words |
 | `background` | What happened, who commissioned the report and why, when it was published, and what followed. Paragraphs separated by a blank line | 2–4 paragraphs, 200–300 words |
 | `findings` | What the report found. Each has `text` (ours), `cites` (paragraph ids), and optionally an `excerpt` (a quotation) | 5–8 findings; 3–4 with excerpts |
 | `reading_guide` | The sections to read first. Each has `section` (slug), optional `title`, `why`, and optional `excerpt` | 4–6 sections |
@@ -43,7 +43,7 @@ Our words are shown in the site's sans-serif and the report's in its serif. A no
 - **Record the other side where the report does.** If the report prints a response, a dissent or an objection (Trump's lawyers' letter at the end of Jack Smith), the background says so.
 - **Say what the report is and is not.** A prosecutor's report was never tested at trial; a public inquiry's findings are not a court's verdict; a Senate staff report is not a law. One clause is usually enough.
 - **Absolute dates, and the year early.** A reader needs to place it at once: 1986 or 2025. The header already carries the year; the background should date the events.
-- **British spelling** in our text (organised, programme), matching the site. Quotations keep the report's own spelling.
+- **US spelling** in our text (organized, program), matching the site (docs/brand-voice.md). Quotations keep the report's own spelling.
 - **No hard wrapping** in the YAML's prose beyond what YAML needs; folded scalars (`>-`, `|`) are fine.
 
 ## Writing each part
