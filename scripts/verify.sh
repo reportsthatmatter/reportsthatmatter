@@ -148,12 +148,12 @@ fi
 step "Pipeline record"
 # reports/pipeline.yaml says how far each unit has got; `pnpm pipeline status` derives the same from the
 # artefacts (manifest, full.md, golden pages, editorial, queue, changelog) and fails on a claim they do not
-# support. A warning for now, not a failure, while the record settles (reportsthatmatter-ifb5.9). Offline:
-# the served-hash check needs `pnpm pipeline status --network`.
+# support. A failure since 2026-11-22 (project 2601, Rufus): fix the row, or waive a known gap against the bead
+# that owns it (`waive:`). Offline: the served-hash check needs `pnpm pipeline status --network`.
 if pnpm pipeline status --check >"${RUN_DIR}/pipeline.log" 2>&1; then
   pass "reports/pipeline.yaml agrees with the artefacts"
 else
-  printf '  \033[33m!\033[0m reports/pipeline.yaml drifts from the artefacts (warning, not a failure); `pnpm pipeline status`\n'
+  fail "reports/pipeline.yaml drifts from the artefacts; \`pnpm pipeline status\`"
   sed -n '/^problems/,/^$/p' "${RUN_DIR}/pipeline.log" | head -12
 fi
 

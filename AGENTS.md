@@ -20,7 +20,7 @@ change; it usually isn't (see its "what needs a deploy?" table).
 **[docs/report-pipeline.md](docs/report-pipeline.md)** is *how a report
 ships*: the backlog, the eight stages, where each report's status is recorded
 (`reports/pipeline.yaml`; view: `pnpm pipeline status --board`) and how a new
-idea gets in (a GitHub issue labelled `report-idea`). Read it first for any
+idea gets in (a bead labelled `report-idea`, never a GitHub issue). Read it first for any
 report work; it points at the guide for each stage.
 **[docs/release-checklist.md](docs/release-checklist.md)** is *the integrator's
 ordered steps* from an ingest release to production verify, with the command
@@ -71,8 +71,8 @@ Beads is the source of truth for agent-actionable work. Start each session with
 `git pull`, `bd dolt pull`, and `bd ready`; create or update a Bead for work an
 agent can undertake, including work linked to a GitHub issue. Beads owns task
 detail, status, priority, dependencies, and acceptance criteria. GitHub keeps
-human-created/public issues, report ideas (`report-idea`), broad epics, and
-discussion. The report backlog and status live in `reports/pipeline.yaml`, not
+human-created/public issues, broad epics, and discussion (report ideas are
+`report-idea` beads, not issues). The report backlog and status live in `reports/pipeline.yaml`, not
 in Beads.
 Do not maintain a separate next-work list. At session end run `bd dolt push`
 before committing and pushing. See [`docs/beads-sync.md`](docs/beads-sync.md)

@@ -9,7 +9,7 @@
 #   AGENTS.md            house rules, the done condition, gotchas
 #   docs/ROADMAP.md      what we might build and why (the thinking)
 #   this file            product feature history and verification conditions
-#   GitHub issues        report ideas (label report-idea); the backlog is reports/pipeline.yaml
+#   reports/pipeline.yaml  the report backlog (ideas: beads labelled report-idea)
 #
 # To resume: `bd dolt pull`, then `bd ready`. Run `./scripts/init.sh` to
 # bootstrap a cold checkout and execute the full verification gate.
@@ -226,7 +226,7 @@
     us-v-philip-morris, uk-hillsborough-panel — all born-digital, all clean,
     all passing the fidelity gate (retention 96.6–99.7%). The backlog
     is now the candidate rows of reports/pipeline.yaml (pnpm pipeline
-    status --board; project 2601, 2026-11-22), fed by GitHub issues
+    status --board; project 2601, 2026-11-22), fed by beads
     labelled report-idea. FCIC (#57/#102 — the PDF drops every
     digit on extraction) is still ruled out. Each report gets its own repo
     under the org holding the source PDF, cloned as a sibling directory,

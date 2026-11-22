@@ -17,7 +17,7 @@ How a report gets from a source PDF to a published, trustworthy page on Reports 
 
 ## 1. Choose the report and check the source
 
-The backlog is the `reached: candidate` rows of `reports/pipeline.yaml`, ordered by `pnpm pipeline status --board`; new ideas arrive as GitHub issues labelled `report-idea` ([`report-pipeline.md`](report-pipeline.md)). A candidate is scored 1 to 5 on interest, source, size, licence and hook: news relevance, quotability, and a source document that can be linked to paragraph by paragraph count most.
+The backlog is the `reached: candidate` rows of `reports/pipeline.yaml`, ordered by `pnpm pipeline status --board`; new ideas arrive as beads labelled `report-idea` ([`report-pipeline.md`](report-pipeline.md)). A candidate is scored 1 to 5 on interest, source, size, licence and hook: news relevance, quotability, and a source document that can be linked to paragraph by paragraph count most.
 
 **Check the PDF's text layer before committing to it.** Two scans of the same document can differ enormously: NASA's Rogers Commission scan was unusable where the GPO text was clean, and FCIC's PDF drops every digit on extraction, so it is still ruled out. Run `pdftotext` on a few pages, and prefer the born-digital official publication over a scan of it.
 
@@ -97,7 +97,8 @@ Decide where a piece of content goes by what consumes it, not by who wrote it. T
 | --- | --- | --- |
 | Agent-actionable work, status, priority | Beads | The source of truth; see AGENTS.md |
 | Report backlog and each report's status | `reports/pipeline.yaml` (`pnpm pipeline status --board`) | Machine-checked against the artefacts |
-| Public issues, report ideas (`report-idea`), discussion | GitHub issues | Human-created and public |
+| Report ideas not yet triaged | Beads, label `report-idea` | Quick capture; triage moves them to `reports/pipeline.yaml` |
+| Public issues, discussion | GitHub issues | Human-created and public |
 | How a report was processed, for readers | `PROCESSING.md` in the report's repo | The one file the site publishes per report |
 | How a report is built, for maintainers | The report's README and `ingest.ts` | Read on GitHub, not published |
 | OCR suspects awaiting review | `fidelity.md` (generated) and `corrections.yaml` (judgements) | Generated queue; deterministic corrections |

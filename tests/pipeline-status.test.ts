@@ -266,15 +266,17 @@ describe("backlog keys and the board (project 2601)", () => {
     expect(board.preparing.map((p) => [p.id, p.stage])).toEqual([["r1", "repo ready"]]);
     expect(board.live).toEqual([{ id: "r1", title: "The R1 Report", units: 2, live: 1, announced: false, posts: 3, waiting: true }]);
     const text = formatBoard(board);
-    expect(text).toContain("needs --network");
+    expect(text).toContain("not listed: bd list --label report-idea");
     expect(text).toContain("1/2 units live; waiting to announce; 3 posts queued");
   });
 
-  it("lists the inbox when the issues are given, and says why when they could not be", async () => {
+  it("lists the inbox when the idea beads are given, and says why when they could not be", async () => {
     const root = fixture(null, { title: "R1" });
     const r = await pipelineStatus({ root });
-    expect(formatBoard(buildBoard(r, { root, inbox: [{ number: 7, title: "Hutton Inquiry" }] }))).toContain("#7  Hutton Inquiry");
-    expect(formatBoard(buildBoard(r, { root, inbox: { error: "gh: not logged in" } }))).toContain("could not list: gh: not logged in");
+    const text = formatBoard(buildBoard(r, { root, inbox: [{ id: "rtm-7", title: "Report idea: Hutton Inquiry" }] }));
+    expect(text).toContain("INBOX: 1 ideas");
+    expect(text).toMatch(/rtm-7\s+Hutton Inquiry/);
+    expect(formatBoard(buildBoard(r, { root, inbox: { error: "bd: no database" } }))).toContain("could not list: bd: no database");
   });
 
   it("gives a candidate row the sourcing skill as its next action", async () => {

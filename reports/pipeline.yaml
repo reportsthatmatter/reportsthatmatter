@@ -26,8 +26,8 @@
 #   title: "..."                     the report's name; required when the id is not in the registry
 #   score: {interest, source, size, licence, hook}   each 1-5, null where unchecked (out of 25)
 #   hook: "YYYY-MM-DD: why now"      why now, starting with its date where there is one
-#   issue: N                         the GitHub issue (label report-idea) the idea came from
-# Ideas not yet triaged are open GitHub issues labelled report-idea, not rows here. Beads hold work on a
+#   issue: N                         the GitHub issue an older idea came from (before 2026-11-22)
+# Ideas not yet triaged are open beads labelled report-idea (bd q "Report idea: <name>" -l report-idea), not rows here. Beads hold work on a
 # unit (the `bead:` key), never the backlog or a status. Promote is shown from marketing/queue.yaml.
 
 units:

@@ -24,8 +24,8 @@
  *
  * The backlog is rows at `candidate` (reportsthatmatter project 2601): a candidate row may carry `title` (required
  * when the id is not in the registry), `score` (the five 1-5 scores, null where unchecked), `hook` (a short string,
- * starting with its ISO date where there is one) and `issue` (the GitHub issue it came from). `--board` groups every
- * row into Inbox (open `report-idea` issues, network only), Backlog, In preparation and Live.
+ * starting with its ISO date where there is one) and `issue` (the GitHub issue an older idea came from). `--board` groups every
+ * row into Inbox (open beads labelled `report-idea`), Backlog, In preparation and Live.
  *
  * Pure of process state: every input is a path or an injected probe, so tests build fixtures in a tmp dir.
  */
@@ -63,7 +63,7 @@ export type Unit = {
   score?: Score;
   /** Why now: a short string, starting with its ISO date when there is one ("2027-02-24: 28th anniversary"). */
   hook?: string;
-  /** The GitHub issue the idea came from. */
+  /** The GitHub issue the idea came from (ideas before 2026-11-22; new ideas are `report-idea` beads). */
   issue?: number;
   bead?: string;
   reached: Stage;
@@ -448,8 +448,8 @@ export const STAGE_LABEL: Record<Stage, string> = {
   promote: "announced",
 };
 
-/** Open `report-idea` issues, or why they could not be listed; injected so tests need no gh. */
-export type Idea = { number: number; title: string };
+/** An open `report-idea` bead (a report idea not yet triaged); listed by the CLI, injected so tests need no bd. */
+export type Idea = { id: string; title: string };
 
 export const scoreTotal = (score?: Score): number | null => {
   const checked = Object.values(score ?? {}).filter((v): v is number => typeof v === "number");
@@ -523,11 +523,11 @@ export function buildBoard(r: { statuses: UnitStatus[] }, opts: { root: string; 
 export function formatBoard(b: Board): string {
   const cut = (s: string | undefined, n: number) => (!s ? "" : s.length > n ? s.slice(0, n - 1) + "…" : s);
   const out: string[] = [];
-  out.push("INBOX: ideas not yet triaged (open GitHub issues labelled report-idea)");
-  if (b.inbox === null) out.push("  (needs --network: gh issue list --repo reportsthatmatter/reportsthatmatter --label report-idea)");
+  out.push(`INBOX: ${b.inbox && !("error" in b.inbox) ? `${b.inbox.length} ` : ""}ideas not yet triaged (open beads labelled report-idea)`);
+  if (b.inbox === null) out.push("  (not listed: bd list --label report-idea --status open)");
   else if ("error" in b.inbox) out.push(`  (could not list: ${b.inbox.error})`);
   else if (!b.inbox.length) out.push("  none");
-  else for (const i of b.inbox) out.push(`  #${i.number}  ${i.title}`);
+  else for (const i of b.inbox) out.push(`  ${i.id.padEnd(24)}  ${i.title.replace(/^Report idea:\s*/i, "")}`);
 
   out.push("", `BACKLOG: ${b.backlog.length} candidates, next first (unblocked, fully scored, nearest hook, score total)`);
   for (const c of b.backlog) {

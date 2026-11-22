@@ -77,9 +77,9 @@ Issue tree:
 
 No LTP run (Rufus, 2026-11-22: a Fable critique of the SCQ, then a plan, then implement). Critique: [critique-fable-2026-11-22.md](2601-report-backlog-and-status/critique-fable-2026-11-22.md). Plan: [plan.md](2601-report-backlog-and-status/plan.md) (written by Opus; the Fable planner hit its usage limit).
 
-Built 2026-11-22 (branch `pipeline-1121`): candidate rows with `title`, `score`, `hook`, `issue` in `reports/pipeline.yaml`; `pnpm pipeline status --board`; the "Suggest a report" issue form and the `report-idea` label (19 issues labelled); the 17 check problems cleared (legacy gaps waived against `reportsthatmatter-i6i2`); 8 candidate beads migrated and closed; the `candidate`, `candidates` and `stage-text` labels removed; the docs rewritten. How it works now: [`docs/report-pipeline.md`](../docs/report-pipeline.md).
+Built 2026-11-22 (branch `pipeline-1121`): candidate rows with `title`, `score`, `hook`, `issue` in `reports/pipeline.yaml`; `pnpm pipeline status --board`; report ideas as `report-idea` beads (the 19 GitHub idea issues moved into beads and closed; Rufus, 2026-11-22: no GitHub issues for this); the 17 check problems cleared (legacy gaps waived against `reportsthatmatter-i6i2`); 8 candidate beads migrated and closed; the `candidate`, `candidates` and `stage-text` labels removed; the docs rewritten. How it works now: [`docs/report-pipeline.md`](../docs/report-pipeline.md).
 
-Waiting on Rufus: closing 13 stale public issues (plan step 8); making the check a hard failure in `verify.sh`; whether triage closes the idea issue.
+Rufus said yes (2026-11-22) to closing the 13 stale issues (done), to the check failing `verify.sh` (done) and to triage closing the idea (now the idea bead).
 
 Follow-on (Rufus, 2026-11-22: "what I really want ... is get a good backlog of reports"): few vetted candidates are waiting (11 backlog rows, 5 fully scored), so research which reports to add and fill the backlog. That gets its own brief.
 

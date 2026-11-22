@@ -4,8 +4,8 @@
  * the stage recorded, and the next action. See scripts/lib/pipeline-status.ts for what is derived and
  * how a claim is judged (reportsthatmatter-ifb5.9).
  *
- *   --board     every row by stage instead: Inbox (open report-idea issues; with --network), Backlog (candidate
- *               rows, next first), In preparation, Live (project 2601)
+ *   --board     every row by stage instead: Inbox (open beads labelled report-idea), Backlog (candidate rows,
+ *               next first), In preparation, Live (project 2601)
  *   --check     exit 1 on drift (a claim the artefacts do not support, or a record that is behind them)
  *   --network   also compare the served content hash with this checkout's prerender (publish-report
  *               --all --status's code; needs `pnpm prerender`); --base defaults to production
@@ -59,14 +59,12 @@ if (args.includes("--network")) {
 
 const result = await pipelineStatus({ root, deep: args.includes("--deep"), publish, env: process.env });
 if (args.includes("--board")) {
-  let inbox = null;
-  if (args.includes("--network")) {
-    try {
-      const out = execFileSync("gh", ["issue", "list", "--repo", "reportsthatmatter/reportsthatmatter", "--label", "report-idea", "--state", "open", "--limit", "200", "--json", "number,title"], { encoding: "utf8" });
-      inbox = JSON.parse(out);
-    } catch (error) {
-      inbox = { error: String(error.stderr || error.message).split("\n")[0] };
-    }
+  let inbox;
+  try {
+    const out = execFileSync("bd", ["list", "--label", "report-idea", "--status", "open", "--limit", "0", "--json"], { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+    inbox = (JSON.parse(out) ?? []).map((i) => ({ id: i.id, title: i.title }));
+  } catch (error) {
+    inbox = { error: String(error.stderr || error.message).split("\n")[0] };
   }
   const board = buildBoard(result, { root, inbox });
   console.log(args.includes("--json") ? JSON.stringify(board, null, 2) : formatBoard(board));
