@@ -3,7 +3,7 @@ import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { formatStatus, hasDrift, pinnedFiles, pipelineStatus, readRecord } from "../scripts/lib/pipeline-status";
+import { backlogOrder, buildBoard, formatBoard, formatStatus, hasDrift, pinnedFiles, pipelineStatus, readRecord, STAGE_LABEL, type Unit } from "../scripts/lib/pipeline-status";
 
 const sha = (s: string) => createHash("sha256").update(s).digest("hex");
 const put = (file: string, text: string) => {
@@ -25,7 +25,7 @@ function fixture(upTo: Stage | null, unit: Record<string, unknown> = {}, extra: 
   const repo = join(base, "r1-repo");
   const has = (s: Stage) => upTo !== null && ORDER.indexOf(s) <= ORDER.indexOf(upTo);
   const pdf = "the pdf";
-  put(join(root, "reports/pipeline.yaml"), yaml({ units: [{ id: "r1", scope: "the report", reached: "candidate", state: "active", ...unit }, ...(extra.more ?? [])] }));
+  put(join(root, "reports/pipeline.yaml"), yaml({ units: [{ id: "r1", title: "The R1 Report", scope: "the report", reached: "candidate", state: "active", ...unit }, ...(extra.more ?? [])] }));
   put(join(root, "reports/manifest.yaml"), yaml({ reports: has("repo") ? [{ id: "r1", dir: "../r1-repo" }] : [] }));
   put(join(root, "reports/registry.yaml"), yaml({ reports: has("evaluate") ? [{ id: "r1", title: "The R1 Report", ingested: true }] : [] }));
   if (has("evaluate")) put(join(root, "reports/corpus-baseline/r1.json"), "{}");
@@ -216,6 +216,69 @@ describe("the whole record", () => {
     expect(text).toContain("r1 (the report)");
     expect(text).toContain("parked (rtm-9): report-evaluate: registered");
     expect(text).toContain("agrees with the artefacts");
+  });
+});
+
+describe("backlog keys and the board (project 2601)", () => {
+  const cand = (id: string, extra: Partial<Unit> = {}): Unit => ({ id, title: id.toUpperCase(), reached: "candidate", state: "active", ...extra });
+  const full = (n: number) => ({ interest: n, source: n, size: n, licence: n, hook: n });
+
+  it("accepts well-formed backlog keys on a candidate row", () => {
+    const root = fixture(null, { title: "The R1 Report", score: { interest: 4, source: null }, hook: "2027-02-24: anniversary", issue: 12 });
+    expect(readRecord(root).problems).toEqual([]);
+  });
+
+  it("rejects a candidate with no title when its id is not registered, a bad score and a bad issue", () => {
+    for (const [unit, msg] of [
+      [{ title: undefined }, "needs a title"],
+      [{ title: "T", score: { interest: 6 } }, "score interest"],
+      [{ title: "T", score: { charm: 3 } }, 'score key "charm"'],
+      [{ title: "T", issue: "twelve" }, "is not an issue number"],
+    ] as const) {
+      const r = readRecord(fixture(null, unit as Record<string, unknown>));
+      expect(r.problems.join("\n")).toContain(msg);
+      expect(r.units).toEqual([]);
+    }
+  });
+
+  it("orders the backlog: unblocked, then fully scored, then nearest hook, then score total", () => {
+    const order = backlogOrder([
+      cand("unscored"),
+      cand("parked", { state: "parked", score: full(5) }),
+      cand("partly", { score: { interest: 5 }, hook: "2026-12-01: soon" }),
+      cand("low", { score: full(2) }),
+      cand("high", { score: full(4) }),
+      cand("hooked", { score: full(3), hook: "2027-01-10: anniversary" }),
+    ]).map((u) => u.id);
+    expect(order).toEqual(["hooked", "high", "low", "partly", "unscored", "parked"]);
+  });
+
+  it("maps every stage to a label, and keeps the stage ids", () => {
+    expect(STAGE_LABEL.candidate).toBe("backlog");
+    expect(STAGE_LABEL.ingest).toBe("markdown done");
+    expect(STAGE_LABEL.publish).toBe("live");
+  });
+
+  it("groups rows into backlog, in preparation and live, counting a two-unit report once with its queued posts", async () => {
+    const root = fixture("promote", { reached: "publish", state: "waiting" }, { more: [{ id: "r1", scope: "volume 2", reached: "repo", state: "active" }, { id: "r9", title: "Nine", reached: "candidate", state: "active", issue: 9 }] });
+    const board = buildBoard(await pipelineStatus({ root }), { root });
+    expect(board.backlog.map((c) => [c.id, c.issue])).toEqual([["r9", 9]]);
+    expect(board.preparing.map((p) => [p.id, p.stage])).toEqual([["r1", "repo ready"]]);
+    expect(board.live).toEqual([{ id: "r1", title: "The R1 Report", units: 2, live: 1, announced: false, posts: 3, waiting: true }]);
+    const text = formatBoard(board);
+    expect(text).toContain("needs --network");
+    expect(text).toContain("1/2 units live; waiting to announce; 3 posts queued");
+  });
+
+  it("lists the inbox when the issues are given, and says why when they could not be", async () => {
+    const root = fixture(null, { title: "R1" });
+    const r = await pipelineStatus({ root });
+    expect(formatBoard(buildBoard(r, { root, inbox: [{ number: 7, title: "Hutton Inquiry" }] }))).toContain("#7  Hutton Inquiry");
+    expect(formatBoard(buildBoard(r, { root, inbox: { error: "gh: not logged in" } }))).toContain("could not list: gh: not logged in");
+  });
+
+  it("gives a candidate row the sourcing skill as its next action", async () => {
+    expect((await only(fixture(null, { title: "R1" }))).next).toBe("report-source");
   });
 });
 

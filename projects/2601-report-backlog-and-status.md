@@ -2,8 +2,8 @@
 title: Report backlog and status
 description: One record and one view of every report, from proposed to announced, and a good backlog of reports to add next.
 created: 2026-11-22
-status: next
-phase: shaping
+status: in-progress
+phase: shipping
 parent: "[[reports-that-matter]]"
 github: https://github.com/reportsthatmatter/reportsthatmatter
 workspace: ~/src/reportsthatmatter/reportsthatmatter
@@ -75,9 +75,13 @@ Issue tree:
 
 ## Next
 
-LTP not yet run. Run `ltp-project` (or `reason-commons`) on this file in a new thread. Then turn the result into beads and an implementation plan, and build it.
+No LTP run (Rufus, 2026-11-22: a Fable critique of the SCQ, then a plan, then implement). Critique: [critique-fable-2026-11-22.md](2601-report-backlog-and-status/critique-fable-2026-11-22.md). Plan: [plan.md](2601-report-backlog-and-status/plan.md) (written by Opus; the Fable planner hit its usage limit).
 
-Follow-on (Rufus, 2026-11-22: "what I really want ... is get a good backlog of reports"): few vetted candidates are waiting (about 8 open in Beads, mostly P3), so when current units finish the supervisor has little ready to pick. Once the record is in place, research which reports to add and fill the backlog; that gets its own SCQ or brief.
+Built 2026-11-22 (branch `pipeline-1121`): candidate rows with `title`, `score`, `hook`, `issue` in `reports/pipeline.yaml`; `pnpm pipeline status --board`; the "Suggest a report" issue form and the `report-idea` label (19 issues labelled); the 17 check problems cleared (legacy gaps waived against `reportsthatmatter-i6i2`); 8 candidate beads migrated and closed; the `candidate`, `candidates` and `stage-text` labels removed; the docs rewritten. How it works now: [`docs/report-pipeline.md`](../docs/report-pipeline.md).
+
+Waiting on Rufus: closing 13 stale public issues (plan step 8); making the check a hard failure in `verify.sh`; whether triage closes the idea issue.
+
+Follow-on (Rufus, 2026-11-22: "what I really want ... is get a good backlog of reports"): few vetted candidates are waiting (11 backlog rows, 5 fully scored), so research which reports to add and fill the backlog. That gets its own brief.
 
 ## Appendix: audit, 2026-11-21
 

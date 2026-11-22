@@ -1,6 +1,6 @@
 # Preparing a report
 
-How a report gets from a source PDF to a published, trustworthy page on Reports that Matter. This is stage 1 of [the pipeline](report-pipeline.md): the text on its plain contents page, which ships on its own; the introduction and imagery follow as separate stages. Read this when you are adding a report or a further volume of one, re-ingesting an existing report, or writing a report's processing notes. You do not need it for site code, design or deploys on their own; [`ARCHITECTURE.md`](ARCHITECTURE.md) and [`AGENTS.md`](../AGENTS.md) cover those.
+How a report gets from a source PDF to a published, trustworthy page on Reports that Matter. It covers the text stages (source to evaluate) of [the pipeline](report-pipeline.md): the text on its plain contents page, which ships on its own; the introduction and imagery follow as separate stages. Read this when you are adding a report or a further volume of one, re-ingesting an existing report, or writing a report's processing notes. You do not need it for site code, design or deploys on their own; [`ARCHITECTURE.md`](ARCHITECTURE.md) and [`AGENTS.md`](../AGENTS.md) cover those.
 
 **Status: first draft, written 2026-09-20** from the Bloody Sunday Inquiry (Saville, Vol I) ingest and the processing-notes trial. It has not yet been followed cold by someone who did not write it. When a run teaches you something this file got wrong or left out, fix it in the same change. Improvement work is tracked in Beads (`bd search "report-preparation"`).
 
@@ -17,7 +17,7 @@ How a report gets from a source PDF to a published, trustworthy page on Reports 
 
 ## 1. Choose the report and check the source
 
-Candidates live as GitHub issues (`docs/v2-features.yaml`, the `more-reports` entry, lists them) and as Beads. What makes a good candidate is in [`plans/brief-2026-01-13-good-reports.md`](plans/brief-2026-01-13-good-reports.md): news relevance, quotability, a source document that can be linked to paragraph by paragraph.
+The backlog is the `reached: candidate` rows of `reports/pipeline.yaml`, ordered by `pnpm pipeline status --board`; new ideas arrive as GitHub issues labelled `report-idea` ([`report-pipeline.md`](report-pipeline.md)). A candidate is scored 1 to 5 on interest, source, size, licence and hook: news relevance, quotability, and a source document that can be linked to paragraph by paragraph count most.
 
 **Check the PDF's text layer before committing to it.** Two scans of the same document can differ enormously: NASA's Rogers Commission scan was unusable where the GPO text was clean, and FCIC's PDF drops every digit on extraction, so it is still ruled out. Run `pdftotext` on a few pages, and prefer the born-digital official publication over a scan of it.
 
@@ -96,7 +96,8 @@ Decide where a piece of content goes by what consumes it, not by who wrote it. T
 | Content | Home | Why |
 | --- | --- | --- |
 | Agent-actionable work, status, priority | Beads | The source of truth; see AGENTS.md |
-| Public issues, report candidates, discussion | GitHub issues | Human-created and public |
+| Report backlog and each report's status | `reports/pipeline.yaml` (`pnpm pipeline status --board`) | Machine-checked against the artefacts |
+| Public issues, report ideas (`report-idea`), discussion | GitHub issues | Human-created and public |
 | How a report was processed, for readers | `PROCESSING.md` in the report's repo | The one file the site publishes per report |
 | How a report is built, for maintainers | The report's README and `ingest.ts` | Read on GitHub, not published |
 | OCR suspects awaiting review | `fidelity.md` (generated) and `corrections.yaml` (judgements) | Generated queue; deterministic corrections |

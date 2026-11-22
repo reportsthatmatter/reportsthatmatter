@@ -1,32 +1,56 @@
-# How a report ships: the stages
+# How a report ships: backlog, stages and status
 
-A report reaches the site in stages, and each stage ships on its own. Nothing waits for a later stage, and nothing waits for Rufus's review. Read this before starting work on any report; it says which guide covers each stage and how Beads tracks where every report stands.
+Every report on Reports that Matter goes from an idea to a live, announced page through eight stages, and each stage ships on its own. This page says where each report stands is recorded, how a new idea gets in, and which guide covers each stage. Read it before starting work on any report.
 
-**Status: first version, 2026-09-26** (Rufus, 2026-09-26: "ship reports incrementally"; `reportsthatmatter-hxq`).
+**Status: rewritten 2026-11-22** for project 2601 ([`projects/2601-report-backlog-and-status.md`](../projects/2601-report-backlog-and-status.md)); it replaces the three-stage version of 2026-09-26. The stage design, gates and models: [`design/2026-10-03-report-preparation-pipeline.md`](design/2026-10-03-report-preparation-pipeline.md). Supervisors start with the `report-pipeline` skill.
 
-**The eight preparation stages** (source, repo, first ingest, evaluate, editorial, publish, announce, promote), one skill each under `.claude/skills/report-*/`, refine the three stages below: [`design/2026-10-03-report-preparation-pipeline.md`](design/2026-10-03-report-preparation-pipeline.md) (ifb5). Where each unit stands: `reports/pipeline.yaml`, checked against the artefacts by `pnpm pipeline status [--check] [--network]`. Supervisors start with the `report-pipeline` skill.
+## Where everything stands: one command
 
-## The stages
+```sh
+pnpm pipeline status --board            # Inbox (with --network), Backlog, In preparation, Live
+pnpm pipeline status --board --network  # also lists the open report-idea issues (needs gh)
+pnpm pipeline status [--check]          # each unit's recorded stage against its artefacts
+```
 
-| Stage | What ships | Guide | Label |
+| Status | Where it is recorded |
+| --- | --- |
+| **Inbox**: an idea, not yet looked at | An open GitHub issue labelled `report-idea` |
+| **Backlog**: triaged, scored, waiting | A row in [`reports/pipeline.yaml`](../reports/pipeline.yaml) at `reached: candidate`, with `title`, `score`, `hook`, `issue` |
+| **In preparation** | The same row, `reached:` source (sourced), repo (repo ready), ingest (markdown done), evaluate (checked) or editorial (introduction done) |
+| **Live** | `reached: publish` |
+| **Announced** | `reached: announce`; most live reports are `state: waiting` for the launch (`y2t.6`) |
+
+Posts queued for a report are read from `marketing/queue.yaml`; they are shown on the board, not recorded as a stage. A row is a report id plus a scope (a set of volumes); a further volume of a live report is its own row. A row is never one per PR or batch.
+
+## A new idea: one step
+
+Open an issue with the **Suggest a report** form (on the GitHub app or site: New issue), or from a terminal: `gh issue create --repo reportsthatmatter/reportsthatmatter --label report-idea --title "<report name>"`. Only the name is needed. Readers can use the same form.
+
+## Triage: idea to backlog
+
+An agent (the `report-pipeline` skill) takes an inbox issue, checks the official source, licence and size, and scores it 1 to 5 on each of interest, source, size, licence and hook (out of 25; `null` where unchecked). If it is worth doing, it adds a `reached: candidate` row with `issue:` set; if not, it says why on the issue. The board orders the backlog: unblocked first, then fully scored, then the nearest hook date, then the score total.
+
+## The eight stages
+
+| # | Stage | Skill | Board label |
 | --- | --- | --- | --- |
-| 1. Text | The transcribed report on its plain contents page, with its plate and share card | [`report-preparation.md`](report-preparation.md) | `stage-text` |
-| 2. Introduction | The landing page: standfirst, background, findings, reading guide, plus Rufus's highlights | [`report-introductions.md`](report-introductions.md) | `stage-intro` |
-| 3. Imagery | A hero photograph of the event on the landing page, with its credit | [`hero-images.md`](hero-images.md); design in [`design/2026-09-27-hero/`](design/2026-09-27-hero/README.md) | `stage-imagery` |
-
-Later stages attach the same way as they are defined: processing notes (`PROCESSING.md`, `reportsthatmatter-wl0`) and figures from the PDF (`reportsthatmatter-699`).
+| 1 | Source | `report-source` | sourced |
+| 2 | Repo | `report-repo` | repo ready |
+| 3 | First ingest | `report-first-ingest` | markdown done |
+| 4 | Evaluate and refine | `report-evaluate` ([`report-preparation.md`](report-preparation.md)) | checked |
+| 5 | Editorial: introduction, highlights, plate, hero | `report-editorial`, `report-introduction` ([`report-introductions.md`](report-introductions.md), [`hero-images.md`](hero-images.md)) | introduction done |
+| 6 | Publish (integrator only) | `report-publish` | live |
+| 7 | Announce | `report-announce` | announced |
+| 8 | Promote | `report-promote` | (posts queued) |
 
 ## Rules
 
-- **Each stage is a complete release.** Stage 1 alone is a good page: the report, readable and citable. Stage 2 is added when it is written, and stage 3 when an image is found. A report can sit at stage 1 for months.
-- **Ship without waiting for review.** An introduction ships with `status: approved`; Rufus reads the live page and gives feedback later, which becomes a follow-up change. The same goes for imagery. `status: draft` stays available for work that genuinely needs a second opinion before going live.
-- **Stages run in order per report, but not across reports.** An introduction needs the text to cite; an image needs a landing page to sit on. Different reports can be at different stages at once, and different agents can work on them in parallel.
-- **Order within a stage is by impact.** Take the report whose next stage matters most now (a news hook, an anniversary, a launch post) first.
+- **Each stage is a complete release.** The text alone is a good page. The introduction ships when it is written, the hero image when it is found. A report can sit at "live" for months.
+- **Ship without waiting for review.** An introduction ships `status: approved`; Rufus reads the live page and gives feedback later.
+- **Stages run in order per unit, not across units.** Different units can be at different stages at once, each with its own agent.
+- **Order by impact.** Take the unit whose next stage matters most now (a news hook, an anniversary, a launch post).
+- **The owning agent updates its row** in the PR that meets the stage's gate; `pnpm pipeline status --check` checks the row against the artefacts. A known gap is a `waive:` entry naming the bead that owns it.
 
-## Tracking in Beads
+## What Beads are for
 
-Every stage is its own Bead per report, labelled with the stage, so `bd list --label stage-intro` (or `stage-imagery`) shows where each report stands.
-
-- **A new report** gets its stage 1 Bead (the ingest, e.g. `Ingest and publish the Chilcot Inquiry`) plus two children created at the same time: `Introduction and landing page: <report>` (`stage-intro`) and `Hero image: <report>` (`stage-imagery`). The stage 3 Bead depends on the stage 2 Bead. Beads will not let a child depend on its own parent, so a stage 2 Bead shows in `bd ready` before its text is live: check the parent is closed before starting it. Chilcot, Valukas and Duelfer (`reportsthatmatter-rcz`, `-b7z`, `-9br`) are set up this way.
-- **The existing eleven reports** have been through stage 1. Their introductions are the `reportsthatmatter-g0w.7.*` Beads (Jack Smith and Wall Street shipped before those existed), and their imagery Beads are `reportsthatmatter-cdp.5`–`.15` (Jack Smith and Hillsborough shipped in the pilot, 2026-09-27).
-- **Closing a stage** means it is live in production, not merged. Close the Bead after the deploy (and, for text, the `publish-report` step).
+Beads hold the *work* on a unit: one bead per stage task (labels `stage-source` … `stage-promote`, `stage-imagery` for the hero), with the unit's bead in its row's `bead:`. Beads never hold the backlog or a report's status. Close a stage bead when its work is live, not when it is merged.

@@ -23,7 +23,7 @@ Run `bd ready` to find unblocked work; priority determines the order within
 that queue. Do not keep a separate `NEXT.md` or `next` label. Create a Bead
 before starting any agent-actionable task, use labels for domain grouping and
 dependencies only for genuine blockers, and set `--external-ref` when the task
-has a related GitHub issue. Keep public discussion, report candidates, and
+has a related GitHub issue. Keep public discussion, report ideas (the backlog itself is `reports/pipeline.yaml`), and
 broad epics on GitHub until there is a concrete task to perform.
 
 When a task genuinely requires Rufus's decision or action, create a separate

@@ -18,8 +18,9 @@ repos vs. this repo, publishing vs. deploying, search, the two fidelity gates
 — with a diagram. Read it before assuming a deploy is what ships a content
 change; it usually isn't (see its "what needs a deploy?" table).
 **[docs/report-pipeline.md](docs/report-pipeline.md)** is *how a report
-ships*: three stages (text, introduction, imagery), each its own release and
-its own Bead per report, none waiting for review. Read it first for any
+ships*: the backlog, the eight stages, where each report's status is recorded
+(`reports/pipeline.yaml`; view: `pnpm pipeline status --board`) and how a new
+idea gets in (a GitHub issue labelled `report-idea`). Read it first for any
 report work; it points at the guide for each stage.
 **[docs/release-checklist.md](docs/release-checklist.md)** is *the integrator's
 ordered steps* from an ingest release to production verify, with the command
@@ -70,7 +71,9 @@ Beads is the source of truth for agent-actionable work. Start each session with
 `git pull`, `bd dolt pull`, and `bd ready`; create or update a Bead for work an
 agent can undertake, including work linked to a GitHub issue. Beads owns task
 detail, status, priority, dependencies, and acceptance criteria. GitHub keeps
-human-created/public issues, report candidates, broad epics, and discussion.
+human-created/public issues, report ideas (`report-idea`), broad epics, and
+discussion. The report backlog and status live in `reports/pipeline.yaml`, not
+in Beads.
 Do not maintain a separate next-work list. At session end run `bd dolt push`
 before committing and pushing. See [`docs/beads-sync.md`](docs/beads-sync.md)
 for commands and sync recovery. JSONL export is for inspection and
@@ -623,7 +626,7 @@ even if a step gets skipped.
 - **`pdftotext` is not pinned, and it drifts.** Diffing a fresh re-ingest
   against a *historically committed* `full.md` is only evidence about this
   project's own code if `poppler` is the same version on both sides — it
-  usually isn't. #108 (2026-08-22, full account in `docs/PROGRESS.md`)
+  usually isn't. #108 (2026-08-22, full account in [the retired PROGRESS.md](https://github.com/reportsthatmatter/reportsthatmatter/blob/bb704cf845cf3e5f263a0653d8310c946c41f1b1/docs/PROGRESS.md))
   diffed a re-ingest of `challenger-accident` against its Aug-8 published
   file and found 480 hunks that looked like a severe pipeline regression;
   re-running the *original, unmodified* Aug-8 `scripts/ingest/` against

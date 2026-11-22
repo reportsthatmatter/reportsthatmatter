@@ -203,4 +203,5 @@ checks against a live worker; it is the done condition (`AGENTS.md`).
   cross-device.
 - **Work tracking**: Beads (`.beads/`, synced through a Dolt remote — see
   `docs/beads-sync.md`) is the source of truth for agent-actionable tasks.
-  GitHub issues hold public discussion, report candidates, and broad epics.
+  GitHub issues hold public discussion, report ideas (`report-idea`), and broad
+  epics. The report backlog and status: `reports/pipeline.yaml`.

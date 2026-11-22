@@ -1,6 +1,6 @@
 # Writing a report's introduction
 
-How to write the introduction that turns a report's contents page into its landing page: the standfirst, the background, what it found, and where to start reading. Read this before writing or revising any `editorial/<report-id>.yaml`. This is stage 2 of [the pipeline](report-pipeline.md). For getting the report itself onto the site (stage 1), see [`report-preparation.md`](report-preparation.md); for the code, [`ARCHITECTURE.md`](ARCHITECTURE.md).
+How to write the introduction that turns a report's contents page into its landing page: the standfirst, the background, what it found, and where to start reading. Read this before writing or revising any `editorial/<report-id>.yaml`. This is part of the editorial stage of [the pipeline](report-pipeline.md). For getting the report's text onto the site, see [`report-preparation.md`](report-preparation.md); for the code, [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 **Status: first version, 2026-09-25**, written from the Jack Smith and Wall Street introductions and Rufus's review of them. When writing one teaches you something this file got wrong or left out, fix it in the same change.
 

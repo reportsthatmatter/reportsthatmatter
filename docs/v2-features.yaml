@@ -9,7 +9,7 @@
 #   AGENTS.md            house rules, the done condition, gotchas
 #   docs/ROADMAP.md      what we might build and why (the thinking)
 #   this file            product feature history and verification conditions
-#   GitHub issues        report candidates, one per report
+#   GitHub issues        report ideas (label report-idea); the backlog is reports/pipeline.yaml
 #
 # To resume: `bd dolt pull`, then `bd ready`. Run `./scripts/init.sh` to
 # bootstrap a cold checkout and execute the full verification gate.
@@ -224,10 +224,10 @@
     uk-saville-inquiry (Volume I of X),
     which needed four report-declared passes in @rtm/ingest v0.12.16. Added 2026-09-03: us-911-commission, us-deepwater-horizon,
     us-v-philip-morris, uk-hillsborough-panel — all born-digital, all clean,
-    all passing the fidelity gate (retention 96.6–99.7%). ~20 candidates
-    remain, curated as GitHub issues — Saville (#39),
-    Duelfer (#34), Grenfell (#92), Deepwater's separate
-    chief-counsel report, and more. FCIC (#57/#102 — the PDF drops every
+    all passing the fidelity gate (retention 96.6–99.7%). The backlog
+    is now the candidate rows of reports/pipeline.yaml (pnpm pipeline
+    status --board; project 2601, 2026-11-22), fed by GitHub issues
+    labelled report-idea. FCIC (#57/#102 — the PDF drops every
     digit on extraction) is still ruled out. Each report gets its own repo
     under the org holding the source PDF, cloned as a sibling directory,
     then `pnpm ingest run`.

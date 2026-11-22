@@ -22,6 +22,13 @@
 #                                    bead; the check says when the waiver is stale
 #   match: [words]                   how a changelog heading names the report
 #                                    (default: its id and registry title)
+# Backlog keys, for candidate rows (project 2601, projects/2601-report-backlog-and-status/):
+#   title: "..."                     the report's name; required when the id is not in the registry
+#   score: {interest, source, size, licence, hook}   each 1-5, null where unchecked (out of 25)
+#   hook: "YYYY-MM-DD: why now"      why now, starting with its date where there is one
+#   issue: N                         the GitHub issue (label report-idea) the idea came from
+# Ideas not yet triaged are open GitHub issues labelled report-idea, not rows here. Beads hold work on a
+# unit (the `bead:` key), never the backlog or a status. Promote is shown from marketing/queue.yaml.
 
 units:
   # The 18 live reports: text, introduction and plate are live. None is
@@ -32,6 +39,7 @@ units:
     reached: publish
     state: waiting
     waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
       repo.datapackage: reportsthatmatter-fbgx
       repo.readme: reportsthatmatter-fbgx
       evaluate.processing: reportsthatmatter-fbgx
@@ -42,6 +50,7 @@ units:
     reached: publish
     state: waiting
     waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
       evaluate.processing: reportsthatmatter-wl0.10
     evidence: "registry; editorial approved; 2 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.10)."
@@ -50,6 +59,7 @@ units:
     reached: publish
     state: waiting
     waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
       repo.datapackage: reportsthatmatter-fbgx
       evaluate.processing: reportsthatmatter-wl0.7
     evidence: "registry; editorial approved; 6 queue items"
@@ -59,6 +69,7 @@ units:
     reached: publish
     state: waiting
     waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
       repo.datapackage: reportsthatmatter-fbgx
       evaluate.processing: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; 3 queue items"
@@ -68,6 +79,7 @@ units:
     reached: publish
     state: waiting
     waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
       repo.datapackage: reportsthatmatter-fbgx
       evaluate.processing: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; 3 queue items"
@@ -91,6 +103,7 @@ units:
     reached: publish
     state: waiting
     waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
       evaluate.processing: reportsthatmatter-wl0.9
     evidence: "registry; editorial approved; 4 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing (wl0.9). EPUB as structure source: egsa."
@@ -106,8 +119,6 @@ units:
     scope: "the report"
     reached: publish
     state: waiting
-    waive:
-      evaluate.processing: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; 2 queue items"
     notes: "Announce: launch y2t.6. PROCESSING.md missing."
   - id: uk-saville-inquiry
@@ -128,6 +139,7 @@ units:
     reached: publish
     state: waiting
     waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
       repo.datapackage: reportsthatmatter-fbgx
     evidence: "registry; editorial approved; PROCESSING.md"
     notes: "Announce: launch y2t.6. Has card: true highlights since ifb5.14; no queue items yet (pnpm posts)."
@@ -145,10 +157,10 @@ units:
   - id: us-duelfer-report
     scope: "Volume I"
     bead: reportsthatmatter-ivg.4
-    reached: promote
-    state: ongoing
+    reached: publish
+    state: waiting
     evidence: "Text live 2026-11-13 (@rtm/ingest v0.38.0; cleanEdition from the CIA HTML, words: pdf). Introduction and hero (9br.1, 9br.2) shipped 2026-11-14: editorial/us-duelfer-report.yaml approved, 4 card highlights, 4 hooked posts queued (2026-12-09, 2027-01-09, 2027-01-14, 2027-01-20)."
-    notes: "Known: boxes placed after the page text (ivg.4.3), table page starts (ivg.4.4). Hero is a 1720px photo of a suspected CW site (8 April 2003); a larger ISG field photo would be better."
+    notes: "Announce: launch y2t.6; posts queued (promote is shown from marketing/queue.yaml, not recorded, project 2601). Known: boxes placed after the page text (ivg.4.3), table page starts (ivg.4.4). Hero is a 1720px photo of a suspected CW site (8 April 2003); a larger ISG field photo would be better."
   - id: us-duelfer-report
     scope: "Volumes II and III, and the Addendums"
     bead: reportsthatmatter-d0h
@@ -180,10 +192,10 @@ units:
   - id: uk-covid-inquiry-module-2
     scope: "Volume I (HC 1436-I, Introduction and key events, amended Feb 2026)"
     bead: reportsthatmatter-gqsy.14
-    reached: promote
-    state: ongoing
+    reached: publish
+    state: waiting
     evidence: "ingest PR #83 (labelWraps, note-restart scan, label guard); report repo PR #1 (branch vol1-1024); site branch covid-m2-vol1-1024 (registry, manifest, budgets, reference entry); golden 4/6 + 2 xfail (r41s, jz19); adjudicated.yaml (30 breaks; reference wrong 3/30, ours 7/30); held-out score boundary F1 91.0%"
-    notes: "Live 2026-10-25 on ingest v0.29.0 (content 74edcb53cb7a5754). Numbered paragraphs 1,422/1,422; notes 3,236/3,241 (pxjq). Introduction, hero and 3 Tier A cards 2026-10-25 (gqsy.14.1, gqsy.14.2); queued 26-28 Nov, after the decision-0026 emails (6j4h). Volume II: nshl."
+    notes: "Announce: launch y2t.6; posts queued (promote is shown from marketing/queue.yaml, not recorded, project 2601). Live 2026-10-25 on ingest v0.29.0 (content 74edcb53cb7a5754). Numbered paragraphs 1,422/1,422; notes 3,236/3,241 (pxjq). Introduction, hero and 3 Tier A cards 2026-10-25 (gqsy.14.1, gqsy.14.2); queued 26-28 Nov, after the decision-0026 emails (6j4h). Volume II: nshl."
   - id: uk-covid-inquiry-module-2
     scope: "Volume II (HC 1436-II, Key themes, lessons and recommendations, Nov 2025)"
     bead: reportsthatmatter-nshl
@@ -196,6 +208,8 @@ units:
     bead: reportsthatmatter-gqsy.2
     reached: editorial
     state: waiting
+    waive:
+      evaluate.registered: reportsthatmatter-gqsy.2
     evidence: "ingest PR #63 (passes), report repo branch vol1, site PR (registry, budgets, plate, card, editorial); adjudicated.yaml committed (30 breaks, gqsy.2.1), held-out score recorded; local checks green 2026-10-04"
     notes: "Waiting on the ingest release carrying footnoteNumbers('tabbed'), pdfPageNumbers and typographicHeadings({ faces }) (PR #63): the report's ingest.ts imports them. Volumes 2-5 will be further units of this id. Hero: gqsy.2.2."
   - id: us-jan6-committee
@@ -203,6 +217,9 @@ units:
     bead: reportsthatmatter-gqsy.3
     reached: publish
     state: waiting
+    waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
+      evaluate.adjudicated: reportsthatmatter-i6i2
     evidence: "registry; golden.yaml 5/5; PROCESSING.md; editorial approved and verbatim; plate, default card and 5 quote cards (z959); ingest#66 and #67 in v0.23.0, report repo main merged (PR #1), pin bump PR us-jan6-committee#2"
     notes: "Live 2026-10-04 (site #290 merged, content version e09b974d5640). Hero image is wrjn; caption credit paragraphs and the generic discussion slug are 2t3t. reference/manifest.json and adjudicated.yaml are not in the repo (HTML-sourced), which is the drift warning."
   - id: uk-grenfell-tower-inquiry
@@ -224,6 +241,8 @@ units:
     bead: reportsthatmatter-gqsy.5
     reached: publish
     state: waiting
+    waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
     evidence: "ingest PR #75 (foiaRedactions, asteriskBreaks, layoutRunOvers, contentsOutline scanned/centredMinor), report repo PR #1 (branch first-ingest-1009), site PR from mueller-report-1009 (registry, manifest, plate, default and 4 quote cards, editorial approved, decision 0020); golden 4/6 + 2 xfail (vs2x); adjudicated.yaml 27/29 right"
     notes: "Live 2026-10-10 (ingest v0.26.0, site #307, first publish). 74 scanned Vol I pages: OCR words (q6yp) and 225 notes not separated (vs2x, parked). Hero: pq6v. Intro bead ga0k."
   - id: us-senate-cia-torture-report
@@ -231,6 +250,10 @@ units:
     bead: reportsthatmatter-gqsy.6
     reached: publish
     state: waiting
+    waive:
+      repo.reference-manifest: reportsthatmatter-i6i2
+      evaluate.adjudicated: reportsthatmatter-i6i2
+      evaluate.registered: reportsthatmatter-i6i2
     evidence: "ingest #77 (contentsOutline ocr, source passes, uncoded [Redacted]); report repo #1; site #312 (registry, manifest, plate, default and 3 quote cards, editorial approved); decision 0020 addendum"
     notes: "Live 2026-10-10 (ingest v0.27.0, grade B-). OCR text; ~270 notes merged, ~84% of markers linked; jc46 57 severed / ~100 severed-into-quote."
   - id: us-ica-2017-russia-elections
@@ -269,37 +292,68 @@ units:
     evidence: "source stack and licence chain (Crown copyright, OGL via UKGWA and Click-Use) in gqsy.9 notes; report repo reportsthatmatter/uk-stern-review (first-ingest-1108, PR #1); PDF pipeline with report-local source passes (figureLabels, figureTitleBreak, noteMarkers) and keyFindings (bold italic); golden 6/8 + 2 xfail (lb9l); grade A 0.2 (scorecard, own golden precision for headings/markers); plate (Figure 1 pie); editorial approved (Fable-critiqued); hero (HM Treasury, CC BY 2.0); live 2026-11-08, content 61ca9387971006f1; recorded grade A 0.19"
     notes: "No reference edition exists (no HTML, tags or EPUB): scoring waived. Hook: COP31, 9-20 Nov 2026. Hero: gqsy.9.1. Full report: gqsy.9.2. Oracle false positives (CO2 subscripts, folios): oyr5."
   - id: uk-stern-review
-    scope: "Full report, batch 1: Preface and Acknowledgements, Introduction, Summary of Conclusions, Part I-III introductions, Chapters 2, 6, 9, 10, 13 (volumes 2-12, ToC order)"
+    scope: "Full report: Preface to annexes, the complete web edition (volumes 2 onward, ToC order), shipped in five batches"
     bead: reportsthatmatter-gqsy.9.2
     reached: publish
     state: waiting
-    evidence: "report repo reportsthatmatter/uk-stern-review (PR #2, e294e0c); site #433 (c552deb7); live 2026-11-13, content 2c2d8ddff67cd59c; review factory/reviews/review-stern-full-2026-11-12.md; site branch stern-full-1112; HMT January 2007 reissues where they exist (README Versions); report-local passes (runningTitle, partTitles, bodyFaceFigures, chartsAndTables, chemicalSubscripts, chapterHeadingFaces, marginBullets, carriedItems, noteTail, ordinalNote) plus layoutMarkers, footnoteRestarts, layoutPageJoins; golden 14/16 + 2 xfail (lb9l, unit 1); recorded grade A 0.23 (149 pp); ES ids unchanged (aliases 0)"
-    notes: "Tables and Box 6.3 equations not served: 6uqx. Lists over page breaks: 95vk. Next batches: remaining chapters in ToC order, Postscript, annexes (gqsy.9.2)."
-  - id: uk-stern-review
-    scope: "Full report, batch 2a: Chapters 1, 3, 4, 5, 7 (with Annex 7A), 8; Chapter 9 its own section (owre, ingest v0.36.0)"
-    bead: reportsthatmatter-gqsy.9.2
-    reached: publish
-    state: waiting
-    evidence: "uk-stern-review#3 (8906b21); ingest#95 released v0.36.0; site #446 (e712c3c7); review factory/reviews/review-stern-b2a-2026-11-13.md; live 2026-11-13, content 71a81fd5b81c61a6; recorded grade A 0.37 (299 pp)"
-    notes: "16 duplicate-text ids moved chapter (accepted; efso to stop it before Ch 11-12). Chapter 5 printed folios 1-21 (6u5h). Tables: 6uqx. Bullets: 95vk, 3nbi. z4dy, c99s."
-  - id: uk-stern-review
-    scope: "Full report, batch 2b: Chapters 11 (with Annex 11A) and 12, the Part IV introduction, Chapters 14-17 (on ingest v0.37.0, reserved ids)"
-    bead: reportsthatmatter-gqsy.9.2
-    reached: publish
-    state: waiting
-    evidence: "live 2026-11-13, content bf914739b6cfc25f, recorded grade A 0.33 (425 pp); uk-stern-review#4, site #451 (04b61285); review factory/reviews/review-stern-b2b-2026-11-13.md; report repo reportsthatmatter/uk-stern-review (stern-b2b-1113, PR #4); site branch stern-b2b-1113; 425 pp, 857 notes (each chapter's last note number), 172 headings (every numbered section of the new chapters); golden 18/20 + 2 xfail (lb9l); earlier text unchanged but for one Executive Summary hyphen kept by correction c-0048; 0 new aliases, every published id on its paragraph"
-    notes: "Chapter 11's reissue prints folios 1-16 (6u5h); Part IV introduction shares p.308 with Chapter 13's last page, as printed. Tables: 6uqx. Bullets: 95vk, 3nbi."
-  - id: uk-stern-review
-    scope: "Full report, batch 3a: Part V (introduction, Chapters 18-20) and Part VI (introduction, Chapters 21-27), on ingest v0.37.0"
-    bead: reportsthatmatter-gqsy.9.2
-    reached: publish
-    state: waiting
-    evidence: "live 2026-11-13, recorded grade A 0.38 (597 pp); uk-stern-review#5, site #454 (40e32f68); review factory/reviews/review-stern-b3a-2026-11-13.md; report repo reportsthatmatter/uk-stern-review (stern-b3-1113, PR #5); site branch stern-b3-1113; 597 pp, 1,237 notes (each chapter's highest note = its last printed note), 255 headings (every numbered section 18.1-27.5); golden 20/22 + 2 known (lb9l; new Ch 20 p.431, Ch 21 p.459); grade A 0.86 per 10 pp; earlier text byte-identical; ledgers add only (+1,343 ids, +12 sections), aliases 0 unmatched; verify.sh (VERIFY_SHARED=1 with RTM_REPORT_DIRS) all checks passed; datapackage hashes for the 12 new files"
-    notes: "Chapter 23's reissue prints folios 1-25 (6u5h). Chapter 21 note 15 cited inside Table 21.1, printed on no page. Tables: 6uqx. Bullets: 95vk, 3nbi. Next: batch 3b (Postscript and its technical annex, Chapter 2 technical annex, Annexes 7b-7g)."
-  - id: uk-stern-review
-    scope: "Full report, batch 3b: Chapter 2 technical annex (2A); the Postscript and its Technical Annex; web annexes to Chapter 7, 7.b-7.g (on ingest v0.37.0)"
-    bead: reportsthatmatter-gqsy.9.2
-    reached: publish
-    state: waiting
-    evidence: "live 2026-11-13, recorded grade A 0.38 (655 pp, complete edition); uk-stern-review#6, site #455 (828d6481); review factory/reviews/review-stern-b3b-2026-11-13.md; report repo reportsthatmatter/uk-stern-review (stern-b3b-1113, PR #6); site branch stern-b3b-1113; 655 pp, 1,355 notes, 304 headings; golden 22/24 + 2 known (new 2A p.41, Postscript p.1); grade A 0.91 per 10 pp; earlier text byte-identical (four 'socio-economic' kept by c-0097..c-0100); ledgers add only (+429 ids, +9 sections; one next-passage fingerprint updated, Ch 2's last paragraph, now followed by 2A); anchors: the eight unfolioed volumes numbered by PDF page (PDF_NUMBERED_VOLUMES), all markers right but the two known; datapackage hashes for the 9 new files"
-    notes: "The Postscript, its Technical Annex and Annexes 7.b-7.g print no folios: numbered by PDF page, shown as 1#5 etc. The Technical Annex's file prints nine notes (1-9) nothing cites. Tables PA.1-PA.3, 2A.1 and equations not served (6uqx). Bullets in Annexes 7.c and 7.g as paragraphs (3nbi). This completes the Review's web edition (gqsy.9.2)."
+    evidence: "batch 1: site #433, live 2026-11-13 (2c2d8ddff67cd59c); batch 2a: uk-stern-review#3, site #446, live 2026-11-13 (71a81fd5b81c61a6); batch 2b: uk-stern-review#4, site #451, live 2026-11-13 (bf914739b6cfc25f); batch 3a: uk-stern-review#5, site #454; batch 3b: uk-stern-review#6, site #455; reviews factory/reviews/review-stern-*-2026-11-1*.md; recorded grade A 0.38 (655 pp, complete edition)"
+    notes: "Five batch rows merged into one (project 2601: a row is a scope, not a PR). Tables and Box 6.3 equations not served: 6uqx. Bullets: 95vk, 3nbi. Printed folios restart in reissued chapters: 6u5h. Unfolioed volumes numbered by PDF page."
+
+  # The backlog: candidate reports, not started (reached: candidate). Triage adds a row with title, score and
+  # issue; `pnpm pipeline status --board` orders them. Migrated from the Beads epic gqsy on 2026-11-22.
+  - id: uk-infected-blood-inquiry
+    title: "Infected Blood Inquiry: The Report (May 2024, 7 volumes)"
+    scope: "Volume 1, Overview and Recommendations"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 3, size: 2, licence: 5, hook: 3}
+    hook: "compensation scheme news (not checked)"
+    issue: 91
+    evidence: "gqsy.7: gov.uk volumes, born-digital, untagged, no HTML found; OGL v3; Vol 1 PDF SHA-256 recorded in the bead"
+  - id: uk-iicsa-final-report
+    title: "Independent Inquiry into Child Sexual Abuse: final report (Oct 2022)"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 5, size: 1, licence: 5, hook: 2}
+    evidence: "gqsy.8"
+    notes: "Affected community: check the open decisions first."
+  - id: uk-mid-staffordshire-inquiry
+    title: "Mid Staffordshire NHS Foundation Trust Public Inquiry (Francis Report, Feb 2013)"
+    reached: candidate
+    state: active
+    score: {interest: 3, source: 3, size: 1, licence: 5, hook: 1}
+    issue: 89
+    evidence: "gqsy.10; #93 priority 1, 'fastest route to a complete bounded UK inquiry'"
+  - id: uk-stephen-lawrence-inquiry
+    title: "The Stephen Lawrence Inquiry (Macpherson Report, Feb 1999)"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: null, size: null, licence: null, hook: 1}
+    hook: "2027-02-24: 28th anniversary (weak)"
+    issue: 88
+    evidence: "gqsy.11; Cm 4262-I on gov.uk; source and rights not probed"
+  - id: us-katrina-house-committee
+    title: "A Failure of Initiative: House select committee on Hurricane Katrina (Feb 2006)"
+    reached: candidate
+    state: active
+    score: {interest: 3, source: null, size: null, licence: 5, hook: 1}
+    issue: 86
+    evidence: "gqsy.12; public domain; check govinfo for HTML or text first"
+  - id: uk-grenfell-tower-inquiry-phase-1
+    title: "Grenfell Tower Inquiry: Phase 1 Report (Oct 2019, 4 volumes)"
+    bead: reportsthatmatter-mxkg
+    reached: candidate
+    state: active
+    evidence: "mxkg; Phase 2 is live as uk-grenfell-tower-inquiry"
+  - id: us-ccr-voting-rights-2018
+    title: "US Commission on Civil Rights: An Assessment of Minority Voting Rights Access (2018)"
+    reached: candidate
+    state: parked
+    score: {interest: 4, source: 3, size: 2, licence: 5, hook: 4}
+    hook: "Voting Rights Act Section 2 litigation (Louisiana v. Callais)"
+    evidence: "gqsy.17 (deferred); 406 PDF pages"
+  - id: za-truth-reconciliation-commission
+    title: "Truth and Reconciliation Commission of South Africa Report (1998-2003, 7 volumes)"
+    reached: candidate
+    state: parked
+    evidence: "gqsy.1 (deferred); no earlier research found in GitHub issues (2026-10-03)"

@@ -22,6 +22,11 @@
  * live report (more volumes): the report repo's artefacts say nothing about them, so they are shown as
  * record only.
  *
+ * The backlog is rows at `candidate` (reportsthatmatter project 2601): a candidate row may carry `title` (required
+ * when the id is not in the registry), `score` (the five 1-5 scores, null where unchecked), `hook` (a short string,
+ * starting with its ISO date where there is one) and `issue` (the GitHub issue it came from). `--board` groups every
+ * row into Inbox (open `report-idea` issues, network only), Backlog, In preparation and Live.
+ *
  * Pure of process state: every input is a path or an injected probe, so tests build fixtures in a tmp dir.
  */
 import { createHash } from "node:crypto";
@@ -46,9 +51,20 @@ export const SKILL: Record<Stage, string> = {
   promote: "report-promote",
 };
 
+export const SCORE_KEYS = ["interest", "source", "size", "licence", "hook"] as const;
+/** The triage score: each 1-5, null where not yet checked. */
+export type Score = Partial<Record<(typeof SCORE_KEYS)[number], number | null>>;
+
 export type Unit = {
   id: string;
   scope?: string;
+  /** The report's name, for a candidate whose id is not in the registry yet. */
+  title?: string;
+  score?: Score;
+  /** Why now: a short string, starting with its ISO date when there is one ("2027-02-24: 28th anniversary"). */
+  hook?: string;
+  /** The GitHub issue the idea came from. */
+  issue?: number;
   bead?: string;
   reached: Stage;
   state: (typeof UNIT_STATES)[number];
@@ -103,8 +119,27 @@ const readYaml = (path: string): any => (existsSync(path) ? parse(readText(path)
 
 // ---------- reading the record ----------
 
+/** Problems with a row's backlog keys (title, score, hook, issue); empty when they are well-formed or absent. */
+export function backlogKeyProblems(u: any, registered: boolean): string[] {
+  const out: string[] = [];
+  if (u.reached === "candidate" && !registered && !(typeof u.title === "string" && u.title.trim())) out.push("a candidate whose id is not in the registry needs a title");
+  if (u.title !== undefined && typeof u.title !== "string") out.push("title is not a string");
+  if (u.hook !== undefined && typeof u.hook !== "string") out.push("hook is not a string");
+  if (u.issue !== undefined && !(Number.isInteger(u.issue) && u.issue > 0)) out.push(`issue "${u.issue}" is not an issue number`);
+  if (u.score !== undefined) {
+    if (!u.score || typeof u.score !== "object" || Array.isArray(u.score)) out.push("score is not a map");
+    else
+      for (const [k, v] of Object.entries(u.score)) {
+        if (!(SCORE_KEYS as readonly string[]).includes(k)) out.push(`score key "${k}" is not one of ${SCORE_KEYS.join(", ")}`);
+        else if (v !== null && !(Number.isInteger(v) && (v as number) >= 1 && (v as number) <= 5)) out.push(`score ${k} "${v}" is not 1-5 or null`);
+      }
+  }
+  return out;
+}
+
 export function readRecord(root: string): { units: Unit[]; problems: string[] } {
   const raw = readYaml(join(root, "reports/pipeline.yaml"));
+  const registered = new Set(((readYaml(join(root, "reports/registry.yaml"))?.reports ?? []) as any[]).map((r) => r.id));
   const problems: string[] = [];
   const units: Unit[] = [];
   for (const [i, u] of ((raw?.units ?? []) as any[]).entries()) {
@@ -112,7 +147,11 @@ export function readRecord(root: string): { units: Unit[]; problems: string[] } 
     if (!u?.id) problems.push(`${label}: no id`);
     else if (!STAGES.includes(u.reached)) problems.push(`${label}: reached "${u.reached}" is not one of ${STAGES.join(", ")}`);
     else if (!UNIT_STATES.includes(u.state)) problems.push(`${label}: state "${u.state}" is not one of ${UNIT_STATES.join(", ")}`);
-    else units.push(u as Unit);
+    else {
+      const bad = backlogKeyProblems(u, registered.has(u.id));
+      if (bad.length) problems.push(...bad.map((b) => `${label}: ${b}`));
+      else units.push(u as Unit);
+    }
   }
   return { units, problems };
 }
@@ -312,6 +351,8 @@ export function judge(unit: Unit, items: Item[]): Pick<UnitStatus, "derived" | "
 
 function nextAction(unit: Unit, items: Item[]): string {
   const prefix = unit.state === "parked" ? `parked${unit.bead ? ` (${unit.bead})` : ""}: ` : unit.state === "waiting" ? "waiting: " : "";
+  // A candidate has no artefacts yet: its next step is sourcing, whatever the (empty) repo items say.
+  if (unit.reached === "candidate") return `${prefix}${SKILL.candidate}`;
   // The first stage with an unmet item or a todo (a pending republish).
   for (const s of STAGES.filter((s) => rank(s) >= rank("repo"))) {
     const mine = items.filter((i) => i.stage === s);
@@ -391,3 +432,118 @@ export function formatStatus(r: { statuses: UnitStatus[]; problems: string[] }, 
   out.push(hasDrift(r) ? "DRIFT: reports/pipeline.yaml claims more, or less, than the artefacts show." : "reports/pipeline.yaml agrees with the artefacts that could be checked.");
   return out.join("\n");
 }
+
+// ---------- the board: every row by Rufus's stages ----------
+
+/** The stage names in the words of the backlog-and-status project (2601); the record keeps the nine stage ids. */
+export const STAGE_LABEL: Record<Stage, string> = {
+  candidate: "backlog",
+  source: "sourced",
+  repo: "repo ready",
+  ingest: "markdown done",
+  evaluate: "checked",
+  editorial: "introduction done",
+  publish: "live",
+  announce: "announced",
+  promote: "announced",
+};
+
+/** Open `report-idea` issues, or why they could not be listed; injected so tests need no gh. */
+export type Idea = { number: number; title: string };
+
+export const scoreTotal = (score?: Score): number | null => {
+  const checked = Object.values(score ?? {}).filter((v): v is number => typeof v === "number");
+  return checked.length ? checked.reduce((a, b) => a + b, 0) : null;
+};
+const scoreText = (score?: Score) => {
+  const total = scoreTotal(score);
+  if (total === null) return "unscored";
+  const unchecked = SCORE_KEYS.filter((k) => typeof score?.[k] !== "number").length;
+  return `${total}/25${unchecked ? ` (${unchecked} unchecked)` : ""}`;
+};
+export const hookDate = (hook?: string): string | null => hook?.match(/^\d{4}-\d{2}(-\d{2})?/)?.[0] ?? null;
+
+const fullyScored = (score?: Score) => SCORE_KEYS.every((k) => typeof score?.[k] === "number");
+
+/**
+ * What to take next: unblocked (active) first; then fully scored before partly scored or unscored (triage is not
+ * finished); then the nearest hook date; then the score total.
+ */
+export function backlogOrder(units: Unit[]): Unit[] {
+  const key = (u: Unit) => [u.state === "active" ? 0 : 1, fullyScored(u.score) ? 0 : 1, hookDate(u.hook) ?? "9999", -(scoreTotal(u.score) ?? -1)] as const;
+  return [...units].sort((a, b) => {
+    const [ka, kb] = [key(a), key(b)];
+    return ka[0] - kb[0] || ka[1] - kb[1] || ka[2].localeCompare(kb[2]) || ka[3] - kb[3];
+  });
+}
+
+/** Scheduled posting-queue items per report id (marketing/queue.yaml). */
+export function queuedPosts(root: string): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const q of (readYaml(join(root, "marketing/queue.yaml"))?.items ?? []) as any[]) if (q.report && q.scheduled) out[q.report] = (out[q.report] ?? 0) + 1;
+  return out;
+}
+
+export type Board = {
+  inbox: Idea[] | { error: string } | null;
+  backlog: { id: string; title: string; scope?: string; score: string; hook?: string; issue?: number; state: string }[];
+  preparing: { id: string; scope?: string; stage: string; state: string; next: string }[];
+  live: { id: string; title: string; units: number; live: number; announced: boolean; posts: number; waiting: boolean }[];
+};
+
+export function buildBoard(r: { statuses: UnitStatus[] }, opts: { root: string; inbox?: Idea[] | { error: string } | null }): Board {
+  const registry = readYaml(join(opts.root, "reports/registry.yaml"));
+  const title = (u: Unit) => u.title ?? (registry?.reports ?? []).find((x: any) => x.id === u.id)?.title ?? u.id;
+  const queued = queuedPosts(opts.root);
+  const units = r.statuses.map((s) => s.unit);
+  const isLive = (u: Unit) => rank(u.reached) >= rank("publish");
+  const liveIds = [...new Set(units.filter(isLive).map((u) => u.id))];
+  return {
+    inbox: opts.inbox ?? null,
+    backlog: backlogOrder(units.filter((u) => u.reached === "candidate")).map((u) => ({ id: u.id, title: title(u), scope: u.scope, score: scoreText(u.score), hook: u.hook, issue: u.issue, state: u.state })),
+    preparing: r.statuses
+      .filter((s) => rank(s.unit.reached) > rank("candidate") && !isLive(s.unit))
+      .map((s) => ({ id: s.unit.id, scope: s.unit.scope, stage: STAGE_LABEL[s.unit.reached], state: s.unit.state, next: s.next })),
+    live: liveIds.map((id) => {
+      const mine = units.filter((u) => u.id === id);
+      const shipped = mine.filter(isLive);
+      return {
+        id,
+        title: title(mine[0]),
+        units: mine.length,
+        live: shipped.length,
+        announced: shipped.some((u) => rank(u.reached) >= rank("announce")),
+        posts: queued[id] ?? 0,
+        waiting: shipped.some((u) => u.state === "waiting"),
+      };
+    }),
+  };
+}
+
+export function formatBoard(b: Board): string {
+  const cut = (s: string | undefined, n: number) => (!s ? "" : s.length > n ? s.slice(0, n - 1) + "…" : s);
+  const out: string[] = [];
+  out.push("INBOX: ideas not yet triaged (open GitHub issues labelled report-idea)");
+  if (b.inbox === null) out.push("  (needs --network: gh issue list --repo reportsthatmatter/reportsthatmatter --label report-idea)");
+  else if ("error" in b.inbox) out.push(`  (could not list: ${b.inbox.error})`);
+  else if (!b.inbox.length) out.push("  none");
+  else for (const i of b.inbox) out.push(`  #${i.number}  ${i.title}`);
+
+  out.push("", `BACKLOG: ${b.backlog.length} candidates, next first (unblocked, fully scored, nearest hook, score total)`);
+  for (const c of b.backlog) {
+    const extra = [c.hook ? `hook ${cut(c.hook, 50)}` : "", c.issue ? `#${c.issue}` : "", c.state !== "active" ? c.state : ""].filter(Boolean).join("; ");
+    out.push(`  ${c.score.padEnd(22)}  ${cut(c.title + (c.scope ? ` (${c.scope})` : ""), 70)}${extra ? `  [${extra}]` : ""}`);
+  }
+
+  out.push("", `IN PREPARATION: ${b.preparing.length} units`);
+  for (const p of b.preparing) out.push(`  ${STAGE_PAD(p.stage)}  ${cut(`${p.id}${p.scope ? ` (${p.scope})` : ""}`, 60).padEnd(60)}  ${p.state.padEnd(7)}  ${cut(p.next, 70)}`);
+
+  const announced = b.live.filter((l) => l.announced).length;
+  out.push("", `LIVE: ${b.live.length} reports, ${announced} announced`);
+  for (const l of b.live) {
+    const flags = [l.units > 1 ? `${l.live}/${l.units} units live` : "", l.announced ? "announced" : l.waiting ? "waiting to announce" : "not announced", `${l.posts} posts queued`].filter(Boolean).join("; ");
+    out.push(`  ${cut(l.title, 60).padEnd(60)}  ${flags}`);
+  }
+  return out.join("\n");
+}
+const STAGE_PAD = (s: string) => s.padEnd(17);

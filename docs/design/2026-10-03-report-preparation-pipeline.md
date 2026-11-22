@@ -8,7 +8,7 @@ This document says what each stage takes in and hands on, what gates it, which m
 
 ## 1. How this relates to the existing stages
 
-[`report-pipeline.md`](../report-pipeline.md) has three shipping stages (text, introduction, imagery), each its own release and Bead. The eight stages here refine them; they do not replace the rule that each release is complete and nothing waits for review.
+[`report-pipeline.md`](../report-pipeline.md) had three shipping stages (text, introduction, imagery), each its own release and Bead; since 2026-11-22 (project 2601) it describes these eight stages, the backlog and the board. The table below is the original mapping, kept for history. The rule that each release is complete and nothing waits for review stands.
 
 | report-pipeline.md | This pipeline |
 | --- | --- |
@@ -85,7 +85,7 @@ Concurrency: stages 1 to 5 run in parallel across units; within one report repo 
 
 ## 5. How the supervisor moves a report
 
-1. **Choose.** Read `reports/pipeline.yaml` (section 6) and `bd list --label pipeline`. Take the unit whose next stage matters most now (news hook, anniversary, launch post); report-pipeline.md's "order within a stage is by impact" still holds.
+1. **Choose.** Run `pnpm pipeline status --board` (section 6): the backlog is ordered for you. Take the unit whose next stage matters most now (news hook, anniversary, launch post); report-pipeline.md's "order within a stage is by impact" still holds.
 2. **Open the stage Bead** (the current command, with stream and level labels, is in the `report-pipeline` skill). `bd create "Stage <n> <name>: <report> <scope>" --labels pipeline,stage-<name> --parent <unit bead>` (labels: `stage-source`, `stage-repo`, `stage-ingest`, `stage-evaluate`, `stage-intro`, `stage-publish`, `stage-announce`, `stage-promote`; `stage-imagery` stays for the hero). Put the entry evidence (the previous stage's PR or notes) in it.
 3. **Assign.** Spawn one agent with the stage's model, its own worktree, the protocol file, and the prompt "Use the `report-<stage>` skill for <unit>; Bead <id>". Say which report repo it owns.
 4. **Check the gate.** On its final report, read the PR against the skill's exit gate, line by line. Re-run the gate commands that are cheap (`shasum -c`, `pnpm editorial`, `pnpm quality check`). A gate not met is a reply to the agent, not a note for later.
@@ -113,6 +113,8 @@ Rules: the owning agent updates its row in the PR that meets the gate; nothing e
 What is derived, per stage (all cumulative, and a gate item that needs a person, such as "verify.sh exits 0" or "rendered pages read", is not derived): **repo**: manifest entry, every `ingest.ts` volume pinned (`path` and `sha256`) and on disk, `datapackage.json` resources with sources for each archive file, README with a Scope, Source or Materials heading, `reference/manifest.json` where there is a `reference/`. **ingest**: `full.md`, `baseline.json`. **evaluate**: registry `ingested: true`, corpus baseline and oracle budget entries, `PROCESSING.md`, `golden.yaml` with 5 or more pages, `reference/adjudicated.yaml` where there is a reference. **editorial**: `status: approved`, plate and default card, 3 or more `card: true` highlights. **publish**: served hash equals the local one (network only). **announce**: a dated changelog heading, or published blog post, saying the report is published (matched on its id, its registry title or the row's `match:` words). **promote**: 3 or more scheduled queue items. Candidate and source leave no artefact and are record only.
 
 How a row is judged: it over-claims when a stage at or below `reached` has an unmet item (editorial is exempt for a claim at or past publish: the fast path); it is behind when the artefacts show a later stage than `reached`. An item that cannot be checked (no network, a sibling repo not checked out) is unknown, which is never drift, so CI stays quiet. A row may carry `waive: {<stage>.<item>: <bead>}` for a gap a Bead owns; the check says when a waiver is stale. Only the first row of a report id is derived; later rows with the same id (more volumes) are record only.
+
+**The backlog and the board (2026-11-22, project 2601).** Candidate rows (`reached: candidate`) are the backlog and carry `title` (required when the id is not in the registry), `score` (interest, source, size, licence, hook, each 1-5 or `null`), `hook` (starting with its ISO date when there is one) and `issue` (the GitHub issue it came from). Ideas not yet triaged are open GitHub issues labelled `report-idea`, never rows. `pnpm pipeline status --board` groups every row into Inbox, Backlog (ordered: unblocked, fully scored, nearest hook, score total), In preparation and Live. Promote is shown from `marketing/queue.yaml` rather than recorded: a live unit stays at `publish` until it is announced. A row is a scope, never one per PR or batch. Gaps on reports that shipped before a gate existed are waived against `reportsthatmatter-i6i2`. Beads hold the work on a unit (`bead:`), never the backlog or a status.
 
 ## 7. The improvement loop (38s)
 

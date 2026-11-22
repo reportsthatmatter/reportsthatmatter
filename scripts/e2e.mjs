@@ -104,7 +104,7 @@ if (firstReportId) {
     const proseBottom = prose ? prose.getBoundingClientRect().bottom : 0;
     // A sidenote longer than the paragraph beside it floats past wherever an
     // uncleared .prose box would otherwise end — the section nav and footer
-    // would then render on top of it. See PROGRESS.md, 2026-08-09.
+    // would then render on top of it. See the retired docs/PROGRESS.md, 2026-08-09: https://github.com/reportsthatmatter/reportsthatmatter/blob/bb704cf845cf3e5f263a0653d8310c946c41f1b1/docs/PROGRESS.md
     const maxNoteBottom = notes.reduce(
       (max, note) => Math.max(max, note.getBoundingClientRect().bottom),
       0
