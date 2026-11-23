@@ -19,6 +19,7 @@ export const CARDS: ReadonlySet<string> = new Set([
   "challenger-accident/q-cfec403b",
   "challenger-accident/q-e16caccb",
   "columbia-accident/default",
+  "columbia-accident/my-humble-technical-opinion-wrong",
   "columbia-accident/q-108fe87a",
   "columbia-accident/q-4b46b1d0",
   "columbia-accident/q-607de49c",

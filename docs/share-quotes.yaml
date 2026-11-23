@@ -50,3 +50,12 @@ quotes:
     paragraph: december-14-the-date-eca-required
     match: the ECA required each state
     note: the fraudulent elector plan
+
+  - report: columbia-accident
+    paragraph: my-humble-technical-opinion-wrong
+    match: In my humble technical opinion
+    note: Rocha's unsent email of 22 Jan 2003 (launch kit, 23 Nov)
+    quote: >-
+      In my humble technical opinion, this is the wrong (and bordering on
+      irresponsible) answer from the SSP and Orbiter not to request additional
+      imaging help from any outside source.
