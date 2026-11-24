@@ -2083,14 +2083,14 @@ html.passage-landing body {
 }
 
 /* A post paragraph made only of bold links (e.g. "**[Visit the site →](…)** · **[Why I built it →](…)**") renders as buttons. */
-.prose p:has(> strong > a):not(:has(> :not(strong))) {
+.prose p:has(> strong > a):not(:has(> :not(strong, .permalink))) {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
   font-size: 0; /* hides the " · " separator */
 }
-.prose p:has(> strong > a):not(:has(> :not(strong))) > strong { font-size: 1rem; font-weight: inherit; }
-.prose p:has(> strong > a):not(:has(> :not(strong))) > strong > a {
+.prose p:has(> strong > a):not(:has(> :not(strong, .permalink))) > strong { font-size: 1rem; font-weight: inherit; }
+.prose p:has(> strong > a):not(:has(> :not(strong, .permalink))) > strong > a {
   display: inline-block;
   padding: 0.7rem 1.4rem;
   border: 1px solid var(--inverse);
@@ -2098,5 +2098,5 @@ html.passage-landing body {
   text-decoration: none;
   transition: background 0.15s ease, color 0.15s ease;
 }
-.prose p:has(> strong > a):not(:has(> :not(strong))) > strong:first-child > a { background: var(--inverse); color: var(--canvas); }
-.prose p:has(> strong > a):not(:has(> :not(strong))) > strong > a:hover { background: var(--inverse); color: var(--canvas); }
+.prose p:has(> strong > a):not(:has(> :not(strong, .permalink))) > strong:first-child > a { background: var(--inverse); color: var(--canvas); }
+.prose p:has(> strong > a):not(:has(> :not(strong, .permalink))) > strong > a:hover { background: var(--inverse); color: var(--canvas); }
