@@ -407,7 +407,11 @@ describe("scripts/post-next.mjs end to end, offline", () => {
 });
 
 /** The Bluesky adapter in scripts/post-next.mjs against a local stand-in for the PDS: login, feed read, blob upload, createRecord. */
-describe("scripts/post-next.mjs live, against a local fake PDS", () => {
+// Each test spawns tsx once or twice, which takes seconds on a loaded machine: 5 s timed out
+// under a long verify run (reportsthatmatter-8494). The child is killed just before the test's
+// timeout, so it cannot outlive its test.
+const LIVE_RUN_MS = 25_000;
+describe("scripts/post-next.mjs live, against a local fake PDS", { timeout: 2 * LIVE_RUN_MS + 5_000 }, () => {
   const root = join(import.meta.dirname, "..");
   const DID = "did:plc:fakeaccount";
   let server: Server;
@@ -416,7 +420,10 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
   let feed: any[] = [];
 
   async function start() {
-    calls = [];
+    // This server records into its own array: a run left over from a timed-out test talks to
+    // the old server, and must not show up in the next test's calls (8494).
+    const mine: { path: string; body: any }[] = [];
+    calls = mine;
     server = createServer((req, res) => {
       const chunks: Buffer[] = [];
       req.on("data", (c) => chunks.push(c));
@@ -424,7 +431,7 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
         const raw = Buffer.concat(chunks);
         const path = (req.url ?? "").split("?")[0];
         const type = req.headers["content-type"] ?? "";
-        calls.push({ path, body: type.includes("json") && raw.length ? JSON.parse(raw.toString()) : { bytes: raw.length } });
+        mine.push({ path, body: type.includes("json") && raw.length ? JSON.parse(raw.toString()) : { bytes: raw.length } });
         const send = (o: unknown) => {
           res.setHeader("content-type", "application/json");
           res.end(JSON.stringify(o));
@@ -449,6 +456,7 @@ describe("scripts/post-next.mjs live, against a local fake PDS", () => {
     try {
       const r = await promisify(execFile)("node_modules/.bin/tsx", ["scripts/post-next.mjs"], {
         cwd: root,
+        timeout: LIVE_RUN_MS,
         env: { PATH: process.env.PATH ?? "", HOME: process.env.HOME ?? "", POSTER_QUEUE: path, POSTER_TODAY: "2026-10-14", POSTER_NOT_BEFORE: "00:00", POSTER_SERVICE: base, BLUESKY_HANDLE: "rtm.test", BLUESKY_APP_PASSWORD: "app-pass", ...env },
       });
       out = r.stdout;
