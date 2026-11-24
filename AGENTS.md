@@ -73,8 +73,8 @@ detail, status, priority, dependencies, and acceptance criteria. GitHub keeps
 human-created/public issues, report candidates, broad epics, and discussion.
 Do not maintain a separate next-work list. At session end run `bd dolt push`
 before committing and pushing. See [`docs/beads-sync.md`](docs/beads-sync.md)
-for commands and sync recovery. JSONL export is for inspection and
-interchange, not sync or backup.
+for commands and sync recovery. Sync is Dolt only (`bd dolt pull`, `bd dolt push`);
+the JSONL export is off and `.beads/issues.jsonl` is not tracked.
 
 The database belongs to this central `reportsthatmatter/reportsthatmatter`
 repository. Tasks stay here even when their implementation is committed in a

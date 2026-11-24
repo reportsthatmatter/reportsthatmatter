@@ -6,8 +6,10 @@ in this queue when its implementation lands in a sibling report repository or
 in `ingest`. Do not initialize Beads separately in those repositories.
 
 The shared database is synchronized through this repository's GitHub-backed
-Dolt remote; the optional JSONL export is for inspection, viewers, and
-interchange, not for backup or cross-machine sync.
+Dolt remote, and only through it: `bd dolt pull` at the start, `bd dolt push`
+at the end. JSONL auto-export is off (`export.auto: false`) and
+`.beads/issues.jsonl` is git-ignored (2026-11-24); run `bd export` by hand if a
+viewer needs a file.
 
 ## Start a session
 
