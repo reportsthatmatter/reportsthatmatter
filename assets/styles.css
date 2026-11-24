@@ -2081,3 +2081,22 @@ html.passage-landing body {
   font-size: 0.85rem;
   line-height: 1.5;
 }
+
+/* A post paragraph made only of bold links (e.g. "**[Visit the site →](…)** · **[Why I built it →](…)**") renders as buttons. */
+.prose p:has(> strong > a):not(:has(> :not(strong))) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0; /* hides the " · " separator */
+}
+.prose p:has(> strong > a):not(:has(> :not(strong))) > strong { font-size: 1rem; font-weight: inherit; }
+.prose p:has(> strong > a):not(:has(> :not(strong))) > strong > a {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid var(--inverse);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.prose p:has(> strong > a):not(:has(> :not(strong))) > strong:first-child > a { background: var(--inverse); color: var(--canvas); }
+.prose p:has(> strong > a):not(:has(> :not(strong))) > strong > a:hover { background: var(--inverse); color: var(--canvas); }
