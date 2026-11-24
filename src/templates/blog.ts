@@ -17,6 +17,15 @@ const FEED_PATH = "/blog/feed.xml";
 const FEED = { href: FEED_PATH, title: "Reports that Matter — Blog" };
 
 /** "2026-10-02" → "2 October 2026". */
+/**
+ * A post's body as HTML. The report renderer gives every block a ¶ permalink;
+ * on a list it lands before the first <li> (invalid inside <ul>), shows as a
+ * stray ¶ and links by the first item's words, so posts drop it. Paragraphs keep theirs.
+ */
+export function renderPostBody(markdown: string): string {
+  return renderMarkdown(markdown).replace(/<a class="permalink"[^>]*aria-label="Link to this list"[^>]*>¶<\/a>/g, "");
+}
+
 export function formatDate(iso: string): string {
   const [year, month, day] = iso.split("-").map(Number);
   const months = [
@@ -97,7 +106,7 @@ export function renderPostPage(post: Post): string {
   </section>
   <div class="prose wrap measure">
     ${banner}
-    ${renderMarkdown(post.body)}
+    ${renderPostBody(post.body)}
   </div>
   </article>
   ${renderSignup(`post:${post.slug}`)}
@@ -132,7 +141,7 @@ export function renderAtomFeed(posts: Post[]): string {
     <updated>${post.date}T00:00:00Z</updated>
     <author><name>${xml(post.author)}</name></author>
     <summary>${xml(post.summary)}</summary>
-    <content type="html">${xml(renderMarkdown(post.body))}</content>
+    <content type="html">${xml(renderPostBody(post.body))}</content>
   </entry>`;
     })
     .join("\n");

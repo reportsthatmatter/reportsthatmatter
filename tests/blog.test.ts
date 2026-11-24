@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { readdirSync, readFileSync } from "node:fs";
 import { app } from "../src/index";
 import { parsePost, parsePosts, visiblePosts } from "../src/lib/blog";
-import { unlinkUnpublishedPosts } from "../src/templates/blog";
+import { unlinkUnpublishedPosts, renderPostBody } from "../src/templates/blog";
 import { buildBundle } from "../scripts/blog.mjs";
 
 const post = (extra = "") =>
@@ -134,5 +134,14 @@ describe("blog routes with drafts in the repo", () => {
   it("links the blog from the footer and the changelog", async () => {
     expect(await (await app.request("http://localhost/")).text()).toContain('href="/blog"');
     expect(await (await app.request("http://localhost/changelog")).text()).toContain('href="/blog"');
+  });
+});
+
+describe("renderPostBody", () => {
+  it("drops the stray ¶ the report renderer puts on a list, keeps paragraph ones", () => {
+    const html = renderPostBody("A paragraph.\n\n- one\n- two\n\n1. first\n2. second\n");
+    expect(html).not.toMatch(/Link to this list/);
+    expect(html).toMatch(/Link to this paragraph/);
+    expect(html).not.toMatch(/<(ul|ol)[^>]*>\s*<a /);
   });
 });

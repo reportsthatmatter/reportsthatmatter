@@ -12,7 +12,7 @@ Public inquiries hold the most detailed record we have of what actually happened
 
 **[Visit the site →](https://reportsthatmatter.org)**  ·  **[Why I built it →](/blog/why-reports-that-matter)**
 
-![The Reports that Matter homepage: "Reports that shaped history are still trapped in PDFs", with buttons to read the reports and to find out what the site is.](/assets/blog/reports-that-matter-is-online/homepage.webp)
+[![A paragraph of United States v. Philip Morris on the site, with its page number, 1537, in the margin. A sentence is selected, a small popover offers Copy link, Copy quote and Save, and a panel names the page and report and links to the original document.](/assets/blog/reports-that-matter-is-online/paragraph-link.webp)](https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents)
 
 ## What you can do there
 
@@ -22,11 +22,11 @@ Public inquiries hold the most detailed record we have of what actually happened
 - **Check it against the original.** The official PDF is one click from every paragraph, and where our text and the PDF differ, the PDF is right.
 - **Take the text.** Each report's full text is on GitHub as one Markdown file, and every paragraph of every report is a [dataset](/data) you can download: 64,618 rows, each with its page, its paragraph id, a link to the paragraph here and a link to the official document.
 
-![A paragraph of United States v. Philip Morris on the site, with its page number, 1537, in the margin. A sentence is selected, a small popover offers Copy link, Copy quote and Save, and a panel names the page and report and links to the original document.](/assets/blog/reports-that-matter-is-online/paragraph-link.webp)
+![The Reports that Matter homepage: "Reports that shaped history are still trapped in PDFs", with buttons to read the reports and to find out what the site is.](/assets/blog/reports-that-matter-is-online/homepage.webp)
 
 ## Three passages from the record
 
-**_United States v. Philip Morris_ (2006)**, the judgment that found the American cigarette companies had deceived the public for at least 50 years, quotes a Brown & Williamson strategy paper on [p. 1537](https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents):
+**United States v. Philip Morris (2006)**, the judgment that found the American cigarette companies had deceived the public for at least 50 years, quotes a Brown & Williamson strategy paper on [p. 1537](https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents):
 
 > "Doubt is our product since it is the best means of competing with the 'body of fact' that exists in the mind of the general public. It is also the means of establishing a controversy."
 
@@ -54,32 +54,34 @@ The report came out of a two-year investigation with subpoenas, and these are th
 
 24 reports, from the UK and the US, published between 1986 and 2026. In date order:
 
-- The House Science Committee's Challenger report (1986)
-- The Columbia Accident Investigation Board (2003)
-- The 9/11 Commission (2004)
-- The Duelfer report on Iraq's weapons (2004)
-- *United States v. Philip Morris* (2006)
-- The Stern Review (2006)
-- The Lehman Brothers examiner's report (2010)
-- The Saville Inquiry (2010)
-- The Deepwater Horizon commission (2011)
-- The Senate's financial-crisis report (2011)
-- The Hillsborough Independent Panel (2012)
-- The Leveson Inquiry (2012)
-- The Senate torture report (2014)
-- The Litvinenko Inquiry (2016)
-- The Chilcot Report (2016)
-- The 2017 Intelligence Community Assessment of Russian election interference
-- The Mueller Report (2019)
-- The January 6th Committee (2022)
-- The Grenfell Tower Inquiry's Phase 2 report (2024)
-- The Jack Smith report (2025)
-- The Post Office Horizon IT Inquiry (2025)
-- The Covid Inquiry's Module 2 report (2025)
-- The Southport Inquiry's Phase 1 report (2026)
-- The Thirlwall Inquiry (2026)
+- [The House Science Committee's Challenger report](/reports/challenger-accident) (1986)
+- [The Columbia Accident Investigation Board](/reports/columbia-accident) (2003)
+- [The 9/11 Commission](/reports/us-911-commission) (2004)
+- [The Duelfer report on Iraq's weapons](/reports/us-duelfer-report) (2004)
+- [United States v. Philip Morris](/reports/us-v-philip-morris) (2006)
+- [The Stern Review](/reports/uk-stern-review) (2006)
+- [The Lehman Brothers examiner's report](/reports/us-lehman-examiner) (2010)
+- [The Saville Inquiry](/reports/uk-saville-inquiry) (2010)
+- [The Deepwater Horizon commission](/reports/us-deepwater-horizon) (2011)
+- [The Senate's financial-crisis report](/reports/us-psi-financial-crisis) (2011)
+- [The Hillsborough Independent Panel](/reports/uk-hillsborough-panel) (2012)
+- [The Leveson Inquiry](/reports/uk-leveson-inquiry) (2012)
+- [The Senate torture report](/reports/us-senate-cia-torture-report) (2014)
+- [The Litvinenko Inquiry](/reports/litvinenko-inquiry) (2016)
+- [The Chilcot Report](/reports/uk-chilcot-inquiry) (2016)
+- [The 2017 Intelligence Community Assessment of Russian election interference](/reports/us-ica-2017-russia-elections)
+- [The Mueller Report](/reports/us-mueller-report) (2019)
+- [The January 6th Committee](/reports/us-jan6-committee) (2022)
+- [The Grenfell Tower Inquiry's Phase 2 report](/reports/uk-grenfell-tower-inquiry) (2024)
+- [The Jack Smith report](/reports/jack-smith-vol1) (2025)
+- [The Post Office Horizon IT Inquiry](/reports/uk-post-office-horizon-inquiry) (2025)
+- [The Covid Inquiry's Module 2 report](/reports/uk-covid-inquiry-module-2) (2025)
+- [The Southport Inquiry's Phase 1 report](/reports/uk-southport-inquiry) (2026)
+- [The Thirlwall Inquiry](/reports/uk-thirlwall-inquiry) (2026)
 
 Some are not whole yet, and each says so at the top: Chilcot is the executive summary, Lehman is Volumes 1 and 3, and several others are their first volume. [All of them are here](/reports), and the appendix to the [essay](/blog/why-reports-that-matter) has a line on each.
+
+**Getting here took a lot of work.** Each report arrives as a PDF typeset for paper, and a PDF does not record which lines are a paragraph, a heading or a footnote. For more than six million words across 24 reports, all of that was worked out again: page furniture stripped, sentences split across page breaks joined back up, footnotes reattached, every paragraph given an id, and the result compared with the official PDF page by page. It has taken more than a year and thousands of hours of processing, checking and tidying, and it is not finished.
 
 ![The landing page for United States v. Philip Morris: a photograph of tobacco executives being sworn in before a House subcommittee in April 1994, the report's title and year, and the start of our introduction.](/assets/blog/reports-that-matter-is-online/report-landing.webp)
 
