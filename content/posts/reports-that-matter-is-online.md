@@ -3,13 +3,7 @@ title: "Reports that Matter is online: 24 public inquiries as web pages you can 
 date: "2026-11-24"
 author: "Rufus Pollock"
 summary: "The official reports on 9/11, the financial crisis, the tobacco companies, Columbia, Chilcot, Grenfell, the Post Office and more, rebuilt from their PDFs as web pages, with every paragraph linkable and the official document one click away."
-status: draft
-review:
-  - "The announce post for the social launch of Tue 24 Nov 2026 (marketing one-pager of 24 Nov). It sits beside the essay 'A treasure trove of facts that matter: why I built Reports that Matter' (why-reports-that-matter.md), which is the voice and the story; this is the plain version. No quote from Rufus, by his choice; his bio is one clause in the FAQ."
-  - "Tension with brand-voice.md: the site has been live since 27 Oct 2026 and the org Bluesky has posted daily since 24 Oct, so the post never says 'opens today' or 'launch'. 'Is online' is the headline verb. If a date is wanted, the honest one is that this is the first announcement, not the first day online."
-  - "The three passages and their pages are the essay's (Philip Morris p. 1537, Columbia p. 157, Senate PSI p. 297), verified against the site's text on 21 Nov; '?p=' ids checked by marketing/scripts/check-drafts.py. The why-it-matters lines are ours, cut shorter than the essay's after a critique (21 Nov) found them verdict-adjacent in the plain register. The same critique replaced 9/11 p. 21 (NEADS unexplained; reads cold between a tobacco memo and a bankers' joke) with Columbia p. 157. Columbia is an affected-community report: no toll, no crew named; the context is the report's name, year and the loss of the vehicle, as in the essay."
-  - "Counts: 24 reports and 64,618 paragraphs are from /reports and /data on 21 Nov 2026. If a report ships before publication, update both (check-drafts.py fails a stale report count)."
-  - "Screenshots were taken from the live site on 21 Nov 2026 with Playwright (1280px wide, 2x) and are in assets/blog/reports-that-matter-is-online/ as WebP. Retake if the homepage or the share popover changes before 24 Nov. The removal promise ('within a day') repeats the published 27 Oct post."
+status: published
 ---
 
 Public inquiries hold the most detailed record we have of what actually happened, and almost nobody reads past the summary. Reports that Matter puts 24 of the big ones online as web pages you can read, search and link to, in the report's own words: the 9/11 Commission, the Senate's financial-crisis report, *United States v. Philip Morris*, Columbia, Chilcot, Leveson, Grenfell, the Post Office Horizon Inquiry and the Covid Inquiry among them, from the UK and the US, 1986 to 2026. Every paragraph has its own link and its page number, and the official PDF is one click from every page.
