@@ -1,42 +1,60 @@
 ---
-title: "Reports that Matter is online: 24 public inquiries as web pages you can read, search and link to"
+title: "Reports that Matter is online: the big public inquiries, to read, search and link to"
 date: "2026-11-24"
 author: "Rufus Pollock"
-summary: "The official reports on 9/11, the financial crisis, the tobacco companies, Columbia, Chilcot, Grenfell, the Post Office and more, rebuilt from their PDFs as web pages, with every paragraph linkable and the official document one click away."
+summary: "The big public inquiries, rebuilt from their PDFs as web pages: every paragraph has its own link, and the official document is one click away."
 status: published
 ---
 
-Public inquiries hold the most detailed record we have of what actually happened, and almost nobody reads past the summary. Reports that Matter puts 24 of the big ones online as web pages you can read, search and link to, in the report's own words: the 9/11 Commission, the Senate's financial-crisis report, *United States v. Philip Morris*, Columbia, Chilcot, Leveson, Grenfell, the Post Office Horizon Inquiry and the Covid Inquiry among them, from the UK and the US, 1986 to 2026. Every paragraph has its own link and its page number, and the official PDF is one click from every page.
+Public inquiries hold the most detailed record we have of what actually happened, and almost nobody reads past the summary. **Reports that Matter puts those reports online**, to read, search and link to, in their own words.
 
-What these reports hold is the evidence: the companies' own memos, the emails with their time stamps, the morning rebuilt to the minute, gathered by people with the power to compel it. A report gets one news day, built from the executive summary, and then the evidence goes into a PDF on a website that often closes when the inquiry does. Reports that Matter puts it back where it can be read. The site is at [reportsthatmatter.org](https://reportsthatmatter.org); the essay on why it exists is [A treasure trove of facts that matter: why I built Reports that Matter](/blog/why-reports-that-matter).
+Inquiries can make people hand over **their own memos and emails**. Then the report gets one news day and sinks into a thousand-page PDF, on a website that often vanishes when the inquiry closes.
+
+Go and read: [reportsthatmatter.org](https://reportsthatmatter.org). Why I built it: [A treasure trove of facts that matter](/blog/why-reports-that-matter).
 
 ![The Reports that Matter homepage: "Reports that shaped history are still trapped in PDFs", with buttons to read the reports and to find out what the site is.](/assets/blog/reports-that-matter-is-online/homepage.webp)
 
 ## What you can do there
 
-- **Read a report whole**, as the inquiry published it, chapter by chapter or on one page, with the page numbers of the printed report in the margin.
-- **Search across all of them at once.** One query runs over every report; each result shows the report, the chapter and the page.
-- **Link to any sentence.** Every paragraph has its own link. Select any run of words and you get a link to exactly those words, so when you tell someone what a report says, you can show them.
-- **Check it against the original.** The official PDF is one click from every paragraph, and where our text and the PDF differ, the PDF is right.
-- **Take the text.** Each report's full text is on GitHub as one Markdown file, and every paragraph of every report is a [dataset](/data) you can download: 64,618 rows, each with its page, its paragraph id, a link to the paragraph here and a link to the official document.
+- **Read a report whole**, with the printed page numbers in the margin.
+- **Search every report at once.**
+- **Link to any sentence.** Select any words and get a link to exactly those words.
+- **Check it against the original.** The official PDF is one click from every paragraph.
+- **Take the text.** Every report is on GitHub, and every paragraph is a [downloadable dataset](/data).
 
 ![A paragraph of United States v. Philip Morris on the site, with its page number, 1537, in the margin. A sentence is selected, a small popover offers Copy link, Copy quote and Save, and a panel names the page and report and links to the original document.](/assets/blog/reports-that-matter-is-online/paragraph-link.webp)
 
 ## Three passages from the record
 
-*United States v. Philip Morris* (2006), the judgment that found the American cigarette companies had deceived the public for at least 50 years, quotes a Brown & Williamson strategy paper on [p. 1537](https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents): "Doubt is our product since it is the best means of competing with the 'body of fact' that exists in the mind of the general public. It is also the means of establishing a controversy." The case was built from the companies' own files, and this is the inside record of how an industry handled science it privately accepted.
+### "Doubt is our product"
 
-The Columbia Accident Investigation Board (2003) reprints the emails NASA's managers and engineers sent one another on 22 January 2003, 10 days before Columbia broke apart on re-entry, as a request to have the shuttle's wing photographed in orbit was raised and then cancelled. On [p. 157](https://reportsthatmatter.org/reports/columbia-accident?p=my-humble-technical-opinion-wrong) it prints one that an engineer, Rodney Rocha, wrote that afternoon and did not send: "In my humble technical opinion, this is the wrong (and bordering on irresponsible) answer from the SSP and Orbiter not to request additional imaging help from any outside source." You get the process, in order, with its times, from the emails; no summary carries it.
+> Doubt is our product since it is the best means of competing with the 'body of fact' that exists in the mind of the general public. It is also the means of establishing a controversy.
 
-The Senate's financial-crisis report (2011) quotes, on [p. 297](https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=times-some-cra-analysts-openly), a Standard & Poor's analyst's email of December 2006 about a security the agency had been asked to rate: "Let's hope we are all wealthy and retired by the time this house of cards falters." And an instant message from April 2007: "[W]e rate every deal[.] [I]t could be structured by cows and we would rate it." The report came out of a two-year investigation with subpoenas, and these are the people inside the rating agency, writing to each other at the time.
+A Brown & Williamson strategy paper, quoted in *United States v. Philip Morris* (2006), the judgment that found the American cigarette companies had deceived the public for at least 50 years. The case was built from the companies' own files. [Read it in place, p. 1537 →](https://reportsthatmatter.org/reports/us-v-philip-morris?p=paramount-significance-defendants-internal-documents)
+
+### "This house of cards"
+
+> Let's hope we are all wealthy and retired by the time this house of cards falters.
+
+A Standard & Poor's analyst, by email in December 2006, about a security the agency had been asked to rate. Four months later, by instant message:
+
+> [I]t could be structured by cows and we would rate it.
+
+From the Senate's 2011 report on the financial crisis. [Read it in place, p. 297 →](https://reportsthatmatter.org/reports/us-psi-financial-crisis?p=times-some-cra-analysts-openly)
+
+### The email he didn't send
+
+On 22 January 2003, ten days before Columbia broke apart on re-entry, a request to photograph the shuttle's wing in orbit was raised and then cancelled. That afternoon an engineer, Rodney Rocha, wrote an email he did not send:
+
+> In my humble technical opinion, this is the wrong (and bordering on irresponsible) answer from the SSP and Orbiter not to request additional imaging help from any outside source.
+
+The Columbia Accident Investigation Board (2003) prints the day's emails in order, with their times. No summary carries that. [Read it in place, p. 157 →](https://reportsthatmatter.org/reports/columbia-accident?p=my-humble-technical-opinion-wrong)
 
 ![Search results for "chain of command" across every report, each with its report, chapter and page.](/assets/blog/reports-that-matter-is-online/search.webp)
 
 ## What is in it
 
-24 reports, from the UK and the US, published between 1986 and 2026. In date order: the House Science Committee's Challenger report (1986); the Columbia Accident Investigation Board (2003); the 9/11 Commission (2004); the Duelfer report on Iraq's weapons (2004); *United States v. Philip Morris* (2006); the Stern Review (2006); the Lehman Brothers examiner's report (2010); the Saville Inquiry (2010); the Deepwater Horizon commission (2011); the Senate's financial-crisis report (2011); the Hillsborough Independent Panel (2012); the Leveson Inquiry (2012); the Senate torture report (2014); the Litvinenko Inquiry (2016); the Chilcot Report (2016); the 2017 Intelligence Community Assessment of Russian election interference; the Mueller Report (2019); the January 6th Committee (2022); the Grenfell Tower Inquiry's Phase 2 report (2024); the Jack Smith report (2025); the Post Office Horizon IT Inquiry (2025); the Covid Inquiry's Module 2 report (2025); the Southport Inquiry's Phase 1 report (2026); and the Thirlwall Inquiry (2026).
-
-Some are not whole yet, and each says so at the top: Chilcot is the executive summary, Lehman is Volumes 1 and 3, and several others are their first volume. [All of them are here](/reports), and the appendix to the [essay](/blog/why-reports-that-matter) has a line on each.
+Two dozen of the inquiries that shaped Britain and America: **Chilcot, Mueller, the 9/11 Commission, the Post Office Horizon inquiry, Grenfell** and more. [See them all](/reports). Where a report isn't complete yet, it says so at the top.
 
 ![The landing page for United States v. Philip Morris: a photograph of tobacco executives being sworn in before a House subcommittee in April 1994, the report's title and year, and the start of our introduction.](/assets/blog/reports-that-matter-is-online/report-landing.webp)
 
