@@ -589,7 +589,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=russia-collected-some-republican-affiliated-targets&h=|Russia%20collected%20on%20some%20Republican-affiliated%20targets%20but%20did%20not%20conduct%20a%20comparable%20disclosure%20campaign.|&src=bsky
     card: assets/cards/us-ica-2017-russia-elections/q-315d5c57.png
     scheduled: 2026-11-24
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n32ru5jnxo2s
+    posted_at: 2026-11-24T13:47:40.214Z
   - id: us-ica-2017-russia-elections:we-assess-moscow-will-apply-2:eb337e28
     report: us-ica-2017-russia-elections
     paragraph: we-assess-moscow-will-apply-2
