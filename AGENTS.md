@@ -706,6 +706,8 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 
 **Ship unless irreversible** (Rufus, 2026-10-24). Make the reversible choice and ship; ask only before irreversible steps.
 
+**Push to main; no PR for docs, data and backlog work** (Rufus, 2026-11-25: "avoid prs and just push to main"). Docs, skills, `projects/`, `reports/pipeline.yaml`, research files and other changes that do not alter what is served: merge `origin/main` into your branch, run the checks (`VERIFY_SHARED=1 ./scripts/verify.sh`, or at least the ones the change touches), then `git push origin HEAD:main`. PRs and the reviewer gate stay for report releases and anything shipped with `pnpm ship`: ingest passes and pin bumps, report text, editorial, site code, posts and the queue.
+
 **Always merge; don't wait on Rufus** (Rufus, 2026-11-13: "please always merge - don't wait on me"). Once a PR's gates pass (and a reviewer's verdict says merge, where the pipeline asks for one), the integrator merges and ships it, including posts and queue changes; no draft PR is left waiting for Rufus's merge. Content holds still apply (e.g. reports whose campaign-group review emails are unsent).
 
 **Always deploy what you merge** (Rufus, 2026-11-22: "you deploy always"). A merged site change (templates, CSS, editorial, posts, docs that ship) is deployed by the agent that merged it, straight away: `./scripts/deploy-cloudflare.sh` from a checkout of current `main`, then `VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh`. Don't ask Rufus first. Report releases still go through `pnpm ship` (the integrator).
