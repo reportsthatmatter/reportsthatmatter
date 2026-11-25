@@ -609,7 +609,8 @@ items:
     link: https://reportsthatmatter.org/reports/us-ica-2017-russia-elections?p=we-assess-moscow-will-apply-2&h=|We%20assess%20Moscow%20will%20apply%20lessons%20learned%20from%20its%20campaign%20aimed%20at%20the%20US%20presidential%20election%20to%20future%20influence%20efforts%20in%20the%20United%20States%20and%20worldwide%2C%20including%20against%20US%20allies%20and%20their%20election%20processes.|%20We%20assess%20the%20Russian&src=bsky
     card: assets/cards/us-ica-2017-russia-elections/q-40d4bcd3.png
     scheduled: 2026-11-25
-    posted_url: null
+    posted_url: https://bsky.app/profile/did:plc:owtfs5pk265ppfmojghzr56t/post/3n35cdanfsf23
+    posted_at: 2026-11-25T13:47:46.086Z
   - id: uk-covid-inquiry-module-2:2-206-four-governments-knew:3778c1f7
     hook: By mid-February 2020 Covid-19 was likely spreading in the UK. Scotland
       could carry out 350 tests a day; Northern Ireland, on 10 February, 40.
