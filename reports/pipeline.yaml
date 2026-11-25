@@ -516,3 +516,86 @@ units:
     score: {interest: 4, source: 5, size: 5, licence: 4, hook: 2}
     evidence: "https://digitallibrary.un.org/record/800768 ; PDF https://documents.un.org/doc/undoc/gen/g15/132/86/pdf/g1513286.pdf ; CRP.4 https://documents.un.org/doc/undoc/gen/g15/132/95/pdf/g1513295.pdf; tagged PDF (Word 2010), good text layer; checked both; 35 pp; UN official documents may be freely reproduced (UN publications policy), but this is not formally public domain or OGL."
     notes: "Small, tagged UN report on civilian deaths in Gaza; highly cited given the 2023-25 war and the ICJ and ICC proceedings. Affected community: check the open decisions (0026) first."
+
+  # Senate Permanent Subcommittee on Investigations sweep, 2026-11-22 (project 2602, psi.json: 105 reports, 1995-2026): the strongest.
+  - id: us-psi-enron-board
+    title: "The Role of the Board of Directors in Enron's Collapse (S. Prt. 107-70)"
+    scope: "Whole report (~60 pp)"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 5, size: 5, licence: 5, hook: 5}
+    hook: "2026-12-02: 25th anniversary of Enron's bankruptcy filing (Dec 2, 2001)"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-the-role-of-the-board-of-directors-in-enrons-collapse/; https://www.govinfo.gov/app/details/CPRT-107SPRT80393; https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/pdf/CPRT-107SPRT80393.pdf; https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/html/CPRT-107SPRT80393.htm; https://www.govinfo.gov/app/details/CHRG-107shrg80300; ~60 plus appendix pp; text layer: yes: govinfo HTML text plus text PDF; US federal work, public domain"
+    notes: "PSI (bipartisan subcommittee report, chair Carl Levin (D-MI)), 2002. The definitive congressional finding that Enron's board failed to safeguard shareholders; short, readable, still cited in governance teaching."
+  - id: us-psi-backpage
+    title: "Backpage.com's Knowing Facilitation of Online Sex Trafficking"
+    scope: "Whole report (55 pp)"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 4, size: 5, licence: 5, hook: 4}
+    hook: "2027-01-10: 10th anniversary of the report and hearing; FOSTA-SESTA and Section 230 reform remain live"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/backpagecoms-knowing-facilitation-of-online-sex-trafficking/; https://www.govinfo.gov/app/details/CHRG-115shrg24401; https://www.govinfo.gov/content/pkg/CHRG-115shrg24401/pdf/CHRG-115shrg24401.pdf; https://www.govinfo.gov/content/pkg/CHRG-115shrg24401/html/CHRG-115shrg24401.htm; 55 pp; text layer: hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked); US federal work, public domain"
+    notes: "PSI (bipartisan staff report, chair Rob Portman (R-OH)), 2017. Proved Backpage edited ads to hide child sex trafficking; led to FOSTA-SESTA, the site's seizure and criminal charges."
+  - id: us-psi-medicare-advantage-denials
+    title: "Refusal of Recovery: How Medicare Advantage Companies Have Intentionally Denied Patients Access to Post-Acute Care"
+    scope: "Whole report"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 3, size: 5, licence: 5, hook: 4}
+    hook: "live: MA prior-authorisation and AI denials; CMS 2028 rate notice due early April 2027"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/psi-majority-staff-report-medicare-advantage/; https://www.hsgac.senate.gov/wp-content/uploads/2024.10.17-PSI-Majority-Staff-Report-on-Medicare-Advantage.pdf; ~50 (not checked) pp; text layer: likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches); US federal work, public domain"
+    notes: "PSI (majority staff report, chair Richard Blumenthal (D-CT)), 2024. The most-cited recent PSI report: insurers' denial rates for post-acute care soared, driven by automation."
+  - id: us-psi-russia-chips
+    title: "The U.S. Technology Fueling Russia's War in Ukraine: Examining Semiconductor Manufacturers' Compliance with Export Controls"
+    scope: "Whole report (43 pp)"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 4, size: 5, licence: 5, hook: 4}
+    hook: "2027-02-24: 5th anniversary of Russia's full-scale invasion"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-staff-report-the-u-s-technology-fueling-russias-war-in-ukraine/; https://www.hsgac.senate.gov/wp-content/uploads/09.10.2024-Majority-Staff-Report-The-U.S.-Technology-Fueling-Russias-War-in-Ukraine.pdf; https://www.govinfo.gov/app/details/CHRG-118shrg57030; https://www.govinfo.gov/content/pkg/CHRG-118shrg57030/pdf/CHRG-118shrg57030.pdf; https://www.govinfo.gov/content/pkg/CHRG-118shrg57030/html/CHRG-118shrg57030.htm; 43 pp; text layer: hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked); US federal work, public domain"
+    notes: "PSI (majority staff report, chair Richard Blumenthal (D-CT)), 2024. US chips are still found in Russian missiles and drones; chipmakers' compliance failures."
+  - id: us-psi-ice-detention-women
+    title: "Medical Mistreatment of Women in ICE Detention"
+    scope: "Report body minus medical-review appendices"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 4, size: 5, licence: 5, hook: 4}
+    hook: "live: ICE detention expansion and deaths in custody are major 2026 news"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-medical-mistreatment-of-women-in-ice-detention/; https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2022-11-15%20PSI%20Staff%20Report%20-%20Medical%20Mistreatment%20of%20Women%20in%20ICE%20Detention.pdf; https://www.govinfo.gov/app/details/CHRG-117shrg50238; https://www.govinfo.gov/content/pkg/CHRG-117shrg50238/pdf/CHRG-117shrg50238.pdf; https://www.govinfo.gov/content/pkg/CHRG-117shrg50238/html/CHRG-117shrg50238.htm; ~100 (not checked) pp; text layer: hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked); US federal work, public domain"
+    notes: "PSI (bipartisan staff report, chair Jon Ossoff (D-GA)), 2022. Bipartisan finding that women at a Georgia ICE facility were subjected to excessive, unnecessary gynaecological procedures."
+  - id: us-psi-enron-four-transactions
+    title: "Fishtail, Bacchus, Sundance, and Slapshot: Four Enron Transactions Funded and Facilitated by U.S. Financial Institutions (S. Prt. 107-82)"
+    scope: "Whole report minus appendices"
+    reached: candidate
+    state: active
+    score: {interest: 3, source: 5, size: 5, licence: 5, hook: 4}
+    hook: "2026-12-02: 25th anniversary of Enron bankruptcy (companion to the board report)"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_report-on-fishtail-bacchus-sundance-and-slapshot-four-enron-transactions-funded-and-facilitated-by-us-financial-institutions/; https://www.govinfo.gov/app/details/CPRT-107SPRT83559; https://www.govinfo.gov/content/pkg/CPRT-107SPRT83559/pdf/CPRT-107SPRT83559.pdf; https://www.govinfo.gov/content/pkg/CPRT-107SPRT83559/html/CPRT-107SPRT83559.htm; ~60 plus appendices pp; text layer: yes: govinfo HTML text plus text PDF; US federal work, public domain"
+    notes: "PSI (bipartisan subcommittee report, chair Carl Levin (D-MI)), 2003. How major banks built sham transactions that inflated Enron's books."
+  - id: us-psi-citizen-detentions
+    title: "Examining the Trump Administration's Extrajudicial Immigration Detentions of U.S. Citizens (minority report)"
+    scope: "Whole report"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 3, size: 5, licence: 5, hook: 4}
+    hook: "2026-12-09 first anniversary; live immigration-enforcement news"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-12-09-psi-minority-report-examining-the-trump-administrations-extrajudicial-immigration-detentions-of-u-s-citizens/; ~40 (not checked) pp; text layer: likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches); US federal work, public domain"
+    notes: "PSI (minority staff report (Blumenthal), chair Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)), 2025. Documents cases of US citizens detained by immigration agents."
+  - id: us-psi-butler-secret-service
+    title: "Examination of U.S. Secret Service Planning and Security Failures Related to the July 13, 2024 Assassination Attempt (interim report, S. Prt.)"
+    scope: "Whole report"
+    reached: candidate
+    state: active
+    score: {interest: 4, source: 5, size: 5, licence: 5, hook: 2}
+    hook: "2027-07-13 second anniversary falls outside window"
+    evidence: "https://www.govinfo.gov/app/details/CPRT-118SPRT58130; https://www.govinfo.gov/content/pkg/CPRT-118SPRT58130/pdf/CPRT-118SPRT58130.pdf; https://www.govinfo.gov/content/pkg/CPRT-118SPRT58130/html/CPRT-118SPRT58130.htm; 133 pp; text layer: yes: govinfo HTML text plus text PDF; US federal work, public domain"
+    notes: "PSI (bipartisan interim staff report (HSGAC full committee with PSI), chair Gary Peters (full committee) / Richard Blumenthal (D-CT) (PSI)), 2024. Bipartisan account of Secret Service failures at Butler; joint HSGAC-PSI product."
+  - id: us-psi-jpmorgan-whale
+    title: "JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses"
+    scope: "Executive summary and findings plus chapters 1-3 (~120 pp)"
+    reached: candidate
+    state: active
+    score: {interest: 5, source: 4, size: 3, licence: 5, hook: 3}
+    hook: "2027-05-10: 15th anniversary of JPMorgan's disclosure of the London Whale losses (May 10, 2012)"
+    evidence: "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-jpmorgan-chase-whale-trades-a-case-history-of-derivatives-risks-and-abuses-march-15-2013/; https://www.govinfo.gov/app/details/CHRG-113shrg80222; https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/pdf/CHRG-113shrg80222.pdf; https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/html/CHRG-113shrg80222.htm; 301 (S. Hrg. 113-96 at p. 150) pp; text layer: hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked); US federal work, public domain"
+    notes: "PSI (bipartisan staff report, chair Carl Levin (D-MI)), 2013. The definitive account of the $6.2bn London Whale loss; key evidence in Volcker Rule debates."

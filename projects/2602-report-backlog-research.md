@@ -37,3 +37,4 @@ Building any report (no repos, ingests or stage beads); the public progress page
 ## Status
 
 Done-check met: 23 active, fully scored backlog rows (target 10-15), 52 inbox ideas (target about 50), the 19 triaged, `pnpm pipeline status --check` exits 0.
+- 2026-11-25: systematic sweep of the Senate Permanent Subcommittee on Investigations (PSI), 1995-2026: 105 substantial reports scored in [psi.json](2602-report-backlog-research/psi.json) (sources: archived PSI clerk lists 1999-2014 and 1947-2017, HSGAC activity reports 2017-2024, govinfo committee prints; 2025-26 by web search, patchy). 9 added as backlog rows (`us-psi-*`: Enron board 25, Backpage 23, Medicare Advantage denials, Russia chips, ICE detention of women, four Enron transactions 22, citizen detentions, Butler 21, London Whale 20); the next 11 (all 20/25) logged as inbox ideas; the rest stay in the JSON. The South African TRC unparked: licence is noted, never a reason to park or reject (Rufus, 2026-11-22).

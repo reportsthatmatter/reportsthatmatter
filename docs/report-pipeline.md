@@ -23,7 +23,7 @@ Posts queued for a report are read from `marketing/queue.yaml`; they are shown o
 
 ## A new idea: one step
 
-From a terminal in the site repo: `bd q "Report idea: <report name>" -l report-idea` (add `-d "<link, why now>"` if you have it). From anywhere else, including a phone: tell any Claude session on the repo "log a report idea: <name>", and it runs that command. Only the name is needed. Report ideas are not GitHub issues (Rufus, 2026-11-22); the 19 older idea issues were moved into beads and closed.
+From a terminal in the site repo: `bd q "Report idea: <report name>" -l report-idea` (with a link or note: `bd create "Report idea: <name>" --labels report-idea -d "<link, why now>"`). From anywhere else, including a phone: tell any Claude session on the repo "log a report idea: <name>", and it runs that command. Only the name is needed. Report ideas are not GitHub issues (Rufus, 2026-11-22); the 19 older idea issues were moved into beads and closed.
 
 ## Triage: idea to backlog
 

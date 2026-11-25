@@ -1,0 +1,2918 @@
+{
+  "sources_checked": [
+    {
+      "source": "hsgac.senate.gov PSI pages (subcommittees/investigations, reports listing)",
+      "result": "blocked: HTTP 403 (Akamai) to curl and WebFetch; the old /reports listing now 404s. Worked around via Wayback Machine: CDX index of all archived /subcommittees/investigations/library/files/ pages (2,767 entries) filtered for reports, plus archived wp-content upload paths. Systematic for file names; PDFs themselves not fetchable for page counts.",
+      "systematic": true
+    },
+    {
+      "source": "PSI 'Links to PSI Hearings and Reports (106th-113th Congress)' list, archived PDF (Mary D. Robertson, PSI chief clerk)",
+      "result": "worked: authoritative list of every report 1999-2014 with S. Hrg./S. Prt. citations and page offsets",
+      "systematic": true
+    },
+    {
+      "source": "PSI 'Publication List (1947-present)', updated 2017-03-09, archived PDF",
+      "result": "worked: reports 1995-2016 (104th-114th Congress)",
+      "systematic": true
+    },
+    {
+      "source": "HSGAC biennial Activities reports (PSI sections): 115th (archived PDF), 116th (S. Rpt. 117-1, archived PDF), 117th (CRPT-118srpt1, govinfo HTML), 118th (CRPT-119srpt8, govinfo HTML)",
+      "result": "worked: complete official lists of PSI reports 2017-2024 with page counts",
+      "systematic": true
+    },
+    {
+      "source": "govinfo.gov API search: CPRT (committee prints) mentioning PSI",
+      "result": "worked: 180 hits, ~20 PSI committee prints with HTML text",
+      "systematic": true
+    },
+    {
+      "source": "govinfo.gov API search: CHRG (hearings) with 'Permanent Subcommittee on Investigations' AND 'staff report', 104th-119th Congress",
+      "result": "worked but patchy: 125 hits incl. many non-PSI hearings; recent hearings lag publication; DEMO_KEY rate-limited further lookups",
+      "systematic": false
+    },
+    {
+      "source": "Web search (2025-2026 reports, minority reports)",
+      "result": "worked: filled in 119th Congress items (Johnson majority, Blumenthal minority) not yet in any activities report",
+      "systematic": false
+    },
+    {
+      "source": "Wikipedia: United States Senate Homeland Security Permanent Subcommittee on Investigations",
+      "result": "checked: chair list and a few notable investigations; no report list",
+      "systematic": false
+    },
+    {
+      "source": "Levin Center (levin-center.org, Wayne State)",
+      "result": "checked via search: no PSI case list found (teaching materials only)",
+      "systematic": false
+    }
+  ],
+  "notes": [
+    "Page counts marked '(not checked)' are estimates; those from activities reports or checked PDFs are firm. hsgac.senate.gov blocks automated downloads, so text-layer checks were possible only for six PDFs via the Wayback Machine.",
+    "Scoring: source 5 = govinfo committee print/Senate report with HTML text; 4 = report printed inside a govinfo hearing record (HTML exists but the report must be cut out) or tagged PDF; 3 = born-digital HSGAC PDF only; 1-2 = no copy found or likely scan.",
+    "Excluded: full-committee HSGAC reports (e.g. Enron credit rating/SEC watchdog prints 2002, 2023 drug shortages, 2025 Secret Service 'One Year Later'), GAO reports requested by PSI, hearing transcripts, short staff memos except landmark ones (Apple, Microsoft/HP, Boeing), and the PSI 'activities' reports themselves. The September 2024 Butler interim report is included because it was a joint HSGAC-PSI product.",
+    "Generated 2026-11-22 for project 2602."
+  ],
+  "reports": [
+    {
+      "title": "The Role of the Board of Directors in Enron's Collapse (S. Prt. 107-70)",
+      "year": 2002,
+      "date": "2002-07-08",
+      "sides": "bipartisan subcommittee report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "corporate governance, Enron",
+      "pages": "~60 plus appendix",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-the-role-of-the-board-of-directors-in-enrons-collapse/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-107SPRT80393",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/pdf/CPRT-107SPRT80393.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/html/CPRT-107SPRT80393.htm",
+        "hearing_govinfo": "https://www.govinfo.gov/app/details/CHRG-107shrg80300"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 5,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 5
+      },
+      "total": 25,
+      "hook": "2026-12-02: 25th anniversary of Enron's bankruptcy filing (Dec 2, 2001)",
+      "why": "The definitive congressional finding that Enron's board failed to safeguard shareholders; short, readable, still cited in governance teaching.",
+      "first_unit": "Whole report (~60 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Backpage.com's Knowing Facilitation of Online Sex Trafficking",
+      "year": 2017,
+      "date": "2017-01-10",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "sex trafficking, online platforms, Section 230",
+      "pages": "55",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/backpagecoms-knowing-facilitation-of-online-sex-trafficking/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-115shrg24401",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-115shrg24401/pdf/CHRG-115shrg24401.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-115shrg24401/html/CHRG-115shrg24401.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 5,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 4
+      },
+      "total": 23,
+      "hook": "2027-01-10: 10th anniversary of the report and hearing; FOSTA-SESTA and Section 230 reform remain live",
+      "why": "Proved Backpage edited ads to hide child sex trafficking; led to FOSTA-SESTA, the site's seizure and criminal charges.",
+      "first_unit": "Whole report (55 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Refusal of Recovery: How Medicare Advantage Companies Have Intentionally Denied Patients Access to Post-Acute Care",
+      "year": 2024,
+      "date": "2024-10-17",
+      "sides": "majority staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "Medicare Advantage denials, UnitedHealthcare, Humana, CVS, algorithms",
+      "pages": "~50 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/psi-majority-staff-report-medicare-advantage/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.10.17-PSI-Majority-Staff-Report-on-Medicare-Advantage.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 5,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 4
+      },
+      "total": 22,
+      "hook": "live: MA prior-authorisation and AI denials; CMS 2028 rate notice due early April 2027",
+      "why": "The most-cited recent PSI report: insurers' denial rates for post-acute care soared, driven by automation.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The U.S. Technology Fueling Russia's War in Ukraine: Examining Semiconductor Manufacturers' Compliance with Export Controls",
+      "year": 2024,
+      "date": "2024-09-10",
+      "sides": "majority staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "export controls, semiconductors (AMD, Analog Devices, Intel, TI), Russia",
+      "pages": "43",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-staff-report-the-u-s-technology-fueling-russias-war-in-ukraine/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/09.10.2024-Majority-Staff-Report-The-U.S.-Technology-Fueling-Russias-War-in-Ukraine.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-118shrg57030",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-118shrg57030/pdf/CHRG-118shrg57030.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-118shrg57030/html/CHRG-118shrg57030.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 4
+      },
+      "total": 22,
+      "hook": "2027-02-24: 5th anniversary of Russia's full-scale invasion",
+      "why": "US chips are still found in Russian missiles and drones; chipmakers' compliance failures.",
+      "first_unit": "Whole report (43 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Medical Mistreatment of Women in ICE Detention",
+      "year": 2022,
+      "date": "2022-11-15",
+      "sides": "bipartisan staff report",
+      "chair": "Jon Ossoff (D-GA)",
+      "topic": "immigration detention, gynaecological abuse (Irwin County Detention Center)",
+      "pages": "~100 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-medical-mistreatment-of-women-in-ice-detention/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2022-11-15%20PSI%20Staff%20Report%20-%20Medical%20Mistreatment%20of%20Women%20in%20ICE%20Detention.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-117shrg50238",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-117shrg50238/pdf/CHRG-117shrg50238.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-117shrg50238/html/CHRG-117shrg50238.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 4
+      },
+      "total": 22,
+      "hook": "live: ICE detention expansion and deaths in custody are major 2026 news",
+      "why": "Bipartisan finding that women at a Georgia ICE facility were subjected to excessive, unnecessary gynaecological procedures.",
+      "first_unit": "Report body minus medical-review appendices",
+      "status": "new"
+    },
+    {
+      "title": "Fishtail, Bacchus, Sundance, and Slapshot: Four Enron Transactions Funded and Facilitated by U.S. Financial Institutions (S. Prt. 107-82)",
+      "year": 2003,
+      "date": "2003-01-02",
+      "sides": "bipartisan subcommittee report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "Enron, structured finance, banks (Citigroup, JPMorgan Chase, Merrill Lynch)",
+      "pages": "~60 plus appendices",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_report-on-fishtail-bacchus-sundance-and-slapshot-four-enron-transactions-funded-and-facilitated-by-us-financial-institutions/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-107SPRT83559",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT83559/pdf/CPRT-107SPRT83559.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT83559/html/CPRT-107SPRT83559.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 3,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 4
+      },
+      "total": 22,
+      "hook": "2026-12-02: 25th anniversary of Enron bankruptcy (companion to the board report)",
+      "why": "How major banks built sham transactions that inflated Enron's books.",
+      "first_unit": "Whole report minus appendices",
+      "status": "new"
+    },
+    {
+      "title": "Examining the Trump Administration's Extrajudicial Immigration Detentions of U.S. Citizens (minority report)",
+      "year": 2025,
+      "date": "2025-12-09",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "immigration enforcement, detention of US citizens",
+      "pages": "~40 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-12-09-psi-minority-report-examining-the-trump-administrations-extrajudicial-immigration-detentions-of-u-s-citizens/"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 4
+      },
+      "total": 21,
+      "hook": "2026-12-09 first anniversary; live immigration-enforcement news",
+      "why": "Documents cases of US citizens detained by immigration agents.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Examination of U.S. Secret Service Planning and Security Failures Related to the July 13, 2024 Assassination Attempt (interim report, S. Prt.)",
+      "year": 2024,
+      "date": "2024-09-25",
+      "sides": "bipartisan interim staff report (HSGAC full committee with PSI)",
+      "chair": "Gary Peters (full committee) / Richard Blumenthal (D-CT) (PSI)",
+      "topic": "presidential security, Secret Service, Butler PA",
+      "pages": "133",
+      "urls": {
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-118SPRT58130",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-118SPRT58130/pdf/CPRT-118SPRT58130.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-118SPRT58130/html/CPRT-118SPRT58130.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 4,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 21,
+      "hook": "2027-07-13 second anniversary falls outside window",
+      "why": "Bipartisan account of Secret Service failures at Butler; joint HSGAC-PSI product.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Combatting the Opioid Crisis: Exploiting Vulnerabilities in International Mail",
+      "year": 2018,
+      "date": "2018-01-25",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "fentanyl, international mail, USPS, CBP",
+      "pages": "100",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/psi-report_-combatting-the-opioid-crisis/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-115shrg30696",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-115shrg30696/pdf/CHRG-115shrg30696.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-115shrg30696/html/CHRG-115shrg30696.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 21,
+      "hook": "live: fentanyl and the end of the de minimis exemption remain 2026 trade/drug-policy issues",
+      "why": "PSI investigators bought fentanyl online and traced it through the mail; led to the STOP Act.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "U.S. Tax Shelter Industry: The Role of Accountants, Lawyers, and Financial Professionals. Four KPMG Case Studies: FLIP, OPIS, BLIPS, and SC2",
+      "year": 2003,
+      "date": "2003-11-18",
+      "sides": "minority staff report (Levin)",
+      "chair": "Norm Coleman (R-MN); issued by Ranking Member Carl Levin (D-MI)",
+      "topic": "tax shelters, KPMG",
+      "pages": "~130 (S. Hrg. 108-473 vol. 1 at p. 145; also committee print)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_us-tax-shelter-industry-the-role-of-accountants-lawyers-and-financial-professionals/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-108SPRT90655",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-108SPRT90655/pdf/CPRT-108SPRT90655.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-108SPRT90655/html/CPRT-108SPRT90655.htm",
+        "hearing_govinfo": "https://www.govinfo.gov/app/details/CHRG-108shrg91043"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 4,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 21,
+      "hook": "none in window",
+      "why": "Exposed KPMG's mass-marketed abusive shelters; led to the then-largest criminal tax case (KPMG DPA 2005).",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses",
+      "year": 2013,
+      "date": "2013-03-15",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "derivatives, bank risk management, London Whale",
+      "pages": "301 (S. Hrg. 113-96 at p. 150)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-jpmorgan-chase-whale-trades-a-case-history-of-derivatives-risks-and-abuses-march-15-2013/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg80222",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/pdf/CHRG-113shrg80222.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/html/CHRG-113shrg80222.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 5,
+        "source": 4,
+        "size": 3,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 20,
+      "hook": "2027-05-10: 15th anniversary of JPMorgan's disclosure of the London Whale losses (May 10, 2012)",
+      "why": "The definitive account of the $6.2bn London Whale loss; key evidence in Volcker Rule debates.",
+      "first_unit": "Executive summary and findings plus chapters 1-3 (~120 pp)",
+      "status": "new"
+    },
+    {
+      "title": "So Casually Cruel: How Ticketmaster's Monopoly Supercharges Prices and Fees (minority staff report)",
+      "year": 2026,
+      "date": "2026-03-16",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "antitrust, Live Nation-Ticketmaster, ticket fees",
+      "pages": "~50 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-03-16-minority-staff-report-so-casually-cruel-how-ticketmasters-monopoly-supercharges-prices-and-fees/"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 20,
+      "hook": "live: DOJ v. Live Nation antitrust case (trial began March 2026)",
+      "why": "Ticketmaster's fee practices, incl. exploitation of the pandemic.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Tethered to Terrorism: Crypto and Iran's Shadow Banking Network (minority staff report)",
+      "year": 2026,
+      "date": "2026-09-28",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "sanctions evasion, stablecoins (Tether USDT), Iran",
+      "pages": "28",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-09-28-crypto-and-irans-shadow-banking-network/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2026-09-28-Crypto-and-Irans-Shadow-Banking-Network.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 20,
+      "hook": "live: stablecoin regulation (GENIUS Act rules) and Iran sanctions",
+      "why": "84% of sanctioned Iran-linked wallets used USDT; Tether's compliance questioned.",
+      "first_unit": "Whole report (28 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Uncounted Deaths in America's Prisons and Jails: How the Department of Justice Failed to Implement the Death in Custody Reporting Act",
+      "year": 2022,
+      "date": "2022-09-20",
+      "sides": "bipartisan staff report",
+      "chair": "Jon Ossoff (D-GA)",
+      "topic": "deaths in custody, DOJ data",
+      "pages": "~25 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-uncounted-deaths-in-americas-prisons-and-jails-how-the-department-of-justice-failed-to-implement-the-death-in-custody-reporting-act/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2022-09-20%20PSI%20Staff%20Report%20-%20Uncounted%20Deaths%20in%20America's%20Prisons%20and%20Jails.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-117shrg50237",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-117shrg50237/pdf/CHRG-117shrg50237.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-117shrg50237/html/CHRG-117shrg50237.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 20,
+      "hook": "none fixed",
+      "why": "DOJ failed to count nearly 1,000 deaths in custody in a single year.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Sexual Abuse of Female Inmates in Federal Prisons",
+      "year": 2022,
+      "date": "2022-12-13",
+      "sides": "bipartisan staff report",
+      "chair": "Jon Ossoff (D-GA)",
+      "topic": "prisons, sexual abuse, Bureau of Prisons (FCI Dublin)",
+      "pages": "~30 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-sexual-abuse-of-female-inmates-in-federal-prisons/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2022-12-13%20PSI%20Staff%20Report%20-%20Sexual%20Abuse%20of%20Female%20Inmates%20in%20Federal%20Prisons.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-117shrg50239",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-117shrg50239/pdf/CHRG-117shrg50239.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-117shrg50239/html/CHRG-117shrg50239.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 20,
+      "hook": "none in window (FCI Dublin closed 2024)",
+      "why": "Staff sexually abused women in at least two-thirds of federal women's prisons; BOP failed to act.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The Art Industry and U.S. Policies that Undermine Sanctions",
+      "year": 2020,
+      "date": "2020-07-29",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "sanctions evasion, art market, Rotenberg brothers",
+      "pages": "150",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-the-art-industry-and-us-policies-that-undermine-sanctions/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2020-07-29%20PSI%20Staff%20Report%20-%20The%20Art%20Industry%20and%20U.S.%20Policies%20that%20Undermine%20Sanctions.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 20,
+      "hook": "2027-02-24: 5th anniversary of Russia's full-scale invasion of Ukraine (Russia sanctions)",
+      "why": "How sanctioned Russian oligarchs bought $18m of art through shell companies; the art-market AML gap.",
+      "first_unit": "Whole report minus exhibits",
+      "status": "new"
+    },
+    {
+      "title": "Threats to the U.S. Research Enterprise: China's Talent Recruitment Plans",
+      "year": 2019,
+      "date": "2019-11-18",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "research security, China Thousand Talents",
+      "pages": "105 plus appendices",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-threats-to-the-us-research-enterprise-chinas-talent-recruitment-plans/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-116shrg41995",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-116shrg41995/pdf/CHRG-116shrg41995.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-116shrg41995/html/CHRG-116shrg41995.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 20,
+      "hook": "none fixed; research-security rules ongoing",
+      "why": "The foundational congressional report on China's Thousand Talents; widely cited in research-security policy.",
+      "first_unit": "Report minus appendices",
+      "status": "new"
+    },
+    {
+      "title": "Tax Haven Banks and U.S. Tax Compliance (UBS and LGT)",
+      "year": 2008,
+      "date": "2008-07-17",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "offshore tax evasion, Swiss banking secrecy, UBS, LGT Liechtenstein",
+      "pages": "~114 (S. Hrg. 110-614 at p. 73)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-staff-report-tax-haven-banks-and-us-tax-compliance-july-17-2008/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/071708PSIReport.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-110shrg44127",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-110shrg44127/pdf/CHRG-110shrg44127.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-110shrg44127/html/CHRG-110shrg44127.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 20,
+      "hook": "none in window (UBS DPA anniversary 2027-02-18 is the 18th)",
+      "why": "The report that cracked Swiss bank secrecy: UBS's 19,000 hidden US accounts; led to FATCA.",
+      "first_unit": "Whole report (~114 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Oversight of the Care of Unaccompanied Alien Children",
+      "year": 2018,
+      "date": "2018-08-16",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "migrant children, HHS/ORR, DHS",
+      "pages": "55 plus appendix",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-oversight-of-the-care-of-unaccompanied-alien-children/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2018.08.15%20PSI%20Report%20-%20Oversight%20of%20the%20Care%20of%20UACs%20-%20FINAL.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-115shrg37328",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-115shrg37328/pdf/CHRG-115shrg37328.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-115shrg37328/html/CHRG-115shrg37328.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 20,
+      "hook": "live: migrant-children welfare under 2025-26 immigration policy",
+      "why": "Follow-up showing HHS still lost track of children after release, incl. the family-separation period.",
+      "first_unit": "Whole report minus appendix",
+      "status": "new"
+    },
+    {
+      "title": "Protecting Unaccompanied Alien Children from Trafficking and Other Abuses: The Role of the Office of Refugee Resettlement",
+      "year": 2016,
+      "date": "2016-01-28",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "unaccompanied migrant children, ORR, trafficking",
+      "pages": "~60 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-protecting-unaccompanied-alien-children-from-trafficking-and-other-abuses-the-role-of-the-office-of-refugee-resettlement/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-114shrg20085",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-114shrg20085/pdf/CHRG-114shrg20085.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-114shrg20085/html/CHRG-114shrg20085.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 20,
+      "hook": "live: lost/unaccounted-for migrant children (HHS sponsor-vetting) is a recurring 2025-26 story",
+      "why": "Marion, Ohio trafficking case; showed ORR released children to traffickers.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Repatriating Offshore Funds: 2004 Tax Windfall for Select Multinationals (S. Prt. 112-27)",
+      "year": 2011,
+      "date": "2011-10-11",
+      "sides": "majority staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "corporate tax, repatriation holiday",
+      "pages": "~41 plus Dec 2011 addendum",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-majority-staff-report_-repatriating-offshore-funds-oct-2011/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-112SPRT70710",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-112SPRT70710/pdf/CPRT-112SPRT70710.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-112SPRT70710/html/CPRT-112SPRT70710.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 3,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 20,
+      "hook": "none fixed",
+      "why": "Showed the 2004 repatriation tax holiday did not create jobs; cited in every later repatriation debate.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The Role of Market Speculation in Rising Oil and Gas Prices: A Need to Put the Cop Back on the Beat (S. Prt. 109-65)",
+      "year": 2006,
+      "date": "2006-06-27",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "commodity speculation, energy markets, CFTC",
+      "pages": "~50",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-staff-report-the-role-of-market-speculation-in-rising-oil-and-gas-prices-a/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-109SPRT28640",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-109SPRT28640/pdf/CPRT-109SPRT28640.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-109SPRT28640/html/CPRT-109SPRT28640.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 3,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 20,
+      "hook": "none fixed; oil-price shocks",
+      "why": "Early, influential argument that speculation was inflating oil prices; shaped CFTC position-limit debates.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "U.S. Vulnerabilities to Money Laundering, Drugs, and Terrorist Financing: HSBC Case History",
+      "year": 2012,
+      "date": "2012-07-17",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "money laundering, HSBC, Mexican cartels, sanctions",
+      "pages": "335 (S. Hrg. 112-597 vol. 1 at p. 169)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-us-vulnerabilities-to-money-laundering-drugs-and-terrorist-financing-hsbc-case-history/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-112shrg76061",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-112shrg76061/pdf/CHRG-112shrg76061.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-112shrg76061/html/CHRG-112shrg76061.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 5,
+        "source": 4,
+        "size": 3,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "2027-07-17 15th anniversary falls just outside window",
+      "why": "Landmark AML case; led to HSBC's $1.9bn settlement.",
+      "first_unit": "Executive summary plus Mexico chapter",
+      "status": "inbox"
+    },
+    {
+      "title": "Majority Staff Memorandum: Preliminary Information from the Subcommittee's Inquiry into Boeing's Safety and Quality Practices",
+      "year": 2024,
+      "date": "2024-06-17",
+      "sides": "majority staff memorandum",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "aviation safety, Boeing, whistleblowers",
+      "pages": "~200 incl. exhibits (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/june-17-psi-majority-staff-memorandum/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.06.17-PSI-Majority-Staff-Memorandum.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "2027-01-05 third anniversary of the Alaska Airlines door-plug blowout (weak)",
+      "why": "Whistleblower evidence that Boeing mishandled nonconforming parts; released at the Calhoun hearing.",
+      "first_unit": "Memo minus exhibits",
+      "status": "new"
+    },
+    {
+      "title": "How Equifax Neglected Cybersecurity and Suffered a Devastating Data Breach",
+      "year": 2019,
+      "date": "2019-03-06",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "cybersecurity, data breach, Equifax",
+      "pages": "67",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-how-equifax-neglected-cybersecurity-and-suffered-a-devestating-data-breach/"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none in window",
+      "why": "Inside account of the 2017 breach of 145m Americans' data: an unpatched server and failed scans.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Offshore Tax Evasion: The Effort to Collect Unpaid Taxes on Billions in Hidden Offshore Accounts (Credit Suisse)",
+      "year": 2014,
+      "date": "2014-02-26",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "offshore tax evasion, Credit Suisse, DOJ enforcement",
+      "pages": "175 (S. Hrg. 113-397 at p. 115)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-offshore-tax-evasionthe-effort-to-collect-unpaid-taxes-on-billions-in-hidden-offshore-accounts-february-26-2014/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg88276",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg88276/pdf/CHRG-113shrg88276.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg88276/html/CHRG-113shrg88276.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 4,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed",
+      "why": "Credit Suisse's secret elevator and 22,000 US clients; led to its 2014 guilty plea.",
+      "first_unit": "Whole report minus appendices",
+      "status": "new"
+    },
+    {
+      "title": "Offshore Profit Shifting and the U.S. Tax Code, Part 2 (Apple Inc.) – subcommittee memorandum",
+      "year": 2013,
+      "date": "2013-05-21",
+      "sides": "bipartisan staff memorandum",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "corporate tax avoidance, Apple, Ireland",
+      "pages": "~40",
+      "urls": {
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg81657",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg81657/pdf/CHRG-113shrg81657.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg81657/html/CHRG-113shrg81657.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 19,
+      "hook": "none in window",
+      "why": "Revealed Apple's 'ghost' Irish companies tax-resident nowhere; triggered the EU's €13bn state-aid case.",
+      "first_unit": "Memorandum (~40 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Federal Support for and Involvement in State and Local Fusion Centers",
+      "year": 2012,
+      "date": "2012-10-03",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI) (investigation led by Ranking Member Tom Coburn)",
+      "topic": "counterterrorism intelligence, DHS fusion centers, civil liberties",
+      "pages": "141",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_federal-support-for-and-involvement-in-state-and-local-fusions-centers/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/10-3-2012%20PSI%20STAFF%20REPORT%20re%20FUSION%20CENTERS.2.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed; domestic-intelligence debates",
+      "why": "Found DHS fusion-center reporting was 'oftentimes shoddy' and rarely useful; much cited by civil-liberties groups.",
+      "first_unit": "Whole report minus appendix",
+      "status": "new"
+    },
+    {
+      "title": "Money Laundering and Foreign Corruption: Enforcement and Effectiveness of the Patriot Act. Case Study Involving Riggs Bank",
+      "year": 2004,
+      "date": "2004-07-15",
+      "sides": "minority staff report (Levin)",
+      "chair": "Norm Coleman (R-MN); issued by Ranking Member Carl Levin (D-MI)",
+      "topic": "money laundering, Riggs Bank, Pinochet, Equatorial Guinea",
+      "pages": "~120 (S. Hrg. 108-633 at p. 126)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act_-case-study-involving-riggs-bank/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-108shrg95501",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/pdf/CHRG-108shrg95501.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-108shrg95501/html/CHRG-108shrg95501.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 19,
+      "hook": "none",
+      "why": "Revealed Riggs Bank's secret accounts for Pinochet and Equatorial Guinea's ruling family; Riggs collapsed months later.",
+      "first_unit": "Report as printed in S. Hrg. 108-633",
+      "status": "new"
+    },
+    {
+      "title": "Cruelty Is the Point: How Trump's Immigration Agenda Endangers Children (minority staff report)",
+      "year": 2026,
+      "date": "2026-03-24",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "immigration enforcement, children, DHS",
+      "pages": "~50 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-03-24-minority-staff-report-cruelty-is-the-point-how-trumps-immigration-agenda-endangers-children/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/03-24-2026-PSI-Oversight-Report-re.-DHS-Harm-to-Children.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 19,
+      "hook": "live immigration news",
+      "why": "DHS whistleblower documents on harm to children.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Unmasked: How Biden Health Officials Turned a Blind Eye Toward COVID-19 Vaccine Safety Signals (majority staff interim report)",
+      "year": 2026,
+      "date": "2026-04-29",
+      "sides": "majority staff report (interim)",
+      "chair": "Ron Johnson (R-WI)",
+      "topic": "COVID-19 vaccine safety, FDA data mining",
+      "pages": "~60 plus parts (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/senate-psi-majority-staff-interim-report-april-29-2026-final/"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 19,
+      "hook": "live vaccine-policy news",
+      "why": "Second Johnson interim report on FDA's handling of vaccine safety signals; partisan.",
+      "first_unit": "Main report (Part 1)",
+      "status": "new"
+    },
+    {
+      "title": "Failure to Warn: Biden Administration's Handling of the COVID-19 Vaccine Myocarditis Safety Signal (interim majority staff report)",
+      "year": 2025,
+      "date": "2025-05-21",
+      "sides": "majority staff report (interim)",
+      "chair": "Ron Johnson (R-WI)",
+      "topic": "COVID-19 vaccine safety, FDA/CDC",
+      "pages": "55",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-05-21-psi-majority-staff-interim-report-failure-to-warn/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2025.05.21-PSI-Majority-Staff-Interim-Report-Failure-to-Warn.pdf"
+      },
+      "text_layer": "yes (checked: text layer present, untagged)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 19,
+      "hook": "live: federal vaccine-policy changes under HHS in 2026",
+      "why": "Johnson's partisan account of delays in warning about myocarditis; contested.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "A Pervasive Problem: Voices of Coast Guard Sexual Assault and Harassment Survivors",
+      "year": 2024,
+      "date": "2024-08-07",
+      "sides": "majority staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "military sexual assault, Coast Guard",
+      "pages": "~80 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/psi-majority-staff-report-voices-of-coast-guard-sexual-assault-and-harassment-survivors/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.08.07-PSI-Majority-Staff-Report-Voices-of-Coast-Guard-Sexual-Assault-and-Harassment-Survivors.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-118shrg57029",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-118shrg57029/pdf/CHRG-118shrg57029.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-118shrg57029/html/CHRG-118shrg57029.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed",
+      "why": "Testimony from 2,000+ survivors; companion to Operation Fouled Anchor.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The Sky's the Limit: The Rise of Junk Fees in American Air Travel",
+      "year": 2024,
+      "date": "2024-11-25",
+      "sides": "majority staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "airline fees, consumer protection",
+      "pages": "~60 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-staff-report-the-skys-the-limit-the-rise-of-junk-fees-in-american-travel/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.11.25-Majority-Staff-Report-The-Skys-the-Limit-The-Rise-of-Junk-Fees-in-American-Travel-1.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-118shrg57737",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-118shrg57737/pdf/CHRG-118shrg57737.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-118shrg57737/html/CHRG-118shrg57737.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed; DOT fee rules rolled back 2025",
+      "why": "Airlines made $12bn from seat fees with algorithmic pricing.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The U.S. Technology Fueling Russia's War in Ukraine: Examining the Bureau of Industry and Security's Enforcement of Semiconductor Export Controls",
+      "year": 2024,
+      "date": "2024-12-18",
+      "sides": "majority staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "export controls, Commerce BIS",
+      "pages": "~40 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2024-12-18-majority-staff-report/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/The-U.S.-Technology-Fueling-Russias-War-in-Ukraine-Examing-BISs-Enforcement-of-Semiconductor-Export-Controls.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 19,
+      "hook": "2027-02-24: 5th anniversary of the invasion",
+      "why": "BIS's weak enforcement of chip export controls.",
+      "first_unit": "Whole report (could pair with Sept 2024 report)",
+      "status": "new"
+    },
+    {
+      "title": "Mistreatment of Military Families in Privatized Housing",
+      "year": 2022,
+      "date": "2022-04-26",
+      "sides": "bipartisan staff report",
+      "chair": "Jon Ossoff (D-GA)",
+      "topic": "military housing, Balfour Beatty",
+      "pages": "~50 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-mistreatment-of-military-families-in-privatized-housing/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2022-04-26%20PSI%20Staff%20Report%20-%20Mistreatment%20of%20Military%20Families%20in%20Privatized%20Housing.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-117shrg48491",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-117shrg48491/pdf/CHRG-117shrg48491.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-117shrg48491/html/CHRG-117shrg48491.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed",
+      "why": "Balfour Beatty ignored mould and hazards in military family homes while falsifying data (later pleaded guilty to fraud).",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "China's Impact on the U.S. Education System",
+      "year": 2019,
+      "date": "2019-02-27",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "Confucius Institutes, foreign influence in education",
+      "pages": "93",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-chinas-impact-on-the-us-education-system/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-116shrg36158",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-116shrg36158/pdf/CHRG-116shrg36158.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-116shrg36158/html/CHRG-116shrg36158.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed",
+      "why": "Led to closure of most US Confucius Institutes.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Abuses of the Federal Notice-and-Comment Rulemaking Process",
+      "year": 2019,
+      "date": "2019-10-24",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "rulemaking, fake public comments, e-rulemaking",
+      "pages": "33 plus appendix",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-abuses-of-the-federal-notice-and-comment-rulemaking-process/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-116shrg38895",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-116shrg38895/pdf/CHRG-116shrg38895.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-116shrg38895/html/CHRG-116shrg38895.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed; AI-generated comment floods make it newly relevant",
+      "why": "Millions of fake and stolen-identity comments (FCC net neutrality).",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Review of U.S. Treasury Department's License to Convert Iranian Assets Using the U.S. Financial System",
+      "year": 2018,
+      "date": "2018-06-06",
+      "sides": "majority staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "Iran sanctions, JCPOA, OFAC",
+      "pages": "~40 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-staff-report_-review-of-us-treasury-departments-license-to-convert-iranian-assets-using-the-us-financial-system/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2018-06-06%20PSI%20Majority%20Staff%20Report.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 19,
+      "hook": "live: Iran sanctions and US-Iran tensions in 2026",
+      "why": "Obama-era OFAC licence to let Iran convert $5.7bn through US banks.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The Air Force's Expeditionary Combat Support System (ECSS): A Cautionary Tale on the Need for Business Process Reengineering (S. Prt. 113-27)",
+      "year": 2014,
+      "date": "2014-07-07",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "defence IT procurement failure",
+      "pages": "~50",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_-air-forces-expeditionary-combat-support-system-ecss-program/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-113SPRT89869",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-113SPRT89869/pdf/CPRT-113SPRT89869.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-113SPRT89869/html/CPRT-113SPRT89869.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 3,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 19,
+      "hook": "none",
+      "why": "$1bn ERP project scrapped with nothing to show; a classic IT-failure case study.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Abuse of Structured Financial Products: Misusing Basket Options to Avoid Taxes and Leverage Limits",
+      "year": 2014,
+      "date": "2014-07-22",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "tax avoidance, hedge funds (Renaissance Technologies), Barclays, Deutsche Bank",
+      "pages": "93 (S. Hrg. 113-422 at p. 135)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-abuse-of-structured-financial-products-misusing-basket-options-to-avoid-taxes-and-leverage-limits/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg89882",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg89882/pdf/CHRG-113shrg89882.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg89882/html/CHRG-113shrg89882.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none fixed (Renaissance's $7bn IRS settlement in 2021)",
+      "why": "How Renaissance Technologies turned short-term trades into long-term gains worth $6.8bn.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "IRS and TIGTA Management Failures Related to 501(c)(4) Applicants Engaged in Campaign Activity (S. Prt. 113-26)",
+      "year": 2014,
+      "date": "2014-09-05",
+      "sides": "majority staff report with minority dissenting views",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "IRS, tax-exempt political groups",
+      "pages": "~140 incl. dissent",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_-irs-and-tigta-mgmt-failures-related-to-501c4-sept-5-2014/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-113SPRT89800",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-113SPRT89800/pdf/CPRT-113SPRT89800.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-113SPRT89800/html/CPRT-113SPRT89800.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 3,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 19,
+      "hook": "none",
+      "why": "Levin's account of the IRS 'targeting' controversy, with McCain's dissent.",
+      "first_unit": "Majority report (~100 pp); dissent as second unit",
+      "status": "new"
+    },
+    {
+      "title": "Supplemental Staff Report on U.S. Accounts Used by Augusto Pinochet (S. Prt. 109-25)",
+      "year": 2005,
+      "date": "2005-03-16",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "money laundering, Pinochet, U.S. banks",
+      "pages": "~40 plus exhibits",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/supplemental-report_us-accounts-used-by-augusto-pinochet-march-2005/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-109SPRT20278",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/pdf/CPRT-109SPRT20278.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-109SPRT20278/html/CPRT-109SPRT20278.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 3,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 19,
+      "hook": "none",
+      "why": "Traced 125 Pinochet accounts across Citigroup, Riggs and others.",
+      "first_unit": "Report minus exhibits",
+      "status": "new"
+    },
+    {
+      "title": "The Role of Professional Firms in the U.S. Tax Shelter Industry (S. Rpt. 109-54)",
+      "year": 2005,
+      "date": "2005-04-13",
+      "sides": "bipartisan subcommittee report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "tax shelters, accounting firms, banks, law firms",
+      "pages": "~130",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/supplemental-report-the-role-of-professional-firms-in-the-us-tax-shelter-industry/",
+        "govinfo": "https://www.govinfo.gov/app/details/CRPT-109srpt54",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CRPT-109srpt54/pdf/CRPT-109srpt54.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CRPT-109srpt54/html/CRPT-109srpt54.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 3,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 19,
+      "hook": "none",
+      "why": "Final bipartisan conclusions of the 2003 KPMG probe, extended to banks and law firms.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Report on Oil Allocations Granted to Charles Pasqua and George Galloway (Oil-for-Food)",
+      "year": 2005,
+      "date": "2005-05-17",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "UN Oil-for-Food, corruption",
+      "pages": "~40 (S. Hrg. 109-185 at p. 84)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-on-oil-allocations-granted-to-charles-pasqua-and-george-galloway/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg21438",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/pdf/CHRG-109shrg21438.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/html/CHRG-109shrg21438.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none",
+      "why": "Set up George Galloway's famous combative testimony; still a well-known episode.",
+      "first_unit": "Report as printed in S. Hrg. 109-185",
+      "status": "new"
+    },
+    {
+      "title": "U.S. Strategic Petroleum Reserve: Recent Policy Has Increased Costs to Consumers But Not Overall U.S. Energy Security (S. Prt. 108-18)",
+      "year": 2003,
+      "date": "2003-03-05",
+      "sides": "minority staff report (Levin)",
+      "chair": "Norm Coleman (R-MN); issued by Ranking Member Carl Levin (D-MI)",
+      "topic": "energy policy, SPR fill policy",
+      "pages": "~90",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-us-strategic-petroleum-reserve-recent-policy-has-increased-costs-to-consumers-but-not-overall-us-energy-security/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-108SPRT85551",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-108SPRT85551/pdf/CPRT-108SPRT85551.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-108SPRT85551/html/CPRT-108SPRT85551.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 2,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 19,
+      "hook": "none; SPR refill policy recurs",
+      "why": "Shows how filling the SPR at high prices raised consumer costs.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse",
+      "year": 2011,
+      "date": "2011-04-13",
+      "sides": "bipartisan staff report (Levin-Coburn)",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "2008 financial crisis: WaMu, OTS, credit rating agencies, Goldman Sachs, Deutsche Bank",
+      "pages": "646 (report); exhibits in S. Hrg. 112-675",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-staff-report-wall-street-and-the-financial-crisis-anatomy-of-a-financial-collapse/"
+      },
+      "text_layer": "yes (already ingested)",
+      "score": {
+        "interest": 5,
+        "source": 4,
+        "size": 2,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none new",
+      "why": "Already live on the site.",
+      "first_unit": "Live (us-psi-financial-crisis)",
+      "status": "live"
+    },
+    {
+      "title": "Keeping Foreign Corruption Out of the United States: Four Case Histories",
+      "year": 2010,
+      "date": "2010-02-04",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "foreign corruption, PEPs (Obiang, Bongo, Abubakar, Angola)",
+      "pages": "~330 (S. Hrg. 111-540 vol. 1 at p. 119)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-staff-report-keeping-foreign-corruption-out-of-the-united-states-four-case-histories/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-111shrg56840",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/pdf/CHRG-111shrg56840.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-111shrg56840/html/CHRG-111shrg56840.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 3,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed; kleptocracy and lawyer/realtor AML gatekeeper rules are live",
+      "why": "How Teodoro Obiang, Omar Bongo, Atiku Abubakar's wife and an Angolan banker moved money via US lawyers, realtors and banks.",
+      "first_unit": "Executive summary plus Obiang case history (~80 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Correspondent Banking: A Gateway for Money Laundering",
+      "year": 2001,
+      "date": "2001-02-05",
+      "sides": "minority staff report (Levin)",
+      "chair": "Susan Collins (R-ME); issued by Ranking Member Carl Levin (D-MI)",
+      "topic": "money laundering, correspondent banking, offshore banks",
+      "pages": "~460 incl. 10 case histories (in S. Hrg. 107-84 vol. 1 at p. 273)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_correspondent-banking-a-gateway-for-money-laundering/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-107SPRT69919",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT69919/pdf/CPRT-107SPRT69919.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT69919/html/CPRT-107SPRT69919.htm",
+        "supplement_govinfo": "https://www.govinfo.gov/app/details/CPRT-107SPRT71167",
+        "hearing_govinfo": "https://www.govinfo.gov/app/details/CHRG-107shrg71166"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 4,
+        "source": 5,
+        "size": 3,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "2026-02-05 25th anniversary already passed",
+      "why": "Key evidence behind the Patriot Act's correspondent-banking provisions; ten shell-bank case histories.",
+      "first_unit": "Report body and findings minus the 10 case histories (~60 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Private Banking and Money Laundering: A Case Study of Opportunities and Vulnerabilities",
+      "year": 1999,
+      "date": "1999-11-09",
+      "sides": "minority staff report (Levin)",
+      "chair": "Susan Collins (R-ME); issued by Ranking Member Carl Levin (D-MI)",
+      "topic": "money laundering, private banking (Citibank, Raul Salinas, Asif Zardari, Omar Bongo, Abacha sons)",
+      "pages": "~40 report (in S. Hrg. 106-428 at p. 872)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-private-banking-and-money-laundering-a-case-study-of-opportunities-and-vulnerabilities/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-106shrg61699",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-106shrg61699/pdf/CHRG-106shrg61699.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-106shrg61699/html/CHRG-106shrg61699.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "The first of Levin's landmark money-laundering case studies; Citibank and the Salinas, Bongo and Abacha accounts; foundation of Patriot Act Title III.",
+      "first_unit": "Report as printed in S. Hrg. 106-428 (from p. 872)",
+      "status": "new"
+    },
+    {
+      "title": "Minority Staff Memorandum: Elon Musk Conflicts",
+      "year": 2025,
+      "date": "2025-04-27",
+      "sides": "minority staff memorandum",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "conflicts of interest, DOGE, Musk companies",
+      "pages": "44",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-04-27-minority-staff-memorandum-elon-musk-conflicts/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2025-04-27-Minority-Staff-Memorandum-Elon-Musk-Conflicts.pdf"
+      },
+      "text_layer": "yes (checked: text layer present, untagged)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed",
+      "why": "Estimated $2.37bn in potential liability Musk's firms could escape.",
+      "first_unit": "Whole memo",
+      "status": "new"
+    },
+    {
+      "title": "The $21.7 Billion Blunder: Analyzing the Waste Generated by DOGE",
+      "year": 2025,
+      "date": "2025-07-31",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "DOGE, federal workforce, waste",
+      "pages": "55",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-07-31-psi-minority-staff-report-the-21-7-billion-blunder/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2025-07-31-Minority-Staff-Report-The-21.7-Billion-Blunder.pdf"
+      },
+      "text_layer": "yes (checked: text layer present, untagged)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed",
+      "why": "Estimate of DOGE's costs from deferred resignations and admin leave.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Trump Administration Attacks on Science (minority staff report)",
+      "year": 2025,
+      "date": "2025-09-09",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "science policy, NIH/CDC cuts",
+      "pages": "~50 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-09-09-psi-minority-report-trump-administration-attacks-on-science/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2025.09.09-PSI-Minority-Report-Trump-Administration-Attacks-on-Science.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed",
+      "why": "Documents 57 instances of firings and cuts to research.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Youth Vaping Epidemic: Federal Regulation of E-Cigarettes and the Rise of JUUL and Puff Bar",
+      "year": 2024,
+      "date": "2024-02-29",
+      "sides": "majority staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "e-cigarettes, FDA, youth health",
+      "pages": "160 plus appendix",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2024-02-29-psi-e-cig-report-final/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024-02-29-PSI-E-cig-Report-Final.pdf"
+      },
+      "text_layer": "yes (checked: tagged PDF, 160 pp)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 4,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed; illegal disposable vapes and FDA enforcement remain live",
+      "why": "How JUUL and then Puff Bar exploited FDA gaps; reviewed 713,000 pages of documents.",
+      "first_unit": "Report minus appendix",
+      "status": "new"
+    },
+    {
+      "title": "A Fast and Easy Way to Lose Money: Insufficient Consumer Protection on the Zelle Network",
+      "year": 2024,
+      "date": "2024-07-23",
+      "sides": "majority staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "payments fraud, Zelle, big banks",
+      "pages": "62",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/psi-majority-zelle-report/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.7.23-PSI-Majority-Staff-Report-on-Zelle.pdf"
+      },
+      "text_layer": "yes (checked: text layer present, untagged)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed (CFPB Zelle suit dropped 2025)",
+      "why": "Banks refused reimbursement on most scam losses on Zelle.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Majority Staff Memorandum: New Details of Boeing's Safety Failures and Pressure to Prioritize Profits",
+      "year": 2024,
+      "date": "2024-09-24",
+      "sides": "majority staff memorandum",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "aviation safety, Boeing",
+      "pages": "~200 incl. exhibits (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-staff-report-new-details-of-boeings-safety-failures-and-pressure-to-prioritize/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.9.25-PSI-Hearing-FAA-Boeing-Oversight-Majority-Staff-Background-Memo-2.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "weak (door-plug anniversary)",
+      "why": "Second Boeing memo on quality failures and FAA oversight.",
+      "first_unit": "Memo minus exhibits",
+      "status": "new"
+    },
+    {
+      "title": "Coast Guard Operation Fouled Anchor: Interim Bipartisan Staff Report",
+      "year": 2024,
+      "date": "2024-12-20",
+      "sides": "bipartisan interim staff report",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "military sexual assault cover-up, Coast Guard Academy",
+      "pages": "65",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2024-12-20-coast-guard-ofa-interim-bipartisan-staff-report/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.12.20_Coast-Guard-OFA-Interim-Report_final.pdf"
+      },
+      "text_layer": "yes (checked: text layer present, untagged)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed",
+      "why": "How Coast Guard leaders hid the Fouled Anchor investigation from Congress and the public.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Threats to U.S. Networks: Oversight of Chinese Government-Owned Carriers",
+      "year": 2020,
+      "date": "2020-06-09",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "telecoms security, China Telecom, Team Telecom",
+      "pages": "104",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/threats-to-us-networks-oversight-of-chinese-government-owned-carriers/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2020-06-09%20PSI%20Staff%20Report%20-%20Threats%20to%20U.S.%20Communications%20Networks.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed; Salt Typhoon telecom hacks keep it live",
+      "why": "Led to the FCC revoking China Telecom's US licence.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Federal Cybersecurity: America's Data at Risk",
+      "year": 2019,
+      "date": "2019-06-25",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "federal IT security, agency IG findings",
+      "pages": "~95",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/staff-report_-federal-cybersecurity-americas-data-at-risk/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2019-06-25%20PSI%20Staff%20Report%20-%20Federal%20Cybersecurity%20Updated.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none fixed",
+      "why": "Ten-year review of eight agencies' failure to fix basic cyber weaknesses.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The True Cost of Government Shutdowns",
+      "year": 2019,
+      "date": "2019-09-17",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "federal budget, shutdown costs",
+      "pages": "180",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-the-true-cost-of-government-shutdowns/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2019-09-17%20PSI%20Staff%20Report%20Government%20Shutdowns%20Final.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 4,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 18,
+      "hook": "live: after the record 2025 shutdown, further funding deadlines likely fall in the window",
+      "why": "Bipartisan count of the $4bn cost of the three shutdowns 2013-2019.",
+      "first_unit": "Executive summary and findings plus overview chapter (~40 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Combatting the Opioid Crisis: The Price Increase of an Opioid Overdose Reversal Drug and the Cost to the U.S. Health Care System",
+      "year": 2018,
+      "date": "2018-11-18",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "drug pricing, naloxone (Evzio, kaleo)",
+      "pages": "85",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-combatting-the-opioid-crisis-the-price-increase-of-an-opioid-overdose-reversal-drug-and-the-cost-to-the-us-health-care-system/"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 3,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "kaleo raised the price of its naloxone injector to $4,500 and cost Medicare $142m.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Online Advertising and Hidden Hazards to Consumer Security and Data Privacy",
+      "year": 2014,
+      "date": "2014-05-15",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "malvertising, ad tech, privacy",
+      "pages": "47 (S. Hrg. 113-407 at p. 106)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-online-advertising-and-hidden-hazards-to-consumer-security-and-data-privacy-may-15-2014/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg89686",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg89686/pdf/CHRG-113shrg89686.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg89686/html/CHRG-113shrg89686.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Early, prescient look at ad-tech complexity and malware.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "How Some Legal, Medical, and Judicial Professionals Abused Social Security Disability Programs for the Country's Most Vulnerable: A Case Study of the Conn Law Firm",
+      "year": 2013,
+      "date": "2013-10-07",
+      "sides": "minority staff report (Coburn)",
+      "chair": "Carl Levin (D-MI); issued by Ranking Member Tom Coburn (R-OK)",
+      "topic": "disability fraud, Eric Conn",
+      "pages": "~130",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/how-some-legal-medical-and-judicial-professionals-abused-social-security-disability-programs-for-the-countrys-most-vulnerable-a-case-study-of-the-conn-law-firm/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg85499",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg85499/pdf/CHRG-113shrg85499.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg85499/html/CHRG-113shrg85499.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Exposed the Eric Conn disability-fraud scheme (Conn later fled, was caught and jailed).",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Offshore Profit Shifting and the U.S. Tax Code, Part 1 (Microsoft and Hewlett-Packard) – subcommittee memorandum",
+      "year": 2012,
+      "date": "2012-09-20",
+      "sides": "majority staff memorandum",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "corporate tax avoidance, transfer pricing",
+      "pages": "~30 (not checked)",
+      "urls": {
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-112shrg76071",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-112shrg76071/pdf/CHRG-112shrg76071.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-112shrg76071/html/CHRG-112shrg76071.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Memorandum on Microsoft's and HP's offshore profit shifting; precursor to Apple.",
+      "first_unit": "Memorandum as printed in hearing record",
+      "status": "new"
+    },
+    {
+      "title": "Dividend Tax Abuse: How Offshore Entities Dodge Taxes on U.S. Stock Dividends",
+      "year": 2008,
+      "date": "2008-09-11",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "tax avoidance, dividend swaps",
+      "pages": "~50 (S. Hrg. 110-778 at p. 101)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_dividend-tax-abuse-how-offshore-entities-dodge-taxes-on-us-stock-dividends/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-110shrg45575",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-110shrg45575/pdf/CHRG-110shrg45575.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-110shrg45575/html/CHRG-110shrg45575.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Wall Street swaps let offshore funds dodge billions in dividend withholding tax; led to Section 871(m).",
+      "first_unit": "Whole report",
+      "status": "inbox"
+    },
+    {
+      "title": "Excessive Speculation in the Natural Gas Market",
+      "year": 2007,
+      "date": "2007-06-25",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "commodity speculation, Amaranth hedge fund, natural gas",
+      "pages": "~135 plus appendix (S. Hrg. 110-235 at p. 196)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-staff-report-excessive-speculation-in-the-natural-gas-market-6-25-07/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-110shrg36616",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-110shrg36616/pdf/CHRG-110shrg36616.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-110shrg36616/html/CHRG-110shrg36616.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Amaranth's collapse and how one fund moved US gas prices; led to closing the 'Enron loophole'.",
+      "first_unit": "Report minus appendix",
+      "status": "new"
+    },
+    {
+      "title": "Report Concerning the Testimony of George Galloway Before the Permanent Subcommittee on Investigations",
+      "year": 2005,
+      "date": "2005-10-31",
+      "sides": "majority staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "UN Oil-for-Food, Galloway testimony",
+      "pages": "~30 (S. Hrg. 109-247 at p. 126)",
+      "urls": {
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg24445",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg24445/pdf/CHRG-109shrg24445.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg24445/html/CHRG-109shrg24445.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Alleged Galloway gave false testimony; pairs with the May 2005 report.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "The U.S. Technology Fueling Russia's War in Ukraine: How and Why (majority staff memorandum)",
+      "year": 2024,
+      "date": "2024-02-21",
+      "sides": "majority staff memorandum",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "export controls, Russia sanctions",
+      "pages": "~20 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2024-2-21-psi-staff-memo-to-members-on-sanctions-hearing/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2024.2.21-PSI-Staff-Memo-to-Members-on-Sanctions-Hearing.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 2,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 3
+      },
+      "total": 18,
+      "hook": "2027-02-24: 5th anniversary of full-scale invasion",
+      "why": "Short precursor memo to the September 2024 report.",
+      "first_unit": "Whole memo",
+      "status": "new"
+    },
+    {
+      "title": "Review of U.S. State Department Grants to OneVoice",
+      "year": 2016,
+      "date": "2016-07-12",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "foreign aid, Israeli election, OneVoice/V15",
+      "pages": "~40 plus appendix",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/joint-staff-report_-review-of-us-state-department-grants-to-onevoice/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-114SPRT20959",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-114SPRT20959/pdf/CPRT-114SPRT20959.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-114SPRT20959/html/CPRT-114SPRT20959.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 2,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "State Department-funded NGO infrastructure later used against Netanyahu in 2015.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Combating the Opioid Epidemic: A Review of Anti-Abuse Efforts in Medicare and Private Health Insurance Systems",
+      "year": 2016,
+      "date": "2016-10-04",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "opioids, Medicare Part D, insurers",
+      "pages": "~50",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-combating-the-opioid-epidemic-a-review-of-anti-abuse-efforts-in-medicare-and-private-health-insurance-systems/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-114SPRT23066",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-114SPRT23066/pdf/CPRT-114SPRT23066.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-114SPRT23066/html/CPRT-114SPRT23066.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 2,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Insurer and Medicare controls on opioid over-prescribing.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Recommendation to Enforce a Subpoena Issued to the CEO of Backpage.com, LLC",
+      "year": 2015,
+      "date": "2015-11-19",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "sex trafficking, Backpage, Senate subpoena power",
+      "pages": "~50 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-report_-recommendation-to-enforce-a-subpoena-issued-to-the-ceo-of-backpagecom-llc/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-114shrg98445",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-114shrg98445/pdf/CHRG-114shrg98445.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-114shrg98445/html/CHRG-114shrg98445.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 18,
+      "hook": "2027-01-10 tie-in with the main Backpage report",
+      "why": "Interim Backpage findings; led to the first Senate civil-contempt action in 20 years.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Profiteering in a Non-Profit Industry: Abusive Practices in Credit Counseling",
+      "year": 2004,
+      "date": "2004-03-24",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "consumer debt, credit counseling",
+      "pages": "~60 (S. Hrg. 108-545 at p. 203); final S. Rpt. 109-55 (Apr 2005)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-profiteering-in-a-non-profit-industry-abusive-practices-in-credit-counseling/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-108shrg93477",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-108shrg93477/pdf/CHRG-108shrg93477.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-108shrg93477/html/CHRG-108shrg93477.htm",
+        "final_senate_report": "https://www.govinfo.gov/app/details/CRPT-109srpt55"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 2,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Debt-relief 'non-profits' that profited from distressed consumers.",
+      "first_unit": "S. Rpt. 109-55 final report",
+      "status": "new"
+    },
+    {
+      "title": "Property 'Flipping': HUD's Failure to Curb Mortgage Fraud (S. Prt. 107-44)",
+      "year": 2001,
+      "date": "2001-09-25",
+      "sides": "Republican (minority) staff report",
+      "chair": "Carl Levin (D-MI); issued by Ranking Member Susan Collins (R-ME)",
+      "topic": "mortgage fraud, HUD/FHA",
+      "pages": "~50",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/property-flipping-huds-failure-to-curb-mortgage-fraud/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-107SPRT75382",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT75382/pdf/CPRT-107SPRT75382.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT75382/html/CPRT-107SPRT75382.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 2,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 18,
+      "hook": "none",
+      "why": "Pre-2008 warning about FHA mortgage fraud.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Wall Street Bank Involvement with Physical Commodities",
+      "year": 2014,
+      "date": "2014-11-20",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "banks in commodities: Goldman aluminium warehouses, JPMorgan, Morgan Stanley",
+      "pages": "396 (S. Hrg. 113-501 at p. 341)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-wall-street-involvement-with-physical-commodities/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg91522",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg91522/pdf/CHRG-113shrg91522.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg91522/html/CHRG-113shrg91522.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 3,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Goldman's aluminium-warehouse queues and banks owning power plants, oil and uranium.",
+      "first_unit": "Executive summary plus Goldman chapter (~120 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Tax Haven Abuses: The Enablers, the Tools and Secrecy",
+      "year": 2006,
+      "date": "2006-08-01",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "offshore tax evasion, Wyly brothers, Isle of Man, hedge funds",
+      "pages": "~380 (S. Hrg. 109-797 vol. 1 at p. 161)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-tax-haven-abuses-the-enablers-the-tools-and-secrecy/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg29760",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg29760/pdf/CHRG-109shrg29760.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg29760/html/CHRG-109shrg29760.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 4,
+        "source": 4,
+        "size": 3,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Six case studies including the Wyly brothers' $190m offshore empire; basis for the Stop Tax Haven Abuse Act.",
+      "first_unit": "Executive summary plus Wyly case study (~120 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Gas Prices: How Are They Really Set?",
+      "year": 2002,
+      "date": "2002-04-29",
+      "sides": "Democratic (majority) staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "oil and gasoline markets, refinery concentration",
+      "pages": "~400 (in S. Hrg. 107-509 at p. 322)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report_gas-prices-how-are-they-really-set/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-107shrg80298",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-107shrg80298/pdf/CHRG-107shrg80298.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-107shrg80298/html/CHRG-107shrg80298.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 3,
+        "source": 4,
+        "size": 3,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 17,
+      "hook": "none fixed; petrol-price spikes recur",
+      "why": "Detailed account of how refiner consolidation and market structure drive pump prices.",
+      "first_unit": "Executive summary, findings and Midwest/California chapters (~100 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Preliminary Information on Agreement Between PGA Tour and Saudi Arabian Public Investment Fund (majority staff memorandum)",
+      "year": 2023,
+      "date": "2023-07-10",
+      "sides": "majority staff memorandum",
+      "chair": "Richard Blumenthal (D-CT)",
+      "topic": "sports, Saudi PIF, foreign influence",
+      "pages": "~20 plus consolidated appendix",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/psi-majority-staff-memorandum-regarding-preliminary-information-on-agreement-between-pga-tour-and-saudi-arabian-public-investment-fund/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2023-07-10-PSI-Majority-Staff-Memorandum-Regarding-Preliminary-Information-on-Agreement-Between-PGA-Tour-and-Saudi-Arabian-Public-Investment-Fund-with-Consolidated-Appendix.pdf",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-118shrg53755",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-118shrg53755/pdf/CHRG-118shrg53755.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-118shrg53755/html/CHRG-118shrg53755.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Initial PGA-LIV findings; superseded by the 2025 minority report.",
+      "first_unit": "Memo minus appendix",
+      "status": "new"
+    },
+    {
+      "title": "Oversight of HHS Shelter Grants for Unaccompanied Alien Children",
+      "year": 2020,
+      "date": "2020-12-08",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "migrant children, HHS grants (Southwest Key)",
+      "pages": "~60 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-oversight-of-hhs-shelter-grants-for-unaccompanied-alien-children/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2020-12-08%20PSI%20Staff%20Report%20-%20Oversight%20of%20HHS%20Shelter%20Grants%20for%20UACs.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 2,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 17,
+      "hook": "live: migrant-children welfare",
+      "why": "Grant oversight failures at shelters with abuse records.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Failure of the Affordable Care Act Health Insurance CO-OPs",
+      "year": 2016,
+      "date": "2016-03-10",
+      "sides": "majority staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "ACA, health co-ops",
+      "pages": "~100 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-staff-report-failure-of-the-affordable-care-act-health-insurance-co-ops/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-114shrg21400",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-114shrg21400/pdf/CHRG-114shrg21400.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-114shrg21400/html/CHRG-114shrg21400.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Why 12 of 23 ACA co-ops collapsed.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Impact of the U.S. Tax Code on the Market for Corporate Control and Jobs",
+      "year": 2015,
+      "date": "2015-07-30",
+      "sides": "majority staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "corporate inversions, foreign takeovers",
+      "pages": "~90 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-report_-impact-on-the-us-tax-code-on-the-market-for-corporate-control-and-jobs/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-114shrg96194",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-114shrg96194/pdf/CHRG-114shrg96194.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-114shrg96194/html/CHRG-114shrg96194.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Inversion and foreign-acquisition case studies (Tim Hortons/Burger King, Valeant).",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Caterpillar's Offshore Tax Strategy",
+      "year": 2014,
+      "date": "2014-04-01",
+      "sides": "majority staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "corporate tax avoidance, Caterpillar, Switzerland",
+      "pages": "~95 (S. Hrg. 113-408 at p. 160)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-caterpillars-offshore-tax-strategy-april-1-2014/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-113shrg89523",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-113shrg89523/pdf/CHRG-113shrg89523.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-113shrg89523/html/CHRG-113shrg89523.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "$8bn of profits shifted to a Swiss affiliate with PwC's help.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Social Security Disability Programs: Improving the Quality of Benefit Award Decisions",
+      "year": 2012,
+      "date": "2012-09-13",
+      "sides": "minority staff report (Coburn)",
+      "chair": "Carl Levin (D-MI); issued by Ranking Member Tom Coburn (R-OK)",
+      "topic": "disability benefits, ALJ decisions",
+      "pages": "~140 (S. Hrg. 112-800 at p. 86)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-minority-staff-report_-social-security-disability-programs-improving-the-quality-of-benefit-award-decisions/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-112shrg76068",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-112shrg76068/pdf/CHRG-112shrg76068.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-112shrg76068/html/CHRG-112shrg76068.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Review of 300 disability files showing poorly supported awards.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "United Nations Development Program: A Case Study of North Korea",
+      "year": 2008,
+      "date": "2008-01-24",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "UN, North Korea, cash payments",
+      "pages": "~70 (S. Hrg. 110-544 at p. 318)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-undp-a-case-study-of-north-korea-1-24-08/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-110shrg41447",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-110shrg41447/pdf/CHRG-110shrg41447.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-110shrg41447/html/CHRG-110shrg41447.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "UNDP hard-currency payments to the North Korean regime.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Medicare Vulnerabilities: Payments for Claims Tied to Deceased Doctors",
+      "year": 2008,
+      "date": "2008-07-09",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "Medicare fraud",
+      "pages": "~25 (S. Hrg. 110-721 at p. 80)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-staff-report-medicare-vulnerabilities-payments-for-claims-tied-to-decea/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-110shrg44122",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-110shrg44122/pdf/CHRG-110shrg44122.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-110shrg44122/html/CHRG-110shrg44122.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Medicare paid up to $92m in claims using dead doctors' IDs.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Dirty Bomb Vulnerabilities: Fake Companies, Fake Licenses, Real Consequences",
+      "year": 2007,
+      "date": "2007-07-12",
+      "sides": "minority staff report (Coleman)",
+      "chair": "Carl Levin (D-MI); issued by Ranking Member Norm Coleman (R-MN)",
+      "topic": "nuclear security, NRC licensing, GAO sting",
+      "pages": "~20 (S. Hrg. 110-181 at p. 75)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-staff-report-dirty-bomb-vulnerabilities-july-2007/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-110shrg37358",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-110shrg37358/pdf/CHRG-110shrg37358.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-110shrg37358/html/CHRG-110shrg37358.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "GAO investigators obtained a radioactive-materials licence using a fake company.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "An Assessment of U.S. Efforts to Secure the Global Supply Chain",
+      "year": 2006,
+      "date": "2006-03-30",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "port and container security, nuclear smuggling",
+      "pages": "~80 (S. Hrg. 109-548 at p. 503)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/an-assessment-of-us-efforts-to-secure-the-global-supply-chain/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg27754",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg27754/pdf/CHRG-109shrg27754.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg27754/html/CHRG-109shrg27754.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Container-security gaps after the Dubai Ports controversy.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Report on Oil Allocations Granted to Vladimir Zhirinovsky (Oil-for-Food)",
+      "year": 2005,
+      "date": "2005-05-17",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "UN Oil-for-Food, Russia",
+      "pages": "~30 (S. Hrg. 109-185 at p. 180)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-on-oil-allocations-granted-to-vladimir-zhirinovsky/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg21438",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/pdf/CHRG-109shrg21438.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/html/CHRG-109shrg21438.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Saddam's oil vouchers to the Russian nationalist politician.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Report on Oil Allocations Granted to the Russian Presidential Council (Oil-for-Food)",
+      "year": 2005,
+      "date": "2005-05-17",
+      "sides": "bipartisan staff report",
+      "chair": "Norm Coleman (R-MN)",
+      "topic": "UN Oil-for-Food, Russia",
+      "pages": "~15 (S. Hrg. 109-185 at p. 459)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-on-oil-allocations-granted-to-the-russian-presidential-council_/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg21438",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/pdf/CHRG-109shrg21438.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/html/CHRG-109shrg21438.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Short companion report on Russian beneficiaries.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Report on Illegal Surcharges on Oil-for-Food Contracts and Illegal Oil Shipments from Khor al-Amaya",
+      "year": 2005,
+      "date": "2005-05-17",
+      "sides": "minority staff report (Levin)",
+      "chair": "Norm Coleman (R-MN); issued by Ranking Member Carl Levin (D-MI)",
+      "topic": "UN Oil-for-Food, U.S. oversight failures",
+      "pages": "~60 (S. Hrg. 109-185 at p. 836)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-on-illegal-surcharges-on-oil-for-food-contracts-and-illegal-oil-shipments-from-khor-al-amaya/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg21438",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/pdf/CHRG-109shrg21438.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg21438/html/CHRG-109shrg21438.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Showed U.S. officials knew of illegal Iraqi oil shipments.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Bayoil Diversions of Iraqi Oil and Related Oversight Failures",
+      "year": 2005,
+      "date": "2005-10-31",
+      "sides": "minority staff report (Levin)",
+      "chair": "Norm Coleman (R-MN); issued by Ranking Member Carl Levin (D-MI)",
+      "topic": "UN Oil-for-Food, U.S. oil trader",
+      "pages": "~70 (S. Hrg. 109-247 at p. 396)",
+      "urls": {
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-109shrg24445",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-109shrg24445/pdf/CHRG-109shrg24445.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-109shrg24445/html/CHRG-109shrg24445.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "How a Texas trader diverted Iraqi oil.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Phony Identification and Credentials via the Internet (S. Rpt. 107-133)",
+      "year": 2002,
+      "date": "2002-02-04",
+      "sides": "Senate report of the Subcommittee",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "identity fraud, fake IDs online",
+      "pages": "~40",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/phony-identification-and-credentials-via-the-internet/"
+      },
+      "text_layer": "likely yes (Senate report; govinfo CRPT)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Early internet identity-fraud report, post-9/11 framing.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Defense Acquisition Reform: Where Do We Go from Here? A Compendium of Views by Leading Experts (S. Prt. 113-28)",
+      "year": 2014,
+      "date": "2014-10-02",
+      "sides": "bipartisan staff compilation",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "defence procurement",
+      "pages": "~140",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/defense-acquisition-reform-where-do-we-go-from-here_a-compendium-of-views-by-leading-experts/",
+        "govinfo": "https://www.govinfo.gov/app/details/CPRT-113SPRT90719",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CPRT-113SPRT90719/pdf/CPRT-113SPRT90719.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CPRT-113SPRT90719/html/CPRT-113SPRT90719.htm"
+      },
+      "text_layer": "yes: govinfo HTML text plus text PDF",
+      "score": {
+        "interest": 1,
+        "source": 5,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 17,
+      "hook": "none",
+      "why": "Compendium of expert essays rather than an investigation.",
+      "first_unit": "Selected essays",
+      "status": "new"
+    },
+    {
+      "title": "The PGA Tour and LIV Deal (final minority staff report, foreign-influence probe)",
+      "year": 2025,
+      "date": "2025-04-11",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "Saudi PIF, sports, foreign influence",
+      "pages": "~60 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-04-11-minority-staff-report-the-pga-tour-and-liv-deal/",
+        "hsgac_pdf": "https://www.hsgac.senate.gov/wp-content/uploads/2025.04.11-Minority-Staff-Report-The-PGA-Tour-and-LIV-Deal.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 2,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 16,
+      "hook": "none",
+      "why": "Final findings on Saudi PIF's bid for influence over US golf.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "KPMG and Accounting Standards (minority staff report)",
+      "year": 2025,
+      "date": "2025-09-17",
+      "sides": "minority staff report (Blumenthal)",
+      "chair": "Ron Johnson (R-WI); issued by Ranking Member Richard Blumenthal (D-CT)",
+      "topic": "audit quality, KPMG, PCAOB",
+      "pages": "~30 (not checked)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2025-09-17-minority-staff-report-kpmg-accounting-standards/"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 2,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 16,
+      "hook": "none",
+      "why": "Audit-quality concerns at KPMG.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Excessive Speculation in the Wheat Market",
+      "year": 2009,
+      "date": "2009-07-21",
+      "sides": "bipartisan staff report",
+      "chair": "Carl Levin (D-MI)",
+      "topic": "commodity index speculation, wheat futures",
+      "pages": "~250 (S. Hrg. 111-155 at p. 159)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-excessive-speculation-in-the-wheat-market/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-111shrg53114",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-111shrg53114/pdf/CHRG-111shrg53114.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-111shrg53114/html/CHRG-111shrg53114.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 2,
+        "source": 4,
+        "size": 4,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 16,
+      "hook": "none",
+      "why": "Index funds and the wheat price/convergence problem.",
+      "first_unit": "Executive summary and findings (~20 pp)",
+      "status": "new"
+    },
+    {
+      "title": "Criminal Aliens in the United States (S. Rpt. 104-48)",
+      "year": 1995,
+      "date": "1995-04-07",
+      "sides": "bipartisan (Senate report of the Subcommittee)",
+      "chair": "William V. Roth Jr. (R-DE)",
+      "topic": "immigration enforcement, criminal aliens",
+      "pages": "~40 (not checked)",
+      "urls": {
+        "note": "S. Rpt. 104-48; govinfo CRPT coverage for 104th Congress is partial"
+      },
+      "text_layer": "unknown; 1995 Senate report (may be scan-only)",
+      "score": {
+        "interest": 2,
+        "source": 2,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 16,
+      "hook": "none in window; immigration enforcement is a live topic",
+      "why": "Early Roth-era PSI report on removal of criminal non-citizens; mostly of historical interest.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Some Cable and Satellite Companies Do Not Refund Customer Overcharges",
+      "year": 2016,
+      "date": "2016-06-23",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "consumer protection, cable billing",
+      "pages": "~30",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/majority-and-minority-staff-report_-some-cable-and-satellite-companies-do-not-refund-customer-overcharges/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-114shrg21423",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-114shrg21423/pdf/CHRG-114shrg21423.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-114shrg21423/html/CHRG-114shrg21423.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 1,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 16,
+      "hook": "none",
+      "why": "Narrow consumer-billing report.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Medicare Vulnerabilities: The Use of Diagnosis Codes in DME Claims",
+      "year": 2008,
+      "date": "2008-09-24",
+      "sides": "minority staff report (Coleman)",
+      "chair": "Carl Levin (D-MI); issued by Ranking Member Norm Coleman (R-MN)",
+      "topic": "Medicare fraud, durable medical equipment",
+      "pages": "~20 (S. Hrg. 110-721 at p. 111)",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/report-psi-minority-staff-report-medicare-vulnerabilities-the-use-of-diagnosis-co/",
+        "govinfo": "https://www.govinfo.gov/app/details/CHRG-110shrg44122",
+        "govinfo_pdf": "https://www.govinfo.gov/content/pkg/CHRG-110shrg44122/pdf/CHRG-110shrg44122.pdf",
+        "govinfo_html": "https://www.govinfo.gov/content/pkg/CHRG-110shrg44122/html/CHRG-110shrg44122.htm"
+      },
+      "text_layer": "hearing record on govinfo has HTML text; HSGAC standalone PDF born-digital (not checked)",
+      "score": {
+        "interest": 1,
+        "source": 4,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 16,
+      "hook": "none",
+      "why": "Narrow Medicare billing-control study.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Day Trading: Case Studies and Conclusions",
+      "year": 2000,
+      "date": "2000-07-27",
+      "sides": "staff report",
+      "chair": "Susan Collins (R-ME)",
+      "topic": "securities, retail day trading",
+      "pages": "~80 (not checked)",
+      "urls": {
+        "note": "Listed in PSI publication list; no online copy located"
+      },
+      "text_layer": "unknown",
+      "score": {
+        "interest": 2,
+        "source": 1,
+        "size": 5,
+        "licence": 5,
+        "hook": 2
+      },
+      "total": 15,
+      "hook": "none; retail-trading echoes (meme stocks, 0DTE options)",
+      "why": "Early look at retail day-trading firms; topical again in the app-trading era.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Continuity of Senate Operations and Remote Voting in Times of Crisis (staff memorandum)",
+      "year": 2020,
+      "date": "2020-04-30",
+      "sides": "bipartisan staff memorandum",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "Senate procedure, COVID-19",
+      "pages": "29",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/04-30-2020-psi-staff-hearing-memorandum/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2020-04-30%20PSI%20Staff%20Memorandum%20-%20Remote%20Senate%20Process%20-%20Final.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 1,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 15,
+      "hook": "none",
+      "why": "Procedural memo on remote voting.",
+      "first_unit": "Whole memo",
+      "status": "new"
+    },
+    {
+      "title": "Federal Agency Compliance with the DATA Act",
+      "year": 2018,
+      "date": "2018-07-24",
+      "sides": "bipartisan staff report",
+      "chair": "Rob Portman (R-OH)",
+      "topic": "federal spending transparency",
+      "pages": "46",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/staff-report_-federal-agency-compliance-with-the-data-act/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2018-07-24%20PSI%20STAFF%20REPORT%20-%20DATA%20ACT%20(UPDATED).pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 1,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 15,
+      "hook": "none",
+      "why": "Spending-data quality audit.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Inside the Box: Customer Service and Billing Practices in the Cable and Satellite Industry",
+      "year": 2016,
+      "date": "2016-06-23",
+      "sides": "minority staff report (McCaskill)",
+      "chair": "Rob Portman (R-OH); issued by Ranking Member Claire McCaskill (D-MO)",
+      "topic": "consumer protection, cable billing",
+      "pages": "~50",
+      "urls": {
+        "hsgac_library": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/minority-staff-report_-inside-the-box-customer-service-and-billing-practices-in-the-cable-and-satellite-industry/",
+        "hsgac_pdf_archived": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/2016-06-23%20Cable%20Hearing%20-%20Minority%20Staff%20Report.pdf"
+      },
+      "text_layer": "likely yes, born-digital HSGAC PDF (not checked: hsgac.senate.gov blocks automated fetches)",
+      "score": {
+        "interest": 1,
+        "source": 3,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 15,
+      "hook": "none",
+      "why": "Cable customer-service practices.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Fourth Interim Report on Federal Efforts to Combat Fraud and Abuse in the Insurance Industry: Problems in Blue Cross/Blue Shield Plans (S. Rpt. 104-92)",
+      "year": 1995,
+      "date": "1995-06-05",
+      "sides": "bipartisan (Senate report)",
+      "chair": "William V. Roth Jr. (R-DE)",
+      "topic": "health insurance fraud, BCBS plans",
+      "pages": "~100 (not checked)",
+      "urls": {
+        "note": "S. Rpt. 104-92"
+      },
+      "text_layer": "unknown; 1995 Senate report",
+      "score": {
+        "interest": 1,
+        "source": 2,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 14,
+      "hook": "none",
+      "why": "Narrow 1990s insurance-oversight report.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "Oversight Review of the Treasury Department's Inspector General",
+      "year": 1998,
+      "date": "1998-01-30",
+      "sides": "majority staff report",
+      "chair": "Susan Collins (R-ME)",
+      "topic": "inspector general misconduct, Treasury OIG",
+      "pages": "~100 (not checked)",
+      "urls": {
+        "note": "Listed in PSI publication list (1947-2017); no online copy found"
+      },
+      "text_layer": "unknown",
+      "score": {
+        "interest": 1,
+        "source": 1,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 13,
+      "hook": "none",
+      "why": "Inspector-general accountability case; low current interest.",
+      "first_unit": "Whole report",
+      "status": "new"
+    },
+    {
+      "title": "'Slamming': The Unauthorized Switching of Long Distance Telephone Service",
+      "year": 1998,
+      "date": "1998-07-23",
+      "sides": "staff report",
+      "chair": "Susan Collins (R-ME)",
+      "topic": "consumer fraud, telecoms",
+      "pages": "~60 (not checked)",
+      "urls": {
+        "note": "Listed in PSI publication list; govinfo CPRT search found no copy"
+      },
+      "text_layer": "unknown",
+      "score": {
+        "interest": 1,
+        "source": 1,
+        "size": 5,
+        "licence": 5,
+        "hook": 1
+      },
+      "total": 13,
+      "hook": "none",
+      "why": "Consumer-protection classic of the late 1990s; superseded by later law.",
+      "first_unit": "Whole report",
+      "status": "new"
+    }
+  ]
+}
