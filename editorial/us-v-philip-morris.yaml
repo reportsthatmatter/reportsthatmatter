@@ -44,6 +44,7 @@ hero:
   licence: Fair use (see docs/design/2026-09-27-hero/sources.yaml)
   focus: "50% 25%"
 
+tagline: "In December 1953, as new studies linked cigarettes to lung cancer, the heads of America's tobacco companies met at the Plaza Hotel in New York to plan their response. This is the 2006 court judgment, built from their own internal documents, that found they deceived the public for fifty years."
 why_it_matters: >-
   Judge Gladys Kessler's 2006 ruling that America's largest cigarette companies
   had deceived the public about smoking for some fifty years, in violation of

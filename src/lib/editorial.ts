@@ -60,6 +60,8 @@ export type EditorialSource = {
   why_it_matters: string;
   /** Optional meta / og:description, at most 200 characters; without it the first sentence of why_it_matters is used. */
   description?: string;
+  /** The archive list's lines under the report's title: the story in one sentence, then what this document is (<= 320 characters). */
+  tagline?: string;
   /** What the report was about, what happened, and why it still matters. Paragraphs split on blank lines. */
   background?: string;
   findings: Array<{ text: string; cites: string[]; excerpt?: QuoteSource }>;
@@ -89,6 +91,8 @@ export type Editorial = {
   whyItMatters: string;
   /** The editor's own meta description, when the file has one (<= 200 characters). */
   description?: string;
+  /** The archive list's line under the title, when the file has one. */
+  tagline?: string;
   background: string[];
   findings: Array<{ text: string; cites: Citation[]; excerpt?: Quotation }>;
   readingGuide: Array<{ slug: string; title: string; page: string | null; why: string; excerpt?: Quotation }>;
@@ -261,6 +265,9 @@ export function resolveEditorial(
   if (source.description !== undefined && (!source.description.trim() || source.description.trim().length > 200)) {
     at("description", `must be 1-200 characters, not ${source.description.trim().length}`);
   }
+  if (source.tagline !== undefined && (!source.tagline.trim() || source.tagline.trim().length > 320)) {
+    at("tagline", `must be 1-320 characters, not ${source.tagline.trim().length}`);
+  }
 
   const cite = (id: string): Citation => ({ id, page: pageOf(html, id), href: citationHref(source.report, id) });
 
@@ -337,6 +344,7 @@ export function resolveEditorial(
       status: source.status,
       whyItMatters: source.why_it_matters?.trim() ?? "",
       ...(source.description?.trim() ? { description: source.description.trim() } : {}),
+      ...(source.tagline?.trim() ? { tagline: source.tagline.trim() } : {}),
       background,
       findings,
       readingGuide,

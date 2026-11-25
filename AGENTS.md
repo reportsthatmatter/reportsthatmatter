@@ -76,8 +76,8 @@ human-created/public issues, broad epics, and discussion (report ideas are
 in Beads.
 Do not maintain a separate next-work list. At session end run `bd dolt push`
 before committing and pushing. See [`docs/beads-sync.md`](docs/beads-sync.md)
-for commands and sync recovery. JSONL export is for inspection and
-interchange, not sync or backup.
+for commands and sync recovery. Sync is Dolt only (`bd dolt pull`, `bd dolt push`);
+the JSONL export is off and `.beads/issues.jsonl` is not tracked.
 
 The database belongs to this central `reportsthatmatter/reportsthatmatter`
 repository. Tasks stay here even when their implementation is committed in a
@@ -707,6 +707,8 @@ How Rufus wants work done here. These conventions live in this file, not in any 
 **Ship unless irreversible** (Rufus, 2026-10-24). Make the reversible choice and ship; ask only before irreversible steps.
 
 **Always merge; don't wait on Rufus** (Rufus, 2026-11-13: "please always merge - don't wait on me"). Once a PR's gates pass (and a reviewer's verdict says merge, where the pipeline asks for one), the integrator merges and ships it, including posts and queue changes; no draft PR is left waiting for Rufus's merge. Content holds still apply (e.g. reports whose campaign-group review emails are unsent).
+
+**Always deploy what you merge** (Rufus, 2026-11-22: "you deploy always"). A merged site change (templates, CSS, editorial, posts, docs that ship) is deployed by the agent that merged it, straight away: `./scripts/deploy-cloudflare.sh` from a checkout of current `main`, then `VERIFY_BASE=https://reportsthatmatter.org ./scripts/verify.sh`. Don't ask Rufus first. Report releases still go through `pnpm ship` (the integrator).
 
 **Reports to Rufus are short** (Rufus, 2026-10-24). What shipped, then only the decisions he must make, each with a recommendation.
 

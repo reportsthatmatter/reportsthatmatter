@@ -18,3 +18,15 @@ describe("homepage report order", () => {
     expect(links[0]).toBe(OPENING_REPORT);
   });
 });
+
+// reportsthatmatter-b7rp: each archive row says what the report is and why open it.
+describe("archive taglines", () => {
+  it("gives every listed report its one-line tagline", async () => {
+    const registry = await loadRegistry("local");
+    const html = renderReportList(registry);
+    const rows = html.split("<li>").slice(1);
+    const missing = registry.reports.filter((_report, i) => !/<span class="tagline">[^<]+<\/span>/.test(rows[i]));
+    expect(missing.map((report) => report.id)).toEqual([]);
+    expect(rows).toHaveLength(registry.reports.length);
+  });
+});

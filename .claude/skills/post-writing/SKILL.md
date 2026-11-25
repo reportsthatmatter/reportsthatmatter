@@ -58,7 +58,7 @@ Vary the shape across the week: lead with a year, a person, a number or a place,
 
 **Length.** The whole post is at most 300 graphemes; long common names (Challenger's is 52 characters) leave about 230 for the hook. Aim for 150–230. `pnpm posts --check` fails an item over the limit.
 
-**Form.** One post, never a thread. No emoji, no exclamation marks, no hashtags in the hook. British spelling in our words, the report's spelling for its names. Figures for numbers. End on a full stop; a closing colon at most once a week.
+**Form.** One post, never a thread. No emoji, no exclamation marks, no hashtags in the hook. US spelling in our words, the report's spelling for its names. Figures for numbers. End on a full stop; a closing colon at most once a week.
 
 ## Procedure
 
